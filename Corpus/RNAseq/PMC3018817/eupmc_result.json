@@ -1,0 +1,512 @@
+{
+  "id": [
+    "21134889"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "21134889"
+  ],
+  "pmcid": [
+    "PMC3018817"
+  ],
+  "doi": [
+    "10.1093/bioinformatics/btq643"
+  ],
+  "title": [
+    "RSEQtools: a modular framework to analyze RNA-Seq data using compact, anonymized data summaries."
+  ],
+  "authorString": [
+    "Habegger L, Sboner A, Gianoulis TA, Rozowsky J, Agarwal A, Snyder M, Gerstein M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Habegger L"
+          ],
+          "firstName": [
+            "Lukas"
+          ],
+          "lastName": [
+            "Habegger"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA. lukas.habegger@yale.edu"
+          ]
+        },
+        {
+          "fullName": [
+            "Sboner A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Sboner"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6915-3070",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gianoulis TA"
+          ],
+          "firstName": [
+            "Tara A"
+          ],
+          "lastName": [
+            "Gianoulis"
+          ],
+          "initials": [
+            "TA"
+          ]
+        },
+        {
+          "fullName": [
+            "Rozowsky J"
+          ],
+          "firstName": [
+            "Joel"
+          ],
+          "lastName": [
+            "Rozowsky"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3565-0762",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Agarwal A"
+          ],
+          "firstName": [
+            "Ashish"
+          ],
+          "lastName": [
+            "Agarwal"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Snyder M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Snyder"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Gerstein M"
+          ],
+          "firstName": [
+            "Mark"
+          ],
+          "lastName": [
+            "Gerstein"
+          ],
+          "initials": [
+            "M"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3565-0762",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6915-3070",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "2"
+      ],
+      "volume": [
+        "27"
+      ],
+      "journalIssueId": [
+        "1798763"
+      ],
+      "dateOfPublication": [
+        "2011 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2011"
+      ],
+      "printPublicationDate": [
+        "2011-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Bioinformatics (Oxford, England)"
+          ],
+          "ISOAbbreviation": [
+            "Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "Bioinformatics"
+          ],
+          "NLMid": [
+            "9808944"
+          ],
+          "ISSN": [
+            "1367-4803"
+          ],
+          "ESSN": [
+            "1367-4811"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2011"
+  ],
+  "pageInfo": [
+    "281-283"
+  ],
+  "abstractText": [
+    "SUMMARY: The advent of next-generation sequencing for functional genomics has given rise to quantities of sequence information that are often so large that they are difficult to handle. Moreover, sequence reads from a specific individual can contain sufficient information to potentially identify and genetically characterize that person, raising privacy concerns. In order to address these issues, we have developed the Mapped Read Format (MRF), a compact data summary format for both short and long read alignments that enables the anonymization of confidential sequence information, while allowing one to still carry out many functional genomics studies. We have developed a suite of tools (RSEQtools) that use this format for the analysis of RNA-Seq experiments. These tools consist of a set of modules that perform common tasks such as calculating gene expression values, generating signal tracks of mapped reads and segmenting that signal into actively transcribed regions. Moreover, the tools can readily be used to build customizable RNA-Seq workflows. In addition to the anonymization afforded by MRF, this format also facilitates the decoupling of the alignment of reads from downstream analyses. AVAILABILITY AND IMPLEMENTATION: RSEQtools is implemented in C and the source code is available at http://rseqtools.gersteinlab.org/."
+  ],
+  "affiliation": [
+    "Department of Molecular Biophysics and Biochemistry, Yale University, New Haven, CT, USA. lukas.habegger@yale.edu"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Alignment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Confidentiality"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3018817?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3018817"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=21134889"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=21134889&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "abs"
+          ],
+          "site": [
+            "bioinformatics.oxfordjournals.org"
+          ],
+          "url": [
+            "http://bioinformatics.oxfordjournals.org/cgi/content/abstract/27/2/281"
+          ]
+        },
+        {
+          "availability": [
+            "Free after 12 months"
+          ],
+          "availabilityCode": [
+            "F12"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "bioinformatics.oxfordjournals.org"
+          ],
+          "url": [
+            "http://bioinformatics.oxfordjournals.org/cgi/reprint/27/2/281"
+          ]
+        },
+        {
+          "availability": [
+            "Free after 12 months"
+          ],
+          "availabilityCode": [
+            "F12"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "bioinformatics.oxfordjournals.org"
+          ],
+          "url": [
+            "http://bioinformatics.oxfordjournals.org/cgi/content/full/27/2/281"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1093/bioinformatics/btq643"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "47"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2011-04-06"
+  ],
+  "dateOfCreation": [
+    "2011-01-11"
+  ],
+  "dateOfRevision": [
+    "2014-07-30"
+  ],
+  "electronicPublicationDate": [
+    "2010-12-05"
+  ],
+  "firstPublicationDate": [
+    "2010-12-05"
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "id": [
+    "25003610"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "25003610"
+  ],
+  "pmcid": [
+    "PMC4086967"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0101754"
+  ],
+  "title": [
+    "An integrated SNP mining and utilization (ISMU) pipeline for next generation sequencing data."
+  ],
+  "authorString": [
+    "Azam S, Rathore A, Shah TM, Telluri M, Amindala B, Ruperao P, Katta MA, Varshney RK."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Azam S"
+          ],
+          "firstName": [
+            "Sarwar"
+          ],
+          "lastName": [
+            "Azam"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Rathore A"
+          ],
+          "firstName": [
+            "Abhishek"
+          ],
+          "lastName": [
+            "Rathore"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Shah TM"
+          ],
+          "firstName": [
+            "Trushar M"
+          ],
+          "lastName": [
+            "Shah"
+          ],
+          "initials": [
+            "TM"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Telluri M"
+          ],
+          "firstName": [
+            "Mohan"
+          ],
+          "lastName": [
+            "Telluri"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Amindala B"
+          ],
+          "firstName": [
+            "BhanuPrakash"
+          ],
+          "lastName": [
+            "Amindala"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Ruperao P"
+          ],
+          "firstName": [
+            "Pradeep"
+          ],
+          "lastName": [
+            "Ruperao"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India; School of Agriculture and Food Sciences, University of Queensland, Brisbane, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Katta MA"
+          ],
+          "firstName": [
+            "Mohan A V S K"
+          ],
+          "lastName": [
+            "Katta"
+          ],
+          "initials": [
+            "MA"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+          ]
+        },
+        {
+          "fullName": [
+            "Varshney RK"
+          ],
+          "firstName": [
+            "Rajeev K"
+          ],
+          "lastName": [
+            "Varshney"
+          ],
+          "initials": [
+            "RK"
+          ],
+          "affiliation": [
+            "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "7"
+      ],
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2175814"
+      ],
+      "dateOfPublication": [
+        "2014 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2014"
+      ],
+      "printPublicationDate": [
+        "2014-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2014"
+  ],
+  "pageInfo": [
+    "e101754"
+  ],
+  "abstractText": [
+    "Open source single nucleotide polymorphism (SNP) discovery pipelines for next generation sequencing data commonly requires working knowledge of command line interface, massive computational resources and expertise which is a daunting task for biologists. Further, the SNP information generated may not be readily used for downstream processes such as genotyping. Hence, a comprehensive pipeline has been developed by integrating several open source next generation sequencing (NGS) tools along with a graphical user interface called Integrated SNP Mining and Utilization (ISMU) for SNP discovery and their utilization by developing genotyping assays. The pipeline features functionalities such as pre-processing of raw data, integration of open source alignment tools (Bowtie2, BWA, Maq, NovoAlign and SOAP2), SNP prediction (SAMtools/SOAPsnp/CNS2snp and CbCC) methods and interfaces for developing genotyping assays. The pipeline outputs a list of high quality SNPs between all pairwise combinations of genotypes analyzed, in addition to the reference genome/sequence. Visualization tools (Tablet and Flapjack) integrated into the pipeline enable inspection of the alignment and errors, if any. The pipeline also provides a confidence score or polymorphism information content value with flanking sequences for identified SNPs in standard format required for developing marker genotyping (KASP and Golden Gate) assays. The pipeline enables users to process a range of NGS datasets such as whole genome re-sequencing, restriction site associated DNA sequencing and transcriptome sequencing data at a fast speed. The pipeline is very useful for plant genetics and breeding community with no computational expertise in order to discover SNPs and utilize in genomics, genetics and breeding studies. The pipeline has been parallelized to process huge datasets of next generation sequencing. It has been developed in Java language and is available at http://hpc.icrisat.cgiar.org/ISMU as a standalone free software."
+  ],
+  "affiliation": [
+    "Centre of Excellence in Genomics, International Crops Research Institute for the Semi-Arid Tropics (ICRISAT), Patancheru, India."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Plants"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Breeding"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Polymorphism, Single Nucleotide"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome, Plant"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Internet"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Data Mining"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4086967?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4086967"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=25003610"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=25003610&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1371/journal.pone.0101754"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2015-03-30"
+  ],
+  "dateOfCreation": [
+    "2014-07-09"
+  ],
+  "electronicPublicationDate": [
+    "2014-07-08"
+  ],
+  "firstPublicationDate": [
+    "2014-07-08"
+  ]
+}

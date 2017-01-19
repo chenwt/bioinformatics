@@ -1,0 +1,299 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?subarticle report9542?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">F1000Res</journal-id><journal-id journal-id-type="iso-abbrev">F1000Res</journal-id><journal-id journal-id-type="pmc">F1000Research</journal-id><journal-title-group><journal-title>F1000Research</journal-title></journal-title-group><issn pub-type="epub">2046-1402</issn><publisher><publisher-name>F1000Research</publisher-name><publisher-loc>London, UK</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4654439</article-id><article-id pub-id-type="pmid">26664707</article-id><article-id pub-id-type="doi">10.12688/f1000research.6735.1</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Note</subject></subj-group><subj-group><subject>Articles</subject><subj-group><subject>Control of Gene Expression</subject></subj-group><subj-group><subject>Genomics</subject></subj-group><subj-group><subject>Medical Genetics</subject></subj-group></subj-group></article-categories><title-group><article-title>Questioned validity of Gene Expression Dysregulated Domains in Down's
+Syndrome</article-title><fn-group content-type="pub-status"><fn><p>[version 1; referees: 2 approved]</p></fn></fn-group></title-group><contrib-group><contrib contrib-type="author"><name><surname>Do</surname><given-names>Long H.</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Mobley</surname><given-names>William C.</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Singhal</surname><given-names>Nishant</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref></contrib><aff id="a1"><label>1</label>Department of Neurosciences, University of California, San
+Diego, CA, 92093, USA</aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email xlink:href="mailto:nisinghal@ucsd.edu">nisinghal@ucsd.edu</email></corresp><fn id="fn1"><p>#Equal contribution</p></fn><fn fn-type="con"><p>LD contributed in writing the manuscripts and all the scripts used to perform
+analysis of the data. NS contributed in writing the manuscript and performed
+all the experiments for sequencing. WM contributed in writing the
+manuscript. All authors have seen and agreed to the final content of the
+manuscript.</p></fn><fn fn-type="conflict"><p>
+<bold>Competing interests: </bold>The authors declare no competing financial
+interests.</p></fn></author-notes><pub-date pub-type="epub"><day>17</day><month>7</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>4</volume><elocation-id>269</elocation-id><history><date date-type="accepted"><day>7</day><month>7</month><year>2015</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2015 Do LH et al.</copyright-statement><copyright-year>2015</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the
+Creative Commons Attribution Licence, which permits unrestricted use,
+distribution, and reproduction in any medium, provided the original work is
+properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="f1000research-4-7234.pdf"/><related-article id="d36e123" related-article-type="companion" ext-link-type="doi" xlink:href="10.12688/f1000research.6742.1"/><abstract><p>Recently, in studies examining fibroblasts obtained from the tissues of one set
+of monozygotic twins (i.e. fetuses derived from the same egg) discordant for
+trisomy 21 (Down syndrome; DS), Letourneau <italic>et al.,</italic>
+<sup>&#x000a0;</sup>reported the presence of a defined pattern of dysregulation within
+specific genomic domains they referred to as <underline>G</underline>ene
+<underline>E</underline>xpression <underline>D</underline>ysregulated
+<underline>D</underline>omains (GEDDs). GEDDs were described as alternating
+segments of increased or decreased gene expression affecting all chromosomes.
+Strikingly, GEDDs in fibroblasts were largely conserved in induced pluripotent
+cells (iPSCs) generated from the twin&#x02019;s fibroblasts as well as in fibroblasts
+from the Ts65Dn mouse model of DS. Our recent analysis failed to find GEDDs. We
+reexamined the human iPSCs RNAseq data from Letourneau <italic>et al.</italic>,
+and data from this same research group published earlier examining iPSCs from
+the same monozygotic twins. An independent analysis of RNAseq data from Ts65Dn
+fibroblasts also failed to confirm presence of GEDDs. Our analysis questions the
+validity of GEDDs in DS.</p></abstract><kwd-group kwd-group-type="author"><kwd>Gene expression</kwd><kwd>Down syndrome</kwd><kwd>iPSC</kwd><kwd>RNAseq</kwd></kwd-group><funding-group><award-group id="fund-1"><funding-source>National Institutes of Health</funding-source><award-id>NS055371</award-id><award-id>NS24054</award-id></award-group><funding-statement>NIH grants NS055371 and NS24054, Larry L. Hillblom Foundation,
+Lumind Foundation (formerly Down Syndrome Research and Treatment Foundation),
+Research Down Syndrome, Thrasher Research Fund, Adler Foundation, and Alzheimer
+Association.</funding-statement><funding-statement><italic>I confirm that the funders had no role in study design, data collection
+and analysis, decision to publish, or preparation of the
+manuscript.</italic></funding-statement></funding-group></article-meta></front><body><sec><title>Main text</title><p>The surprising findings by Letourneau <sup><xref rid="ref-1" ref-type="bibr">1</xref></sup> and colleagues prompted us to examine our own, as yet unpublished, Ts65Dn
+transcriptome data for the developing and mature hippocampus in an attempt to
+identify GEDDs. Our data provided no evidence for the pattern reported in Letourneau
+<italic>et al.</italic>&#x02019;s work. We first entertained the possibility that GEDDs
+were not present in post mitotic cells or cells undergoing neural differentiation.
+However, to ensure that we fully understood the published GEDD data, we examined the
+entire RNAseq dataset from the Letourneau manuscript, as provided publicly via the
+Gene Expression Omnibus. </p><p>Principal component analysis (PCA) of RNAseq replicates from the twin&#x02019;s fibroblast
+(T1DS: twin with DS; T2N: disomic twin) revealed a great deal of variability ( <xref ref-type="fig" rid="f1a">Figure 1A</xref>). When the datasets from Letourneau
+<italic>et al.</italic>, are compared, in two of four cases, a closer
+relationship exists between the DS and disomic twin fibroblasts than for replicates
+from the same individual. [The datasets from Letourneau <italic>et al.</italic> are
+denoted by &#x02013;L]. For example, one of the 2N-hFibro-L replicates clustered more
+tightly with a DS-hFibro-L replicate than with any of its own replicate (2N)
+samples.</p><fig fig-type="figure" id="f1a" orientation="portrait" position="float"><label>Figure 1A. </label><caption><title>Principal Component Analysis (PCA) of global gene expression (RNAseq)
+replicates from monozygotic twins discordant for DS.</title><p>PCA analysis of global gene expression among RNAseq replicates from the
+twin&#x02019;s fibroblasts and iPSCs. Comparing hFibro-L replicates with themselves
+reveals a high degree of variability along the most significant component,
+PC1. In addition, there is great variability between hiPSCs-L and
+hiPSCs-H.</p></caption><graphic xlink:href="f1000research-4-7234-g0000"/></fig><p>We next checked the variability of the twin&#x02019;s iPSCs RNAseq data. We found an
+additional three RNASeq replicates (hiPSCs-H) performed by the same research group
+and published earlier using fibroblasts from the same monozygotic twins <sup><xref rid="ref-2" ref-type="bibr">2</xref></sup>. PCA analysis of these data revealed that replicates of hiPSCs-H (H for
+Hibaoui) clustered well together; however, they did not cluster well with the data
+for hiPSCs-L ( <xref ref-type="fig" rid="f1a">Figure 1A</xref>). Altogether, PCA
+analysis indicated marked variability between datasets, raising the possibility that
+technical issues in the RNAseq samples or in their analysis compromised the
+Letourneau study.</p><p>To further explore the additional three hiPSCs-H RNAseq replicates, we searched for
+GEDDs using methods similar to those utilized by Letourneau and colleagues. Our
+analysis of the hiPSCs-H did not find conserved patterns indicative of GEDDs. <xref ref-type="fig" rid="f1b">Figure 1B</xref> shows the results for two chromosomes,
+as examples. The authors reported high global gene fold-change correlations between
+the twin&#x02019;s fibroblasts and derived iPSCs. Our re-analysis found a similar high
+correlation value of &#x003c1; = 0.82 between the hiPSCs-L and hFibro-L. However, we found
+the hiPSCs-H poorly correlated with the original datasets; &#x003c1; = 0.31 between hiPSCs-L
+and hiPSCs-H; &#x003c1; = 0.07 between hiPSCs-H and hFibro-L ( <xref ref-type="fig" rid="f1c">Figure 1C</xref> and <xref ref-type="other" rid="sf1">Supplementary
+figure 1A</xref>).</p><fig fig-type="figure" id="f1b" orientation="portrait" position="float"><label>Figure 1B. </label><caption><title>Comparison of the gene expression fold-change profiles between T1DS and
+T2N in human fibroblasts and human iPS cells along human chromosomes, HSA1
+and HSA3.</title><p>(1) hiPSCs-L derived from monozygotic twins discordant for DS, Letourneau
+2014 (red). (2) hiPSCs-H from the same monozygotic twins discordant for DS
+from Hibaoui 2014 (blue). (3) Human fibroblasts (hFibro-L) from monozygotic
+twins discordant for DS from Letourneau 2014 (black). hiPSCs-H lack GEDDs,
+while original hiPSCs-L and hFibro-L show GEDDs and high Spearman&#x02019;s
+correlation (&#x003c1; <sub>1,3</sub>).</p></caption><graphic xlink:href="f1000research-4-7234-g0001"/></fig><fig fig-type="figure" id="f1c" orientation="portrait" position="float"><label>Figure 1C. </label><caption><title>Correlation of global gene expression fold-change profiles from iPSCs and
+fibroblasts along all human chromosomes.</title><p>While iPSCs (hiPSCs-L) from the original study are highly similar to
+fibroblasts (hFibro-L) with a global correlation of &#x003c1;=0.82, hiPSCs-H show
+poor correlation with those samples (&#x003c1;=.07, &#x003c1;=0.31).</p></caption><graphic xlink:href="f1000research-4-7234-g0002"/></fig><p>Conservation of GEDDs in Ts65Dn mouse model of DS were quite unexpected given that
+Ts65Dn mouse is segmentally trisomic (34Mb) for a portion of mouse chromosome 16
+(MMU16); the segment contains about 88 mouse homologues to human genes on the long
+arm of HSA21; it also carries an extra copy of the approximately 10Mb centromeric
+segment of MMU17 that is not syntenic to any region on human chromosome 21 <sup><xref rid="ref-3" ref-type="bibr">3</xref>&#x02013; <xref rid="ref-6" ref-type="bibr">6</xref></sup>. To further explore the possibility of GEDDs, RNAseq data was obtained from
+three replicates each from Ts65Dn and wild type mouse embryonic fibroblasts (MEFs-D)
+(D for Do denotes MEFs in the current study). PCA revealed tight clustering between
+our replicates ( <xref ref-type="fig" rid="f1d">Figure 1D</xref>), but not those for
+the MEFs-L samples. While we found expected changes in gene expression in MEFs-D,
+analysis of MEFs-L and MEFs-D found a poor global correlation (&#x003c1; = -0.31) ( <xref ref-type="fig" rid="f1e">Figure 1E</xref> and <xref ref-type="other" rid="sf1">Supplementary figure 1B</xref>); this was also the case across all mouse
+chromosomes (for examples see <xref ref-type="fig" rid="f1f">Figure 1F</xref> and
+<xref ref-type="other" rid="sf1">Supplementary figure 1B</xref>). In summary our
+findings raise serious concerns regarding the validity of GEDDs. We find no evidence
+for such domains in the studies on DS referenced herein or in cells from the Ts65Dn
+mouse model of DS.</p><fig fig-type="figure" id="f1d" orientation="portrait" position="float"><label>Figure 1D. </label><caption><title>PCA of global gene expression (RNAseq) from normal (2N) and DS model mice
+(Ts65Dn) embryonic fibroblasts.</title><p> PCA reveals little variance along the most significant component, PC1, of
+global gene expression among RNAseq replicates from our repeated
+experiments, MEFs-D. RNAseq data of mice fibroblasts from the original
+study, MEFs-L, do not cluster with MEFs-D.</p></caption><graphic xlink:href="f1000research-4-7234-g0003"/></fig><fig fig-type="figure" id="f1e" orientation="portrait" position="float"><label>Figure 1E. </label><caption><title>Comparison of the gene expression fold-change profiles between 2N and
+Ts65Dn fibroblasts plotted with respect to mouse chromosomes 10 and
+16.</title><p>Embryonic mice fibroblasts examined herein (MEFs-D; blue), from 2N and Ts65DN
+mice do not show the GEDDs reported for MEFs-L (red).</p></caption><graphic xlink:href="f1000research-4-7234-g0004"/></fig><fig fig-type="figure" id="f1f" orientation="portrait" position="float"><label>Figure 1F. </label><caption><title>Correlation of global gene expression fold-change profiles from
+fibroblasts for all mouse chromosomes.</title><p>Global gene expression fold-change from MEFs-D and MEFs-L show a poor
+Spearman&#x02019;s correlation overall (&#x003c1;=-0.31) as well as for each of the
+chromosomes.</p></caption><graphic xlink:href="f1000research-4-7234-g0005"/></fig></sec><sec sec-type="methods"><title>Methods</title><p>Total RNA was collected using TRIzol reagent and further purified using RNeasy mini
+Kit, (Qiagen) from primary mouse embryonic fibroblasts (MEFs) derived from
+18.5-day-old Ts65Dn and 2N mouse using manufacturer&#x02019;s instructions. RNA quality was
+checked using Tapestation 2200 (Agilent technologies) and quantified using Qubit
+instrument (Life technologies). TrueSeq stranded mRNA-seq libraries were prepared
+from 5 &#x003bc;g of total RNA (Illumina mRNA-seq kit, RS-122-2103) and sequenced using
+Illumina HiSeq 2500 PE-100 (sequences publically available from GEO, accession
+number: GSE64840). Experiments were performed in triplicate.</p><p>RNAseq data from hFibro-L, hiPSCs-L, and hiPSCs-H were downloaded from the Sequence
+Read Archive (SRP039348, SRP032928) and uploaded to Illumina BaseSpace for mapping
+(BaseSpace App v1.0, TopHat v2) and differential gene analysis (BaseSpace App v1.1,
+CuffLinks v2.1.1). PCA was performed using R (v3.1.0) from normalized gene count
+values (FPKM). Overall Spearman correlation values were calculated from locally
+weighted scatterplot smoothing (LOWESS) with 30% bandwidth between log2 (FC) gene
+expression of comparison samples, ordered by genes along each chromosome and plotted
+using R and custom scripts.</p></sec><sec><title>Software availability</title><sec><title>Software access</title><p>Custom scripts for R used to calculate Spearman correlation values are available
+at <ext-link ext-link-type="uri" xlink:href="https://github.com/lhdo/GEDDplot">https://github.com/lhdo/GEDDplot</ext-link>
+</p></sec><sec><title>Source code as at the time of publication</title><p>
+<ext-link ext-link-type="uri" xlink:href="https://github.com/F1000Research/GEDDplot/releases/tag/V1">https://github.com/F1000Research/GEDDplot/releases/tag/V1</ext-link>
+</p></sec><sec><title>Archived source code as at the time of publication</title><p>
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5281/zenodo.19232">http://dx.doi.org/10.5281/zenodo.19232</ext-link>
+</p></sec><sec><title>Software license</title><p>The MIT license</p></sec></sec></body><back><ack><title>Acknowledgements</title><p>TrueSeq stranded mRNA-seq libraries preparation and sequencing using Illumina HiSeq
+2500] was conducted at the IGM Genomics Center, University of California, San Diego,
+La Jolla, CA.</p></ack><sec id="sf1" sec-type="supplementary-material"><title>Supplementary materials</title><p>
+<bold>Supplemental figure S1. A) Comparison of the gene expression fold-change
+profiles between T1DS and T2N in human fibroblasts and human iPS cells along all
+human chromosomes.</bold> (1) hiPSCs-L derived from monozygotic twins discordant
+for DS, Letourneau 2014 (red). (2) hiPSCs-H from the same monozygotic twins
+discordant for DS from Hibaoui 2014 (blue). (3) Human fibroblasts (hFibro-L) from
+monozygotic twins discordant for DS from Letourneau 2014 (black). hiPSCs-H lack
+GEDDs, while original hiPSCs-L and hFibro-L show GEDDs and high Spearman&#x02019;s
+correlation (&#x003c1; <sub>1,3</sub>). <bold>B) Comparison of the gene expression
+fold-change profiles between 2N and Ts65Dn fibroblasts along all mouse
+chromosomes.</bold> Embryonic mice fibroblasts MEFs-D (blue), from 2N and Ts65DN
+mice do not show the GEDDs reported for MEFs-L (red).</p><p>
+<supplementary-material content-type="local-data" id="S0"><media xlink:href="f1000research-4-7234-s0000.tgz"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material>.</p></sec><ref-list><ref id="ref-1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Letourneau</surname><given-names>A</given-names></name><name><surname>Santoni</surname><given-names>FA</given-names></name><name><surname>Bonilla</surname><given-names>X</given-names></name><etal/></person-group>: <article-title>Domains of genome-wide gene expression
+dysregulation in Down's syndrome.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2014</year>;<volume>508</volume>(<issue>7496</issue>):<fpage>345</fpage>&#x02013;<lpage>350</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature13200</pub-id>
+<?supplied-pmid 24740065?><pub-id pub-id-type="pmid">24740065</pub-id></mixed-citation></ref><ref id="ref-2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hibaoui</surname><given-names>Y</given-names></name><name><surname>Grad</surname><given-names>I</given-names></name><name><surname>Letourneau</surname><given-names>A</given-names></name><etal/></person-group>: <article-title>Modelling and rescuing neurodevelopmental defect
+of Down syndrome using induced pluripotent stem cells from monozygotic twins
+discordant for trisomy 21.</article-title>
+<source><italic>EMBO Mol Med.</italic></source>
+<year>2014</year>;<volume>6</volume>(<issue>2</issue>):<fpage>259</fpage>&#x02013;<lpage>277</lpage>.
+<pub-id pub-id-type="doi">10.1002/emmm.201302848</pub-id>
+<!--<pub-id pub-id-type="pmcid">3927959</pub-id>-->
+<?supplied-pmid 24375627?><pub-id pub-id-type="pmid">24375627</pub-id></mixed-citation></ref><ref id="ref-3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Busciglio</surname><given-names>J</given-names></name><name><surname>Capone</surname><given-names>G</given-names></name><name><surname>O'Bryan</surname><given-names>J</given-names></name><etal/></person-group>: <article-title>Down syndrome: genes, model systems, and
+progress towards pharmacotherapies and clinical trials for cognitive
+deficits.</article-title>
+<source><italic>Cytogenet Genome Res.</italic></source>
+<year>2013</year>;<volume>141</volume>(<issue>4</issue>):<fpage>260</fpage>&#x02013;<lpage>271</lpage>.
+<pub-id pub-id-type="doi">10.1159/000354306</pub-id>
+<?supplied-pmid 24008277?><pub-id pub-id-type="pmid">24008277</pub-id></mixed-citation></ref><ref id="ref-4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davisson</surname><given-names>MT</given-names></name><name><surname>Schmidt</surname><given-names>C</given-names></name><name><surname>Reeves</surname><given-names>RH</given-names></name><etal/></person-group>: <article-title>Segmental trisomy as a mouse model for Down
+syndrome.</article-title>
+<source><italic>Prog Clin Biol Res.</italic></source>
+<year>1993</year>;<volume>384</volume>:<fpage>117</fpage>&#x02013;<lpage>133</lpage>.
+<?supplied-pmid 8115398?><pub-id pub-id-type="pmid">8115398</pub-id></mixed-citation></ref><ref id="ref-5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reinholdt</surname><given-names>LG</given-names></name><name><surname>Ding</surname><given-names>Y</given-names></name><name><surname>Gilbert</surname><given-names>GJ</given-names></name><etal/></person-group>: <article-title>Molecular characterization of the translocation
+breakpoints in the Down syndrome mouse model Ts65Dn.</article-title>
+<source><italic>Mamm Genome.</italic></source>
+<year>2011</year>;<volume>22</volume>(<issue>11&#x02013;12</issue>):<fpage>685</fpage>&#x02013;<lpage>691</lpage>.
+<pub-id pub-id-type="doi">10.1007/s00335-011-9357-z</pub-id>
+<!--<pub-id pub-id-type="pmcid">3505986</pub-id>-->
+<?supplied-pmid 21953412?><pub-id pub-id-type="pmid">21953412</pub-id></mixed-citation></ref><ref id="ref-6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Akeson</surname><given-names>EC</given-names></name><name><surname>Lambert</surname><given-names>JP</given-names></name><name><surname>Narayanswami</surname><given-names>S</given-names></name><etal/></person-group>: <article-title>Ts65Dn -- localization of the translocation
+breakpoint and trisomic gene content in a mouse model for Down
+syndrome.</article-title>
+<source><italic>Cytogenet Cell Genet.</italic></source>
+<year>2001</year>;<volume>93</volume>(<issue>3&#x02013;4</issue>):<fpage>270</fpage>&#x02013;<lpage>276</lpage>.
+<pub-id pub-id-type="doi">10.1159/000056997</pub-id>
+<?supplied-pmid 11528125?><pub-id pub-id-type="pmid">11528125</pub-id></mixed-citation></ref></ref-list></back><sub-article id="report9542" article-type="peer-review"><front-stub><article-id pub-id-type="doi">10.5256/f1000research.7234.r9542</article-id><title-group><article-title>Referee response for version 1</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Reeves</surname><given-names>Roger</given-names></name><xref ref-type="aff" rid="r9542a1">1</xref><role>Referee</role></contrib><aff id="r9542a1"><label>1</label>Department of Physiology, School of Medicine, John Hopkins
+University, Baltimore, MD, USA</aff></contrib-group><author-notes><fn fn-type="conflict"><p>
+<bold>Competing interests: </bold>No competing interests were disclosed.</p></fn></author-notes><pub-date pub-type="epub"><day>1</day><month>9</month><year>2015</year></pub-date><custom-meta-group><custom-meta><meta-name>recommendation</meta-name><meta-value>approve</meta-value></custom-meta></custom-meta-group></front-stub><body><p>Widespread mis-regulation of the expression of disomic genes in trisomic genomes has
+been established for well over a decade (and seems a self-evident outcome of a
+trisomy such as that of Hsa21 which includes eight transcription factors, 29
+microRNAs and a large number of lncRNAs among other key regulators). Recently, a
+pattern of chromosome regions showing up- or down- regulation of transcription in
+the trisomic genome based on RNAseq and substantiated with correlated regional
+changes in chromosome architecture was reported by Letourneau et al. ( <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/24740065">Letourneau et al., 2014</ext-link>). They referred to these regions as &#x0201c;gene
+expression dysregulated domains&#x0201d; or GEDDs. While the original analysis was carried
+out in fibroblast and iPS lines derived from a co-isogenic pair of monozygotic
+fetuses, one of which was euploid and the other of which had trisomy 21, Letourneau
+et al. report that the pattern of GEDDs is conserved in fibroblasts from the
+<italic>outbred</italic> Ts65Dn trisomic mouse model of Down syndrome (DS),
+i.e., the same blocks of disomic genes are up- or down-regulated in a mouse trisomic
+for orthologs of about half of the genes on Hsa21. These same effects are reported
+to be undetectable in a pooled comparison of 8 trisomic and 8 euploid cell lines,
+where they are hypothesized to be masked by normal variability in gene expression
+expected in individuals who are (obviously) not co-isogenic.</p><p>In this report, Do et al. were unable to reproduce these GEDD patterns in an analysis
+of Ts65Dn mice similar to that which formed a part of the Letourneau evidence. Do et
+al. then proceeded to compare the Letourneau RNAseq results in this paper to RNAseq
+results generated previously by this group from cell lines of this same twin pair (
+<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/24375627">Hibaoui et al.,
+2014</ext-link>) and found substantial variability in the results obtained in
+these independently done experiments. Based on several such comparisons in addition
+to the absence of GEDDS in their independent experiments, Do et al. conclude that
+there is not clear evidence for the existence of GEDDs.</p><p>The comments by Pierce-Shimomura and Nordquist provide an excellent summary of
+several statistical issues in the analyses. They suggest possible clarifications to
+the Do study and conclude, with Do, that the existence of GEDDs is not proven. I
+would note only two additional two points. <list list-type="order"><list-item><p>The PCA analysis in Do et al. comparing datasets from Letourneau and
+Hibaoui appears to show very strong batch effects, which is in fact the
+expected outcome for this type of comparison of two studies on different
+RNA sets prepared and run at different times, probably on different
+sequencers with different lots of reagents, without reference to
+placement in sequencing cells, etc. Statistical methods have been
+developed to clean data for this type of comparison (e.g., <ext-link ext-link-type="uri" xlink:href="http://bioconductor.jp/packages/3.2/bioc/html/sva.html">Leek JT, Johnson WE, Parker HS, Fertig EJ, Jaffe AE and Storey JD.
+<italic>sva: Surrogate Variable Analysis</italic>. R package
+version 3.16.0.</ext-link>). It is not clear that this has been done
+in the Do analysis.</p></list-item><list-item><p>As in all analyses of large platform datasets, it is impossible to
+determine from the published and supplemental methods what has actually
+been done at a level of detail required to reproduce it independently &#x02013;
+this applies to both studies. (For the exception proving this rule,
+consider Gilad Y and Mizrahi-Man O. <italic>A reanalysis of mouse ENCODE
+comparative gene expression data</italic> [v1; ref status: indexed,
+<ext-link ext-link-type="uri" xlink:href="http://f1000r.es/5ez">http://f1000r.es/5ez</ext-link>] <italic>F1000Research</italic>
+2015, <bold>4</bold>:121 (doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.12688/f1000research.6536.1">10.12688/f1000research.6536.1</ext-link>) ).</p></list-item></list>&#x000a0;</p><p>However, it is immediately obvious that Letourneau et al. have no basis for many of
+the statistical comparisons used to identify GEDDs &#x02013; a <italic>biological</italic>
+phenomenon - as they have no biological replicates, only technical ones. It was not
+clear to this reviewer whether Letourneau established four fibroblast clones and/or
+iPS lines from each twin (and if so, in how many independent transformation
+experiments) but this would only be a technical replicate for the artifact of that
+transformation process, not for the biology of GEDDs in trisomy, and therefore it is
+not the appropriate basis for the statistically-based conclusions that they make
+about the <italic>biology</italic> of the effects of trisomy 21 on transcription.
+For biological conclusions, there is an N of one euploid and one trisomic individual
+&#x02013; statistical assessments are not possible with a single comparison.</p><p>Letourneau et al. argue that genetic variability affecting gene expression levels
+does not allow detection of GEDDs in any but co-isogenic conditions. However, if
+GEDDs exist and are so highly conserved in evolution that the same genes are
+mis-regulated in the same way in outbred* trisomic mice, it is difficult to
+understand why they are not evident in any comparison of humans with two vs. three
+copies of Hsa21; if GEDDs only occur in vanishingly rare, coisogenic monozygotic
+human twin sets discordant for a specific trisomy, the phenomenon would hardly seem
+worthy of the attention it has received. An explanation for the conservation of this
+phenomenon in outbred individuals of another species but not between human pairs
+would strengthen the understanding of this phenomenon. An adequately described
+experiment comparing multiple individuals with two vs. three copies of Hsa21
+including euploid and trisomic sib pairs, in addition to the statistical
+clarifications suggested by Pierce-Shimomura, would help to establish the existence
+or not of GEDDs and provide some indication of their relevance to the goal of
+ameliorating effects of gene dosage in DS.</p><p>*Ts65Dn mice are maintained as an advanced intercross between any of several C57BL6
+and C3H strains. Thus, individual mice and their sibs are not genetically identical
+and are heterozygous at ~50% of all loci - a different 50 % for each individual.
+SNPs occur about every 3000 bp between B6 and C3H, while SNPs for a given segment of
+a human chromosome pair might be on the order of one per 1000 bp. It might be
+important to consider variability in chr21 alleles in each twin. Assuming the
+original conceptus was trisomic, if trisomy resulted from a meiosis I error, the
+trisomic line will carry three sets of Hsa21 alleles while the euploid twin will
+lack one of the three sets. If the trisomy resulted from a meiosis II error, the
+euploid twin could be isodisomic for Chr21 and carry only a single set of alleles.
+One could speculate about the possible impact of isodisomy on genome-wide expression
+patterns.</p><p>I have read this submission. I believe that I have an appropriate level of expertise
+to confirm that it is of an acceptable scientific standard.</p></body></sub-article><sub-article id="report9541" article-type="peer-review"><front-stub><article-id pub-id-type="doi">10.5256/f1000research.7234.r9541</article-id><title-group><article-title>Referee response for version 1</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Pierce-Shimomura</surname><given-names>Jon</given-names></name><xref ref-type="aff" rid="r9541a1">1</xref><role>Referee</role></contrib><contrib contrib-type="author"><name><surname>Nordquist</surname><given-names>Sarah</given-names></name><xref ref-type="aff" rid="r9541a1">1</xref><role>Co-referee</role></contrib><aff id="r9541a1"><label>1</label>Department of Neuroscience, College of Natural Sciences,
+University of Texas at Austin, Austin, TX, USA</aff></contrib-group><author-notes><fn fn-type="conflict"><p>
+<bold>Competing interests: </bold>No competing interests were disclosed.</p></fn></author-notes><pub-date pub-type="epub"><day>23</day><month>7</month><year>2015</year></pub-date><related-article id="d36e821" related-article-type="peer-reviewed-article" ext-link-type="doi" xlink:href="10.12688/f1000research.6735.1">Version 1</related-article><custom-meta-group><custom-meta><meta-name>recommendation</meta-name><meta-value>approve</meta-value></custom-meta></custom-meta-group></front-stub><body><p>Do <italic>et al</italic>. perform statistical analysis on previously published
+RNAseq data from <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/24740065">Letourneau <italic>et
+al</italic>. (2014) </ext-link>and their own new data to test the prominent
+and intriguing new hypothesis that trisomy 21 may cause up and down regulation of
+groups of genes associated with specific physical domains on different human
+chromosomes (Letourneau <italic>et al</italic>., 2014). These were called gene
+expression dysregulation domains (GEDDs). Additional evidence suggested that GEDDs
+may be conserved across human cell types, and surprisingly, may relate to equivalent
+syntenic domains in the mouse genome after analysis of the Ts65Dn mouse model of
+Down syndrome (DS) (Letourneau <italic>et al</italic>., 2014).</p><p>Here, Do <italic>et al</italic>., first report that replicates from the Letourneau
+<italic>et al</italic>. (2014) dataset are more variable than one would expect
+as determined by principle component analysis (PCA). This is an important finding
+because identification of the purported GEDDs and their extrapolated conservation
+across tissue types and species depends on minimal variation across datasets. To
+better understand the significance of the apparent variation in replicate datasets
+(Figure 1A), it would be useful if Do <italic>et al</italic>. could also plot the
+percent variance aside each dot accounted for the first principal component. The
+procedure for data normalization should also be explained more thoroughly in the
+results section as this may significantly alter the apparent variance by PCA. Do
+<italic>et al</italic>. also find that data from the Letourneau <italic>et
+al</italic>., 2014 study varies significantly from data from a previous study by
+the same lab that used human cells derived from the same source in ( <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pubmed/24375627">Hibaoui <italic>et al</italic>., 2014</ext-link>).</p><p>Do <italic>et al. </italic>then analyze how gene expression changes across physical
+locations on human chromosomes. They replicate the original finding by Letourneau
+<italic>et al. </italic>(2014) showing that there are domains of up and down
+regulated genes from human iPSCS and fibroblasts derived from the same source.
+However, they also find that these domains fail to correlate with data derived from
+the same source but published in an earlier study from the same group (Hibaoui
+<italic>et al</italic>., 2014). This finding raises significant doubt about the
+concept of conserved GEDDs if they cannot be replicated from tissue derived from the
+same individual and collected by the same research group. Do <italic>et
+al</italic>., might do well to suggest explanations for the lack of correlation
+including specific analysis techniques and methodologies.</p><p>Lastly, Do <italic>et al</italic>. find that RNAseq datasets from wild-type and the
+Ts65Dn mouse model published in the (Letourneau <italic>et al</italic>., 2014) paper
+show considerable variation from their new set of mouse data as determined by PCA.
+They also show a lack of correlation between fold-change gene expression for both
+datasets across chromosomes.</p><p>Together, this new analysis suggests a re-evaluation of the GEDDs concept related DS.
+Specific groups of physically-linked genes (domains) may indeed be up and down
+regulated in DS across individuals and perhaps in mouse models of DS. However,
+variation within and across RNAseq datasets appears to prevent defining these
+domains and generalizing them to other individuals and species with current methods
+of analysis.</p><p>We have read this submission. We believe that we have an appropriate level of
+expertise to confirm that it is of an acceptable scientific standard.</p></body></sub-article></article>

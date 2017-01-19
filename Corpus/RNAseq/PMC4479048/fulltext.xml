@@ -1,0 +1,247 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d3 20150301//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.1 20050630//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Bioinformation</journal-id><journal-id journal-id-type="iso-abbrev">Bioinformation</journal-id><journal-id journal-id-type="publisher-id">Bioinformation</journal-id><journal-title-group><journal-title>Bioinformation</journal-title></journal-title-group><issn pub-type="ppub">0973-8894</issn><issn pub-type="epub">0973-2063</issn><publisher><publisher-name>Biomedical Informatics</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4479048</article-id><article-id pub-id-type="publisher-id">97320630011165</article-id><article-id pub-id-type="doi">10.6026/97320630011165</article-id><article-categories><subj-group subj-group-type="heading"><subject>Software</subject></subj-group></article-categories><title-group><article-title>Omics Metadata Management Software (OMMS)</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Perez-Arriaga</surname><given-names>Martha O</given-names></name><xref ref-type="aff" rid="A1">1</xref></contrib><contrib contrib-type="author"><name><surname>Wilson</surname><given-names>Susan</given-names></name><xref ref-type="aff" rid="A2">2</xref></contrib><contrib contrib-type="author"><name><surname>Williams</surname><given-names>Kelly P</given-names></name><xref ref-type="aff" rid="A3">3</xref></contrib><contrib contrib-type="author"><name><surname>Schoeniger</surname><given-names>Joseph</given-names></name><xref ref-type="aff" rid="A3">3</xref></contrib><contrib contrib-type="author"><name><surname>Waymire</surname><given-names>Russel L</given-names></name><xref ref-type="aff" rid="A5">5</xref></contrib><contrib contrib-type="author"><name><surname>Powell</surname><given-names>Amy Jo</given-names></name><xref ref-type="aff" rid="A2">2</xref><xref ref-type="aff" rid="A4">4</xref><xref ref-type="aff" rid="A6">6</xref><xref ref-type="corresp" rid="COR1">*</xref></contrib><aff id="A1"><label>1</label>Department of Computer Science, Mail stop: MSC01 1130, 1 University of New Mexico, Albuquerque, NM 87131-0001</aff><aff id="A2"><label>2</label>Center for Advanced Research Computing, University of New Mexico, Albuquerque, NM 87131</aff><aff id="A3"><label>3</label>Systems Biology, Sandia National Laboratories, Mail Stop 9291, Livermore, CA 94550</aff><aff id="A4"><label>4</label>Department of Biology, Mail stop: MSC03 2020, 1 University of New Mexico, Albuquerque, NM 87131-0001</aff><aff id="A5"><label>5</label>Security Systems Analysis, Sandia National Laboratories, Mail Stop 0757, Albuquerque, NM 87123</aff><aff id="A6"><label>6</label>Computational Simulation Infrastructure, Sandia National Laboratories, Mail Stop 0845, Albuquerque, NM 87123</aff></contrib-group><author-notes><corresp id="COR1"><label>*</label>Amy Jo Powell: <email>ajpowel@sandia.gov</email> Phone: +1 505 284 8050</corresp></author-notes><pub-date pub-type="collection"><year>2015</year></pub-date><pub-date pub-type="epub"><day>30</day><month>4</month><year>2015</year></pub-date><volume>11</volume><issue>4</issue><fpage>165</fpage><lpage>172</lpage><history><date date-type="received"><day>11</day><month>10</month><year>2014</year></date><date date-type="accepted"><day>16</day><month>3</month><year>2015</year></date></history><permissions><copyright-statement>&#x000a9; 2015 Biomedical Informatics</copyright-statement><copyright-year>2015</copyright-year><license license-type="open-access"><license-p>This is an open-access article, which permits unrestricted use, distribution, and reproduction in any medium,for non-commercial purposes, provided the original author and source are credited.</license-p></license></permissions><abstract><p>Next-generation sequencing projects have underappreciated information management tasks requiring detailed attention to
+specimen curation, nucleic acid sample preparation and sequence production methods required for downstream data processing,
+comparison, interpretation, sharing and reuse. The few existing metadata management tools for genome-based studies provide
+weak curatorial frameworks for experimentalists to store and manage idiosyncratic, project-specific information, typically offering
+no automation supporting unified naming and numbering conventions for sequencing production environments that routinely
+deal with hundreds, if not thousands of samples at a time. Moreover, existing tools are not readily interfaced with bioinformatics
+executables, (e.g., BLAST, Bowtie2, custom pipelines). Our application, the Omics Metadata Management Software (OMMS),
+answers both needs, empowering experimentalists to generate intuitive, consistent metadata, and perform analyses and
+information management tasks via an intuitive web-based interface. Several use cases with short-read sequence datasets are
+provided to validate installation and integrated function, and suggest possible methodological road maps for prospective users.
+Provided examples highlight possible OMMS workflows for metadata curation, multistep analyses, and results management and
+downloading. The OMMS can be implemented as a stand alone-package for individual laboratories, or can be configured for webbased
+deployment supporting geographically-dispersed projects. The OMMS was developed using an open-source software base,
+is flexible, extensible and easily installed and executed. The OMMS can be obtained at <ext-link ext-link-type="uri" xlink:href="http://omms.sandia.gov">http://omms.sandia.gov</ext-link>.</p><sec id="sb1e"><title>Availability</title><p>The OMMS can be obtained at <ext-link ext-link-type="uri" xlink:href="http://omms.sandia.gov">http://omms.sandia.gov</ext-link></p></sec></abstract><kwd-group><kwd>Bioinformatics</kwd><kwd>relational database management system</kwd><kwd>omics</kwd><kwd>next-generation sequencing</kwd><kwd>biological curation</kwd><kwd>open-source software</kwd><kwd>integrated workflow</kwd></kwd-group></article-meta></front><body><sec id="s1"><title>Background</title><p>Next-generation sequencing has revolutionized research and
+medicine, and has been accompanied by increasingly
+challenging, if underappreciated, metadata management
+requirements [<xref rid="R01" ref-type="bibr">1</xref>]. Sequencing projects that have large, complex
+metadata demand lightweight, flexible, stable software to
+support dataset standardization, biological curation activities,
+and streamlining of pre- and post- processing steps with
+pipeline analyses [<xref rid="R02" ref-type="bibr">2</xref>]. The few existing open-source tools for
+managing next-generation sequencing metadata have limited
+flexibility, thus hampering project-specific tailoring, and
+cannot be easily deployed and managed by a single
+administrator for multiple research sites [<xref rid="R03" ref-type="bibr">3</xref>,
+<xref rid="R04" ref-type="bibr">4</xref>]. Commerciallyavailable
+laboratory information management alternatives are
+typically expensive, cumbersome and require proprietary
+administration and maintenance for the software lifecycle 
+[<xref rid="R05" ref-type="bibr">5</xref>],
+and none of the available tools, open-source or otherwise,
+readily integrate curation, processing and advanced analyses.
+We developed the Omics Metadata Management Software
+(OMMS), a flexible, extensible, open-source, web-based tool
+that provides semi-automated curation utilities, and integrated
+implementation with widely-used bioinformatics executables,
+such as BLAST [<xref rid="R06" ref-type="bibr">6</xref>] and Bowtie 
+[<xref rid="R07" ref-type="bibr">7</xref>], for human-microbiomeoriented
+research in our laboratories [<xref rid="R08" ref-type="bibr">8</xref>]. Example use cases
+with publicly available human microbiome and chimpanzee
+RNASeq datasets [<xref rid="R09" ref-type="bibr">9</xref>,
+<xref rid="R10" ref-type="bibr">10</xref>] are detailed to demonstrate OMMS
+function and versatility, and operation as a pipeline frontend.</p><sec id="s1a"><title><italic>Omics Metadata Management Software</italic>:</title><p>The OMMS was engineered to support a large,
+multidisciplinary, geographically-dispersed research team
+developing next-generation sequencing-based approaches for
+identifying potentially rare etiologic agents in human
+microbiomes across hundreds of distinct sample types 
+[<xref rid="R08" ref-type="bibr">8</xref>]. The
+OMMS graphical user-interface (GUI) enables semi-automated
+project-specific metadata entries in each table (<xref ref-type="fig" rid="F1">Figures 1</xref> &#x00026; 
+<xref ref-type="fig" rid="F2">Figure 2</xref>;
+<xref ref-type="supplementary-material" rid="SD1">Table 1</xref>, 3-5), and associated input sequence data are
+referenced to archiving locations in directories generated on
+Linux-based file systems. Intuitive point-and-click selection of
+input sequence files, analysis configuration and execution are
+carried out in the &#x0201c;Analysis&#x0201d; portal (<xref ref-type="fig" rid="F3">Figure 3</xref>; 
+<xref ref-type="supplementary-material" rid="SD1">Table 2</xref>). In
+examples provided here, BLAST, Bowtie 2, TopHat and
+Cufflinks were integrated and implemented with the OMMS
+interface [<xref rid="R06" ref-type="bibr">6</xref>,
+<xref rid="R07" ref-type="bibr">7</xref>,
+<xref rid="R10" ref-type="bibr">10</xref>], and in principle, any open-source
+application can be integrated with the OMMS, including inhouse
+pipelines, with custom scripts developed for that
+purpose.</p></sec></sec><sec sec-type="methods" id="s2"><title>Methodology</title><sec id="s2a"><title><italic>Creating a record</italic>:</title><p>The three main portals are displayed after login. Tables for
+detailed biological curation (&#x0201c;Specimen Info,&#x0201d; &#x0201c;Sample
+Processing,&#x0201d; &#x0201c;Sequence MetaInfo&#x0201d;) reside in the &#x0201c;MetaData&#x0201d;
+portal. To create an entry, select &#x0201c;Create New,&#x0201d; and then click
+on &#x0201c;New (Empty fields)&#x0201d; in the &#x0201c;Specimen Info&#x0201d; table, and
+provide required information (<xref ref-type="fig" rid="F1">Figures 1</xref>; 
+<xref ref-type="supplementary-material" rid="SD1">Table 1</xref>). The
+following (parentheses) were entered: Host Species (<italic>Homo
+sapiens</italic>); Tissue Sampled (Stool). Click the &#x0201c;Add Specimen&#x0201d;
+button to generate the &#x0201c;Specimen Unique ID&#x0201d; (HsStoo_01).
+For the second record, repeat the previous steps, but insert
+&#x0201c;<italic>Pan troglodyte</italic>&#x0201d; and &#x0201c;Brain&#x0201d; for the host and tissue,
+respectively, to generate &#x0201c;Specimen Unique ID&#x0201d; (PtBrai_02).</p><p>Corresponding records are generated in the &#x0201c;Sample
+Processing&#x0201d; table, with dropdown menus provided to
+streamline curation by explicitly linking the &#x0201c;Specimen Unique
+ID&#x0201d; (e.g., HsStoo_01, PtBrai_02) and the user-defined &#x0201c;Sample
+Alias&#x0201d; with the new sample entries. &#x0201c;Sample Unique ID&#x0201d;
+entries are generated by clicking &#x0201c;Add Sample&#x0201d; (e.g.,
+HsStoo_01_01, PtBrai_02_01). Four corresponding records
+were created in the &#x0201c;Sequence MetaInfo&#x0201d; table to complete the
+curation exercise, and to illustrate functional integration with
+executables (<xref ref-type="supplementary-material" rid="SD1">Table 2</xref>); in the &#x0201c;Provider Sequence Directory
+Name&#x0201d; field, arbitrary directory names were given; for &#x0201c;Fastq
+File Mate Pair 1&#x0201d; and &#x0201c;Fastq File Mate Pair 2,&#x0201d; test input file
+names were used, and appropriate options were chosen for
+&#x0201c;Read Type&#x0201d; field for testing in this order: Bowtie 2 (single&#x02013;,
+then paired end with human microbiome stool fastq files),
+BLAST (with human microbiome stool fasta input), Tophat
+and Cufflinks (with the single-end chimp RNASeq file). The
+&#x0201c;Sequence Run ID&#x0201d; and &#x0201c;Unique Experiment Name&#x0201d; were 
+generated by clicking the &#x0201c;Add Sequence.&#x0201d; In each of the
+tables, the &#x0201c;Update&#x0201d; function can be used to extend curation.
+Methods for generating and downloading custom metadata
+tables are further detailed in the &#x0201c;OMMS Integrated
+Workflow&#x0201d; link (under Quick Start).</p></sec><sec id="s2b"><title><italic>Enabling integrated workflows</italic>:</title><p>To call integrated executables via the &#x0201c;Analysis&#x0201d; portal, click
+on &#x0201c;Select Input&#x0201d; for the relevant Sequence Run ID (e.g.,
+HsStoo_01_01_01), and then choose the desired program
+(<xref ref-type="fig" rid="F2">Figure 2</xref>). To launch a Bowtie 2 run on &#x0201c;Sequence Run ID&#x0201d;
+HsStoo_01_01_01, select the &#x0201c;<italic>Staphylococcus_aureus</italic>&#x0201d; index
+from the dropdown menu, and enter an integer value in
+&#x0201c;Processors&#x0201d; and click &#x0201c;Go.&#x0201d; The results file name will appear,
+and standard output can be downloaded upon run completion.
+The same steps apply for paired-end analyses with Bowtie 2.
+For BLAST runs, select the pertinent Sequence Run ID and
+input (HsStoo_BLAST500.fa), and choose the desired program
+(blastn) and database (<italic>Clostridium kluyveri</italic>). Set the
+significance threshold expectation (E) value at 0.001 or higher, 
+and indicate the desired output format in the dropdown menu,
+and click &#x0201c;Go.&#x0201d; Similar steps are followed for splice-variant
+and/or differential expression analyses using TopHat and
+Cufflinks (<xref ref-type="fig" rid="F3">Figure 3</xref>; 
+<xref ref-type="supplementary-material" rid="SD1">Table 2</xref>). The chimp &#x0201c;Sequence Run ID&#x0201d;
+was selected (PtBrai_02_01_01, referenced to RNASeq file
+SRR023838_RNASeq.fq) and aligned with the hg19 index 
+[<xref rid="R07" ref-type="bibr">7</xref>].
+Standard output can be downloaded via the &#x0201c;Results&#x0201d; portal
+by choosing the &#x0201c;Sequence Run ID&#x0201d; of interest (e.g.,
+HsStoo_01_01_01). The website provides additional
+instructions for building integrated analyses (in the &#x0201c;OMMS
+Integrated Workflow&#x0201d; link under Quick Start).</p></sec></sec><sec id="s3"><title>Software</title><sec id="s3a"><title><italic>Design and function</italic>:</title><p>Interoperable, open-source software packages (i.e., the LAMP
+bundle, Linux, Apache, MySQL, PHP) wereused to develop
+the browser-based OMMS interface to support next generation
+sequencing-based research efforts in our laboratories 
+[<xref rid="R08" ref-type="bibr">8</xref>]. Realworld
+metadata associated with the test datasets were entered
+in the three tables, &#x0201c;Specimen Info,&#x0201d; &#x0201c;Sample Processing,&#x0201d; and
+&#x0201c;Sequence MetaInfo&#x0201d; (<xref ref-type="fig" rid="F1">Figure 1</xref>; 
+<xref ref-type="supplementary-material" rid="SD1">Table 1</xref>, 3-5) to instantiate
+example database records. Most of the fields in the tables
+accommodate varied data types (e.g., the &#x0201c;Sample_Alias&#x0201d; field
+in the &#x0201c;Sample_Processing&#x0201d; table), such as character strings,
+but in cases with fewer possibilities, dropdown menus are
+provided (e.g., the &#x0201c;Nucleic Acid&#x0201d; field in the &#x0201c;Sample
+Processing&#x0201d; table).</p></sec><sec id="s3b"><title><italic>Test datasets for validating installation and benchmarking integrated tools</italic>:</title><p>Distinct hosts and tissues (<italic>Homo sapiens, Pan troglodyte</italic>; Stool,
+Brain) were used to demonstrate automated metadata tracking,
+storing and functional integration with utilities [<xref rid="R09" ref-type="bibr">9</xref>,
+<xref rid="R10" ref-type="bibr">10</xref>]. Test
+datasets were obtained from the GenBank Short Read Archive
+(accessions SRX025177: SRR063480 and SRX008322:
+SRR023838), and were pre-processed using the NCBI SRA and
+Fastx Toolkits, and in-house custom scripts. These preprocessing
+steps are explained in the README file included in
+the distribution and in the &#x0201c;OMMS Integrated Workflows&#x0201d;
+link (see the <xref ref-type="supplementary-material" rid="SD1">supplementary material</xref> for fine details
+pertaining to curation and pre-processing steps).</p></sec><sec id="s3c"><title><italic>Semi-automated curation and results downloading</italic>:</title><p>After entering the minimum required information (indicated
+by asterisks) for a specimen, the OMMS generates a unique
+identifier under the &#x0201c;Specimen_UID&#x0201d; field (<xref ref-type="fig" rid="F1">Figures 1</xref>; 
+<xref ref-type="supplementary-material" rid="SD1">Table 1</xref> &#x00026;
+<xref ref-type="supplementary-material" rid="SD1">Table 3</xref>) describing the subject/host and tissue/microhabitat from
+which nucleic acid preparations and sequence data will be
+derived (<xref ref-type="fig" rid="F1">Figures 1</xref> &#x00026; 
+<xref ref-type="fig" rid="F2">Figure 2</xref>;
+<xref ref-type="supplementary-material" rid="SD1">Table 1</xref>). Unique identifiers are
+automatically propagated to corresponding fields in the other
+tables (<xref ref-type="fig" rid="F1">Figures 1</xref> &#x00026; 
+<xref ref-type="fig" rid="F2">Figure 2</xref>), intuitively linking specimen, sample
+and sequence data. Input sequence data files put can be
+uploaded, and results files (output) downloaded, as can
+metadata for specific entries, as well as table-overview custom
+spreadsheets (<xref ref-type="fig" rid="F2">Figures 2</xref> &#x00026; 
+<xref ref-type="fig" rid="F3">Figure 3</xref>).</p></sec></sec><sec id="s4"><title>Concluding Remarks</title><p>The freeware reported here guarantees standardized,
+intelligible, automated curation and management of biological
+metadata, and supports integrated analyses. Recent events,
+from the outbreak of Ebola Virus Disease in West Africa, to the
+emergence of antibiotic-resistant bacteria (<italic>e.g., Clostridium 
+difficile</italic>, Carbapenem-resistant Enterobacteriaceae), make it
+impossible to overstate the importance of rigorous metadata
+curation and management systems in high-intensity scenarios,
+clinical and otherwise. For our project, the OMMS frontend
+was foundational for handling metadata inherent to nextgeneration
+sequencing-based experiments involving large
+numbers of samples at a time. In the context of a host
+microbiome, potential etiologic agents are typically rare and
+difficult to detect using standard <italic>in silico</italic> and experimental
+approaches, and careful metadata curation is crucial for
+identifying signal (infectious disease) in the presence of
+overwhelming noise (background microbiota) and results
+interpretation. Looking ahead, the OMMS and OMMS-user
+tailored versions will represent easy-to-use promising tools for
+addressing microbiome-centric research, from clinical and
+public health challenges, to exploring new frontiers in
+agricultural research and development, where handing and
+tracking hundreds, if not thousands, of samples from diverse
+subjects at a particular location and time are necessary.
+Additionally, the OMMS enables development of integrated
+workflows with state-of-the-art utilities (Blast, Bowtie 2) and
+in-house pipelines (e.g., local implementations of Galaxy),
+facilitating fine-grained comparative analyses, such as strain
+discrimination (e.g., Zaire vs. Sudan ebolavirus) and
+microbiome composition and functional profiling.</p></sec><sec sec-type="supplementary-material"><title>Supplementary material</title><supplementary-material content-type="local-data" id="SD1"><caption><title>Data 1</title></caption><media mimetype="application" mime-subtype="pdf" xlink:href="97320630011165S1.pdf" xlink:type="simple" id="d35e404" position="anchor"/></supplementary-material></sec></body><back><ack><p>This R &#x00026; D was supported by the Laboratory Directed
+Research and Development (LDRD) program at Sandia
+National Laboratories [under the auspices of the Rapid Threat
+Organism Recognition (RapTOR) Grand Challenge (LDRD #
+142042)]. Sandia National Laboratories are multi-program
+laboratories managed and operated by Sandia Corporation, a
+wholly-owned subsidiary of Lockheed Martin Corporation, for
+the U.S. Department of Energy's National Nuclear Security
+Administration (contract DE-AC04-94AL85000). We offer our
+sincerest thanks to the RapTOR team, and Dr. Elisa LaBauve,
+in particular, for invaluable discussions around software
+design and development, and Professor Melanie Moses for
+guidance on manuscript preparation. As ever, I extend my
+deepest gratitude to Professors Donald O. Natvig and Gavin C.
+Conant for invaluable, ongoing scientific discussions, editorial
+assistance and software testing. Sincerest thanks to Steven
+Arroyo, Brian Nelson, Michael W. Folsom and Mark D.
+Murton for software testing and website development. We are
+grateful to the University of New Mexico Center for Advanced
+Research Computing and Dr. Susan Atlas, Director, for
+computational resources and technical assistance provided in
+support of this work.</p></ack><fn-group><fn id="FN1" fn-type="other"><p><bold>Citation:</bold>Arriaga <italic>et al</italic>, Bioinformation 11(4): 165-172 (2015)</p></fn></fn-group><ref-list><title>References</title><ref id="R01"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pareek</surname><given-names>C</given-names></name><etal/></person-group><source>J Appl Genetics</source><year>2011</year><volume>52</volume><fpage>413</fpage><?supplied-pmid 21698376?><pub-id pub-id-type="pmid">21698376</pub-id></element-citation></ref><ref id="R02"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wruck</surname><given-names>W</given-names></name><etal/></person-group><source>Brief Bioinform</source><year>2014</year><volume>15</volume><fpage>65</fpage><?supplied-pmid 23047157?><pub-id pub-id-type="pmid">23047157</pub-id></element-citation></ref><ref id="R03"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rocca-Serra</surname><given-names>P</given-names></name><etal/></person-group><source>Bioinformatics</source><year>2010</year><volume>26</volume><fpage>2354</fpage><?supplied-pmid 20679334?><pub-id pub-id-type="pmid">20679334</pub-id></element-citation></ref><ref id="R04"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wolstencroft</surname><given-names>K</given-names></name><etal/></person-group><source>Bioinformatics</source><year>2011</year><volume>27</volume><fpage>2021</fpage><?supplied-pmid 21622664?><pub-id pub-id-type="pmid">21622664</pub-id></element-citation></ref><ref id="R05"><label>5</label><element-citation publication-type="webpage"><comment><ext-link ext-link-type="uri" xlink:href="http://www.labguru.com/">http://www.labguru.com/</ext-link></comment></element-citation></ref><ref id="R06"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Altschul</surname><given-names>SF</given-names></name><etal/></person-group><source>Nucleic Acids Research</source><year>1997</year><volume>25</volume><fpage>3389</fpage><?supplied-pmid 9254694?><pub-id pub-id-type="pmid">9254694</pub-id></element-citation></ref><ref id="R07"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Langmead</surname><given-names>B</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group><source>Nat Meth</source><year>2012</year><volume>9</volume><fpage>357</fpage><?supplied-pmid 22388286?><pub-id pub-id-type="pmid">22388286</pub-id></element-citation></ref><ref id="R08"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bent</surname><given-names>ZW</given-names></name><etal/></person-group><source>Anal Biochem</source><year>2013</year><volume>438</volume><fpage>90</fpage><?supplied-pmid 23535274?><pub-id pub-id-type="pmid">23535274</pub-id></element-citation></ref><ref id="R09"><label>9</label><element-citation publication-type="journal"><collab>Human Microbiome Project Consortium</collab><source>Nature</source><year>2012</year><volume>486</volume><fpage>207</fpage><?supplied-pmid 22699609?><pub-id pub-id-type="pmid">22699609</pub-id></element-citation></ref><ref id="R10"><label>10</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Trapnell</surname><given-names>C</given-names></name><etal/></person-group><source>Nat Protocols</source><year>2012</year><volume>7</volume><fpage>562</fpage><?supplied-pmid 22383036?><pub-id pub-id-type="pmid">22383036</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="F1" position="float"><label>Figure 1</label><caption><p>Omics Metadata Management Software. Core
+functionality resides in three tables, &#x0201c;Specimen Information,&#x0201d;
+&#x0201c;Sample Processing,&#x0201d; and &#x0201c;Sequence MetaInformation,&#x0201d; which
+have fields with embedded automation supporting efficient
+data metadata entry, storage and intuitive entity relationships
+facilitating data sharing and analysis. These tables are
+accessed via the &#x0201c;MetaData&#x0201d; portal.</p></caption><graphic xlink:href="97320630011165F1"/></fig><fig id="F2" position="float"><label>Figure 2</label><caption><p>Unified framework for metadata management and
+state-of-the-art analyses. Curation (highlighted in aqua) and
+analyses (indicated in yellow) tasks are intrinsically related
+(overlap region) in next-generation sequencing studies,
+because sample handling and sequence production are
+multistep processes, and careful metadata tracking and
+management are required for downstream analyses and
+publication preparation. The OMMS supports user input of
+project metadata, automated creation of consistently named
+and enumerated unique identifiers for specimens, samples and
+sequence production information, and straightforward
+integration with bioinformatics utilities. Spreadsheets can be
+generated for structured data extraction and local download.
+Standard input and output of executables used here are stored
+in automatically-generated files and directories.</p></caption><graphic xlink:href="97320630011165F2"/></fig><fig id="F3" position="float"><label>Figure 3</label><caption><p>Omics Metadata Management Software
+(OMMS) curation and analysis interface. The OMMS was
+designed to integrate and implement with open-source
+bioinformatics tools, such as BLAST, Bowtie 2 and Tophat
+and/or custom pipelines. These tools are accessed via the
+&#x0201c;Analysis Portal&#x0201d; (panel A). End users select the identifier
+(&#x0201c;Sequence Run ID&#x0201d;) of interest, which is referenced to
+particular sequence files (panel B and inset). Following input
+selection, the desired program is chosen and parameterized
+(panel C and inset) to launch a run. Output from a given
+analysis run can be downloaded via the OMMS &#x0201c;Results&#x0201d;
+portal (not shown).</p></caption><graphic xlink:href="97320630011165F3"/></fig></floats-group></article>

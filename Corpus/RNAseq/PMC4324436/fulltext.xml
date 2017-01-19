@@ -1,0 +1,674 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d2 20140930//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Proteome Res</journal-id><journal-id journal-id-type="iso-abbrev">J. Proteome Res</journal-id><journal-id journal-id-type="publisher-id">pr</journal-id><journal-id journal-id-type="coden">jprobs</journal-id><journal-title-group><journal-title>Journal of Proteome Research</journal-title></journal-title-group><issn pub-type="ppub">1535-3893</issn><issn pub-type="epub">1535-3907</issn><publisher><publisher-name>American ChemicalSociety</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4324436</article-id><article-id pub-id-type="doi">10.1021/pr500882h</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Systematic Optimization of
+Long Gradient Chromatography
+Mass Spectrometry for Deep Analysis of Brain Proteome</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Wang</surname><given-names>Hong</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02225;</xref><xref rid="notes-1" ref-type="notes">&#x025bd;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Yang</surname><given-names>Yanling</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Li</surname><given-names>Yuxin</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Bai</surname><given-names>Bing</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Wang</surname><given-names>Xusheng</given-names></name><xref rid="aff1" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Tan</surname><given-names>Haiyan</given-names></name><xref rid="aff1" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Liu</surname><given-names>Tao</given-names></name><xref rid="aff3" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath8"><name><surname>Beach</surname><given-names>Thomas
+G.</given-names></name><xref rid="aff4" ref-type="aff">#</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath9"><name><surname>Peng</surname><given-names>Junmin</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff1" ref-type="aff">&#x02021;</xref><xref rid="aff1 aff1" ref-type="aff">&#x000a7; ^</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath10"><name><surname>Wu</surname><given-names>Zhiping</given-names></name><xref rid="cor2" ref-type="other">*</xref><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="notes-1" ref-type="notes">&#x025bd;</xref></contrib><aff id="aff1"><sup>&#x02020;</sup>Department of Structural Biology, <sup>&#x02021;</sup>St. Jude Proteomics Facility,
+and <sup>&#x000a7;</sup><sup>^</sup>Department of Developmental Neurobiology, <institution>St. Jude Children&#x02019;s Research Hospital</institution>, 262 Danny Thomas Place, Memphis, Tennessee 38105, <country>United States</country></aff><aff id="aff2"><label>&#x02225;</label>Integrated
+Biomedical Sciences Program, <institution>University
+of Tennessee Health Science Center</institution>, 920 Madison Avenue, Memphis, Tennessee 38163, <country>United States</country></aff><aff id="aff3"><label>&#x022a5;</label>Biological
+Sciences Division, <institution>Pacific Northwest National
+Laboratory</institution>, 902 Battelle
+Boulevard, Richland, Washington 99352, <country>United States</country></aff><aff id="aff4"><label>#</label><institution>Banner
+Sun
+Health Research Institute</institution>, 10515 West Santa Fe Drive, Sun City, Arizona 85351, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>J.P.: Tel: <phone>901-336-1083</phone>. E-mail: <email>junmin.peng@stjude.org</email>.</corresp><corresp id="cor2"><label>*</label>Z.W.: Tel: <phone>901-595-7679</phone>.
+E-mail: <email>zhiping.wu@stjude.org</email>.</corresp></author-notes><pub-date pub-type="pmc-release"><day>02</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="epub"><day>02</day><month>12</month><year>2014</year></pub-date><pub-date pub-type="ppub"><day>06</day><month>02</month><year>2015</year></pub-date><volume>14</volume><issue>2</issue><fpage>829</fpage><lpage>838</lpage><history><date date-type="received"><day>23</day><month>08</month><year>2014</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2014 American Chemical Society</copyright-statement><copyright-year>2014</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2014-00882h_0008" id="ab-tgr1"/></p><p>The
+development of high-resolution liquid chromatography (LC) is
+essential for improving the sensitivity and throughput of mass spectrometry
+(MS)-based proteomics. Here we present systematic optimization of
+a long gradient LC&#x02013;MS/MS platform to enhance protein identification
+from a complex mixture. The platform employed an in-house fabricated,
+reverse-phase long column (100 &#x003bc;m &#x000d7; 150 cm, 5 &#x003bc;m
+C18 beads) coupled to Q Exactive MS. The column was capable of achieving
+a peak capacity of &#x0223c;700 in a 720 min gradient of 10&#x02013;45%
+acetonitrile. The optimal loading level was &#x0223c;6 &#x003bc;g of
+peptides, although the column allowed loading as many as 20 &#x003bc;g.
+Gas-phase fractionation of peptide ions further increased the number
+of peptide identification by &#x0223c;10%. Moreover, the combination
+of basic pH LC prefractionation with the long gradient LC&#x02013;MS/MS
+platform enabled the identification of 96&#x0202f;127 peptides and
+10&#x0202f;544 proteins at 1% protein false discovery rate in a post-mortem
+brain sample of Alzheimer&#x02019;s disease. Because deep RNA sequencing
+of the same specimen suggested that &#x0223c;16&#x0202f;000 genes were
+expressed, the current analysis covered more than 60% of the expressed
+proteome. Further improvement strategies of the LC/LC&#x02013;MS/MS
+platform were also discussed.</p></abstract><kwd-group><kwd>long LC column</kwd><kwd>mass spectrometry</kwd><kwd>AD proteome</kwd></kwd-group><funding-group><funding-statement><funding-source>National Institutes of Health, United States</funding-source></funding-statement></funding-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>pr500882h</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>pr-2014-00882h</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>In the post-genomic
+era, next-generation sequencing technology
+is now widely used to characterize the alterations of genome and transcriptome
+in the context of human diseases.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Although
+gene expression can be analyzed by transcriptomic profiling, transcriptomic
+data do not always correlate well with protein expression in biological
+samples and often lack the information on protein posttranslational
+modifications. Thus, the development of proteomics platforms for deep
+proteome coverage becomes an urgent task to provide systematic and
+comparable protein expression information complementary to DNA and
+RNA data.</p><p>Mass spectrometry (MS)-based shotgun proteomics is
+predominantly
+used for complex proteome analysis.<sup><xref ref-type="bibr" rid="ref2">2</xref>,<xref ref-type="bibr" rid="ref3">3</xref></sup> In a typical
+shotgun experiment, complex protein samples extracted from cells or
+tissues are digested with protease(s), and the resulting peptide mixtures
+are fractionated by organic gradient on HPLC columns, followed by
+tandem mass spectrometry analysis. The MS/MS spectra are then searched
+against protein database for the identification of proteins and posttranslational
+modifications. With the advent of high-resolution MS and the improvement
+of liquid chromatography (LC) performance, the current platform of
+shotgun proteomics can routinely identify thousands of proteins in
+mammalian cells in a single LC&#x02013;MS/MS analysis. One of the key
+measurements of LC performance is the peak capacity that is defined
+as the number of peaks separated within a resolution of unity in a
+given LC gradient time.<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> Peak capacity
+is estimated to be proportional to the root square of LC column length
+and inversely proportional to the root square of LC particle size.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> Several reports demonstrated the benefits of
+small particles (&#x0003c;2 &#x003bc;m) with ultrahigh pressure solvent delivery
+(up to 70&#x0202f;000 psi).<sup><xref ref-type="bibr" rid="ref6">6</xref>&#x02212;<xref ref-type="bibr" rid="ref9">9</xref></sup> High values of peak capacities were obtained on these
+columns (i.e., 75 &#x003bc;m &#x000d7; 50 cm) depending on the gradient
+length.<sup><xref ref-type="bibr" rid="ref9">9</xref>&#x02212;<xref ref-type="bibr" rid="ref15">15</xref></sup> However, column heating and ultrahigh system pressure (&#x0003e;10&#x0202f;000
+psi) are usually required for running long columns packed with sub-2
+&#x003bc;m beads, compromising the robustness of the system. Alternatively,
+when HPLC time is not a limiting factor, longer LC columns improve
+resolving power but with a higher backpressure. For instance, several
+reports have shown comparable peak capacity using 5 &#x003bc;m C<sub>18</sub> particles and up to 1 m long column within regular HPLC
+pressure limit.<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> When long LC was coupled to Q
+Exactive MS, it resulted in more than 4000 identified proteins in
+the human proteome under optimized conditions.<sup><xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref18">18</xref></sup> However, because of the large (&#x0003e;10<sup>7</sup>) dynamic range
+of
+proteins in mammalian cells, additional prefractionation step(s) (e.g.,
+SDS-PAGE, strong anion exchange (SAX), strong cation exchange (SCX),
+basic pH LC and isofocusing) were applied to reduce peptide complexity
+and deepen the mammalian proteomic analysis.<sup><xref ref-type="bibr" rid="ref19">19</xref>&#x02212;<xref ref-type="bibr" rid="ref23">23</xref></sup> Further peptide separation was also achieved through
+gas-phase fractionation (GPF) through MS1 ion selection on mass spectrometer.<sup><xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref25">25</xref></sup></p><p>To date, a few studies lead to the detection of more than
+10&#x0202f;000
+proteins in several human cancer cell lines using SAX fractionation
+and analysis on LTQ Orbitrap Velos MS and about a month of instrument
+time.<sup><xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref27">27</xref></sup> The Marto group identified 11&#x0202f;352
+mouse genes-derived proteins using LTQ XL MS and Triple TOF 5600 MS
+in 8 days from murine embryonic stem cells.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> Lehtio group reported the identification of 13&#x0202f;078 human
+proteins and 10&#x0202f;637 mouse proteins from cancer cell lines using
+high-resolution isofocusing fractionation and LTQ Orbitrap Velos MS
+with &#x0223c;15 days of instrument time.<sup><xref ref-type="bibr" rid="ref18">18</xref>,<xref ref-type="bibr" rid="ref22">22</xref></sup> While we were preparing this manuscript, Mann&#x02019;s group reported
+the identification of &#x0223c;10&#x0202f;000 proteins on Q Exactive
+MS using 4 day instrument time and long column coupled to UPLC system.<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> Most recently, drafts of the entire human proteome
+(identifications of &#x0223c;18&#x0202f;000 genes products in varieties
+of human tissues and hematopoietic cells) were completed from &#x0223c;2000
+LC&#x02013;MS/MS runs using several months of MS instrument time by
+two research groups.<sup><xref ref-type="bibr" rid="ref29">29</xref>,<xref ref-type="bibr" rid="ref30">30</xref></sup></p><p>Although significant progress
+has been achieved to identify deep
+mammalian proteome, there is no systematic report on the adjustment
+of parameters for ultralong LC&#x02013;MS/MS runs to optimize protein
+identification on a genome wide scale. To obtain an in-depth coverage
+of mammalian proteome, we determined to further optimize key steps
+in the LC&#x02013;MS/MS platform, following our previous optimization
+work using a regular short column (75 &#x003bc;m &#x000d7; 12 cm).<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> In this study, we described a stepwise analysis
+to tune shotgun proteomics parameters using an in-house manufactured
+150 cm LC column coupled to Q Exactive MS. The optimization process
+consisted of more than 30 LC&#x02013;MS/MS runs of analyzing mammalian
+tissue (e.g., rat brain). Finally, we used the optimized LC/LC&#x02013;MS/MS
+platform to process a human brain specimen of Alzheimer&#x02019;s disease
+(AD) and identified more than 10&#x0202f;000 proteins, covering more
+than 60% of the expressed proteome.</p></sec><sec sec-type="methods" id="sec2"><title>Experimental Procedures</title><sec id="sec2.1"><title>Construction
+of 100 &#x003bc;m &#x000d7; 150 cm Analytical Columns</title><p>The capillary
+column of 150 cm in length and 100 &#x003bc;m inner
+diameter (ID) was packed in-house following the previously reported
+protocol with modifications.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> This column
+consisted of two segments, namely, one 110 cm long blunt end-capillary
+column and one 40 cm long capillary column with a 15 &#x003bc;m opening
+tip. To make the blunt end column, we dipped 100 &#x003bc;m ID fused
+silica tubing into the activated silicate solution (Next Advance,
+NY), briefly followed by heating to 100 &#x000b0;C on a heater plate
+for 1 min before the ejection of excess silicate solution. Then, the
+frit was further heated for another hour at 100 &#x000b0;C and cut to
+2 mm in length. The capillary tubing was washed with methanol thoroughly.
+The blunt end column was then packed with slurry of Magic C18 AQ 200
+beads (5 &#x003bc;m) at a concentration of 30 mg/mL in methanol. A bed
+length of 110 cm was obtained after 6 h of continuous packing at 2800
+psi using a Pressure Injection Cell system (Next Advance, NY). The
+second segment of capillary column was packed similarly to 40 cm in
+length using Self-Pack PicoFrit column (New Objective, 15 &#x003bc;m
+tip opening, 100 &#x003bc;m ID, cat no. PF360-100-N-5). Finally, two
+columns were connected through a metal union with zero dead volume
+(Upchurch Scientific, NY).</p></sec><sec id="sec2.2"><title>Protein Extraction and Digestion from the
+Rat Brain and AD Brain</title><p>Human tissues of prefrontal cortical
+regions were provided by the
+Brain and Body Donation Program at Banner Sun Health Research Institute.
+The AD case with short post-mortem interval (&#x0003c;3 h) was clinically
+and pathologically characterized in accordance with established criteria.<sup><xref ref-type="bibr" rid="ref32">32</xref></sup> This study was approved by Banner Sun Health
+Research Institute. Adult rat brains were purchased from Pel Freez
+Biologicals, and rat brain peptides were prepared as previously described.<sup><xref ref-type="bibr" rid="ref33">33</xref></sup> The cerebral cortex of AD brain was homogenized
+in 100 &#x003bc;L of lysis buffer (0.1 M Tris, pH 8.5, 8 M urea, 0.15%
+sodium deoxycholate) at 4 &#x000b0;C using 0.5 mm glass beads for 5 min
+in a Bullet Blender instrument (Next Advance).<sup><xref ref-type="bibr" rid="ref34">34</xref>,<xref ref-type="bibr" rid="ref35">35</xref></sup> The entire cell lysate without clarification of the insoluble materials
+was digested with Lys-C (Wako, 200:1 by weight) at room temperature
+for 0.5 h in the lysis buffer, followed by trypsin digestion (Promega,
+200:1 by weight) in 2 M urea, 0.1 M Tris-HCl, pH 8.5 at room temperature
+overnight. The peptides were then acidified with 0.15% TFA, precleared
+by centrifugation, desalted with Sep-Pak C18 SPE column (Waters),
+and eluted with 40% acetonitrile (ACN) plus 0.1%TFA. The eluent was
+dried and stored at &#x02212;80 &#x000b0;C for further usage.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> Protein quantification was carried out by short
+SDS-gel-based staining and BCA method.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup></p></sec><sec id="sec2.3"><title>Basic pH LC Fractionation of Peptides</title><p>The desalted
+peptides from AD brain were resuspended in 10 mM ammonium formate
+pH 8 at a concentration of 10 mg/mL. Basic pH HPLC was performed on
+a 4.6 mm &#x000d7; 250 mm Xbridge C18 column (Waters, 3.5 &#x003bc;m bead
+size) using Agilent 1270 HPLC instrument. About 400 &#x003bc;g peptides
+were loaded on the column and HPLC gradient started at 90% solvent
+A (10 mM ammonium formate, pH 8.0) for 5 min and went up to 50% solvent
+B (90% acetonitrile, 10 mM ammonium formate, pH 8.0) during a 50 min
+time period, followed by a steep increase to 90% B within 5 min at
+a flow rate of 0.4 mL/min. The eluted peptides were collected into
+60 fractions, and every 6 fractions were combined into 10 subfractions
+in a concatenated pattern to ensure that each subfraction contained
+similar complexity of hydrophilic and hydrophobic peptides.<sup><xref ref-type="bibr" rid="ref36">36</xref>&#x02212;<xref ref-type="bibr" rid="ref38">38</xref></sup> The subfractions were then dried and stored at &#x02212;80 &#x000b0;C
+for further analysis.</p></sec><sec id="sec2.4"><title>Protein Identification by LC&#x02013;MS/MS</title><p>Dried peptides
+were dissolved in 5% formic acid and 0.1% TFA. Peptides were loaded
+on a 100 &#x003bc;m &#x000d7; 150 cm column using a nano ACQUITY UHPLC
+(Waters) system that was interfaced to a Q Exactive MS (Thermo Fisher
+Scientific) through a nanoelectrospray ion source.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> Peptides were separated by a designed gradient as indicated
+(solvent A: 0.2% formic acid; solvent B: 70% ACN, 0.2% formic acid).
+The peak capacity at each gradient time was calculated using formula <italic>p</italic> = 1 + <italic>t</italic><sub>g</sub>/<italic>w</italic>, where <italic>t</italic><sub>g</sub> is the time of the gradient
+and <italic>w</italic> is the average peak width across entire LC
+runs.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> The peak width of individual LC
+run was estimated by averaging the chromatographic peak width (4&#x003c3;,
+where 2&#x003c3; is defined as fwhm of the corresponding extracted ion
+chromatograms) of major peptide ions. Peptides in the 10 basic pH
+LC subfractions were resolved similarly on this long column using
+a 540 min, 15&#x02013;65% buffer B linear gradient. The Q Exactive
+was operated in a data-dependent mode switching between full scan
+MS and up to 20 MS/MS acquisitions. The survey scans with an <italic>m</italic>/<italic>z</italic> range of 300&#x02013;1600 were acquired
+in the Orbitrap with 35&#x0202f;000 resolution at <italic>m</italic>/<italic>z</italic> = 200 and a predicted AGC value of 1 &#x000d7; 10<sup>6</sup> with maximal ion time of 60 ms. The ions detected in survey
+scans were then sequentially isolated and fragmented by HCD at normalized
+collision energy of 28 eV. The maximal ion injection time for MS/MS
+was set to 60 ms at a resolution of 17&#x0202f;500 or 128 ms with a
+resolution of 35&#x0202f;000. Isolation of precursor ions was performed
+at 1.6 <italic>m</italic>/<italic>z</italic> window. Different dynamic
+exclusion times were evaluated to maximize peptide identification
+including 10, 20, 40, and 60 s. At last, 20 s was chosen for AD brain
+samples. For GPF method, the operation of Q Exactive MS was similar
+to the non-GPF method with minor modifications. The entire <italic>m</italic>/<italic>z</italic> range for MS1 was 300&#x02013;1600 but
+was divided into multiple <italic>m</italic>/<italic>z</italic> subsections,
+which were described in the <xref rid="sec3" ref-type="other">Results and Discussion</xref> section. Each <italic>m</italic>/<italic>z</italic> subsection had
+10 <italic>m</italic>/<italic>z</italic> overlapping with adjacent
+subsections.<sup><xref ref-type="bibr" rid="ref25">25</xref>,<xref ref-type="bibr" rid="ref40">40</xref></sup> For data acquisition of GPF,
+the cycle started at the first <italic>m</italic>/<italic>z</italic> subsection of MS1 acquisition, and its data-dependent MS/MS was
+followed by the second <italic>m</italic>/<italic>z</italic> subsection
+of MS1 acquisition and its data-dependent MS/MS until the full <italic>m</italic>/<italic>z</italic> range in MS1 was covered.</p></sec><sec id="sec2.5"><title>Database Search
+and Analysis</title><p>The acquired raw MS data
+were processed with an in-house data-processing pipeline as previously
+reported.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> Briefly, the MS raw data were
+converted to mzXML format using ReAdW software. Up to six precursor
+ions were selected for a mixed MS/MS spectrum. The search was performed
+by the SEQUEST algorithm (version 28 revision 13)<sup><xref ref-type="bibr" rid="ref41">41</xref></sup> against a composite target/decoy human or rat protein database.<sup><xref ref-type="bibr" rid="ref42">42</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> The target human protein database was generated from Uniprot (combined
+Swissprot and Tremble) human database containing 71&#x0202f;809 protein
+entries. The target rat protein database contained 35&#x0202f;570 protein
+entries. Spectra were searched with &#x000b1;10 ppm for precursor ion
+mass tolerance, &#x000b1; 0.02 Da for fragment ion mass tolerance, fully
+tryptic restriction, dynamic mass shift for oxidized Met (+15.9949),
+two maximal missed cleavages, and three maximal modification sites.
+Only <italic>a</italic>, <italic>b</italic>, and <italic>y</italic> ions were considered during the search. The peptide spectrum matches
+(PSMs) were first filtered by the length of matched peptides (removal
+of PSMs with six or fewer amino acids) and then by mass accuracy.
+The survival PSMs were further filtered by matching scores to achieve
+unique protein identification (grouped using parsimony algorithm)
+at 1% FDR. To perform integrative analysis with RNaseq data, we converted
+UniProt IDs to official gene symbols according to UCSC annotation
+(downloaded on 01/23/14). For each gene, the number of accepted PSMs
+was calculated and further normalized by gene length.</p></sec><sec id="sec2.6"><title>RNA-seq Analysis</title><p>Total RNA was extracted from &#x0223c;20
+mg inferior frontal cortex of the same AD brain for proteomics study
+using the RNeasy mini kit (Qiagen).<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> On-column
+DNA digestion was performed to eliminate the endogenous genomic DNA
+contaminants. The mRNA samples were purified by poly(dT) beads and
+then fragmented before reverse transcription. The paired end adaptors
+were used to ligate the processed double-stranded cDNA fragments.
+The sequencing was carried out on the Illumina Genome Analyzer IIx
+platform. Using BWA (0.5.10) aligner, RNaseq reads were aligned to
+multiple databases, including human genome (GRCh37), human transcriptome
+(RefSeq and AceView), and all possible combinations of RefSeq exons.
+Finally, the reads mapped to the transcriptome were converted to genomic
+mapping and merged together in the final output BAM files.</p></sec></sec><sec id="sec3"><title>Results
+and Discussion</title><sec id="sec3.1"><title>Installation of a Long Gradient LC&#x02013;MS/MS
+Platform</title><p>We packed a 100 &#x003bc;m &#x000d7; 150 cm nano LC column
+using 5 &#x003bc;m
+C18 beads and interfaced this column with a Q Exactive MS for deep
+shotgun proteomic analysis of mammalian proteome (Figure <xref rid="fig1" ref-type="fig">1</xref>A). Recently, the Marto group<sup><xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref23">23</xref></sup> has shown that nano LC columns packed with large beads (e.g., 5
+&#x003bc;m) in extended length (up to 1 m) perform as efficiently as
+nano HPLC columns packed with sub 2 &#x003bc;m C18 beads for the separation
+of mammalian protein digest complexes, but the one meter column was
+operated at a flow rate of 5&#x02013;10 nL/min under 1500 psi with
+a regular HPLC system. Although the extremely low flow rate may improve
+ionization sensitivity, it is not optimal for resolving peptides on
+the majority of nano LC&#x02013;MS/MS platforms that typically run
+in the range of 150 to 300 nL/min.<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref44">44</xref></sup> The current
+long LC system normally flowed at 300 nL/min with backpressure of
+7500 psi. When heating the column to 60 &#x000b0;C with lower flow rate
+of 150 nL/min, this backpressure was reduced to &#x0223c;3000 psi.
+To achieve stable electrospray ionization of the eluted peptides,
+we split the column into two portions (110 and 40 cm) and connected
+them by a metal zero dead volume union where the voltage was applied.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>Evaluation
+of the reproducibility of long LC column coupled to
+Q Exactive MS. (A) Illustration of the setup of long LC column (100
+&#x003bc;m &#x000d7; 150 cm, 5 &#x003bc;m C18 particles) coupled to Q Exactive
+MS. (B) Base peak chromatographs of three technically repeated runs.
+About 1 &#x003bc;g of rat brain tryptic peptide mixture was loaded on
+the column and then eluted in a 10&#x02013;45% acetonitrile gradient
+over 4 h. (C) Comparison of accepted peptide spectrum matches (PSMs),
+peptide, and protein identifications.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2014-00882h_0001" id="gr1" position="float"/></fig><p>To evaluate the reproducibility of this system, we examined
+the
+run-to-run variation by repeated LC&#x02013;MS/MS analyses. The rat
+brain tryptic peptide mixture was used for the optimization of the
+system because of similar compositions and dynamic ranges between
+human and rat brain proteomes. The rat brain peptide mixture (&#x0223c;1
+&#x003bc;g) was analyzed three times on this column during a 4 h run.
+Base peak profiles for the replicates were almost identical (Figure <xref rid="fig1" ref-type="fig">1</xref>B) with the retention time shifts of &#x0003c;1 min.
+After database search and filtering, the relative standard deviations
+of accepted PSMs, unique peptides, and proteins were 2.5, 2.1, and
+0.6%, respectively (Figure <xref rid="fig1" ref-type="fig">1</xref>C). This result
+strongly indicated high reproducibility of the LC&#x02013;MS/MS platform.
+The same column was used for the entire optimization process, comprising
+more than 100 runs, and no obvious column deterioration was observed.</p></sec><sec id="sec3.2"><title>Optimization of LC Parameters</title><p>Increasing LC loading
+capacity is one of the leading approaches to maximize peptide detection
+in shotgun proteomics analysis.<sup><xref ref-type="bibr" rid="ref45">45</xref></sup> We examined
+the effect of peptide loading amount on peptide and protein identifications
+using this ultralong capillary LC column. When the loading amount
+of rat brain peptides was increased from 0.2 to 6 &#x003bc;g, the identified
+peptides and proteins were increased by 60.6 (from 12&#x0202f;159 to
+19&#x0202f;529) and 39.9% (from 2105 to 2948), respectively (Figure <xref rid="fig2" ref-type="fig">2</xref>A, <xref rid="fig2" ref-type="fig">2</xref>B). However, further
+addition of loading amount to 20 &#x003bc;g resulted in only 1.4% gain
+of peptides and 0.9% gain of proteins. Consistently, the ion intensities
+of peptides exemplified by one 14&#x02013;3&#x02013;3 peptide and one
+TBB3 peptide were increased by &#x0223c;10-fold or 3.8-fold, respectively,
+when the loading amount was increased from 0.6 to 6 &#x003bc;g (<xref rid="notes-3" ref-type="notes">Figure S1 in the Supporting Information</xref>). However,
+further improving the loading to 20 &#x003bc;g did not lead to stronger
+ion intensity. This result suggested that the optimal loading amount
+of peptides for the current system was &#x0223c;6 &#x003bc;g, which was
+six times higher than the optimal loading amount on a regular capillary
+LC column (e.g., 75 &#x003bc;m &#x000d7; 12 cm) and twice as much as the
+regular loading amount reported on other long LC columns.<sup><xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup></p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Optimization of the loading amount of
+rat brain peptides for LC&#x02013;MS/MS
+identification. Various amounts of rat brain peptides were loaded
+on the long column and analyzed by a 4 h gradient. (A) Number of detected
+peptides with different loading levels. (B) Protein identification
+with different loading levels. (C) Effect of different peptide loading
+amount on the global distribution of peak width for major peptide
+ions. (D) The effect of loading amounts on the peak width of protein
+TBB3 peptide NSSYFVEWIPNNVK.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2014-00882h_0002" id="gr2" position="float"/></fig><p>Next, we examined the impact of increased peptide loading
+amount
+on the LC peak width (Figure <xref rid="fig2" ref-type="fig">2</xref>C). In general,
+the average peak width increased only &#x0223c;20% (from 0.65 to 0.77
+min) when the loading amount varied from 0.6 to 20 &#x003bc;g, indicating
+that this column has high loading capacity and reasonable performance
+during chromatography. Interestingly, when loading 20 &#x003bc;g of
+peptides, we found that a fraction of strong peaks showed significantly
+peak broadening (Figure <xref rid="fig2" ref-type="fig">2</xref>D), which may result
+in ion suppression of adjacent weak peptides. This observation may
+also contribute to no gain of identified peptides at 20 &#x003bc;g loading.
+To balance the benefit of peak intensity and disadvantage of peak
+broadening, we selected &#x0223c;6 &#x003bc;g peptides as a standard
+loading level on this LC&#x02013;MS/MS platform.</p><p>It is desirable
+to select a LC gradient range in which the number
+of identified peptides in unit time across the entire LC gradient
+region is similar to utilize MS instrument efficiently in the shotgun
+proteomics platform.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> We evaluated the
+LC gradient for the long column and found that the optimal gradient
+was in a linear gradient range of 10&#x02013;45% ACN (Figure <xref rid="fig3" ref-type="fig">3</xref>). Over 98% of the identified peptides were eluted
+within this gradient range during a 4 h run, and about 78.3 &#x000b1;
+21.6 peptides were identified per min. Interestingly, the reported
+optimal LC gradient range for mammalian cellular tryptic peptide mixture
+was about 10&#x02013;30% of ACN for both regular 12 cm column and long
+LC column (up to 50 cm).<sup><xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup> However, only about half of the
+peptides were eluted at 30% of ACN on this extra-long column, suggesting
+that higher organic gradient was required for efficient elution of
+mammalian cellular peptide complex on ultralong C18 LC columns.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> This observation may be explained by the increasing
+interaction between peptides and C18 beads created by the long distance
+through which peptides have to travel.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Optimization of the LC
+gradient buffer for peptide elution. &#x0223c;2
+&#x003bc;g of peptides was loaded on the long column and eluted in a
+10&#x02013;45% gradient of acetonitrile over 4 h. The LC elution profile
+was represented by total ion current (solid black line) along with
+the gradient (dotted black line). The number of identified peptides
+every 2 min was plotted (solid red line). About 157 &#x000b1; 42 peptides
+were identified in every two min.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2014-00882h_0003" id="gr3" position="float"/></fig><p>To determine the optimal gradient time for peptide and protein
+identifications on this system, we tested various LC gradients ranging
+from 2 to 12 h. We first calculated the average peptide peak width
+of major peptide ions across the entire elution and then derived the
+corresponding peak capacity for each gradient (Figure <xref rid="fig4" ref-type="fig">4</xref>A). When the peak capacities were plotted as a function of
+gradient time, a positive correlation was observed between peak capacity
+and gradient time. The peak capacity reached its maximum of 730, similar
+to the reported peak capacities of other nano LC columns used for
+in-depth proteomics analysis.<sup><xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> Next, we investigated
+whether the increased peak capacities can lead to more peptide identifications.
+As expected, the number of PSMs was increased proportionally to the
+extended gradient time, while the number of identified peptides and
+proteins also followed this trend (Figure <xref rid="fig4" ref-type="fig">4</xref>B). The number of detected peptides and proteins almost reached plateau
+at 12 h gradient with the identification of 23&#x0202f;884 peptides
+and 3484 proteins from 46&#x0202f;711 PSMs. Interestingly, there was
+a linear correlation (<italic>R</italic><sup>2</sup> = 0.985) between
+the peak capacity and the number of identified peptides (Figure <xref rid="fig4" ref-type="fig">4</xref>C), supporting the notion that peak capacity is
+a major factor for optimizing LC&#x02013;MS/MS-based peptide identification.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup></p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Optimization of the LC gradient time for peptide elution.
+(A) Peak
+capacities plotted against gradient time. Peak capacities were calculated
+by dividing the average peak width of major peptide ions in a LC run
+over entire gradient time. (B) Correlation between the number of identified
+peptides/proteins and gradient time. (C) Number of detected peptides
+was in a linear relationship with the peak capacity.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2014-00882h_0004" id="gr4" position="float"/></fig></sec><sec id="sec3.3"><title>Evaluation of MS Parameters</title><p>One
+interesting finding
+was that MS sequencing efficiency was reduced when LC gradient time
+was extended on the long column, evidenced by a steady decline of
+the ratios of summed MS2 scans versus MS1 scans (<xref rid="notes-3" ref-type="notes">Figure S2A in the Supporting Information</xref>). This result suggested
+that there was not a sufficient number of ions detected in survey
+MS1 scans to trigger MS2 scans. Because GPF is capable of detecting
+weak sample ions within a narrow <italic>m</italic>/<italic>z</italic> range but it takes multiple MS1 scans to cover a full scan region,<sup><xref ref-type="bibr" rid="ref24">24</xref>,<xref ref-type="bibr" rid="ref25">25</xref></sup> we assessed the function of GPF to improve the MS sequencing efficiency.
+The <italic>m</italic>/<italic>z</italic> subsections of GPF were
+determined experimentally to contain the same number of PSMs in each
+subsection of <italic>m</italic>/<italic>z</italic> windows using
+rat brain peptides as a testing sample. During a 4 h LC&#x02013;MS/MS
+analysis, one, two, three, and four <italic>m</italic>/<italic>z</italic> subsections in a full <italic>m</italic>/<italic>z</italic> range
+of MS1 were tested (<xref rid="notes-3" ref-type="notes">Table S1 in the Supporting
+Information</xref>). Compared with no GPF, the implementation of GPF
+of three subsections exhibited the highest ratio of MS2/MS1 scans
+(<xref rid="notes-3" ref-type="notes">Figure S2B in the Supporting Information</xref>) and led to 11.3 and 15.4% increase in the number of identified
+peptides and proteins, respectively (<xref rid="notes-3" ref-type="notes">Figure S2C
+in the Supporting Information</xref>). Thus, the GFP of three subsections
+was chosen for later experiments.</p><p>To further optimize the sequencing
+efficiency of MS, we evaluated the effect of different dynamic exclusion
+time of MS on the identification of peptides and proteins. In a 4
+h LC gradient on the long LC column, the number of PSMs, peptides,
+and proteins was the highest at 20 s dynamic exclusion time (<xref rid="notes-3" ref-type="notes">Figure S3 in the Supporting Information</xref>). Because
+the calculated average peak width was &#x0223c;40 s for the 4 h LC
+gradient, each <italic>m</italic>/<italic>z</italic> ion would be
+analyzed about twice. Reduction of the dynamic exclusion time from
+20 to 10 s leads to 22 and 15% drop in the number of peptide and protein
+identifications, respectively, even though the MS2/MS1 ratio reached
+the highest number of 10. This result clearly showed the redundant
+sampling at 10 s dynamic exclusion time because of repetitive sequencing
+of the same peptide ions. We observed 1.9% decrease in the number
+of peptide and protein identifications and &#x0003e;23% dropping of PSMs
+at
+40 s dynamic exclusion time. Therefore, the dynamic exclusion time
+was set at 20 s for the 4 h LC gradient.</p></sec><sec id="sec3.4"><title>Deep Proteomic Analysis
+of AD Brain</title><p>We then used the
+optimized conditions to explore the entire proteome of AD brain (Figure <xref rid="fig5" ref-type="fig">5</xref>A). About 400 &#x003bc;g of protein was extracted
+from the tissue and subjected to Lys-C and trypsin digestion. We digested
+the entire cell lysate without the removal of cell debris to increase
+the coverage of membrane and nucleus proteins as a recent study suggested.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> Basic pH reverse-phase LC was performed to prefractionate
+AD brain peptides because it provides better resolution and loading
+capacity than other methods (e.g., SCX, HILIC) and good orthogonality
+to acidic reverse-phase LC (Figure <xref rid="fig5" ref-type="fig">5</xref>B).<sup><xref ref-type="bibr" rid="ref21">21</xref>,<xref ref-type="bibr" rid="ref36">36</xref></sup> We collected 10 basic pH LC fractions and analyzed each fraction
+on the acidic pH LC&#x02013;MS/MS system in a 9 h gradient time. Total
+MS instrument time was &#x0223c;4 days, which is comparable to other
+reported instrument times required for in-depth proteomes analysis
+varying from 1 to 2 weeks.<sup><xref ref-type="bibr" rid="ref23">23</xref>,<xref ref-type="bibr" rid="ref26">26</xref>,<xref ref-type="bibr" rid="ref46">46</xref></sup> A total of 1&#x0202f;695&#x0202f;626 high-resolution MS/MS spectra
+were acquired, identifying 629&#x0202f;747 PSMs (37% successful rate),
+96&#x0202f;127 peptides, and 10&#x0202f;544 proteins when protein FDR
+was controlled at 1%. On average, each peptide was identified by MS
+for about seven times. In each basic pH LC fraction, the average number
+of detected peptides and proteins were 119&#x0202f;303 &#x000b1; 651 and
+4701 &#x000b1; 119, respectively (Figure <xref rid="fig5" ref-type="fig">5</xref>C).
+Nearly 80% of peptides were solely identified in one fraction and
+&#x0223c;95% of peptides were only found in one or two fractions, suggesting
+high partitioning of peptides within each fraction (Figure <xref rid="fig5" ref-type="fig">5</xref>D).</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Deep proteomics analysis of AD brain tissue. (A) Flowchart
+of the
+procedure. (B) Chromatograph of basic pH RPLC prefractionation of
+peptides (upper panel) monitored at 214 nm and an example base peak
+chromatograph of acidic pH long gradient RPLC&#x02013;MS/MS (lower
+panel).(C) Basic pH RPLC fractionation yielded even partitioning of
+peptides, which led to similar number of identified proteins in concaternated,
+pooled fractions. (D) Majority of the peptides was solely identified
+in one fraction.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2014-00882h_0005" id="gr5" position="float"/></fig><p>To evaluate the depth
+of AD brain proteome analyzed in this pilot
+study, we performed deep RNA-seq analysis of the same sample and compared
+the proteome data with transcriptome results. We identified 16&#x0202f;670
+protein coding genes by RNA expression, similar to the result in previous
+transcriptomic analysis of human brain.<sup><xref ref-type="bibr" rid="ref47">47</xref></sup> The abundance of each transcript was calculated as reads in fragment
+per kilobase of exon per million fragments mapped (FPKM). A total
+of 10&#x0202f;161 human genes were detected in AD brain proteome, corresponding
+to 61% of the expressed genes (Figure <xref rid="fig6" ref-type="fig">6</xref>A).
+Next, we investigated the correlation between transcript and protein
+levels in our study. The protein level was indicated by a spectral
+counting based method,<sup><xref ref-type="bibr" rid="ref48">48</xref></sup> in which the total
+number of spectral counts for every protein was summed and normalized
+by the length of protein sequence (spectral counts per thousand amino
+acids) to adjust the bias created by protein size. We observed a modest
+correlation between the RNA and protein levels (Spearman correlation
+= 0.62, Figure <xref rid="fig6" ref-type="fig">6</xref>B), which was consistent with
+the conclusions of other studies (Spearman correlation = 0.4 to 0.6).<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> Taken together, our data suggested that the
+utilization of the current optimized LC/LC&#x02013;MS/MS platform covers
+the majority of AD brain proteome.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Comparison of deep proteomics and RNA-seq
+data from the same AD
+brain tissue. (A) Histogram of FPKM distribution of RNA-seq and proteomics
+data. The open bar represents the distribution of protein coding gene
+numbers detected by RNaseq, and the gray bar indicates the distribution
+of protein coding gene numbers validated by MS with different FPKM
+values. (B) Scatter plot of spectra counts per thousand amino acid
+of proteomic data versus FPKM of RNA-seq data.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2014-00882h_0006" id="gr6" position="float"/></fig><p>The multidimensional LC&#x02013;MS/MS system presented here
+was
+robust with no instrument down time during the entire process of deep
+proteomic analysis. By heating the LC column to 60 &#x000b0;C, this LC&#x02013;MS/MS
+system can be operated under regular pressure limit (&#x0223c;3000
+psi with 0.15 &#x003bc;L/min flow rate), reducing potential problem
+of overpressure. It is conceivable that extensive prefractionation
+of peptides during basic pH LC separation would further reduce sample
+complexity and improve dynamic range in the prefractionated pools
+to further enhance the identification of extremely low-abundance proteins.
+At last, the combination of our long column LC/LC&#x02013;MS/MS platform
+with the newly introduced Orbitrap Fusion Tribrid mass spectrometer
+would also allow considerably deeper proteomics analysis due to its
+higher scan rate and peptide identification efficiency than the Q
+Exactive MS instrument used in this study.<sup><xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref49">49</xref></sup></p></sec></sec><sec sec-type="conclusions" id="sec4"><title>Conclusions</title><p>We have demonstrated a reverse-phase-based,
+multidimensional long
+gradient LC&#x02013;MS/MS platform suitable for deep proteomics analysis.
+We systematically examined and optimized various parameters of a 100
+&#x003bc;m &#x000d7; 150 cm LC column packed with 5 &#x003bc;m reverse-phase
+C18 beads. The column exhibits great robustness and reproducibility
+together with high peak capacity (&#x0223c;700) and loading capacity
+(optimal at 6 &#x003bc;g). Using this column in conjunction with basic
+pH LC and Q Exactive MS with GPF, the identification of a deep proteome
+of AD brain (&#x0003e;10&#x0202f;000 proteins) was achieved in &#x0223c;4
+days
+of MS instrument time.</p></sec></body><back><notes id="notes-3" notes-type="si"><title>Supporting Information Available</title><p>Table S1: MS1 <italic>m</italic>/<italic>z</italic> ranges selected for MS/MS in GPF method. Figure
+S1: Extracted base peak ion intensity of two peptides: LAEQAER of
+14&#x02013;3&#x02013;3 &#x003b3; protein and NSSYFVEWIPNNVK
+of TBB3 protein at different loading amounts. Figure S2: Improvement
+of peptide identification by GPF. Figure S3: Impact of dynamic exclusion
+time on protein and peptide identifications. This material is available
+free of charge via the Internet at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pubs.acs.org">http://pubs.acs.org</uri>.</p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr500882h_si_001.pdf"><caption><p>pr500882h_si_001.pdf</p></caption></media></supplementary-material></sec><notes id="notes-1"><title>Author Contributions</title><p><sup>&#x025bd;</sup> H.W. and
+Z.W. contributed equally to this work.</p></notes><notes id="notes-2" notes-type="conflict-of-interest"><p>The authors
+declare no competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>We thank all lab and
+proteomics facility members for helpful
+discussion. This work was partially supported by NIH grant R21AG039764,
+R21NS081571, U24NS072026, P30AG19610, Arizona Department of Health
+Services (contract 211002), the Arizona Biomedical Research Commission
+(contracts 4001, 0011, 05-901, and 1001), the Michael J. Fox Foundation,
+and ALSAC (American Lebanese Syrian Associated Charities). The MS
+analysis was performed in the St. Jude Children&#x02019;s Research
+Hospital Proteomics Facility, partially supported by NIH Cancer Center
+Support Grant (P30CA021765).</p></ack><glossary id="dl1"><def-list><title>Abbreviations:</title><def-item><term>LC</term><def><p>liquid chromatography</p></def></def-item><def-item><term>MS</term><def><p>mass spectrometry</p></def></def-item><def-item><term>FDR</term><def><p>false discovery rate</p></def></def-item><def-item><term>AD</term><def><p>Alzheimer&#x02019;s
+disease</p></def></def-item><def-item><term>SAX</term><def><p>strong
+anion exchange</p></def></def-item><def-item><term>SCX</term><def><p>strong cation exchange</p></def></def-item></def-list></glossary><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Low</surname><given-names>T. Y.</given-names></name>; <name><surname>van Heesch</surname><given-names>S.</given-names></name>; <name><surname>van den Toorn</surname><given-names>H.</given-names></name>; <name><surname>Giansanti</surname><given-names>P.</given-names></name>; <name><surname>Cristobal</surname><given-names>A.</given-names></name>; <name><surname>Toonen</surname><given-names>P.</given-names></name>; <name><surname>Schafer</surname><given-names>S.</given-names></name>; <name><surname>Hubner</surname><given-names>N.</given-names></name>; <name><surname>van Breukelen</surname><given-names>B.</given-names></name>; <name><surname>Mohammed</surname><given-names>S.</given-names></name>; <name><surname>Cuppen</surname><given-names>E.</given-names></name>; <name><surname>Heck</surname><given-names>A. J.</given-names></name>; <name><surname>Guryev</surname><given-names>V.</given-names></name>
+<article-title>Quantitative
+and qualitative proteome characteristics
+extracted from in-depth integrated genomics and proteomics analysis</article-title>. <source>Cell Rep.</source>
+<year>2013</year>, <volume>5</volume><issue>5</issue><fpage>1469</fpage>&#x02013;<lpage>1478</lpage>.<pub-id pub-id-type="pmid">24290761</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Fonslow</surname><given-names>B. R.</given-names></name>; <name><surname>Shan</surname><given-names>B.</given-names></name>; <name><surname>Baek</surname><given-names>M. C.</given-names></name>; <name><surname>Yates</surname><given-names>J. R.</given-names><suffix>3rd.</suffix></name>
+<article-title>Protein analysis by shotgun/bottom-up proteomics</article-title>. <source>Chem. Rev.</source>
+<year>2013</year>, <volume>113</volume><issue>4</issue><fpage>2343</fpage>&#x02013;<lpage>94</lpage>.<pub-id pub-id-type="pmid">23438204</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Aebersold</surname><given-names>R.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Mass spectrometry-based proteomics</article-title>. <source>Nature</source>
+<year>2003</year>, <volume>422</volume><issue>6928</issue><fpage>198</fpage>&#x02013;<lpage>207</lpage>.<pub-id pub-id-type="pmid">12634793</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Giddings</surname><given-names>J.
+C.</given-names></name>
+<article-title>Maximum
+Number of Components Resolvable by Gel Filtration and Other Elution
+Chromatographic Methods</article-title>. <source>Anal. Chem.</source>
+<year>1967</year>, <volume>39</volume><issue>8</issue><fpage>2</fpage>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Shen</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>R.</given-names></name>; <name><surname>Moore</surname><given-names>R. J.</given-names></name>; <name><surname>Kim</surname><given-names>J.</given-names></name>; <name><surname>Metz</surname><given-names>T. O.</given-names></name>; <name><surname>Hixson</surname><given-names>K. K.</given-names></name>; <name><surname>Zhao</surname><given-names>R.</given-names></name>; <name><surname>Livesay</surname><given-names>E. A.</given-names></name>; <name><surname>Udseth</surname><given-names>H. R.</given-names></name>; <name><surname>Smith</surname><given-names>R. D.</given-names></name>
+<article-title>Automated 20 kpsi RPLC-MS and MS/MS
+with chromatographic
+peak capacities of 1000&#x02013;1500 and capabilities in proteomics
+and metabolomics</article-title>. <source>Anal. Chem.</source>
+<year>2005</year>, <volume>77</volume><issue>10</issue><fpage>3090</fpage>&#x02013;<lpage>100</lpage>.<pub-id pub-id-type="pmid">15889897</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Shen</surname><given-names>Y.</given-names></name>; <name><surname>Zhao</surname><given-names>R.</given-names></name>; <name><surname>Berger</surname><given-names>S. J.</given-names></name>; <name><surname>Anderson</surname><given-names>G. A.</given-names></name>; <name><surname>Rodriguez</surname><given-names>N.</given-names></name>; <name><surname>Smith</surname><given-names>R. D.</given-names></name>
+<article-title>High-efficiency
+nanoscale liquid chromatography coupled
+on-line with mass spectrometry using nanoelectrospray ionization for
+proteomics</article-title>. <source>Anal. Chem.</source>
+<year>2002</year>, <volume>74</volume><issue>16</issue><fpage>4235</fpage>&#x02013;<lpage>4249</lpage>.<pub-id pub-id-type="pmid">12199598</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Mellors</surname><given-names>J. S.</given-names></name>; <name><surname>Jorgenson</surname><given-names>J. W.</given-names></name>
+<article-title>Use of
+1.5-microm porous ethyl-bridged hybrid particles
+as a stationary-phase support for reversed-phase ultrahigh-pressure
+liquid chromatography</article-title>. <source>Anal. Chem.</source>
+<year>2004</year>, <volume>76</volume><issue>18</issue><fpage>5441</fpage>&#x02013;<lpage>5450</lpage>.<pub-id pub-id-type="pmid">15362905</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Thakur</surname><given-names>S. S.</given-names></name>; <name><surname>Geiger</surname><given-names>T.</given-names></name>; <name><surname>Chatterjee</surname><given-names>B.</given-names></name>; <name><surname>Bandilla</surname><given-names>P.</given-names></name>; <name><surname>Frohlich</surname><given-names>F.</given-names></name>; <name><surname>Cox</surname><given-names>J.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Deep and highly
+sensitive proteome coverage by LC-MS/MS
+without prefractionation</article-title>. <source>Mol. Cell. Proteomics</source>
+<year>2011</year>, <volume>10</volume><issue>8</issue><fpage>M110 003699</fpage>.<pub-id pub-id-type="pmid">21586754</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Burgess</surname><given-names>M. W.</given-names></name>; <name><surname>Keshishian</surname><given-names>H.</given-names></name>; <name><surname>Mani</surname><given-names>D. R.</given-names></name>; <name><surname>Gillette</surname><given-names>M. A.</given-names></name>; <name><surname>Carr</surname><given-names>S. A.</given-names></name>
+<article-title>Simplified
+and efficient quantification of low-abundance proteins at very high
+multiplex via targeted mass spectrometry</article-title>. <source>Mol.
+Cell. Proteomics</source>
+<year>2014</year>, <volume>13</volume><issue>4</issue><fpage>1137</fpage>&#x02013;<lpage>1149</lpage>.<pub-id pub-id-type="pmid">24522978</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Shi</surname><given-names>T.</given-names></name>; <name><surname>Fillmore</surname><given-names>T. L.</given-names></name>; <name><surname>Gao</surname><given-names>Y.</given-names></name>; <name><surname>Zhao</surname><given-names>R.</given-names></name>; <name><surname>He</surname><given-names>J.</given-names></name>; <name><surname>Schepmoes</surname><given-names>A. A.</given-names></name>; <name><surname>Nicora</surname><given-names>C. D.</given-names></name>; <name><surname>Wu</surname><given-names>C.</given-names></name>; <name><surname>Chambers</surname><given-names>J. L.</given-names></name>; <name><surname>Moore</surname><given-names>R. J.</given-names></name>; <name><surname>Kagan</surname><given-names>J.</given-names></name>; <name><surname>Srivastava</surname><given-names>S.</given-names></name>; <name><surname>Liu</surname><given-names>A. Y.</given-names></name>; <name><surname>Rodland</surname><given-names>K. D.</given-names></name>; <name><surname>Liu</surname><given-names>T.</given-names></name>; <name><surname>Camp</surname><given-names>D. G.</given-names><suffix>2nd</suffix></name>; <name><surname>Smith</surname><given-names>R. D.</given-names></name>; <name><surname>Qian</surname><given-names>W. J.</given-names></name>
+<article-title>Long-gradient separations
+coupled with selected reaction monitoring for highly sensitive, large
+scale targeted protein quantification in a single analysis</article-title>. <source>Anal. Chem.</source>
+<year>2013</year>, <volume>85</volume><issue>19</issue><fpage>9196</fpage>&#x02013;<lpage>9203</lpage>.<pub-id pub-id-type="pmid">24004026</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Senko</surname><given-names>M. W.</given-names></name>; <name><surname>Remes</surname><given-names>P. M.</given-names></name>; <name><surname>Canterbury</surname><given-names>J. D.</given-names></name>; <name><surname>Mathur</surname><given-names>R.</given-names></name>; <name><surname>Song</surname><given-names>Q.</given-names></name>; <name><surname>Eliuk</surname><given-names>S. M.</given-names></name>; <name><surname>Mullen</surname><given-names>C.</given-names></name>; <name><surname>Earley</surname><given-names>L.</given-names></name>; <name><surname>Hardman</surname><given-names>M.</given-names></name>; <name><surname>Blethrow</surname><given-names>J. D.</given-names></name>; <name><surname>Bui</surname><given-names>H.</given-names></name>; <name><surname>Specht</surname><given-names>A.</given-names></name>; <name><surname>Lange</surname><given-names>O.</given-names></name>; <name><surname>Denisov</surname><given-names>E.</given-names></name>; <name><surname>Makarov</surname><given-names>A.</given-names></name>; <name><surname>Horning</surname><given-names>S.</given-names></name>; <name><surname>Zabrouskov</surname><given-names>V.</given-names></name>
+<article-title>Novel parallelized
+quadrupole/linear ion trap/Orbitrap tribrid mass spectrometer improving
+proteome coverage and peptide identification rates</article-title>. <source>Anal. Chem.</source>
+<year>2013</year>, <volume>85</volume><issue>24</issue><fpage>11710</fpage>&#x02013;<lpage>11714</lpage>.<pub-id pub-id-type="pmid">24251866</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Kocher</surname><given-names>T.</given-names></name>; <name><surname>Swart</surname><given-names>R.</given-names></name>; <name><surname>Mechtler</surname><given-names>K.</given-names></name>
+<article-title>Ultra-high-pressure RPLC hyphenated
+to an LTQ-Orbitrap Velos reveals a linear relation between peak capacity
+and number of identified peptides</article-title>. <source>Anal. Chem.</source>
+<year>2011</year>, <volume>83</volume><issue>7</issue><fpage>2699</fpage>&#x02013;<lpage>2704</lpage>.<pub-id pub-id-type="pmid">21388192</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Kocher</surname><given-names>T.</given-names></name>; <name><surname>Pichler</surname><given-names>P.</given-names></name>; <name><surname>Swart</surname><given-names>R.</given-names></name>; <name><surname>Mechtler</surname><given-names>K.</given-names></name>
+<article-title>Analysis of protein
+mixtures from whole-cell extracts by single-run nanoLC-MS/MS using
+ultralong gradients</article-title>. <source>Nat. Protoc.</source>
+<year>2012</year>, <volume>7</volume><issue>5</issue><fpage>882</fpage>&#x02013;<lpage>890</lpage>.<pub-id pub-id-type="pmid">22498708</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Hsieh</surname><given-names>E. J.</given-names></name>; <name><surname>Bereman</surname><given-names>M. S.</given-names></name>; <name><surname>Durand</surname><given-names>S.</given-names></name>; <name><surname>Valaskovic</surname><given-names>G. A.</given-names></name>; <name><surname>MacCoss</surname><given-names>M. J.</given-names></name>
+<article-title>Effects of column and gradient lengths
+on peak capacity
+and peptide identification in nanoflow LC-MS/MS of complex proteomic
+samples</article-title>. <source>J. Am. Soc. Mass Spectrom.</source>
+<year>2013</year>, <volume>24</volume><issue>1</issue><fpage>148</fpage>&#x02013;<lpage>153</lpage>.<pub-id pub-id-type="pmid">23197307</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Pirmoradian</surname><given-names>M.</given-names></name>; <name><surname>Budamgunta</surname><given-names>H.</given-names></name>; <name><surname>Chingin</surname><given-names>K.</given-names></name>; <name><surname>Zhang</surname><given-names>B.</given-names></name>; <name><surname>Astorga-Wells</surname><given-names>J.</given-names></name>; <name><surname>Zubarev</surname><given-names>R. A.</given-names></name>
+<article-title>Rapid and deep human proteome analysis by single-dimension
+shotgun proteomics</article-title>. <source>Mol. Cell. Proteomics</source>
+<year>2013</year>, <volume>12</volume><issue>11</issue><fpage>3330</fpage>&#x02013;<lpage>3338</lpage>.<pub-id pub-id-type="pmid">23878402</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Stoll</surname><given-names>D. R.</given-names></name>; <name><surname>Schellinger</surname><given-names>A. P.</given-names></name>; <name><surname>Carr</surname><given-names>P. W.</given-names></name>
+<article-title>Peak capacity optimization
+of peptide separations in reversed-phase gradient elution chromatography:
+fixed column format</article-title>. <source>Anal. Chem.</source>
+<year>2006</year>, <volume>78</volume><issue>10</issue><fpage>3406</fpage>&#x02013;<lpage>3416</lpage>.<pub-id pub-id-type="pmid">16689544</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Zhou</surname><given-names>F.</given-names></name>; <name><surname>Lu</surname><given-names>Y.</given-names></name>; <name><surname>Ficarro</surname><given-names>S. B.</given-names></name>; <name><surname>Webber</surname><given-names>J. T.</given-names></name>; <name><surname>Marto</surname><given-names>J. A.</given-names></name>
+<article-title>Nanoflow low pressure
+high peak capacity single dimension LC-MS/MS platform for high-throughput,
+in-depth analysis of mammalian proteomes</article-title>. <source>Anal.
+Chem.</source>
+<year>2012</year>, <volume>84</volume><issue>11</issue><fpage>5133</fpage>&#x02013;<lpage>5139</lpage>.<pub-id pub-id-type="pmid">22519751</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Zhang</surname><given-names>B.</given-names></name>; <name><surname>Pirmoradian</surname><given-names>M.</given-names></name>; <name><surname>Chernobrovkin</surname><given-names>A.</given-names></name>; <name><surname>Zubarev</surname><given-names>R. A.</given-names></name>
+<article-title>DeMix Workflow for
+Efficient Identification of Co-fragmented Peptides in High Resolution
+Data-dependent Tandem Mass Spectrometry</article-title>. <source>Mol.
+Cell. Proteomics</source>
+<year>2014</year>, <volume>13</volume><issue>11</issue><fpage>3211</fpage>&#x02013;<lpage>3223</lpage>.<pub-id pub-id-type="pmid">25100859</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Mann</surname><given-names>M.</given-names></name>; <name><surname>Kulak</surname><given-names>N. A.</given-names></name>; <name><surname>Nagaraj</surname><given-names>N.</given-names></name>; <name><surname>Cox</surname><given-names>J.</given-names></name>
+<article-title>The coming age of complete,
+accurate, and ubiquitous proteomes</article-title>. <source>Mol. Cell</source>
+<year>2013</year>, <volume>49</volume><issue>4</issue><fpage>583</fpage>&#x02013;<lpage>590</lpage>.<pub-id pub-id-type="pmid">23438854</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Xu</surname><given-names>P.</given-names></name>; <name><surname>Duong</surname><given-names>D. M.</given-names></name>; <name><surname>Seyfried</surname><given-names>N. T.</given-names></name>; <name><surname>Cheng</surname><given-names>D.</given-names></name>; <name><surname>Xie</surname><given-names>Y.</given-names></name>; <name><surname>Robert</surname><given-names>J.</given-names></name>; <name><surname>Rush</surname><given-names>J.</given-names></name>; <name><surname>Hochstrasser</surname><given-names>M.</given-names></name>; <name><surname>Finley</surname><given-names>D.</given-names></name>; <name><surname>Peng</surname><given-names>J.</given-names></name>
+<article-title>Quantitative proteomics
+reveals the
+function of unconventional ubiquitin chains in proteasomal degradation</article-title>. <source>Cell</source>
+<year>2009</year>, <volume>137</volume><issue>1</issue><fpage>133</fpage>&#x02013;<lpage>145</lpage>.<pub-id pub-id-type="pmid">19345192</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Mertins</surname><given-names>P.</given-names></name>; <name><surname>Qiao</surname><given-names>J. W.</given-names></name>; <name><surname>Patel</surname><given-names>J.</given-names></name>; <name><surname>Udeshi</surname><given-names>N. D.</given-names></name>; <name><surname>Clauser</surname><given-names>K. R.</given-names></name>; <name><surname>Mani</surname><given-names>D. R.</given-names></name>; <name><surname>Burgess</surname><given-names>M. W.</given-names></name>; <name><surname>Gillette</surname><given-names>M. A.</given-names></name>; <name><surname>Jaffe</surname><given-names>J. D.</given-names></name>; <name><surname>Carr</surname><given-names>S. A.</given-names></name>
+<article-title>Integrated proteomic analysis of post-translational
+modifications by serial enrichment</article-title>. <source>Nat. Methods</source>
+<year>2013</year>, <volume>10</volume><issue>7</issue><fpage>634</fpage>&#x02013;<lpage>637</lpage>.<pub-id pub-id-type="pmid">23749302</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Branca</surname><given-names>R.
+M.</given-names></name>; <name><surname>Orre</surname><given-names>L. M.</given-names></name>; <name><surname>Johansson</surname><given-names>H. J.</given-names></name>; <name><surname>Granholm</surname><given-names>V.</given-names></name>; <name><surname>Huss</surname><given-names>M.</given-names></name>; <name><surname>Perez-Bercoff</surname><given-names>A.</given-names></name>; <name><surname>Forshed</surname><given-names>J.</given-names></name>; <name><surname>Kall</surname><given-names>L.</given-names></name>; <name><surname>Lehtio</surname><given-names>J.</given-names></name>
+<article-title>HiRIEF LC-MS
+enables deep proteome coverage and unbiased proteogenomics</article-title>. <source>Nat. Methods</source>
+<year>2014</year>, <volume>11</volume><issue>1</issue><fpage>59</fpage>&#x02013;<lpage>62</lpage>.<pub-id pub-id-type="pmid">24240322</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Zhou</surname><given-names>F.</given-names></name>; <name><surname>Lu</surname><given-names>Y.</given-names></name>; <name><surname>Ficarro</surname><given-names>S. B.</given-names></name>; <name><surname>Adelmant</surname><given-names>G.</given-names></name>; <name><surname>Jiang</surname><given-names>W.</given-names></name>; <name><surname>Luckey</surname><given-names>C. J.</given-names></name>; <name><surname>Marto</surname><given-names>J. A.</given-names></name>
+<article-title>Genome-scale proteome quantification by DEEP SEQ mass
+spectrometry</article-title>. <source>Nat. Commun.</source>
+<year>2013</year>, <volume>4</volume>, <fpage>2171</fpage>.<pub-id pub-id-type="pmid">23863870</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Scherl</surname><given-names>A.</given-names></name>; <name><surname>Shaffer</surname><given-names>S. A.</given-names></name>; <name><surname>Taylor</surname><given-names>G. K.</given-names></name>; <name><surname>Kulasekara</surname><given-names>H. D.</given-names></name>; <name><surname>Miller</surname><given-names>S. I.</given-names></name>; <name><surname>Goodlett</surname><given-names>D. R.</given-names></name>
+<article-title>Genome-specific gas-phase fractionation
+strategy for improved shotgun proteomic profiling of proteotypic peptides</article-title>. <source>Anal. Chem.</source>
+<year>2008</year>, <volume>80</volume><issue>4</issue><fpage>1182</fpage>&#x02013;<lpage>1191</lpage>.<pub-id pub-id-type="pmid">18211032</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Vincent</surname><given-names>C. E.</given-names></name>; <name><surname>Potts</surname><given-names>G. K.</given-names></name>; <name><surname>Ulbrich</surname><given-names>A.</given-names></name>; <name><surname>Westphall</surname><given-names>M. S.</given-names></name>; <name><surname>Atwood</surname><given-names>J. A.</given-names><suffix>3rd</suffix></name>; <name><surname>Coon</surname><given-names>J. J.</given-names></name>; <name><surname>Weatherly</surname><given-names>D. B.</given-names></name>
+<article-title>Segmentation
+of precursor mass range using &#x0201c;tiling&#x0201d; approach increases
+peptide identifications for MS1-based label-free quantification</article-title>. <source>Anal. Chem.</source>
+<year>2013</year>, <volume>85</volume><issue>5</issue><fpage>2825</fpage>&#x02013;<lpage>2832</lpage>.<pub-id pub-id-type="pmid">23350991</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Nagaraj</surname><given-names>N.</given-names></name>; <name><surname>Wisniewski</surname><given-names>J. R.</given-names></name>; <name><surname>Geiger</surname><given-names>T.</given-names></name>; <name><surname>Cox</surname><given-names>J.</given-names></name>; <name><surname>Kircher</surname><given-names>M.</given-names></name>; <name><surname>Kelso</surname><given-names>J.</given-names></name>; <name><surname>Paabo</surname><given-names>S.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Deep proteome and transcriptome
+mapping of a human cancer cell line</article-title>. <source>Mol. Syst.
+Biol.</source>
+<year>2011</year>, <volume>7</volume>, <fpage>548</fpage>.<pub-id pub-id-type="pmid">22068331</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Geiger</surname><given-names>T.</given-names></name>; <name><surname>Wehner</surname><given-names>A.</given-names></name>; <name><surname>Schaab</surname><given-names>C.</given-names></name>; <name><surname>Cox</surname><given-names>J.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Comparative
+proteomic analysis of eleven common cell lines reveals ubiquitous
+but varying expression of most proteins</article-title>. <source>Mol.
+Cell. Proteomics</source>
+<year>2012</year>, <volume>11</volume><issue>3</issue><fpage>M111 014050</fpage>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Kulak</surname><given-names>N. A.</given-names></name>; <name><surname>Pichler</surname><given-names>G.</given-names></name>; <name><surname>Paron</surname><given-names>I.</given-names></name>; <name><surname>Nagaraj</surname><given-names>N.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Minimal, encapsulated
+proteomic-sample processing applied to copy-number estimation in eukaryotic
+cells</article-title>. <source>Nat. Methods</source>
+<year>2014</year>, <volume>11</volume><issue>3</issue><fpage>319</fpage>&#x02013;<lpage>324</lpage>.<pub-id pub-id-type="pmid">24487582</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Wilhelm</surname><given-names>M.</given-names></name>; <name><surname>Schlegl</surname><given-names>J.</given-names></name>; <name><surname>Hahne</surname><given-names>H.</given-names></name>; <name><surname>Moghaddas Gholami</surname><given-names>A.</given-names></name>; <name><surname>Lieberenz</surname><given-names>M.</given-names></name>; <name><surname>Savitski</surname><given-names>M. M.</given-names></name>; <name><surname>Ziegler</surname><given-names>E.</given-names></name>; <name><surname>Butzmann</surname><given-names>L.</given-names></name>; <name><surname>Gessulat</surname><given-names>S.</given-names></name>; <name><surname>Marx</surname><given-names>H.</given-names></name>; <name><surname>Mathieson</surname><given-names>T.</given-names></name>; <name><surname>Lemeer</surname><given-names>S.</given-names></name>; <name><surname>Schnatbaum</surname><given-names>K.</given-names></name>; <name><surname>Reimer</surname><given-names>U.</given-names></name>; <name><surname>Wenschuh</surname><given-names>H.</given-names></name>; <name><surname>Mollenhauer</surname><given-names>M.</given-names></name>; <name><surname>Slotta-Huspenina</surname><given-names>J.</given-names></name>; <name><surname>Boese</surname><given-names>J. H.</given-names></name>; <name><surname>Bantscheff</surname><given-names>M.</given-names></name>; <name><surname>Gerstmair</surname><given-names>A.</given-names></name>; <name><surname>Faerber</surname><given-names>F.</given-names></name>; <name><surname>Kuster</surname><given-names>B.</given-names></name>
+<article-title>Mass-spectrometry-based
+draft of the human proteome</article-title>. <source>Nature</source>
+<year>2014</year>, <volume>509</volume><issue>7502</issue><fpage>582</fpage>&#x02013;<lpage>587</lpage>.<pub-id pub-id-type="pmid">24870543</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Kim</surname><given-names>M. S.</given-names></name>; <name><surname>Pinto</surname><given-names>S. M.</given-names></name>; <name><surname>Getnet</surname><given-names>D.</given-names></name>; <name><surname>Nirujogi</surname><given-names>R. S.</given-names></name>; <name><surname>Manda</surname><given-names>S. S.</given-names></name>; <name><surname>Chaerkady</surname><given-names>R.</given-names></name>; <name><surname>Madugundu</surname><given-names>A. K.</given-names></name>; <name><surname>Kelkar</surname><given-names>D. S.</given-names></name>; <name><surname>Isserlin</surname><given-names>R.</given-names></name>; <name><surname>Jain</surname><given-names>S.</given-names></name>; <name><surname>Thomas</surname><given-names>J. K.</given-names></name>; <name><surname>Muthusamy</surname><given-names>B.</given-names></name>; <name><surname>Leal-Rojas</surname><given-names>P.</given-names></name>; <name><surname>Kumar</surname><given-names>P.</given-names></name>; <name><surname>Sahasrabuddhe</surname><given-names>N. A.</given-names></name>; <name><surname>Balakrishnan</surname><given-names>L.</given-names></name>; <name><surname>Advani</surname><given-names>J.</given-names></name>; <name><surname>George</surname><given-names>B.</given-names></name>; <name><surname>Renuse</surname><given-names>S.</given-names></name>; <name><surname>Selvan</surname><given-names>L. D.</given-names></name>; <name><surname>Patil</surname><given-names>A. H.</given-names></name>; <name><surname>Nanjappa</surname><given-names>V.</given-names></name>; <name><surname>Radhakrishnan</surname><given-names>A.</given-names></name>; <name><surname>Prasad</surname><given-names>S.</given-names></name>; <name><surname>Subbannayya</surname><given-names>T.</given-names></name>; <name><surname>Raju</surname><given-names>R.</given-names></name>; <name><surname>Kumar</surname><given-names>M.</given-names></name>; <name><surname>Sreenivasamurthy</surname><given-names>S. K.</given-names></name>; <name><surname>Marimuthu</surname><given-names>A.</given-names></name>; <name><surname>Sathe</surname><given-names>G. J.</given-names></name>; <name><surname>Chavan</surname><given-names>S.</given-names></name>; <name><surname>Datta</surname><given-names>K. K.</given-names></name>; <name><surname>Subbannayya</surname><given-names>Y.</given-names></name>; <name><surname>Sahu</surname><given-names>A.</given-names></name>; <name><surname>Yelamanchi</surname><given-names>S. D.</given-names></name>; <name><surname>Jayaram</surname><given-names>S.</given-names></name>; <name><surname>Rajagopalan</surname><given-names>P.</given-names></name>; <name><surname>Sharma</surname><given-names>J.</given-names></name>; <name><surname>Murthy</surname><given-names>K. R.</given-names></name>; <name><surname>Syed</surname><given-names>N.</given-names></name>; <name><surname>Goel</surname><given-names>R.</given-names></name>; <name><surname>Khan</surname><given-names>A. A.</given-names></name>; <name><surname>Ahmad</surname><given-names>S.</given-names></name>; <name><surname>Dey</surname><given-names>G.</given-names></name>; <name><surname>Mudgal</surname><given-names>K.</given-names></name>; <name><surname>Chatterjee</surname><given-names>A.</given-names></name>; <name><surname>Huang</surname><given-names>T. C.</given-names></name>; <name><surname>Zhong</surname><given-names>J.</given-names></name>; <name><surname>Wu</surname><given-names>X.</given-names></name>; <name><surname>Shaw</surname><given-names>P. G.</given-names></name>; <name><surname>Freed</surname><given-names>D.</given-names></name>; <name><surname>Zahari</surname><given-names>M. S.</given-names></name>; <name><surname>Mukherjee</surname><given-names>K. K.</given-names></name>; <name><surname>Shankar</surname><given-names>S.</given-names></name>; <name><surname>Mahadevan</surname><given-names>A.</given-names></name>; <name><surname>Lam</surname><given-names>H.</given-names></name>; <name><surname>Mitchell</surname><given-names>C. J.</given-names></name>; <name><surname>Shankar</surname><given-names>S. K.</given-names></name>; <name><surname>Satishchandra</surname><given-names>P.</given-names></name>; <name><surname>Schroeder</surname><given-names>J. T.</given-names></name>; <name><surname>Sirdeshmukh</surname><given-names>R.</given-names></name>; <name><surname>Maitra</surname><given-names>A.</given-names></name>; <name><surname>Leach</surname><given-names>S. D.</given-names></name>; <name><surname>Drake</surname><given-names>C. G.</given-names></name>; <name><surname>Halushka</surname><given-names>M. K.</given-names></name>; <name><surname>Prasad</surname><given-names>T. S.</given-names></name>; <name><surname>Hruban</surname><given-names>R. H.</given-names></name>; <name><surname>Kerr</surname><given-names>C. L.</given-names></name>; <name><surname>Bader</surname><given-names>G. D.</given-names></name>; <name><surname>Iacobuzio-Donahue</surname><given-names>C.
+A.</given-names></name>; <name><surname>Gowda</surname><given-names>H.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>
+<article-title>A draft map of the human proteome</article-title>. <source>Nature</source>
+<year>2014</year>, <volume>509</volume><issue>7502</issue><fpage>575</fpage>&#x02013;<lpage>581</lpage>.<pub-id pub-id-type="pmid">24870542</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Xu</surname><given-names>P.</given-names></name>; <name><surname>Duong</surname><given-names>D. M.</given-names></name>; <name><surname>Peng</surname><given-names>J.</given-names></name>
+<article-title>Systematical optimization of reverse-phase
+chromatography for shotgun proteomics</article-title>. <source>J. Proteome
+Res.</source>
+<year>2009</year>, <volume>8</volume><issue>8</issue><fpage>3944</fpage>&#x02013;<lpage>3950</lpage>.<pub-id pub-id-type="pmid">19566079</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Hyman</surname><given-names>B. T.</given-names></name>; <name><surname>Trojanowski</surname><given-names>J. Q.</given-names></name>
+<article-title>Consensus recommendations for the postmortem diagnosis
+of Alzheimer disease from the National Institute on Aging and the
+Reagan Institute Working Group on diagnostic criteria for the neuropathological
+assessment of Alzheimer disease</article-title>. <source>J. Neuropathol.
+Exp. Neurol.</source>
+<year>1997</year>, <volume>56</volume><issue>10</issue><fpage>1095</fpage>&#x02013;<lpage>1097</lpage>.<pub-id pub-id-type="pmid">9329452</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Na</surname><given-names>C. H.</given-names></name>; <name><surname>Jones</surname><given-names>D. R.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Xu</surname><given-names>Y.</given-names></name>; <name><surname>Peng</surname><given-names>J.</given-names></name>
+<article-title>Synaptic protein
+ubiquitination in rat brain revealed by antibody-based
+ubiquitome analysis</article-title>. <source>J. Proteome Res.</source>
+<year>2012</year>, <volume>11</volume><issue>9</issue><fpage>4722</fpage>&#x02013;<lpage>32</lpage>.<pub-id pub-id-type="pmid">22871113</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Gozal</surname><given-names>Y. M.</given-names></name>; <name><surname>Duong</surname><given-names>D. M.</given-names></name>; <name><surname>Gearing</surname><given-names>M.</given-names></name>; <name><surname>Cheng</surname><given-names>D.</given-names></name>; <name><surname>Hanfelt</surname><given-names>J. J.</given-names></name>; <name><surname>Funderburk</surname><given-names>C.</given-names></name>; <name><surname>Peng</surname><given-names>J.</given-names></name>; <name><surname>Lah</surname><given-names>J. J.</given-names></name>; <name><surname>Levey</surname><given-names>A. I.</given-names></name>
+<article-title>Proteomics
+analysis reveals novel components in the detergent-insoluble subproteome
+in Alzheimer&#x02019;s disease</article-title>. <source>J. Proteome Res.</source>
+<year>2009</year>, <volume>8</volume><issue>11</issue><fpage>5069</fpage>&#x02013;<lpage>5079</lpage>.<pub-id pub-id-type="pmid">19746990</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Bai</surname><given-names>B.</given-names></name>; <name><surname>Hales</surname><given-names>C. M.</given-names></name>; <name><surname>Chen</surname><given-names>P. C.</given-names></name>; <name><surname>Gozal</surname><given-names>Y.</given-names></name>; <name><surname>Dammer</surname><given-names>E. B.</given-names></name>; <name><surname>Fritz</surname><given-names>J. J.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Xia</surname><given-names>Q.</given-names></name>; <name><surname>Duong</surname><given-names>D. M.</given-names></name>; <name><surname>Street</surname><given-names>C.</given-names></name>; <name><surname>Cantero</surname><given-names>G.</given-names></name>; <name><surname>Cheng</surname><given-names>D.</given-names></name>; <name><surname>Jones</surname><given-names>D. R.</given-names></name>; <name><surname>Wu</surname><given-names>Z.</given-names></name>; <name><surname>Li</surname><given-names>Y.</given-names></name>; <name><surname>Diner</surname><given-names>I.</given-names></name>; <name><surname>Heilman</surname><given-names>C. J.</given-names></name>; <name><surname>Rees</surname><given-names>H. D.</given-names></name>; <name><surname>Wu</surname><given-names>H.</given-names></name>; <name><surname>Lin</surname><given-names>L.</given-names></name>; <name><surname>Szulwach</surname><given-names>K. E.</given-names></name>; <name><surname>Gearing</surname><given-names>M.</given-names></name>; <name><surname>Mufson</surname><given-names>E. J.</given-names></name>; <name><surname>Bennett</surname><given-names>D. A.</given-names></name>; <name><surname>Montine</surname><given-names>T. J.</given-names></name>; <name><surname>Seyfried</surname><given-names>N. T.</given-names></name>; <name><surname>Wingo</surname><given-names>T. S.</given-names></name>; <name><surname>Sun</surname><given-names>Y. E.</given-names></name>; <name><surname>Jin</surname><given-names>P.</given-names></name>; <name><surname>Hanfelt</surname><given-names>J.</given-names></name>; <name><surname>Willcock</surname><given-names>D. M.</given-names></name>; <name><surname>Levey</surname><given-names>A.</given-names></name>; <name><surname>Lah</surname><given-names>J. J.</given-names></name>; <name><surname>Peng</surname><given-names>J.</given-names></name>
+<article-title>U1 small nuclear ribonucleoprotein
+complex and RNA splicing alterations in Alzheimer&#x02019;s disease</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<year>2013</year>, <volume>110</volume><issue>41</issue><fpage>16562</fpage>&#x02013;<lpage>16567</lpage>.<pub-id pub-id-type="pmid">24023061</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Yang</surname><given-names>F.</given-names></name>; <name><surname>Gritsenko</surname><given-names>M. A.</given-names></name>; <name><surname>Wang</surname><given-names>Y.</given-names></name>; <name><surname>Clauss</surname><given-names>T.</given-names></name>; <name><surname>Liu</surname><given-names>T.</given-names></name>; <name><surname>Shen</surname><given-names>Y.</given-names></name>; <name><surname>Monroe</surname><given-names>M. E.</given-names></name>; <name><surname>Lopez-Ferrer</surname><given-names>D.</given-names></name>; <name><surname>Reno</surname><given-names>T.</given-names></name>; <name><surname>Moore</surname><given-names>R. J.</given-names></name>; <name><surname>Klemke</surname><given-names>R. L.</given-names></name>; <name><surname>Camp</surname><given-names>D. G.</given-names><suffix>2nd</suffix></name>; <name><surname>Smith</surname><given-names>R. D.</given-names></name>
+<article-title>Reversed-phase
+chromatography with
+multiple fraction concatenation strategy for proteome profiling of
+human MCF10A cells</article-title>. <source>Proteomics</source>
+<year>2011</year>, <volume>11</volume><issue>10</issue><fpage>2019</fpage>&#x02013;<lpage>2026</lpage>.<pub-id pub-id-type="pmid">21500348</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Dwivedi</surname><given-names>R.
+C.</given-names></name>; <name><surname>Spicer</surname><given-names>V.</given-names></name>; <name><surname>Harder</surname><given-names>M.</given-names></name>; <name><surname>Antonovici</surname><given-names>M.</given-names></name>; <name><surname>Ens</surname><given-names>W.</given-names></name>; <name><surname>Standing</surname><given-names>K. G.</given-names></name>; <name><surname>Wilkins</surname><given-names>J. A.</given-names></name>; <name><surname>Krokhin</surname><given-names>O. V.</given-names></name>
+<article-title>Practical implementation
+of 2D HPLC scheme with accurate peptide retention prediction in both
+dimensions for high-throughput bottom-up proteomics</article-title>. <source>Anal. Chem.</source>
+<year>2008</year>, <volume>80</volume><issue>18</issue><fpage>7036</fpage>&#x02013;<lpage>7042</lpage>.<pub-id pub-id-type="pmid">18686972</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Song</surname><given-names>C.</given-names></name>; <name><surname>Ye</surname><given-names>M.</given-names></name>; <name><surname>Han</surname><given-names>G.</given-names></name>; <name><surname>Jiang</surname><given-names>X.</given-names></name>; <name><surname>Wang</surname><given-names>F.</given-names></name>; <name><surname>Yu</surname><given-names>Z.</given-names></name>; <name><surname>Chen</surname><given-names>R.</given-names></name>; <name><surname>Zou</surname><given-names>H.</given-names></name>
+<article-title>Reversed-phase-reversed-phase liquid
+chromatography approach with high orthogonality for multidimensional
+separation of phosphopeptides</article-title>. <source>Anal. Chem.</source>
+<year>2010</year>, <volume>82</volume><issue>1</issue><fpage>53</fpage>&#x02013;<lpage>56</lpage>.<pub-id pub-id-type="pmid">19950968</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Michalski</surname><given-names>A.</given-names></name>; <name><surname>Damoc</surname><given-names>E.</given-names></name>; <name><surname>Lange</surname><given-names>O.</given-names></name>; <name><surname>Denisov</surname><given-names>E.</given-names></name>; <name><surname>Nolting</surname><given-names>D.</given-names></name>; <name><surname>Muller</surname><given-names>M.</given-names></name>; <name><surname>Viner</surname><given-names>R.</given-names></name>; <name><surname>Schwartz</surname><given-names>J.</given-names></name>; <name><surname>Remes</surname><given-names>P.</given-names></name>; <name><surname>Belford</surname><given-names>M.</given-names></name>; <name><surname>Dunyach</surname><given-names>J. J.</given-names></name>; <name><surname>Cox</surname><given-names>J.</given-names></name>; <name><surname>Horning</surname><given-names>S.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>; <name><surname>Makarov</surname><given-names>A.</given-names></name>
+<article-title>Ultra high resolution linear ion
+trap Orbitrap mass spectrometer (Orbitrap Elite) facilitates top down
+LC MS/MS and versatile peptide fragmentation modes</article-title>. <source>Mol. Cell. Proteomics</source>
+<year>2012</year>, <volume>11</volume><issue>3</issue><fpage>O111 013698</fpage>.<pub-id pub-id-type="pmid">22159718</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Dayon</surname><given-names>L.</given-names></name>; <name><surname>Sonderegger</surname><given-names>B.</given-names></name>; <name><surname>Kussmann</surname><given-names>M.</given-names></name>
+<article-title>Combination of gas-phase fractionation
+and MS(3) acquisition modes for relative protein quantification with
+isobaric tagging</article-title>. <source>J. Proteome Res.</source>
+<year>2012</year>, <volume>11</volume><issue>10</issue><fpage>5081</fpage>&#x02013;<lpage>5089</lpage>.<pub-id pub-id-type="pmid">22946824</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Eng</surname><given-names>J. K.</given-names></name>; <name><surname>McCormack</surname><given-names>A. L.</given-names></name>; <name><surname>Yates</surname><given-names>J. R.</given-names></name>
+<article-title>An approach to correlate tandem mass
+spectral data of peptides with amino acid sequences in a protein database</article-title>. <source>J. Am. Soc. Mass Spectrom.</source>
+<year>1994</year>, <volume>5</volume><issue>11</issue><fpage>976</fpage>&#x02013;<lpage>989</lpage>.<pub-id pub-id-type="pmid">24226387</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Peng</surname><given-names>J.</given-names></name>; <name><surname>Elias</surname><given-names>J. E.</given-names></name>; <name><surname>Thoreen</surname><given-names>C. C.</given-names></name>; <name><surname>Licklider</surname><given-names>L. J.</given-names></name>; <name><surname>Gygi</surname><given-names>S. P.</given-names></name>
+<article-title>Evaluation of multidimensional chromatography
+coupled
+with tandem mass spectrometry (LC/LC-MS/MS) for large-scale protein
+analysis: the yeast proteome</article-title>. <source>J. Proteome Res.</source>
+<year>2003</year>, <volume>2</volume><issue>1</issue><fpage>43</fpage>&#x02013;<lpage>50</lpage>.<pub-id pub-id-type="pmid">12643542</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Elias</surname><given-names>J. E.</given-names></name>; <name><surname>Gygi</surname><given-names>S. P.</given-names></name>
+<article-title>Target-decoy search
+strategy for increased confidence
+in large-scale protein identifications by mass spectrometry</article-title>. <source>Nat. Methods</source>
+<year>2007</year>, <volume>4</volume><issue>3</issue><fpage>207</fpage>&#x02013;<lpage>214</lpage>.<pub-id pub-id-type="pmid">17327847</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Wilm</surname><given-names>M.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Analytical properties of the nanoelectrospray ion source</article-title>. <source>Anal. Chem.</source>
+<year>1996</year>, <volume>68</volume><issue>1</issue><fpage>1</fpage>&#x02013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">8779426</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Eriksson</surname><given-names>J.</given-names></name>; <name><surname>Fenyo</surname><given-names>D.</given-names></name>
+<article-title>Improving the success rate of proteome analysis by modeling protein-abundance
+distributions and experimental designs</article-title>. <source>Nat.
+Biotechnol.</source>
+<year>2007</year>, <volume>25</volume><issue>6</issue><fpage>651</fpage>&#x02013;<lpage>655</lpage>.<pub-id pub-id-type="pmid">17557102</pub-id></mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Zubarev</surname><given-names>R. A.</given-names></name>
+<article-title>The challenge
+of the proteome dynamic range and its implications for in-depth proteomics</article-title>. <source>Proteomics</source>
+<year>2013</year>, <volume>13</volume><issue>5</issue><fpage>723</fpage>&#x02013;<lpage>726</lpage>.<pub-id pub-id-type="pmid">23307342</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Hawrylycz</surname><given-names>M. J.</given-names></name>; <name><surname>Lein</surname><given-names>E. S.</given-names></name>; <name><surname>Guillozet-Bongaarts</surname><given-names>A.
+L.</given-names></name>; <name><surname>Shen</surname><given-names>E. H.</given-names></name>; <name><surname>Ng</surname><given-names>L.</given-names></name>; <name><surname>Miller</surname><given-names>J. A.</given-names></name>; <name><surname>van de Lagemaat</surname><given-names>L. N.</given-names></name>; <name><surname>Smith</surname><given-names>K. A.</given-names></name>; <name><surname>Ebbert</surname><given-names>A.</given-names></name>; <name><surname>Riley</surname><given-names>Z. L.</given-names></name>; <name><surname>Abajian</surname><given-names>C.</given-names></name>; <name><surname>Beckmann</surname><given-names>C. F.</given-names></name>; <name><surname>Bernard</surname><given-names>A.</given-names></name>; <name><surname>Bertagnolli</surname><given-names>D.</given-names></name>; <name><surname>Boe</surname><given-names>A. F.</given-names></name>; <name><surname>Cartagena</surname><given-names>P. M.</given-names></name>; <name><surname>Chakravarty</surname><given-names>M. M.</given-names></name>; <name><surname>Chapin</surname><given-names>M.</given-names></name>; <name><surname>Chong</surname><given-names>J.</given-names></name>; <name><surname>Dalley</surname><given-names>R. A.</given-names></name>; <name><surname>Daly</surname><given-names>B. D.</given-names></name>; <name><surname>Dang</surname><given-names>C.</given-names></name>; <name><surname>Datta</surname><given-names>S.</given-names></name>; <name><surname>Dee</surname><given-names>N.</given-names></name>; <name><surname>Dolbeare</surname><given-names>T. A.</given-names></name>; <name><surname>Faber</surname><given-names>V.</given-names></name>; <name><surname>Feng</surname><given-names>D.</given-names></name>; <name><surname>Fowler</surname><given-names>D. R.</given-names></name>; <name><surname>Goldy</surname><given-names>J.</given-names></name>; <name><surname>Gregor</surname><given-names>B. W.</given-names></name>; <name><surname>Haradon</surname><given-names>Z.</given-names></name>; <name><surname>Haynor</surname><given-names>D. R.</given-names></name>; <name><surname>Hohmann</surname><given-names>J. G.</given-names></name>; <name><surname>Horvath</surname><given-names>S.</given-names></name>; <name><surname>Howard</surname><given-names>R. E.</given-names></name>; <name><surname>Jeromin</surname><given-names>A.</given-names></name>; <name><surname>Jochim</surname><given-names>J. M.</given-names></name>; <name><surname>Kinnunen</surname><given-names>M.</given-names></name>; <name><surname>Lau</surname><given-names>C.</given-names></name>; <name><surname>Lazarz</surname><given-names>E. T.</given-names></name>; <name><surname>Lee</surname><given-names>C.</given-names></name>; <name><surname>Lemon</surname><given-names>T. A.</given-names></name>; <name><surname>Li</surname><given-names>L.</given-names></name>; <name><surname>Li</surname><given-names>Y.</given-names></name>; <name><surname>Morris</surname><given-names>J. A.</given-names></name>; <name><surname>Overly</surname><given-names>C. C.</given-names></name>; <name><surname>Parker</surname><given-names>P. D.</given-names></name>; <name><surname>Parry</surname><given-names>S. E.</given-names></name>; <name><surname>Reding</surname><given-names>M.</given-names></name>; <name><surname>Royall</surname><given-names>J. J.</given-names></name>; <name><surname>Schulkin</surname><given-names>J.</given-names></name>; <name><surname>Sequeira</surname><given-names>P. A.</given-names></name>; <name><surname>Slaughterbeck</surname><given-names>C. R.</given-names></name>; <name><surname>Smith</surname><given-names>S. C.</given-names></name>; <name><surname>Sodt</surname><given-names>A. J.</given-names></name>; <name><surname>Sunkin</surname><given-names>S. M.</given-names></name>; <name><surname>Swanson</surname><given-names>B. E.</given-names></name>; <name><surname>Vawter</surname><given-names>M. P.</given-names></name>; <name><surname>Williams</surname><given-names>D.</given-names></name>; <name><surname>Wohnoutka</surname><given-names>P.</given-names></name>; <name><surname>Zielke</surname><given-names>H. R.</given-names></name>; <name><surname>Geschwind</surname><given-names>D. H.</given-names></name>; <name><surname>Hof</surname><given-names>P. R.</given-names></name>; <name><surname>Smith</surname><given-names>S. M.</given-names></name>; <name><surname>Koch</surname><given-names>C.</given-names></name>; <name><surname>Grant</surname><given-names>S. G.</given-names></name>; <name><surname>Jones</surname><given-names>A. R.</given-names></name>
+<article-title>An anatomically
+comprehensive atlas of the adult human brain transcriptome</article-title>. <source>Nature</source>
+<year>2012</year>, <volume>489</volume><issue>7416</issue><fpage>391</fpage>&#x02013;<lpage>399</lpage>.<pub-id pub-id-type="pmid">22996553</pub-id></mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Griffin</surname><given-names>N. M.</given-names></name>; <name><surname>Yu</surname><given-names>J.</given-names></name>; <name><surname>Long</surname><given-names>F.</given-names></name>; <name><surname>Oh</surname><given-names>P.</given-names></name>; <name><surname>Shore</surname><given-names>S.</given-names></name>; <name><surname>Li</surname><given-names>Y.</given-names></name>; <name><surname>Koziol</surname><given-names>J. A.</given-names></name>; <name><surname>Schnitzer</surname><given-names>J. E.</given-names></name>
+<article-title>Label-free, normalized quantification
+of complex mass spectrometry data for proteomic analysis</article-title>. <source>Nat. Biotechnol.</source>
+<year>2010</year>, <volume>28</volume><issue>1</issue><fpage>83</fpage>&#x02013;<lpage>89</lpage>.<pub-id pub-id-type="pmid">20010810</pub-id></mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Hebert</surname><given-names>A. S.</given-names></name>; <name><surname>Richards</surname><given-names>A. L.</given-names></name>; <name><surname>Bailey</surname><given-names>D. J.</given-names></name>; <name><surname>Ulbrich</surname><given-names>A.</given-names></name>; <name><surname>Coughlin</surname><given-names>E. E.</given-names></name>; <name><surname>Westphall</surname><given-names>M. S.</given-names></name>; <name><surname>Coon</surname><given-names>J. J.</given-names></name>
+<article-title>The one hour yeast proteome</article-title>. <source>Mol. Cell. Proteomics</source>
+<year>2014</year>, <volume>13</volume><issue>1</issue><fpage>339</fpage>&#x02013;<lpage>347</lpage>.<pub-id pub-id-type="pmid">24143002</pub-id></mixed-citation></ref></ref-list></back></article>

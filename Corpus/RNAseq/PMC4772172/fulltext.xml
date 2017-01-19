@@ -1,0 +1,507 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Environ Res Public Health</journal-id><journal-id journal-id-type="iso-abbrev">Int J Environ Res Public Health</journal-id><journal-id journal-id-type="publisher-id">ijerph</journal-id><journal-title-group><journal-title>International Journal of Environmental Research and Public Health</journal-title></journal-title-group><issn pub-type="ppub">1661-7827</issn><issn pub-type="epub">1660-4601</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4772172</article-id><article-id pub-id-type="doi">10.3390/ijerph13020152</article-id><article-id pub-id-type="publisher-id">ijerph-13-00152</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Diversity of Bacterial Communities on Four Frequently Used Surfaces in a Large Brazilian Teaching Hospital</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Pereira da Fonseca</surname><given-names>Tairacan Augusto</given-names></name><xref ref-type="aff" rid="af1-ijerph-13-00152">1</xref></contrib><contrib contrib-type="author"><name><surname>Pess&#x000f4;a</surname><given-names>Rodrigo</given-names></name><xref ref-type="aff" rid="af1-ijerph-13-00152">1</xref></contrib><contrib contrib-type="author"><name><surname>Felix</surname><given-names>Alvina Clara</given-names></name><xref ref-type="aff" rid="af2-ijerph-13-00152">2</xref></contrib><contrib contrib-type="author"><name><surname>Sanabani</surname><given-names>Sabri Saeed</given-names></name><xref ref-type="aff" rid="af1-ijerph-13-00152">1</xref><xref ref-type="aff" rid="af2-ijerph-13-00152">2</xref><xref rid="c1-ijerph-13-00152" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Mawson</surname><given-names>Anthony</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-ijerph-13-00152"><label>1</label>Clinical Laboratory, Department of Pathology, LIM 03, Hospital das Cl&#x000ed;nicas (HC), School of Medicine, University of S&#x000e3;o Paulo, S&#x000e3;o Paulo 05403 000, Brazil; <email>tairacanaugusto@hotmail.com</email> (T.A.P.F.); <email>rodrigo_pessoa1@hotmail.com</email> (R.P.)</aff><aff id="af2-ijerph-13-00152"><label>2</label>S&#x000e3;o Paulo Institute of Tropical Medicine, University of S&#x000e3;o Paulo, S&#x000e3;o Paulo 05403 000, Brazil; <email>clarafelixx@gmail.com</email></aff><author-notes><corresp id="c1-ijerph-13-00152"><label>*</label>Correspondence: <email>sabri.alsanabani@pq.cnpq.br</email>; Tel.: +55-113-061-8699; Fax: +55-113-061-7020</corresp></author-notes><pub-date pub-type="epub"><day>22</day><month>1</month><year>2016</year></pub-date><pub-date pub-type="ppub"><month>2</month><year>2016</year></pub-date><volume>13</volume><issue>2</issue><elocation-id>152</elocation-id><history><date date-type="received"><day>21</day><month>12</month><year>2015</year></date><date date-type="accepted"><day>15</day><month>1</month><year>2015</year></date></history><permissions><copyright-statement>&#x000a9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2016</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Frequently used hand-touch surfaces in hospital settings have been implicated as a vehicle of microbial transmission. In this study, we aimed to investigate the overall bacterial population on four frequently used surfaces using a culture-independent Illumina massively parallel sequencing approach of the 16S rRNA genes. Surface samples were collected from four sites, namely elevator buttons (EB), bank machine keyboard buttons (BMKB), restroom surfaces, and the employee biometric time clock system (EBTCS), in a large public and teaching hospital in S&#x000e3;o Paulo. Taxonomical composition revealed the abundance of Firmicutes phyla, followed by Actinobacteria and Proteobacteria, with a total of 926 bacterial families and 2832 bacterial genera. Moreover, our analysis revealed the presence of some potential pathogenic bacterial genera, including <italic>Salmonella enterica</italic>, <italic>Klebsiella pneumoniae</italic>, and <italic>Staphylococcus aureus</italic>. The presence of these pathogens in frequently used surfaces enhances the risk of exposure to any susceptible individuals. Some of the factors that may contribute to the richness of bacterial diversity on these surfaces are poor personal hygiene and ineffective routine schedules of cleaning, sanitizing, and disinfecting. Strict standards of infection control in hospitals and increased public education about hand hygiene are recommended to decrease the risk of transmission in hospitals among patients.</p></abstract><kwd-group><kwd>bacteria</kwd><kwd>microbiome</kwd><kwd>hospital surfaces</kwd></kwd-group></article-meta></front><body><sec id="sec1-ijerph-13-00152"><title>1. Introduction</title><p>Infected or colonized patients are likely to shed microbes in hospital environments, leading to nosocomial transmission, which represents an important cause of morbidity and mortality [<xref rid="B1-ijerph-13-00152" ref-type="bibr">1</xref>,<xref rid="B2-ijerph-13-00152" ref-type="bibr">2</xref>,<xref rid="B3-ijerph-13-00152" ref-type="bibr">3</xref>]. It has been estimated that approximately two million patients per year in the United States acquire a nosocomial infection and that at least 90,000 of them succumb and die [<xref rid="B4-ijerph-13-00152" ref-type="bibr">4</xref>,<xref rid="B5-ijerph-13-00152" ref-type="bibr">5</xref>,<xref rid="B6-ijerph-13-00152" ref-type="bibr">6</xref>]. This estimation makes nosocomial infections the fifth leading cause of death in acute-care hospitals [<xref rid="B6-ijerph-13-00152" ref-type="bibr">6</xref>]. In Canada, a point-prevalence survey reported that 11.6% of adults in hospital experience a health care-associated infection [<xref rid="B1-ijerph-13-00152" ref-type="bibr">1</xref>]. A recent study by Quach <italic>et al.</italic> [<xref rid="B7-ijerph-13-00152" ref-type="bibr">7</xref>] indicated that a visit to the emergency department was associated with a more than threefold increased risk of infection. In earlier study undertaken at oncology and neurology units in Brazil, the density of health-care-associated infection were reported to exceed 80 episodes per 1000 patient-days (PMID: 9437483) [<xref rid="B8-ijerph-13-00152" ref-type="bibr">8</xref>]. Other data pooled from four studies conducted in Brazilian neonatal intensive-care units (PMID: 17433942, 15484803, 11287879, 11852413) [<xref rid="B9-ijerph-13-00152" ref-type="bibr">9</xref>,<xref rid="B10-ijerph-13-00152" ref-type="bibr">10</xref>,<xref rid="B11-ijerph-13-00152" ref-type="bibr">11</xref>,<xref rid="B12-ijerph-13-00152" ref-type="bibr">12</xref>] revealed an overall incidence of health-care-associated infections of 40.8 infections per 100 patients (95% CI 16.1&#x02013;71.1) and a density of 30.0 episodes per 1000 patient-days (25.0&#x02013;35.0). It is known that bacteria can survive on various surfaces including white coats [<xref rid="B13-ijerph-13-00152" ref-type="bibr">13</xref>], stethoscopes [<xref rid="B14-ijerph-13-00152" ref-type="bibr">14</xref>], adhesive tape [<xref rid="B15-ijerph-13-00152" ref-type="bibr">15</xref>], computer keyboards [<xref rid="B16-ijerph-13-00152" ref-type="bibr">16</xref>], elevator buttons [<xref rid="B17-ijerph-13-00152" ref-type="bibr">17</xref>], mobile communication devices [<xref rid="B18-ijerph-13-00152" ref-type="bibr">18</xref>], and ultrasound transducers [<xref rid="B19-ijerph-13-00152" ref-type="bibr">19</xref>], far longer than previously believed [<xref rid="B20-ijerph-13-00152" ref-type="bibr">20</xref>]. Most of the bacterial species characterized in the previous studies originate most likely from the normal skin flora such as coagulase-negative staphylococci [<xref rid="B16-ijerph-13-00152" ref-type="bibr">16</xref>,<xref rid="B17-ijerph-13-00152" ref-type="bibr">17</xref>,<xref rid="B18-ijerph-13-00152" ref-type="bibr">18</xref>,<xref rid="B21-ijerph-13-00152" ref-type="bibr">21</xref>]. The link between human use and the composition of bacterial communities have also been reported on surfaces in kitchens and restrooms with bacterial species originating from human skin flora colonizing on kitchen surfaces, in agreement with frequent skin-to-surface occurrences [<xref rid="B22-ijerph-13-00152" ref-type="bibr">22</xref>,<xref rid="B23-ijerph-13-00152" ref-type="bibr">23</xref>,<xref rid="B24-ijerph-13-00152" ref-type="bibr">24</xref>].</p><p>Here, we sought to investigate the diversity and distribution of bacterial contamination on hand-touch surfaces in public areas of a large public and teaching hospital in S&#x000e3;o Paulo. To this end, we comprehensively characterized the bacterial communities found on a surface of elevator buttons (HC-EB), bank machine keyboard buttons (HC-BMKB), HC-restroom surfaces, and the employee biometric time clock system (HC-EBTCS) using a culture-independent Illumina massively parallel sequencing approach of the 16S rRNA genes<italic>.</italic></p></sec><sec id="sec2-ijerph-13-00152"><title>2. Experimental Section</title><p>Surface samples were collected from four sites (EB, BMKB, restrooms surfaces, and EBTCS) in the Hospital das Cl&#x000ed;nicas (HC), the largest public hospital in South America with 2200 beds. For the EB, three elevators were selected because they are connected to the majority of patient floors and available to patients, visitors, and healthcare professionals. Six HC-EB surfaces, three exterior buttons, and three interior buttons were sampled. Surfaces of seven HC-BMKB that are commonly used by patients, visitors, and healthcare professionals were also swabbed and included in this study. Samples were also collected from 18 surfaces in three male and three female public restrooms including door handles into and out of the restroom, faucet handles, and toilet flush handles. Finally, six surfaces of HC-EBTCS, three on the first floor, two on the fourth floor and one on the fifth floor were swabbed and included in the study. All surfaces were sampled using sterile swabs moistened with ST solution (0.15 M NaCl and 0.1% Tween 20) [<xref rid="B25-ijerph-13-00152" ref-type="bibr">25</xref>]. The head of each swab was aseptically cut from the handle and directly placed into bead tubes containing 60 &#x003bc;L of Solution C1 (PowerSoil manufacturer&#x02019;s 1st lysis solution). To detect possible contamination, a new sterile swab in ST solution was tested as a negative control with each set of test swabs. The DNA from each swab including negative controls was extracted using the PowerSoil DNA kit (MO BIO Laboratories&#x02122;: Carlsbad, CA, USA) according to the manufacturer&#x02019;s protocol. The extracted genomic DNA from the same surfaces were pooled together for the subsequent amplification, library preparation, and sequencing. The V4 region of the 16S rRNA gene was amplified using the primers Bakt_341F/Bakt_805R (5&#x02032;-CCTAC GGGNGGCWGCAG-3&#x02032;, 5&#x02032;-GACTACHVGGGTATCTAATCC-3&#x02032; [<xref rid="B26-ijerph-13-00152" ref-type="bibr">26</xref>]. Amplification was performed in two steps using a custom Illumina (San Diego, CA, USA) preparation protocol in which the first PCR was conducted with forward primers that contained partial unique barcodes and partial Illumina adapters. The remaining ends of the Illumina adapters were attached during the second PCR and the barcodes were recombined in silico using paired-end reads as previously described [<xref rid="B27-ijerph-13-00152" ref-type="bibr">27</xref>]. The amplified products from the second PCR were separated by gel electrophoresis and purified using Freeze N Squeeze DNA Gel Extraction Spin Columns (Bio-Rad: Hercules, CA, USA). Each purified amplicon was quantified on a Qubit 2.0 Fluorometer (Life Technologies: Carlsbad, CA, USA), pooled at equimolar concentration, and diluted to 4 nM. To denature the indexed DNA, 5 &#x000b5;L of the 4 nM library were mixed with 5 &#x000b5;L of 0.2 N fresh NaOH and incubated for five minutes at room temperature. Then, 990 &#x000b5;L of chilled Illumina HT1 buffer were added to the denatured DNA and mixed to make a 20 pM library. After this step, 360 &#x000b5;L of the 20 pM library was multiplexed with 6 &#x000b5;L of 12.5 pM denatured PhiX control to increase sequence diversity and then mixed with 234 &#x000b5;L of chilled HT1 buffer to make a 12 pM sequenceable library. Finally, 600 &#x000b5;L of the prepared library was loaded on an Illumina MiSeq clamshell style cartridge for paired end 300 sequencing. The library was clustered to a density of approximately 820K clusters/mm<sup>2</sup>. Image analysis, base calling, and data quality assessment were performed on the MiSeq instrument (San Diego, CA, USA).</p><p>To confirm that the PCR reagents were not the source of bacterial sequences, PCR of the no-template control was performed. Also, prior to extraction and amplification, all reagents and ultrapure water were exposed to UV light of 254 nm for at least three minutes. No visible amplification signal was observed for the no-template control on a gel, indicating that bacterial contamination was minimal.</p><p>The library was clustered to a density of approximately 917K clusters/mm<sup>2</sup>. Image analysis, base calling, and data quality assessment were initially performed on the MiSeq instrument. Any reads containing two or more ambiguous nucleotides, low quality scores (average q score &#x0003c; 25), or reads shorter than 300 bp, were discarded. For the 16 s primer trimming, two nucleotide mismatches to the adjacent PCR primer were allowed. MiSeq forward and reverse reads were paired using the PANDAseq v.2.9 [<xref rid="B28-ijerph-13-00152" ref-type="bibr">28</xref>] with default parameters. Potential chimera sequences were detected and removed using the UCHIME algorithm [<xref rid="B29-ijerph-13-00152" ref-type="bibr">29</xref>]. To reduce computational burden analysis, 10% of reads were randomly selected from each sample and considered for further analysis. To avoid sampling size effects, the number of reads per sample was normalized to 1837 for each dataset by randomly subsampling to the lowest number of reads among samples. The taxonomic classification of each read was assigned against the EzTaxon-e database [<xref rid="B30-ijerph-13-00152" ref-type="bibr">30</xref>] at a 97% threshold of pairwise sequence similarity. The richness and diversity of samples were determined by Chao1 estimation and the Shannon diversity index at 3% distance. The bacterial community diversity indices (Shannon estimator) were calculated using Mothur and Shannon-ace-table.pl software programs (Chunlab Inc.: Seoul, Korea). The overall phylogenetic distance between communities was estimated using the Fast UniFrac [<xref rid="B31-ijerph-13-00152" ref-type="bibr">31</xref>] and visualized using principal coordinate analysis (PCoA). To compare operational taxonomic units (OTUs) between samples, shared OTUs were obtained with the XOR analysis of CL community program v3.43 (Chunlab Inc.: Seoul, Korea). The sequencing data have been uploaded to zenodo [<xref rid="B32-ijerph-13-00152" ref-type="bibr">32</xref>].</p></sec><sec id="sec3-ijerph-13-00152"><title>3. Results and Discussion</title><p>Using the Illumina sequencing-by-synthesis method (MiSeq platform), 4,706,332 reads were generated by the four samples. After filtering, 3,940,871 effective sequences remained, accounting for nearly 83.7% of the total sequences. To minimize computational time, a random 195,814, 791,476, 548,605, 708,726 of reads from the EB, EBTCS, BMKB, and restrooms were computationally selected. This resulted in a total of 2,244,621 valid reads, of which 2,040,614 (90.9%) were derived from bacterial sequences, 202,773 (9.03%) from an eukaryotic source, 527 (0.02%) unmatched sequences, and 97 (0.004%) from Achaea. Analyses were limited to bacterial populations. The unmatched sequences of OTUs failed to be assigned into any genus with a confidence level higher than 50%, suggesting the presence of many novel bacteria. The distribution of sequence lengths produced agreed with the amplicon length (464 bp) of the 16S rRNA. Bacterial sequences ranging from 195,814 to 708,726 were contained in the four sample groups, and the OTU ranged from 78,236 to 315,177 (<xref ref-type="table" rid="ijerph-13-00152-t001">Table 1</xref>). The indices of bacterial diversity were estimated using a rarefaction curve based on OTUs.</p><p>This analysis indicated 97% similarity of OTUs at the 3% divergence was attained for each sample and suggests an adequate depth of coverage. By rarefaction analysis estimates, the trend for species richness on different sample groups was quite similar to each other. The Shannon index was calculated to estimate the alpha diversity. The Shannon index computed at 3% dissimilarity showed the lowest value of evenness (9.064) for the sample group HC-EB compared to all the other samples that revealed the highest value of evenness (<xref ref-type="table" rid="ijerph-13-00152-t001">Table 1</xref>).</p><p>The bacteria were from 41 phyla, 131 classes, 360 orders, 926 families, and 2832 genera. Firmicutes (33.8%) was the most abundant phylum with 11.1% contributed by Streptococcaceae, 5.8% Staphylococcaceae, and 3.2% by Lachnospiraceae. The most abundant OTUs at phylum and family levels that accounted for more than 1% of all sequences are shown in <xref ref-type="fig" rid="ijerph-13-00152-f001">Figure 1</xref>. Firmicutes were commonly most abundant in each sample accounting for 39.5%, 39.7%, and 35.8% in HC-EBTCS, and HC-Restroom, respectively (<xref ref-type="fig" rid="ijerph-13-00152-f002">Figure 2</xref>). The microbiota of HC-BMKB consisted mostly of Actinobacteria (33.8%), followed in decreasing order of relative abundance by Proteobacteria (32.4%), Firmicutes (20.4%), and Bacteroidetes (4.4%).</p><table-wrap id="ijerph-13-00152-t001" position="float"><object-id pub-id-type="pii">ijerph-13-00152-t001_Table 1</object-id><label>Table 1</label><caption><p>Library reads and sequence diversity of 16 S rRNA.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Sample ID</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Valid Reads</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Number of OTU (&#x0003e;97% Identity)</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Shannon Index</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Goods Library Coverage</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">HC-EB</td><td align="center" valign="middle" rowspan="1" colspan="1">195,814</td><td align="center" valign="middle" rowspan="1" colspan="1">78,236</td><td align="center" valign="middle" rowspan="1" colspan="1">9.065327</td><td align="center" valign="middle" rowspan="1" colspan="1">0.645633</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">HC-EBTCS</td><td align="center" valign="middle" rowspan="1" colspan="1">791,476</td><td align="center" valign="middle" rowspan="1" colspan="1">315,177</td><td align="center" valign="middle" rowspan="1" colspan="1">9.109842</td><td align="center" valign="middle" rowspan="1" colspan="1">0.61603</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">HC-BMKB</td><td align="center" valign="middle" rowspan="1" colspan="1">548,605</td><td align="center" valign="middle" rowspan="1" colspan="1">238,544</td><td align="center" valign="middle" rowspan="1" colspan="1">9.801774</td><td align="center" valign="middle" rowspan="1" colspan="1">0.594236</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Hc_Restrooms</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">708,726</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">288,265</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">9.782897</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">0.615365</td></tr></tbody></table></table-wrap><fig id="ijerph-13-00152-f001" position="float"><label>Figure 1</label><caption><p>Average composition of bacteria from all samples (inner area: Phylum, outer area: Family). Phyla and Families with more than 1% of their proportion were represented.</p></caption><graphic xlink:href="ijerph-13-00152-g001"/></fig><fig id="ijerph-13-00152-f002" position="float"><label>Figure 2</label><caption><p>Average composition of bacteria from each sample (inner area: Phylum, outer area: Family). Only bacterial phyla and families that had a relative abundance of 1% or greater are presented.</p></caption><graphic xlink:href="ijerph-13-00152-g002"/></fig><p>The heat map analysis for the bacterial communities at the order level among the four groups showed that the proportion of <italic>Lactobacillale</italic> in the HC-EBTCS (26.8%) was more than twice greater than on the HC-EB (11.5%) and HC-Restroom (12.3%), and more than three times larger than on the HC-BMKB (8.7%) sample group. On the other hand, second dominant phylum, Clostridiales, were equally abundant in HC-Restroom (15.5%), and HC-EB (16.4%); these were more than twice and three times greater than HC-EBTCS (7.2%) and HC-BMKB (3%) (<xref ref-type="fig" rid="ijerph-13-00152-f003">Figure 3</xref>). Compared to other sites sampled in this study, the bacterial population on the surfaces of the HC-BMKB was the most diverse and more diverse than the bacterial communities on the surfaces of HC-Restroom. The six OTUs of the most abundance species associated with the four sample libraries were related to <italic>Propionibacterium acnes</italic> (2.23%&#x02013;11.8%) and <italic>Streptococcus dentisani</italic> (1.54%&#x02013;8.45%) (<xref ref-type="table" rid="ijerph-13-00152-t002">Table 2</xref>).</p><fig id="ijerph-13-00152-f003" position="float"><label>Figure 3</label><caption><p>Heat map to compare the bacterial communities between the four samples in terms of Order.</p></caption><graphic xlink:href="ijerph-13-00152-g003"/></fig><table-wrap id="ijerph-13-00152-t002" position="float"><object-id pub-id-type="pii">ijerph-13-00152-t002_Table 2</object-id><label>Table 2</label><caption><p>Identities of the six most abundant OTUs in the bacterial communities.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">HC-EB</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">HC-BMKB</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">HC-Restroom</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">HC-EBTCS</th></tr><tr><th align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Abundance Order</th><th colspan="4" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Taxa (Abundance)</th></tr></thead><tbody><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">1</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacterium acnes</italic> (11.8%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacterium acnes</italic> (7.46%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacterium acnes</italic> (2.23%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcus dentisani</italic> (8.45%)</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">2</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcus dentisani</italic> (2.8%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacteriaceae</italic>_uc_s (2.18%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Rothia mucilaginosa</italic> (1.76%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacterium acnes</italic> (4.72%)</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus epidermidis</italic> (2.54%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcus dentisani</italic> (1.85%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcaceae</italic>_uc_s (1.57%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcaceae</italic>_uc_s (3.84%)</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">4</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacteriaceae</italic>_uc_s (2.46%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacterium</italic>_uc (1.56%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcus dentisani</italic> (1.54%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcus</italic>_uc (3.08%)</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Propionibacterium</italic>_uc (2.41%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus epidermidis</italic> (1.31%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">HQ762034_s (1.34%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcus salivarius</italic> (2.2%)</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">6</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">EF188441_s (1.54%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Streptococcaceae</italic>_uc_s (1.26%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus epidermidis</italic> (1.33%)</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Rothia mucilaginosa</italic> (1.67%)</td></tr></tbody></table><table-wrap-foot><fn><p>HC-EB: Elevator button, HC-EBTCS: Employee biometric time clock system, HC-BMKB: Bank machine keyboard buttons.</p></fn></table-wrap-foot></table-wrap><p>The weighted Principal Coordinates Analysis (PCoA) of the microbiome of each sample based upon the UniFrac method was performed to compare overall composition of the bacterial community within the samples. In the two-dimensional plot visualized from the Unifrac weighted distance matrix PCoA, all samples grouped in one cluster with no apparent difference in average size of their circles as depicted in <xref ref-type="fig" rid="ijerph-13-00152-f004">Figure 4</xref>.</p><fig id="ijerph-13-00152-f004" position="float"><label>Figure 4</label><caption><p>Principal Coordinates Analysis (PCoA) analysis of the microbiome of each surface sample based upon Fast UniFrac method with normalization option. Different colored symbols are indicative of the various surfaces.</p></caption><graphic xlink:href="ijerph-13-00152-g004"/></fig><p>A large community of microorganisms lives underneath the bright lights and on the stainless steel gurneys and other environmental sites in hospital. Most of these microbes are harmless and are brought to hospital via human bodies. Because humans harbor different types of microbes on different parts of their body [<xref rid="B33-ijerph-13-00152" ref-type="bibr">33</xref>,<xref rid="B34-ijerph-13-00152" ref-type="bibr">34</xref>,<xref rid="B35-ijerph-13-00152" ref-type="bibr">35</xref>] it is likely that different surfaces host different microbial species because of frequent contact. Determining how microbial assemblages colonize in a hospital environment is particularly important to elucidate the main sources of hospital acquired infections, which have long been among the leading causes of patient deaths [<xref rid="B36-ijerph-13-00152" ref-type="bibr">36</xref>,<xref rid="B37-ijerph-13-00152" ref-type="bibr">37</xref>].</p><p>Here, we explored the deep sequencing analysis of microbial populations associated with some surfaces touched by hands in one of the largest clinical hospitals in Latin America using culture independent Illumina next generation sequencing technology. Our findings revealed that the predominant phyla (in terms of percentages and reads) were <italic>Firmicutes</italic>, <italic>Actinobacteria</italic>, <italic>Proteobacteria</italic>, and <italic>Bacteriodetes</italic>. These results are consistent with previously published studies of microbiota colonizing human skin [<xref rid="B35-ijerph-13-00152" ref-type="bibr">35</xref>,<xref rid="B38-ijerph-13-00152" ref-type="bibr">38</xref>]. Similar to our study, culture-based analysis of bacterial colonization of elevator buttons in large teaching hospitals in Toronto, Ontario found that staphylococci, along with streptococci were among the most prevalent bacteria [<xref rid="B17-ijerph-13-00152" ref-type="bibr">17</xref>]. Also, the prevalence of these phyla has been reported previously in various studies on computer keyboards [<xref rid="B16-ijerph-13-00152" ref-type="bibr">16</xref>], ultrasound transducers [<xref rid="B19-ijerph-13-00152" ref-type="bibr">19</xref>], and in a variety of indoor environment surfaces [<xref rid="B24-ijerph-13-00152" ref-type="bibr">24</xref>,<xref rid="B39-ijerph-13-00152" ref-type="bibr">39</xref>,<xref rid="B40-ijerph-13-00152" ref-type="bibr">40</xref>]. The enrichment of the surfaces of the HC-EB and HC-Restroom in <italic>Firmicutes</italic> (<italic>Ruminococcaceae</italic> and <italic>Lachnospiraceae</italic>) and <italic>Bacteroidetes</italic> suggests their fecal contamination because these taxa are generally associated with the human gut [<xref rid="B33-ijerph-13-00152" ref-type="bibr">33</xref>,<xref rid="B41-ijerph-13-00152" ref-type="bibr">41</xref>,<xref rid="B42-ijerph-13-00152" ref-type="bibr">42</xref>]. These results are worrisome from a public health perspective because of the similar way of dissemination of enteropathogenic bacteria and human commensals.</p><p>Obviously our DNA study did not provide information on whether the bacteria we observed were cause for concern; pathogenic taxa are thus suspected from previous studies. Within the dominant phyla in this study, the bacterial families with the highest abundance across all samples were Streptococcaceae, Propionibacteriaceae, Micrococcaceae, and Staphylococcaceae. The presence of <italic>Streptococcus</italic> has been frequently reported from surfaces where person to person contact may occur [<xref rid="B16-ijerph-13-00152" ref-type="bibr">16</xref>,<xref rid="B17-ijerph-13-00152" ref-type="bibr">17</xref>,<xref rid="B23-ijerph-13-00152" ref-type="bibr">23</xref>,<xref rid="B43-ijerph-13-00152" ref-type="bibr">43</xref>]. In the present study, we identified the presence of more than 35 Streptococcus spp. (tentatively, <italic>S. dentisani, S. salivarius, S. sanguinis, S. gordonii, S. lactarius, S. parasanguinis, S., and S. rubneri</italic>) in all surface swab samples. <italic>Streptococcus dentisani</italic>, <italic>Streptococcus rubneri,</italic> and <italic>Streptococcus lactarius</italic> are novel <italic>streptococcus species</italic> and have recently been assigned to the <italic>Streptococcus mitis</italic> group. The members in this group are known as commensal bacteria of the human oral cavity, gastrointestinal tract, and the female genital tract; however, invasive infections might occur when entering the bloodstream [<xref rid="B44-ijerph-13-00152" ref-type="bibr">44</xref>]. <italic>Streptococcus pyogenes</italic> (also known as group A streptococci), an important human pathogen that causes a variety of diseases in immunocompetent individuals, were observed at low frequency on the surfaces of HC-EB and HC-EBTCS. <italic>Propionibacterium acnes</italic>, a well-described member of the skin microbiome [<xref rid="B35-ijerph-13-00152" ref-type="bibr">35</xref>] were clearly more abundant on surfaces. A variety of species of <italic>Staphylococcus</italic> including <italic>S. epidermidis, S. haemolyticus, S. hominis, S. pasteuri, S. saprophyticus, and S. aureus</italic> also were observed on all surface samples. Among them, <italic>S. epidermidis</italic> is the most abundant bacterial species, followed by <italic>S. capitis</italic>, <italic>S. hominis,</italic> and <italic>S. saprophyticus</italic>. <italic>S. epidermidis</italic> is the most frequently isolated species from human epithelia [<xref rid="B45-ijerph-13-00152" ref-type="bibr">45</xref>] and accounts for at least 22% of bloodstream infections in intensive care unit patients in the USA [<xref rid="B46-ijerph-13-00152" ref-type="bibr">46</xref>]. Furthermore, <italic>S. epidermidis</italic> may be involved in prosthetic joint, vascular graft, surgical site, central nervous system shunt, and cardiac device infections [<xref rid="B47-ijerph-13-00152" ref-type="bibr">47</xref>]. The formation of biofilm matrix <italic>is a</italic> major virulence factor that protects <italic>S. epidermidis</italic> from both the host immune response and antibiotics [<xref rid="B48-ijerph-13-00152" ref-type="bibr">48</xref>,<xref rid="B49-ijerph-13-00152" ref-type="bibr">49</xref>]. We also identified <italic>S. aureus,</italic> which has the capacity to cause a variety of devastating infectious diseases [<xref rid="B3-ijerph-13-00152" ref-type="bibr">3</xref>,<xref rid="B50-ijerph-13-00152" ref-type="bibr">50</xref>,<xref rid="B51-ijerph-13-00152" ref-type="bibr">51</xref>]. Of note, <italic>S. aureus</italic> can survive on surfaces for extended periods of time [<xref rid="B52-ijerph-13-00152" ref-type="bibr">52</xref>]. Outbreaks and infections caused by <italic>S. aureus</italic> have previously been associated with exposures to different contaminated fomites including, toys, towels, razors, handrails, and whirlpools [<xref rid="B53-ijerph-13-00152" ref-type="bibr">53</xref>]. Several studies have also reported the transmission of <italic>S. aureus</italic> from public places such as gymnasiums, schools, and athletic facilities [<xref rid="B43-ijerph-13-00152" ref-type="bibr">43</xref>,<xref rid="B54-ijerph-13-00152" ref-type="bibr">54</xref>,<xref rid="B55-ijerph-13-00152" ref-type="bibr">55</xref>,<xref rid="B56-ijerph-13-00152" ref-type="bibr">56</xref>,<xref rid="B57-ijerph-13-00152" ref-type="bibr">57</xref>]. Detection of <italic>S. aureus</italic> in this study is of great public health concern especially in hospital settings because colonization by <italic>S. aureus</italic> significantly increases the likelihood of a person developing infections. Further studies are needed to determine the prevalence of antibiotic resistance of <italic>S. aureus</italic> isolates detected in the current study.</p><p>Other potentially pathogenic bacteria such as <italic>Salmonella enterica</italic>, <italic>Klebsiella pneumoniae</italic>, <italic>Enterococcus faecalis</italic>, <italic>Pantoea agglomerans, Bartonella_uc, Clostridium perfringens</italic> have been detected in all our sample groups but at low abundance. The presence of <italic>Salmonella enterica</italic> in our study may indicate that hospital users are either exposed or have had prior exposures to the infection source. With all data collectively considered, identification of these bacteria may represent a serious public health hazard.</p><p>Our approach to this investigation reports the presence of bacterial populations regardless of whether they are dead or alive, culturable cells, or non-culturable cells. Therefore, future study using RNA-based approaches, such as RNAseq, is needed to confirm the existence of viable bacterial populations on these surfaces. Despite the identification of these bacteria in our samples, it is difficult to trace the source of a community-acquired infection back to these sites. Also, our study suggests that these surfaces may contribute to the transmission of potentially harmful bacteria and should be a matter of concern for public health authorities. Although, alcohol-based hand sanitizers do not eliminate all bacteria or microorganisms, but reduce the number of microbial contamination to levels that are considered safe from a public health standpoint. Also, to keep the bacterial contamination to a minimum, higher compliance with contact precautions along with enhanced surface cleaning could be essential. Gebel and colleagues (PMID: 23967396) [<xref rid="B58-ijerph-13-00152" ref-type="bibr">58</xref>] have concluded in their recent review that there is a need for defining standard principles for cleaning and disinfection that focus on improving the quality of and the compliance with environmental disinfection procedures. With regard to surface cleaning, the existing cleaning methodologies were clearly evaluated in a recent review by Weber and Rutala and were found to have little effect [<xref rid="B59-ijerph-13-00152" ref-type="bibr">59</xref>]. Therefore, a technology that limits environmental contamination of infectious microorganisms regardless of human error is urgently needed. Indeed, we need to conduct more studies to better understand the microbial ecosystems in hospitals by investigating how pathogens are transmitted from place to place and from person to person.</p></sec><sec id="sec4-ijerph-13-00152"><title>4. Conclusions</title><p>Our study provides a comprehensive assessment of the diversity in bacterial communities and the presence of potential bacterial pathogens on hand-touch surfaces in public areas of hospitals that are frequently used. As reported in the present study, a high degree of microbial diversity derived from these surfaces may be alarmingly attributed to poor personal hygiene. Reductions in these contaminations translate into public health benefits by reducing the rate of hospital acquired infections. To conclude, it is very important to highlight the need for strict hand hygiene, other contact precautions, and regular and enhanced disinfection of environmental surfaces for maximally reducing the spread of disease-causing pathogens.</p></sec></body><back><ack><title>Acknowledgments</title><p>This work was supported by grants 2011/12297-2 and 2014/26983-3 from the Funda&#x000e7;&#x000e3;o de Amparo &#x000e0; Pesquisa do Estado de S&#x000e3;o Paulo.</p></ack><notes><title>Author Contributions</title><p>Sabri Saeed Sanabani conceived the project idea. Sabri Saeed Sanabani and Tairacan Augusto Pereira da Fonseca designed the sample collection protocols. Tairacan Augusto Pereira da Fonseca, Rodrigo Pess&#x000f4;a, and Alvina Clara Felix collected the samples. Sabri Saeed Sanabani coordinated experimental protocols. Tairacan Augusto Pereira da Fonseca and Rodrigo Pess&#x000f4;a performed laboratory experiments and conducted the sequencing experiments. Data analyses and writing of the paper were done by Sabri Saeed Sanabani. All authors have read and approved the final version.</p></notes><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-ijerph-13-00152"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gravel</surname><given-names>D.</given-names></name><name><surname>Taylor</surname><given-names>G.</given-names></name><name><surname>Ofner</surname><given-names>M.</given-names></name><name><surname>Johnston</surname><given-names>L.</given-names></name><name><surname>Loeb</surname><given-names>M.</given-names></name><name><surname>Roth</surname><given-names>V.R.</given-names></name><name><surname>Stegenga</surname><given-names>J.</given-names></name><name><surname>Bryce</surname><given-names>E.</given-names></name><name><surname>Matlow</surname><given-names>A.</given-names></name></person-group>
+<article-title>Point prevalence survey for healthcare-associated infections within canadian adult acute-care hospitals</article-title>
+<source>J. Hosp. Infect.</source>
+<year>2007</year>
+<volume>66</volume>
+<fpage>243</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jhin.2007.04.008</pub-id>
+<?supplied-pmid 17574304?><pub-id pub-id-type="pmid">17574304</pub-id></element-citation></ref><ref id="B2-ijerph-13-00152"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dancer</surname><given-names>S.J.</given-names></name></person-group>
+<article-title>Importance of the environment in meticillin-resistant <italic>Staphylococcus aureus</italic> acquisition: The case for hospital cleaning</article-title>
+<source>Lancet Infect. Dis.</source>
+<year>2008</year>
+<volume>8</volume>
+<fpage>101</fpage>
+<lpage>113</lpage>
+<pub-id pub-id-type="doi">10.1016/S1473-3099(07)70241-4</pub-id>
+<pub-id pub-id-type="pmid">17974481</pub-id></element-citation></ref><ref id="B3-ijerph-13-00152"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klevens</surname><given-names>R.M.</given-names></name><name><surname>Edwards</surname><given-names>J.R.</given-names></name><name><surname>Richards</surname><given-names>C.L.</given-names><suffix>Jr.</suffix></name><name><surname>Horan</surname><given-names>T.C.</given-names></name><name><surname>Gaynes</surname><given-names>R.P.</given-names></name><name><surname>Pollock</surname><given-names>D.A.</given-names></name><name><surname>Cardo</surname><given-names>D.M.</given-names></name></person-group>
+<article-title>Estimating health care-associated infections and deaths in U.S. Hospitals, 2002</article-title>
+<source>Public Health Rep.</source>
+<year>2007</year>
+<volume>122</volume>
+<fpage>160</fpage>
+<lpage>166</lpage>
+<?supplied-pmid 17357358?><pub-id pub-id-type="pmid">17357358</pub-id></element-citation></ref><ref id="B4-ijerph-13-00152"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burke</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>Infection control&#x02014;A problem for patient safety</article-title>
+<source>N. Engl. J. Med.</source>
+<year>2003</year>
+<volume>348</volume>
+<fpage>651</fpage>
+<lpage>656</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJMhpr020557</pub-id>
+<?supplied-pmid 12584377?><pub-id pub-id-type="pmid">12584377</pub-id></element-citation></ref><ref id="B5-ijerph-13-00152"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stone</surname><given-names>P.W.</given-names></name><name><surname>Braccia</surname><given-names>D.</given-names></name><name><surname>Larson</surname><given-names>E.</given-names></name></person-group>
+<article-title>Systematic review of economic analyses of health care-associated infections</article-title>
+<source>Am. J. Infect. Control</source>
+<year>2005</year>
+<volume>33</volume>
+<fpage>501</fpage>
+<lpage>509</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ajic.2005.04.246</pub-id>
+<?supplied-pmid 16260325?><pub-id pub-id-type="pmid">16260325</pub-id></element-citation></ref><ref id="B6-ijerph-13-00152"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sydnor</surname><given-names>E.R.</given-names></name><name><surname>Perl</surname><given-names>T.M.</given-names></name></person-group>
+<article-title>Hospital epidemiology and infection control in acute-care settings</article-title>
+<source>Clin. Microbiol. Rev.</source>
+<year>2011</year>
+<volume>24</volume>
+<fpage>141</fpage>
+<lpage>173</lpage>
+<pub-id pub-id-type="doi">10.1128/CMR.00027-10</pub-id>
+<?supplied-pmid 21233510?><pub-id pub-id-type="pmid">21233510</pub-id></element-citation></ref><ref id="B7-ijerph-13-00152"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Quach</surname><given-names>C.</given-names></name><name><surname>McArthur</surname><given-names>M.</given-names></name><name><surname>McGeer</surname><given-names>A.</given-names></name><name><surname>Li</surname><given-names>L.</given-names></name><name><surname>Simor</surname><given-names>A.</given-names></name><name><surname>Dionne</surname><given-names>M.</given-names></name><name><surname>Levesque</surname><given-names>E.</given-names></name><name><surname>Tremblay</surname><given-names>L.</given-names></name></person-group>
+<article-title>Risk of infection following a visit to the emergency department: A cohort study</article-title>
+<source>CMAJ</source>
+<year>2012</year>
+<volume>184</volume>
+<fpage>E232</fpage>
+<lpage>E239</lpage>
+<pub-id pub-id-type="doi">10.1503/cmaj.110372</pub-id>
+<?supplied-pmid 22271915?><pub-id pub-id-type="pmid">22271915</pub-id></element-citation></ref><ref id="B8-ijerph-13-00152"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Velasco</surname><given-names>E.</given-names></name><name><surname>Thuler</surname><given-names>L.C.</given-names></name><name><surname>Martins</surname><given-names>C.A.</given-names></name><name><surname>Dias</surname><given-names>L.M.</given-names></name><name><surname>Goncalves</surname><given-names>V.M.</given-names></name></person-group>
+<article-title>Nosocomial infections in an oncology intensive care unit</article-title>
+<source>Am. J. Infect. Control</source>
+<year>1997</year>
+<volume>25</volume>
+<fpage>458</fpage>
+<lpage>462</lpage>
+<pub-id pub-id-type="doi">10.1016/S0196-6553(97)90067-5</pub-id>
+<pub-id pub-id-type="pmid">9437483</pub-id></element-citation></ref><ref id="B9-ijerph-13-00152"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Couto</surname><given-names>R.C.</given-names></name><name><surname>Carvalho</surname><given-names>E.A.</given-names></name><name><surname>Pedrosa</surname><given-names>T.M.</given-names></name><name><surname>Pedroso</surname><given-names>E.R.</given-names></name><name><surname>Neto</surname><given-names>M.C.</given-names></name><name><surname>Biscione</surname><given-names>F.M.</given-names></name></person-group>
+<article-title>A 10-year prospective surveillance of nosocomial infections in neonatal intensive care units</article-title>
+<source>Am. J. Infect. Control</source>
+<year>2007</year>
+<volume>35</volume>
+<fpage>183</fpage>
+<lpage>189</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ajic.2006.06.013</pub-id>
+<?supplied-pmid 17433942?><pub-id pub-id-type="pmid">17433942</pub-id></element-citation></ref><ref id="B10-ijerph-13-00152"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pessoa-Silva</surname><given-names>C.L.</given-names></name><name><surname>Richtmann</surname><given-names>R.</given-names></name><name><surname>Calil</surname><given-names>R.</given-names></name><name><surname>Santos</surname><given-names>R.M.</given-names></name><name><surname>Costa</surname><given-names>M.L.</given-names></name><name><surname>Frota</surname><given-names>A.C.</given-names></name><name><surname>Wey</surname><given-names>S.B.</given-names></name></person-group>
+<article-title>Healthcare-associated infections among neonates in brazil</article-title>
+<source>Infect. Control Hosp. Epidemiol.</source>
+<year>2004</year>
+<volume>25</volume>
+<fpage>772</fpage>
+<lpage>777</lpage>
+<pub-id pub-id-type="doi">10.1086/502475</pub-id>
+<?supplied-pmid 15484803?><pub-id pub-id-type="pmid">15484803</pub-id></element-citation></ref><ref id="B11-ijerph-13-00152"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kawagoe</surname><given-names>J.Y.</given-names></name><name><surname>Segre</surname><given-names>C.A.</given-names></name><name><surname>Pereira</surname><given-names>C.R.</given-names></name><name><surname>Cardoso</surname><given-names>M.F.</given-names></name><name><surname>Silva</surname><given-names>C.V.</given-names></name><name><surname>Fukushima</surname><given-names>J.T.</given-names></name></person-group>
+<article-title>Risk factors for nosocomial infections in critically ill newborns: A 5-year prospective cohort study</article-title>
+<source>Am. J. Infect. Control</source>
+<year>2001</year>
+<volume>29</volume>
+<fpage>109</fpage>
+<lpage>114</lpage>
+<pub-id pub-id-type="doi">10.1067/mic.2001.114162</pub-id>
+<?supplied-pmid 11287879?><pub-id pub-id-type="pmid">11287879</pub-id></element-citation></ref><ref id="B12-ijerph-13-00152"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nagata</surname><given-names>E.</given-names></name><name><surname>Brito</surname><given-names>A.S.</given-names></name><name><surname>Matsuo</surname><given-names>T.</given-names></name></person-group>
+<article-title>Nosocomial infections in a neonatal intensive care unit: Incidence and risk factors</article-title>
+<source>Am. J. Infect. Control</source>
+<year>2002</year>
+<volume>30</volume>
+<fpage>26</fpage>
+<lpage>31</lpage>
+<pub-id pub-id-type="doi">10.1067/mic.2002.119823</pub-id>
+<?supplied-pmid 11852413?><pub-id pub-id-type="pmid">11852413</pub-id></element-citation></ref><ref id="B13-ijerph-13-00152"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Treakle</surname><given-names>A.M.</given-names></name><name><surname>Thom</surname><given-names>K.A.</given-names></name><name><surname>Furuno</surname><given-names>J.P.</given-names></name><name><surname>Strauss</surname><given-names>S.M.</given-names></name><name><surname>Harris</surname><given-names>A.D.</given-names></name><name><surname>Perencevich</surname><given-names>E.N.</given-names></name></person-group>
+<article-title>Bacterial contamination of health care workers&#x02019; white coats</article-title>
+<source>Am. J. Infect. Control</source>
+<year>2009</year>
+<volume>37</volume>
+<fpage>101</fpage>
+<lpage>105</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ajic.2008.03.009</pub-id>
+<?supplied-pmid 18834751?><pub-id pub-id-type="pmid">18834751</pub-id></element-citation></ref><ref id="B14-ijerph-13-00152"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tang</surname><given-names>P.H.</given-names></name><name><surname>Worster</surname><given-names>A.</given-names></name><name><surname>Srigley</surname><given-names>J.A.</given-names></name><name><surname>Main</surname><given-names>C.L.</given-names></name></person-group>
+<article-title>Examination of <italic>staphylococcal</italic> stethoscope contamination in the emergency department (pilot) study (EXSSCITED pilot study)</article-title>
+<source>CJEM</source>
+<year>2011</year>
+<volume>13</volume>
+<fpage>239</fpage>
+<lpage>244</lpage>
+<?supplied-pmid 21722552?><pub-id pub-id-type="pmid">21722552</pub-id></element-citation></ref><ref id="B15-ijerph-13-00152"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Redelmeier</surname><given-names>D.A.</given-names></name><name><surname>Livesley</surname><given-names>N.J.</given-names></name></person-group>
+<article-title>Adhesive tape and intravascular-catheter-associated infections</article-title>
+<source>J. Gen. Intern. Med.</source>
+<year>1999</year>
+<volume>14</volume>
+<fpage>373</fpage>
+<lpage>375</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1525-1497.1999.00355.x</pub-id>
+<?supplied-pmid 10354258?><pub-id pub-id-type="pmid">10354258</pub-id></element-citation></ref><ref id="B16-ijerph-13-00152"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schultz</surname><given-names>M.</given-names></name><name><surname>Gill</surname><given-names>J.</given-names></name><name><surname>Zubairi</surname><given-names>S.</given-names></name><name><surname>Huber</surname><given-names>R.</given-names></name><name><surname>Gordin</surname><given-names>F.</given-names></name></person-group>
+<article-title>Bacterial contamination of computer keyboards in a teaching hospital</article-title>
+<source>Infect. Control Hosp. Epidemiol.</source>
+<year>2003</year>
+<volume>24</volume>
+<fpage>302</fpage>
+<lpage>303</lpage>
+<pub-id pub-id-type="doi">10.1086/502200</pub-id>
+<?supplied-pmid 12725363?><pub-id pub-id-type="pmid">12725363</pub-id></element-citation></ref><ref id="B17-ijerph-13-00152"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kandel</surname><given-names>C.E.</given-names></name><name><surname>Simor</surname><given-names>A.E.</given-names></name><name><surname>Redelmeier</surname><given-names>D.A.</given-names></name></person-group>
+<article-title>Elevator buttons as unrecognized sources of bacterial colonization in hospitals</article-title>
+<source>Open Med.</source>
+<year>2014</year>
+<volume>8</volume>
+<fpage>e81</fpage>
+<lpage>e86</lpage>
+<?supplied-pmid 25426176?><pub-id pub-id-type="pmid">25426176</pub-id></element-citation></ref><ref id="B18-ijerph-13-00152"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brady</surname><given-names>R.R.</given-names></name><name><surname>Verran</surname><given-names>J.</given-names></name><name><surname>Damani</surname><given-names>N.N.</given-names></name><name><surname>Gibb</surname><given-names>A.P.</given-names></name></person-group>
+<article-title>Review of mobile communication devices as potential reservoirs of nosocomial pathogens</article-title>
+<source>J. Hosp. Infect.</source>
+<year>2009</year>
+<volume>71</volume>
+<fpage>295</fpage>
+<lpage>300</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jhin.2008.12.009</pub-id>
+<?supplied-pmid 19168261?><pub-id pub-id-type="pmid">19168261</pub-id></element-citation></ref><ref id="B19-ijerph-13-00152"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mullaney</surname><given-names>P.J.</given-names></name><name><surname>Munthali</surname><given-names>P.</given-names></name><name><surname>Vlachou</surname><given-names>P.</given-names></name><name><surname>Jenkins</surname><given-names>D.</given-names></name><name><surname>Rathod</surname><given-names>A.</given-names></name><name><surname>Entwisle</surname><given-names>J.</given-names></name></person-group>
+<article-title>How clean is your probe? Microbiological assessment of ultrasound transducers in routine clinical use, and cost-effective ways to reduce contamination</article-title>
+<source>Clin. Radiol.</source>
+<year>2007</year>
+<volume>62</volume>
+<fpage>694</fpage>
+<lpage>698</lpage>
+<pub-id pub-id-type="doi">10.1016/j.crad.2007.01.002</pub-id>
+<?supplied-pmid 17556040?><pub-id pub-id-type="pmid">17556040</pub-id></element-citation></ref><ref id="B20-ijerph-13-00152"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kramer</surname><given-names>A.</given-names></name><name><surname>Schwebke</surname><given-names>I.</given-names></name><name><surname>Kampf</surname><given-names>G.</given-names></name></person-group>
+<article-title>How long do nosocomial pathogens persist on inanimate surfaces? A systematic review</article-title>
+<source>BMC Infect. Dis.</source>
+<year>2006</year>
+<volume>6</volume>
+<pub-id pub-id-type="doi">10.1186/1471-2334-6-130</pub-id>
+<?supplied-pmid 16914034?><pub-id pub-id-type="pmid">16914034</pub-id></element-citation></ref><ref id="B21-ijerph-13-00152"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kei</surname><given-names>J.</given-names></name><name><surname>Richards</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>The prevalence of methicillin-resistant <italic>Staphylococcus aureus</italic> on inanimate objects in an urban emergency department</article-title>
+<source>J. Emerg. Med.</source>
+<year>2011</year>
+<volume>41</volume>
+<fpage>124</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jemermed.2008.08.002</pub-id>
+<?supplied-pmid 19111424?><pub-id pub-id-type="pmid">19111424</pub-id></element-citation></ref><ref id="B22-ijerph-13-00152"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flores</surname><given-names>G.E.</given-names></name><name><surname>Bates</surname><given-names>S.T.</given-names></name><name><surname>Caporaso</surname><given-names>J.G.</given-names></name><name><surname>Lauber</surname><given-names>C.L.</given-names></name><name><surname>Leff</surname><given-names>J.W.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name><name><surname>Fierer</surname><given-names>N.</given-names></name></person-group>
+<article-title>Diversity, distribution and sources of bacteria in residential kitchens</article-title>
+<source>Environ. Microbiol.</source>
+<year>2013</year>
+<volume>15</volume>
+<fpage>588</fpage>
+<lpage>596</lpage>
+<pub-id pub-id-type="doi">10.1111/1462-2920.12036</pub-id>
+<?supplied-pmid 23171378?><pub-id pub-id-type="pmid">23171378</pub-id></element-citation></ref><ref id="B23-ijerph-13-00152"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flores</surname><given-names>G.E.</given-names></name><name><surname>Bates</surname><given-names>S.T.</given-names></name><name><surname>Knights</surname><given-names>D.</given-names></name><name><surname>Lauber</surname><given-names>C.L.</given-names></name><name><surname>Stombaugh</surname><given-names>J.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name><name><surname>Fierer</surname><given-names>N.</given-names></name></person-group>
+<article-title>Microbial biogeography of public restroom surfaces</article-title>
+<source>PLoS ONE</source>
+<year>2011</year>
+<volume>6</volume>
+<elocation-id>152</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0028132</pub-id>
+<?supplied-pmid 22132229?><pub-id pub-id-type="pmid">22132229</pub-id></element-citation></ref><ref id="B24-ijerph-13-00152"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rintala</surname><given-names>H.</given-names></name><name><surname>Pitkaranta</surname><given-names>M.</given-names></name><name><surname>Toivola</surname><given-names>M.</given-names></name><name><surname>Paulin</surname><given-names>L.</given-names></name><name><surname>Nevalainen</surname><given-names>A.</given-names></name></person-group>
+<article-title>Diversity and seasonal dynamics of bacterial community in indoor environment</article-title>
+<source>BMC Microbiol.</source>
+<year>2008</year>
+<volume>8</volume>
+<pub-id pub-id-type="doi">10.1186/1471-2180-8-56</pub-id>
+<?supplied-pmid 18397514?><pub-id pub-id-type="pmid">18397514</pub-id></element-citation></ref><ref id="B25-ijerph-13-00152"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulino</surname><given-names>L.C.</given-names></name><name><surname>Tseng</surname><given-names>C.H.</given-names></name><name><surname>Strober</surname><given-names>B.E.</given-names></name><name><surname>Blaser</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>Molecular analysis of fungal microbiota in samples from healthy human skin and psoriatic lesions</article-title>
+<source>J. Clin. Microbiol.</source>
+<year>2006</year>
+<volume>44</volume>
+<fpage>2933</fpage>
+<lpage>2941</lpage>
+<pub-id pub-id-type="doi">10.1128/JCM.00785-06</pub-id>
+<?supplied-pmid 16891514?><pub-id pub-id-type="pmid">16891514</pub-id></element-citation></ref><ref id="B26-ijerph-13-00152"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herlemann</surname><given-names>D.P.</given-names></name><name><surname>Labrenz</surname><given-names>M.</given-names></name><name><surname>Jurgens</surname><given-names>K.</given-names></name><name><surname>Bertilsson</surname><given-names>S.</given-names></name><name><surname>Waniek</surname><given-names>J.J.</given-names></name><name><surname>Andersson</surname><given-names>A.F.</given-names></name></person-group>
+<article-title>Transitions in bacterial communities along the 2000 km salinity gradient of the baltic sea</article-title>
+<source>ISME J.</source>
+<year>2011</year>
+<volume>5</volume>
+<fpage>1571</fpage>
+<lpage>1579</lpage>
+<pub-id pub-id-type="doi">10.1038/ismej.2011.41</pub-id>
+<?supplied-pmid 21472016?><pub-id pub-id-type="pmid">21472016</pub-id></element-citation></ref><ref id="B27-ijerph-13-00152"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Da Pereira Fonseca</surname><given-names>T.A.</given-names></name><name><surname>Pessoa</surname><given-names>R.</given-names></name><name><surname>Sanabani</surname><given-names>S.S.</given-names></name></person-group>
+<article-title>Molecular analysis of bacterial microbiota on brazilian currency note surfaces</article-title>
+<source>Int. J. Environ. Res. Public Health</source>
+<year>2015</year>
+<volume>12</volume>
+<fpage>13276</fpage>
+<lpage>13288</lpage>
+<pub-id pub-id-type="doi">10.3390/ijerph121013276</pub-id>
+<?supplied-pmid 26506368?><pub-id pub-id-type="pmid">26506368</pub-id></element-citation></ref><ref id="B28-ijerph-13-00152"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masella</surname><given-names>A.P.</given-names></name><name><surname>Bartram</surname><given-names>A.K.</given-names></name><name><surname>Truszkowski</surname><given-names>J.M.</given-names></name><name><surname>Brown</surname><given-names>D.G.</given-names></name><name><surname>Neufeld</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Pandaseq: Paired-end assembler for illumina sequences</article-title>
+<source>BMC Bioinform.</source>
+<year>2012</year>
+<volume>13</volume>
+<pub-id pub-id-type="doi">10.1186/1471-2105-13-31</pub-id>
+<?supplied-pmid 22333067?><pub-id pub-id-type="pmid">22333067</pub-id></element-citation></ref><ref id="B29-ijerph-13-00152"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edgar</surname><given-names>R.C.</given-names></name><name><surname>Haas</surname><given-names>B.J.</given-names></name><name><surname>Clemente</surname><given-names>J.C.</given-names></name><name><surname>Quince</surname><given-names>C.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name></person-group>
+<article-title>Uchime improves sensitivity and speed of chimera detection</article-title>
+<source>Bioinformatics</source>
+<year>2011</year>
+<volume>27</volume>
+<fpage>2194</fpage>
+<lpage>2200</lpage>
+<pub-id pub-id-type="doi">10.1093/bioinformatics/btr381</pub-id>
+<?supplied-pmid 21700674?><pub-id pub-id-type="pmid">21700674</pub-id></element-citation></ref><ref id="B30-ijerph-13-00152"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>O.S.</given-names></name><name><surname>Cho</surname><given-names>Y.J.</given-names></name><name><surname>Lee</surname><given-names>K.</given-names></name><name><surname>Yoon</surname><given-names>S.H.</given-names></name><name><surname>Kim</surname><given-names>M.</given-names></name><name><surname>Na</surname><given-names>H.</given-names></name><name><surname>Park</surname><given-names>S.C.</given-names></name><name><surname>Jeon</surname><given-names>Y.S.</given-names></name><name><surname>Lee</surname><given-names>J.H.</given-names></name><name><surname>Yi</surname><given-names>H.</given-names></name><etal/></person-group>
+<article-title>Introducing EzTaxon-e: A prokaryotic 16s rRNA gene sequence database with phylotypes that represent uncultured species</article-title>
+<source>Int. J. Syst. Evol. Microbiol.</source>
+<year>2012</year>
+<volume>62</volume>
+<fpage>716</fpage>
+<lpage>721</lpage>
+<pub-id pub-id-type="doi">10.1099/ijs.0.038075-0</pub-id>
+<?supplied-pmid 22140171?><pub-id pub-id-type="pmid">22140171</pub-id></element-citation></ref><ref id="B31-ijerph-13-00152"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamady</surname><given-names>M.</given-names></name><name><surname>Lozupone</surname><given-names>C.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name></person-group>
+<article-title>Fast unifrac: Facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and phylochip data</article-title>
+<source>ISME J.</source>
+<year>2010</year>
+<volume>4</volume>
+<fpage>17</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="doi">10.1038/ismej.2009.97</pub-id>
+<?supplied-pmid 19710709?><pub-id pub-id-type="pmid">19710709</pub-id></element-citation></ref><ref id="B32-ijerph-13-00152"><label>32.</label><element-citation publication-type="webpage">
+<person-group person-group-type="author"><name><surname>Tairacan</surname><given-names>A.P.F.</given-names></name><name><surname>Sabri</surname><given-names>S.S.</given-names></name></person-group>
+<article-title>Diversity of Bacterial Communities on Four Frequently Used Surfaces in a Large Brazilian Teaching Hospital</article-title>
+<comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5281/zenodo.35584">http://dx.doi.org/10.5281/zenodo.35584</ext-link></comment>
+<date-in-citation>(accessed on 21 December 2015)</date-in-citation>
+</element-citation></ref><ref id="B33-ijerph-13-00152"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Costello</surname><given-names>E.K.</given-names></name><name><surname>Lauber</surname><given-names>C.L.</given-names></name><name><surname>Hamady</surname><given-names>M.</given-names></name><name><surname>Fierer</surname><given-names>N.</given-names></name><name><surname>Gordon</surname><given-names>J.I.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name></person-group>
+<article-title>Bacterial community variation in human body habitats across space and time</article-title>
+<source>Science</source>
+<year>2009</year>
+<volume>326</volume>
+<fpage>1694</fpage>
+<lpage>1697</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1177486</pub-id>
+<?supplied-pmid 19892944?><pub-id pub-id-type="pmid">19892944</pub-id></element-citation></ref><ref id="B34-ijerph-13-00152"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fierer</surname><given-names>N.</given-names></name><name><surname>Hamady</surname><given-names>M.</given-names></name><name><surname>Lauber</surname><given-names>C.L.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name></person-group>
+<article-title>The influence of sex, handedness, and washing on the diversity of hand surface bacteria</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2008</year>
+<volume>105</volume>
+<fpage>17994</fpage>
+<lpage>17999</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0807920105</pub-id>
+<?supplied-pmid 19004758?><pub-id pub-id-type="pmid">19004758</pub-id></element-citation></ref><ref id="B35-ijerph-13-00152"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grice</surname><given-names>E.A.</given-names></name><name><surname>Kong</surname><given-names>H.H.</given-names></name><name><surname>Conlan</surname><given-names>S.</given-names></name><name><surname>Deming</surname><given-names>C.B.</given-names></name><name><surname>Davis</surname><given-names>J.</given-names></name><name><surname>Young</surname><given-names>A.C.</given-names></name><name><surname>Bouffard</surname><given-names>G.G.</given-names></name><name><surname>Blakesley</surname><given-names>R.W.</given-names></name><name><surname>Murray</surname><given-names>P.R.</given-names></name><name><surname>Green</surname><given-names>E.D.</given-names></name><etal/></person-group>
+<article-title>Topographical and temporal diversity of the human skin microbiome</article-title>
+<source>Science</source>
+<year>2009</year>
+<volume>324</volume>
+<fpage>1190</fpage>
+<lpage>1192</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1171700</pub-id>
+<?supplied-pmid 19478181?><pub-id pub-id-type="pmid">19478181</pub-id></element-citation></ref><ref id="B36-ijerph-13-00152"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reed</surname><given-names>D.</given-names></name><name><surname>Kemmerly</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Infection control and prevention: A review of hospital-acquired infections and the economic implications</article-title>
+<source>Ochsner J.</source>
+<year>2009</year>
+<volume>9</volume>
+<fpage>27</fpage>
+<lpage>31</lpage>
+<?supplied-pmid 21603406?><pub-id pub-id-type="pmid">21603406</pub-id></element-citation></ref><ref id="B37-ijerph-13-00152"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anderson</surname><given-names>R.N.</given-names></name><name><surname>Smith</surname><given-names>B.L.</given-names></name></person-group>
+<article-title>Deaths: Leading causes for 2002</article-title>
+<source>Natl. Vital. Stat. Rep.</source>
+<year>2005</year>
+<volume>53</volume>
+<fpage>1</fpage>
+<lpage>89</lpage>
+<?supplied-pmid 15786629?><pub-id pub-id-type="pmid">15786629</pub-id></element-citation></ref><ref id="B38-ijerph-13-00152"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gao</surname><given-names>Z.</given-names></name><name><surname>Tseng</surname><given-names>C.H.</given-names></name><name><surname>Pei</surname><given-names>Z.</given-names></name><name><surname>Blaser</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>Molecular analysis of human forearm superficial skin bacterial biota</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2007</year>
+<volume>104</volume>
+<fpage>2927</fpage>
+<lpage>2932</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0607077104</pub-id>
+<?supplied-pmid 17293459?><pub-id pub-id-type="pmid">17293459</pub-id></element-citation></ref><ref id="B39-ijerph-13-00152"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>L.</given-names></name><name><surname>Tin</surname><given-names>S.</given-names></name><name><surname>Kelley</surname><given-names>S.T.</given-names></name></person-group>
+<article-title>Culture-independent analysis of bacterial diversity in a child-care facility</article-title>
+<source>BMC Microbiol.</source>
+<year>2007</year>
+<volume>7</volume>
+<pub-id pub-id-type="doi">10.1186/1471-2180-7-27</pub-id>
+<?supplied-pmid 17411442?><pub-id pub-id-type="pmid">17411442</pub-id></element-citation></ref><ref id="B40-ijerph-13-00152"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McManus</surname><given-names>C.J.</given-names></name><name><surname>Kelley</surname><given-names>S.T.</given-names></name></person-group>
+<article-title>Molecular survey of aeroplane bacterial contamination</article-title>
+<source>J. Appl. Microbiol.</source>
+<year>2005</year>
+<volume>99</volume>
+<fpage>502</fpage>
+<lpage>508</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2672.2005.02651.x</pub-id>
+<?supplied-pmid 16108791?><pub-id pub-id-type="pmid">16108791</pub-id></element-citation></ref><ref id="B41-ijerph-13-00152"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Claesson</surname><given-names>M.J.</given-names></name><name><surname>O&#x02019;Sullivan</surname><given-names>O.</given-names></name><name><surname>Wang</surname><given-names>Q.</given-names></name><name><surname>Nikkila</surname><given-names>J.</given-names></name><name><surname>Marchesi</surname><given-names>J.R.</given-names></name><name><surname>Smidt</surname><given-names>H.</given-names></name><name><surname>de Vos</surname><given-names>W.M.</given-names></name><name><surname>Ross</surname><given-names>R.P.</given-names></name><name><surname>O&#x02019;Toole</surname><given-names>P.W.</given-names></name></person-group>
+<article-title>Comparative analysis of pyrosequencing and a phylogenetic microarray for exploring microbial community structures in the human distal intestine</article-title>
+<source>PLoS ONE</source>
+<year>2009</year>
+<volume>4</volume>
+<elocation-id>152</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0006669</pub-id>
+<?supplied-pmid 19693277?><pub-id pub-id-type="pmid">19693277</pub-id></element-citation></ref><ref id="B42-ijerph-13-00152"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ley</surname><given-names>R.E.</given-names></name><name><surname>Turnbaugh</surname><given-names>P.J.</given-names></name><name><surname>Klein</surname><given-names>S.</given-names></name><name><surname>Gordon</surname><given-names>J.I.</given-names></name></person-group>
+<article-title>Microbial ecology: Human gut microbes associated with obesity</article-title>
+<source>Nature</source>
+<year>2006</year>
+<volume>444</volume>
+<fpage>1022</fpage>
+<lpage>1023</lpage>
+<pub-id pub-id-type="doi">10.1038/4441022a</pub-id>
+<?supplied-pmid 17183309?><pub-id pub-id-type="pmid">17183309</pub-id></element-citation></ref><ref id="B43-ijerph-13-00152"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mukherjee</surname><given-names>N.</given-names></name><name><surname>Dowd</surname><given-names>S.E.</given-names></name><name><surname>Wise</surname><given-names>A.</given-names></name><name><surname>Kedia</surname><given-names>S.</given-names></name><name><surname>Vohra</surname><given-names>V.</given-names></name><name><surname>Banerjee</surname><given-names>P.</given-names></name></person-group>
+<article-title>Diversity of bacterial communities of fitness center surfaces in a U.S. Metropolitan area</article-title>
+<source>Int. J. Environ. Res. Public Health</source>
+<year>2014</year>
+<volume>11</volume>
+<fpage>12544</fpage>
+<lpage>12561</lpage>
+<pub-id pub-id-type="doi">10.3390/ijerph111212544</pub-id>
+<?supplied-pmid 25479039?><pub-id pub-id-type="pmid">25479039</pub-id></element-citation></ref><ref id="B44-ijerph-13-00152"><label>44.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Spellerberg</surname><given-names>B.</given-names></name><name><surname>Brandt</surname><given-names>C.</given-names></name></person-group>
+<source>Manual of Clinical Microbiology</source>
+<edition>10th ed.</edition>
+<publisher-name>ASM Press</publisher-name>
+<publisher-loc>Washington, DC, USA</publisher-loc>
+<year>2011</year>
+<fpage>331</fpage>
+<lpage>349</lpage>
+</element-citation></ref><ref id="B45-ijerph-13-00152"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kloos</surname><given-names>W.E.</given-names></name><name><surname>Musselwhite</surname><given-names>M.S.</given-names></name></person-group>
+<article-title>Distribution and persistence of <italic>Staphylococcus</italic> and micrococcus species and other aerobic bacteria on human skin</article-title>
+<source>Appl. Microbiol.</source>
+<year>1975</year>
+<volume>30</volume>
+<fpage>381</fpage>
+<lpage>385</lpage>
+<?supplied-pmid 810086?><pub-id pub-id-type="pmid">810086</pub-id></element-citation></ref><ref id="B46-ijerph-13-00152"><label>46.</label><element-citation publication-type="book">
+<article-title>National Nosocomial Infections Surveillance System. National nosocomial infections surveillance (NNIS) system report, data summary from January 1992 through June 2004, issued October 2004</article-title>
+<source>Am. J. Infect. Control</source>
+<publisher-name>NNIS</publisher-name>
+<year>2004</year>
+<volume>32</volume>
+<fpage>470</fpage>
+<lpage>485</lpage>
+<pub-id pub-id-type="pmid">15573054</pub-id></element-citation></ref><ref id="B47-ijerph-13-00152"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rogers</surname><given-names>K.L.</given-names></name><name><surname>Fey</surname><given-names>P.D.</given-names></name><name><surname>Rupp</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>Coagulase-negative staphylococcal infections</article-title>
+<source>Infect. Dis. Clin. North Am.</source>
+<year>2009</year>
+<volume>23</volume>
+<fpage>73</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="doi">10.1016/j.idc.2008.10.001</pub-id>
+<?supplied-pmid 19135917?><pub-id pub-id-type="pmid">19135917</pub-id></element-citation></ref><ref id="B48-ijerph-13-00152"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Otto</surname><given-names>M.</given-names></name></person-group>
+<article-title><italic>Staphylococcus epidermidis</italic>&#x02014;The &#x0201c;accidental&#x0201d; pathogen</article-title>
+<source>Nat. Rev. Microbiol.</source>
+<year>2009</year>
+<volume>7</volume>
+<fpage>555</fpage>
+<lpage>567</lpage>
+<pub-id pub-id-type="doi">10.1038/nrmicro2182</pub-id>
+<?supplied-pmid 19609257?><pub-id pub-id-type="pmid">19609257</pub-id></element-citation></ref><ref id="B49-ijerph-13-00152"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mack</surname><given-names>D.</given-names></name><name><surname>Fischer</surname><given-names>W.</given-names></name><name><surname>Krokotsch</surname><given-names>A.</given-names></name><name><surname>Leopold</surname><given-names>K.</given-names></name><name><surname>Hartmann</surname><given-names>R.</given-names></name><name><surname>Egge</surname><given-names>H.</given-names></name><name><surname>Laufs</surname><given-names>R.</given-names></name></person-group>
+<article-title>The intercellular adhesin involved in biofilm accumulation of <italic>Staphylococcus epidermidis</italic> is a linear beta-1,6-linked glucosaminoglycan: Purification and structural analysis</article-title>
+<source>J. Bacteriol.</source>
+<year>1996</year>
+<volume>178</volume>
+<fpage>175</fpage>
+<lpage>183</lpage>
+<?supplied-pmid 8550413?><pub-id pub-id-type="pmid">8550413</pub-id></element-citation></ref><ref id="B50-ijerph-13-00152"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lowy</surname><given-names>F.D.</given-names></name></person-group>
+<article-title><italic>Staphylococcus aureus</italic> infections</article-title>
+<source>N. Engl. J. Med.</source>
+<year>1998</year>
+<volume>339</volume>
+<fpage>520</fpage>
+<lpage>532</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJM199808203390806</pub-id>
+<?supplied-pmid 9709046?><pub-id pub-id-type="pmid">9709046</pub-id></element-citation></ref><ref id="B51-ijerph-13-00152"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Otto</surname><given-names>M.</given-names></name></person-group>
+<article-title>Mrsa virulence and spread</article-title>
+<source>Cell Microbiol.</source>
+<year>2012</year>
+<volume>14</volume>
+<fpage>1513</fpage>
+<lpage>1521</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1462-5822.2012.01832.x</pub-id>
+<?supplied-pmid 22747834?><pub-id pub-id-type="pmid">22747834</pub-id></element-citation></ref><ref id="B52-ijerph-13-00152"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanford</surname><given-names>M.D.</given-names></name><name><surname>Widmer</surname><given-names>A.F.</given-names></name><name><surname>Bale</surname><given-names>M.J.</given-names></name><name><surname>Jones</surname><given-names>R.N.</given-names></name><name><surname>Wenzel</surname><given-names>R.P.</given-names></name></person-group>
+<article-title>Efficient detection and long-term persistence of the carriage of methicillin-resistant <italic>Staphylococcus aureus</italic></article-title>
+<source>Clin. Infect. Dis.</source>
+<year>1994</year>
+<volume>19</volume>
+<fpage>1123</fpage>
+<lpage>1128</lpage>
+<pub-id pub-id-type="doi">10.1093/clinids/19.6.1123</pub-id>
+<?supplied-pmid 7888543?><pub-id pub-id-type="pmid">7888543</pub-id></element-citation></ref><ref id="B53-ijerph-13-00152"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>L.G.</given-names></name><name><surname>Diep</surname><given-names>B.A.</given-names></name></person-group>
+<article-title>Clinical practice: Colonization, fomites, and virulence: Rethinking the pathogenesis of community-associated methicillin-resistant <italic>Staphylococcus aureus</italic> infection</article-title>
+<source>Clin. Infect. Dis.</source>
+<year>2008</year>
+<volume>46</volume>
+<fpage>752</fpage>
+<lpage>760</lpage>
+<pub-id pub-id-type="doi">10.1086/526773</pub-id>
+<?supplied-pmid 18220477?><pub-id pub-id-type="pmid">18220477</pub-id></element-citation></ref><ref id="B54-ijerph-13-00152"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>David</surname><given-names>M.Z.</given-names></name><name><surname>Mennella</surname><given-names>C.</given-names></name><name><surname>Mansour</surname><given-names>M.</given-names></name><name><surname>Boyle-Vavra</surname><given-names>S.</given-names></name><name><surname>Daum</surname><given-names>R.S.</given-names></name></person-group>
+<article-title>Predominance of methicillin-resistant <italic>Staphylococcus aureus</italic> among pathogens causing skin and soft tissue infections in a large urban jail: Risk factors and recurrence rates</article-title>
+<source>J. Clin. Microbiol.</source>
+<year>2008</year>
+<volume>46</volume>
+<fpage>3222</fpage>
+<lpage>3227</lpage>
+<pub-id pub-id-type="doi">10.1128/JCM.01423-08</pub-id>
+<?supplied-pmid 18685002?><pub-id pub-id-type="pmid">18685002</pub-id></element-citation></ref><ref id="B55-ijerph-13-00152"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rackham</surname><given-names>D.M.</given-names></name><name><surname>Ray</surname><given-names>S.M.</given-names></name><name><surname>Franks</surname><given-names>A.S.</given-names></name><name><surname>Bielak</surname><given-names>K.M.</given-names></name><name><surname>Pinn</surname><given-names>T.M.</given-names></name></person-group>
+<article-title>Community-associated methicillin-resistant <italic>Staphylococcus aureus</italic> nasal carriage in a college student athlete population</article-title>
+<source>Clin. J. Sport Med.</source>
+<year>2010</year>
+<volume>20</volume>
+<fpage>185</fpage>
+<lpage>188</lpage>
+<pub-id pub-id-type="doi">10.1097/JSM.0b013e3181dba80d</pub-id>
+<?supplied-pmid 20445358?><pub-id pub-id-type="pmid">20445358</pub-id></element-citation></ref><ref id="B56-ijerph-13-00152"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Montgomery</surname><given-names>K.</given-names></name><name><surname>Ryan</surname><given-names>T.J.</given-names></name><name><surname>Krause</surname><given-names>A.</given-names></name><name><surname>Starkey</surname><given-names>C.</given-names></name></person-group>
+<article-title>Assessment of athletic health care facility surfaces for MRSA in the secondary school setting</article-title>
+<source>J. Environ. Health</source>
+<year>2010</year>
+<volume>72</volume>
+<fpage>8</fpage>
+<lpage>11</lpage>
+<?supplied-pmid 20104827?><pub-id pub-id-type="pmid">20104827</pub-id></element-citation></ref><ref id="B57-ijerph-13-00152"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stanforth</surname><given-names>B.</given-names></name><name><surname>Krause</surname><given-names>A.</given-names></name><name><surname>Starkey</surname><given-names>C.</given-names></name><name><surname>Ryan</surname><given-names>T.J.</given-names></name></person-group>
+<article-title>Prevalence of community-associated methicillin-resistant <italic>Staphylococcus aureus</italic> in high school wrestling environments</article-title>
+<source>J. Environ. Health</source>
+<year>2010</year>
+<volume>72</volume>
+<fpage>12</fpage>
+<lpage>16</lpage>
+<?supplied-pmid 20104828?><pub-id pub-id-type="pmid">20104828</pub-id></element-citation></ref><ref id="B58-ijerph-13-00152"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gebel</surname><given-names>J.</given-names></name><name><surname>Exner</surname><given-names>M.</given-names></name><name><surname>French</surname><given-names>G.</given-names></name><name><surname>Chartier</surname><given-names>Y.</given-names></name><name><surname>Christiansen</surname><given-names>B.</given-names></name><name><surname>Gemein</surname><given-names>S.</given-names></name><name><surname>Goroncy-Bermes</surname><given-names>P.</given-names></name><name><surname>Hartemann</surname><given-names>P.</given-names></name><name><surname>Heudorf</surname><given-names>U.</given-names></name><name><surname>Kramer</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>The role of surface disinfection in infection prevention</article-title>
+<source>GMS Hyg. Infect. Control</source>
+<year>2013</year>
+<volume>8</volume>
+<pub-id pub-id-type="doi">10.3205/dgkh000210</pub-id>
+</element-citation></ref><ref id="B59-ijerph-13-00152"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weber</surname><given-names>D.J.</given-names></name><name><surname>Rutala</surname><given-names>W.A.</given-names></name></person-group>
+<article-title>Self-disinfecting surfaces: Review of current methodologies and future prospects</article-title>
+<source>Am. J. Infect. Control</source>
+<year>2013</year>
+<volume>41</volume>
+<fpage>S31</fpage>
+<lpage>S35</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ajic.2012.12.005</pub-id>
+<?supplied-pmid 23622745?><pub-id pub-id-type="pmid">23622745</pub-id></element-citation></ref></ref-list></back></article>

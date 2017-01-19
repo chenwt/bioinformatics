@@ -1,0 +1,860 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">FEBS Open Bio</journal-id><journal-id journal-id-type="iso-abbrev">FEBS Open Bio</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2211-5463</journal-id><journal-id journal-id-type="publisher-id">FEB4</journal-id><journal-title-group><journal-title>FEBS Open Bio</journal-title></journal-title-group><issn pub-type="epub">2211-5463</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4971835</article-id><article-id pub-id-type="doi">10.1002/2211-5463.12060</article-id><article-id pub-id-type="publisher-id">FEB412060</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>Transcriptome analysis of copper homeostasis genes reveals coordinated upregulation of <italic><styled-content style="fixed-case">SLC</styled-content>31A1</italic>,<italic><styled-content style="fixed-case">SCO</styled-content></italic>1, and <italic><styled-content style="fixed-case">COX</styled-content>11</italic> in colorectal cancer</article-title><alt-title alt-title-type="left-running-head">V. Barresi <italic>et&#x000a0;al</italic>.</alt-title></title-group><contrib-group><contrib id="feb412060-cr-0001" contrib-type="author"><name><surname>Barresi</surname><given-names>Vincenza</given-names></name><xref ref-type="aff" rid="feb412060-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="feb412060-cr-0002" contrib-type="author"><name><surname>Trovato&#x02010;Salinaro</surname><given-names>Angela</given-names></name><xref ref-type="aff" rid="feb412060-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="feb412060-cr-0003" contrib-type="author"><name><surname>Spampinato</surname><given-names>Giorgia</given-names></name><xref ref-type="aff" rid="feb412060-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="feb412060-cr-0004" contrib-type="author"><name><surname>Musso</surname><given-names>Nicol&#x000f2;</given-names></name><xref ref-type="aff" rid="feb412060-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="feb412060-cr-0005" contrib-type="author"><name><surname>Castorina</surname><given-names>Sergio</given-names></name><xref ref-type="aff" rid="feb412060-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="feb412060-cr-0006" contrib-type="author"><name><surname>Rizzarelli</surname><given-names>Enrico</given-names></name><xref ref-type="aff" rid="feb412060-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="feb412060-cr-0007" contrib-type="author" corresp="yes"><name><surname>Condorelli</surname><given-names>Daniele Filippo</given-names></name><xref ref-type="aff" rid="feb412060-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="feb412060-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Section&#x000a0;of Medical Biochemistry</named-content><named-content content-type="organisation-division">Department of Biomedical and Biotechnological Sciences</named-content><institution>University of Catania</institution><country country="IT">Italy</country></aff><aff id="feb412060-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Section&#x000a0;of Human Anatomy</named-content><named-content content-type="organisation-division">Department of Biomedical and Biotechnological Sciences</named-content><institution>University of Catania</institution><country country="IT">Italy</country></aff><aff id="feb412060-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Institute of Biostructures and Bioimaging</named-content><institution>National Council of Research</institution><institution>UOS Catania</institution><country country="IT">Italy</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold><break/>
+D. F. Condorelli, Section&#x000a0;of Medical Biochemistry, Department of Biomedical and Biotechnological Sciences, University of Catania, Via S. Sofia 64, 95125 Catania, Italy<break/>
+Fax/Tel: +39 095 7384256<break/>
+E&#x02010;mail: <email>daniele.condorelli@unict.it</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>08</day><month>7</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2016</year></pub-date><volume>6</volume><issue>8</issue><issue-id pub-id-type="doi">10.1111/feb4.2016.6.issue-8</issue-id><fpage>794</fpage><lpage>806</lpage><history><date date-type="received"><day>01</day><month>10</month><year>2015</year></date><date date-type="rev-recd"><day>06</day><month>2</month><year>2016</year></date><date date-type="accepted"><day>17</day><month>3</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 Federation of European Biochemical Societies <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2016 The Authors. Published by FEBS Press and John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:FEB4-6-794.pdf"/><abstract id="feb412060-abs-0001"><p>Copper homeostasis and distribution is strictly regulated by a network of transporters and intracellular chaperones encoded by a group of genes collectively known as copper homeostasis genes (<styled-content style="fixed-case">CHG</styled-content>s). In this work, analysis of The Cancer Genome Atlas database for somatic point mutations in colorectal cancer revealed that inactivating mutations are absent or extremely rare in <styled-content style="fixed-case">CHG</styled-content>s. Using oligonucleotide microarrays, we found a strong increase in <styled-content style="fixed-case">mRNA</styled-content> levels of the membrane copper transporter 1 protein [<styled-content style="fixed-case">CTR</styled-content>1; encoded by the solute carrier family 31 member 1 gene (<italic><styled-content style="fixed-case">SLC</styled-content>31A1</italic> gene)] in our series of colorectal carcinoma samples. <styled-content style="fixed-case">CTR</styled-content>1 is the main copper influx transporter and changes in its expression are able to induce modifications of cellular copper accumulation. The increased <italic><styled-content style="fixed-case">SLC</styled-content>31A1 </italic>
+<styled-content style="fixed-case">mRNA</styled-content> level is accompanied by a parallel increase in transcript levels for copper efflux pump <styled-content style="fixed-case">ATP</styled-content>7A, copper metabolism Murr1 domain containing 1 (<styled-content style="fixed-case">COMMD</styled-content>1), the cytochrome C oxidase assembly factors [synthesis of cytochrome c oxidase 1 (<styled-content style="fixed-case">SCO</styled-content>1) and cytochrome c oxidase copper chaperone 11 (<styled-content style="fixed-case">COX</styled-content>11)], the cupric reductase six transmembrane epithelial antigen of the prostate (<styled-content style="fixed-case">STEAP</styled-content>3), and the metal&#x02010;regulatory transcription factors (<styled-content style="fixed-case">MTF</styled-content>1, <styled-content style="fixed-case">MTF</styled-content>2) and specificity protein 1 (<styled-content style="fixed-case">SP</styled-content>1). The significant correlation between <italic><styled-content style="fixed-case">SLC</styled-content>31A1</italic>,<italic><styled-content style="fixed-case">SCO</styled-content>1</italic>, and <italic><styled-content style="fixed-case">COX</styled-content>11 </italic>
+<styled-content style="fixed-case">mRNA</styled-content> levels suggests that this transcriptional upregulation might be part of a coordinated program of gene regulation. Transcript&#x02010;level upregulation of <italic><styled-content style="fixed-case">SLC</styled-content>31A1</italic>,<italic><styled-content style="fixed-case">SCO</styled-content>1</italic>, and <italic><styled-content style="fixed-case">COX</styled-content>11</italic> was also confirmed by the analysis of different colon carcinoma cell lines (Caco&#x02010;2, <styled-content style="fixed-case">HT</styled-content>116, <styled-content style="fixed-case">HT</styled-content>29) and cancer cell lines of different tissue origin (<styled-content style="fixed-case">MCF</styled-content>7, <styled-content style="fixed-case">PC</styled-content>3). Finally, exon&#x02010;level expression analysis of <italic><styled-content style="fixed-case">SLC</styled-content>31A1</italic> reveals differential expression of alternative transcripts in colorectal cancer and normal colonic mucosa.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="feb412060-kwd-0001">alternative transcripts</kwd><kwd id="feb412060-kwd-0002">colorectal cancer</kwd><kwd id="feb412060-kwd-0003">copper homeostasis</kwd><kwd id="feb412060-kwd-0004">copper transporter</kwd><kwd id="feb412060-kwd-0005">synthesis of cytochrome c oxidase</kwd></kwd-group><counts><page-count count="13"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>feb412060</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.4 mode:remove_FC converted:03.08.2016</meta-value></custom-meta></custom-meta-group></article-meta></front><body><def-list list-content="abbreviations" id="feb412060-dl-0001"><title>Abbreviations</title><def-item><term>ATOX1</term><def><p>antioxidant 1 copper chaperone</p></def></def-item><def-item><term>CCS</term><def><p>copper chaperone for SOD1</p></def></def-item><def-item><term>CHGs</term><def><p>copper homeostasis genes</p></def></def-item><def-item><term>COMMD1</term><def><p>copper metabolism Murr1 domain containing 1</p></def></def-item><def-item><term>COX11</term><def><p>cytochrome c oxidase copper chaperone 11</p></def></def-item><def-item><term>COX17</term><def><p>cytochrome c oxidase copper chaperone 17</p></def></def-item><def-item><term>CRC</term><def><p>colorectal cancer</p></def></def-item><def-item><term>CTR1</term><def><p>membrane copper transporter 1 protein</p></def></def-item><def-item><term>gDNA</term><def><p>genomic DNA</p></def></def-item><def-item><term>MSI</term><def><p>microsatellite instability</p></def></def-item><def-item><term>MTF1, MTF2</term><def><p>metal&#x02010;regulatory transcription factors</p></def></def-item><def-item><term>MTs</term><def><p>metallothioneins</p></def></def-item><def-item><term>PSR</term><def><p>probe selection region</p></def></def-item><def-item><term>RMA</term><def><p>robust multi&#x02010;array average</p></def></def-item><def-item><term>RPKM</term><def><p>reads per kilobase of transcript per million mapped reads</p></def></def-item><def-item><term>SCO1</term><def><p>synthesis of cytochrome c oxidase 1</p></def></def-item><def-item><term>SCO2</term><def><p>synthesis of cytochrome c oxidase 2</p></def></def-item><def-item><term>SD</term><def><p>standard deviation</p></def></def-item><def-item><term>SLC31A1</term><def><p>solute carrier family 31 member 1 gene (encoding CTR1 protein)</p></def></def-item><def-item><term>SP1</term><def><p>transcription factor or specificity protein 1</p></def></def-item><def-item><term>STEAP</term><def><p>six transmembrane epithelial antigen of the prostate</p></def></def-item><def-item><term>TAC</term><def><p>Affymetrix<sup>&#x000ae;</sup> Transcriptome Analysis Console Software</p></def></def-item><def-item><term>TCGA</term><def><p>The Cancer Genome Atlas</p></def></def-item><def-item><term>TNM</term><def><p>tumor&#x02010;node&#x02010;metastasis</p></def></def-item></def-list><p>A classical approach in the search of anticancer therapies is based on the exploitation of quantitative and qualitative differences in biochemical processes between tumor and normal cells <xref rid="feb412060-bib-0001" ref-type="ref">1</xref>, <xref rid="feb412060-bib-0002" ref-type="ref">2</xref>, <xref rid="feb412060-bib-0003" ref-type="ref">3</xref>. Copper assumes a critical role in many biological processes, mainly as a catalytic cofactor of enzymes, <xref rid="feb412060-bib-0004" ref-type="ref">4</xref> and its homeostasis is guaranteed by the activity of metal transporters and intracellular chaperones <xref rid="feb412060-bib-0005" ref-type="ref">5</xref>, <xref rid="feb412060-bib-0006" ref-type="ref">6</xref>, <xref rid="feb412060-bib-0007" ref-type="ref">7</xref>. In humans, disruption of this tightly regulated cellular copper homeostasis affects normal tissue development and a growing number of reports indicates an alteration of essential metal ion homeostasis (metallostasis) in tumors <xref rid="feb412060-bib-0008" ref-type="ref">8</xref>, <xref rid="feb412060-bib-0009" ref-type="ref">9</xref>.</p><p>The &#x02018;membrane copper transporter 1&#x02019; (CTR1) protein, encoded by the <italic>so<bold>l</bold>ute carrier family 31 member 1</italic> (<italic>SLC31A1</italic>) gene, is generally considered as responsible for cellular copper uptake in all cells <xref rid="feb412060-bib-0010" ref-type="ref">10</xref>. Cu(I) is transported by CTR1 and reduction of extracellular Cu(II) to Cu(I) is catalyzed by a family of metalloreductases called &#x02018;six transmembrane epithelial antigen of the prostate&#x02019; (STEAP). Four members of this protein family have been identified and it has been demonstrated that three of them, STEAP2, STEAP3, and STEAP4, are cupric reductases that stimulate copper cellular uptake <xref rid="feb412060-bib-0011" ref-type="ref">11</xref>.</p><p>The &#x02018;antioxidant 1 copper chaperone&#x02019; (ATOX1) <xref rid="feb412060-bib-0012" ref-type="ref">12</xref>, the &#x02018;copper chaperone for SOD1&#x02019; (CCS) <xref rid="feb412060-bib-0013" ref-type="ref">13</xref>, the &#x02018;cytochrome c oxidase copper&#x02019; chaperones COX17 and COX11 <xref rid="feb412060-bib-0014" ref-type="ref">14</xref>, <xref rid="feb412060-bib-0015" ref-type="ref">15</xref>, and the mitochondrial cytochrome c oxidase assembly proteins called &#x02018;synthesis of cytochrome c oxidase&#x02019; (SCO1 and 2) <xref rid="feb412060-bib-0016" ref-type="ref">16</xref> bind Cu(I) facilitating its transfer to specific cellular destinations. Copper is transferred by CCS to the cuproenzyme SOD1 or by SCO1, SCO2, COX11, and COX17 to cytochrome c oxidase. ATOX1 is responsible for the transfer of copper to exporting ATPase pumps (ATP7A/B&#x0201d;) <xref rid="feb412060-bib-0017" ref-type="ref">17</xref>, <xref rid="feb412060-bib-0018" ref-type="ref">18</xref>. &#x02018;Copper metabolism Murr1 domain containing 1&#x02019; (COMMD1) is another protein that facilitates the efflux of copper probably via its interaction with the copper transporter ATP7B and ATP7A <xref rid="feb412060-bib-0019" ref-type="ref">19</xref>.</p><p>Copper can be detoxified by the metallothioneins (MTs), a family of small proteins (7&#x000a0;kDa) containing a high proportion of cysteins. Thiol groups of the MTs can bind metal ions with high affinity acting as a buffer system or a reservoir for essential copper and zinc ions <xref rid="feb412060-bib-0020" ref-type="ref">20</xref>.</p><p>In this study, we analyzed the profile of somatic mutations and the expression of the above&#x02010;mentioned genes involved in copper homeostasis (copper homeostasis genes: CHGs) in colorectal cancer (CRC) samples and normal colonic mucosae (Mu). Results show a series of significant changes in the expression levels of several CHGs that could be interpreted as the consequence of an intense activity of this functional network. In particular, a correlated upregulation of <italic>SLC31A1</italic>,<italic> SCO1</italic>, and <italic>COX11</italic> mRNA has been observed in cancer cells <italic>in&#x000a0;vivo</italic> and in culture conditions.</p><sec id="feb412060-sec-0002"><title>Materials and methods</title><sec id="feb412060-sec-0003"><title>Patients</title><p>Twenty&#x02010;seven patients underwent surgical resection for primary invasive colorectal cancer at the &#x02018;<italic>Centro Clinico Diagnostico G.B. Morgagni</italic>&#x02019; in Catania. Tumors were staged according to the tumor&#x02010;node&#x02010;metastasis (TNM) staging system of UICC<bold>.</bold> The mean age was 66.61&#x000a0;years (SD 16.31) for 18 male patients and 68.67 (SD 15.63) for nine female patients. The tumors were mainly in stage II or III. In 19 patients, a sample of the matched unaffected normal colonic mucosa was also taken at distance of 3&#x02013;6&#x000a0;cm from the tumor. All CRC specimens were frozen and stored at &#x02212;80&#x000a0;&#x000b0;C until to RNA extraction. Informed consent was obtained from all patients involved in this study. This project was approved by the Ethics Committee of ASL3 of Catania (Italy).</p></sec><sec id="feb412060-sec-0004"><title>RNA extraction</title><p>Total RNA was extracted from tissue and cell lines using RNeasy Mini Kit (Cat. No. 74104; Qiagen, Milan, Italy) according to the manufacturer's instructions. The concentration and the quality of the RNA were determined using a ND&#x02010;1000 spectrophotometer (NanoDrop, Thermo Scientific, Pero, Italy).</p></sec><sec id="feb412060-sec-0005"><title>Transcriptome analysis</title><p>Whole Transcript Expression analysis was performed using 100&#x000a0;ng of total RNA to produce amplified, and targets labeled in sense orientation for hybridization to the &#x02018;GeneChip Human Transcriptome Array 2.0&#x02019; according to the protocol supplied by the manufacturer (Cat. No. 902310, Cat. No. 900720; Affymetrix UK Ltd., High Wycombe, UK). Human Transcriptome Array 2.0 contains &#x0003e;&#x000a0;6.0 million distinct probes for analyzing simultaneously 44&#x000a0;699 coding transcripts and 22&#x000a0;829 noncoding transcripts. Array scanning and data analysis were performed using <sc>affymetrix<sup>&#x000ae;</sup> expression console<sup>&#x02122;</sup></sc> software (v.1.4; Affymetrix UK Ltd.) that provides signal estimation and quality control functionality for the GeneChip<sup>&#x000ae;</sup> Expression Arrays, and the <sc>affymetrix<sup>&#x000ae;</sup> transcriptome analysis console (tac)</sc> Software (Affymetrix UK Ltd.), which performs statistical analysis and provides a list of differentially expressed genes. Expression level analysis was performed using the normalization method based on the processing algorithm called robust multi&#x02010;array average (<italic>RMA</italic>) <xref rid="feb412060-bib-0021" ref-type="ref">21</xref>.</p><p>The data have been deposited to public repository: &#x02018;Gene Expression Omnibus&#x02010;GEO&#x02019; (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo">www.ncbi.nlm.nih.gov/geo</ext-link>) and will be accessible through GEO: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73360">GSE73360</ext-link>.</p></sec><sec id="feb412060-sec-0006"><title>Cell cultures</title><p>Three human colorectal adenocarcinoma cell lines (Caco&#x02010;2, HT29, and HCT116) and two human noncolorectal adenocarcinoma cell lines (MCF7 and PC3) have been used in the present work. Human colon cancer Caco&#x02010;2 (ATCC number: HTB&#x02010;37) and HT29 (ATCC number: HTB&#x02010;38) cell lines were maintained in Dulbecco's Modified Eagle Medium (DMEM 1X; GIBCO, Cat No. 31965&#x02010;023 containing 4.5&#x000a0;g&#x000b7;L<sup>&#x02212;1</sup> of <sc>d</sc>&#x02010;glucose). The HCT116 (ATCC number: CCL&#x02010;247) cell line was cultured in McCoy 5A+ (McCoy's 5A Medium 1X GIBCO, Cat No. 36600021 containing 3&#x000a0;g&#x000b7;L<sup>&#x02212;1</sup> of <sc>d</sc>&#x02010;glucose), 1.5&#x000a0;m<sc>m l</sc>&#x02010;glutamine, and 2200&#x000a0;mg&#x000b7;L<sup>&#x02212;1</sup> of sodium bicarbonate. The human breast adenocarcinoma cell line MCF&#x02010;7 (ATCC number: HTB&#x02010;22) was maintained in DMEM medium (1X; GIBCO, Cat No. 31965&#x02010;023 containing 1&#x000a0;g&#x000b7;L<sup>&#x02212;1</sup> of <sc>d</sc>&#x02010;glucose). The human prostate adenocarcinoma cell line PC3 (ATCC number: CRL&#x02010;1435) cell line was grown in DMEM/F12 medium nutrient mixture (1X; GIBCO, Cat. No. 21331&#x02010;020) and 1.5&#x000a0;m<sc>m l</sc>&#x02010;glutamine. Each medium was supplemented with 10% FBS (Cat. No. 10270&#x02010;106; Life Technologies, Monza, Italy) and 100&#x000a0;U&#x000b7;mL<sup>&#x02212;1</sup> of penicillin&#x02013;streptomycin (Cat. No 15140&#x02010;122; Life Technologies). The cell cultures were grown in flasks (75&#x000a0;cm<sup>2</sup>) and incubated at 37&#x000a0;&#x000b0;C in humidified atmosphere with 5% of CO<sub>2</sub> and 95% of air. The culture medium was changed twice a week.</p></sec><sec id="feb412060-sec-0007"><title>MicroSatellite Instability analysis</title><p>Genomic DNA (gDNA) was extracted from each tissue using the DNeasy Blood &#x00026; Tissue Kit (Cat. No. 69504; Qiagen) according to the manufacturer's instructions. The concentration and the quality of the DNA were determined using a ND&#x02010;1000 spectrophotometer (NanoDrop, Thermo Scientific).</p><p>Microsatellite instability (MSI) analysis was performed on matched samples of DNA (100&#x000a0;ng) obtained from CRC tumors and adjacent normal colonic tissue by fluorescent dye&#x02010;labeled PCR amplification using a panel of six microsatellite markers: four of them belonging to Bethesda panel (D2S123, D5S346, BAT25, and BAT26) together with two additional microsatellite markers (D17S250 and BAT40). PCR amplification was conducted using primer sequences previously reported by Dietmaier <italic>et&#x000a0;al</italic>. <xref rid="feb412060-bib-0022" ref-type="ref">22</xref>.</p><p>5&#x02032;&#x02010;Fluorescent dye&#x02010;labeled (NED for BAT25, VIC for BAT26, 6&#x02010;FAM for BAT40, PET for D5S346, FAM for D2S123, and VIC for D18S58) and unlabeled oligonucleotides were used for PCR reactions and the amplification products&#x000a0;were analyzed by ABI PRISM 310 genetic analyzer using <sc>genescan analysis</sc> Software (Applied Biosystems, Monza, Italy).</p><p>International criteria for the determination of MSI in CRC were used to differentiate high instability (MSI&#x02010;H) from low instability (MSI&#x02010;L) or microsatellite stability (MSS). Tumors were defined as MSI&#x02010;H if two or more of the six microsatellite markers show instability; MSI&#x02010;L if only one of the six markers shows instability; and microsatellite stable (MSS) if none of the markers show instability. Since MSI&#x02010;L have clinical and biological feature similar to MSS tumors <xref rid="feb412060-bib-0023" ref-type="ref">23</xref>, they have been included in the MSS group in all the analysis. Therefore, in the rest of the paper, the abbreviation MSI has been used to indicate MSI&#x02010;H and the term MSS to indicate MSS and MSI&#x02010;L tumors. MSI status was successfully determined in all tumors and the analysis revealed that 22 tumors were MSS (8 females and 14 males) and five tumors were MSI (1 female and 4 males).</p><sec id="feb412060-sec-0008"><title>Publicly available datasets of RNAseq and microarray data</title><p>The Cancer Genome Atlas (TCGA) data portal <xref rid="feb412060-bib-0024" ref-type="ref">24</xref> provides transcriptomic data on 287 colon adenocarcinoma samples and 24 matched normal tissues obtained by IlluminaHiSeq_RNASeqV2 technology (<ext-link ext-link-type="uri" xlink:href="https://tcga-data.nci.nih.gov/tcga/">https://tcga-data.nci.nih.gov/tcga/</ext-link>). Transcript abundances were calculated in reads per kilobase of transcript per million mapped reads (RPKM).</p><p>Microarray data (GEO: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE24550">GSE24550</ext-link>, deposited by Agesen <italic>et&#x000a0;al</italic>. <xref rid="feb412060-bib-0025" ref-type="ref">25</xref> were downloaded from the NCBI's Gene Expression Omnibus <xref rid="feb412060-bib-0026" ref-type="ref">26</xref>. The data were obtained from 77 CRCs and 13 normal colonic mucosa samples using the Affymetrix Human Exon 1.0 ST platform (Affymetrix, Santa Clara, CA, USA).</p></sec></sec></sec><sec id="feb412060-sec-0009"><title>Results</title><sec id="feb412060-sec-0010"><title>Somatic point mutations of CHGs in colorectal tumors</title><p>In order to evaluate if inactivating point mutations of CHGs can be responsible for dysfunctions of copper homeostasis, The Cancer Genome Atlas Dataset (Cancer Genome Atlas Network, 2012) was analyzed. Data on point mutations detected by exome sequencing of 228 tumors and normal pairs are reported in such data set. In Fig.&#x000a0;<xref rid="feb412060-fig-0001" ref-type="fig">1</xref>A,B the number of nonsense, frameshift, and missense mutations for CHGs are reported. The frequency of point mutations in CHGs is very low when compared with typical cancer gene drivers, such&#x000a0;as &#x02018;phosphatidylinositol&#x02010;4,5&#x02010;bisphosphate 3&#x02010;kinase, catalytic subunit alpha&#x02019; (PIK3CA). Therefore, these data do not support the hypothesis that accumulation of somatic mutations in CHGs can be responsible for a copper dyshomeostasis in CRC.</p><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>(A, B) Number of somatic point mutations (nonsense, frameshift, and missesnse) in coding sequences of <styled-content style="fixed-case">CHG</styled-content>s detected by exome sequencing in 228 <styled-content style="fixed-case">CRC</styled-content> tumors and normal pairs reported in the dataset published by The Cancer Genome Atlas.</p></caption><graphic id="nlm-graphic-3" xlink:href="FEB4-6-794-g001"/></fig></sec><sec id="feb412060-sec-0011"><title>mRNA levels of CHGs in colorectal tumors</title><p>As shown in Fig.&#x000a0;<xref rid="feb412060-fig-0002" ref-type="fig">2</xref> (linear fold changes) and Fig.&#x000a0;<xref rid="feb412060-fig-0003" ref-type="fig">3</xref>A,C (RMA values) the mRNA for the copper transporter CTR1 (<italic>SLC31A1</italic> gene) is dramatically increased (6.72&#x02010;fold increase) in tumoral samples in comparison to normal colonic mucosae. Several other CHGs show a significant increase in tumoral samples: the efflux pumps ATP7A and B (1.5&#x02010; and 1.31&#x02010;fold); the copper assembly factors SCO1 (1.98&#x02010;fold) and COX11 (1.6&#x02010;fold); the metalloreductase STEAP3 (1.49&#x02010;fold); the copper efflux protein COMMD1 (1.33&#x02010;fold); and the transcription factors MTF1, MTF2 (1.78&#x02010; and 1.54&#x02010;fold), and SP1 (2.58). The cuproenzyme SOD1 (5.14&#x02010;fold) and the manganese enzyme SOD2 (3.4&#x02010;fold) are dramatically upregulated in CRC. Only STEAP4 shows a slight (&#x02212;1.3&#x02010;fold) but statically significant decrease of expression in the CRC&#x000a0;sample group in comparison to normal colonic mucosae.</p><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Differential expression of <styled-content style="fixed-case">CHG</styled-content>s in <styled-content style="fixed-case">CRC</styled-content> versus normal colonic mucosae (Mu). Values are expressed as linear fold changes calculated in the following way: 2<sup>[</sup>
+<styled-content style="fixed-case"><sup>CRC</sup></styled-content>
+<sup>Average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>&#x02013; Mu average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>]</sup> if <styled-content style="fixed-case">CRC</styled-content>&#x000a0;&#x0003e;&#x000a0;Mu, or &#x02212;2<sup>[Mu Average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>&#x02013;</sup>
+<styled-content style="fixed-case"><sup>CRC</sup></styled-content>
+<sup>average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>]</sup> if <styled-content style="fixed-case">CRC</styled-content>&#x000a0;&#x0003c;&#x000a0;Mu. *False Discovery Rate (<styled-content style="fixed-case">FDR</styled-content>) <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.002 and fold change &#x0003e;&#x000a0;1.25 or &#x0003c;&#x000a0;&#x02212;1.25.</p></caption><graphic id="nlm-graphic-5" xlink:href="FEB4-6-794-g002"/></fig><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>(A, B) Expression levels (<styled-content style="fixed-case">RMA</styled-content> values) of the genes involved in copper homeostasis (<styled-content style="fixed-case">CHG</styled-content>s) in 27 colorectal samples (<styled-content style="fixed-case">CRC</styled-content>) and 19 matched normal colonic tissues. Statistical significance of comparison versus normal mucosae expressed as *<styled-content style="fixed-case">FDR </styled-content>
+<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.002. (C) Scatter plot showing <styled-content style="fixed-case">SLC</styled-content>31A1 <styled-content style="fixed-case">RMA</styled-content> values in each colorectal sample and normal colonic mucosa.</p></caption><graphic id="nlm-graphic-7" xlink:href="FEB4-6-794-g003"/></fig><p>Similar changes are also detected in three colon cancer cell lines (Caco&#x02010;2, HT29, and HCT116) and in two cancer cell lines of different tissue origin (breast cancer cell line MCF7 and prostate cancer cell line PC3) (Fig.&#x000a0;<xref rid="feb412060-fig-0004" ref-type="fig">4</xref>). In particular, the large increase in <italic>SLC31A1</italic>/CTR1 mRNA and the significant increase in SCO1 and COX11 mRNAs are present in all examined cell lines.</p><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Linear fold changes are calculated in the following way: 2<sup>[Cell Lines Average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>&#x02013; Mu average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>]</sup> if cell lines&#x000a0;&#x0003e;&#x000a0;Mu, or &#x02212;2<sup>[Mu Average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>&#x02013; cell lines average</sup>
+<styled-content style="fixed-case"><sup>RMA</sup></styled-content>
+<sup>]</sup> if cell lines&#x000a0;&#x0003c;&#x000a0;Mu (*<styled-content style="fixed-case">FDR </styled-content>
+<italic>P</italic>&#x000a0;&#x02264;&#x000a0;0.005). Mu: normal colonic mucosae.</p></caption><graphic id="nlm-graphic-9" xlink:href="FEB4-6-794-g004"/></fig><p>Based on a form of genetic instability, called microsatellite instability, CRC can be subdivided in two different classes; tumors with MSS and tumors with MSI. Microsatellites are tract of repetitive DNA formed by an individually fixed number of repeating units of 1&#x02013;4 nucleotides. It is well&#x02010;known that a subgroup of CRC (10&#x02013;15%) show a somatic variability in repeating units in cancer cells (MSI tumors). The presence of this form of genetic instability is associated with several biological feature of the tumor and with a better prognosis <xref rid="feb412060-bib-0023" ref-type="ref">23</xref>, <xref rid="feb412060-bib-0027" ref-type="ref">27</xref>. In our CRC samples, both MSS and MSI tumors show an increased expression of <italic>SLC31A1</italic>/CTR1, SCO1, and COX11 (Fig.&#x000a0;<xref rid="feb412060-fig-0005" ref-type="fig">5</xref>). Values are slightly higher in MSI tumors but these differences are not statistically significant.</p><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>
+<styled-content style="fixed-case">mRNA</styled-content> levels (<styled-content style="fixed-case">RMA</styled-content> values) of <styled-content style="fixed-case">SLC</styled-content>31A1/<styled-content style="fixed-case">CTR</styled-content>1, <styled-content style="fixed-case">SCO</styled-content>1, and <styled-content style="fixed-case">COX</styled-content>11 genes in 22 <styled-content style="fixed-case">MSS</styled-content> and 5 <styled-content style="fixed-case">MSI</styled-content> colorectal tumors. In the same graph the <styled-content style="fixed-case">RMA</styled-content> value of 19 matched normal colonic tissues is reported. Results are expressed as mean&#x000a0;&#x000b1;&#x000a0;standard deviation. Statistical significance of comparison versus normal mucosae expressed as *, <sup>&#x025cf;</sup>
+<styled-content style="fixed-case">FDR </styled-content>
+<italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.002.</p></caption><graphic id="nlm-graphic-11" xlink:href="FEB4-6-794-g005"/></fig><p>As shown in Fig.&#x000a0;<xref rid="feb412060-fig-0006" ref-type="fig">6</xref> a significant correlation between <italic>SLC31A1</italic> (encoding CTR1), <italic>COX11</italic>, and <italic>SCO1</italic> mRNA levels can be observed in CRC samples, suggesting that the transcriptional upregulation of these CHGs is part of a coordinated program of gene regulation.</p><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Correlation analysis between <styled-content style="fixed-case">mRNA</styled-content> levels for the indicated genes. Pearson's correlation coefficients (R) are reported in each plot.</p></caption><graphic id="nlm-graphic-13" xlink:href="FEB4-6-794-g006"/></fig></sec><sec id="feb412060-sec-0012"><title>Exon&#x02010;level expression analysis of <italic>SLC31A1</italic> transcripts</title><p>In this study, transcript levels were determined by the Gene&#x02010;Chip Human Transcriptome Array 2.0 (Affymetrix). This high resolution array was designed with approximately ten probes per exon and four probes per exon&#x02013;exon splice junction, thus allowing an analysis of expression at the exon level. The software &#x02018;<sc>transcriptome analysis console</sc>&#x02019; <sc>(tac)</sc> 2.0 was used for the alternative splicing analysis using default parameters. The <sc>tac</sc> software provides a comparison of the expression of each exon (corresponding to a probe selection region, PSR) in two different conditions (in this work, CRC vs normal colonic mucosae). Such comparison is obtained by the so called &#x02018;splicing index&#x02019;: (intensity of exon X in CRC/intensity of gene Y in CRC)/(intensity of exon X in normal colonic mucosae/intensity of gene Y in normal colonic mucosae). Therefore, a positive index is obtained for exons prevalently expressed in cancer cells, while a negative one indicates a prevalent expression in normal colonic cells.</p><p>The exon&#x02010;level analysis of <italic>SLC31A1</italic> is reported in Table&#x000a0;<xref rid="feb412060-tbl-0001" ref-type="table-wrap">1</xref>A and in Fig.&#x000a0;<xref rid="feb412060-fig-0007" ref-type="fig">7</xref>. The upregulation of <italic>SLC31A1</italic> involves the five exons (1, 2, 3, 4, and 5) that have been included in the classical structure of this gene (Fig.&#x000a0;<xref rid="feb412060-fig-0008" ref-type="fig">8</xref>) <xref rid="feb412060-bib-0010" ref-type="ref">10</xref>, <xref rid="feb412060-bib-0028" ref-type="ref">28</xref>, <xref rid="feb412060-bib-0029" ref-type="ref">29</xref>. This concordance with the classical exon&#x02013;intron structure of the gene is in favor of the synthesis of a functional protein in colorectal cancer. However, differences in the upregulation level of the different exons are also observed. The highest differences in RMA values between CRC and normal colonic mucosae (see also fold&#x02010;change values in Table&#x000a0;<xref rid="feb412060-tbl-0001" ref-type="table-wrap">1</xref>A) are observed at the level of exon 3, 4, and 5b, and less differences are observed at the level of exon 1, 2, and 5d. The relatively high expression of exon 1 and 2 in the normal colonic mucosa might be explained by the expression of an alternative transcripts containing exon 1 and 2, but not exon 3 and 4, as also suggested by the significant negative splicing index (Table&#x000a0;<xref rid="feb412060-tbl-0001" ref-type="table-wrap">1</xref>A, Fig.&#x000a0;<xref rid="feb412060-fig-0007" ref-type="fig">7</xref>). This might be a functionally relevant observation as exon 2 encodes for the amino&#x02010;terminal part of the protein. On the contrary, the splicing index for exon 3, 4, and 5b is positive, a result that can be due to a prevalent expression of transcripts containing these exons in CRC.</p><table-wrap id="feb412060-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>(A) Exon&#x02010;level analysis of SLC31A1/CTR1 gene: comparison between CRC samples and normal colonic mucosae (Mu). (B) Exon&#x02010;level analysis of SLC31A1/CTR1 gene: comparison between CRC cell lines and normal colonic mucosae (Mu)</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Exon</th><th align="left" valign="top" rowspan="1" colspan="1">PSR</th><th align="left" valign="top" rowspan="1" colspan="1">mRNA/Protein</th><th align="char" valign="top" rowspan="1" colspan="1">CRC RMA value</th><th align="char" valign="top" rowspan="1" colspan="1">Mu RMA value</th><th align="char" valign="top" rowspan="1" colspan="1">Fold change</th><th align="char" valign="top" rowspan="1" colspan="1">Splicing Index</th><th align="char" valign="top" rowspan="1" colspan="1">Splicing Index FDR</th></tr></thead><tbody><tr><td align="left" colspan="8" rowspan="1">(A)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">PSR09006346.hg.1</td><td align="left" rowspan="1" colspan="1">5&#x02032; UTR</td><td align="char" char="." rowspan="1" colspan="1">12.79</td><td align="char" char="." rowspan="1" colspan="1">11.24</td><td align="char" char="." rowspan="1" colspan="1">2.92</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;5.18</td><td align="char" char="." rowspan="1" colspan="1">0.000105</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">2alt</td><td align="left" rowspan="1" colspan="1">PSR09006347.hg.1</td><td align="left" rowspan="1" colspan="1">?</td><td align="char" char="." rowspan="1" colspan="1">6.44</td><td align="char" char="." rowspan="1" colspan="1">6.7</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;1.2</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;16.28</td><td align="char" char="." rowspan="1" colspan="1">0.000001</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">PSR09006348.hg.1</td><td align="left" rowspan="1" colspan="1">5&#x02032;UTR.CDS/aa 1&#x02010;43</td><td align="char" char="." rowspan="1" colspan="1">11.32</td><td align="char" char="." rowspan="1" colspan="1">9.43</td><td align="char" char="." rowspan="1" colspan="1">3.72</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;3.25</td><td align="char" char="." rowspan="1" colspan="1">0.000764</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">PSR09006349.hg.1</td><td align="left" rowspan="1" colspan="1">CDS/aa 44&#x02010;68</td><td align="char" char="." rowspan="1" colspan="1">12.57</td><td align="char" char="." rowspan="1" colspan="1">7.24</td><td align="char" char="." rowspan="1" colspan="1">40.26</td><td align="char" char="." rowspan="1" colspan="1">1.52</td><td align="char" char="." rowspan="1" colspan="1">0.041754</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">PSR09006350.hg.1</td><td align="left" rowspan="1" colspan="1">CDS/aa 69&#x02010;124</td><td align="char" char="." rowspan="1" colspan="1">12.27</td><td align="char" char="." rowspan="1" colspan="1">6.94</td><td align="char" char="." rowspan="1" colspan="1">40.23</td><td align="char" char="." rowspan="1" colspan="1">1.52</td><td align="char" char="." rowspan="1" colspan="1">0.002176</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5a</td><td align="left" rowspan="1" colspan="1">PSR09006351.hg.1</td><td align="left" rowspan="1" colspan="1">CDS/aa 125&#x02010;136</td><td align="char" char="." rowspan="1" colspan="1">10.78</td><td align="char" char="." rowspan="1" colspan="1">7.38</td><td align="char" char="." rowspan="1" colspan="1">10.57</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;1.10</td><td align="char" char="." rowspan="1" colspan="1">0.561023</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5b</td><td align="left" rowspan="1" colspan="1">PSR09006352.hg.1</td><td align="left" rowspan="1" colspan="1">CDS.3&#x02032;UTR/aa 137&#x02010;190</td><td align="char" char="." rowspan="1" colspan="1">13.04</td><td align="char" char="." rowspan="1" colspan="1">7.77</td><td align="char" char="." rowspan="1" colspan="1">38.58</td><td align="char" char="." rowspan="1" colspan="1">1.80</td><td align="char" char="." rowspan="1" colspan="1">0.000198</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5d</td><td align="left" rowspan="1" colspan="1">PSR09006354.hg.1</td><td align="left" rowspan="1" colspan="1">3&#x02032; UTR</td><td align="char" char="." rowspan="1" colspan="1">9.05</td><td align="char" char="." rowspan="1" colspan="1">6.97</td><td align="char" char="." rowspan="1" colspan="1">4.23</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;3.48</td><td align="char" char="." rowspan="1" colspan="1">0.001273</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5c</td><td align="left" rowspan="1" colspan="1">PSR09006355.hg.1</td><td align="left" rowspan="1" colspan="1">3&#x02032; UTR</td><td align="char" char="." rowspan="1" colspan="1">10.24</td><td align="char" char="." rowspan="1" colspan="1">6.91</td><td align="char" char="." rowspan="1" colspan="1">10.01</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;1.88</td><td align="char" char="." rowspan="1" colspan="1">0.003033</td></tr><tr><td align="left" colspan="8" rowspan="1">(B)</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">PSR09006346.hg.1</td><td align="left" rowspan="1" colspan="1">5&#x02032; UTR</td><td align="char" char="." rowspan="1" colspan="1">15.92</td><td align="char" char="." rowspan="1" colspan="1">11.24</td><td align="char" char="." rowspan="1" colspan="1">25.57</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;6.61</td><td align="char" char="." rowspan="1" colspan="1">0.000119</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">2alt</td><td align="left" rowspan="1" colspan="1">PSR09006347.hg.1</td><td align="left" rowspan="1" colspan="1">?</td><td align="char" char="." rowspan="1" colspan="1">6.31</td><td align="char" char="." rowspan="1" colspan="1">6.70</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;1.31</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;268.75</td><td align="char" char="." rowspan="1" colspan="1">0.00000002</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">PSR09006348.hg.1</td><td align="left" rowspan="1" colspan="1">5&#x02032;UTR. CDS/aa 1&#x02010;43</td><td align="char" char="." rowspan="1" colspan="1">14.40</td><td align="char" char="." rowspan="1" colspan="1">9.43</td><td align="char" char="." rowspan="1" colspan="1">31.37</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;5.76</td><td align="char" char="." rowspan="1" colspan="1">0.00044</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">PSR09006349.hg.1</td><td align="left" rowspan="1" colspan="1">CDS/aa 44&#x02010;68</td><td align="char" char="." rowspan="1" colspan="1">16.24</td><td align="char" char="." rowspan="1" colspan="1">7.24</td><td align="char" char="." rowspan="1" colspan="1">513.07</td><td align="char" char="." rowspan="1" colspan="1">2.15</td><td align="char" char="." rowspan="1" colspan="1">0.021</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">PSR09006350.hg.1</td><td align="left" rowspan="1" colspan="1">CDS/aa 69&#x02010;124</td><td align="char" char="." rowspan="1" colspan="1">16.13</td><td align="char" char="." rowspan="1" colspan="1">6.94</td><td align="char" char="." rowspan="1" colspan="1">580.95</td><td align="char" char="." rowspan="1" colspan="1">1.99</td><td align="char" char="." rowspan="1" colspan="1">0.018</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5a</td><td align="left" rowspan="1" colspan="1">PSR09006351.hg.1</td><td align="left" rowspan="1" colspan="1">CDS/aa 125&#x02010;136</td><td align="char" char="." rowspan="1" colspan="1">14.28</td><td align="char" char="." rowspan="1" colspan="1">7.38</td><td align="char" char="." rowspan="1" colspan="1">119.71</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;1.33</td><td align="char" char="." rowspan="1" colspan="1">0.500</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5b</td><td align="left" rowspan="1" colspan="1">PSR09006352.hg.1</td><td align="left" rowspan="1" colspan="1">CDS.3&#x02032;UTR/aa 137&#x02010;190*</td><td align="char" char="." rowspan="1" colspan="1">15.97</td><td align="char" char="." rowspan="1" colspan="1">7.77</td><td align="char" char="." rowspan="1" colspan="1">294.54</td><td align="char" char="." rowspan="1" colspan="1">1.21</td><td align="char" char="." rowspan="1" colspan="1">0.408</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5d</td><td align="left" rowspan="1" colspan="1">PSR09006354.hg.1</td><td align="left" rowspan="1" colspan="1">3&#x02032; UTR</td><td align="char" char="." rowspan="1" colspan="1">9.94</td><td align="char" char="." rowspan="1" colspan="1">6.97</td><td align="char" char="." rowspan="1" colspan="1">7.83</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;12.78</td><td align="char" char="." rowspan="1" colspan="1">0.000004</td></tr><tr><td align="left" style="padding-left:10%" rowspan="1" colspan="1">5c</td><td align="left" rowspan="1" colspan="1">PSR09006355.hg.1</td><td align="left" rowspan="1" colspan="1">3&#x02032; UTR</td><td align="char" char="." rowspan="1" colspan="1">10.21</td><td align="char" char="." rowspan="1" colspan="1">6.91</td><td align="char" char="." rowspan="1" colspan="1">9.86</td><td align="char" char="." rowspan="1" colspan="1">&#x02212;5.51</td><td align="char" char="." rowspan="1" colspan="1">0.000008</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Gene Structure View of <styled-content style="fixed-case">SLC</styled-content>31A1/<styled-content style="fixed-case">CTR</styled-content>1 (<sc>tac</sc> software). All <styled-content style="fixed-case">PSR</styled-content>s and Junctions are represented with boxes. The first two lines from the top display, in azure/orange scale, the <styled-content style="fixed-case">RMA</styled-content> values for each <styled-content style="fixed-case">PSR</styled-content> and corresponding exons: top line for <styled-content style="fixed-case">CRC</styled-content> and middle line for normal mucosae (Mu). The bottom line displays the splicing index in a green/red scale.</p></caption><graphic id="nlm-graphic-15" xlink:href="FEB4-6-794-g007"/></fig><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0008" orientation="portrait" position="float"><label>Figure 8</label><caption><p>Alternative transcripts for <styled-content style="fixed-case">SLC</styled-content>31A1/<styled-content style="fixed-case">CTR</styled-content>1 on the basis of sequence data in public databases and in <sc>tac</sc> (Affymetrix) database.</p></caption><graphic id="nlm-graphic-17" xlink:href="FEB4-6-794-g008"/></fig><p>These results were confirmed by the comparison of cancer cell lines (Caco&#x02010;2, HT29, HCT116) versus the same set of normal colonic mucosae (Table&#x000a0;<xref rid="feb412060-tbl-0001" ref-type="table-wrap">1</xref>B).</p></sec><sec id="feb412060-sec-0013"><title>Exon&#x02010;level expression analysis of <italic>SLC31A1</italic> transcripts in different publicly available datasets</title><p>We also analyzed different publicly available datasets in order to confirm changes of <italic>SLC31A1</italic> gene expression in colorectal cancer. TCGA (2012) provides transcriptomic data on 287 colon cancer samples and 24 matched normal tissues obtained by RNA&#x02010;seq technology (<ext-link ext-link-type="uri" xlink:href="https://tcga-data.nci.nih.gov/">https://tcga-data.nci.nih.gov/</ext-link>). A significant increase in RPKM values relative to exon 3 and 5 of <italic>SLC31A1</italic> can be detected (Fig.&#x000a0;<xref rid="feb412060-fig-0009" ref-type="fig">9</xref>A). However, the fold&#x02010;increase values are much lower than those observed in HTA microarray.</p><fig fig-type="Figure" xml:lang="en" id="feb412060-fig-0009" orientation="portrait" position="float"><label>Figure 9</label><caption><p>(A) <styled-content style="fixed-case">RPKM</styled-content> values from <styled-content style="fixed-case">RNA</styled-content>&#x02010;seq experiment. Data from <styled-content style="fixed-case">TCGA</styled-content> relative to 287 colon cancer samples and 24 matched normal tissues. *<italic>P&#x000a0;</italic>&#x0003c;<italic>&#x000a0;</italic>0.05. (B) <styled-content style="fixed-case">RMA</styled-content> values relative to different exons of <styled-content style="fixed-case">SLC</styled-content>31A1 gene. Data from 77 <styled-content style="fixed-case">CRC</styled-content>s and 13 normal colonic mucosa obtained by the Affymetrix Human Exon 1.0 <styled-content style="fixed-case">ST</styled-content> platform (<styled-content style="fixed-case">GEO</styled-content>: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE24550">GSE24550</ext-link>). *<italic>P&#x000a0;</italic>&#x0003c;<italic>&#x000a0;</italic>0.05.</p></caption><graphic id="nlm-graphic-19" xlink:href="FEB4-6-794-g009"/></fig><p>In order to make a comparison with a more similar methodology, we downloaded expression microarray raw data from the Gene Expression Omnibus (GEO) public repository. In the series, GEO: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE24550">GSE24550</ext-link>
+<xref rid="feb412060-bib-0025" ref-type="ref">25</xref> exon&#x02010;level data from 77 CRCs and 13 normal colonic mucosa sample have been obtained by the Affymetrix Human Exon 1.0 ST platform. Data analysis of .cel files were performed using <sc>affymetrix<sup>&#x000ae;</sup> expression console<sup>&#x02122;</sup></sc> software v.1.4 and the <sc>affymetrix<sup>&#x000ae;</sup> transcriptome analysis console (tac)</sc> software. As shown in Fig.&#x000a0;<xref rid="feb412060-fig-0009" ref-type="fig">9</xref>B, a significant increase in RMA values was observed at the level of <italic>SLC31A1</italic> exon 2&#x02013;5. In accordance with RNA&#x02010;seq data, the fold change increases (+&#x000a0;40%) were lower than those observed in our HTA analysis. Such data are in agreement with an increase in <italic>SLC31A1</italic> transcript level, but dramatic differences in the fold&#x02010;change expression levels are revealed between HTA arrays and previous version of exon arrays or different methodologies, such as RNA sequencing.</p></sec></sec><sec id="feb412060-sec-0014"><title>Discussion</title><p>Theoretically, accumulation of somatic mutations in cancer cells can modify a functional network with two different mechanisms: (a) a direct mechanism in which loss&#x02010;of&#x02010;function or gain&#x02010;of&#x02010;function somatic mutations affect genes whose products are mainly involved in a specific function, (b) an indirect mechanism in which somatic mutations take place in genes involved in signaling and regulatory factors able to induce alterations of multiple functional networks. Both types of mutations can be selected during the process of cancerogenesis if they are advantageous for tumor growth. With this in mind, in the present work, we try to answer some basic questions regarding mutational profile and gene expression of the functional network involved in copper trafficking and homeostasis pathways <xref rid="feb412060-bib-0004" ref-type="ref">4</xref>, <xref rid="feb412060-bib-0005" ref-type="ref">5</xref> in colorectal cancer.</p><p>As a first step, we investigated the presence of somatic mutation in CHGs using the public database of somatic point mutations in CRC of The Cancer Genome Atlas Network (2012). Such analysis revealed that inactivating mutations are absent or extremely rare in genes encoding proteins involved in copper homeostasis. This observation suggests that inactivating point mutations are negatively selected during the cancerogenesis process since these proteins play a fundamental role in cell survival.</p><p>In a second step, we analyzed, at the mRNA level, the expression of CHGs in our series of colorectal carcinoma samples, showing an upregulation of several components of this functional pathway. In particular, we found a strong increase in mRNA levels of the copper transporter CTR1. Analysis of different publicly available gene expression datasets, obtained by RNA&#x02010;seq or previous version of Affymetrix exon microarray, confirmed a significant higher expression of <italic>SLC31A1</italic> transcripts in CRC, but revealed only weak changes compared to results obtained by HTA arrays. The reason for such quantitative difference is not clear at the moment and further research on gene expression normalization methods might shed light on this discrepancy.</p><p>CTR1 is the main Cu influx transporter in human cells and it has been shown that changes in its expression are able to induce modifications of cellular copper accumulation and resistance to copper cytotoxic effect <xref rid="feb412060-bib-0030" ref-type="ref">30</xref>, <xref rid="feb412060-bib-0031" ref-type="ref">31</xref>, <xref rid="feb412060-bib-0032" ref-type="ref">32</xref>. Unlike CTR1, the transcript for the low&#x02010;affinity copper transporter, CTR2, does not show any significant change in CRC. This observation is in agreement with the difference in function and regulation of expression between the two copper transporters <xref rid="feb412060-bib-0033" ref-type="ref">33</xref>. The observed CTR1 mRNA upregulation can be interpreted suggesting that cancer cells have a greater demand for copper than normal cells and that this requirement is linked to their proliferation and survival.</p><p>One of the limits of this investigation is the absence of data on CTR1 at the protein level. However, several studies show that transcriptional upregulation of the <italic>SLC31A1</italic> gene translates in higher protein levels and functional copper uptake <xref rid="feb412060-bib-0032" ref-type="ref">32</xref>, <xref rid="feb412060-bib-0034" ref-type="ref">34</xref>, <xref rid="feb412060-bib-0035" ref-type="ref">35</xref>. Moreover, an upregulation of CTR1 protein has been observed in a mouse model of HPV16&#x02010;induced cervical carcinoma. In this model, the CTR1 protein is highly expressed in tumors but not in the epithelium of the wild&#x02010;type cervix, the origin of cervical carcinoma <xref rid="feb412060-bib-0036" ref-type="ref">36</xref>. It is also relevant that CTR1 is required for &#x02018;fibroblast growth factor&#x02019; (FGF), platelet&#x02010;derived growth factor (PDGF), and epidermal growth factor (EGF)&#x02010;induced mitogen&#x02010;activated protein kinase (MAPK) signaling <xref rid="feb412060-bib-0037" ref-type="ref">37</xref> and that copper influx through CTR1 is required for oncogenic B&#x02010;Raf proto&#x02010;oncogene, serine/threonine kinase (BRAF) signaling and tumorigenesis <xref rid="feb412060-bib-0038" ref-type="ref">38</xref>, <xref rid="feb412060-bib-0039" ref-type="ref">39</xref>.</p><p>Few data regarding protein level of CTR1 in human cancer samples are available in the literature. Holzer <italic>et&#x000a0;al</italic>. <xref rid="feb412060-bib-0040" ref-type="ref">40</xref> have determined the pattern of CTR1 protein expression in normal and malignant human tissues using standard immunohistochemical techniques. No CTR1 expression was found in several common types of cancer, although metastatic colon carcinoma showed the highest level of expression among the malignant tissues <xref rid="feb412060-bib-0040" ref-type="ref">40</xref>. More recently Kim <italic>et&#x000a0;al</italic>. <xref rid="feb412060-bib-0041" ref-type="ref">41</xref> could detect the expression of CTR1 by immunohistochemistry in several samples of nonsmall cell lung cancer and corresponding normal epithelium.</p><p>A correlation between higher hCTR1 levels and higher platinum drug uptake in tumor cells sensitive to the drug has been reported <xref rid="feb412060-bib-0030" ref-type="ref">30</xref>, <xref rid="feb412060-bib-0031" ref-type="ref">31</xref>, <xref rid="feb412060-bib-0032" ref-type="ref">32</xref>, <xref rid="feb412060-bib-0036" ref-type="ref">36</xref>, <xref rid="feb412060-bib-0041" ref-type="ref">41</xref>. The observation that CTR1 expression is upregulated at similar levels in MSI and MSS tumors would suggest a sensitivity of both types of CRC to platinum drugs. Indeed, it has been reported that sensitivity to oxaliplatin was independent of the MSI status in CRC cell lines <xref rid="feb412060-bib-0042" ref-type="ref">42</xref> and current clinical data suggest that MSI CRC may be sensitive to oxaliplatin <xref rid="feb412060-bib-0023" ref-type="ref">23</xref>.</p><p>The exon&#x02010;level comparison of <italic>SLC31A1</italic> transcripts in CRC and normal colonic mucosae suggests the possible existence of novel alternative transcripts and a different quantitative distribution of <italic>SLC31A1</italic> alternative transcripts in normal and cancer cells. Although the exact structure of novel alternative transcripts should be determined in future studies, these data are essential for the design of novel assays for the quantitative determination of CTR1 transcript level in cancer cells.</p><p>The increased <italic>SLC31A1</italic> mRNA level is accompanied by a parallel increase in transcript levels for copper efflux pump ATP7A, the copper assembly factor SCO1 and COX11, the cupric reductase STEAP3, and the transcription factors MTF1, MTF2, and Sp1. Such mRNA changes are highly correlated suggesting that they might be part of a coordinated transcriptional program. In this sense, the significant correlations between CTR1 (<italic>SLC31A1</italic> gene), SCO1, and COX11 mRNA levels suggest that such transcriptional upregulation might be part of a gene regulation program associated with cancer proliferation.</p><p>The transcriptional upregulation of copper transporters and chaperones in proliferating cells can be interpreted as a functional hyperactivity of copper trafficking pathways. Indeed, the observed transcriptional upregulation of the cuproenzyme <italic>SOD</italic> gene is coherent with an increase requirement and delivery of copper to intracellular sites. The observation that such coordinated transcriptional program is also conserved in the artificial growth conditions of the colon cancer cell lines suggests that it might represent a basic feature of proliferating cancer cells. This is also supported by the increased expression of <italic>SLC31A1, SCO1</italic>,<italic> and COX11</italic> mRNA observed in cell lines with a different tissue origin, such as MCF7 (breast cancer) and PC3 (prostate cancer).</p><p>A notable exception to the increased level of CHGs is represented by the copper chaperones ATOX1 and CCS. Although it is possible that other mechanisms of post&#x02010;translational regulation are operative for these proteins <xref rid="feb412060-bib-0043" ref-type="ref">43</xref>, <xref rid="feb412060-bib-0044" ref-type="ref">44</xref>, this aspect has not been further investigated in this study. Moreover, it has been reported that CTR1 silencing increases and copper supplementation decreases the protein level of ATOX1 and CCS <xref rid="feb412060-bib-0044" ref-type="ref">44</xref>. It is, therefore, conceivable that CTR1 overexpression in CRC is not accompanied by a parallel increase in ATOX1 and CCS mRNAs.</p><p>Our data are in agreement with previous results by Ishida <italic>et&#x000a0;al</italic>. <xref rid="feb412060-bib-0045" ref-type="ref">45</xref>, suggesting that cancer cells might have a greater demand for and dependence upon copper. These researchers have observed increased levels of the copper transporter Ctr1 protein in mouse cervical carcinoma <xref rid="feb412060-bib-0036" ref-type="ref">36</xref> and increased Ctr1 mRNA levels in islets undergoing tumorigenesis <xref rid="feb412060-bib-0045" ref-type="ref">45</xref>. Moreover, the same research group has shown that the activity of cytochrome c oxidase, a key enzyme in oxidative phosphorylation, in tumors is affected by copper chelating treatment <xref rid="feb412060-bib-0045" ref-type="ref">45</xref>. Interestingly, in the present work, we found a parallel transcriptional upregulation of CTR1 and the metallochaperones SCO1 and COX11 involved in the assembly of cytochrome c oxidase <xref rid="feb412060-bib-0046" ref-type="ref">46</xref>. COX11 and SCO1 are cometallochaperones assisting Cox17 in the copper insertion in cytochrome c oxidase. Copper metalation of the CuB site in the subunit 1 of cythocrome oxidase (Cox1) requires Cox11, while the metallochaperone SCO1 interacts with the subunit 2 of cytochrome oxidase (Cox2) to facilitate the maturation of its CuA site. It has been postulated that SCO1 mediates Cu(I) transfer from Cox17 to Cox2. Moreover, it has been recently shown a novel functional connection between SCO1 and CTR1; CTR1 is rapidly degraded in the absence of SCO1 protein, and its levels are restored in Sco1&#x02212;/&#x02212; mouse embryonic fibroblasts upon inhibition of the proteasome <xref rid="feb412060-bib-0047" ref-type="ref">47</xref>. Therefore, a functional synergy between CTR1 and SCO1 may meet the higher copper demand by CRC cells.</p><p>In conclusion, our results provide fundamental information on the transcript&#x02010;level expression of CHGs in colorectal cancer and further support the hypothesis that a subgroup of such cancers are characterized by a higher copper demand <xref rid="feb412060-bib-0045" ref-type="ref">45</xref>.</p></sec></body><back><ack id="feb412060-sec-0015"><title>Author contributions</title><p>ATS and GS carried out RNA extraction, transcriptome analysis and cell cultures. NM carried out cell cultures and microsatellite instability analysis. VB and DFC designed, planned and coordinated the study, interpreted the data, wrote the manuscript. VB, GS, ATS and DFC deposited the microarray data and prepared figures. SC carried out the surgery, the dissection of cancer samples and contributed to the interpretation of results. ER contributed to the planning of the study and the interpretation of results. All authors read and approved the final version of the manuscript.</p></ack><ref-list content-type="cited-references" id="feb412060-bibl-0001"><title>References</title><ref id="feb412060-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="feb412060-cit-0001">
+<string-name>
+<surname>Barresi</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Romano</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Musso</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Capizzi</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Consoli</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Martelli</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Palumbo</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name>
+<surname>Di Raimondo</surname>
+<given-names>F</given-names>
+</string-name> and <string-name>
+<surname>Condorelli</surname>
+<given-names>DF</given-names>
+</string-name> (<year>2010a</year>) <article-title>Broad copy neutral&#x02010;loss of heterozygosity regions and rare recurring copy number abnormalities in normal karyotype&#x02010;acute myeloid leukemia genomes</article-title>. <source>Genes Chromosom Cancer</source>
+<volume>49</volume>, <fpage>1014</fpage>&#x02013;<lpage>1023</lpage>.<pub-id pub-id-type="pmid">20725993</pub-id></mixed-citation></ref><ref id="feb412060-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="feb412060-cit-0002">
+<string-name>
+<surname>Barresi</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Palumbo</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name>
+<surname>Musso</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Consoli</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Capizzi</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Meli</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name>
+<surname>Romano</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Di Raimondo</surname>
+<given-names>F</given-names>
+</string-name> and <string-name>
+<surname>Condorelli</surname>
+<given-names>DF</given-names>
+</string-name> (<year>2010b</year>) <article-title>Clonal selection of 11q CN&#x02010;LOH and <italic>CBL</italic> gene mutation in a serially studied patient during MDS progression to AML</article-title>. <source>Leuk Res</source>
+<volume>34</volume>, <fpage>1539</fpage>&#x02013;<lpage>1542</lpage>.<pub-id pub-id-type="pmid">20674974</pub-id></mixed-citation></ref><ref id="feb412060-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="feb412060-cit-0003">
+<string-name>
+<surname>Muller</surname>
+<given-names>FL</given-names>
+</string-name>, <string-name>
+<surname>Colla</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Aquilanti</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Manzo</surname>
+<given-names>VE</given-names>
+</string-name>, <string-name>
+<surname>Genovese</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Eisenson</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Narurkar</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Deng</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Nezi</surname>
+<given-names>L</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>Passenger deletions generate therapeutic vulnerabilities in cancer</article-title>. <source>Nature</source>
+<volume>488</volume>, <fpage>337</fpage>&#x02013;<lpage>342</lpage>.<pub-id pub-id-type="pmid">22895339</pub-id></mixed-citation></ref><ref id="feb412060-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="feb412060-cit-0004">
+<string-name>
+<surname>Festa</surname>
+<given-names>RA</given-names>
+</string-name> and <string-name>
+<surname>Thiele</surname>
+<given-names>DJ</given-names>
+</string-name> (<year>2011</year>) <article-title>Copper: an essential metal in biology</article-title>. <source>Curr Biol</source>
+<volume>21</volume>, <fpage>R877</fpage>&#x02013;<lpage>R883</lpage>.<pub-id pub-id-type="pmid">22075424</pub-id></mixed-citation></ref><ref id="feb412060-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="feb412060-cit-0005">
+<string-name>
+<surname>Lutsenko</surname>
+<given-names>S</given-names>
+</string-name> (<year>2010</year>) <article-title>Human copper homeostasis: a network of interconnected pathways</article-title>. <source>Curr Opin Chem Biol</source>
+<volume>14</volume>, <fpage>211</fpage>&#x02013;<lpage>217</lpage>.<pub-id pub-id-type="pmid">20117961</pub-id></mixed-citation></ref><ref id="feb412060-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="feb412060-cit-0006">
+<string-name>
+<surname>Robinson</surname>
+<given-names>NJ</given-names>
+</string-name> and <string-name>
+<surname>Winge</surname>
+<given-names>DR</given-names>
+</string-name> (<year>2010</year>) <article-title>Copper metallochaperones</article-title>. <source>Annu Rev Biochem</source>
+<volume>79</volume>, <fpage>537</fpage>&#x02013;<lpage>562</lpage>.<pub-id pub-id-type="pmid">20205585</pub-id></mixed-citation></ref><ref id="feb412060-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="feb412060-cit-0007">
+<string-name>
+<surname>Harrison</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Solioz</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Dameron</surname>
+<given-names>CT</given-names>
+</string-name> (<year>2000</year>) <article-title>Intracellular copper routing: the role of copper chaperones</article-title>. <source>Trends Biochem Sci</source>
+<volume>25</volume>, <fpage>29</fpage>&#x02013;<lpage>32</lpage>.<pub-id pub-id-type="pmid">10637610</pub-id></mixed-citation></ref><ref id="feb412060-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="feb412060-cit-0008">
+<string-name>
+<surname>Margalioth</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name>
+<surname>Schenker</surname>
+<given-names>JG</given-names>
+</string-name> and <string-name>
+<surname>Chevion</surname>
+<given-names>M</given-names>
+</string-name> (<year>1983</year>) <article-title>Copper and zinc levels in normal and malignant tissues</article-title>. <source>Cancer</source>
+<volume>52</volume>, <fpage>868</fpage>&#x02013;<lpage>872</lpage>.<pub-id pub-id-type="pmid">6871828</pub-id></mixed-citation></ref><ref id="feb412060-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="feb412060-cit-0009">
+<string-name>
+<surname>D&#x000ec;ez</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Cerd&#x000e0;n</surname>
+<given-names>FJ</given-names>
+</string-name>, <string-name>
+<surname>Arroyo</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Balibrea</surname>
+<given-names>JL</given-names>
+</string-name> (<year>1989</year>) <article-title>Use of the copper/zinc ratio in the diagnosis of lung cancer</article-title>. <source>Cancer</source>
+<volume>63</volume>, <fpage>726</fpage>&#x02013;<lpage>730</lpage>.<pub-id pub-id-type="pmid">2914279</pub-id></mixed-citation></ref><ref id="feb412060-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="feb412060-cit-0010">
+<string-name>
+<surname>Ohrvik</surname>
+<given-names>H</given-names>
+</string-name> and <string-name>
+<surname>Thiele</surname>
+<given-names>DJ</given-names>
+</string-name> (<year>2014</year>) <article-title>How copper traverses cellular membranes through the mammalian copper transporter 1, Ctr1</article-title>. <source>Ann N Y Acad Sci</source>
+<volume>1314</volume>, <fpage>32</fpage>&#x02013;<lpage>41</lpage>.<pub-id pub-id-type="pmid">24697869</pub-id></mixed-citation></ref><ref id="feb412060-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="feb412060-cit-0011">
+<string-name>
+<surname>Gomes</surname>
+<given-names>IM</given-names>
+</string-name>, <string-name>
+<surname>Maia</surname>
+<given-names>CJ</given-names>
+</string-name> and <string-name>
+<surname>Santos</surname>
+<given-names>CR</given-names>
+</string-name> (<year>2012</year>) <article-title>STEAP proteins: from structure to applications in cancer therapy</article-title>. <source>Mol Cancer Res</source>
+<volume>10</volume>, <fpage>573</fpage>&#x02013;<lpage>587</lpage>.<pub-id pub-id-type="pmid">22522456</pub-id></mixed-citation></ref><ref id="feb412060-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="feb412060-cit-0012">
+<string-name>
+<surname>Klomp</surname>
+<given-names>LW</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Yuan</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name>
+<surname>Klausner</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Culotta</surname>
+<given-names>VC</given-names>
+</string-name> and <string-name>
+<surname>Gitlin</surname>
+<given-names>JD</given-names>
+</string-name> (<year>1997</year>) <article-title>Identification and functional&#x000a0;expression of HAH1, a novel human gene involved in copper homeostasis</article-title>. <source>J Biol Chem</source>
+<volume>272</volume>, <fpage>9221</fpage>&#x02013;<lpage>9226</lpage>.<pub-id pub-id-type="pmid">9083055</pub-id></mixed-citation></ref><ref id="feb412060-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="feb412060-cit-0013">
+<string-name>
+<surname>Culotta</surname>
+<given-names>VC</given-names>
+</string-name>, <string-name>
+<surname>Klomp</surname>
+<given-names>LW</given-names>
+</string-name>, <string-name>
+<surname>Strain</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Casareno</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Krems</surname>
+<given-names>B</given-names>
+</string-name> and <string-name>
+<surname>Gitlin</surname>
+<given-names>JD</given-names>
+</string-name> (<year>1997</year>) <article-title>The copper chaperone for superoxide dismutase</article-title>. <source>J Biol Chem</source>
+<volume>272</volume>, <fpage>23469</fpage>&#x02013;<lpage>23472</lpage>.<pub-id pub-id-type="pmid">9295278</pub-id></mixed-citation></ref><ref id="feb412060-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="feb412060-cit-0014">
+<string-name>
+<surname>Punter</surname>
+<given-names>FA</given-names>
+</string-name>, <string-name>
+<surname>Adams</surname>
+<given-names>DL</given-names>
+</string-name> and <string-name>
+<surname>Glerum</surname>
+<given-names>DM</given-names>
+</string-name> (<year>2000</year>) <article-title>Characterization and localization of human <italic>COX17</italic>, gene involved in mitochondrial copper transport</article-title>. <source>Hum Genet</source>
+<volume>107</volume>, <fpage>69</fpage>&#x02013;<lpage>74</lpage>.<pub-id pub-id-type="pmid">10982038</pub-id></mixed-citation></ref><ref id="feb412060-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="feb412060-cit-0015">
+<string-name>
+<surname>Carr</surname>
+<given-names>HS</given-names>
+</string-name>, <string-name>
+<surname>Maxfield</surname>
+<given-names>AB</given-names>
+</string-name>, <string-name>
+<surname>Horng</surname>
+<given-names>YC</given-names>
+</string-name> and <string-name>
+<surname>Winge</surname>
+<given-names>DR</given-names>
+</string-name> (<year>2005</year>) <article-title>Functional analysis of the domains in Cox11</article-title>. <source>Biol Chem</source>
+<volume>280</volume>, <fpage>22664</fpage>&#x02013;<lpage>22669</lpage>.</mixed-citation></ref><ref id="feb412060-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="feb412060-cit-0016">
+<string-name>
+<surname>Leary</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name>
+<surname>Kaufman</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name>
+<surname>Pellecchia</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Guercin</surname>
+<given-names>GH</given-names>
+</string-name>, <string-name>
+<surname>Mattman</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Jaksch</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Shoubridge</surname>
+<given-names>EA</given-names>
+</string-name> (<year>2004</year>) <article-title>Human SCO1 and SCO2 have independent, cooperative functions in copper delivery to cytochrome c oxidase</article-title>. <source>Hum Mol Genet</source>
+<volume>13</volume>, <fpage>1839</fpage>&#x02013;<lpage>1848</lpage>.<pub-id pub-id-type="pmid">15229189</pub-id></mixed-citation></ref><ref id="feb412060-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="feb412060-cit-0017">
+<string-name>
+<surname>Yamaguchi</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Heiny</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Suzuki</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Gitlin</surname>
+<given-names>JD</given-names>
+</string-name> (<year>1996</year>) <article-title>Biochemical characterization and intracellular localization of the Menkes disease protein</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>93</volume>, <fpage>14030</fpage>&#x02013;<lpage>14035</lpage>.<pub-id pub-id-type="pmid">8943055</pub-id></mixed-citation></ref><ref id="feb412060-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="feb412060-cit-0018">
+<string-name>
+<surname>Petrukhin</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Lutsenko</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Chernov</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Ross</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name>
+<surname>Kaplan</surname>
+<given-names>JH</given-names>
+</string-name> and <string-name>
+<surname>Gilliam</surname>
+<given-names>TC</given-names>
+</string-name> (<year>1994</year>) <article-title>Characterization of the Wilson disease gene encoding a P&#x02010;type copper transporting ATPase: genomic organization, alternative splicing, and structure/function predictions</article-title>. <source>Hum Mol Genet</source>
+<volume>3</volume>, <fpage>1647</fpage>&#x02013;<lpage>1656</lpage>.<pub-id pub-id-type="pmid">7833924</pub-id></mixed-citation></ref><ref id="feb412060-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="feb412060-cit-0019">
+<string-name>
+<surname>Maine</surname>
+<given-names>GN</given-names>
+</string-name>, <string-name>
+<surname>Mao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Muller</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Komarck</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Klomp</surname>
+<given-names>LW</given-names>
+</string-name> and <string-name>
+<surname>Burstein</surname>
+<given-names>E</given-names>
+</string-name> (<year>2009</year>) <article-title>COMMD1 expression is controlled by critical residues that determine XIAP binding</article-title>. <source>Biochem J</source>
+<volume>417</volume>, <fpage>601</fpage>&#x02013;<lpage>609</lpage>.<pub-id pub-id-type="pmid">18795889</pub-id></mixed-citation></ref><ref id="feb412060-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="feb412060-cit-0020">
+<string-name>
+<surname>Zalewska</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Trefon</surname>
+<given-names>J</given-names>
+</string-name> and <string-name>
+<surname>Milnerowicz</surname>
+<given-names>H</given-names>
+</string-name> (<year>2014</year>) <article-title>The role of metallothionein interactions with other proteins</article-title>. <source>Proteomics</source>
+<volume>14</volume>, <fpage>1343</fpage>&#x02013;<lpage>1356</lpage>.<pub-id pub-id-type="pmid">24616286</pub-id></mixed-citation></ref><ref id="feb412060-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="feb412060-cit-0021">
+<string-name>
+<surname>Irizarry</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Hobbs</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Collin</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Beazer&#x02010;Barclay</surname>
+<given-names>YD</given-names>
+</string-name>, <string-name>
+<surname>Antonellis</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Scherf</surname>
+<given-names>U</given-names>
+</string-name> and <string-name>
+<surname>Speed</surname>
+<given-names>TP</given-names>
+</string-name> (<year>2003</year>) <article-title>Exploration, normalization, and summaries of high density oligonucleotide array probe level data</article-title>. <source>Biostatistics</source>
+<volume>4</volume>, <fpage>249</fpage>&#x02013;<lpage>264</lpage>.<pub-id pub-id-type="pmid">12925520</pub-id></mixed-citation></ref><ref id="feb412060-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="feb412060-cit-0022">
+<string-name>
+<surname>Dietmaier</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Wallinger</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Bocker</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Kullmann</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Fishel</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>R&#x000fc;schoff</surname>
+<given-names>J</given-names>
+</string-name> (<year>1997</year>) <article-title>Diagnostic microsatellite instability: definition and correlation with mismatch repair protein expression</article-title>. <source>Cancer Res</source>
+<volume>57</volume>, <fpage>4749</fpage>&#x02013;<lpage>4756</lpage>.<pub-id pub-id-type="pmid">9354436</pub-id></mixed-citation></ref><ref id="feb412060-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="feb412060-cit-0023">
+<string-name>
+<surname>Kawakami</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Zaanan</surname>
+<given-names>A</given-names>
+</string-name> and <string-name>
+<surname>Sinicrope</surname>
+<given-names>FA</given-names>
+</string-name> (<year>2015</year>) <article-title>Microsatellite instability testing and its role in the management of colorectal cancer</article-title>. <source>Curr Treat Options Oncol</source>
+<volume>16</volume>, <fpage>30</fpage>.<pub-id pub-id-type="pmid">26031544</pub-id></mixed-citation></ref><ref id="feb412060-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="feb412060-cit-0024">
+<collab collab-type="authors">The Cancer Genome Atlas Network</collab>
+(<year>2012</year>) <article-title>Comprehensive molecular characterization of human colon and rectal cancer</article-title>. <source>Nature</source>
+<volume>487</volume>, <fpage>330</fpage>&#x02013;<lpage>337</lpage>.<pub-id pub-id-type="pmid">22810696</pub-id></mixed-citation></ref><ref id="feb412060-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="feb412060-cit-0025">
+<string-name>
+<surname>Agesen</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name>
+<surname>Sveen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Merok</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Lind</surname>
+<given-names>GE</given-names>
+</string-name>, <string-name>
+<surname>Nesbakken</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Skotheim</surname>
+<given-names>RI</given-names>
+</string-name> and <string-name>
+<surname>Lothe</surname>
+<given-names>RA</given-names>
+</string-name> (<year>2012</year>) <article-title>ColoGuideEx: a robust gene classifier specific for stage II colorectal cancer prognosis</article-title>. <source>Gut</source>
+<volume>61</volume>, <fpage>1560</fpage>&#x02013;<lpage>1567</lpage>.<pub-id pub-id-type="pmid">22213796</pub-id></mixed-citation></ref><ref id="feb412060-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="feb412060-cit-0026">
+<string-name>
+<surname>Edgar</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Domrachev</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Lash</surname>
+<given-names>AE</given-names>
+</string-name> (<year>2002</year>) <article-title>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</article-title>. <source>Nucleic Acids Res</source>
+<volume>30</volume>, <fpage>207</fpage>&#x02013;<lpage>210</lpage>.<pub-id pub-id-type="pmid">11752295</pub-id></mixed-citation></ref><ref id="feb412060-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="feb412060-cit-0027">
+<string-name>
+<surname>Boland</surname>
+<given-names>CR</given-names>
+</string-name> and <string-name>
+<surname>Goel</surname>
+<given-names>A</given-names>
+</string-name> (<year>2010</year>) <article-title>Microsatellite Instability in Colorectal Cancer</article-title>. <source>Gastroenterology</source>
+<volume>138</volume>, <fpage>2073</fpage>&#x02013;<lpage>2087</lpage>.e3.<pub-id pub-id-type="pmid">20420947</pub-id></mixed-citation></ref><ref id="feb412060-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="feb412060-cit-0028">
+<string-name>
+<surname>Lee</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Prohaska</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Dagenais</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Glover</surname>
+<given-names>TW</given-names>
+</string-name> and <string-name>
+<surname>Thiele</surname>
+<given-names>DJ</given-names>
+</string-name> (<year>2000</year>) <article-title>Isolation of a murine copper transporter gene, tissue specific expression and functional complementation of a yeast copper transport mutant</article-title>. <source>Gene</source>
+<volume>254</volume>, <fpage>87</fpage>&#x02013;<lpage>96</lpage>.<pub-id pub-id-type="pmid">10974539</pub-id></mixed-citation></ref><ref id="feb412060-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="feb412060-cit-0029">
+<string-name>
+<surname>Kim</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>
+<given-names>X</given-names>
+</string-name> and <string-name>
+<surname>Lee</surname>
+<given-names>J</given-names>
+</string-name> (<year>2013</year>) <article-title>SLC31 (CTR) family of copper transporters in health and disease</article-title>. <source>Mol Aspects Med</source>
+<volume>34</volume>, <fpage>561</fpage>&#x02013;<lpage>570</lpage>.<pub-id pub-id-type="pmid">23506889</pub-id></mixed-citation></ref><ref id="feb412060-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="feb412060-cit-0030">
+<string-name>
+<surname>Holzer</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name>
+<surname>Samimi</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Katano</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Naerdemann</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Safaei</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>Howell</surname>
+<given-names>SB</given-names>
+</string-name> (<year>2004</year>) <article-title>The copper influx transporter human copper transport protein 1 regulates the uptake of cisplatin in human ovarian carcinoma cells</article-title>. <source>Mol Pharmacol</source>
+<volume>66</volume>, <fpage>817</fpage>&#x02013;<lpage>823</lpage>.<pub-id pub-id-type="pmid">15229296</pub-id></mixed-citation></ref><ref id="feb412060-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="feb412060-cit-0031">
+<string-name>
+<surname>Liang</surname>
+<given-names>ZD</given-names>
+</string-name>, <string-name>
+<surname>Stockton</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Savaraj</surname>
+<given-names>N</given-names>
+</string-name> and <string-name>
+<surname>Tien Kuo</surname>
+<given-names>M</given-names>
+</string-name> (<year>2009</year>) <article-title>Mechanistic comparison of human high affinity copper transporter 1&#x02010;mediated transport between copper ion and cisplatin</article-title>. <source>Mol Pharmacol</source>
+<volume>76</volume>, <fpage>843</fpage>&#x02013;<lpage>853</lpage>.<pub-id pub-id-type="pmid">19570948</pub-id></mixed-citation></ref><ref id="feb412060-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="feb412060-cit-0032">
+<string-name>
+<surname>Kuo</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Fu</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Savaraj</surname>
+<given-names>N</given-names>
+</string-name> and <string-name>
+<surname>Chen</surname>
+<given-names>HH</given-names>
+</string-name> (<year>2012</year>) <article-title>Role of the human high&#x02010;affinity copper transporter in copper homeostasis regulation and cisplatin sensitivity in cancer chemotherapy</article-title>. <source>Cancer Res</source>
+<volume>72</volume>, <fpage>4616</fpage>&#x02013;<lpage>4621</lpage>.<pub-id pub-id-type="pmid">22962276</pub-id></mixed-citation></ref><ref id="feb412060-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="feb412060-cit-0033">
+<string-name>
+<surname>Blair</surname>
+<given-names>BG</given-names>
+</string-name>, <string-name>
+<surname>Larson</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>Adams</surname>
+<given-names>PL</given-names>
+</string-name>, <string-name>
+<surname>Abada</surname>
+<given-names>PB</given-names>
+</string-name>, <string-name>
+<surname>Safaei</surname>
+<given-names>R</given-names>
+</string-name> and <string-name>
+<surname>Howell</surname>
+<given-names>SB</given-names>
+</string-name> (<year>2010</year>) <article-title>Regulation of copper transporter 2 expression by copper and cisplatin in human ovarian carcinoma cells</article-title>. <source>Mol Pharmacol</source>
+<volume>77</volume>, <fpage>912</fpage>&#x02013;<lpage>921</lpage>.<pub-id pub-id-type="pmid">20194531</pub-id></mixed-citation></ref><ref id="feb412060-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="feb412060-cit-0034">
+<string-name>
+<surname>Lin</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Shang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Manorek</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Fofana</surname>
+<given-names>M</given-names>
+</string-name> and <string-name>
+<surname>Stephen</surname>
+<given-names>BH</given-names>
+</string-name> (<year>2014</year>) <article-title>Integrin &#x003b1;V modulates the cellular pharmacology of copper and cisplatin by regulating expression of the influx transporter. CTR1</article-title>. <source>Oncoscience</source>
+<volume>1</volume>, <fpage>185</fpage>&#x02013;<lpage>195</lpage>.<pub-id pub-id-type="pmid">25594011</pub-id></mixed-citation></ref><ref id="feb412060-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="feb412060-cit-0035">
+<string-name>
+<surname>Song</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Aiba</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Hossain</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Liang</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Klomp</surname>
+<given-names>L</given-names>
+</string-name> and <string-name>
+<surname>Kuo</surname>
+<given-names>M</given-names>
+</string-name> (<year>2008</year>) <article-title>Transcription factor Sp1 plays an important role in the regulation of copper homeostasis in mammalian cells</article-title>. <source>Mol Pharmacol</source>
+<volume>74</volume>, <fpage>705</fpage>&#x02013;<lpage>713</lpage>.<pub-id pub-id-type="pmid">18483225</pub-id></mixed-citation></ref><ref id="feb412060-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="feb412060-cit-0036">
+<string-name>
+<surname>Ishida</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>McCormick</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Smith&#x02010;McCune</surname>
+<given-names>K</given-names>
+</string-name> and <string-name>
+<surname>Hanahan</surname>
+<given-names>D</given-names>
+</string-name> (<year>2010</year>) <article-title>Enhancing tumor&#x02010;specific uptake of the anticancer drug cisplatin with a copper chelator</article-title>. <source>Cancer Cell</source>
+<volume>17</volume>, <fpage>574</fpage>&#x02013;<lpage>583</lpage>.<pub-id pub-id-type="pmid">20541702</pub-id></mixed-citation></ref><ref id="feb412060-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="feb412060-cit-0037">
+<string-name>
+<surname>Tsai</surname>
+<given-names>CY</given-names>
+</string-name>, <string-name>
+<surname>Finley</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Ali</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Patel</surname>
+<given-names>HH</given-names>
+</string-name> and <string-name>
+<surname>Howell</surname>
+<given-names>SB</given-names>
+</string-name> (<year>2012</year>) <article-title>Copper influx transporter 1 is required for FGF, PDGF and EGF&#x02010;induced MAPK signaling</article-title>. <source>Biochem Pharmacol</source>
+<volume>84</volume>, <fpage>1007</fpage>&#x02013;<lpage>1013</lpage>.<pub-id pub-id-type="pmid">22842628</pub-id></mixed-citation></ref><ref id="feb412060-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="feb412060-cit-0038">
+<string-name>
+<surname>Brady</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>Crowe</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Turski</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Hobbs</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name>
+<surname>Yao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Chaikuad</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Knapp</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Xiao</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Campbell</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Thiele</surname>
+<given-names>DJ</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Copper is required for oncogenic BRAF signalling and tumorigenesis</article-title>. <source>Nature</source>
+<volume>509</volume>, <fpage>492</fpage>&#x02013;<lpage>496</lpage>.<pub-id pub-id-type="pmid">24717435</pub-id></mixed-citation></ref><ref id="feb412060-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="feb412060-cit-0039">
+<string-name>
+<surname>Turski</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Brady</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>BE</given-names>
+</string-name>, <string-name>
+<surname>Nose</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Counter</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Winge</surname>
+<given-names>DR</given-names>
+</string-name> and <string-name>
+<surname>Thiele</surname>
+<given-names>DJ</given-names>
+</string-name> (<year>2012</year>) <article-title>A novel role for copper in Ras/mitogen&#x02010;activated protein kinase signaling</article-title>. <source>Mol Cell Biol</source>
+<volume>32</volume>, <fpage>1284</fpage>&#x02013;<lpage>1295</lpage>.<pub-id pub-id-type="pmid">22290441</pub-id></mixed-citation></ref><ref id="feb412060-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="feb412060-cit-0040">
+<string-name>
+<surname>Holzer</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name>
+<surname>Varki</surname>
+<given-names>NM</given-names>
+</string-name>, <string-name>
+<surname>Le</surname>
+<given-names>QT</given-names>
+</string-name>, <string-name>
+<surname>Gibson</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Naredi</surname>
+<given-names>P</given-names>
+</string-name> and <string-name>
+<surname>Howell</surname>
+<given-names>SB</given-names>
+</string-name> (<year>2006</year>) <article-title>Expression of the human copper influx transporter 1 in normal and malignant human tissues</article-title>. <source>J Histochem Cytochem</source>
+<volume>54</volume>, <fpage>1041</fpage>&#x02013;<lpage>1049</lpage>.<pub-id pub-id-type="pmid">16709730</pub-id></mixed-citation></ref><ref id="feb412060-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="feb412060-cit-0041">
+<string-name>
+<surname>Kim</surname>
+<given-names>ES</given-names>
+</string-name>, <string-name>
+<surname>Tang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Peterson</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Kilari</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Chow</surname>
+<given-names>CW</given-names>
+</string-name>, <string-name>
+<surname>Fujimoto</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kalhor</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Swisher</surname>
+<given-names>SG</given-names>
+</string-name>, <string-name>
+<surname>Stewart</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Wistuba</surname>
+<given-names>II</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Copper transporter CTR1 expression and tissue platinum concentration in non&#x02010;small cell lung cancer</article-title>. <source>Lung Cancer</source>
+<volume>85</volume>, <fpage>88</fpage>&#x02013;<lpage>93</lpage>.<pub-id pub-id-type="pmid">24792335</pub-id></mixed-citation></ref><ref id="feb412060-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="feb412060-cit-0042">
+<string-name>
+<surname>Fink</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Nebel</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Aebi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Zheng</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Cenni</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Nehm&#x000e8;</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Christen</surname>
+<given-names>RD</given-names>
+</string-name> and <string-name>
+<surname>Howell</surname>
+<given-names>SB</given-names>
+</string-name> (<year>1996</year>) <article-title>The role of DNA mismatch repair in platinum drug resistance</article-title>. <source>Cancer Res</source>
+<volume>56</volume>, <fpage>4881</fpage>&#x02013;<lpage>4886</lpage>.<pub-id pub-id-type="pmid">8895738</pub-id></mixed-citation></ref><ref id="feb412060-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="feb412060-cit-0043">
+<string-name>
+<surname>van den Berghe</surname>
+<given-names>PV</given-names>
+</string-name> and <string-name>
+<surname>Klomp</surname>
+<given-names>LW</given-names>
+</string-name> (<year>2010</year>) <article-title>Post&#x02010;translational regulation of copper transporters</article-title>. <source>J Biol Inorg Chem</source>
+<volume>15</volume>, <fpage>37</fpage>&#x02013;<lpage>46</lpage>.<pub-id pub-id-type="pmid">19813030</pub-id></mixed-citation></ref><ref id="feb412060-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="feb412060-cit-0044">
+<string-name>
+<surname>Dong</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Yin</surname>
+<given-names>W</given-names>
+</string-name> and <string-name>
+<surname>Kang</surname>
+<given-names>YJ</given-names>
+</string-name> (<year>2014</year>) <article-title>Changes in copper concentrations affect the protein level but not the mRNA levels of copper chaperones in human umbilical vein endothelial cells</article-title>. <source>Metallomics</source>
+<volume>6</volume>, <fpage>554</fpage>&#x02013;<lpage>559</lpage>.<pub-id pub-id-type="pmid">24343031</pub-id></mixed-citation></ref><ref id="feb412060-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="feb412060-cit-0045">
+<string-name>
+<surname>Ishida</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Andreux</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Poitry&#x02010;Yamate</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Auwerx</surname>
+<given-names>J</given-names>
+</string-name> and <string-name>
+<surname>Hanahan</surname>
+<given-names>D</given-names>
+</string-name> (<year>2013</year>) <article-title>Bioavailable copper modulates oxidative phosphorylation and growth of tumors</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>110</volume>, <fpage>19507</fpage>&#x02013;<lpage>19512</lpage>.<pub-id pub-id-type="pmid">24218578</pub-id></mixed-citation></ref><ref id="feb412060-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="feb412060-cit-0046">
+<string-name>
+<surname>Cobine</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Pierrel</surname>
+<given-names>F</given-names>
+</string-name> and <string-name>
+<surname>Winge</surname>
+<given-names>DR</given-names>
+</string-name> (<year>2006</year>) <article-title>Copper trafficking to the mitochondrion and assembly of copper metalloenzymes</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1763</volume>, <fpage>759</fpage>&#x02013;<lpage>772</lpage>.<pub-id pub-id-type="pmid">16631971</pub-id></mixed-citation></ref><ref id="feb412060-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="feb412060-cit-0047">
+<string-name>
+<surname>Hlynialuk</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Ling</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Baker</surname>
+<given-names>ZN</given-names>
+</string-name>, <string-name>
+<surname>Cobine</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>
+<given-names>LD</given-names>
+</string-name>, <string-name>
+<surname>Boulet</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Wai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Hossain</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>El Zawily</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name>
+<surname>McFie</surname>
+<given-names>PJ</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>The mitochondrial metallochaperone SCO1 is required to sustain expression of the high&#x02010;affinity copper transporter CTR1 and preserve copper homeostasis</article-title>. <source>Cell Rep</source>
+<volume>10</volume>, <fpage>933</fpage>&#x02013;<lpage>943</lpage>.</mixed-citation></ref></ref-list></back></article>

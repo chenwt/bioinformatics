@@ -1,0 +1,588 @@
+{
+  "id": [
+    "25886445"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "25886445"
+  ],
+  "pmcid": [
+    "PMC4425905"
+  ],
+  "doi": [
+    "10.1186/s12864-015-1456-x"
+  ],
+  "title": [
+    "Distinguishing low frequency mutations from RT-PCR and sequence errors in viral deep sequencing data."
+  ],
+  "authorString": [
+    "Orton RJ, Wright CF, Morelli MJ, King DJ, Paton DJ, King DP, Haydon DT."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Orton RJ"
+          ],
+          "firstName": [
+            "Richard J"
+          ],
+          "lastName": [
+            "Orton"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "affiliation": [
+            "Medical Research Council-University of Glasgow Centre for Virus Research, Institute of Infection, Inflammation and Immunity, College of Medical, Veterinary and Life Sciences, University of Glasgow, Glasgow, G12 8QQ, United Kingdom. Richard.Orton@glasgow.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Wright CF"
+          ],
+          "firstName": [
+            "Caroline F"
+          ],
+          "lastName": [
+            "Wright"
+          ],
+          "initials": [
+            "CF"
+          ],
+          "affiliation": [
+            "Pirbright Institute, Ash Road, Pirbright, GU24 0NF, UK. caroline.wright79@gmail.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Morelli MJ"
+          ],
+          "firstName": [
+            "Marco J"
+          ],
+          "lastName": [
+            "Morelli"
+          ],
+          "initials": [
+            "MJ"
+          ],
+          "affiliation": [
+            "Center for Genomic Science of IIT@SEMM, Istituto Italiano di Tecnologia at the IFOM-IEO Campus, Via Adamello 16, Milano, 20139, Italy. Marco.Morelli@iit.it."
+          ]
+        },
+        {
+          "fullName": [
+            "King DJ"
+          ],
+          "firstName": [
+            "David J"
+          ],
+          "lastName": [
+            "King"
+          ],
+          "initials": [
+            "DJ"
+          ],
+          "affiliation": [
+            "Pirbright Institute, Ash Road, Pirbright, GU24 0NF, UK. david.king@pirbright.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Paton DJ"
+          ],
+          "firstName": [
+            "David J"
+          ],
+          "lastName": [
+            "Paton"
+          ],
+          "initials": [
+            "DJ"
+          ],
+          "affiliation": [
+            "Pirbright Institute, Ash Road, Pirbright, GU24 0NF, UK. david.paton@pirbright.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "King DP"
+          ],
+          "firstName": [
+            "Donald P"
+          ],
+          "lastName": [
+            "King"
+          ],
+          "initials": [
+            "DP"
+          ],
+          "affiliation": [
+            "Pirbright Institute, Ash Road, Pirbright, GU24 0NF, UK. donald.king@pirbright.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Haydon DT"
+          ],
+          "firstName": [
+            "Daniel T"
+          ],
+          "lastName": [
+            "Haydon"
+          ],
+          "initials": [
+            "DT"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1240-1886",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Boyd Orr Centre for Population and Ecosystem Health, Institute of Biodiversity, Animal Health and Comparative Medicine, College of Medical, Veterinary and Life Sciences, University of Glasgow, Glasgow, G12 8QQ, United Kingdom. daniel.haydon@glasgow.ac.uk."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1240-1886",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-6959-2708",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2475605"
+      ],
+      "dateOfPublication": [
+        "2015 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "229"
+  ],
+  "abstractText": [
+    "RNA viruses have high mutation rates and exist within their hosts as large, complex and heterogeneous populations, comprising a spectrum of related but non-identical genome sequences. Next generation sequencing is revolutionising the study of viral populations by enabling the ultra deep sequencing of their genomes, and the subsequent identification of the full spectrum of variants within the population. Identification of low frequency variants is important for our understanding of mutational dynamics, disease progression, immune pressure, and for the detection of drug resistant or pathogenic mutations. However, the current challenge is to accurately model the errors in the sequence data and distinguish real viral variants, particularly those that exist at low frequency, from errors introduced during sequencing and sample processing, which can both be substantial.We have created a novel set of laboratory control samples that are derived from a plasmid containing a full-length viral genome with extremely limited diversity in the starting population. One sample was sequenced without PCR amplification whilst the other samples were subjected to increasing amounts of RT and PCR amplification prior to ultra-deep sequencing. This enabled the level of error introduced by the RT and PCR processes to be assessed and minimum frequency thresholds to be set for true viral variant identification. We developed a genome-scale computational model of the sample processing and NGS calling process to gain a detailed understanding of the errors at each step, which predicted that RT and PCR errors are more likely to occur at some genomic sites than others. The model can also be used to investigate whether the number of observed mutations at a given site of interest is greater than would be expected from processing errors alone in any NGS data set. After providing basic sample processing information and the site's coverage and quality scores, the model utilises the fitted RT-PCR error distributions to simulate the number of mutations that would be observed from processing errors alone.These data sets and models provide an effective means of separating true viral mutations from those erroneously introduced during sample processing and sequencing."
+  ],
+  "affiliation": [
+    "Medical Research Council-University of Glasgow Centre for Virus Research, Institute of Infection, Inflammation and Immunity, College of Medical, Veterinary and Life Sciences, University of Glasgow, Glasgow, G12 8QQ, United Kingdom. Richard.Orton@glasgow.ac.uk."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "BB/E018505/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "G0801822"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "BB/I014314/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "BB/I013784/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA Viruses"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Viral"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Reverse Transcriptase Polymerase Chain Reaction"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Frequency"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mutation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Models, Theoretical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA, Viral"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4425905?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4425905"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-015-1456-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-01-25"
+  ],
+  "dateOfCreation": [
+    "2015-05-09"
+  ],
+  "dateOfRevision": [
+    "2016-11-22"
+  ],
+  "electronicPublicationDate": [
+    "2015-03-24"
+  ],
+  "firstPublicationDate": [
+    "2015-03-24"
+  ]
+}

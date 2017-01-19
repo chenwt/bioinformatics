@@ -1,0 +1,338 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="meeting-report"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Pathogens</journal-id><journal-id journal-id-type="iso-abbrev">Pathogens</journal-id><journal-id journal-id-type="publisher-id">pathogens</journal-id><journal-title-group><journal-title>Pathogens</journal-title></journal-title-group><issn pub-type="epub">2076-0817</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4810128</article-id><article-id pub-id-type="doi">10.3390/pathogens5010007</article-id><article-id pub-id-type="publisher-id">pathogens-05-00007</article-id><article-categories><subj-group subj-group-type="heading"><subject>Conference Report</subject></subj-group></article-categories><title-group><article-title>Measuring <italic>Escherichia</italic><italic>coli</italic> Gene Expression during Human Urinary Tract Infections</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Mobley</surname><given-names>Harry L. T.</given-names></name></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Svanborg</surname><given-names>Catharina</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-pathogens-05-00007">Department of Microbiology and Immunology, University of Michigan Medical School, Ann Arbor, MI 48109, USA; <email>hmobley@umich.edu</email>; Tel.: +1-734-764-1466</aff><pub-date pub-type="epub"><day>15</day><month>1</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2016</year></pub-date><volume>5</volume><issue>1</issue><elocation-id>7</elocation-id><history><date date-type="received"><day>11</day><month>9</month><year>2015</year></date><date date-type="accepted"><day>13</day><month>1</month><year>2016</year></date></history><permissions><copyright-statement>&#x000a9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2016</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Extraintestinal <italic>Escherichia</italic>
+<italic>coli</italic> (<italic>E. coli</italic>) evolved by acquisition of pathogenicity islands, phage, plasmids, and DNA segments by horizontal gene transfer. Strains are heterogeneous but virulent uropathogenic isolates more often have specific fimbriae, toxins, and iron receptors than commensal strains. One may ask whether it is the virulence factors alone that are required to establish infection. While these virulence factors clearly contribute strongly to pathogenesis, bacteria must survive by metabolizing nutrients available to them. By constructing mutants in all major metabolic pathways and co-challenging mice transurethrally with each mutant and the wild type strain, we identified which major metabolic pathways are required to infect the urinary tract. We must also ask what else is <italic>E. coli</italic> doing <italic>in vivo</italic>? To answer this question, we examined the transcriptome of <italic>E. coli</italic> CFT073 in the murine model of urinary tract infection (UTI) as well as for <italic>E. coli</italic> strains collected and analyzed directly from the urine of patients attending either a urology clinic or a university health clinic for symptoms of UTI. Using microarrays and RNA-seq, we measured <italic>in vivo</italic> gene expression for these uropathogenic <italic>E.&#x000a0;coli</italic> strains, identifying genes upregulated during murine and human UTI. Our findings allow us to propose a new definition of bacterial virulence.</p></abstract><kwd-group><kwd><italic>E. coli</italic></kwd><kwd>urinary tract infection</kwd><kwd><italic>in vivo</italic> gene expression</kwd><kwd>RNA-seq</kwd></kwd-group></article-meta></front><body><sec id="sec1-pathogens-05-00007"><title>1. Introduction</title><p>In the molecular era of microbial pathogenesis research, virulence genes were first identified by examining transposon mutants or individual gene mutations using <italic>in vitro</italic> assays. Mutants of bacterial pathogens were then assessed in animal models that mimicked human disease. Genome-wide screens were developed whereby genes and proteins that influenced virulence could be identified, including signature-tagged mutagenesis (STM) [<xref rid="B1-pathogens-05-00007" ref-type="bibr">1</xref>], <italic>in vivo</italic> expression technology (IVET) [<xref rid="B2-pathogens-05-00007" ref-type="bibr">2</xref>], and <italic>in vivo</italic>-induced antigen technology (IVIAT) [<xref rid="B3-pathogens-05-00007" ref-type="bibr">3</xref>]. Then individual gene expression was measured by RT-PCR, and, in limited cases, this was done using infected tissue [<xref rid="B4-pathogens-05-00007" ref-type="bibr">4</xref>]. The advent of microarray technology allowed the estimation of global gene expression under defined culture conditions such as nitrogen limitation [<xref rid="B5-pathogens-05-00007" ref-type="bibr">5</xref>], oxygenation [<xref rid="B6-pathogens-05-00007" ref-type="bibr">6</xref>], and osmotic stress [<xref rid="B7-pathogens-05-00007" ref-type="bibr">7</xref>].</p></sec><sec id="sec2-pathogens-05-00007"><title>2. Importance of Measuring Bacterial Gene Expression in the Host</title><p>In the last decade, a limited number of investigators employed microarrays to assess genome-wide gene expression of pathogens in animal models of infection. These included study of <italic>Borrelia burgdorferi</italic>, <italic>Burkholderia pseudomallei</italic>, <italic>Campylobacter jejuni</italic>, <italic>Escherichia coli</italic>, <italic>Helicobacter pylori</italic>, <italic>Listeria monocytogenes</italic>, <italic>Mycobacterium</italic> spp., <italic>Mycoplasma hyopneumoniae</italic>, <italic>Streptococcus pyogenes</italic>, and <italic>Vibrio cholerae</italic>, in mice and rats [<xref rid="B8-pathogens-05-00007" ref-type="bibr">8</xref>,<xref rid="B9-pathogens-05-00007" ref-type="bibr">9</xref>,<xref rid="B10-pathogens-05-00007" ref-type="bibr">10</xref>,<xref rid="B11-pathogens-05-00007" ref-type="bibr">11</xref>,<xref rid="B12-pathogens-05-00007" ref-type="bibr">12</xref>,<xref rid="B13-pathogens-05-00007" ref-type="bibr">13</xref>,<xref rid="B14-pathogens-05-00007" ref-type="bibr">14</xref>,<xref rid="B15-pathogens-05-00007" ref-type="bibr">15</xref>,<xref rid="B16-pathogens-05-00007" ref-type="bibr">16</xref>], gerbils [<xref rid="B17-pathogens-05-00007" ref-type="bibr">17</xref>], rabbit ileal loops [<xref rid="B18-pathogens-05-00007" ref-type="bibr">18</xref>,<xref rid="B19-pathogens-05-00007" ref-type="bibr">19</xref>], hamsters [<xref rid="B20-pathogens-05-00007" ref-type="bibr">20</xref>], and pigs [<xref rid="B21-pathogens-05-00007" ref-type="bibr">21</xref>]. Among these studies, our group measured <italic>in vivo</italic> gene expression of uropathogenic <italic>E. coli</italic> (UPEC) collected directly from urine of experimentally infected mice using the murine model of ascending urinary tract infection (UTI) [<xref rid="B12-pathogens-05-00007" ref-type="bibr">12</xref>]. We extended studies to humans by determining the transcriptomes of <italic>E. coli</italic> directly from the urine of patients with &#x0201c;complicated&#x0201d; UTI [<xref rid="B22-pathogens-05-00007" ref-type="bibr">22</xref>] and in otherwise healthy women with &#x0201c;uncomplicated&#x0201d; UTI using the technique of RNA-Seq [<xref rid="B23-pathogens-05-00007" ref-type="bibr">23</xref>]. Overall, only a few research groups worldwide have measured genome-wide gene expression during a human infection with <italic>V. cholera</italic> [<xref rid="B24-pathogens-05-00007" ref-type="bibr">24</xref>], <italic>Pseudomonas aeruginosa</italic> [<xref rid="B25-pathogens-05-00007" ref-type="bibr">25</xref>], <italic>M. tuberculosis</italic> [<xref rid="B26-pathogens-05-00007" ref-type="bibr">26</xref>], and <italic>E. coli</italic> [<xref rid="B22-pathogens-05-00007" ref-type="bibr">22</xref>,<xref rid="B23-pathogens-05-00007" ref-type="bibr">23</xref>].</p><p>Taken together, these techniques provided a broad view of virulence. Close examination of the effect on virulence of mutation of individual bacterial genes and operons in animal models, along with complementation studies defined the traditional assessment of virulence. However, other factors are required for colonization and infection. Critically, metabolism of pathogens must match available nutrients and proper levels of oxygenation or lack thereof to survive and thrive in the host. Thus, the contribution of bacterial metabolism must be added to the study of virulence to craft a complete picture.</p></sec><sec id="sec3-pathogens-05-00007"><title>3. Lessons from <italic>E. coli</italic> Help Redefine Bacterial Virulence</title><p>To redefine the meaning of virulence of bacterial pathogens, let&#x02019;s look carefully at one versatile pathogen. Over millions of years, <italic>E. coli</italic> pathotypes have developed by horizontal gene transfer of foreign DNA into commensal strains by conjugation, transduction, and transformation. For example, enterohemorrhagic <italic>E. coli</italic> received the Shiga toxin gene via transduction and the LEE (locus of enterocyte effacement) pathogenicity island probably by conjugation to form this pathotype [<xref rid="B27-pathogens-05-00007" ref-type="bibr">27</xref>]. Other intestinal and extraintestinal pathotypes have also developed. For example, we can have diarrhea at least six different ways caused by enterotoxigenic, enteropathogenic, enterohemmorhagic, enteroaggregative, enteroinvasive and diffuse-adherent <italic>E. coli</italic>, each with its own mechanism of pathogenesis. Beyond the intestinal tract, extraintestinal <italic>E. coli</italic> causes urinary tract infection and meningitis in humans, and lung infection in birds [<xref rid="B27-pathogens-05-00007" ref-type="bibr">27</xref>]. So let&#x02019;s look at one of these pathotypes, uropathogenic <italic>E. coli,</italic> to explore our new definition of virulence.</p></sec><sec id="sec4-pathogens-05-00007"><title>4. The ExPEC Pathotype Helps Make the Case</title><p><italic>E. coli</italic> causes ~80% of ascending urinary tract infections in otherwise healthy women [<xref rid="B28-pathogens-05-00007" ref-type="bibr">28</xref>]. First, we have fecal contamination of the periurethral area, and then bacteria ascend into the bladder causing cystitis (<xref ref-type="fig" rid="pathogens-05-00007-f001">Figure 1</xref>-left panel). These infections of the lower urinary tract, in some cases, may ascend to the kidneys eliciting acute pyelonephritits, possibly leading to bacteremia and sepsis. Thus, as <italic>E. coli</italic> establishes infection, bacteria encounter numerous environments that would likely require significantly different patterns of gene expression to survive.</p><p>We can visualize this infection in mice colonized with <italic>E. coli</italic> CFT073 expressing a flagellin-<italic>lux</italic> fusion (<xref ref-type="fig" rid="pathogens-05-00007-f001">Figure 1</xref>-right panel). After transuretheral inoculation of mice (ventral view), we can follow the infection for six hours using whole animal imaging [<xref rid="B29-pathogens-05-00007" ref-type="bibr">29</xref>]. When the flagellin gene (<italic>fliC</italic>) is transcribed, we see a burst of light. Looking at a dorsal view, we can see that these bacteria ascend the ureters to the kidneys just within a couple of hours. In some cases, bacteria can cross epithelial and endothelial barriers into the bloodstream.</p><p>These bacteria have a potent virulence arsenal including up to twelve different fimbrial adhesins [<xref rid="B30-pathogens-05-00007" ref-type="bibr">30</xref>]. The most notable is P fimbriae, which binds the P blood group antigen, a glycosphingolipid expressed on the surface of kidney epithelial cells. Six O serotypes (antigenic variants of LPS) cause three fourths of infections, so these strains may be relatively clonal (however, serotypes are only one trait that define strains). They synthesize capsules (K antigen) that evoke serum resistance. They&#x02019;re chemotactic and motile by flagella. They make many iron and heme receptors, and exotoxins such as hemolysin, cytotoxic necrotizing factor, cytolethal distending toxin, and several autotransported proteases such as Sat.</p><p>Another way to define UPEC strains is to examine acquisition of genomic or pathogenicity islands. In one example, if we hybridize genomic DNA from representative fecal/commensal strains, cystitis strains, and pyelonephritis strains to a microarray of <italic>E. coli</italic> CFT073 (the most cited prototype UPEC strain) from gene 1 through gene 5364, we see that <italic>E. coli</italic> CFT073 contains significant stretches of DNA not present in other strains, particularly fecal strains. Indeed, CFT073, carries 13 pathogenicity islands, each of 30&#x02013;100 kb, that have been inserted around chromosome, comprising about 12% of the genome [<xref rid="B31-pathogens-05-00007" ref-type="bibr">31</xref>,<xref rid="B32-pathogens-05-00007" ref-type="bibr">32</xref>]. They&#x02019;ve added accessory genes to the &#x0201c;base model&#x0201d; <italic>E. coli</italic> that may increase fitness of a strain in the urinary tract.</p><fig id="pathogens-05-00007-f001" position="float"><label>Figure 1</label><caption><p>Imaging of uropathogenic <italic>E. coli</italic> during urinary tract infection (UTI).</p></caption><graphic xlink:href="pathogens-05-00007-g001"/></fig><p>If we look at the prevalence of those genes found in a survey of 315 strains, from fecal strains, cystitis strains, and pyelonephritis strains, we note that as <italic>E. coli</italic> goes higher in the urinary tract, it is considered more virulent and is more likely to have these genes. For example, about 70% of pyelonephritis strains (ones infecting kidneys) have a particular fimbria called &#x0201c;Auf&#x0201d; (another UPEC fimbria) found in &#x0003c;20% of fecal strains. We see this relationship also with other fimbriae, toxins and iron acquisition systems (<xref ref-type="fig" rid="pathogens-05-00007-f002">Figure 2</xref>) [<xref rid="B33-pathogens-05-00007" ref-type="bibr">33</xref>,<xref rid="B34-pathogens-05-00007" ref-type="bibr">34</xref>].</p><fig id="pathogens-05-00007-f002" position="float"><label>Figure 2</label><caption><p>Prevalence of virulence genes found on pathogenicity islands.</p></caption><graphic xlink:href="pathogens-05-00007-g002"/></fig></sec><sec id="sec5-pathogens-05-00007"><title>5. What Else Should We Consider to Define Bacterial Virulence?</title><p>At this stage we must ask whether these virulence genes are all that is required for infection. The answer is, of course not. There are other factors including metabolic pathways that drive fermentation and oxidative phosphorylation. We have glycolysis, gluconeogenesis, the TCA cycle, pentose phosphate pathway, and the Entner-Duodoroff pathway. We must know what these bacteria eat during colonization of the urinary tract. What is available to them? <italic>A priori</italic>, you would assume that <italic>E. coli</italic> needs all of these heralded cycles. To test this idea, we made single mutations that specifically knocked out each one of these cycles and then inoculated these mutants into the bladders of mice and quantified bacteria 48 h later. Mutants with defects in the TCA cycle or gluconeogenesis had impaired fitness during UTI [<xref rid="B35-pathogens-05-00007" ref-type="bibr">35</xref>,<xref rid="B36-pathogens-05-00007" ref-type="bibr">36</xref>]. That&#x02019;s not so surprising. But, glycolysis, pentose phosphate, and Entner-Duodoroff pathways are all dispensable. Constructs in which these pathways are knocked out, colonize the urinary tract as well as the wild type strain. Peptide transporters like DppA and OppA are induced in urine, and required for fitness during infection [<xref rid="B36-pathogens-05-00007" ref-type="bibr">36</xref>]. So we surmised that amino acids and peptides are the primary carbon source for <italic>E. coli</italic> during infection of the urinary tract. Peptides are taken up, converted into amino acids and then oxaloacetate enters the TCA cycle to boost oxidative phosphorylation and gluconeogenesis to make glucose. Bacteria don&#x02019;t require exogenous glucose. Indeed, glucose is not usually present in the urinary tract in high amounts unless under diabetic conditions. So this was a very surprising finding&#x02014;that you need just a few of the major metabolic pathways during infection.</p></sec><sec id="sec6-pathogens-05-00007"><title>6. Measuring Global Gene Expression during Bacterial Infection</title><p>That prompted the question: what else is <italic>E. coli</italic> doing <italic>in vivo</italic>? To answer this, we looked at the <italic>in vivo</italic> transcriptome several ways. We collected bacteria from the urine of infected CBA mice, immediately stabilized the RNA [<xref rid="B12-pathogens-05-00007" ref-type="bibr">12</xref>], or from women attending the Urology Clinic with urinary tract infection (these tended to be more &#x0201c;complicated&#x0201d; infections defined as occurring in individuals with structural abnormalities of the urinary tract or those with urinary catheters in place or in immunocompromised patients) [<xref rid="B22-pathogens-05-00007" ref-type="bibr">22</xref>]. Bacterial RNA was isolated and converted into cDNA, and then we hybridized it to the <italic>E. coli</italic> CFT073 microarray (<xref ref-type="fig" rid="pathogens-05-00007-f003">Figure 3</xref>). For eight strains from patients, listed across the top of the heat map, &#x0201c;red&#x0201d; is expressed and &#x0201c;black&#x0201d; is not expressed or absent, and virulence factor genes measured were for fimbriae, toxins, iron acquisition, capsule, metabolism genes, and transporters. If we compare relative expression during human UTI <italic>versus</italic> relative expression during murine UTI, we have a very good correlation (r = 0.589; <italic>p</italic> &#x0003c; 0.0001), especially with the iron acquisition proteins, which are highly expressed in both mice and humans. In humans, however, fimbrial genes are not as well expressed by bacteria collected in the urine (perhaps because adhering bacteria are not released into the urine).</p><p>These studies were very informative, but the comparison was not ideal, because we were comparing expression of the eight strains from the urology clinic using the genome of another strain, <italic>E. coli</italic> CFT073. Genes may differ in relatedness between the clinical strains and strain CFT073 resulting in poor hybridization, leading to confusion as to whether a gene is absent, or just not expressed. We wanted to overcome this uncertainty. We then asked what the <italic>E. coli</italic> was doing during UTI in women with uncomplicated infections (these occur in otherwise healthy individuals) by using RNA-seq in naturally occurring human UTIs [<xref rid="B23-pathogens-05-00007" ref-type="bibr">23</xref>].</p><p>For this study, 86 women attending the University Health Service with symptoms of cystitis were given informed consent and enrolled in the study [<xref rid="B23-pathogens-05-00007" ref-type="bibr">23</xref>]. Urine was collected, sampled for culture, and stabilized immediately within 10 min in <italic>RNAprotect</italic> (in this case, up to 200 mL of <italic>RNAprotect/</italic>sample) acknowledging that we didn&#x02019;t know whether bacteria were in the samples in significant numbers or at all. Forty-two women, about half, had bacteria at &#x02265;10<sup>5</sup> colony-forming units/mL, and 38 were positive for <italic>E. coli</italic>. We also isolated those strains and subjected them to genomic sequencing. RNA was isolated and, for the five strains with the most abundant RNA preparations, was subjected to Illumina sequencing to determine the transcriptome for five strains. We also cultured each isolate in LB or in urine from age-matched volunteers and conducted RNAseq. By phylogenetic analysis, these strains were UPEC strains in the B2 and D phylogenetic groups, lining up well with prototype UPEC strains CFT073, 536, UTI89 (all B2) and UMN26 (D). Also consistent with UPEC strains, the genome sizes were 8%&#x02013;15% larger than <italic>E. coli</italic> K12, suggesting that they have quite a few of the pathogenicity islands inserted into the genomes.</p><p>We can examine the expression of traditional virulence factor genes in two strains to demonstrate specific points (<xref ref-type="fig" rid="pathogens-05-00007-f004">Figure 4</xref>). In one strain, we can see that type 1 fimbriae were very highly expressed. P fimbriae and F1C fimbriae were also expressed, but more weakly. Iron acquisition proteins are highly expressed because urine is iron-limiting, and so these Fur-regulated iron genes are very highly expressed [<xref rid="B23-pathogens-05-00007" ref-type="bibr">23</xref>]. Toxin genes such as hemolysin, CNF, and proteases and also flagella are expressed somewhat. However, if we look at another strain, we see a different situation where the type 1 fimbriae are very poorly expressed but P fimbriae are expressed well and iron acquisition genes are even higher than for the first strain.</p><fig id="pathogens-05-00007-f003" position="float"><label>Figure 3</label><caption><p>Virulence gene expression by <italic>E. coli</italic> in urine of patients with UTI.</p></caption><graphic xlink:href="pathogens-05-00007-g003"/></fig><fig id="pathogens-05-00007-f004" position="float"><label>Figure 4</label><caption><p><italic>E. coli</italic> virulence gene transcript levels during human UTI. (<bold>A</bold>) Results from <italic>E. coli</italic> HM27; (<bold>B</bold>) Results from <italic>E. coli</italic> HM69.</p></caption><graphic xlink:href="pathogens-05-00007-g004a"/><graphic xlink:href="pathogens-05-00007-g004b"/></fig><p>Thus, there is heterogeneity between strains in virulence gene expression <italic>in vivo</italic>. Importantly, expression of type 1 fimbria is critical to consider because it&#x02019;s expression is essential in the murine model, but for the most part, <italic>fim</italic> genes are variably expressed in human UTI (sometimes ON and sometimes OFF). The promoter for type 1 fimbria resides on an invertible element, and can invert using recombinases and then is turned ON and OFF. So it&#x02019;s phase variable. Using an invertible element assay, we determined for 21 strains in the urine of women with UTI, six strains were ON (the whole population expressed type 1 fimbriae); for 12 strains, the whole population was OFF; and three strains were mixed (population included both ON and OFF) [<xref rid="B23-pathogens-05-00007" ref-type="bibr">23</xref>].</p></sec><sec id="sec7-pathogens-05-00007"><title>7. Comparative Transcriptomics Reveal Host-Induced Bacterial Genes</title><p>Using comparative transcriptomics, we examined the expression or abundance of RNA in urine of UTI patients <italic>versus</italic> the same bacterium cultured <italic>in vitro</italic> in urine from age-matched, healthy volunteers [<xref rid="B23-pathogens-05-00007" ref-type="bibr">23</xref>]. If we look at the ratio of these transcripts in UTI over urine, we can identify transcripts that are highly expressed in the host but not in urine. What are the host-specific genes? Averaging data for five strains, host-induced genes were those encoding import systems for sulphonate, nickel, phosphonate, taurine, and potassium, and copper efflux, osmoprotection, and colanic acid synthesis. These are representative of UTI-specific genes. That is, something about the host (not just urine) is turning these genes on. Of course, bacteria were also synthesizing fimbriae, toxins, iron acquisition systems and other virulence factors, but they&#x02019;re also transcribing these genes during <italic>in vitro</italic> culture in human urine. If we compare samples from UTI <italic>versus</italic> urine, we see that these genes were highly expressed under those conditions. Of course, one must verify this by qPCR, and they are on average 32-fold more highly expressed during infection than culture. For each one of those genes, we needed to verify their involvement in virulence. We made clean mutations, mixed mutant with wild type CFT073, transurethrally inoculated 10<sup>8</sup> into the mouse, and 48 h later, quantitatively cultured the bladder and the kidneys to calculate the competitive index (mutant CFU/wild type CFU). For copper export, we saw that they were indeed outcompeted and less fit when you knock out the <italic>cus</italic> genes. For ethanolamine uptake, bacteria appear to be metabolizing ethanolamine in the epithelial cells. Formate hydrogen lyase, which is induced under anaerobiosis, indicates that there&#x02019;s an anaerobic environment sometime during infection, and finally, bacteria are importing nickel, sulfonate, ethanolamine, potassium, phosphonate and taurine at high rates and effluxing copper ions.</p></sec><sec id="sec8-pathogens-05-00007"><title>8. Different Bacterial Genes are Required for Different Host Settings</title><p>UTIs may, in some cases, progress from cystitis to pyelonephritis and then <italic>E. coli</italic> can break through the tubules and capillaries in the kidney into the bloodstream. To identify genes important for development of bacteremia, we can conduct transposon-directed insertion site sequencing, undertaking a simultaneous screen of 360,000 transposon mutants by inoculating the mutant pool into the tail vein of a mouse [<xref rid="B37-pathogens-05-00007" ref-type="bibr">37</xref>]. We recover those bacteria from the spleen and then sequence the genomic DNA from the pool to see which mutants are underrepresented in the bloodstream (that is, genes that provide a fitness advantage during bloodstream infection). For example, in the inoculum (input), a <italic>sensitivity to antimicrobial peptide</italic> (<italic>sap</italic>) operon gene had 622 insertions, but what we got back from the spleen (output) only contained 91 insertions (fitness factor of 6.8). We investigated genes with fitness factors 2 standard deviations above the mean. The top 11 mutants selected for validation were in poly N-acetyl glucosamine production, another iron receptor, a zinc peptidase, a type IV pilus, oligopeptide uptake, resistance to antimicrobial peptides, and two serine proteases. These mutants were significantly outcompeted by wild type during bacteremia.</p></sec><sec id="sec9-pathogens-05-00007"><title>9. Redefining Bacterial Virulence</title><p>Our conventional view of virulence focused on adhesins, iron acquisition, toxins, secretion, and motility; bacteria relied on genes not found in commensal strains such as on horizontally transferred pathogenicity-associated islands. Attenuation of mutants of these genes in animal models, followed by restoration of virulence by complementation defined traditional virulence [<xref rid="B38-pathogens-05-00007" ref-type="bibr">38</xref>]. But now we must consider what metabolic pathways are in play. What&#x02019;s for dinner? How are the bacteria metabolizing these molecules to colonize a particular body site? Which import and export systems are active during infection? A mutation of these systems should reduce that fitness. We must measure transcription under relevant conditions, and, for human pathogens, that&#x02019;s human infection when possible rather than artificial systems. Human infection-specific gene expression in this case was measured by RNA-seq. Finally, we can hypothesize that virulence is the sum of required metabolic pathways, the traditional virulence determinants, and upregulated transport systems and other indispensable functions.</p></sec></body><back><ack><title>Acknowledgments</title><p>This work was made possible by members of the Mobley lab and was supported in part by Public Health Service grant DK094777 from the National Institutes of Health.</p></ack><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-pathogens-05-00007"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hensel</surname><given-names>M.</given-names></name><name><surname>Shea</surname><given-names>J.E.</given-names></name><name><surname>Gleeson</surname><given-names>C.</given-names></name><name><surname>Jones</surname><given-names>M.D.</given-names></name><name><surname>Dalton</surname><given-names>E.</given-names></name><name><surname>Holden</surname><given-names>D.W.</given-names></name></person-group>
+<article-title>Simultaneous identification of bacterial virulence genes by negative selection</article-title>
+<source>Science</source>
+<year>1995</year>
+<volume>269</volume>
+<fpage>400</fpage>
+<lpage>403</lpage>
+<pub-id pub-id-type="doi">10.1126/science.7618105</pub-id>
+<?supplied-pmid 7618105?><pub-id pub-id-type="pmid">7618105</pub-id></element-citation></ref><ref id="B2-pathogens-05-00007"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Slauch</surname><given-names>J.M.</given-names></name><name><surname>Mahan</surname><given-names>M.J.</given-names></name><name><surname>Mekalanos</surname><given-names>J.J.</given-names></name></person-group>
+<article-title><italic>In vivo</italic> expression technology for selection of bacterial genes specifically induced in host tissues</article-title>
+<source>Methods Enzymol.</source>
+<year>1994</year>
+<volume>235</volume>
+<fpage>481</fpage>
+<lpage>492</lpage>
+<?supplied-pmid 8057920?><pub-id pub-id-type="pmid">8057920</pub-id></element-citation></ref><ref id="B3-pathogens-05-00007"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Handfield</surname><given-names>M.</given-names></name><name><surname>Brady</surname><given-names>L.J.</given-names></name><name><surname>Progulske-Fox</surname><given-names>A.</given-names></name><name><surname>Hillman</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Iviat: A novel method to identify microbial genes expressed specifically during human infections</article-title>
+<source>Trends Microbiol.</source>
+<year>2000</year>
+<volume>8</volume>
+<fpage>336</fpage>
+<lpage>339</lpage>
+<pub-id pub-id-type="doi">10.1016/S0966-842X(00)01775-3</pub-id>
+<pub-id pub-id-type="pmid">10878769</pub-id></element-citation></ref><ref id="B4-pathogens-05-00007"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shimoyama</surname><given-names>T.</given-names></name><name><surname>Everett</surname><given-names>S.M.</given-names></name><name><surname>Dixon</surname><given-names>M.F.</given-names></name><name><surname>Axon</surname><given-names>A.T.</given-names></name><name><surname>Crabtree</surname><given-names>J.E.</given-names></name></person-group>
+<article-title>Chemokine mrna expression in gastric mucosa is associated with helicobacter pylori caga positivity and severity of gastritis</article-title>
+<source>J. Clin. Pathol.</source>
+<year>1998</year>
+<volume>51</volume>
+<fpage>765</fpage>
+<lpage>770</lpage>
+<pub-id pub-id-type="doi">10.1136/jcp.51.10.765</pub-id>
+<?supplied-pmid 10023340?><pub-id pub-id-type="pmid">10023340</pub-id></element-citation></ref><ref id="B5-pathogens-05-00007"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hua</surname><given-names>Q.</given-names></name><name><surname>Yang</surname><given-names>C.</given-names></name><name><surname>Oshima</surname><given-names>T.</given-names></name><name><surname>Mori</surname><given-names>H.</given-names></name><name><surname>Shimizu</surname><given-names>K.</given-names></name></person-group>
+<article-title>Analysis of gene expression in <italic>Escherichia coli</italic> in response to changes of growth-limiting nutrient in chemostat cultures</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2004</year>
+<volume>70</volume>
+<fpage>2354</fpage>
+<lpage>2366</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.70.4.2354-2366.2004</pub-id>
+<?supplied-pmid 15066832?><pub-id pub-id-type="pmid">15066832</pub-id></element-citation></ref><ref id="B6-pathogens-05-00007"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salmon</surname><given-names>K.</given-names></name><name><surname>Hung</surname><given-names>S.P.</given-names></name><name><surname>Mekjian</surname><given-names>K.</given-names></name><name><surname>Baldi</surname><given-names>P.</given-names></name><name><surname>Hatfield</surname><given-names>G.W.</given-names></name><name><surname>Gunsalus</surname><given-names>R.P.</given-names></name></person-group>
+<article-title>Global gene expression profiling in <italic>Escherichia coli</italic> k12. The effects of oxygen availability and FNR</article-title>
+<source>J. Biol. Chem.</source>
+<year>2003</year>
+<volume>278</volume>
+<fpage>29837</fpage>
+<lpage>29855</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M213060200</pub-id>
+<?supplied-pmid 12754220?><pub-id pub-id-type="pmid">12754220</pub-id></element-citation></ref><ref id="B7-pathogens-05-00007"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheung</surname><given-names>K.J.</given-names></name><name><surname>Badarinarayana</surname><given-names>V.</given-names></name><name><surname>Selinger</surname><given-names>D.W.</given-names></name><name><surname>Janse</surname><given-names>D.</given-names></name><name><surname>Church</surname><given-names>G.M.</given-names></name></person-group>
+<article-title>A microarray-based antibiotic screen identifies a regulatory role for supercoiling in the osmotic stress response of <italic>Escherichia coli</italic></article-title>
+<source>Genome Res.</source>
+<year>2003</year>
+<volume>13</volume>
+<fpage>206</fpage>
+<lpage>215</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.401003</pub-id>
+<?supplied-pmid 12566398?><pub-id pub-id-type="pmid">12566398</pub-id></element-citation></ref><ref id="B8-pathogens-05-00007"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Camejo</surname><given-names>A.</given-names></name><name><surname>Buchrieser</surname><given-names>C.</given-names></name><name><surname>Couve</surname><given-names>E.</given-names></name><name><surname>Carvalho</surname><given-names>F.</given-names></name><name><surname>Reis</surname><given-names>O.</given-names></name><name><surname>Ferreira</surname><given-names>P.</given-names></name><name><surname>Sousa</surname><given-names>S.</given-names></name><name><surname>Cossart</surname><given-names>P.</given-names></name><name><surname>Cabanes</surname><given-names>D.</given-names></name></person-group>
+<article-title><italic>In vivo</italic> transcriptional profiling of listeria monocytogenes and mutagenesis identify new virulence factors involved in infection</article-title>
+<source>PLoS Pathog.</source>
+<year>2009</year>
+<volume>5</volume>
+<elocation-id>7</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1000449</pub-id>
+<?supplied-pmid 19478867?><pub-id pub-id-type="pmid">19478867</pub-id></element-citation></ref><ref id="B9-pathogens-05-00007"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graham</surname><given-names>M.R.</given-names></name><name><surname>Virtaneva</surname><given-names>K.</given-names></name><name><surname>Porcella</surname><given-names>S.F.</given-names></name><name><surname>Gardner</surname><given-names>D.J.</given-names></name><name><surname>Long</surname><given-names>R.D.</given-names></name><name><surname>Welty</surname><given-names>D.M.</given-names></name><name><surname>Barry</surname><given-names>W.T.</given-names></name><name><surname>Johnson</surname><given-names>C.A.</given-names></name><name><surname>Parkins</surname><given-names>L.D.</given-names></name><name><surname>Wright</surname><given-names>F.A.</given-names></name><etal/></person-group>
+<article-title>Analysis of the transcriptome of group a streptococcus in mouse soft tissue infection</article-title>
+<source>Am. J. Pathol.</source>
+<year>2006</year>
+<volume>169</volume>
+<fpage>927</fpage>
+<lpage>942</lpage>
+<pub-id pub-id-type="doi">10.2353/ajpath.2006.060112</pub-id>
+<?supplied-pmid 16936267?><pub-id pub-id-type="pmid">16936267</pub-id></element-citation></ref><ref id="B10-pathogens-05-00007"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haugen</surname><given-names>B.J.</given-names></name><name><surname>Pellett</surname><given-names>S.</given-names></name><name><surname>Redford</surname><given-names>P.</given-names></name><name><surname>Hamilton</surname><given-names>H.L.</given-names></name><name><surname>Roesch</surname><given-names>P.L.</given-names></name><name><surname>Welch</surname><given-names>R.A.</given-names></name></person-group>
+<article-title><italic>In vivo</italic> gene expression analysis identifies genes required for enhanced colonization of the mouse urinary tract by uropathogenic <italic>Escherichia coli</italic> strain cft073 dsda</article-title>
+<source>Infect. Immun.</source>
+<year>2007</year>
+<volume>75</volume>
+<fpage>278</fpage>
+<lpage>289</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.01319-06</pub-id>
+<?supplied-pmid 17074858?><pub-id pub-id-type="pmid">17074858</pub-id></element-citation></ref><ref id="B11-pathogens-05-00007"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Revel</surname><given-names>A.T.</given-names></name><name><surname>Talaat</surname><given-names>A.M.</given-names></name><name><surname>Norgard</surname><given-names>M.V.</given-names></name></person-group>
+<article-title>DNA microarray analysis of differential gene expression in borrelia burgdorferi, the lyme disease spirochete</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2002</year>
+<volume>99</volume>
+<fpage>1562</fpage>
+<lpage>1567</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.032667699</pub-id>
+<?supplied-pmid 11830671?><pub-id pub-id-type="pmid">11830671</pub-id></element-citation></ref><ref id="B12-pathogens-05-00007"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Snyder</surname><given-names>J.A.</given-names></name><name><surname>Haugen</surname><given-names>B.J.</given-names></name><name><surname>Buckles</surname><given-names>E.L.</given-names></name><name><surname>Lockatell</surname><given-names>C.V.</given-names></name><name><surname>Johnson</surname><given-names>D.E.</given-names></name><name><surname>Donnenberg</surname><given-names>M.S.</given-names></name><name><surname>Welch</surname><given-names>R.A.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Transcriptome of uropathogenic <italic>Escherichia coli</italic> during urinary tract infection</article-title>
+<source>Infect. Immun.</source>
+<year>2004</year>
+<volume>72</volume>
+<fpage>6373</fpage>
+<lpage>6381</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.72.11.6373-6381.2004</pub-id>
+<?supplied-pmid 15501767?><pub-id pub-id-type="pmid">15501767</pub-id></element-citation></ref><ref id="B13-pathogens-05-00007"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stintzi</surname><given-names>A.</given-names></name><name><surname>Marlow</surname><given-names>D.</given-names></name><name><surname>Palyada</surname><given-names>K.</given-names></name><name><surname>Naikare</surname><given-names>H.</given-names></name><name><surname>Panciera</surname><given-names>R.</given-names></name><name><surname>Whitworth</surname><given-names>L.</given-names></name><name><surname>Clarke</surname><given-names>C.</given-names></name></person-group>
+<article-title>Use of genome-wide expression profiling and mutagenesis to study the intestinal lifestyle of campylobacter jejuni</article-title>
+<source>Infect. Immun.</source>
+<year>2005</year>
+<volume>73</volume>
+<fpage>1797</fpage>
+<lpage>1810</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.73.3.1797-1810.2005</pub-id>
+<?supplied-pmid 15731081?><pub-id pub-id-type="pmid">15731081</pub-id></element-citation></ref><ref id="B14-pathogens-05-00007"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Talaat</surname><given-names>A.M.</given-names></name><name><surname>Lyons</surname><given-names>R.</given-names></name><name><surname>Howard</surname><given-names>S.T.</given-names></name><name><surname>Johnston</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>The temporal expression profile of mycobacterium tuberculosis infection in mice</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2004</year>
+<volume>101</volume>
+<fpage>4602</fpage>
+<lpage>4607</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0306023101</pub-id>
+<?supplied-pmid 15070764?><pub-id pub-id-type="pmid">15070764</pub-id></element-citation></ref><ref id="B15-pathogens-05-00007"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Talaat</surname><given-names>A.M.</given-names></name><name><surname>Ward</surname><given-names>S.K.</given-names></name><name><surname>Wu</surname><given-names>C.W.</given-names></name><name><surname>Rondon</surname><given-names>E.</given-names></name><name><surname>Tavano</surname><given-names>C.</given-names></name><name><surname>Bannantine</surname><given-names>J.P.</given-names></name><name><surname>Lyons</surname><given-names>R.</given-names></name><name><surname>Johnston</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Mycobacterial bacilli are metabolically active during chronic tuberculosis in murine lungs: Insights from genome-wide transcriptional profiling</article-title>
+<source>J. Bacteriol.</source>
+<year>2007</year>
+<volume>189</volume>
+<fpage>4265</fpage>
+<lpage>4274</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.00011-07</pub-id>
+<?supplied-pmid 17384189?><pub-id pub-id-type="pmid">17384189</pub-id></element-citation></ref><ref id="B16-pathogens-05-00007"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Williams</surname><given-names>D.L.</given-names></name><name><surname>Torrero</surname><given-names>M.</given-names></name><name><surname>Wheeler</surname><given-names>P.R.</given-names></name><name><surname>Truman</surname><given-names>R.W.</given-names></name><name><surname>Yoder</surname><given-names>M.</given-names></name><name><surname>Morrison</surname><given-names>N.</given-names></name><name><surname>Bishai</surname><given-names>W.R.</given-names></name><name><surname>Gillis</surname><given-names>T.P.</given-names></name></person-group>
+<article-title>Biological implications of mycobacterium leprae gene expression during infection</article-title>
+<source>J. Mol. Microbiol. Biotechnol.</source>
+<year>2004</year>
+<volume>8</volume>
+<fpage>58</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="doi">10.1159/000082081</pub-id>
+<?supplied-pmid 15741741?><pub-id pub-id-type="pmid">15741741</pub-id></element-citation></ref><ref id="B17-pathogens-05-00007"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scott</surname><given-names>D.R.</given-names></name><name><surname>Marcus</surname><given-names>E.A.</given-names></name><name><surname>Wen</surname><given-names>Y.</given-names></name><name><surname>Oh</surname><given-names>J.</given-names></name><name><surname>Sachs</surname><given-names>G.</given-names></name></person-group>
+<article-title>Gene expression <italic>in vivo</italic> shows that helicobacter pylori colonizes an acidic niche on the gastric surface</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2007</year>
+<volume>104</volume>
+<fpage>7235</fpage>
+<lpage>7240</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0702300104</pub-id>
+<?supplied-pmid 17438279?><pub-id pub-id-type="pmid">17438279</pub-id></element-citation></ref><ref id="B18-pathogens-05-00007"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>A.T.</given-names></name><name><surname>Dolganov</surname><given-names>N.A.</given-names></name><name><surname>Otto</surname><given-names>G.</given-names></name><name><surname>Miller</surname><given-names>M.C.</given-names></name><name><surname>Wu</surname><given-names>C.Y.</given-names></name><name><surname>Schoolnik</surname><given-names>G.K.</given-names></name></person-group>
+<article-title>Rpos controls the vibrio cholerae mucosal escape response</article-title>
+<source>PLoS Pathog.</source>
+<year>2006</year>
+<volume>2</volume>
+<elocation-id>7</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.0020109</pub-id>
+<?supplied-pmid 17054394?><pub-id pub-id-type="pmid">17054394</pub-id></element-citation></ref><ref id="B19-pathogens-05-00007"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xu</surname><given-names>Q.</given-names></name><name><surname>Dziejman</surname><given-names>M.</given-names></name><name><surname>Mekalanos</surname><given-names>J.J.</given-names></name></person-group>
+<article-title>Determination of the transcriptome of vibrio cholerae during intraintestinal growth and midexponential phase <italic>in vitro</italic></article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2003</year>
+<volume>100</volume>
+<fpage>1286</fpage>
+<lpage>1291</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0337479100</pub-id>
+<?supplied-pmid 12552086?><pub-id pub-id-type="pmid">12552086</pub-id></element-citation></ref><ref id="B20-pathogens-05-00007"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tuanyok</surname><given-names>A.</given-names></name><name><surname>Tom</surname><given-names>M.</given-names></name><name><surname>Dunbar</surname><given-names>J.</given-names></name><name><surname>Woods</surname><given-names>D.E.</given-names></name></person-group>
+<article-title>Genome-wide expression analysis of burkholderia pseudomallei infection in a hamster model of acute melioidosis</article-title>
+<source>Infect. Immun.</source>
+<year>2006</year>
+<volume>74</volume>
+<fpage>5465</fpage>
+<lpage>5476</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.00737-06</pub-id>
+<?supplied-pmid 16988221?><pub-id pub-id-type="pmid">16988221</pub-id></element-citation></ref><ref id="B21-pathogens-05-00007"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Madsen</surname><given-names>M.L.</given-names></name><name><surname>Puttamreddy</surname><given-names>S.</given-names></name><name><surname>Thacker</surname><given-names>E.L.</given-names></name><name><surname>Carruthers</surname><given-names>M.D.</given-names></name><name><surname>Minion</surname><given-names>F.C.</given-names></name></person-group>
+<article-title>Transcriptome changes in mycoplasma hyopneumoniae during infection</article-title>
+<source>Infect. Immun.</source>
+<year>2008</year>
+<volume>76</volume>
+<fpage>658</fpage>
+<lpage>663</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.01291-07</pub-id>
+<?supplied-pmid 18070898?><pub-id pub-id-type="pmid">18070898</pub-id></element-citation></ref><ref id="B22-pathogens-05-00007"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hagan</surname><given-names>E.C.</given-names></name><name><surname>Lloyd</surname><given-names>A.L.</given-names></name><name><surname>Rasko</surname><given-names>D.A.</given-names></name><name><surname>Faerber</surname><given-names>G.J.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title><italic>Escherichia coli</italic> global gene expression in urine from women with urinary tract infection</article-title>
+<source>PLoS Pathog.</source>
+<year>2010</year>
+<volume>6</volume>
+<elocation-id>7</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1001187</pub-id>
+<?supplied-pmid 21085611?><pub-id pub-id-type="pmid">21085611</pub-id></element-citation></ref><ref id="B23-pathogens-05-00007"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Subashchandrabose</surname><given-names>S.</given-names></name><name><surname>Hazen</surname><given-names>T.H.</given-names></name><name><surname>Brumbaugh</surname><given-names>A.R.</given-names></name><name><surname>Himpsl</surname><given-names>S.D.</given-names></name><name><surname>Smith</surname><given-names>S.N.</given-names></name><name><surname>Ernst</surname><given-names>R.D.</given-names></name><name><surname>Rasko</surname><given-names>D.A.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Host-specific induction of <italic>Escherichia coli</italic> fitness genes during human urinary tract infection</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2014</year>
+<volume>111</volume>
+<fpage>18327</fpage>
+<lpage>18332</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1415959112</pub-id>
+<?supplied-pmid 25489107?><pub-id pub-id-type="pmid">25489107</pub-id></element-citation></ref><ref id="B24-pathogens-05-00007"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Larocque</surname><given-names>R.C.</given-names></name><name><surname>Harris</surname><given-names>J.B.</given-names></name><name><surname>Dziejman</surname><given-names>M.</given-names></name><name><surname>Li</surname><given-names>X.</given-names></name><name><surname>Khan</surname><given-names>A.I.</given-names></name><name><surname>Faruque</surname><given-names>A.S.</given-names></name><name><surname>Faruque</surname><given-names>S.M.</given-names></name><name><surname>Nair</surname><given-names>G.B.</given-names></name><name><surname>Ryan</surname><given-names>E.T.</given-names></name><name><surname>Qadri</surname><given-names>F.</given-names></name><etal/></person-group>
+<article-title>Transcriptional profiling of vibrio cholerae recovered directly from patient specimens during early and late stages of human infection</article-title>
+<source>Infect. Immun.</source>
+<year>2005</year>
+<volume>73</volume>
+<fpage>4488</fpage>
+<lpage>4493</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.73.8.4488-4493.2005</pub-id>
+<?supplied-pmid 16040959?><pub-id pub-id-type="pmid">16040959</pub-id></element-citation></ref><ref id="B25-pathogens-05-00007"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Son</surname><given-names>M.S.</given-names></name><name><surname>Matthews</surname><given-names>W.J.</given-names><suffix>Jr.</suffix></name><name><surname>Kang</surname><given-names>Y.</given-names></name><name><surname>Nguyen</surname><given-names>D.T.</given-names></name><name><surname>Hoang</surname><given-names>T.T.</given-names></name></person-group>
+<article-title><italic>In vivo</italic> evidence of pseudomonas aeruginosa nutrient acquisition and pathogenesis in the lungs of cystic fibrosis patients</article-title>
+<source>Infect. Immun.</source>
+<year>2007</year>
+<volume>75</volume>
+<fpage>5313</fpage>
+<lpage>5324</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.01807-06</pub-id>
+<?supplied-pmid 17724070?><pub-id pub-id-type="pmid">17724070</pub-id></element-citation></ref><ref id="B26-pathogens-05-00007"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Timm</surname><given-names>J.</given-names></name><name><surname>Post</surname><given-names>F.A.</given-names></name><name><surname>Bekker</surname><given-names>L.G.</given-names></name><name><surname>Walther</surname><given-names>G.B.</given-names></name><name><surname>Wainwright</surname><given-names>H.C.</given-names></name><name><surname>Manganelli</surname><given-names>R.</given-names></name><name><surname>Chan</surname><given-names>W.T.</given-names></name><name><surname>Tsenova</surname><given-names>L.</given-names></name><name><surname>Gold</surname><given-names>B.</given-names></name><name><surname>Smith</surname><given-names>I.</given-names></name><etal/></person-group>
+<article-title>Differential expression of iron-, carbon-, and oxygen-responsive mycobacterial genes in the lungs of chronically infected mice and tuberculosis patients</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2003</year>
+<volume>100</volume>
+<fpage>14321</fpage>
+<lpage>14326</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.2436197100</pub-id>
+<?supplied-pmid 14623960?><pub-id pub-id-type="pmid">14623960</pub-id></element-citation></ref><ref id="B27-pathogens-05-00007"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaper</surname><given-names>J.B.</given-names></name><name><surname>Nataro</surname><given-names>J.P.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Pathogenic <italic>Escherichia coli</italic></article-title>
+<source>Nat. Rev. Microbiol.</source>
+<year>2004</year>
+<volume>2</volume>
+<fpage>123</fpage>
+<lpage>140</lpage>
+<pub-id pub-id-type="doi">10.1038/nrmicro818</pub-id>
+<?supplied-pmid 15040260?><pub-id pub-id-type="pmid">15040260</pub-id></element-citation></ref><ref id="B28-pathogens-05-00007"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Foxman</surname><given-names>B.</given-names></name><name><surname>Barlow</surname><given-names>R.</given-names></name><name><surname>D&#x02019;Arcy</surname><given-names>H.</given-names></name><name><surname>Gillespie</surname><given-names>B.</given-names></name><name><surname>Sobel</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Urinary tract infection: Self-reported incidence and associated costs</article-title>
+<source>Ann. Epidemiol.</source>
+<year>2000</year>
+<volume>10</volume>
+<fpage>509</fpage>
+<lpage>515</lpage>
+<pub-id pub-id-type="doi">10.1016/S1047-2797(00)00072-7</pub-id>
+<pub-id pub-id-type="pmid">11118930</pub-id></element-citation></ref><ref id="B29-pathogens-05-00007"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lane</surname><given-names>M.C.</given-names></name><name><surname>Alteri</surname><given-names>C.J.</given-names></name><name><surname>Smith</surname><given-names>S.N.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Expression of flagella is coincident with uropathogenic <italic>Escherichia coli</italic> ascension to the upper urinary tract</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2007</year>
+<volume>104</volume>
+<fpage>16669</fpage>
+<lpage>16674</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0607898104</pub-id>
+<?supplied-pmid 17925449?><pub-id pub-id-type="pmid">17925449</pub-id></element-citation></ref><ref id="B30-pathogens-05-00007"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Welch</surname><given-names>R.A.</given-names></name><name><surname>Burland</surname><given-names>V.</given-names></name><name><surname>Plunkett</surname><given-names>G.</given-names><suffix>3rd</suffix></name><name><surname>Redford</surname><given-names>P.</given-names></name><name><surname>Roesch</surname><given-names>P.</given-names></name><name><surname>Rasko</surname><given-names>D.</given-names></name><name><surname>Buckles</surname><given-names>E.L.</given-names></name><name><surname>Liou</surname><given-names>S.R.</given-names></name><name><surname>Boutin</surname><given-names>A.</given-names></name><name><surname>Hackett</surname><given-names>J.</given-names></name><etal/></person-group>
+<article-title>Extensive mosaic structure revealed by the complete genome sequence of uropathogenic <italic>Escherichia coli</italic></article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2002</year>
+<volume>99</volume>
+<fpage>17020</fpage>
+<lpage>17024</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.252529799</pub-id>
+<?supplied-pmid 12471157?><pub-id pub-id-type="pmid">12471157</pub-id></element-citation></ref><ref id="B31-pathogens-05-00007"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lloyd</surname><given-names>A.L.</given-names></name><name><surname>Henderson</surname><given-names>T.A.</given-names></name><name><surname>Vigil</surname><given-names>P.D.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Genomic islands of uropathogenic <italic>Escherichia coli</italic> contribute to virulence</article-title>
+<source>J. Bacteriol.</source>
+<year>2009</year>
+<volume>191</volume>
+<fpage>3469</fpage>
+<lpage>3481</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.01717-08</pub-id>
+<?supplied-pmid 19329634?><pub-id pub-id-type="pmid">19329634</pub-id></element-citation></ref><ref id="B32-pathogens-05-00007"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lloyd</surname><given-names>A.L.</given-names></name><name><surname>Rasko</surname><given-names>D.A.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Defining genomic islands and uropathogen-specific genes in uropathogenic <italic>Escherichia coli</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>2007</year>
+<volume>189</volume>
+<fpage>3532</fpage>
+<lpage>3546</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.01744-06</pub-id>
+<?supplied-pmid 17351047?><pub-id pub-id-type="pmid">17351047</pub-id></element-citation></ref><ref id="B33-pathogens-05-00007"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spurbeck</surname><given-names>R.R.</given-names></name><name><surname>Dinh</surname><given-names>P.C.</given-names><suffix>Jr.</suffix></name><name><surname>Walk</surname><given-names>S.T.</given-names></name><name><surname>Stapleton</surname><given-names>A.E.</given-names></name><name><surname>Hooton</surname><given-names>T.M.</given-names></name><name><surname>Nolan</surname><given-names>L.K.</given-names></name><name><surname>Kim</surname><given-names>K.S.</given-names></name><name><surname>Johnson</surname><given-names>J.R.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title><italic>Escherichia coli</italic> isolates that carry vat, fyuA, chuA, and yfcV efficiently colonize the urinary tract</article-title>
+<source>Infect. Immun.</source>
+<year>2012</year>
+<volume>80</volume>
+<fpage>4115</fpage>
+<lpage>4122</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.00752-12</pub-id>
+<?supplied-pmid 22966046?><pub-id pub-id-type="pmid">22966046</pub-id></element-citation></ref><ref id="B34-pathogens-05-00007"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spurbeck</surname><given-names>R.R.</given-names></name><name><surname>Stapleton</surname><given-names>A.E.</given-names></name><name><surname>Johnson</surname><given-names>J.R.</given-names></name><name><surname>Walk</surname><given-names>S.T.</given-names></name><name><surname>Hooton</surname><given-names>T.M.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Fimbrial profiles predict virulence of uropathogenic <italic>Escherichia coli</italic> strains: Contribution of ygi and yad fimbriae</article-title>
+<source>Infect. Immun.</source>
+<year>2011</year>
+<volume>79</volume>
+<fpage>4753</fpage>
+<lpage>4763</lpage>
+<pub-id pub-id-type="doi">10.1128/IAI.05621-11</pub-id>
+<?supplied-pmid 21911462?><pub-id pub-id-type="pmid">21911462</pub-id></element-citation></ref><ref id="B35-pathogens-05-00007"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alteri</surname><given-names>C.J.</given-names></name><name><surname>Himpsl</surname><given-names>S.D.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Preferential use of central metabolism <italic>in vivo</italic> reveals a nutritional basis for polymicrobial infection</article-title>
+<source>PLoS Pathog.</source>
+<year>2015</year>
+<volume>11</volume>
+<elocation-id>7</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1004601</pub-id>
+<?supplied-pmid 25568946?><pub-id pub-id-type="pmid">25568946</pub-id></element-citation></ref><ref id="B36-pathogens-05-00007"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alteri</surname><given-names>C.J.</given-names></name><name><surname>Smith</surname><given-names>S.N.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Fitness of <italic>Escherichia coli</italic> during urinary tract infection requires gluconeogenesis and the tca cycle</article-title>
+<source>PLoS Pathog.</source>
+<year>2009</year>
+<volume>5</volume>
+<elocation-id>7</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1000448</pub-id>
+<?supplied-pmid 19478872?><pub-id pub-id-type="pmid">19478872</pub-id></element-citation></ref><ref id="B37-pathogens-05-00007"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Subashchandrabose</surname><given-names>S.</given-names></name><name><surname>Smith</surname><given-names>S.N.</given-names></name><name><surname>Spurbeck</surname><given-names>R.R.</given-names></name><name><surname>Kole</surname><given-names>M.M.</given-names></name><name><surname>Mobley</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Genome-wide detection of fitness genes in uropathogenic <italic>Escherichia coli</italic> during systemic infection</article-title>
+<source>PLoS Pathog.</source>
+<year>2013</year>
+<volume>9</volume>
+<elocation-id>7</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1003788</pub-id>
+<?supplied-pmid 24339777?><pub-id pub-id-type="pmid">24339777</pub-id></element-citation></ref><ref id="B38-pathogens-05-00007"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falkow</surname><given-names>S.</given-names></name></person-group>
+<article-title>Molecular koch&#x02019;s postulates applied to microbial pathogenicity</article-title>
+<source>Rev. Infect. Dis.</source>
+<year>1988</year>
+<volume>10</volume>
+<fpage>S274</fpage>
+<lpage>S276</lpage>
+<pub-id pub-id-type="doi">10.1093/cid/10.Supplement_2.S274</pub-id>
+<?supplied-pmid 3055197?><pub-id pub-id-type="pmid">3055197</pub-id></element-citation></ref></ref-list></back></article>

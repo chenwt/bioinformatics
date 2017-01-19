@@ -1,0 +1,768 @@
+{
+  "id": [
+    "24499931"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "24499931"
+  ],
+  "pmcid": [
+    "PMC3907290"
+  ],
+  "doi": [
+    "10.1371/journal.pcbi.1003442"
+  ],
+  "title": [
+    "De novo prediction of PTBP1 binding and splicing targets reveals unexpected features of its RNA recognition and function."
+  ],
+  "authorString": [
+    "Han A, Stoilov P, Linares AJ, Zhou Y, Fu XD, Black DL."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Han A"
+          ],
+          "firstName": [
+            "Areum"
+          ],
+          "lastName": [
+            "Han"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Department of Bioengineering, University of California at Los Angeles, Los Angeles, California, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Stoilov P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "Stoilov"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Biochemistry, School of Medicine, West Virginia University, Morgantown, West Virginia, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Linares AJ"
+          ],
+          "firstName": [
+            "Anthony J"
+          ],
+          "lastName": [
+            "Linares"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "affiliation": [
+            "Molecular Biology Interdepartmental Graduate Program, University of California at Los Angeles, Los Angeles, California, United States of America ; Medical Scientist Training Program, University of California at Los Angeles, Los Angeles, California, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhou Y"
+          ],
+          "firstName": [
+            "Yu"
+          ],
+          "lastName": [
+            "Zhou"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Department of Cellular and Molecular Medicine, University of California at San Diego, La Jolla, California, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Fu XD"
+          ],
+          "firstName": [
+            "Xiang-Dong"
+          ],
+          "lastName": [
+            "Fu"
+          ],
+          "initials": [
+            "XD"
+          ],
+          "affiliation": [
+            "Department of Cellular and Molecular Medicine, University of California at San Diego, La Jolla, California, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Black DL"
+          ],
+          "firstName": [
+            "Douglas L"
+          ],
+          "lastName": [
+            "Black"
+          ],
+          "initials": [
+            "DL"
+          ],
+          "affiliation": [
+            "Department of Bioengineering, University of California at Los Angeles, Los Angeles, California, United States of America ; Department of Microbiology, Immunology and Molecular Genetics, University of California at Los Angeles, Los Angeles, California, United States of America ; Howard Hughes Medical Institute, University of California at Los Angeles, Los Angeles, California, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2110426"
+      ],
+      "dateOfPublication": [
+        "2014 Jan"
+      ],
+      "monthOfPublication": [
+        "1"
+      ],
+      "yearOfPublication": [
+        "2014"
+      ],
+      "printPublicationDate": [
+        "2014-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PLoS computational biology"
+          ],
+          "ISOAbbreviation": [
+            "PLoS Comput. Biol."
+          ],
+          "medlineAbbreviation": [
+            "PLoS Comput Biol"
+          ],
+          "NLMid": [
+            "101238922"
+          ],
+          "ISSN": [
+            "1553-734X"
+          ],
+          "ESSN": [
+            "1553-7358"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2014"
+  ],
+  "pageInfo": [
+    "e1003442"
+  ],
+  "abstractText": [
+    "The splicing regulator Polypyrimidine Tract Binding Protein (PTBP1) has four RNA binding domains that each binds a short pyrimidine element, allowing recognition of diverse pyrimidine-rich sequences. This variation makes it difficult to evaluate PTBP1 binding to particular sites based on sequence alone and thus to identify target RNAs. Conversely, transcriptome-wide binding assays such as CLIP identify many in vivo targets, but do not provide a quantitative assessment of binding and are informative only for the cells where the analysis is performed. A general method of predicting PTBP1 binding and possible targets in any cell type is needed. We developed computational models that predict the binding and splicing targets of PTBP1. A Hidden Markov Model (HMM), trained on CLIP-seq data, was used to score probable PTBP1 binding sites. Scores from this model are highly correlated (ρ = -0.9) with experimentally determined dissociation constants. Notably, we find that the protein is not strictly pyrimidine specific, as interspersed Guanosine residues are well tolerated within PTBP1 binding sites. This model identifies many previously unrecognized PTBP1 binding sites, and can score PTBP1 binding across the transcriptome in the absence of CLIP data. Using this model to examine the placement of PTBP1 binding sites in controlling splicing, we trained a multinomial logistic model on sets of PTBP1 regulated and unregulated exons. Applying this model to rank exons across the mouse transcriptome identifies known PTBP1 targets and many new exons that were confirmed as PTBP1-repressed by RT-PCR and RNA-seq after PTBP1 depletion. We find that PTBP1 dependent exons are diverse in structure and do not all fit previous descriptions of the placement of PTBP1 binding sites. Our study uncovers new features of RNA recognition and splicing regulation by PTBP1. This approach can be applied to other multi-RRM domain proteins to assess binding site degeneracy and multifactorial splicing regulation."
+  ],
+  "affiliation": [
+    "Department of Bioengineering, University of California at Los Angeles, Los Angeles, California, United States of America."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural",
+        "Research Support, American Recovery and Reinvestment Act"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "R01 GM049662"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "agency": [
+            "Howard Hughes Medical Institute"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "T32 GM008042"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 GM49662"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Pyrimidines"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polypyrimidine Tract-Binding Protein"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Heterogeneous-Nuclear Ribonucleoproteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Guanosine"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Logistic Models"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Probability"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Markov Chains"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Binding Sites"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Structure, Tertiary"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Binding"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Exons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "PTBP1 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RNA"
+          ],
+          "registryNumber": [
+            "63231-63-0"
+          ]
+        },
+        {
+          "name": [
+            "Pyrimidines"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Heterogeneous-Nuclear Ribonucleoproteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Polypyrimidine Tract-Binding Protein"
+          ],
+          "registryNumber": [
+            "139076-35-0"
+          ]
+        },
+        {
+          "name": [
+            "PTBP3 protein, human"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Ptbp1 protein, mouse"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Guanosine"
+          ],
+          "registryNumber": [
+            "12133JR80S"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3907290?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3907290"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=24499931&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=24499931"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1371/journal.pcbi.1003442"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "15"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2014-11-12"
+  ],
+  "dateOfCreation": [
+    "2014-02-06"
+  ],
+  "dateOfRevision": [
+    "2016-10-19"
+  ],
+  "electronicPublicationDate": [
+    "2014-01-30"
+  ],
+  "firstPublicationDate": [
+    "2014-01-30"
+  ]
+}

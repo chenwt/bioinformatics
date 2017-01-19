@@ -1,0 +1,1095 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">Bioeng Transl Med</journal-id><journal-id journal-id-type="iso-abbrev">Bioeng Transl Med</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)2380-6761</journal-id><journal-id journal-id-type="publisher-id">BTM2</journal-id><journal-title-group><journal-title>Bioengineering &#x00026; Translational Medicine</journal-title></journal-title-group><issn pub-type="epub">2380-6761</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5125403</article-id><article-id pub-id-type="doi">10.1002/btm2.10035</article-id><article-id pub-id-type="publisher-id">BTM210035</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Report</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Reports</subject></subj-group></article-categories><title-group><article-title>Evaluating side effects of nanoparticle&#x02010;mediated siRNA delivery to mesenchymal stem cells using next generation sequencing and enrichment analysis</article-title><alt-title alt-title-type="right-running-head">MALCOLM <sc>et al.</sc></alt-title><alt-title alt-title-type="left-running-head">MALCOLM <sc>et al.</sc></alt-title></title-group><contrib-group><contrib id="btm210035-cr-0001" contrib-type="author"><name><surname>Malcolm</surname><given-names>Dominic W.</given-names></name><xref ref-type="aff" rid="btm210035-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="btm210035-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="btm210035-cr-0002" contrib-type="author"><name><surname>Sorrells</surname><given-names>Janet E.</given-names></name><xref ref-type="aff" rid="btm210035-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="btm210035-cr-0003" contrib-type="author"><name><surname>Van Twisk</surname><given-names>Daniel</given-names></name><xref ref-type="aff" rid="btm210035-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="btm210035-cr-0004" contrib-type="author"><name><surname>Thakar</surname><given-names>Juilee</given-names></name><xref ref-type="aff" rid="btm210035-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="btm210035-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="btm210035-cr-0005" contrib-type="author" corresp="yes"><name><surname>Benoit</surname><given-names>Danielle S. W.</given-names></name><address><email>benoit@bme.rochester.edu</email></address><xref ref-type="aff" rid="btm210035-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="btm210035-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="btm210035-aff-0005">
+<sup>5</sup>
+</xref></contrib></contrib-group><aff id="btm210035-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Dept. of Biomedical Engineering</named-content><institution>University of Rochester</institution><named-content content-type="city">Rochester</named-content><named-content content-type="country-part">NY</named-content><named-content content-type="post-code">14627</named-content></aff><aff id="btm210035-aff-0002"><label><sup>2</sup></label><institution>Center for Musculoskeletal Research, University of Rochester</institution><named-content content-type="city">Rochester</named-content><named-content content-type="country-part">NY</named-content><named-content content-type="post-code">14642</named-content></aff><aff id="btm210035-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Dept. of Microbiology and Immunology</named-content><institution>University of Rochester</institution><named-content content-type="city">Rochester</named-content><named-content content-type="country-part">NY</named-content><named-content content-type="post-code">14627</named-content></aff><aff id="btm210035-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Dept. of Biostatistics and Computational Biology</named-content><institution>University of Rochester</institution><named-content content-type="city">Rochester</named-content><named-content content-type="country-part">NY</named-content><named-content content-type="post-code">14642</named-content></aff><aff id="btm210035-aff-0005"><label><sup>5</sup></label><named-content content-type="organisation-division">Dept. of Chemical Engineering</named-content><institution>University of Rochester</institution><named-content content-type="city">Rochester</named-content><named-content content-type="country-part">NY</named-content><named-content content-type="post-code">14627</named-content></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold> Danielle S. W. Benoit, Dept. of Biomedical Engineering, University of Rochester, 207 Robert B. Goergen Hall, Rochester, NY 14627. Email: <email>benoit@bme.rochester.edu</email>.</corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>10</month><year>2016</year></pub-date><pub-date pub-type="ppub"><month>6</month><year>2016</year></pub-date><volume>1</volume><issue>2</issue><issue-id pub-id-type="doi">10.1002/btm2.v1.2</issue-id><fpage>193</fpage><lpage>206</lpage><history><date date-type="received"><day>06</day><month>6</month><year>2016</year></date><date date-type="rev-recd"><day>06</day><month>9</month><year>2016</year></date><date date-type="accepted"><day>13</day><month>9</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 Wiley Periodicals, Inc. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2016 The Authors. Bioengineering &#x00026; Translational Medicine is published by Wiley Periodicals, Inc. on behalf of The American Institute of Chemical Engineers.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:BTM2-1-193.pdf"/><abstract><title>Abstract</title><p>RNA interference has immense potential to modulate cell functions. However, effective delivery of small interfering RNA (siRNA) while avoiding deleterious side effects has proven challenging. This study investigates both intended and unintended effects of diblock copolymer nanoparticle (NP) delivery of siRNA delivery to human mesenchymal stem cells (hMSC). Specifically, siRNA delivery was investigated at a range of NP&#x02010;siRNA:hMSC ratios with a focus on the effects of NP&#x02010;siRNA treatment on hMSC functions. Additionally, next generation RNA sequencing (RNAseq) was used with enrichment analysis to observe side effects in hMSC gene expression. Results show NP&#x02010;siRNA delivery is negatively correlated with hMSC density. However, higher NP&#x02010;siRNA:hMSC ratios increased cytotoxicity and decreased metabolic activity. hMSC proliferation was largely unaffected by NP&#x02010;siRNA treatment, except for a threefold reduction in hMSCs seeded at 4,000 cells/cm<sup>2</sup>. Flow cytometry reveals that apoptosis is a function of NP&#x02010;siRNA treatment time and seeding density; &#x0223c;14% of the treated hMSCs seeded at 8,000 cells/cm<sup>2</sup> were annexin V<sup>+</sup>&#x02010;siRNA<sup>+</sup> 24 hr after treatment, while 11% of the treated population was annexin V<sup>+</sup>&#x02010;siRNA<sup>&#x02212;</sup>. RNAseq shows that NP&#x02010;siRNA treatment results in transcriptomic changes in hMSCs, while pathway analysis shows upregulation of apoptosis signaling and downregulation of metabolism, cell cycle, and DNA replication pathways, as corroborated by apoptosis, metabolism, and proliferation assays. Additionally, multiple innate immune signaling pathways such as toll&#x02010;like receptor, RIG&#x02010;I&#x02010;like receptor, and nuclear factor&#x02010;&#x003ba;B signaling pathways are upregulated. Furthermore, and consistent with traditional siRNA immune activation, cytokine&#x02013;cytokine receptor signaling was also upregulated. Overall, this study provides insight into NP&#x02010;siRNA:hMSC ratios that are favorable for siRNA delivery. Moreover, NP&#x02010;siRNA delivery results in side effects across the hMSC transcriptome that suggest activation of the innate immunity that could alter MSC functions associated with their therapeutic potential.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="btm210035-kwd-0001">enrichment analysis</kwd><kwd id="btm210035-kwd-0002">mesenchymal stem cells</kwd><kwd id="btm210035-kwd-0003">nanoparticles</kwd><kwd id="btm210035-kwd-0004">off&#x02010;target effects</kwd><kwd id="btm210035-kwd-0005">RNAi</kwd><kwd id="btm210035-kwd-0006">RNAseq</kwd></kwd-group><funding-group><award-group><funding-source>National Science Foundation
+</funding-source><award-id>DMR&#x02010;1206219
+</award-id></award-group></funding-group><funding-group><award-group><funding-source>New York State Stem cell Science program
+</funding-source><award-id>NYSTEM IDEA&#x02010;N11G&#x02010;035
+</award-id></award-group></funding-group><funding-group><award-group><funding-source>National Institutes of Health
+</funding-source><award-id>R01 AR064200
+</award-id><award-id>AR056696
+</award-id><award-id>P30 ES001247
+</award-id></award-group></funding-group><funding-group><award-group><funding-source>University of Rochester's Health Sciences Center for Computational Innovation (HSCCI)
+</funding-source></award-group></funding-group><counts><fig-count count="7"/><table-count count="0"/><page-count count="14"/><word-count count="8166"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>btm210035</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.7 mode:remove_FC converted:17.11.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group><fn id="btm210035-note-0001"><p>
+<bold>Funding Information</bold> Funding for this work came from the National Science Foundation (DMR&#x02010;1206219), the New York State Stem cell Science program (NYSTEM IDEA&#x02010;N11G&#x02010;035), the National Institutes of Health (R01 AR064200, AR056696 and P30 ES001247), and the University of Rochester's Health Sciences Center for Computational Innovation (HSCCI).</p></fn></fn-group></notes></front><body><sec id="btm210035-sec-0001"><label>1</label><title>Introduction</title><p>RNA interference (RNAi) is post&#x02010;transcriptional gene silencing resulting from homologous base pair interaction of double stranded RNA (dsRNA) molecules and target messenger RNA (mRNA). Multiple types of dsRNA, such as microRNA (miRNA) and small interfering RNA (siRNA), can initiate the RNAi pathway, resulting in sequence&#x02010;specific gene silencing through mechanisms that have been reviewed extensively elsewhere.<xref rid="btm210035-bib-0001" ref-type="ref">1</xref>, <xref rid="btm210035-bib-0002" ref-type="ref">2</xref>, <xref rid="btm210035-bib-0003" ref-type="ref">3</xref> The ability to selectively and efficiently silence specific genes based solely on nucleotide sequence makes RNAi&#x02010;based drugs promising candidates in myriad applications. This immense therapeutic potential has culminated in over 30 siRNA/miRNA therapeutic clinical trials as of 2015,<xref rid="btm210035-bib-0004" ref-type="ref">4</xref> with recent studies showing gene knockdown efficacy in humans.<xref rid="btm210035-bib-0005" ref-type="ref">5</xref>
+</p><p>RNAi has recently been recognized as a powerful tool to control tissue&#x02010;specific cell differentiation. In particular, use of RNAi to affect mesenchymal stem cell (MSC) differentiation has tremendous potential for tissue engineering applications. Over the last decade, many miRNAs have been shown to regulate MSC differentiation.<xref rid="btm210035-bib-0006" ref-type="ref">6</xref>, <xref rid="btm210035-bib-0007" ref-type="ref">7</xref>, <xref rid="btm210035-bib-0008" ref-type="ref">8</xref> However, translation of RNAi to MSC&#x02010;based therapeutic strategies has only recently gained traction due to development of safe and versatile delivery systems that match the needs of clinical translation.<xref rid="btm210035-bib-0009" ref-type="ref">9</xref> A comprehensive review shows most studies utilized viral transduction or commercial transfection reagents such as Lipofectamine2000.<xref rid="btm210035-bib-0010" ref-type="ref">10</xref>, <xref rid="btm210035-bib-0011" ref-type="ref">11</xref> While these studies have provided promising results, the use of viral vectors are controversial due to the risk of mutagenesis<xref rid="btm210035-bib-0011" ref-type="ref">11</xref> and immunological responses,<xref rid="btm210035-bib-0012" ref-type="ref">12</xref> and the translational potential of commercial transfection reagents is limited due to proprietary chemistries. Due to these problems, several polymeric siRNA delivery systems have been developed.<xref rid="btm210035-bib-0013" ref-type="ref">13</xref>, <xref rid="btm210035-bib-0014" ref-type="ref">14</xref>, <xref rid="btm210035-bib-0015" ref-type="ref">15</xref>, <xref rid="btm210035-bib-0016" ref-type="ref">16</xref> For example, we pioneered the development of a self&#x02010;assembled diblock copolymer that exhibits excellent gene knockdown in a variety of cells<xref rid="btm210035-bib-0015" ref-type="ref">15</xref>, <xref rid="btm210035-bib-0016" ref-type="ref">16</xref>, <xref rid="btm210035-bib-0017" ref-type="ref">17</xref> with synthetic versatility to introduce targeting moieties<xref rid="btm210035-bib-0018" ref-type="ref">18</xref> or, in others work, poly(ethylene glycol) to enhance systemic circulation.<xref rid="btm210035-bib-0019" ref-type="ref">19</xref> Recently, this NP system was shown to modulate gene expression in human mesenchymal stem cells (hMSCs) without causing acute cytotoxicity or affecting MSC differentiation capacity.<xref rid="btm210035-bib-0016" ref-type="ref">16</xref>
+</p><p>Despite outstanding progress in the use of RNAi, adverse effects can result at a variety of levels. Gene knockdown can lead to unanticipated changes in downstream signaling cascades, silencing of partially homologous off&#x02010;target genes, activation of the innate immune system and delivery system toxicity.<xref rid="btm210035-bib-0005" ref-type="ref">5</xref>, <xref rid="btm210035-bib-0020" ref-type="ref">20</xref> A recent study investigated off&#x02010;target effects of 13 different commercial non&#x02010;targeting negative control siRNAs from Ambion, Dharmacon, and Qiagen.<xref rid="btm210035-bib-0021" ref-type="ref">21</xref> Overall, the study concluded that these siRNAs significantly regulate gene expression, and that the extent of differential expression varied among sequences and was cell&#x02010;type dependent. In the context of RNAi&#x02010;mediated cell differentiation, understanding off&#x02010;target effects is especially critical. For example, treatment of MSCs with a commercially available, non&#x02010;targeting siRNA resulted in adipocyte differentiation in the absence of typical differentiation factors.<xref rid="btm210035-bib-0022" ref-type="ref">22</xref> In addition to RNAi off&#x02010;target effects, carrier&#x02010;mediated toxicities have also been well documented and can be manifested through multiple mechanisms including membrane disruption, generation of reactive oxygen species (ROS), or lysosomal overload in the case of non&#x02010;degradable polymers.<xref rid="btm210035-bib-0023" ref-type="ref">23</xref>, <xref rid="btm210035-bib-0024" ref-type="ref">24</xref>, <xref rid="btm210035-bib-0025" ref-type="ref">25</xref> These types of side effects can significantly bias conclusions made regarding therapeutic benefit of siRNA delivery.</p><p>While our group has shown effective siRNA delivery to hMSCs with no cytotoxicity or alteration in differentiation capacity using polymeric NPs,<xref rid="btm210035-bib-0016" ref-type="ref">16</xref> this approach may alter other critical features of cellular function. Therefore, to more deeply examine the polymer&#x02010; and siRNA&#x02010;mediated side effects of siRNA&#x02010;NP treatment of hMSCs, the objective of this study was twofold: (1) identify treatment conditions that provide for maximal siRNA delivery in hMSCs while maintaining critical cellular functions (e.g., proliferation, metabolic activity, survival), and (2) use next generation sequencing (NGS) to investigate potential side effects via transcriptome&#x02010;wide changes in gene expression.</p></sec><sec id="btm210035-sec-0002"><label>2</label><title>Results</title><sec id="btm210035-sec-0003"><label>2.1</label><title>The effect of cell density on NP&#x02010;mediated siRNA uptake</title><p>Diblock copolymers were synthesized and characterized as previously described<xref rid="btm210035-bib-0016" ref-type="ref">16</xref> (Supporting Information Table S1) and self&#x02010;assembled via dialysis to produce spherical 43&#x02009;&#x000b1;&#x02009;11 nm NP with narrow particle size distribution (PDI&#x02009;=&#x02009;0.19) and zeta potential of +19&#x02009;&#x000b1;&#x02009;1 mV when measured in 1&#x000d7; phosphate buffered saline (PBS) (Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>A, Supporting Information Table S2). Flow cytometry was used to quantify uptake of fluorescently labeled non&#x02010;targeting NP&#x02010;siRNA complexes delivered to hMSCs at multiple cell seeding densities. Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>B shows that the number of MSCs positive for NP&#x02010;siRNA uptake significantly increased as MSC seeding density decreased from 32,000 to 8,000 cells/cm<sup>2</sup>. At 32,000 cells/cm<sup>2</sup>, 22%&#x02009;&#x000b1;&#x02009;2% of the cell population was positive for NP&#x02010;siRNA uptake. This increased to 58%&#x02009;&#x000b1;&#x02009;1% at 16,000 cells/cm<sup>2</sup> and 83%&#x02009;&#x000b1;&#x02009;7% at 8,000 cells/cm<sup>2</sup>. The number of siRNA&#x02010;positive hMSCs increased to 88%&#x02009;&#x000b1;&#x02009;4% when seeding density was decreased to 4,000&#x000a0;cells/cm<sup>2</sup>, but this was not statistically significant compared to 8,000 cells/cm<sup>2</sup>. Furthermore, we analyzed median fluorescence intensity (MFI) of the treated MSCs as a measure of the amount of NP&#x02010;siRNA taken up by treated cells. Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>C shows MFI increased as seeding density decreased. Although there was no difference in number of siRNA&#x02010;positive cells at 4,000 and 8,000 cells/cm<sup>2</sup>, the cells at the lower density exhibited greater overall NP&#x02010;siRNA uptake. As a positive control, we treated hMSCs seeded at 8,000 cells/cm<sup>2</sup> with fluorescent siRNA using Lipofectamine2000 (Lipo2000&#x02010;siRNA), a commercially available delivery system. Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>D shows that Lipo2000&#x02010;siRNA treatment resulted in more siRNA&#x02010;positive hMSCs and greater MFI compared to our NP delivery system. To corroborate successful NP&#x02010;siRNA uptake, microscopy was used to visualize siRNA uptake (Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>E&#x02010;H). hMSCs seeded at 8,000 cells/cm<sup>2</sup> illustrate robust internalization of NP&#x02010;siRNA (Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>H) that appears diffuse throughout the cytoplasm. Interestingly, Lipofectamine2000 also mediated significant siRNA uptake, however, the internalized siRNA was punctate and confined (Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>G), suggesting persistence of siRNA in the endo&#x02010;lysosomal compartments.</p><fig fig-type="Figure" xml:lang="en" id="btm210035-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Diblock copolymers self&#x02010;assemble into nanoparticles (NP). NP uptake and subsequent gene silencing is a function of hMSC seeding density 24 and 48 hr post&#x02010;treatment, respectively. (A) Schematic shows diblock copolymer structure, diblock self&#x02010;assembly, and complexation with siRNA. R and Z are functional end groups. <italic>m</italic>&#x02009;=&#x02009;71, <italic>n</italic>&#x02009;=&#x02009;138. Abbreviations: DMAEMA&#x02009;=&#x02009;dimethylaminoethyl methacrylate, PAA&#x02009;=&#x02009;propylacrylic acid, BMA&#x02009;=&#x02009;butyl methacrylate. hMSCs were seeded at varying densities and incubated with 30 nM NP&#x02010;siRNA complexes. (B) Flow cytometry reveals that a 30 nM dose of fluorescently labeled NP&#x02010;siRNA results in significantly greater uptake at lower seeding densities. (C) Relative quantification of the median fluorescent intensity (MFI) of treated cells indicates that the relative amount of NP&#x02010;siRNA taken up by cells increases as seeding density decreases. (D) Lipofectamine2000 was used to deliver siRNA as a positive control (Lipo2000&#x02010;siRNA) to hMSCs seeded at 8,000 cells/cm<sup>2</sup>. Flow cytometry analysis shows Lipo2000&#x02010;siRNA resulted in more siRNA&#x02010;positive hMSCs and greater MFI compared to NP&#x02010;siRNA. All pairwise comparisons are significant (<italic>p</italic>&#x02009;&#x0003c;&#x02009;.01) unless labeled ns (not significant). Significance was determined using one&#x02010;way ANOVA with Tukey's test for multiple comparisons. (E&#x02013;H) Representative multichannel fluorescence&#x02010;phase microscopy corroborates successful NP&#x02010;siRNA uptake in hMSCs seeded at 8,000 cells/cm<sup>2</sup> (H) compared to untreated (E) and siRNA only controls (F). Furthermore, NP&#x02010;mediated siRNA delivery results in diffuse siRNA signal throughout the cytoplasm compared to the punctate, confined siRNA signal observed in cells treated with Lipofectamine2000 (G). Scale bar&#x02009;=&#x02009;200 &#x003bc;m. Error bars represent the standard deviation</p></caption><graphic id="nlm-graphic-1" xlink:href="BTM2-1-193-g001"/></fig></sec><sec id="btm210035-sec-0004"><label>2.2</label><title>The effect of hMSC seeding density on NP&#x02010;siRNA mediated gene silencing</title><p>Gene silencing efficiency of NP&#x02010;siRNA treatment was also investigated as a function of seeding density. NPs were complexed with siRNA targeting housekeeping gene peptidylprolyl isomerase B (PPIB) and incubated with hMSCs for 24 hr. <italic>PPIB</italic> mRNA expression was measured 48 hr post&#x02010;treatment. Figure <xref rid="btm210035-fig-0002" ref-type="fig">2</xref>A shows NP&#x02010;siRNA complexes exhibit robust silencing in <italic>PPIB</italic> expression levels in hMSCs seeded at 4,000 and 8,000 cells/cm<sup>2</sup> achieving gene knockdown to 28%&#x02009;&#x000b1;&#x02009;3% and 43%&#x02009;&#x000b1;&#x02009;13% of control <italic>PPIB</italic> expression; however, these reductions were not statistically different. Furthermore, hMSCs at 16,000 cells/cm<sup>2</sup> showed <italic>PPIB</italic> expression of 77%&#x02009;&#x000b1;&#x02009;25% relative to untreated controls while gene silencing was attenuated at 32,000 cells/cm<sup>2</sup>.</p><fig fig-type="Figure" xml:lang="en" id="btm210035-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Nanoparticle&#x02010;mediated gene silencing was a function of hMSC seeding density 48 hr post&#x02010;treatment, and was comparable to Lipofectamine2000. (A) qRT&#x02010;PCR shows hMSCs treated with NP&#x02010;siRNA targeting peptidylprolyl isomerase B (PPIB) showed significant reduction in <italic>PPIB</italic> gene expression at seeding densities lower than 32,000 cell/cm<sup>2</sup>. (B) NP&#x02010;siRNA exhibited gene&#x02010;silencing capability that was similar to Lipofectamine2000. *<italic>p</italic>&#x02009;&#x0003c;&#x02009;.05, ****<italic>p</italic>&#x02009;&#x0003c;&#x02009;.0001 compared to untreated controls using one&#x02010;way ANOVA with Bonferroni's (A) or Tukey's (B) test for multiple comparisons. Error bars represent the standard deviation. ns&#x02009;=&#x02009;not significant. NP&#x02010;NT&#x02010;siRNA&#x02009;=&#x02009;NPs complexed with a non&#x02010;targeting siRNA as a negative control</p></caption><graphic id="nlm-graphic-3" xlink:href="BTM2-1-193-g002"/></fig></sec><sec id="btm210035-sec-0005"><label>2.3</label><title>hMSC function after NP&#x02010;siRNA treatments</title><p>Immediate cytotoxicity and long&#x02010;term effects on hMSCs were also examined as a function of NP&#x02010;siRNA treatment using non&#x02010;targeting negative control siRNA. As a measure of relative hMSC number, DNA content was quantified and reported relative to untreated controls 24 hr post&#x02010;treatment. Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref>A shows NP&#x02010;siRNA complexes did not cause significant loss in cell viability at densities from 32,000 to 8,000 cells/cm<sup>2</sup>, as evidenced by unchanged DNA content relative to untreated controls. At 4,000 cells/cm<sup>2</sup>, DNA content in NP&#x02010;siRNA treated hMSCs was significantly reduced to 70%&#x02009;&#x000b1;&#x02009;3% compared to untreated hMSCs. Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref>B shows the NP&#x02010;siRNA delivery system performed similarly to Lipofectamine2000.</p><fig fig-type="Figure" xml:lang="en" id="btm210035-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>NP&#x02010;siRNA treated hMSCs seeded at lower densities showed reduced DNA content 24 hr post&#x02010;treatment and reduced cellular metabolism that persisted through 14 days post&#x02010;treatment. Quantification of hMSC DNA content suggested significant reduction in hMSC viability when seeded below 8,000 cells/cm<sup>2</sup> 24 hr post&#x02010;treatment (A). At 8,000 cells/cm<sup>2</sup>, the NP system performed similarly to Lipofectamine2000 (B). **<italic>p</italic>&#x02009;&#x0003c;&#x02009;.01, ****<italic>p</italic>&#x02009;&#x0003c;&#x02009;.0001 compared to untreated controls determined by one&#x02010;way ANOVA with Bonferroni's test for multiple comparisons. Metabolic activity was measured over 14 days in hMSCs that are untreated (&#x02022;, dashed line), Lipo2000&#x02010;siRNA treated (&#x025fc;, dotted line), or NP&#x02010;siRNA treated (&#x025b2;, solid line) seeded at 4,000 (C), 8,000 (D), 16,000 (E), and 32,000 cells/cm<sup>2</sup> (F). Insets in (E) and (F) show metabolic activity on a smaller scale to better visualize changes in metabolic activity due to treatment. Linear regression was performed in each metabolic activity curve to quantify metabolic activity to compare among groups (G), * represents significantly different than untreated, and # represents significantly different than NP&#x02010;siRNA. (C&#x02013;F) are representative plots from one experiment that was repeated in an independent experiment that showed similar trends. *<italic>p</italic>&#x02009;&#x0003c;&#x02009;.05, **<italic>p</italic>&#x02009;&#x0003c;&#x02009;.01 compared to the previous time point within a single treatment group using two&#x02010;way ANOVA with Bonferroni's test for multiple comparisons; <sup>#</sup>
+<italic>p</italic>&#x02009;&#x0003c;&#x02009;.05 untreated compared to treated at a single time point using two&#x02010;way ANOVA with Tukey's test for multiple comparisons. Error bars represent standard deviation. AU&#x02009;=&#x02009;arbitrary units</p></caption><graphic id="nlm-graphic-5" xlink:href="BTM2-1-193-g003"/></fig><p>After assessing the immediate effects of NP&#x02010;siRNA treatments on hMSC survivability, long&#x02010;term metabolic activity of hMSCs was probed. Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref>C&#x02010;F shows metabolic activity for untreated hMSCs and hMSCs treated with NP&#x02010;siRNA or Lipo2000&#x02010;siRNA at 4,000 (C), 8,000 (D), 16,000 (E), and 32,000 cells/cm<sup>2</sup> (F). To compare groups, metabolic rates were extrapolated from linear regions of the metabolic activity data (i.e., the first 7 days, Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref>G). Analysis revealed NP&#x02010;siRNA treated hMSCs seeded at 4,000 and 8,000 cells/cm<sup>2</sup> showed significantly reduced metabolic rates compared to untreated hMSCs. At 16,000 cells/cm<sup>2</sup>, NP&#x02010;siRNA treatment did not alter hMSC metabolic rate. Interestingly, at 32,000 cells/cm<sup>2</sup>, NP&#x02010;siRNA treated hMSCs showed significant, albeit slight, increases in metabolic rate, which could be attributed to slight variability in initial seeding densities. Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref>F shows the overlaid curves are nearly indistinguishable. Lipo2000&#x02010;siRNA treated hMSCs exhibited reduced metabolic activity only at 4,000 cells/cm<sup>2</sup> compared to untreated cells, albeit to a lesser extent than NP&#x02010;siRNA&#x02010;treated hMSCs at the same density.</p></sec><sec id="btm210035-sec-0006"><label>2.4</label><title>Effect of NP&#x02010;siRNA treatment on hMSC proliferation</title><p>To better characterize diminished hMSC metabolic activity after NP&#x02010;siRNA treatment, hMSC proliferation was measured via 5&#x02010;ethynyl&#x02010;2&#x02032;&#x02010;deoxyuridine (EdU) incorporation. EdU is a nucleoside analog that is incorporated into newly synthesized DNA during cell proliferation. Figure <xref rid="btm210035-fig-0004" ref-type="fig">4</xref> shows that hMSC proliferation was largely unaltered by NP&#x02010;siRNA treatment with a non&#x02010;targeting siRNA. However, a threefold reduction in the number of proliferating hMSCs was observed 5 days post&#x02010;treatment seeded at 4,000 cells/cm<sup>2</sup> (Figure <xref rid="btm210035-fig-0004" ref-type="fig">4</xref>B). Similar to DNA quantification, these data also show that proliferation is negatively correlated with hMSC seeding density, regardless of NP&#x02010;siRNA treatment.</p><fig fig-type="Figure" xml:lang="en" id="btm210035-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>hMSC proliferation was mostly unaltered by NP&#x02010;siRNA treatment. There were no significant differences in hMSC proliferation 1 day and 14 days post&#x02013;treatment (A and C, respectively). However, NP&#x02010;siRNA treatment reduced the number of proliferating hMSCs that were seeded at 4,000 cells/cm<sup>2</sup> 5 days post&#x02010;treatment. <italic>n</italic>&#x02009;=&#x02009;3 from one experiment for (B, C). ****<italic>p</italic>&#x02009;&#x0003c;&#x02009;.0001 compared to untreated hMSCs using two&#x02010;way ANOVA with Bonferroni's test for multiple comparisons. Error bars represent the standard deviation</p></caption><graphic id="nlm-graphic-7" xlink:href="BTM2-1-193-g004"/></fig></sec><sec id="btm210035-sec-0007"><label>2.5</label><title>Effect of NP&#x02010;siRNA treatment on hMSC apoptosis</title><p>Annexin V and propidium iodide (PI) staining of hMSCs was used to measure apoptosis. Specifically, analysis of treated hMSCs seeded at 4,000 and 8,000 cells/cm<sup>2</sup> was performed via flow cytometry, as hMSC metabolism was reduced at these seeding densities (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>A, B). Generally, annexin V staining increased with time post&#x02010;treatment and was greater for NP&#x02010;siRNA&#x02010;treated cells than Lipo2000&#x02010;siRNA treated cells at both seeding densities. At 4,000 cells/cm<sup>2</sup>, 22%&#x02009;&#x000b1;&#x02009;2% and 39%&#x02009;&#x000b1;&#x02009;4% of NP&#x02010;siRNA treated hMSCs were annexin V<sup>+</sup> at 6 and 24 hr post&#x02010;treatment. This is significantly increased compared to Lipo2000&#x02010;siRNA treatment and untreated hMSCs. Annexin V staining was &#x0223c;50% lower in hMSCs seeded at 8,000 vs. 4,000 cells/cm<sup>2</sup> in all treatment conditions (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>B). A fluorescently labeled non&#x02010;targeting siRNA was used to further discriminate annexin V<sup>+</sup>&#x02010;siRNA<sup>+</sup> hMSCs. At 4,000 cells/cm<sup>2</sup> 6 hr post&#x02010;treatment, only 5%&#x02009;&#x000b1;&#x02009;1% of NP&#x02010;treated hMSCs were annexin V<sup>+</sup>&#x02010;siRNA<sup>+</sup>, while 18%&#x02009;&#x000b1;&#x02009;1% were annexin V<sup>+</sup>&#x02010;siRNA<sup>&#x02212;</sup> (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>C). Nearly 100% Lipo2000&#x02010;siRNA treated hMSCs were annexin V<sup>+</sup>&#x02010;siRNA<sup>+</sup>. After 24 hr, the number of annexin V<sup>+</sup>&#x02010;siRNA<sup>+</sup> NP&#x02010;treated hMSCs increased to 20%&#x02009;&#x000b1;&#x02009;2% with 16%&#x02009;&#x000b1;&#x02009;0.4% that was annexin V<sup>+</sup>&#x02010;NP&#x02010;siRNA<sup>&#x02212;</sup>. The number of Lipo2000&#x02010;siRNA treated annexin V<sup>+</sup>&#x02010;siRNA<sup>+</sup> hMSCs significantly increased to 25%&#x02009;&#x000b1;&#x02009;3% with no detectable annexin V<sup>+</sup>&#x02010;Lipo2000&#x02010;siRNA<sup>&#x02212;</sup> cells 24 hr post&#x02010;treatment (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>C). The same trends were observed at 8,000 cells/cm<sup>2</sup>, but to a lesser extent (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>D). By including PI, a dye impermeable to intact cell membranes, early apoptotic (annexin V<sup>+</sup>&#x02010;PI<sup>&#x02212;</sup>) and late apoptotic (annexin V<sup>+</sup>&#x02010;PI<sup>+</sup>) hMSCs could be detected within the annexin V<sup>+</sup>&#x02010;siRNA<sup>+</sup> hMSCs to determine commitment to apoptosis after uptake of siRNA. Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>E shows that at 4,000 cells/cm<sup>2</sup> 6 hr post&#x02010;treatment, NP&#x02010;siRNA and Lipo2000&#x02010;siRNA treatments all resulted in similar amounts of early and late apoptotic&#x02010;siRNA<sup>+</sup> hMSCs. At 24 hr, these populations increased to 8%&#x02009;&#x000b1;&#x02009;3% early and 13%&#x02009;&#x000b1;&#x02009;1% late apoptotic for NP&#x02010;siRNA<sup>+</sup> hMSCs and 6%&#x02009;&#x000b1;&#x02009;0.3% early and 19%&#x02009;&#x000b1;&#x02009;2% late apoptotic for Lipo2000&#x02010;siRNA<sup>+</sup> hMSCs. At 8,000 cells/cm<sup>2</sup> 6 hr post&#x02010;treatment results largely corroborated those at 4,000 cells/cm<sup>2</sup> (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>F) and there were no significant differences between groups at 24 hr.</p><fig fig-type="Figure" xml:lang="en" id="btm210035-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>NP&#x02010;siRNA treatment initiated modest levels of apoptosis in hMSCs, the extent of which was dependent of hMSC seeding density. NP&#x02010;siRNA and Lipo2000 treated hMSCs seeded at lower densities undergo apoptosis to a greater extent than hMSCs at higher densities, and the number of apoptotic cells increases with longer NP&#x02010;siRNA or Lipo2000 incubation time (A, B). Of the apoptotic hMSCs treated with NP&#x02010;siRNA, the majority was NP&#x02010;siRNA<sup>&#x02212;</sup> at early time points, while more apoptotic cells were NP&#x02010;siRNA<sup>+</sup> at later timepoints (C, D). Of the apoptotic cells that were NP&#x02010;siRNA<sup>+</sup> after 24 hr NP&#x02010;siRNA incubation, there were significantly more late apoptotic than early apoptotic cells. *<italic>p</italic>&#x02009;&#x0003c;&#x02009;.05, **<italic>p</italic>&#x02009;&#x0003c;&#x02009;.01, ***<italic>p</italic>&#x02009;&#x0003c;&#x02009;.001, ****<italic>p</italic>&#x02009;&#x0003c;&#x02009;.0001 using two&#x02010;way ANOVA with Bonferroni's test for multiple comparisons. Error bars represent the standard deviation</p></caption><graphic id="nlm-graphic-9" xlink:href="BTM2-1-193-g005"/></fig></sec><sec id="btm210035-sec-0008"><label>2.6</label><title>Transcriptome&#x02010;wide effects of NP&#x02010;siRNA treatment and gene set enrichment analysis</title><p>Beyond uptake, knockdown, metabolism, proliferation, and apoptosis, RNA sequencing (RNAseq) was performed on hMSCs to observe transcriptome&#x02010;wide perturbations in gene expression after delivery non&#x02010;targeting siRNA. Reads were mapped to the human reference genome (GRCh38.p2), assembled per gene and condensed into FPKM expression values (fragments per kilobase of transcript per million mapped reads), which provides a measure of expression levels for each gene mapped in the hMSC transcriptome. To visualize transcriptomic changes in untreated hMSCs over time, NP&#x02010;siRNA treated hMSCs over time, and NP&#x02010;siRNA treated vs. untreated (NT) within each time point, a heatmap was generated showing |log<sub>2</sub>(fold&#x02010;change)|&#x02009;&#x0003e;&#x02009;1 using a false discovery rate adjusted <italic>p</italic>&#x02010;value of .05. Figure <xref rid="btm210035-fig-0006" ref-type="fig">6</xref> shows time course analyses in treated and untreated hMSC were nearly identical, except for differences in NP&#x02010;siRNA treated hMSCs at day 5 (D5) relative to D0. Additionally, when comparing NP&#x02010;siRNA treated vs. untreated hMSCs within each time point, the most drastic changes occur at D5.</p><fig fig-type="Figure" xml:lang="en" id="btm210035-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>Differentially expressed genes were determined by comparing gene expression levels of conditions described on <italic>x</italic>&#x02010;axis (&#x02223;log<sub>2</sub>(fold&#x02010;change) &#x02223;&#x02009;&#x0003e;&#x02009;1 and false discovery rate (FDR) adjusted <italic>p</italic>&#x02010;value of .05). Row&#x02010;normalized fold&#x02010;changes for all differentially expressed genes (rows) are indicated in the heatmap. Abbreviations: D&#x02009;=&#x02009;day; NT&#x02009;=&#x02009;no treatment</p></caption><graphic id="nlm-graphic-11" xlink:href="BTM2-1-193-g006"/></fig><p>Enrichment analysis was performed on pathways using the DAVID functional annotation tool.<xref rid="btm210035-bib-0026" ref-type="ref">26</xref> Figure <xref rid="btm210035-fig-0007" ref-type="fig">7</xref>A shows upregulated pathways. By comparing day 0 (D0) samples to untreated hMSCs at days 1, 5, and 14 post&#x02010;treatment, this analysis reveals pathways that are enriched due to culture conditions alone, such as upregulation of the p53 pathway and ECM&#x02010;receptor pathways. To specifically probe the effect of NP&#x02010;siRNA treatment, comparisons were made between treated and untreated hMSCs within each time point. As a result of the NP&#x02010;siRNA treatment, apoptosis and natural killer cell mediated cytotoxicity pathways are upregulated 1 day post&#x02010;treatment. At 5 days post&#x02010;treatment, apoptosis signaling is upregulated in addition to multiple pattern recognition receptor signaling pathways, such as Toll&#x02010;like (TLR), retinoic acid&#x02010;inducible gene 1 (RIG&#x02010;I)&#x02010;like, and nucleotide&#x02010;binding oligomerization domain&#x02010;like receptor pathways. Additionally, several inflammatory pathways are upregulated, including cytokine&#x02013;cytokine receptor interaction and nuclear factor&#x02010;&#x003ba;&#x00392; (NF&#x02010;&#x003ba;&#x00392;) signaling pathways. Supporting Information Table S6 shows fold&#x02010;change expression of multiple signaling molecules from these pathways that are significantly upregulated, such as <italic>TLR3</italic>, <italic>DDX58</italic> (the gene encoding RIG&#x02010;I protein), <italic>NFKB1</italic>, <italic>NFKB2</italic>, and various chemokines, cytokines, and associated receptors. By day 14 post&#x02010;treatment, apoptosis and immunological pathways such as antigen processing and presentation and allograft rejection pathways are enriched. Figure <xref rid="btm210035-fig-0007" ref-type="fig">7</xref>B shows the differentially expressed genes in the upregulated apoptosis pathway, and reveals greater fold&#x02010;change upregulation of anti&#x02010;apoptotic genes, such as <italic>BIRC3</italic>, <italic>BCL2L1</italic>, and <italic>TNFSF10C</italic>, compared to upregulation of pro&#x02010;apoptotic genes, such as <italic>TNFRSF10A</italic>. Figure <xref rid="btm210035-fig-0007" ref-type="fig">7</xref>C shows pathways that are significantly downregulated. Cell cycle and DNA replication pathways exhibited the most robust downregulation as a result of culture conditions, not due to NP&#x02010;siRNA treatment. Glycine, serine and threonine and nitrogen metabolism pathways were significantly downregulated as a result of NP&#x02010;siRNA treatment beginning 5 days post&#x02010;treatment. Note that Supporting Information Table S5 contains the adjusted <italic>p</italic>&#x02010;values for these enriched pathways.</p><fig fig-type="Figure" xml:lang="en" id="btm210035-fig-0007" orientation="portrait" position="float"><label>Figure 7</label><caption><p>Effect of long&#x02010;term culture and NP&#x02010;siRNA treatment on the molecular processes and signaling pathways: Up&#x02010;regulated (A) and down&#x02010;regulated (C) genes in each comparison (<italic>x</italic>&#x02010;axis) are enriched in the pathways shown on <italic>y</italic>&#x02010;axis. Coloring yellow to red represents low to high enrichment estimated using &#x02212;log<sub>10</sub> (<italic>p</italic>&#x02010;values). Adjusted <italic>p</italic>&#x02010;values are provided in the Supporting Information Table S5. Heatmap of differentially expressed genes within apoptosis (B) enriched signaling pathway, where color refers to log<sub>2</sub>(fold&#x02010;change) in expression (blue indicates down regulation and yellow indicates upregulation). Abbreviations: D&#x02009;=&#x02009;day; NT&#x02009;=&#x02009;no treatment</p></caption><graphic id="nlm-graphic-13" xlink:href="BTM2-1-193-g007"/></fig></sec></sec><sec id="btm210035-sec-0009"><label>3</label><title>Discussion</title><p>Outstanding progress has been made in the development of delivery systems for RNAi over the past two decades to unleash its immense therapeutic potential to post&#x02010;transcriptionally target specific genes.<xref rid="btm210035-bib-0013" ref-type="ref">13</xref>, <xref rid="btm210035-bib-0027" ref-type="ref">27</xref>, <xref rid="btm210035-bib-0028" ref-type="ref">28</xref>, <xref rid="btm210035-bib-0029" ref-type="ref">29</xref> We previously developed pH&#x02010;responsive diblock copolymers that self&#x02010;assemble to form nanoparticles (NP) that are capable of successful siRNA delivery to multiple cell types both <italic>in vitro</italic> and <italic>in&#x000a0;vivo</italic>.<xref rid="btm210035-bib-0015" ref-type="ref">15</xref>, <xref rid="btm210035-bib-0016" ref-type="ref">16</xref>, <xref rid="btm210035-bib-0017" ref-type="ref">17</xref>, <xref rid="btm210035-bib-0030" ref-type="ref">30</xref> Successful gene silencing in MSCs was demonstrated via NP delivery of siRNA without compromising multipotential differentiation capacity.<xref rid="btm210035-bib-0016" ref-type="ref">16</xref> However, to use this NP delivery system to affect MSC differentiation, it is necessary to thoroughly characterize potential side effects that may abrogate RNAi&#x02010;based differentiation signals. Specifically, an extended characterization of how treatment conditions affect NP&#x02010;mediated siRNA delivery was performed while comprehensively evaluating potential side effects including MSC metabolism, proliferation, apoptosis, and global RNA expression profiles.</p><p>A range of seeding densities was examined to identify how NP&#x02010;siRNA:cell ratios affect siRNA delivery, gene knockdown, and identify potential side effects. Results showed that NP&#x02010;siRNA delivery was increased at lower seeding densities, likely due to higher NP&#x02010;siRNA:hMSC ratios (Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>B, C). Higher NP&#x02010;siRNA uptake resulted in more robust gene silencing at lower hMSC seeding densities (Figure <xref rid="btm210035-fig-0002" ref-type="fig">2</xref>A). Gene silencing capabilities of Lipofectamine2000, a positive control, and NP delivery at 8,000 cells/cm<sup>2</sup> were statistically equivalent (Figure <xref rid="btm210035-fig-0002" ref-type="fig">2</xref>B), even though Lipofectamine2000&#x02010;siRNA treatment resulted in greater siRNA uptake (Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>D). This suggests that NP delivery of siRNA was more efficient than Lipofectamine2000. This could be explained by the observations made regarding the diffuse nature of the NP&#x02010;mediated siRNA delivery in hMSC cytoplasm compared to the punctate signal observed with Lipofectamine2000 (Figures <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>H, G), indicating the Lipofectamine2000&#x02010;siRNA is confined within endo&#x02010;lysosomal compartments.</p><p>Although lower seeding densities resulted in greater NP&#x02010;siRNA uptake and gene silencing, higher NP&#x02010;siRNA:hMSC ratios negatively affected cell viability. Specifically, DNA content was reduced to 70% compared to untreated cells (Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref>A). This finding might have important implications when adapting this NP&#x02010;siRNA delivery system for <italic>in&#x000a0;vitro</italic> applications requiring low hMSC densities.<xref rid="btm210035-bib-0031" ref-type="ref">31</xref>, <xref rid="btm210035-bib-0032" ref-type="ref">32</xref>
+</p><p>When examining unintended side effects of siRNA delivery systems, it is common to measure immediate cytotoxicity. For example, poly(ethylenimine) (PEI) and poly(L&#x02010;lysine) are typically used for nucleic acid delivery<xref rid="btm210035-bib-0033" ref-type="ref">33</xref>, <xref rid="btm210035-bib-0034" ref-type="ref">34</xref>, <xref rid="btm210035-bib-0035" ref-type="ref">35</xref>, <xref rid="btm210035-bib-0036" ref-type="ref">36</xref>, <xref rid="btm210035-bib-0037" ref-type="ref">37</xref> and have well&#x02010;documented cytotoxicity in multiple cell types.<xref rid="btm210035-bib-0038" ref-type="ref">38</xref> While determining immediate cytotoxicity is necessary, it is equally important to monitor physiological functions in treated cells long term, yet these data are not typically reported. This is critical for applications that require extended culture time beyond initial treatments, including for MSC differentiation. AlamarBlue was used to investigate hMSC metabolic activity over 14 days after NP&#x02010;siRNA treatment. AlamarBlue is advantageous over other metabolic assays such as 2,3&#x02010;bis&#x02010;(2&#x02010;methoxy&#x02010;4&#x02010;nitro&#x02010;5&#x02010;sulfophenyl)&#x02212;2<italic>H</italic>&#x02010;tetrazolium&#x02010;5&#x02010;carboxanilide (XTT) and 3&#x02010;(4,5&#x02010;dimethylthiazol&#x02010;2&#x02010;yl)&#x02212;2,5&#x02010;(diphenyltetrazolium bromide) (MTT), as it is non&#x02010;destructive, allowing for longitudinal measurements across the same cell populations.<xref rid="btm210035-bib-0039" ref-type="ref">39</xref> Results show that NP&#x02010;siRNA treatment reduces metabolic rates of hMSCs at lower seeding densities (Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref>C, D, G). Lipo2000&#x02010;siRNA treatment also resulted in reduced metabolism but to a smaller degree than from NP&#x02010;siRNA treatment. These data also show that in untreated samples, metabolic rate decreases as cell seeding density increases. This is likely due to sub&#x02010;confluent levels of cell seeding resulting in greater proliferation. For treated samples, it is unknown if reduced metabolic rate is due to alterations in cell proliferation or delayed cell death. AlamarBlue assays have traditionally been utilized to measure cell proliferation<xref rid="btm210035-bib-0039" ref-type="ref">39</xref>; however, metabolic function in bone marrow&#x02010;derived stromal cells sometimes does not correlate well with DNA synthesis, which immediately precedes cell division.<xref rid="btm210035-bib-0040" ref-type="ref">40</xref> To probe cell proliferation directly, an EdU assay was used. Results show that 1 day post&#x02010;treatment, NP&#x02010;siRNA treatment did not alter hMSC proliferation (Figure <xref rid="btm210035-fig-0004" ref-type="fig">4</xref>A); however, NP&#x02010;siRNA treatment significantly reduced EdU<sup>+</sup> hMSCs seeded at 4,000 cells/cm<sup>2</sup> at 5 days post&#x02010;treatment compared to untreated controls (Figure <xref rid="btm210035-fig-0004" ref-type="fig">4</xref>B). After 14 days, the hMSCs recovered, and there was no difference in the number of EdU<sup>+</sup> hMSCs (Figure <xref rid="btm210035-fig-0004" ref-type="fig">4</xref>C). These data support AlamarBlue data suggesting that hMSC proliferation is inversely correlated with seeding density, regardless of NP&#x02010;siRNA treatment. This could directly explain greater NP&#x02010;siRNA uptake at lower seeding densities (Figure <xref rid="btm210035-fig-0001" ref-type="fig">1</xref>B, C), as NP uptake is greater in actively proliferating cells.<xref rid="btm210035-bib-0041" ref-type="ref">41</xref>
+</p><p>It is possible that reduction in proliferation 5 days post&#x02010;treatment and sustained reduction in metabolic activity could be the result of delayed apoptosis. To investigate this possibility, hMSCs were stained with annexin V and quantified by flow cytometry. Results show that NP&#x02010;siRNA treatment resulted in greater numbers of apoptotic hMSCs compared to untreated controls. The extent of apoptotic hMSCs was inversely correlated with seeding density, again most likely due to increased NP&#x02010;siRNA to hMSC ratios (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>A, B), possibly through lysosomal overload,<xref rid="btm210035-bib-0042" ref-type="ref">42</xref> as our polymers are non&#x02010;degradable over the time course of this experiment. Lipo2000&#x02010;siRNA treatment also resulted in a significant population of apoptotic hMSCs, although to a lesser extent than NP&#x02010;siRNA treatment. By performing the analysis with a fluorescently labeled siRNA, approximately half of the apoptotic cells were also positive for NP&#x02010;siRNA, which was consistent across all seeding densities (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>D, E), while all of the apoptotic cells treated with Lipo2000 were also siRNA<sup>+</sup>. This suggests that there may be indirect effects of NP&#x02010;siRNA treatment that triggers apoptosis. It is possible that the NP&#x02010;siRNA<sup>&#x02212;</sup> population of apoptotic cells could result from uptake of free/uncomplexed NPs, similar to a PEG&#x02010;pDMAEMA&#x02010;based siRNA delivery system where free polymer was observed at charge ratios above neutrality, resulting in increased cytotoxicity.<xref rid="btm210035-bib-0043" ref-type="ref">43</xref> To investigate this possibility, we performed particle&#x02010;tracking analysis to quantitatively evaluate siRNA:NP ratio. Results show that NP concentration is 1.13 &#x000d7; 10<sup>12</sup>&#x02009;&#x000b1;&#x02009;2.09 &#x000d7; 10<sup>11</sup> NPs/mL (Table S2). Using this data combined with siRNA molecular weight, stoichiometry indicates the siRNA:NP ratio is 64&#x02009;&#x000b1;&#x02009;12 for treatments here, suggesting that, statistically, there are no free NPs in treatments that might cause cytotoxicity. Alternatively, apoptotic cells can initiate apoptosis in neighboring cells, as recently described.<xref rid="btm210035-bib-0044" ref-type="ref">44</xref> Furthermore, the use of PI, a cell impermeable dye, allows for the discrimination of early and late apoptotic cells. Results show that of the apoptotic NP&#x02010;siRNA<sup>+</sup> hMSCs, a significant portion is early apoptotic. This is significant because extracellular exposure of phosphatidylserines, which are detected by annexin V, can be reversible and precedes commitment of apoptosis,<xref rid="btm210035-bib-0045" ref-type="ref">45</xref> suggesting this population of hMSCs may not ultimately die. Overall, this analysis has shown that only 13% of hMSCs seeded at 4,000 cells/cm<sup>2</sup> and 8% at 8,000 cells/cm<sup>2</sup> have committed to apoptosis as a result of NP&#x02010;siRNA uptake, while 18% of Lipo&#x02010;siRNA<sup>+</sup> hMSCs at 4,000 cells/cm<sup>2</sup> were late apoptotic, indicating that Lipo2000&#x02010;siRNA treatment results in greater overall apoptosis than the NP.</p><p>RNAseq and enrichment analysis were performed to observe transcriptome&#x02010;wide perturbations in gene expression and the resulting physiological pathways that might be altered by NP&#x02010;siRNA treatment. Results show that apoptosis signaling was the most upregulated pathway due to NP&#x02010;siRNA 1 day post&#x02010;treatment (Figure <xref rid="btm210035-fig-0007" ref-type="fig">7</xref>A). These data are corroborated by results from the annexin V assay that show a significant apoptotic population of hMSCs 1 day post NP&#x02010;siRNA treatment (Figure <xref rid="btm210035-fig-0005" ref-type="fig">5</xref>B). Interestingly, Figure <xref rid="btm210035-fig-0007" ref-type="fig">7</xref>B shows anti&#x02010;apoptotic genes, such as <italic>BIRC3</italic>, <italic>BCL2L1</italic>, and <italic>TNFSF10C</italic>, are among those most highly upregulated within the apoptosis pathway, suggesting that cells are recovering from an initial stress due to NP&#x02010;siRNA treatment. Additionally, enrichment analysis reveals significant upregulation of multiple innate immune pathways, such as TLR and RIG&#x02010;I signaling pathways, both of which are activated by dsRNA molecules.<xref rid="btm210035-bib-0046" ref-type="ref">46</xref>, <xref rid="btm210035-bib-0047" ref-type="ref">47</xref> Furthermore this analysis shows upregulation of NF&#x02010;&#x003ba;B signaling and cytokine&#x02010;cytokine receptor interaction pathways, both of which are downstream of TLR and RIG&#x02010;I activation.<xref rid="btm210035-bib-0046" ref-type="ref">46</xref>, <xref rid="btm210035-bib-0047" ref-type="ref">47</xref> RNAseq data specifically shows upregulation of <italic>TLR3</italic>, <italic>DDX58</italic> (the gene encoding RIG&#x02010;I protein), <italic>NFKB1</italic>, and <italic>NFKB2</italic> 5 days post&#x02010;treatment (Table S6). At this same time point, multiple chemokines belonging to the C&#x02010;X&#x02010;C motif (CXC) and C&#x02010;C motif (CC) families and cytokines of the tumor necrosis factor (TNF) and interleukin (IL) families are also significantly altered (Table S6).</p><p>Figure <xref rid="btm210035-fig-0007" ref-type="fig">7</xref>C shows the most highly downregulated pathways are the cell cycle and DNA replication pathways, but only as a result of culture conditions. This is directly corroborated by EdU results (Figure <xref rid="btm210035-fig-0004" ref-type="fig">4</xref>) that indicate hMSC proliferation decreases with time, but was independent of NP&#x02010;siRNA treatment at 8,000 cells/cm<sup>2</sup>. Furthermore, multiple metabolic pathways (glycine, serine and threonine and nitrogen metabolism) are downregulated by NP&#x02010;siRNA treatment, which is in direct agreement with AlamarBlue results in Figure <xref rid="btm210035-fig-0003" ref-type="fig">3</xref> that show a significant reduction in hMSC metabolism as a result of NP&#x02010;siRNA treatment. It is possible that these effects are a result of immune activation; however, there are conflicting reports on whether immune activation decreases<xref rid="btm210035-bib-0048" ref-type="ref">48</xref> or increases<xref rid="btm210035-bib-0049" ref-type="ref">49</xref> MSC metabolism.</p><p>It has been shown that siRNA can activate the innate immune system via TLR3 interactions.<xref rid="btm210035-bib-0050" ref-type="ref">50</xref> TLR3 is expressed in the hMSC endosomal compartment<xref rid="btm210035-bib-0051" ref-type="ref">51</xref>, <xref rid="btm210035-bib-0052" ref-type="ref">52</xref> making it possible that endosomal trafficking of NP&#x02010;siRNA results in TLR signaling. Furthermore, TLR activation in hMSCs has been shown to stimulate secretion of immunomodulatory cytokines and chemokines, such as CCL2, TNF, and multiple interleukins.<xref rid="btm210035-bib-0051" ref-type="ref">51</xref>, <xref rid="btm210035-bib-0053" ref-type="ref">53</xref> RIG&#x02010;I signaling, which is associated with the immune response, was activated in MSCs after delivery of a double stranded miRNA&#x02010;145 mimic using Lipofectamine2000.<xref rid="btm210035-bib-0054" ref-type="ref">54</xref> This effect was specific to a poly(U) sequence, a dsRNA motif that has been previously shown to activate RIG&#x02010;I.<xref rid="btm210035-bib-0055" ref-type="ref">55</xref> The non&#x02010;targeting siRNA pool used in this study contains four non&#x02010;targeting siRNAs. Of these, two contain a poly(U) sequence, which could be responsible for upregulation of RIG&#x02010;I. RIG&#x02010;I signaling could also be activated as a result of TLR crosstalk.<xref rid="btm210035-bib-0056" ref-type="ref">56</xref> Irrespective of pathway, TLR activation has been shown to affect MSC differentiation in a TLR&#x02010;specific manner. Activation of TLR3 via poly(I:C), a dsRNA analogue, inhibited osteogenic differentiation, while activation of TLR4 via lipopolysaccharide enhanced osteogenic differentiation.<xref rid="btm210035-bib-0057" ref-type="ref">57</xref> Taken together, these results suggest that our NP&#x02010;siRNA delivery system may be activating MSC innate immunity at multiple levels: in the endosome where TLR3 receptor is localized when the NPs are endocytosed, and in the cytosol where RIG&#x02010;I is located after NP&#x02010;mediated endosomal escape of the siRNA. Alterations in this signaling may affect MSC differentiation, although previous work from our lab has shown that siRNA delivery with very similar polymer NPs did not alter MSC adipogenesis, osteogenesis, or chondrogenesis.<xref rid="btm210035-bib-0016" ref-type="ref">16</xref>
+</p><p>To our knowledge, this is the first study probing long term, temporal side effects of nanoparticle&#x02010;mediated siRNA delivery in MSCs. Overall, the side effects observed here are consistent with those traditionally associated with siRNA delivery.<xref rid="btm210035-bib-0005" ref-type="ref">5</xref>, <xref rid="btm210035-bib-0020" ref-type="ref">20</xref> Furthermore, based on our results, we hypothesize that the use of pH&#x02010;responsive polymers for siRNA delivery has the potential to activate the innate immunity at multiple levels via activation of endosomal TLRs and cytosolic RIG&#x02010;I&#x02010;like receptors. This analysis gives insight into potential side effects of NP&#x02010;siRNA delivery, but is limited by convolution of NP and siRNA effects. Separating these effects is especially challenging when using cationic carriers because without shielding by anionic cargo, the delivery system has much different physicochemical properties that can confer unique cellular responses. For example, a previous study has shown that the chain length of poly(dimethylaminoethyl methacrylate) (pDMAEMA), the cationic constituent of the diblock copolymers used here, modulates the mechanism of cytotoxicity from membrane disruption to induction of apoptosis, while the amount of cationic charge influenced the extent and kinetics of endocytosis and intracellular trafficking.<xref rid="btm210035-bib-0058" ref-type="ref">58</xref> Additionally, in the aforementioned study involving Lipofectamine2000&#x02010;mediated delivery of miRNA&#x02010;145 in MSCs, treatment with Lipofectamine2000 alone induced an immune response that was unique vs. a negative control siRNA and miRNA&#x02010;145.<xref rid="btm210035-bib-0059" ref-type="ref">59</xref> Unfortunately, use of alternative anionic molecules in place of siRNA has the potential to introduce additional off&#x02010;target effects. This, coupled with the fact that naked siRNA cannot be internalized by cells renders NP&#x02010;only and siRNA&#x02010;only controls inappropriate for this work.</p><sec id="btm210035-sec-0010"><label>3.1</label><title>Conclusions</title><p>Overall, NP&#x02010;siRNA:hMSC ratios have been identified for siRNA delivery while undertaking an extensive characterization of side effects due to NP&#x02010;siRNA delivery. An inverse correlation exists between NP&#x02010;siRNA uptake and function with hMSC seeding density, while high NP&#x02010;siRNA:hMSC ratios can result in cytotoxicity. Furthermore, the importance of monitoring cellular function for extended periods beyond initial treatment is highlighted, as sustained changes in cellular function were observed. Further, NP&#x02010;siRNA treatment resulted in a significant portion of annexin V expressing hMSCs that may not be committing to apoptosis. RNAseq and pathway enrichment analysis similarly suggested alterations in hMSC metabolism and proliferation and suggest activation of the innate immune system via TLR and RIG&#x02010;I signaling, which could also contribute to apoptosis and changes in metabolism and proliferation. Moreover, this study shows that new technologies, such as NGS coupled with enrichment analysis are powerful tools for identifying potential side effects, which is necessary for safe translation of therapeutic systems from the bench to the clinic.</p></sec></sec><sec id="btm210035-sec-0011"><label>4</label><title>Materials and methods</title><sec id="btm210035-sec-0012"><label>4.1</label><title>Polymer and nanoparticle synthesis and characterization</title><p>Please refer to &#x0201c;Supporting Information.&#x0201d;</p></sec><sec id="btm210035-sec-0013"><label>4.2</label><title>hMSC culture</title><p>hMSCs were isolated from human bone marrow isolates (Lonza),<xref rid="btm210035-bib-0060" ref-type="ref">60</xref> and cultured in growth media composed of low glucose Dulbecco's Modified Eagle's Medium (Gibco) with 10% fetal bovine serum (Atlanta Biologics), 1% antibiotic&#x02010;antimycotic (Gibco) and 1 ng/mL recombinant human basic fibroblast growth factor&#x02010;2 (Corning) and kept at 37&#x000b0;C with 5% CO<sub>2</sub>. hMSCs were used at passage 3&#x02013;5.</p></sec><sec id="btm210035-sec-0014"><label>4.3</label><title>Preparation of NP&#x02010;siRNA treatments</title><p>NP&#x02010;siRNA treatments were prepared at 10&#x000d7; the final treatment concentration of 30 nM siRNA at a charge ratio&#x02009;=&#x02009;4 (+/&#x02212;) and added directly to cell culture media, as previously described.<xref rid="btm210035-bib-0016" ref-type="ref">16</xref> Please refer to &#x0201c;Supporting Information&#x0201d; for description of charge ratio. All untreated samples were given an equal treatment volume of 1&#x000d7; PBS. Where indicated, Lipofectamine 2000 (Invitrogen) was used as a positive control according to the manufacturer's protocol at 30 nM siRNA. All siRNA product numbers and sequences, if available, are listed in Supporting Information Table S3.</p></sec><sec id="btm210035-sec-0015"><label>4.4</label><title>Quantification of NP&#x02010;uptake via flow cytometry</title><p>hMSCs were seeded at 4,000 cells/cm<sup>2</sup> in 6 well plates and at 8,000, 16,000, and 32,000 cells/cm<sup>2</sup> in 12&#x02010;well plates. Larger plates were used for lower seeding densities to increase overall cell number. NPs were complexed with Silencer FAM&#x02010;labeled Negative Control No. 1 siRNA (Ambion) as previously described. After 24 hr incubation, hMSC were washed 3&#x000d7; with 1&#x000d7; PBS, trypsinized and transferred to 1.5 mL tubes and washed once more. hMSCs were resuspended in 100 &#x003bc;L flow buffer (0.5 w/v% bovine serum albumin, and 0.01 v/v% trypan blue to quench extracellular fluorescence<xref rid="btm210035-bib-0061" ref-type="ref">61</xref>) Samples were analyzed on an Accuri C6 flow cytometer. Propidium Iodide (PI, Molecular Probes) was added to each sample (1:500) immediately prior to analysis for discrimination of dead cells. 2,000 hMSC events were gated for analysis. Single stained samples were used for compensation and data was analyzed using FlowJo software.</p></sec><sec id="btm210035-sec-0016"><label>4.5</label><title>Microscopy</title><p>hMSCs were seeded on Nunc Lab&#x02010;Tek II chamber slides (Thermo Scientific) at 8,000 cells/cm<sup>2</sup> and treated as described previously for flow cytometry. After 24 hr, cells were fixed in 4% paraformaldehyde and mounted with ProLong Gold Antifade Mountant with DAPI (4&#x02032;,6&#x02010;diamidino&#x02010;2&#x02010;phenylindole, Invitrogen). Phase and fluorescence images were obtained using a Nikon Eclipse Ti2000 inverted microscope.</p></sec><sec id="btm210035-sec-0017"><label>4.6</label><title>Assessing NP&#x02010;mediated gene knockdown</title><p>hMSCs were seeded at 4,000 cells/cm<sup>2</sup> in 6 well plates and at 8,000, 16,000, and 32,000 cells/cm<sup>2</sup> in 12&#x02010;well plates and treated with NPs complexed with siRNA targeting <italic>PPIB</italic>. After 24 hr, media was replaced and hMSCs were incubated for an additional 24 hr. After 48 hr post&#x02010;treatment, RNA was purified using Homogenizer mini&#x02010;columns and E.Z.N.A. total RNA Kit I with on&#x02010;column DNase digestion (Omega Bio&#x02010;tek) according to the manufacturer's protocol. Isolated RNA was quantified and quality was monitored using a NanoVue (GE Healthcare). All 260/280 values were greater than 1.8, indicating high purity RNA. RNA concentration among triplicate samples was normalized, and then reverse transcribed using iScript cDNA Synthesis Kit (Bio&#x02010;Rad) according to the manufacturer's protocol. cDNA was diluted to 1 ng/&#x003bc;L RNA equivalence. 2 &#x003bc;L of diluted cDNA was used in each qRT&#x02010;PCR reaction. qRT&#x02010;PCR was performed using Sso&#x02010;Fast EvaGreen Supermix (Bio&#x02010;Rad) on a CFX96 Real&#x02010;time PCR detection System (Bio&#x02010;Rad). Forward and reverse primers were used at 500 nM (sequences are listed in Table S4). qRT&#x02010;PCR cycling parameters were as follows: hold at 95&#x000b0;C for 5 min for enzyme activation, then 40 cycles of 95&#x000b0;C for 5 s. denaturing, 55&#x000b0;C (GAPDH) or 60&#x000b0;C (PPIB) for 60 s. annealing, and 72&#x000b0;C for 20 s. extension. Primer efficiencies were calculated from each well as previously described<xref rid="btm210035-bib-0062" ref-type="ref">62</xref> using 3 and 6% of the maximum amplification to set two thresholds. Relative expression was calculated using the Pfaffl equation relative to untreated samples and normalized to GAPDH expression.<xref rid="btm210035-bib-0063" ref-type="ref">63</xref>
+</p></sec><sec id="btm210035-sec-0018"><label>4.7</label><title>Relative quantification of hMSC DNA content</title><p>hMSCs were treated with NPs complexed to ON&#x02010;TARGETplus Non&#x02010;targeting Control Pool siRNA (Dharmacon) as described previously. 24 hr later, cells were washed twice with 1&#x000d7; PBS and lysed using 1&#x000d7; Luciferase Cell Culture Lysis reagent (Promega) in 1&#x000d7; PBS. Lysates were sonicated for 10 s using a probe sonicator. 10 &#x003bc;L of cell lysates were diluted in 90 &#x003bc;L 1&#x000d7; TE buffer and DNA content was quantified using Quant&#x02010;iT PicoGreen dsDNA Assay Kit (Invitrogen) according to the manufacturer's protocol.</p></sec><sec id="btm210035-sec-0019"><label>4.8</label><title>Effect of NP&#x02010;siRNA treatment on hMSC metabolic activity</title><p>Metabolic activity was assessed in treated hMSCs using Alamar Blue Cell Viability Reagent (Molecular Probes) as previously described.<xref rid="btm210035-bib-0016" ref-type="ref">16</xref> Metabolic activity was normalized to Day 0 samples that were taken immediately before NP&#x02010;siRNA treatments were applied.</p></sec><sec id="btm210035-sec-0020"><label>4.9</label><title>Quantification of hMSC proliferation after NP&#x02010;siRNA treatment</title><p>Treated hMSC proliferation was measured using Click&#x02010;iT Plus EdU Alexa Fluor 647 Flow Cytometry Assay Kit (Molecular Probes). hMSCs were incubated with 50 &#x003bc;M EdU for 4 hr and staining and detection was carried out according to the manufacturer's protocol. Samples were analyzed on an Accuri C6 flow cytometer. It should be noted that no FAM&#x02010;siRNA signal was detectable, in any treated sample, indicating the FAM label may have been compromised during the EdU staining or detection. 5,000&#x02013;10,000 hMSC events were gated, and FlowJo software was used for analysis.</p></sec><sec id="btm210035-sec-0021"><label>4.10</label><title>Quantification of hMSC apoptosis after NP&#x02010;siRNA treatment</title><p>hMSCs were treated as described in &#x0201c;Quantification of NP&#x02010;uptake via flow cytometry.&#x0201d; At 6 and 24 hr post&#x02010;treatment, hMSC were washed twice with 1&#x000d7; PBS and the presence of phosphatidylserine residues was detected using an Annexin V Alexa Fluor 647 conjugate (Molecular Probes) according to the manufacturer's protocol. Positive controls for apoptosis were prepared by incubating hMSCs for 20 min at 55&#x000b0;C. PI (Molecular Probes) was added to each sample (1:500 dilution) immediately prior to analysis to enable discrimination of early and late apoptotic cells. Samples were analyzed on an Accuri C6 flow cytometer. 5,000&#x02010;10,000 hMSC events were gated, and FlowJo software was used for analysis. Single stained samples were used for compensation and fluorescence minus one controls were used to establish gate boundaries.</p></sec><sec id="btm210035-sec-0022"><label>4.11</label><title>Stranded mRNA seq and NGS processing and alignment</title><p>hMSCs were seeded at 8,000 cells/cm<sup>2</sup> in 6 well plates and incubated for 24 hr with NPs complexed with ON&#x02010;TARGETplus Non&#x02010;targeting Control Pool siRNA (Dharmacon) as described in &#x0201c;Preparation of NP&#x02010;siRNA treatments.&#x0201d; RNA was purified as described in &#x0201c;Assessing NP&#x02010;mediated gene knockdown&#x0201d; and submitted to the University of Rochester Medical Center's UR Genomics Research Center. RNA concentration was determined with the NanoDrop 1000 spectrophotometer (NanoDrop) and RNA quality was assessed with the Agilent Bioanalyzer (Agilent). Illumina compatible library construction was performed using the TruSeq Stranded mRNA Sample Preparation Kit (Illumina) according to manufacturer's protocols. Briefly, mRNA was purified from 100 ng total RNA with oligo&#x02010;dT magnetic beads and chemically fragmented. First&#x02010;strand cDNA synthesis was performed using random hexamer priming followed by second&#x02010;strand cDNA synthesis using dUTP. End repair and 3&#x02032; adenylation was performed on the double stranded cDNA. Illumina adaptors were ligated to both ends of the cDNA, purified by gel electrophoresis and amplified with PCR primers specific to the adaptor sequences to generate amplicons of approximately 200&#x02013;500 bp in size. The amplified libraries were hybridized to the Illumina single end flow cell and amplified using the cBot (Illumina) at a concentration of 8 pM per lane. Single end reads of 100 nt were generated for each sample and aligned to the human reference genome (GRCh38.p2). Raw reads were generated from an Illumina HiSeq2500 sequencer, and all sequencing data discussed in this publication have been deposited in NCBI's Gene Expression Omnibus (GEO)<xref rid="btm210035-bib-0064" ref-type="ref">64</xref>. All files are accessible through GEO Series accession number GSE87497 (<ext-link ext-link-type="uri" xlink:href="https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87497">https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE87497</ext-link>).</p></sec><sec id="btm210035-sec-0023"><label>4.12</label><title>Differential expression and pathway analysis</title><p>Raw counts were normalized using fragments per kilobase of transcript per million (FPKM). FPKM values less than 10 across all replicated and conditions were removed from further analysis. Differential expression analysis on FPKM normalized counts was performed using Cufflinks version 2.0.2 with the gencode 23 human gene annotations.<xref rid="btm210035-bib-0065" ref-type="ref">65</xref>
+</p><p>Enrichment analysis was performed to identify signaling pathways enriched in the differentially expressed genes DAVID functional annotation tool.<xref rid="btm210035-bib-0026" ref-type="ref">26</xref> All heat&#x02010;maps were plotted using the function &#x0201c;heatmap.2&#x0201d; from the R package gplots.<xref rid="btm210035-bib-0066" ref-type="ref">66</xref> Adjustment of <italic>p</italic>&#x02010;values is performed by Benjamini&#x02010;Hochberg wherever indicated. All analysis was performed in R.<xref rid="btm210035-bib-0067" ref-type="ref">67</xref>
+</p></sec><sec id="btm210035-sec-0024"><label>4.13</label><title>Statistical analysis</title><p>Each experiment was performed in triplicate in two independent experiments unless otherwise indicated. One&#x02010; or two&#x02010;way ANOVA was used with the appropriate post hoc test as indicated to assess significant differences in means (&#x003b1;&#x02009;=&#x02009;0.05). Statistical analyses were performed using Prism6.0 unless otherwise indicated. For all plots, the mean is represented with standard deviation shown as error bars.</p></sec></sec><sec id="btm210035-sec-0026"><title>Conflict of interests</title><p>The authors have no conflicts of interest related to this work.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>
+<bold>FIGURE S1</bold> Critical charge ratio (CR) is determined via gel electrophoresis by loading varying NP:siRNA ratios at different theoretical charge ratios. Critical charge ratio is the CR at which the free siRNA band is absent, indicating complete complexation with NP. (A) Image obtained after running and staining gel under illumination from a UV table. (B) Lane intensity plots produced in ImageJ. Bright bands are represented as negative peaks. (C) Band intensities from Image J and subsequent % siRNA complexation defined as the 100&#x02010;(band intensity/free siRNA band inteinsity*100). ND&#x02009;=&#x02009;not detectable</p><p>
+<bold>TABLE S1</bold> Polymer characterization. Verified by GPC<sup>1</sup>, Verified by NMR<sup>2</sup>
+</p><p>
+<bold>TABLE S2</bold> NP characterization</p><p>
+<bold>TABLE S3</bold> siRNAs used in analysis herein</p><p>
+<bold>TABLE S4</bold> Primer sequences used in this study</p><p>
+<bold>TABLE S5</bold>
+<italic>p</italic>&#x02010;values adjusted using Benjamini&#x02010;Hochberg method depicting pathways enriched in upregulated and downregulated genes. See supplementary spreadsheet, &#x0201c;Supplemental_Table_S5.xlsx&#x0201d;</p><p>
+<bold>TABLE S6</bold> Differentially regulated genes involved in innate immune signaling pathways from RNAseq analysis listing official gene symbol, chromosomal locus, log<sub>2</sub>(fold&#x02010;change) of NP&#x02010;siRNA treated vs. untreated (NT) and FDR adjusted <italic>p</italic>&#x02010;value. *&#x02009;=&#x02009;no detectable expression in untreated samples. Italics indicate gene encoding a receptor</p></caption><media xlink:href="BTM2-1-193-s001.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="btm210035-sec-0025"><title>Acknowledgments</title><p>The authors would like to thank the University of Rochester Genomics Research Center for RNAseq, the University of Rochester Medical Center's Flow Cytometry Core for valuable guidance with training and analysis, and Dr. James McGrath for facilities use.</p></ack><ref-list content-type="cited-references"><title>Literature cited</title><ref id="btm210035-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="btm210035-cit-0001">
+<string-name>
+<surname>Carthew</surname>
+<given-names>RW</given-names>
+</string-name>, 
+<string-name>
+<surname>Sontheimer</surname>
+<given-names>EJ.</given-names>
+</string-name>
+<article-title>Origins and mechanisms of miRNAs and siRNAs</article-title>. <source>Cell.</source>
+<year>2009</year>;<volume>136</volume>(<issue>4</issue>):<fpage>642</fpage>&#x02013;<lpage>655</lpage>. 
+<pub-id pub-id-type="pmid">19239886</pub-id></mixed-citation></ref><ref id="btm210035-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="btm210035-cit-0002">
+<string-name>
+<surname>Ha</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>VN.</given-names>
+</string-name>
+<article-title>Regulation of microRNA biogenesis</article-title>. <source>Nat Rev Mol Cell Biol.</source>
+<year>2014</year>;<volume>15</volume>(<issue>8</issue>):<fpage>509</fpage>&#x02013;<lpage>524</lpage>.
+<pub-id pub-id-type="pmid">25027649</pub-id></mixed-citation></ref><ref id="btm210035-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="btm210035-cit-0003">
+<string-name>
+<surname>Wilson</surname>
+<given-names>RC</given-names>
+</string-name>, 
+<string-name>
+<surname>Doudna</surname>
+<given-names>JA.</given-names>
+</string-name>
+<article-title>Molecular mechanisms of RNA interference</article-title>. <source>Annu Rev Biophys.</source>
+<year>2013</year>;<volume>42</volume>:<fpage>217</fpage>&#x02013;<lpage>239</lpage>.
+<pub-id pub-id-type="pmid">23654304</pub-id></mixed-citation></ref><ref id="btm210035-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="btm210035-cit-0004">
+<string-name>
+<surname>Lam</surname>
+<given-names>JK</given-names>
+</string-name>, 
+<string-name>
+<surname>Chow</surname>
+<given-names>MY</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhang</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Leung</surname>
+<given-names>SW.</given-names>
+</string-name>
+<article-title>siRNA versus miRNA as therapeutics for gene silencing</article-title>. <source>Mol Ther Nucleic Acids.</source>
+<year>2015</year>;<volume>4</volume>:<fpage>e252</fpage>.
+<pub-id pub-id-type="pmid">26372022</pub-id></mixed-citation></ref><ref id="btm210035-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="btm210035-cit-0005">
+<string-name>
+<surname>Wittrup</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Lieberman</surname>
+<given-names>J.</given-names>
+</string-name>
+<article-title>Knocking down disease: a progress report on siRNA therapeutics</article-title>. <source>Nat Rev Genet. Genet.</source>
+<year>2015</year>;<volume>16</volume>(<issue>9</issue>):<fpage>543</fpage>&#x02013;<lpage>552</lpage>.
+</mixed-citation></ref><ref id="btm210035-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="btm210035-cit-0006">
+<string-name>
+<surname>Dong</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Yang</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Guo</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name>
+<surname>Kang</surname>
+<given-names>F.</given-names>
+</string-name>
+<article-title>MicroRNAs regulate osteogenesis and chondrogenesis</article-title>. <source>Biochem Biophys Res Commun.</source>
+<year>2012</year>;<volume>418</volume>(<issue>4</issue>):<fpage>587</fpage>&#x02013;<lpage>591</lpage>.
+<pub-id pub-id-type="pmid">22306817</pub-id></mixed-citation></ref><ref id="btm210035-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="btm210035-cit-0007">
+<string-name>
+<surname>Gao</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Yang</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Han</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>MicroRNA expression during osteogenic differentiation of human multipotent mesenchymal stromal cells from bone marrow</article-title>. <source>J Cell Biochem.</source>
+<year>2011</year>;<volume>112</volume>(<issue>7</issue>):<fpage>1844</fpage>&#x02013;<lpage>1856</lpage>.
+<pub-id pub-id-type="pmid">21416501</pub-id></mixed-citation></ref><ref id="btm210035-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="btm210035-cit-0008">
+<string-name>
+<surname>Guo</surname>
+<given-names>L</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhao</surname>
+<given-names>RC</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>Y.</given-names>
+</string-name>
+<article-title>The role of microRNAs in self&#x02010;renewal and differentiation of mesenchymal stem cells</article-title>. <source>Exp Hematol.</source>
+<year>2011</year>;<volume>39</volume>(<issue>6</issue>):<fpage>608</fpage>&#x02013;<lpage>616</lpage>.
+<pub-id pub-id-type="pmid">21288479</pub-id></mixed-citation></ref><ref id="btm210035-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="btm210035-cit-0009">
+<string-name>
+<surname>Nguyen</surname>
+<given-names>MK</given-names>
+</string-name>, 
+<string-name>
+<surname>Jeon</surname>
+<given-names>O</given-names>
+</string-name>, 
+<string-name>
+<surname>Krebs</surname>
+<given-names>MD</given-names>
+</string-name>, 
+<string-name>
+<surname>Schapira</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Alsberg</surname>
+<given-names>E.</given-names>
+</string-name>
+<article-title>Sustained localized presentation of RNA interfering molecules from in situ forming hydrogels to guide stem cell osteogenic differentiation</article-title>. <source>Biomaterials.</source>;<volume>35</volume>(<issue>24</issue>):<fpage>6278</fpage>&#x02013;<lpage>6286</lpage>.
+<pub-id pub-id-type="pmid">24831973</pub-id></mixed-citation></ref><ref id="btm210035-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="btm210035-cit-0010">
+<string-name>
+<surname>Yau</surname>
+<given-names>WWY</given-names>
+</string-name>, 
+<string-name>
+<surname>Rujitanaroj</surname>
+<given-names>P&#x02010;O</given-names>
+</string-name>, 
+<string-name>
+<surname>Lam</surname>
+<given-names>L</given-names>
+</string-name>, 
+<string-name>
+<surname>Chew</surname>
+<given-names>SY.</given-names>
+</string-name>
+<article-title>Directing stem cell fate by controlled RNA interference</article-title>. <source>Biomaterials.</source>
+<year>2012</year>;<volume>33</volume>(<issue>9</issue>):<fpage>2608</fpage>&#x02013;<lpage>2628</lpage>.
+<pub-id pub-id-type="pmid">22209557</pub-id></mixed-citation></ref><ref id="btm210035-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="btm210035-cit-0011">
+<string-name>
+<surname>Thomas</surname>
+<given-names>CE</given-names>
+</string-name>, 
+<string-name>
+<surname>Ehrhardt</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Kay</surname>
+<given-names>MA.</given-names>
+</string-name>
+<article-title>Progress and problems with the use of viral vectors for gene therapy</article-title>. <source>Nat Rev Genet.</source>
+<year>2003</year>;<volume>4</volume>(<issue>5</issue>):<fpage>346</fpage>&#x02013;<lpage>358</lpage>.
+<pub-id pub-id-type="pmid">12728277</pub-id></mixed-citation></ref><ref id="btm210035-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="btm210035-cit-0012">
+<string-name>
+<surname>Bessis</surname>
+<given-names>N</given-names>
+</string-name>, 
+<string-name>
+<surname>GarciaCozar</surname>
+<given-names>FJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Boissier</surname>
+<given-names>MC.</given-names>
+</string-name>
+<article-title>Immune responses to gene therapy vectors: influence on vector function and effector mechanisms</article-title>. <source>Gene Ther.</source>
+<year>2004</year>;<volume>11(suppl1)</volume>:<fpage>S10</fpage>&#x02013;<lpage>S17</lpage>.
+<pub-id pub-id-type="pmid">15454952</pub-id></mixed-citation></ref><ref id="btm210035-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="btm210035-cit-0013">
+<string-name>
+<surname>Whitehead</surname>
+<given-names>KA</given-names>
+</string-name>, 
+<string-name>
+<surname>Langer</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Anderson</surname>
+<given-names>DG.</given-names>
+</string-name>
+<article-title>Knocking down barriers: advances in siRNA delivery</article-title>. <source>Nat Rev Drug Discov.</source>
+<year>2009</year>;<volume>8</volume>(<issue>2</issue>):<fpage>129</fpage>&#x02013;<lpage>138</lpage>.
+<pub-id pub-id-type="pmid">19180106</pub-id></mixed-citation></ref><ref id="btm210035-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="btm210035-cit-0014">
+<string-name>
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Lu</surname>
+<given-names>Z</given-names>
+</string-name>, 
+<string-name>
+<surname>Wientjes</surname>
+<given-names>MG</given-names>
+</string-name>, 
+<string-name>
+<surname>Au</surname>
+<given-names>JL.</given-names>
+</string-name>
+<article-title>Delivery of siRNA therapeutics: barriers and carriers</article-title>. <source>AAPS J.</source>
+<year>2010</year>;<volume>12</volume>(<issue>4</issue>):<fpage>492</fpage>&#x02013;<lpage>503</lpage>.
+<pub-id pub-id-type="pmid">20544328</pub-id></mixed-citation></ref><ref id="btm210035-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="btm210035-cit-0015">
+<string-name>
+<surname>Convertine</surname>
+<given-names>AJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Benoit</surname>
+<given-names>DS</given-names>
+</string-name>, 
+<string-name>
+<surname>Duvall</surname>
+<given-names>CL</given-names>
+</string-name>, 
+<string-name>
+<surname>Hoffman</surname>
+<given-names>AS</given-names>
+</string-name>, 
+<string-name>
+<surname>Stayton</surname>
+<given-names>PS.</given-names>
+</string-name>
+<article-title>Development of a novel endosomolytic diblock copolymer for siRNA delivery</article-title>. <source>J Control Release.</source>
+<year>2009</year>;<volume>133</volume>(<issue>3</issue>):<fpage>221</fpage>&#x02013;<lpage>229</lpage>.
+<pub-id pub-id-type="pmid">18973780</pub-id></mixed-citation></ref><ref id="btm210035-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="btm210035-cit-0016">
+<string-name>
+<surname>Benoit</surname>
+<given-names>DSW</given-names>
+</string-name>, 
+<string-name>
+<surname>Boutin</surname>
+<given-names>ME.</given-names>
+</string-name>
+<article-title>Controlling mesenchymal stem cell gene expression using polymer&#x02010;mediated delivery of siRNA</article-title>. <source>Biomacromolecules.</source>
+<year>2012</year>;<volume>13</volume>(<issue>11</issue>):<fpage>3841</fpage>&#x02013;<lpage>3849</lpage>.
+<pub-id pub-id-type="pmid">23020123</pub-id></mixed-citation></ref><ref id="btm210035-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="btm210035-cit-0017">
+<string-name>
+<surname>Arany</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Benoit</surname>
+<given-names>DS</given-names>
+</string-name>, 
+<string-name>
+<surname>Dewhurst</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Ovitt</surname>
+<given-names>CE.</given-names>
+</string-name>
+<article-title>Nanoparticle&#x02010;mediated gene silencing confers radioprotection to salivary glands in vivo</article-title>. <source>Mol Ther.</source>
+<year>2013</year>;<volume>21</volume>(<issue>6</issue>):<fpage>1182</fpage>&#x02013;<lpage>1194</lpage>.
+<pub-id pub-id-type="pmid">23511246</pub-id></mixed-citation></ref><ref id="btm210035-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="btm210035-cit-0018">
+<string-name>
+<surname>Benoit</surname>
+<given-names>DS</given-names>
+</string-name>, 
+<string-name>
+<surname>Srinivasan</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Shubin</surname>
+<given-names>AD</given-names>
+</string-name>, 
+<string-name>
+<surname>Stayton</surname>
+<given-names>PS.</given-names>
+</string-name>
+<article-title>Synthesis of folate&#x02010;functionalized RAFT polymers for targeted siRNA delivery</article-title>. <source>Biomacromolecules.</source>
+<year>2011</year>;<volume>12</volume>(<issue>7</issue>):<fpage>2708</fpage>&#x02013;<lpage>2714</lpage>.
+<pub-id pub-id-type="pmid">21634800</pub-id></mixed-citation></ref><ref id="btm210035-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="btm210035-cit-0019">
+<string-name>
+<surname>Nelson</surname>
+<given-names>CE</given-names>
+</string-name>, 
+<string-name>
+<surname>Kintzing</surname>
+<given-names>JR</given-names>
+</string-name>, 
+<string-name>
+<surname>Hanna</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Shannon</surname>
+<given-names>JM</given-names>
+</string-name>, 
+<string-name>
+<surname>Gupta</surname>
+<given-names>MK</given-names>
+</string-name>, 
+<string-name>
+<surname>Duvall</surname>
+<given-names>CL.</given-names>
+</string-name>
+<article-title>Balancing cationic and hydrophobic content of PEGylated siRNA polyplexes enhances endosome escape, stability, blood circulation time, and bioactivity in vivo</article-title>. <source>ACS Nano.</source>
+<year>2013</year>;<volume>7</volume>(<issue>10</issue>):<fpage>8870</fpage>&#x02013;<lpage>8880</lpage>.
+<pub-id pub-id-type="pmid">24041122</pub-id></mixed-citation></ref><ref id="btm210035-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="btm210035-cit-0020">
+<string-name>
+<surname>Jackson</surname>
+<given-names>AL</given-names>
+</string-name>, 
+<string-name>
+<surname>Linsley</surname>
+<given-names>PS.</given-names>
+</string-name>
+<article-title>Recognizing and avoiding siRNA off&#x02010;target effects for target identification and therapeutic application</article-title>. <source>Nat Rev Drug Discov.</source>
+<year>2010</year>;<volume>9</volume>(<issue>1</issue>):<fpage>57</fpage>&#x02013;<lpage>67</lpage>.
+<pub-id pub-id-type="pmid">20043028</pub-id></mixed-citation></ref><ref id="btm210035-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="btm210035-cit-0021">
+<string-name>
+<surname>Baum</surname>
+<given-names>P</given-names>
+</string-name>, 
+<string-name>
+<surname>Fundel&#x02010;Clemens</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Kreuz</surname>
+<given-names>S</given-names>
+</string-name>, et al. <article-title>Off&#x02010;target analysis of control siRNA molecules reveals important differences in the cytokine profile and inflammation response of human fibroblasts</article-title>. <source>Oligonucleotides.</source>
+<year>2010</year>;<volume>20</volume>(<issue>1</issue>):<fpage>17</fpage>&#x02013;<lpage>26</lpage>.
+<pub-id pub-id-type="pmid">20038253</pub-id></mixed-citation></ref><ref id="btm210035-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="btm210035-cit-0022">
+<string-name>
+<surname>Xu</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Mirmalek&#x02010;Sani</surname>
+<given-names>SH</given-names>
+</string-name>, 
+<string-name>
+<surname>Lin</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Oreffo</surname>
+<given-names>RO.</given-names>
+</string-name>
+<article-title>Adipocyte differentiation induced using nonspecific siRNA controls in cultured human mesenchymal stem cells</article-title>. <source>RNA.</source>
+<year>2007</year>;<volume>13</volume>(<issue>8</issue>):<fpage>1179</fpage>&#x02013;<lpage>1183</lpage>.
+<pub-id pub-id-type="pmid">17556710</pub-id></mixed-citation></ref><ref id="btm210035-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="btm210035-cit-0023">
+<string-name>
+<surname>Xue</surname>
+<given-names>HY</given-names>
+</string-name>, 
+<string-name>
+<surname>Liu</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Wong</surname>
+<given-names>HL.</given-names>
+</string-name>
+<article-title>Nanotoxicity: a key obstacle to clinical translation of siRNA&#x02010;based nanomedicine</article-title>. <source>Nanomedicine.</source>
+<year>2014</year>;<volume>9</volume>(<issue>2</issue>):<fpage>295</fpage>&#x02013;<lpage>312</lpage>.
+<pub-id pub-id-type="pmid">24552562</pub-id></mixed-citation></ref><ref id="btm210035-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="btm210035-cit-0024">
+<string-name>
+<surname>Lv</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhang</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Cui</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Yan</surname>
+<given-names>J.</given-names>
+</string-name>
+<article-title>Toxicity of cationic lipids and cationic polymers in gene delivery</article-title>. <source>J Control Release.</source>
+<year>2006</year>;<volume>114</volume>(<issue>1</issue>):<fpage>100</fpage>&#x02013;<lpage>109</lpage>.
+<pub-id pub-id-type="pmid">16831482</pub-id></mixed-citation></ref><ref id="btm210035-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="btm210035-cit-0025">
+<string-name>
+<surname>Akhtar</surname>
+<given-names>S.</given-names>
+</string-name>
+<article-title>Cationic nanosystems for the delivery of small interfering ribonucleic acid therapeutics: a focus on toxicogenomics</article-title>. <source>Expert Opin Drug Metab Toxicol.</source>
+<year>2010</year>;<volume>6</volume>(<issue>11</issue>):<fpage>1347</fpage>&#x02013;<lpage>1362</lpage>.
+<pub-id pub-id-type="pmid">20929276</pub-id></mixed-citation></ref><ref id="btm210035-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="btm210035-cit-0026">
+<string-name>
+<surname>Huang da</surname>
+<given-names>W</given-names>
+</string-name>, 
+<string-name>
+<surname>Sherman</surname>
+<given-names>BT</given-names>
+</string-name>, 
+<string-name>
+<surname>Lempicki</surname>
+<given-names>RA.</given-names>
+</string-name>
+<article-title>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</article-title>. <source>Nat Protoc.</source>
+<year>2009</year>;<volume>4</volume>(<issue>1</issue>):<fpage>44</fpage>&#x02013;<lpage>57</lpage>.
+<pub-id pub-id-type="pmid">19131956</pub-id></mixed-citation></ref><ref id="btm210035-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="btm210035-cit-0027">
+<string-name>
+<surname>Kesharwani</surname>
+<given-names>P</given-names>
+</string-name>, 
+<string-name>
+<surname>Gajbhiye</surname>
+<given-names>V</given-names>
+</string-name>, 
+<string-name>
+<surname>Jain</surname>
+<given-names>NK.</given-names>
+</string-name>
+<article-title>A review of nanocarriers for the delivery of small interfering RNA</article-title>. <source>Biomaterials.</source>
+<year>2012</year>;<volume>33</volume>(<issue>29</issue>):<fpage>7138</fpage>&#x02013;<lpage>7150</lpage>.
+<pub-id pub-id-type="pmid">22796160</pub-id></mixed-citation></ref><ref id="btm210035-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="btm210035-cit-0028">
+<string-name>
+<surname>Joo</surname>
+<given-names>MK</given-names>
+</string-name>, 
+<string-name>
+<surname>Yhee</surname>
+<given-names>JY</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>SH</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>K.</given-names>
+</string-name>
+<article-title>The potential and advances in RNAi therapy: chemical and structural modifications of siRNA molecules and use of biocompatible nanocarriers</article-title>. <source>J Control Release.</source>
+<year>2014</year>;<volume>193</volume>:<fpage>113</fpage>&#x02013;<lpage>121</lpage>.
+<pub-id pub-id-type="pmid">24862319</pub-id></mixed-citation></ref><ref id="btm210035-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="btm210035-cit-0029">
+<string-name>
+<surname>Gandhi</surname>
+<given-names>NS</given-names>
+</string-name>, 
+<string-name>
+<surname>Tekade</surname>
+<given-names>RK</given-names>
+</string-name>, 
+<string-name>
+<surname>Chougule</surname>
+<given-names>MB.</given-names>
+</string-name>
+<article-title>Nanocarrier mediated delivery of siRNA/miRNA in combination with chemotherapeutic agents for cancer therapy: current progress and advances</article-title>. <source>J. Control Release.</source>
+<year>2014</year>;<volume>194</volume>:<fpage>238</fpage>&#x02013;<lpage>256</lpage>.
+<pub-id pub-id-type="pmid">25204288</pub-id></mixed-citation></ref><ref id="btm210035-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="btm210035-cit-0030">
+<string-name>
+<surname>Benoit</surname>
+<given-names>DS</given-names>
+</string-name>, 
+<string-name>
+<surname>Henry</surname>
+<given-names>SM</given-names>
+</string-name>, 
+<string-name>
+<surname>Shubin</surname>
+<given-names>AD</given-names>
+</string-name>, 
+<string-name>
+<surname>Hoffman</surname>
+<given-names>AS</given-names>
+</string-name>, 
+<string-name>
+<surname>Stayton</surname>
+<given-names>PS.</given-names>
+</string-name>
+<article-title>pH&#x02010;responsive polymeric sirna carriers sensitize multidrug resistant ovarian cancer cells to doxorubicin via knockdown of polo&#x02010;like kinase 1</article-title>. <source>Mol Pharm.</source>
+<year>2010</year>;<volume>7</volume>(<issue>2</issue>):<fpage>442</fpage>&#x02013;<lpage>455</lpage>.
+<pub-id pub-id-type="pmid">20073508</pub-id></mixed-citation></ref><ref id="btm210035-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="btm210035-cit-0031">
+<string-name>
+<surname>Wang</surname>
+<given-names>YK</given-names>
+</string-name>, 
+<string-name>
+<surname>Yu</surname>
+<given-names>X</given-names>
+</string-name>, 
+<string-name>
+<surname>Cohen</surname>
+<given-names>DM</given-names>
+</string-name>, et al. <article-title>Bone morphogenetic protein&#x02010;2&#x02010;induced signaling and osteogenesis is regulated by cell shape, RhoA/ROCK, and cytoskeletal tension</article-title>. <source>Stem Cells Dev.</source>
+<year>2012</year>;<volume>21</volume>(<issue>7</issue>):<fpage>1176</fpage>&#x02013;<lpage>1186</lpage>.
+<pub-id pub-id-type="pmid">21967638</pub-id></mixed-citation></ref><ref id="btm210035-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="btm210035-cit-0032">
+<string-name>
+<surname>McBeath</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Pirone</surname>
+<given-names>DM</given-names>
+</string-name>, 
+<string-name>
+<surname>Nelson</surname>
+<given-names>CM</given-names>
+</string-name>, 
+<string-name>
+<surname>Bhadriraju</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Chen</surname>
+<given-names>CS.</given-names>
+</string-name>
+<article-title>Cell shape, cytoskeletal tension, and RhoA regulate stem cell lineage commitment</article-title>. <source>Dev Cell.</source>
+<year>2004</year>;<volume>6</volume>(<issue>4</issue>):<fpage>483</fpage>&#x02013;<lpage>495</lpage>.
+<pub-id pub-id-type="pmid">15068789</pub-id></mixed-citation></ref><ref id="btm210035-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="btm210035-cit-0033">
+<string-name>
+<surname>Neuberg</surname>
+<given-names>P</given-names>
+</string-name>, 
+<string-name>
+<surname>Kichler</surname>
+<given-names>A.</given-names>
+</string-name>
+<article-title>Recent developments in nucleic acid delivery with polyethylenimines</article-title>. <source>Adv Genet.</source>
+<year>2014</year>;<volume>88</volume>:<fpage>263</fpage>&#x02013;<lpage>288</lpage>.
+<pub-id pub-id-type="pmid">25409609</pub-id></mixed-citation></ref><ref id="btm210035-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="btm210035-cit-0034">
+<string-name>
+<surname>Hobel</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Aigner</surname>
+<given-names>A.</given-names>
+</string-name>
+<article-title>Polyethylenimines for siRNA and miRNA delivery in vivo</article-title>. <source>Wiley Interdiscip Rev Nanomed Nanobiotechnol.</source>
+<year>2013</year>;<volume>5</volume>(<issue>5</issue>):<fpage>484</fpage>&#x02013;<lpage>501</lpage>.
+<pub-id pub-id-type="pmid">23720168</pub-id></mixed-citation></ref><ref id="btm210035-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="btm210035-cit-0035">
+<string-name>
+<surname>Nimesh</surname>
+<given-names>S.</given-names>
+</string-name>
+<article-title>Polyethylenimine as a promising vector for targeted siRNA delivery</article-title>. <source>Curr Clin Pharmacol.</source>
+<year>2012</year>;<volume>7</volume>(<issue>2</issue>):<fpage>121</fpage>&#x02013;<lpage>130</lpage>.
+<pub-id pub-id-type="pmid">22432843</pub-id></mixed-citation></ref><ref id="btm210035-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="btm210035-cit-0036">
+<string-name>
+<surname>Liu</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Xue</surname>
+<given-names>W</given-names>
+</string-name>, 
+<string-name>
+<surname>Ke</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Xie</surname>
+<given-names>MQ</given-names>
+</string-name>, 
+<string-name>
+<surname>Ma</surname>
+<given-names>D.</given-names>
+</string-name>
+<article-title>Star&#x02010;shaped cyclodextrin&#x02010;poly(l&#x02010;lysine) derivative co&#x02010;delivering docetaxel and MMP&#x02010;9 siRNA plasmid in cancer therapy</article-title>. <source>Biomaterials.</source>
+<year>2014</year>;<volume>35</volume>(<issue>12</issue>):<fpage>3865</fpage>&#x02013;<lpage>3872</lpage>.
+<pub-id pub-id-type="pmid">24486215</pub-id></mixed-citation></ref><ref id="btm210035-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="btm210035-cit-0037">
+<string-name>
+<surname>Guo</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Cheng</surname>
+<given-names>WP</given-names>
+</string-name>, 
+<string-name>
+<surname>Gu</surname>
+<given-names>J</given-names>
+</string-name>, et al. <article-title>Systemic delivery of therapeutic small interfering RNA using a pH&#x02010;triggered amphiphilic poly&#x02010;L&#x02010;lysine nanocarrier to suppress prostate cancer growth in mice</article-title>. <source>Eur J Pharm Sci.</source>
+<year>2012</year>;<volume>45</volume>(<issue>5</issue>):<fpage>521</fpage>&#x02013;<lpage>532</lpage>.
+<pub-id pub-id-type="pmid">22186295</pub-id></mixed-citation></ref><ref id="btm210035-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="btm210035-cit-0038">
+<string-name>
+<surname>Hunter</surname>
+<given-names>AC.</given-names>
+</string-name>
+<article-title>Molecular hurdles in polyfectin design and mechanistic background to polycation induced cytotoxicity</article-title>. <source>Adv Drug Deliv Rev.</source>
+<year>2006</year>;<volume>58</volume>(<issue>14</issue>):<fpage>1523</fpage>&#x02013;<lpage>1531</lpage>.
+<pub-id pub-id-type="pmid">17079050</pub-id></mixed-citation></ref><ref id="btm210035-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="btm210035-cit-0039">
+<string-name>
+<surname>Rampersad</surname>
+<given-names>SN.</given-names>
+</string-name>
+<article-title>Multiple applications of Alamar Blue as an indicator of metabolic function and cellular health in cell viability bioassays</article-title>. <source>Sensors (Basel).</source>
+<year>2012</year>;<volume>12</volume>(<issue>9</issue>):<fpage>12347</fpage>&#x02013;<lpage>12360</lpage>.
+<pub-id pub-id-type="pmid">23112716</pub-id></mixed-citation></ref><ref id="btm210035-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="btm210035-cit-0040">
+<string-name>
+<surname>Quent</surname>
+<given-names>VM</given-names>
+</string-name>, 
+<string-name>
+<surname>Loessner</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Friis</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Reichert</surname>
+<given-names>JC</given-names>
+</string-name>, 
+<string-name>
+<surname>Hutmacher</surname>
+<given-names>DW.</given-names>
+</string-name>
+<article-title>Discrepancies between metabolic activity and DNA content as tool to assess cell proliferation in cancer research</article-title>. <source>J Cell Mol Med.</source>
+<year>2010</year>;<volume>14</volume>(<issue>4</issue>):<fpage>1003</fpage>&#x02013;<lpage>1013</lpage>.
+<pub-id pub-id-type="pmid">20082656</pub-id></mixed-citation></ref><ref id="btm210035-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="btm210035-cit-0041">
+<string-name>
+<surname>Kim</surname>
+<given-names>JA</given-names>
+</string-name>, 
+<string-name>
+<surname>Aberg</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Salvati</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Dawson</surname>
+<given-names>KA.</given-names>
+</string-name>
+<article-title>Role of cell cycle on the cellular uptake and dilution of nanoparticles in a cell population</article-title>. <source>Nat Nanotechnol.</source>
+<year>2012</year>;<volume>7</volume>(<issue>1</issue>):<fpage>62</fpage>&#x02013;<lpage>68</lpage>.
+</mixed-citation></ref><ref id="btm210035-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="btm210035-cit-0042">
+<string-name>
+<surname>Stern</surname>
+<given-names>ST</given-names>
+</string-name>, 
+<string-name>
+<surname>Adiseshaiah</surname>
+<given-names>PP</given-names>
+</string-name>, 
+<string-name>
+<surname>Crist</surname>
+<given-names>RM.</given-names>
+</string-name>
+<article-title>Autophagy and lysosomal dysfunction as emerging mechanisms of nanomaterial toxicity</article-title>. <source>Part Fibre Toxicol.</source>
+<year>2012</year>;<volume>9</volume>:<fpage>20</fpage>.
+<pub-id pub-id-type="pmid">22697169</pub-id></mixed-citation></ref><ref id="btm210035-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="btm210035-cit-0043">
+<string-name>
+<surname>Gary</surname>
+<given-names>DJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Min</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Park</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Won</surname>
+<given-names>YY.</given-names>
+</string-name>
+<article-title>The effect of N/P ratio on the in vitro and in vivo interaction properties of PEGylated poly[2&#x02010;(dimethylamino)ethyl methacrylate]&#x02010;based siRNA complexes</article-title>. <source>Macromol. Biosci.</source>
+<year>2013</year>;<volume>13</volume>(<issue>8</issue>):<fpage>1059</fpage>&#x02013;<lpage>1071</lpage>.
+<pub-id pub-id-type="pmid">23828845</pub-id></mixed-citation></ref><ref id="btm210035-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="btm210035-cit-0044">
+<string-name>
+<surname>Perez&#x02010;Garijo</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Fuchs</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Steller</surname>
+<given-names>H.</given-names>
+</string-name>
+<article-title>Apoptotic cells can induce non&#x02010;autonomous apoptosis through the TNF pathway</article-title>. <source>Elife.</source>
+<year>2013</year>;<volume>2</volume>:<fpage>e01004</fpage>.
+<pub-id pub-id-type="pmid">24066226</pub-id></mixed-citation></ref><ref id="btm210035-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="btm210035-cit-0045">
+<string-name>
+<surname>Hammill</surname>
+<given-names>AK</given-names>
+</string-name>, 
+<string-name>
+<surname>Uhr</surname>
+<given-names>JW</given-names>
+</string-name>, 
+<string-name>
+<surname>Scheuermann</surname>
+<given-names>RH.</given-names>
+</string-name>
+<article-title>Annexin V staining due to loss of membrane asymmetry can be reversible and precede commitment to apoptotic death</article-title>. <source>Exp Cell Res.</source>
+<year>1999</year>;<volume>251</volume>(<issue>1</issue>):<fpage>16</fpage>&#x02013;<lpage>21</lpage>.
+<pub-id pub-id-type="pmid">10438567</pub-id></mixed-citation></ref><ref id="btm210035-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="btm210035-cit-0046">
+<string-name>
+<surname>Kawai</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Akira</surname>
+<given-names>S.</given-names>
+</string-name>
+<article-title>TLR signaling</article-title>. <source>Cell Death Differ.</source>
+<year>2006</year>;<volume>13</volume>(<issue>5</issue>):<fpage>816</fpage>&#x02013;<lpage>825</lpage>.
+<pub-id pub-id-type="pmid">16410796</pub-id></mixed-citation></ref><ref id="btm210035-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="btm210035-cit-0047">
+<string-name>
+<surname>Loo</surname>
+<given-names>YM</given-names>
+</string-name>, 
+<string-name>
+<surname>Gale</surname>
+<given-names>M</given-names>
+<suffix>Jr.</suffix>
+</string-name>
+<article-title>Immune signaling by RIG&#x02010;I&#x02010;like receptors</article-title>. <source>Immunity.</source>
+<year>2011</year>;<volume>34</volume>(<issue>5</issue>):<fpage>680</fpage>&#x02013;<lpage>692</lpage>.
+<pub-id pub-id-type="pmid">21616437</pub-id></mixed-citation></ref><ref id="btm210035-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="btm210035-cit-0048">
+<string-name>
+<surname>Mastri</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Shah</surname>
+<given-names>Z</given-names>
+</string-name>, 
+<string-name>
+<surname>McLaughlin</surname>
+<given-names>T</given-names>
+</string-name>, et al. <article-title>Activation of toll&#x02010;like receptor 3 amplifies mesenchymal stem cell trophic factors and enhances therapeutic potency. <italic>Am</italic>
+</article-title>
+<source>J Physiol Cell Physiol.</source>
+<year>2012</year>;<volume>303</volume>(<issue>10</issue>):<fpage>C1021</fpage>&#x02013;<lpage>C1033</lpage>.
+</mixed-citation></ref><ref id="btm210035-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="btm210035-cit-0049">
+<string-name>
+<surname>Giuliani</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Bennaceur&#x02010;Griscelli</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Nanbakhsh</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>TLR ligands stimulation protects MSC from NK killing</article-title>. <source>Stem Cells.</source>
+<year>2014</year>;<volume>32</volume>(<issue>1</issue>):<fpage>290</fpage>&#x02013;<lpage>300</lpage>.
+<pub-id pub-id-type="pmid">24123639</pub-id></mixed-citation></ref><ref id="btm210035-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="btm210035-cit-0050">
+<string-name>
+<surname>Kleinman</surname>
+<given-names>ME</given-names>
+</string-name>, 
+<string-name>
+<surname>Yamada</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Takeda</surname>
+<given-names>A</given-names>
+</string-name>, et al. <article-title>Sequence&#x02010; and target&#x02010;independent angiogenesis suppression by siRNA via TLR3</article-title>. <source>Nature.</source>
+<year>2008</year>;<volume>452</volume>(<issue>7187</issue>):<fpage>591</fpage>&#x02013;<lpage>597</lpage>.
+<pub-id pub-id-type="pmid">18368052</pub-id></mixed-citation></ref><ref id="btm210035-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="btm210035-cit-0051">
+<string-name>
+<surname>Tomchuck</surname>
+<given-names>SL</given-names>
+</string-name>, 
+<string-name>
+<surname>Zwezdaryk</surname>
+<given-names>KJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Coffelt</surname>
+<given-names>SB</given-names>
+</string-name>, 
+<string-name>
+<surname>Waterman</surname>
+<given-names>RS</given-names>
+</string-name>, 
+<string-name>
+<surname>Danka</surname>
+<given-names>ES</given-names>
+</string-name>, 
+<string-name>
+<surname>Scandurro</surname>
+<given-names>AB.</given-names>
+</string-name>
+<article-title>Toll&#x02010;like receptors on human mesenchymal stem cells drive their migration and immunomodulating responses</article-title>. <source>Stem Cells.</source>
+<year>2008</year>;<volume>26</volume>(<issue>1</issue>):<fpage>99</fpage>&#x02013;<lpage>107</lpage>.
+<pub-id pub-id-type="pmid">17916800</pub-id></mixed-citation></ref><ref id="btm210035-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="btm210035-cit-0052">
+<string-name>
+<surname>Matsumoto</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Funami</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Tatematsu</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Azuma</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Seya</surname>
+<given-names>T.</given-names>
+</string-name>
+<article-title>Assessment of the toll&#x02010;like receptor 3 pathway in endosomal signaling</article-title>. <source>Methods Enzymol.</source>
+<year>2014</year>;<volume>535</volume>:<fpage>149</fpage>&#x02013;<lpage>165</lpage>.
+<pub-id pub-id-type="pmid">24377923</pub-id></mixed-citation></ref><ref id="btm210035-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="btm210035-cit-0053">
+<string-name>
+<surname>Yan</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Yuan</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>ZZ</given-names>
+</string-name>, 
+<string-name>
+<surname>Jiang</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name>
+<surname>Chen</surname>
+<given-names>T.</given-names>
+</string-name>
+<article-title>Priming of toll&#x02010;like receptor 4 pathway in mesenchymal stem cells increases expression of B cell activating factor</article-title>. <source>Biochem Biophys Res Commun.</source>
+<year>2014</year>;<volume>448</volume>(<issue>2</issue>):<fpage>212</fpage>&#x02013;<lpage>217</lpage>.
+<pub-id pub-id-type="pmid">24780395</pub-id></mixed-citation></ref><ref id="btm210035-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="btm210035-cit-0054">
+<string-name>
+<surname>Karlsen</surname>
+<given-names>TA</given-names>
+</string-name>, 
+<string-name>
+<surname>Brinchmann</surname>
+<given-names>JE.</given-names>
+</string-name>
+<article-title>Liposome delivery of microRNA&#x02010;145 to mesenchymal stem cells leads to immunological off&#x02010;target effects mediated by RIG&#x02010;I</article-title>. <source>Mol Ther.</source>
+<year>2013</year>;<volume>21</volume>(<issue>6</issue>):<fpage>1169</fpage>&#x02013;<lpage>1181</lpage>.
+<pub-id pub-id-type="pmid">23568258</pub-id></mixed-citation></ref><ref id="btm210035-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="btm210035-cit-0055">
+<string-name>
+<surname>Saito</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Owen</surname>
+<given-names>DM</given-names>
+</string-name>, 
+<string-name>
+<surname>Jiang</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Marcotrigiano</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Gale</surname>
+<given-names>M.</given-names>
+<suffix>Jr.</suffix>
+</string-name>
+<article-title>Innate immunity induced by composition&#x02010;dependent RIG&#x02010;I recognition of hepatitis C virus RNA</article-title>. <source>Nature.</source>
+<year>2008</year>;<volume>454</volume>(<issue>7203</issue>):<fpage>523</fpage>&#x02013;<lpage>527</lpage>.
+<pub-id pub-id-type="pmid">18548002</pub-id></mixed-citation></ref><ref id="btm210035-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="btm210035-cit-0056">
+<string-name>
+<surname>Lee</surname>
+<given-names>MS</given-names>
+</string-name>, 
+<string-name>
+<surname>Min</surname>
+<given-names>YJ.</given-names>
+</string-name>
+<article-title>Signaling pathways downstream of pattern&#x02010;recognition receptors and their cross talk</article-title>. <source>Annu Rev Biochem.</source>
+<year>2007</year>;<volume>76</volume>:<fpage>447</fpage>&#x02013;<lpage>480</lpage>.
+<pub-id pub-id-type="pmid">17328678</pub-id></mixed-citation></ref><ref id="btm210035-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="btm210035-cit-0057">
+<string-name>
+<surname>Waterman</surname>
+<given-names>RS</given-names>
+</string-name>, 
+<string-name>
+<surname>Tomchuck</surname>
+<given-names>SL</given-names>
+</string-name>, 
+<string-name>
+<surname>Henkle</surname>
+<given-names>SL</given-names>
+</string-name>, 
+<string-name>
+<surname>Betancourt</surname>
+<given-names>AM.</given-names>
+</string-name>
+<article-title>A new mesenchymal stem cell (MSC) paradigm: polarization into a pro&#x02010;inflammatory MSC1 or an immunosuppressive MSC2 phenotype</article-title>. <source>PLoS One.</source>
+<year>2010</year>;<volume>5</volume>(<issue>4</issue>):e10088.
+</mixed-citation></ref><ref id="btm210035-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="btm210035-cit-0058">
+<string-name>
+<surname>Cai</surname>
+<given-names>JG</given-names>
+</string-name>, 
+<string-name>
+<surname>Yue</surname>
+<given-names>YA</given-names>
+</string-name>, 
+<string-name>
+<surname>Rui</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhang</surname>
+<given-names>YF</given-names>
+</string-name>, 
+<string-name>
+<surname>Liu</surname>
+<given-names>SY</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>C.</given-names>
+</string-name>
+<article-title>Effect of chain length on cytotoxicity and endocytosis of cationic polymers</article-title>. <source>Macromolecules.</source>
+<year>2011</year>;<volume>44</volume>(<issue>7</issue>):<fpage>2050</fpage>&#x02013;<lpage>2057</lpage>.
+</mixed-citation></ref><ref id="btm210035-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="btm210035-cit-0059">
+<string-name>
+<surname>Karlsen</surname>
+<given-names>TA</given-names>
+</string-name>, 
+<string-name>
+<surname>Jakobsen</surname>
+<given-names>RB</given-names>
+</string-name>, 
+<string-name>
+<surname>Mikkelsen</surname>
+<given-names>TS</given-names>
+</string-name>, 
+<string-name>
+<surname>Brinchmann</surname>
+<given-names>JE.</given-names>
+</string-name>
+<article-title>microRNA&#x02010;140 targets RALA and regulates chondrogenic differentiation of human mesenchymal stem cells by translational enhancement of SOX9 and ACAN</article-title>. <source>Stem Cells Dev.</source>
+<year>2014</year>;<volume>23</volume>(<issue>3</issue>):<fpage>290</fpage>&#x02013;<lpage>304</lpage>.
+<pub-id pub-id-type="pmid">24063364</pub-id></mixed-citation></ref><ref id="btm210035-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="btm210035-cit-0060">
+<string-name>
+<surname>Pittenger</surname>
+<given-names>MF.</given-names>
+</string-name>
+<article-title>Mesenchymal stem cells from adult bone marrow</article-title>. <source>Methods Mol Biol.</source>
+<year>2008</year>;<volume>449</volume>:<fpage>27</fpage>&#x02013;<lpage>44</lpage>.
+<pub-id pub-id-type="pmid">18370081</pub-id></mixed-citation></ref><ref id="btm210035-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="btm210035-cit-0061">
+<string-name>
+<surname>Sahlin</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Hed</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Rundquist</surname>
+<given-names>I.</given-names>
+</string-name>
+<article-title>Differentiation between attached and ingested immune complexes by a fluorescence quenching cytofluorometric assay</article-title>. <source>J Immunol Methods.</source>
+<year>1983</year>;<volume>60</volume>(<issue>1&#x02010;2</issue>):<fpage>115</fpage>&#x02013;<lpage>124</lpage>.
+<pub-id pub-id-type="pmid">6406600</pub-id></mixed-citation></ref><ref id="btm210035-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="btm210035-cit-0062">
+<string-name>
+<surname>Liu</surname>
+<given-names>W</given-names>
+</string-name>, 
+<string-name>
+<surname>Saint</surname>
+<given-names>DA.</given-names>
+</string-name>
+<article-title>A new quantitative method of real time reverse transcription polymerase chain reaction assay based on simulation of polymerase chain reaction kinetics</article-title>. <source>Anal Biochem.</source>
+<year>2002</year>;<volume>302</volume>(<issue>1</issue>):<fpage>52</fpage>&#x02013;<lpage>59</lpage>.
+<pub-id pub-id-type="pmid">11846375</pub-id></mixed-citation></ref><ref id="btm210035-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="btm210035-cit-0063">
+<string-name>
+<surname>Pfaffl</surname>
+<given-names>MW.</given-names>
+</string-name>
+<article-title>A new mathematical model for relative quantification in real&#x02010;time RT&#x02010;PCR</article-title>. <source>Nucleic acids Res.</source>
+<year>2001</year>;<volume>29</volume>(<issue>9</issue>):<fpage>e45</fpage>.
+<pub-id pub-id-type="pmid">11328886</pub-id></mixed-citation></ref><ref id="btm210035-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="btm210035-cit-0064">
+<string-name>
+<surname>Edgar</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Domrachev</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Lash</surname>
+<given-names>AE</given-names>
+</string-name>. <article-title>Gene Expression Omnibus: NCBI gene expression and hybridization array data repository</article-title>. <source>Nucleic acids research.</source>
+<year>2002</year>;<volume>30</volume>(<issue>1</issue>):<fpage>207</fpage>&#x02013;<lpage>210</lpage>.
+<pub-id pub-id-type="pmid">11752295</pub-id></mixed-citation></ref><ref id="btm210035-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="btm210035-cit-0065">
+<string-name>
+<surname>Trapnell</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Roberts</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Goff</surname>
+<given-names>L</given-names>
+</string-name>, et al. <article-title>Differential gene and transcript expression analysis of RNA&#x02010;seq experiments with TopHat and Cufflinks</article-title>. <source>Nat Protoc.</source>
+<year>2012</year>;<volume>7</volume>(<issue>3</issue>):<fpage>562</fpage>&#x02013;<lpage>578</lpage>.
+<pub-id pub-id-type="pmid">22383036</pub-id></mixed-citation></ref><ref id="btm210035-bib-0066"><label>66</label><mixed-citation publication-type="miscellaneous" id="btm210035-cit-0066">gplots: Various R programming tools for plotting data. <italic>R package version 2.17.0</italic> [computer program]; <year>2015</year>.
+</mixed-citation></ref><ref id="btm210035-bib-0067"><label>67</label><mixed-citation publication-type="miscellaneous" id="btm210035-cit-0067">R: a language and environment for statistical computing. [computer program]. Vienna, Austria: R Foundation for Statistical Computing; <year>2015</year>.
+</mixed-citation></ref></ref-list></back></article>

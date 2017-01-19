@@ -1,0 +1,852 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?subarticle report12795?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">F1000Res</journal-id><journal-id journal-id-type="iso-abbrev">F1000Res</journal-id><journal-id journal-id-type="pmc">F1000Research</journal-id><journal-title-group><journal-title>F1000Research</journal-title></journal-title-group><issn pub-type="epub">2046-1402</issn><publisher><publisher-name>F1000Research</publisher-name><publisher-loc>London, UK</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4786938</article-id><article-id pub-id-type="doi">10.12688/f1000research.7534.1</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group><subject>Articles</subject><subj-group><subject>Directed Molecular Evolution</subject></subj-group><subj-group><subject>Genomics</subject></subj-group></subj-group></article-categories><title-group><article-title>Deep sequencing revealed molecular signature of horizontal gene transfer of plant like transcripts in&#x000a0;the mosquito<italic>Anopheles culicifacies</italic>: an evolutionary puzzle</article-title><fn-group content-type="pub-status"><fn><p>[version 1; referees: 2 approved]</p></fn></fn-group></title-group><contrib-group><contrib contrib-type="author"><name><surname>Sharma</surname><given-names>Punita</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Das De</surname><given-names>Tanwee</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Sharma</surname><given-names>Swati</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Kumar Mishra</surname><given-names>Ashwani</given-names></name><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Thomas</surname><given-names>Tina</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Verma</surname><given-names>Sonia</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Kumari</surname><given-names>Vandana</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Lata</surname><given-names>Suman</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Singh</surname><given-names>Namita</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Valecha</surname><given-names>Neena</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Chand Pandey</surname><given-names>Kailash</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Dixit</surname><given-names>Rajnikant</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref></contrib><aff id="a1"><label>1</label>Host-Parasite Interaction Biology Group, National Institute of Malaria Research, Delhi, India</aff><aff id="a2"><label>2</label>Nano and Biotechnology Department, Guru Jambheshwar University, Haryana, India</aff><aff id="a3"><label>3</label>NxGenBio Lifesciences, Delhi, India</aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email xlink:href="mailto:rkd1976.rajnikant@gmail.com">rkd1976.rajnikant@gmail.com</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: RD, PS, NV, KCP. Performed the Experiments: PS, SS, TT, TDD, RD, VK, SLR. Analyzed the data: PS, AKM, SS, RD, SV.</p><p>Contributed reagents/materials/analysis tools: NS, RD, NV, KCP. Wrote the paper: RD, PS, NV, KCP.</p></fn><fn fn-type="conflict"><p>
+<bold>Competing interests: </bold>No competing interests were disclosed.</p></fn></author-notes><pub-date pub-type="epub"><day>30</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>4</volume><elocation-id>1523</elocation-id><history><date date-type="accepted"><day>15</day><month>12</month><year>2015</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2015 Sharma P et al.</copyright-statement><copyright-year>2015</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="f1000research-4-8113.pdf"/><abstract><p>In prokaryotes, horizontal gene transfer (HGT) has been regarded as an important evolutionary drive to acquire and retain beneficial genes for their survival in diverse ecologies. However, in eukaryotes, the functional role of HGTs remains questionable, although current genomic tools are providing increased evidence of acquisition of novel traits within non-mating metazoan species. Here, we provide another transcriptomic evidence for the acquisition of massive plant genes in the mosquito,
+<italic>Anopheles culicifacies</italic>. Our multiple experimental validations including genomic PCR, RT-PCR, real-time PCR, immuno-blotting and immuno-florescence microscopy, confirmed that plant like transcripts (PLTs) are of mosquito origin and may encode functional proteins. A comprehensive molecular analysis of the PLTs and ongoing metagenomic analysis of salivary microbiome provide initial clues that mosquitoes may have survival benefits through the acquisition of nuclear as well as chloroplast encoded plant genes. Our findings of PLTs further support the similar questionable observation of HGTs in other higher organisms, which is still a controversial and debatable issue in the community of evolutionists. We believe future understanding of the underlying mechanism of the feeding associated molecular responses may shed new insights in the functional role of PLTs in the mosquito.</p></abstract><kwd-group kwd-group-type="author"><kwd>Mosquito</kwd><kwd>feeding</kwd><kwd>Salivary gland</kwd><kwd>Plant like transcripts</kwd><kwd>microbial flora</kwd><kwd>malaria</kwd></kwd-group><funding-group><award-group id="fund-1"><funding-source>Department of Biotechnology (DBT), Government of India</funding-source><award-id>BT/HRD/35/02/01/2009</award-id></award-group><award-group id="fund-2"><funding-source>Indian Council of Medical Research (ICMR), Government of India</funding-source><award-id>5/87(301)v2011ECD-II</award-id></award-group><award-group id="fund-3"><funding-source>DBT Research Fellowship</funding-source><award-id>DBT-JRF/10&#x02013;11/284</award-id></award-group><funding-statement>Work in the laboratory is supported by Department of Biotechnology (DBT), Government of India (BT/HRD/35/02/01/2009) and Indian Council of Medical Research (ICMR), Government of India (5/87(301)v2011ECD-II), RKD is a recipient of a DBT sponsored Ramalingaswami Fellowship. The authors thank NIMR for setting a new laboratory. Punita Sharma is recipient of DBT Research Fellowship (DBT-JRF/10-11/284).</funding-statement><funding-statement><italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic></funding-statement></funding-group></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>Horizontal gene transfer (HGT), an evolutionary force that modulates the movement of genetic information between distantly related organisms, is well accepted in prokaryotes
+<sup><xref rid="ref-1" ref-type="bibr">1</xref>&#x02013;
+<xref rid="ref-3" ref-type="bibr">3</xref></sup>. However, unlike prokaryotes, uncovering the functional role of HGT from eukaryotes to eukaryotes remains challenging
+<sup><xref rid="ref-4" ref-type="bibr">4</xref></sup>. Nevertheless, the number of well-supported cases of HGT are rapidly increasing, but one fundamental question, whether observed HGT in the genome or transcriptome of higher eukaryotes is pseudogenic
+<sup><xref rid="ref-5" ref-type="bibr">5</xref>&#x02013;
+<xref rid="ref-7" ref-type="bibr">7</xref></sup> or plays any important role in the evolution in complex metazoans, still remains unclear
+<sup><xref rid="ref-8" ref-type="bibr">8</xref>&#x02013;
+<xref rid="ref-10" ref-type="bibr">10</xref></sup>.</p><p>Currently, next-generation sequencing is emerging as an important tool to discover and understand the evolutionary relationship of the molecular codes identified from non-model organisms
+<sup><xref rid="ref-11" ref-type="bibr">11</xref>&#x02013;
+<xref rid="ref-15" ref-type="bibr">15</xref></sup>. Recently, a series of good review articles have been published, where authors critically argued and discussed that HGT from symbiotic/free-living organisms
+<sup><xref rid="ref-1" ref-type="bibr">1</xref>,
+<xref rid="ref-4" ref-type="bibr">4</xref>,
+<xref rid="ref-16" ref-type="bibr">16</xref>,
+<xref rid="ref-17" ref-type="bibr">17</xref></sup>, can be an important mechanism to drive the acquisition of novel traits. However, documenting the role of HGTs may be more controversial for the massive gene transfer within non-mating interspecies of complex metazoans
+<sup><xref rid="ref-4" ref-type="bibr">4</xref>,
+<xref rid="ref-18" ref-type="bibr">18</xref>&#x02013;
+<xref rid="ref-20" ref-type="bibr">20</xref></sup>.</p><p>One of the most debatable and contradictory HGT being argued is the massive transfer of algal nuclear and chloroplast encoded genes to mollusks
+<sup><xref rid="ref-18" ref-type="bibr">18</xref>,
+<xref rid="ref-19" ref-type="bibr">19</xref></sup>. In fact, it has long been documented that the herbivore sea slug
+<italic>Elysia chlorotica</italic> carries a unique ability to harvest plastids (absence of nuclei) from its heterokont algal prey,
+<italic>Vaucheria litorea</italic>, and keeps plastids for several months in the digestive tract for long-term maintenance of photosynthesis and development. To explain this complex interaction, a possible hypothesis of the HGT of algal genes in the gut of the mollusk is under extensive investigation. Although, a series of recent transcriptomic analyses provide supportive evidences of massive HGTs, however the inability to find evidence of the algal associated nuclear genes in the egg genome further leaves an open question over HGT&#x02019;s role in evolution
+<sup><xref rid="ref-18" ref-type="bibr">18</xref></sup>.</p><p>Mosquitoes that transmit many deadly infectious diseases, e.g. malaria, dengue, chikunguniya etc. are emerging as a valuable model to understand multi-taxon interactions
+<sup><xref rid="ref-21" ref-type="bibr">21</xref></sup>. For entomologists, unraveling the molecular and evolutionary complexity associated with dual feeding behavior in adult female mosquitoes, remains one of the unresolved central questions. Acquisition of nectar sugar by adult mosquitoes (in both sexes) is essential for regular metabolic energy, while blood meal by adult female mosquitoes is needed for egg production and life cycle maintenance
+<sup><xref rid="ref-22" ref-type="bibr">22</xref></sup>. The evolution of blood feeding is believed to have arisen independently over 145&#x02013;165 million years ago from herbivore insects
+<sup><xref rid="ref-23" ref-type="bibr">23</xref>,
+<xref rid="ref-24" ref-type="bibr">24</xref></sup>, which might have favored the evolution of the specialized feeding organ system such as proboscis
+<sup><xref rid="ref-25" ref-type="bibr">25</xref></sup>, enlarged salivary glands
+<sup><xref rid="ref-26" ref-type="bibr">26</xref></sup>, facilitating the fast acquisition of nutrient rich blood meal from vertebrate host.</p><p>For the last few years, we have investigated the salivary associated molecular factors that affect mosquito feeding behavior and
+<italic>Plasmodium</italic> transmission
+<sup><xref rid="ref-27" ref-type="bibr">27</xref>,
+<xref rid="ref-28" ref-type="bibr">28</xref></sup>.
+<italic>Anopheles culicifacies</italic> exists as a complex of at least five sibling species (A, B, C, D, E) with wide distribution
+<sup><xref rid="ref-29" ref-type="bibr">29</xref>,
+<xref rid="ref-30" ref-type="bibr">30</xref></sup> and acts as an important rural malarial vector causing more than 65% of malaria cases in India. We believe that malaria transmission by
+<italic>A. culicifacies</italic> in rural areas could be attributed to its strong adaptation towards agricultural plain areas. However, there is no molecular explanation that exists in relation to feeding behavior, evolution and adaptation preference to the plain area. Therefore, to understand the complex biology and molecular genetics of this mosquito, recently we have initiated a series of multi-tissue transcriptomic studies. In our recent RNAseq analysis, we demonstrated for the first time that salivary glands are evolved with unique ability to meet and manage dual (sugar or blood) meal specific responses in the mosquito
+<italic>A. culicifacies</italic>
+<sup><xref rid="ref-31" ref-type="bibr">31</xref></sup>. However, unexpectedly during functional annotation of the salivary RNAseq database we also observed a cluster of plant like transcripts (PLTs) for which nature of origin remains unclear. Here, in the present investigation, we aimed to predict and examine the molecular nature, origin and evolutionary relationship of these putative PLTs. Multiple validations by PCR, real time PCR, coupled with immunoblot analysis and immuno-florescence assay (IFA) provide strong evidence that PLTs are of mosquito origin and may encode active proteins for specific functions. Phylogenomic analysis predicts that adaptation to the nectar sugar uptake might have favored the acquisition of PLTs, possibly a unique case of HGTs in the mosquito. To the contrary over HGTs role in evolution, our investigation provides another evidence of the massive transfer of genes from plant to mosquito
+<italic>A. culicifacies</italic>. A comprehensive molecular analysis of the PLTs and ongoing metagenomic analysis of tissue associated microbiome provide initial evidence of how the mosquito evolved and adapted for feeding over plant host. To the best of our knowledge this is the first study defining the unique relationship of mosquito-plant-microbe interactions.</p></sec><sec><title>Results &#x00026; discussion</title><p>In an attempt to clarify the molecular complexity associated with dual feeding behavior evolution in the mosquito, currently we are focused on sequencing, generating and annotating large scale transcriptomic databases of the mosquito feeding machinery components, e.g. salivary glands, midgut, olfactory tissues etc. In fact mosquito salivary glands are bi-lobed single epithelial layered organs that initiate biochemical communication to the plant or vertebrate hosts. Over the last decade, several investigations in adult female mosquitoes have been valuable in identifying salivary specific molecular factors that facilitate fast blood meal uptake from a vertebrate host
+<sup><xref rid="ref-32" ref-type="bibr">32</xref></sup>. But how salivary glands manage dual meal (sugar vs. blood) specific molecular responses remains unclear. Our recent RNAseq based comparative salivary transcriptomic analysis demonstrated that adult female mosquito salivary glands are evolved with a unique ability to manage and facilitate meal specific responses
+<sup><xref rid="ref-31" ref-type="bibr">31</xref></sup>.</p><sec><title>Pilot discovery of plant like transcripts</title><p>Interestingly, but unexpectedly our study
+<sup><xref rid="ref-31" ref-type="bibr">31</xref></sup> also revealed the presence of 537 putative transcripts encoding plant like proteins associated with the sugar fed library, but absent in the blood fed salivary transcriptome database (
+<xref ref-type="fig" rid="f1">Figure 1A</xref>;
+<xref ref-type="other" rid="S1">Supplementary material ST1</xref>). The surprising discovery of these transcripts, which we labeled as plant like transcripts (PLTs), raised several puzzling, but arguable questions that prompted us to clarify: (i) whether the PLTs are of mosquito origin; (ii) if they are expressed in the mosquito tissues and/or other developmental stages (iii) if expressed in mosquito, what is the possible evolutionary and functional correlation of these transcripts in feeding and (iv) whether these transcripts have any molecular relationship to plant-mosquito-microbe interactions/symbiotic associations. To uncover the molecular nature and possible functions of the putative PLTs, in the present investigation we performed a systematic and comprehensive analysis of PLTs, revealing a unique case of the massive transfer of HGTs from plant to mosquito.</p><fig fig-type="figure" id="f1" orientation="portrait" position="float"><label>Figure 1. </label><caption><title>Mosquito encodes Plant like proteins.</title><p>(
+<bold>A</bold>) BLAST2GO based Species distribution analysis of sugar and blood fed mosquito salivary transcriptomic database. Green star mark indicates the name of plant species, best match to the NR database in the sugar fed salivary transcriptome. Confirmation of the nature of Origin (
+<bold>B</bold>): RT-PCR expression of PLTs during aquatic development of the mosquitoes; (
+<bold>C</bold>&#x02013;
+<bold>E</bold>): Real-Time PCR based developmental expression analysis of PLTs viz. Cysteine protease; Expansin; Aquaporin; (
+<bold>F</bold>): PCR based genomic DNA amplification of PLTs;
+<bold>S7</bold>: Ribosomal Protein S7;
+<bold>Aqp</bold>: Aquaporin;
+<bold>Cp</bold>: Cysteine protease;
+<bold>Dhyd/Dhy</bold>: Dehydrin;
+<bold>Exp</bold>: Expansin [(b): Exp1/Exp2: Experiment 1 &#x00026; 2; M: Male; F: Female; E: Egg; L1&#x02013;L4: Larval stages L1&#x02013;L4; P: Pupae; (c) M: 100 bp Marker; NTC: No Template Control].</p></caption><graphic xlink:href="f1000research-4-8113-g0000"/></fig></sec><sec><title>PLTs are of mosquito origin</title><p>First, to confirm the nature of the PLTs&#x02019; origin, we did a deep enquiry with technical staff and confirmed that under standard rearing facilities, mosquitoes are never exposed to any plant material. To further rule out the possibilities of any contamination, we separately maintained the experimental mosquitoes as detailed in the methodology section. For technical validation of the PLTs&#x02019; origin, we conducted a series of experiments: (i) in two independent experiments, we examined and verified the RT-PCR based expression of at least 10 selected PLTs (
+<xref ref-type="fig" rid="f1">Figure 1B</xref>;
+<xref ref-type="other" rid="S1">Supplementary material S1A</xref>), in the salivary glands of adult male and female mosquitoes; (ii) interestingly, we also observed that PLT expression is not only restricted to the mosquito tissues, but is also expressed during the aquatic developmental stages viz. egg, larva, and pupa of the laboratory reared mosquitoes (
+<xref ref-type="fig" rid="f1">Figure 1B</xref>). Our relative gene expression analysis revealed that PLTs are more dominantly expressed in the egg, pupa and adult than larval stages (
+<xref ref-type="fig" rid="f1">Figure 1C&#x02013;E</xref>). Although, mosquito egg and pupa stages are metabolically active, and do not take any food material, we suspected that the filter paper being used for mosquito egg laying may be a potential source of environmental contamination carry over. To clarify this doubt, we collected a small piece of moistened filter paper in RNA isolation solution (Trizol) and re-examined PLT expression along with other developmental stages. Absence of any amplification even after 35 PCR cycles, in the filter paper cDNA sample showed no sign of contamination (
+<xref ref-type="other" rid="S1">Supplementary material S1A</xref>); (iii) we also observed positive amplification of selected PLTs through genomic DNA PCR (
+<xref ref-type="fig" rid="f1">Figure 1F</xref>); (iv) we further carried out the functional validation of one of the plant homolog PLTs encoding dehydrin protein, by immunoblot analysis as well as immuno-florescence assay (
+<xref ref-type="fig" rid="f2">Figure 2A&#x02013;G</xref>); (v) lastly, from ongoing annotation of another independent transcriptome sequence database originated from non-salivary tissue i.e. olfactory (OLF) tissue of adult female mosquito
+<italic>A. culicifacies</italic> (Das De T., Sharma P., Thomas T., Pandey KC., Dixit R. unpublished data), we were able to observe similar PLTs (
+<xref ref-type="other" rid="S1">Supplementary material S1B</xref>); (v) finally to test whether PLT expression is associated with feeding machinery components, we monitored the relative expression of PLTs in four tissues that included salivary glands, midgut, olfactory tissue and hemocytes, collected from 3&#x02013;4 days old na&#x000ef;ve adult female mosquitoes, by real-time PCR (
+<xref ref-type="fig" rid="f5">Figure 5A</xref>). Interestingly, we not only observed that PLTs are dominantly expressed in the tissues associated with mosquito feeding machinery (olfactory tissue, salivary gland and midgut), but also noticed a significant down regulation in response to blood meal in the salivary glands (
+<xref ref-type="fig" rid="f5">Figure 5A,B</xref>), evidencing that the mosquito genome may code plant like proteins.</p><fig fig-type="figure" id="f2" orientation="portrait" position="float"><label>Figure 2. </label><caption><title>Functional validation of mosquito encoded Plant homolog Dehydrin.</title><p>(
+<bold>A</bold>) Web based functional prediction of putative domain of salivary transcript encoding plant homolog dehydrin like protein; (
+<bold>B</bold>&#x02013;
+<bold>C</bold>) Molecular and phylogenetic relation of mosquito encoded (Ac-Dehydrin with other plant dehydrins (dotted circle represents the conserved K/red circle and S/blue circle segments), a unique feature of plant dehydrins (see text); (
+<bold>D</bold>) Mosquito dehydrin alignment of K-segment sequence with wheat and synthetic Dehydrin sequence used for antibody generation; (
+<bold>E</bold>) Real-Time PCR based developmental expression analysis of
+<italic>AcDehydrin</italic>, (
+<bold>F</bold>) Immunoblot analysis of Ac-Dehydrin expression during the development of the mosquito: Anti-dehydrin antibody recognize three protein bands of expected size (28, 52 &#x00026; 63 kDa) in the control wheat seedling samples (W). Mosquito samples included Egg, Larval stages (L1, L2, L3), Pupa (P), Male (M) and Female (F); In egg stage two major forms of dehydrin bands were seen (&#x02265;62 kDa and 26 kDa). Further in case of larva, pupa, female, the presence of 26 kDa and 22 kDa bands suggested that two isoforms of dehydrin were present. In male, it appeared that less expression of 26 kDa form of dehydrin was seen in the western blot. Lane B represents Negative reference includes bacterial protein sample. The calculated molecular weight of 206 AA long salivary protein Ac-dehydrin is 23 kDa, which was closely similar in the larval stages. In fact dehydrins are characterized by conserved K-segment comprising consensus KIKEKLPG sequence towards the C-terminus and may be repeated one to many times, encoding variable size proteins ranging from 9 -200 kDa (see text for detail); (
+<bold>G</bold>) Immuno-florescence assay: IFA analysis of Plant anti-dehydrin antibody binding and detection in the mosquito egg
+<bold>Panel-A &#x00026; B</bold> and pupa
+<bold>Panel-C &#x00026; D.</bold> The FITC labeled samples were observed and captured under bright field (BF), dark field (DF+FITC) and with FITC florescence signal only. Green florescence image (Panel-A or Panel-C) shows the presence of dehydrin expression in the mosquito. A corresponding image (Panel-B or Panel-D) of the samples represents the negative control samples processed under identical conditions, excluding primary anti-dehydrin antibody treatment only (see methods).</p></caption><graphic xlink:href="f1000research-4-8113-g0001"/></fig></sec><sec><title>Mosquito encoded plant-homolog dehydrin: a functional validation</title><p>Dehydrins are a group 2 member of late embryogenesis abundant (LEA) proteins, originally identified from land plants, and known to be associated with desiccation (water stress) tolerance
+<sup><xref rid="ref-33" ref-type="bibr">33</xref></sup>. In fact LEA proteins were thought to be restricted to plants and other lower eukaryotes viz. cyanobacteria, algae, but now they have also been identified in other animals including insects
+<sup><xref rid="ref-34" ref-type="bibr">34</xref></sup>. Dehydrins are evolutionarily conserved proteins acclimated to low-temperatures (LT) that allow efficient tolerance to drought and cold stress among photosynthetic as well as some non-photosynthetic organisms such as yeast
+<sup><xref rid="ref-35" ref-type="bibr">35</xref>&#x02013;
+<xref rid="ref-38" ref-type="bibr">38</xref></sup>. Dehydrins are characterized by lysine rich conserved K-segment comprising consensus amino acid sequence EKKGIMDKIKEKLPG, towards the C-terminus that may be repeated many times to encode 9 -200 kDa protein
+<sup><xref rid="ref-39" ref-type="bibr">39</xref>&#x02013;
+<xref rid="ref-42" ref-type="bibr">42</xref></sup>. This unique feature renders these proteins cationic, providing cryoprotective activity towards freezing sensitive enzymes
+<sup><xref rid="ref-43" ref-type="bibr">43</xref></sup>. The biochemical characterization of a novel cryoprotective protein in freeze-tolerant
+<italic>Eurosta solidaginis</italic> larvae shows dehyrin like activities
+<sup><xref rid="ref-44" ref-type="bibr">44</xref></sup>, but a true homolog of dehydrin is yet to be verified.</p><p>Mosquito dehydrins have not been reported so far, though a putative transcript AGAP000328 has been predicted from the mosquito
+<italic>A. gambiae</italic> genome, carrying (PF00257 domain) a signature of dehydrin like proteins (
+<xref ref-type="other" rid="S1">Supplementary material S2</xref>). Finding PLT encoding proteins associated with dehydration stress e.g. dehydrin, aquaporin, expansin etc. encouraged us to further examine their possible functions in the mosquito
+<italic>A. culicifacies</italic>. A comprehensive molecular analysis of the identified transcript
+<italic>AcDehydrin</italic> showed 100% identity to the plant dehydrin, having two conserved lysine rich K-segments (
+<xref ref-type="fig" rid="f2">Figure 2A&#x02013;D</xref>). In our relative gene expression analysis, we observed a constitutive expression of
+<italic>AcDehydrin</italic>, throughout the aquatic developmental as well as adult stages of the mosquito (
+<xref ref-type="fig" rid="f2">Figure 2E</xref>), indicating that
+<italic>AcDehydrin</italic> transcript may encode a putative functional protein.</p><p>For functional validation of AcDehydrin protein, we examined the developmental expression of the dehydrin protein through immuno-blotting assay using rabbit antiserum containing anti-dehydrin antibody, raised against conserved K-segment sequence TGEKKGIMDKIKEKLPGQH (
+<xref ref-type="fig" rid="f2">Figure 2D</xref>) of plant dehydrin
+<sup><xref rid="ref-40" ref-type="bibr">40</xref></sup> (kind gift from Dr. Timothy Close). In our experiments we used wheat seedling protein sample as positive reference control. The anti-dehydrin antibody not only recognized the expected (28, 53 and 62 kDa) protein band in the wheat samples
+<sup><xref rid="ref-45" ref-type="bibr">45</xref></sup>, but also identified at least two equivalent proteins (28 and 62kDa) abundantly expressing in different mosquito developmental stages viz. egg, adult male and female mosquitoes (
+<xref ref-type="fig" rid="f2">Figure 2F</xref>). Additionally, we were also able to observe multiple isoforms ranging from (~10 -&#x0003e;70 kDa) expressing at low level in different developmental stages, an expected unique feature of dehydrin to form macromolecular structures
+<sup><xref rid="ref-39" ref-type="bibr">39</xref>&#x02013;
+<xref rid="ref-42" ref-type="bibr">42</xref></sup>. Finally, immuno-florescence assay not only corroborated the abundant expression in the egg, but also suggested that mosquito encoded AcDehydrin protein may play a crucial role in the stress tolerance and survival of the embryo in the egg (
+<xref ref-type="fig" rid="f2">Figure 2G</xref>).</p><p>Like other LEAs, dehydrins accumulate to high amounts in plant embryos, but remain undetectable in other vegetative tissues until their exposure to dehydration stress. The stress exposure results in their rapid induction and binding to multiple proteins, probably through intramolecular hydrogen bonding to protect tissue damage from dehydration/cold stress
+<sup><xref rid="ref-46" ref-type="bibr">46</xref></sup>. In fact, we also find another key transcript, encoding a putative protein named expansin, a member of plant cell wall-loosening proteins. These proteins are known to be involved in cell enlargement and developmental processes requiring cell-wall modification
+<sup><xref rid="ref-47" ref-type="bibr">47</xref></sup>. Like dehydrin, a real-time PCR analysis of expansin also showed dominant expression in the egg, as compared to other developmental stages (
+<xref ref-type="other" rid="S1">Supplementary material S2B</xref>). Taken together, we hypothesize that the mosquito
+<italic>A. culicifacies</italic> may have survival benefits of cold stress tolerance as well as developmental regulation, similar to plants. Future studies involving dsRNA mediated gene silencing may unravel molecular and functional relationship of the PLTs controlling feeding and adaptation phenotypes in the mosquito
+<sup><xref rid="ref-48" ref-type="bibr">48</xref>,
+<xref rid="ref-49" ref-type="bibr">49</xref></sup>.</p></sec><sec><title>Phylogenomic analysis of plant like transcripts</title><p>Next, to understand the possible evolutionary relationship we performed an extensive phylogenomic analysis of a few selected transcripts. To do this, first we retrieved and analyzed all plant-homolog putative transcripts (537 PLTs), and performed an extensive BLASTX analysis against either the NR database or an insect specific database at NCBI (
+<ext-link ext-link-type="uri" xlink:href="http://blast.ncbi.nlm.nih.gov/">http://blast.ncbi.nlm.nih.gov/</ext-link>), and further characterized three categories of transcript(s) (i) one transcript: encoding highly conserved alpha-tubulin (cytoskeleton associated protein), showing highest identity to plant and insect (&#x0003e;95% and 85&#x02013;90%, respectively); (ii) two transcripts: encoding aquaporin (water channel membrane protein)
+<sup><xref rid="ref-50" ref-type="bibr">50</xref></sup> and active site of the cysteine protease (protein chewing enzyme)
+<sup><xref rid="ref-51" ref-type="bibr">51</xref></sup> showing highest identity to plant (&#x0003e;90%) and 40&#x02013;52% identity to insect (iii) two transcripts: encoding dehydrin (cold stress response protein)
+<sup><xref rid="ref-46" ref-type="bibr">46</xref></sup> and expansin (plant cell wall loosening protein)
+<sup><xref rid="ref-52" ref-type="bibr">52</xref></sup> only matched to plants, but remained unmatched to any insect database (
+<xref ref-type="other" rid="S1">Supplementary material S3 A&#x02013;C</xref>).</p><p>The above results prompted to follow up the associated evolutionary consensus, favoring plant-mosquito relationship: a parallelism setting where different species from unrelated taxa faces the common selective pressure
+<sup><xref rid="ref-53" ref-type="bibr">53</xref></sup>. Initial multiple sequence alignment analysis revealed significant heterogeneity (substitution/deletion) of amino acid residues, but also indicated unique conservation of insect or plant specific residues within the mosquito
+<italic>A. culicifacies,</italic> result a clade formation with plant species (
+<xref ref-type="fig" rid="f3">Figure 3A,B</xref>;
+<xref ref-type="other" rid="S1">Supplementary material S4</xref>). Subsequently, we also tested whether the evolution of common traits from unrelated taxa owing to similar selection pressure favors adaptive significance.</p><fig fig-type="figure" id="f3" orientation="portrait" position="float"><label>Figure 3. </label><caption><title>Feeding associated molecular complexity of the mosquito salivary transcripts.</title><p>(
+<bold>A</bold>) Molecular analysis of partial cDNA sequence encoding (100AA) Plant-like Cysteine protease active domain: Multiple sequence alignment showing molecular relationship of AcSgCp with plant (Green circle) as well as insects (Red circle) cysteine proteases: conserved residues (marked as
+<graphic xlink:href="f1000research-4-8113-g0002"/>) as well as conserved active site residue (marked as
+<graphic xlink:href="f1000research-4-8113-g0003"/>). Green
+<graphic xlink:href="f1000research-4-8113-g0004"/> represents conserved cysteine residues, which enables disulfide formation. Upward arrow mark
+<graphic xlink:href="f1000research-4-8113-g0005"/> represent unique plant specific amino-acids residues also conserved in the
+<italic>Anopheles culicifacies,</italic> while downward arrow mark
+<graphic xlink:href="f1000research-4-8113-g0006"/> represent unique insect specific residue conserved in
+<italic>A. culicifacies</italic> and only in
+<italic>Solanum lycopersicum</italic>. (
+<bold>B</bold>) The evolutionary history of AcSgCp inferred using the Neighbor-Joining method, favoring a clade formation with
+<italic>S. lycopersicum</italic> and other plant cysteine proteases. (
+<bold>C</bold>) Relationship between strength of convergent evolution favoring adaptive significance of feeding associated PLTs: A maximum likelihood (ML) estimation was applied to calculate and compare the sitewise likelihood (&#x02206;SSLS) values between two, species evolution (H
+<sub>0</sub>) and convergent adaptive evolution (H
+<sub>1</sub>) hypothesis, for Cysteine protease (see text for details). (
+<bold>D</bold>) Structural comparison between predicted 3D structure of the mosquito, and solved structure of the plants cysteine protease: Asparagine (ASN) and Histidine (HIS) indicate conserved residue of the active site.</p></caption><graphic xlink:href="f1000research-4-8113-g0007"/></fig><p>A maximum likelihood (ML) estimation was applied to calculate and compare the site-wise likelihood (&#x02206;SSLS) values between the two hypotheses, i.e. mosquito-mosquito species evolution (H
+<sub>0</sub>) and mosquito-plant convergent adaptive evolution (H
+<sub>1</sub>), for the selected PLTs. The site-wise log likelihood plot indicator, i.e. divergence towards negative (&#x02206;SSLS) was compared with LRT (likelihood ratio test), using the parametric bootstrap at 1000 replicate analysis (cut off p-value 5%). Final data analysis and comparison statistics favored the convergent hypothesis
+<sup><xref rid="ref-54" ref-type="bibr">54</xref></sup>, demonstrating that mosquito
+<italic>A. culicifacies</italic> PLTs followed a convergent model favoring (H
+<sub>1</sub>), an adaptive evolution for sugar feeding associated functional relationship with plants (
+<xref ref-type="fig" rid="f3">Figure 3C</xref>;
+<xref ref-type="other" rid="S1">Supplementary material S4</xref>). Our analysis also supports the previous observations noted for the evolution of echolocating gene clusters among bats and bottlenose dolphins
+<sup><xref rid="ref-55" ref-type="bibr">55</xref></sup>. Additionally, the predicted 3D structural analysis revealed fine conservation of the active functional domains in the mosquito and plant proteins e.g. cysteine protease (
+<xref ref-type="fig" rid="f3">Figure 3D</xref>;
+<xref ref-type="other" rid="S1">Supplementary material S5</xref>). From these studies, we concluded that mosquito feeding associated genes are not only evolving actively, but also acquiring new genes (e.g. dehydrin, expansin), to adapt successfully over the plant host.</p></sec><sec><title>Feeding associated molecular complexity of &#x02018;salivary-sugar-microbe&#x02019;: A tripartite interaction</title><p> Insect-plant association represents one of the most dominant interactions over millions of years
+<sup><xref rid="ref-56" ref-type="bibr">56</xref>&#x02013;
+<xref rid="ref-58" ref-type="bibr">58</xref></sup>. These interactions are thought to play an important role in the co-evolution of molecular effector arms, enabling effective adaptation over each other
+<sup><xref rid="ref-59" ref-type="bibr">59</xref></sup>. Uncovering of the molecular mechanisms of the herbivore insect-plant interaction has greatly facilitated the design of molecular strategies to save the valuable crops from insect pests
+<sup><xref rid="ref-60" ref-type="bibr">60</xref>&#x02013;
+<xref rid="ref-63" ref-type="bibr">63</xref></sup>. However, such studies have not given special attention to mosquitoes. From the unexpected findings of the mosquito PLTs, we interpreted that either studies in relation to the sugar feeding associated biology have largely been ignored
+<sup><xref rid="ref-28" ref-type="bibr">28</xref></sup> or the mosquito
+<italic>A. culicifacies</italic> may have evolved with more complex genetic architecture favoring evolution of several environmentally-guided traits viz. carbon metabolism; light mediated photo conditions for mating, feeding, survival etc. Therefore, to predict sugar metabolism associated molecular and functional relationships of salivary PLTs, initially we analyzed all the putative PLTs against three databases (Reactome, KEGG, and Biocycles) annotated for
+<italic>Arabidopsis thaliana</italic>, using KOBAS online software, version 2.0 (
+<ext-link ext-link-type="uri" xlink:href="http://kobas.cbi.pku.edu.cn/home.do">http://kobas.cbi.pku.edu.cn/home.do</ext-link>).</p><p>Notably, we observed that 18 transcripts encoding proteins related to at least five Biocyclic pathways linked to photosynthetic organelles viz. plastid in plants (
+<xref ref-type="other" rid="S1">Supplementary material S6, T1</xref>). To verify the predicted &#x02018;plastid&#x02019; related salivary transcripts, Fisher&#x02019;s exact test was performed using BLAST2GO, revealing a pool of 11 transcripts differentially expressed in the sugar fed mosquitoes (Fisher test p&#x0003c;0.001;
+<xref ref-type="other" rid="S1">Supplementary material S6B</xref>) encoding important enzymes/proteins, associated with one of the key pathway &#x0201c;Carbon fixation in Photosynthetic Organisms&#x0201d; (
+<xref ref-type="fig" rid="f4">Figure 4A</xref>). Further, we also identified four unique salivary transcripts encoding different enzymes linked to three other secondary metabolite synthesis pathways, namely: &#x02018;Trepenoid Backbone Biosynthesis&#x02019; (4-hydroxy-3-methylbut-2-enyl diphosphate reductase/E.C.1.17.1.2, LYTB); &#x02018;Carotenoid Biosynthesis&#x02019; (Phytoene Synthase/E.C.2.5.1.32, PS); and &#x02018;Flavonoid Biosynthesis&#x02019; (3-dioxigenase/E.C.1.14.11.9 &#x00026; 3&#x02019; beta-hydroxylase/E.C.1.14.13.88) pathways restricted to plants (
+<xref ref-type="other" rid="S1">Supplementary material S7</xref>). A comprehensive molecular and phylogenetic analysis of a few selected transcripts, encoding an enzyme 4-hydroxy-3-methylbut-2-enyl diphosphate reductase/E.C.1.17.1.2 (LYTB) and phytoene synthase/E.C.2.5.1.32 (PS) exclusively revealed a unique evolutionary relationship to the cyanobacteria, algae, plants and aphid
+<italic>Acyrithosiphon pisum</italic> (
+<xref ref-type="fig" rid="f4">Figure 4B,C</xref>;
+<xref ref-type="other" rid="S1">Supplementary material S7</xref>). In fact, during its early development mosquito larvae start to feed on diverse micronutrients e.g. bacteria, algae, fungi etc., and switch to feed on nectar sugars in adult mosquito stage. Thus, it could be possible that a long association and regular microbe-mosquito-plant interactions
+<sup><xref rid="ref-64" ref-type="bibr">64</xref>,
+<xref rid="ref-65" ref-type="bibr">65</xref></sup>, might have favored insects (mosquitoes) to adapt, feed, and digest sugar as well as selective synthesis of secondary metabolites/pigments, essential for specific phenotype e.g. visual pigmentation/dark body coloration
+<sup><xref rid="ref-66" ref-type="bibr">66</xref></sup>. A recent study on light-induced ATP synthesis from the chloroplastid-like carotene pigments in
+<italic>Acyrithosiphon pisum</italic>, a plant sap sucking aphid, provides the first molecular evidence that the aphid genome may carry plant like photosynthetic machinery components
+<sup><xref rid="ref-67" ref-type="bibr">67</xref></sup>. A fungal mediated lateral HGT mechanism has been proposed for the evolution of the carotenoid biosynthesis gene in this aphid
+<sup><xref rid="ref-20" ref-type="bibr">20</xref></sup>.</p><fig fig-type="figure" id="f4" orientation="portrait" position="float"><label>Figure 4. </label><caption><title>Molecular Evidence that mosquito encodes plant like photosynthetic machinery components partly shared by symbiotically associated salivary bacteria for carbon fixation and metabolism.</title><p>(
+<bold>A</bold>) KEGG prediction of salivary transcripts (differentially expressed/Fisher test p&#x0003c;0.001) encoding enzymes (Green) involved in &#x0201c;Carbon Fixation in Photosynthetic Organisms&#x0201d; pathway known to be restricted to the photosynthetic plants organelles e.g. plastids only (see text). (
+<bold>B</bold>) Phylogenetic analysis of a unique mosquito salivary transcript, encoding a Plant homolog 4-hydroxy-3-methylbut-2-enyl diphosphate reductase/E.C.1.17.1.2 linked to the &#x0201c;Trepenoid Backbone Biosynthesis&#x0201d; pathway. (
+<bold>C</bold>) Phylogenetic analysis of a unique mosquito salivary transcript, encoding a Plant homolog Phytoene Synthase/E.C.2.5.1.32 linked to the &#x0201c;Carotenoid Biosynthesis&#x0201d; pathway. In fact like other animals, insects are also believed to absorb carotenoid pigment (an eye pigment) from plant food. Additionally, lower microbes such as algae and cyanobacteria also carries LYTB/PS gene in their genome. Phylogenetic analysis of the salivary LYTB &#x00026; PS showed unique association with the plant, as well as microbial LYTB while PS also showed evolutionary relationship to the novel PS gene recently identified from sap sucking insect
+<italic>Acyrithosiphon pisum</italic>, suggesting that mosquito LYTB/PS might have evolved, for independent synthesis of the carotenoid synthesis assisting feeding adaption preference over plant host. (
+<bold>D</bold>) Identification of symbiotically associated salivary microbial flora predominated and unique bacteria (marked green circle), probably assisting mosquito to adapt, feed and metabolize diverse carbon rich sugar sources of plant origin (see another report for detail).</p></caption><graphic xlink:href="f1000research-4-8113-g0008"/></fig><p>In nature, mosquitoes are regularly exposed to various environmental factors which have adverse effects on their reproductive success, longevity &#x00026; vector competence
+<sup><xref rid="ref-68" ref-type="bibr">68</xref></sup>. Gut bacterial endosymbionts are known to play a part in several functions including food digestion, metabolism, reproduction and immunity
+<sup><xref rid="ref-69" ref-type="bibr">69</xref></sup>. Our recent metagenomic analysis of salivary microbiome identified several unique bacterial phyla, including
+<italic>Chlorobium, Cyanobacteria, Nitrospira</italic> and other phototrophic bacteria associated with salivary glands (
+<xref ref-type="fig" rid="f4">Figure 4D</xref>), but absent in the gut of laboratory reared 3&#x02013;4 days old adult female mosquitoes
+<italic>A. culicifacies</italic>
+<sup><xref rid="ref-70" ref-type="bibr">70</xref></sup>. Indirectly, the above findings further support the hypothesis that mosquitoes may have feeding associated distinct plant like molecular machinery components, partly shared by the residing symbiotic bacterial community for diverse carbon/nitrogen rich plant sugar source metabolism. For example, finding of prominent salivary associated
+<italic>Acidobacteria</italic> (2.4%), may facilitate the utilization of plant polymer viz. cellulose/xylan sugars of diverse origin
+<sup><xref rid="ref-71" ref-type="bibr">71</xref></sup>, as reported in the gut of the wood feeding larvae of Huhu Beetle (
+<italic>Prionoplus reticulari</italic>)
+<sup><xref rid="ref-72" ref-type="bibr">72</xref></sup>.</p></sec><sec><title>HGTs in eukaryotes: a key to success</title><p>The observation of a large pool of chloroplast and nuclear encoded plant genes in the mosquito transcriptome supported the previous finding of similar gene transfer of photosynthetic machinery components from algae to mollusk
+<sup><xref rid="ref-19" ref-type="bibr">19</xref></sup>. In addition to this, molecular analysis of PLTs also revealed a plant related class of secondary metabolites (see above) and immune genes i.e. Remorin (anti-fungal); osmotin/thaumatin (anti-fungal); and Vicilin (Antimicrobial) (
+<xref ref-type="other" rid="S1">Supplementary material ST-1</xref>), a similar finding of active genes in the aphid genome
+<sup><xref rid="ref-73" ref-type="bibr">73</xref></sup>. Although, in case of algal-mollusk or Aphid-plant interaction studies, the role of microbes is yet to be established, however, our metagenomic analysis provides initial evidence that tissue associated microbial flora may also share and facilitate optimal function. Thus, we believe that the accumulating data of genetic material transfer within metazoans are still at a premature stage, but emerging evidences strongly suggest that acquisition and retention of desired active functional genes for beneficial traits, may favor improved survival and adaptation values in changing ecologies
+<sup><xref rid="ref-4" ref-type="bibr">4</xref></sup>.</p><p>With the current available data, including the present investigation, we hypothesize that HGTs in metazoans may also play an important role in the evolution and acquisition of beneficial traits that facilitate feeding and survival adaptation over diverse ecologies. This hypothesis is further strengthened by our following new observations: (a) that PLTs expression seems to be restricted to the tissues, i.e. the feeding machinery components that facilitate digestion and metabolism, e.g. salivary glands, midgut olfactory tissues in case of the mosquito (
+<xref ref-type="fig" rid="f5">Figure 5</xref>); (b) absence of PLTs from other non-digestive tissues, e.g. hemocyte (mosquito blood cells); (c) the finding of dominantly associated unique bacterial species to the mosquito digestive tissues viz. salivary gland and midgut
+<sup><xref rid="ref-70" ref-type="bibr">70</xref></sup>, e.g.
+<italic>Acidobacteria</italic> (sugar metabolism);
+<italic>Agromonas</italic> bacteria, a soil oligotroph (nitrogen fixing bacteria) that usually grow at extra low nutrient environments of the paddy field, complementing the high larval density of the mosquito
+<italic>A. culicifacies</italic> in paddy fields of the rural India
+<sup><xref rid="ref-74" ref-type="bibr">74</xref></sup>. Indeed,
+<italic>Agromonas</italic> has been previously isolated from paddy fields
+<sup><xref rid="ref-71" ref-type="bibr">71</xref></sup>; but largely remain unidentified from any insect species so far.</p><fig fig-type="figure" id="f5" orientation="portrait" position="float"><label>Figure 5. </label><caption><title>PLTs dominantly express in feeding associated tissues.</title><p>(
+<bold>A</bold>) Tissue specific expression of PLTs; (
+<bold>B</bold>) Blood meal response of salivary glands PLTs viz. dehydrin, expansin and light harvesting complex (LHC) in the adult female mosquito. SG_SF: Salivary Gland Sugar Fed; SG_BF: Salivary Gland Blood Fed; MG: Midgut; OLF: Olfactory; HC: Hemocyte; NTC: No Template Control.</p></caption><graphic xlink:href="f1000research-4-8113-g0009"/></fig><p>Furthermore, in mosquitoes it has long been accepted and proven that a significant variation exists in the chromosomal DNA as well as genome size within
+<italic>Anopheline</italic> and other mosquito species
+<sup><xref rid="ref-75" ref-type="bibr">75</xref>,
+<xref rid="ref-76" ref-type="bibr">76</xref></sup>, but how these variations differentially affect the mosquito biology viz. behavior, physiology, immunity and vectorial capacity etc., are poorly understood at the molecular level.</p></sec></sec><sec><title>Material &#x00026; methods</title><p>
+<bold>Mosquito rearing:</bold> A cyclic colony of
+<italic>A. culicifacies</italic> sibling species A, were reared and maintained at 28 &#x000b1;2&#x000b0;C/RH 80% in the insectary fitted with an automated dawn and dusk simulator allowing a light and dark cycle for 11hrs with 1hr transition from light to dark and vice-versa, essentially required for proper mating and feeding at NIMR
+<sup><xref rid="ref-77" ref-type="bibr">77</xref></sup>. All protocols for rearing and maintenance of the mosquito culture were approved by the Institutional Animal Ethics Committee (IAEC) of the institute (Reg. No. 33ReBi/GO/S/99/CPCSEA). For our specific research work, pupa stage
+<italic>A. culicifacies</italic> were collected from the insectary and kept in a round plastic cage fitted with mosquito net, perfectly wiped with 70% ethanol prior to the experiment. Post emergence adult mosquitoes were fed daily on sterile sugar solution (5%) using a glass test tube supplied with a sterile cotton swab throughout the experiment, while mosquitoes were allowed to feed directly on a rabbit for blood meal acquisition. For aquatic development, gravid females were allowed to lay eggs on moistened filter paper mounted inside small plastic cups (e.g. ice cream cup), semi-filled with pre-cooled boiled water. Hatched larvae were feed on mixed dried powder of yeast and fish food (Taiyo Plus, Tetra Gmbh, Germany). The utensils viz. plastic bowl, cup or tray used to rear larvae were properly washed with soap solution, followed by multiple washing with boiled water and air dried. The waste removal and fresh nutrient supply to the larva was maintained with an interval of 24 hrs in 300&#x02013;400 ml pre-cooled hot water.</p><sec><title>Molecular studies &#x00026; gene expression analysis</title><p>
+<bold><italic>Tissue collection</italic>:</bold> For the desired tissues viz. salivary glands, midgut, hemocytes, olfactory tissues collection, we followed essentially the same protocol as established for our recent metagenomic and transcriptomic studies
+<sup><xref rid="ref-31" ref-type="bibr">31</xref>,
+<xref rid="ref-70" ref-type="bibr">70</xref></sup>. Briefly, prior to dissection, 3&#x02013;4 day old sugar or blood fed adult female mosquitoes were surface sterilized using 70% ethanol for 1 min followed by dissection in a sterile water drop on a microscopic slide in a sterile working area under laminar flow. Sterile entomological needles/forceps were used to manually pick up and collect the tissues in the pre-sterilized 1.5 ml Eppendorff tubes containing 50 &#x003bc;l Trizol solution. For the hemocyte collection, a flushing method was opted for as described previously
+<sup><xref rid="ref-80" ref-type="bibr">80</xref></sup>. Briefly 2&#x02013;3 &#x003bc;l of Schneider&#x02019;s (RPMI): FBS: citrate buffer (60:10:30) was injected into the lateral wall of the mesothorax of cold anesthetized mosquitoes, followed by flushing out the diluted hemolymph with an additional 3&#x02013;5 &#x003bc;l of Schneider&#x02019;s (RPMI), by clipping of the last abdominal segment. The diluted hemolymph was directly collected by pipette in Trizol. For the egg collection, a clean fine art paint brush was used to scrape the eggs from moistened filter paper, rinsed with sterile water and collected in the Trizol. The other aquatic developmental stages viz. larva, pupae were also manually picked up with a Pasteur pipette, washed with sterile water twice and collected in Trizol for RNA isolation.</p><p>
+<bold><italic>RNA isolation, cDNA preparation and PCR analysis</italic>:</bold> The desired tissues viz. salivary glands, midgut and hemocyte
+<sup><xref rid="ref-78" ref-type="bibr">78</xref></sup> or the whole body, were collected in Trizol. Total RNA was isolated using standard Trizol method, followed by first-strand cDNA synthesis using Oligo-dT or Random Hexamer primers (Verso kit). For differential expression analysis, routine RT-PCR and agarose gel electrophoresis protocols were used. Relative gene expression was assessed by QuantiMix SYBR green dye (Biotool Biolabs, Madrid, Spain) in Eco-Real-Time PCR Machine (Illumina). PCR cycle parameters involved an initial denaturation at 95&#x000b0;C for 5 min, 40 cycles of 10 s at 95&#x000b0;C, 15 s at 55&#x000b0;C, and 22 s at 72&#x000b0;C. Fluorescence readings were taken at 72&#x000b0;C after each cycle. A final extension at 72&#x000b0;C for 5 min was completed before deriving a melting curve, to confirm the identity of the PCR product. Actin gene was used as an internal control in all qPCR measurements, where minimum two technical replicates were used in each real-time experiment. To better evaluate the relative expression, each experiment was performed in three independent biological replicates. The relative quantification results were normalized with internal control Actin gene and analyzed by 2
+<sup>&#x02013;&#x00394;&#x00394;Ct</sup> method
+<sup><xref rid="ref-79" ref-type="bibr">79</xref></sup>.</p><p>
+<bold><italic>PLTs identification and phylogenomic analysis</italic>:</bold> In an attempt to clarify and improve the functional annotation of a cluster of unique sequences encoding plant like proteins, unexpectedly observed from our recently sequenced salivary transcriptomes
+<sup><xref rid="ref-31" ref-type="bibr">31</xref></sup>, we performed a comparative analysis for both the sugar fed as well as blood fed salivary transcriptomic databases. Initially, to do this we did a species distribution analysis and manually sorted and catalogued the sequences that best match to the plants from the FASTA file. The shortlisted transcripts were subjected to a similarity search against NCBI's NR database using the BLASTx algorithm
+<sup><xref rid="ref-80" ref-type="bibr">80</xref></sup>, with a cut-off E-value of &#x02264;10
+<sup>&#x02212;3</sup> using BLOSUM62 matrix as well as GO annotation/Interproscan analysis using BLAS2GO
+<sup><xref rid="ref-81" ref-type="bibr">81</xref></sup>. Biocyclic pathway analysis for PLTs KOBAS online (
+<ext-link ext-link-type="uri" xlink:href="http://kobas.cbi.pku.edu.cn/home.do">http://kobas.cbi.pku.edu.cn/home.do</ext-link>) software, version 2.0
+<sup><xref rid="ref-82" ref-type="bibr">82</xref></sup>. Following primary BLASTX analysis, the reference sequences from the selected top hits were retrieved and edited for subsequent analysis in the FASTA format. Multiple sequence alignment was performed using ClustaX2, version 2.0
+<sup><xref rid="ref-83" ref-type="bibr">83</xref></sup>. The CLC Sequence viewer (
+<ext-link ext-link-type="uri" xlink:href="http://www.clcbio.com">http://www.clcbio.com</ext-link>) software (version 6.9.1) was used for better quality graphics. The phylogenetic relationship was inferred through MEGA5.1 (
+<ext-link ext-link-type="uri" xlink:href="http://www.megasoftware.net/">http://www.megasoftware.net/</ext-link>) software. The evolutionary history was inferred using the Neighbor-Joining method, and percentage of replicate trees in which the associated taxa clustered together in the bootstrap test (1000 replicates). The evolutionary distances were computed using the p-distance method, presented in the units of the number of amino acid differences per site. A work flow for the Phylogenomic analysis has been presented in the
+<xref ref-type="other" rid="S1">Supplemental material S6</xref>. The following major steps were followed:</p><list list-type="simple"><list-item><label>I.</label><p>Alignment of orthologous sequences for the selected genes Cysteine Protease, Aquaporin and Alphatubulin using MAFFT v6.864 at default parameters (Auto (FFT-NS-1, FFT-NS-2, FFT-NS-i or L-INS-i) with Amino Acid substitution matrix (BLOSUM62), Gap Penalty (1.53), offset penalty (0.123) and saved in Phylip Interleaved alignment format.</p></list-item><list-item><label>II.</label><p> Alignment was used to generate RAxML tree, using T-REX online
+<sup><xref rid="ref-84" ref-type="bibr">84</xref></sup>, at following parameters for generating
+<italic>de-novo</italic> phylogeny at following parameters: PROTCATDAYHOFF substitution model, Hill Climbing Algorithm, Number of alternative runs on distinct starting trees =100, Rapid bootstrap random seed =12345, Bootstrap random seed =12345. This alternate phylogeny was called H1, as compared to commonly accepted Species phylogeny which was called H0 (the null hypothesis).</p></list-item><list-item><label>III.</label><p>For Delta SSLS estimation, site wise log likelihood values were calculated using
+<sup><xref rid="ref-85" ref-type="bibr">85</xref></sup> for both H0 and H1 phylogeny. Difference in Sitewise Log likelihood was calculated (Delta SSLS= H0-H1), where negative value supports convergent evolution and positive value supports species phylogeny.</p></list-item><list-item><label>IV.</label><p>For LRT test (Tree Finder), Phylogenetic reconstruction for H0 and H1 was done under WAG substitution model &#x00026; Likelihood method for identifying best fit protein model with optimized frequencies with Heterogeneity models (G, GI and I). Parametric bootstrapping analysis was done to compare the two evolutionary hypotheses &#x02018;
+<bold>H0&#x02019; and</bold> &#x02018;
+<bold>H1&#x02019;.</bold> The resulting p-value is the probability that the likelihood ratio simulated under the null hypothesis is less or equal than the observed. Given a level of significance of 5%, a p-value greater than 95% indicates that H1 is better than H0, and a p-value less than 5% indicates that H1 is worse.</p></list-item></list><p>
+<bold><italic>Modeling procedure &#x00026; 3D structural prediction analysis</italic>:</bold> All structures of representative protein were retrieved from the Protein Data Bank (
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/www.rcsb.org">www.rcsb.org</ext-link>) and aligned using the structure alignment program STAMP4.0
+<sup><xref rid="ref-86" ref-type="bibr">86</xref></sup>. Models using all four structures as templates were generated using Modeller9 version 10
+<sup><xref rid="ref-87" ref-type="bibr">87</xref></sup>. 3D representation of the model was prepared in VMD version 1.9 (Visual Molecular Dynamics tool)
+<sup><xref rid="ref-88" ref-type="bibr">88</xref></sup>.</p><p>
+<bold><italic>Genomic DNA isolation &#x00026; PCR</italic>:</bold> For the genomic DNA extraction, a total of five adult female mosquitoes, decapitated with head and wing, were collected in extraction buffer and processed as described earlier
+<sup><xref rid="ref-70" ref-type="bibr">70</xref></sup>. All the PCR amplification conditions and parameters were identical as described above for RT-PCR analysis.</p></sec><sec><title>Immunoblot analysis</title><list list-type="simple"><list-item><label><bold>(a)</bold>&#x000a0;</label><p>
+<bold>Wheat seedling protein sample preparation:</bold> Wheat seeds were surface sterilized, imbibed for two consecutive days on moist filter pads placed in the glass petridish, under deprived light, given alternate 16h/8h light/dark cycle for 3 days and then processed as described previously
+<sup><xref rid="ref-89" ref-type="bibr">89</xref></sup>. Briefly, crude protein extract was prepared by homogenization of seeds in phosphate buffered saline (PBS) with added benzamidine hydrochloride (1 mM) and phenylmethylsulfonyl fluoride (PMSF) (1 mM) followed by centrifugation at 15,000 rpm for 30 minutes at 4&#x000b0;C. Supernatant was collected to quantify and optimize the protein sample concentration for SDS-PAGE with different amount of protein (viz. 20 &#x000b5;g, 50 &#x000b5;g, 100 &#x000b5;g, 200 &#x000b5;g and 400 &#x000b5;g). For further experiments 200 &#x000b5;g was selected as an optimal concentration for immunoblot analysis.</p></list-item><list-item><label><bold>(b)</bold>&#x000a0;</label><p>
+<bold>Mosquito developmental stage (egg, larva, pupa) samples:</bold> Different stages of mosquito viz. egg, larva, pupa were collected in PBS containing benzamidine hydrochloride (1 mM) and phenylmethylsulfonyl fluoride (PMSF) (1 mM) protease inhibitors. The collected mosquito whole body samples were homogenized on ice for 10 minutes, followed by centrifugation at 15,000 rpm for 15 min at 4&#x000b0;C. The clean supernatant was collected and quantified for subsequent analysis as described below.</p></list-item><list-item><label><bold>(c)</bold>&#x000a0;</label><p>
+<bold>Bacterial protein sample</bold> :
+<italic>BL21* cells of E. coli</italic> (2ml) were grown in LB media containing ampicillin (100 &#x003bc;g/ml) at 37&#x000b0;C till optical density (OD: 600) reached 0.4&#x02013;0.6. Harvested cells were spinned down at 12000 rpm and re-suspended with 200 &#x000b5;l re-suspension buffer containing 50 mM NaH
+<sub>2</sub>PO
+<sub>4</sub> pH 8.0, 300 mM NaCl, 10 mM Imidazole. Cell lysate was then centrifuged at 12000 rpm for 5 min and clear supernatant was analyzed through SDS-PAGE.</p></list-item><list-item><label><bold>(d)</bold>&#x000a0;</label><p>
+<bold>SDS-PAGE and immunoblot analysis:</bold> Protein samples (200 &#x000b5;g each) were separated on SDS-polyacrylamide gel with Amersham mini vertical electrophoresis system and transferred to nitrocellulose membrane. Membranes were blocked with 1.5% (w/v) gelatin in PBST and incubated with anti-dehydrin primary antibody (affinity purified polyclonal rabbit antiserum; 1:1000 dilution). The unbound antibody was washed three times for 5 min with PBST. Membranes were then incubated with anti-rabbit HRP secondary antibody (monoclonal; 1:60,000 dilution) (Santa Cruz Biotechnology, USA) for 1 hour. Unbound secondary antibody was washed for 5 minutes three times with PBST at room temperature. The blots were visualized using Amersham ECL prime Western blotting detection reagent containing Solution A: luminol enhancer and Solution B: peroxide and developed on X-ray films by developer and bands were readily fixed in fixer solution.</p></list-item><list-item><label><bold>(e)</bold>&#x000a0;</label><p>
+<bold>Immuno-florescence microscopy:</bold> The collected different developmental stages of mosquito viz. egg and pupa were washed with DEPC treated water and fixed with 4% paraformaldehyde (PFA) overnight at 4&#x000b0;C. The PFA was removed with PBST wash followed by dehydration of the samples with a methanol series as described
+<sup><xref rid="ref-90" ref-type="bibr">90</xref></sup> and stored at -20&#x000b0;C until use. Before using, the samples were rehydrated with a gradual dilution series of methanol in PBS. Final traces of methanol were removed with PBST washes followed by a final wash with 150 mM Tris HCl, pH 9. Antigen retrieval was proceeded by incubating the samples with 150 mM Tris HCl (pH 9) at 70&#x000b0;C for 15 minutes, which were subsequently permeabilized with chilled acetone at -20&#x000b0;C for 20 minutes. Later blocking was done overnight with 10% BSA in PBST at 4&#x000b0;C. After blocking the mosquito samples were incubated with anti-dehydrin primary antibody (affinity purified polyclonal rabbit antiserum; 1:500 in 1% BSA in PBST) for 3 days. PBST washed samples were incubated with goat anti-rabbit IgG FITC labelled secondary antibody (polyclonal; Santacruz Biotechnology, USA) at 4&#x000b0;C for 2 days. For each washing step with PBST i.e. before permeabilization and/or after primary and secondary antibody incubation, the samples were carefully handled. Finally samples were washed with 4% PFA before mounting with a series of glycerol wash given with 25%, 50% and 75% glycerol in PBS for 20 minutes each. The mounted samples were observed under confocal microscope (Model# A1R, Nikon). Negative control samples were processed in identical conditions, except the use of anti-dehydrin antibody and observed along with test samples.</p></list-item></list></sec></sec><sec sec-type="conclusions"><title>Conclusion</title><p>Evolution and adaptation of dual feeding (sugar vs. blood) behavior in adult female mosquitoes remains an unresolved question. Comparative salivary transcriptomic and metagenomic analyses provide initial evidence that
+<italic>A. culicifacies</italic>, may have acquired and evolved with plant like machinery components partly shared by salivary associated microbes, together facilitating feeding preference and adaptation over plants grown in the plain agricultural area of rural India.</p></sec><sec><title>Data availability</title><p>The data referenced by this article are under copyright with the following copyright statement: Copyright: &#x000a9; 2015 Sharma P et al.</p><p>The sequence data has been submitted to NCBI SRA database under following accession number: AC-SG-SF: SRR1753386. All other data is included as
+<xref ref-type="other" rid="S1">Supplementary material</xref>.</p></sec></body><back><ack><title>Acknowledgement</title><p>We are thankful to Dr. S.K. Subbarao for expert comments on the manuscript. We thank Dr. Timothy close, for kind gift of anti-dehydrin antibody. We thank DBT and ICMR for financial support to conduct the research at NIMR. We thank Kunwarjeet Singh for technical assistance and mosquito rearing.</p></ack><sec id="S1" sec-type="supplementary-material"><title>Supplementary material</title><p>Supplementary material for &#x02018;Deep sequencing revealed molecular signature of horizontal gene transfer of plant like transcripts in the mosquito
+<italic>Anopheles culicifacies</italic>: an evolutionary puzzle&#x02019;.</p><p>
+<supplementary-material content-type="local-data" id="S0"><media xlink:href="f1000research-4-8113-s0000.tgz"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material>.</p></sec><ref-list><ref id="ref-1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boto</surname><given-names>L</given-names></name></person-group>:
+<article-title>Horizontal gene transfer in evolution: facts and challenges.</article-title>
+<source><italic>Proc Biol Sci.</italic></source>
+<year>2010</year>;<volume>277</volume>(<issue>1683</issue>):<fpage>819</fpage>&#x02013;<lpage>827</lpage>.
+<pub-id pub-id-type="doi">10.1098/rspb.2009.1679</pub-id>
+<!--<pub-id pub-id-type="pmcid">2842723</pub-id>-->
+<?supplied-pmid 19864285?><pub-id pub-id-type="pmid">19864285</pub-id></mixed-citation></ref><ref id="ref-2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koonin</surname><given-names>EV</given-names></name><name><surname>Makarova</surname><given-names>KS</given-names></name><name><surname>Aravind</surname><given-names>L</given-names></name></person-group>:
+<article-title>Horizontal gene transfer in prokaryotes: quantification and classification.</article-title>
+<source><italic>Annu Rev Microbiol.</italic></source>
+<year>2001</year>;<volume>55</volume>:<fpage>709</fpage>&#x02013;<lpage>742</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.micro.55.1.709</pub-id>
+<?supplied-pmid 11544372?><pub-id pub-id-type="pmid">11544372</pub-id></mixed-citation></ref><ref id="ref-3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Syvanen</surname><given-names>M</given-names></name></person-group>:
+<article-title>Evolutionary implications of horizontal gene transfer.</article-title>
+<source><italic>Annu Rev Genet.</italic></source>
+<year>2012</year>;<volume>46</volume>:<fpage>341</fpage>&#x02013;<lpage>358</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev-genet-110711-155529</pub-id>
+<?supplied-pmid 22934638?><pub-id pub-id-type="pmid">22934638</pub-id></mixed-citation></ref><ref id="ref-4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boto</surname><given-names>L</given-names></name></person-group>:
+<article-title>Horizontal gene transfer in the acquisition of novel traits by metazoans.</article-title>
+<source><italic>Proc Biol Sci.</italic></source>
+<year>2014</year>;<volume>281</volume>(<issue>1777</issue>):<fpage>20132450</fpage>.
+<pub-id pub-id-type="doi">10.1098/rspb.2013.2450</pub-id>
+<!--<pub-id pub-id-type="pmcid">3896011</pub-id>-->
+<?supplied-pmid 24403327?><pub-id pub-id-type="pmid">24403327</pub-id></mixed-citation></ref><ref id="ref-5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunning Hotopp</surname><given-names>JC</given-names></name><name><surname>Clark</surname><given-names>ME</given-names></name><name><surname>Oliveira</surname><given-names>DC</given-names></name><etal/></person-group>:
+<article-title>Widespread lateral gene transfer from intracellular bacteria to multicellular eukaryotes.</article-title>
+<source><italic>Science.</italic></source>
+<year>2007</year>;<volume>317</volume>(<issue>5845</issue>):<fpage>1753</fpage>&#x02013;<lpage>1756</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1142490</pub-id>
+<?supplied-pmid 17761848?><pub-id pub-id-type="pmid">17761848</pub-id></mixed-citation></ref><ref id="ref-6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fenn</surname><given-names>K</given-names></name><name><surname>Conlon</surname><given-names>C</given-names></name><name><surname>Jones</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Phylogenetic relationships of the
+<italic>Wolbachia</italic> of nematodes and arthropods.</article-title>
+<source><italic>PLoS Pathog.</italic></source>
+<year>2006</year>;<volume>2</volume>(<issue>10</issue>):<fpage>e94</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.ppat.0020094</pub-id>
+<!--<pub-id pub-id-type="pmcid">1599763</pub-id>-->
+<?supplied-pmid 17040125?><pub-id pub-id-type="pmid">17040125</pub-id></mixed-citation></ref><ref id="ref-7"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nikoh</surname><given-names>N</given-names></name><name><surname>Tanaka</surname><given-names>K</given-names></name><name><surname>Shibata</surname><given-names>F</given-names></name><etal/></person-group>:
+<article-title>
+<italic>Wolbachia</italic> genome integrated in an insect chromosome: evolution and fate of laterally transferred endosymbiont genes.</article-title>
+<source><italic>Genome Res.</italic></source>
+<year>2008</year>;<volume>18</volume>(<issue>2</issue>):<fpage>272</fpage>&#x02013;<lpage>280</lpage>.
+<pub-id pub-id-type="doi">10.1101/gr.7144908</pub-id>
+<!--<pub-id pub-id-type="pmcid">2203625</pub-id>-->
+<?supplied-pmid 18073380?><pub-id pub-id-type="pmid">18073380</pub-id></mixed-citation></ref><ref id="ref-8"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keeling</surname><given-names>PJ</given-names></name><name><surname>Palmer</surname><given-names>JD</given-names></name></person-group>:
+<article-title>Horizontal gene transfer in eukaryotic evolution.</article-title>
+<source><italic>Nat Rev Genet.</italic></source>
+<year>2008</year>;<volume>9</volume>(<issue>8</issue>):<fpage>605</fpage>&#x02013;<lpage>618</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrg2386</pub-id>
+<?supplied-pmid 18591983?><pub-id pub-id-type="pmid">18591983</pub-id></mixed-citation></ref><ref id="ref-9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andersson</surname><given-names>JO</given-names></name></person-group>:
+<article-title>Gene transfer and diversification of microbial eukaryotes.</article-title>
+<source><italic>Annu Rev Microbiol.</italic></source>
+<year>2009</year>;<volume>63</volume>:<fpage>177</fpage>&#x02013;<lpage>193</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.micro.091208.073203</pub-id>
+<?supplied-pmid 19575565?><pub-id pub-id-type="pmid">19575565</pub-id></mixed-citation></ref><ref id="ref-10"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tucker</surname><given-names>RP</given-names></name></person-group>:
+<article-title>Horizontal gene transfer in choanoflagellates.</article-title>
+<source><italic>J Exp Zool B Mol Dev Evol.</italic></source>
+<year>2013</year>;<volume>320</volume>(<issue>1</issue>):<fpage>1</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1002/jez.b.22480</pub-id>
+<?supplied-pmid 22997182?><pub-id pub-id-type="pmid">22997182</pub-id></mixed-citation></ref><ref id="ref-11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gibbons</surname><given-names>JG</given-names></name><name><surname>Janson</surname><given-names>EM</given-names></name><name><surname>Hittinger</surname><given-names>CT</given-names></name><etal/></person-group>:
+<article-title>Benchmarking next-generation transcriptome sequencing for functional and evolutionary genomics.</article-title>
+<source><italic>Mol Biol Evol.</italic></source>
+<year>2009</year>;<volume>26</volume>(<issue>12</issue>):<fpage>2731</fpage>&#x02013;<lpage>2744</lpage>.
+<pub-id pub-id-type="doi">10.1093/molbev/msp188</pub-id>
+<?supplied-pmid 19706727?><pub-id pub-id-type="pmid">19706727</pub-id></mixed-citation></ref><ref id="ref-12"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hittinger</surname><given-names>CT</given-names></name><name><surname>Johnston</surname><given-names>M</given-names></name><name><surname>Tossberg</surname><given-names>JT</given-names></name><etal/></person-group>:
+<article-title>Leveraging skewed transcript abundance by RNA-Seq to increase the genomic depth of the tree of life.</article-title>
+<source><italic>Proc Natl Acad Sci U S A.</italic></source>
+<year>2010</year>;<volume>107</volume>(<issue>4</issue>):<fpage>1476</fpage>&#x02013;<lpage>1481</lpage>.
+<pub-id pub-id-type="doi">10.1073/pnas.0910449107</pub-id>
+<!--<pub-id pub-id-type="pmcid">2824393</pub-id>-->
+<?supplied-pmid 20080632?><pub-id pub-id-type="pmid">20080632</pub-id></mixed-citation></ref><ref id="ref-13"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>XW</given-names></name><name><surname>Luan</surname><given-names>JB</given-names></name><name><surname>Li</surname><given-names>JM</given-names></name><etal/></person-group>:
+<article-title>
+<italic>De novo</italic> characterization of a whitefly transcriptome and analysis of its gene expression during development.</article-title>
+<source><italic>BMC Genomics.</italic></source>
+<year>2010</year>;<volume>11</volume>:<fpage>400</fpage>.
+<pub-id pub-id-type="doi">10.1186/1471-2164-11-400</pub-id>
+<!--<pub-id pub-id-type="pmcid">2898760</pub-id>-->
+<?supplied-pmid 20573269?><pub-id pub-id-type="pmid">20573269</pub-id></mixed-citation></ref><ref id="ref-14"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Su</surname><given-names>YL</given-names></name><name><surname>Li</surname><given-names>JM</given-names></name><name><surname>Li</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Transcriptomic analysis of the salivary glands of an invasive whitefly.</article-title>
+<source><italic>PLoS One.</italic></source>
+<year>2012</year>;<volume>7</volume>(<issue>6</issue>):<fpage>e39303</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.pone.0039303</pub-id>
+<!--<pub-id pub-id-type="pmcid">3379992</pub-id>-->
+<?supplied-pmid 22745728?><pub-id pub-id-type="pmid">22745728</pub-id></mixed-citation></ref><ref id="ref-15"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bao</surname><given-names>YY</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Wu</surname><given-names>WJ</given-names></name><etal/></person-group>:
+<article-title>
+<italic>De novo</italic> intestine-specific transcriptome of the brown planthopper
+<italic>Nilaparvata lugens</italic> revealed potential functions in digestion, detoxification and immune response.</article-title>
+<source><italic>Genomics.</italic></source>
+<year>2012</year>;<volume>99</volume>(<issue>4</issue>):<fpage>256</fpage>&#x02013;<lpage>264</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.ygeno.2012.02.002</pub-id>
+<?supplied-pmid 22361737?><pub-id pub-id-type="pmid">22361737</pub-id></mixed-citation></ref><ref id="ref-16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nedelcu</surname><given-names>AM</given-names></name><name><surname>Miles</surname><given-names>IH</given-names></name><name><surname>Fagir</surname><given-names>AM</given-names></name><etal/></person-group>:
+<article-title>Adaptive eukaryote-to-eukaryote lateral gene transfer: stress-related genes of algal origin in the closest unicellular relatives of animals.</article-title>
+<source><italic>J Evol Biol.</italic></source>
+<year>2008</year>;<volume>21</volume>(<issue>6</issue>):<fpage>1852</fpage>&#x02013;<lpage>1860</lpage>.
+<pub-id pub-id-type="doi">10.1111/j.1420-9101.2008.01605.x</pub-id>
+<?supplied-pmid 18717747?><pub-id pub-id-type="pmid">18717747</pub-id></mixed-citation></ref><ref id="ref-17"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Iwanaga</surname><given-names>S</given-names></name><name><surname>Isawa</surname><given-names>H</given-names></name><name><surname>Yuda</surname><given-names>M</given-names></name></person-group>:
+<article-title>Horizontal gene transfer of a vertebrate vasodilatory hormone into ticks.</article-title>
+<source><italic>Nat Commun.</italic></source>
+<year>2014</year>;<volume>5</volume>:<fpage>3373</fpage>.
+<pub-id pub-id-type="doi">10.1038/ncomms4373</pub-id>
+<?supplied-pmid 24556716?><pub-id pub-id-type="pmid">24556716</pub-id></mixed-citation></ref><ref id="ref-18"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bhattacharya</surname><given-names>D</given-names></name><name><surname>Pelletreau</surname><given-names>KN</given-names></name><name><surname>Price</surname><given-names>DC</given-names></name><etal/></person-group>:
+<article-title>Genome analysis of
+<italic>Elysia chlorotica</italic> Egg DNA provides no evidence for horizontal gene transfer into the germ line of this Kleptoplastic Mollusc.</article-title>
+<source><italic>Mol Biol Evol.</italic></source>
+<year>2013</year>;<volume>30</volume>(<issue>8</issue>):<fpage>1843</fpage>&#x02013;<lpage>1852</lpage>.
+<pub-id pub-id-type="doi">10.1093/molbev/mst084</pub-id>
+<!--<pub-id pub-id-type="pmcid">3708498</pub-id>-->
+<?supplied-pmid 23645554?><pub-id pub-id-type="pmid">23645554</pub-id></mixed-citation></ref><ref id="ref-19"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pierce</surname><given-names>SK</given-names></name><name><surname>Fang</surname><given-names>X</given-names></name><name><surname>Schwartz</surname><given-names>JA</given-names></name><etal/></person-group>:
+<article-title>Transcriptomic evidence for the expression of horizontally transferred algal nuclear genes in the photosynthetic sea slug,
+<italic>Elysia chlorotica</italic>.</article-title>
+<source><italic>Mol Biol Evol.</italic></source>
+<year>2012</year>;<volume>29</volume>(<issue>6</issue>):<fpage>1545</fpage>&#x02013;<lpage>1556</lpage>.
+<pub-id pub-id-type="doi">10.1093/molbev/msr316</pub-id>
+<?supplied-pmid 22319135?><pub-id pub-id-type="pmid">22319135</pub-id></mixed-citation></ref><ref id="ref-20"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moran</surname><given-names>NA</given-names></name><name><surname>Jarvik</surname><given-names>T</given-names></name></person-group>:
+<article-title>Lateral transfer of genes from fungi underlies carotenoid production in aphids.</article-title>
+<source><italic>Science.</italic></source>
+<year>2010</year>;<volume>328</volume>(<issue>5978</issue>):<fpage>624</fpage>&#x02013;<lpage>627</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1187113</pub-id>
+<?supplied-pmid 20431015?><pub-id pub-id-type="pmid">20431015</pub-id></mixed-citation></ref><ref id="ref-21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ramirez</surname><given-names>JL</given-names></name><name><surname>Souza-Neto</surname><given-names>J</given-names></name><name><surname>Torres Cosme</surname><given-names>R</given-names></name><etal/></person-group>:
+<article-title> Reciprocal tripartite interactions between the
+<italic>Aedes aegypti</italic> midgut microbiota, innate immune system and dengue virus influences vector competence.</article-title>
+<source><italic>PLoS Negl Trop Dis.</italic></source>
+<year>2012</year>;<volume>6</volume>(<issue>3</issue>):<fpage>e1561</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.pntd.0001561</pub-id>
+<!--<pub-id pub-id-type="pmcid">3295821</pub-id>-->
+<?supplied-pmid 22413032?><pub-id pub-id-type="pmid">22413032</pub-id></mixed-citation></ref><ref id="ref-22"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Foster</surname><given-names>WA</given-names></name></person-group>:
+<article-title>Mosquito sugar feeding and reproductive energetics.</article-title>
+<source><italic>Annu Rev Entomol.</italic></source>
+<year>1995</year>;<volume>40</volume>:<fpage>443</fpage>&#x02013;<lpage>474</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.en.40.010195.002303</pub-id>
+<?supplied-pmid 7810991?><pub-id pub-id-type="pmid">7810991</pub-id></mixed-citation></ref><ref id="ref-23"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Balashov</surname><given-names>YuS</given-names></name></person-group>:
+<article-title>Interaction between blood-sucking arthropods and their hosts, and its influence on vector potential.</article-title>
+<source><italic>Annu Rev Entomol.</italic></source>
+<year>1984</year>;<volume>29</volume>:<fpage>137</fpage>&#x02013;<lpage>156</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.en.29.010184.001033</pub-id>
+<?supplied-pmid 6362549?><pub-id pub-id-type="pmid">6362549</pub-id></mixed-citation></ref><ref id="ref-24"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ribeiro</surname><given-names>JM</given-names></name><name><surname>Schneider</surname><given-names>M</given-names></name><name><surname>Guimar&#x000e3;es</surname><given-names>JA</given-names></name></person-group>:
+<article-title>Purification and characterization of prolixin S (nitrophorin 2), the salivary anticoagulant of the blood-sucking bug
+<italic>Rhodnius prolixus</italic>.</article-title>
+<source><italic>Biochem J.</italic></source>
+<year>1995</year>;<volume>308</volume>(<issue>Pt 1</issue>):<fpage>243</fpage>&#x02013;<lpage>249</lpage>.
+<pub-id pub-id-type="doi">10.1042/bj3080243</pub-id>
+<!--<pub-id pub-id-type="pmcid">1136869</pub-id>-->
+<?supplied-pmid 7755571?><pub-id pub-id-type="pmid">7755571</pub-id></mixed-citation></ref><ref id="ref-25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maekawa</surname><given-names>E</given-names></name><name><surname>Aonuma</surname><given-names>H</given-names></name><name><surname>Nelson</surname><given-names>B</given-names></name><etal/></person-group>:
+<article-title> The role of proboscis of the malaria vector mosquito
+<italic>Anopheles stephensi</italic> in host-seeking behavior.</article-title>
+<source><italic>Parasit Vectors.</italic></source>
+<year>2011</year>;<volume>4</volume>:<fpage>10</fpage>.
+<pub-id pub-id-type="doi">10.1186/1756-3305-4-10</pub-id>
+<!--<pub-id pub-id-type="pmcid">3041766</pub-id>-->
+<?supplied-pmid 21272298?><pub-id pub-id-type="pmid">21272298</pub-id></mixed-citation></ref><ref id="ref-26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>James</surname><given-names>AA</given-names></name></person-group>:
+<article-title>Blocking malaria parasite invasion of mosquito salivary glands.</article-title>
+<source><italic>J Exp Biol.</italic></source>
+<year>2003</year>;<volume>206</volume>(<issue>Pt 21</issue>):<fpage>3817</fpage>&#x02013;<lpage>3821</lpage>.
+<pub-id pub-id-type="doi">10.1242/jeb.00616</pub-id>
+<?supplied-pmid 14506217?><pub-id pub-id-type="pmid">14506217</pub-id></mixed-citation></ref><ref id="ref-27"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dixit</surname><given-names>R</given-names></name><name><surname>Sharma</surname><given-names>A</given-names></name><name><surname>Mourya</surname><given-names>DT</given-names></name><etal/></person-group>:
+<article-title> Salivary gland transcriptome analysis during Plasmodium infection in malaria vector
+<italic>Anopheles stephensi</italic>.</article-title>
+<source><italic>Int J Infect Dis.</italic></source>
+<year>2009</year>;<volume>13</volume>(<issue>5</issue>):<fpage>636</fpage>&#x02013;<lpage>646</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.ijid.2008.07.027</pub-id>
+<?supplied-pmid 19128996?><pub-id pub-id-type="pmid">19128996</pub-id></mixed-citation></ref><ref id="ref-28"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dixit</surname><given-names>R</given-names></name><name><surname>Rawat</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title> Salivary gland transcriptome analysis in response to sugar feeding in malaria vector
+<italic>Anopheles stephensi</italic>.</article-title>
+<source><italic>J Insect Physiol.</italic></source>
+<year>2011</year>;<volume>57</volume>(<issue>10</issue>):<fpage>1399</fpage>&#x02013;<lpage>1406</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.jinsphys.2011.07.007</pub-id>
+<?supplied-pmid 21787783?><pub-id pub-id-type="pmid">21787783</pub-id></mixed-citation></ref><ref id="ref-29"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goswami</surname><given-names>G</given-names></name><name><surname>Singh</surname><given-names>OP</given-names></name><name><surname>Nanda</surname><given-names>N</given-names></name><etal/></person-group>:
+<article-title> Identification of all members of the
+<italic>Anopheles culicifacies</italic> complex using allele-specific polymerase chain reaction assays.</article-title>
+<source><italic>Am J Trop Med Hyg.</italic></source>
+<year>2006</year>;<volume>75</volume>(<issue>3</issue>):<fpage>454</fpage>&#x02013;<lpage>460</lpage>.
+<?supplied-pmid 16968921?><pub-id pub-id-type="pmid">16968921</pub-id></mixed-citation></ref><ref id="ref-30"><label>30</label><mixed-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Dev</surname><given-names>V</given-names></name><name><surname>Sharma</surname><given-names>VP</given-names></name></person-group>:
+<article-title>The Dominant Mosquito Vectors of Human Malaria in India</article-title>. In: Manguin, S ed.
+<italic>Anopheles mosquitoes - New insights into malaria vectors</italic>: InTech;<year>2013</year>;<fpage>239</fpage>&#x02013;<lpage>271</lpage>.
+<pub-id pub-id-type="doi">10.5772/55215</pub-id>
+</mixed-citation></ref><ref id="ref-31"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharma</surname><given-names>P</given-names></name><name><surname>Sharma</surname><given-names>S</given-names></name><name><surname>Mishra</surname><given-names>AK</given-names></name><etal/></person-group>:
+<article-title> Unraveling dual feeding associated molecular complexity of salivary glands in the mosquito
+<italic>Anopheles culicifacies</italic>.</article-title>
+<source><italic>Biol Open.</italic></source>
+<year>2015</year>;<volume>4</volume>(<issue>8</issue>):<fpage>1002</fpage>&#x02013;<lpage>1015</lpage>.
+<pub-id pub-id-type="doi">10.1242/bio.012294</pub-id>
+<!--<pub-id pub-id-type="pmcid">4542284</pub-id>-->
+<?supplied-pmid 26163527?><pub-id pub-id-type="pmid">26163527</pub-id></mixed-citation></ref><ref id="ref-32"><label>32</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ribeiro</surname><given-names>JM</given-names></name><name><surname>Mans</surname><given-names>BJ</given-names></name><name><surname>Arc&#x000e0;</surname><given-names>B</given-names></name></person-group>:
+<article-title>An insight into the sialome of blood-feeding Nematocera.</article-title>
+<source><italic>Insect Biochem Mol Biol.</italic></source>
+<year>2010</year>;<volume>40</volume>(<issue>11</issue>):<fpage>767</fpage>&#x02013;<lpage>784</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.ibmb.2010.08.002</pub-id>
+<!--<pub-id pub-id-type="pmcid">2950210</pub-id>-->
+<?supplied-pmid 20728537?><pub-id pub-id-type="pmid">20728537</pub-id></mixed-citation></ref><ref id="ref-33"><label>33</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oliver</surname><given-names>MJ</given-names></name><name><surname>Velten</surname><given-names>J</given-names></name><name><surname>Mishler</surname><given-names>BD</given-names></name></person-group>:
+<article-title>Desiccation tolerance in bryophytes: a reflection of the primitive strategy for plant survival in dehydrating habitats?</article-title>
+<source><italic>Integr Comp Biol.</italic></source>
+<year>2005</year>;<volume>45</volume>(<issue>5</issue>):<fpage>788</fpage>&#x02013;<lpage>799</lpage>.
+<pub-id pub-id-type="doi">10.1093/icb/45.5.788</pub-id>
+<?supplied-pmid 21676830?><pub-id pub-id-type="pmid">21676830</pub-id></mixed-citation></ref><ref id="ref-34"><label>34</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hand</surname><given-names>SC</given-names></name><name><surname>Menze</surname><given-names>MA</given-names></name><name><surname>Toner</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title> LEA proteins during water stress: not just for plants anymore.</article-title>
+<source><italic>Annu Rev Physiol.</italic></source>
+<year>2011</year>;<volume>73</volume>:<fpage>115</fpage>&#x02013;<lpage>134</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev-physiol-012110-142203</pub-id>
+<?supplied-pmid 21034219?><pub-id pub-id-type="pmid">21034219</pub-id></mixed-citation></ref><ref id="ref-35"><label>35</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Close</surname><given-names>TJ</given-names></name><name><surname>Lammers</surname><given-names>PJ</given-names></name></person-group>:
+<article-title>An osmotic stress protein of cyanobacteria is immunologically related to plant dehydrins.</article-title>
+<source><italic>Plant Physiol.</italic></source>
+<year>1993</year>;<volume>101</volume>(<issue>3</issue>):<fpage>773</fpage>&#x02013;<lpage>779</lpage>.
+<pub-id pub-id-type="doi">10.1104/pp.101.3.773</pub-id>
+<!--<pub-id pub-id-type="pmcid">158690</pub-id>-->
+<?supplied-pmid 8310057?><pub-id pub-id-type="pmid">8310057</pub-id></mixed-citation></ref><ref id="ref-36"><label>36</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Campbell</surname><given-names>SA</given-names></name><name><surname>Close</surname><given-names>TJ</given-names></name></person-group>:
+<article-title>Dehydrins: genes, proteins, and associations with phenotypic traits.</article-title>
+<source><italic>New Phytol.</italic></source>
+<year>1997</year>;<volume>137</volume>(<issue>1</issue>):<fpage>61</fpage>&#x02013;<lpage>74</lpage>.
+<pub-id pub-id-type="doi">10.1046/j.1469-8137.1997.00831.x</pub-id>
+</mixed-citation></ref><ref id="ref-37"><label>37</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>R</given-names></name><name><surname>Brawley</surname><given-names>SH</given-names></name><name><surname>Close</surname><given-names>TJ</given-names></name></person-group>:
+<article-title>Proteins Immunologically Related to Dehydrins in Fucoid Algae.</article-title>
+<source><italic>J Phycol.</italic></source>
+<year>1998</year>;<volume>34</volume>(<issue>4</issue>):<fpage>642</fpage>&#x02013;<lpage>650</lpage>.
+<pub-id pub-id-type="doi">10.1046/j.1529-8817.1998.340642.x</pub-id>
+</mixed-citation></ref><ref id="ref-38"><label>38</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mtwisha</surname><given-names>L</given-names></name><name><surname>Brandt</surname><given-names>W</given-names></name><name><surname>McCready</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title> HSP 12 is a LEA-like protein in
+<italic>Saccharomyces cerevisiae</italic>.</article-title>
+<source><italic>Plant Mol Biol.</italic></source>
+<year>1998</year>;<volume>37</volume>(<issue>3</issue>):<fpage>513</fpage>&#x02013;<lpage>521</lpage>.
+<pub-id pub-id-type="doi">10.1023/A:1005904219201</pub-id>
+<?supplied-pmid 9617818?><pub-id pub-id-type="pmid">9617818</pub-id></mixed-citation></ref><ref id="ref-39"><label>39</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Close</surname><given-names>TJ</given-names></name></person-group>:
+<article-title>Dehydrins: A commonality in the response of plants to dehydration and low temperature.</article-title>
+<source><italic>Physiol Plantarum.</italic></source>
+<year>1997</year>;<volume>100</volume>(<issue>2</issue>):<fpage>291</fpage>&#x02013;<lpage>296</lpage>.
+<ext-link ext-link-type="uri" xlink:href="http://eurekamag.com/research/008/425/008425773.php">Reference Source</ext-link>
+</mixed-citation></ref><ref id="ref-40"><label>40</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Close</surname><given-names>TJ</given-names></name><name><surname>Fenton</surname><given-names>RD</given-names></name><name><surname>Moonan</surname><given-names>F</given-names></name></person-group>:
+<article-title>A view of plant dehydrins using antibodies specific to the carboxy terminal peptide.</article-title>
+<source><italic>Plant Mol Biol.</italic></source>
+<year>1993</year>;<volume>23</volume>(<issue>2</issue>):<fpage>279</fpage>&#x02013;<lpage>286</lpage>.
+<pub-id pub-id-type="doi">10.1007/BF00029004</pub-id>
+<?supplied-pmid 7693020?><pub-id pub-id-type="pmid">7693020</pub-id></mixed-citation></ref><ref id="ref-41"><label>41</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ouellet</surname><given-names>F</given-names></name><name><surname>Houde</surname><given-names>M</given-names></name><name><surname>Sarhan</surname><given-names>F</given-names></name></person-group>:
+<article-title>Purification, characterization and cDNA cloning of the 200 kDa protein induced by cold acclimation in wheat.</article-title>
+<source><italic>Plant Cell Physiol.</italic></source>
+<year>1993</year>;<volume>34</volume>(<issue>1</issue>):<fpage>59</fpage>&#x02013;<lpage>65</lpage>.
+<?supplied-pmid 8025821?><pub-id pub-id-type="pmid">8025821</pub-id></mixed-citation></ref><ref id="ref-42"><label>42</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takahashi</surname><given-names>R</given-names></name><name><surname>Joshee</surname><given-names>N</given-names></name><name><surname>Kitagawa</surname><given-names>Y</given-names></name></person-group>:
+<article-title>Induction of chilling resistance by water stress, and cDNA sequence analysis and expression of water stress-regulated genes in rice.</article-title>
+<source><italic>Plant Mol Biol.</italic></source>
+<year>1994</year>;<volume>26</volume>(<issue>1</issue>):<fpage>339</fpage>&#x02013;<lpage>352</lpage>.
+<pub-id pub-id-type="doi">10.1007/BF00039544</pub-id>
+<?supplied-pmid 7948880?><pub-id pub-id-type="pmid">7948880</pub-id></mixed-citation></ref><ref id="ref-43"><label>43</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Volger</surname><given-names>HG</given-names></name><name><surname>Heber</surname><given-names>U</given-names></name></person-group>:
+<article-title>Cryoprotective leaf proteins.</article-title>
+<source><italic>Biochim Biophys Acta.</italic></source>
+<year>1975</year>;<volume>412</volume>(<issue>2</issue>):<fpage>335</fpage>&#x02013;<lpage>349</lpage>.
+<pub-id pub-id-type="doi">10.1016/0005-2795(75)90048-3</pub-id>
+<?supplied-pmid 1191683?><pub-id pub-id-type="pmid">1191683</pub-id></mixed-citation></ref><ref id="ref-44"><label>44</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pruitt</surname><given-names>NL</given-names></name><name><surname>Moqueet</surname><given-names>N</given-names></name><name><surname>Shapiro</surname><given-names>CA</given-names></name></person-group>:
+<article-title>Evidence for a novel cryoprotective protein from freeze-tolerant larvae of the goldenrod gall fly
+<italic>Eurosta solidaginis</italic>.</article-title>
+<source><italic>Cryobiology.</italic></source>
+<year>2007</year>;<volume>54</volume>(<issue>1</issue>):<fpage>125</fpage>&#x02013;<lpage>128</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.cryobiol.2006.12.003</pub-id>
+<?supplied-pmid 17266949?><pub-id pub-id-type="pmid">17266949</pub-id></mixed-citation></ref><ref id="ref-45"><label>45</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Borovskii</surname><given-names>GB</given-names></name><name><surname>Stupnikova</surname><given-names>IV</given-names></name><name><surname>Antipina</surname><given-names>AI</given-names></name><etal/></person-group>:
+<article-title> Accumulation of dehydrin-like proteins in the mitochondria of cereals in response to cold, freezing, drought and ABA treatment.</article-title>
+<source><italic>BMC Plant Biol.</italic></source>
+<year>2002</year>;<volume>2</volume>:<fpage>5</fpage>.
+<pub-id pub-id-type="doi">10.1186/1471-2229-2-5</pub-id>
+<!--<pub-id pub-id-type="pmcid">116594</pub-id>-->
+<?supplied-pmid 12057012?><pub-id pub-id-type="pmid">12057012</pub-id></mixed-citation></ref><ref id="ref-46"><label>46</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hanin</surname><given-names>M</given-names></name><name><surname>Brini</surname><given-names>F</given-names></name><name><surname>Ebel</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title> Plant dehydrins and stress tolerance: versatile proteins for complex mechanisms.</article-title>
+<source><italic>Plant Signal Behav.</italic></source>
+<year>2011</year>;<volume>6</volume>(<issue>10</issue>):<fpage>1503</fpage>&#x02013;<lpage>1509</lpage>.
+<pub-id pub-id-type="doi">10.4161/psb.6.10.17088</pub-id>
+<!--<pub-id pub-id-type="pmcid">3256378</pub-id>-->
+<?supplied-pmid 21897131?><pub-id pub-id-type="pmid">21897131</pub-id></mixed-citation></ref><ref id="ref-47"><label>47</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sampedro</surname><given-names>J</given-names></name><name><surname>Cosgrove</surname><given-names>DJ</given-names></name></person-group>:
+<article-title>The expansin superfamily.</article-title>
+<source><italic>Genome Biol.</italic></source>
+<year>2005</year>;<volume>6</volume>(<issue>12</issue>):<fpage>242</fpage>.
+<pub-id pub-id-type="doi">10.1186/gb-2005-6-12-242</pub-id>
+<!--<pub-id pub-id-type="pmcid">1414085</pub-id>-->
+<?supplied-pmid 16356276?><pub-id pub-id-type="pmid">16356276</pub-id></mixed-citation></ref><ref id="ref-48"><label>48</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lu</surname><given-names>Y</given-names></name><name><surname>Park</surname><given-names>Y</given-names></name><name><surname>Gao</surname><given-names>X</given-names></name><etal/></person-group>:
+<article-title> Cholinergic and non-cholinergic functions of two acetylcholinesterase genes revealed by gene-silencing in
+<italic>Tribolium castaneum</italic>.</article-title>
+<source><italic>Sci Rep.</italic></source>
+<year>2012</year>;<volume>2</volume>:<fpage>288</fpage>.
+<pub-id pub-id-type="doi">10.1038/srep00288</pub-id>
+<!--<pub-id pub-id-type="pmcid">3286809</pub-id>-->
+<?supplied-pmid 22371826?><pub-id pub-id-type="pmid">22371826</pub-id></mixed-citation></ref><ref id="ref-49"><label>49</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scott</surname><given-names>JG</given-names></name><name><surname>Michel</surname><given-names>K</given-names></name><name><surname>Bartholomay</surname><given-names>LC</given-names></name><etal/></person-group>:
+<article-title> Towards the elements of successful insect RNAi.</article-title>
+<source><italic>J Insect Physiol.</italic></source>
+<year>2013</year>;<volume>59</volume>(<issue>12</issue>):<fpage>1212</fpage>&#x02013;<lpage>1221</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.jinsphys.2013.08.014</pub-id>
+<!--<pub-id pub-id-type="pmcid">3870143</pub-id>-->
+<?supplied-pmid 24041495?><pub-id pub-id-type="pmid">24041495</pub-id></mixed-citation></ref><ref id="ref-50"><label>50</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maurel</surname><given-names>C</given-names></name><name><surname>Verdoucq</surname><given-names>L</given-names></name><name><surname>Luu</surname><given-names>DT</given-names></name><etal/></person-group>:
+<article-title> Plant aquaporins: membrane channels with multiple integrated functions.</article-title>
+<source><italic>Annu Rev Plant Biol.</italic></source>
+<year>2008</year>;<volume>59</volume>:<fpage>595</fpage>&#x02013;<lpage>624</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.arplant.59.032607.092734</pub-id>
+<?supplied-pmid 18444909?><pub-id pub-id-type="pmid">18444909</pub-id></mixed-citation></ref><ref id="ref-51"><label>51</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grudkowska</surname><given-names>M</given-names></name><name><surname>Zagda&#x00144;ska</surname><given-names>B</given-names></name></person-group>:
+<article-title>Multifunctional role of plant cysteine proteinases.</article-title>
+<source><italic>Acta Biochim Pol.</italic></source>
+<year>2004</year>;<volume>51</volume>(<issue>3</issue>):<fpage>609</fpage>&#x02013;<lpage>624</lpage>.
+<?supplied-pmid 15448724?><pub-id pub-id-type="pmid">15448724</pub-id></mixed-citation></ref><ref id="ref-52"><label>52</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McQueen-Mason</surname><given-names>SJ</given-names></name><name><surname>Cosgrove</surname><given-names>DJ</given-names></name></person-group>:
+<article-title>Expansin mode of action on cell walls. Analysis of wall hydrolysis, stress relaxation, and binding.</article-title>
+<source><italic>Plant Physiol.</italic></source>
+<year>1995</year>;<volume>107</volume>(<issue>1</issue>):<fpage>87</fpage>&#x02013;<lpage>100</lpage>.
+<!--<pub-id pub-id-type="pmcid">161171</pub-id>-->
+<?supplied-pmid 11536663?><pub-id pub-id-type="pmid">11536663</pub-id></mixed-citation></ref><ref id="ref-53"><label>53</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhen</surname><given-names>Y</given-names></name><name><surname>Aardema</surname><given-names>ML</given-names></name><name><surname>Medina</surname><given-names>EM</given-names></name><etal/></person-group>:
+<article-title>Parallel molecular evolution in an herbivore community.</article-title>
+<source><italic>Science.</italic></source>
+<year>2012</year>;<volume>337</volume>(<issue>6102</issue>):<fpage>1634</fpage>&#x02013;<lpage>1637</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1226630</pub-id>
+<!--<pub-id pub-id-type="pmcid">3770729</pub-id>-->
+<?supplied-pmid 23019645?><pub-id pub-id-type="pmid">23019645</pub-id></mixed-citation></ref><ref id="ref-54"><label>54</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arendt</surname><given-names>J</given-names></name><name><surname>Reznick</surname><given-names>D</given-names></name></person-group>:
+<article-title>Convergence and parallelism reconsidered: what have we learned about the genetics of adaptation?</article-title>
+<source><italic>Trends Ecol Evol.</italic></source>
+<year>2008</year>;<volume>23</volume>(<issue>1</issue>):<fpage>26</fpage>&#x02013;<lpage>32</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.tree.2007.09.011</pub-id>
+<?supplied-pmid 18022278?><pub-id pub-id-type="pmid">18022278</pub-id></mixed-citation></ref><ref id="ref-55"><label>55</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parker</surname><given-names>J</given-names></name><name><surname>Tsagkogeorga</surname><given-names>G</given-names></name><name><surname>Cotton</surname><given-names>JA</given-names></name><etal/></person-group>:
+<article-title>Genome-wide signatures of convergent evolution in echolocating mammals.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2013</year>;<volume>502</volume>(<issue>7470</issue>):<fpage>228</fpage>&#x02013;<lpage>231</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature12511</pub-id>
+<!--<pub-id pub-id-type="pmcid">3836225</pub-id>-->
+<?supplied-pmid 24005325?><pub-id pub-id-type="pmid">24005325</pub-id></mixed-citation></ref><ref id="ref-56"><label>56</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ehrlich</surname><given-names>PR</given-names></name><name><surname>Raven</surname><given-names>PH</given-names></name></person-group>:
+<article-title>Butterflies and Plants: A Study in Coevolution.</article-title>
+<source><italic>Evolution.</italic></source>
+<year>1964</year>;<volume>18</volume>(<issue>4</issue>):<fpage>586</fpage>&#x02013;<lpage>608</lpage>.
+<ext-link ext-link-type="uri" xlink:href="http://www.biologia.bio.br/curso/Introdu%C3%A7%C3%A3o%20%C3%A0%20Biologia%20Evolutiva/Artigo_Ehrlich%20and%20Raven%201964.pdf">Reference Source</ext-link>
+</mixed-citation></ref><ref id="ref-57"><label>57</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fraenkel</surname><given-names>GS</given-names></name></person-group>:
+<article-title>The raison d'&#x00115;tre of secondary plant substances; these odd chemicals arose as a means of protecting plants from insects and now guide insects to food.</article-title>
+<source><italic>Science.</italic></source>
+<year>1959</year>;<volume>129</volume>(<issue>3361</issue>):<fpage>1466</fpage>&#x02013;<lpage>1470</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.129.3361.1466</pub-id>
+<?supplied-pmid 13658975?><pub-id pub-id-type="pmid">13658975</pub-id></mixed-citation></ref><ref id="ref-58"><label>58</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Agrawal</surname><given-names>AA</given-names></name><name><surname>Hastings</surname><given-names>AP</given-names></name><name><surname>Johnson</surname><given-names>MT</given-names></name><etal/></person-group>:
+<article-title>Insect herbivores drive real-time ecological and evolutionary change in plant populations.</article-title>
+<source><italic>Science.</italic></source>
+<year>2012</year>;<volume>338</volume>(<issue>6103</issue>):<fpage>113</fpage>&#x02013;<lpage>116</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1225977</pub-id>
+<?supplied-pmid 23042894?><pub-id pub-id-type="pmid">23042894</pub-id></mixed-citation></ref><ref id="ref-59"><label>59</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hogenhout</surname><given-names>SA</given-names></name><name><surname>Bos</surname><given-names>JI</given-names></name></person-group>:
+<article-title>Effector proteins that modulate plant--insect interactions.</article-title>
+<source><italic>Curr Opin Plant Biol.</italic></source>
+<year>2011</year>;<volume>14</volume>(<issue>4</issue>):<fpage>422</fpage>&#x02013;<lpage>428</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.pbi.2011.05.003</pub-id>
+<?supplied-pmid 21684190?><pub-id pub-id-type="pmid">21684190</pub-id></mixed-citation></ref><ref id="ref-60"><label>60</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baldwin</surname><given-names>IT</given-names></name><name><surname>Halitschke</surname><given-names>R</given-names></name><name><surname>Kessler</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Merging molecular and ecological approaches in plant-insect interactions.</article-title>
+<source><italic>Curr Opin Plant Biol.</italic></source>
+<year>2001</year>;<volume>4</volume>(<issue>4</issue>):<fpage>351</fpage>&#x02013;<lpage>358</lpage>.
+<pub-id pub-id-type="doi">10.1016/S1369-5266(00)00184-9</pub-id>
+<?supplied-pmid 11418346?><pub-id pub-id-type="pmid">11418346</pub-id></mixed-citation></ref><ref id="ref-61"><label>61</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferry</surname><given-names>N</given-names></name><name><surname>Edwards</surname><given-names>MG</given-names></name><name><surname>Gatehouse</surname><given-names>JA</given-names></name><etal/></person-group>:
+<article-title>Plant-insect interactions: molecular approaches to insect resistance.</article-title>
+<source><italic>Curr Opin Biotechnol.</italic></source>
+<year>2004</year>;<volume>15</volume>(<issue>2</issue>):<fpage>155</fpage>&#x02013;<lpage>161</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.copbio.2004.01.008</pub-id>
+<?supplied-pmid 15081055?><pub-id pub-id-type="pmid">15081055</pub-id></mixed-citation></ref><ref id="ref-62"><label>62</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maffei</surname><given-names>ME</given-names></name><name><surname>Mith&#x000f6;fer</surname><given-names>A</given-names></name><name><surname>Boland</surname><given-names>W</given-names></name></person-group>:
+<article-title>Before gene expression: early events in plant-insect interaction.</article-title>
+<source><italic>Trends Plant Sci.</italic></source>
+<year>2007</year>;<volume>12</volume>(<issue>7</issue>):<fpage>310</fpage>&#x02013;<lpage>316</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.tplants.2007.06.001</pub-id>
+<?supplied-pmid 17596996?><pub-id pub-id-type="pmid">17596996</pub-id></mixed-citation></ref><ref id="ref-63"><label>63</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Felton</surname><given-names>GW</given-names></name><name><surname>Tumlinson</surname><given-names>JH</given-names></name></person-group>:
+<article-title>Plant-insect dialogs: complex interactions at the plant-insect interface.</article-title>
+<source><italic>Curr Opin Plant Biol.</italic></source>
+<year>2008</year>;<volume>11</volume>(<issue>4</issue>):<fpage>457</fpage>&#x02013;<lpage>463</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.pbi.2008.07.001</pub-id>
+<?supplied-pmid 18657469?><pub-id pub-id-type="pmid">18657469</pub-id></mixed-citation></ref><ref id="ref-64"><label>64</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pieterse</surname><given-names>CM</given-names></name><name><surname>Dicke</surname><given-names>M</given-names></name></person-group>:
+<article-title>Plant interactions with microbes and insects: from molecular mechanisms to ecology.</article-title>
+<source><italic>Trends Plant Sci.</italic></source>
+<year>2007</year>;<volume>12</volume>(<issue>12</issue>):<fpage>564</fpage>&#x02013;<lpage>569</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.tplants.2007.09.004</pub-id>
+<?supplied-pmid 17997347?><pub-id pub-id-type="pmid">17997347</pub-id></mixed-citation></ref><ref id="ref-65"><label>65</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bennett</surname><given-names>AE</given-names></name></person-group>:
+<article-title>Can plant&#x02013;microbe&#x02013;insect interactions enhance or inhibit the spread of invasive species?</article-title>
+<source><italic>Funct Ecol.</italic></source>
+<year>2013</year>;<volume>27</volume>(<issue>3</issue>):<fpage>661</fpage>&#x02013;<lpage>671</lpage>.
+<pub-id pub-id-type="doi">10.1111/1365-2435.12099</pub-id>
+</mixed-citation></ref><ref id="ref-66"><label>66</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Benedict</surname><given-names>MQ</given-names></name><name><surname>Seawright</surname><given-names>JA</given-names></name></person-group>:
+<article-title>Changes in Pigmentation in Mosquitoes (Diptera: Culicidae) in Response to Color of Environment.</article-title>
+<source><italic>Ann Entomol Soc Am.</italic></source>
+<year>1987</year>;<volume>80</volume>(<issue>1</issue>):<fpage>55</fpage>&#x02013;<lpage>61</lpage>.
+<pub-id pub-id-type="doi">10.1093/aesa/80.1.55</pub-id>
+</mixed-citation></ref><ref id="ref-67"><label>67</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valmalette</surname><given-names>JC</given-names></name><name><surname>Dombrovsky</surname><given-names>A</given-names></name><name><surname>Brat</surname><given-names>P</given-names></name><etal/></person-group>:
+<article-title>Light- induced electron transfer and ATP synthesis in a carotene synthesizing insect.</article-title>
+<source><italic>Sci Rep.</italic></source>
+<year>2012</year>;<volume>2</volume>: 579.
+<pub-id pub-id-type="doi">10.1038/srep00579</pub-id>
+<!--<pub-id pub-id-type="pmcid">3420219</pub-id>-->
+<?supplied-pmid 22900140?><pub-id pub-id-type="pmid">22900140</pub-id></mixed-citation></ref><ref id="ref-68"><label>68</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lef&#x000e8;vre</surname><given-names>T</given-names></name><name><surname>Vantaux</surname><given-names>A</given-names></name><name><surname>Dabir&#x000e9;</surname><given-names>KR</given-names></name><etal/></person-group>:
+<article-title>Non-genetic determinants of mosquito competence for malaria parasites.</article-title>
+<source><italic>PLoS Pathog.</italic></source>
+<year>2013</year>;<volume>9</volume>(<issue>6</issue>):<fpage>e1003365</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1003365</pub-id>
+<!--<pub-id pub-id-type="pmcid">3688545</pub-id>-->
+<?supplied-pmid 23818841?><pub-id pub-id-type="pmid">23818841</pub-id></mixed-citation></ref><ref id="ref-69"><label>69</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Minard</surname><given-names>G</given-names></name><name><surname>Mavingui</surname><given-names>P</given-names></name><name><surname>Moro</surname><given-names>CV</given-names></name></person-group>:
+<article-title>Diversity and function of bacterial microbiota in the mosquito holobiont.</article-title>
+<source><italic>Parasit Vectors.</italic></source>
+<year>2013</year>;<volume>6</volume>:<fpage>146</fpage>.
+<pub-id pub-id-type="doi">10.1186/1756-3305-6-146</pub-id>
+<!--<pub-id pub-id-type="pmcid">3667145</pub-id>-->
+<?supplied-pmid 23688194?><pub-id pub-id-type="pmid">23688194</pub-id></mixed-citation></ref><ref id="ref-70"><label>70</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharma</surname><given-names>P</given-names></name><name><surname>Sharma</surname><given-names>S</given-names></name><name><surname>Maurya</surname><given-names>RK</given-names></name><etal/></person-group>:
+<article-title>Salivary glands harbor more diverse microbial communities than gut in
+<italic>Anopheles culicifacies</italic>.</article-title>
+<source><italic>Parasit Vectors.</italic></source>
+<year>2014</year>;<volume>7</volume>(<issue>1</issue>):<fpage>235</fpage>.
+<pub-id pub-id-type="doi">10.1186/1756-3305-7-235</pub-id>
+<!--<pub-id pub-id-type="pmcid">4062515</pub-id>-->
+<?supplied-pmid 24886293?><pub-id pub-id-type="pmid">24886293</pub-id></mixed-citation></ref><ref id="ref-71"><label>71</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eichorst</surname><given-names>SA</given-names></name><name><surname>Kuske</surname><given-names>CR</given-names></name><name><surname>Schmidt</surname><given-names>TM</given-names></name></person-group>:
+<article-title>Influence of plant polymers on the distribution and cultivation of bacteria in the phylum
+<italic>Acidobacteria</italic>.</article-title>
+<source><italic>Appl Environ Microbiol.</italic></source>
+<year>2011</year>;<volume>77</volume>(<issue>2</issue>):<fpage>586</fpage>&#x02013;<lpage>596</lpage>.
+<pub-id pub-id-type="doi">10.1128/AEM.01080-10</pub-id>
+<!--<pub-id pub-id-type="pmcid">3020536</pub-id>-->
+<?supplied-pmid 21097594?><pub-id pub-id-type="pmid">21097594</pub-id></mixed-citation></ref><ref id="ref-72"><label>72</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reid</surname><given-names>NM</given-names></name><name><surname>Addison</surname><given-names>SL</given-names></name><name><surname>Macdonald</surname><given-names>LJ</given-names></name><etal/></person-group>:
+<article-title>Biodiversity of active and inactive bacteria in the gut flora of wood-feeding huhu beetle larvae (
+<italic>Prionoplus reticularis</italic>).</article-title>
+<source><italic>Appl Environ Microbiol.</italic></source>
+<year>2011</year>;<volume>77</volume>(<issue>19</issue>):<fpage>7000</fpage>&#x02013;<lpage>7006</lpage>.
+<pub-id pub-id-type="doi">10.1128/AEM.05609-11</pub-id>
+<!--<pub-id pub-id-type="pmcid">3187079</pub-id>-->
+<?supplied-pmid 21841025?><pub-id pub-id-type="pmid">21841025</pub-id></mixed-citation></ref><ref id="ref-73"><label>73</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerardo</surname><given-names>NM</given-names></name><name><surname>Altincicek</surname><given-names>B</given-names></name><name><surname>Anselme</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>Immunity and other defenses in pea aphids,
+<italic>Acyrthosiphon pisum</italic>.</article-title>
+<source><italic>Genome Biol.</italic></source>
+<year>2010</year>;<volume>11</volume>(<issue>2</issue>):<fpage>R21</fpage>.
+<pub-id pub-id-type="doi">10.1186/gb-2010-11-2-r21</pub-id>
+<!--<pub-id pub-id-type="pmcid">2872881</pub-id>-->
+<?supplied-pmid 20178569?><pub-id pub-id-type="pmid">20178569</pub-id></mixed-citation></ref><ref id="ref-74"><label>74</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>WH</given-names></name></person-group>:
+<article-title>Vector-borne disease control in humans through rice agroecosystem management</article-title>. Paper presented at:
+<italic>Research and Training Needs in the Field of integrated Vector-borne Disease Control in Riceland Agroecosystems of Developing Countries</italic>; 9&#x02013;14 March 1987, International Rice Research Institute (IRRI), at Los Ba&#x000f1;os, Philippines.<year>1987</year>
+<ext-link ext-link-type="uri" xlink:href="https://www.google.co.in/url?sa=t&#x00026;rct=j&#x00026;q=&#x00026;esrc=s&#x00026;source=web&#x00026;cd=2&#x00026;cad=rja&#x00026;uact=8&#x00026;ved=0ahUKEwjn2-bYzNDJAhUCGI4KHd0bCv4QFggdMAE&#x00026;url=http%3A%2F%2Fbooks.irri.org%2F9711042037_content.pdf&#x00026;usg=AFQjCNGYFEAu5S-Upp5Sd9ItmdSvCAKt7Q&#x00026;bvm=bv.109395566,d.c2E">Reference Source</ext-link>
+</mixed-citation></ref><ref id="ref-75"><label>75</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rai</surname><given-names>KS</given-names></name></person-group>:
+<article-title>Genetics of mosquitoes.</article-title>
+<source><italic>J Genet.</italic></source>
+<year>1999</year>;<volume>78</volume>(<issue>3</issue>):<fpage>163</fpage>&#x02013;<lpage>169</lpage>.
+<pub-id pub-id-type="doi">10.1007/BF02934462</pub-id>
+</mixed-citation></ref><ref id="ref-76"><label>76</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neafsey</surname><given-names>DE</given-names></name><name><surname>Christophides</surname><given-names>GK</given-names></name><name><surname>Collins</surname><given-names>FH</given-names></name><etal/></person-group>:
+<article-title>The evolution of the
+<italic>Anopheles</italic> 16 genomes project.</article-title>
+<source><italic>G3 (Bethesda).</italic></source>
+<year>2013</year>;<volume>3</volume>(<issue>7</issue>):<fpage>1191</fpage>&#x02013;<lpage>1194</lpage>.
+<pub-id pub-id-type="doi">10.1534/g3.113.006247</pub-id>
+<!--<pub-id pub-id-type="pmcid">3704246</pub-id>-->
+<?supplied-pmid 23708298?><pub-id pub-id-type="pmid">23708298</pub-id></mixed-citation></ref><ref id="ref-77"><label>77</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adak</surname><given-names>T</given-names></name><name><surname>Kaur</surname><given-names>S</given-names></name><name><surname>Singh</surname><given-names>OP</given-names></name></person-group>:
+<article-title>Comparative susceptibility of different members of the
+<italic>Anopheles culicifacies</italic> complex to
+<italic>Plasmodium vivax</italic>.</article-title>
+<source><italic>Trans R Soc Trop Med Hyg.</italic></source>
+<year>1999</year>;<volume>93</volume>(<issue>6</issue>):<fpage>573</fpage>&#x02013;<lpage>577</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0035-9203(99)90052-4</pub-id>
+<?supplied-pmid 10717735?><pub-id pub-id-type="pmid">10717735</pub-id></mixed-citation></ref><ref id="ref-78"><label>78</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodrigues</surname><given-names>J</given-names></name><name><surname>Brayner</surname><given-names>FA</given-names></name><name><surname>Alves</surname><given-names>LC</given-names></name><etal/></person-group>:
+<article-title>Hemocyte differentiation mediates innate immune memory in
+<italic>Anopheles gambiae</italic> mosquitoes.</article-title>
+<source><italic>Science.</italic></source>
+<year>2010</year>;<volume>329</volume>(<issue>5997</issue>):<fpage>1353</fpage>&#x02013;<lpage>1355</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1190689</pub-id>
+<!--<pub-id pub-id-type="pmcid">3510677</pub-id>-->
+<?supplied-pmid 20829487?><pub-id pub-id-type="pmid">20829487</pub-id></mixed-citation></ref><ref id="ref-79"><label>79</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Livak</surname><given-names>KJ</given-names></name><name><surname>Schmittgen</surname><given-names>TD</given-names></name></person-group>:
+<article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2
+<sup>-&#x00394;&#x00394;C
+<sub>T</sub></sup> Method.</article-title>
+<source><italic>Methods.</italic></source>
+<year>2001</year>;<volume>25</volume>(<issue>4</issue>):<fpage>402</fpage>&#x02013;<lpage>408</lpage>.
+<pub-id pub-id-type="doi">10.1006/meth.2001.1262</pub-id>
+<?supplied-pmid 11846609?><pub-id pub-id-type="pmid">11846609</pub-id></mixed-citation></ref><ref id="ref-80"><label>80</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschul</surname><given-names>SF</given-names></name><name><surname>Gish</surname><given-names>W</given-names></name><name><surname>Miller</surname><given-names>W</given-names></name><etal/></person-group>:
+<article-title>Basic local alignment search tool.</article-title>
+<source><italic>J Mol Biol.</italic></source>
+<year>1990</year>;<volume>215</volume>(<issue>3</issue>):<fpage>403</fpage>&#x02013;<lpage>410</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0022-2836(05)80360-2</pub-id>
+<?supplied-pmid 2231712?><pub-id pub-id-type="pmid">2231712</pub-id></mixed-citation></ref><ref id="ref-81"><label>81</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Conesa</surname><given-names>A</given-names></name><name><surname>G&#x000f6;tz</surname><given-names>S</given-names></name><name><surname>Garc&#x000ed;a-G&#x000f3;mez</surname><given-names>JM</given-names></name><etal/></person-group>:
+<article-title>Blast2GO: a universal tool for annotation, visualization and analysis in functional genomics research.</article-title>
+<source><italic>Bioinformatics.</italic></source>
+<year>2005</year>;<volume>21</volume>(<issue>18</issue>):<fpage>3674</fpage>&#x02013;<lpage>3676</lpage>.
+<pub-id pub-id-type="doi">10.1093/bioinformatics/bti610</pub-id>
+<?supplied-pmid 16081474?><pub-id pub-id-type="pmid">16081474</pub-id></mixed-citation></ref><ref id="ref-82"><label>82</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xie</surname><given-names>C</given-names></name><name><surname>Mao</surname><given-names>X</given-names></name><name><surname>Huang</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>KOBAS 2.0: a web server for annotation and identification of enriched pathways and diseases.</article-title>
+<source><italic>Nucleic Acids Res.</italic></source>
+<year>2011</year>;<volume>39</volume>(<issue>Web Server issue</issue>):<fpage>W316</fpage>&#x02013;<lpage>322</lpage>.
+<pub-id pub-id-type="doi">10.1093/nar/gkr483</pub-id>
+<!--<pub-id pub-id-type="pmcid">3125809</pub-id>-->
+<?supplied-pmid 21715386?><pub-id pub-id-type="pmid">21715386</pub-id></mixed-citation></ref><ref id="ref-83"><label>83</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Larkin</surname><given-names>MA</given-names></name><name><surname>Blackshields</surname><given-names>G</given-names></name><name><surname>Brown</surname><given-names>NP</given-names></name><etal/></person-group>:
+<article-title>Clustal W and Clustal X version 2.0.</article-title>
+<source><italic>Bioinformatics.</italic></source>
+<year>2007</year>;<volume>23</volume>(<issue>21</issue>):<fpage>2947</fpage>&#x02013;<lpage>2948</lpage>.
+<pub-id pub-id-type="doi">10.1093/bioinformatics/btm404</pub-id>
+<?supplied-pmid 17846036?><pub-id pub-id-type="pmid">17846036</pub-id></mixed-citation></ref><ref id="ref-84"><label>84</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boc</surname><given-names>A</given-names></name><name><surname>Diallo</surname><given-names>AB</given-names></name><name><surname>Makarenkov</surname><given-names>V</given-names></name></person-group>:
+<article-title>T-REX: a web server for inferring, validating and visualizing phylogenetic trees and networks.</article-title>
+<source><italic>Nucleic Acids Res.</italic></source>
+<year>2012</year>;<volume>40</volume>(<issue>Web Server issue</issue>):<fpage>W573</fpage>&#x02013;<lpage>579</lpage>.
+<pub-id pub-id-type="doi">10.1093/nar/gks485</pub-id>
+<!--<pub-id pub-id-type="pmcid">3394261</pub-id>-->
+<?supplied-pmid 22675075?><pub-id pub-id-type="pmid">22675075</pub-id></mixed-citation></ref><ref id="ref-85"><label>85</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jobb</surname><given-names>G</given-names></name><name><surname>von Haeseler</surname><given-names>A</given-names></name><name><surname>Strimmer</surname><given-names>K</given-names></name></person-group>:
+<article-title>TREEFINDER: a powerful graphical analysis environment for molecular phylogenetics.</article-title>
+<source><italic>BMC Evol Biol.</italic></source>
+<year>2004</year>;<volume>4</volume>:<fpage>18</fpage>.
+<pub-id pub-id-type="doi">10.1186/1471-2148-4-18</pub-id>
+<!--<pub-id pub-id-type="pmcid">459214</pub-id>-->
+<?supplied-pmid 15222900?><pub-id pub-id-type="pmid">15222900</pub-id></mixed-citation></ref><ref id="ref-86"><label>86</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Russell</surname><given-names>RB</given-names></name><name><surname>Barton</surname><given-names>GJ</given-names></name></person-group>:
+<article-title>Multiple protein sequence alignment from tertiary structure comparison: assignment of global and residue confidence levels.</article-title>
+<source><italic>Proteins.</italic></source>
+<year>1992</year>;<volume>14</volume>(<issue>2</issue>):<fpage>309</fpage>&#x02013;<lpage>323</lpage>.
+<pub-id pub-id-type="doi">10.1002/prot.340140216</pub-id>
+<?supplied-pmid 1409577?><pub-id pub-id-type="pmid">1409577</pub-id></mixed-citation></ref><ref id="ref-87"><label>87</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sali</surname><given-names>A</given-names></name><name><surname>Blundell</surname><given-names>TL</given-names></name></person-group>:
+<article-title>Comparative protein modelling by satisfaction of spatial restraints.</article-title>
+<source><italic>J Mol Biol.</italic></source>
+<year>1993</year>;<volume>234</volume>(<issue>3</issue>):<fpage>779</fpage>&#x02013;<lpage>815</lpage>.
+<pub-id pub-id-type="doi">10.1006/jmbi.1993.1626</pub-id>
+<?supplied-pmid 8254673?><pub-id pub-id-type="pmid">8254673</pub-id></mixed-citation></ref><ref id="ref-88"><label>88</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Humphrey</surname><given-names>W</given-names></name><name><surname>Dalke</surname><given-names>A</given-names></name><name><surname>Schulten</surname><given-names>K</given-names></name></person-group>:
+<article-title>VMD: visual molecular dynamics.</article-title>
+<source><italic>J Mol Graph.</italic></source>
+<year>1996</year>;<volume>14</volume>(<issue>1</issue>):<fpage>33</fpage>&#x02013;<lpage>38</lpage>,<fpage>27</fpage>&#x02013;<lpage>38</lpage>.
+<pub-id pub-id-type="doi">10.1016/0263-7855(96)00018-5</pub-id>
+<?supplied-pmid 8744570?><pub-id pub-id-type="pmid">8744570</pub-id></mixed-citation></ref><ref id="ref-89"><label>89</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Close</surname><given-names>TJ</given-names></name><name><surname>Kortt</surname><given-names>AA</given-names></name><name><surname>Chandler</surname><given-names>PM</given-names></name></person-group>:
+<article-title>A cDNA-based comparison of dehydration-induced proteins (dehydrins) in barley and corn.</article-title>
+<source><italic>Plant Mol Biol.</italic></source>
+<year>1989</year>;<volume>13</volume>(<issue>1</issue>):<fpage>95</fpage>&#x02013;<lpage>108</lpage>.
+<pub-id pub-id-type="doi">10.1007/BF00027338</pub-id>
+<?supplied-pmid 2562763?><pub-id pub-id-type="pmid">2562763</pub-id></mixed-citation></ref><ref id="ref-90"><label>90</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Verstraeten</surname><given-names>B</given-names></name><name><surname>Sanders</surname><given-names>E</given-names></name><name><surname>Huysseune</surname><given-names>A</given-names></name></person-group>:
+<article-title>Whole mount immunohistochemistry and
+<italic>in situ</italic> hybridization of larval and adult zebrafish dental tissues.</article-title>
+<source><italic>Methods Mol Biol.</italic></source>
+<year>2012</year>;<volume>887</volume>:<fpage>179</fpage>&#x02013;<lpage>191</lpage>.
+<pub-id pub-id-type="doi">10.1007/978-1-61779-860-3_16</pub-id>
+<?supplied-pmid 22566056?><pub-id pub-id-type="pmid">22566056</pub-id></mixed-citation></ref></ref-list></back><sub-article id="report12795" article-type="peer-review"><front-stub><article-id pub-id-type="doi">10.5256/f1000research.8113.r12795</article-id><title-group><article-title>Referee response for version 1</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Boto</surname><given-names>Luis</given-names></name><xref ref-type="aff" rid="r12795a1">1</xref><role>Referee</role></contrib><aff id="r12795a1"><label>1</label>Department of Biodiversity and Evolutionary Biology(BEB), National Museum of Natural Sciences(MNCN), Spanish National Research Council (MNCN-CSIC)), Madrid, Spain</aff></contrib-group><author-notes><fn fn-type="conflict"><p>
+<bold>Competing interests: </bold>No competing interests were disclosed.</p></fn></author-notes><pub-date pub-type="epub"><day>10</day><month>3</month><year>2016</year></pub-date><related-article id="d36e5769" related-article-type="peer-reviewed-article" ext-link-type="doi" xlink:href="10.12688/f1000research.7534.1">Version 1</related-article><custom-meta-group><custom-meta><meta-name>recommendation</meta-name><meta-value>approve</meta-value></custom-meta></custom-meta-group></front-stub><body><p>Sharma
+<italic>et al</italic>. article presents convincing evidence showing that
+<italic>Anopheles culicifacies</italic> harbor several plant like genes, probably acquired by horizontal gene transfer, whose expression is associated to the mosquito feeding mode.</p><p>Starting from 537 plant like transcripts identified in a previous transcriptomic study, authors present compelling evidence that some of these transcripts are of the mosquito origin (and no contamination) and at least in one case (dehydrin) they encode an expressed and functional protein. In addition, authors discuss the possible role of these acquired plant genes in feeding adaptations.</p><p>In my opinion, the article is very interesting and provides a new piece to understand the significance and importance of horizontal gene transfer in metazoan evolution. In this sense, I think that this article deserves to be indexed.</p><p>My main concern is in relation to the results presentation (and discussion) through the paper. In this sense, I consider that restructuring the paper and figures could make this interesting paper more readable.</p><p>In my opinion, phylogenomic analyses, showing the possible horizontal gene transfer from plants to the mosquito, should precede the presentation of the other results. Identification of mosquito genes related to plant genes is the point that supports and justifies later research and it should be highlighted. In this sense, I suggest a new figure 1 combining the actual Figure 1A and figure 2B and 2C (dehydrin gene tree as an example).</p><p>In the same vein, I suggest combining in a new figure 2 the current figure 1B, 1C, 1D, 1E, 1F and figure 5A and 5B. Together, these&#x000a0;pieces of information support the mosquito origin of the discussed genes and their involvement in the mosquito feeding mode..</p><p>A new figure 3 should show results in dehydrin gene validation encompassing the current figure 2A, 2D, 2E, 2F and 2G.</p><p>Other minor points are:</p><p>&#x000a0;
+<list list-type="order"><list-item><p>Authors select a few genes from the initial 537 plant like transcripts pool to demonstrate that some genes are present in the mosquito genome and they are functional. However, many of the initially identified genes are not studied. In this sense, statement in the abstract that &#x0201c;Our multiple experimental validation&#x02026;..confirmed that plant like transcripts (PLTs) are of mosquito origin&#x0201d; should be softened &#x000a0;to &#x0201c;&#x02026;&#x02026;..confirmed that
+<bold>at least</bold>
+<bold>some of the</bold> plant like transcripts (PLTs) are of the mosquito origin&#x0201d;. In the same sense, a comment in the non-studied PTLs could be welcome through of the manuscript.</p></list-item><list-item><p>In the same vein, authors (page 5, &#x0201c;PTLs are of mosquito origin&#x0201d;) say that 10 PTLs are selected for RT-PCR. However in the figure 1B only five of these amplifications are shown. I think that authors should justify why they choose these particular PTLs.</p></list-item><list-item><p>On page 8, please review the last sentence in &#x0201c;phylogenomic analysis of plant like transcripts&#x0201d;. It seems that mosquito feeding associated genes acquire new genes.</p></list-item><list-item><p>Authors should recognize that Fig.4D is partially modified from Figure 2C in ref.70. In this sense I suggest to change &#x0201c;see another report for details&#x0201d; to &#x0201c;see ref.70 for details&#x0201d; in the Fig. 4 caption.</p></list-item><list-item><p>On page 13, authors state that:&#x000a0;&#x000a0;
+<italic>The observation of a large pool of chloroplast and nuclear encoded plant genes in the mosquito transcriptome supported the previous finding of similar gene transfer of photosynthetic machinery components from algae to mollusk. </italic>As the authors recognize in another place in the article, transfer of algal genes to
+<italic>Elysia chlorotica</italic> is controversial and in any case, authors should be cautious in the use of their results to support an absolutely different case study. In this sense I also suggest to soften claims for support to other similar observations in the Abstract.</p></list-item></list>
+</p><p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p></body></sub-article><sub-article id="report12793" article-type="peer-review"><front-stub><article-id pub-id-type="doi">10.5256/f1000research.8113.r12793</article-id><title-group><article-title>Referee response for version 1</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Dev</surname><given-names>Vas</given-names></name><xref ref-type="aff" rid="r12793a1">1</xref><role>Referee</role></contrib><aff id="r12793a1"><label>1</label>National Institute of Malaria Research (NIMR Field Unit), Indian Council of Medical Research(ICMR), Guwahati, Assam, India</aff></contrib-group><author-notes><fn fn-type="conflict"><p>
+<bold>Competing interests: </bold>No competing interests were disclosed.</p></fn></author-notes><pub-date pub-type="epub"><day>9</day><month>3</month><year>2016</year></pub-date><related-article id="d36e5868" related-article-type="peer-reviewed-article" ext-link-type="doi" xlink:href="10.12688/f1000research.7534.1">Version 1</related-article><custom-meta-group><custom-meta><meta-name>recommendation</meta-name><meta-value>approve</meta-value></custom-meta></custom-meta-group></front-stub><body><p>The article by Sharma and group, is one of the first reports on mosquito-microbe-plant interaction, defining the molecular relations of how mosquitoes might have evolved from herbivores to blood feeders. In fact this is a long standing question in the insect communities, where this report supports the idea that mosquitoes may have acquired the plant genes for specific functions. Although the functions of the genes are yet to be established, observation of photosynthetic genes and microbes, appears to facilitate the photo-light meditated responses, probably in feeding and/or mating. To the best of my knowledge and experience the behavior of this mosquito species (
+<italic>Anopheles culicifacies</italic>) is quite complex compared to other malarial vector species.</p><p>The most interesting part is that the homology search analysis of PLTs reveals the name of many local plant species which commonly grown in plain areas of rural India. I believe these observations will serve as a basis for new leads for authors to understand how mosquito-plant interactions facilitated this mosquito species to evolve to feed and adapt in plain agricultural areas.</p><p>I have read this submission. I believe that I have an appropriate level of expertise to confirm that it is of an acceptable scientific standard.</p></body></sub-article></article>

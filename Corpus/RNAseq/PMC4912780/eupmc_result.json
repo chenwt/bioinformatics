@@ -1,0 +1,368 @@
+{
+  "id": [
+    "27315794"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27315794"
+  ],
+  "pmcid": [
+    "PMC4912780"
+  ],
+  "doi": [
+    "10.1186/s12864-016-2816-x"
+  ],
+  "title": [
+    "EventPointer: an effective identification of alternative splicing events using junction arrays."
+  ],
+  "authorString": [
+    "Romero JP, Muniategui A, De Miguel FJ, Aramburu A, Montuenga L, Pio R, Rubio A."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Romero JP"
+          ],
+          "firstName": [
+            "Juan P"
+          ],
+          "lastName": [
+            "Romero"
+          ],
+          "initials": [
+            "JP"
+          ],
+          "affiliation": [
+            "Tecnun, University of Navarra, P° de Manuel Lardizabal 13, 20018, Donostia-San Sebastián, Gipuzkoa, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Muniategui A"
+          ],
+          "firstName": [
+            "Ander"
+          ],
+          "lastName": [
+            "Muniategui"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Tecnun, University of Navarra, P° de Manuel Lardizabal 13, 20018, Donostia-San Sebastián, Gipuzkoa, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "De Miguel FJ"
+          ],
+          "firstName": [
+            "Fernando J"
+          ],
+          "lastName": [
+            "De Miguel"
+          ],
+          "initials": [
+            "FJ"
+          ],
+          "affiliation": [
+            "Program in Solid Tumors and Biomarkers, CIMA, University of Navarra, Avda. Pío XII, 55, E-31008, Pamplona, Navarra, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Aramburu A"
+          ],
+          "firstName": [
+            "Ander"
+          ],
+          "lastName": [
+            "Aramburu"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Tecnun, University of Navarra, P° de Manuel Lardizabal 13, 20018, Donostia-San Sebastián, Gipuzkoa, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Montuenga L"
+          ],
+          "firstName": [
+            "Luis"
+          ],
+          "lastName": [
+            "Montuenga"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "IdiSNA, Navarra Institute for Health Research, Recinto de Complejo Hospitalario de Navarra, C/Irunlarrea 3, 31008, Pamplona, Navarra, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Pio R"
+          ],
+          "firstName": [
+            "Ruben"
+          ],
+          "lastName": [
+            "Pio"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Department of Biochemistry and Genetics, University of Navarra, Pamplona, Spain."
+          ]
+        },
+        {
+          "fullName": [
+            "Rubio A"
+          ],
+          "firstName": [
+            "Angel"
+          ],
+          "lastName": [
+            "Rubio"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3274-2450",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Tecnun, University of Navarra, P° de Manuel Lardizabal 13, 20018, Donostia-San Sebastián, Gipuzkoa, Spain. arubio@ceit.es."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3274-2450",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2401365"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "467"
+  ],
+  "abstractText": [
+    "Alternative splicing (AS) is a major source of variability in the transcriptome of eukaryotes. There is an increasing interest in its role in different pathologies. Before sequencing technology appeared, AS was measured with specific arrays. However, these arrays did not perform well in the detection of AS events and provided very large false discovery rates (FDR). Recently the Human Transcriptome Array 2.0 (HTA 2.0) has been deployed. It includes junction probes. However, the interpretation software provided by its vendor (TAC 3.0) does not fully exploit its potential (does not study jointly the exons and junctions involved in a splicing event) and can only be applied to case-control studies. New statistical algorithms and software must be developed in order to exploit the HTA 2.0 array for event detection.We have developed EventPointer, an R package (built under the aroma.affymetrix framework) to search and analyze Alternative Splicing events using HTA 2.0 arrays. This software uses a linear model that broadens its application from plain case-control studies to complex experimental designs. Given the CEL files and the design and contrast matrices, the software retrieves a list of all the detected events indicating: 1) the type of event (exon cassette, alternative 3', etc.), 2) its fold change and its statistical significance, and 3) the potential protein domains affected by the AS events and the statistical significance of the possible enrichment. Our tests have shown that EventPointer has an extremely low FDR value (only 1 false positive within the tested top-200 events). This software is publicly available and it has been uploaded to GitHub.This software empowers the HTA 2.0 arrays for AS event detection as an alternative to RNA-seq: simplifying considerably the required analysis, speeding it up and reducing the required computational power."
+  ],
+  "affiliation": [
+    "Tecnun, University of Navarra, P° de Manuel Lardizabal 13, 20018, Donostia-San Sebastián, Gipuzkoa, Spain."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Protein domains",
+        "Alternative splicing",
+        "Junction Microarrays"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4912780?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4912780"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-016-2816-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-06-18"
+  ],
+  "dateOfRevision": [
+    "2016-06-21"
+  ],
+  "electronicPublicationDate": [
+    "2016-06-17"
+  ],
+  "firstPublicationDate": [
+    "2016-06-17"
+  ]
+}

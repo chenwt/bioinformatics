@@ -1,0 +1,1042 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d3 20150301//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 39.96?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, CA USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5082313</article-id><article-id pub-id-type="pmid">27681373</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.1006316</article-id><article-id pub-id-type="publisher-id">PGENETICS-D-15-02639</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Biomarkers</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Gene expression</subject><subj-group><subject>RNA processing</subject><subj-group><subject>Alternative Splicing</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>RNA</subject><subj-group><subject>RNA processing</subject><subj-group><subject>Alternative Splicing</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Gene expression</subject><subj-group><subject>Gene regulation</subject><subj-group><subject>Small interfering RNAs</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and life sciences</subject><subj-group><subject>Biochemistry</subject><subj-group><subject>Nucleic acids</subject><subj-group><subject>RNA</subject><subj-group><subject>Non-coding RNA</subject><subj-group><subject>Small interfering RNAs</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Clinical Genetics</subject><subj-group><subject>Genetic Diseases</subject><subj-group><subject>Myotonic Dystrophy</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Molecular Biology</subject><subj-group><subject>Molecular Biology Techniques</subject><subj-group><subject>Sequencing Techniques</subject><subj-group><subject>Sequence Analysis</subject><subj-group><subject>Sequence Motif Analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and Analysis Methods</subject><subj-group><subject>Molecular Biology Techniques</subject><subj-group><subject>Sequencing Techniques</subject><subj-group><subject>Sequence Analysis</subject><subj-group><subject>Sequence Motif Analysis</subject></subj-group></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Research and Analysis Methods</subject><subj-group><subject>Mathematical and Statistical Techniques</subject><subj-group><subject>Mathematical Functions</subject><subj-group><subject>Curve Fitting</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Medicine and Health Sciences</subject><subj-group><subject>Surgical and Invasive Medical Procedures</subject><subj-group><subject>Biopsy</subject></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Computational Biology</subject><subj-group><subject>Genome Complexity</subject><subj-group><subject>Introns</subject></subj-group></subj-group></subj-group></subj-group><subj-group subj-group-type="Discipline-v3"><subject>Biology and Life Sciences</subject><subj-group><subject>Genetics</subject><subj-group><subject>Genomics</subject><subj-group><subject>Genome Complexity</subject><subj-group><subject>Introns</subject></subj-group></subj-group></subj-group></subj-group></subj-group></article-categories><title-group><article-title>Dose-Dependent Regulation of Alternative Splicing by MBNL Proteins
+Reveals Biomarkers for Myotonic Dystrophy</article-title><alt-title alt-title-type="running-head">Dose-Dependent Alternative Splicing by
+MBNL1</alt-title></title-group><contrib-group><contrib contrib-type="author"><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3992-0798</contrib-id><name><surname>Wagner</surname><given-names>Stacey D.</given-names></name><xref ref-type="aff" rid="aff001"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Struck</surname><given-names>Adam J.</given-names></name><xref ref-type="aff" rid="aff001"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Gupta</surname><given-names>Riti</given-names></name><xref ref-type="aff" rid="aff002"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name><surname>Farnsworth</surname><given-names>Dylan R.</given-names></name><xref ref-type="aff" rid="aff003"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name><surname>Mahady</surname><given-names>Amy E.</given-names></name><xref ref-type="aff" rid="aff001"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Eichinger</surname><given-names>Katy</given-names></name><xref ref-type="aff" rid="aff004"><sup>4</sup></xref></contrib><contrib contrib-type="author"><name><surname>Thornton</surname><given-names>Charles A.</given-names></name><xref ref-type="aff" rid="aff004"><sup>4</sup></xref></contrib><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Eric T.</given-names></name><xref ref-type="aff" rid="aff005"><sup>5</sup></xref><xref ref-type="aff" rid="aff006"><sup>6</sup></xref><xref ref-type="aff" rid="aff007"><sup>7</sup></xref><xref ref-type="corresp" rid="cor001">*</xref></contrib><contrib contrib-type="author"><name><surname>Berglund</surname><given-names>J. Andrew</given-names></name><xref ref-type="aff" rid="aff001"><sup>1</sup></xref><xref ref-type="aff" rid="aff007"><sup>7</sup></xref><xref ref-type="corresp" rid="cor001">*</xref></contrib></contrib-group><aff id="aff001"><label>1</label><addr-line>Department of Chemistry and Biochemistry, Institute of Molecular Biology,
+University of Oregon, Eugene, Oregon, United States of America</addr-line></aff><aff id="aff002"><label>2</label><addr-line>Department of Biology, Johns Hopkins University, Baltimore, Maryland,
+United States of America</addr-line></aff><aff id="aff003"><label>3</label><addr-line>Department of Biology, Institute of Molecular Biology, University of
+Oregon, Eugene, Oregon, United States of America</addr-line></aff><aff id="aff004"><label>4</label><addr-line>Department of Neurology, University of Rochester Medical Center,
+Rochester, New York, United States of America</addr-line></aff><aff id="aff005"><label>5</label><addr-line>Department of Biology, Massachusetts Institute of Technology, Cambridge,
+Massachusetts, United States of America</addr-line></aff><aff id="aff006"><label>6</label><addr-line>Koch Institute for Integrative Cancer Research, Massachusetts Institute
+of Technology, Cambridge, Massachusetts, United States of
+America</addr-line></aff><aff id="aff007"><label>7</label><addr-line>Department of Biochemistry &#x00026; Molecular Biology, Center for
+NeuroGenetics, University of Florida, Gainesville, Florida, United States of
+America</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Cox</surname><given-names>Gregory A.</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1"><addr-line>The Jackson Laboratory, UNITED STATES</addr-line></aff><author-notes><fn fn-type="COI-statement" id="coi001"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="con"><p><list list-type="simple"><list-item><p><bold>Conceived and designed the experiments:</bold> SDW AJS ETW
+JAB.</p></list-item><list-item><p><bold>Performed the experiments:</bold> SDW AJS RG DRF AEM
+KE.</p></list-item><list-item><p><bold>Analyzed the data:</bold> SDW AJS ETW JAB.</p></list-item><list-item><p><bold>Contributed reagents/materials/analysis tools:</bold> CAT
+ETW.</p></list-item><list-item><p><bold>Wrote the paper:</bold> SDW AJS CAT ETW JAB.</p></list-item></list>
+</p></fn><corresp id="cor001">* E-mail: <email>eric.t.wang@ufl.edu</email> (ETW); <email>aberglund@ufl.edu</email> (JAB)</corresp></author-notes><pub-date pub-type="epub"><day>28</day><month>9</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>9</month><year>2016</year></pub-date><volume>12</volume><issue>9</issue><elocation-id>e1006316</elocation-id><history><date date-type="received"><day>29</day><month>10</month><year>2015</year></date><date date-type="accepted"><day>23</day><month>8</month><year>2016</year></date></history><permissions><copyright-statement>&#x000a9; 2016 Wagner et al</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>Wagner et al</copyright-holder><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the
+<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>,
+which permits unrestricted use, distribution, and reproduction in any
+medium, provided the original author and source are credited.</license-p></license></permissions><self-uri content-type="pdf" xlink:href="pgen.1006316.pdf"/><abstract><p>Alternative splicing is a regulated process that results in expression of
+specific mRNA and protein isoforms. Alternative splicing factors determine the
+relative abundance of each isoform. Here we focus on MBNL1, a splicing factor
+misregulated in the disease myotonic dystrophy. By altering the concentration of
+MBNL1 in cells across a broad dynamic range, we show that different splicing
+events require different amounts of MBNL1 for half-maximal response, and respond
+more or less steeply to MBNL1. Motifs around MBNL1 exon 5 were studied to assess
+how <italic>cis</italic>-elements mediate the MBNL1 dose-dependent splicing
+response. A framework was developed to estimate MBNL concentration using
+splicing responses alone, validated in the cell-based model, and applied to
+myotonic dystrophy patient muscle. Using this framework, we evaluated the
+ability of individual and combinations of splicing events to predict functional
+MBNL concentration in human biopsies, as well as their performance as biomarkers
+to assay mild, moderate, and severe cases of DM.</p></abstract><abstract abstract-type="summary"><title>Author Summary</title><p>Our studies provide insight into the mechanisms of myotonic dystrophy, the most
+common adult form of muscular dystrophy. In this disease, a family of RNA
+binding proteins is sequestered by toxic RNA, which leads to mis-regulation and
+disease symptoms. We have created a cellular model with one of these family
+members to study how these RNA binding proteins function in the absence of the
+toxic RNA. In parallel, we analyzed transcriptomic data from over 50 individuals
+(44 affected by myotonic dystrophy) with a range of disease severity. The
+results from the transcriptomic data provide a rational approach to select
+biomarkers for clinical research and therapeutic trials.</p></abstract><funding-group><award-group id="award001"><funding-source><institution-wrap><institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000069</institution-id><institution>National Institute of Arthritis and Musculoskeletal and
+Skin Diseases</institution></institution-wrap></funding-source><award-id>F32AR063565</award-id><principal-award-recipient><contrib-id authenticated="true" contrib-id-type="orcid">http://orcid.org/0000-0003-3992-0798</contrib-id><name><surname>Wagner</surname><given-names>Stacey D.</given-names></name></principal-award-recipient></award-group><award-group id="award002"><funding-source><institution-wrap><institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap></funding-source><award-id>AR059833</award-id><principal-award-recipient><name><surname>Berglund</surname><given-names>Andy Andrew</given-names></name></principal-award-recipient></award-group><award-group id="award003"><funding-source><institution-wrap><institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap></funding-source><award-id>DP5 OD017865-01</award-id><principal-award-recipient><name><surname>Wang</surname><given-names>Eric T</given-names></name></principal-award-recipient></award-group><award-group id="award004"><funding-source><institution-wrap><institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap></funding-source><award-id>RC2HG005624</award-id><principal-award-recipient><name><surname>Wang</surname><given-names>Eric T</given-names></name></principal-award-recipient></award-group><award-group id="award005"><funding-source><institution-wrap><institution-id institution-id-type="funder-id">http://dx.doi.org/10.13039/100000002</institution-id><institution>National Institutes of Health</institution></institution-wrap></funding-source><award-id>U54 NS048843</award-id><principal-award-recipient><name><surname>Thornton</surname><given-names>Charles A</given-names></name></principal-award-recipient></award-group><funding-statement>Research reported in this publication was supported by NIH awards
+F32AR063565 (SDW), AR059833 (JAB), DP5 OD017865-01 and RC2HG005624 (ETW), and
+U54 NS048843 (CAT). The content is solely the responsibility of the authors and
+does not necessarily represent the official views of the National Institutes of
+Health. The funders had no role in study design, data collection and analysis,
+decision to publish, or preparation of the manuscript.</funding-statement></funding-group><counts><fig-count count="6"/><table-count count="1"/><page-count count="24"/></counts><custom-meta-group><custom-meta id="data-availability"><meta-name>Data Availability</meta-name><meta-value>All RNAseq data is available from the GEO database (accession number
+GSE86356).</meta-value></custom-meta></custom-meta-group></article-meta><notes><title>Data Availability</title><p>All RNAseq data is available from the GEO database (accession number
+GSE86356).</p></notes></front><body><sec sec-type="intro" id="sec001"><title>Introduction</title><p>Alternative splicing increases the coding potential of a gene and importantly, allows
+for regulation of expression of specific isoforms in a developmental and
+tissue-specific manner. Regulation of alternative splicing is integral for a variety
+of biological processes including erythropoiesis, neuronal differentiation, and
+embryonic stem cell programming [<xref rid="pgen.1006316.ref001" ref-type="bibr">1</xref>,<xref rid="pgen.1006316.ref002" ref-type="bibr">2</xref>].
+Misregulation of alternative splicing alters isoform ratios and can cause cancers,
+muscular dystrophies, and neurological diseases [<xref rid="pgen.1006316.ref001" ref-type="bibr">1</xref>&#x02013;<xref rid="pgen.1006316.ref005" ref-type="bibr">5</xref>]. Isoform ratios can be altered by
+differential expression of tissue specific factors [<xref rid="pgen.1006316.ref006" ref-type="bibr">6</xref>,<xref rid="pgen.1006316.ref007" ref-type="bibr">7</xref>]. Active areas of investigation in the
+alternative splicing field include how concentrations of alternative splicing
+factors affect isoform ratios, and what properties determine whether an isoform is
+responsive to a broad range of splicing factor concentrations or sensitive to a
+threshold level of activity.</p><p>To address these questions, we focused on alternative splicing regulation by MBNL1,
+an RNA binding protein involved in muscle, heart, and CNS development [<xref rid="pgen.1006316.ref008" ref-type="bibr">8</xref>,<xref rid="pgen.1006316.ref009" ref-type="bibr">9</xref>]. In the disease myotonic dystrophy, the
+activities of MBNL1 protein and its paralogs, MBNL2 and MBNL3, are reduced via
+sequestration to toxic RNAs, resulting in a titration of MBNL proteins away from
+their pre-mRNA substrates. MBNL proteins bind to YGCY motifs using Zn finger RNA
+binding motifs [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>,<xref rid="pgen.1006316.ref011" ref-type="bibr">11</xref>], including sequences found
+in the toxic RNAs (expanded CUG and CCUG repeats) that cause both myotonic dystrophy
+type 1 (DM1) and myotonic dystrophy type 2 (DM2) [<xref rid="pgen.1006316.ref012" ref-type="bibr">12</xref>&#x02013;<xref rid="pgen.1006316.ref016" ref-type="bibr">16</xref>]. As has been observed in other
+microsatellite repeat diseases, the average length of the repeat in patients is
+loosely correlated with age of onset; repeat lengths also vary across cells and
+tissues within a single patient, potentially sequestering MBNL proteins to differing
+degrees [<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>]. MBNL splicing
+targets are differentially affected by the disease; DM1 patient samples exhibit a
+broad range of alternative exon inclusion levels, as compared to control samples
+containing low numbers of repeats [<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>&#x02013;<xref rid="pgen.1006316.ref019" ref-type="bibr">19</xref>], and
+MBNL1-dependent splicing events were shown to behave differently in response to
+different doses of MBNL1 protein [<xref rid="pgen.1006316.ref020" ref-type="bibr">20</xref>].</p><p>Tunable systems can be used to control expression of specific genes and they can be
+used to produce a range of mRNA and protein isoforms, and phenotypes that change
+gradually or sharply, in response to stimuli [<xref rid="pgen.1006316.ref021" ref-type="bibr">21</xref>]. Here, we use a tunable system to
+demonstrate that splicing events are responsive to MBNL1 dose, and characterize
+their behavior over a range of MBNL1 protein levels. We found that dose-responsive
+behaviors differ in their steepness, and differ in the protein concentration
+required to reach half-maximal splicing activity. By further studying a splicing
+event that is highly conserved between species, we assessed the importance of MBNL1
+cis-element organization in controlling dose-response behavior. Similar to the
+cell-based studies, analysis of muscle biopsies from DM1 patients revealed that
+splicing events are not perturbed uniformly; here we characterize those splicing
+events across patients and calculate the inferred MBNL dose, or predicted free MBNL
+protein concentration, in each patient. These studies lead to predictions for which
+alternative splicing events are the most robust disease biomarkers.</p></sec><sec sec-type="results" id="sec002"><title>Results</title><sec id="sec003"><title>A cell model with a broad concentration range of MBNL1</title><p>A tetracycline-inducible Flp-In T-REx system (Invitrogen) was utilized to express
+HA-tagged MBNL1 in HEK293 cells (<xref ref-type="fig" rid="pgen.1006316.g001">Fig 1A</xref>), to allow precise control of HA-MBNL1 concentrations as a
+function of doxycycline (dox) (0.5 ng/ml to 10 ng/ml). HA-MBNL1 expression
+covered a broad range (<xref ref-type="fig" rid="pgen.1006316.g001">Fig
+1B</xref>). Consistent with the low detection of MBNL1 protein in untreated
+HEK293 cells, low MBNL1 protein levels have been described in the literature in
+the kidney compared to skeletal muscle and heart in human [<xref rid="pgen.1006316.ref008" ref-type="bibr">8</xref>,<xref rid="pgen.1006316.ref016" ref-type="bibr">16</xref>]. Knock down of MBNL1 and sequestration
+of MBNL1/2/3 proteins or expression of 960 CUG interrupted repeats resulted in
+only minimal or modest changes in the percentage of splicing inclusion &#x02206;&#x003a8; for
+the splicing events tested (Figs <xref ref-type="fig" rid="pgen.1006316.g002">2</xref> and <xref ref-type="fig" rid="pgen.1006316.g003">3</xref>), also
+consistent with low MBNL protein expression in HEK293 cells and that MBNL1 is
+the predominant paralog. Quantification of transcripts from HEK293 RNA seq data
+confirmed that MBNL1 transcripts were expressed at higher levels than MBNL2/3
+(<xref ref-type="supplementary-material" rid="pgen.1006316.s001">S1
+Fig</xref>). This system allowed us to generate a twenty-fold dynamic range
+of MBNL1 protein concentration and activity in cells.</p><fig id="pgen.1006316.g001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1006316.g001</object-id><label>Fig 1</label><caption><title>Titration of MBNL1 using an inducible tet-on system.</title><p>(A) HEK293 cells were stably transfected to integrate a tetracycline
+inducible HA-MBNL1 expression construct into the genome. Addition of the
+tetracycline analog, doxycycline, de-represses inhibition of
+transcription by binding to the tet Repressor resulting in expression of
+full length HA-MBNL1 mRNA. (B) MBNL1 immuno-blot showing MBNL1 protein
+gradient resulting from dox (ng/ml) titrations. GAPDH serves as a
+loading control. The first lane represents treatment with control siRNA
+and the second lane represents treatment with a pool of siRNA against
+MBNL1. (C) Quantification of the MBNL1 immunoblot (in triplicate)
+plotted against log[dox]. (D) Schematic showing a theoretical example of
+the dose-dependent relationship between log[MBNL1] and percent spliced
+in (psi, &#x003a8;), where MBNL1 levels are determined by Western relative to
+GAPDH. Curve fitting parameters EC50, slope, &#x003a8;<sub>min</sub>, and
+&#x003a8;<sub>max</sub> are illustrated.</p></caption><graphic xlink:href="pgen.1006316.g001"/></fig><fig id="pgen.1006316.g002" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1006316.g002</object-id><label>Fig 2</label><caption><title>MBNL1 dose-responses.</title><p>(A-G) Dose-response curves and splicing gels of individual events (A)
+<italic>MBNL2</italic> (B) <italic>MBNL1</italic> (C)
+<italic>ATP2A1</italic> (D) <italic>CLASP1</italic> (E)
+<italic>FN1</italic> (F) <italic>INSR</italic> (G)
+<italic>NFIX</italic>. Dox (ng/ml) was titrated to induce MBNL1
+expression in HEK293 cells or treated with control siRNA or siRNA
+against MBNL1. siRNA treatment is not shown for events with transcripts
+that would be targeted by knock-down (MBNL1/2). RNA was isolated from
+the cells, RT-PCR was performed and DNA products were resolved on a
+native gel and isoform ratios quantified. &#x003a8; values were plotted against
+the log(HA-MBNL1) treatment and fitted to a four-parameter dose-response
+curve. Splicing assays and western blots for MBNL1 protein
+quantification were performed in triplicate. (H) Curve fitting
+parameters are shown in the table.</p></caption><graphic xlink:href="pgen.1006316.g002"/></fig><fig id="pgen.1006316.g003" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1006316.g003</object-id><label>Fig 3</label><caption><title>The composition of MBNL1 binding sites mediates dose-dependency of
+MBNL1 exon 5.</title><p>(A) Mini-gene reporter sequence (exons 3-4-5 and intervening introns) of
+MBNL1 pre-mRNA showing the 3' region of the intronic, ultraconserved
+sequence between exon 4 and the regulated, or alternative, exon 5. YGCYs
+are indicated by colored boxes. The previously mapped distant branch
+point adenosine is indicated with an A [<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>]. Asterisks indicate C-T
+mutations from C2C12 cells (CLIP data, [<xref rid="pgen.1006316.ref029" ref-type="bibr">29</xref>] (B-G) Mini-gene reporter
+dose-response curves were plotted (&#x003a8; verses the log([HA-MBNL1]),
+determined by western blot) for (B) del1 (C) del2 (D) del3 (E) del4 (F)
+del5 (G) 3M in triplicate. The WT (blue) dose-response curve is included
+with each deletion mutant (red) for comparison. Quantification of the
+upper band (exons 4-5-6) and lower band (exons 4&#x02013;6) were used to
+determine &#x003a8;. A transiently transfected HA-MBNL1 plasmid was used to
+achieve the highest MBNL1 dose in this experiment and CTG<sub>960</sub>
+transient transfection was used to achieve the lowest levels of
+functional MBNL proteins through sequestration. Representative splicing
+gels are shown.</p></caption><graphic xlink:href="pgen.1006316.g003"/></fig><p>Expression of MBNL1 was achieved at lower concentrations of doxycycline (dox)
+than typically used for tet-on experiments (&#x0003e; 5 ng/ml). A sigmoidal-shaped
+MBNL1 concentration curve was observed when steady-state MBNL1 levels were
+plotted against the log of the dox concentration (<xref ref-type="fig" rid="pgen.1006316.g001">Fig 1C</xref>). Maximal MBNL1 protein accumulation
+was approximately ten-fold higher than endogenous levels (<xref ref-type="fig" rid="pgen.1006316.g001">Fig 1B</xref>) and the concentration was reduced
+two-fold using siRNAs to knock down the expression of endogenous MBNL1 to
+achieve the minimal concentrations (<xref ref-type="fig" rid="pgen.1006316.g001">Fig 1B</xref>).</p><p>A schematic representation of a typical dose-response curve used to study a
+hypothetical MBNL1 regulated cassette exon, where MBNL1 promotes skipping, is
+shown in <xref ref-type="fig" rid="pgen.1006316.g001">Fig 1D</xref>. The percent
+spliced in value (&#x003a8;) is plotted as a function of the log of the MBNL1 dose. This
+schematic curve was fitted to a four-parameter dose-response equation so that
+parameters that relate to biological phenomena, i.e. concentration or EC50 and
+steepness of response, could be used to describe the dose-response data (<xref ref-type="fig" rid="pgen.1006316.g001">Fig 1D</xref>). The slope of each
+curve provides information about the responsiveness of an event over the applied
+MBNL1 concentration range while the EC50 describes the relative amount of
+protein required for splicing activity.</p></sec><sec id="sec004"><title>MBNL1 target exons exhibit dose-dependency, and differ in the amount of MBNL1
+required for regulation</title><p>HA-MBNL1 levels were controlled with the dox-inducible system to generate
+dose-response curves of seven MBNL1 regulated cassette exons within genes that
+are expressed in HEK293 cells (<xref ref-type="fig" rid="pgen.1006316.g002">Fig
+2</xref>). Six of the selected events were previously validated as MBNL
+regulated exons and are well characterized in the DM1 field:
+<italic>MBNL1</italic> exon 5, <italic>MBNL2</italic> exon 5,
+<italic>ATP2A1</italic> exon 22, <italic>FN1</italic> exon 25,
+<italic>INSR</italic> exon 10, and <italic>NFIX</italic> exon 7 [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>,<xref rid="pgen.1006316.ref022" ref-type="bibr">22</xref>&#x02013;<xref rid="pgen.1006316.ref028" ref-type="bibr">28</xref>]. We also studied
+<italic>CLASP1</italic> exon 19, an exon that was identified to be
+dysregulated in the DM1 patient data set that is described below. The
+<italic>CLASP1</italic> event, to our knowledge, has not been described
+previously. MBNL1 promotes exon inclusion of the <italic>CLASP1</italic> exon in
+this study likely through binding to YGCYs within the 5' region of the intron
+located downstream of the regulated exon; this observation is consistent with
+MBNL1 binding adjacent to enhanced exons [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>,<xref rid="pgen.1006316.ref028" ref-type="bibr">28</xref>,<xref rid="pgen.1006316.ref029" ref-type="bibr">29</xref>]. A previous study reported that MBNL1
+promoted skipping of an exon within the <italic>CLASP1</italic> gene, but this
+event is a different exon; the YGCY motifs for the previously reported event are
+upstream [<xref rid="pgen.1006316.ref023" ref-type="bibr">23</xref>].</p><p>Comparisons of dose-responses for each event revealed differences in the manner
+of regulation of each exon by MBNL1 (<xref ref-type="fig" rid="pgen.1006316.g002">Fig 2</xref>). Exons in <italic>MBNL2</italic>,
+<italic>MBNL1</italic>, and <italic>ATP2A1</italic> required less MBNL1
+protein than the other four events, yet <italic>NFIX</italic> required
+approximately three times more MBNL1 protein than <italic>MBNL2</italic>.
+Estimated EC50 values partially correlated to previously reported affinity
+measurements of MBNL1 protein bound to minimal RNAs. For example, exons with
+lower EC50s (<italic>ATP2A1</italic>, <italic>MBNL1</italic>, and
+<italic>MBNL2</italic>) tended to have stronger binding (K<sub>D</sub>s of
+15 nM, 11 nM, and 5.8 nM, respectively [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>]); exons with higher EC50s
+(<italic>INSR</italic>, <italic>NFIX</italic>) tended to have weaker binding
+(K<sub>D</sub>s of 120 nM and 55 nM, respectively) [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>], [<xref rid="pgen.1006316.ref011" ref-type="bibr">11</xref>]). Absolute values of slopes ranged from
+1.0&#x02013;6.0, with values from 1&#x02013;1.8 for <italic>FN1</italic>, <italic>INSR</italic>,
+<italic>NFIX</italic>, <italic>CLASP1</italic> and <italic>ATP2A1</italic>,
+suggesting lack of apparent cooperativity. Interestingly, the autoregulated
+<italic>MBNL1</italic> and <italic>MBNL2</italic> exons exhibited steeper
+slopes than all other events analyzed. We did not observe a clear relationship
+between the number and location of YGCYs (<xref ref-type="supplementary-material" rid="pgen.1006316.s002">S2 Fig</xref>)
+relative to EC50 or slope values.</p></sec><sec id="sec005"><title>Binding site composition and organization mediate the dose-response behavior
+of <italic>MBNL1</italic> exon 5</title><p>The relationship between MBNL binding site organization and dose-response
+behavior is likely complex and depends on multiple factors, including
+<italic>trans</italic>-factor environment and organization of other
+<italic>cis</italic>-elements. However, by studying the splicing behavior of
+sequence variants of a single event, we could limit the impact of these
+variables. We mutated <italic>cis</italic>-elements in the intron upstream of
+<italic>MBNL1</italic> exon 5 to evaluate how putative MBNL binding sites
+affect dose-response behavior (<xref ref-type="fig" rid="pgen.1006316.g003">Fig
+3A</xref>). This event contains clusters of YGCYs within an intronic
+splicing silencer (ISS) that directly precedes regulated exon 5 [<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>,<xref rid="pgen.1006316.ref030" ref-type="bibr">30</xref>] (<xref ref-type="fig" rid="pgen.1006316.g003">Fig 3A</xref>). Previous work showed MBNL1 binding
+to these YGCYs in mouse C2C12 myoblasts [<xref rid="pgen.1006316.ref029" ref-type="bibr">29</xref>] (<xref ref-type="fig" rid="pgen.1006316.g003">Fig 3A</xref>). The ISS is considered to be
+&#x0201c;ultraconserved&#x0201d;, with 100% sequence identity between human and mouse [<xref rid="pgen.1006316.ref031" ref-type="bibr">31</xref>]. Previously, we showed
+that individual regions containing YGCYs were unnecessary to achieve maximal
+splicing activity when eGFP-MBNL1 was overexpressed from a plasmid [<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>].</p><p>We asked whether altering the ultraconserved ISS YGCY organization altered MBNL1
+dose-dependent splicing activity. Deletion of regions within the ISS (del1-5)
+altered YGCY organization and spacing of splicing signals, including a distant
+branch-site and the 3&#x02019; splice site (<xref ref-type="fig" rid="pgen.1006316.g003">Fig 3A</xref>). Dox was titrated to induce MBNL1 expression, the del mutant
+pre-mRNA splicing reporters were transiently transfected, and the percentage of
+spliced transcripts including exon 5, or &#x003a8;, was quantified and fit to curves
+(<xref ref-type="fig" rid="pgen.1006316.g003">Fig 3</xref> and <xref ref-type="table" rid="pgen.1006316.t001">Table 1</xref>). Maximum &#x003a8; values
+were similar to WT for all del mutants (CUG condition, <xref ref-type="fig" rid="pgen.1006316.g003">Fig 3</xref>), indicating that the mutations did not
+affect baseline levels of splicing. Minimum &#x003a8; values, or those at the highest
+MBNL1 dose, were similar to WT for all deletion mutants except del 3, similar to
+previous observations using high MBNL1 concentrations [<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>]. However, the shapes of the
+dose-dependent curves were distinct across the MBNL1 concentration range. The
+central deletion mutant, del3, had the largest effect on the dose-response. This
+18 nucleotide deletion resulted in removal of a single YGCY in the center of the
+ISS, and led to both a shallower slope and a greater EC50 relative to WT. To
+rule out additional explanations for why del3 exhibited a distinct
+dose-response, another minigene reporter, 3M, was created in which the YGCY
+(UGCGCU) motif within the del3 region was mutated to a sequence that MBNL does
+not bind, YCCY (UCCCCU) [<xref rid="pgen.1006316.ref032" ref-type="bibr">32</xref>]. The dose-response for 3M was similar to that of del3.</p><table-wrap id="pgen.1006316.t001" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1006316.t001</object-id><label>Table 1</label><caption><title>Curve fitting parameters of <italic>MBNL1</italic> exon 5 deletion
+mutant mini-genes.</title><p>Parameters for EC50, slope, and R<sup>2</sup> for the
+<italic>MBNL1</italic> deletion mutants were derived from curve
+fitting using a four-parameter dose-response curve.</p></caption><alternatives><graphic id="pgen.1006316.t001g" xlink:href="pgen.1006316.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/><col align="left" valign="middle" span="1"/></colgroup><thead><tr><th align="center" rowspan="1" colspan="1"><italic>mbnl1</italic></th><th align="center" rowspan="1" colspan="1">EC50 (rel MBNL1)</th><th align="center" rowspan="2" colspan="1">slope</th><th align="center" rowspan="2" colspan="1">R<sup>2</sup></th><th align="center" rowspan="2" colspan="1">min</th><th align="center" rowspan="2" colspan="1">max</th></tr><tr><th align="center" rowspan="1" colspan="1">construct</th><th align="center" rowspan="1" colspan="1">[95% CI]</th></tr></thead><tbody><tr><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">WT</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.19 [0.14 &#x02013;
+0.26]</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">-1.8 &#x000b1;
+0.28</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.9244</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.41 &#x000b1;
+0.018</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.98 &#x000b1;
+0.036</td></tr><tr><td align="center" rowspan="1" colspan="1">del1</td><td align="center" rowspan="1" colspan="1">0.48 [0.21 &#x02013; 1.1]</td><td align="center" rowspan="1" colspan="1">-0.60 &#x000b1; 0.14</td><td align="center" rowspan="1" colspan="1">0.9167</td><td align="center" rowspan="1" colspan="1">0.38 &#x000b1; 0.047</td><td align="center" rowspan="1" colspan="1">1.0 &#x000b1; 0.065</td></tr><tr><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">del2</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">1.2 [0.04 &#x02013;
+2.8]</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">-0.33 &#x000b1;
+0.26</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.8163</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.26 &#x000b1;
+0.32</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">1.1 &#x000b1;
+0.25</td></tr><tr><td align="center" rowspan="1" colspan="1">del3</td><td align="center" rowspan="1" colspan="1">1.6 [0.59 &#x02013; 4.1]</td><td align="center" rowspan="1" colspan="1">-0.56 &#x000b1; 0.18</td><td align="center" rowspan="1" colspan="1">0.8500</td><td align="center" rowspan="1" colspan="1">0.54 &#x000b1; 0.058</td><td align="center" rowspan="1" colspan="1">1.0 &#x000b1; 0.046</td></tr><tr><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">del4</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.15 [0.10 &#x02013;
+0.22]</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">-2.0 &#x000b1;
+0.67</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.8075</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.39 &#x000b1;
+0.026</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.96 &#x000b1;
+0.058</td></tr><tr><td align="center" rowspan="1" colspan="1">del5</td><td align="center" rowspan="1" colspan="1">0.29 [0.07 &#x02013; 1.0]</td><td align="center" rowspan="1" colspan="1">-0.67 &#x000b1; 0.27</td><td align="center" rowspan="1" colspan="1">0.7983</td><td align="center" rowspan="1" colspan="1">0.49 &#x000b1; 0.049</td><td align="center" rowspan="1" colspan="1">0.95 &#x000b1; 0.066</td></tr><tr><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">3M</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">1.7 [0.54 &#x02013;
+5.3]</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">-0.45 &#x000b1;
+0.16</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.9126</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">0.32 &#x000b1;
+0.10</td><td align="center" style="background-color:#C0C0C0" rowspan="1" colspan="1">1.0 &#x000b1;
+0.081</td></tr></tbody></table></alternatives></table-wrap><p>In contrast, del4, a deletion mutant lacking the YGCY 3' of del3, exhibited no
+significant changes in dose-dependency parameters. Another mutant, 4M, in which
+the del4 YGCY was mutated, also exhibited dose-dependent behavior similar to
+that of WT (<xref ref-type="supplementary-material" rid="pgen.1006316.s003">S3A
+Fig</xref>). These results indicate that the <italic>cis</italic>-element
+organization of this region, in particular the sequence around the central YGCY,
+may mediate specific dose-response characteristics. Most alterations to binding
+motifs in this sequence space led to changes in dose-dependent behavior,
+including reduced slope and increased EC50, potentially through reducing
+cooperativity or changing RNA structure.</p></sec><sec id="sec006"><title>MBNL concentration can be inferred using &#x003a8; from multiple splicing
+events</title><p>In the HEK293 system, we observed that &#x003a8; of each splicing event exhibits a
+characteristic sigmoid shape with respect to MBNL1 concentration. This
+well-controlled system allowed us to derive these relationships, and directly
+measure functional MBNL1 levels by Western blot. However, a major goal in the DM
+field is to estimate the functional, non-sequestered concentration of MBNL in
+tissue of DM patients. This metric is impossible to obtain from tissue using
+current technologies, as free versus sequestered pools of MBNL are dynamic.
+However, the dose-dependent curves we characterized suggested that &#x003a8; could be
+used to infer the concentration of functional MBNL in cells. While we observed
+that <italic>cis</italic>-element organization plays an important role in
+dictating the shape of each dose-response curve, the
+<italic>trans</italic>-factor environment also likely plays a role, and
+therefore dose curve parameters will vary across tissues.</p><p>First, we assessed whether it was possible to infer MBNL concentration, given a
+set of &#x003a8; values measured across a range of MBNL doses. We framed the task of
+estimating [MBNL] and all sigmoid curve parameters, &#x003a8;<sub>min</sub>,
+&#x003a8;<sub>max</sub>, EC50, and slope, as a Bayesian estimation problem. Since we
+can compute the likelihood of observing &#x003a8; for all seven splicing events from
+HEK293, given any set of values for [MBNL], &#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>,
+EC50, and slope for each splicing event, Bayes&#x02019; Rule allows us to invert the
+problem to obtain the posterior probability distribution of each of those
+parameters, including the underlying MBNL concentration. Indeed, when estimated
+using this approach, inferred [MBNL] correlated extremely well
+(<italic>R</italic><sup>2</sup> = 0.993) with measured MBNL levels relative
+to GAPDH, as assessed by Western blot (<xref ref-type="fig" rid="pgen.1006316.g004">Fig 4A</xref>). Interestingly, a computationally
+simpler approach using the average splicing dysregulation across all splicing
+reporters, mean &#x00394; &#x003a8;, also correlates extremely well with MBNL levels as assessed
+by Western blot (<italic>R</italic><sup>2</sup> = 0.994, <xref ref-type="fig" rid="pgen.1006316.g004">Fig 4B</xref>).</p><fig id="pgen.1006316.g004" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1006316.g004</object-id><label>Fig 4</label><caption><title>Inferring MBNL concentration using &#x003a8; in HEK293 and DM1 tibialis
+anterior.</title><p>(A) [MBNL] inferred using Bayesian estimation highly correlates to
+measurements of MBNL protein relative to GAPDH as assessed by Western
+blot in the HEK293 system. (B) Total splicing dysregulation, mean &#x00394;&#x003a8;,
+correlates strongly with measurements of MBNL protein relative to GAPDH
+in HEK293. (C) Bayesian estimation was used to infer [MBNL] in 55
+tibialis anterior biopsies; [MBNL]<sub>inferred</sub> values also
+strongly correlate with total splicing dysregulation, mean &#x00394;&#x003a8;, in
+tibialis. Non-DM1 individuals are shown in green. (D) Heat map of
+normalized &#x003a8; (each event was set from 0 to 1, to aid visualization) for
+forty-six splicing events in forty-four DM1 patients and eleven healthy
+controls. Similar, non-normalized data is shown in <xref ref-type="supplementary-material" rid="pgen.1006316.s004">S4
+Fig</xref>. &#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>, EC50, and slope values
+were inferred simultaneously with [MBNL] using Bayesian estimation
+(<xref ref-type="supplementary-material" rid="pgen.1006316.s011">S3
+Table</xref>). Samples are sorted by [MBNL]<sub>inferred</sub>
+across the horizontal axis, and splicing events are sorted by EC50 along
+the vertical axis. The |slope| for each event is indicated on the
+right-hand vertical axis. White boxes with slashes denote samples with
+insufficient read coverage to infer &#x003a8;. Events studied in HEK293 are
+marked with an asterisk.</p></caption><graphic xlink:href="pgen.1006316.g004"/></fig></sec><sec id="sec007"><title>Estimation of functional MBNL concentration in DM1 tibialis biopsies</title><p>After using the dose-dependent relationship of &#x003a8; to [MBNL] in the HEK293 system
+to develop a method to estimate [MBNL] using &#x003a8; alone, we sought to apply this
+approach to measuring functional MBNL concentration in the tibialis anterior
+skeletal muscle, a tissue preferentially affected in DM1. Cognizant that the
+behavior of each dosing curve would differ in tibialis as compared to HEK293, we
+separately characterized dosing curves in tibialis, by analyzing RNA-seq data
+from 44 DM1 patients (including 5 patients with proto-mutations, or &#x0003c;100 CTG
+repeats as assessed by peripheral blood) and 11 healthy controls (sample cohort
+described in [<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>]). MISO
+was used to derive transcriptome-wide estimates for &#x003a8; values of alternative
+cassette exons [<xref rid="pgen.1006316.ref033" ref-type="bibr">33</xref>]; we
+focused on 46 cassette exon splicing events exhibiting significant differential
+splicing regulation in at least 25% of DM1 samples (<italic>MISO Bayes
+Factor</italic> &#x02265; 5 when comparing DM1 to non-DM1, and |&#x00394;<italic>&#x003c8;</italic>|
+&#x0003e; 0.2) (<xref ref-type="supplementary-material" rid="pgen.1006316.s009">S1</xref> and <xref ref-type="supplementary-material" rid="pgen.1006316.s010">S2</xref> Tables). MISO &#x003a8; estimates were in
+agreement with values obtained from RT-PCR [<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>].</p><p>While in the context of DM1 many factors potentially influence &#x00394;&#x003a8;, the panel of
+events identified in this study is consistent with a predominant contribution
+from MBNL sequestration. YGCY motifs were enriched upstream of the regulated
+exon for events that are more included in patients (p = 0.001) while YGCY motifs
+were enriched downstream of the regulated exon for events that are more excluded
+in the patients (p = 0.006), consistent with previously described MBNL1 binding
+site maps and observations connecting MBNL1 putative motif location and
+association with either inclusion or skipping of the alternative exon [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>,<xref rid="pgen.1006316.ref028" ref-type="bibr">28</xref>,<xref rid="pgen.1006316.ref029" ref-type="bibr">29</xref>]. Additionally, previous studies
+indicate that MBNL depletion accounts for the majority of splicing events
+observed in the HSA<sup><italic>LR</italic></sup> mouse model of DM1 [<xref rid="pgen.1006316.ref028" ref-type="bibr">28</xref>].</p><p>Six out of seven splicing events studied in the HEK293 system were also observed
+to be dysregulated in DM1 tissue; <italic>FN1</italic> was excluded because it
+lacked sufficient RNA-seq coverage to accurately infer splicing. To characterize
+dosing curves in tibialis, we applied our Bayesian inference framework, which
+infers &#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>, EC50, and slope for each splicing event
+in tibialis, as well as functional MBNL concentrations for each individual. As
+expected due to differences in <italic>trans</italic>-factor environment and
+expression level, among other variables, dose-dependent curves were observed to
+be similar, but not identical between HEK293 and tibialis anterior (<xref ref-type="supplementary-material" rid="pgen.1006316.s005">S5 Fig</xref>).
+Interestingly, while curve shapes were similar across both cell types, those in
+tibialis generally exhibited a broader dynamic range in &#x003a8;, as well as steeper
+slopes, suggesting that the <italic>trans</italic>-factor differences in
+tibialis result in an enhanced dependency of &#x003a8; on MBNL concentration.</p><p>Similarly to the HEK293 system, we observed that the intracellular concentration
+of functional MBNL ([MBNL]<sub>inferred</sub>) correlated well with mean
+splicing dysregulation (<xref ref-type="fig" rid="pgen.1006316.g004">Fig
+4C</xref>); this is simply a reflection of the fact that the Bayesian
+Inference approach aggregates &#x003a8; from multiple events to generate its estimates.
+Ordering individuals by relative [MBNL]<sub>inferred</sub> resulted in non-DM1
+individuals grouping together with individuals carrying DM1 proto-mutations,
+consistent with limited MBNL sequestration occurring in this subset of DM1
+patients (<xref ref-type="fig" rid="pgen.1006316.g004">Fig 4D</xref>). Some
+events showed dysregulation in almost all patients (86% of patients exhibit
+dysregulation for <italic>INSR</italic>), and others showing dysregulation in a
+smaller subset of patients (48% of patients exhibit dysregulation for
+<italic>ATP2A1</italic>), consistent with some events exhibiting higher EC50
+values than others (<xref ref-type="fig" rid="pgen.1006316.g004">Fig 4D</xref>
+and <xref ref-type="supplementary-material" rid="pgen.1006316.s009">S1
+Table</xref>). &#x003a8; for all samples and all splicing events, along with
+estimated sigmoid curves, are shown in <xref ref-type="supplementary-material" rid="pgen.1006316.s006">S6 Fig</xref>. Although reported repeat lengths
+[<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>,<xref rid="pgen.1006316.ref034" ref-type="bibr">34</xref>&#x02013;<xref rid="pgen.1006316.ref036" ref-type="bibr">36</xref>] for a subset of fifteen TA muscle
+samples did not correlate to [MBNL]<sub>inferred</sub> values
+(<italic>R</italic><sup>2</sup> = 0.0841) (<xref ref-type="supplementary-material" rid="pgen.1006316.s007">S7A Fig</xref>) or
+muscle weakness (17), it is well established that repeat lengths can differ from
+cell to cell of the same individual, and that long repeats are extremely
+difficult to size accurately. However, ankle dorsiflexion (ADF) strength
+measurements were moderately correlated with [MBNL]<sub>inferred</sub>
+(<italic>R</italic><sup>2</sup> = 0.358) (<xref ref-type="supplementary-material" rid="pgen.1006316.s007">S7B
+Fig</xref>).</p></sec><sec id="sec008"><title>Accurate inference of MBNL concentration is splicing event and disease
+severity dependent</title><p>We sought to assess the suitability of each splicing event as a potential
+biomarker for levels of functional, non-sequestered MBNL, a key metric likely
+correlated to clinical outcomes in DM1. To simulate a hypothetical future
+clinical trial scenario in which we have estimated &#x003a8;<sub>min</sub>,
+&#x003a8;<sub>max</sub>, EC50, and slope using one cohort of DM1 patients, and would
+like to estimate [MBNL] for a new cohort of patients, we divided our samples
+into two groups to perform traditional cross-validation. We used 70% of the
+individuals to estimate &#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>, EC50, and slope for
+every splicing event (training); these trained parameters could be used to plot
+sigmoid curves for each event (<italic>NFIX</italic> and <italic>CLASP1</italic>
+shown in <xref ref-type="fig" rid="pgen.1006316.g005">Fig 5A</xref>). We then
+assessed how well we could predict [MBNL] for the remaining 30% of samples
+(testing), by framing the question as another Bayesian inference problem. Here,
+we obtained the posterior probability distribution for [MBNL] by computing
+<italic>p</italic>([<italic>MBNL</italic>] | &#x003a8;) <italic>p</italic>(&#x003a8; |
+[<italic>MBNL</italic>]).</p><fig id="pgen.1006316.g005" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1006316.g005</object-id><label>Fig 5</label><caption><title>Splicing events as biomarkers to measure functional MBNL
+concentration in DM1 muscle and response to therapeutics.</title><p>(A) &#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>, EC50, and slope, as well as [MBNL],
+were estimated for each splicing event and each sample, using 70% of the
+tibialis biopsies using a Bayesian inference framework. Sigmoid curves
+with 95% confidence intervals for <italic>NFIX</italic> and
+<italic>CLASP1</italic>, as estimated from 70% of the data, are
+shown, along with the &#x003a8; values used to derive the curves (black points).
+Posterior distributions for [MBNL] were derived for 30% of the data (red
+points), and plotted for 3 specific samples (blue, green, and orange
+points). These distributions are also plotted on the right, along with
+the &#x0201c;gold standard&#x0201d; [MBNL] as estimated using 100% of the data (blue,
+green, and orange vertical lines). (B) The mean predictive power of each
+splicing event to predict &#x0201c;true&#x0201d; [MBNL] was calculated across 120 random
+subsets of training and test sets, where 70% of samples were used for
+training, and 30% for testing. Predictive power was defined as the
+posterior probability estimate at &#x0201c;true&#x0201d; [MBNL] assessed using all the
+data. The mean predictive power was computed separately across three
+patient subgroups&#x02013;severe ([MBNL] &#x0003c; 0.33), moderate (0.33 &#x0003c; [MBNL]
+&#x0003c; 0.66), and mild ([MBNL] &#x0003e; 0.66) DM1, as well as across the
+entire patient cohort. Mean predictive power for each patient subgroup
+was plotted versus mean predictive power across the entire cohort, or
+all patients; splicing events that perform better in specific subgroups
+relative to the entire cohort are labeled. (C) The ability to estimate
+changes in [MBNL] depends on the splicing event used to infer [MBNL], as
+well as the disease severity at which treatment is initiated.
+Hypothetical changes in [MBNL] of +0.4 and +0.3 during a therapeutic
+trial are illustrated as purple and brown filled and outlined points,
+respectively in left panels. The posterior probability estimates of
+[MBNL] are illustrated in right panels. (D) A greater number of
+biomarkers can improve predictive power of estimates of [MBNL]. The
+posterior probability distribution for [MBNL] is shown when using 1, 2,
+5, or 10 biomarkers for severely affected tibialis (top panel) or
+moderately affected tibialis (bottom panel). The value of [MBNL]
+obtained when using 100% of samples is shown as a dotted line; the
+posterior probability at this value of [MBNL] increases as the number of
+biomarkers increases. (E) Mean predictive power increases when using
+more biomarkers, up to a point. The best possible combination of
+biomarkers was chosen for each cross-validation trial, and predictive
+power was averaged across 120 cross-validation trials.</p></caption><graphic xlink:href="pgen.1006316.g005"/></fig><p>We then used the trained parameters to estimate a posterior probability
+distribution for [MBNL], framing the question as another Bayesian inference
+problem. Posterior distributions for [MBNL], obtained using measurements of &#x003a8;
+for <italic>NFIX</italic> or <italic>CLASP1</italic> are displayed in blue,
+green, and orange shading, for &#x003a8; values observed in 3 distinct biopsy samples
+(<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5A</xref>, right panel).
+The &#x0201c;gold standard&#x0201d; estimates for [MBNL], previously calculated using 100% of
+the data, are displayed in blue, green and orange vertical lines. Apparent from
+these estimates is that the precision with which [MBNL] can be predicted is
+dependent on the shape of the sigmoid curve. For example, a precise value for
+[MBNL] in a severely affected individual (based on ADF measurements) is more
+difficult to obtain using <italic>NFIX</italic> as compared to
+<italic>CLASP1</italic>, because <italic>NFIX</italic> offers little
+discriminatory power between 0 and 0.5 [MBNL] units. In contrast, the predictive
+power of <italic>NFIX</italic> is slightly better than that of
+<italic>CLASP1</italic> for mildly affected patients, as the sigmoid curve
+for <italic>NFIX</italic> changes more steeply than <italic>CLASP1</italic> at
+the high end of [MBNL]. <italic>CLASP1</italic> is an excellent predictor in the
+moderate range (green); the posterior probability estimate at the &#x0201c;true&#x0201d; [MBNL]
+value is close to 7 (<xref ref-type="fig" rid="pgen.1006316.g005">Fig
+5A</xref>).</p><p>These examples illustrate the principle that some splicing events are better than
+others for predicting [MBNL], and that their predictive power is dependent on
+disease severity. To quantitate the performance of each splicing event to
+estimate [MBNL], we calculated the mean predictive power of each splicing event
+to estimate &#x0201c;true&#x0201d; [MBNL] across 120 randomly sampled 70%/30% training/testing
+cohort divisions, where predictive power is defined as the posterior probability
+estimate at &#x0201c;true&#x0201d; [MBNL]. We calculated the mean predictive power for each
+event across several patient subgroups&#x02013;severe ([MBNL] &#x0003c; 0.33), moderate (0.33
+&#x0003c; [MBNL] &#x0003c; 0.66), and mild ([MBNL] &#x0003e; 0.66) DM1, as well as across the
+entire patient cohort. Splicing events best suited to predict [MBNL] in mild DM1
+are distinct from those best suited to predict moderate or severe DM1 (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5B</xref>). Interestingly,
+splicing events best suited to predict [MBNL] in moderate DM1 are also those
+best suited to predict [MBNL] across the entire spectrum
+(<italic>CLASP1</italic>, <italic>PDLIM3</italic>.<italic>2</italic>,
+<italic>CACNA2D1</italic>). Analyses of sigmoid curves for the best
+performers (<xref ref-type="supplementary-material" rid="pgen.1006316.s004">S4
+Fig</xref>) indicated that the best predictors exhibit non-zero slopes
+within the range of [MBNL] being predicted.</p></sec><sec id="sec009"><title>Measurement of therapeutic rescue requires proper biomarker selection, and
+usage of multiple biomarkers improves measurement accuracy</title><p>It is well established that the goal of many therapeutic efforts for DM is to
+increase the free, functional concentration of MBNL in cells and tissues;
+therefore, it is critical to be able to measure changes to this metric before
+and after a clinical study/trial. A hypothetical change in [MBNL] may or may not
+lead to changes in &#x003a8; for any given splicing event; the change in &#x003a8; is dependent
+on the shape of the sigmoid curve, as well as the starting point and ending
+point within the curve (<xref ref-type="fig" rid="pgen.1006316.g005">Fig
+5C</xref>). For example, a positive change of 0.4 [MBNL] units for a
+severely affected DM1 patient will result in changes to &#x003a8; for
+<italic>CLASP1</italic> but not <italic>NFIX</italic> (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5C</xref>, left panels, purple points and
+arrows). Posterior estimates for pre- and post-treatment [MBNL] using sigmoid
+curve parameters are poorly separated for <italic>NFIX</italic>, yet well
+separated for <italic>CLASP1</italic> (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5C</xref>, purple shading). In contrast, a
+positive change of 0.3 [MBNL] units for a moderately affected DM1 patient
+results in well separated pre- and post-treatment [MBNL] estimates for both
+<italic>NFIX</italic> and <italic>CLASP1</italic> (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5C</xref>, brown data points).</p><p>Thus far, our analysis has made use of only one biomarker at a time to estimate
+[MBNL]. We tested the ability to improve estimates by incorporating multiple
+biomarkers; we essentially computed the joint probability distribution of [MBNL]
+as estimated by each separate biomarker. We identified biomarker combinations
+that would maximize predictive power across all disease severities, again using
+70%/30% cross-validation training/test sets. For each cross-validation trial, we
+first identified the single best biomarker with maximum predictive value for
+[MBNL]; we then identified the next best biomarker that minimized errors in
+concert with the best biomarker, then the third in concert with the first two,
+and so on. We performed this analysis across all 120 cross-validation trials,
+and recorded the biomarker sets with highest mean predictive power across all
+trials. Shown in <xref ref-type="fig" rid="pgen.1006316.g005">Fig 5D</xref> are
+posterior estimates of [MBNL] for a severely affected biopsy and moderately
+affected biopsy, using the best 1, 2, 5, or 10 biomarkers (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5D</xref>). As expected, the probability
+distribution becomes sharper and more centered on the &#x0201c;true&#x0201d; [MBNL]. Adding more
+biomarkers can improve the estimation up to ~30 markers (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5E</xref>), after which further marker addition
+decreases performance. The decrease in performance is likely due to use of &#x003a8;
+values from splicing events whose inclusion is not as tightly linked to
+[MBNL].</p></sec></sec><sec sec-type="conclusions" id="sec010"><title>Discussion</title><sec id="sec011"><title>Splicing events exhibit distinct responses to MBNL concentration</title><p>We studied the behavior of 7 splicing targets in a cell line we developed, in
+which MBNL1 expression could be titrated across a 20-fold dynamic range (<xref ref-type="fig" rid="pgen.1006316.g006">Fig 6A</xref>). Each splicing event
+exhibited a unique, sigmoidal dose-response curve, with distinct EC50 and slope
+parameters. The steepness, or slope, of &#x003a8; relative to [MBNL1] varied across
+splicing events, likely due to cooperative binding of MBNL1 and/or other
+proteins to pre-mRNA. MBNL1 is known to regulate the splicing of other splicing
+factors such as PTB1 and hnRNPA1 and the stability of transcripts encoding
+splicing factors [<xref rid="pgen.1006316.ref029" ref-type="bibr">29</xref>], so
+it is possible that secondary effects play a role in producing the observed
+sigmoid curves.</p><fig id="pgen.1006316.g006" orientation="portrait" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1006316.g006</object-id><label>Fig 6</label><caption><title>Summary.</title><p>(A) In our HEK293 inducible model, free [MBNL1] can be titrated by
+administration of doxycycline (top panel). In myotonic dystrophy, free
+[MBNL] proteins are titrated by sequestration to toxic CUG RNA (bottom
+panel). (B) Deletion of YGCY sites within the ultraconserved intron
+upstream of MBNL1 exon 5 influences dose-dependent curve parameters
+EC50, slope, both, or neither. (C) Biomarkers are most informative in
+the regions with a non-zero slope (red parts of curve). The best
+biomarkers also tend to have a broad dynamic range (&#x003a8;<sub>max</sub>-
+&#x003a8;<sub>min</sub>).</p></caption><graphic xlink:href="pgen.1006316.g006"/></fig><p>One might hypothesize that multiple binding sites are more likely to function in
+a cooperative fashion and that high affinity binding would lead to a lower EC50,
+but we did not observe a simple relationship between the number and location of
+MBNL binding sites and EC50 or slope. The location of MBNL bound
+<italic>cis</italic>-elements is similar when comparing MBNL1 exon 5 and
+MBNL2 exon 5, and they exhibited similar dose-dependent responses (<xref ref-type="fig" rid="pgen.1006316.g002">Fig 2</xref> and <xref ref-type="supplementary-material" rid="pgen.1006316.s002">S2 Fig</xref>).
+The relationship between MBNL binding site number, location and affinity almost
+certainly play an important role in determining MBNL1 dose-responses, but it is
+also likely that other splicing factors, RNA structure and gene expression
+levels can modulate these curves. Other factors that regulate splicing in DM1 TA
+muscle, including CELF1 proteins, will also affect the curve
+parameters<sub>.</sub> CELF1 antagonistically regulates some MBNL regulated
+events including <italic>INSR</italic> [<xref rid="pgen.1006316.ref037" ref-type="bibr">37</xref>&#x02013;<xref rid="pgen.1006316.ref039" ref-type="bibr">39</xref>].</p></sec><sec id="sec012"><title>The relationship between MBNL binding site organization and dose-dependent
+behavior</title><p>We studied the role of specific binding sites upstream of <italic>MBNL1</italic>
+exon 5 in mediating its MBNL dependent dose-response (<xref ref-type="fig" rid="pgen.1006316.g003">Fig 3</xref>). Inclusion of <italic>MBNL</italic>
+exon 5 controls localization of the protein, and appears to be tightly regulated
+by MBNL and other proteins [<xref rid="pgen.1006316.ref029" ref-type="bibr">29</xref>,<xref rid="pgen.1006316.ref040" ref-type="bibr">40</xref>,<xref rid="pgen.1006316.ref041" ref-type="bibr">41</xref>]. This region is an
+&#x0201c;ultra-conserved region&#x0201d; [<xref rid="pgen.1006316.ref031" ref-type="bibr">31</xref>], and previous work has shown that in mouse myoblasts, MBNL1
+protein interacts with the region mutated in these experiments [<xref rid="pgen.1006316.ref029" ref-type="bibr">29</xref>]. Some YGCY motifs were
+dispensable for splicing when MBNL1 was high [<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>], but at low concentrations, some motifs
+were more critical than others.</p><p>The site that most dramatically altered dose-dependent behavior was a single,
+central YGCY. Affinity and cooperativity parameters were reduced for the del2/3
+regions while del1/5 only had reduced cooperativity (<xref ref-type="fig" rid="pgen.1006316.g006">Fig 6B</xref>). MBNL1 may bind to central sites
+first causing the surrounding sites to become more accessible, consistent with
+the footprinting data of this RNA (<xref ref-type="fig" rid="pgen.1006316.g006">Fig 6B</xref> and <xref ref-type="supplementary-material" rid="pgen.1006316.s003">S3B Fig</xref>). Structure probing indicated that
+the central YGCYs were single stranded in vitro ([<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>] summarized in <xref ref-type="supplementary-material" rid="pgen.1006316.s003">S3B Fig</xref>)
+and that the RNA was generally not structured. Notably, previous studies
+indicate that MBNL1 binds to regions of short single stranded RNAs through the
+Watson-Crick face of short unstructured RNAs [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>,<xref rid="pgen.1006316.ref032" ref-type="bibr">32</xref>,<xref rid="pgen.1006316.ref042" ref-type="bibr">42</xref>]. Alternatively, differences in
+structure between the del mutants may have contributed to the observed
+differences in EC50 and slopes observed (<xref ref-type="supplementary-material" rid="pgen.1006316.s003">S3B Fig</xref>) (mfold server, [<xref rid="pgen.1006316.ref043" ref-type="bibr">43</xref>]). For example, the open
+structures for WT and del4 may facilitate a cooperative dose-response and
+increased sensitivity to MBNL1 concentrations, while the alternative structure
+may be a weaker substrate for MBNL1 (<xref ref-type="supplementary-material" rid="pgen.1006316.s003">S3B Fig</xref>). Indeed, recent data suggests a
+model where MBNL1 interacts with the toxic CUG RNA when it is destabilized by
+U-U mismatches, allowing MBNL1 to access locally unfolded GC sites [<xref rid="pgen.1006316.ref044" ref-type="bibr">44</xref>,<xref rid="pgen.1006316.ref045" ref-type="bibr">45</xref>].</p></sec><sec id="sec013"><title>Alternative splicing event biomarkers</title><p>A key goal in the DM field is to accurately assess the remaining functional
+levels of MBNL proteins in human tissue. Using the cell-based system, we
+developed and validated a computational method to estimate MBNL1 concentration,
+as well as splicing curve parameters, using &#x003a8; alone. The strong correlation
+between estimated and measured MBNL1 protein levels in the cell-based system
+motivated us to take a similar approach in human tibialis biopsies from DM1
+affected and non-affected individuals, where free MBNL proteins vary between
+individuals (<xref ref-type="fig" rid="pgen.1006316.g006">Fig 6A</xref>). We
+estimated tibialis-specific splicing curve parameters, which differed from those
+observed in the cell-based system, and also estimated the levels of functional
+MBNL protein remaining in tissue. As MBNL proteins regulate the splicing of many
+pre-mRNA substrates, a major unresolved question is which splicing events are
+most informative about disease status, and which splicing events in combination
+are best suited to measure therapeutic rescue in a clinical trial. It is well
+established that the remaining functional level of MBNL protein in tissue is
+informative about disease status, and here, we demonstrate that we can estimate
+this value using &#x003a8; alone, provided we first build a model using &#x003a8; from a number
+of splicing events across a spectrum of disease severities.</p><p>We showed that the range of [MBNL] across which &#x003a8; varies is different across
+events, and that this characteristic determines which subset of patients (mild,
+moderate or severe) for which that biomarker exhibits the greatest predictive
+power (<xref ref-type="fig" rid="pgen.1006316.g006">Fig 6C</xref>). This has
+implications for being able to accurately place patient samples along the
+continuum of disease severities observed in DM, and for being able to accurately
+measure the extent of therapeutic rescue in a clinical trial. Furthermore,
+splicing biomarkers whose &#x003a8; values are invariant across a particular [MBNL]
+range do not provide as much information as biomarkers whose &#x003a8; values change
+dramatically across that same range. Finally, we showed that using multiple
+biomarkers in combination to predict [MBNL] holds more predictive power than
+using single biomarkers alone. The best biomarkers significantly overlap with
+those previously described [<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>]; we found the top set of five biomarkers for tibialis to be
+<italic>CLASP1</italic>, <italic>PDLIM3</italic>.<italic>2</italic>,
+<italic>CACNA2D1</italic>, <italic>MAPT</italic>.<italic>1</italic> and
+<italic>CACNA1S</italic> (<xref ref-type="fig" rid="pgen.1006316.g005">Fig
+5D</xref> and <xref ref-type="supplementary-material" rid="pgen.1006316.s011">S3 Table</xref>). Interestingly,
+<italic>CLASP1</italic> is a novel event identified in our RNA-seq analysis;
+it is the top biomarker among all tested, and exhibits a broad range of splicing
+regulation across [MBNL] in both the cell based system and in tibialis. (<xref ref-type="fig" rid="pgen.1006316.g002">Fig 2</xref> and <xref ref-type="supplementary-material" rid="pgen.1006316.s006">S6
+Fig</xref>).</p></sec><sec id="sec014"><title>Dose-dependent behavior differs in different cellular contexts</title><p>The relationship between MBNL1 levels and &#x003a8; was previously investigated in
+myoblasts and mouse muscle [<xref rid="pgen.1006316.ref020" ref-type="bibr">20</xref>]. &#x003a8; for five splicing targets was measured at five concentrations
+of MBNL1 in myoblasts, achieved by different doses of siRNA; &#x003a8; for similar
+events was measured at 0%, 50% and 100% MBNL1 level in mouse muscle, using
+normal, heterozygote, and homozygote MBNL1 knockouts. The relationship of &#x003a8; to
+[MBNL1] was slightly different in myoblasts versus muscle, depending on the
+specific exon, suggesting that a complex mixture of cis- and trans-factors
+mediates dose-dependent behavior, with differing stoichiometry in different
+cellular contexts. Here, we have separately measured &#x003a8;<sub>min</sub>,
+&#x003a8;<sub>max</sub>, EC50, and slope values for each splicing event in both
+HEK293 cells and human tibialis, and also observed that these parameters differ
+between HEK293 cells and human tibialis. These observations suggest that proper
+selection of splicing biomarkers for a given cell type requires characterization
+of biomarkers in that tissue, or a basic understanding of how &#x003a8; is modulated by
+the interaction of multiple <italic>trans</italic>-factors with pre-mRNA
+<italic>cis</italic>-elements.</p></sec></sec><sec sec-type="materials|methods" id="sec015"><title>Materials and Methods</title><sec id="sec016"><title>HA-MBNL1 expression stable cell line production</title><p>The full length MBNL1 (isoform 41) with an N-terminal HA tag was cloned into the
+supplied vector (pcDNA5) and transfected into the HEK293 T-REx FLP cell line
+(Life Technologies) to create the inducible line following the manufacturer's
+protocol.</p></sec><sec id="sec017"><title>Western blotting</title><p>HEK cell pellets were lysed in (RIPA) buffer (50 mM Tris, pH 7.4, 150 mM NaCl, 1%
+NP-40, 0.25% sodium deoxycholate, 0.1% SDS, 1 mM phenylmethylsul- fonyl fluoride
+[PMSF]) supplemented with 1x protease inhibitor cocktail (SigmaFAST; Sigma) by
+light agitation for 20 min via vortex, and the concentration of protein was
+normalized using bicinchoninic acid (BCA) reagent (Pierce) prior to resolution
+on 10% SDS-PAGE gels. MBNL1 proteins were probed with antibody (MB1a (4A8))
+[<xref rid="pgen.1006316.ref046" ref-type="bibr">46</xref>] probed at 1:2000
+and 1:15,000 goat anti-mouse secondary IRDye 800CW (Licor). GAPDH loading
+control was probed (1:1000) ((14C10) Rabbit mAb #2118, Cell Signaling) followed
+by goat anti rabbit IRDye 680 RD (Licor). Fluorescence was measured using a
+Licor Odyssey Fc instrument.</p></sec><sec id="sec018"><title>Splicing reporters and mini-gene mutagenesis</title><p>The wild type MBNL1 mini-gene was made by amplifying regions of the MBNL1 gene
+containing 51 nucleotides from the 3'-end of intron 3, exon 4, intron 4, exon 5,
+intron 5, exon 6, and 33 nucleotides of the 5' -end of intron 6 from HeLa
+genomic DNA using PCR primers with unique restriction sites.
+<italic>Mbnl1</italic> deletion constructs are described previously [<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>]. Site directed
+mutagenesis of the WT and del mutants constructs was performed to create the
+mutations 3M and 4M using the Phusion Site-Directed Mutagenesis Kit following
+the manufacturer&#x02019;s protocol (Thermo Scientific). The following primers were used
+for mutagenesis: 3M: Forward: 5&#x02019;-
+GTTTATGTTAAT<underline>C</underline>C<underline>C</underline>CTTGAACCCCAC
+-3&#x02019;, Reverse: 5&#x02019;-AGCAAGCAGAGGTGCATC ATG-3&#x02019;, 4M: Forward: 5&#x02019;-
+CTGGCCCATTCCCATCATGT -3&#x02019; Reverse: 5'-TGGGGTTCAAGC GCATTAACAT-3'.</p></sec><sec id="sec019"><title>Cell culture and transfection</title><p>HEK293 cells with inducible MBNL1 were routinely cultured as a monolayer in
+Dulbecco&#x02019;s modified Eagle&#x02019;s medium (DMEM)-GlutaMax (Invitrogen) supplemented
+with 10% fetal bovine serum (Gibco) at 37&#x000b0;C under 5% CO2. Cells were plated in
+twenty-four-well plates at a density of 1.5 x 10<sup>5</sup> cells/well. Fresh
+doxycycline (Sigma) or tetracycline (Sigma) was prepared at 1 mg/ml, diluted,
+and added to the cells at the appropriate concentrations. A pool of three siRNA
+duplexes (CACUGGAAGUAUGUAGAGAdTdT, GGACAAAUGUGCUUGGUUUUUU, and
+GAGAGAAACCUGUAUAAUAUU) were transfected into the cells 24 hours prior to
+harvesting cells using TransIT-siQUEST transfection reagent as per the
+manufacturer's protocol. Prior to transfection, cells were plated in
+twenty-four-well plates at a density of 1.5 x 10<sup>5</sup> cells/well. Cells
+were transfected 24 h later at approximately 80% confluence. Plasmid (500
+ng/well) was transfected into each well with 1.5 ul of TransiT 293 (Mirus)
+following the manufacturer&#x02019;s protocol. 250 ng of either empty vector (pcDNA3.1+)
+or DMPK-CTG<sub>960</sub> was co-transfected into a single well with 250 ng of
+mini-gene reporter for all splicing assays. For DMPK-CUG<sub>960</sub> and
+HA-MBNL (pcDNA3.1+) each reporter was reduced so that the total DNA transfected
+remained constant and the ratio of DNA to transfection reagent remained
+constant. Fresh doxycycline (Sigma) or tetracycline (Sigma) was prepared at 1
+mg/ml, diluted, and added to the cells at the appropriate concentrations four
+hours post transfection. The DMPK-CUG<sub>960</sub> plasmid was obtained from
+the laboratory of Thomas Cooper.</p></sec><sec id="sec020"><title>Splicing activity assays</title><p>Cells were lysed in the plate and RNA isolated using an RNeasy kit (Qiagen)
+twenty hours after induction. Isolated RNA (200 ng) was reverse transcribed
+using Superscript II (Invitrogen), according to the manufacturer&#x02019;s protocol. The
+RNA for all endogenous splicing event conditions were internally controlled by
+recovering RNA from the same plated well of cells. Endogenous genes were reverse
+transcribed using random hexamers except for MBNL1, which a gene specific primer
+was designed to anneal to endogenous transcripts but not the HA-MBNL1 transgene
+transcripts:</p><p>5&#x02019;-CTGAGGAACTTTTGTGTGTGTTGCTTGACG-3&#x02019;. All reverse transcription reactions were
+subjected to PCR amplification in a 20 ul reaction mixture using flanking
+exon-specific primers. The number of amplification cycles was determined to be
+within the linear range for all primers used. Endogenous gene PCR primers (hg19
+coordinates are the same as in <xref ref-type="supplementary-material" rid="pgen.1006316.s010">S2 Table</xref>) are as follows: ATP2A1 primers are
+described in Purcell et al [<xref rid="pgen.1006316.ref011" ref-type="bibr">11</xref>],</p><p specific-use="line">INSR: F: 5&#x02019;-CCTGTCCAAAGACAGACTCTCAGATCCTG-3&#x02019;</p><p specific-use="line">R: 5&#x02019;-GTCGAGGAAGTGTTGGGGAAAGC-3&#x02019;, CLASP1:</p><p specific-use="line">F: 5&#x02019;-CAAAGTCTCCTCATCTTCGGGCACG-3&#x02019;</p><p specific-use="line">R: 5&#x02019;-GCTGGGACTGTGAAACCACTTTAGC-3&#x02019;, MBNL1: F
+5-AGGGAGATGCTCTCGGGAAAAGTG-3&#x02019;, R 5&#x02019;-GTTGGCTAGAGCCTGTTGGTATTGGAAAATAC-3&#x02019;, MBNL2
+(from [<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>]): F
+5&#x02019;-ACAAGTGACAACACCGTAACCG-3&#x02019;, R 5&#x02019;-TTTGGTAAAGGATGAAGAGCACC-3&#x02019;, NFIX: F
+5&#x02019;-GATGGAGAGCCCTGTTGATGACG-3&#x02019; R 5&#x02019;-GTGGTGGTGGTAGCGGATGGTC-3&#x02019; and FN1 (exon hg19
+coordinates chr2:216257654&#x02013;216257926) F 5'- AGAATTACCACAACCCCTACAAACGG -3' R 5'-
+TGCATTGTCTGAAGGAGAAATTGACAACTC -3'.</p><p>PCR products were resolved by gel electrophoresis on 1.5-mm, 6% native
+polyacrylamide (19:1) gels run at 300 V for 90 min. Splice products were
+visualized and quantified using SYBR green I nucleic acid stain (Invitrogen) in
+combination with an AlphaImager HP system (Alpha Innotech). All reported values
+were obtained from at least three independent splicing experiments. All
+experiments with MBNL1 pre-mRNA mini-gene mutations included a WT internal
+control.</p></sec><sec id="sec021"><title>RNAseq</title><p>Muscle biopsies, repeat length estimation, and patient strength measurements were
+conducted as described in Nakamori et al [<xref rid="pgen.1006316.ref017" ref-type="bibr">17</xref>] and [<xref rid="pgen.1006316.ref047" ref-type="bibr">47</xref>]. 1 ug of total RNA was prepared for
+Illumina strand-specific RNA-seq using standard methods. In brief, rRNA was
+removed using the Ribozero beads (Epibio), and remaining RNA was fragmented
+using fragmentation buffer (Ambion #AM8740). RNA was precipitated and converted
+to cDNA using Superscript III, random primers, and dUTP, and 2nd strand cDNA
+using DNA polymerase I and RNase H. Ends were repaired, adenylated, and ligated
+to Illumina paired end adapters. Ligated fragments were purified by agarose gel
+electrophoresis (~200 bp band was excised), treated with USER enzyme, and
+subjected to 14&#x02013;18 cycles of PCR. A second gel was run to purify product away
+from primers. Libraries were sequenced in pooled sets of 4 or 6 samples on the
+Illumina Hiseq, using 2 x 57 bp sequencing runs.</p></sec><sec id="sec022"><title>Identification of mis-spliced exons in DM1 patient samples</title><p>Illumina RNA-sequencing reads from the tibialis anterior muscle biopsies (44 DM1
+and 11 unaffected control) were aligned against the <italic>hg19</italic> human
+reference genome with GSNAP and allowing for novel splicing [<xref rid="pgen.1006316.ref048" ref-type="bibr">48</xref>] (<ext-link ext-link-type="uri" xlink:href="http://research-pub.gene.com/gmap/">http://research-pub.gene.com/gmap/</ext-link>). GSNAP
+was run with the following options set:&#x02013;s [<italic>splice sites map
+file</italic>]&#x02013;N 1 &#x02013;A sam&#x02013;o FR&#x02014;pairexpect 300&#x02014;pairdev 100. A splice sites
+map file was generated from the <italic>hg19</italic> gene models (GrCh37
+release 75). Isoform abundances were estimated and each of the 44 DM1 samples
+was compared to each of the 11 control samples using MISO [<xref rid="pgen.1006316.ref033" ref-type="bibr">33</xref>]. A custom set of <italic>hg19</italic>
+alternative event annotations were generated from the Refseq, Ensembl, and UCSC
+gene models using custom scripts. For this analysis we focused only on the
+differential inclusion and exclusion of &#x0201c;cassette&#x0201d; exons between the DM1 and
+control samples. The comparison data was filtered based on the criteria
+described below to identify a high confidence set of misregulated alternative
+exons events.</p><p>Filtering criteria:</p><list list-type="order"><list-item><p>&#x02265; 70% of control and DM1 samples have sufficient coverage over the event.
+<list list-type="alpha-lower"><list-item><p>&#x02211; inclusion and exclusion reads &#x02265; 20</p></list-item></list></p></list-item><list-item><p><inline-formula id="pgen.1006316.e001"><alternatives><graphic xlink:href="pgen.1006316.e001.jpg" id="pgen.1006316.e001g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M3"><mml:mo>|</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi mathvariant="normal">&#x00394;</mml:mi><mml:mi>&#x003c8;</mml:mi></mml:mrow><mml:mo>&#x000af;</mml:mo></mml:mover></mml:mrow><mml:mo>|</mml:mo><mml:mo>&#x02265;</mml:mo><mml:mn>0.20</mml:mn></mml:math></alternatives></inline-formula></p></list-item><list-item><p>&#x02265; 25% of DM1 patients showed evidence for differential splicing compared
+to controls. <list list-type="alpha-lower"><list-item><p>median Bayes factor &#x02265; 5</p></list-item></list></p></list-item></list></sec><sec id="sec023"><title>Curve fitting (Figs <xref ref-type="fig" rid="pgen.1006316.g001">1</xref>&#x02013;<xref ref-type="fig" rid="pgen.1006316.g003">3</xref>)</title><p>For data in Figs <xref ref-type="fig" rid="pgen.1006316.g001">1</xref>&#x02013;<xref ref-type="fig" rid="pgen.1006316.g003">3</xref>, splicing activity curves
+were fitted using Graphpad Prism software using non-linear curve fitting
+(log(agonist) vs. response&#x02014;Variable slope (four parameters)). The min and max
+were restricted to fall between 0 and 1, respectively.</p></sec><sec id="sec024"><title>YCGY motif enrichment near differentially regulated exons</title><p>A student's t-test was used to compare the presence of 4-mer motifs that bind
+MBNL proteins (identified previously [<xref rid="pgen.1006316.ref010" ref-type="bibr">10</xref>]), using a 20 bp sliding window within
+the 400 bp region upstream of cassette exons that are more excluded in controls,
+with respect to patients, to the same region of an identical number of randomly
+sampled exons (average sampled using 1000 iterations). A similar comparison was
+performed with motifs located 400 bp downstream of cassette exons that are more
+included in controls, with respect to patients.</p></sec><sec id="sec025"><title>Bayesian inference to estimate curve parameters and [MBNL]</title><p>We modeled the problem using Bayes&#x02019; Rule as follows: <inline-formula id="pgen.1006316.e002"><alternatives><graphic xlink:href="pgen.1006316.e002.jpg" id="pgen.1006316.e002g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M4"><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>&#x003c8;</mml:mi></mml:mrow><mml:mo>&#x02192;</mml:mo></mml:mover></mml:mrow><mml:mo>)</mml:mo><mml:mo>&#x0221d;</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mover accent="true"><mml:mrow><mml:mi>&#x003c8;</mml:mi></mml:mrow><mml:mo>&#x02192;</mml:mo></mml:mover></mml:mrow><mml:mo>|</mml:mo><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mo>)</mml:mo><mml:mo>*</mml:mo><mml:mi>p</mml:mi><mml:mo>(</mml:mo><mml:mrow><mml:mi>&#x003d5;</mml:mi></mml:mrow><mml:mo>)</mml:mo></mml:math></alternatives></inline-formula> where <inline-formula id="pgen.1006316.e003"><alternatives><graphic xlink:href="pgen.1006316.e003.jpg" id="pgen.1006316.e003g" mimetype="image" position="anchor" orientation="portrait"/><mml:math id="M5"><mml:mover accent="true"><mml:mrow><mml:mi>&#x003c8;</mml:mi></mml:mrow><mml:mo>&#x02192;</mml:mo></mml:mover></mml:math></alternatives></inline-formula> is the observed inclusion level of an exon
+across multiple doses or samples, and <italic>&#x003d5;</italic> describes
+&#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>, log(EC50), slope, [MBNL], and a parameter
+&#x003c3;. We assume that observed &#x003a8; values are drawn from a normal distribution
+centered around the modeled &#x003a8; value, with standard deviation &#x003c3;. Priors for each
+estimated parameter were as follows: &#x003a8;<sub>min</sub> ~ Uniform(0, 1),
+&#x003a8;<sub>max</sub> ~ Uniform(0, 1), log(EC50) ~ Normal(&#x003bc; = 0.5, &#x003c3; = 1), slope ~
+Normal(&#x003bc; = 0, &#x003c3; = 1), [MBNL] ~ Uniform(0, 1), &#x003c3; ~ Uniform(0, 1). The python
+package PyMC3 was used to implement Bayesian inference [<xref rid="pgen.1006316.ref049" ref-type="bibr">49</xref>]. MCMC sampling was performed using the
+NUTS sampler and 1000 iterations. This approach was used to infer [MBNL] for all
+panels in <xref ref-type="fig" rid="pgen.1006316.g004">Fig 4</xref>, separately
+for HEK293 data and tibialis data. Estimated parameters were used to generate
+curves in <xref ref-type="supplementary-material" rid="pgen.1006316.s004">S4
+Fig</xref>.</p></sec><sec id="sec026"><title>Cross-validation analysis, generating posterior estimates of [MBNL], and
+biomarker analysis</title><p>We assessed the ability of each splicing event to predict [MBNL] by performing a
+cross-validation analysis. We divided the tibialis samples into 2 groups,
+comprising 70% and 30% of samples. &#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>, log(EC50),
+slope, [MBNL], and &#x003c3; were estimated using 70% of the samples, as described
+above. Then, for each splicing event and each sample in the remaining 30% of
+samples, we calculated a posterior distribution for [MBNL]. We essentially
+performed Bayesian inference again, framing the problem as computing the
+probability of [MBNL] across all possible values of [MBNL]. That is, we computed
+<italic>p</italic>([<italic>MBNL</italic>]|<italic>&#x003c6;</italic>,<italic>&#x003c9;</italic>)
+&#x0221d;
+<italic>p</italic>(<italic>&#x003c6;</italic>|[<italic>MBNL</italic>],<italic>&#x003c9;</italic>)
+* <italic>p</italic>([<italic>MBNL</italic>],<italic>&#x003c9;</italic>). Here,
+<italic>&#x003c9;</italic> describes &#x003a8;<sub>min</sub>, &#x003a8;<sub>max</sub>, log(EC50),
+slope and &#x003c3;, a parameter describing the standard deviation of the normal
+distribution from which observed &#x003a8; values are drawn from the modeled &#x003a8; value
+(similar to above). In this case, however, &#x003c3; is directly computed from the
+training data, so that events with observed &#x003a8; values that closely match
+predicted &#x003a8; are more highly favored as biomarkers. <xref ref-type="fig" rid="pgen.1006316.g005">Fig 5A</xref> shows example posterior distributions
+of [MBNL] for points highlighted in blue, green, and orange. We defined
+&#x0201c;predictive power&#x0201d; as the value of the posterior distribution of [MBNL] where
+[MBNL] equals that estimated when using 100% of the data. To compute the mean
+&#x0201c;predictive&#x0201d; power for mild, moderate, or severely affected samples, we averaged
+predictive power for samples with [<italic>MBNL</italic>] &#x0003e; 0.66,0.33 &#x0003c;
+[<italic>MBNL</italic>] &#x0003c; 0.66, and [<italic>MBNL</italic>] &#x0003c; 0.33
+(<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5B</xref>). To compute
+predictive power when using multiple splicing events as biomarkers, rather than
+take an exhaustive approach, which would require testing upwards of billions of
+combinations of splicing biomarkers (for example, to sample 46 choose 10 is ~4
+billion), we took a recursive addition approach, where we identified the best
+biomarker, then identified a second biomarker yielding the best performance in
+concert with the best biomarker, then a third biomarker yielding the best
+performance in concert with the first 2 biomarkers, and so on (the best
+biomarkers are shown in <xref ref-type="fig" rid="pgen.1006316.g005">Fig
+5D</xref>). Predictive power was computed as the joint probability
+distribution of all posterior estimates of [MBNL] for chosen biomarkers.</p></sec><sec id="sec027"><title>Schematic diagrams of splicing events</title><p>YGCY motifs were plotted to scale within the regulated exon, 200 nucleotides
+upstream of the regulated exon and 200 nucleotides downstream of the regulated
+exon.</p></sec><sec id="sec028"><title>TPM calculations (<xref ref-type="supplementary-material" rid="pgen.1006316.s001">S1 Fig</xref>)</title><p>Kallisto [<xref rid="pgen.1006316.ref050" ref-type="bibr">50</xref>] was used to
+estimate transcripts per million using a kallisto transcriptome index generated
+from the hg19 Refseq/Locuslink coding sequences (CDS) fasta data set. Paired-end
+FASTQ files were used for TPM quantification and the average fragment length of
+the elibary was automatically esimated by Kallisto. Total TPM values were
+calculated by summing Refeq TPM values across all corresponding Refseq IDs for a
+given geneID.</p></sec></sec><sec sec-type="supplementary-material" id="sec029"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pgen.1006316.s001"><label>S1 Fig</label><caption><title>Relative transcript levels of MBNL paralogs.</title><p>MBNL1/2/3 transcripts were estimated using RNA seq from six HEK293 cell
+samples. Transcripts per kilobase million are reported.</p><p>(TIF)</p></caption><media xlink:href="pgen.1006316.s001.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s002"><label>S2 Fig</label><caption><title>YGCY motifs of MBNL1 regulated events.</title><p>200 nucleotides upstream and downstream of the regulated exon are depicted
+with YGCY motifs marked. Schematic element spacing is drawn to scale.</p><p>(TIF)</p></caption><media xlink:href="pgen.1006316.s002.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s003"><label>S3 Fig</label><caption><title>Additional mutation in <italic>MBNL1</italic> mini-gene reporter and
+predicted RNA structures of wild type and mutant RNAs.</title><p>(A) 4M has similar behavior to WT. Splicing of 4M mutant compared with WT
+<italic>MBNL1</italic> mini-gene reporter in triplicate. Experimental
+details are the same as in <xref ref-type="fig" rid="pgen.1006316.g003">Fig
+3</xref>. Representative gel is shown. (B) <italic>MBNL1</italic> intron
+4 is generally unstructured. Intron 4 mapped with previously determined
+structural data [<xref rid="pgen.1006316.ref024" ref-type="bibr">24</xref>].
+Single stranded regions are marked with a dashed line, nucleotides with
+increased cleavage in the presence of MBNL1 are marked with an E, and MBNL1
+protected nucleotides are marked with a P (C) Predicted secondary structures
+obtained using the mfold server for <italic>MBNL1</italic> WT and mutant
+RNAs [<xref rid="pgen.1006316.ref043" ref-type="bibr">43</xref>].</p><p>(TIF)</p></caption><media xlink:href="pgen.1006316.s003.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s004"><label>S4 Fig</label><caption><title>&#x003a8; Estimates for forty-six splicing events from DM1 and control tibialis
+muscle.</title><p>Heatmap of event &#x003a8; estimates (un-normalized) from DM1 and control RNA-seq
+tibialis samples. Samples are ordered from left to right by decreasing |&#x00394; &#x003a8;|
+summed over all events.</p><p>(TIF)</p></caption><media xlink:href="pgen.1006316.s004.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s005"><label>S5 Fig</label><caption><title>Events differ in their dose-responses between HEK293 and TA
+muscle.</title><p>(A) &#x003a8; was plotted against [MBNL1] as determined by western blot in HEK293 for
+<italic>NFIX</italic> (blue), <italic>ATP2A1</italic> (purple),
+<italic>INSR</italic> (black), <italic>MBNL1</italic> (red),
+<italic>MBNL2</italic> (green), and <italic>CLASP1</italic> (orange)
+(left panel) and TA muscle &#x003a8; was plotted against inferred [MBNL] (right
+panel). The x-axes are log<sub>10</sub> scale. Individual points and error
+for each event is shown is <xref ref-type="fig" rid="pgen.1006316.g002">Fig
+2</xref> and <xref ref-type="supplementary-material" rid="pgen.1006316.s006">S6 Fig</xref>.</p><p>(TIF)</p></caption><media xlink:href="pgen.1006316.s005.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s006"><label>S6 Fig</label><caption><title>Individual splicing curves in DM1 and control tibialis muscle.</title><p>&#x003a8; estimates are plotted against the inferred MBNL1 for each splicing event.
+Inferred dose-response curve are shown.</p><p>(PDF)</p></caption><media xlink:href="pgen.1006316.s006.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s007"><label>S7 Fig</label><caption><title>Strength of Ankle Dorsiflexion (ADF) but not number of CTG repeats
+correlates with average dysregulation.</title><p>(A) CTG repeat length was not correlated with inferred [MBNL] in the tibialis
+muscle samples (<italic>R</italic><sup>2</sup> = 0.0841). (B) The maximal
+isometric force of ankle dorsiflexion (ADF), measurement (expressed as the
+percentage of strength that would be predicted in a healthy person of same
+age, gender, and height) moderately correlates with inferred [MBNL]
+(<italic>R</italic><sup>2</sup> = 0.358).</p><p>(TIF)</p></caption><media xlink:href="pgen.1006316.s007.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s008"><label>S8 Fig</label><caption><title>YGCY motifs within events misregulated in DM1 tibialis muscle.</title><p>200 nucleotides upstream and downstream of the regulated exon are depicted
+with YGCY motifs marker. Schematic element spacing is drawn to scale.</p><p>(TIF)</p></caption><media xlink:href="pgen.1006316.s008.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s009"><label>S1 Table</label><caption><title>Events misregulated in DM1 compared to unaffected control
+tibialis.</title><p>Splicing event coordinates from MISO from hg19, gene symbol, mean &#x003a8; for
+control and DM1 samples, standard deviation, mean &#x00394;&#x003a8;, number of samples used
+to calculate the mean for control and DM1, number of samples for each event
+with a Bayes Factor greater than 5, and % patients with dysregulated
+splicing for each event (&#x00394;&#x003a8; &#x0003e; 50%, normalized to the maximum &#x00394;&#x003a8; for each
+event) are shown in the table.</p><p>(XLSX)</p></caption><media xlink:href="pgen.1006316.s009.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s010"><label>S2 Table</label><caption><title>&#x003a8; estimates for events perturbed in DM1 tibialis muscle compared to
+unaffected controls.</title><p>&#x003a8; estimates from MISO for genes (indicated by gene symbol and hg19
+coordinates) are shown for all samples in this study. NA is used for samples
+that did not have sufficient coverage to obtain an estimate for that
+splicing event.</p><p>(XLSX)</p></caption><media xlink:href="pgen.1006316.s010.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1006316.s011"><label>S3 Table</label><caption><title>Curve-fitting parameters for events dysregulated in DM compared to
+unaffected controls.</title><p>Bayesian posterior mean estimates for parameters min &#x003a8;, max &#x003a8;, EC50, slope,
+respective 5% and 95% confidence intervals, and &#x003c3; are shown for each
+splicing event (event_parameters tab). Inferred [MBNL], 5% and 95%
+confidence intervals, and mean delta psi are shown for each sample
+(MBNL_inferred tab). Biomarker predictive power for all events (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5B</xref>) and optimal
+combinations for choosing one to forty-six biomarkers (<xref ref-type="fig" rid="pgen.1006316.g005">Fig 5D</xref>) are shown (single_biomarkers and
+biomarker_combinations tabs, respectively).</p><p>(XLSX)</p></caption><media xlink:href="pgen.1006316.s011.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank the MDA Monoclonal Antibody Resource for kindly providing MBNL1 antibody,
+MB1a(48A). We thank Paul Barber and Jamie Purcell for creating the inducible
+HA-MBNL1 expression system. We thank Rodger Voelker for providing a base script to
+mark motifs and Joey Estabrook for supplying quantification of MBNL1/2/3
+transcripts. We appreciate advice and suggestions from the Berglund, Wang, and Burge
+labs.</p></ack><ref-list><title>References</title><ref id="pgen.1006316.ref001"><label>1</label><mixed-citation publication-type="journal"><name><surname>Han</surname><given-names>H</given-names></name>, <name><surname>Irimia</surname><given-names>M</given-names></name>, <name><surname>Ross</surname><given-names>PJ</given-names></name>, <name><surname>Sung</surname><given-names>H-K</given-names></name>, <name><surname>Alipanahi</surname><given-names>B</given-names></name>, <name><surname>David</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>MBNL proteins repress
+ES-cell-specific alternative splicing and reprogramming</article-title>.
+<source>Nature</source>. <year>2013</year>;<volume>498</volume>:
+<fpage>241</fpage>&#x02013;<lpage>245</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature12270">10.1038/nature12270</ext-link></comment>
+<?supplied-pmid 23739326?><pub-id pub-id-type="pmid">23739326</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref002"><label>2</label><mixed-citation publication-type="journal"><name><surname>Pimentel</surname><given-names>H</given-names></name>, <name><surname>Parra</surname><given-names>M</given-names></name>, <name><surname>Gee</surname><given-names>S</given-names></name>, <name><surname>Ghanem</surname><given-names>D</given-names></name>, <name><surname>An</surname><given-names>X</given-names></name>, <name><surname>Li</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>A dynamic alternative splicing
+program regulates gene expression during terminal
+erythropoiesis</article-title>. <source>Nucleic Acids Research</source>.
+<year>2014</year>;<fpage>1</fpage>&#x02013;<lpage>12</lpage>. <comment>doi:
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gkt1388">10.1093/nar/gkt1388</ext-link></comment></mixed-citation></ref><ref id="pgen.1006316.ref003"><label>3</label><mixed-citation publication-type="journal"><name><surname>Bonomi</surname><given-names>S</given-names></name>, <name><surname>Gallo</surname><given-names>S</given-names></name>, <name><surname>Catillo</surname><given-names>M</given-names></name>, <name><surname>Pignataro</surname><given-names>D</given-names></name>, <name><surname>Biamonti</surname><given-names>G</given-names></name>, <name><surname>Ghigna</surname><given-names>C</given-names></name>. <article-title>Oncogenic alternative splicing switches: role in cancer
+progression and prospects for therapy</article-title>. <source>Int J Cell
+Biol</source>. <year>2013</year>;<volume>2013</volume>:
+<fpage>962038</fpage>
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1155/2013/962038">10.1155/2013/962038</ext-link></comment>
+<?supplied-pmid 24285959?><pub-id pub-id-type="pmid">24285959</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref004"><label>4</label><mixed-citation publication-type="journal"><name><surname>Wagner</surname><given-names>SD</given-names></name>, <name><surname>Berglund</surname><given-names>JA</given-names></name>. <article-title>Alternative Pre-mRNA Splicing</article-title>.
+<source>Methods Mol Biol</source>. <year>2014</year>;<volume>1126</volume>:
+<fpage>45</fpage>&#x02013;<lpage>54</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1007/978-1-62703-980-2_4">10.1007/978-1-62703-980-2_4</ext-link></comment>
+<?supplied-pmid 24549655?><pub-id pub-id-type="pmid">24549655</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref005"><label>5</label><mixed-citation publication-type="journal"><name><surname>Feng</surname><given-names>D</given-names></name>, <name><surname>Xie</surname><given-names>J</given-names></name>. <article-title>Aberrant splicing in neurological
+diseases</article-title>. <source>WIREs RNA</source>.
+<year>2013</year>;<volume>4</volume>: <fpage>631</fpage>&#x02013;<lpage>649</lpage>.
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/wrna.1184">10.1002/wrna.1184</ext-link></comment>
+<?supplied-pmid 23821330?><pub-id pub-id-type="pmid">23821330</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref006"><label>6</label><mixed-citation publication-type="journal"><name><surname>Pan</surname><given-names>Q</given-names></name>, <name><surname>Shai</surname><given-names>O</given-names></name>, <name><surname>Lee</surname><given-names>LJ</given-names></name>, <name><surname>Frey</surname><given-names>BJ</given-names></name>, <name><surname>Blencowe</surname><given-names>BJ</given-names></name>. <article-title>Deep surveying of alternative splicing complexity in the
+human transcriptome by high-throughput sequencing</article-title>.
+<source>Nat Genet</source>. <year>2008</year>;<volume>40</volume>:
+<fpage>1413</fpage>&#x02013;<lpage>1415</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ng.259">10.1038/ng.259</ext-link></comment>
+<?supplied-pmid 18978789?><pub-id pub-id-type="pmid">18978789</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref007"><label>7</label><mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>ET</given-names></name>, <name><surname>Sandberg</surname><given-names>R</given-names></name>, <name><surname>Luo</surname><given-names>S</given-names></name>, <name><surname>Khrebtukova</surname><given-names>I</given-names></name>, <name><surname>Zhang</surname><given-names>L</given-names></name>, <name><surname>Mayr</surname><given-names>C</given-names></name>, <etal>et al</etal>
+<article-title>Alternative isoform regulation in
+human tissue transcriptomes</article-title>. <source>Nature. Nature
+Publishing Group</source>; <year>2008</year>;<volume>456</volume>:
+<fpage>470</fpage>&#x02013;<lpage>476</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nature07509">10.1038/nature07509</ext-link></comment></mixed-citation></ref><ref id="pgen.1006316.ref008"><label>8</label><mixed-citation publication-type="journal"><name><surname>Konieczny</surname><given-names>P</given-names></name>, <name><surname>Stepniak-Konieczna</surname><given-names>E</given-names></name>, <name><surname>Sobczak</surname><given-names>K</given-names></name>. <article-title>MBNL proteins and their target RNAs, interaction and
+splicing regulation</article-title>. <source>Nucleic Acids
+Research</source>. <year>2014</year>;<volume>42</volume>:
+<fpage>10873</fpage>&#x02013;<lpage>10887</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gku767">10.1093/nar/gku767</ext-link></comment>
+<?supplied-pmid 25183524?><pub-id pub-id-type="pmid">25183524</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref009"><label>9</label><mixed-citation publication-type="journal"><name><surname>Blech-Hermoni</surname><given-names>Y</given-names></name>, <name><surname>Ladd</surname><given-names>AN</given-names></name>. <article-title>RNA binding proteins in the regulation of heart
+development</article-title>. <source>Int J Biochem Cell Biol</source>.
+<year>2013</year>;<volume>45</volume>:
+<fpage>2467</fpage>&#x02013;<lpage>2478</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.biocel.2013.08.008">10.1016/j.biocel.2013.08.008</ext-link></comment>
+<?supplied-pmid 23973289?><pub-id pub-id-type="pmid">23973289</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref010"><label>10</label><mixed-citation publication-type="journal"><name><surname>Goers</surname><given-names>ES</given-names></name>, <name><surname>Purcell</surname><given-names>J</given-names></name>, <name><surname>Voelker</surname><given-names>RB</given-names></name>, <name><surname>Gates</surname><given-names>DP</given-names></name>, <name><surname>Berglund</surname><given-names>JA</given-names></name>. <article-title>MBNL1 binds GC motifs embedded in pyrimidines to
+regulate alternative splicing</article-title>. <source>Nucleic Acids
+Research</source>. <year>2010</year>;<volume>38</volume>:
+<fpage>2467</fpage>&#x02013;<lpage>2484</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gkp1209">10.1093/nar/gkp1209</ext-link></comment>
+<?supplied-pmid 20071745?><pub-id pub-id-type="pmid">20071745</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref011"><label>11</label><mixed-citation publication-type="journal"><name><surname>Purcell</surname><given-names>J</given-names></name>, <name><surname>Oddo</surname><given-names>JC</given-names></name>, <name><surname>Wang</surname><given-names>ET</given-names></name>, <name><surname>Berglund</surname><given-names>JA</given-names></name>. <article-title>Combinatorial Mutagenesis of MBNL1 Zinc Fingers
+Elucidates Distinct Classes of Splicing Regulatory Events</article-title>.
+<source>Mol Cell Biol</source>. <year>2012</year>;<volume>32</volume>:
+<fpage>4155</fpage>&#x02013;<lpage>4167</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1128/MCB.00274-12">10.1128/MCB.00274-12</ext-link></comment>
+<?supplied-pmid 22890842?><pub-id pub-id-type="pmid">22890842</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref012"><label>12</label><mixed-citation publication-type="journal"><name><surname>Brook</surname><given-names>JD</given-names></name>, <name><surname>McCurrach</surname><given-names>ME</given-names></name>, <name><surname>Harley</surname><given-names>HG</given-names></name>, <name><surname>Buckler</surname><given-names>AJ</given-names></name>, <name><surname>Church</surname><given-names>D</given-names></name>, <name><surname>Aburatani</surname><given-names>H</given-names></name>, <etal>et al</etal>
+<article-title>Molecular basis of myotonic
+dystrophy: expansion of a trinucleotide (CTG) repeat at the 3' end of a
+transcript encoding a protein kinase family member</article-title>.
+<source>Cell</source>. <year>1992</year>;<volume>69</volume>:
+<fpage>385</fpage>.</mixed-citation></ref><ref id="pgen.1006316.ref013"><label>13</label><mixed-citation publication-type="journal"><name><surname>Liquori</surname><given-names>CL</given-names></name>, <name><surname>Ricker</surname><given-names>K</given-names></name>, <name><surname>Moseley</surname><given-names>ML</given-names></name>, <name><surname>Jacobsen</surname><given-names>JF</given-names></name>, <name><surname>Kress</surname><given-names>W</given-names></name>, <name><surname>Naylor</surname><given-names>SL</given-names></name>, <etal>et al</etal>
+<article-title>Myotonic dystrophy type 2 caused by
+a CCTG expansion in intron 1 of ZNF9</article-title>.
+<source>Science</source>. <year>2001</year>;<volume>293</volume>:
+<fpage>864</fpage>&#x02013;<lpage>867</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1062125">10.1126/science.1062125</ext-link></comment>
+<?supplied-pmid 11486088?><pub-id pub-id-type="pmid">11486088</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref014"><label>14</label><mixed-citation publication-type="journal"><name><surname>Mahadevan</surname><given-names>M</given-names></name>, <name><surname>Tsilfidis</surname><given-names>C</given-names></name>, <name><surname>Sabourin</surname><given-names>L</given-names></name>, <name><surname>Shutler</surname><given-names>G</given-names></name>, <name><surname>Amemiya</surname><given-names>C</given-names></name>, <name><surname>Jansen</surname><given-names>G</given-names></name>, <etal>et al</etal>
+<article-title>Myotonic dystrophy mutation: an
+unstable CTG repeat in the 3' untranslated region of the
+gene</article-title>. <source>Science</source>.
+<year>1992</year>;<volume>255</volume>:
+<fpage>1253</fpage>&#x02013;<lpage>1255</lpage>. <?supplied-pmid 1546325?><pub-id pub-id-type="pmid">1546325</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref015"><label>15</label><mixed-citation publication-type="journal"><name><surname>Harley</surname><given-names>HG</given-names></name>, <name><surname>Brook</surname><given-names>JD</given-names></name>, <name><surname>Rundle</surname><given-names>SA</given-names></name>, <name><surname>Crow</surname><given-names>S</given-names></name>, <name><surname>Reardon</surname><given-names>W</given-names></name>, <name><surname>Buckler</surname><given-names>AJ</given-names></name>, <etal>et al</etal>
+<article-title>Expansion of an unstable DNA region
+and phenotypic variation in myotonic dystrophy</article-title>.
+<source>Nature</source>. Nature Publishing Group;
+<year>1992</year>;<volume>355</volume>:
+<fpage>545</fpage>&#x02013;<lpage>546</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/355545a0">10.1038/355545a0</ext-link></comment>
+<?supplied-pmid 1346923?><pub-id pub-id-type="pmid">1346923</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref016"><label>16</label><mixed-citation publication-type="journal"><name><surname>Miller</surname><given-names>JW</given-names></name>, <name><surname>Urbinati</surname><given-names>CR</given-names></name>, <name><surname>Teng-Umnuay</surname><given-names>P</given-names></name>, <name><surname>Stenberg</surname><given-names>MG</given-names></name>, <name><surname>Byrne</surname><given-names>BJ</given-names></name>, <name><surname>Thornton</surname><given-names>CA</given-names></name>, <etal>et al</etal>
+<article-title>Recruitment of human muscleblind
+proteins to (CUG)(n) expansions associated with myotonic
+dystrophy</article-title>. <source>EMBO J</source>.
+<year>2000</year>;<volume>19</volume>:
+<fpage>4439</fpage>&#x02013;<lpage>4448</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/emboj/19.17.4439">10.1093/emboj/19.17.4439</ext-link></comment>
+<?supplied-pmid 10970838?><pub-id pub-id-type="pmid">10970838</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref017"><label>17</label><mixed-citation publication-type="journal"><name><surname>Nakamori</surname><given-names>M</given-names></name>, <name><surname>Sobczak</surname><given-names>K</given-names></name>, <name><surname>Puwanant</surname><given-names>A</given-names></name>, <name><surname>Welle</surname><given-names>S</given-names></name>, <name><surname>Eichinger</surname><given-names>K</given-names></name>, <name><surname>Pandya</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>Splicing biomarkers of disease
+severity in myotonic dystrophy</article-title>. <source>Ann Neurol</source>.
+<year>2013</year>; <volume>74</volume>:
+<fpage>862</fpage>&#x02013;<lpage>872</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1002/ana.23992">10.1002/ana.23992</ext-link></comment>
+<?supplied-pmid 23929620?><pub-id pub-id-type="pmid">23929620</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref018"><label>18</label><mixed-citation publication-type="journal"><name><surname>Rinaldi</surname><given-names>F</given-names></name>, <name><surname>Terracciano</surname><given-names>C</given-names></name>, <name><surname>Pisani</surname><given-names>V</given-names></name>, <name><surname>Massa</surname><given-names>R</given-names></name>, <name><surname>Loro</surname><given-names>E</given-names></name>, <name><surname>Vergani</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>Aberrant splicing and expression of
+the non muscle myosin heavy-chain gene MYH14 in DM1 muscle
+tissues</article-title>. <source>Neurobiol Dis</source>.
+<year>2012</year>;<volume>45</volume>:
+<fpage>264</fpage>&#x02013;<lpage>271</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.nbd.2011.08.010">10.1016/j.nbd.2011.08.010</ext-link></comment>
+<?supplied-pmid 21872659?><pub-id pub-id-type="pmid">21872659</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref019"><label>19</label><mixed-citation publication-type="journal"><name><surname>Tang</surname><given-names>ZZ</given-names></name>, <name><surname>Yarotskyy</surname><given-names>V</given-names></name>, <name><surname>Wei</surname><given-names>L</given-names></name>, <name><surname>Sobczak</surname><given-names>K</given-names></name>, <name><surname>Nakamori</surname><given-names>M</given-names></name>, <name><surname>Eichinger</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Muscle weakness in myotonic
+dystrophy associated with misregulated splicing and altered gating of CaV1.1
+calcium channel</article-title>. <source>Hum Mol Genet</source>.
+<year>2011</year>;<volume>21</volume>:<fpage>1312</fpage>&#x02013;<lpage>1324</lpage>.
+<comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/hmg/ddr568">10.1093/hmg/ddr568</ext-link></comment>
+<?supplied-pmid 22140091?><pub-id pub-id-type="pmid">22140091</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref020"><label>20</label><mixed-citation publication-type="journal"><name><surname>Jog</surname><given-names>SP</given-names></name>, <name><surname>Paul</surname><given-names>S</given-names></name>, <name><surname>Dansithong</surname><given-names>W</given-names></name>, <name><surname>Tring</surname><given-names>S</given-names></name>, <name><surname>Comai</surname><given-names>L</given-names></name>, <name><surname>Reddy</surname><given-names>S</given-names></name>. <article-title>RNA Splicing Is Responsive to MBNL1
+Dose</article-title>. <source>PLoS ONE</source>.
+<year>2012</year>;<volume>7</volume>: <fpage>e48825</fpage>
+<comment>doi:
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0048825">10.1371/journal.pone.0048825</ext-link></comment>
+<?supplied-pmid 23166594?><pub-id pub-id-type="pmid">23166594</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref021"><label>21</label><mixed-citation publication-type="journal"><name><surname>Deans</surname><given-names>TL</given-names></name>, <name><surname>Cantor</surname><given-names>CR</given-names></name>, <name><surname>Collins</surname><given-names>JJ</given-names></name>. <article-title>A tunable genetic switch based on RNAi and repressor
+proteins for regulating gene expression in mammalian cells</article-title>.
+<source>Cell</source>. <year>2007</year>;<volume>130</volume>:
+<fpage>363</fpage>&#x02013;<lpage>372</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2007.05.045">10.1016/j.cell.2007.05.045</ext-link></comment>
+<?supplied-pmid 17662949?><pub-id pub-id-type="pmid">17662949</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref022"><label>22</label><mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>X</given-names></name>, <name><surname>Miller</surname><given-names>JW</given-names></name>, <name><surname>Mankodi</surname><given-names>A</given-names></name>, <name><surname>Kanadia</surname><given-names>RN</given-names></name>, <name><surname>Yuan</surname><given-names>Y</given-names></name>, <name><surname>Moxley</surname><given-names>RT</given-names></name>, <etal>et al</etal>
+<article-title>Failure of MBNL1-dependent
+post-natal splicing transitions in myotonic dystrophy</article-title>.
+<source>Hum Mol Genet</source>. <year>2006</year>;<volume>15</volume>:
+<fpage>2087</fpage>&#x02013;<lpage>2097</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/hmg/ddl132">10.1093/hmg/ddl132</ext-link></comment>
+<?supplied-pmid 16717059?><pub-id pub-id-type="pmid">16717059</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref023"><label>23</label><mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>C</given-names></name>, <name><surname>Lee</surname><given-names>K-Y</given-names></name>, <name><surname>Swanson</surname><given-names>MS</given-names></name>, <name><surname>Darnell</surname><given-names>RB</given-names></name>. <article-title>Prediction of clustered RNA-binding protein motif sites
+in the mammalian genome</article-title>. <source>Nucleic Acids
+Research</source>. <year>2013</year>;<volume>41</volume>:
+<fpage>6793</fpage>&#x02013;<lpage>6807</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gkt421">10.1093/nar/gkt421</ext-link></comment>
+<?supplied-pmid 23685613?><pub-id pub-id-type="pmid">23685613</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref024"><label>24</label><mixed-citation publication-type="journal"><name><surname>Gates</surname><given-names>DP</given-names></name>, <name><surname>Coonrod</surname><given-names>LA</given-names></name>, <name><surname>Berglund</surname><given-names>JA</given-names></name>. <article-title>Auto-regulated splicing of the muscleblind-like 1
+(MBNL1) pre-mRNA</article-title>. <source>J Biol Chem</source>.
+<year>2011</year>;<volume>286</volume>:
+<fpage>34224</fpage>&#x02013;<lpage>34233</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M111.236547">10.1074/jbc.M111.236547</ext-link></comment>
+<?supplied-pmid 21832083?><pub-id pub-id-type="pmid">21832083</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref025"><label>25</label><mixed-citation publication-type="journal"><name><surname>Hino</surname><given-names>S-I</given-names></name>, <name><surname>Kondo</surname><given-names>S</given-names></name>, <name><surname>Sekiya</surname><given-names>H</given-names></name>, <name><surname>Saito</surname><given-names>A</given-names></name>, <name><surname>Kanemoto</surname><given-names>S</given-names></name>, <name><surname>Murakami</surname><given-names>T</given-names></name>, <etal>et al</etal>
+<article-title>Molecular mechanisms responsible for
+aberrant splicing of SERCA1 in myotonic dystrophy type 1</article-title>.
+<source>Hum Mol Genet</source>. <year>2007</year>;<volume>16</volume>:
+<fpage>2834</fpage>&#x02013;<lpage>2843</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/hmg/ddm239">10.1093/hmg/ddm239</ext-link></comment>
+<?supplied-pmid 17728322?><pub-id pub-id-type="pmid">17728322</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref026"><label>26</label><mixed-citation publication-type="journal"><name><surname>Grammatikakis</surname><given-names>I</given-names></name>, <name><surname>Goo</surname><given-names>Y-H</given-names></name>, <name><surname>Echeverria</surname><given-names>GV</given-names></name>, <name><surname>Cooper</surname><given-names>TA</given-names></name>. <article-title>Identification of MBNL1 and MBNL3 domains required for
+splicing activation and repression</article-title>. <source>Nucleic Acids
+Research</source>. <year>2011</year>;<volume>39</volume>:
+<fpage>2769</fpage>&#x02013;<lpage>2780</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gkq1155">10.1093/nar/gkq1155</ext-link></comment>
+<?supplied-pmid 21109529?><pub-id pub-id-type="pmid">21109529</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref027"><label>27</label><mixed-citation publication-type="journal"><name><surname>Sen</surname><given-names>S</given-names></name>, <name><surname>Talukdar</surname><given-names>I</given-names></name>, <name><surname>Liu</surname><given-names>Y</given-names></name>, <name><surname>Tam</surname><given-names>J</given-names></name>, <name><surname>Reddy</surname><given-names>S</given-names></name>, <name><surname>Webster</surname><given-names>NJG</given-names></name>. <article-title>Muscleblind-like 1 (Mbnl1) promotes insulin receptor
+exon 11 inclusion via binding to a downstream evolutionarily conserved
+intronic enhancer</article-title>. <source>J Biol Chem</source>.
+<year>2010</year>;<volume>285</volume>:
+<fpage>25426</fpage>&#x02013;<lpage>25437</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M109.095224">10.1074/jbc.M109.095224</ext-link></comment>
+<?supplied-pmid 20519504?><pub-id pub-id-type="pmid">20519504</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref028"><label>28</label><mixed-citation publication-type="journal"><name><surname>Du</surname><given-names>H</given-names></name>, <name><surname>Cline</surname><given-names>MS</given-names></name>, <name><surname>Osborne</surname><given-names>RJ</given-names></name>, <name><surname>Tuttle</surname><given-names>DL</given-names></name>, <name><surname>Clark</surname><given-names>TA</given-names></name>, <name><surname>Donohue</surname><given-names>JP</given-names></name>, <etal>et al</etal>
+<article-title>Aberrant alternative splicing and
+extracellular matrix gene expression in mouse models of myotonic
+dystrophy</article-title>. <source>Nat Struct Mol Biol</source>.
+<year>2010</year>;<volume>17</volume>:
+<fpage>187</fpage>&#x02013;<lpage>193</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nsmb.1720">10.1038/nsmb.1720</ext-link></comment>
+<?supplied-pmid 20098426?><pub-id pub-id-type="pmid">20098426</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref029"><label>29</label><mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>ET</given-names></name>, <name><surname>Cody</surname><given-names>NAL</given-names></name>, <name><surname>Jog</surname><given-names>S</given-names></name>, <name><surname>Biancolella</surname><given-names>M</given-names></name>, <name><surname>Wang</surname><given-names>TT</given-names></name>, <name><surname>Treacy</surname><given-names>DJ</given-names></name>, <etal>et al</etal>
+<article-title>Transcriptome-wide Regulation of
+Pre-mRNA Splicing and mRNA Localization by Muscleblind
+Proteins</article-title>. <source>Cell</source>.
+<year>2012</year>;<volume>150</volume>:
+<fpage>710</fpage>&#x02013;<lpage>724</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.cell.2012.06.041">10.1016/j.cell.2012.06.041</ext-link></comment>
+<?supplied-pmid 22901804?><pub-id pub-id-type="pmid">22901804</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref030"><label>30</label><mixed-citation publication-type="journal"><name><surname>Terenzi</surname><given-names>F</given-names></name>, <name><surname>Ladd</surname><given-names>AN</given-names></name>. <article-title>Conserved developmental alternative splicing of
+muscleblind-like (MBNL) transcripts regulates MBNL localization and
+activity</article-title>. <source>RNA Biol</source>.
+<year>2010</year>;<volume>7</volume>: <fpage>43</fpage>&#x02013;<lpage>55</lpage>.
+<?supplied-pmid 20009516?><pub-id pub-id-type="pmid">20009516</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref031"><label>31</label><mixed-citation publication-type="journal"><name><surname>Bejerano</surname><given-names>G</given-names></name>, <name><surname>Pheasant</surname><given-names>M</given-names></name>, <name><surname>Makunin</surname><given-names>I</given-names></name>, <name><surname>Stephen</surname><given-names>S</given-names></name>, <name><surname>Kent</surname><given-names>WJ</given-names></name>, <name><surname>Mattick</surname><given-names>JS</given-names></name>, <etal>et al</etal>
+<article-title>Ultraconserved elements in the human
+genome</article-title>. <source>Science</source>.
+<year>2004</year>;<volume>304</volume>:
+<fpage>1321</fpage>&#x02013;<lpage>1325</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1126/science.1098119">10.1126/science.1098119</ext-link></comment>
+<?supplied-pmid 15131266?><pub-id pub-id-type="pmid">15131266</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref032"><label>32</label><mixed-citation publication-type="journal"><name><surname>Lambert</surname><given-names>N</given-names></name>, <name><surname>Robertson</surname><given-names>A</given-names></name>, <name><surname>Jangi</surname><given-names>M</given-names></name>, <name><surname>McGeary</surname><given-names>S</given-names></name>, <name><surname>Sharp</surname><given-names>PA</given-names></name>, <name><surname>Burge</surname><given-names>CB</given-names></name>. <article-title>RNA Bind-n-Seq: quantitative assessment of the sequence
+and structural binding specificity of RNA binding proteins</article-title>.
+<source>Molecular Cell</source>. <year>2014</year>;<volume>54</volume>:
+<fpage>887</fpage>&#x02013;<lpage>900</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1016/j.molcel.2014.04.016">10.1016/j.molcel.2014.04.016</ext-link></comment>
+<?supplied-pmid 24837674?><pub-id pub-id-type="pmid">24837674</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref033"><label>33</label><mixed-citation publication-type="journal"><name><surname>Katz</surname><given-names>Y</given-names></name>, <name><surname>Wang</surname><given-names>ET</given-names></name>, <name><surname>Airoldi</surname><given-names>EM</given-names></name>, <name><surname>Burge</surname><given-names>CB</given-names></name>. <article-title>Analysis and design of RNA sequencing experiments for
+identifying isoform regulation</article-title>. Nature Publishing Group.
+<year>2010</year>;<volume>7</volume>:
+<fpage>1009</fpage>&#x02013;<lpage>1015</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nmeth.1528">10.1038/nmeth.1528</ext-link></comment>
+<?supplied-pmid 21057496?><pub-id pub-id-type="pmid">21057496</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref034"><label>34</label><mixed-citation publication-type="journal"><name><surname>Hamshere</surname><given-names>MG</given-names></name>, <name><surname>Harley</surname><given-names>H</given-names></name>, <name><surname>Harper</surname><given-names>P</given-names></name>, <name><surname>Brook</surname><given-names>JD</given-names></name>. <article-title>Myotonic dystrophy: the correlation of (CTG) repeat
+length in leucocytes with age at onset is significant only for patients with
+small expansions</article-title>. <source>J Med Genet</source>.
+<year>1999</year>;<volume>36</volume>:<fpage>59</fpage>&#x02013;<lpage>61</lpage>.
+<?supplied-pmid 9950368?><pub-id pub-id-type="pmid">9950368</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref035"><label>35</label><mixed-citation publication-type="journal"><name><surname>Botta</surname><given-names>A</given-names></name>, <name><surname>Rinaldi</surname><given-names>F</given-names></name>, <name><surname>Catalli</surname><given-names>C</given-names></name>, <name><surname>Vergani</surname><given-names>L</given-names></name>, <name><surname>Bonifazi</surname><given-names>E</given-names></name>, <name><surname>Romeo</surname><given-names>V</given-names></name>, <etal>et al</etal>
+<article-title>The CTG repeat expansion size
+correlates with the splicing defects observed in muscles from myotonic
+dystrophy type 1 patients</article-title>. <source>J Med Genet</source>.
+<year>2008</year>;<volume>45</volume>:
+<fpage>639</fpage>&#x02013;<lpage>646</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1136/jmg.2008.058909">10.1136/jmg.2008.058909</ext-link></comment>
+<?supplied-pmid 18611984?><pub-id pub-id-type="pmid">18611984</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref036"><label>36</label><mixed-citation publication-type="journal"><name><surname>Tsilfidis</surname><given-names>C</given-names></name>, <name><surname>MacKenzie</surname><given-names>AE</given-names></name>, <name><surname>Mettler</surname><given-names>G</given-names></name>, <name><surname>Barcel&#x000f3;</surname><given-names>J</given-names></name>, <name><surname>Korneluk</surname><given-names>RG</given-names></name>. <article-title>Correlation between CTG trinucleotide repeat length and
+frequency of severe congenital myotonic dystrophy</article-title>.
+<source>Nat Genet</source>. <year>1992</year>;<volume>1</volume>:
+<fpage>192</fpage>&#x02013;<lpage>195</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/ng0692-192">10.1038/ng0692-192</ext-link></comment>
+<?supplied-pmid 1303233?><pub-id pub-id-type="pmid">1303233</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref037"><label>37</label><mixed-citation publication-type="journal"><name><surname>Kalsotra</surname><given-names>A</given-names></name>, <name><surname>Xiao</surname><given-names>X</given-names></name>, <name><surname>Ward</surname><given-names>AJ</given-names></name>, <name><surname>Castle</surname><given-names>JC</given-names></name>, <name><surname>Johnson</surname><given-names>JM</given-names></name>, <name><surname>Burge</surname><given-names>CB</given-names></name>, <etal>et al</etal>
+<article-title>A postnatal switch of CELF and MBNL
+proteins reprograms alternative splicing in the developing
+heart</article-title>. <source>Proceedings of the National Academy of
+Sciences</source>. <year>2008</year>;<volume>105</volume>:
+<fpage>20333</fpage>&#x02013;<lpage>20338</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1073/pnas.0809045105">10.1073/pnas.0809045105</ext-link></comment></mixed-citation></ref><ref id="pgen.1006316.ref038"><label>38</label><mixed-citation publication-type="journal"><name><surname>Kino</surname><given-names>Y</given-names></name>, <name><surname>Washizu</surname><given-names>C</given-names></name>, <name><surname>Oma</surname><given-names>Y</given-names></name>, <name><surname>Onishi</surname><given-names>H</given-names></name>, <name><surname>Nezu</surname><given-names>Y</given-names></name>, <name><surname>Sasagawa</surname><given-names>N</given-names></name>, <etal>et al</etal>
+<article-title>MBNL and CELF proteins regulate
+alternative splicing of the skeletal muscle chloride channel
+CLCN1</article-title>. <source>Nucleic Acids Research</source>.
+<year>2009</year>;<volume>37</volume>:
+<fpage>6477</fpage>&#x02013;<lpage>6490</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gkp681">10.1093/nar/gkp681</ext-link></comment>
+<?supplied-pmid 19720736?><pub-id pub-id-type="pmid">19720736</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref039"><label>39</label><mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>ET</given-names></name>, <name><surname>Ward</surname><given-names>AJ</given-names></name>, <name><surname>Cherone</surname><given-names>JM</given-names></name>, <name><surname>Giudice</surname><given-names>J</given-names></name>, <name><surname>Wang</surname><given-names>TT</given-names></name>, <name><surname>Treacy</surname><given-names>DJ</given-names></name>, <etal>et al</etal>
+<article-title>Antagonistic regulation of mRNA
+expression and splicing by CELF and MBNL proteins</article-title>.
+<source>Genome Research</source>. <year>2015</year>;<volume>25</volume>:
+<fpage>858</fpage>&#x02013;<lpage>871</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1101/gr.184390.114">10.1101/gr.184390.114</ext-link></comment>
+<?supplied-pmid 25883322?><pub-id pub-id-type="pmid">25883322</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref040"><label>40</label><mixed-citation publication-type="journal"><name><surname>Tran</surname><given-names>H</given-names></name>, <name><surname>Gourrier</surname><given-names>N</given-names></name>, <name><surname>Lemercier-Neuillet</surname><given-names>C</given-names></name>, <name><surname>Dhaenens</surname><given-names>C-M</given-names></name>, <name><surname>Vautrin</surname><given-names>A</given-names></name>, <name><surname>Fernandez-Gomez</surname><given-names>FJ</given-names></name>, <etal>et al</etal>
+<article-title>Analysis of exonic regions involved
+in nuclear localization, splicing activity, and dimerization of
+Muscleblind-like-1 isoforms</article-title>. <source>J Biol Chem</source>.
+<year>2011</year>;<volume>286</volume>:
+<fpage>16435</fpage>&#x02013;<lpage>16446</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1074/jbc.M110.194928">10.1074/jbc.M110.194928</ext-link></comment>
+<?supplied-pmid 21454535?><pub-id pub-id-type="pmid">21454535</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref041"><label>41</label><mixed-citation publication-type="journal"><name><surname>Kino</surname><given-names>Y</given-names></name>, <name><surname>Washizu</surname><given-names>C</given-names></name>, <name><surname>Kurosawa</surname><given-names>M</given-names></name>, <name><surname>Oma</surname><given-names>Y</given-names></name>, <name><surname>Hattori</surname><given-names>N</given-names></name>, <name><surname>Ishiura</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>Nuclear localization of MBNL1:
+splicing-mediated autoregulation and repression of repeat-derived aberrant
+proteins</article-title>. <source>Hum Mol Genet</source>.
+<year>2015</year>;<volume>24</volume>:
+<fpage>740</fpage>&#x02013;<lpage>756</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/hmg/ddu492">10.1093/hmg/ddu492</ext-link></comment>
+<?supplied-pmid 25274774?><pub-id pub-id-type="pmid">25274774</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref042"><label>42</label><mixed-citation publication-type="journal"><name><surname>Teplova</surname><given-names>M</given-names></name>, <name><surname>Patel</surname><given-names>DJ</given-names></name>. <article-title>Structural insights into RNA recognition by the
+alternative-splicing regulator muscleblind-like MBNL1</article-title>.
+<source>Nat Struct Mol Biol</source>. <year>2008</year>;<volume>15</volume>:
+<fpage>1343</fpage>&#x02013;<lpage>1351</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1038/nsmb.1519">10.1038/nsmb.1519</ext-link></comment>
+<?supplied-pmid 19043415?><pub-id pub-id-type="pmid">19043415</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref043"><label>43</label><mixed-citation publication-type="journal"><name><surname>Zuker</surname><given-names>M</given-names></name>. <article-title>Mfold web server for nucleic acid folding and
+hybridization prediction</article-title>. <source>Nucleic Acids
+Research</source>. <year>2003</year>;<volume>31</volume>:
+<fpage>3406</fpage>&#x02013;<lpage>3415</lpage>. <?supplied-pmid 12824337?><pub-id pub-id-type="pmid">12824337</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref044"><label>44</label><mixed-citation publication-type="journal"><name><surname>deLorimier</surname><given-names>E</given-names></name>, <name><surname>Coonrod</surname><given-names>LA</given-names></name>, <name><surname>Copperman</surname><given-names>J</given-names></name>, <name><surname>Taber</surname><given-names>A</given-names></name>, <name><surname>Reister</surname><given-names>EE</given-names></name>, <name><surname>Sharma</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Modifications to toxic CUG RNAs
+induce structural stability, rescue mis-splicing in a myotonic dystrophy
+cell model and reduce toxicity in a myotonic dystrophy zebrafish
+model</article-title>. <source>Nucleic Acids Research</source>.
+<year>2014</year>;<volume>42</volume>:
+<fpage>12768</fpage>&#x02013;<lpage>12778</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gku941">10.1093/nar/gku941</ext-link></comment>
+<?supplied-pmid 25303993?><pub-id pub-id-type="pmid">25303993</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref045"><label>45</label><mixed-citation publication-type="journal"><name><surname>Coonrod</surname><given-names>LA</given-names></name>, <name><surname>Lohman</surname><given-names>JR</given-names></name>, <name><surname>Berglund</surname><given-names>JA</given-names></name>. <article-title>Utilizing the GAAA tetraloop/receptor to facilitate
+crystal packing and determination of the structure of a CUG RNA
+helix</article-title>. <source>Biochemistry</source>.
+<year>2012</year>;<volume>51</volume>:
+<fpage>8330</fpage>&#x02013;<lpage>8337</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1021/bi300829w">10.1021/bi300829w</ext-link></comment>
+<?supplied-pmid 23025897?><pub-id pub-id-type="pmid">23025897</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref046"><label>46</label><mixed-citation publication-type="journal"><name><surname>Holt</surname><given-names>I</given-names></name>, <name><surname>Mittal</surname><given-names>S</given-names></name>, <name><surname>Furling</surname><given-names>D</given-names></name>, <name><surname>Butler-Browne</surname><given-names>GS</given-names></name>, <name><surname>Brook</surname><given-names>JD</given-names></name>, <name><surname>Morris</surname><given-names>GE</given-names></name>. <article-title>Defective mRNA in myotonic dystrophy accumulates at the
+periphery of nuclear splicing speckles</article-title>. <source>Genes
+Cells</source>. <year>2007</year>;<volume>12</volume>:
+<fpage>1035</fpage>&#x02013;<lpage>1048</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1111/j.1365-2443.2007.01112.x">10.1111/j.1365-2443.2007.01112.x</ext-link></comment>
+<?supplied-pmid 17825047?><pub-id pub-id-type="pmid">17825047</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref047"><label>47</label><mixed-citation publication-type="journal"><name><surname>Tawil</surname><given-names>R</given-names></name>, <name><surname>McDermott</surname><given-names>MP</given-names></name>, <name><surname>Mendell</surname><given-names>JR</given-names></name>, <name><surname>Kissel</surname><given-names>J</given-names></name>, <name><surname>Griggs</surname><given-names>RC</given-names></name>. <article-title>Facioscapulohumeral muscular dystrophy (FSHD): design of
+natural history study and results of baseline testing. FSH-DY
+Group</article-title>. <source>Neurology</source>.
+<year>1994</year>;<volume>44</volume>:
+<fpage>442</fpage>&#x02013;<lpage>446</lpage>. <?supplied-pmid 8145913?><pub-id pub-id-type="pmid">8145913</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref048"><label>48</label><mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>TD</given-names></name>, <name><surname>Nacu</surname><given-names>S</given-names></name>. <article-title>Fast and SNP-tolerant detection of complex variants and
+splicing in short reads</article-title>. <source>Bioinformatics</source>.
+<year>2010</year>;<volume>26</volume>:
+<fpage>873</fpage>&#x02013;<lpage>881</lpage>. <comment>doi: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/bioinformatics/btq057">10.1093/bioinformatics/btq057</ext-link></comment>
+<?supplied-pmid 20147302?><pub-id pub-id-type="pmid">20147302</pub-id></mixed-citation></ref><ref id="pgen.1006316.ref049"><label>49</label><mixed-citation publication-type="journal"><name><surname>Salvatier</surname><given-names>J</given-names></name>, <name><surname>Wiecki</surname><given-names>TV</given-names></name>, <name><surname>Fonnesbeck</surname><given-names>C</given-names></name>. <article-title>Probabilistic programming in Python using
+PyMC3</article-title>. <source>PeerJ Comput Sci. PeerJ Inc</source>;
+<year>2016</year>;<volume>2</volume>: <fpage>e55</fpage>
+<comment>doi:
+<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.7717/peerj-cs.55">10.7717/peerj-cs.55</ext-link></comment></mixed-citation></ref><ref id="pgen.1006316.ref050"><label>50</label><mixed-citation publication-type="other">Bray N, Pimentel H,
+Melsted P, Pachter L. [1505.02710] Near-optimal RNA-Seq quantification.
+arXiv.org. 2015.</mixed-citation></ref></ref-list></back></article>

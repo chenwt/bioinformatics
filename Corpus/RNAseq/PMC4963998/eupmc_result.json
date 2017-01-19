@@ -1,0 +1,436 @@
+{
+  "id": [
+    "27465705"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27465705"
+  ],
+  "pmcid": [
+    "PMC4963998"
+  ],
+  "doi": [
+    "10.1186/s12859-016-1159-6"
+  ],
+  "title": [
+    "Scalable metagenomics alignment research tool (SMART): a scalable, rapid, and complete search heuristic for the classification of metagenomic sequences from complex sequence populations."
+  ],
+  "authorString": [
+    "Lee AY, Lee CS, Van Gelder RN."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lee AY"
+          ],
+          "firstName": [
+            "Aaron Y"
+          ],
+          "lastName": [
+            "Lee"
+          ],
+          "initials": [
+            "AY"
+          ],
+          "affiliation": [
+            "Department of Ophthalmology, University of Washington School of Medicine, Box 359608, 325 Ninth Avenue, Seattle, WA, 98104, USA. leeay@uw.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Lee CS"
+          ],
+          "firstName": [
+            "Cecilia S"
+          ],
+          "lastName": [
+            "Lee"
+          ],
+          "initials": [
+            "CS"
+          ],
+          "affiliation": [
+            "Department of Ophthalmology, University of Washington School of Medicine, Box 359608, 325 Ninth Avenue, Seattle, WA, 98104, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Van Gelder RN"
+          ],
+          "firstName": [
+            "Russell N"
+          ],
+          "lastName": [
+            "Van Gelder"
+          ],
+          "initials": [
+            "RN"
+          ],
+          "affiliation": [
+            "Departments of Biological Structure and Pathology, University of Washington School of Medicine, Seattle, WA, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5368-3659",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-7452-1648",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2477961"
+      ],
+      "dateOfPublication": [
+        "2016 Jul"
+      ],
+      "monthOfPublication": [
+        "7"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-07-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "292"
+  ],
+  "abstractText": [
+    "Next generation sequencing technology has enabled characterization of metagenomics through massively parallel genomic DNA sequencing. The complexity and diversity of environmental samples such as the human gut microflora, combined with the sustained exponential growth in sequencing capacity, has led to the challenge of identifying microbial organisms by DNA sequence. We sought to validate a Scalable Metagenomics Alignment Research Tool (SMART), a novel searching heuristic for shotgun metagenomics sequencing results.After retrieving all genomic DNA sequences from the NCBI GenBank, over 1 × 10(11) base pairs of 3.3 × 10(6) sequences from 9.25 × 10(5) species were indexed using 4 base pair hashtable shards. A MapReduce searching strategy was used to distribute the search workload in a computing cluster environment. In addition, a one base pair permutation algorithm was used to account for single nucleotide polymorphisms and sequencing errors. Simulated datasets used to evaluate Kraken, a similar metagenomics classification tool, were used to measure and compare precision and accuracy. Finally using a same set of training sequences we compared Kraken, CLARK, and SMART within the same computing environment. Utilizing 12 computational nodes, we completed the classification of all datasets in under 10 min each using exact matching with an average throughput of over 1.95 × 10(6) reads classified per minute. With permutation matching, we achieved sensitivity greater than 83 % and precision greater than 94 % with simulated datasets at the species classification level. We demonstrated the application of this technique applied to conjunctival and gut microbiome metagenomics sequencing results. In our head to head comparison, SMART and CLARK had similar accuracy gains over Kraken at the species classification level, but SMART required approximately half the amount of RAM of CLARK.SMART is the first scalable, efficient, and rapid metagenomics classification algorithm capable of matching against all the species and sequences present in the NCBI GenBank and allows for a single step classification of microorganisms as well as large plant, mammalian, or invertebrate genomes from which the metagenomic sample may have been derived."
+  ],
+  "affiliation": [
+    "Department of Ophthalmology, University of Washington School of Medicine, Box 359608, 325 Ninth Avenue, Seattle, WA, 98104, USA. leeay@uw.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "K23 EY024921"
+          ],
+          "agency": [
+            "NEI NIH HHS"
+          ],
+          "acronym": [
+            "EY"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 EY022038"
+          ],
+          "agency": [
+            "NEI NIH HHS"
+          ],
+          "acronym": [
+            "EY"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 EY001730"
+          ],
+          "agency": [
+            "NEI NIH HHS"
+          ],
+          "acronym": [
+            "EY"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, DNA"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Databases, Nucleic Acid"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Metagenomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Heuristics"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4963998?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4963998"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12859-016-1159-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "nct"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2016-12-13"
+  ],
+  "dateOfCreation": [
+    "2016-07-28"
+  ],
+  "dateOfRevision": [
+    "2016-12-30"
+  ],
+  "electronicPublicationDate": [
+    "2016-07-28"
+  ],
+  "firstPublicationDate": [
+    "2016-07-28"
+  ]
+}

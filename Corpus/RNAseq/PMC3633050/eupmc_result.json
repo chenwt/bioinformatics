@@ -1,0 +1,511 @@
+{
+  "id": [
+    "23815381"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "23815381"
+  ],
+  "pmcid": [
+    "PMC3633050"
+  ],
+  "doi": [
+    "10.1186/1471-2105-14-s7-s2"
+  ],
+  "title": [
+    "State of art fusion-finder algorithms are suitable to detect transcription-induced chimeras in normal tissues?"
+  ],
+  "authorString": [
+    "Carrara M, Beccuti M, Cavallo F, Donatelli S, Lazzarato F, Cordero F, Calogero RA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Carrara M"
+          ],
+          "firstName": [
+            "Matteo"
+          ],
+          "lastName": [
+            "Carrara"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8559-8296",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "University of Torino, Bioinformatics & Genomics unit, Molecular Biotechnology Center, Via Nizza 52, 10126 Torino, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Beccuti M"
+          ],
+          "firstName": [
+            "Marco"
+          ],
+          "lastName": [
+            "Beccuti"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-6125-9460",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Cavallo F"
+          ],
+          "firstName": [
+            "Federica"
+          ],
+          "lastName": [
+            "Cavallo"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-4571-1060",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Donatelli S"
+          ],
+          "firstName": [
+            "Susanna"
+          ],
+          "lastName": [
+            "Donatelli"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Lazzarato F"
+          ],
+          "firstName": [
+            "Fulvio"
+          ],
+          "lastName": [
+            "Lazzarato"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Cordero F"
+          ],
+          "firstName": [
+            "Francesca"
+          ],
+          "lastName": [
+            "Cordero"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3143-3330",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Calogero RA"
+          ],
+          "firstName": [
+            "Raffaele A"
+          ],
+          "lastName": [
+            "Calogero"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2848-628X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-8559-8296",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-6125-9460",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2848-628X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-4571-1060",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3143-3330",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "14 Suppl 7"
+      ],
+      "journalIssueId": [
+        "2069168"
+      ],
+      "dateOfPublication": [
+        "2013 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "S2"
+  ],
+  "abstractText": [
+    " BACKGROUND: RNA-seq has the potential to discover genes created by chromosomal rearrangements. Fusion genes, also known as \"chimeras\", are formed by the breakage and re-joining of two different chromosomes. It is known that chimeras have been implicated in the development of cancer. Few publications in the past showed the presence of fusion events also in normal tissue, but with very limited overlaps between their results. More recently, two fusion genes in normal tissues were detected using both RNA-seq and protein data.Due to heterogeneous results in identifying chimeras in normal tissue, we decided to evaluate the efficacy of state of the art fusion finders in detecting chimeras in RNA-seq data from normal tissues. RESULTS: We compared the performance of six fusion-finder tools: FusionHunter, FusionMap, FusionFinder, MapSplice, deFuse and TopHat-fusion. To evaluate the sensitivity we used a synthetic dataset of fusion-products, called positive dataset; in these experiments FusionMap, FusionFinder, MapSplice, and TopHat-fusion are able to detect more than 78% of fusion genes. All tools were error prone with high variability among the tools, identifying some fusion genes not present in the synthetic dataset. To better investigate the false discovery chimera detection rate, synthetic datasets free of fusion-products, called negative datasets, were used. The negative datasets have different read lengths and quality scores, which allow detecting dependency of the tools on both these features. FusionMap, FusionFinder, mapSplice, deFuse and TopHat-fusion were error-prone. Only FusionHunter results were free of false positive. FusionMap gave the best compromise in terms of specificity in the negative dataset and of sensitivity in the positive dataset. CONCLUSIONS: We have observed a dependency of the tools on read length, quality score and on the number of reads supporting each chimera. Thus, it is important to carefully select the software on the basis of the structure of the RNA-seq data under analysis. Furthermore, the sensitivity of chimera detection tools does not seem to be sufficient to provide results consistent with those obtained in normal tissues on the basis of fusion events extracted from published data."
+  ],
+  "affiliation": [
+    "University of Torino, Bioinformatics & Genomics unit, Molecular Biotechnology Center, Via Nizza 52, 10126 Torino, Italy."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Fusion"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Transcription, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3633050?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3633050"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=23815381&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=23815381"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/1471-2105-14-S7-S2"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "19"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2013-12-17"
+  ],
+  "dateOfCreation": [
+    "2013-07-02"
+  ],
+  "electronicPublicationDate": [
+    "2013-04-22"
+  ],
+  "firstPublicationDate": [
+    "2013-04-22"
+  ]
+}

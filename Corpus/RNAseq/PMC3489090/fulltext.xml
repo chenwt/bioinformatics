@@ -1,0 +1,247 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.1 20050630//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.1?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Bioinformation</journal-id><journal-id journal-id-type="iso-abbrev">Bioinformation</journal-id><journal-id journal-id-type="publisher-id">Bioinformation</journal-id><journal-title-group><journal-title>Bioinformation</journal-title></journal-title-group><issn pub-type="ppub">0973-8894</issn><issn pub-type="epub">0973-2063</issn><publisher><publisher-name>Biomedical Informatics</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3489090</article-id><article-id pub-id-type="publisher-id">97320630008855</article-id><article-id pub-id-type="doi">10.6026/97320630008855</article-id><article-categories><subj-group subj-group-type="heading"><subject>Hypothesis</subject></subj-group></article-categories><title-group><article-title>Building gene co-expression networks using transcriptomics data for systems biology investigations: Comparison of methods using microarray data</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Kadarmideen</surname><given-names>Haja N</given-names></name><xref ref-type="aff" rid="A1">1</xref><xref ref-type="corresp" rid="COR1">*</xref><xref ref-type="aff" rid="EQCON">&#x000a7;</xref></contrib><contrib contrib-type="author"><name><surname>Watson-haigh</surname><given-names>Nathan S</given-names></name><xref ref-type="aff" rid="A2">2</xref><xref ref-type="aff" rid="EQCON">&#x000a7;</xref></contrib><aff id="A1"><label>1</label>Department of Veterinary Clinical and Animal Sciences, Faculty of Health and Medical Sciences, University of Copenhagen, 1870 Frederiksberg C, Copenhagen, Denmark</aff><aff id="A2"><label>2</label>The Australian Wine Research Institute, Waite Institute, P.O. Box 197, Glen Osmond, SA 5064, Australia</aff><aff id="EQCON"><label>&#x000a7;</label>Authors contributed equally</aff></contrib-group><author-notes><corresp id="COR1"><label>*</label>Haja Kadarmideen: <email>hajak@sund.ku.dk</email></corresp></author-notes><pub-date pub-type="collection"><year>2012</year></pub-date><pub-date pub-type="epub"><day>21</day><month>9</month><year>2012</year></pub-date><volume>8</volume><issue>18</issue><fpage>855</fpage><lpage>861</lpage><history><date date-type="received"><day>10</day><month>9</month><year>2012</year></date><date date-type="accepted"><day>12</day><month>9</month><year>2012</year></date></history><permissions><copyright-statement>&#x000a9; 2012 Biomedical Informatics</copyright-statement><copyright-year>2012</copyright-year><license license-type="open-access"><license-p>This is an open-access article, which permits unrestricted use, distribution, and reproduction in any medium,for non-commercial purposes, provided the original author and source are credited.</license-p></license></permissions><abstract><p>Gene co-expression networks (GCN), built using high-throughput gene expression data are fundamental aspects of systems
+biology. The main aims of this study were to compare two popular approaches to building and analysing GCN. We use real ovine
+microarray transcriptomics datasets representing four different treatments with Metyrapone, an inhibitor of cortisol biosynthesis.
+We conducted several microarray quality control checks before applying GCN methods to filtered datasets. Then we compared the
+outputs of two methods using connectivity as a criterion, as it measures how well a node (gene) is connected within a network. The
+two GCN construction methods used were, Weighted Gene Co-expression Network Analysis (WGCNA) and Partial Correlation
+and Information Theory (PCIT) methods. Nodes were ranked based on their connectivity measures in each of the four different
+networks created by WGCNA and PCIT and node ranks in two methods were compared to identify those nodes which are highly
+differentially ranked (HDR). A total of 1,017 HDR nodes were identified across one or more of four networks. We investigated
+HDR nodes by gene enrichment analyses in relation to their biological relevance to phenotypes. We observed that, in contrast to
+WGCNA method, PCIT algorithm removes many of the edges of the most highly interconnected nodes. Removal of edges of most
+highly connected nodes or hub genes will have consequences for downstream analyses and biological interpretations. In general,
+for large GCN construction (with &#x0003e; 20000 genes) access to large computer clusters, particularly those with larger amounts of shared
+memory is recommended.</p></abstract></article-meta></front><body><sec id="s1"><title>Background</title><p>Gene networks can be described in a rather abstract way: They
+consist of genes (nodes) connected to other genes by <italic>edges</italic>. The
+edges represent a relationship between the two genes they
+connect in a network of genes. This abstract nature of networks
+means that they have found a wide variety of applications in
+(systems) biology [<xref ref-type="bibr" rid="R01">1</xref>&#x02013;<xref ref-type="bibr" rid="R05">5</xref>]. The construction of a network begins by
+defining the nodes to be part of the network and then
+establishing edges, which may be weighted, between relevant
+nodes. Edges are established by using some sort of
+measurement (e.g. a correlation metric) taken between two
+nodes.</p><p>A network exhibiting scale-free topology has most nodes
+connected to a small number of other nodes (i.e. less
+connectivity), but has a small number of nodes which are
+connected to many nodes (i.e. high connectivity). These highly
+connected nodes are often referred to as <italic>hubs</italic>. One property of
+such networks is their robustness to random perturbation or
+deletion of nodes, since most are only connected to a few other
+nodes [<xref ref-type="bibr" rid="R11">11</xref>]. 
+On the flip-side, the hubs are essential to maintain
+the structure/topology of the network and targeted deletion of
+these nodes has major impacts on the network. If a hub gene
+becomes dysfunctional, then the network will be severely
+perturbed and may result in a disease state [<xref ref-type="bibr" rid="R05">5</xref>,
+<xref ref-type="bibr" rid="R07">7</xref>]. While the
+hubs in a network are essential to biological function, there are
+other important structures existing in a network. For example,
+sets of nodes that are highly interconnected with each other but
+poorly connected to the rest of the network. We call these
+modules, but they are also known in the literature as dense
+subgraphs or communities, and are important for helping us to
+better understand the structure and function of the network 
+[<xref ref-type="bibr" rid="R08">8</xref>,
+<xref ref-type="bibr" rid="R09">9</xref>].</p><p>Gene co-expression networks (GCN) are a way to model data
+from gene expression microarray or RNAseq experiments.
+Nodes are the transcripts, edge weights are a measure of how
+strongly the expression levels of the two transcripts/nodes are
+co-expressed across a series of treatments and are typically the
+absolute Pearson correlation coefficients. A co-expression
+measure is biologically interesting to study since two genes
+whose transcript levels rise and fall together across a series of
+samples might be under a common control mechanism such as
+a transcription factor or other regulatory machinery. The GCN
+are increasingly becoming important in integrative genetics and
+systems biology approaches that aim to detect causal genes and
+their networks [<xref ref-type="bibr" rid="R05">5</xref>, 
+<xref ref-type="bibr" rid="R10">10</xref>&#x02013;<xref ref-type="bibr" rid="R12">12</xref>].</p><p>The main objective of this study was to compare two common
+categories of GCN construction methods, with respect to
+detecting and keeping highly interconnected hub genes in the
+GCN, using connectivity as a criterion. One method is called,
+Weighted Gene Co-expression Network Analysis (WGCNA)
+and is thoroughly discussed in the original paper of Zhang and
+Horvath [<xref ref-type="bibr" rid="R07">7</xref>], an R package is also available for performing these
+analyses [<xref ref-type="bibr" rid="R11">11</xref>]. Since its first publication by Zhang and Horvath
+[<xref ref-type="bibr" rid="R07">7</xref>], the WGCNA method has been refined, standardized and
+now widely used in the construction of gene co-expression
+networks in many different species [<xref ref-type="bibr" rid="R05">5</xref>,
+<xref ref-type="bibr" rid="R12">12</xref>]. The other method is
+called, Partial correlation and an information theory (PCIT) and
+full details of the PCIT algorithm are provided in Reverter and
+Chan [<xref ref-type="bibr" rid="R13">13</xref>] and an R package implementing the algorithm is also
+available in Watson-Haigh <italic>et al</italic>. [<xref ref-type="bibr" rid="R14">14</xref>]. PCIT is a method used to
+identify spurious edges for removal and is a data driven
+approach. We have provided some details of WGCNA and
+PCIT methods in <xref ref-type="supplementary-material" rid="SD1">Supplementary file</xref>.</p><p>For comparison of methods, we use real microarray datasets
+from our fetal sheep skin transcriptomics experiment. The
+rationale for this experiment was that the density of Merino
+wool follicles is established early in fetal development and this
+commercially important trait dictates wool fibre diameter,
+which is the key driver of the price paid for wool. It has been
+shown that Merino lambs exposed to metyrapone, an inhibitor
+of cortisol synthesis, <italic>in utero</italic> show a lifetime alteration in wool
+growth parameters. McDowall <italic>et al</italic>. [conference
+presentation/paper] performed a microarray gene expression
+experiment in an attempt to elucidate the genes responsible for
+initiating primary wool follicles (between days 55-65 of
+gestation). We use the microarray gene expression data from
+this experiment to compare the two GCN methods.</p></sec><sec sec-type="methods" id="s2"><title>Methodology</title><sec id="s2a"><title><italic>Microarray data quality control and analyses</italic>:</title><p>The microarray experimental design and generation of
+transcriptomics data across 4 different experimental conditions
+are given in the <xref ref-type="supplementary-material" rid="SD1">Table 1</xref>(see supplementary material). All
+microarray data analyses were performed in the R statistical
+programming environment, using <italic>BioConductor</italic> programs.
+Several quality control (QC) steps were used to ensure that
+there were no gross anomalies with the technical aspects of
+hybridization [<xref ref-type="bibr" rid="R15">15</xref>]. The identification of differentially expressed
+(DE) genes was achieved using the <italic>limma</italic> package while
+<italic>GOEAST</italic> package was used to identify gene ontology (GO)
+terms enriched in a list of DE genes. See <xref ref-type="supplementary-material" rid="SD1">Supplementary file</xref> for
+additional results from microarray data quality control and
+exploratory analyses.</p></sec><sec id="s2b"><title><italic>Building gene co-expression networks</italic>:</title><p>Ten gene co-expression networks (GCN) were created, a
+WGCNA and PCIT derived network for each of the following:
+D60 (day 60 samples); D67 (day 67 samples); Treated
+(Metyrapone samples); Control (control samples) and ALL (all
+samples). For each network, Pearson correlations were
+calculated for all pairs of transcripts and used as the basis for
+building the networks. Of the 24,072 probe sets on the array,
+10,561 were excluded due to low mean expression (&#x02264; 2.5 on the
+log2 scale) or low variance (&#x02264; 0.001) across all 16 arrays, leaving
+13,511 genes from which to calculate Pearson correlations.</p><p>In the WGCNA approach, a power adjacency function was
+applied to the absolute Pearson correlation matrices. The value
+of the power adjacency function's exponent (&#x003b2;) was chosen
+using the scale-free topology criterion. We chose &#x003b2; in the
+interval (1, 11) which maximized the scale-free topology fit (R<sub>2</sub>
+&#x02265;0.85) while maintaining a high mean connectivity. In the PCIT
+approach, we applied the PCIT algorithm to the Pearson
+correlation matrices using the PCIT R package [<xref ref-type="bibr" rid="R14">14</xref>] to identify
+and delete edges found to be insignificant by the algorithm [<xref ref-type="bibr" rid="R13">13</xref>].
+We define the adjacency matrix by using the absolute value of
+the remaining edge weights (Pearson correlations).</p><p>The WGCNA approach created a Topological Overlap Measure
+(TOM) using gene expression data. The TOM is a generalized
+measure of the common edges for those two nodes in a network
+share [<xref ref-type="bibr" rid="R16">16</xref>]. It has been shown to be useful in biological networks
+[<xref ref-type="bibr" rid="R17">17</xref>] and takes values in the interval (0,1). A TOM based
+dissimilarity measure (1-TOM) can be used as input to average
+linkage hierarchical clustering. Modules can be defined as
+discrete branches in the clustering tree and can be formally
+defined by applying a tree cutting algorithm to it [<xref ref-type="bibr" rid="R11">11</xref>]. We do
+not formally define modules by using tree cutting, instead we
+use TOM plots to visualize the interconnectedness of nodes in
+the network.</p><p>We defined highly differentially ranked (HDR) nodes based on
+first computing the connectivity (k) of the i<sup>th</sup> gene (k<sub>i</sub>). Then
+ranks of the node connectivities (coded in ascending order as
+1,2,3,&#x02026;) are computed for each method. Then we compared the
+ranks to identify those which are highly differentially ranked
+(HDR) between WGCNA and PCIT derived networks. See
+<xref ref-type="supplementary-material" rid="SD1">Supplementary file</xref> 
+for calculations of k<sub>i</sub> and HDR.</p></sec></sec><sec id="s3"><title>Results and Discussion</title><sec id="s3a"><title><italic>Constructed gene networks</italic>:</title><p>Of the 24,072 genes present on the array, 13,511 were identified
+for network construction by applying the mean and variance
+filters, described above, across all 16 microarray samples. With
+WGCNA that uses the scale-free topology criterion, we found
+coefficients of &#x003b2; for the power adjacency function to be 3, 7, 11,
+8 and 6 for the ALL, Control, Treatment, D60 and D67 networks
+respectively. Mean connectivity for these networks were 518,
+319, 153, 185 and 561 respectively. TOM plots showed clear
+modular structures present in all networks (<xref ref-type="fig" rid="F1">Figure 1 top row</xref>).
+In one of the D67 network we have identified a module of 267
+genes, some of which is known to be involved in wool follicle
+development <xref ref-type="supplementary-material" rid="SD1">Table 2</xref> (see supplementary material). In
+particular BMP4 is expressed around the time of secondaryderived
+follicles which give Merinos their distinctive fleece.</p><p>With PCIT, many edges were identified as insignificant and
+deleted by PCIT (<xref ref-type="fig" rid="F1">Figure 1 middle row</xref>) leaving a much sparser
+network with 2.76%, 3.07%, 3.14%, 3.11% and 2.77% edges with
+absolute weights of &#x02265;0.49, 0.66, 0.66, 0.63 and 0.69 for the ALL,
+Control, Treatment, D60 and D67 networks respectively.</p></sec><sec id="s3b"><title><italic>Highly differentially ranked (HDR) nodes</italic>:</title><p>For the ALL network, the Spearmans rank correlation
+coefficient for connectivity is high (0.94) indicating a broad level
+of agreement between the connectivity ranks of nodes in the
+WCNA and PCIT derived networks. There is some
+disagreement among middle ranking nodes as seen by the
+departure from the line of equality (y=x), but highly and lowly
+connected nodes are similarly ranked in the WGCNA and PCIT
+derived networks (<xref ref-type="fig" rid="F1">Figure 1 bottom row</xref>). Therefore, one may
+conclude that both approaches rank nodes, by connectivity,
+approximately equally. This is especially true when looking at
+the most highly connected nodes (hubs) which are always
+ranked highly. However, the connectivity ranks for the Control,
+Treatment, D60 and D67 networks show a different story
+(<xref ref-type="fig" rid="F1">Figure 1 bottom row</xref>). They show reasonable agreement in
+rank for most nodes with Spearman rank correlation
+coefficients of 0.79, 0.66, 0.81 and 0.78 for the Control,
+Treatment, D60 and D67 networks respectively. However, a
+small number of nodes (n=357 for the Control network; n=370
+for the Treatment network; n=251 for the D60 network and
+n=477 for the D67 network) showed highly different
+connectivity ranks in the PCIT network compared to the
+WGCNA network. We call these highly differentially ranked
+(HDR) nodes and are identified as dense clusters of data points
+in the off-diagonal regions of the plots (red data points in
+<xref ref-type="fig" rid="F1">Figure 1, bottom row</xref>). Of the 13,511 genes in the networks, we
+found a total of 1,017 were HDR in at least 1 of the networks
+and 29 were HDR in all but the ALL network <xref ref-type="supplementary-material" rid="SD1">Figure 3</xref>(see
+supplementary material).</p><p>These HDR nodes are highlighted in the TOM plots of the
+WGCNA derived networks (<xref ref-type="fig" rid="F1">Figure 1, top row</xref>). We found that
+all HDR nodes are among the most highly interconnected, as
+determined by TOM, and were present in every module of their
+respective networks. <xref ref-type="supplementary-material" rid="SD1">Table 2</xref> (see supplementary material)
+gene enrichment analyses of a list of HDR nodes from one of
+the WGCNA modules. From this type of analyses, we could
+make an informed conclusion regarding relevance from a
+biological perspective and the impact of WGCNA vs. PCIT in
+retaining or deleting hub genes.</p><p>We found that PCIT is removing edges from nodes that are
+among the most highly interconnected genes, not only in a
+network but also within modules, like those mentioned in
+<xref ref-type="supplementary-material" rid="SD1">Table 2</xref> (see supplementary material). I.e. it's removing all the
+strong connections that exist between tightly co-regulated
+genes. While some of these edges may not be seen to be
+independent of the edges to a third node, they are likely to be
+key members of modules. The highly interconnected nature of
+the HDR nodes means that these are good candidate hubs. The
+removal of hubs from networks has a serious effect on the
+topology of that network and of the modules from which it is
+comprised. We believe that the PCIT approach to edge deletion
+is also deleting edges for hub nodes due to the fact that they are
+all highly interconnected for biological reasons rather than the
+formation of spurious edges forming due to non-independence
+of the correlations. The removal of edges by PCIT from HDR
+nodes is likely to have the effect of knocking out the hub nodes
+of the network and is likely to severely disrupt its topology.</p></sec></sec><sec id="s4"><title>Conclusion</title><p>We have generated ovine microarray gene expression data and
+applied various quality control methods available in
+Bioconductor R programs before comparing two commonly
+used co-expression network construction methods. We
+illustrated similarity and differences in these approaches using
+this real biological data set (a drug challenge transcriptomics
+experiment in sheep) rather than an artificial simulated data set
+or a large data set often only seen in human or mouse studies.
+Thereby, our findings are more applicable to the typical rather
+than atypical studies where experiments tend to be smaller in
+size. However, these investigations and results apply to any
+microarray gene expression data regardless of species. We have
+restricted our comparison to just WGCNA and PCIT softwares
+because they represent two broad categories. The results of this
+study can, somewhat, be extrapolated to those softwares that
+fall under the two broad categories. We can conclude that
+WGCNA method is favorable over PCIT method as the former
+retains biologically relevant hub genes and their connections
+within sub-networks intact. This is proven by gene enrichment
+analyses of all genes within each sub-networks and modules
+across different treatment conditions in both methods and its
+relevance to phenotypes in question (here wool or hair growth).
+While we can recommend testing more GCN algorithms, there
+are several new approaches and softwares constantly emerging
+(e.g. FunNET [<xref ref-type="bibr" rid="R18">18</xref>]) and it is impossible to compare all. Lastly,
+one could also test these methods on other transcriptomics data
+sets but this would not change the conclusion.</p></sec><sec sec-type="supplementary-material"><title>Supplementary material</title><supplementary-material content-type="local-data" id="SD1"><caption><title>Data 1</title></caption><media xlink:href="97320630008855S1.pdf" xlink:type="simple" id="d34e339" position="anchor" mimetype="application" mime-subtype="pdf"/></supplementary-material></sec></body><back><ack><p>Authors thank M.L. McDowall, N.M. Edwards, G.S. Natrass,
+H.A. McGrice and P.I. Hynd for their contribution to sheep
+experiment and providing data from this experiment to authors
+for comparison of network methods.</p></ack><fn-group><fn id="FN1" fn-type="other"><p><bold>Citation:</bold>Kadarmideen &#x00026; Watson-haigh, Bioinformation 8(18): 855-861 (2012)</p></fn></fn-group><ref-list><title>References</title><ref id="R01"><label>1</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>H</surname><given-names>Jeong</given-names></name><etal/></person-group><source>Nature</source><year>2001</year><volume>411</volume><fpage>41</fpage><pub-id pub-id-type="pmid">11333967</pub-id></element-citation></ref><ref id="R02"><label>2</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>MR</surname><given-names>Carlson</given-names></name><etal/></person-group><source>BMC Genomics</source><year>2006</year><volume>7</volume><fpage>40</fpage><pub-id pub-id-type="pmid">16515682</pub-id></element-citation></ref><ref id="R03"><label>3</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>TF</surname><given-names>Fuller</given-names></name><etal/></person-group><source>Mamm Genome</source><year>2007</year><volume>18</volume><fpage>463</fpage><pub-id pub-id-type="pmid">17668265</pub-id></element-citation></ref><ref id="R04"><label>4</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>HN</surname><given-names>Kadarmideen</given-names></name></person-group><source>IET Sys Biol</source><year>2008</year><volume>2</volume><fpage>423</fpage><pub-id pub-id-type="pmid">19045837</pub-id></element-citation></ref><ref id="R05"><label>5</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>HN</surname><given-names>Kadarmideen</given-names></name><etal/></person-group><source>Mol BioSystems</source><year>2011</year><volume>7</volume><fpage>235</fpage><pub-id pub-id-type="pmid">21072409</pub-id></element-citation></ref><ref id="R06"><label>6</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>R</surname><given-names>Albert</given-names></name><etal/></person-group><source>Nature</source><year>2000</year><volume>406</volume><fpage>378</fpage><pub-id pub-id-type="pmid">10935628</pub-id></element-citation></ref><ref id="R07"><label>7</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>B</surname><given-names>Zhang</given-names></name><name><surname>S</surname><given-names>Horvath</given-names></name></person-group><source>Stat Appl Genet Mol Bio</source><year>2005</year><volume>4</volume><fpage>17</fpage><pub-id pub-id-type="pmid">16646834</pub-id></element-citation></ref><ref id="R08"><label>8</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>A</surname><given-names>Vespignani</given-names></name></person-group><source>Nat Genet</source><year>2003</year><volume>35</volume><fpage>118</fpage><pub-id pub-id-type="pmid">14517536</pub-id></element-citation></ref><ref id="R09"><label>9</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>F</surname><given-names>Luo</given-names></name><etal/></person-group><source>Bioinformatics</source><year>2007</year><volume>23</volume><fpage>207</fpage><pub-id pub-id-type="pmid">17092991</pub-id></element-citation></ref><ref id="R10"><label>10</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>HN</surname><given-names>Kadarmideen</given-names></name><etal/></person-group><source>Mamm Genome</source><year>2006</year><volume>17</volume><fpage>548</fpage><pub-id pub-id-type="pmid">16783637</pub-id></element-citation></ref><ref id="R11"><label>11</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>P</surname><given-names>Langfelder</given-names></name><etal/></person-group><source>Bioinformatics</source><year>2008</year><volume>24</volume><fpage>719</fpage><pub-id pub-id-type="pmid">18024473</pub-id></element-citation></ref><ref id="R12"><label>12</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>LJA</surname><given-names>Kogelman</given-names></name><etal/></person-group><source>BMC Genomics</source><year>2011</year><volume>12</volume><fpage>607</fpage><pub-id pub-id-type="pmid">22171619</pub-id></element-citation></ref><ref id="R13"><label>13</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>A</surname><given-names>Reverter</given-names></name><name><surname>EKF</surname><given-names>Chan</given-names></name></person-group><source>Bioinformatics</source><year>2008</year><volume>24</volume><fpage>2491</fpage><pub-id pub-id-type="pmid">18784117</pub-id></element-citation></ref><ref id="R14"><label>14</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>NS</surname><given-names>Watson-Haigh</given-names></name><etal/></person-group><source>Bioinformatics</source><year>2010</year><volume>26</volume><fpage>411</fpage><pub-id pub-id-type="pmid">20007253</pub-id></element-citation></ref><ref id="R15"><label>15</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>L</surname><given-names>Gautier</given-names></name><etal/></person-group><source>Bioinformatics</source><year>2004</year><volume>20</volume><fpage>307</fpage><pub-id pub-id-type="pmid">14960456</pub-id></element-citation></ref><ref id="R16"><label>16</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>AM</surname><given-names>Yip</given-names></name><name><surname>S</surname><given-names>Horvath</given-names></name></person-group><source>BMC Bioinformatics</source><year>2007</year><volume>8</volume><fpage>22</fpage><pub-id pub-id-type="pmid">17250769</pub-id></element-citation></ref><ref id="R17"><label>17</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>E</surname><given-names>Ravasz</given-names></name><etal/></person-group><source>Science</source><year>2002</year><volume>297</volume><fpage>1551</fpage><pub-id pub-id-type="pmid">12202830</pub-id></element-citation></ref><ref id="R18"><label>18</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>E</surname><given-names>Prifti</given-names></name><etal/></person-group><source>Bioinformatics</source><year>2008</year><volume>24</volume><fpage>2636</fpage><pub-id pub-id-type="pmid">18799481</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="F1" position="float"><label>Figure 1</label><caption><p>Plots relevant to the All, Control, Treatment, D60 and D67 networks (columns). Top row: TOM plots for the WGCNA
+networks. Heat maps shows the level of topological overlap as measured by TOM, where dark red/orange represents a higher
+level of overlap between pairs of nodes in the network. Modules can be defined using the dark red/orange squares along the
+diagonal. Red bars above and to the left of each heat map indicate the location of the highly differentially ranked (HDR) nodes. All
+HDR nodes identified from all the networks are show in the ALL network TOM plot. Middle row: Frequency distributions of all
+Pearson correlations (grey) used to generate the networks and those edges remaining following PCIT (red). Bottom row: Plots of
+ranked connectivity's calculated from the PCIT and WGCNA derived networks. Data points are semi-transparent, thus dense
+regions of points appear as dark areas. Green dashed line is the line of equality. HDR nodes are shown in red, with all 1,017
+indicated in the connectivity rank plot for the ALL network.</p></caption><graphic xlink:href="97320630008855F1"/></fig></floats-group></article>

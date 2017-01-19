@@ -1,0 +1,691 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Proteome Res</journal-id><journal-id journal-id-type="iso-abbrev">J. Proteome Res</journal-id><journal-id journal-id-type="publisher-id">pr</journal-id><journal-id journal-id-type="coden">jprobs</journal-id><journal-title-group><journal-title>Journal of Proteome Research</journal-title></journal-title-group><issn pub-type="ppub">1535-3893</issn><issn pub-type="epub">1535-3907</issn><publisher><publisher-name>American ChemicalSociety</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4782177</article-id><article-id pub-id-type="doi">10.1021/acs.jproteome.5b00925</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>New Method for
+Joint Network Analysis Reveals Common
+and Different Coexpression Patterns among Genes and Proteins in Breast
+Cancer</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Petralia</surname><given-names>Francesca</given-names></name></contrib><contrib contrib-type="author" id="ath2"><name><surname>Song</surname><given-names>Won-Min</given-names></name></contrib><contrib contrib-type="author" corresp="yes" id="ath3"><name><surname>Tu</surname><given-names>Zhidong</given-names></name><xref rid="cor1" ref-type="other">*</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath4"><name><surname>Wang</surname><given-names>Pei</given-names></name><xref rid="cor2" ref-type="other">*</xref></contrib><aff id="aff1">Icahn Institute for Genomics
+and Multiscale Biology, <institution>Icahn School of
+Medicine at Mount Sinai</institution>, 770 Lexington Avenue, 14th Floor, NewYork, New York 10065, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label><bold>*</bold></label>Z.T.: Tel: <phone>+1 (212) 659-8508</phone>. E-mail: <email>zhidong.tu@mssm.edu</email>.</corresp><corresp id="cor2"><label>*</label>P.W.: Tel: <phone>+1
+(212) 731-7052</phone>. E-mail: <email>pei.wang@mssm.edu</email>.</corresp></author-notes><pub-date pub-type="epub"><day>06</day><month>01</month><year>2016</year></pub-date><pub-date pub-type="ppub"><day>04</day><month>03</month><year>2016</year></pub-date><volume>15</volume><issue>3</issue><issue-title>Large-Scale
+Computational Mass Spectrometry and Multi-Omics</issue-title><fpage>743</fpage><lpage>754</lpage><history><date date-type="received"><day>02</day><month>10</month><year>2015</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2016 American Chemical Society</copyright-statement><copyright-year>2016</copyright-year><copyright-holder>American Chemical Society</copyright-holder><license license-type="editor-choice"><license-p>This is an open access article published under an ACS AuthorChoice <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/page/policy/authorchoice_termsofuse.html">License</ext-link>, which permits copying and redistribution of the article or any adaptations for non-commercial purposes.</license-p></license></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0009" id="ab-tgr1"/></p><p>We focus on characterizing
+common and different coexpression patterns
+among RNAs and proteins in breast cancer tumors. To address this problem,
+we introduce Joint Random Forest (JRF), a novel nonparametric algorithm
+to simultaneously estimate multiple coexpression networks by effectively
+borrowing information across protein and gene expression data. The
+performance of JRF was evaluated through extensive simulation studies
+using different network topologies and data distribution functions.
+Advantages of JRF over other algorithms that estimate class-specific
+networks separately were observed across all simulation settings.
+JRF also outperformed a competing method based on Gaussian graphic
+models. We then applied JRF to simultaneously construct gene and protein
+coexpression networks based on protein and RNAseq data from CPTAC-TCGA
+breast cancer study. We identified interesting common and differential
+coexpression patterns among genes and proteins. This information can
+help to cast light on the potential disease mechanisms of breast cancer.</p></abstract><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>pr5b00925</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>pr-2015-009253</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>In a recent breast
+cancer study conducted by the <italic>Clinical
+Proteomic Tumor Analysis Consortium (CPTAC)</italic>,<sup><xref ref-type="bibr" rid="ref1">1</xref>,<xref ref-type="bibr" rid="ref2">2</xref></sup> extensive global- and phospho- protein profiling were obtained for
+a subset of breast cancer samples that have been extensively characterized
+in the <italic>The Cancer Genome Atlas (TCGA)</italic>.<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> This is so far the first attempt to study protein
+activities in breast cancer samples using sophisticated protein experiments
+on a large scale. Then, by leveraging genomic analytical outputs from
+TCGA on these samples,<sup><xref ref-type="bibr" rid="ref3">3</xref></sup> we have the unique
+opportunity to characterize and compare gene coexpression networks
+and protein coexpression networks based on the same set of samples.
+This is of great interest because knowledge about the common and different
+coexpression patterns among RNAs and proteins could improve our understanding
+of complicated gene regulatory mechanisms in tumor samples and could
+also facilitate the detection of important disease genes and therapeutical
+targets.</p><p>In the past decade, numerous statistical and machine
+learning methods
+have been proposed to construct gene&#x02013;gene regulatory networks
+and protein&#x02013;protein regulatory networks, including coexpression
+network methods,<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> Bayesian network methods,<sup><xref ref-type="bibr" rid="ref5">5</xref>,<xref ref-type="bibr" rid="ref6">6</xref></sup> and Gaussian graphical models.<sup><xref ref-type="bibr" rid="ref7">7</xref>&#x02212;<xref ref-type="bibr" rid="ref10">10</xref></sup> Review of these and other methods are available in
+Hecker et al.<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> and Lee et al.;<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> however, all of these proposed models are designed
+to construct one network at a time. Presumably, we can use RNA expression
+data and protein expression data to construct two networks separately
+and then compare, but such an approach is certainly less optimal,
+as gene expressions and protein expressions in one tumor sample are
+closely related. On one hand, protein levels are regulated by their
+RNA levels, so we expect the two coexpression networks share common
+structures. On the other hand, protein activities are subject to a
+large amount of post-transcriptional modifications, and thus we also
+expect to observe unique interaction patterns in each network. This
+motivates us to perform joint learning of both RNA-seq and proteomic
+networks, so we are able to borrow information across different data
+sets and better capture the common correlation structure, which shall
+then improve the overall accuracy of network estimation.</p><p>Various
+methods have been proposed to jointly estimate different
+networks.<sup><xref ref-type="bibr" rid="ref13">13</xref>&#x02212;<xref ref-type="bibr" rid="ref17">17</xref></sup> Some of them<sup><xref ref-type="bibr" rid="ref13">13</xref>,<xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> have been specifically designed to estimate time-varying graphical
+models in the context of time-series data. Guo et al.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> and Danaher et al.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> proposed
+likelihood-based methods for the joint estimation of multiple related
+Gaussian graphical models. Their approaches rely on two different
+regularization schemes penalizing differences across partial correlation
+structures of different classes. While both papers successfully demonstrate
+the advantage of jointly modeling multiple networks over estimating
+individual networks separately, the performance of the methods heavily
+depends on the Multivariate Gaussian assumptions of gene expression
+distributions, which may not hold in real biological systems.</p><p>Recently, random-forest-based methods have been utilized for the
+construction of GRN.<sup><xref ref-type="bibr" rid="ref18">18</xref>&#x02212;<xref ref-type="bibr" rid="ref20">20</xref></sup> Random forest<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> is a decision-tree-based
+nonparametric method for building powerful prediction models. It has
+been extensively utilized for classification and regression problems.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> Its ensemble structure combined with its nonparametric
+nature delivers excellent performance even when the sample size is
+moderate. Recently, Huynh-Thu et al.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> proposed
+GENIE3, a random-forest-based method for estimating networks. The
+key idea is to model the expression of each target gene as a function
+of the expression of all other genes via random forest. The superior
+performance of GENIE3 was demonstrated in both DREAM 4 in-silico multifactorial
+challenge<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> and DREAM 5 network inference
+challenge.<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> In both challenges, GENIE3
+and its extensions scored the best. In Maduranga et al.,<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> GENIE3 was further modified to estimate GRN
+based on time-series data. Recently, Petralia et al.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> proposed iRafNet, another random-forest-based method that
+combines different types of heterogeneous data, such as protein&#x02013;protein
+interactions, transcription factor-DNA binding, and gene knock-down
+to estimate GRN. While these random-forest-based methods greatly advance
+the field of GRN construction, none of them is designed to estimate
+simultaneously multiple related networks.</p><p>We propose JRF (Joint
+Random Forest), a new algorithm for the simultaneous
+estimation of protein coexpression and gene coexpression networks.
+The key idea is to borrow information across different data by forcing
+the class-specific tree ensembles to use the same genes for the splitting
+rules. In this way, regulatory relationships playing important roles
+in multiple classes will be detected with better power. After testing
+the performance of our algorithm on several in silico experiments
+and comparing JRF with different methods including GENIE3<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> the Joint Graphical Lasso (JGL),<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> we applied JRF for the simultaneous construction
+of gene coexpression networks and protein coexpression networks. For
+our analysis, we considered gene expression from TCGA and protein
+expression from CPTAC data for 62 breast cancer patients. We derived
+the two networks and identified protein-specific hub genes and gene
+modules, showing the unique contribution of proteomic data to breast
+cancer research.</p></sec><sec id="sec2"><title>Materials and Methods</title><sec id="sec2.1"><title>Random Forest for Network
+Construction</title><p>Random forest
+is a nonparametric algorithm that models a response variable via a
+collection of decision trees. Specifically, each decision tree is
+constructed based on a random subset of training samples, and the
+splitting variable at each node of a decision tree is chosen from
+a randomly sampled subset of predictors upon maximizing a certain
+utility function (e.g., decrease in node impurity).</p><p>Recently,
+Huynh-Thu et al.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> introduced GENIE3, a
+random-forest-based model for inferring gene regulatory networks (GRNs).
+In GENIE3, first, for each target gene <italic>k</italic>, its expression
+is modeled as a function of the expression of all other genes via
+random forest. Then, regulatory event (<italic>j</italic> &#x02192; <italic>k</italic>) is measured by <italic>I</italic><sub><italic>j</italic>&#x02192;<italic>k</italic></sub>, the importance score of gene <italic>j</italic> in the random forest model of gene <italic>k</italic>.
+Specifically, the importance score <italic>I</italic><sub><italic>j</italic>&#x02192;<italic>k</italic></sub> is defined as the summation
+of node impurities across all nodes that utilize predictor <italic>j</italic> for the splitting rule divided by the total number of
+trees in the random forest model of gene <italic>k</italic>.</p></sec><sec id="sec2.2"><title>Joint
+Random Forest</title><p>We start with some notations. Denote <italic>G</italic> as the total number of different classes. For each class <italic>g</italic> &#x02208; {1, ..., <italic>G</italic>}, denote the gene
+expression data for <italic>p</italic> genes and <italic>n</italic><sub><italic>g</italic></sub> individuals as <bold>X</bold><sub><italic>n</italic><sub><italic>g</italic></sub>&#x000d7;<italic>p</italic></sub><sup arrange="stack"><italic>g</italic></sup>, and
+the <italic>i</italic>th observation of gene <italic>j</italic> under
+class <italic>g</italic> as <italic>x</italic><sub><italic>ij</italic></sub><sup arrange="stack"><italic>g</italic></sup>. An overview of JRF is shown in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>, where, for simplicity, we consider only
+two classes. The key step of JRF is to construct <italic>G</italic> random forest models simultaneously using data from <italic>G</italic> classes when predicting the expression of a target gene <italic>k</italic> based on the expression of all other genes. We propose
+to use the same predictor variables for splitting rules in different
+trees corresponding to different classes. The goal is to borrow information
+across different classes, so that regulatory relationships can be
+better detected if there are coherent signals across different classes.
+Specifically, when we grow <italic>G</italic> decision trees in parallel
+for <italic>G</italic> classes, at one node &#x003c4;, we decide the
+splitting variable based on the following procedure:</p><p>(1) Randomly
+sample a set <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m001.gif"/></inline-formula> containing <italic>N</italic> genes from
+the entire set of genes except gene <italic>k</italic>.</p><p>(2)
+For each class, the best splitting rule based on each candidate
+predictor in set <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m002.gif"/></inline-formula> is derived. Let <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m003.gif"/></inline-formula> be the subset of samples allocated to node
+&#x003c4; under class <italic>g</italic>. The splitting rule based on
+the <italic>j</italic>th predictor is of the form<disp-formula id="ueq1"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m004" position="anchor"/></disp-formula>where <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m005.gif"/></inline-formula> and <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m006.gif"/></inline-formula> are the subsets of samples in class <italic>g</italic> allocated to the left and right children of node &#x003c4;
+with a splitting rule based on the <italic>j</italic>th predictor.
+For each predictor in set <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m007.gif"/></inline-formula>, the best threshold <italic>a</italic><sub><italic>gj</italic></sub><sup arrange="stack">*</sup>(&#x003c4;) is derived as follows<disp-formula id="ueq2"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m008" position="anchor"/></disp-formula>where<disp-formula id="ueq3"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m009" position="anchor"/></disp-formula>and <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m010.gif"/></inline-formula> with <overline><italic>x</italic></overline> representing the mean of set <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m011.gif"/></inline-formula>. In other
+words, <italic>C</italic><sub><italic>gj</italic></sub><sup arrange="stack">&#x003c4;</sup> is the decrease in node impurity
+after splitting node &#x003c4; in
+the <italic>g</italic>th tree according to gene <italic>j</italic>.</p><p>(3) Finally, gene <italic>g</italic><sub>&#x003c4;</sub><sup arrange="stack">*</sup> is chosen as the splitting
+variable
+of node &#x003c4; for all classes based on the following criteria:<disp-formula id="ueq4"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m012" position="anchor"/></disp-formula>Because
+JRF utilizes the same splitting variable
+for corresponding nodes across all classes, predictors associated
+with gene <italic>k</italic> in multiple classes are more likely to
+be chosen for the splitting rules. For each step in the tree construction,
+(1&#x02013;3) only apply to classes for which &#x003c4; is not a final
+node. As in the original random forest model,<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> each tree grows until either the total number of observations allocated
+to the final leaves falls below a certain prespecified threshold or
+the maximum number of possible nodes is reached. It is worth mentioning
+that when the number of classes is one, JRF reduces to GENIE3, the
+original random forest model for network inference. It is worth noting
+that to implement JRF, data sets need to be standardized to mean zero
+and unit variance. Importance scores depend on the scale of the data
+and therefore variables (genes) need to be standardized before the
+random forest models are fitted.<fig id="fig1" position="float"><label>Figure 1</label><caption><p>JRF schematic. For simplicity, let us assume
+that there are only
+two classes and that each data contains the same number of samples.
+For each target gene, <italic>g</italic><sub><italic>k</italic></sub>, we run random forest for each class and the two tree ensembles
+are forced to share some structure as follows. First, for each node
+&#x003c4;, the same set of genes <italic>S</italic><sub>&#x003c4;</sub> is randomly sampled from the entire set of genes (a). Then, the
+same variable in set <italic>S</italic><sub>&#x003c4;</sub> is chosen
+for the splitting rule. This is achieved by deriving the splitting
+rule for any gene contained in set <italic>S</italic><sub>&#x003c4;</sub> (b) and choosing the best variable to maximize the sum of decrease
+in node impurity over different classes (c).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0001" id="gr1" position="float"/></fig></p></sec><sec id="sec2.3"><title>Assessing JRF Performance</title><p>On the basis of the previously
+described procedure, JRF constructs <italic>G</italic> random forest
+models simultaneously for each target gene <italic>k</italic> and
+returns a ranking of gene&#x02013;gene interactions based on importance
+scores. To assess the performance of JRF in predicting the true interactions,
+receiver operating characteristic curves (ROC) and precision-recall
+curves can be computed by setting different thresholds on importance
+scores. In this paper, JRF is compared with JGL,<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> GENIE3-Sep, and GENIE3-Comb on several in silico experiments.
+GENIE3-Sep is GENIE3 used to estimate networks based on data from <italic>G</italic> classes separately, while GENIE3-Comb is GENIE3 used to
+estimate a unique network based on the union of data from all classes.
+All random-forest-based algorithms (JRF, GENIE3-Comb, and GENIE3-Sep)
+provide a ranking of regulatory relationships based on importance
+scores, and ROC curves were computed by setting different thresholds
+on these scores. Instead, for JGL, ROC curves were constructed by
+considering different values for the two parameters controlling the
+level of sparsity (as shown by Figure S1 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>) .</p><p>Another approach to evaluate
+the performance of JRF is choosing a proper cutoff value for importance
+scores using permutation techniques. Let <italic>I</italic><sub><italic>j</italic>&#x02192;<italic>k</italic></sub><sup arrange="stack"><italic>g</italic></sup> be the importance score
+associated with the regulatory event (<italic>j</italic> &#x02192; <italic>k</italic>) in the <italic>g</italic>th class-specific tree ensemble.
+Specifically, this importance score is defined as <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m013.gif"/></inline-formula> where <italic>T</italic> is the number
+of trees and <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m014.gif"/></inline-formula> is the set of nodes which utilize gene <italic>j</italic> for the splitting rule in the tree ensemble used to predict
+gene <italic>k</italic> based on the <italic>g</italic>th class-specific
+data. Because in this paper we are interested in estimating undirected
+networks, we derive importance score <italic>I</italic><sub><italic>j</italic>&#x02013;<italic>k</italic></sub><sup arrange="stack"><italic>g</italic></sup> for every edge (<italic>j</italic>&#x02013;<italic>k</italic>) as the average between importance
+scores <italic>I</italic><sub><italic>k</italic>&#x02192;<italic>j</italic></sub><sup arrange="stack"><italic>g</italic></sup> and <italic>I</italic><sub><italic>j</italic>&#x02192;<italic>k</italic></sub><sup arrange="stack"><italic>g</italic></sup>, and
+the final undirected networks can therefore be derived by applying
+a cutoff on the edge importance scores. To derive a proper cutoff
+value for importance scores, we utilize the following permutation-based
+procedure:</p><p>(a) For <italic>b</italic> &#x02208; {1, &#x000b7;&#x000b7;&#x000b7;, <italic>B</italic>}, with <italic>B</italic> being the number of permutations:</p><p>(a.1) For any target gene <italic>k</italic>, we first permute
+its sample order within each class and fit <italic>G</italic> random
+forest models via JRF to predict the expression of gene <italic>k</italic> based on the expression of all other genes in <italic>G</italic> classes, respectively.</p><p>(a.2) Repeat (a.1) for all genes and
+compute the final importance
+scores for each edge in each class, which are denoted as {<bold>I</bold><sub><italic>p</italic>&#x000d7;<italic>p</italic></sub><sup arrange="stack"><italic>g</italic>(<italic>b</italic>)</sup>}<sub><italic>g</italic>=1</sub><sup arrange="stack"><italic>G</italic></sup>.</p><p>(b) For each threshold &#x003b9;, we
+compute<disp-formula id="ueq5"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m015" position="anchor"/></disp-formula>where <bold>1</bold>(&#x02022;) is
+the indicator
+function, equal to one if event &#x02022; occurs and zero otherwise.</p><p><italic>f</italic>(&#x003b9;) can serve as an approximation of the
+false discovery rate (FDR).<sup><xref ref-type="bibr" rid="ref25">25</xref></sup> In the following
+numerical studies, we use &#x003b9;<sub>0</sub> = min{&#x003b9;: <italic>f</italic>(&#x003b9;) &#x02264; 0.001} and declare an edge between <italic>j</italic> and <italic>k</italic> in class <italic>g</italic> if <italic>I</italic><sub><italic>j</italic>&#x02013;<italic>k</italic></sub><sup arrange="stack"><italic>g</italic></sup> &#x0003e;
+&#x003b9;<sub>0</sub>.</p></sec><sec id="sec2.4"><title>Computational Complexity</title><p>The computational
+complexity
+of JRF is <italic>O</italic>(<italic>pTN</italic>&#x02211;<sub><italic>g</italic>=1</sub><sup arrange="stack"><italic>G</italic></sup>log(<italic>n</italic><sub><italic>g</italic></sub>)<italic>n</italic><sub><italic>g</italic></sub>), where <italic>p</italic> is the number of genes, <italic>T</italic> is the number
+of trees in each forest, <italic>N</italic> is the number of variables
+sampled at each node, <italic>G</italic> is the number of classes,
+and <italic>n</italic><sub><italic>g</italic></sub> is the number
+of samples in each class. This complexity is in the same order as
+the complexity of applying GENIE3 to estimate <italic>G</italic> networks
+for <italic>G</italic> classes separately. In the contrast, the time
+complexity of GGM-based approaches, such as JGL, often has the order
+of <italic>p</italic><sup>3</sup>.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> So
+when <italic>p</italic> is large, JRF and GENIE3 enjoy better computational
+efficiency, which is supported by our numerical investigations (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>).</p><p>In practice, the
+number of trees (<italic>T</italic>) and the number of potential regulators
+to be sampled at each node (<italic>N</italic>) are user-specified
+parameters. <italic>T</italic> is usually chosen sufficiently large
+because the tree ensemble provides more accurate results as <italic>T</italic> increases. In our numerical studies, we reported results
+for <italic>T</italic> = 1000. We also evaluated larger <italic>T</italic> values, such as 2000 and 5000, but observed similar results (data
+not shown). For <italic>N</italic>, a common choice is <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m016.gif"/></inline-formula> where (<italic>p</italic> &#x02013; 1) is
+the number of predictors for each target gene. In general, large value
+of <italic>N</italic> results in predictions with high bias; while
+low value results in predictions with high variance.</p><p>We implemented
+an R package JRF using C routines wrapped with an
+R interface. The R package is publicly available through CRAN. Codes
+and a tutorial for JRFs implementation can also be downloaded from <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://research.mssm.edu/tulab/software/JRF.html">http://research.mssm.edu/tulab/software/JRF.html</uri>. Similarly
+to other tree-based algorithms for network construction, JRF can be
+easily parallelized because the estimation process consists of <italic>p</italic>-independent subproblems. A comparison between JRF, JGL,
+GENIE3-Sep, and GENIE3-Comb in terms of computational time is presented
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Table S1</ext-link>.</p></sec><sec id="sec2.5"><title>Data</title><sec id="sec2.5.1"><title>Synthetic Data</title><p>For data generation, we first considered
+two networks containing 500 nodes connected by 498 and 249 edges,
+respectively. In particular, Network 1 is a network with two disjoint
+components and Network 2 consists of only the first component of Network
+1. In this example, we focused on two network topologies: power law<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref26">26</xref></sup> and star topology (Figure S2 in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>). For each network topology, we simulated 20 replicates involving <italic>n</italic> = 50 samples from a Gaussian graphical model. Network
+structures and covariance matrices were simulated in the same way
+as Danaher et al. (2014)<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> (further details
+can be found in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>). Besides this example, we also consider a series of other different
+simulation settings, including (1) two non-nested networks; (2) five
+non-nested networks; (3) two nonrelated networks; and (4) data from
+non-Gaussian distributions. Please see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link> sections 1.3&#x02013;1.7 for more details. For each
+data set, variables were standardized to mean zero and unit variance.</p></sec><sec id="sec2.5.2"><title>Breast Cancer Data</title><p>The expressions of 5864 proteins
+for 62 breast cancer tumors<sup><xref ref-type="bibr" rid="ref27">27</xref></sup> (proteome-ratio-norm-noNA-normal.gct(04-Jun-2014
+version)) were downloaded from the CPTAC Data Coordinating Center
+(<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://proteomics.cancer.gov/programs/cptacnetwork">http://proteomics.cancer.gov/programs/cptacnetwork</uri>) sponsored
+by the National Cancer Institute. For three samples having technical
+duplicates, we took the average abundance of each protein across the
+duplicates. We further standardized protein expression so that each
+sample had median 0 and median absolute deviation (MAD) 1. Finally,
+we excluded proteins with interquartile range &#x0003c;70% quantile. The
+resulting data matrix consisted of 1759 proteins. Level-three RNAseq
+data of breast tumor samples were obtained from the TCGA Web site
+(<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://tcga-data.nci.nih.gov/tcga/">http://tcga-data.nci.nih.gov/tcga/</uri>). First, we log-transformed
+the data and then replaced all missing values with 0. Then, we standardized
+each sample to have median 0 and MAD 1. We focused on the 62 samples
+contained in the proteomic data and excluded genes with more than
+10% missing values. Then, we selected the top 10% genes with largest
+interquartile range across samples. The resulting data matrix based
+on RNAseq data contained 1464 genes. As final subset, we considered
+528 genes obtained by overlapping the set of 1464 selected genes and
+the set of 1759 selected proteins. For each data set, genes and proteins
+were standardized to mean zero and unit variance.</p></sec></sec></sec><sec id="sec3"><title>Results
+and Discussion</title><sec id="sec3.1"><title>Synthetic Data</title><p>In this section,
+JRF was compared with
+JGL,<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> GENIE3-Sep, and GENIE3-Comb on several
+in-silico experiments. In all implementations, we used <italic>T</italic> = 1000 and <inline-formula><inline-graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_m017.gif"/></inline-formula>. We evaluated
+the performances of different
+algorithms based on different network structures, sample sizes, and
+number of genes.</p><sec id="sec3.1.1"><title>Network Structure</title><p><xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> shows the average ROC curves
+of each method
+over 20 replicates for Network 1 and Network 2 separately. JRF outperforms
+all other methods under all different settings, while GENIE3-Sep is
+the second best performer. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Figure S3</ext-link> shows
+the boxplot of the area under the precision-recall curve (AUPR) for
+JRF, GENIE3-Sep, and GENIE3-Comb. As shown, JRF outperforms competitors
+also in terms of AUPR. The advantage of JRF over GENIE3-Sep is more
+evident for Network 2, which contains only shared edges. This is expected
+because JRF should be able to detect common edges with better power.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Mean of
+ROC curves for Network 1 (first column) and Network 2 (second
+column) over 20 replicates for JRF (red), GENIE3-Comb (green), GENIE3-Sep
+(blue), and JGL (black). For each replicate, we sampled 50 samples
+from a Gaussian graphical model based on the power law topology (first
+row) and star topology (second row).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0002" id="gr2" position="float"/></fig><p>To further assess the performance of the proposed model,
+we included
+more simulation scenarios in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>. In particular, in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link> section 1.3, we considered the case of non-nested networks sharing
+some structure, while, in section 1.4, we considered the case where
+five different networks were estimated simultaneously. As shown by <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Figures S4 and S5</ext-link>, JRF outperformed competitors
+under all of these simulation scenarios. In addition, it would be
+interesting to evaluate the performance of JRF when class-specific
+networks do not share any structure. For this purpose, we simulated
+two different networks with no common edge and applied different methods
+on the corresponding data (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link> section 1.5). As shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Figure S6</ext-link>,
+performance of JRF is very comparable to that of GENIE3-Sep on this
+simulation example. This suggests that JRF is sufficiently robust
+and works in the absence of common structure. Moreover, to assess
+the performance of JRF in the presence of nonlinearities in the data,
+we further generated data examples using GeneNetWeaver,<sup><xref ref-type="bibr" rid="ref28">28</xref></sup> an open-source software for the generation of
+in-silico data from a set of ordinary and stochastic differential
+equations (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link> section
+1.6). As shown in the supplemental <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Figure S7 and S8</ext-link>, JRF again outperformed other algorithms in terms of both
+area under the ROC curve (AUC) and area under precision-recall curve
+(AUPR). Finally, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Figure S9</ext-link> shows results
+for different algorithms in estimating networks with 1000 nodes (further
+details can be found in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link> section 1.7), in which we can see that JRF outperformed competitors
+in terms of both AUC and AUPR. It is worth mentioning that the increased
+dimensionality did not negatively affect results, suggesting that
+JRF can handle problem with high dimensionality.</p></sec><sec id="sec3.1.2"><title>Effect of
+Sample Size</title><p>In this section, we assess the
+performance of JRF and other algorithms on data sets involving different
+number of samples. <xref rid="fig3" ref-type="fig">Figure <xref rid="fig3" ref-type="fig">3</xref></xref> shows boxplots of AUC over 20 replicates resulting from JRF,
+GENIE3-Sep, and GENIE3-Comb for different sample sizes, that is, <italic>n</italic> = 50, 100, 200. The AUCs of JRF are significantly larger
+than that of GENIE3-Sep based on 20 replicates under all sample sizes.
+As shown in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supplemental Figure S10</ext-link>, JRF outperforms competitors also in terms of AUPR for different
+samples sizes. As shown, the smaller the sample size the bigger the
+improvement of JRF over GENIE3-Sep is. This result is expected because
+as the sample size increases GENIE3-Sep should have sufficient information
+to estimate the networks separately.</p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>Boxplot of AUC over 20 replicates for
+JRF (red), GENIE3-Comb (green),
+and GENIE3-Sep (blue) for different sample sizes, that is, <italic>n</italic> = 50, 100, and 200. Data: samples simulated from a Gaussian
+graphical model on a power law topology.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0003" id="gr3" position="float"/></fig></sec><sec id="sec3.1.3"><title>Edge Specificity</title><p>In this section, we compare JRF and
+GENIE3-Sep regarding their abilities to estimate class-specific edges.
+We considered the 20 replicate data sets (<italic>n</italic> = 100),
+which was simulated based on the power law network topology in the
+previous section. For both JRF and GENIE3-Sep, edges were declared
+using the permutation procedure illustrated above with <italic>B</italic> = 500 and an FDR threshold of 0.001. <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>a shows the performance of JRF and GENIE3-Sep
+in estimating Network 1 and Network 2. For each network, we reported
+the minimum and the maximum value of true positive rate (<italic>TPR</italic>), false-positive rate (<italic>FPR</italic>), and false discovery
+rate (<italic>FDR</italic>) across 20 replicates. In particular, these
+quantities are defined as <italic>TPR</italic> = <italic>TP</italic>/(<italic>TP</italic> + <italic>FN</italic>), <italic>FPR</italic> = <italic>FP</italic>/(<italic>FP</italic> + <italic>TN</italic>), and <italic>FDR</italic> = <italic>FP</italic>/(<italic>FP</italic> + <italic>TP</italic>), where <italic>TP</italic> is the number
+of true positives, <italic>FP</italic> is the number of false positives, <italic>TN</italic> is the number of true negatives, and <italic>FN</italic> is the number of false negatives. For both networks, JRF achieved
+better power (<italic>TPR</italic>) than GENIE3-Sep, while the resulting <italic>FPR</italic>s were quite comparable. <xref rid="tbl1" ref-type="other">Table <xref rid="tbl1" ref-type="other">1</xref></xref>b shows a comparison of the two algorithms
+regarding the detection of class-specific (differential) edges. Again,
+we computed the rate of true differential edges and false differential
+edges and showed the minimum and the maximum value of these quantities
+over 20 replicates. While the <italic>TPR</italic>s for detecting
+differential edges were similar for the two methods, the <italic>FPR</italic>s of GENIE3-Sep were significantly larger than that of JRF. In addition,
+JRF leads to substantially lower <italic>FDR</italic>s for detecting
+differential edges than GENIE3-Sep. This again suggests the merit
+of joint learning in JRF.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>(a) <italic>TPR</italic>, <italic>FPR</italic>, and <italic>FDR</italic> of Network 1 and
+Network 2
+and (b) <italic>TPR</italic>, <italic>FPR</italic> and <italic>FDR</italic> of Differential Edges (Diff.Net)<xref rid="tbl1-fn1" ref-type="table-fn">a</xref></title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">&#x000a0;</th><th colspan="2" align="center" char="."><italic>TPR</italic><hr/></th><th colspan="2" align="center" char="."><italic>FPR</italic><hr/></th><th colspan="2" align="center" char="."><italic>FDR</italic><hr/></th></tr><tr><th style="border:none;" align="center">&#x000a0;</th><th style="border:none;" align="center">model</th><th style="border:none;" align="center">network</th><th style="border:none;" align="center" char=".">min</th><th style="border:none;" align="center" char=".">max</th><th style="border:none;" align="center" char=".">min</th><th style="border:none;" align="center" char=".">max</th><th style="border:none;" align="center" char=".">min</th><th style="border:none;" align="center" char=".">max</th></tr></thead><tbody><tr><td style="border:none;" align="left">(a)</td><td style="border:none;" align="left">JRF</td><td style="border:none;" align="left">Net 1</td><td style="border:none;" align="char" char=".">0.64</td><td style="border:none;" align="char" char=".">0.69</td><td style="border:none;" align="char" char=".">4e-4</td><td style="border:none;" align="char" char=".">7e-4</td><td style="border:none;" align="char" char=".">0.13</td><td style="border:none;" align="char" char=".">0.20</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">Net 2</td><td style="border:none;" align="char" char=".">0.68</td><td style="border:none;" align="char" char=".">0.78</td><td style="border:none;" align="char" char=".">2e-4</td><td style="border:none;" align="char" char=".">6e-4</td><td style="border:none;" align="char" char=".">0.15</td><td style="border:none;" align="char" char=".">0.26</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">GENIE3-Sep</td><td style="border:none;" align="left">Net 1</td><td style="border:none;" align="char" char=".">0.62</td><td style="border:none;" align="char" char=".">0.66</td><td style="border:none;" align="char" char=".">4e-4</td><td style="border:none;" align="char" char=".">6e-4</td><td style="border:none;" align="char" char=".">0.12</td><td style="border:none;" align="char" char=".">0.20</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">Net 2</td><td style="border:none;" align="char" char=".">0.57</td><td style="border:none;" align="char" char=".">0.67</td><td style="border:none;" align="char" char=".">2e-4</td><td style="border:none;" align="char" char=".">6e-4</td><td style="border:none;" align="char" char=".">0.11</td><td style="border:none;" align="char" char=".">0.27</td></tr><tr><td style="border:none;" align="left">(b)</td><td style="border:none;" align="left">JRF</td><td style="border:none;" align="left">Diff.Net</td><td style="border:none;" align="char" char=".">0.56</td><td style="border:none;" align="char" char=".">0.65</td><td style="border:none;" align="char" char=".">1e-4</td><td style="border:none;" align="char" char=".">2e-4</td><td style="border:none;" align="char" char=".">0.09</td><td style="border:none;" align="char" char=".">0.18</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left">GENIE3-Sep</td><td style="border:none;" align="left">Diff.Net</td><td style="border:none;" align="char" char=".">0.59</td><td style="border:none;" align="char" char=".">0.67</td><td style="border:none;" align="char" char=".">3e-4</td><td style="border:none;" align="char" char=".">4e-4</td><td style="border:none;" align="char" char=".">0.19</td><td style="border:none;" align="char" char=".">0.29</td></tr></tbody></table><table-wrap-foot><fn id="tbl1-fn1"><label>a</label><p>For each quantity
+(<italic>TPR</italic>, <italic>FPR</italic>, and <italic>FDR</italic>) we show the minimum
+value (Min) and the maximum value (Max) across 20 replicates. Note
+that the true discovery rate (<italic>TDR</italic>) is defined as <italic>TDR</italic> = (1 &#x02013; <italic>FDR</italic>).</p></fn></table-wrap-foot></table-wrap></sec></sec><sec id="sec3.2"><title>Coexpression RNA and Protein
+Networks in Breast Cancer</title><p>We applied JRF to construct coexpression
+networks based on the CPTAC
+global proteomics data set and TCGA RNAseq data of 62 breast cancer
+samples.</p><sec id="sec3.2.1"><title>Networks via JRF</title><p>For simplicity, we will refer to the
+coexpression networks constructed by JRF from global proteomics data
+and RNAseq data as protein-network and RNA-network. At FDR cutoff
+of 0.001, we detected 687 common edges shared by both networks, 502
+edges unique to protein-network, and 382 edges unique to RNA-network.
+The topologies of the two networks are shown in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref>, while the full list of interactions can
+be found in Additional File 1 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>. Interestingly, a few network modules in protein-network
+have a high percentage of edges unique to protein-network. No such
+structures is observed in RNA-network. <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref> highlights genes whose degrees (i.e., total
+number of edges connecting to one gene) in protein-network are much
+higher than that in RNA-network. Three out of the top five genes with
+more protein-unique edges, C3, CFB, and MPO, are related to immune
+response functions. It is well known that immune response plays a
+major role in the patient response to chemotherapy treatments.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> Some of these genes have been shown to be predictive
+of survival outcomes of breast cancer patients. For example, C3 and
+CP are predictive of chemoresistance in breast cancer patients,<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> and high activity of MPO genotypes can enhance
+efficacy of chemotherapy for early-stage breast cancer.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup> Other remarkable proteins are MMP8 and MMP9.
+Genes belonging to the MMP family have been linked to cancer progression
+for their ability to degrade the extracellular matrix and may be implicated
+in the formation of metastasis.<sup><xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup></p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Network based on proteomic
+data (a) and RNAseq data (b) resulting
+from JRF. Green edges (687) are shared between proteomic and RNAseq
+data, red edges (502) are unique to proteomic data, while blue edges
+are unique to RNAseq data (382). Only names of genes with at least
+ten connecting edges are shown in the plot. For both networks, the
+full list of interactions can be found in additional file 1.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0004" id="gr4" position="float"/></fig><fig id="fig5" position="float"><label>Figure 5</label><caption><p>Number of connecting edges for top connected
+genes in the network
+based on proteomic data. For each gene, the green bar corresponds
+to the number of connecting edges shared between proteomic and RNAseq
+data; the red bar indicates the number of Protein-specific edges;
+while the blue bar indicates the number of RNA-specific edges. For
+each gene, we list its biological functions.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0005" id="gr5" position="float"/></fig><p>We then focused on network modules unique to protein-network.
+We
+derived network modules based on edge betweenness using function &#x0201c;edge.betweenness.community&#x0201d;
+available in the R package igraph.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup> In <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>, we show the protein-network
+with gene modules enriched of at least one GO category. The full list
+of genes contained in each module can be found in additional file
+1. <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref> shows,
+for each module, the most enriched GO category and the corresponding
+Benjamini adjusted <italic>p</italic>-value.<sup><xref ref-type="bibr" rid="ref35">35</xref>,<xref ref-type="bibr" rid="ref36">36</xref></sup> Two interesting protein-specific modules (with more protein-specific
+edges than shared edges) are C1 and C2. C1 is enriched of &#x0201c;fibroblast
+growth factor receptor activity&#x0201d;, as shown in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, genes are more tightly correlated
+in the proteomic data compared with the RNAseq data. Various studies
+have investigated the role of the FGFR pathway as a predictive marker
+for breast cancer.<sup><xref ref-type="bibr" rid="ref37">37</xref>,<xref ref-type="bibr" rid="ref38">38</xref></sup> As shown in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, FGFR2 and FGFR3 show a correlation
+close to one. Recently, Cerliani et al.<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> reported a strong correlation between FGFR2 and FGFR3 based on protein
+expression mentioning that there is no previous evidence of correlation
+between these two proteins for breast cancer patients. In addition,
+the interaction between FGFR2 and FGFR3 is contained in the STRING
+database<sup><xref ref-type="bibr" rid="ref40">40</xref>,<xref ref-type="bibr" rid="ref41">41</xref></sup> (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Table S2</ext-link>). Another interesting protein-specific module is C2. This module
+is enriched of &#x0201c;extracellular region&#x0201d;. Similarly to
+module C1, genes in module C2 are higher correlated in the proteomic
+data compared with the RNAseq data (<xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>). This cluster contains genes such as APOB,
+C3, ORM1, and CP that have been recently shown to be predictive of
+chemoresistance in breast cancer patients.<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> As shown by <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref>, protein expressions of these genes are highly correlated. Another
+important gene in this module with a high number of connecting edges
+is APOA1 (the fifth highest connected node according to <xref rid="fig5" ref-type="fig">Figure <xref rid="fig5" ref-type="fig">5</xref></xref>). This gene has been recently
+identified as a potential target for disease progression using whole-genome
+trancriptomic and whole proteomic.<sup><xref ref-type="bibr" rid="ref42">42</xref></sup> As
+shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Table S2</ext-link>, 11 of the relationships
+in <xref rid="fig7" ref-type="fig">Figure <xref rid="fig7" ref-type="fig">7</xref></xref> are contained
+in the STRING database. These results suggest that proteomic data
+can provide complementary information to genomics data and help to
+reveal important biological mechanisms.</p><fig id="fig6" position="float"><label>Figure 6</label><caption><p>Network based on proteomic
+data resulting from JRF with corresponding
+gene modules. Modules were detected using function &#x0201c;edge.betweenness.community&#x0201d;
+available in the R package igraph. For each module, we show the most
+enriched GO category with corresponding Benjamini adjusted <italic>p</italic>-value (<italic>P</italic>). In particular, only modules
+reporting a significant enriched Benjamini adjusted <italic>p</italic>-value (<italic>P</italic> &#x02264; 0.01) are highlighted.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0006" id="gr6" position="float"/></fig><fig id="fig7" position="float"><label>Figure 7</label><caption><p>Heatmap of the absolute value of correlation
+between genes based
+on proteomic and RNAseq data for module C1 (a) and C2 (b) in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>. For each module,
+we include a pie plot showing the number of protein-specific interactions
+(red) and interactions shared across proteomic and RNAseq data (green).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0007" id="gr7" position="float"/></fig></sec><sec id="sec3.2.2"><title>Comparison with GENIE3-Sep</title><p>Because we are interested
+in assessing the utility of a joint learning, JRF was compared with
+the standard random-forest algorithm that constructs the two networks
+separately. For both methodologies, we derived undirected networks
+using the same FDR cutoff (0.001). The protein-network resulting from
+GENIE3-Sep can be found in Figure S11 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>. As shown, 57% of the edges are shared across protein-
+and RNA-networks under JRF, while only 26% are shared under GENIE3-Sep.
+This finding can be explained by the fact that a joint learning can
+facilitate the detection of common edges.</p><sec id="sec3.2.2.1"><label>a</label><title>Validation
+Using GO Terms</title><p>In this section,
+we validate our findings using GO categories. In particular, we consider
+596 GO terms containing fewer than 200 genes (the list of GO terms
+can be found in Tables S3&#x02013;S6 in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>). <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>a shows the number of edges contained in at least one GO term
+for different FDR cutoff for both protein-networks. <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>b shows the enrichment <italic>p</italic>-value for different FDR cutoff. The enrichment <italic>p</italic>-value was calculated as follows. First, we constructed
+a network based on GO terms where an edge (<italic>a</italic> &#x02013; <italic>b</italic>) was drawn between every pair of genes (<italic>a</italic>, <italic>b</italic>) sharing at least one GO term. Then, a contingency
+table was constructed considering variables &#x0201c;network based
+on GO terms&#x0201d; and &#x0201c;network based on proteomic data&#x0201d;
+with categories &#x0201c;number of edges contained&#x0201d; and &#x0201c;number
+of edges non-contained&#x0201d;, and a Fisher&#x02019;s exact test was
+performed to derive enrichment <italic>p</italic>-values. <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>a,b shows that JRF
+results in a network more overlapping with GO terms than the standard
+random-forest algorithm GENIE3-Sep.</p><fig id="fig8" position="float"><label>Figure 8</label><caption><p>We validate protein-networks in <xref rid="fig4" ref-type="fig">Figure <xref rid="fig4" ref-type="fig">4</xref></xref> using GO terms and
+knockout signatures.
+The first row contains network validation based on GO terms. For our
+analysis, we considered 596 GO terms containing fewer than 200 genes.
+(a) Number of edges contained in at least one GO term for different
+FDR cutoff. (b) <italic>p</italic> value of enrichment for different
+FDR cutoff. The second row contains validation based on Esr1 (c) and
+Gata3 (d) signatures. For a particular neighborhood size of either
+Esr1 or Gata3, we show the total number of knockout signatures contained
+under JRF (&#x025cb;&#x02212;) and GENIE3-Sep (&#x02605;&#x02212;).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2015-009253_0008" id="gr8" position="float"/></fig></sec><sec id="sec3.2.2.2"><label>b</label><title>Validation
+Using Esr1 and Gata3 Knockdown Signatures</title><p>To further validate
+our findings, we overlapped both networks with
+Esr1 and Gata3 knock-down signatures. We identified siRNA knock-down
+signatures of key transcription factors (TFs) of breast carcinoma
+in MCF7 cells1 by accessing gene expression data available under GSE31912
+in Gene Expression Omnibus<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> (further details
+about these signatures can be found in Section 2 of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Supporting Information</ext-link>). For each network, a neighborhood
+was defined by defining a threshold <italic>k</italic> for the number
+of edges connecting a particular gene to the target gene of interest
+(either Esr1 or Gata3). For each network in <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>, we considered different values of <italic>k</italic> and counted the number of knockout signatures contained
+in the neighborhood. <xref rid="fig8" ref-type="fig">Figure <xref rid="fig8" ref-type="fig">8</xref></xref>c,d shows the total number of signatures contained in k-size
+neighborhoods for Esr1 and Gata3, respectively. As shown, also in
+this case, JRF results in a more enriched network. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">Figure S12</ext-link> contains the same comparison for RNA networks.</p></sec></sec></sec><sec id="sec3.3"><title>Discussion</title><p>In this paper, we developed JRF, a random-forest-based
+algorithm for the simultaneous construction of gene coexpression and
+protein coexpression networks. JRF is designed to borrow information
+across different expression data by selecting the same set of predictors
+(genes) as splitting variables in the random forest model corresponding
+to each data. In this way, JRF is able to detect common relationships
+(edges) with better power and detect differential edges-specific to
+individual data with fewer false positives.</p><p>Because in this
+study we were mainly interested in assessing the unique contribution
+of proteomic data to breast cancer research, we focused our attention
+on protein-specific hub genes and modules. We identified two interesting
+protein-specific modules containing potential targets for breast cancer
+treatment. In addition, we compared our algorithm to the original
+random-forest algorithm, which constructs the two networks separately,
+and showed that our algorithm leads to networks more overlapping with
+available knockout signatures and existing GO terms.</p><p>The current
+version of JRF requires the feature (protein) space
+to be the same across different classes. Extension of JRF for handling
+data involving different sets of variables remains as future work.
+This problem arises in the protein domain because protein abundance
+can be measured for different phosphorylation-sites that map to a
+unique protein. As future work, we will design a model able to jointly
+estimate networks from phosphorylation-site abundance and RNAseq data,
+simultaneously.</p><p>Besides estimating gene-regulatory network and
+protein-regulatory
+network, as shown in the paper, JRF can be used in many other applications.
+For example, we can apply JRF to estimate GRNs for the three breast
+cancer subcategories (luminal, basal, and her2), GRN for different
+tissues, and GRN for cancer and normal tissues. Another interesting
+direction would be assessing the association between miRNAs-genes
+and miRNAs-proteins simultaneously. miRNAs are molecules that control
+the growth and proliferation of a cell. It is well known that the
+downregulation of some miRNAs may play an important role in the progression
+of cancer.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> Therefore, a better understanding
+of the interactions between miRNA, mRNA, and protein expression is
+crucial to cast light on the potential disease mechanisms of cancer.
+In this context, JRF can be easily utilized to jointly detect which
+miRNAs regulate genes and proteins.</p><p>Another advantage of JRF
+relies on its computational efficiency.
+JRF can be easily parallelized because the computation can be divided
+into <italic>p</italic>-independent subproblems. On the contrary,
+for many existing methods such as Bayesian networks and GGM-based
+algorithms, it is difficult to parallelize their computation. For
+this reason, JRF could be more preferred when handling large data
+sets.</p><p>The merit of JRF depends on the assumption that networks
+of different
+classes share some common structures. To assess the performance of
+JRF in the absence of common structure, we conducted numerical studies
+to investigate such cases and concluded that JRF is sufficiently flexible
+to guarantee good performance even when nonrelated networks are considered.</p><p>In JRF, importance scores derived from random forest models are
+used to rank edge strengths. We propose a permutation-based procedure
+to derive proper cutoffs on importance scores for selecting confident
+edges. Specifically, we introduce <italic>f</italic>(&#x003b9;) as an
+approximation of the false discovery rate (FDR) of the selected edge
+set based on cutoff &#x003b9;; however, in the numerical studies, we
+observe that <italic>f</italic>(&#x003b9;) tends to underestimate FDR.
+Thus, a conservative threshold on <italic>f</italic>(&#x003b9;) is recommended
+in practice. New methods to obtain more accurate estimate of FDR for
+JRF warrant future research.</p></sec></sec></body><back><notes id="notes-1" notes-type="si"><title>Supporting Information Available</title><p>The Supporting Information
+is available free of charge on the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org">ACS Publications website</ext-link> at DOI: <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/abs/10.1021/acs.jproteome.5b00925">10.1021/acs.jproteome.5b00925</ext-link>.<list id="silist" list-type="simple"><list-item><p>The PDF file includes
+more results from both synthetic
+data and breast cancer data and is divided into two sections: &#x0201c;In-silico
+experiments&#x0201d; and &#x0201c;Coexpression RNA and protein networks
+in breast cancer&#x0201d;. Section &#x0201c;In-silico experiments&#x0201d;
+contains nine subsections: &#x0201c;JGL parameter specification&#x0201d;,
+&#x0201c;Network topology&#x0201d;, &#x0201c;Estimation of non-nested
+networks&#x0201d;, &#x0201c;Estimation of five networks&#x0201d;, &#x0201c;Estimation
+of non-related networks&#x02019;, &#x0201c;Gaussian model vs GeneNetWeaver&#x0201d;,
+&#x0201c;Network dimension&#x0201d;, &#x0201c;Effect of sample size&#x0201d;,
+and &#x0201c;Computational time&#x0201d;. Section &#x0201c;Coexpression
+RNA and protein networks in breast cancer&#x0201d; includes four subsections:
+&#x0201c;String database&#x0201d;, &#x0201c;Protein and RNAseq networks
+from GENIE3-Sep&#x0201d;, &#x0201c;GO categories&#x0201d;, and &#x0201c;Knockout
+signatures&#x0201d;. The XLS file includes the list of gene&#x02013;gene
+interactions for both Protein and RNAseq data derived via JRF, the
+list of genes contained in each of the clusters shown in <xref rid="fig6" ref-type="fig">Figure <xref rid="fig6" ref-type="fig">6</xref></xref>, and the list of
+interactions obtained via GENIE3-Sep. (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://pubs.acs.org/doi/suppl/10.1021/acs.jproteome.5b00925/suppl_file/pr5b00925_si_001.zip">ZIP</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr5b00925_si_001.zip"><caption><p>pr5b00925_si_001.zip</p></caption></media></supplementary-material></sec><notes id="NOTES-d3314e2295-autogenerated" notes-type="conflict-of-interest"><p>The authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This
+work was supported in part through the computational
+resources and staff expertise provided by the Department of Scientific
+Computing at the Icahn School of Medicine at Mount Sinai. F.P. and
+P.W. are partially supported by National Institutes of Health grants
+(SUB-U24CA160034 and SUB-R01GM108711). Z.T. received financial support
+from Berg Pharma as a consultant and support from National Institutes
+of Health (U01AG046170,U01HG008451) and Leducq Foundation Transatlantic
+Networks of Excellence Program grant. P.W. is also supported by National
+Institutes of Health grants (R01GM082802, sub-P01CA53996). We also
+acknowledge the expert assistance of Steven A. Carl, Karl R. Clauser,
+Chenwei Lin, D. R. Mani, Philipp Mertins, Amanda Paulovich, Xianlong
+Wang, and Ping Yan.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Paulovich</surname><given-names>A. G.</given-names></name>; <name><surname>Billheimer</surname><given-names>D.</given-names></name>; <name><surname>Ham</surname><given-names>A. J.</given-names></name>; <name><surname>Vega-Montoto</surname><given-names>L.</given-names></name>; <name><surname>Rudnick</surname><given-names>P. A.</given-names></name>; <name><surname>Tabb</surname><given-names>D. L.</given-names></name>; <name><surname>Wang</surname><given-names>P.</given-names></name>; <name><surname>Blackman</surname><given-names>R. K.</given-names></name>; <name><surname>Bunk</surname><given-names>D. M.</given-names></name>; <name><surname>Cardasis</surname><given-names>H.</given-names></name>; et al. <article-title>Interlaboratory study
+characterizing a yeast performance standard for benchmarking LC-MS
+platform performance</article-title>. <source>Mol. Cell. Proteomics</source>
+<year>2010</year>, <volume>9</volume><issue>2</issue><fpage>242</fpage>&#x02013;<lpage>254</lpage><pub-id pub-id-type="doi">10.1074/mcp.M900222-MCP200</pub-id>.<pub-id pub-id-type="pmid">19858499</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Ellis</surname><given-names>M.</given-names></name>; <name><surname>Gillette</surname><given-names>M.</given-names></name>; <name><surname>Carr</surname><given-names>S.</given-names></name>; <name><surname>Paulovich</surname><given-names>A.</given-names></name>; <name><surname>Smith</surname><given-names>R.</given-names></name>; <name><surname>Rodland</surname><given-names>K.</given-names></name>; <name><surname>Townsend</surname><given-names>R.</given-names></name>; <name><surname>Kinsinger</surname><given-names>C.</given-names></name>; <name><surname>Mesri</surname><given-names>M.</given-names></name>; <name><surname>Rodriguez</surname><given-names>H.</given-names></name>; <name><surname>Liebler</surname><given-names>D.</given-names></name>
+<article-title>CPTAC, Connecting genomic
+alterations to cancer biology with proteomics: The NCI Clinical Proteomic
+Tumor Analysis Consortium</article-title>. <source>Cancer Discovery</source>
+<year>2013</year>, <volume>3</volume><issue>10</issue><fpage>1108</fpage>&#x02013;<lpage>1112</lpage><pub-id pub-id-type="doi">10.1158/2159-8290.CD-13-0219</pub-id>.<pub-id pub-id-type="pmid">24124232</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><article-title>Comprehensive molecular portraits of human breast tumours</article-title>. <source>Nature</source>
+<year>2012</year>, <volume>490</volume><issue>7418</issue><fpage>61</fpage>&#x02013;<lpage>70</lpage><pub-id pub-id-type="doi">10.1038/nature11412</pub-id>.<pub-id pub-id-type="pmid">23000897</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Zhang</surname><given-names>B.</given-names></name>; <name><surname>Horvath</surname><given-names>S.</given-names></name>
+<article-title>A general framework for weighted gene co-expression
+network analysis</article-title>. <source>Stat. Appl. Genet. Mol. Biol.</source>
+<year>2005</year>, <volume>4</volume>, <fpage>17</fpage><pub-id pub-id-type="doi">10.2202/1544-6115.1128</pub-id>.</mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Zhu</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>B.</given-names></name>; <name><surname>Smith</surname><given-names>E. N.</given-names></name>; <name><surname>Drees</surname><given-names>B.</given-names></name>; <name><surname>Brem</surname><given-names>R. B.</given-names></name>; <name><surname>Kruglyak</surname><given-names>L.</given-names></name>; <name><surname>Bumgarner</surname><given-names>R. E.</given-names></name>; <name><surname>Schadt</surname><given-names>E. E.</given-names></name>
+<article-title>Integrating large-scale
+functional genomic data to dissect the complexity of yeast regulatory
+networks</article-title>. <source>Nat. Genet.</source>
+<year>2008</year>, <volume>40</volume>, <fpage>854</fpage>&#x02013;<lpage>861</lpage><pub-id pub-id-type="doi">10.1038/ng.167</pub-id>.<pub-id pub-id-type="pmid">18552845</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Friedman</surname><given-names>N.</given-names></name>; <name><surname>Linial</surname><given-names>M.</given-names></name>; <name><surname>Nachman</surname><given-names>I.</given-names></name>; <name><surname>Pe&#x02019;er</surname><given-names>D.</given-names></name>
+<article-title>Using Bayesian
+networks to analyze expression data</article-title>. <source>J. Comput.
+Biol.</source>
+<year>2000</year>, <volume>7</volume>, <fpage>601</fpage>&#x02013;<lpage>620</lpage><pub-id pub-id-type="doi">10.1089/106652700750050961</pub-id>.<pub-id pub-id-type="pmid">11108481</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Sch&#x000e4;fer</surname><given-names>J.</given-names></name>; <name><surname>Strimmer</surname><given-names>K.</given-names></name>
+<article-title>A shrinkage approach to large-scale covariance matrix
+estimation and implications for functional genomics</article-title>. <source>Stat. Appl. Genet. Mol. Biol.</source>
+<year>2005</year>, <volume>4</volume>, <fpage>32</fpage><pub-id pub-id-type="doi">10.2202/1544-6115.1175</pub-id>.</mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Yuan</surname><given-names>M.</given-names></name>; <name><surname>Lin</surname><given-names>Y.</given-names></name>
+<article-title>Model selection and estimation in the Gaussian graphical model</article-title>. <source>Biometrika</source>
+<year>2007</year>, <volume>94</volume>, <fpage>19</fpage>&#x02013;<lpage>35</lpage><pub-id pub-id-type="doi">10.1093/biomet/asm018</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Friedman</surname><given-names>J.</given-names></name>; <name><surname>Hastie</surname><given-names>T.</given-names></name>; <name><surname>Tibshirani</surname><given-names>R.</given-names></name>
+<article-title>Sparse inverse covariance estimation
+with the graphical lasso</article-title>. <source>Biostatistics</source>
+<year>2008</year>, <volume>9</volume>, <fpage>432</fpage>&#x02013;<lpage>441</lpage><pub-id pub-id-type="doi">10.1093/biostatistics/kxm045</pub-id>.<pub-id pub-id-type="pmid">18079126</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Peng</surname><given-names>J.</given-names></name>; <name><surname>Wang</surname><given-names>P.</given-names></name>; <name><surname>Zhou</surname><given-names>N.</given-names></name>; <name><surname>Zhu</surname><given-names>J.</given-names></name>
+<article-title>Partial correlation
+estimation by joint sparse regression models</article-title>. <source>J. Am. Stat. Assoc.</source>
+<year>2009</year>, <volume>104</volume>, <fpage>735</fpage>&#x02013;<lpage>746</lpage><pub-id pub-id-type="doi">10.1198/jasa.2009.0126</pub-id>.<pub-id pub-id-type="pmid">19881892</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Hecker</surname><given-names>M.</given-names></name>; <name><surname>Lambeck</surname><given-names>S.</given-names></name>; <name><surname>Toepfer</surname><given-names>S.</given-names></name>; <name><surname>Van Someren</surname><given-names>E.</given-names></name>; <name><surname>Guthke</surname><given-names>R.</given-names></name>
+<article-title>Gene regulatory network inference: data integration
+in dynamic models&#x02013;a review</article-title>. <source>BioSystems</source>
+<year>2009</year>, <volume>96</volume>, <fpage>86</fpage>&#x02013;<lpage>103</lpage><pub-id pub-id-type="doi">10.1016/j.biosystems.2008.12.004</pub-id>.<pub-id pub-id-type="pmid">19150482</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Lee</surname><given-names>W.-P.</given-names></name>; <name><surname>Tzou</surname><given-names>W.-S.</given-names></name>
+<article-title>Computational methods
+for discovering gene networks
+from expression data</article-title>. <source>Briefings Bioinf.</source>
+<year>2009</year>, <volume>10</volume>, <fpage>408</fpage>&#x02013;<lpage>423</lpage><pub-id pub-id-type="doi">10.1093/bib/bbp028</pub-id>.</mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Zhou</surname><given-names>S.</given-names></name>; <name><surname>Lafferty</surname><given-names>J.</given-names></name>; <name><surname>Wasserman</surname><given-names>L.</given-names></name>
+<article-title>Time varying
+undirected graphs</article-title>. <source>Machine Learning</source>
+<year>2010</year>, <volume>80</volume>, <fpage>295</fpage>&#x02013;<lpage>319</lpage><pub-id pub-id-type="doi">10.1007/s10994-010-5180-0</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name><surname>Song</surname><given-names>L.</given-names></name>; <name><surname>Kolar</surname><given-names>M.</given-names></name>; <name><surname>Xing</surname><given-names>E. P.</given-names></name>
+<article-title>KELLER:
+estimating time-varying interactions
+between genes</article-title>. <source>Bioinformatics</source>
+<year>2009</year>, <volume>25</volume>, <fpage>i128</fpage>&#x02013;<lpage>i136</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btp192</pub-id>.<pub-id pub-id-type="pmid">19477978</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Danaher</surname><given-names>P.</given-names></name>; <name><surname>Wang</surname><given-names>P.</given-names></name>; <name><surname>Witten</surname><given-names>D. M.</given-names></name>
+<article-title>The joint
+graphical lasso for inverse
+covariance estimation across multiple classes</article-title>. <source>Journal of the Royal Statistical Society: Series B (Statistical Methodology)</source>
+<year>2014</year>, <volume>76</volume>, <fpage>373</fpage>&#x02013;<lpage>397</lpage><pub-id pub-id-type="doi">10.1111/rssb.12033</pub-id>.<pub-id pub-id-type="pmid">24817823</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Guo</surname><given-names>J.</given-names></name>; <name><surname>Levina</surname><given-names>E.</given-names></name>; <name><surname>Michailidis</surname><given-names>G.</given-names></name>; <name><surname>Zhu</surname><given-names>J.</given-names></name>
+<article-title>Joint estimation of
+multiple graphical models</article-title>. <source>Biometrika</source>
+<year>2011</year>, <volume>98</volume>, <fpage>asq060</fpage><pub-id pub-id-type="doi">10.1093/biomet/asq060</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Ahmed</surname><given-names>A.</given-names></name>; <name><surname>Xing</surname><given-names>E. P.</given-names></name>
+<article-title>Recovering time-varying
+networks of dependencies in
+social and biological studies</article-title>. <source>Proc. Natl. Acad.
+Sci. U. S. A.</source>
+<year>2009</year>, <volume>106</volume>, <fpage>11878</fpage>&#x02013;<lpage>11883</lpage><pub-id pub-id-type="doi">10.1073/pnas.0901910106</pub-id>.<pub-id pub-id-type="pmid">19570995</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Huynh-Thu</surname><given-names>V. A.</given-names></name>; <name><surname>Irrthum</surname><given-names>A.</given-names></name>; <name><surname>Wehenkel</surname><given-names>L.</given-names></name>; <name><surname>Geurts</surname><given-names>P.</given-names></name>
+<article-title>Inferring regulatory
+networks from expression data using tree-based methods</article-title>. <source>PLoS One</source>
+<year>2010</year>, <volume>5</volume>, <fpage>e12776</fpage><pub-id pub-id-type="doi">10.1371/journal.pone.0012776</pub-id>.<pub-id pub-id-type="pmid">20927193</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Petralia</surname><given-names>F.</given-names></name>; <name><surname>Wang</surname><given-names>P.</given-names></name>; <name><surname>Yang</surname><given-names>J.</given-names></name>; <name><surname>Tu</surname><given-names>Z.</given-names></name>
+<article-title>Integrative random
+forest for gene regulatory network inference</article-title>. <source>Bioinformatics</source>
+<year>2015</year>, <volume>31</volume>, <fpage>i197</fpage>&#x02013;<lpage>i205</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btv268</pub-id>.<pub-id pub-id-type="pmid">26072483</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="book" id="cit20"><person-group person-group-type="allauthors"><name><surname>Maduranga</surname><given-names>D.</given-names></name>; <name><surname>Zheng</surname><given-names>J.</given-names></name>; <name><surname>Mundra</surname><given-names>P. A.</given-names></name>; <name><surname>Rajapakse</surname><given-names>J. C.</given-names></name></person-group><source>Pattern Recognition in Bioinformatics</source>; <publisher-name>Springer</publisher-name>, <year>2013</year>; Chapter
+2, pp <fpage>13</fpage>&#x02013;<lpage>22</lpage>.</mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Breiman</surname><given-names>L.</given-names></name>
+<article-title>Random forests</article-title>. <source>Machine learning</source>
+<year>2001</year>, <volume>45</volume>, <fpage>5</fpage>&#x02013;<lpage>32</lpage><pub-id pub-id-type="doi">10.1023/A:1010933404324</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Yang</surname><given-names>P.</given-names></name>; <name><surname>Hwa Yang</surname><given-names>Y.</given-names></name>; <name><surname>Zhou</surname><given-names>B. B.</given-names></name>; <name><surname>Zomaya</surname><given-names>A. Y.</given-names></name>
+<article-title>A review of ensemble
+methods in bioinformatics</article-title>. <source>Curr. Bioinf.</source>
+<year>2010</year>, <volume>5</volume>, <fpage>296</fpage>&#x02013;<lpage>308</lpage><pub-id pub-id-type="doi">10.2174/157489310794072508</pub-id>.</mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Greenfield</surname><given-names>A.</given-names></name>; <name><surname>Madar</surname><given-names>A.</given-names></name>; <name><surname>Ostrer</surname><given-names>H.</given-names></name>; <name><surname>Bonneau</surname><given-names>R.</given-names></name>
+<article-title>DREAM4: Combining genetic
+and dynamic information to identify biological networks and dynamical
+models</article-title>. <source>PLoS One</source>
+<year>2010</year>, <volume>5</volume>, <fpage>e13397</fpage>&#x02013;<lpage>e13397</lpage><pub-id pub-id-type="doi">10.1371/journal.pone.0013397</pub-id>.<pub-id pub-id-type="pmid">21049040</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Marbach</surname><given-names>D.</given-names></name>; <name><surname>Costello</surname><given-names>J. C.</given-names></name>; <name><surname>K&#x000fc;ffner</surname><given-names>R.</given-names></name>; <name><surname>Vega</surname><given-names>N. M.</given-names></name>; <name><surname>Prill</surname><given-names>R. J.</given-names></name>; <name><surname>Camacho</surname><given-names>D. M.</given-names></name>; <name><surname>Allison</surname><given-names>K. R.</given-names></name>; <name><surname>Kellis</surname><given-names>M.</given-names></name>; <name><surname>Collins</surname><given-names>J. J.</given-names></name>; <name><surname>Stolovitzky</surname><given-names>G.</given-names></name>; et al. <article-title>Wisdom of crowds for robust gene network inference</article-title>. <source>Nat. Methods</source>
+<year>2012</year>, <volume>9</volume>, <fpage>796</fpage>&#x02013;<lpage>804</lpage><pub-id pub-id-type="doi">10.1038/nmeth.2016</pub-id>.<pub-id pub-id-type="pmid">22796662</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Tusher</surname><given-names>V. G.</given-names></name>; <name><surname>Tibshirani</surname><given-names>R.</given-names></name>; <name><surname>Chu</surname><given-names>G.</given-names></name>
+<article-title>Significance analysis of microarrays
+applied to the ionizing radiation response</article-title>. <source>Proc. Natl. Acad. Sci. U. S. A.</source>
+<year>2001</year>, <volume>98</volume>, <fpage>5116</fpage>&#x02013;<lpage>5121</lpage><pub-id pub-id-type="doi">10.1073/pnas.091062498</pub-id>.<pub-id pub-id-type="pmid">11309499</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Chen</surname><given-names>H.</given-names></name>; <name><surname>Sharp</surname><given-names>B. M.</given-names></name>
+<article-title>Content-rich biological
+network constructed by mining
+PubMed abstracts</article-title>. <source>BMC Bioinf.</source>
+<year>2004</year>, <volume>5</volume>, <fpage>147</fpage><pub-id pub-id-type="doi">10.1186/1471-2105-5-147</pub-id>.</mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Mertins</surname><given-names>P.</given-names></name>; et al. <article-title>Proteogenomic analysis
+of human breast cancer connects genetic alterations
+to phosphorylation networks</article-title>. <source>Eur. J. Cancer</source>
+<year>2014</year>, <volume>50</volume>, <fpage>S10</fpage><pub-id pub-id-type="doi">10.1016/S0959-8049(14)50036-6</pub-id>.</mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Schaffter</surname><given-names>T.</given-names></name>; <name><surname>Marbach</surname><given-names>D.</given-names></name>; <name><surname>Floreano</surname><given-names>D.</given-names></name>
+<article-title>GeneNetWeaver:
+in silico benchmark
+generation and performance profiling of network inference methods</article-title>. <source>Bioinformatics</source>
+<year>2011</year>, <volume>27</volume>, <fpage>2263</fpage>&#x02013;<lpage>2270</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btr373</pub-id>.<pub-id pub-id-type="pmid">21697125</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Andre</surname><given-names>F.</given-names></name>; <name><surname>Dieci</surname><given-names>M. V.</given-names></name>; <name><surname>Dubsky</surname><given-names>P.</given-names></name>; <name><surname>Sotiriou</surname><given-names>C.</given-names></name>; <name><surname>Curigliano</surname><given-names>G.</given-names></name>; <name><surname>Denkert</surname><given-names>C.</given-names></name>; <name><surname>Loi</surname><given-names>S.</given-names></name>
+<article-title>Molecular pathways:
+involvement of
+immune pathways in the therapeutic response and outcome in breast
+cancer</article-title>. <source>Clin. Cancer Res.</source>
+<year>2013</year>, <volume>19</volume>, <fpage>28</fpage>&#x02013;<lpage>33</lpage><pub-id pub-id-type="doi">10.1158/1078-0432.CCR-11-2701</pub-id>.<pub-id pub-id-type="pmid">23258741</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Hyung</surname><given-names>S.-W.</given-names></name>; <name><surname>Lee</surname><given-names>M. Y.</given-names></name>; <name><surname>Yu</surname><given-names>J.-H.</given-names></name>; <name><surname>Shin</surname><given-names>B.</given-names></name>; <name><surname>Jung</surname><given-names>H.-J.</given-names></name>; <name><surname>Park</surname><given-names>J.-M.</given-names></name>; <name><surname>Han</surname><given-names>W.</given-names></name>; <name><surname>Lee</surname><given-names>K.-M.</given-names></name>; <name><surname>Moon</surname><given-names>H.-G.</given-names></name>; <name><surname>Zhang</surname><given-names>H.</given-names></name>; et al. <article-title>A serum
+protein profile predictive of the resistance
+to neoadjuvant chemotherapy in advanced breast cancers</article-title>. <source>Mol. Cell. Proteomics</source>
+<year>2011</year>, <volume>10</volume>, <fpage>M111.011023</fpage><pub-id pub-id-type="doi">10.1074/mcp.M111.011023</pub-id>.<pub-id pub-id-type="pmid">21799047</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Ambrosone</surname><given-names>C. B.</given-names></name>; <name><surname>Barlow</surname><given-names>W. E.</given-names></name>; <name><surname>Reynolds</surname><given-names>W.</given-names></name>; <name><surname>Livingston</surname><given-names>R. B.</given-names></name>; <name><surname>Yeh</surname><given-names>I.-T.</given-names></name>; <name><surname>Choi</surname><given-names>J.-Y.</given-names></name>; <name><surname>Davis</surname><given-names>W.</given-names></name>; <name><surname>Rae</surname><given-names>J. M.</given-names></name>; <name><surname>Tang</surname><given-names>L.</given-names></name>; <name><surname>Hutchins</surname><given-names>L. R.</given-names></name>; et al. <article-title>Myeloperoxidase genotypes
+and enhanced efficacy of chemotherapy for early-stage breast cancer
+in SWOG-8897</article-title>. <source>J. Clin. Oncol.</source>
+<year>2009</year>, <volume>27</volume>, <fpage>4973</fpage>&#x02013;<lpage>4979</lpage><pub-id pub-id-type="doi">10.1200/JCO.2009.21.8669</pub-id>.<pub-id pub-id-type="pmid">19752340</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Thirkettle</surname><given-names>S.</given-names></name>; <name><surname>Decock</surname><given-names>J.</given-names></name>; <name><surname>Arnold</surname><given-names>H.</given-names></name>; <name><surname>Pennington</surname><given-names>C. J.</given-names></name>; <name><surname>Jaworski</surname><given-names>D. M.</given-names></name>; <name><surname>Edwards</surname><given-names>D. R.</given-names></name>
+<article-title>Matrix metalloproteinase
+8 (collagenase
+2) induces the expression of interleukins 6 and 8 in breast cancer
+cells</article-title>. <source>J. Biol. Chem.</source>
+<year>2013</year>, <volume>288</volume>, <fpage>16282</fpage>&#x02013;<lpage>16294</lpage><pub-id pub-id-type="doi">10.1074/jbc.M113.464230</pub-id>.<pub-id pub-id-type="pmid">23632023</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Zhao</surname><given-names>S.</given-names></name>; <name><surname>Han</surname><given-names>J.</given-names></name>; <name><surname>Zheng</surname><given-names>L.</given-names></name>; <name><surname>Yang</surname><given-names>Z.</given-names></name>; <name><surname>Zhao</surname><given-names>L.</given-names></name>; <name><surname>Lv</surname><given-names>Y.</given-names></name>
+<article-title>MicroRNA-203
+Regulates Growth and Metastasis of Breast Cancer</article-title>. <source>Cell. Physiol. Biochem.</source>
+<year>2015</year>, <volume>37</volume>, <fpage>35</fpage>&#x02013;<lpage>42</lpage><pub-id pub-id-type="doi">10.1159/000430331</pub-id>.<pub-id pub-id-type="pmid">26278219</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Csardi</surname><given-names>G.</given-names></name>; <name><surname>Nepusz</surname><given-names>T.</given-names></name>
+<article-title>The igraph software package for complex network research</article-title>. <source>InterJournal, Complex Systems</source>
+<year>2006</year>, <volume>1695</volume>, <fpage>1</fpage>&#x02013;<lpage>9</lpage>.</mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Huang</surname><given-names>D. W.</given-names></name>; <name><surname>Sherman</surname><given-names>B. T.</given-names></name>; <name><surname>Lempicki</surname><given-names>R. A.</given-names></name>
+<article-title>Systematic and integrative analysis
+of large gene lists using DAVID bioinformatics resources</article-title>. <source>Nat. Protoc.</source>
+<year>2008</year>, <volume>4</volume>, <fpage>44</fpage>&#x02013;<lpage>57</lpage><pub-id pub-id-type="doi">10.1038/nprot.2008.211</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Huang</surname><given-names>D. W.</given-names></name>; <name><surname>Sherman</surname><given-names>B. T.</given-names></name>; <name><surname>Lempicki</surname><given-names>R. A.</given-names></name>
+<article-title>Bioinformatics enrichment tools:
+paths toward the comprehensive functional analysis of large gene lists</article-title>. <source>Nucleic Acids Res.</source>
+<year>2009</year>, <volume>37</volume>, <fpage>1</fpage>&#x02013;<lpage>13</lpage><pub-id pub-id-type="doi">10.1093/nar/gkn923</pub-id>.<pub-id pub-id-type="pmid">19033363</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Andr&#x000e9;</surname><given-names>F.</given-names></name>; <name><surname>Cort&#x000e9;s</surname><given-names>J.</given-names></name>
+<article-title>Rationale for targeting fibroblast growth factor receptor
+signaling in breast cancer</article-title>. <source>Breast Cancer Res.
+Treat.</source>
+<year>2015</year>, <volume>150</volume>, <fpage>1</fpage>&#x02013;<lpage>8</lpage><pub-id pub-id-type="doi">10.1007/s10549-015-3301-y</pub-id>.<pub-id pub-id-type="pmid">25677745</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Sun</surname><given-names>S.</given-names></name>; <name><surname>Jiang</surname><given-names>Y.</given-names></name>; <name><surname>Zhang</surname><given-names>G.</given-names></name>; <name><surname>Song</surname><given-names>H.</given-names></name>; <name><surname>Zhang</surname><given-names>X.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Liang</surname><given-names>X.</given-names></name>; <name><surname>Sun</surname><given-names>Q.</given-names></name>; <name><surname>Pang</surname><given-names>D.</given-names></name>
+<article-title>Increased
+expression of fibroblastic growth factor receptor 2 is correlated
+with poor prognosis in patients with breast cancer</article-title>. <source>J. Surg. Oncol.</source>
+<year>2012</year>, <volume>105</volume>, <fpage>773</fpage>&#x02013;<lpage>779</lpage><pub-id pub-id-type="doi">10.1002/jso.22120</pub-id>.<pub-id pub-id-type="pmid">22006548</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Cerliani</surname><given-names>J. P.</given-names></name>; <name><surname>Vanzulli</surname><given-names>S. I.</given-names></name>; <name><surname>Pi&#x000f1;ero</surname><given-names>C. P.</given-names></name>; <name><surname>Bottino</surname><given-names>M. C.</given-names></name>; <name><surname>Sahores</surname><given-names>A.</given-names></name>; <name><surname>Nu&#x000f1;ez</surname><given-names>M.</given-names></name>; <name><surname>Varchetta</surname><given-names>R.</given-names></name>; <name><surname>Martins</surname><given-names>R.</given-names></name>; <name><surname>Zeitlin</surname><given-names>E.</given-names></name>; <name><surname>Hewitt</surname><given-names>S. M.</given-names></name>; et al. <article-title>Associated expressions of FGFR-2 and FGFR-3:
+from mouse mammary gland physiology to human breast cancer</article-title>. <source>Breast Cancer Res. Treat.</source>
+<year>2012</year>, <volume>133</volume>, <fpage>997</fpage>&#x02013;<lpage>1008</lpage><pub-id pub-id-type="doi">10.1007/s10549-011-1883-6</pub-id>.<pub-id pub-id-type="pmid">22124578</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>Szklarczyk</surname><given-names>D.</given-names></name>; <name><surname>Franceschini</surname><given-names>A.</given-names></name>; <name><surname>Kuhn</surname><given-names>M.</given-names></name>; <name><surname>Simonovic</surname><given-names>M.</given-names></name>; <name><surname>Roth</surname><given-names>A.</given-names></name>; <name><surname>Minguez</surname><given-names>P.</given-names></name>; <name><surname>Doerks</surname><given-names>T.</given-names></name>; <name><surname>Stark</surname><given-names>M.</given-names></name>; <name><surname>Muller</surname><given-names>J.</given-names></name>; <name><surname>Bork</surname><given-names>P.</given-names></name>; et al. <article-title>The STRING database
+in 2011: functional interaction networks of proteins, globally integrated
+and scored</article-title>. <source>Nucleic Acids Res.</source>
+<year>2011</year>, <volume>39</volume>, <fpage>D561</fpage>&#x02013;<lpage>D568</lpage><pub-id pub-id-type="doi">10.1093/nar/gkq973</pub-id>.<pub-id pub-id-type="pmid">21045058</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Parker</surname><given-names>B. C.</given-names></name>; <name><surname>Engels</surname><given-names>M.</given-names></name>; <name><surname>Annala</surname><given-names>M.</given-names></name>; <name><surname>Zhang</surname><given-names>W.</given-names></name>
+<article-title>Emergence of FGFR family
+gene fusions as therapeutic targets in a wide spectrum of solid tumours</article-title>. <source>Journal of pathology</source>
+<year>2014</year>, <volume>232</volume>, <fpage>4</fpage>&#x02013;<lpage>15</lpage><pub-id pub-id-type="doi">10.1002/path.4297</pub-id>.<pub-id pub-id-type="pmid">24588013</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Cine</surname><given-names>N.</given-names></name>; <name><surname>Baykal</surname><given-names>A. T.</given-names></name>; <name><surname>Sunnetci</surname><given-names>D.</given-names></name>; <name><surname>Canturk</surname><given-names>Z.</given-names></name>; <name><surname>Serhatli</surname><given-names>M.</given-names></name>; <name><surname>Savli</surname><given-names>H.</given-names></name>
+<article-title>Identification of ApoA1, HPX and POTEE genes by omic analysis in
+breast cancer</article-title>. <source>Oncol. Rep.</source>
+<year>2014</year>, <volume>32</volume>, <fpage>1078</fpage>&#x02013;<lpage>1086</lpage><pub-id pub-id-type="doi">10.3892/or.2014.3277</pub-id>.<pub-id pub-id-type="pmid">24969553</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Barrett</surname><given-names>T.</given-names></name>; <name><surname>Edgar</surname><given-names>R.</given-names></name>
+<article-title>[19] Gene Expression
+Omnibus: Microarray Data Storage, Submission,
+Retrieval, and Analysis</article-title>. <source>Methods Enzymol.</source>
+<year>2006</year>, <volume>411</volume>, <fpage>352</fpage>&#x02013;<lpage>369</lpage><pub-id pub-id-type="doi">10.1016/S0076-6879(06)11019-8</pub-id>.<pub-id pub-id-type="pmid">16939800</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Ryan</surname><given-names>B. M.</given-names></name>; <name><surname>Robles</surname><given-names>A. I.</given-names></name>; <name><surname>Harris</surname><given-names>C. C.</given-names></name>
+<article-title>Genetic
+variation in microRNA networks:
+the implications for cancer research</article-title>. <source>Nat. Rev.
+Cancer</source>
+<year>2010</year>, <volume>10</volume>, <fpage>389</fpage>&#x02013;<lpage>402</lpage><pub-id pub-id-type="doi">10.1038/nrc2867</pub-id>.<pub-id pub-id-type="pmid">20495573</pub-id></mixed-citation></ref></ref-list></back></article>

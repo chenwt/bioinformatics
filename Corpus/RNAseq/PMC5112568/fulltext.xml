@@ -1,0 +1,913 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">F1000Res</journal-id><journal-id journal-id-type="iso-abbrev">F1000Res</journal-id><journal-id journal-id-type="pmc">F1000Research</journal-id><journal-title-group><journal-title>F1000Research</journal-title></journal-title-group><issn pub-type="epub">2046-1402</issn><publisher><publisher-name>F1000Research</publisher-name><publisher-loc>London, UK</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5112568</article-id><article-id pub-id-type="doi">10.12688/f1000research.9511.1</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group><subj-group><subject>Articles</subject><subj-group><subject>Bioinformatics</subject></subj-group><subj-group><subject>Biomacromolecule-Ligand Interactions</subject></subj-group><subj-group><subject>Cell Growth &#x00026; Division</subject></subj-group><subj-group><subject>Chemical Biology of the Cell</subject></subj-group><subj-group><subject>Control of Gene Expression</subject></subj-group><subj-group><subject>Developmental Molecular Mechanisms</subject></subj-group><subj-group><subject>Genomics</subject></subj-group><subj-group><subject>Macromolecular Chemistry</subject></subj-group><subj-group><subject>Morphogenesis &#x00026; Cell Biology</subject></subj-group><subj-group><subject>Pattern Formation</subject></subj-group><subj-group><subject>Protein Chemistry &#x00026; Proteomics</subject></subj-group></subj-group></article-categories><title-group><article-title>Advances in analyzing RNA diversity in eukaryotic transcriptomes: peering through the Omics lens</article-title><fn-group content-type="pub-status"><fn><p>[version 1; referees: 3 approved]</p></fn></fn-group></title-group><contrib-group><contrib contrib-type="author"><name><surname>Bangru</surname><given-names>Sushant</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Kalsotra</surname><given-names>Auinash</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-1011-0006</contrib-id></contrib><aff id="a1"><label>1</label>Department of Biochemistry, University of Illinois at Urbana-Champaign, Illinois, USA</aff><aff id="a2"><label>2</label>Institute of Genomic Biology, University of Illinois at Urbana-Champaign, Illinois, USA</aff><aff id="a3"><label>3</label>College of Medicine, University of Illinois at Urbana-Champaign, Illinois, USA</aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email xlink:href="mailto:kalsotra@illinois.edu">kalsotra@illinois.edu</email></corresp><fn fn-type="COI-statement"><p>
+<bold>Competing interests: </bold>The authors declare that they have no competing interests.</p></fn></author-notes><pub-date pub-type="epub"><day>14</day><month>11</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>5</volume><elocation-id>2668</elocation-id><history><date date-type="accepted"><day>8</day><month>11</month><year>2016</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2016 Bangru S and Kalsotra A</copyright-statement><copyright-year>2016</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="f1000research-5-10245.pdf"/><abstract><p>Alternative splicing, polyadenylation, and chemical modifications of RNA generate astonishing complexity within eukaryotic transcriptomes. The last decade has brought numerous advances in sequencing technologies that allow biologists to investigate these phenomena with greater depth and accuracy while reducing time and cost. A commensurate development in biochemical techniques for the enrichment and analysis of different RNA variants has accompanied the advancement of global sequencing analysis platforms. Here, we present a detailed overview of the latest biochemical methods, along with bioinformatics pipelines that have aided in identifying different RNA variants. We also highlight the ongoing developments and challenges associated with RNA variant detection and quantification, including sample heterogeneity and isolation, as well as &#x02018;Omics&#x02019; big data handling.</p></abstract><kwd-group kwd-group-type="author"><kwd>RNA variants</kwd><kwd>Alternative splicing</kwd><kwd>next generation sequencing</kwd><kwd>mRNA modifications</kwd><kwd>computational pipelines</kwd><kwd>post-transcriptional gene regulation</kwd></kwd-group><funding-group><award-group id="fund-1"><funding-source>National Institutes of Health</funding-source><award-id>R01HL126845</award-id></award-group><award-group id="fund-2"><funding-source>March of Dimes</funding-source><award-id>5-FY14-112</award-id></award-group><funding-statement>AK is supported by grants from the US National Institutes of Health (R01HL126845), the March of Dimes (5-FY14-112), and the Center for Advanced Study at the University of Illinois.</funding-statement><funding-statement><italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic></funding-statement></funding-group></article-meta><notes><sec sec-type="editor-note"><title>Editorial Note on the Review Process</title><p>
+<ext-link ext-link-type="uri" xlink:href="http://f1000research.com/browse/f1000-faculty-reviews">F1000 Faculty Reviews</ext-link> are commissioned from members of the prestigious
+<ext-link ext-link-type="uri" xlink:href="http://f1000.com/prime/thefaculty">F1000 Faculty</ext-link> and are edited as a service to readers. In order to make these reviews as comprehensive and accessible as possible, the referees provide input before publication and only the final, revised version is published. The referees who approved the final version are listed with their names and affiliations but without their reports on earlier versions (any comments will already have been addressed in the published version).</p><p>The referees who approved this article are: </p><list list-type="simple" list-content="reviewer-list"><list-item><p>
+<named-content content-type="reviewer-name">Gordon Carmichael</named-content>, Department of Genetics and Developmental Biology, University of Connecticut Health Center, Farmington, CT, USA
+<fn fn-type="COI-statement"><p>No competing interests were disclosed.</p></fn>
+</p></list-item><list-item><p>
+<named-content content-type="reviewer-name">Emanuele Buratti</named-content>, Molecular Pathology, International Center for Genetic Engineering and Biotechnology, University of Trieste, Trieste, Italy
+<fn fn-type="COI-statement"><p>No competing interests were disclosed.</p></fn>
+</p></list-item><list-item><p>
+<named-content content-type="reviewer-name">Graziano Pesole</named-content>, Dipartimento Di Bioscienze, Biotecnologie e Biofarmaceutica, Universit&#x000e0; degli Studi di Bari , Bari, Italy
+<fn fn-type="COI-statement"><p>No competing interests were disclosed.</p></fn>
+</p></list-item></list></sec></notes></front><body><sec><title>How did we get here?</title><p>The RNA world hypothesis, a widely prevailing idea among molecular biologists, describes self-replicating RNA as the precursor to all modern life forms. Besides recognizing its primordial origin, we have come to realize that RNA is a highly complex and diverse macromolecule, which plays central roles in protein synthesis by serving as the encoder (mRNA), the decoder (tRNA), and the catalyst (rRNA). But our understanding of RNA diversity, form, and function continues to evolve as we keep discovering new and exciting classes of RNAs that carry out unexpected functions. Recent transcriptome studies, which capture nearly every transcript in a cell, have revealed an overwhelming number of RNA variants resulting from multiple transcription initiation sites, alternative pre-mRNA splicing and polyadenylation, post-transcriptional editing, and direct chemical modifications of RNA (
+<xref ref-type="fig" rid="f1">Figure 1</xref>). These studies have demonstrated that the variants play key roles in generating mRNA diversity by altering their coding sequences, half-lives, and translation efficiencies, allowing complex organisms to control temporal and tissue-specific transcriptome patterns.</p><fig fig-type="figure" id="f1" orientation="portrait" position="float"><label>Figure 1. </label><caption><title>Alternative splicing, circular RNA formation, and mRNA modifications are the major mechanisms generating much of the mRNA diversity.</title><p>Alternative splicing results in the selective inclusion or skipping of particular exons as well as alternate 5&#x02032; and 3&#x02032; untranslated region (UTR) selection within a processed mRNA transcript. In some cases, alternative splicing also results in intron retention events. Circular RNA formation occurs because of back splicing of the 3&#x02032; end of a downstream exon to the 5&#x02032; end of an upstream exon. Lastly, mRNAs can be modified through editing mechanisms converting A and C nucleotides to I and U nucleotides, respectively, as well as through the addition of functional groups on either the base or the sugar moiety of a nucleotide.</p></caption><graphic xlink:href="f1000research-5-10245-g0000"/></fig><p>The systematic study of RNA variants began in the 1990s when cloning of expressed sequence tags revealed the diversity of mRNA populations expressed in different cells and tissues of metazoans
+<sup><xref rid="ref-1" ref-type="bibr">1</xref></sup>. The advent of microarrays in the early 2000s expedited the discovery of new RNA variants
+<sup><xref rid="ref-2" ref-type="bibr">2</xref>,
+<xref rid="ref-3" ref-type="bibr">3</xref></sup>, but the technology had several limitations, including (i) high background levels due to dependence on hybridization, (ii) reliance on existing sequence knowledge, and (iii) a limited range of detection. In the last decade, the field has taken a significant leap forward with the development of next-generation sequencing. The timeline of major milestones that facilitated the discovery of novel RNA variants is provided in
+<xref ref-type="fig" rid="f2">Figure 2</xref>.</p><fig fig-type="figure" id="f2" orientation="portrait" position="float"><label>Figure 2. </label><caption><title>Timeline outlining the recent advances in analyzing RNA variants.</title></caption><graphic xlink:href="f1000research-5-10245-g0001"/></fig><p>First-generation sequencing required separate reactions for individual nucleotides and was limited by a gel electrophoresis step, which was further complicated by the need to use radioactive reagents
+<sup><xref rid="ref-4" ref-type="bibr">4</xref>,
+<xref rid="ref-5" ref-type="bibr">5</xref></sup>. Next-generation sequencing, however, uses advanced optics and flow cells to identify nucleotide sequences rapidly, making the analysis and sequence determination quicker and more accurate
+<sup><xref rid="ref-6" ref-type="bibr">6</xref>&#x02013;
+<xref rid="ref-8" ref-type="bibr">8</xref></sup>. A number of next-generation sequencing platforms have been developed, and the most popular ones are Illumina Solexa
+<sup><xref rid="ref-9" ref-type="bibr">9</xref></sup> (relies on fluorescence imaging post-nucleotide addition every cycle, approximately 100 nucleotide reads, 0.1% error rate), Roche 454 sequencing
+<sup><xref rid="ref-10" ref-type="bibr">10</xref></sup> (long reads and short homopolymeric stretches sequenced in single-cycle, approximately 500 nucleotide reads, 1% error rate), Ion Torrent
+<sup><xref rid="ref-11" ref-type="bibr">11</xref></sup> (based on detection of H
+<sup>+</sup> ion release due to polymerization of dNTP probes, approximately 200 nucleotide reads, 1% error rate), and SOLiD sequencing
+<sup><xref rid="ref-12" ref-type="bibr">12</xref></sup> (relies on sequencing by ligation over synthesis, 35 nucleotide reads, less than 0.1% error rate). Of the above methods, the first three are classified as sequencing by synthesis methods whereas SOLiD is under the sequencing-by-ligation category. The field of sequencing by ligation has made rapid strides with the development of complete genomics technology that uses combinatorial synthesis methods, involving the use of multiple probe-anchor combinations to determine sequence
+<sup><xref rid="ref-13" ref-type="bibr">13</xref></sup>. Additionally, Pacific Biosciences has recently introduced single-molecule real-time sequencing
+<sup><xref rid="ref-14" ref-type="bibr">14</xref></sup> of full-length transcripts, and the average read length is 2.5 kb (non-stop sequencing and real-time imaging, more than 1% error rates).</p><p>Perhaps the most significant breakthrough in the field was the development of massively parallel cDNA sequencing, commonly referred to as RNA-seq
+<sup><xref rid="ref-15" ref-type="bibr">15</xref></sup>. It involves sequencing of cDNA fragments generated from total RNA after oligo-dT or random priming. For most transcriptome studies, mRNA is enriched from the total RNA pool by using either a poly(A) pull-down or selective depletion of rRNA. Following sequencing, the reads are aligned to a pre-annotated reference genome or assembled
+<italic>de novo</italic> to provide both the qualitative and the quantitative information of entire transcriptomes. This technique now can be used to identify new transcripts without having
+<italic>a priori</italic> knowledge of all gene models
+<sup><xref rid="ref-16" ref-type="bibr">16</xref></sup>. Recent mapping tools can also identify splice junctions by using reads spanning across two exons, bolstering identification of alternative splice isoforms. Initially, RNA sequencing (RNA-seq) studies examined only the steady-state levels of RNA populations; however, the relative contribution of variable transcription (synthesis) and RNA degradation (stability) in those studies was unclear. New techniques such as Net-Seq
+<sup><xref rid="ref-17" ref-type="bibr">17</xref>,
+<xref rid="ref-18" ref-type="bibr">18</xref></sup> and BRU-seq
+<sup><xref rid="ref-19" ref-type="bibr">19</xref></sup> address this problem. Net-Seq employs DNA-RNA-RNA polymerase complex stability to isolate 3&#x02032; ends of nascent transcripts. Bru-Seq uses pulse-chase labeling of newly transcribed RNA with bromouridine to determine rates of RNA synthesis and stability.</p><p>The past five years have witnessed a surge of new techniques employing RNA-seq to identify many new RNA variants, and isolation/enrichment methods are based on each variant type. In parallel, significant advances in computing power have expanded our ability to annotate and quantify these variants with high confidence from a single cell to complex tissues, along with the advent of consortium projects that have given rise to databases for their comparative and meta-analyses
+<sup><xref rid="ref-20" ref-type="bibr">20</xref>&#x02013;
+<xref rid="ref-22" ref-type="bibr">22</xref></sup>. The increasing sensitivity of detection, wherein extremely minute quantities (picograms) of RNAs can be amplified and sequenced, has also spurred development of single-cell RNA-seq (scRNAseq)
+<sup><xref rid="ref-23" ref-type="bibr">23</xref></sup> for identifying heterogeneity within cell populations and uncovering transcriptome differences that may be hidden in bulk RNA-seq
+<sup><xref rid="ref-24" ref-type="bibr">24</xref></sup>. Some of the commonly used sequencing technologies and bioinformatics packages for the detection of different RNA variants are provided in
+<xref ref-type="table" rid="T1">Table 1</xref>.</p><table-wrap id="T1" orientation="portrait" position="anchor"><label>Table 1. </label><caption><title>Summary list of bioinformatics pipelines/tools for analyzing different RNA variants.</title></caption><table frame="hsides" rules="groups" content-type="article-table"><thead><tr><th align="left" rowspan="2" valign="top" colspan="1">Variant analysis
+<break/>classification</th><th align="left" rowspan="2" valign="top" colspan="1">Biochemical methods (methods for
+<break/>feature enrichment)</th><th align="left" valign="top" rowspan="1" colspan="1">Bioinformatics tools</th></tr><tr><th align="left" valign="top" rowspan="1" colspan="1">Pre-processing tools</th><th align="left" valign="top" rowspan="1" colspan="1">Analysis tools</th></tr></thead><tbody><tr><td align="left" valign="top" rowspan="1" colspan="1">Alternative splice
+<break/>variants</td><td align="left" valign="top" rowspan="1" colspan="1">a. RNAseq post Poly(A) enrichment for
+<break/>mRNA pulldown
+<break/>b. Isoform sequencing (Iso-Seq) and
+<break/>SLR-RNA-seq
+<sup><xref rid="ref-95" ref-type="bibr">95</xref></sup> (synthetic long-read)
+<break/>for full-length transcript sequencing
+<break/>c. RNAseR enrichment for circular
+<break/>RNA</td><td align="left" valign="top" rowspan="1" colspan="1">- Quality check: fastQC
+<break/>and HTSeq
+<break/>- Processing: Fastx,
+<break/>Trimmomatic, and
+<break/>cutadapt
+<break/>- Mapping: STAR
+<sup><xref rid="ref-96" ref-type="bibr">96</xref></sup>,
+<break/>OLego
+<sup><xref rid="ref-97" ref-type="bibr">97</xref></sup>, and TopHat
+<sup><xref rid="ref-98" ref-type="bibr">98</xref></sup>
+</td><td align="left" valign="top" rowspan="1" colspan="1">rMATS
+<sup><xref rid="ref-99" ref-type="bibr">99</xref></sup>,
+<break/>MISO
+<sup><xref rid="ref-53" ref-type="bibr">53</xref></sup>, IRCall,
+<break/>CIRCexplorer
+<sup><xref rid="ref-44" ref-type="bibr">44</xref></sup>,
+<break/>MAJIQ
+<sup><xref rid="ref-37" ref-type="bibr">37</xref></sup>, and DEXSeq</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">5&#x02032; and 3&#x02032; end
+<break/>variants</td><td align="left" valign="top" rowspan="1" colspan="1">a. 3&#x02032; end enrichment libraries: 3P-Seq,
+<break/>PAPERCLIP, and 3&#x02032;-Seq
+<break/>b. poly(A) tail length: TAIL-seq, PAL-seq,
+<break/>and LM-PAT
+<break/>c. 5&#x02032; end enrichment libraries: CAGE
+<sup><xref rid="ref-100" ref-type="bibr">100</xref></sup>
+<break/>and deepCAGE</td><td align="left" valign="top" rowspan="1" colspan="1">- Quality check: fastQC and HTSeq
+<break/>- Processing: Fastx,
+<break/>Trimmomatic, and
+<break/>cutadapt
+<break/>- Mapping: STAR, OLego,
+<break/>and TopHat</td><td align="left" valign="top" rowspan="1" colspan="1">MISO and DaPars</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">RNA modification
+<break/>variants</td><td align="left" valign="top" rowspan="1" colspan="1">a. antibody-based IP: m6A, m1A, m5C,
+<break/>and hm5C
+<break/>b. Selective RNA chemistry: m5C and
+<break/>&#x003a8;</td><td align="left" valign="top" rowspan="1" colspan="1">- Processing: flexbar and
+<break/>Fastx
+<break/>- Mapping: STAR, OLego,
+<break/>and TopHat</td><td align="left" valign="top" rowspan="1" colspan="1">MACS
+<sup><xref rid="ref-101" ref-type="bibr">101</xref></sup>, HOMER
+<sup><xref rid="ref-102" ref-type="bibr">102</xref></sup>,
+<break/>CIMS
+<sup><xref rid="ref-103" ref-type="bibr">103</xref></sup>, and CITS
+<sup><xref rid="ref-104" ref-type="bibr">104</xref></sup>
+</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Translational variants</td><td align="left" valign="top" rowspan="1" colspan="1">a. Ribosome profiling
+<break/>b. TATL-seq for alternative transcript
+<break/>leader sequences
+<break/>c. Poly(A)-primed sequencing (2P-seq)
+<break/>d. Frac-Seq and TrIP-seq</td><td align="left" valign="top" rowspan="1" colspan="1">- Quality check: fastQC
+<break/>and HTSeq
+<break/>- Processing: Fastx,
+<break/>Trimmomatic, and
+<break/>cutadapt
+<break/>- Mapping: STAR, OLego,
+<break/>and TopHat</td><td align="left" valign="top" rowspan="1" colspan="1">Plastid, RiboTaper
+<sup><xref rid="ref-105" ref-type="bibr">105</xref></sup>,
+<break/>Cufflinks/Cuffdiff
+<sup><xref rid="ref-106" ref-type="bibr">106</xref></sup>,
+<break/>and DESeq</td></tr></tbody></table></table-wrap><p>In this review, we discuss different types of mRNA variants commonly found in metazoans, consider the latest advances in techniques to identify them, and provide a brief overview of the recent developments in bioinformatics pipelines for their quantitative analyses.</p></sec><sec><title>Decoding the splice variants</title><p>Pre-mRNA splicing is an essential step for the expression of most genes in metazoans. Splice sites within a pre-mRNA facilitate the splicing and ligation of introns and exons, respectively, producing a mature mRNA transcript. Alternative splicing involves differential usage of splice sites to yield multiple mRNAs from a single gene. The functional outcomes are increased proteome diversity and the introduction of premature termination codons to degrade mRNAs by nonsense-mediated decay
+<sup><xref rid="ref-25" ref-type="bibr">25</xref></sup> and to generate variability in untranslated regions (UTRs) which modulate mRNA translation efficiency, stability, and localization
+<sup><xref rid="ref-26" ref-type="bibr">26</xref>,
+<xref rid="ref-27" ref-type="bibr">27</xref></sup>. Given the direct and widespread impact of alternative splicing on eukaryotic gene expression, cataloging the full repertoire of splice variants within individual cell types, developmental stages, and different human diseases has been a focus of many research laboratories.</p><p>The initial RNA-seq studies for detecting splicing patterns suffered from short read lengths, limiting the reliable genomic alignment of the alternative exon-exon junctions. Clever computational approaches, however, overcame these limitations through the addition of all potential splice junctions to the reference genome and accounting for them within the alignment mix
+<sup><xref rid="ref-28" ref-type="bibr">28</xref>&#x02013;
+<xref rid="ref-30" ref-type="bibr">30</xref></sup>. The results transformed our view of the extent and complexity of eukaryotic transcriptomes, as more than 95% of human multi-exon genes were found to have alternatively spliced isoforms
+<sup><xref rid="ref-31" ref-type="bibr">31</xref></sup>. Importantly, calculating the number of mapped reads against individual exons plus each splice junction provided a direct measure of splicing efficiency that allowed precise quantification of isoform ratios.</p><p>The development of strand-specific and paired-end sequencing led to improved mapping, the discovery of pervasive anti-sense transcription
+<sup><xref rid="ref-32" ref-type="bibr">32</xref>,
+<xref rid="ref-33" ref-type="bibr">33</xref></sup>, and many novel splice variants in vertebrate species
+<sup><xref rid="ref-34" ref-type="bibr">34</xref>,
+<xref rid="ref-35" ref-type="bibr">35</xref></sup>. Emerging technologies are geared toward sequencing the full-length transcripts (for example, Iso-seq
+<sup><xref rid="ref-36" ref-type="bibr">36</xref></sup>) such that variably spliced regions from different areas of a single gene can be accurately connected to provide information about the entire mRNA isoforms (that is, from the 5&#x02032; end to the poly[A] tail). There has also been a strong push to improve the existing algorithms to capture the full complexity of splicing patterns within existing RNA-seq data. For instance, Vaquero-Garcia
+<italic>et al</italic>. have recently developed a new computational pipeline to accurately detect, visualize, and quantify complex local splice variants that are tissue-specific or change dynamically across different experimental conditions
+<sup><xref rid="ref-37" ref-type="bibr">37</xref></sup>.
+<bold/>
+</p><p>In addition to the discovery of variably spliced regions, RNA-seq has been an incredible asset for the investigation of splicing intermediates and novel splice products. For instance, it led to the identification of recursive splicing where long introns require specific exon contexts and are spliced out in phases rather than the usual two-step process
+<sup><xref rid="ref-38" ref-type="bibr">38</xref>,
+<xref rid="ref-39" ref-type="bibr">39</xref></sup>. Recursive splicing uses cryptic sites within the intron, known as recursive splice (RS) site/ratchet points, which are surprisingly more conserved than the regular 5&#x02032; and 3&#x02032; splice sites. However, the identification of these RS sites required extensive deep sequencing with over a billion paired-end reads, without poly(A) selection in an attempt to capture pre-mRNA and nascent RNA transcripts
+<sup><xref rid="ref-40" ref-type="bibr">40</xref>,
+<xref rid="ref-41" ref-type="bibr">41</xref></sup>. Likewise, RNA-seq has renewed interest in studying circular RNAs (circRNAs). The discovery of circRNAs, though known for over two decades, remained mostly serendipitous
+<sup><xref rid="ref-42" ref-type="bibr">42</xref>,
+<xref rid="ref-43" ref-type="bibr">43</xref></sup>. Typical RNA-seq experiments fail to conserve RNA circularity because fragmentation and the absence of a poly(A) tail or free 5&#x02032; or 3&#x02032; end cause de-enrichment of circRNAs during most library preparations. However, the lack of exposed 5&#x02032; or 3&#x02032; ends also stabilizes the circRNAs, making them resistant to exonuclease-mediated degradation. The recent development of biochemical methods to enrich for circRNAs (for example, RNAseR treatment to digest single-stranded RNA) along with new computational strategies (CIRCexplorer
+<sup><xref rid="ref-44" ref-type="bibr">44</xref></sup>) to mine the existing Encyclopedia of DNA Elements (ENCODE) Ribozero RNA-seq data has aided their
+<italic>de novo</italic> detection in humans, mice, and
+<italic>Caenorhabditis elegans</italic>. The results have revealed that most circRNAs are non-coding splice variants containing multiple exons located in the middle of genes that are often expressed in a tissue- and developmental stage-specific manner and that these variants may act as sponges to antagonize microRNA activity
+<sup><xref rid="ref-45" ref-type="bibr">45</xref>,
+<xref rid="ref-46" ref-type="bibr">46</xref></sup>.</p></sec><sec><title>Cracking the terminal variants</title><p>Whereas the gene body variants in mRNAs promote proteome diversity, variability at the terminal ends is known to serve more of a regulatory role in protein synthesis. This realization has led to a strong surge in the development of new methodologies to identify all the 5&#x02032; and 3&#x02032; end variants within eukaryotic transcriptomes. For instance, recent methods have revealed that alternative transcription start sites (TSSs) are prevalent in the human genome and that approximately 30 to 50% of human genes have more than one promoter
+<sup><xref rid="ref-47" ref-type="bibr">47</xref></sup>. A substantial number of these alternative TSSs alter the 5&#x02032; UTRs, in turn modulating the translational output of mRNAs
+<sup><xref rid="ref-48" ref-type="bibr">48</xref></sup>. 5&#x02032; UTRs are known to comprise many regulatory features&#x02014;5&#x02032; cap structure, internal ribosome entry sites, G-quadruplexes, and so on&#x02014;that can drastically affect the ability of ribosomes to assemble and initiate translation. Apart from forcing the gain or loss of such regulatory features, alternative TSSs generate RNA variants with different upstream open reading frames (uORFs). Ribosome footprinting studies have uncovered a significant fraction of such short translated uORFs within 5&#x02032; UTRs that potently repress the translation of downstream ORFs
+<sup><xref rid="ref-49" ref-type="bibr">49</xref>&#x02013;
+<xref rid="ref-51" ref-type="bibr">51</xref></sup>.</p><p>Apart from providing proper signals for mRNA 3&#x02032; end formation and poly(A) site selection, the 3&#x02032; UTR is considered to be a regulatory hub for gene regulation. Proper 3&#x02032; end formation is essential for nuclear export and stability of mature mRNAs and their efficient translation
+<sup><xref rid="ref-52" ref-type="bibr">52</xref></sup>. Analysis of existing RNA-seq data with new computational pipelines (MISO and DaPars)
+<sup><xref rid="ref-53" ref-type="bibr">53</xref>,
+<xref rid="ref-54" ref-type="bibr">54</xref></sup> or sequencing of the libraries enriched for 3&#x02032; ends of mRNAs (3P-Seq, 3&#x02032;-seq, 3&#x02032;READS, and PAPERCLIP) have documented that over 50% of human mRNAs express variable 3&#x02032; UTRs&#x02014;generated by alternative cleavage, splicing, and polyadenylation. Importantly, these 3&#x02032; UTR variants are differentially expressed during differentiation, development, and disease
+<sup><xref rid="ref-55" ref-type="bibr">55</xref>&#x02013;
+<xref rid="ref-58" ref-type="bibr">58</xref></sup>, and they often influence the accessibility of microRNAs and RNA-binding proteins (RBPs) to the 3&#x02032; UTR
+<italic>cis-</italic>regulatory elements affecting mRNA stability, localization, and translation efficiency
+<sup><xref rid="ref-59" ref-type="bibr">59</xref></sup>.</p><p>Poly(A) tail length is another important 3&#x02032; UTR feature that impacts the post-transcriptional fate of mRNAs. Although some biochemical methods (LMPAT
+<sup><xref rid="ref-60" ref-type="bibr">60</xref></sup> and ePAT
+<sup><xref rid="ref-61" ref-type="bibr">61</xref></sup>) can accurately measure the poly(A) tail lengths of individual genes, precise measurements at a genome-wide scale are hampered by difficulties in sequencing homopolymeric sequences longer than 30 nucleotides. However, new advances in poly(A) tail length profiling methods (TAIL-seq and PAL-seq) use specialized 3&#x02032; adapters, RNAse T1 treatment (digests the mRNA body but not the poly[A] tail), and the spike in controls in library preparation. These biochemical improvements in conjunction with refined machine-learning algorithms to analyze the intensity of raw fluorescence signals allow the precise estimation of poly(A) tail lengths. These new methodologies have started to provide the first high-resolution, global views of poly(A) tail length variants and their relevance to mRNA stability and translational efficiency in cells and tissues from a variety of species, including yeast,
+<italic>Drosophila</italic>, zebrafish,
+<italic>Xenopus</italic>, mouse, and human
+<sup><xref rid="ref-62" ref-type="bibr">62</xref>&#x02013;
+<xref rid="ref-64" ref-type="bibr">64</xref></sup>.
+<bold/>
+</p></sec><sec><title>Marking the variants</title><p>Though originally discovered in highly abundant rRNAs, tRNAs, and snRNAs, newly tailored mRNA sequencing methods have revealed that base modifications and editing sites are also highly prevalent in mRNAs
+<sup><xref rid="ref-65" ref-type="bibr">65</xref></sup>. The study of mRNA modifications (methylation, hydroxy-methylation, and pseudouridylation) plus editing (A&#x02013;I or C&#x02013;U) is now commonly referred to as &#x0201c;epitranscriptomics&#x0201d;
+<sup><xref rid="ref-66" ref-type="bibr">66</xref>&#x02013;
+<xref rid="ref-68" ref-type="bibr">68</xref></sup>. Much like the epigenome, the epitranscriptome expands the information content of nucleic acids, rendering them additional structural and functional flexibility. Recent advances have led to the profiling of millions of modification sites for each of the known mRNA modifications, including methylation, as well as base editing (such as A&#x02013;I or C&#x02013;U)
+<sup><xref rid="ref-69" ref-type="bibr">69</xref>,
+<xref rid="ref-70" ref-type="bibr">70</xref></sup>. Whereas most of these have been observed across all genes, some are limited to specific classes of transcripts.</p><p>Remarkably, the genome-wide mapping of modifications and editing sites has not only expanded the landscape of this new class of mRNA variants within eukaryotic transcriptomes but also unraveled their dynamics in abundance and site selection in response to intra- and extra-cellular stimuli
+<sup><xref rid="ref-71" ref-type="bibr">71</xref>&#x02013;
+<xref rid="ref-74" ref-type="bibr">74</xref></sup>. The impact of these post-transcriptional marks is now recognized in almost every step of gene regulation, including mRNA processing, stability, and translation
+<sup><xref rid="ref-75" ref-type="bibr">75</xref></sup>. An interesting example is the recent work on ADAR (adenosine deaminase acting on RNA) enzymes, showing their role in protecting double-stranded RNA (dsRNA) against recognition by dsRNA response pathways
+<sup><xref rid="ref-76" ref-type="bibr">76</xref></sup>. Importantly, the writers, erasers, and reader proteins for some of these modifications have been identified, and the phenotypic and molecular consequences of their gain or loss of function have been demonstrated
+<sup><xref rid="ref-77" ref-type="bibr">77</xref></sup>.</p><p>Today, the transcriptome-wide mapping of modified nucleosides relies on either antibody-based immunoprecipitation (m6A, m1A, m5C, and hm5C)
+<sup><xref rid="ref-66" ref-type="bibr">66</xref>,
+<xref rid="ref-78" ref-type="bibr">78</xref></sup> or a modification-selective RNA chemistry approach (m5C and &#x003a8;)
+<sup><xref rid="ref-79" ref-type="bibr">79</xref>,
+<xref rid="ref-80" ref-type="bibr">80</xref></sup> to enrich for the target modification during library preparation. However, further optimization of these methods is needed to simultaneously obtain single-nucleotide resolution and stoichiometry of RNA modifications, as fractional modification represents another mechanism to generate functional diversity within individual mRNA pools. Current epitranscriptome profiling techniques accurately identify the modification sites within RNA transcripts but fail to provide information about the modified fraction for each site. Given that a modification may alter the mRNA secondary structure or binding site for RBPs, quantitative fractional information about each modified site in the transcriptome is highly desired.</p></sec><sec><title>Translating the variants</title><p>Early dogma predicted that the amount of mRNA for a given gene directly correlated with the amount of protein made. However, we now know that through sequence variations discussed above and along with other RNA control elements, the translation of specific transcripts can be fine-tuned for the purpose of responding to cellular needs in a variety of contexts
+<sup><xref rid="ref-81" ref-type="bibr">81</xref></sup>. Therefore, estimating average gene-level translation by ribosome profiling
+<sup><xref rid="ref-82" ref-type="bibr">82</xref></sup>&#x02014;a technique that uses short, approximately 28 nucleotide ribosome footprints on mRNA as a means of quantifying protein output&#x02014;may not provide an accurate measure of the translational potential for individual RNA variants or isoforms. This is especially true for splice variants, which can exhibit variable coding capacities because of (i) sequence differences, (ii) altered mRNA half-lives, or (iii) differential nucleo-cytoplasmic export. Indeed, several recent efforts to measure isoform-specific translation have revealed discrete effects of 5&#x02032; end
+<sup><xref rid="ref-83" ref-type="bibr">83</xref></sup>, 3&#x02032; end
+<sup><xref rid="ref-84" ref-type="bibr">84</xref></sup>, and coding sequence
+<sup><xref rid="ref-85" ref-type="bibr">85</xref>,
+<xref rid="ref-86" ref-type="bibr">86</xref></sup> diversity.</p><p>Using translation-associated transcript leader sequencing (TATL-seq), Arribere and Gilbert successfully mapped transcript leader boundaries across the yeast genome and discovered hundreds of new alternative transcript leader variants, the majority having differential translation efficiencies
+<sup><xref rid="ref-83" ref-type="bibr">83</xref></sup>. Complementing this work, Spies
+<italic>et al</italic>. acquired decay and translation rates for proximal and distal 3&#x02032; UTR variants using poly(A)-primed sequencing (2P-seq) but found only a modest regulatory influence for alternative 3&#x02032; UTR sequences
+<sup><xref rid="ref-84" ref-type="bibr">84</xref></sup>. By comparing isoform ratios in cytoplasmic and polyribosomal extracts from human cells (Frac-seq), Sterne-Weiler
+<italic>et al</italic>. observed that not all splice isoforms are similarly loaded into polyribosomes and that the presence of microRNA binding sites or premature termination codons can greatly affect the loading of individual isoforms into polyribosomes
+<sup><xref rid="ref-85" ref-type="bibr">85</xref></sup>. Similarly, a major impact of mRNA isoforms on protein output was observed by Floor and Doudna, who recently adapted the classic approach of polysome profiling to measure isoform-specific translation (TrIP-seq)
+<sup><xref rid="ref-87" ref-type="bibr">87</xref></sup>.</p></sec><sec><title>Where are we headed?</title><p>Emerging technologies have given us a powerful toolbox to detect and quantify RNA variants from simple unicellular organisms to complex vertebrates. These new techniques allow for previously unimagined access to compare transcriptome patterns across species, tissues, developmental stages, and disease states. We now can isolate and sequence picogram amounts of RNA from fresh and formalin-fixed paraffin-embedded tissue specimens and even identify variants within single cells that are isolated from a wide range of biological samples. Moreover, the ENCODE project has generated unprecedented information about the many different RNA variants present in model organisms and human cells. Systematic discovery of
+<italic>cis</italic>-acting RNA elements,
+<italic>trans</italic>-acting RBPs that bind to these elements to control the production of variants, and their expression and subcellular localization is paving the way to uncovering the underlying code for generating much of the RNA diversity
+<sup><xref rid="ref-88" ref-type="bibr">88</xref>,
+<xref rid="ref-89" ref-type="bibr">89</xref></sup>. If sequencing costs continue to decline as anticipated, clinical measurements of normal and aberrant RNA variants in body fluids or tissue biopsies in the not-so-distant future may become part of personalized medicine, making for more accurate diagnoses and offering better-informed treatment plans.</p><p>However, as with most opportunities, certain challenges must be overcome to realize their full potential. What are the common challenges facing global profiling of RNA variants? First, biological specimens are usually heterogeneous, composed of multiple cell types. Since most RNA variants are expressed in a single cell type-specific
+<sup><xref rid="ref-90" ref-type="bibr">90</xref></sup>, developmental stage-specific
+<sup><xref rid="ref-91" ref-type="bibr">91</xref></sup>, or disease-specific
+<sup><xref rid="ref-92" ref-type="bibr">92</xref></sup> manner, particular attention must be paid when selecting optimal biological specimens for sequencing. For instance, individual cell types from most tissues now can be isolated by serial dilution, fluorescence-activated cell sorting, or laser-capture micro-dissection. Therefore, developing compound protocols that combine cell type-specific purification strategies with sequencing may provide more reliable information on RNA variants within particular cell types under normal or disease states. Second, identifying RNA variants from single-cell RNA-seq often requires multiple amplification steps to produce a sufficient quantity of nucleic acid for sequencing. These amplification steps introduce stochastic bias for certain sequences, which may cause dropout of certain low-abundance variants while amplifying others, thereby reducing the accuracy, reproducibility, and quantification power of detecting variants within single cells
+<sup><xref rid="ref-93" ref-type="bibr">93</xref></sup>. Third, there has been a rapid surge in the deposition of transcriptome data in public repositories in recent years. This has resulted in new challenges about how to effectively integrate the RNA variant information with other &#x0201c;Omics&#x0201d; datasets and build streamlined platforms for metagene analyses. Finally, perhaps the biggest challenge facing the field is the storage, distribution, and analysis of massive amounts of sequencing data. Multiple consortium projects like ENCODE, TCGA (The Cancer Genome Atlas), ExAC (Exome Aggregation Consortium), and other individual centers generate sequencing data at an astounding pace, doubling their numbers every seven months
+<sup><xref rid="ref-94" ref-type="bibr">94</xref></sup>. As the world moves toward a future of personalized genomic diagnostics and medicine, Stephens
+<italic>et al</italic>. propose that real-time transcript expression level analysis and the development of genomic variant databases against reference genomes will help solve the data storage problem
+<sup><xref rid="ref-94" ref-type="bibr">94</xref></sup>. With growing data, there is a need for platform development for data distribution. Cloud computing-based analysis may serve as the most practical option. While sequencing-based variant analysis provides a big boost for the future of precision medicine, handling genomics data is one of the most pressing challenges for the next decade.</p></sec></body><back><ack><title>Acknowledgments</title><p>We thank Sayeepriyadarshini Anakk and the members of the AK lab for constructive criticism and suggestions.</p></ack><ref-list><ref id="ref-1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adams</surname><given-names>MD</given-names></name><name><surname>Kelley</surname><given-names>JM</given-names></name><name><surname>Gocayne</surname><given-names>JD</given-names></name><etal/></person-group>:
+<article-title>Complementary DNA sequencing: expressed sequence tags and human genome project.</article-title>
+<source><italic>Science.</italic></source>
+<year>1991</year>;<volume>252</volume>(<issue>5013</issue>):<fpage>1651</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.2047873</pub-id>
+<?supplied-pmid 2047873?><pub-id pub-id-type="pmid">2047873</pub-id></mixed-citation></ref><ref id="ref-2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clark</surname><given-names>TA</given-names></name><name><surname>Sugnet</surname><given-names>CW</given-names></name><name><surname>Ares</surname><given-names>M</given-names><suffix>Jr</suffix></name></person-group>:
+<article-title>Genomewide analysis of mRNA processing in yeast using splicing-specific microarrays.</article-title>
+<source><italic>Science.</italic></source>
+<year>2002</year>;<volume>296</volume>(<issue>5569</issue>):<fpage>907</fpage>&#x02013;<lpage>10</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1069415</pub-id>
+<?supplied-pmid 11988574?><pub-id pub-id-type="pmid">11988574</pub-id></mixed-citation></ref><ref id="ref-3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Castle</surname><given-names>JC</given-names></name><name><surname>Zhang</surname><given-names>C</given-names></name><name><surname>Shah</surname><given-names>JK</given-names></name><etal/></person-group>:
+<article-title>Expression of 24,426 human alternative splicing events and predicted
+<italic>cis</italic> regulation in 48 tissues and cell lines.</article-title>
+<source><italic>Nat Genet.</italic></source>
+<year>2008</year>;<volume>40</volume>(<issue>12</issue>):<fpage>1416</fpage>&#x02013;<lpage>25</lpage>.
+<pub-id pub-id-type="doi">10.1038/ng.264</pub-id>
+<!--<pub-id pub-id-type="pmcid">3197713</pub-id>-->
+<?supplied-pmid 18978788?><pub-id pub-id-type="pmid">18978788</pub-id></mixed-citation></ref><ref id="ref-4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanger</surname><given-names>F</given-names></name><name><surname>Nicklen</surname><given-names>S</given-names></name><name><surname>Coulson</surname><given-names>AR</given-names></name></person-group>:
+<article-title>DNA sequencing with chain-terminating inhibitors.</article-title>
+<source><italic>Proc Natl Acad Sci U S A.</italic></source>
+<year>1977</year>;<volume>74</volume>(<issue>12</issue>):<fpage>5463</fpage>&#x02013;<lpage>7</lpage>.
+<pub-id pub-id-type="doi">10.1253/circj.CJ-14-1144</pub-id>
+<!--<pub-id pub-id-type="pmcid">431765</pub-id>-->
+<?supplied-pmid 271968?><pub-id pub-id-type="pmid">271968</pub-id></mixed-citation></ref><ref id="ref-5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sanger</surname><given-names>F</given-names></name><name><surname>Air</surname><given-names>GM</given-names></name><name><surname>Barrell</surname><given-names>BG</given-names></name><etal/></person-group>:
+<article-title>Nucleotide sequence of bacteriophage phi X174 DNA.</article-title>
+<source><italic>Nature.</italic></source>
+<year>1977</year>;<volume>265</volume>(<issue>5569</issue>):<fpage>687</fpage>&#x02013;<lpage>95</lpage>.
+<pub-id pub-id-type="doi">10.1038/265687a0</pub-id>
+<?supplied-pmid 870828?><pub-id pub-id-type="pmid">870828</pub-id></mixed-citation></ref><ref id="ref-6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prober</surname><given-names>JM</given-names></name><name><surname>Trainor</surname><given-names>GL</given-names></name><name><surname>Dam</surname><given-names>RJ</given-names></name><etal/></person-group>:
+<article-title>A system for rapid DNA sequencing with fluorescent chain-terminating dideoxynucleotides.</article-title>
+<source><italic>Science.</italic></source>
+<year>1987</year>;<volume>238</volume>(<issue>4825</issue>):<fpage>336</fpage>&#x02013;<lpage>41</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.2443975</pub-id>
+<?supplied-pmid 2443975?><pub-id pub-id-type="pmid">2443975</pub-id></mixed-citation></ref><ref id="ref-7"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beck</surname><given-names>S</given-names></name><name><surname>Pohl</surname><given-names>FM</given-names></name></person-group>:
+<article-title>DNA sequencing with direct blotting electrophoresis.</article-title>
+<source><italic>EMBO J.</italic></source>
+<year>1984</year>;<volume>3</volume>(<issue>12</issue>):<fpage>2905</fpage>&#x02013;<lpage>9</lpage>.
+<!--<pub-id pub-id-type="pmcid">557787</pub-id>-->
+<?supplied-pmid 6396083?><pub-id pub-id-type="pmid">6396083</pub-id></mixed-citation></ref><ref id="ref-8"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>LM</given-names></name><name><surname>Sanders</surname><given-names>JZ</given-names></name><name><surname>Kaiser</surname><given-names>RJ</given-names></name><etal/></person-group>:
+<article-title>Fluorescence detection in automated DNA sequence analysis.</article-title>
+<source><italic>Nature.</italic></source>
+<year>1986</year>;<volume>321</volume>(<issue>6071</issue>):<fpage>674</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1038/321674a0</pub-id>
+<?supplied-pmid 3713851?><pub-id pub-id-type="pmid">3713851</pub-id></mixed-citation></ref><ref id="ref-9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bentley</surname><given-names>DR</given-names></name><name><surname>Balasubramanian</surname><given-names>S</given-names></name><name><surname>Swerdlow</surname><given-names>HP</given-names></name><etal/></person-group>:
+<article-title>Accurate whole human genome sequencing using reversible terminator chemistry.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2008</year>;<volume>456</volume>(<issue>7218</issue>):<fpage>53</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature07517</pub-id>
+<!--<pub-id pub-id-type="pmcid">2581791</pub-id>-->
+<?supplied-pmid 18987734?><pub-id pub-id-type="pmid">18987734</pub-id></mixed-citation></ref><ref id="ref-10"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Margulies</surname><given-names>M</given-names></name><name><surname>Egholm</surname><given-names>M</given-names></name><name><surname>Altman</surname><given-names>WE</given-names></name><etal/></person-group>:
+<article-title>Genome sequencing in microfabricated high-density picolitre reactors.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2005</year>;<volume>437</volume>(<issue>7052</issue>):<fpage>376</fpage>&#x02013;<lpage>80</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature03959</pub-id>
+<!--<pub-id pub-id-type="pmcid">1464427</pub-id>-->
+<?supplied-pmid 16056220?><pub-id pub-id-type="pmid">16056220</pub-id></mixed-citation></ref><ref id="ref-11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rothberg</surname><given-names>JM</given-names></name><name><surname>Hinz</surname><given-names>W</given-names></name><name><surname>Rearick</surname><given-names>TM</given-names></name><etal/></person-group>:
+<article-title>An integrated semiconductor device enabling non-optical genome sequencing.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2011</year>;<volume>475</volume>(<issue>7356</issue>):<fpage>348</fpage>&#x02013;<lpage>52</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature10242</pub-id>
+<?supplied-pmid 21776081?><pub-id pub-id-type="pmid">21776081</pub-id></mixed-citation></ref><ref id="ref-12"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valouev</surname><given-names>A</given-names></name><name><surname>Ichikawa</surname><given-names>J</given-names></name><name><surname>Tonthat</surname><given-names>T</given-names></name><etal/></person-group>:
+<article-title>A high-resolution, nucleosome position map of
+<italic>C. elegans</italic> reveals a lack of universal sequence-dictated positioning.</article-title>
+<source><italic>Genome Res.</italic></source>
+<year>2008</year>;<volume>18</volume>(<issue>7</issue>):<fpage>1051</fpage>&#x02013;<lpage>63</lpage>.
+<pub-id pub-id-type="doi">10.1101/gr.076463.108</pub-id>
+<!--<pub-id pub-id-type="pmcid">2493394</pub-id>-->
+<?supplied-pmid 18477713?><pub-id pub-id-type="pmid">18477713</pub-id></mixed-citation></ref><ref id="ref-13"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goodwin</surname><given-names>S</given-names></name><name><surname>McPherson</surname><given-names>JD</given-names></name><name><surname>McCombie</surname><given-names>WR</given-names></name></person-group>:
+<article-title>Coming of age: ten years of next-generation sequencing technologies.</article-title>
+<source><italic>Nat Rev Genet.</italic></source>
+<year>2016</year>;<volume>17</volume>(<issue>6</issue>):<fpage>333</fpage>&#x02013;<lpage>51</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrg.2016.49</pub-id>
+<?supplied-pmid 27184599?><pub-id pub-id-type="pmid">27184599</pub-id></mixed-citation></ref><ref id="ref-14"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eid</surname><given-names>J</given-names></name><name><surname>Fehr</surname><given-names>A</given-names></name><name><surname>Gray</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>Real-time DNA sequencing from single polymerase molecules.</article-title>
+<source><italic>Science.</italic></source>
+<year>2009</year>;<volume>323</volume>(<issue>5910</issue>):<fpage>133</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1162986</pub-id>
+<?supplied-pmid 19023044?><pub-id pub-id-type="pmid">19023044</pub-id></mixed-citation></ref><ref id="ref-15"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morin</surname><given-names>R</given-names></name><name><surname>Bainbridge</surname><given-names>M</given-names></name><name><surname>Fejes</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Profiling the HeLa S3 transcriptome using randomly primed cDNA and massively parallel short-read sequencing.</article-title>
+<source><italic>Biotechniques.</italic></source>
+<year>2008</year>;<volume>45</volume>(<issue>1</issue>):<fpage>81</fpage>&#x02013;<lpage>94</lpage>.
+<pub-id pub-id-type="doi">10.2144/000112900</pub-id>
+<?supplied-pmid 18611170?><pub-id pub-id-type="pmid">18611170</pub-id></mixed-citation></ref><ref id="ref-16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>Z</given-names></name><name><surname>Gerstein</surname><given-names>M</given-names></name><name><surname>Snyder</surname><given-names>M</given-names></name></person-group>:
+<article-title>RNA-Seq: a revolutionary tool for transcriptomics.</article-title>
+<source><italic>Nat Rev Genet.</italic></source>
+<year>2009</year>;<volume>10</volume>(<issue>1</issue>):<fpage>57</fpage>&#x02013;<lpage>63</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrg2484</pub-id>
+<!--<pub-id pub-id-type="pmcid">2949280</pub-id>-->
+<?supplied-pmid 19015660?><pub-id pub-id-type="pmid">19015660</pub-id></mixed-citation></ref><ref id="ref-17"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nojima</surname><given-names>T</given-names></name><name><surname>Gomes</surname><given-names>T</given-names></name><name><surname>Grosso</surname><given-names>AR</given-names></name><etal/></person-group>:
+<article-title>Mammalian NET-Seq Reveals Genome-wide Nascent Transcription Coupled to RNA Processing.</article-title>
+<source><italic>Cell.</italic></source>
+<year>2015</year>;<volume>161</volume>(<issue>3</issue>):<fpage>526</fpage>&#x02013;<lpage>40</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.cell.2015.03.027</pub-id>
+<!--<pub-id pub-id-type="pmcid">4410947</pub-id>-->
+<?supplied-pmid 25910207?><pub-id pub-id-type="pmid">25910207</pub-id></mixed-citation></ref><ref id="ref-18"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Churchman</surname><given-names>LS</given-names></name><name><surname>Weissman</surname><given-names>JS</given-names></name></person-group>:
+<article-title>Nascent transcript sequencing visualizes transcription at nucleotide resolution.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2011</year>;<volume>469</volume>(<issue>7330</issue>):<fpage>368</fpage>&#x02013;<lpage>73</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature09652</pub-id>
+<!--<pub-id pub-id-type="pmcid">3880149</pub-id>-->
+<?supplied-pmid 21248844?><pub-id pub-id-type="pmid">21248844</pub-id></mixed-citation></ref><ref id="ref-19"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paulsen</surname><given-names>MT</given-names></name><name><surname>Veloso</surname><given-names>A</given-names></name><name><surname>Prasad</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>Use of Bru-Seq and BruChase-Seq for genome-wide assessment of the synthesis and stability of RNA.</article-title>
+<source><italic>Methods.</italic></source>
+<year>2014</year>;<volume>67</volume>(<issue>1</issue>):<fpage>45</fpage>&#x02013;<lpage>54</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.ymeth.2013.08.015</pub-id>
+<!--<pub-id pub-id-type="pmcid">4009065</pub-id>-->
+<?supplied-pmid 23973811?><pub-id pub-id-type="pmid">23973811</pub-id></mixed-citation></ref><ref id="ref-20"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Giulietti</surname><given-names>M</given-names></name><name><surname>Piva</surname><given-names>F</given-names></name><name><surname>D'Antonio</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>SpliceAid-F: a database of human splicing factors and their RNA-binding sites.</article-title>
+<source><italic>Nucleic Acids Res.</italic></source>
+<year>2013</year>;<volume>41</volume>(<issue>Database issue</issue>):<fpage>D125</fpage>&#x02013;<lpage>31</lpage>.
+<pub-id pub-id-type="doi">10.1093/nar/gks997</pub-id>
+<!--<pub-id pub-id-type="pmcid">3531144</pub-id>-->
+<?supplied-pmid 23118479?><pub-id pub-id-type="pmid">23118479</pub-id></mixed-citation></ref><ref id="ref-21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>D'Antonio</surname><given-names>M</given-names></name><name><surname>Castrgnan&#x000f2;</surname><given-names>T</given-names></name><name><surname>Pallocca</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>ASPicDB: a database web tool for alternative splicing analysis.</article-title>
+<source><italic>Methods Mol Biol.</italic></source>
+<year>2015</year>;<volume>1269</volume>:<fpage>365</fpage>&#x02013;<lpage>78</lpage>.
+<pub-id pub-id-type="doi">10.1007/978-1-4939-2291-8_23</pub-id>
+<?supplied-pmid 25577391?><pub-id pub-id-type="pmid">25577391</pub-id></mixed-citation></ref><ref id="ref-22"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Picardi</surname><given-names>E</given-names></name><name><surname>D'Erchia</surname><given-names>AM</given-names></name><name><surname>Lo Giudice</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>REDIportal: a comprehensive database of A-to-I RNA editing events in humans.</article-title>
+<source><italic>Nucleic Acids Res.</italic></source>
+<year>2016</year>; pii: gkw767.
+<pub-id pub-id-type="doi">10.1093/nar/gkw767</pub-id>
+<?supplied-pmid 27587585?><pub-id pub-id-type="pmid">27587585</pub-id></mixed-citation></ref><ref id="ref-23"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tang</surname><given-names>F</given-names></name><name><surname>Barbacioru</surname><given-names>C</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><etal/></person-group>:
+<article-title>mRNA-Seq whole-transcriptome analysis of a single cell.</article-title>
+<source><italic>Nat Methods.</italic></source>
+<year>2009</year>;<volume>6</volume>(<issue>5</issue>):<fpage>377</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="doi">10.1038/nmeth.1315</pub-id>
+<?supplied-pmid 19349980?><pub-id pub-id-type="pmid">19349980</pub-id></mixed-citation></ref><ref id="ref-24"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wills</surname><given-names>QF</given-names></name><name><surname>Livak</surname><given-names>KJ</given-names></name><name><surname>Tipping</surname><given-names>AJ</given-names></name><etal/></person-group>:
+<article-title>Single-cell gene expression analysis reveals genetic associations masked in whole-tissue experiments.</article-title>
+<source><italic>Nat Biotechnol.</italic></source>
+<year>2013</year>;<volume>31</volume>(<issue>8</issue>):<fpage>748</fpage>&#x02013;<lpage>52</lpage>.
+<pub-id pub-id-type="doi">10.1038/nbt.2642</pub-id>
+<?supplied-pmid 23873083?><pub-id pub-id-type="pmid">23873083</pub-id></mixed-citation></ref><ref id="ref-25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGlincy</surname><given-names>NJ</given-names></name><name><surname>Smith</surname><given-names>CW</given-names></name></person-group>:
+<article-title>Alternative splicing resulting in nonsense-mediated mRNA decay: what is the meaning of nonsense?</article-title>
+<source><italic>Trends Biochem Sci.</italic></source>
+<year>2008</year>;<volume>33</volume>(<issue>8</issue>):<fpage>385</fpage>&#x02013;<lpage>93</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.tibs.2008.06.001</pub-id>
+<?supplied-pmid 18621535?><pub-id pub-id-type="pmid">18621535</pub-id></mixed-citation></ref><ref id="ref-26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hughes</surname><given-names>TA</given-names></name></person-group>:
+<article-title>Regulation of gene expression by alternative untranslated regions.</article-title>
+<source><italic>Trends Genet.</italic></source>
+<year>2006</year>;<volume>22</volume>(<issue>3</issue>):<fpage>119</fpage>&#x02013;<lpage>22</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.tig.2006.01.001</pub-id>
+<?supplied-pmid 16430990?><pub-id pub-id-type="pmid">16430990</pub-id></mixed-citation></ref><ref id="ref-27"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalsotra</surname><given-names>A</given-names></name><name><surname>Cooper</surname><given-names>TA</given-names></name></person-group>:
+<article-title>Functional consequences of developmentally regulated alternative splicing.</article-title>
+<source><italic>Nat Rev Genet.</italic></source>
+<year>2011</year>;<volume>12</volume>(<issue>10</issue>):<fpage>715</fpage>&#x02013;<lpage>29</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrg3052</pub-id>
+<!--<pub-id pub-id-type="pmcid">3321218</pub-id>-->
+<?supplied-pmid 21921927?><pub-id pub-id-type="pmid">21921927</pub-id></mixed-citation></ref><ref id="ref-28"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mortazavi</surname><given-names>A</given-names></name><name><surname>Williams</surname><given-names>BA</given-names></name><name><surname>McCue</surname><given-names>K</given-names></name><etal/></person-group>:
+<article-title>Mapping and quantifying mammalian transcriptomes by RNA-Seq.</article-title>
+<source><italic>Nat Methods.</italic></source>
+<year>2008</year>;<volume>5</volume>(<issue>7</issue>):<fpage>621</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1038/nmeth.1226</pub-id>
+<?supplied-pmid 18516045?><pub-id pub-id-type="pmid">18516045</pub-id></mixed-citation></ref><ref id="ref-29"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>ET</given-names></name><name><surname>Sandberg</surname><given-names>R</given-names></name><name><surname>Luo</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>Alternative isoform regulation in human tissue transcriptomes.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2008</year>;<volume>456</volume>(<issue>7221</issue>):<fpage>470</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature07509</pub-id>
+<!--<pub-id pub-id-type="pmcid">2593745</pub-id>-->
+<?supplied-pmid 18978772?><pub-id pub-id-type="pmid">18978772</pub-id></mixed-citation></ref><ref id="ref-30"><label>30</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sultan</surname><given-names>M</given-names></name><name><surname>Schulz</surname><given-names>MH</given-names></name><name><surname>Richard</surname><given-names>H</given-names></name><etal/></person-group>:
+<article-title>A global view of gene activity and alternative splicing by deep sequencing of the human transcriptome.</article-title>
+<source><italic>Science.</italic></source>
+<year>2008</year>;<volume>321</volume>(<issue>5891</issue>):<fpage>956</fpage>&#x02013;<lpage>60</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1160342</pub-id>
+<?supplied-pmid 18599741?><pub-id pub-id-type="pmid">18599741</pub-id></mixed-citation></ref><ref id="ref-31"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>Q</given-names></name><name><surname>Shai</surname><given-names>O</given-names></name><name><surname>Lee</surname><given-names>LJ</given-names></name><etal/></person-group>:
+<article-title>Deep surveying of alternative splicing complexity in the human transcriptome by high-throughput sequencing.</article-title>
+<source><italic>Nat Genet.</italic></source>
+<year>2008</year>;<volume>40</volume>(<issue>12</issue>):<fpage>1413</fpage>&#x02013;<lpage>5</lpage>.
+<pub-id pub-id-type="doi">10.1038/ng.259</pub-id>
+<?supplied-pmid 18978789?><pub-id pub-id-type="pmid">18978789</pub-id></mixed-citation></ref><ref id="ref-32"><label>32</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seila</surname><given-names>AC</given-names></name><name><surname>Calabrese</surname><given-names>JM</given-names></name><name><surname>Levine</surname><given-names>SS</given-names></name><etal/></person-group>:
+<article-title>Divergent transcription from active promoters.</article-title>
+<source><italic>Science.</italic></source>
+<year>2008</year>;<volume>322</volume>(<issue>5909</issue>):<fpage>1849</fpage>&#x02013;<lpage>51</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1162253</pub-id>
+<!--<pub-id pub-id-type="pmcid">2692996</pub-id>-->
+<?supplied-pmid 19056940?><pub-id pub-id-type="pmid">19056940</pub-id></mixed-citation></ref><ref id="ref-33"><label>33</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Faghihi</surname><given-names>MA</given-names></name><name><surname>Wahlestedt</surname><given-names>C</given-names></name></person-group>:
+<article-title>Regulatory roles of natural antisense transcripts.</article-title>
+<source><italic>Nat Rev Mol Cell Biol.</italic></source>
+<year>2009</year>;<volume>10</volume>(<issue>9</issue>):<fpage>637</fpage>&#x02013;<lpage>43</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrm2738</pub-id>
+<!--<pub-id pub-id-type="pmcid">2850559</pub-id>-->
+<?supplied-pmid 19638999?><pub-id pub-id-type="pmid">19638999</pub-id></mixed-citation></ref><ref id="ref-34"><label>34</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Merkin</surname><given-names>J</given-names></name><name><surname>Russell</surname><given-names>C</given-names></name><name><surname>Chen</surname><given-names>P</given-names></name><etal/></person-group>:
+<article-title>Evolutionary dynamics of gene and isoform regulation in Mammalian tissues.</article-title>
+<source><italic>Science.</italic></source>
+<year>2012</year>;<volume>338</volume>(<issue>6114</issue>):<fpage>1593</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1228186</pub-id>
+<!--<pub-id pub-id-type="pmcid">3568499</pub-id>-->
+<?supplied-pmid 23258891?><pub-id pub-id-type="pmid">23258891</pub-id></mixed-citation></ref><ref id="ref-35"><label>35</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barbosa-Morais</surname><given-names>NL</given-names></name><name><surname>Irimia</surname><given-names>M</given-names></name><name><surname>Pan</surname><given-names>Q</given-names></name><etal/></person-group>:
+<article-title>The evolutionary landscape of alternative splicing in vertebrate species.</article-title>
+<source><italic>Science.</italic></source>
+<year>2012</year>;<volume>338</volume>(<issue>6114</issue>):<fpage>1587</fpage>&#x02013;<lpage>93</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1230612</pub-id>
+<?supplied-pmid 23258890?><pub-id pub-id-type="pmid">23258890</pub-id></mixed-citation></ref><ref id="ref-36"><label>36</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharon</surname><given-names>D</given-names></name><name><surname>Tilgner</surname><given-names>H</given-names></name><name><surname>Grubert</surname><given-names>F</given-names></name><etal/></person-group>:
+<article-title>A single-molecule long-read survey of the human transcriptome.</article-title>
+<source><italic>Nat Biotechnol.</italic></source>
+<year>2013</year>;<volume>31</volume>(<issue>11</issue>):<fpage>1009</fpage>&#x02013;<lpage>14</lpage>.
+<pub-id pub-id-type="doi">10.1038/nbt.2705</pub-id>
+<!--<pub-id pub-id-type="pmcid">4075632</pub-id>-->
+<?supplied-pmid 24108091?><pub-id pub-id-type="pmid">24108091</pub-id></mixed-citation></ref><ref id="ref-37"><label>37</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vaquero-Garcia</surname><given-names>J</given-names></name><name><surname>Barrera</surname><given-names>A</given-names></name><name><surname>Gazzara</surname><given-names>MR</given-names></name><etal/></person-group>:
+<article-title>A new view of transcriptome complexity and regulation through the lens of local splicing variations.</article-title>
+<source><italic>eLife.</italic></source>
+<year>2016</year>;<volume>5</volume>:<fpage>e11752</fpage>.
+<pub-id pub-id-type="doi">10.7554/eLife.11752</pub-id>
+<!--<pub-id pub-id-type="pmcid">4801060</pub-id>-->
+<?supplied-pmid 26829591?><pub-id pub-id-type="pmid">26829591</pub-id></mixed-citation></ref><ref id="ref-38"><label>38</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burnette</surname><given-names>JM</given-names></name><name><surname>Miyamoto-Sato</surname><given-names>E</given-names></name><name><surname>Schaub</surname><given-names>MA</given-names></name><etal/></person-group>:
+<article-title>Subdivision of large introns in Drosophila by recursive splicing at nonexonic elements.</article-title>
+<source><italic>Genetics.</italic></source>
+<year>2005</year>;<volume>170</volume>(<issue>2</issue>):<fpage>661</fpage>&#x02013;<lpage>74</lpage>.
+<pub-id pub-id-type="doi">10.1534/genetics.104.039701</pub-id>
+<!--<pub-id pub-id-type="pmcid">1450422</pub-id>-->
+<?supplied-pmid 15802507?><pub-id pub-id-type="pmid">15802507</pub-id></mixed-citation></ref><ref id="ref-39"><label>39</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hatton</surname><given-names>AR</given-names></name><name><surname>Subramaniam</surname><given-names>V</given-names></name><name><surname>Lopez</surname><given-names>AJ</given-names></name></person-group>:
+<article-title>Generation of alternative
+<italic>Ultrabithorax</italic> isoforms and stepwise removal of a large intron by resplicing at exon-exon junctions.</article-title>
+<source><italic>Mol Cell.</italic></source>
+<year>1998</year>;<volume>2</volume>(<issue>6</issue>):<fpage>787</fpage>&#x02013;<lpage>96</lpage>.
+<pub-id pub-id-type="doi">10.1016/S1097-2765(00)80293-2</pub-id>
+<?supplied-pmid 9885566?><pub-id pub-id-type="pmid">9885566</pub-id></mixed-citation></ref><ref id="ref-40"><label>40</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sibley</surname><given-names>CR</given-names></name><name><surname>Emmett</surname><given-names>W</given-names></name><name><surname>Blazquez</surname><given-names>L</given-names></name><etal/></person-group>:
+<article-title>Recursive splicing in long vertebrate genes.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2015</year>;<volume>521</volume>(<issue>7552</issue>):<fpage>371</fpage>&#x02013;<lpage>5</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature14466</pub-id>
+<!--<pub-id pub-id-type="pmcid">4471124</pub-id>-->
+<?supplied-pmid 25970246?><pub-id pub-id-type="pmid">25970246</pub-id></mixed-citation></ref><ref id="ref-41"><label>41</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duff</surname><given-names>MO</given-names></name><name><surname>Olson</surname><given-names>S</given-names></name><name><surname>Wei</surname><given-names>X</given-names></name><etal/></person-group>:
+<article-title>Genome-wide identification of zero nucleotide recursive splicing in
+<italic>Drosophila</italic>.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2015</year>;<volume>521</volume>(<issue>7552</issue>):<fpage>376</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature14475</pub-id>
+<!--<pub-id pub-id-type="pmcid">4529404</pub-id>-->
+<?supplied-pmid 25970244?><pub-id pub-id-type="pmid">25970244</pub-id></mixed-citation></ref><ref id="ref-42"><label>42</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burd</surname><given-names>CE</given-names></name><name><surname>Jeck</surname><given-names>WR</given-names></name><name><surname>Liu</surname><given-names>Y</given-names></name><etal/></person-group>:
+<article-title>Expression of linear and novel circular forms of an
+<italic>INK4/ARF</italic>-associated non-coding RNA correlates with atherosclerosis risk.</article-title>
+<source><italic>PLoS Genet.</italic></source>
+<year>2010</year>;<volume>6</volume>(<issue>12</issue>):<fpage>e1001233</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1001233</pub-id>
+<!--<pub-id pub-id-type="pmcid">2996334</pub-id>-->
+<?supplied-pmid 21151960?><pub-id pub-id-type="pmid">21151960</pub-id></mixed-citation></ref><ref id="ref-43"><label>43</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Capel</surname><given-names>B</given-names></name><name><surname>Swain</surname><given-names>A</given-names></name><name><surname>Nicolis</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>Circular transcripts of the testis-determining gene
+<italic>Sry</italic> in adult mouse testis.</article-title>
+<source><italic>Cell.</italic></source>
+<year>1993</year>;<volume>73</volume>(<issue>5</issue>):<fpage>1019</fpage>&#x02013;<lpage>30</lpage>.
+<pub-id pub-id-type="doi">10.1016/0092-8674(93)90279-Y</pub-id>
+<?supplied-pmid 7684656?><pub-id pub-id-type="pmid">7684656</pub-id></mixed-citation></ref><ref id="ref-44"><label>44</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>XO</given-names></name><name><surname>Wang</surname><given-names>HB</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><etal/></person-group>:
+<article-title>Complementary sequence-mediated exon circularization.</article-title>
+<source><italic>Cell.</italic></source>
+<year>2014</year>;<volume>159</volume>(<issue>1</issue>):<fpage>134</fpage>&#x02013;<lpage>47</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.cell.2014.09.001</pub-id>
+<?supplied-pmid 25242744?><pub-id pub-id-type="pmid">25242744</pub-id></mixed-citation></ref><ref id="ref-45"><label>45</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guo</surname><given-names>JU</given-names></name><name><surname>Agarwal</surname><given-names>V</given-names></name><name><surname>Guo</surname><given-names>H</given-names></name><etal/></person-group>:
+<article-title>Expanded identification and characterization of mammalian circular RNAs.</article-title>
+<source><italic>Genome Biol.</italic></source>
+<year>2014</year>;<volume>15</volume>(<issue>7</issue>):<fpage>409</fpage>.
+<pub-id pub-id-type="doi">10.1186/s13059-014-0409-z</pub-id>
+<!--<pub-id pub-id-type="pmcid">4165365</pub-id>-->
+<?supplied-pmid 25070500?><pub-id pub-id-type="pmid">25070500</pub-id></mixed-citation></ref><ref id="ref-46"><label>46</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Memczak</surname><given-names>S</given-names></name><name><surname>Jens</surname><given-names>M</given-names></name><name><surname>Elefsinioti</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Circular RNAs are a large class of animal RNAs with regulatory potency.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2013</year>;<volume>495</volume>(<issue>7441</issue>):<fpage>333</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature11928</pub-id>
+<?supplied-pmid 23446348?><pub-id pub-id-type="pmid">23446348</pub-id></mixed-citation></ref><ref id="ref-47"><label>47</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davuluri</surname><given-names>RV</given-names></name><name><surname>Suzuki</surname><given-names>Y</given-names></name><name><surname>Sugano</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>The functional consequences of alternative promoter use in mammalian genomes.</article-title>
+<source><italic>Trends Genet.</italic></source>
+<year>2008</year>;<volume>24</volume>(<issue>4</issue>):<fpage>167</fpage>&#x02013;<lpage>77</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.tig.2008.01.008</pub-id>
+<?supplied-pmid 18329129?><pub-id pub-id-type="pmid">18329129</pub-id></mixed-citation></ref><ref id="ref-48"><label>48</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rojas-Duran</surname><given-names>MF</given-names></name><name><surname>Gilbert</surname><given-names>WV</given-names></name></person-group>:
+<article-title>Alternative transcription start site selection leads to large differences in translation activity in yeast.</article-title>
+<source><italic>RNA.</italic></source>
+<year>2012</year>;<volume>18</volume>(<issue>12</issue>):<fpage>2299</fpage>&#x02013;<lpage>305</lpage>.
+<pub-id pub-id-type="doi">10.1261/rna.035865.112</pub-id>
+<!--<pub-id pub-id-type="pmcid">3504680</pub-id>-->
+<?supplied-pmid 23105001?><pub-id pub-id-type="pmid">23105001</pub-id></mixed-citation></ref><ref id="ref-49"><label>49</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnstone</surname><given-names>TG</given-names></name><name><surname>Bazzini</surname><given-names>AA</given-names></name><name><surname>Giraldez</surname><given-names>AJ</given-names></name></person-group>:
+<article-title>Upstream ORFs are prevalent translational repressors in vertebrates.</article-title>
+<source><italic>EMBO J.</italic></source>
+<year>2016</year>;<volume>35</volume>(<issue>7</issue>):<fpage>706</fpage>&#x02013;<lpage>23</lpage>.
+<pub-id pub-id-type="doi">10.15252/embj.201592759</pub-id>
+<!--<pub-id pub-id-type="pmcid">4818764</pub-id>-->
+<?supplied-pmid 26896445?><pub-id pub-id-type="pmid">26896445</pub-id></mixed-citation></ref><ref id="ref-50"><label>50</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bazzini</surname><given-names>AA</given-names></name><name><surname>Johnstone</surname><given-names>TG</given-names></name><name><surname>Christiano</surname><given-names>R</given-names></name><etal/></person-group>:
+<article-title>Identification of small ORFs in vertebrates using ribosome footprinting and evolutionary conservation.</article-title>
+<source><italic>EMBO J.</italic></source>
+<year>2014</year>;<volume>33</volume>(<issue>9</issue>):<fpage>981</fpage>&#x02013;<lpage>93</lpage>.
+<pub-id pub-id-type="doi">10.1002/embj.201488411</pub-id>
+<!--<pub-id pub-id-type="pmcid">4193932</pub-id>-->
+<?supplied-pmid 24705786?><pub-id pub-id-type="pmid">24705786</pub-id></mixed-citation></ref><ref id="ref-51"><label>51</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ingolia</surname><given-names>NT</given-names></name><name><surname>Lareau</surname><given-names>LF</given-names></name><name><surname>Weissman</surname><given-names>JS</given-names></name></person-group>:
+<article-title>Ribosome profiling of mouse embryonic stem cells reveals the complexity and dynamics of mammalian proteomes.</article-title>
+<source><italic>Cell.</italic></source>
+<year>2011</year>;<volume>147</volume>(<issue>4</issue>):<fpage>789</fpage>&#x02013;<lpage>802</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.10.002</pub-id>
+<!--<pub-id pub-id-type="pmcid">3225288</pub-id>-->
+<?supplied-pmid 22056041?><pub-id pub-id-type="pmid">22056041</pub-id></mixed-citation></ref><ref id="ref-52"><label>52</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Proudfoot</surname><given-names>NJ</given-names></name></person-group>:
+<article-title>Ending the message: poly(A) signals then and now.</article-title>
+<source><italic>Genes Dev.</italic></source>
+<year>2011</year>;<volume>25</volume>(<issue>17</issue>):<fpage>1770</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="doi">10.1101/gad.17268411</pub-id>
+<!--<pub-id pub-id-type="pmcid">3175714</pub-id>-->
+<?supplied-pmid 21896654?><pub-id pub-id-type="pmid">21896654</pub-id></mixed-citation></ref><ref id="ref-53"><label>53</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katz</surname><given-names>Y</given-names></name><name><surname>Wang</surname><given-names>ET</given-names></name><name><surname>Airoldi</surname><given-names>EM</given-names></name><etal/></person-group>:
+<article-title>Analysis and design of RNA sequencing experiments for identifying isoform regulation.</article-title>
+<source><italic>Nat Methods.</italic></source>
+<year>2010</year>;<volume>7</volume>(<issue>12</issue>):<fpage>1009</fpage>&#x02013;<lpage>15</lpage>.
+<pub-id pub-id-type="doi">10.1038/nmeth.1528</pub-id>
+<!--<pub-id pub-id-type="pmcid">3037023</pub-id>-->
+<?supplied-pmid 21057496?><pub-id pub-id-type="pmid">21057496</pub-id></mixed-citation></ref><ref id="ref-54"><label>54</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xia</surname><given-names>Z</given-names></name><name><surname>Donehower</surname><given-names>LA</given-names></name><name><surname>Cooper</surname><given-names>TA</given-names></name><etal/></person-group>:
+<article-title>Dynamic analyses of alternative polyadenylation from RNA-seq reveal a 3'-UTR landscape across seven tumour types.</article-title>
+<source><italic>Nat Commun.</italic></source>
+<year>2014</year>;<volume>5</volume>: 5274.
+<pub-id pub-id-type="doi">10.1038/ncomms6274</pub-id>
+<!--<pub-id pub-id-type="pmcid">4467577</pub-id>-->
+<?supplied-pmid 25409906?><pub-id pub-id-type="pmid">25409906</pub-id></mixed-citation></ref><ref id="ref-55"><label>55</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jan</surname><given-names>CH</given-names></name><name><surname>Friedman</surname><given-names>RC</given-names></name><name><surname>Ruby</surname><given-names>JG</given-names></name><etal/></person-group>:
+<article-title>Formation, regulation and evolution of
+<italic>Caenorhabditis elegans</italic> 3'UTRs.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2011</year>;<volume>469</volume>(<issue>7328</issue>):<fpage>97</fpage>&#x02013;<lpage>101</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature09616</pub-id>
+<!--<pub-id pub-id-type="pmcid">3057491</pub-id>-->
+<?supplied-pmid 21085120?><pub-id pub-id-type="pmid">21085120</pub-id></mixed-citation></ref><ref id="ref-56"><label>56</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lianoglou</surname><given-names>S</given-names></name><name><surname>Garg</surname><given-names>V</given-names></name><name><surname>Yang</surname><given-names>JL</given-names></name><etal/></person-group>:
+<article-title>Ubiquitously transcribed genes use alternative polyadenylation to achieve tissue-specific expression.</article-title>
+<source><italic>Genes Dev.</italic></source>
+<year>2013</year>;<volume>27</volume>(<issue>21</issue>):<fpage>2380</fpage>&#x02013;<lpage>96</lpage>.
+<pub-id pub-id-type="doi">10.1101/gad.229328.113</pub-id>
+<!--<pub-id pub-id-type="pmcid">3828523</pub-id>-->
+<?supplied-pmid 24145798?><pub-id pub-id-type="pmid">24145798</pub-id></mixed-citation></ref><ref id="ref-57"><label>57</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoque</surname><given-names>M</given-names></name><name><surname>Ji</surname><given-names>Z</given-names></name><name><surname>Zheng</surname><given-names>D</given-names></name><etal/></person-group>:
+<article-title>Analysis of alternative cleavage and polyadenylation by 3' region extraction and deep sequencing.</article-title>
+<source><italic>Nat Methods.</italic></source>
+<year>2013</year>;<volume>10</volume>(<issue>2</issue>):<fpage>133</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1038/nmeth.2288</pub-id>
+<!--<pub-id pub-id-type="pmcid">3560312</pub-id>-->
+<?supplied-pmid 23241633?><pub-id pub-id-type="pmid">23241633</pub-id></mixed-citation></ref><ref id="ref-58"><label>58</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hwang</surname><given-names>H</given-names></name><name><surname>Park</surname><given-names>CY</given-names></name><name><surname>Goodarzi</surname><given-names>H</given-names></name><etal/></person-group>:
+<article-title>PAPERCLIP Identifies MicroRNA Targets and a Role of CstF64/64tau in Promoting Non-canonical poly(A) Site Usage.</article-title>
+<source><italic>Cell Rep.</italic></source>
+<year>2016</year>;<volume>15</volume>(<issue>2</issue>):<fpage>423</fpage>&#x02013;<lpage>35</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.celrep.2016.03.023</pub-id>
+<!--<pub-id pub-id-type="pmcid">4832608</pub-id>-->
+<?supplied-pmid 27050522?><pub-id pub-id-type="pmid">27050522</pub-id></mixed-citation></ref><ref id="ref-59"><label>59</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elkon</surname><given-names>R</given-names></name><name><surname>Ugalde</surname><given-names>AP</given-names></name><name><surname>Agami</surname><given-names>R</given-names></name></person-group>:
+<article-title>Alternative cleavage and polyadenylation: extent, regulation and function.</article-title>
+<source><italic>Nat Rev Genet.</italic></source>
+<year>2013</year>;<volume>14</volume>(<issue>7</issue>):<fpage>496</fpage>&#x02013;<lpage>506</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrg3482</pub-id>
+<?supplied-pmid 23774734?><pub-id pub-id-type="pmid">23774734</pub-id></mixed-citation></ref><ref id="ref-60"><label>60</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sall&#x000e9;s</surname><given-names>FJ</given-names></name><name><surname>Richards</surname><given-names>WG</given-names></name><name><surname>Strickland</surname><given-names>S</given-names></name></person-group>:
+<article-title>Assaying the polyadenylation state of mRNAs.</article-title>
+<source><italic>Methods.</italic></source>
+<year>1999</year>;<volume>17</volume>(<issue>1</issue>):<fpage>38</fpage>&#x02013;<lpage>45</lpage>.
+<pub-id pub-id-type="doi">10.1006/meth.1998.0705</pub-id>
+<?supplied-pmid 10075881?><pub-id pub-id-type="pmid">10075881</pub-id></mixed-citation></ref><ref id="ref-61"><label>61</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>J&#x000e4;nicke</surname><given-names>A</given-names></name><name><surname>Vancuylenberg</surname><given-names>J</given-names></name><name><surname>Boag</surname><given-names>PR</given-names></name><etal/></person-group>:
+<article-title>ePAT: a simple method to tag adenylated RNA to measure poly(A)-tail length and other 3' RACE applications.</article-title>
+<source><italic>RNA.</italic></source>
+<year>2012</year>;<volume>18</volume>(<issue>6</issue>):<fpage>1289</fpage>&#x02013;<lpage>95</lpage>.
+<pub-id pub-id-type="doi">10.1261/rna.031898.111</pub-id>
+<!--<pub-id pub-id-type="pmcid">3358650</pub-id>-->
+<?supplied-pmid 22543866?><pub-id pub-id-type="pmid">22543866</pub-id></mixed-citation></ref><ref id="ref-62"><label>62</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chang</surname><given-names>H</given-names></name><name><surname>Lim</surname><given-names>J</given-names></name><name><surname>Ha</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>TAIL-seq: genome-wide determination of poly(A) tail length and 3' end modifications.</article-title>
+<source><italic>Mol Cell.</italic></source>
+<year>2014</year>;<volume>53</volume>(<issue>6</issue>):<fpage>1044</fpage>&#x02013;<lpage>52</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.molcel.2014.02.007</pub-id>
+<?supplied-pmid 24582499?><pub-id pub-id-type="pmid">24582499</pub-id></mixed-citation></ref><ref id="ref-63"><label>63</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Subtelny</surname><given-names>AO</given-names></name><name><surname>Eichhorn</surname><given-names>SW</given-names></name><name><surname>Chen</surname><given-names>GR</given-names></name><etal/></person-group>:
+<article-title>Poly(A)-tail profiling reveals an embryonic switch in translational control.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2014</year>;<volume>508</volume>(<issue>7494</issue>):<fpage>66</fpage>&#x02013;<lpage>71</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature13007</pub-id>
+<!--<pub-id pub-id-type="pmcid">4086860</pub-id>-->
+<?supplied-pmid 24476825?><pub-id pub-id-type="pmid">24476825</pub-id></mixed-citation></ref><ref id="ref-64"><label>64</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lim</surname><given-names>J</given-names></name><name><surname>Lee</surname><given-names>M</given-names></name><name><surname>Son</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>mTAIL-seq reveals dynamic poly(A) tail regulation in oocyte-to-embryo development.</article-title>
+<source><italic>Genes Dev.</italic></source>
+<year>2016</year>;<volume>30</volume>(<issue>14</issue>):<fpage>1671</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="doi">10.1101/gad.284802.116</pub-id>
+<!--<pub-id pub-id-type="pmcid">4973296</pub-id>-->
+<?supplied-pmid 27445395?><pub-id pub-id-type="pmid">27445395</pub-id></mixed-citation></ref><ref id="ref-65"><label>65</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Licht</surname><given-names>K</given-names></name><name><surname>Jantsch</surname><given-names>MF</given-names></name></person-group>:
+<article-title>Rapid and dynamic transcriptome regulation by RNA editing and RNA modifications.</article-title>
+<source><italic>J Cell Biol.</italic></source>
+<year>2016</year>;<volume>213</volume>(<issue>1</issue>):<fpage>15</fpage>&#x02013;<lpage>22</lpage>.
+<pub-id pub-id-type="doi">10.1083/jcb.201511041</pub-id>
+<!--<pub-id pub-id-type="pmcid">4828693</pub-id>-->
+<?supplied-pmid 27044895?><pub-id pub-id-type="pmid">27044895</pub-id></mixed-citation></ref><ref id="ref-66"><label>66</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyer</surname><given-names>KD</given-names></name><name><surname>Saletore</surname><given-names>Y</given-names></name><name><surname>Zumbo</surname><given-names>P</given-names></name><etal/></person-group>:
+<article-title>Comprehensive analysis of mRNA methylation reveals enrichment in 3' UTRs and near stop codons.</article-title>
+<source><italic>Cell.</italic></source>
+<year>2012</year>;<volume>149</volume>(<issue>7</issue>):<fpage>1635</fpage>&#x02013;<lpage>46</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.cell.2012.05.003</pub-id>
+<!--<pub-id pub-id-type="pmcid">3383396</pub-id>-->
+<?supplied-pmid 22608085?><pub-id pub-id-type="pmid">22608085</pub-id></mixed-citation></ref><ref id="ref-67"><label>67</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jaffrey</surname><given-names>SR</given-names></name></person-group>:
+<article-title>An expanding universe of mRNA modifications.</article-title>
+<source><italic>Nat Struct Mol Biol.</italic></source>
+<year>2014</year>;<volume>21</volume>(<issue>11</issue>):<fpage>945</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="doi">10.1038/nsmb.2911</pub-id>
+<!--<pub-id pub-id-type="pmcid">4384663</pub-id>-->
+<?supplied-pmid 25372308?><pub-id pub-id-type="pmid">25372308</pub-id></mixed-citation></ref><ref id="ref-68"><label>68</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwartz</surname><given-names>S</given-names></name><name><surname>Bernstein</surname><given-names>DA</given-names></name><name><surname>Mumbach</surname><given-names>MR</given-names></name><etal/></person-group>:
+<article-title>Transcriptome-wide mapping reveals widespread dynamic-regulated pseudouridylation of ncRNA and mRNA.</article-title>
+<source><italic>Cell.</italic></source>
+<year>2014</year>;<volume>159</volume>(<issue>1</issue>):<fpage>148</fpage>&#x02013;<lpage>62</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.cell.2014.08.028</pub-id>
+<!--<pub-id pub-id-type="pmcid">4180118</pub-id>-->
+<?supplied-pmid 25219674?><pub-id pub-id-type="pmid">25219674</pub-id></mixed-citation></ref><ref id="ref-69"><label>69</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blanc</surname><given-names>V</given-names></name><name><surname>Park</surname><given-names>E</given-names></name><name><surname>Schaefer</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>Genome-wide identification and functional analysis of Apobec-1-mediated C-to-U RNA editing in mouse small intestine and liver.</article-title>
+<source><italic>Genome Biol.</italic></source>
+<year>2014</year>;<volume>15</volume>(<issue>6</issue>):<fpage>R79</fpage>.
+<pub-id pub-id-type="doi">10.1186/gb-2014-15-6-r79</pub-id>
+<!--<pub-id pub-id-type="pmcid">4197816</pub-id>-->
+<?supplied-pmid 24946870?><pub-id pub-id-type="pmid">24946870</pub-id></mixed-citation></ref><ref id="ref-70"><label>70</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bazak</surname><given-names>L</given-names></name><name><surname>Haviv</surname><given-names>A</given-names></name><name><surname>Barak</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>A-to-I RNA editing occurs at over a hundred million genomic sites, located in a majority of human genes.</article-title>
+<source><italic>Genome Res.</italic></source>
+<year>2014</year>;<volume>24</volume>(<issue>3</issue>):<fpage>365</fpage>&#x02013;<lpage>76</lpage>.
+<pub-id pub-id-type="doi">10.1101/gr.164749.113</pub-id>
+<!--<pub-id pub-id-type="pmcid">3941102</pub-id>-->
+<?supplied-pmid 24347612?><pub-id pub-id-type="pmid">24347612</pub-id></mixed-citation></ref><ref id="ref-71"><label>71</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyer</surname><given-names>KD</given-names></name><name><surname>Jaffrey</surname><given-names>SR</given-names></name></person-group>:
+<article-title>The dynamic epitranscriptome:
+<italic>N</italic>
+<sup>6</sup>-methyladenosine and gene expression control.</article-title>
+<source><italic>Nat Rev Mol Cell Biol.</italic></source>
+<year>2014</year>;<volume>15</volume>(<issue>5</issue>):<fpage>313</fpage>&#x02013;<lpage>26</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrm3785</pub-id>
+<!--<pub-id pub-id-type="pmcid">4393108</pub-id>-->
+<?supplied-pmid 24713629?><pub-id pub-id-type="pmid">24713629</pub-id></mixed-citation></ref><ref id="ref-72"><label>72</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karijolich</surname><given-names>J</given-names></name><name><surname>Yi</surname><given-names>C</given-names></name><name><surname>Yu</surname><given-names>YT</given-names></name></person-group>:
+<article-title>Transcriptome-wide dynamics of RNA pseudouridylation.</article-title>
+<source><italic>Nat Rev Mol Cell Biol.</italic></source>
+<year>2015</year>;<volume>16</volume>(<issue>10</issue>):<fpage>581</fpage>&#x02013;<lpage>5</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrm4040</pub-id>
+<?supplied-pmid 26285676?><pub-id pub-id-type="pmid">26285676</pub-id></mixed-citation></ref><ref id="ref-73"><label>73</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roundtree</surname><given-names>IA</given-names></name><name><surname>He</surname><given-names>C</given-names></name></person-group>:
+<article-title>RNA epigenetics--chemical messages for posttranscriptional gene regulation.</article-title>
+<source><italic>Curr Opin Chem Biol.</italic></source>
+<year>2016</year>;<volume>30</volume>:<fpage>46</fpage>&#x02013;<lpage>51</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.cbpa.2015.10.024</pub-id>
+<!--<pub-id pub-id-type="pmcid">4731286</pub-id>-->
+<?supplied-pmid 26625014?><pub-id pub-id-type="pmid">26625014</pub-id></mixed-citation></ref><ref id="ref-74"><label>74</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Han</surname><given-names>L</given-names></name><name><surname>Diao</surname><given-names>L</given-names></name><name><surname>Yu</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>The Genomic Landscape and Clinical Relevance of A-to-I RNA Editing in Human Cancers.</article-title>
+<source><italic>Cancer Cell.</italic></source>
+<year>2015</year>;<volume>28</volume>(<issue>4</issue>):<fpage>515</fpage>&#x02013;<lpage>28</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.ccell.2015.08.013</pub-id>
+<!--<pub-id pub-id-type="pmcid">4605878</pub-id>-->
+<?supplied-pmid 26439496?><pub-id pub-id-type="pmid">26439496</pub-id></mixed-citation></ref><ref id="ref-75"><label>75</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilbert</surname><given-names>WV</given-names></name><name><surname>Bell</surname><given-names>TA</given-names></name><name><surname>Schaening</surname><given-names>C</given-names></name></person-group>:
+<article-title>Messenger RNA modifications: Form, distribution, and function.</article-title>
+<source><italic>Science.</italic></source>
+<year>2016</year>;<volume>352</volume>(<issue>6292</issue>):<fpage>1408</fpage>&#x02013;<lpage>12</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.aad8711</pub-id>
+<!--<pub-id pub-id-type="pmcid">5094196</pub-id>-->
+<?supplied-pmid 27313037?><pub-id pub-id-type="pmid">27313037</pub-id></mixed-citation></ref><ref id="ref-76"><label>76</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liddicoat</surname><given-names>BJ</given-names></name><name><surname>Piskol</surname><given-names>R</given-names></name><name><surname>Chalk</surname><given-names>AM</given-names></name><etal/></person-group>:
+<article-title>RNA editing by ADAR1 prevents MDA5 sensing of endogenous dsRNA as nonself.</article-title>
+<source><italic>Science.</italic></source>
+<year>2015</year>;<volume>349</volume>(<issue>6252</issue>):<fpage>1115</fpage>&#x02013;<lpage>20</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.aac7049</pub-id>
+<?supplied-pmid 26275108?><pub-id pub-id-type="pmid">26275108</pub-id></mixed-citation></ref><ref id="ref-77"><label>77</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>N</given-names></name><name><surname>Pan</surname><given-names>T</given-names></name></person-group>:
+<article-title>
+<italic>N</italic>
+<sup>6</sup>-methyladenosine-encoded epitranscriptomics.</article-title>
+<source><italic>Nat Struct Mol Biol.</italic></source>
+<year>2016</year>;<volume>23</volume>(<issue>2</issue>):<fpage>98</fpage>&#x02013;<lpage>102</lpage>.
+<pub-id pub-id-type="doi">10.1038/nsmb.3162</pub-id>
+<?supplied-pmid 26840897?><pub-id pub-id-type="pmid">26840897</pub-id></mixed-citation></ref><ref id="ref-78"><label>78</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dominissini</surname><given-names>D</given-names></name><name><surname>Moshitch-Moshkovitz</surname><given-names>S</given-names></name><name><surname>Schwartz</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>Topology of the human and mouse m
+<sup>6</sup>A RNA methylomes revealed by m
+<sup>6</sup>A-seq.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2012</year>;<volume>485</volume>(<issue>7397</issue>):<fpage>201</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature11112</pub-id>
+<?supplied-pmid 22575960?><pub-id pub-id-type="pmid">22575960</pub-id></mixed-citation></ref><ref id="ref-79"><label>79</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carlile</surname><given-names>TM</given-names></name><name><surname>Rojas-Duran</surname><given-names>MF</given-names></name><name><surname>Zinshteyn</surname><given-names>B</given-names></name><etal/></person-group>:
+<article-title>Pseudouridine profiling reveals regulated mRNA pseudouridylation in yeast and human cells.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2014</year>;<volume>515</volume>(<issue>7525</issue>):<fpage>143</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature13802</pub-id>
+<!--<pub-id pub-id-type="pmcid">4224642</pub-id>-->
+<?supplied-pmid 25192136?><pub-id pub-id-type="pmid">25192136</pub-id></mixed-citation></ref><ref id="ref-80"><label>80</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Squires</surname><given-names>JE</given-names></name><name><surname>Patel</surname><given-names>HR</given-names></name><name><surname>Nousch</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Widespread occurrence of 5-methylcytosine in human coding and non-coding RNA.</article-title>
+<source><italic>Nucleic Acids Res.</italic></source>
+<year>2012</year>;<volume>40</volume>(<issue>11</issue>):<fpage>5023</fpage>&#x02013;<lpage>33</lpage>.
+<pub-id pub-id-type="doi">10.1093/nar/gks144</pub-id>
+<!--<pub-id pub-id-type="pmcid">3367185</pub-id>-->
+<?supplied-pmid 22344696?><pub-id pub-id-type="pmid">22344696</pub-id></mixed-citation></ref><ref id="ref-81"><label>81</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brockmann</surname><given-names>R</given-names></name><name><surname>Beyer</surname><given-names>A</given-names></name><name><surname>Heinisch</surname><given-names>JJ</given-names></name><etal/></person-group>:
+<article-title>Posttranscriptional expression regulation: what determines translation rates?</article-title>
+<source><italic>PLoS Comput Biol.</italic></source>
+<year>2007</year>;<volume>3</volume>(<issue>3</issue>):<fpage>e57</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.pcbi.0030057</pub-id>
+<!--<pub-id pub-id-type="pmcid">1829480</pub-id>-->
+<?supplied-pmid 17381238?><pub-id pub-id-type="pmid">17381238</pub-id></mixed-citation></ref><ref id="ref-82"><label>82</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ingolia</surname><given-names>NT</given-names></name><name><surname>Ghaemmaghami</surname><given-names>S</given-names></name><name><surname>Newman</surname><given-names>JR</given-names></name><etal/></person-group>:
+<article-title>Genome-wide analysis
+<italic>in vivo</italic> of translation with nucleotide resolution using ribosome profiling.</article-title>
+<source><italic>Science.</italic></source>
+<year>2009</year>;<volume>324</volume>(<issue>5924</issue>):<fpage>218</fpage>&#x02013;<lpage>23</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1168978</pub-id>
+<!--<pub-id pub-id-type="pmcid">2746483</pub-id>-->
+<?supplied-pmid 19213877?><pub-id pub-id-type="pmid">19213877</pub-id></mixed-citation></ref><ref id="ref-83"><label>83</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arribere</surname><given-names>JA</given-names></name><name><surname>Gilbert</surname><given-names>WV</given-names></name></person-group>:
+<article-title>Roles for transcript leaders in translation and mRNA decay revealed by transcript leader sequencing.</article-title>
+<source><italic>Genome Res.</italic></source>
+<year>2013</year>;<volume>23</volume>(<issue>6</issue>):<fpage>977</fpage>&#x02013;<lpage>87</lpage>.
+<pub-id pub-id-type="doi">10.1101/gr.150342.112</pub-id>
+<!--<pub-id pub-id-type="pmcid">3668365</pub-id>-->
+<?supplied-pmid 23580730?><pub-id pub-id-type="pmid">23580730</pub-id></mixed-citation></ref><ref id="ref-84"><label>84</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spies</surname><given-names>N</given-names></name><name><surname>Burge</surname><given-names>CB</given-names></name><name><surname>Bartel</surname><given-names>DP</given-names></name></person-group>:
+<article-title>3' UTR-isoform choice has limited influence on the stability and translational efficiency of most mRNAs in mouse fibroblasts.</article-title>
+<source><italic>Genome Res.</italic></source>
+<year>2013</year>;<volume>23</volume>(<issue>2</issue>):<fpage>2078</fpage>&#x02013;<lpage>90</lpage>.
+<pub-id pub-id-type="doi">10.1101/gr.156919.113</pub-id>
+<!--<pub-id pub-id-type="pmcid">3847777</pub-id>-->
+<?supplied-pmid 24072873?><pub-id pub-id-type="pmid">24072873</pub-id></mixed-citation></ref><ref id="ref-85"><label>85</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sterne-Weiler</surname><given-names>T</given-names></name><name><surname>Martinez-Nunez</surname><given-names>RT</given-names></name><name><surname>Howard</surname><given-names>JM</given-names></name><etal/></person-group>:
+<article-title>Frac-seq reveals isoform-specific recruitment to polyribosomes.</article-title>
+<source><italic>Genome Res.</italic></source>
+<year>2013</year>;<volume>23</volume>(<issue>10</issue>):<fpage>1615</fpage>&#x02013;<lpage>23</lpage>.
+<pub-id pub-id-type="doi">10.1101/gr.148585.112</pub-id>
+<!--<pub-id pub-id-type="pmcid">3787259</pub-id>-->
+<?supplied-pmid 23783272?><pub-id pub-id-type="pmid">23783272</pub-id></mixed-citation></ref><ref id="ref-86"><label>86</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maslon</surname><given-names>MM</given-names></name><name><surname>Heras</surname><given-names>SR</given-names></name><name><surname>Bellora</surname><given-names>N</given-names></name><etal/></person-group>:
+<article-title>The translational landscape of the splicing factor SRSF1 and its role in mitosis.</article-title>
+<source><italic>eLife.</italic></source>
+<year>2014</year>;<volume>3</volume>:<fpage>e02028</fpage>.
+<pub-id pub-id-type="doi">10.7554/eLife.02028</pub-id>
+<!--<pub-id pub-id-type="pmcid">4027812</pub-id>-->
+<?supplied-pmid 24842991?><pub-id pub-id-type="pmid">24842991</pub-id></mixed-citation></ref><ref id="ref-87"><label>87</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Floor</surname><given-names>SN</given-names></name><name><surname>Doudna</surname><given-names>JA</given-names></name></person-group>:
+<article-title>Tunable protein synthesis by transcript isoforms in human cells.</article-title>
+<source><italic>eLife.</italic></source>
+<year>2016</year>;<volume>5</volume>pii: e10921.
+<pub-id pub-id-type="doi">10.7554/eLife.10921</pub-id>
+<!--<pub-id pub-id-type="pmcid">4764583</pub-id>-->
+<?supplied-pmid 26735365?><pub-id pub-id-type="pmid">26735365</pub-id></mixed-citation></ref><ref id="ref-88"><label>88</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Nostrand</surname><given-names>EL</given-names></name><name><surname>Pratt</surname><given-names>GA</given-names></name><name><surname>Shishkin</surname><given-names>AA</given-names></name><etal/></person-group>:
+<article-title>Robust transcriptome-wide discovery of RNA-binding protein binding sites with enhanced CLIP (eCLIP).</article-title>
+<source><italic>Nat Methods.</italic></source>
+<year>2016</year>;<volume>13</volume>(<issue>6</issue>):<fpage>508</fpage>&#x02013;<lpage>14</lpage>.
+<pub-id pub-id-type="doi">10.1038/nmeth.3810</pub-id>
+<!--<pub-id pub-id-type="pmcid">4887338</pub-id>-->
+<?supplied-pmid 27018577?><pub-id pub-id-type="pmid">27018577</pub-id></mixed-citation></ref><ref id="ref-89"><label>89</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sundararaman</surname><given-names>B</given-names></name><name><surname>Zhan</surname><given-names>L</given-names></name><name><surname>Blue</surname><given-names>SM</given-names></name><etal/></person-group>:
+<article-title>Resources for the Comprehensive Discovery of Functional RNA Elements.</article-title>
+<source><italic>Mol Cell.</italic></source>
+<year>2016</year>;<volume>61</volume>(<issue>6</issue>):<fpage>903</fpage>&#x02013;<lpage>13</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.molcel.2016.02.012</pub-id>
+<!--<pub-id pub-id-type="pmcid">4839293</pub-id>-->
+<?supplied-pmid 26990993?><pub-id pub-id-type="pmid">26990993</pub-id></mixed-citation></ref><ref id="ref-90"><label>90</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bhate</surname><given-names>A</given-names></name><name><surname>Parker</surname><given-names>DJ</given-names></name><name><surname>Bebee</surname><given-names>TW</given-names></name><etal/></person-group>:
+<article-title>ESRP2 controls an adult splicing programme in hepatocytes to support postnatal liver maturation.</article-title>
+<source><italic>Nat Commun.</italic></source>
+<year>2015</year>;<volume>6</volume>:<fpage>8768</fpage>.
+<pub-id pub-id-type="doi">10.1038/ncomms9768</pub-id>
+<!--<pub-id pub-id-type="pmcid">4635967</pub-id>-->
+<?supplied-pmid 26531099 ?><pub-id pub-id-type="pmid">26531099</pub-id></mixed-citation></ref><ref id="ref-91"><label>91</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Giudice</surname><given-names>J</given-names></name><name><surname>Xia</surname><given-names>Z</given-names></name><name><surname>Wang</surname><given-names>ET</given-names></name><etal/></person-group>:
+<article-title>Alternative splicing regulates vesicular trafficking genes in cardiomyocytes during postnatal heart development.</article-title>
+<source><italic>Nat Commun.</italic></source>
+<year>2014</year>;<volume>5</volume>: 3603.
+<pub-id pub-id-type="doi">10.1038/ncomms4603</pub-id>
+<!--<pub-id pub-id-type="pmcid">4018662</pub-id>-->
+<?supplied-pmid 24752171?><pub-id pub-id-type="pmid">24752171</pub-id></mixed-citation></ref><ref id="ref-92"><label>92</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ly</surname><given-names>H</given-names></name><name><surname>Calado</surname><given-names>RT</given-names></name><name><surname>Allard</surname><given-names>P</given-names></name><etal/></person-group>:
+<article-title>Functional characterization of telomerase RNA variants found in patients with hematologic disorders.</article-title>
+<source><italic>Blood.</italic></source>
+<year>2005</year>;<volume>105</volume>(<issue>6</issue>):<fpage>2332</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1182/blood-2004-09-3659</pub-id>
+<?supplied-pmid 15550482?><pub-id pub-id-type="pmid">15550482</pub-id></mixed-citation></ref><ref id="ref-93"><label>93</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>S</given-names></name><name><surname>Trapnell</surname><given-names>C</given-names></name></person-group>:
+<article-title>Single-cell transcriptome sequencing: recent advances and remaining challenges [version 1; referees: 2 approved]</article-title>
+<source><italic>F1000Res.</italic></source>
+<year>2016</year>;<volume>5</volume>: pii: F1000 Faculty Rev-182.
+<pub-id pub-id-type="doi">10.12688/f1000research.7223.1</pub-id>
+<!--<pub-id pub-id-type="pmcid">4758375</pub-id>-->
+<?supplied-pmid 26949524?><pub-id pub-id-type="pmid">26949524</pub-id></mixed-citation></ref><ref id="ref-94"><label>94</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stephens</surname><given-names>ZD</given-names></name><name><surname>Lee</surname><given-names>SY</given-names></name><name><surname>Faghri</surname><given-names>F</given-names></name><etal/></person-group>:
+<article-title>Big Data: Astronomical or Genomical?</article-title>
+<source><italic>PLoS Biol.</italic></source>
+<year>2015</year>;<volume>13</volume>(<issue>7</issue>):<fpage>e1002195</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.pbio.1002195</pub-id>
+<!--<pub-id pub-id-type="pmcid">4494865</pub-id>-->
+<?supplied-pmid 26151137?><pub-id pub-id-type="pmid">26151137</pub-id></mixed-citation></ref><ref id="ref-95"><label>95</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tilgner</surname><given-names>H</given-names></name><name><surname>Jahanbani</surname><given-names>F</given-names></name><name><surname>Blauwkamp</surname><given-names>T</given-names></name><etal/></person-group>:
+<article-title>Comprehensive transcriptome analysis using synthetic long-read sequencing reveals molecular co-association of distant splicing events.</article-title>
+<source><italic>Nat Biotechnol.</italic></source>
+<year>2015</year>;<volume>33</volume>(<issue>7</issue>):<fpage>736</fpage>&#x02013;<lpage>42</lpage>.
+<pub-id pub-id-type="doi">10.1038/nbt.3242</pub-id>
+<!--<pub-id pub-id-type="pmcid">4832928</pub-id>-->
+<?supplied-pmid 25985263?><pub-id pub-id-type="pmid">25985263</pub-id></mixed-citation></ref><ref id="ref-96"><label>96</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dobin</surname><given-names>A</given-names></name><name><surname>Davis</surname><given-names>CA</given-names></name><name><surname>Schlesinger</surname><given-names>F</given-names></name><etal/></person-group>:
+<article-title>STAR: ultrafast universal RNA-seq aligner.</article-title>
+<source><italic>Bioinformatics.</italic></source>
+<year>2013</year>;<volume>29</volume>(<issue>1</issue>):<fpage>15</fpage>&#x02013;<lpage>21</lpage>.
+<pub-id pub-id-type="doi">10.1093/bioinformatics/bts635</pub-id>
+<!--<pub-id pub-id-type="pmcid">3530905</pub-id>-->
+<?supplied-pmid 23104886?><pub-id pub-id-type="pmid">23104886</pub-id></mixed-citation></ref><ref id="ref-97"><label>97</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>J</given-names></name><name><surname>Anczuk&#x000f3;w</surname><given-names>O</given-names></name><name><surname>Krainer</surname><given-names>AR</given-names></name><etal/></person-group>:
+<article-title>OLego: fast and sensitive mapping of spliced mRNA-Seq reads using small seeds.</article-title>
+<source><italic>Nucleic Acids Res.</italic></source>
+<year>2013</year>;<volume>41</volume>(<issue>10</issue>):<fpage>5149</fpage>&#x02013;<lpage>63</lpage>.
+<pub-id pub-id-type="doi">10.1093/nar/gkt216</pub-id>
+<!--<pub-id pub-id-type="pmcid">3664805</pub-id>-->
+<?supplied-pmid 23571760?><pub-id pub-id-type="pmid">23571760</pub-id></mixed-citation></ref><ref id="ref-98"><label>98</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Pachter</surname><given-names>L</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group>:
+<article-title>TopHat: discovering splice junctions with RNA-Seq.</article-title>
+<source><italic>Bioinformatics.</italic></source>
+<year>2009</year>;<volume>25</volume>(<issue>9</issue>):<fpage>1105</fpage>&#x02013;<lpage>11</lpage>.
+<pub-id pub-id-type="doi">10.1093/bioinformatics/btp120</pub-id>
+<!--<pub-id pub-id-type="pmcid">2672628</pub-id>-->
+<?supplied-pmid 19289445?><pub-id pub-id-type="pmid">19289445</pub-id></mixed-citation></ref><ref id="ref-99"><label>99</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shen</surname><given-names>S</given-names></name><name><surname>Park</surname><given-names>JW</given-names></name><name><surname>Huang</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>MATS: a Bayesian framework for flexible detection of differential alternative splicing from RNA-Seq data.</article-title>
+<source><italic>Nucleic Acids Res.</italic></source>
+<year>2012</year>;<volume>40</volume>(<issue>8</issue>):<fpage>e61</fpage>.
+<pub-id pub-id-type="doi">10.1093/nar/gkr1291</pub-id>
+<!--<pub-id pub-id-type="pmcid">3333886</pub-id>-->
+<?supplied-pmid 22266656?><pub-id pub-id-type="pmid">22266656</pub-id></mixed-citation></ref><ref id="ref-100"><label>100</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Hoon</surname><given-names>M</given-names></name><name><surname>Hayashizaki</surname><given-names>Y</given-names></name></person-group>:
+<article-title>Deep cap analysis gene expression (CAGE): genome-wide identification of promoters, quantification of their expression, and network inference.</article-title>
+<source><italic>Biotechniques.</italic></source>
+<year>2008</year>;<volume>44</volume>(<issue>5</issue>):<fpage>627</fpage>&#x02013;<lpage>8</lpage>,<fpage>630</fpage>,<fpage>632</fpage>.
+<pub-id pub-id-type="doi">10.2144/000112802</pub-id>
+<?supplied-pmid 18474037?><pub-id pub-id-type="pmid">18474037</pub-id></mixed-citation></ref><ref id="ref-101"><label>101</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Meyer</surname><given-names>CA</given-names></name><etal/></person-group>:
+<article-title>Model-based analysis of ChIP-Seq (MACS).</article-title>
+<source><italic>Genome Biol.</italic></source>
+<year>2008</year>;<volume>9</volume>(<issue>9</issue>):<fpage>R137</fpage>.
+<pub-id pub-id-type="doi">10.1186/gb-2008-9-9-r137</pub-id>
+<!--<pub-id pub-id-type="pmcid">2592715</pub-id>-->
+<?supplied-pmid 18798982?><pub-id pub-id-type="pmid">18798982</pub-id></mixed-citation></ref><ref id="ref-102"><label>102</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heinz</surname><given-names>S</given-names></name><name><surname>Benner</surname><given-names>C</given-names></name><name><surname>Spann</surname><given-names>N</given-names></name><etal/></person-group>:
+<article-title>Simple combinations of lineage-determining transcription factors prime
+<italic>cis</italic>-regulatory elements required for macrophage and B cell identities.</article-title>
+<source><italic>Mol Cell.</italic></source>
+<year>2010</year>;<volume>38</volume>(<issue>4</issue>):<fpage>576</fpage>&#x02013;<lpage>89</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.molcel.2010.05.004</pub-id>
+<!--<pub-id pub-id-type="pmcid">2898526</pub-id>-->
+<?supplied-pmid 20513432?><pub-id pub-id-type="pmid">20513432</pub-id></mixed-citation></ref><ref id="ref-103"><label>103</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>C</given-names></name><name><surname>Darnell</surname><given-names>RB</given-names></name></person-group>:
+<article-title>Mapping
+<italic>in vivo</italic> protein-RNA interactions at single-nucleotide resolution from HITS-CLIP data.</article-title>
+<source><italic>Nat Biotechnol.</italic></source>
+<year>2011</year>;<volume>29</volume>(<issue>7</issue>):<fpage>607</fpage>&#x02013;<lpage>14</lpage>.
+<pub-id pub-id-type="doi">10.1038/nbt.1873</pub-id>
+<!--<pub-id pub-id-type="pmcid">3400429</pub-id>-->
+<?supplied-pmid 21633356?><pub-id pub-id-type="pmid">21633356</pub-id></mixed-citation></ref><ref id="ref-104"><label>104</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weyn-Vanhentenryck</surname><given-names>SM</given-names></name><name><surname>Mele</surname><given-names>A</given-names></name><name><surname>Yan</surname><given-names>Q</given-names></name><etal/></person-group>:
+<article-title>HITS-CLIP and integrative modeling define the Rbfox splicing-regulatory network linked to brain development and autism.</article-title>
+<source><italic>Cell Rep.</italic></source>
+<year>2014</year>;<volume>6</volume>(<issue>6</issue>):<fpage>1139</fpage>&#x02013;<lpage>52</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.celrep.2014.02.005</pub-id>
+<!--<pub-id pub-id-type="pmcid">3992522</pub-id>-->
+<?supplied-pmid 24613350?><pub-id pub-id-type="pmid">24613350</pub-id></mixed-citation></ref><ref id="ref-105"><label>105</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Calviello</surname><given-names>L</given-names></name><name><surname>Mukherjee</surname><given-names>N</given-names></name><name><surname>Wyler</surname><given-names>E</given-names></name><etal/></person-group>:
+<article-title>Detecting actively translated open reading frames in ribosome profiling data.</article-title>
+<source><italic>Nat Methods.</italic></source>
+<year>2016</year>;<volume>13</volume>(<issue>2</issue>):<fpage>165</fpage>&#x02013;<lpage>70</lpage>.
+<pub-id pub-id-type="doi">10.1038/nmeth.3688</pub-id>
+<?supplied-pmid 26657557?><pub-id pub-id-type="pmid">26657557</pub-id></mixed-citation></ref><ref id="ref-106"><label>106</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Roberts</surname><given-names>A</given-names></name><name><surname>Goff</surname><given-names>L</given-names></name><etal/></person-group>:
+<article-title>Differential gene and transcript expression analysis of RNA-seq experiments with TopHat and Cufflinks.</article-title>
+<source><italic>Nat Protoc.</italic></source>
+<year>2012</year>;<volume>7</volume>(<issue>3</issue>):<fpage>562</fpage>&#x02013;<lpage>78</lpage>.
+<pub-id pub-id-type="doi">10.1038/nprot.2012.016</pub-id>
+<!--<pub-id pub-id-type="pmcid">3334321</pub-id>-->
+<?supplied-pmid 22383036?><pub-id pub-id-type="pmid">22383036</pub-id></mixed-citation></ref></ref-list></back></article>

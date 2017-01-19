@@ -1,0 +1,499 @@
+{
+  "id": [
+    "26920147"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26920147"
+  ],
+  "pmcid": [
+    "PMC4769584"
+  ],
+  "doi": [
+    "10.1186/s12864-016-2443-6"
+  ],
+  "title": [
+    "Exploiting biological priors and sequence variants enhances QTL discovery and genomic prediction of complex traits."
+  ],
+  "authorString": [
+    "MacLeod IM, Bowman PJ, Vander Jagt CJ, Haile-Mariam M, Kemper KE, Chamberlain AJ, Schrooten C, Hayes BJ, Goddard ME."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "MacLeod IM"
+          ],
+          "firstName": [
+            "I M"
+          ],
+          "lastName": [
+            "MacLeod"
+          ],
+          "initials": [
+            "IM"
+          ],
+          "affiliation": [
+            "AgriBio, Dept. Economic Development, Jobs, Transport & Resources, Victoria, Australia. macleodi@unimelb.edu.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Bowman PJ"
+          ],
+          "firstName": [
+            "P J"
+          ],
+          "lastName": [
+            "Bowman"
+          ],
+          "initials": [
+            "PJ"
+          ],
+          "affiliation": [
+            "Biosciences Research Centre, La Trobe University, Victoria, Australia. Phil.Bowman@ecodev.vic.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Vander Jagt CJ"
+          ],
+          "firstName": [
+            "C J"
+          ],
+          "lastName": [
+            "Vander Jagt"
+          ],
+          "initials": [
+            "CJ"
+          ],
+          "affiliation": [
+            "AgriBio, Dept. Economic Development, Jobs, Transport & Resources, Victoria, Australia. Christy.VanderJagt@ecodev.vic.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Haile-Mariam M"
+          ],
+          "firstName": [
+            "M"
+          ],
+          "lastName": [
+            "Haile-Mariam"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "AgriBio, Dept. Economic Development, Jobs, Transport & Resources, Victoria, Australia. Mekonnen.HaileMariam@ecodev.vic.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Kemper KE"
+          ],
+          "firstName": [
+            "K E"
+          ],
+          "lastName": [
+            "Kemper"
+          ],
+          "initials": [
+            "KE"
+          ],
+          "affiliation": [
+            "AgriBio, Dept. Economic Development, Jobs, Transport & Resources, Victoria, Australia. Kathryn.Kemper@ecodev.vic.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Chamberlain AJ"
+          ],
+          "firstName": [
+            "A J"
+          ],
+          "lastName": [
+            "Chamberlain"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "affiliation": [
+            "AgriBio, Dept. Economic Development, Jobs, Transport & Resources, Victoria, Australia. Amanda.Chamberlain@ecodev.vic.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Schrooten C"
+          ],
+          "firstName": [
+            "C"
+          ],
+          "lastName": [
+            "Schrooten"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "CRV, 6800 AL, Arnhem, The Netherlands. Chris.Schrooten@crv4all.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Hayes BJ"
+          ],
+          "firstName": [
+            "B J"
+          ],
+          "lastName": [
+            "Hayes"
+          ],
+          "initials": [
+            "BJ"
+          ],
+          "affiliation": [
+            "Biosciences Research Centre, La Trobe University, Victoria, Australia. Ben.Hayes@ecodev.vic.gov.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Goddard ME"
+          ],
+          "firstName": [
+            "M E"
+          ],
+          "lastName": [
+            "Goddard"
+          ],
+          "initials": [
+            "ME"
+          ],
+          "affiliation": [
+            "AgriBio, Dept. Economic Development, Jobs, Transport & Resources, Victoria, Australia. Mike.Goddard@ecodev.vic.gov.au."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9288-4522",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2401365"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "144"
+  ],
+  "abstractText": [
+    "Dense SNP genotypes are often combined with complex trait phenotypes to map causal variants, study genetic architecture and provide genomic predictions for individuals with genotypes but no phenotype. A single method of analysis that jointly fits all genotypes in a Bayesian mixture model (BayesR) has been shown to competitively address all 3 purposes simultaneously. However, BayesR and other similar methods ignore prior biological knowledge and assume all genotypes are equally likely to affect the trait. While this assumption is reasonable for SNP array genotypes, it is less sensible if genotypes are whole-genome sequence variants which should include causal variants.We introduce a new method (BayesRC) based on BayesR that incorporates prior biological information in the analysis by defining classes of variants likely to be enriched for causal mutations. The information can be derived from a range of sources, including variant annotation, candidate gene lists and known causal variants. This information is then incorporated objectively in the analysis based on evidence of enrichment in the data. We demonstrate the increased power of BayesRC compared to BayesR using real dairy cattle genotypes with simulated phenotypes. The genotypes were imputed whole-genome sequence variants in coding regions combined with dense SNP markers. BayesRC increased the power to detect causal variants and increased the accuracy of genomic prediction. The relative improvement for genomic prediction was most apparent in validation populations that were not closely related to the reference population. We also applied BayesRC to real milk production phenotypes in dairy cattle using independent biological priors from gene expression analyses. Although current biological knowledge of which genes and variants affect milk production is still very incomplete, our results suggest that the new BayesRC method was equal to or more powerful than BayesR for detecting candidate causal variants and for genomic prediction of milk traits.BayesRC provides a novel and flexible approach to simultaneously improving the accuracy of QTL discovery and genomic prediction by taking advantage of prior biological knowledge. Approaches such as BayesRC will become increasing useful as biological knowledge accumulates regarding functional regions of the genome for a range of traits and species."
+  ],
+  "affiliation": [
+    "AgriBio, Dept. Economic Development, Jobs, Transport & Resources, Victoria, Australia. macleodi@unimelb.edu.au."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cattle"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Bayes Theorem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Phenotype"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymorphism, Single Nucleotide"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Quantitative Trait Loci"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Models, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Male"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4769584?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4769584"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-016-2443-6"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-09-30"
+  ],
+  "dateOfCreation": [
+    "2016-02-27"
+  ],
+  "dateOfRevision": [
+    "2016-03-01"
+  ],
+  "electronicPublicationDate": [
+    "2016-02-27"
+  ],
+  "firstPublicationDate": [
+    "2016-02-27"
+  ]
+}

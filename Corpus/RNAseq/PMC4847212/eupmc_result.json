@@ -1,0 +1,541 @@
+{
+  "id": [
+    "27121965"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27121965"
+  ],
+  "pmcid": [
+    "PMC4847212"
+  ],
+  "doi": [
+    "10.1186/s12859-016-1031-8"
+  ],
+  "title": [
+    "ITD assembler: an algorithm for internal tandem duplication discovery from short-read sequencing data."
+  ],
+  "authorString": [
+    "Rustagi N, Hampton OA, Li J, Xi L, Gibbs RA, Plon SE, Kimmel M, Wheeler DA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rustagi N"
+          ],
+          "firstName": [
+            "Navin"
+          ],
+          "lastName": [
+            "Rustagi"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Department of Statistics, Rice University, Houston, TX, USA. Rustagi@bcm.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Hampton OA"
+          ],
+          "firstName": [
+            "Oliver A"
+          ],
+          "lastName": [
+            "Hampton"
+          ],
+          "initials": [
+            "OA"
+          ],
+          "affiliation": [
+            "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Li J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Dermatology, Xiangya Hospital, Central South University, Hunan, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Xi L"
+          ],
+          "firstName": [
+            "Liu"
+          ],
+          "lastName": [
+            "Xi"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Gibbs RA"
+          ],
+          "firstName": [
+            "Richard A"
+          ],
+          "lastName": [
+            "Gibbs"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "affiliation": [
+            "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Plon SE"
+          ],
+          "firstName": [
+            "Sharon E"
+          ],
+          "lastName": [
+            "Plon"
+          ],
+          "initials": [
+            "SE"
+          ],
+          "affiliation": [
+            "Department of Pediatrics/Hematology-Oncology, Texas Children's Hospital, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Kimmel M"
+          ],
+          "firstName": [
+            "Marek"
+          ],
+          "lastName": [
+            "Kimmel"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Wheeler DA"
+          ],
+          "firstName": [
+            "David A"
+          ],
+          "lastName": [
+            "Wheeler"
+          ],
+          "initials": [
+            "DA"
+          ],
+          "affiliation": [
+            "Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2477438"
+      ],
+      "dateOfPublication": [
+        "2016 Apr"
+      ],
+      "monthOfPublication": [
+        "4"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-04-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "188"
+  ],
+  "abstractText": [
+    "Detection of tandem duplication within coding exons, referred to as internal tandem duplication (ITD), remains challenging due to inefficiencies in alignment of ITD-containing reads to the reference genome. There is a critical need to develop efficient methods to recover these important mutational events.In this paper we introduce ITD Assembler, a novel approach that rapidly evaluates all unmapped and partially mapped reads from whole exome NGS data using a De Bruijn graphs approach to select reads that harbor cycles of appropriate length, followed by assembly using overlap-layout-consensus. We tested ITD Assembler on The Cancer Genome Atlas AML dataset as a truth set. ITD Assembler identified the highest percentage of reported FLT3-ITDs when compared to other ITD detection algorithms, and discovered additional ITDs in FLT3, KIT, CEBPA, WT1 and other genes. Evidence of polymorphic ITDs in 54 genes were also found. Novel ITDs were validated by analyzing the corresponding RNA sequencing data.ITD Assembler is a very sensitive tool which can detect partial, large and complex tandem duplications. This study highlights the need to more effectively look for ITD's in other cancers and Mendelian diseases."
+  ],
+  "affiliation": [
+    "Department of Statistics, Rice University, Houston, TX, USA. Rustagi@bcm.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "U54 HG003273"
+          ],
+          "agency": [
+            "NHGRI NIH HHS"
+          ],
+          "acronym": [
+            "HG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Diagnostic Techniques"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Tandem Repeat Sequences"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Mutation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Exons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "fms-Like Tyrosine Kinase 3"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Leukemia, Myeloid, Acute"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DI"
+                  ],
+                  "qualifierName": [
+                    "diagnosis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Exome"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Assembly",
+        "AMl",
+        "Clustering",
+        "data mining",
+        "Cancer Genetics",
+        "Flt3",
+        "Tandem Duplication",
+        "Somatic Mutations",
+        "De Bruijn Graphs"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "FLT3 protein, human"
+          ],
+          "registryNumber": [
+            "EC 2.7.10.1"
+          ]
+        },
+        {
+          "name": [
+            "fms-Like Tyrosine Kinase 3"
+          ],
+          "registryNumber": [
+            "EC 2.7.10.1"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4847212?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4847212"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12859-016-1031-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-11-08"
+  ],
+  "dateOfCreation": [
+    "2016-04-28"
+  ],
+  "dateOfRevision": [
+    "2016-12-30"
+  ],
+  "electronicPublicationDate": [
+    "2016-04-27"
+  ],
+  "firstPublicationDate": [
+    "2016-04-27"
+  ]
+}

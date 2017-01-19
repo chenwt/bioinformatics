@@ -1,0 +1,429 @@
+{
+  "id": [
+    "27199546"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27199546"
+  ],
+  "pmcid": [
+    "PMC4863871"
+  ],
+  "doi": [
+    "10.4137/cin.s38590"
+  ],
+  "title": [
+    "Selecting Reliable mRNA Expression Measurements Across Platforms Improves Downstream Analysis."
+  ],
+  "authorString": [
+    "Tong P, Diao L, Shen L, Li L, Heymach JV, Girard L, Minna JD, Coombes KR, Byers LA, Wang J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Tong P"
+          ],
+          "firstName": [
+            "Pan"
+          ],
+          "lastName": [
+            "Tong"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Diao L"
+          ],
+          "firstName": [
+            "Lixia"
+          ],
+          "lastName": [
+            "Diao"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Shen L"
+          ],
+          "firstName": [
+            "Li"
+          ],
+          "lastName": [
+            "Shen"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Li L"
+          ],
+          "firstName": [
+            "Lerong"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Heymach JV"
+          ],
+          "firstName": [
+            "John Victor"
+          ],
+          "lastName": [
+            "Heymach"
+          ],
+          "initials": [
+            "JV"
+          ],
+          "affiliation": [
+            "Department of Thoracic and Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Girard L"
+          ],
+          "firstName": [
+            "Luc"
+          ],
+          "lastName": [
+            "Girard"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Pharmacology, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Minna JD"
+          ],
+          "firstName": [
+            "John D"
+          ],
+          "lastName": [
+            "Minna"
+          ],
+          "initials": [
+            "JD"
+          ],
+          "affiliation": [
+            "Department of Internal Medicine, University of Texas Southwestern Medical Center, Dallas, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Coombes KR"
+          ],
+          "firstName": [
+            "Kevin R"
+          ],
+          "lastName": [
+            "Coombes"
+          ],
+          "initials": [
+            "KR"
+          ],
+          "affiliation": [
+            "Department of Medical Informatics, The Ohio State University, Columbus, OH, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Byers LA"
+          ],
+          "firstName": [
+            "Lauren Averett"
+          ],
+          "lastName": [
+            "Byers"
+          ],
+          "initials": [
+            "LA"
+          ],
+          "affiliation": [
+            "Department of Thoracic and Head and Neck Medical Oncology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Wang J"
+          ],
+          "firstName": [
+            "Jing"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2395423"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Cancer informatics"
+          ],
+          "ISOAbbreviation": [
+            "Cancer Inform"
+          ],
+          "medlineAbbreviation": [
+            "Cancer Inform"
+          ],
+          "NLMid": [
+            "101258149"
+          ],
+          "ESSN": [
+            "1176-9351"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "81-89"
+  ],
+  "abstractText": [
+    "With increasing use of publicly available gene expression data sets, the quality of the expression data is a critical issue for downstream analysis, gene signature development, and cross-validation of data sets. Thus, identifying reliable expression measurements by leveraging multiple mRNA expression platforms is an important analytical task. In this study, we propose a statistical framework for selecting reliable measurements between platforms by modeling the correlations of mRNA expression levels using a beta-mixture model. The model-based selection provides an effective and objective way to separate good probes from probes with low quality, thereby improving the efficiency and accuracy of the analysis. The proposed method can be used to compare two microarray technologies or microarray and RNA sequencing measurements. We tested the approach in two matched profiling data sets, using microarray gene expression measurements from the same samples profiled on both Affymetrix and Illumina platforms. We also applied the algorithm to mRNA expression data to compare Affymetrix microarray data with RNA sequencing measurements. The algorithm successfully identified probes/genes with reliable measurements. Removing the unreliable measurements resulted in significant improvements for gene signature development and functional annotations."
+  ],
+  "affiliation": [
+    "Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P50 CA070907"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 CA016672"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Correlation coefficients",
+        "cross-validation",
+        "probe selection",
+        "Gene Expression",
+        "Rna Sequence",
+        "Beta-mixture Model"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4863871?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4863871"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.4137/CIN.S38590"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "go"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2016-05-20"
+  ],
+  "dateOfCreation": [
+    "2016-05-20"
+  ],
+  "dateOfRevision": [
+    "2016-10-24"
+  ],
+  "electronicPublicationDate": [
+    "2016-05-10"
+  ],
+  "firstPublicationDate": [
+    "2016-05-10"
+  ]
+}

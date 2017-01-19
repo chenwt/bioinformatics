@@ -1,0 +1,990 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Metabolites</journal-id><journal-id journal-id-type="iso-abbrev">Metabolites</journal-id><journal-id journal-id-type="publisher-id">metabolites</journal-id><journal-title-group><journal-title>Metabolites</journal-title></journal-title-group><issn pub-type="epub">2218-1989</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3901253</article-id><article-id pub-id-type="doi">10.3390/metabo3010072</article-id><article-id pub-id-type="publisher-id">metabolites-03-00072</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Recent Applications of Metabolomics Toward Cyanobacteria</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Schwarz</surname><given-names>Doreen</given-names></name><xref ref-type="aff" rid="af1-metabolites-03-00072">1</xref></contrib><contrib contrib-type="author"><name><surname>Orf</surname><given-names>Isabel</given-names></name><xref ref-type="aff" rid="af2-metabolites-03-00072">2</xref></contrib><contrib contrib-type="author"><name><surname>Kopka</surname><given-names>Joachim</given-names></name><xref ref-type="aff" rid="af2-metabolites-03-00072">2</xref></contrib><contrib contrib-type="author"><name><surname>Hagemann</surname><given-names>Martin</given-names></name><xref ref-type="aff" rid="af1-metabolites-03-00072">1</xref><xref rid="c1-metabolites-03-00072" ref-type="corresp">*</xref></contrib></contrib-group><aff id="af1-metabolites-03-00072"><label>1</label>Institut Biowissenschaften, Pflanzenphysiologie, Universit&#x000e4;t Rostock, Albert-Einstein-Str. 3, D-18059 Rostock, Germany; E-Mail: <email>doreen.schwarz@uni-rostock.de</email></aff><aff id="af2-metabolites-03-00072"><label>2</label>Max-Planck-Institut f&#x000fc;r Molekulare Pflanzenphysiologie, Am M&#x000fc;hlenberg 1, 14476 Golm, Germany; E-Mails: <email>orf@mpimp-golm.mpg.de</email> (I.O.); <email>kopka@mpimp-golm.mpg.de</email> (J.K.)</aff><author-notes><corresp id="c1-metabolites-03-00072"><label>*</label> Author to whom correspondence should be addressed; E-Mail: <email>martin.hagemann@uni-rostock.de</email>; Tel.: +49-0-381-4986113; Fax: +49-0-381-4986112.</corresp></author-notes><pub-date pub-type="epub"><day>04</day><month>2</month><year>2013</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2013</year></pub-date><volume>3</volume><issue>1</issue><fpage>72</fpage><lpage>100</lpage><history><date date-type="received"><day>20</day><month>12</month><year>2012</year></date><date date-type="rev-recd"><day>23</day><month>1</month><year>2013</year></date><date date-type="accepted"><day>23</day><month>1</month><year>2013</year></date></history><permissions><copyright-statement>&#x000a9; 2013 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2013</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/"><license-p>This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<uri xlink:type="simple" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</uri>).</license-p></license></permissions><abstract><p>Our knowledge on cyanobacterial molecular biology increased tremendously by the application of the &#x0201c;omics&#x0201d; techniques. Only recently, metabolomics was applied systematically to model cyanobacteria. Metabolomics, the quantitative estimation of ideally the complete set of cellular metabolites, is particularly well suited to mirror cellular metabolism and its flexibility under diverse conditions. Traditionally, small sets of metabolites are quantified in targeted metabolome approaches. The development of separation technologies coupled to mass-spectroscopy- or nuclear-magnetic-resonance-based identification of low molecular mass molecules presently allows the profiling of hundreds of metabolites of diverse chemical nature. Metabolome analysis was applied to characterize changes in the cyanobacterial primary metabolism under diverse environmental conditions or in defined mutants. The resulting lists of metabolites and their steady state concentrations in combination with transcriptomics can be used in system biology approaches. The application of stable isotopes in fluxomics, <italic>i.e.</italic> the quantitative estimation of carbon and nitrogen fluxes through the biochemical network, has only rarely been applied to cyanobacteria, but particularly this technique will allow the making of kinetic models of cyanobacterial systems. The further application of metabolomics in the concert of other &#x0201c;omics&#x0201d; technologies will not only broaden our knowledge, but will also certainly strengthen the base for the biotechnological application of cyanobacteria.</p></abstract><kwd-group><kwd>inorganic carbon</kwd><kwd>glucose feeding</kwd><kwd>modeling</kwd><kwd>mutant</kwd><kwd>primary metabolism</kwd><kwd>stable isotope labeling</kwd><kwd>synechocystis</kwd></kwd-group></article-meta></front><body><sec><title>1. Introduction</title><p>The term &#x0201c;metabolome&#x0201d; was introduced to the scientific literature by Oliver <italic>et al.</italic> [<xref ref-type="bibr" rid="B1-metabolites-03-00072">1</xref>]. Metabolome comprises the complete set of small molecules or intermediates of cellular metabolism of an organism, organ, or cell, which is obtained via metabolomics, a technological platform of the &#x0201c;omic&#x0201d; toolbox for systems analysis. Metabolomics complements genomics, transcriptomics and proteomics at the metabolite level [<xref ref-type="bibr" rid="B2-metabolites-03-00072">2</xref>,<xref ref-type="bibr" rid="B3-metabolites-03-00072">3</xref>]. Naturally, the metabolome is determined by the coding capacity of the genome, and it is influenced by changes in the transcriptome and proteome but also by the direct or posttranslational impact of the chemical and nutritional environment of a cell on enzymatic and transport activities. In comparison to proteomics and transcriptomics, metabolomic analyses represent the level most closely related to the physiology of an organism, organ, or cell [<xref ref-type="bibr" rid="B4-metabolites-03-00072">4</xref>,<xref ref-type="bibr" rid="B5-metabolites-03-00072">5</xref>,<xref ref-type="bibr" rid="B6-metabolites-03-00072">6</xref>,<xref ref-type="bibr" rid="B7-metabolites-03-00072">7</xref>]. Like the other &#x0201c;omics&#x0201d; technologies, metabolomics became available due to the dramatic improvements of methods for metabolite analysis, mainly by the coupling of high throughput separation techniques via capillary electrophoresis (CE), gas or liquid chromatography (GC or LC) with new compound identification/quantification tools based on mass spectroscopy (MS) or nuclear magnetic resonance spectroscopy (NMR). These technologies enabled comprehensive and standardized metabolite analyses of complex biological samples. Like other &#x0201c;omics&#x0201d; technologies, the aim of metabolomics is the acquisition of large and comprehensive data sets, here ideally the complete set of cellular metabolites in relative or absolute quantitative terms. This aim is still difficult to achieve. The identification and quantification of all cellular metabolites through the fragment pattern via MS is a grand challenge due to the complex composition of the metabolome by highly diverse chemical molecules and their wide range of concentrations. Therefore, the optimization of the experimental procedure, the analytical technologies, and the data evaluation are major ongoing efforts in current and future metabolome research [<xref ref-type="bibr" rid="B8-metabolites-03-00072">8</xref>,<xref ref-type="bibr" rid="B9-metabolites-03-00072">9</xref>]. Despite the so far rather low coverage of state-of-the-art metabolome profiles compared to the close to comprehensive transcriptomic profiles, metabolomics is more directly connected to the physiology of organisms than all other &#x0201c;omics&#x0201d; technologies. Metabolic activities are often regulated not only by the amount of an enzyme but its activity state determines the metabolic activity. Especially the combination of steady state metabolomics with flux analysis using stable isotopes and their evaluation by mathematical modeling, <italic>i.e.</italic> current systems biology attempts, will allow a much better and comprehensive understanding of cellular metabolic networks and their flexibility under diverse conditions in a wide variety of organisms.</p><p>Here, we will review metabolomic approaches to understand cyanobacterial metabolism. The phylum cyanobacteria comprises photoautotrophic prokaryotes of the domain Bacteria. Ancient cyanobacteria invented oxygenic photosynthesis about three billion years ago, which was later conveyed by an endosymbiotic event into eukaryotes giving rise to the plastids [<xref ref-type="bibr" rid="B10-metabolites-03-00072">10</xref>]. Therefore, the photosynthetic metabolism in all phototrophic eukaryotes is phylogenetically related to that of cyanobacteria. Additional to photosynthesis, the cyanobacterial ancestor also contributed many more biochemical activities in present-day land plants. It has been estimated that approximately 18% of the protein coding genes of <italic>Arabidopsis thaliana</italic> were obtained via the cyanobacterial endosymbiont [<xref ref-type="bibr" rid="B11-metabolites-03-00072">11</xref>]. The close relationship of eukaryotic photosynthesis to that of cyanobacteria explains why cyanobacteria have been used for decades as a model to analyze plant functions, particularly related to photosynthesis.</p><p>Besides easy cultivation, the availability of genetic tools for cyanobacterial model strains supported the analysis of biochemical features. In 1996, the first genome of the most widely used cyanobacterial model strain, <italic>Synechocystis</italic> sp. PCC 6803 (hereafter <italic>Synechocystis</italic> 6803), was published [<xref ref-type="bibr" rid="B12-metabolites-03-00072">12</xref>]. Starting with this first cyanobacterial &#x0201c;omics&#x0201d; paper, genomics applied to cyanobacteria is still an expanding field. Meanwhile, more than 100 complete cyanobacterial genome sequences are available in public databases (e.g., CyanoBase: <uri xlink:type="simple" xlink:href="http://genome.kazusa.or.jp/cyanobase">http://genome.kazusa.or.jp/cyanobase</uri>) [<xref ref-type="bibr" rid="B13-metabolites-03-00072">13</xref>]. Based on the available genome sequences, transcriptomic studies first applying the microarray technology were published with cyanobacteria (e.g. [<xref ref-type="bibr" rid="B14-metabolites-03-00072">14</xref>,<xref ref-type="bibr" rid="B15-metabolites-03-00072">15</xref>]). The <italic>Synechocystis</italic> 6803 microarray data are summarized in a specialized database (CyanoExpress 1.2: <uri xlink:type="simple" xlink:href="http://cyanoexpress.sysbiolab.eu/">http://cyanoexpress.sysbiolab.eu/</uri>). Recently, the high throughput sequencing of cDNAs (RNAseq) was introduced to study cyanobacterial gene expression. This technique quantifies mRNA abundances as number of sequence reads and also allows the quantitative detection of hundreds of small, non-coding RNAs [<xref ref-type="bibr" rid="B16-metabolites-03-00072">16</xref>,<xref ref-type="bibr" rid="B17-metabolites-03-00072">17</xref>,<xref ref-type="bibr" rid="B18-metabolites-03-00072">18</xref>]. Transcriptome analyses soon became combined by proteomic studies initially using gel-based and later also gel-free high-throughput systems (e.g., [<xref ref-type="bibr" rid="B19-metabolites-03-00072">19</xref>,<xref ref-type="bibr" rid="B20-metabolites-03-00072">20</xref>]). Compared to genomics, transcriptomics and proteomics, the application of metabolomics to cyanobacteria started relatively late. While this technology was applied to land plants around the year 2000 [<xref ref-type="bibr" rid="B2-metabolites-03-00072">2</xref>,<xref ref-type="bibr" rid="B5-metabolites-03-00072">5</xref>], first examples for metabolomics with cyanobacteria appeared in the literature almost 10 years later with exception of the pioneering work by Yang and coworkers [<xref ref-type="bibr" rid="B21-metabolites-03-00072">21</xref>,<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>,<xref ref-type="bibr" rid="B23-metabolites-03-00072">23</xref>].</p><p>According to Fiehn, different metabolomic approaches can be distinguished: (i) metabolite target analysis, (ii) metabolite profiling, (iii) metabolite fingerprinting, (vi) metabolite footprinting, and (v) flux analysis [<xref ref-type="bibr" rid="B3-metabolites-03-00072">3</xref>]. The metabolite target analysis examines quantitatively specific metabolites or a few preselected metabolites, which are usually linked by an interest in common reactions or pathways [<xref ref-type="bibr" rid="B24-metabolites-03-00072">24</xref>]. Metabolite profiling investigates the amount of a group of known metabolites, which can be analyzed in parallel with a common analytical technology [<xref ref-type="bibr" rid="B2-metabolites-03-00072">2</xref>,<xref ref-type="bibr" rid="B5-metabolites-03-00072">5</xref>]. Metabolic fingerprinting aims for non-targeted, if possible non-biased, high-throughput quantification of intracellular metabolite pools (including still unknown metabolites) or in other terms the endo-metabolome. In contrast, metabolic footprinting analyzes the content of metabolites excreted from cells, the exo-metabolome [<xref ref-type="bibr" rid="B25-metabolites-03-00072">25</xref>,<xref ref-type="bibr" rid="B26-metabolites-03-00072">26</xref>]. Finally, the flux analysis applies stable isotopes such as <sup>13</sup>C, <sup>15</sup>N, <sup>18</sup>O or classically radioactive isotopes to reveal the pathways in an organism or cell. High-throughput analyses of metabolite fluxes are summarized under the term fluxomics [<xref ref-type="bibr" rid="B27-metabolites-03-00072">27</xref>].</p><p>The current state of technical developments and examples for the application of metabolomics to cyanobacteria will be summarized and discussed here. The use of metabolomics to understand cyanobacterial metabolism (<xref ref-type="fig" rid="metabolites-03-00072-f001">Figure 1</xref>) will not only fill gaps in our knowledge on the metabolism of photoautotrophic cells. Cyanobacteria like microalgae are emerging candidates for the production of green energy [<xref ref-type="bibr" rid="B28-metabolites-03-00072">28</xref>]. To generate efficient cyanobacterial production strains, metabolomics will be a key technology to guide biotechnological approaches and strain design [<xref ref-type="bibr" rid="B29-metabolites-03-00072">29</xref>,<xref ref-type="bibr" rid="B30-metabolites-03-00072">30</xref>].</p><fig id="metabolites-03-00072-f001" position="float"><label>Figure 1</label><caption><p>The primary metabolism of cyanobacteria and major entry points for inorganic carbon or glucose as organic carbon source (shown in red). Cyanobacteria such as <italic>Synechocystis</italic> 6803 fix CO<sub>2</sub> mostly via the Calvin-Benson cycle, which is linked to the photorespiratory 2PG cycle. Organic carbon is exported to the sugar metabolism and eventually stored as glycogen, which is used as carbon source during the night via the oxidative pentose phosphate (OPP) cycle and finally respiration. Organic carbon also can be channeled into glycolysis and tricarboxylic acid (TCA) cycle mostly to produce carbon skeletons for biosynthetic purposes. The molecule 2-oxoglutarate (2OG) is taken as precursor for ammonium assimilation via glutamine-synthetase/glutamine-oxoglutarat-aminotransferase (GS-GOGAT) and represents the main link to nitrogen metabolism. Green squares label metabolites detected by gas-chromatography-mass-spectrometry (GC-MS) [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>,<xref ref-type="bibr" rid="B51-metabolites-03-00072">51</xref>]. Blue squares show as for now non-detected metabolites by GC-MS. Dihydroxyacetone phosphate (DHAP), 2-phosphoglycolate (2PG), 3-phosphoglycerate (3PGA), 2-phosphoglycerate (2PGA), Phosphoenolpyruvate (PEP), 2-oxoglutarate (2OG).</p></caption><graphic xlink:href="metabolites-03-00072-g001"/></fig></sec><sec><title>2. Technical Development towards Comprehensive Analysis of the Cyanobacterial Metabolome</title><p>Among the current &#x0201c;omics&#x0201d; technologies for biological systems analyses, metabolomics is perhaps the most generic. DNA, RNA and protein sequences are dependent on the organism of origin. In contrast, the origin of metabolites cannot directly be traced to the organism of origin. This holds true per definition for primary metabolites but is also applicable to many secondary metabolites. As a consequence, most aspects of the current metabolomic technology development are generic. We refer the reader to the wealth of previous reviews on metabolomics specifically its early emergence and application to plants [<xref ref-type="bibr" rid="B3-metabolites-03-00072">3</xref>,<xref ref-type="bibr" rid="B31-metabolites-03-00072">31</xref>,<xref ref-type="bibr" rid="B32-metabolites-03-00072">32</xref>,<xref ref-type="bibr" rid="B33-metabolites-03-00072">33</xref>,<xref ref-type="bibr" rid="B34-metabolites-03-00072">34</xref>,<xref ref-type="bibr" rid="B35-metabolites-03-00072">35</xref>,<xref ref-type="bibr" rid="B36-metabolites-03-00072">36</xref>,<xref ref-type="bibr" rid="B37-metabolites-03-00072">37</xref>]. One important aim of the metabolomics field is the continuous improvement of technologies [<xref ref-type="bibr" rid="B8-metabolites-03-00072">8</xref>,<xref ref-type="bibr" rid="B9-metabolites-03-00072">9</xref>]. This process includes efforts for improved data quality as well as analytical tools for increased sample throughput. Progress has been made in standardized metabolomic reporting and comprehensive documentation of experimental designs. Such efforts will serve to improve the notoriously difficult exact reproduction of physiological experimentation particularly with photosynthetic organisms. The full extent of metabolomic primary data and the increasing amount of accompanying metadata can only be handled efficiently using databases such as the Golm Metabolome Database (<uri xlink:type="simple" xlink:href="http://gmd.mpimp-golm.mpg.de/">http://gmd.mpimp-golm.mpg.de/</uri>), which was developed for compounds in complex extracts from plant material [<xref ref-type="bibr" rid="B38-metabolites-03-00072">38</xref>,<xref ref-type="bibr" rid="B39-metabolites-03-00072">39</xref>,<xref ref-type="bibr" rid="B40-metabolites-03-00072">40</xref>,<xref ref-type="bibr" rid="B41-metabolites-03-00072">41</xref>]. The existing metabolomic databases are currently in the process of becoming interlinked, as has recently been envisioned by the MetaboLights initiative of the European Bioinformatics Institute (EBI) [<xref ref-type="bibr" rid="B42-metabolites-03-00072">42</xref>].</p><sec><title>2.1. Sampling and Metabolic Inactivation</title><p>Adequate sampling technologies are crucial for reliable metabolomic snapshots of biological systems and are largely independent of the subsequently applied analytical technology. The means of inactivating cellular metabolic activities determines how accurate the <italic>in situ</italic> metabolome of living cells is preserved within subsequently generated metabolite profiles. This task is challenging in the case of photoautotrophic microorganisms such as cyanobacteria. The flux through the Calvin-Benson cycle and the associated photorespiration responds rapidly to changes of illumination or other environmental factors. As a consequence, metabolic inactivation of photoautotrophic metabolism must be as rapid as possible and attempt to maintain constant illumination and environment throughout sampling. Cyanobacteria are typically grown in liquid culture both for the purpose of laboratory experiments and for biotechnological production. Some cyanobacteria, if not all, are known to leave a metabolic footprint in culture media by release and uptake of metabolites [<xref ref-type="bibr" rid="B43-metabolites-03-00072">43</xref>]. As a consequence, modern metabolomic sampling technologies must separate suspended cells from the surrounding liquid medium to allow the acquisition of distinct metabolic profiles of the endo- compared to the exo-metabolome.</p><p>Calvin and Benson came up with an elegant solution in their groundbreaking work on the unicellular alga, <italic>Chlorella</italic>, which culminated in the discovery of the first photosynthetic assimilation product 3-phosphoglycerate (3PGA) [<xref ref-type="bibr" rid="B44-metabolites-03-00072">44</xref>]. Algal cells from the photoreactor were rapidly mixed with alcohol via a valve outlet guaranteeing rapid metabolic inactivation. Unfortunately, this strategy does not allow the differentiation between the endo- and exo-metabolome. A slight modification of the sampling procedure was developed for the analysis of intracellular metabolites from yeast suspension cultures, which are rapidly frozen in super-cooled, but still liquid methanol:water (70:30, v/v) mixtures. The metabolically inactivated cells can then be harvested by centrifugation. Cold methanol quenching was applied to cyanobacteria [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>]. However, it also was shown that this quenching method reproducibly lead to losses of certain amino and carboxylic acids from cyanobacterial cells [<xref ref-type="bibr" rid="B46-metabolites-03-00072">46</xref>]. The same authors reported that quick centrifugation without quenching and washing followed by snap-freezing of the decanted pellet in liquid nitrogen resulted in reproducible metabolic snapshots. However, this technology can only be applied to heterotrophic growth conditions, as the cells are kept in the dark during centrifugation prior to metabolic inactivation.</p><p>An efficient solution of the combined separation and inactivation problem is fast filtration [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>,<xref ref-type="bibr" rid="B46-metabolites-03-00072">46</xref>,<xref ref-type="bibr" rid="B47-metabolites-03-00072">47</xref>]. Fast filtration can be performed using glass vacuum filtration devices with controlled temperature and illumination. The filtration process can be as fast as 10 seconds [<xref ref-type="bibr" rid="B46-metabolites-03-00072">46</xref>]. During filtration, the cells are still illuminated and surrounded by liquid medium. After removal of the liquid, the filter and adherent cells are instantaneously frozen in liquid nitrogen and stored until further processing. Fast filtration is not only highly repeatable but can be multi-parallelized for the modern demands of medium- to high-throughput system analyses.</p></sec><sec><title>2.2. Technologies for the Profiling of the Cyanobacterial Metabolome</title><p>Metabolomics efficiently uses multiple analytical technologies, mostly hyphenated technologies that combine high-resolution separation with selective means of detection. Ideally, multiple technologies are combined to extend the - as a rule - limited metabolome coverage of single technologies and to independently verify the analytical results of overlapping metabolites. The advantages and disadvantages of different technological approaches have recently been reviewed [<xref ref-type="bibr" rid="B37-metabolites-03-00072">37</xref>]. Criteria, which are typically considered, are the range of covered metabolites, the selectivity of separation and detection, the means to unambiguously annotate known metabolites, and the potential to elucidate the nature of newly discovered but unknown metabolites.</p><p>The separation technologies currently applied for the analysis of the cyanobacterial metabolome are capillary electrophoresis (CE), liquid chromatography (LC), and gas chromatography (GC). CE is well suited for the separation of charged metabolites from primary metabolism, such as organic acids, phosphates and nucleotides [<xref ref-type="bibr" rid="B23-metabolites-03-00072">23</xref>]. The limitation to charged metabolites does not apply to GC and LC. Ultra (high) performance liquid chromatography (UPLC) is typically applied because UPLC achieves enhanced compound separation compared to conventional LC setups [<xref ref-type="bibr" rid="B48-metabolites-03-00072">48</xref>]. LC methods were also applied to separate polar compounds from cyanobacteria using reversed or normal stationary phases [<xref ref-type="bibr" rid="B49-metabolites-03-00072">49</xref>]. LC methods for broad-coverage metabolome analysis are frequently limited by separation problems of low molecular mass primary metabolites and are thus often tuned to the analysis of large primary metabolites, secondary metabolites or complex lipids. A widely applied technology and among the first applied to cyanobacteria is GC-MS profiling [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>]. GC analysis initially applies to volatile compounds. For metabolomics, the coverage of GC-MS has been extended by chemical derivatization of polar metabolites, such as sugars, amino acids, organic acids, and phosphates into volatile products. This technology allows the analysis of a wide range of chemical metabolite classes in a single run, which was found to be especially convenient for the profiling of primary metabolism including uncharged primary metabolites and small secondary products.</p><p>The means of metabolite annotation are mostly dependent on the type of applied mass spectrometric (MS) technology. CE and LC are typically hyphenated to soft ionization MS technologies, such as electrospray (ESI-MS) or atmospheric pressure chemical ionization (APCI-MS), which typically maintain the molecular ion of a given metabolite. These ionizations are linked to MS systems that provide high mass resolution and accuracy. The recorded exact mass of a metabolite is used as the main criterion for metabolite annotation. Chemical isomers cannot be distinguished, because they have identical molecular formulas and consequently identical molecular masses. In contrast, GC is typically hyphenated to electron impact ionization (EI-MS), which generates highly repeatable and complex patterns of fragments that are suitable for automated matching procedures to mass spectral libraries.</p><p>MS provides data that support the structural elucidation of novel metabolites, but the gold standard for this purpose is nuclear magnetic resonance spectroscopy (NMR). <sup>1</sup>H-NMR is frequently used for metabolome analysis without prior metabolite separation. <sup>1</sup>H-NMR is less sensitive than the previously mentioned hyphenated technologies. The essential asset of <sup>1</sup>H-NMR together with other NMR technologies is the access to structural information that reveal the position of atoms within novel compounds and the comparative ease of standardization for the absolute quantification of pool sizes. A method combining MS and NMR detection was developed and applied for the analysis of cyanobacterial extracts [<xref ref-type="bibr" rid="B50-metabolites-03-00072">50</xref>].</p><p>In the following, we will highlight aspects, which apply to cyanobacterial metabolomics with a focus on GC-MS-based metabolite profiling technology [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>,<xref ref-type="bibr" rid="B47-metabolites-03-00072">47</xref>,<xref ref-type="bibr" rid="B51-metabolites-03-00072">51</xref>].</p></sec><sec><title>2.3. Standardized Data Processing and Specific Data Visualization</title><p>The general analytical procedure of the GC-MS-based profiling of primary metabolism has previously been described in detail [<xref ref-type="bibr" rid="B52-metabolites-03-00072">52</xref>,<xref ref-type="bibr" rid="B53-metabolites-03-00072">53</xref>]. The application of GC-MS to cyanobacteria generates highly complex and in the hands of experts highly reproducible chromatograms (<xref ref-type="fig" rid="metabolites-03-00072-f002">Figure 2</xref>). The first step of standardized metabolomic data analysis is the pre-processing of chromatogram files into numerical data matrices that can be used for statistical data analysis. As typical metabolome profiling experiments comprise hundreds of compounds and also hundreds of chromatograms, metabolomic experiments are evaluated by statistical tools such as TagFinder [<xref ref-type="bibr" rid="B54-metabolites-03-00072">54</xref>,<xref ref-type="bibr" rid="B55-metabolites-03-00072">55</xref>]. The final result of metabolomic data pre-processing is a numerical table of corrected, so-called normalized responses, ready for statistical data analysis and visualization. It is important to note that non-targeted data pre-processing maintains information on all observed compounds defined by a mass and retention index (RI).</p><p>The final task of standardized data processing is to link observed compound mass and RI information to known metabolites. This annotation process is achieved by a matching process that uses databases such as the Golm Metabolome Database of mass spectral and RI information obtained from authenticated reference substances [<xref ref-type="bibr" rid="B40-metabolites-03-00072">40</xref>,<xref ref-type="bibr" rid="B41-metabolites-03-00072">41</xref>]. The annotation process can be supported by software [<xref ref-type="bibr" rid="B54-metabolites-03-00072">54</xref>,<xref ref-type="bibr" rid="B55-metabolites-03-00072">55</xref>], but should remain under manual supervision and must be augmented by verification through specific standard addition experiments to each newly investigated biological object. Due to these problems, accurate compound annotation is currently the bottleneck that limits the speed of GC-MS-based metabolite profiling studies. In the case of <italic>Synechocystis</italic> 6803, GC-MS-based profiling covers most of central metabolism (see <xref ref-type="fig" rid="metabolites-03-00072-f001">Figure 1</xref>), including phosphorylated metabolites such as the products of ribulose-1,5-bisphosphate carboxylase/oxygenase (RubisCO), 3PGA and 2-phosphoglycolate (2PG), organic acid intermediates of the tricarboxylic acid (TCA) pathway, sugars, most amino acids, and other N-containing metabolites. An ideal resource for the interpretation of metabolomic data from cyanobacteria is the mapping of measured metabolite pools to the comprehensive inventory of pathways and enzymes reactions taken from full genome inventories [<xref ref-type="bibr" rid="B56-metabolites-03-00072">56</xref>]. Mapping of metabolome data serves the need to reduce and to simplify the complexity of &#x0201c;omics&#x0201d; data for the purpose of human interpretation.</p><fig id="metabolites-03-00072-f002" position="float"><label>Figure 2</label><caption><p>The essential workflow of non-targeted metabolite profiling. Non-targeted metabolite profiling generates reproducible and standardized metabolite profiles of biological samples. These profiles are transformed into numerical data matrices using automated data processing methods. Statistical data analyses identify compounds or groups of compounds, which are relevant for the investigated phenomenon. The chemical properties of the compounds of interest, in the case of GC-MS-based profiling, the retention index and the mass spectrum of a compound are matched to reference libraries such as the Golm Metabolome Database (<uri xlink:type="simple" xlink:href="http://gmd.mpimp-golm.mpg.de/">http://gmd.mpimp-golm.mpg.de/</uri>). A positive matching result of a metabolite is prerequisite for the physiological interpretation, which is ideally done in context with metabolic pathways. A compound, which cannot be matched to reference information can be documented and referred to via the database entry of its chemical properties until final structural elucidation.</p></caption><graphic xlink:href="metabolites-03-00072-g002"/></fig><p>For the purpose of demonstration we choose here the data of Eisenhut <italic>et al.</italic> [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>], which demonstrate strong precursor accumulation in two photorespiratory mutants, one defective in a glycolate dehydrogenase (&#x00394;<italic>glcD</italic>) and the other in the T-protein subunit of glycine decarboxylase (&#x00394;<italic>gcvT</italic>). The accumulation of glycolate and glycine, respectively, are linked to the changes in many other metabolites. But only the mapping of data onto the photorespiratory pathway reveals the context of precursor accumulations (<xref ref-type="fig" rid="metabolites-03-00072-f003">Figure 3</xref>). Mapping tools, which allow visualization of metabolome data to full, partial, or simplified pathways are available for customized visual data interpretation [<xref ref-type="bibr" rid="B57-metabolites-03-00072">57</xref>,<xref ref-type="bibr" rid="B58-metabolites-03-00072">58</xref>,<xref ref-type="bibr" rid="B59-metabolites-03-00072">59</xref>].</p><fig id="metabolites-03-00072-f003" position="float"><label>Figure 3</label><caption><p>Mapping of metabolite profiles from the glycolate dehydrogenase 1 (&#x00394;<italic>glcD1</italic>) (<italic>sll0404</italic>) and the glycine decarboxylase (&#x00394;<italic>gcvT</italic>) (<italic>sll0171</italic>) mutants to primary metabolism of <italic>Synechocystis</italic> 6803 wild type. The pathway mapping was customized to the current coverage of GC-MS profiles of primary metabolism. The mapping visualizes the specific metabolic precursor accumulation phenotypes of the photorespiratory mutants defective in glycolate dehydrogenase 1 (&#x00394;<italic>glcD1</italic>) and in the T-protein subunit of glycine decarboxylase (&#x00394;<italic>gcvT</italic>), when shifted from high (5%) to low (0.035%) CO<sub>2</sub> availability. Data were taken from the supplement of Eisenhut <italic>et al.</italic> [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>]; n.d. (not detected). The top left insert shows the pathway overview and position of the zoom-in on photorespiration. The bottom left insert describes the color-coding of the bar diagrams. The display was partially automated using the VANTED software tool [<xref ref-type="bibr" rid="B58-metabolites-03-00072">58</xref>].</p></caption><graphic xlink:href="metabolites-03-00072-g003"/></fig></sec><sec><title>2.4. Discovery of Still Unknown Metabolites</title><p>Metabolite profiles contain a vast amount of mass signals, which can currently not be attributed to known metabolites and are considered to represent a large number of still non-identified metabolites. The structural elucidation of all compounds that are observable by novel profiling technologies can be considered to represent the grand challenge of the metabolomics field [<xref ref-type="bibr" rid="B34-metabolites-03-00072">34</xref>,<xref ref-type="bibr" rid="B60-metabolites-03-00072">60</xref>]. In most studies, these non-identified compounds are disregarded. However, non-targeted metabolomics and specifically GC-MS-based profiling can also be used for the discovery of novel metabolites and not yet annotated pathways, which might be highly relevant to any investigated physiological phenomenon. Typically, a relevant but unknown metabolite is discovered by non-targeted statistical data analysis. The reference mass spectra and RI information of such novel compounds of interest can be archived, processed, and integrated in databases such as the Golm Metabolome Database prior to their full structural elucidation, which may take considerable time and effort (<xref ref-type="fig" rid="metabolites-03-00072-f002">Figure 2</xref>). Thus still non-identified but archived metabolites, sometimes called the &#x0201c;known unknowns&#x0201d;, can be included into studies as marker substances relevant for defined physiological conditions. </p></sec><sec><title>2.5. GC-MS-Based Metabolic Profiling Combined with Isotopic Tracing and Flux Analysis</title><p>The first studies of metabolic flux analyses used radioactive isotopes. The detection of radioactive decay is highly sensitive. For this reason, very small amounts of labeled metabolites can be used, which do not significantly alter metabolite pool sizes. But radioactivity is toxic; therefore, radioactive isotopes have largely been replaced by stable isotopes. Stable isotopes usually need to be applied in higher amounts to meet the detection limits of current analytical technologies such as MS. The use of stable isotopes became possible, because MS provides information on so-called mass isotopomers. Isotopomers are mass-variants of a molecule, which arise from incorporation of naturally occurring or experimentally introduced elemental isotopes, such as <sup>13</sup>C and <sup>15</sup>N as compared to the in nature most abundant <sup>12</sup>C and <sup>14</sup>N isotopes. The incorporation of <sup>13</sup>C or <sup>15</sup>N causes mass shifts of +1 mass unit for each substituted atom in a molecule. For example, the natural isotopomer composition of malate from <italic>Synechocystis</italic> 6803 is shown in <xref ref-type="fig" rid="metabolites-03-00072-f004">Figure 4</xref>. When stable isotopes are introduced into a biological system, their highest concentration or more exact &#x0201c;enrichment&#x0201d; is detected in those metabolite pools, which are immediately linked to the point of label incorporation. The enrichment pattern can be used to draw conclusions as to the connectivity of metabolite pools. When coupled to time course experiments, the flux of elements through a pathway from one metabolite pool to a defined connecting metabolite pool can be quantified. </p><p>Finally, multi-parallel isotopomer measurements and available data on pool size concentrations can be fitted to mathematical models of metabolism. These models return the best fitting flux rates of all modeled enzymatic reactions. For example, the isotopomer composition of malate during a time course measured following a <sup>13</sup>C-bicarbonate pulse demonstrated clearly that malate is predominantly synthesized by the joined incorporation of two C-atoms under the chosen conditions, likely by entry of acetate derived from phosphoenolpyruvate (PEP) into the TCA pathway of <italic>Synechocystis</italic> 6803 (<xref ref-type="fig" rid="metabolites-03-00072-f004">Figure 4</xref>, discussed in more detail in <xref ref-type="sec" rid="sec3dot6-metabolites-03-00072">Section 3.6</xref>). Fitting of such mass isotopomer data to mathematical models considering so-called carbon mappings will support intuitive interpretations and will provide estimates of the flux rates of enzymatic reactions [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>], which can ultimately be compared between experimental conditions and genetically modified genotypes of <italic>Synechocystis</italic> 6803. The ground has been prepared for such studies by defining mass fragments and respective mass isotopomers of multiple primary metabolites, which are suitable for flux studies using GC-MS-based profiling allowing multi-parallel measurements of pool size and flux as shown with <italic>Synechocystis</italic> 6803 [<xref ref-type="bibr" rid="B47-metabolites-03-00072">47</xref>,<xref ref-type="bibr" rid="B61-metabolites-03-00072">61</xref>].</p><fig id="metabolites-03-00072-f004" position="float"><label>Figure 4</label><caption><p>Mass isotopomer distributions of malate from a <sup>13</sup>C-pulse experiment of <italic>Synechocystis.</italic> 6803 wild type pre-acclimated to 0.035% CO<sub>2</sub>. Mass isotopomer distributions are taken from a time course recorded at t<sub>0</sub>-t<sub>15</sub> after a pulse with 2% (w/w) <sup>13</sup>C-NaHCO<sub>3</sub>. Arrows indicate the preferential incorporation of two coupled <sup>13</sup>C-carbon atoms, namely A+2 and A+4, into malate molecules. The mass isotopomer distribution at t<sub>0</sub> reflects the naturally occurring isotopes of elements present in the malate molecule. The descriptor A represents the so-called monoisotopic mass of molecules, <italic>i.e.</italic> molecules that contain only <sup>12</sup>C, the most abundant C-isotope, whereas A+1 to A+4 represent the mass of molecules, which contain one or in the case of malate up to four <sup>13</sup>C-atoms. (All theoretically possible combinations of <sup>12</sup>C and <sup>13</sup>C atoms are given in the row below). Abundances are normalized to the sum of all mass isotopomers of malate. The malate <sup>13</sup>C-enrichment reflects the non-random dilution of stable isotopes in biological systems. Note that the use of radioactive isotopes such as <sup>14</sup>C does not directly provide information on the number of labeled carbon atoms in a molecule.</p></caption><graphic xlink:href="metabolites-03-00072-g004"/></fig></sec></sec><sec><title>3. Metabolomics with Cyanobacteria</title><sec><title>3.1. Early Approaches to Analyze Cyanobacterial Metabolites</title><p>Soon after the description of the Calvin-Benson cycle for photosynthetic carbon fixation [<xref ref-type="bibr" rid="B44-metabolites-03-00072">44</xref>], the path of carbon fixation was analyzed in cyanobacteria as ancestors of plant plastids. These early studies used <sup>14</sup>C-labeled CO<sub>2</sub> and followed its incorporation in different cellular metabolites during time. At that time, the metabolites were mostly separated by two-dimensional paper chromatography and identified via co-chromatography of authentic standard substances [<xref ref-type="bibr" rid="B62-metabolites-03-00072">62</xref>]. These techniques allowed the quantitative estimation of label accumulation in many phosphorylated intermediates of the primary cyanobacterial metabolism (see <xref ref-type="fig" rid="metabolites-03-00072-f001">Figure 1</xref>). From these investigations it became clear that cyanobacteria like plastids use the C3-type of photosynthesis, however, PEP-carboxylase and/or carbamylphosphate synthase can contribute significantly to the inorganic carbon (C<sub>i</sub>) fixation at specific conditions [<xref ref-type="bibr" rid="B63-metabolites-03-00072">63</xref>]. Feeding cyanobacteria with <sup>14</sup>C-labeled glucose and the identification of labeled intracellular metabolites also verified the dominating role of the oxidative pentose phosphate (OPP) cycle in sugar breakdown during dark periods, while the TCA cycle did not seem to contribute [<xref ref-type="bibr" rid="B64-metabolites-03-00072">64</xref>].</p><p>Subsequently, it was shown that the TCA cycle was incomplete among cyanobacteria. According to enzyme measurements and <sup>14</sup>C-labelling with several cyanobacteria such as <italic>Anacystis nidulans</italic> (syn. <italic>Synechococcus elongatus</italic> PCC 6301), <italic>Coccochloris peniocystis</italic> or <italic>Gloeocapsa alpicola</italic>, the 2&#x02011;oxoglutarate (2OG) dehydrogenase complex is missing [<xref ref-type="bibr" rid="B65-metabolites-03-00072">65</xref>,<xref ref-type="bibr" rid="B66-metabolites-03-00072">66</xref>,<xref ref-type="bibr" rid="B67-metabolites-03-00072">67</xref>]. The currently available cyanobacterial genome sequences supported this view, because all of them did not contain genes for the 2OG dehydrogenase complex. Accordingly, it was assumed that the open TCA cycle only served to produce carbon skeletons for diverse biosynthetic pathways; particularly 2OG was used to produce glutamate via GS/GOGAT representing the main connecting point of the primary C- and N-metabolism. Correspondingly, 2OG was identified as a crucial signaling metabolite balancing the cyanobacterial C/N metabolism via the NtcA- and/or PII-based regulation of many genes and proteins involved in nitrogen assimilation [<xref ref-type="bibr" rid="B68-metabolites-03-00072">68</xref>,<xref ref-type="bibr" rid="B69-metabolites-03-00072">69</xref>]. Recently, the &#x0201c;open&#x0201d; TCA cycle could be closed (see <xref ref-type="fig" rid="metabolites-03-00072-f001">Figure 1</xref>) by accessory enzymes among cyanobacteria [<xref ref-type="bibr" rid="B70-metabolites-03-00072">70</xref>]. First hints for a closed TCA cycle were obtained by Cooley <italic>et al.</italic>, who showed that labeled 2OG could quickly be converted into succinate in a <italic>Synechocystis</italic> 6803 mutant defective in fumarase [<xref ref-type="bibr" rid="B71-metabolites-03-00072">71</xref>]. But only in 2011, Zhang and Bryant identified two genes in the genome of <italic>Synechococcus</italic> sp. PCC 7002, which encode the 2OG carboligase and succinic semialdehyde dehydrogenase converting 2OG into succinate [<xref ref-type="bibr" rid="B70-metabolites-03-00072">70</xref>]. This study also applied present-day methods of metabolome analysis via GC-MS. Accordingly, the cyanobacterial TCA cycle is not open, but differs from the canonical one. It will be interesting to study, under which conditions or in which cyanobacterial strains the TCA cycle functions more as an opened or closed cycle. Similarly, the TCA cycle in plant leaf mitochondria usually functions as an open cycle delivering carbon skeletons for glutamate synthesis during the day, while it is more closed participating in respiratory functions during the night. This switch between an open and closed mode could fulfill regulatory tasks depending on the C/N state of cells [<xref ref-type="bibr" rid="B72-metabolites-03-00072">72</xref>].</p></sec><sec><title>3.2. Metabolic Target Analysis&#x02014;Bioactive Compounds</title><p>Metabolic target analysis aims to analyze metabolites fulfilling common functions or being involved in defined target processes. Cyanobacteria are not only important models to analyze photosynthetic mechanisms but also produce diverse bioactive substances as secondary metabolites, which can have toxic effects on mammals and are of high concern in environmental and health policies [<xref ref-type="bibr" rid="B73-metabolites-03-00072">73</xref>,<xref ref-type="bibr" rid="B74-metabolites-03-00072">74</xref>]. Because of the high chemical variety of cyanobacterial bioactive compounds, such as cyclic peptides, polyketides, alkaloids, amino acid derivatives, and their high number of derivatives showing different toxic potential, the development of specialized analytical tools was and is a challenge. In the past, cyanobacterial toxins were often analyzed using bioassays with cell cultures and animals or antibody-based systems. Later on, chromatographic and NMR systems were developed allowing the targeted analysis of toxin classes [<xref ref-type="bibr" rid="B75-metabolites-03-00072">75</xref>]. Recently, high performance liquid chromatography (HPLC) or LC separation coupled to MS identification was also introduced to toxin analysis, which seemed to allow the quantification of diverse toxins by one method [<xref ref-type="bibr" rid="B76-metabolites-03-00072">76</xref>,<xref ref-type="bibr" rid="B77-metabolites-03-00072">77</xref>]. Using such tools, it is not only possible to monitor drinking water quality with increasing sensitivity; it also allows the MS-based identification of cyanobacterial toxins in environmental samples of marine cyanobacteria [<xref ref-type="bibr" rid="B78-metabolites-03-00072">78</xref>,<xref ref-type="bibr" rid="B79-metabolites-03-00072">79</xref>] or of lichens [<xref ref-type="bibr" rid="B80-metabolites-03-00072">80</xref>].</p></sec><sec><title>3.3. Metabolic Profiling&#x02014;Fatty Acids</title><p>Metabolic profiling comprises approaches using metabolite spectra for the differentiation of species or phenotypes. The taxonomy of cyanobacteria is unclear [<xref ref-type="bibr" rid="B81-metabolites-03-00072">81</xref>]. Cyanobacteria are characterized by a high morphological and genetic diversity. According to the classical botanical approach, morphological properties were used to divide the cyanobacteria into five sections [<xref ref-type="bibr" rid="B82-metabolites-03-00072">82</xref>,<xref ref-type="bibr" rid="B83-metabolites-03-00072">83</xref>]. Based on the bacteriological taxonomy, cyanobacteria should be classified using a polyphasic approach, which takes many physiological and genotypic characters into consideration [<xref ref-type="bibr" rid="B81-metabolites-03-00072">81</xref>,<xref ref-type="bibr" rid="B84-metabolites-03-00072">84</xref>]. Today, the easiest and mostly used profiling technique applies the 16S rRNA sequence clustering. However, there are many attempts to include metabolite patterns as chemotaxonomic marker. The fatty acid composition was found to present a particular valuable marker in the polyphasic approach of microbial taxonomy [<xref ref-type="bibr" rid="B85-metabolites-03-00072">85</xref>]. Usually, the isolated fatty acids are converted to methyl esters and are analyzed by GC, which can be coupled to classical flame detection or more recently to MS-based detection. Libraries of fatty acid methyl esters exist allowing a bacterial classification according to this chemotaxonomic marker (e.g. <uri xlink:type="simple" xlink:href="http://www.midi-inc.com/pages/mis_libraries.html">http://www.midi-inc.com/pages/mis_libraries.html</uri>). Applying such a technology, the species composition of the cyanobacterial genera <italic>Aphanizomenon</italic>, <italic>Microcystis</italic>, <italic>Nostoc</italic>, and <italic>Planktothrix</italic> was analyzed [<xref ref-type="bibr" rid="B86-metabolites-03-00072">86</xref>,<xref ref-type="bibr" rid="B87-metabolites-03-00072">87</xref>]. The previously mentioned studies analyzed the whole-cell fatty acid composition, while Li <italic>et al.</italic> used minor fatty acid components like 2-hydroxy or 3-hydroxy fatty acids as chemotaxonomic markers for cyanobacterial strains [<xref ref-type="bibr" rid="B88-metabolites-03-00072">88</xref>].</p><p>Recently, mechanisms for cyanobacterial lipid and fatty acid biosynthesis as well as the corresponding product analysis received increased attention in the field of biofuel production. Fatty acids can be converted into biodiesel and other fuels of rather high energy density. The photoautotrophic life style of cyanobacteria will allow a CO<sub>2</sub>-neutral and regenerative fuel production [<xref ref-type="bibr" rid="B89-metabolites-03-00072">89</xref>,<xref ref-type="bibr" rid="B90-metabolites-03-00072">90</xref>].</p></sec><sec><title>3.4. Metabolic Fingerprinting</title><p>Metabolic fingerprinting is a rapid, untargeted and high-throughput method for the quantitative determination of the (whole) cellular metabolite spectrum, the metabolome. This technology is currently mostly used to globally characterize metabolic changes under different cultivation (environmental) conditions or genetic backgrounds. Among cyanobacteria, metabolic fingerprinting attempts used the separation of low molecular mass metabolites via CE, GC or LC usually coupled to MS detection and identification. These approaches revealed thousands of mass features mostly from unknown metabolites, which could be classified by statistical means (discussed above). For example, we compared the growth of <italic>Synechocystis</italic> 6803 under different CO<sub>2</sub> concentrations in wild-type cells compared to mutants defective in photorespiratory enzymes [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>]. The metabolic fingerprint revealed clear differences depending on the CO<sub>2</sub> amount and/or on the genotype (<xref ref-type="fig" rid="metabolites-03-00072-f003">Figure 3</xref>). Unfortunately, as in most cases, only part of the mass features could be assigned to chemical structures (usually between 50&#x02013;100 metabolites). Therefore, many more differences in metabolites pattern have been obtained by the fingerprinting than can currently be tracked down to the cyanobacterial metabolism. Similar to proteomics, the combination of different metabolomics technologies is necessary to become more and more comprehensive.</p><p>Nevertheless, these fingerprints are extremely useful for the fast screening of alterations in the cyanobacterial metabolism under different growth conditions or in different genetic backgrounds. The growth and metabolic activities of cyanobacteria are determined and influenced by diverse environmental factors such as light, temperature, salinity, and the availability of different C or N sources [<xref ref-type="bibr" rid="B91-metabolites-03-00072">91</xref>,<xref ref-type="bibr" rid="B92-metabolites-03-00072">92</xref>]. Transcriptomics revealed increased or decreased expression of defined groups of genes for certain biochemical routes, <italic>i.e.</italic>, photorespiratory metabolism in <italic>Synechocystis</italic> 6803 [<xref ref-type="bibr" rid="B93-metabolites-03-00072">93</xref>,<xref ref-type="bibr" rid="B94-metabolites-03-00072">94</xref>]. These studies allowed to conclude that some metabolic routes are likely to be more or less active under certain conditions. However, not all changes in gene expression are directly translated into protein amounts, which also are often regulated at activity level. Therefore, the subsequent or combined application of metabolomics helps to clarify if anticipated transcriptional observations are transmitted into metabolic changes.</p><p>Among cyanobacteria, two key factors influencing growth have been investigated in much detail: The availability of carbon by shifts from high to low CO<sub>2</sub> and/or by the addition of organic carbon sources such as glucose.</p><p><italic>CO<sub>2</sub> availability:</italic> Cyanobacteria use mainly C<sub>i</sub> (CO<sub>2</sub> and HCO<sub>3</sub><sup>&#x02212;</sup>) as primary carbon source. The availability of C<sub>i</sub> determines the growth rate and the photosynthetic activity of cyanobacteria. Alterations in the gene expression pattern [<xref ref-type="bibr" rid="B93-metabolites-03-00072">93</xref>,<xref ref-type="bibr" rid="B94-metabolites-03-00072">94</xref>] and modifications of the proteome [<xref ref-type="bibr" rid="B95-metabolites-03-00072">95</xref>] were reported for <italic>Synechocystis</italic> 6803 in response to CO<sub>2</sub> limitation. These studies revealed the complete set of low CO<sub>2</sub>-induced genes, among them the well-known transporters for inorganic carbon such as NDH-1, BCT1 and SbtA [<xref ref-type="bibr" rid="B96-metabolites-03-00072">96</xref>]. Additionally, many genes coding for enzymes of the primary C- and N-metabolism showed changed mRNA levels giving clear hints towards a coordinated change in the whole cell metabolism.</p><p>Subsequently, alterations of the metabolome in response to C<sub>i</sub> limitation were investigated in <italic>Synechocystis</italic> 6803 [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>]. The GC-MS-based analysis indicated that the Calvin-Benson cycle activity and glycogen storage decreased, whereas organic carbon was increasingly channeled into glycolysis (higher levels of dihydroxyacetone phosphate, 2-phosphoglycerate and PEP) and the TCA cycle (2OG, malate and fumarate increased). Moreover, photorespiratory metabolism became activated by low CO<sub>2</sub>. We could detect significant amounts of 2PG, the by-product of the RubisCO oxygenase reaction. These global metabolic changes were in accordance with changes of gene expression for some of the enzymes involved in the corresponding metabolic routes [<xref ref-type="bibr" rid="B93-metabolites-03-00072">93</xref>,<xref ref-type="bibr" rid="B94-metabolites-03-00072">94</xref>]. Much to our surprise, we found (at least transiently at the investigated time points of 3, 6, and 24 h after shifts from 5% to 0.038% CO<sub>2</sub>) an increase of the 2OG level while glutamate decreased. The 2OG level was supposed to decrease under lowered C<sub>i</sub> due to the decreased C/N ratio. Previously, it has been shown that after a shift from a high to a low N-amount, <italic>i.e.</italic>, an increase in the C/N ratio, 2OG increases [<xref ref-type="bibr" rid="B97-metabolites-03-00072">97</xref>]. Therefore, the opposite behavior was assumed for a decreased C/N ratio. Recently, we found that another cyanobacterium, <italic>Synechococcus elongatus</italic> PCC 7942, showed very similar metabolic alterations including the (transient) increase of the 2OG level when shifted from high to low CO<sub>2</sub> [<xref ref-type="bibr" rid="B51-metabolites-03-00072">51</xref>]. We interpret the increase of 2OG as a transitory lack of coordination or disequilibrium between the C- and N-metabolism during the first hours after CO<sub>2</sub> starvation. To maintain growth, cells channel less organic carbon to storage and correspondingly more organic carbon to 2OG (and other TCA cycle intermediates) as precursors for amino acid and other biosynthetic processes. At the same time, the cells sharply decrease the uptake of nitrate and the ammonia assimilation via GS/GOGAT, because of the relative increase in N/C ratio after low CO<sub>2</sub> shift. Thus, increased channeling of carbon toward the TCA cycle and reduced GS/GOGAT activity result in the accumulation of 2OG. This scenario is supported by the gene expression changes showing decreased expression of nitrate transporters and increased expression of proteins inhibiting GS activity in <italic>Synechocystis</italic> 6803 [<xref ref-type="bibr" rid="B94-metabolites-03-00072">94</xref>] as well as in <italic>Synechococcus elongatus</italic> PCC 7942 [<xref ref-type="bibr" rid="B51-metabolites-03-00072">51</xref>].</p><p>Thus, metabolomics reveal that shifts form high to low CO<sub>2</sub> levels induce a coordinated change in the central C/N-metabolism. The PII protein is known as one of the central regulators for C/N balance in cyanobacterial cells [<xref ref-type="bibr" rid="B69-metabolites-03-00072">69</xref>]. The influence of PII on the shifts in the metabolomics fingerprint between high and low CO<sub>2</sub> cells was investigated using the PII mutant of <italic>Synechococcus elongatus</italic> PCC 7942 [<xref ref-type="bibr" rid="B51-metabolites-03-00072">51</xref>]. Indeed, the metabolome and transcriptome of the PII mutant revealed characteristic alterations in comparison to the wild type. However, these alterations were mostly observed for N-containing metabolites and genes coding for enzymes involved in N-metabolism, <italic>i.e.</italic> the PII protein seems to be more responsible for the decrease in N-assimilation after shifts to low CO<sub>2</sub> than for the changes specifically linked to C-metabolism [<xref ref-type="bibr" rid="B51-metabolites-03-00072">51</xref>].</p><p><italic>Glucose addition:</italic><italic>Synechocystis</italic> 6803 is one of the few cyanobacteria, which can take up and use external glucose as C-source. Therefore, photoautotrophic and photomixotrophic growth conditions can be directly compared with this strain. Transcriptomic [<xref ref-type="bibr" rid="B98-metabolites-03-00072">98</xref>,<xref ref-type="bibr" rid="B99-metabolites-03-00072">99</xref>] and proteomic [<xref ref-type="bibr" rid="B98-metabolites-03-00072">98</xref>,<xref ref-type="bibr" rid="B100-metabolites-03-00072">100</xref>] analyses of glucose effects on <italic>Synechocystis</italic> 6803 have been published during the last 10 years. Metabolomic fingerprints of glucose addition on the primary metabolism were published by Takahashi <italic>et al.</italic> and recently by Narainsamy <italic>et al.</italic> [<xref ref-type="bibr" rid="B23-metabolites-03-00072">23</xref>,<xref ref-type="bibr" rid="B48-metabolites-03-00072">48</xref>]. In agreement with the literature, the &#x0201c;omics&#x0201d; studies revealed that addition of 5 mM glucose under continuous illumination increased the steady state levels of many intermediates of the OPP cycle and glycolysis, whereas the intermediates of the Calvin-Benson cycle decreased. Moreover, the storage of carbon in sucrose and glycogen was stimulated by glucose, while the TCA cycle metabolites did not seem to be affected much [<xref ref-type="bibr" rid="B23-metabolites-03-00072">23</xref>,<xref ref-type="bibr" rid="B48-metabolites-03-00072">48</xref>]. Remarkably, the metabolomics approach also revealed that glucose addition to <italic>Synechocystis</italic> 6803 cells in light induced oxidative stress. Metabolites, which are characteristic for cells exposed to oxidative stress, were identified in the metabolome of cells grown under photoheterotrophic conditions [<xref ref-type="bibr" rid="B48-metabolites-03-00072">48</xref>].</p><p><italic>Metabolomics to characterize selected mutants:</italic> The availability of metabolomics also made it possible to analyze the impact of genetic lesions in defined mutants on overall metabolism. For example, Miranda <italic>et al.</italic> aimed to characterize differences between wild-type and protease-mutant cells by a combined proteomics and metabolomics approach [<xref ref-type="bibr" rid="B101-metabolites-03-00072">101</xref>]. Because elevated temperatures were found to decrease the fitness of the mutant, both genotypes were compared in ambient and heat-stress conditions. The metabolic fingerprinting allowed a clear separation between wild-type and mutant cells, however, the temperature-induced changes overwrote the mutant&#x02013;based differences.</p><p>Many glucose-sensitive <italic>Synechocystis</italic> 6803 mutants are known, but the basis of the glucose-sensitive phenotype is mostly unknown. The metabolic fingerprint of the glucose-sensitive <italic>Synechocystis</italic> 6803 mutant &#x00394;<italic>pmgA</italic> (<italic>sll1968</italic>) indicated that the absence of PmgA (a protein of unknown function) resulted in failure to coordinate the carbon partition between the Calvin-Benson and OPP cycle. While wild-type cells increased the OPP cycle intermediates after glucose addition, cells of the mutant &#x00394;<italic>pmgA</italic> activated the OPP to a much smaller extent. Probably, this metabolic imbalance leads to the glucose-sensitivity of the &#x00394;<italic>pmgA</italic> mutant [<xref ref-type="bibr" rid="B23-metabolites-03-00072">23</xref>].</p><p>The primary carbon metabolism is regulated on different levels in the cyanobacterial cell. Alternative sigma factors seem to play an important role in the modification of key C- and N-assimilatory routes by changing the expression of genes for key enzymes under changed nutrient conditions. Recently Osani <italic>et al.</italic> have provided evidence that the SigE contributes to the differential expression of genes for enzymes involved in the carbon catabolism of <italic>Synechocystis</italic> 6803 [<xref ref-type="bibr" rid="B102-metabolites-03-00072">102</xref>]. A <italic>Synechocystis</italic> 6803 strain over-expressing the <italic>sigE</italic> was analyzed using transcriptomics, metabolomics and immuno-blotting to quantify the amount of key enzymes in the sugar catabolism. The results clearly indicate that SigE regulates the coordinated expression of sugar catabolism genes, especially those for the OPP cycle and TCA cycle enzymes. Deregulation of these enzymes changes the metabolic acclimation to altered growth conditions, for example, sensitivity towards glucose addition was found for the SigE overexpressing strain [<xref ref-type="bibr" rid="B102-metabolites-03-00072">102</xref>].</p><p>Glycogen represents the main carbon storage in cyanobacteria. Recently, <italic>Synechocystis</italic> 6803 mutants with impaired glycogen synthesis were constructed to analyze the role of this carbon storage during the acclimation to different growth conditions [<xref ref-type="bibr" rid="B103-metabolites-03-00072">103</xref>]. The mutation of glycogen accumulation indeed had severe effects on the viability of mutant cells. While the growth under continuous light was not affected much, the mutant became sensitive toward light/dark cycles, addition of glucose, and nitrogen starvation. Interestingly, glycogen mutants also showed the non-bleaching phenotype under N-starvation conditions, <italic>i.e.</italic> in contrast to wild-type cells, they showed retarded degradation of phycobilisomes and chlorophyll. Obviously, glycogen plays a more important role than just carbon storage in the cyanobacterial metabolism. The metabolome analyses revealed a lack of coordination of metabolism under fluctuating growth conditions when glycogen storage was abolished. Interestingly, the glycogen mutant selectively excreted high amounts of 2OG and pyruvate into the medium [<xref ref-type="bibr" rid="B103-metabolites-03-00072">103</xref>].</p><p>Mutants of <italic>Synechocystis</italic> 6803 also were used to analyze the contribution of specific enzymes toward the CO<sub>2</sub>-induced alterations in the primary C-metabolism. The metabolome in wild-type cells was compared to that of two photorespiratory mutants, &#x00394;<italic>glcD</italic> and &#x00394;<italic>gcvT</italic>. The mutant &#x00394;<italic>glcD</italic> is defective in one of the two glycolate dehydrogenase genes, while &#x00394;<italic>gcvT</italic> harbors a mutation in the T-protein of the glycine decarboxylase complex [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>]. Both mutants showed the expected changes, <italic>i.e.</italic> &#x00394;<italic>glcD</italic> accumulated glycolate and an increase of glycine was found in cells of &#x00394;<italic>gcvT</italic> (see <xref ref-type="fig" rid="metabolites-03-00072-f003">Figure 3</xref>). Interestingly, these photorespiratory intermediates accumulated already in mutant cells grown at high CO<sub>2</sub>, which showed that even under these conditions RubisCO oxygenation occurred, but the photorespiratory activity was sufficient to avoid the accumulation of these intermediates in wild-type cells. Under lower CO<sub>2</sub> concentrations of ambient air, the two mutants accumulated much higher levels of the photorespiratory intermediates reflecting the increased photorespiratory activity based on higher RubisCO oxygenation. Additional to the expected changes in photorespiratory metabolites, the mutants, especially &#x00394;<italic>glcD</italic>, already showed some features of the low CO<sub>2</sub> metabolic fingerprint of wild-type cells under high CO<sub>2</sub> conditions. These observations led to the conclusion that intermediates of the photorespiratory pathway, <italic>i.e.</italic> glycolate, might act as signal molecules for the C<sub>i</sub> sensing among cyanobacteria [<xref ref-type="bibr" rid="B22-metabolites-03-00072">22</xref>]. This possibility was further investigated using another <italic>Synechocystis</italic> 6803 mutant, which cannot build carboxysomes, the central component of the C<sub>i</sub>-concentrating-mechanism. In cells of the mutant &#x00394;<italic>ccmM</italic>, RubisCO is directly exposed to much higher oxygen levels and should show an increased oxygenase activity. Indeed, the metabolome of the mutant &#x00394;<italic>ccmM</italic> showed accumulation of 2PG and other metabolites when sparked with 5% CO<sub>2</sub>, which were only found in wild-type cells when shifted to low CO<sub>2</sub>. However, the transcriptomics data obtained in parallel did not show any shift to the low CO<sub>2</sub> gene expression pattern in high CO<sub>2</sub>-grown cells of &#x00394;<italic>ccmM</italic>, which made a direct or exclusive role of 2PG as low C<sub>i</sub> signal questionable [<xref ref-type="bibr" rid="B104-metabolites-03-00072">104</xref>].</p><p>As mentioned above, cyanobacteria are highly attractive cell factories for the production of green energy; one main trait is the increased hydrogen production. Under fermentative conditions, many cyanobacterial strains such as <italic>Synechococcus</italic> sp. PCC 7002 show the natural competence to produce hydrogen. However, the yield is low probably due to competing fermentative routes. Metabolic engineering was used in an attempt to improve the hydrogen production with this cyanobacterium [<xref ref-type="bibr" rid="B105-metabolites-03-00072">105</xref>]. To decrease the production of lactate, one of the main fermentation products of cyanobacteria, an <italic>ldhA</italic> mutant of <italic>Synechococcus</italic> sp. PCC 7002 was generated and characterized regarding changes in the endo- and exo-metabolome. As expected, the amount of lactate production decreased and more of the cellular reductants were used for alternative fermentation processes including hydrogen generation. Maximal 12% of the fermentative energy was converted into hydrogen in cells of the <italic>ldhA</italic> mutant [<xref ref-type="bibr" rid="B105-metabolites-03-00072">105</xref>]. This paper provides an example how metabolic engineering will become an attractive mean in the field of cyanobacterial biotechnology.</p></sec><sec><title>3.5. Metabolic Footprinting</title><p>Microorganisms interact permanently with their environment by uptake or release of metabolites. Metabolic footprinting is often used as a term for metabolome analyses of extracellular compounds in growth media. The accumulation of compounds in the surrounding medium can result from their release by exudation, <italic>i.e.</italic> export of substances via defined transporters or channels, or by (partial) cell lysis. As photoautotrophic prokaryotes, cyanobacteria are regarded to use inorganic nutrients and light for the production of organic cell material. However, there are many reports that cyanobacteria can also import and use organic substrates from the environment. A specific glucose transporter allows <italic>Synechocystis</italic> 6803 to grow with organic carbon instead of CO<sub>2</sub> as C-source [<xref ref-type="bibr" rid="B106-metabolites-03-00072">106</xref>]. For oceanic <italic>Prochlorococcus</italic> spp. it also was shown that amino acids could serve as significant N-source [<xref ref-type="bibr" rid="B107-metabolites-03-00072">107</xref>]. Different transporters for neutral, basic and acidic amino acids as well as for compatible solutes such as trehalose, sucrose, glucosylglycerol, and glycine betaine have been identified [<xref ref-type="bibr" rid="B68-metabolites-03-00072">68</xref>,<xref ref-type="bibr" rid="B92-metabolites-03-00072">92</xref>]. However, the mutation of these transport systems resulted in the leakage of these compounds from the cells indicating that these transporters were mostly required to avoid their losses. There are also reports that natural populations of cyanobacteria release organic carbon, mostly as glycolate, as well as organic nitrogen to the environment under specific conditions. Cyanobacterial exudates then can be used by heterotrophic bacteria [<xref ref-type="bibr" rid="B108-metabolites-03-00072">108</xref>,<xref ref-type="bibr" rid="B109-metabolites-03-00072">109</xref>].</p><p>Nowadays, metabolic footprinting can be done in a high through put mode combining stable isotope labeling with modern analysis tools like LC-MS or GC-MS. Recently, Baran <italic>et al.</italic> performed the first comprehensive study to investigate the uptake and release of metabolites by axenic cells of <italic>Synechococcus</italic> sp. PCC 7002 [<xref ref-type="bibr" rid="B43-metabolites-03-00072">43</xref>]. The authors cultivated this cyanobacterium in different media (minimal and three media enriched with organic nutrients) and compared the time-dependent changes in media composition. An impressive large spectrum of organic compounds was found to be taken up by this cyanobacterial strain. Especially, when the minimal medium was enriched with low molecular compounds extracted from <italic>Synechococcus</italic> sp. PCC 7002, many of the cellular metabolites could be imported illustrating the capability of cyanobacteria to avoid or minimize the loss of valuable cellular compounds. The authors also showed that compounds, which were previously not reported as cyanobacterial metabolites such as histidine betaine or &#x003b3;-glutamylphenylalanine, were not only found in the cell extracts but were also taken up by cells of <italic>Synechococcus</italic> sp. PCC 7002. Applying stable isotopes made it possible to show that for example adenine and glutamate were not only taken up but also actively incorporated into the cellular metabolism. These data allowed the conclusion that the uptake of diverse metabolites allows <italic>Synechococcus</italic> sp. PCC 7002 to benefit from the availability of organic nutrients, which are released into the medium by lysis of cells after stress, viral attacks, or predation [<xref ref-type="bibr" rid="B43-metabolites-03-00072">43</xref>].</p></sec><sec id="sec3dot6-metabolites-03-00072"><title>3.6. Flux Analysis</title><p>The application of radioactive or, in our days, stable isotopes in labeling experiments allows following the carbon or nitrogen flux in an organism. Compared to metabolic fingerprinting, in which changes in the steady state levels of metabolites are detected, flux analysis allows the direct recognition whether or not the synthesis or breakdown of specific intermediates is affected.</p><p>Relatively early, Yang <italic>et al.</italic> used <sup>13</sup>C-labeled glucose to investigate the metabolic reorganization in <italic>Synechocystis</italic> 6803 under heterotrophic and mixotrophic growth [<xref ref-type="bibr" rid="B21-metabolites-03-00072">21</xref>]. The study revealed the OPP pathway as the dominant path of glucose utilization under heterotrophic conditions. In contrast, under mixotrophic growth the CO<sub>2</sub> fixation through the Calvin-Benson cycle exceeded glucose assimilation. <italic>Synechocystis</italic> 6803 did not only prefer CO<sub>2</sub> assimilation via RubisCO under photoheterotrophic conditions, it also employed the PEP carboxylase to increase CO<sub>2</sub> assimilation into the TCA cycle and the glycolysis. Based on these findings, Yang <italic>et al.</italic> postulated the functioning of a C4 pathway in cyanobacteria [<xref ref-type="bibr" rid="B21-metabolites-03-00072">21</xref>]. In an accompanying study, the effects of glucose addition on expression levels (protein and mRNA) of key enzymes for C-assimilation were analyzed [<xref ref-type="bibr" rid="B98-metabolites-03-00072">98</xref>,<xref ref-type="bibr" rid="B110-metabolites-03-00072">110</xref>]. This comprehensive analysis revealed that most changes in the carbon flow could not be explained by expression changes. Therefore, the authors concluded that the regulation of enzymatic activities via modified substrate concentrations and/or by light-induced redox changes was responsible for the observed alterations of the C-fluxes.</p><p>Recently, Huege <italic>et al.</italic> and Young <italic>et al.</italic> used <sup>13</sup>C-bicarbonate pulse-labeling to define the major C<sub>i</sub> fixation pathways in the cyanobacterium <italic>Synechocystis</italic> 6803 [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>,<xref ref-type="bibr" rid="B47-metabolites-03-00072">47</xref>]. The enrichment of <sup>13</sup>C in selected metabolites was followed up to 60 min after addition of <sup>13</sup>C-label. The <sup>13</sup>C enrichment kinetics showed that compounds closely linked to the Calvin-Benson cycle became completely saturated by <sup>13</sup>C, while other pools such as these of sucrose or TCA cycle intermediates showed relatively slow <sup>13</sup>C enrichments.</p><p>Our experiments revealed two major pathways for the C-assimilation in the light. The main CO<sub>2</sub>fixation was done by RubisCO and the organic carbon was channeled into (i) sucrose via glucose-6-phosphate and (ii) aspartate, malate, citrate and 2OG via PEP [<xref ref-type="bibr" rid="B47-metabolites-03-00072">47</xref>]. Low CO<sub>2</sub>-acclimated cells increased the second path considerably. Moreover, comparison of labeling kinetics of 3PGA <italic>versus</italic> 2PG was used to quantify carboxylation/oxygenation ratios. Already at high CO<sub>2</sub> a low label of 2PG was found, which increased after shifts to low CO<sub>2</sub> conditions amounting to maximal 4% oxygenation. Additional to RubisCO, carboxylation via PEP carboxylase was active, which showed increased contributions to the overall <sup>13</sup>C-incorporation in the two photorespiratory mutants &#x00394;<italic>gcvT</italic> and &#x00394;<italic>glcD</italic> [<xref ref-type="bibr" rid="B47-metabolites-03-00072">47</xref>]. The manual inspection of malate labeling (see <xref ref-type="fig" rid="metabolites-03-00072-f004">Figure 4</xref>) provided indications for the prevailing simultaneous addition of two <sup>13</sup>C-atoms into malate over addition of a single <sup>13</sup>C-atom by direct <sup>13</sup>C-bicarbonate incorporation via PEP carboxylase. The simultaneous addition of two <sup>13</sup>C-atoms can be explained by insertion of acetyl-CoA into the TCA pathway of <italic>Synechocystis</italic> 6803 and subsequent synthesis of malate from the intermediates of this path. If this assumption is true, the labeling pattern of malate could be used as an indicator to analyze the degree of an open <italic>versus</italic> a more closed TCA cycle under specific conditions. However, the relative contributions of PEP carboxylase and/or the TCA pathway and the exact route of malate synthesis still need to be modeled and explored in more detail.</p><p>Young <italic>et al.</italic> already combined stable isotope labeling and a model approach, <italic>i.e.</italic> they used the isotopically non-stationary metabolic flux analysis (INST-MFA) [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>]. The MFA allowed the analysis of isotopomer patterns leading to a detailed as well as quantitative description of CO<sub>2</sub> fixation in cells of <italic>Synechocystis</italic> 6803. Thus, the authors provided the first kinetic modeling of photoautotrophic growth directly based on measured <sup>13</sup>C-fluxes, which was evaluated regarding potential targets of optimization of photosynthetic carbon fixation to support biotechnological applications of cyanobacteria [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>]. This analysis quantified precisely the rates of all Calvin-Benson cycle reactions, therefore, the total CO<sub>2</sub> fixation could be related to the incorporation of organic carbon into the biomass. The authors reported that about 25% of initially fixed CO<sub>2</sub> was lost during photoautotrophic growth. The parallel investigation of the exo-metabolome revealed that the release of organic carbon into the medium did not play a significant role. Beside CO<sub>2</sub> losses due to respiration, the OPP cycle was found to be a significant process leading to diminished carbon use efficiency. Initially, it was thought that the OPP cycle becomes inactivated in light-exposed cyanobacterial cells. At least under the experimental conditions used by Young <italic>et al.</italic>, the OPP pathway was still active in the light possibly to balance redox or precursor needs [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>]. Moreover, significant amounts of CO<sub>2</sub> were also released by the activity of the malic enzyme. However, the malate seemed to be mostly synthesized via C4-like carboxylation of PEP leading to oxaloacetate and then malate, making this pathway CO<sub>2</sub> neutral. Most probably the combined action of PEP carboxylase and malic enzyme does not serve as CO<sub>2</sub> concentration mechanism as in C4 plants but is rather responsible for an increased synthesis of pyruvate as precursor for amino acids or for other compounds. Photorespiration, <italic>i.e.</italic> carbon loss due to RubisCO oxygenase activity based 2PG production, was ruled out as a main pathway diminishing the efficiency of photoautotrophic growth of <italic>Synechocystis</italic> 6803. Under the CO<sub>2</sub> and light conditions used by Young <italic>et al.</italic>, oxygenation accounted for only 0.5% of RubisCO carboxylation [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>]. Thus, this study proposes possible targets for the metabolic engineering of cyanobacterial C-assimilation to minimize those &#x0201c;unwanted&#x0201d; reactions to improve growth and productivity of the cells.</p><p>The cyanobacterium <italic>Cyanothece</italic> sp. ATCC 51142, an N<sub>2</sub>-fixing unicellular strain, has recently received much attention as a potential producing host for hydrogen [<xref ref-type="bibr" rid="B111-metabolites-03-00072">111</xref>]. In order to improve the future biotechnological application of this strain, its primary C- and N-metabolism were analyzed using <sup>13</sup>C-glycerol feeding. The effect of the organic carbon on primary metabolism and growth was analyzed in the presence of light and other growth conditions [<xref ref-type="bibr" rid="B112-metabolites-03-00072">112</xref>]. These analyses showed that organic carbon significantly reduced autotrophic CO<sub>2</sub> fixation in <italic>Cyanothece</italic> ATCC 51142, <italic>i.e.</italic>, the cells grew mostly heterotrophically in the light when supplemented with organic carbon, while glucose addition had a much lower impact on <italic>Synechocystis</italic> 6803. Moreover, a detailed analysis of the isotopomer composition of amino acids allowed the discovery of a new isoleucine synthesis pathway among cyanobacteria [<xref ref-type="bibr" rid="B113-metabolites-03-00072">113</xref>]. Previously, it was assumed that cyanobacteria like most other bacteria synthesize isoleucine from threonine via 2-ketobutyrate. Because the enzyme for the threonine/2-ketobutyrate conversion was not annotated in the genome of <italic>Cyanothece</italic> sp. ATCC 51149, the authors searched for an alternative isoleucine synthesis. The isotopomer analysis of <sup>13</sup>C-labeled isoleucine obtained after <sup>13</sup>C-glycerol feeding indicated that this amino acid is synthesized by the citramalate pathway, in which acetyl-CoA and pyruvate are condensed to citramalate as precursor of 2-ketobutyrate, rather than using threonine as precursor. The isoleucine pathway deduced from the isoleucine labeling pattern was supported by the identification of the citramalate synthase gene in the genome of <italic>Cyanothece</italic> sp. ATCC 51142 [<xref ref-type="bibr" rid="B113-metabolites-03-00072">113</xref>]. Because similar proteins are encoded in some other cyanobacterial genomes, the isoleucine biosynthesis differs among cyanobacterial species.</p></sec></sec><sec><title>4. Future Perspectives</title><p>Metabolomics, particularly in combination with the other &#x0201c;omic&#x0201d; tools such as transcriptomics or proteomics, represents a powerful tool for the investigation of basic physiological phenomena. Fiehn described metabolomics as the link between genotype and phenotype [<xref ref-type="bibr" rid="B3-metabolites-03-00072">3</xref>]. Clearly, the application of this technology to various aspects of basic or applied research with cyanobacteria will rise during the near future. As discussed here, the basic technology is available and can be used after appropriate standardization to specific model organisms.</p><p>One of the major challenges for metabolomics will be the future identification of hitherto unknown compounds. A broader coverage of metabolites will not only allow a deeper insight into the cyanobacterial metabolism, it also will certainly lead to the discovery of biochemical routes presently not assigned to the cyanobacterial kingdom. It is noteworthy that each cyanobacterial genome harbors up to 30% of genes for proteins with unknown function, even some enzymes for pathways of the primary C- and N-metabolism are virtually missing (e.g. phosphoserine pathway, [<xref ref-type="bibr" rid="B56-metabolites-03-00072">56</xref>]; isoleucine synthesis in <italic>Cyanothece</italic> sp. ATCC 51142, [<xref ref-type="bibr" rid="B113-metabolites-03-00072">113</xref>]). Metabolomics with mutant collections defective in genes for such unknown proteins will present a perfect tool for the functional annotation of these proteins. The accumulation of defined metabolites could provide hints for their biochemical roles. In many cases, related proteins are found in other organisms including land plants; therefore, the functional annotation of these proteins among cyanobacteria will close gaps in our general knowledge of photoautotrophic metabolism.</p><p>Besides metabolic fingerprinting, fluxomics using labeled precursors promise the best insights into the cyanobacterial metabolism and its regulation. As shown by Young <italic>et al.</italic>, the evaluation of such labeling experiments needs state of the art modeling approaches [<xref ref-type="bibr" rid="B45-metabolites-03-00072">45</xref>]. In the moment, most models are rather descriptive applying flux balance analysis [<xref ref-type="bibr" rid="B56-metabolites-03-00072">56</xref>]. These models allow metabolic network reconstruction and can be used to search for pathway gaps or to plan synthetic biology experiments for the production of biofuels. The challenge will be to develop kinetic models, which do not only allow the evaluation of labeling experiments, but also integrate data from corresponding experiments analyzing gene expression changes. Such a system level understanding of the cyanobacterial physiology promises to predict sensitive steps for the sustainable production of biomass, biofuel, or chemical feedstock based on solar energy and CO<sub>2</sub> using a cyanobacterial cell factory as discussed recently by Nogales <italic>et al.</italic> [<xref ref-type="bibr" rid="B114-metabolites-03-00072">114</xref>].</p></sec></body><back><ack><title>Acknowledgements</title><p>Our work on cyanobacterial metabolomics is supported by the DFG (Deutsche Forschungsgemeinschaft, German Research Foundation).</p></ack><notes><title>Conflict of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-metabolites-03-00072"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oliver</surname><given-names>S.G.</given-names></name><name><surname>Winson</surname><given-names>M.K.</given-names></name><name><surname>Kell</surname><given-names>D.B.</given-names></name><name><surname>Baganz</surname><given-names>F.</given-names></name></person-group>
+<article-title>Systemic functional analysis of the yeast genome</article-title>
+<source>Trends Biotechnol.</source>
+<year>1998</year>
+<volume>16</volume>
+<fpage>373</fpage>
+<lpage>378</lpage>
+<pub-id pub-id-type="pmid">9744112</pub-id></element-citation></ref><ref id="B2-metabolites-03-00072"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fiehn</surname><given-names>O.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>D&#x000f6;rmann</surname><given-names>P.</given-names></name><name><surname>Altmann</surname><given-names>T.</given-names></name><name><surname>Trethewey</surname><given-names>R.N.</given-names></name><name><surname>Willmitzer</surname><given-names>L.</given-names></name></person-group>
+<article-title>Metabolite profiling for plant functional genomics</article-title>
+<source>Nat. Biotechnol.</source>
+<year>2000</year>
+<volume>18</volume>
+<fpage>1157</fpage>
+<lpage>1161</lpage>
+<pub-id pub-id-type="doi">10.1038/81137</pub-id>
+<pub-id pub-id-type="pmid">11062433</pub-id></element-citation></ref><ref id="B3-metabolites-03-00072"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fiehn</surname><given-names>O.</given-names></name></person-group>
+<article-title>Metabolomics &#x02013; the link between genotypes and phenotypes</article-title>
+<source>Plant. Mol. Biol.</source>
+<year>2002</year>
+<volume>48</volume>
+<fpage>155</fpage>
+<lpage>171</lpage>
+<pub-id pub-id-type="doi">10.1023/A:1013713905833</pub-id>
+<pub-id pub-id-type="pmid">11860207</pub-id></element-citation></ref><ref id="B4-metabolites-03-00072"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brunengraber</surname><given-names>H.</given-names></name><name><surname>Kelleher</surname><given-names>J.K.</given-names></name><name><surname>des Rosiers</surname><given-names>C.</given-names></name></person-group>
+<article-title>Applications of mass isotopomer analysis to nutrition research</article-title>
+<source>Annu. Rev. Nutr.</source>
+<year>1997</year>
+<volume>17</volume>
+<fpage>559</fpage>
+<lpage>596</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.nutr.17.1.559</pub-id>
+<pub-id pub-id-type="pmid">9240940</pub-id></element-citation></ref><ref id="B5-metabolites-03-00072"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roessner</surname><given-names>U.</given-names></name><name><surname>Wagner</surname><given-names>C.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Trethewey</surname><given-names>R.N.</given-names></name><name><surname>Willmitzer</surname><given-names>L.</given-names></name></person-group>
+<article-title>Simultaneous analysis of metabolites in potato by gas chromatography-mass spectrometry</article-title>
+<source>Plant. J.</source>
+<year>2000</year>
+<volume>23</volume>
+<fpage>131</fpage>
+<lpage>142</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-313x.2000.00774.x</pub-id>
+<pub-id pub-id-type="pmid">10929108</pub-id></element-citation></ref><ref id="B6-metabolites-03-00072"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lei</surname><given-names>Z.</given-names></name><name><surname>Huhman</surname><given-names>D.V.</given-names></name><name><surname>Summer</surname><given-names>L.W.</given-names></name></person-group>
+<article-title>Mass spectrometry strategies in metabolomics</article-title>
+<source>J. Biol. Chem.</source>
+<year>2011</year>
+<volume>286</volume>
+<fpage>25435</fpage>
+<lpage>25442</lpage>
+<pub-id pub-id-type="pmid">21632543</pub-id></element-citation></ref><ref id="B7-metabolites-03-00072"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Desbrosses</surname><given-names>G.G.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Udvardi</surname><given-names>M.K.</given-names></name></person-group>
+<article-title><italic>Lotus japonicus</italic> metabolic profiling. Development of gas chromatography-mass spectrometry resources for the study of plant-microbe interactions</article-title>
+<source>Plant Physiol.</source>
+<year>2005</year>
+<volume>137</volume>
+<fpage>1302</fpage>
+<lpage>1318</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.104.054957</pub-id>
+<pub-id pub-id-type="pmid">15749991</pub-id></element-citation></ref><ref id="B8-metabolites-03-00072"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sumner</surname><given-names>L.W.</given-names></name><name><surname>Amberg</surname><given-names>A.</given-names></name><name><surname>Barrett</surname><given-names>D.</given-names></name><name><surname>Beale</surname><given-names>M.H.</given-names></name><name><surname>Beger</surname><given-names>R.</given-names></name><name><surname>Daykin</surname><given-names>C.A.</given-names></name><name><surname>Fan</surname><given-names>T.W.M.</given-names></name><name><surname>Fiehn</surname><given-names>O.</given-names></name><name><surname>Goodacre</surname><given-names>R.</given-names></name><name><surname>Griffin</surname><given-names>J.L.</given-names></name><etal/></person-group>
+<article-title>Proposed minimum reporting standards for chemical analysis</article-title>
+<source>Metabolomics</source>
+<year>2007</year>
+<volume>3</volume>
+<fpage>211</fpage>
+<lpage>221</lpage>
+<pub-id pub-id-type="pmid">24039616</pub-id></element-citation></ref><ref id="B9-metabolites-03-00072"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fernie</surname><given-names>A.R.</given-names></name><name><surname>Aharoni</surname><given-names>A.</given-names></name><name><surname>Willmitzer</surname><given-names>L.</given-names></name><name><surname>Stitt</surname><given-names>M.</given-names></name><name><surname>Tohge</surname><given-names>T.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Carroll</surname><given-names>A.J.</given-names></name><name><surname>Saito</surname><given-names>K.</given-names></name><name><surname>Fraser</surname><given-names>P.D.</given-names></name><name><surname>DeLuca</surname><given-names>V.</given-names></name></person-group>
+<article-title>Recommendations for reporting metabolite data</article-title>
+<source>Plant. Cell.</source>
+<year>2011</year>
+<volume>23</volume>
+<fpage>2477</fpage>
+<lpage>2482</lpage>
+<pub-id pub-id-type="doi">10.1105/tpc.111.086272</pub-id>
+<pub-id pub-id-type="pmid">21771932</pub-id></element-citation></ref><ref id="B10-metabolites-03-00072"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hohmann-Marriott</surname><given-names>M.F.</given-names></name><name><surname>Blankenship</surname><given-names>R.E.</given-names></name></person-group>
+<article-title>Evolution of photosynthesis</article-title>
+<source>Annu. Rev. Plant. Biol.</source>
+<year>2011</year>
+<volume>62</volume>
+<fpage>515</fpage>
+<lpage>548</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-arplant-042110-103811</pub-id>
+<pub-id pub-id-type="pmid">21438681</pub-id></element-citation></ref><ref id="B11-metabolites-03-00072"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>W.</given-names></name><name><surname>Rujan</surname><given-names>T.</given-names></name><name><surname>Richly</surname><given-names>E.</given-names></name><name><surname>Hansen</surname><given-names>A.</given-names></name><name><surname>Cornelsen</surname><given-names>S.</given-names></name><name><surname>Lins</surname><given-names>T.</given-names></name><name><surname>Leister</surname><given-names>D.</given-names></name><name><surname>Stoebe</surname><given-names>B.</given-names></name><name><surname>Hasegawa</surname><given-names>M.</given-names></name><name><surname>Penny</surname><given-names>D.</given-names></name></person-group>
+<article-title>Evolutionary analysis of Arabidopsis, cyanobacterial, and chloroplast genomes reveals plastid phyogeny and thousands of cyanobacterial genes in the nucleus</article-title>
+<source>Proc. Natl. Acad. Soi. USA</source>
+<year>2002</year>
+<volume>99</volume>
+<fpage>12246</fpage>
+<lpage>12251</lpage>
+</element-citation></ref><ref id="B12-metabolites-03-00072"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaneko</surname><given-names>T.</given-names></name><name><surname>Sato</surname><given-names>S.</given-names></name><name><surname>Kotani</surname><given-names>H.</given-names></name><name><surname>Tanaka</surname><given-names>A.</given-names></name><name><surname>Asamizu</surname><given-names>E.</given-names></name><name><surname>Nakamura</surname><given-names>Y.</given-names></name><name><surname>Miyajima</surname><given-names>N.</given-names></name><name><surname>Hirosawa</surname><given-names>M.</given-names></name><name><surname>Sugiura</surname><given-names>M.</given-names></name><name><surname>Sasamoto</surname><given-names>S.</given-names></name><etal/></person-group>
+<article-title>Sequence analysis of the genome of the unicellular cyanobacterium <italic>Synechocystis.</italic> sp. strain PCC6803. II. Sequence determination of the entire genome and assignment of potential protein-coding regions</article-title>
+<source>DNA Res.</source>
+<year>1996</year>
+<volume>3</volume>
+<fpage>109</fpage>
+<lpage>136</lpage>
+<pub-id pub-id-type="doi">10.1093/dnares/3.3.109</pub-id>
+<pub-id pub-id-type="pmid">8905231</pub-id></element-citation></ref><ref id="B13-metabolites-03-00072"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stanley</surname><given-names>D.N.</given-names></name><name><surname>Raines</surname><given-names>C.A.</given-names></name><name><surname>Kerfeld</surname><given-names>C.A.</given-names></name></person-group>
+<article-title>Comparative analysis of 126 cyanobacterial genomes reveals evidence of functional diversity among homologs of the redox-regulated CP12 protein</article-title>
+<source>Plant. Physiol.</source>
+<year>2012</year>
+<pub-id pub-id-type="doi">10.1104/pp.112.210542</pub-id>
+</element-citation></ref><ref id="B14-metabolites-03-00072"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Yamaguchi</surname><given-names>K.</given-names></name><name><surname>Ribbeck</surname><given-names>K.</given-names></name><name><surname>Yamamoto</surname><given-names>H.</given-names></name><name><surname>Kanesaki</surname><given-names>Y.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name></person-group>
+<article-title>Identification of histidine kinases that act as sensors in the perception of salt stress in <italic>Synechocystis.</italic> sp. PCC 6803</article-title>
+<source>Proc. Natl. Acad. Soi. USA</source>
+<year>2003</year>
+<volume>100</volume>
+<fpage>9061</fpage>
+<lpage>9066</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1532302100</pub-id>
+</element-citation></ref><ref id="B15-metabolites-03-00072"><label>15.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Los</surname><given-names>D.A.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Zinchenko</surname><given-names>V.V.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name></person-group>
+<article-title>Stress responses in <italic>Synechocytis</italic>. Regulated genes and regulatory systems</article-title>
+<source>The Cyanobacteria: Molecular Biology, Genomics and Evolution</source>
+<person-group person-group-type="editor"><name><surname>Herrero</surname><given-names>A.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name></person-group>
+<publisher-name>Caister Academic Press</publisher-name>
+<publisher-loc>Norfolk, UK</publisher-loc>
+<year>2008</year>
+<fpage>117</fpage>
+<lpage>157</lpage>
+</element-citation></ref><ref id="B16-metabolites-03-00072"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mitschke</surname><given-names>J.</given-names></name><name><surname>Georg</surname><given-names>J.</given-names></name><name><surname>Scholz</surname><given-names>I.</given-names></name><name><surname>Sharma</surname><given-names>C.M.</given-names></name><name><surname>Dienst</surname><given-names>D.</given-names></name><name><surname>Bantscheff</surname><given-names>J.</given-names></name><name><surname>Voss</surname><given-names>B.</given-names></name><name><surname>Steglich</surname><given-names>C.</given-names></name><name><surname>Wilde</surname><given-names>A.</given-names></name><name><surname>Vogel</surname><given-names>J.</given-names></name><etal/></person-group>
+<article-title>An experimentally anchored map of transcriptional start sites in the model cyanobacterium <italic>Synechocystis.</italic> sp. PCC6803</article-title>
+<source>Proc. Natl. Acad. Soi. USA</source>
+<year>2011</year>
+<volume>108</volume>
+<fpage>2124</fpage>
+<lpage>2129</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1015154108</pub-id>
+</element-citation></ref><ref id="B17-metabolites-03-00072"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mitschke</surname><given-names>J.</given-names></name><name><surname>Vioque</surname><given-names>A.</given-names></name><name><surname>Haas</surname><given-names>F.</given-names></name><name><surname>Hess</surname><given-names>W.R.</given-names></name><name><surname>Muro-Pastor</surname><given-names>A.M.</given-names></name></person-group>
+<article-title>Dynamics of transcriptional start site selection during nitrogen stress-induced cell differentiation in <italic>Anabaena</italic> sp. PCC7120</article-title>
+<source>Proc. Natl. Acad. Soi. USA</source>
+<year>2011</year>
+<volume>108</volume>
+<fpage>20130</fpage>
+<lpage>20135</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1112724108</pub-id>
+</element-citation></ref><ref id="B18-metabolites-03-00072"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ludwig</surname><given-names>M.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name></person-group>
+<article-title>Acclimation of the global transcripome of the cyanobacterium <italic>Synechoccocus.</italic> sp. PCC 7002 to nutrient limitation and different nitrogen sources</article-title>
+<source>Front. Microbiol.</source>
+<year>2012</year>
+<volume>3</volume>
+<fpage>145</fpage>
+<pub-id pub-id-type="pmid">22514553</pub-id></element-citation></ref><ref id="B19-metabolites-03-00072"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Mikkat</surname><given-names>S.</given-names></name><name><surname>Huang</surname><given-names>F.</given-names></name><name><surname>Huckauf</surname><given-names>J.</given-names></name><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Norling</surname><given-names>B.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title><italic>Proteome analysis</italic> of salt stress response in the cyanobacterium <italic>Synechocystis.</italic> sp. Strain PCC 6803</article-title>
+<source>Proteomics</source>
+<year>2006</year>
+<volume>6</volume>
+<fpage>2733</fpage>
+<lpage>2745</lpage>
+<pub-id pub-id-type="doi">10.1002/pmic.200500538</pub-id>
+<pub-id pub-id-type="pmid">16572470</pub-id></element-citation></ref><ref id="B20-metabolites-03-00072"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ishino</surname><given-names>Y.</given-names></name><name><surname>Okada</surname><given-names>H.</given-names></name><name><surname>Ikeuchi</surname><given-names>M.</given-names></name><name><surname>Taniguchi</surname><given-names>H.</given-names></name></person-group>
+<article-title>Mass spectrometry-based prokaryote gene annotation</article-title>
+<source>Proteomics</source>
+<year>2007</year>
+<volume>7</volume>
+<fpage>4053</fpage>
+<lpage>4065</lpage>
+<pub-id pub-id-type="doi">10.1002/pmic.200700080</pub-id>
+<pub-id pub-id-type="pmid">17994627</pub-id></element-citation></ref><ref id="B21-metabolites-03-00072"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>C.</given-names></name><name><surname>Hua</surname><given-names>Q.</given-names></name><name><surname>Shimizu</surname><given-names>K.</given-names></name></person-group>
+<article-title>Metabolic flux analysis in <italic>Synechocystis.</italic> using isotope distribution from <sup>13</sup>C-labeled glucose</article-title>
+<source>Metab. Eng.</source>
+<year>2002</year>
+<volume>4</volume>
+<fpage>202</fpage>
+<lpage>216</lpage>
+<pub-id pub-id-type="doi">10.1006/mben.2002.0226</pub-id>
+<pub-id pub-id-type="pmid">12616690</pub-id></element-citation></ref><ref id="B22-metabolites-03-00072"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisenhut</surname><given-names>M.</given-names></name><name><surname>Huege</surname><given-names>J.</given-names></name><name><surname>Schwarz</surname><given-names>D.</given-names></name><name><surname>Bauwe</surname><given-names>H.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Metabolome phenotyping of inorganic carbon limitation in cells of wild type and photorespiratory mutants of the cyanobacterium <italic>Synechocystis.</italic> sp. strain PCC 6803</article-title>
+<source>Plant. Physiol.</source>
+<year>2008</year>
+<volume>148</volume>
+<fpage>2109</fpage>
+<lpage>2120</lpage>
+<pub-id pub-id-type="pmid">18945936</pub-id></element-citation></ref><ref id="B23-metabolites-03-00072"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takahashi</surname><given-names>H.</given-names></name><name><surname>Uchimiya</surname><given-names>H.</given-names></name><name><surname>Hihara</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Difference in the metabolite levels between photoautotrophic and photomixotrophic cultures of <italic>Synechocystis.</italic> sp. PCC 6803 examined by capillary electrophoresis electrospray ionization mass spectrometry</article-title>
+<source>J. Exp. Bot.</source>
+<year>2008</year>
+<volume>59</volume>
+<fpage>3009</fpage>
+<lpage>3018</lpage>
+<pub-id pub-id-type="doi">10.1093/jxb/ern157</pub-id>
+<pub-id pub-id-type="pmid">18611912</pub-id></element-citation></ref><ref id="B24-metabolites-03-00072"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunn</surname><given-names>W.B.</given-names></name><name><surname>Ellis</surname><given-names>D.I.</given-names></name></person-group>
+<article-title>Metabolomics: Current analytical platforms and methodologies</article-title>
+<source>Trend Anal. Chem.</source>
+<year>2005</year>
+<volume>24</volume>
+<fpage>285</fpage>
+<lpage>294</lpage>
+<pub-id pub-id-type="doi">10.1016/j.trac.2004.11.021</pub-id>
+</element-citation></ref><ref id="B25-metabolites-03-00072"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fiehn</surname><given-names>O.</given-names></name></person-group>
+<article-title>Combining genomics, metabolome analysis, and biochemical modelling to understand metabolic networks</article-title>
+<source>Compar. Funct. Genom.</source>
+<year>2001</year>
+<volume>2</volume>
+<fpage>155</fpage>
+<lpage>168</lpage>
+<pub-id pub-id-type="doi">10.1002/cfg.82</pub-id>
+</element-citation></ref><ref id="B26-metabolites-03-00072"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Allen</surname><given-names>J.</given-names></name><name><surname>Davey</surname><given-names>H.M.</given-names></name><name><surname>Broadhurst</surname><given-names>D.</given-names></name><name><surname>Heald</surname><given-names>J.K.</given-names></name><name><surname>Rowland</surname><given-names>J.J.</given-names></name><name><surname>Oliver</surname><given-names>S.G.</given-names></name><name><surname>Kell</surname><given-names>D.B.</given-names></name></person-group>
+<article-title>High-throughput classification of yeast mutants for functional genomics using metabolic footprinting</article-title>
+<source>Nat. Biotechnol.</source>
+<year>2003</year>
+<volume>21</volume>
+<fpage>692</fpage>
+<lpage>696</lpage>
+<pub-id pub-id-type="pmid">12740584</pub-id></element-citation></ref><ref id="B27-metabolites-03-00072"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wiechert</surname><given-names>W.</given-names></name><name><surname>Schweissgut</surname><given-names>O.</given-names></name><name><surname>Takanaga</surname><given-names>H.</given-names></name><name><surname>Frommer</surname><given-names>W.B.</given-names></name></person-group>
+<article-title>Fluxomics: mass spectrometry <italic>versus</italic> quantitative imaging</article-title>
+<source>Curr. Opin. Plant. Biol.</source>
+<year>2007</year>
+<volume>10</volume>
+<fpage>323</fpage>
+<lpage>330</lpage>
+<pub-id pub-id-type="doi">10.1016/j.pbi.2007.04.015</pub-id>
+<pub-id pub-id-type="pmid">17481942</pub-id></element-citation></ref><ref id="B28-metabolites-03-00072"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ducat</surname><given-names>D.C.</given-names></name><name><surname>Way</surname><given-names>J.C.</given-names></name><name><surname>Silver</surname><given-names>P.A.</given-names></name></person-group>
+<article-title>Engineering cyanobacteria to generate high-value products</article-title>
+<source>Trends Biotechnol.</source>
+<year>2011</year>
+<volume>29</volume>
+<fpage>95</fpage>
+<lpage>103</lpage>
+<pub-id pub-id-type="pmid">21211860</pub-id></element-citation></ref><ref id="B29-metabolites-03-00072"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McNeely</surname><given-names>K.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name><name><surname>Bennette</surname><given-names>N.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name><name><surname>Dismukes</surname><given-names>G.C.</given-names></name></person-group>
+<article-title>Redirecting reductant flux into hydrogen production via metabolic engineering of fermentative carbon metabolism in a cyanobacterium</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2010</year>
+<volume>76</volume>
+<fpage>5032</fpage>
+<lpage>5038</lpage>
+<pub-id pub-id-type="pmid">20543051</pub-id></element-citation></ref><ref id="B30-metabolites-03-00072"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Quintana</surname><given-names>N.</given-names></name><name><surname>van der Kooy</surname><given-names>F.</given-names></name><name><surname>van de Rhee</surname><given-names>M.D.</given-names></name><name><surname>Voshol</surname><given-names>G.P.</given-names></name><name><surname>Verpoorte</surname><given-names>R.</given-names></name></person-group>
+<article-title>Renewable energy from cyanobacteria. Energy production optimization by metabolic pathway engineering</article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2011</year>
+<volume>91</volume>
+<fpage>471</fpage>
+<lpage>490</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-011-3394-0</pub-id>
+<pub-id pub-id-type="pmid">21691792</pub-id></element-citation></ref><ref id="B31-metabolites-03-00072"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sumner</surname><given-names>L.W.</given-names></name><name><surname>Mendes</surname><given-names>P.</given-names></name><name><surname>Dixon</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Plant metabolomics: large-scale phytochemistry in the functional genomics era</article-title>
+<source>Phytochemistry</source>
+<year>2003</year>
+<volume>62</volume>
+<fpage>817</fpage>
+<lpage>836</lpage>
+<pub-id pub-id-type="doi">10.1016/S0031-9422(02)00708-2</pub-id>
+<pub-id pub-id-type="pmid">12590110</pub-id></element-citation></ref><ref id="B32-metabolites-03-00072"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bino</surname><given-names>R.J.</given-names></name><name><surname>Hall</surname><given-names>R.D.</given-names></name><name><surname>Fiehn</surname><given-names>O.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Saito</surname><given-names>K.</given-names></name><name><surname>Draper</surname><given-names>J.</given-names></name><name><surname>Nikolau</surname><given-names>B.J.</given-names></name><name><surname>Mendes</surname><given-names>P.</given-names></name><name><surname>Roessner-Tunali</surname><given-names>U.</given-names></name><name><surname>Beale</surname><given-names>M.H.</given-names></name><etal/></person-group>
+<article-title>Potential of metabolomics as a functional genomics tool</article-title>
+<source>Trends Plant. Sci.</source>
+<year>2004</year>
+<volume>9</volume>
+<fpage>418</fpage>
+<lpage>425</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tplants.2004.07.004</pub-id>
+<pub-id pub-id-type="pmid">15337491</pub-id></element-citation></ref><ref id="B33-metabolites-03-00072"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Birkemeyer</surname><given-names>C.</given-names></name><name><surname>Luedemann</surname><given-names>A.</given-names></name><name><surname>Wagner</surname><given-names>C.</given-names></name><name><surname>Erban</surname><given-names>A.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Metabolome analysis: the potential of <italic>in vivo</italic> labeling with stable isotopes for metabolite profiling</article-title>
+<source>Trends Biotechnol.</source>
+<year>2005</year>
+<volume>23</volume>
+<fpage>28</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">15629855</pub-id></element-citation></ref><ref id="B34-metabolites-03-00072"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Current challenges and developments in GC-MS based metabolite profiling technology</article-title>
+<source>J. Biotechnol.</source>
+<year>2006</year>
+<volume>124</volume>
+<fpage>312</fpage>
+<lpage>322</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jbiotec.2005.12.012</pub-id>
+<pub-id pub-id-type="pmid">16434119</pub-id></element-citation></ref><ref id="B35-metabolites-03-00072"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schauer</surname><given-names>N.</given-names></name><name><surname>Fernie</surname><given-names>A.R.</given-names></name></person-group>
+<article-title>Plant metabolomics: towards biological function and mechanism</article-title>
+<source>Trends Plant. Sci.</source>
+<year>2006</year>
+<volume>11</volume>
+<fpage>508</fpage>
+<lpage>516</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tplants.2006.08.007</pub-id>
+<pub-id pub-id-type="pmid">16949327</pub-id></element-citation></ref><ref id="B36-metabolites-03-00072"><label>36.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Steinhauser</surname><given-names>D.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Methods, applications and concepts of metabolite profiling: Primary metabolism</article-title>
+<source>Plant Systems Biology</source>
+<person-group person-group-type="editor"><name><surname>Baginsky</surname><given-names>S.</given-names></name><name><surname>Fernie</surname><given-names>A.R.</given-names></name></person-group>
+<publisher-name>Experientia Supplementum</publisher-name>
+<publisher-loc>Basel, Switzerland</publisher-loc>
+<year>2007</year>
+<volume>Volume 97</volume>
+<fpage>171</fpage>
+<lpage>194</lpage>
+</element-citation></ref><ref id="B37-metabolites-03-00072"><label>37.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Allwood</surname><given-names>J.W.</given-names></name><name><surname>de Vos</surname><given-names>R.C.</given-names></name><name><surname>Moing</surname><given-names>A.</given-names></name><name><surname>Deborde</surname><given-names>C.</given-names></name><name><surname>Erban</surname><given-names>A.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Goodacre</surname><given-names>R.</given-names></name><name><surname>Hall</surname><given-names>R.D.</given-names></name></person-group>
+<article-title>Plant metabolomics and its potential for systems biology research: Background concepts, technology, and methodology</article-title>
+<source>Methods in Enzymology</source>
+<person-group person-group-type="editor"><name><surname>Abelson</surname><given-names>J.N.</given-names></name><name><surname>Simon</surname><given-names>M.I.</given-names></name></person-group>
+<publisher-name>Elsevier-Academic Press</publisher-name>
+<publisher-loc>Amsterdam, The Netherlands</publisher-loc>
+<year>2011</year>
+<volume>Volume 500</volume>
+<fpage>299</fpage>
+<lpage>336</lpage>
+</element-citation></ref><ref id="B38-metabolites-03-00072"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wagner</surname><given-names>C.</given-names></name><name><surname>Sefkow</surname><given-names>M.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Construction and application of a mass spectral and retention time index database generated from plant GC/EI-TOF-MS metabolite profiles</article-title>
+<source>Phytochemistry</source>
+<year>2003</year>
+<volume>62</volume>
+<fpage>887</fpage>
+<lpage>900</lpage>
+<pub-id pub-id-type="pmid">12590116</pub-id></element-citation></ref><ref id="B39-metabolites-03-00072"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Steinhauser</surname><given-names>D.</given-names></name><name><surname>Usadel</surname><given-names>B.</given-names></name><name><surname>Luedemann</surname><given-names>A.</given-names></name><name><surname>Thimm</surname><given-names>O.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>CSB.DB: A comprehensive systems-biology database</article-title>
+<source>Bioinformatics</source>
+<year>2004</year>
+<volume>20</volume>
+<fpage>3647</fpage>
+<lpage>3651</lpage>
+<pub-id pub-id-type="pmid">15247097</pub-id></element-citation></ref><ref id="B40-metabolites-03-00072"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schauer</surname><given-names>N.</given-names></name><name><surname>Steinhauser</surname><given-names>D.</given-names></name><name><surname>Strelkov</surname><given-names>S.</given-names></name><name><surname>Schomburg</surname><given-names>D.</given-names></name><name><surname>Allison</surname><given-names>G.</given-names></name><name><surname>Moritz</surname><given-names>T.</given-names></name><name><surname>Lundgren</surname><given-names>K.</given-names></name><name><surname>Roessner-Tunali</surname><given-names>U.</given-names></name><name><surname>Forbes</surname><given-names>M.G.</given-names></name><name><surname>Willmitzer</surname><given-names>L.</given-names></name><name><surname>Fernie</surname><given-names>A.R.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>GC-MS libraries for the rapid indentification of metabolites in complex biological samples</article-title>
+<source>FEBS Lett.</source>
+<year>2005</year>
+<volume>59</volume>
+<fpage>1332</fpage>
+<lpage>1337</lpage>
+<pub-id pub-id-type="pmid">15733837</pub-id></element-citation></ref><ref id="B41-metabolites-03-00072"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hummel</surname><given-names>J.</given-names></name><name><surname>Strehmel</surname><given-names>N.</given-names></name><name><surname>Selbig</surname><given-names>J.</given-names></name><name><surname>Walther</surname><given-names>D.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Decision tree supported substructure prediction of metabolites from GC-MS profiles</article-title>
+<source>Metabolomics</source>
+<year>2010</year>
+<volume>6</volume>
+<fpage>322</fpage>
+<lpage>333</lpage>
+<pub-id pub-id-type="doi">10.1007/s11306-010-0198-7</pub-id>
+<pub-id pub-id-type="pmid">20526350</pub-id></element-citation></ref><ref id="B42-metabolites-03-00072"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haug</surname><given-names>K.</given-names></name><name><surname>Salek</surname><given-names>R.M.</given-names></name><name><surname>Conesa</surname><given-names>P.</given-names></name><name><surname>Hastings</surname><given-names>J.</given-names></name><name><surname>de Matos</surname><given-names>P.</given-names></name><name><surname>Rijnbeek</surname><given-names>M.</given-names></name><name><surname>Mahendraker</surname><given-names>T.</given-names></name><name><surname>Williams</surname><given-names>M.</given-names></name><name><surname>Neumann</surname><given-names>S.</given-names></name><name><surname>Rocca-Serra</surname><given-names>P.</given-names></name><etal/></person-group>
+<article-title>MetaboLights&#x02014;An open-access general purpose repository for metabolomics studies and associated meta-data</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2013</year>
+<volume>41</volume>
+<fpage>781</fpage>
+<lpage>786</lpage>
+</element-citation></ref><ref id="B43-metabolites-03-00072"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baran</surname><given-names>R.</given-names></name><name><surname>Bowen</surname><given-names>B.P.</given-names></name><name><surname>Northen</surname><given-names>T.R.</given-names></name></person-group>
+<article-title>Untargeted metabolic footprinting reveals a surprising breadth of metabolite uptake and release by <italic>Synechococcus.</italic> sp. PCC 7002</article-title>
+<source>Mol. Biosyst.</source>
+<year>2011</year>
+<volume>7</volume>
+<fpage>3200</fpage>
+<lpage>3206</lpage>
+<pub-id pub-id-type="doi">10.1039/c1mb05196b</pub-id>
+<pub-id pub-id-type="pmid">21935552</pub-id></element-citation></ref><ref id="B44-metabolites-03-00072"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Calvin</surname><given-names>M.</given-names></name></person-group>
+<article-title>The path of carbon in photosynthesis</article-title>
+<source>Science</source>
+<year>1962</year>
+<volume>135</volume>
+<fpage>879</fpage>
+<lpage>889</lpage>
+<pub-id pub-id-type="pmid">13875879</pub-id></element-citation></ref><ref id="B45-metabolites-03-00072"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Young</surname><given-names>J.D.</given-names></name><name><surname>Shastri</surname><given-names>A.A.</given-names></name><name><surname>Stephanopoulos</surname><given-names>G.</given-names></name><name><surname>Morgan</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Mapping photoautotrophic metabolism with isotopicallynonstationary<sup>13</sup>C flux analysis</article-title>
+<source>Metab. Eng.</source>
+<year>2011</year>
+<volume>13</volume>
+<fpage>656</fpage>
+<lpage>665</lpage>
+<pub-id pub-id-type="pmid">21907300</pub-id></element-citation></ref><ref id="B46-metabolites-03-00072"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krall</surname><given-names>L.</given-names></name><name><surname>Huege</surname><given-names>J.</given-names></name><name><surname>Catchpole</surname><given-names>G.</given-names></name><name><surname>Steinhauser</surname><given-names>D.</given-names></name><name><surname>Willmitzer</surname><given-names>L.</given-names></name></person-group>
+<article-title>Assessment of sampling strategies for gas chromatography-mass spectrometry (GC-MS) based metabolomics of cyanobacteria</article-title>
+<source>J. Chromatogr. B Analyt. Technol. Biomed. Life Sci.</source>
+<year>2009</year>
+<volume>877</volume>
+<fpage>2952</fpage>
+<lpage>2960</lpage>
+</element-citation></ref><ref id="B47-metabolites-03-00072"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huege</surname><given-names>J.</given-names></name><name><surname>Goetze</surname><given-names>J.</given-names></name><name><surname>Schwarz</surname><given-names>D.</given-names></name><name><surname>Bauwe</surname><given-names>H.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Modulation of the major paths of carbon in photorespiratory mutants of <italic>Synechocystis</italic></article-title>
+<source>PLoS One</source>
+<year>2011</year>
+<volume>6</volume>
+<fpage>e16278</fpage>
+<pub-id pub-id-type="pmid">21283704</pub-id></element-citation></ref><ref id="B48-metabolites-03-00072"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Narainsamy</surname><given-names>K.</given-names></name><name><surname>Cassier-Chauvat</surname><given-names>C.</given-names></name><name><surname>Junot</surname><given-names>C.</given-names></name><name><surname>Chauvat</surname><given-names>F.</given-names></name></person-group>
+<article-title>High performance analysis of the cyanobacterial metabolism via liquid chromatography coupled to a LTQ-Orbitrap mass spectrometer: evidence that glucose reprograms the whole carbon metabolism and triggers oxidative stress</article-title>
+<source>Metabolomics</source>
+<year>2013</year>
+<volume>9</volume>
+<fpage>21</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="doi">10.1007/s11306-011-0382-4</pub-id>
+</element-citation></ref><ref id="B49-metabolites-03-00072"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bennette</surname><given-names>N.B.</given-names></name><name><surname>Eng</surname><given-names>J.F.</given-names></name><name><surname>Dismukes</surname><given-names>G.C.</given-names></name></person-group>
+<article-title>An LC-MS-based chemical and analytical method for targeted metabolite quantification in the model cyanobacterium <italic>Synechococcus.</italic> sp. PCC 7002</article-title>
+<source>Anal. Chem.</source>
+<year>2011</year>
+<volume>83</volume>
+<fpage>3808</fpage>
+<lpage>3816</lpage>
+<pub-id pub-id-type="doi">10.1021/ac200108a</pub-id>
+<pub-id pub-id-type="pmid">21466217</pub-id></element-citation></ref><ref id="B50-metabolites-03-00072"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>Y.</given-names></name><name><surname>Schiavo</surname><given-names>S.</given-names></name><name><surname>Orjala</surname><given-names>J.</given-names></name><name><surname>Vouros</surname><given-names>P.</given-names></name><name><surname>Kautz</surname><given-names>R.</given-names></name></person-group>
+<article-title>Microscale LC-MS-NMR platform applied to the identification of active cyanobacterial metabolites</article-title>
+<source>Anal. Chem.</source>
+<year>2008</year>
+<volume>80</volume>
+<fpage>8045</fpage>
+<lpage>8054</lpage>
+<pub-id pub-id-type="doi">10.1021/ac801049k</pub-id>
+<pub-id pub-id-type="pmid">18834150</pub-id></element-citation></ref><ref id="B51-metabolites-03-00072"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwarz</surname><given-names>D.</given-names></name><name><surname>Nodop</surname><given-names>A.</given-names></name><name><surname>H&#x000fc;ge</surname><given-names>J.</given-names></name><name><surname>Purf&#x000fc;rst</surname><given-names>S.</given-names></name><name><surname>Forchhammer</surname><given-names>K.</given-names></name><name><surname>Michel</surname><given-names>K.P.</given-names></name><name><surname>Bauwe</surname><given-names>H.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Metabolic and transcriptomic phenotyping of inorganic carbon acclimation in the cyanobacterium <italic>Synechococcus.</italic> elongates PCC 7942</article-title>
+<source>Plant. Physiol.</source>
+<year>2011</year>
+<volume>155</volume>
+<fpage>1640</fpage>
+<lpage>1655</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.110.170225</pub-id>
+<pub-id pub-id-type="pmid">21282404</pub-id></element-citation></ref><ref id="B52-metabolites-03-00072"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lisec</surname><given-names>J.</given-names></name><name><surname>Schauer</surname><given-names>N.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Willmitzer</surname><given-names>L.</given-names></name><name><surname>Fernie</surname><given-names>A.R.</given-names></name></person-group>
+<article-title>Gas chromatography mass spectrometry-based metabolite profiling in plants</article-title>
+<source>Nat. Protoc.</source>
+<year>2006</year>
+<volume>1</volume>
+<fpage>387</fpage>
+<lpage>396</lpage>
+<pub-id pub-id-type="pmid">17406261</pub-id></element-citation></ref><ref id="B53-metabolites-03-00072"><label>53.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Erban</surname><given-names>A.</given-names></name><name><surname>Schauer</surname><given-names>N.</given-names></name><name><surname>Fernie</surname><given-names>A.R.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Non-supervised construction and application of mass spectral and retention time index libraries from time-of-flight GC-MS metabolite profiles</article-title>
+<source>Metabolomics: Methods and protocols. Methods in Molecular Biology</source>
+<person-group person-group-type="editor"><name><surname>Weckwerth</surname><given-names>W.</given-names></name></person-group>
+<publisher-name>Humana Press</publisher-name>
+<publisher-loc>Totowa, New Jersey, USA</publisher-loc>
+<year>2007</year>
+<volume>Volume 358</volume>
+<fpage>19</fpage>
+<lpage>38</lpage>
+</element-citation></ref><ref id="B54-metabolites-03-00072"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luedemann</surname><given-names>A.</given-names></name><name><surname>Strassbrug</surname><given-names>K.</given-names></name><name><surname>Erban</surname><given-names>A.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>TagFinder for the quantitative analysis of gas chromatography-mass spectrometry (GC-MS)-based metabolite profiling experiments</article-title>
+<source>Bioinformatics</source>
+<year>2008</year>
+<volume>24</volume>
+<fpage>732</fpage>
+<lpage>737</lpage>
+<pub-id pub-id-type="pmid">18204057</pub-id></element-citation></ref><ref id="B55-metabolites-03-00072"><label>55.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Luedemann</surname><given-names>A.</given-names></name><name><surname>von Malotky</surname><given-names>L.</given-names></name><name><surname>Erban</surname><given-names>A.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>TagFinder: Preprocessing software for the fingerprinting and the profiling of gas chromatography-mass spectrometry based metabolome Analyses</article-title>
+<source>Plant Metabolomics: Methods and Protocols. Methods in Molecular Biology</source>
+<person-group person-group-type="editor"><name><surname>Hardy</surname><given-names>N.W.</given-names></name><name><surname>Hall</surname><given-names>R.D.</given-names></name></person-group>
+<publisher-name>Humana Press</publisher-name>
+<publisher-loc>Totowa, New Jersey, USA</publisher-loc>
+<year>2012</year>
+<volume>Volume 860</volume>
+<fpage>255</fpage>
+<lpage>286</lpage>
+</element-citation></ref><ref id="B56-metabolites-03-00072"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Knoop</surname><given-names>H.</given-names></name><name><surname>Zilliges</surname><given-names>Y.</given-names></name><name><surname>Lockau</surname><given-names>W.</given-names></name><name><surname>Steuer</surname><given-names>R.</given-names></name></person-group>
+<article-title>The metabolic network of <italic>Synechocystis.</italic> sp. PCC 6803: Systemic properties of autotrophic growth</article-title>
+<source>Plant Physiol.</source>
+<year>2010</year>
+<volume>154</volume>
+<fpage>410</fpage>
+<lpage>422</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.110.157198</pub-id>
+<pub-id pub-id-type="pmid">20616194</pub-id></element-citation></ref><ref id="B57-metabolites-03-00072"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luedemann</surname><given-names>A.</given-names></name><name><surname>Weicht</surname><given-names>D.</given-names></name><name><surname>Selbig</surname><given-names>J.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>PaVESy: Pathway visualization and editing systems</article-title>
+<source>Bioinformatics</source>
+<year>2004</year>
+<volume>20</volume>
+<fpage>2841</fpage>
+<lpage>2844</lpage>
+<pub-id pub-id-type="doi">10.1093/bioinformatics/bth278</pub-id>
+<pub-id pub-id-type="pmid">15105280</pub-id></element-citation></ref><ref id="B58-metabolites-03-00072"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Junker</surname><given-names>B.H.</given-names></name><name><surname>Klukas</surname><given-names>C.</given-names></name><name><surname>Schreiber</surname><given-names>F.</given-names></name></person-group>
+<article-title>VANTED: a system for advanced data analysis and visualization in the context of biological networks</article-title>
+<source>BMC Bioinformatics</source>
+<year>2006</year>
+<volume>7</volume>
+<fpage>109</fpage>
+<pub-id pub-id-type="pmid">16519817</pub-id></element-citation></ref><ref id="B59-metabolites-03-00072"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klukas</surname><given-names>C.</given-names></name><name><surname>Schreiber</surname><given-names>F.</given-names></name></person-group>
+<article-title>Integration of -omics data and networks for biochemical research with VANTED</article-title>
+<source>J. Integr. Bioinform.</source>
+<year>2010</year>
+<volume>7</volume>
+<fpage>112</fpage>
+<pub-id pub-id-type="pmid">20134079</pub-id></element-citation></ref><ref id="B60-metabolites-03-00072"><label>60.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>Gas chromatography mass spectrometry</article-title>
+<source>Plant Metabolomics. Biotechnology in Agriculture and Forestry</source>
+<person-group person-group-type="editor"><name><surname>Nagata</surname><given-names>T.</given-names></name><name><surname>Loerz</surname><given-names>H.</given-names></name><name><surname>Widholm</surname><given-names>J.M.</given-names></name><name><surname>Saito</surname><given-names>K.</given-names></name><name><surname>Dixon</surname><given-names>R.A.</given-names></name><name><surname>Willmitzer</surname><given-names>L.</given-names></name></person-group>
+<publisher-name>Springer-Verlag</publisher-name>
+<publisher-loc>Berlin, Heidelberg, Germany</publisher-loc>
+<year>2007</year>
+<volume>Volume 57</volume>
+<fpage>3</fpage>
+<lpage>20</lpage>
+</element-citation></ref><ref id="B61-metabolites-03-00072"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huege</surname><given-names>J.</given-names></name><name><surname>Sulpice</surname><given-names>R.</given-names></name><name><surname>Gibon</surname><given-names>Y.</given-names></name><name><surname>Lisec</surname><given-names>J.</given-names></name><name><surname>Koehl</surname><given-names>K.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name></person-group>
+<article-title>GC-EI-TOF-MS analysis of <italic>in vivo</italic> carbon-partitioning into soluble metabolite pools of higher plants by monitoring isotope dilution after <sup>13</sup>CO<sub>2</sub> labelling</article-title>
+<source>Phytochemistry.</source>
+<year>2007</year>
+<volume>68</volume>
+<fpage>2258</fpage>
+<lpage>2272</lpage>
+<pub-id pub-id-type="doi">10.1016/j.phytochem.2007.03.026</pub-id>
+<pub-id pub-id-type="pmid">17475294</pub-id></element-citation></ref><ref id="B62-metabolites-03-00072"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pelroy</surname><given-names>R.A.</given-names></name><name><surname>Bassham</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Photosynthetic and dark carbon metabolism in unicellular blue-green algae</article-title>
+<source>Arch. Microbiol.</source>
+<year>1972</year>
+<volume>86</volume>
+<fpage>25</fpage>
+<lpage>38</lpage>
+</element-citation></ref><ref id="B63-metabolites-03-00072"><label>63.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Tabita</surname><given-names>F.R.</given-names></name></person-group>
+<article-title>The biochemistry and molecular regulation of carbon dioxide metabolism in cyanobacteria</article-title>
+<source>The Molecular Biology of Cyanobacteria</source>
+<person-group person-group-type="editor"><name><surname>Bryant</surname><given-names>D.A.</given-names></name></person-group>
+<publisher-name>Kluwer Academic Publishers</publisher-name>
+<publisher-loc>Dordrecht, The Netherlands</publisher-loc>
+<year>1994</year>
+<fpage>437</fpage>
+<lpage>467</lpage>
+</element-citation></ref><ref id="B64-metabolites-03-00072"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pelroy</surname><given-names>R.A.</given-names></name><name><surname>Rippka</surname><given-names>R.</given-names></name><name><surname>Stanier</surname><given-names>R.Y.</given-names></name></person-group>
+<article-title>The mechanism of glucose by unicellular blue-green algae</article-title>
+<source>Arch. Microbiol.</source>
+<year>1972</year>
+<volume>87</volume>
+<fpage>303</fpage>
+<lpage>322</lpage>
+</element-citation></ref><ref id="B65-metabolites-03-00072"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>A.J.</given-names></name><name><surname>London</surname><given-names>J.</given-names></name><name><surname>Stanier</surname><given-names>R.Y.</given-names></name></person-group>
+<article-title>Biochemical basis of obligate autotrophy in blue-green algae and thiobacilli</article-title>
+<source>J. Bacteriol.</source>
+<year>1967</year>
+<volume>94</volume>
+<fpage>972</fpage>
+<lpage>983</lpage>
+<pub-id pub-id-type="pmid">4963789</pub-id></element-citation></ref><ref id="B66-metabolites-03-00072"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pearce</surname><given-names>J.</given-names></name><name><surname>Carr</surname><given-names>N.G.</given-names></name></person-group>
+<article-title>The metabolism of acetate by the blue-green algae, <italic>Anabaena variabilis</italic> and <italic>Anacystis</italic>. <italic>nidulans</italic></article-title>
+<source>J. Gen. Microbiol.</source>
+<year>1967</year>
+<volume>49</volume>
+<fpage>301</fpage>
+<lpage>313</lpage>
+<pub-id pub-id-type="pmid">6077932</pub-id></element-citation></ref><ref id="B67-metabolites-03-00072"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pearce</surname><given-names>J.</given-names></name><name><surname>Leach</surname><given-names>C.K.</given-names></name><name><surname>Carr</surname><given-names>N.G.</given-names></name></person-group>
+<article-title>The incomplete tricarboxylic acid cycle in the blue-green alga <italic>Anabaena variabilis</italic></article-title>
+<source>J. Gen. Microbiol.</source>
+<year>1969</year>
+<volume>55</volume>
+<fpage>371</fpage>
+<lpage>378</lpage>
+<pub-id pub-id-type="pmid">5783887</pub-id></element-citation></ref><ref id="B68-metabolites-03-00072"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flores</surname><given-names>E.</given-names></name><name><surname>Herrero</surname><given-names>A.</given-names></name></person-group>
+<article-title>Nitrogen assimilation and nitrogen control in cyanobacteria</article-title>
+<source>Biochem. Soc. Trans.</source>
+<year>2005</year>
+<volume>33</volume>
+<fpage>164</fpage>
+<lpage>167</lpage>
+<pub-id pub-id-type="doi">10.1042/BST0330164</pub-id>
+<pub-id pub-id-type="pmid">15667295</pub-id></element-citation></ref><ref id="B69-metabolites-03-00072"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forchhammer</surname><given-names>K.</given-names></name></person-group>
+<article-title>P<sub>II</sub> signal transducers: novel functional and structural insights</article-title>
+<source>Trends Microbiol.</source>
+<year>2008</year>
+<volume>16</volume>
+<fpage>65</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tim.2007.11.004</pub-id>
+<pub-id pub-id-type="pmid">18182294</pub-id></element-citation></ref><ref id="B70-metabolites-03-00072"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>S.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name></person-group>
+<article-title>The tricarboxylic acid cycle in cyanobacteria</article-title>
+<source>Science</source>
+<year>2011</year>
+<volume>334</volume>
+<fpage>1551</fpage>
+<lpage>1553</lpage>
+<pub-id pub-id-type="pmid">22174252</pub-id></element-citation></ref><ref id="B71-metabolites-03-00072"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooley</surname><given-names>J.W.</given-names></name><name><surname>Howitt</surname><given-names>C.A.</given-names></name><name><surname>Vermaas</surname><given-names>W.F.</given-names></name></person-group>
+<article-title>Succinate:quinol oxidoreductases in the cyanobacterium <italic>Synechocystis.</italic> sp. PCC 6803: Presence and function in metabolism and electron transport</article-title>
+<source>J. Bacteriol.</source>
+<year>2000</year>
+<volume>182</volume>
+<fpage>714</fpage>
+<lpage>722</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.182.3.714-722.2000</pub-id>
+<pub-id pub-id-type="pmid">10633105</pub-id></element-citation></ref><ref id="B72-metabolites-03-00072"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Steinhauser</surname><given-names>D.</given-names></name><name><surname>Fernie</surname><given-names>A.R.</given-names></name><name><surname>Ara&#x000fa;jo</surname><given-names>W.L.</given-names></name></person-group>
+<article-title>Unusual cyanobacterial TCA cycles: not broken just different</article-title>
+<source>Trends Plant. Sci.</source>
+<year>2012</year>
+<volume>17</volume>
+<fpage>503</fpage>
+<lpage>509</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tplants.2012.05.005</pub-id>
+<pub-id pub-id-type="pmid">22658681</pub-id></element-citation></ref><ref id="B73-metabolites-03-00072"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carmichael</surname><given-names>W.W.</given-names></name></person-group>
+<article-title>Cyanobacteria secondary metabolites&#x02014;the cyanotoxins</article-title>
+<source>J. ApplBacteriol</source>
+<year>1992</year>
+<volume>72</volume>
+<fpage>445</fpage>
+<lpage>459</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2672.1992.tb01858.x</pub-id>
+</element-citation></ref><ref id="B74-metabolites-03-00072"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dittmann</surname><given-names>E.</given-names></name><name><surname>Fewer</surname><given-names>D.P.</given-names></name><name><surname>Neilan</surname><given-names>B.A.</given-names></name></person-group>
+<article-title>Cyanobacterial toxins: biosynthetic routes and evolutionary roots</article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>2013</year>
+<volume>37</volume>
+<fpage>23</fpage>
+<lpage>43</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6976.2012.12000.x</pub-id>
+<pub-id pub-id-type="pmid">23051004</pub-id></element-citation></ref><ref id="B75-metabolites-03-00072"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Humpage</surname><given-names>A.R.</given-names></name><name><surname>Magalhaes</surname><given-names>V.F.</given-names></name><name><surname>Froscio</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Comparison of analytical tools and biological assays for detection of paralytic shellfish poisoning toxins</article-title>
+<source>Anal. Bioanal. Chem.</source>
+<year>2010</year>
+<volume>397</volume>
+<fpage>1655</fpage>
+<lpage>1671</lpage>
+<pub-id pub-id-type="doi">10.1007/s00216-010-3459-4</pub-id>
+<pub-id pub-id-type="pmid">20101494</pub-id></element-citation></ref><ref id="B76-metabolites-03-00072"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hiller</surname><given-names>S.</given-names></name><name><surname>Krock</surname><given-names>B.</given-names></name><name><surname>Cembella</surname><given-names>A.</given-names></name><name><surname>Luckas</surname><given-names>B.</given-names></name></person-group>
+<article-title>Rapid detection of cyanobacterial toxins in precursor ion mode by liquid chromatography tandem mass spectrometry</article-title>
+<source>J. Mass Spectrom.</source>
+<year>2007</year>
+<volume>42</volume>
+<fpage>1238</fpage>
+<lpage>1250</lpage>
+<pub-id pub-id-type="doi">10.1002/jms.1257</pub-id>
+<pub-id pub-id-type="pmid">17657826</pub-id></element-citation></ref><ref id="B77-metabolites-03-00072"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Welker</surname><given-names>M.</given-names></name><name><surname>Fastner</surname><given-names>J.</given-names></name><name><surname>Erhard</surname><given-names>M.</given-names></name><name><surname>von D&#x000f6;hren</surname><given-names>H.</given-names></name></person-group>
+<article-title>Applications of MALDI-TOF MS analysis in cyanotoxin research</article-title>
+<source>Environ. Toxicol.</source>
+<year>2002</year>
+<volume>17</volume>
+<fpage>367</fpage>
+<lpage>374</lpage>
+<pub-id pub-id-type="doi">10.1002/tox.10073</pub-id>
+<pub-id pub-id-type="pmid">12203959</pub-id></element-citation></ref><ref id="B78-metabolites-03-00072"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Esquenazi</surname><given-names>E.</given-names></name><name><surname>Coates</surname><given-names>C.</given-names></name><name><surname>Simmons</surname><given-names>L.</given-names></name><name><surname>Gonzalez</surname><given-names>D.</given-names></name><name><surname>Gerwick</surname><given-names>W.H.</given-names></name><name><surname>Dorrestein</surname><given-names>P.C.</given-names></name></person-group>
+<article-title>Visualizing the spatial distribution of secondary metabolites produced by marine cyanobacteria and sponges via MALDI-TOF imaging</article-title>
+<source>Mol. Bio Syst.</source>
+<year>2008</year>
+<volume>4</volume>
+<fpage>562</fpage>
+<lpage>570</lpage>
+</element-citation></ref><ref id="B79-metabolites-03-00072"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Esquenazi</surname><given-names>E.</given-names></name><name><surname>Jones</surname><given-names>A.C.</given-names></name><name><surname>Byrum</surname><given-names>T.</given-names></name><name><surname>Dorrestein</surname><given-names>P.C.</given-names></name><name><surname>Gerwick</surname><given-names>W.H.</given-names></name></person-group>
+<article-title>Temporal dynamics of natural product biosynthesis in marine cyanobacteria</article-title>
+<source>Proc. Natl. Acad. Soi. USA</source>
+<year>2011</year>
+<volume>108</volume>
+<fpage>5226</fpage>
+<lpage>5231</lpage>
+</element-citation></ref><ref id="B80-metabolites-03-00072"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaasalainen</surname><given-names>U.</given-names></name><name><surname>Fewer</surname><given-names>D.P.</given-names></name><name><surname>Jokela</surname><given-names>J.</given-names></name><name><surname>Wahlsten</surname><given-names>M.</given-names></name><name><surname>Sivonen</surname><given-names>K.</given-names></name><name><surname>Rikkinen</surname><given-names>J.</given-names></name></person-group>
+<article-title>Cyanobacteria produce a high variety of hepatotoxic peptides in lichen symbiosis</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2012</year>
+<volume>109</volume>
+<fpage>5886</fpage>
+<lpage>5891</lpage>
+<pub-id pub-id-type="pmid">22451908</pub-id></element-citation></ref><ref id="B81-metabolites-03-00072"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oren</surname><given-names>A.</given-names></name></person-group>
+<article-title>Cyanobacterial systematics and nomenclature as featured in the International Bulletin of Bacteriological Nomenclature and Taxonomy/International Journal of Systematic Bacteriology/International Journal of Systematic and Evolutionary Microbiology</article-title>
+<source>Int. J. Syst. Evol. Microbiol.</source>
+<year>2011</year>
+<volume>61</volume>
+<fpage>10</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="doi">10.1099/ijs.0.018838-0</pub-id>
+<pub-id pub-id-type="pmid">21097637</pub-id></element-citation></ref><ref id="B82-metabolites-03-00072"><label>82.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Castenholz</surname><given-names>R.W.</given-names></name></person-group>
+<article-title>General characteristics of the cyanobacteria</article-title>
+<source>Bergey's Manual of Systematic Bacteriology</source>
+<edition>2nd</edition>
+<person-group person-group-type="editor"><name><surname>Boone</surname><given-names>D.R.</given-names></name><name><surname>Castenholz</surname><given-names>R.W.</given-names></name></person-group>
+<publisher-name>Springer</publisher-name>
+<publisher-loc>New York, NY, USA</publisher-loc>
+<year>2001</year>
+<volume>Volume 1</volume>
+<fpage>474</fpage>
+<lpage>487</lpage>
+</element-citation></ref><ref id="B83-metabolites-03-00072"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rippka</surname><given-names>R.</given-names></name><name><surname>Deruelles</surname><given-names>J.</given-names></name><name><surname>Waterbury</surname><given-names>J.B.</given-names></name></person-group>
+<article-title>Generic assignments, strains histories and properties of pure cultures of cyanobacteria</article-title>
+<source>J. Gen. Microbiol.</source>
+<year>1979</year>
+<volume>111</volume>
+<fpage>1</fpage>
+<lpage>61</lpage>
+</element-citation></ref><ref id="B84-metabolites-03-00072"><label>84.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stanier</surname><given-names>R.Y.</given-names></name><name><surname>Sistrom</surname><given-names>W.R.</given-names></name><name><surname>Hansen</surname><given-names>T.A.</given-names></name><name><surname>Whitton</surname><given-names>B.A.</given-names></name><name><surname>Castenholz</surname><given-names>R.W</given-names></name><name><surname>Pfennig</surname><given-names>N.</given-names></name><name><surname>Gorlenko</surname><given-names>V.N.</given-names></name><name><surname>Kondratieva</surname><given-names>E.N.</given-names></name><name><surname>Eimhjellen</surname><given-names>K.E.</given-names></name><name><surname>Whittenbury</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>Proposal to place the nomenclature of the cyanobacteria (blue-green algae) under the rules of the international code of nomenclature of bacteria</article-title>
+<source>Int. J. Syst. Bacteriol.</source>
+<year>1978</year>
+<volume>28</volume>
+<fpage>335</fpage>
+<lpage>336</lpage>
+</element-citation></ref><ref id="B85-metabolites-03-00072"><label>85.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cleenwerck</surname><given-names>I.</given-names></name><name><surname>de Vos</surname><given-names>P.</given-names></name></person-group>
+<article-title>Polyphasic taxonomy of acetic acid bacteria: an overview of the currently applied methodology</article-title>
+<source>Int. J. Food Microbiol.</source>
+<year>2008</year>
+<volume>125</volume>
+<fpage>2</fpage>
+<lpage>14</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ijfoodmicro.2007.04.017</pub-id>
+<pub-id pub-id-type="pmid">18237808</pub-id></element-citation></ref><ref id="B86-metabolites-03-00072"><label>86.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gugger</surname><given-names>M.</given-names></name><name><surname>Lyra</surname><given-names>C.</given-names></name><name><surname>Suominen</surname><given-names>I.</given-names></name><name><surname>Tsitko</surname><given-names>I.</given-names></name><name><surname>Humbert</surname><given-names>J.F.</given-names></name><name><surname>Salkinoja-Salonen</surname><given-names>M.S.</given-names></name><name><surname>Sivonen</surname><given-names>K.</given-names></name></person-group>
+<article-title>Cellular fatty acids as chemotaxonomic markers of the genera <italic>Anabaena</italic>, <italic>Aphanizomenon.</italic>, <italic>Microcystis.</italic>, <italic>Nostoc.</italic> and <italic>Planktothrix.</italic> (cyanobacteria)</article-title>
+<source>Int. J. Syst. Evol. Microbiol.</source>
+<year>2002</year>
+<volume>52</volume>
+<fpage>1007</fpage>
+<lpage>1015</lpage>
+<pub-id pub-id-type="doi">10.1099/ijs.0.01917-0</pub-id>
+<pub-id pub-id-type="pmid">12054217</pub-id></element-citation></ref><ref id="B87-metabolites-03-00072"><label>87.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kr&#x000fc;ger</surname><given-names>G.H.J.</given-names></name><name><surname>deWet</surname><given-names>H.</given-names></name><name><surname>Kock</surname><given-names>H.L.F.</given-names></name><name><surname>Pieterse</surname><given-names>A.J.H.</given-names></name></person-group>
+<article-title>Fatty acid composition as a taxonomic characteristic for <italic>Microcystis.</italic> and other coccoid cyanobacteria (blue-green alga) isolates</article-title>
+<source>Hydrobiologia</source>
+<year>1995</year>
+<volume>308</volume>
+<fpage>145</fpage>
+<lpage>151</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00007400</pub-id>
+</element-citation></ref><ref id="B88-metabolites-03-00072"><label>88.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>R.</given-names></name><name><surname>Yokota</surname><given-names>A.</given-names></name><name><surname>Sugiyama</surname><given-names>J.</given-names></name><name><surname>Watanabe</surname><given-names>M.</given-names></name><name><surname>Hiroki</surname><given-names>M.</given-names></name><name><surname>Watanabe</surname><given-names>M.M.</given-names></name></person-group>
+<article-title>Chemotaxonomy of planktonic cyanobacteria based on non-polar and 3-hydroxy fatty acid composition</article-title>
+<source>Phycol. Res.</source>
+<year>1998</year>
+<volume>46</volume>
+<fpage>21</fpage>
+<lpage>28</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1440-1835.1998.tb00093.x</pub-id>
+</element-citation></ref><ref id="B89-metabolites-03-00072"><label>89.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>X.</given-names></name><name><surname>Sheng</surname><given-names>J.</given-names></name><name><surname>Curtiss</surname><given-names>R.</given-names><suffix>3rd.</suffix></name></person-group>
+<article-title>Fatty acid production in genetically modified cyanobacteria</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2011</year>
+<volume>108</volume>
+<fpage>6899</fpage>
+<lpage>6904</lpage>
+<pub-id pub-id-type="pmid">21482809</pub-id></element-citation></ref><ref id="B90-metabolites-03-00072"><label>90.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guan</surname><given-names>W.</given-names></name><name><surname>Zhao</surname><given-names>H.</given-names></name><name><surname>Lu</surname><given-names>X.</given-names></name><name><surname>Wang</surname><given-names>C.</given-names></name><name><surname>Yang</surname><given-names>M.</given-names></name><name><surname>Bai</surname><given-names>F.</given-names></name></person-group>
+<article-title>Quantitative analysis of fatty-acid-based biofuels produced by wild-type and genetically engineered cyanobacteria by gas chromatography-mass spectrometry</article-title>
+<source>J. Chromatogr. A</source>
+<year>2011</year>
+<volume>1218</volume>
+<fpage>8289</fpage>
+<lpage>8293</lpage>
+<pub-id pub-id-type="doi">10.1016/j.chroma.2011.09.043</pub-id>
+<pub-id pub-id-type="pmid">21982444</pub-id></element-citation></ref><ref id="B91-metabolites-03-00072"><label>91.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tandeau de Marsac</surname><given-names>N.</given-names></name><name><surname>Houmard</surname><given-names>J.</given-names></name></person-group>
+<article-title>Adaptation of cyanobacteria to environmental stimuli: New steps towards molecular mechanisms</article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>1993</year>
+<volume>104</volume>
+<fpage>119</fpage>
+<lpage>189</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6968.1993.tb05866.x</pub-id>
+</element-citation></ref><ref id="B92-metabolites-03-00072"><label>92.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Molecular biology of cyanobacterial salt acclimation</article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>2011</year>
+<volume>35</volume>
+<fpage>87</fpage>
+<lpage>123</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6976.2010.00234.x</pub-id>
+<pub-id pub-id-type="pmid">20618868</pub-id></element-citation></ref><ref id="B93-metabolites-03-00072"><label>93.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>H.L.</given-names></name><name><surname>Postier</surname><given-names>B.L.</given-names></name><name><surname>Burnap</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Alterations in global patterns of gene expression in <italic>Synechocystis.</italic> sp. PCC 6803 in response to inorganic carbon limitation and the inactivation of <italic>ndhR</italic>, a LysR family regulator</article-title>
+<source>J. Biol. Chem.</source>
+<year>2004</year>
+<volume>279</volume>
+<fpage>5739</fpage>
+<lpage>5751</lpage>
+<pub-id pub-id-type="pmid">14612435</pub-id></element-citation></ref><ref id="B94-metabolites-03-00072"><label>94.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisenhut</surname><given-names>M.</given-names></name><name><surname>von Wobeser</surname><given-names>E.A.</given-names></name><name><surname>Jonas</surname><given-names>L.</given-names></name><name><surname>Schubert</surname><given-names>H.</given-names></name><name><surname>Ibelings</surname><given-names>B.W.</given-names></name><name><surname>Bauwe</surname><given-names>H.</given-names></name><name><surname>Matthijs</surname><given-names>H.C.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Long-term response toward carbon limitation in wild type and glycolate turnover mutants of the cyanobacterium <italic>Synechocystis.</italic> sp. strain PCC 6803</article-title>
+<source>Plant. Physiol.</source>
+<year>2007</year>
+<volume>144</volume>
+<fpage>1946</fpage>
+<lpage>1959</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.107.103341</pub-id>
+<pub-id pub-id-type="pmid">17600135</pub-id></element-citation></ref><ref id="B95-metabolites-03-00072"><label>95.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Battchikova</surname><given-names>N.</given-names></name><name><surname>Vainonen</surname><given-names>J.P.</given-names></name><name><surname>Vorontsova</surname><given-names>N.</given-names></name><name><surname>Keranen</surname><given-names>M.</given-names></name><name><surname>Carmel</surname><given-names>D.</given-names></name><name><surname>Aro</surname><given-names>E.M.</given-names></name></person-group>
+<article-title>Dynamic changes in the proteome of <italic>Synechocystis.</italic> 6803 in response to CO<sub>2</sub> limitation revealed by quantitative proteomics</article-title>
+<source>J. Proteome Res.</source>
+<year>2010</year>
+<volume>9</volume>
+<fpage>5896</fpage>
+<lpage>5912</lpage>
+<pub-id pub-id-type="doi">10.1021/pr100651w</pub-id>
+<pub-id pub-id-type="pmid">20795750</pub-id></element-citation></ref><ref id="B96-metabolites-03-00072"><label>96.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Kaplan</surname><given-names>A.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Bauwe</surname><given-names>H.</given-names></name><name><surname>Kahlon</surname><given-names>S.</given-names></name><name><surname>Ogawa</surname><given-names>T.</given-names></name></person-group>
+<article-title>Carbon acquisition by cyanobacteria: mechanism, comparative genomics and evolution</article-title>
+<source>The Cyanobacteria: Molecular Biology, Genomics and Evolution</source>
+<person-group person-group-type="editor"><name><surname>Herrero</surname><given-names>A.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name></person-group>
+<publisher-name>Caister Academic Press</publisher-name>
+<publisher-loc>Norfolk, UK</publisher-loc>
+<year>2008</year>
+<fpage>305</fpage>
+<lpage>334</lpage>
+</element-citation></ref><ref id="B97-metabolites-03-00072"><label>97.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Muro-Pastor</surname><given-names>M.I.</given-names></name><name><surname>Reyes</surname><given-names>J.C.</given-names></name><name><surname>Florencio</surname><given-names>F.J.</given-names></name></person-group>
+<article-title>Cyanobacteria perceive nitrogen status by sensing intracellular 2-oxoglutarate levels</article-title>
+<source>J. Biol. Chem.</source>
+<year>2001</year>
+<volume>276</volume>
+<fpage>38320</fpage>
+<lpage>38328</lpage>
+<pub-id pub-id-type="pmid">11479309</pub-id></element-citation></ref><ref id="B98-metabolites-03-00072"><label>98.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>C.</given-names></name><name><surname>Hua</surname><given-names>Q.</given-names></name><name><surname>Shimizu</surname><given-names>K.</given-names></name></person-group>
+<article-title>Integration of the information from gene expression and metabolic fluxes for the analysis of the regulatory mechanisms in <italic>Synechocystis</italic></article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2002</year>
+<volume>58</volume>
+<fpage>813</fpage>
+<lpage>822</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-002-0949-0</pub-id>
+<pub-id pub-id-type="pmid">12021803</pub-id></element-citation></ref><ref id="B99-metabolites-03-00072"><label>99.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kahlon</surname><given-names>S.</given-names></name><name><surname>Beeri</surname><given-names>K.</given-names></name><name><surname>Ohkawa</surname><given-names>H.</given-names></name><name><surname>Hihara</surname><given-names>Y.</given-names></name><name><surname>Murik</surname><given-names>O.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Ogawa</surname><given-names>T.</given-names></name><name><surname>Kaplan</surname><given-names>A.</given-names></name></person-group>
+<article-title>A putative sensor kinase, Hik31, is involved in the response of <italic>Synechocysti.</italic> sp. PCC 6803 to the presence of glucose</article-title>
+<source>Microbiology</source>
+<year>2006</year>
+<volume>152</volume>
+<fpage>647</fpage>
+<lpage>655</lpage>
+<pub-id pub-id-type="pmid">16514145</pub-id></element-citation></ref><ref id="B100-metabolites-03-00072"><label>100.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herranen</surname><given-names>M.</given-names></name><name><surname>Battchikova</surname><given-names>N.</given-names></name><name><surname>Zhang</surname><given-names>P.</given-names></name><name><surname>Graf</surname><given-names>A.</given-names></name><name><surname>Sirpi&#x000f6;</surname><given-names>S.</given-names></name><name><surname>Paakkarinen</surname><given-names>V.</given-names></name><name><surname>Aro</surname><given-names>E.M.</given-names></name></person-group>
+<article-title>Towards functional proteomics of membrane protein complexes in <italic>Synechocystis.</italic> sp. PCC 6803</article-title>
+<source>Plant. Physiol.</source>
+<year>2004</year>
+<volume>134</volume>
+<fpage>470</fpage>
+<lpage>481</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.103.032326</pub-id>
+<pub-id pub-id-type="pmid">14730074</pub-id></element-citation></ref><ref id="B101-metabolites-03-00072"><label>101.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miranda</surname><given-names>H.</given-names></name><name><surname>Cheregi</surname><given-names>O.</given-names></name><name><surname>Netotea</surname><given-names>S.</given-names></name><name><surname>Hvidsten</surname><given-names>T.R.</given-names></name><name><surname>Moritz</surname><given-names>T.</given-names></name><name><surname>Funk</surname><given-names>C.</given-names></name></person-group>
+<article-title>Co-expression analysis, proteomic and metabolomic study on the impact of a Deg/HtrA protease triple mutant in <italic>Synechocystis.</italic> sp. PCC 6803 exposed to temperature and high light stress</article-title>
+<source>J. Proetomics</source>
+<year>2012</year>
+<pub-id pub-id-type="doi">10.1016/j.jprot.2012.09.036</pub-id>
+</element-citation></ref><ref id="B102-metabolites-03-00072"><label>102.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Osanai</surname><given-names>T.</given-names></name><name><surname>Oikawa</surname><given-names>A.</given-names></name><name><surname>Azuma</surname><given-names>M.</given-names></name><name><surname>Tanaka</surname><given-names>K.</given-names></name><name><surname>Saito</surname><given-names>K.</given-names></name><name><surname>Hirai</surname><given-names>M.Y.</given-names></name><name><surname>Ikeuchi</surname><given-names>M.</given-names></name></person-group>
+<article-title>Genetic aengineering of group 2 sigma factor SigE widely activates expression of sugar catabolic genes in <italic>Synechocystis.</italic> species PCC 6803</article-title>
+<source>J. Biol. Chem.</source>
+<year>2011</year>
+<volume>286</volume>
+<fpage>30962</fpage>
+<lpage>30971</lpage>
+<pub-id pub-id-type="pmid">21757761</pub-id></element-citation></ref><ref id="B103-metabolites-03-00072"><label>103.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gr&#x000fc;ndel</surname><given-names>M.</given-names></name><name><surname>Scheunemann</surname><given-names>R.</given-names></name><name><surname>Lockau</surname><given-names>W.</given-names></name><name><surname>Zilliges</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Impaired glycogen synthesis causes metabolic overflow reactions and affects stress responses in the cyanobacterium <italic>Synechocystis.</italic> sp. PCC 6803</article-title>
+<source>Microbiology</source>
+<year>2012</year>
+<volume>158</volume>
+<fpage>3032</fpage>
+<lpage>3043</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.062950-0</pub-id>
+<pub-id pub-id-type="pmid">23038809</pub-id></element-citation></ref><ref id="B104-metabolites-03-00072"><label>104.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hackenberg</surname><given-names>C.</given-names></name><name><surname>Huege</surname><given-names>J.</given-names></name><name><surname>Engelhardt</surname><given-names>A.</given-names></name><name><surname>Wittink</surname><given-names>F.</given-names></name><name><surname>Laue</surname><given-names>M.</given-names></name><name><surname>Matthijs</surname><given-names>H.C.</given-names></name><name><surname>Kopka</surname><given-names>J.</given-names></name><name><surname>Bauwe</surname><given-names>H.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Low-carbon acclimation in carboxysome-less and photorespiratory mutants of the cyanobacterium <italic>Synechocystis.</italic> sp. strain PCC 6803</article-title>
+<source>Microbiology</source>
+<year>2012</year>
+<volume>158</volume>
+<fpage>398</fpage>
+<lpage>413</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.054544-0</pub-id>
+<pub-id pub-id-type="pmid">22096149</pub-id></element-citation></ref><ref id="B105-metabolites-03-00072"><label>105.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McNeeley</surname><given-names>K.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name><name><surname>Bennette</surname><given-names>N.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name><name><surname>Dismukes</surname><given-names>G.C.</given-names></name></person-group>
+<article-title>Redirecting reductant flux into hydrogen production via metabolic engineering of fermentative carbon metabolism in a cyanobacterium</article-title>
+<source>Appl. Environ. Mircobiol.</source>
+<year>2010</year>
+<volume>76</volume>
+<fpage>5032</fpage>
+<lpage>5038</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.00862-10</pub-id>
+</element-citation></ref><ref id="B106-metabolites-03-00072"><label>106.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmetterer</surname><given-names>G.R.</given-names></name></person-group>
+<article-title>Sequence conservation among the glucose transporter from the cyanobacterium <italic>Synechocystis.</italic> sp. PCC 6803 and mammalian glucose transporters</article-title>
+<source>Plant. Mol. Biol.</source>
+<year>1990</year>
+<volume>14</volume>
+<fpage>697</fpage>
+<lpage>706</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00016502</pub-id>
+<pub-id pub-id-type="pmid">2129397</pub-id></element-citation></ref><ref id="B107-metabolites-03-00072"><label>107.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zubkov</surname><given-names>M.V.</given-names></name><name><surname>Fuchs</surname><given-names>B.M.</given-names></name><name><surname>Tarran</surname><given-names>G.A.</given-names></name><name><surname>Burkill</surname><given-names>P.H.</given-names></name><name><surname>Amann</surname><given-names>R.</given-names></name></person-group>
+<article-title>High rate of uptake of organic nitrogen compounds by <italic>Prochlorococcus.</italic> cyanobacteria as a key to their dominance in oligotrophic oceanic waters</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2003</year>
+<volume>69</volume>
+<fpage>1299</fpage>
+<lpage>1304</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.69.2.1299-1304.2003</pub-id>
+<pub-id pub-id-type="pmid">12571062</pub-id></element-citation></ref><ref id="B108-metabolites-03-00072"><label>108.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Norman</surname><given-names>E.G.</given-names></name><name><surname>Colman</surname><given-names>B.</given-names></name></person-group>
+<article-title>Evidence for an incomplete glycolate pathway in cyanobacteria</article-title>
+<source>J. Plant. Physiol.</source>
+<year>1988</year>
+<volume>132</volume>
+<fpage>766</fpage>
+<lpage>768</lpage>
+<pub-id pub-id-type="doi">10.1016/S0176-1617(88)80244-X</pub-id>
+</element-citation></ref><ref id="B109-metabolites-03-00072"><label>109.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Glibert</surname><given-names>P.M.</given-names></name><name><surname>Bronk</surname><given-names>D.A.</given-names></name></person-group>
+<article-title>Release of dissolved organic nitrogen by marine diazotrophic cyanobacteria, <italic>Trichodesmium.</italic> spp</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>1994</year>
+<volume>60</volume>
+<fpage>3996</fpage>
+<lpage>4000</lpage>
+<pub-id pub-id-type="pmid">16349432</pub-id></element-citation></ref><ref id="B110-metabolites-03-00072"><label>110.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>C.</given-names></name><name><surname>Hua</surname><given-names>Q.</given-names></name><name><surname>Shimizu</surname><given-names>K.</given-names></name></person-group>
+<article-title>Quantitative analysis of intracellular metabolic fluxes using GC-MS and two-dimensional NMR spectroscopy</article-title>
+<source>J. Biosci. Bioeng.</source>
+<year>2002</year>
+<volume>93</volume>
+<fpage>78</fpage>
+<lpage>87</lpage>
+<pub-id pub-id-type="pmid">16233169</pub-id></element-citation></ref><ref id="B111-metabolites-03-00072"><label>111.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saha</surname><given-names>R.</given-names></name><name><surname>Verseput</surname><given-names>A.T.</given-names></name><name><surname>Berla</surname><given-names>B.M.</given-names></name><name><surname>Mueller</surname><given-names>T.J.</given-names></name><name><surname>Pakrasi</surname><given-names>H.B.</given-names></name><name><surname>Maranas</surname><given-names>C.D.</given-names></name></person-group>
+<article-title>Reconstruction and comparison of the metabolic potential of cyanobacteria <italic>Cyanothece.</italic> sp. ATCC 51142 and <italic>Synechocystis.</italic> sp. PCC 6803</article-title>
+<source>PLoS One</source>
+<year>2012</year>
+<volume>7</volume>
+<fpage>e48285</fpage>
+<pub-id pub-id-type="pmid">23133581</pub-id></element-citation></ref><ref id="B112-metabolites-03-00072"><label>112.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feng</surname><given-names>X.</given-names></name><name><surname>Bandyopadhyay</surname><given-names>A.</given-names></name><name><surname>Berla</surname><given-names>B.</given-names></name><name><surname>Page</surname><given-names>L.</given-names></name><name><surname>Wu</surname><given-names>B.</given-names></name><name><surname>Pakrasi</surname><given-names>H.B.</given-names></name><name><surname>Tang</surname><given-names>Y.J.</given-names></name></person-group>
+<article-title>Mixotrophic and photoheterotrophic metabolism in <italic>Cyanothece.</italic> sp. ATCC 51142 under continuous light</article-title>
+<source>Microbiology</source>
+<year>2010</year>
+<volume>156</volume>
+<fpage>2566</fpage>
+<lpage>2574</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.038232-0</pub-id>
+<pub-id pub-id-type="pmid">20430816</pub-id></element-citation></ref><ref id="B113-metabolites-03-00072"><label>113.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>B.</given-names></name><name><surname>Zhang</surname><given-names>B.</given-names></name><name><surname>Feng</surname><given-names>X.</given-names></name><name><surname>Rubens</surname><given-names>J.R.</given-names></name><name><surname>Huang</surname><given-names>R.</given-names></name><name><surname>Hicks</surname><given-names>L.M.</given-names></name><name><surname>Pakrasi</surname><given-names>H.B.</given-names></name><name><surname>Tang</surname><given-names>Y.J.</given-names></name></person-group>
+<article-title>Alternative isoleucine synthesis pathway in cyanobacterial species</article-title>
+<source>Microbiology</source>
+<year>2010</year>
+<volume>156</volume>
+<fpage>596</fpage>
+<lpage>602</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.031799-0</pub-id>
+<pub-id pub-id-type="pmid">19875435</pub-id></element-citation></ref><ref id="B114-metabolites-03-00072"><label>114.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nogales</surname><given-names>J.</given-names></name><name><surname>Gudmundsson</surname><given-names>S.</given-names></name><name><surname>Thiele</surname><given-names>I.</given-names></name></person-group>
+<article-title>Toward systems metabolic engineering in cyanobacteria: Opportunities and bottlenecks</article-title>
+<source>Bioengineered.</source>
+<year>2012</year>
+<volume>4</volume>
+<comment>Available online:<ext-link ext-link-type="uri" xlink:href="http://www.landesbioscience.com/journals/bioe/article/22792/">http://www.landesbioscience.com/journals/bioe/article/22792/</ext-link></comment>
+</element-citation></ref></ref-list></back></article>

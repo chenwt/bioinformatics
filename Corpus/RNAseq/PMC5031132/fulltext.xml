@@ -1,0 +1,968 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">F1000Res</journal-id><journal-id journal-id-type="iso-abbrev">F1000Res</journal-id><journal-id journal-id-type="pmc">F1000Research</journal-id><journal-title-group><journal-title>F1000Research</journal-title></journal-title-group><issn pub-type="epub">2046-1402</issn><publisher><publisher-name>F1000Research</publisher-name><publisher-loc>London, UK</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5031132</article-id><article-id pub-id-type="doi">10.12688/f1000research.9073.1</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group><subj-group><subject>Articles</subject><subj-group><subject>Antigen Processing &#x00026; Recognition</subject></subj-group><subj-group><subject>Cancer Therapeutics</subject></subj-group><subj-group><subject>Genetics of the Immune System</subject></subj-group><subj-group><subject>Immune Response</subject></subj-group><subj-group><subject>Immunomodulation</subject></subj-group><subj-group><subject>Immunopharmacology &#x00026; Hematologic Pharmacology</subject></subj-group></subj-group></article-categories><title-group><article-title>Recent advances in T-cell engineering for use in immunotherapy</article-title><fn-group content-type="pub-status"><fn><p>[version 1; referees: 3 approved]</p></fn></fn-group></title-group><contrib-group><contrib contrib-type="author"><name><surname>Sharma</surname><given-names>Preeti</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Kranz</surname><given-names>David M.</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref></contrib><aff id="a1"><label>1</label>Department of Biochemistry, University of Illinois, Urbana, IL, USA</aff></contrib-group><author-notes><corresp id="c1"><label>a</label><email xlink:href="mailto:d-kranz@illinois.edu">d-kranz@illinois.edu</email></corresp><fn fn-type="COI-statement"><p>
+<bold>Competing interests: </bold>The authors declare that they have no competing interests.</p></fn></author-notes><pub-date pub-type="epub"><day>19</day><month>9</month><year>2016</year></pub-date><pub-date pub-type="collection"><year>2016</year></pub-date><volume>5</volume><elocation-id>F1000 Faculty Rev-2344</elocation-id><history><date date-type="accepted"><day>16</day><month>9</month><year>2016</year></date></history><permissions><copyright-statement>Copyright: &#x000a9; 2016 Sharma P and Kranz DM</copyright-statement><copyright-year>2016</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article distributed under the terms of the Creative Commons Attribution Licence, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="f1000research-5-9765.pdf"/><abstract><p>Adoptive T-cell therapies have shown exceptional promise in the treatment of cancer, especially B-cell malignancies. Two distinct strategies have been used to redirect the activity of
+<italic>ex vivo </italic>engineered T cells. In one case, the well-known ability of the T-cell receptor (TCR) to recognize a specific peptide bound to a major histocompatibility complex molecule has been exploited by introducing a TCR against a cancer-associated peptide/human leukocyte antigen complex. In the other strategy, synthetic constructs called chimeric antigen receptors (CARs) that contain antibody variable domains (single-chain fragments variable) and signaling domains have been introduced into T cells. Whereas many reviews have described these two approaches, this review focuses on a few recent advances of significant interest. The early success of CARs has been followed by questions about optimal configurations of these synthetic constructs, especially for efficacy against solid tumors. Among the many features that are important, the dimensions and stoichiometries of CAR/antigen complexes at the synapse have recently begun to be appreciated. In TCR-mediated approaches, recent evidence that mutated peptides (neoantigens) serve as targets for endogenous T-cell responses suggests that these neoantigens may also provide new opportunities for adoptive T-cell therapies with TCRs.</p></abstract><kwd-group kwd-group-type="author"><kwd>immunotherapy</kwd><kwd>T cell</kwd><kwd>receptor</kwd><kwd>neoantigens</kwd><kwd>chimeric antigen receptor</kwd></kwd-group><funding-group><award-group id="fund-1"><funding-source>National Institutes of Health</funding-source><award-id>CA178844</award-id><award-id>CA187592</award-id></award-group><funding-statement>This work was supported by current National Institutes of Health grants CA178844 and CA187592.</funding-statement><funding-statement><italic>The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</italic></funding-statement></funding-group></article-meta><notes><sec sec-type="editor-note"><title>Editorial Note on the Review Process</title><p>
+<ext-link ext-link-type="uri" xlink:href="http://f1000research.com/browse/f1000-faculty-reviews">F1000 Faculty Reviews</ext-link> are commissioned from members of the prestigious
+<ext-link ext-link-type="uri" xlink:href="http://f1000.com/prime/thefaculty">F1000 Faculty</ext-link> and are edited as a service to readers. In order to make these reviews as comprehensive and accessible as possible, the referees provide input before publication and only the final, revised version is published. The referees who approved the final version are listed with their names and affiliations but without their reports on earlier versions (any comments will already have been addressed in the published version).</p><p>The referees who approved this article are: </p><list list-type="simple" list-content="reviewer-list"><list-item><p>
+<named-content content-type="reviewer-name">Michelle Krogsgaard</named-content>, Department of Pathology, New York University School of Medicine, New York, USA
+<fn fn-type="COI-statement"><p>No competing interests were disclosed.</p></fn>
+</p></list-item><list-item><p>
+<named-content content-type="reviewer-name">Hinrich Abken</named-content>, Center for Molecular Medicine Cologne, University of Cologne; Clinic of Internal Medicine I, University Hospital Cologne, Cologne, Germany
+<fn fn-type="COI-statement"><p>No competing interests were disclosed.</p></fn>
+</p></list-item><list-item><p>
+<named-content content-type="reviewer-name">Stanley Riddell</named-content>, Clinical Research Division, Fred Hutchinson Cancer Research Center, Seattle, WA, USA; Department of Medicine, University of Washington, Seattle, WA, USA
+<fn fn-type="COI-statement"><p>No competing interests were disclosed.</p></fn>
+</p></list-item></list></sec></notes></front><body><sec sec-type="intro"><title>Introduction</title><p>T cells recognize antigens as short peptides bound to a protein encoded by the major histocompatibility complex (MHC). The key T-cell molecule involved in binding to the peptide-MHC (pepMHC) is an &#x003b1;&#x003b2; heterodimer called the T-cell receptor (TCR)
+<sup><xref rid="ref-1" ref-type="bibr">1</xref></sup>. The TCR is part of a cell surface complex with subunits of CD3, which provide the proximal signaling components. In addition, co-receptors CD4 and CD8 are involved in the recognition of class II and class I MHC, respectively. TCRs have evolved to recognize MHC molecules such that during thymic development, only T cells with TCRs that bind to MHC will be exported to the periphery as mature T cells (termed &#x0201c;positive&#x0201d; selection)
+<sup><xref rid="ref-2" ref-type="bibr">2</xref></sup>. T cells with TCRs that bind self-peptide/MHC with too high affinity will be deleted in the thymus (termed &#x0201c;negative&#x0201d; selection). The TCR affinities that trigger signaling in these processes are very low, and the range that distinguishes positive selection from negative selection or peripheral T-cell activation appears to be relatively narrow and most likely influenced by the strength of the peptide:MHC interaction
+<sup><xref rid="ref-3" ref-type="bibr">3</xref>&#x02013;
+<xref rid="ref-5" ref-type="bibr">5</xref></sup>.</p><p>The remarkable feature of the system is that despite their low affinities, TCRs mediate peptide-specific reactivity with very low levels of the pepMHC on the antigen-presenting cells (APCs). Thus, a T cell can be triggered with a TCR affinity of 100 &#x003bc;M and only a few pepMHC complexes on the surface of the target cell
+<sup><xref rid="ref-5" ref-type="bibr">5</xref>&#x02013;
+<xref rid="ref-9" ref-type="bibr">9</xref></sup>. This exquisite sensitivity allows the recognition of virtually any intracellular foreign peptide that can be bound to an MHC molecule and transported to the surface. Given these properties, the use of TCRs that recognize tumor-antigen peptides has become an important strategy for adoptive T-cell therapies. Clinical efforts to date have focused on shared self-peptides that are from proteins upregulated in some cancers, such as WT1 antigen, differentiation antigens like gp100 and MART-1, and cancer/testis antigens like NY-ESO and MAGE-A3 (for example,
+<sup><xref rid="ref-10" ref-type="bibr">10</xref>&#x02013;
+<xref rid="ref-16" ref-type="bibr">16</xref></sup>). However, a significant challenge in adoptive T-cell therapy with gene-transferred TCRs is competition for pairing with the endogenous TCR chains, leading to lower levels of the tumor-specific TCR or possibly off-target reactivities of mispaired TCRs that lead to graft-versus-host reactions
+<sup><xref rid="ref-17" ref-type="bibr">17</xref></sup>. Current strategies to minimize or avoid mispairing include the use of cysteines in exogenous TCR constant domains that promote preferential pairing
+<sup><xref rid="ref-18" ref-type="bibr">18</xref>&#x02013;
+<xref rid="ref-20" ref-type="bibr">20</xref></sup> or gene editing strategies that limit the expression of the endogenous TCR chains
+<sup><xref rid="ref-21" ref-type="bibr">21</xref>,
+<xref rid="ref-22" ref-type="bibr">22</xref></sup>.</p><p>The other strategy for redirecting the activity of T cells has been to create synthetic receptors that use an antibody fragment (single-chain fragments variable, or scFv) fused to a transmembrane region and signaling domains
+<sup><xref rid="ref-23" ref-type="bibr">23</xref></sup>. These chimeric antigen receptors (CARs) have allowed T cells to be targeted against cancers in an MHC-independent mechanism. The most clinically studied CARs are those that target B-cell malignancies, in particular CARs against the antigen CD19 (for example,
+<sup><xref rid="ref-24" ref-type="bibr">24</xref>&#x02013;
+<xref rid="ref-30" ref-type="bibr">30</xref></sup>). However, there is intense interest in developing CARs with other specificities, especially those against cell surface antigens expressed on solid tumors (for example, ErbB2, mesothelin, EGFR, and Tn-glycopeptides
+<sup><xref rid="ref-31" ref-type="bibr">31</xref>&#x02013;
+<xref rid="ref-36" ref-type="bibr">36</xref></sup>).</p><p>Given the clinical progress with TCR- and CAR-mediated therapies, it is not surprising that there have been numerous reviews on these adoptive T-cell approaches (for example,
+<sup><xref rid="ref-37" ref-type="bibr">37</xref>&#x02013;
+<xref rid="ref-42" ref-type="bibr">42</xref></sup>). Reviews have covered many of the properties that might guide the optimal configuration and application of these receptors, including binding affinities, specificity, construct design, signaling domains (CARs), vector delivery systems, recipient T-cell populations, and manufacturing. Arguably, one of the most important elements of each adoptive T-cell therapy strategy is the choice of target, whether it is a pepMHC for TCR therapies or a cell surface antigen for CAR therapies. With this in mind, we focus here on three features of TCR- or CAR-mediated therapies that have received recent attention: (1) dimensions of the TCR/pepMHC versus CAR/antigen complexes at the synapse, (2) target antigen sensitivity and affinity requirements of T cells expressing TCRs and CARs, and (3) mutated cancer peptides (neoantigens) as targets for adoptive T-cell therapies with TCRs.</p></sec><sec><title>Dimensions of TCR versus CAR interfaces</title><p>Whereas the TCR/CD3 complex has evolved to be an exquisitely sensitive recognition and signaling machine, CARs represent synthetic constructs with distinct differences: antigen binding is accomplished with an scFv, membrane insertion is accomplished using the membrane-spanning region of yet another T-cell molecule (for example, CD8), and intracellular signaling components are derived from multiple T-cell molecules, often the CD3&#x003b6; subunit and CD28, 4-1BB, or OX40. This structural organization endows CARs with MHC-independent binding properties of antibodies and unique signaling properties that share some of the features of normal T cells but that differ in both quantitative and mechanistic details (for example,
+<sup><xref rid="ref-37" ref-type="bibr">37</xref>&#x02013;
+<xref rid="ref-42" ref-type="bibr">42</xref></sup>).</p><p>Although the TCR/CD3 complex fixes the mechanisms involved in TCR-mediated adoptive T-cell approaches, including the maximal surface level of the complex
+<sup><xref rid="ref-43" ref-type="bibr">43</xref></sup>, the design of CARs and their inherent mechanisms continue to evolve. First-generation CARs consisted of an scFv linked to the CD3&#x003b6; subunit in order to more closely mimic the natural TCR/CD3 signaling machinery, in principle allowing clustering and cross-linking of multiple receptors in the membrane. Improvements in signaling capacity and T-cell function were achieved in second- and third-generation CARs by adding the signaling domain(s) of CD28, 4-1BB, or OX40 or a combination of these. These domains were designed to incorporate co-stimulatory signaling (signal 2). Hinge/spacer domains in CARs enable stable expression and typically consist of a hinge linked to the C
+<sub>H2</sub>-C
+<sub>H3</sub> domains from IgG1 or IgG4
+<sup><xref rid="ref-44" ref-type="bibr">44</xref>,
+<xref rid="ref-45" ref-type="bibr">45</xref></sup> or spacer domains from CD4 or CD8
+<sup><xref rid="ref-46" ref-type="bibr">46</xref></sup>. Reports have shown that CAR T cells containing a hinge from IgG1 Fc regions can bind to Fc&#x003b3; receptors (Fc&#x003b3;Rs) and activate cells of the innate immune system
+<sup><xref rid="ref-44" ref-type="bibr">44</xref>,
+<xref rid="ref-47" ref-type="bibr">47</xref></sup>. Differences in potencies of individual CARs have been associated with choice of co-stimulatory domain used in CAR design, spacer length and its modification if any, target epitope density and location, and inter-membrane distance (for example,
+<sup><xref rid="ref-44" ref-type="bibr">44</xref>,
+<xref rid="ref-45" ref-type="bibr">45</xref>,
+<xref rid="ref-47" ref-type="bibr">47</xref>&#x02013;
+<xref rid="ref-51" ref-type="bibr">51</xref></sup>). A study that used the &#x003b3; chain of Fc&#x003b5;RI receptor as a signaling domain in a CD30-specific CAR also showed that location of the epitope influenced activity, in that a CAR with a spacer region (C
+<sub>H2</sub>-C
+<sub>H3</sub> domains) was less efficient in mediating T-cell activation than the same CAR without the spacer
+<sup><xref rid="ref-52" ref-type="bibr">52</xref></sup>.</p><p>Given the differences in extracellular domains and their antigen structures, the dimensions of the conserved TCR:pepMHC interface can differ substantially from a CAR:antigen interface. TCR:pepMHC interaction interfaces have been studied extensively
+<sup><xref rid="ref-1" ref-type="bibr">1</xref>,
+<xref rid="ref-53" ref-type="bibr">53</xref>&#x02013;
+<xref rid="ref-56" ref-type="bibr">56</xref></sup> and crystal structures predict that the static inter-membrane distance for a TCR:pepMHC interaction is about 150 &#x000c5; (
+<xref ref-type="fig" rid="f1">Figure 1A</xref>). This has been supported by the measurement of inter-membrane distances at TCR:pepMHC interfaces by electron microscopy
+<sup><xref rid="ref-57" ref-type="bibr">57</xref></sup>. The issue of dimensions is important because the kinetic segregation model of TCR triggering proposes that the TCR:pepMHC distance has been optimized to include TCR:pepMHC and accessory receptor-ligand combinations at the synapse while excluding larger inhibitory tyrosine phosphatases (CD45 and CD148)
+<sup><xref rid="ref-57" ref-type="bibr">57</xref>&#x02013;
+<xref rid="ref-60" ref-type="bibr">60</xref></sup>. Accordingly, TCR-mediated adoptive T-cell approaches will automatically retain the same evolutionarily optimized dimensions at the interface.</p><fig fig-type="figure" id="f1" orientation="portrait" position="float"><label>Figure 1. </label><caption><title>Dimensions of the interaction interfaces involving conventional &#x003b1;&#x003b2; T-cell receptor (TCR) T cells and chimeric antigen receptor (CAR) T cells.</title><p>(
+<bold>A</bold>) TCRs on the surface of T cells interact with peptide-major histocompatibility complex (pMHC) complexes on the surface of target cells (antigen-presenting cells). This conserved interaction spans approximately 150 &#x000c5; of inter-membrane space between the two cell types. TCRs assemble in the membrane of T cells with subunits of CD3 molecules (&#x003b4;, &#x003b5;, &#x003b3;, and &#x003b6;) and CD4 or CD8 (not shown). Proximal, intracellular molecules initiate phosphorylation of CD3 subunits and subsequent signaling pathways. Structure of the Mel5 TCR in complex with MART-1 peptide bound to HLA-A2 is shown (PDB: 3HG1)
+<sup><xref rid="ref-116" ref-type="bibr">116</xref></sup>. (
+<bold>B</bold>,
+<bold>C</bold>) CARs typically contain single-chain variable fragment (scFv) domains (V
+<sub>H</sub> and V
+<sub>L</sub>) of an antibody, linked to a hinge or spacer domain, transmembrane domain, and intracellular signaling domains (for example, co-stimulatory domains CD28 or 4-1BB and CD3&#x003b6;). CAR interacts with its antigen present on the target cell surface. Owing to potential differences in the size of the antigen and location of the epitope, the interaction interface of CAR-target antigen can be variable. In (
+<bold>B</bold>), a representation of a CAR-target antigen interaction interface is shown by aligning the structures of an extracellular domain of the CAR target, ErbB2, in complex with the scFv of an anti-ErbB2 antibody, chA21 (PDB: 3H3B)
+<sup><xref rid="ref-63" ref-type="bibr">63</xref></sup>, with the complete extracellular domain of ErbB2 (PDB: 1N8Z)
+<sup><xref rid="ref-64" ref-type="bibr">64</xref></sup>. To illustrate the range of possible CAR interactions, in (
+<bold>C</bold>) a representation of another CAR-target antigen interaction interface is shown for mesothelin, a membrane glycoprotein present on the cell surface of various cancers, including mesothelioma. Mesothelin was modeled by using the online tool &#x0201c;Phyre2&#x0201d;
+<sup><xref rid="ref-117" ref-type="bibr">117</xref></sup>, followed by alignment with the domain of mesothelin that was crystallized with the Fab fragment of the anti-mesothelin monoclonal antibody MORAb-009
+<sup><xref rid="ref-65" ref-type="bibr">65</xref>,
+<xref rid="ref-118" ref-type="bibr">118</xref></sup>. Note that although these are depicted as static structures, both protein dynamics and membrane mobility will also impact interface interactions.</p></caption><graphic xlink:href="f1000research-5-9765-g0000"/></fig><p>In contrast, distances at the CAR-target antigen interface will be highly variable depending on the size and epitope location of the target antigen. Figures 1B and 1C show a representation of two targets, ErbB2 and mesothelin, which are overexpressed in certain forms of cancer and have been used as targets for immune-based therapies, including CARs
+<sup><xref rid="ref-33" ref-type="bibr">33</xref>,
+<xref rid="ref-61" ref-type="bibr">61</xref>,
+<xref rid="ref-62" ref-type="bibr">62</xref></sup>. Domains of ErbB2 and mesothelin have been crystallized in complex with antibody domains, allowing a schematic comparison of the possible interfaces that might exist when these proteins are targeted by CARs
+<sup><xref rid="ref-63" ref-type="bibr">63</xref>&#x02013;
+<xref rid="ref-65" ref-type="bibr">65</xref></sup>. The ErbB2/scFv (antibody chA21) predicts that the extracellular domain of ErbB2 is about 115 &#x000c5; in length, and the Ig-domains of the scFv measure about 35 to 40 &#x000c5;. Thus, the static view of this complex indicates an interaction interface of about 150 &#x000c5;, similar to the TCR:pepMHC interaction. In contrast, mesothelin has a very different domain structure with potentially shorter distances at the interaction interface. Both the ErbB2 and mesothelin models highlight the view that the location of the scFv epitope and the flexibility of the membrane-bound target antigen will have a direct influence on the dimensions of the interface. Of course, other factors such as the level of expression of the antigen, its inherent membrane mobility, and the affinity of the scFv will all influence the sensitivity of the CAR reactions. For example, the importance of epitope location has been emphasized by Abken and colleagues, who showed that transfer of a membrane-distal epitope to a membrane-proximal location resulted in improved CAR T-cell activation
+<sup><xref rid="ref-51" ref-type="bibr">51</xref></sup>.</p><p>Determining the dimensions of CAR-target antigen interfaces is difficult, as often the structures of the extracellular regions of antigens are not known and, even if they are, the flexibility and membrane mobility of these structures cannot be predicted. Nevertheless, studies have indicated that altering the hinge/spacer domain of CAR constructs impacts their potency, supporting the idea that an optimal distance of interaction for CARs exists, as seen with the TCR:pepMHC interface
+<sup><xref rid="ref-45" ref-type="bibr">45</xref>,
+<xref rid="ref-49" ref-type="bibr">49</xref>,
+<xref rid="ref-50" ref-type="bibr">50</xref></sup>. For example, ROR1-directed CAR constructs were effective with a shortened spacer domain for recognition and killing of ROR1-positive tumors because of the membrane-distal location of the ROR1 epitope
+<sup><xref rid="ref-48" ref-type="bibr">48</xref></sup>. It was hypothesized that shortening the spacer may reduce the distance between T cell and target cell, hence allowing exclusion of inhibitory phosphatases (CD45)
+<sup><xref rid="ref-41" ref-type="bibr">41</xref></sup>. Accordingly, a membrane-proximal epitope of ROR1 was efficiently recognized by CARs with a longer spacer
+<sup><xref rid="ref-45" ref-type="bibr">45</xref></sup>. Similar results have been observed with CD19-directed CARs
+<sup><xref rid="ref-45" ref-type="bibr">45</xref></sup>. As the size of the CAR:antigen dimension was increased with a CD22-directed CAR, the efficiency of target cell lysis was reduced, perhaps because the larger membrane interface permitted CD45-mediated dephosphorylation of substrates involved in T-cell signaling
+<sup><xref rid="ref-49" ref-type="bibr">49</xref></sup>. These studies support the importance of maintaining an optimal inter-membrane distance between CAR and target antigen. They suggest that spacer lengths will need to be designed for individual CARs and that scFv fragments against a particular epitope of an antigen may need to be generated.</p></sec><sec><title>Target antigen density and affinity requirements for TCRs and CARs</title><p>T-cell triggering is not only sensitive to the distance between the antigen-receptor machinery and target cell antigen but also, of course, affected by the density of antigens presented to T cells bearing either the native TCR or the synthetic CAR (
+<xref ref-type="fig" rid="f2">Figure 2</xref>). It has been suggested that one pepMHC molecule may be sufficient to trigger T-cell activation
+<sup><xref rid="ref-6" ref-type="bibr">6</xref>&#x02013;
+<xref rid="ref-9" ref-type="bibr">9</xref></sup>. A factor contributing to this sensitivity, suggested by the serial triggering hypothesis, is that the low affinity (fast off-rate) of the TCR:pepMHC interaction allows serial binding of multiple TCR/CD3 complexes by a single pepMHC complex, thereby amplifying the reaction
+<sup><xref rid="ref-66" ref-type="bibr">66</xref></sup>. The extraordinary sensitivity of T cells is also explained by the action of co-receptors CD4 or CD8 which interact with invariant regions of class II or class I MHC and consequently bring the intracellular kinase Lck (lymphocyte specific receptor kinase) into proximity with the TCR/CD3 complex
+<sup><xref rid="ref-67" ref-type="bibr">67</xref></sup>. Accordingly, TCR:pepMHC binding drives local aggregation of multiple TCR-pepMHC complexes, leading to Lck-mediated downstream signaling. In the absence of co-receptor, the sensitivity is reduced to about 30 or more pepMHCs, and this co-receptor-independent reaction requires a 10- to 100-fold higher affinity TCR:pepMHC interaction
+<sup><xref rid="ref-3" ref-type="bibr">3</xref>,
+<xref rid="ref-8" ref-type="bibr">8</xref>,
+<xref rid="ref-9" ref-type="bibr">9</xref>,
+<xref rid="ref-68" ref-type="bibr">68</xref></sup>.</p><fig fig-type="figure" id="f2" orientation="portrait" position="float"><label>Figure 2. </label><caption><title>Sensitivity thresholds for various antibody or T-cell-based therapy modalities.</title><p>A comparison of approximated sensitivity thresholds (that is, number of target molecules per cancer cell that are required for killing) that have been identified for antibody or T-cell-based approaches is depicted. Note that these are estimates and that within each category the sensitivity can be further influenced by various parameters, including the affinity of the receptor toward the target antigen. BiTE, bispecific T-cell engager.</p></caption><graphic xlink:href="f1000research-5-9765-g0001"/></fig><p>Whereas T cells have evolved the machinery to optimize proximal signaling, synthetic CARs have adopted some but not all of these features. In fact, it could be argued that the antigens currently targeted by CARs dictate that the CARs have at least some properties that are different from TCRs. For example, the densities of cell surface antigens recognized by current-generation CARs are orders of magnitude higher than the densities of most specific pepMHC antigens, and these levels vary considerably from one target to another. CAR-based therapies have targeted antigens such as CD19, CD20, and ErbB2 that are expressed at densities that range from 10,000 to 1,000,000 molecules per tumor cell
+<sup><xref rid="ref-36" ref-type="bibr">36</xref>,
+<xref rid="ref-62" ref-type="bibr">62</xref></sup>. Depending on the system, there may be less information about the minimum number of antigen molecules required by CAR T cells to generate a response. With a unique glycopeptide-directed CAR system, the antigen density required for target cell lysis ranged from 300 to 3,000 epitopes per target cell, and this sensitivity was greater for the scFv used as a CAR compared with its use as a bispecific antibody (also known as BiTEs or bispecific T-cell engagers)
+<sup><xref rid="ref-36" ref-type="bibr">36</xref></sup>. More recently, Watanabe and colleagues used a CD20-directed CAR system to establish that the threshold of antigen density required for target cell lysis was about 200 molecules per cell
+<sup><xref rid="ref-69" ref-type="bibr">69</xref></sup>. On the other hand, a WT1-human leukocyte antigen (HLA)-A2-directed BiTE system has been shown to induce T-cell response and target-cell killing at 500 to 6,000 epitopes per cell
+<sup><xref rid="ref-70" ref-type="bibr">70</xref>,
+<xref rid="ref-71" ref-type="bibr">71</xref></sup>, whereas current antibody drug conjugates (ADCs) target antigens at significantly higher density (~10
+<sup>4</sup> to ~10
+<sup>5</sup>)
+<sup><xref rid="ref-72" ref-type="bibr">72</xref></sup>. It is important to note that, whether an antigen is targeted by a CAR, BiTE, or ADC product, each strategy can be optimized within its class to achieve recognition of the lowest antigen levels possible. Ultimately, this depends on the mechanism of action of their respective effector functions. With this in mind, TCRs expressed in T cells are currently the only mediator of activity endowed with the extreme sensitivity to recognize as few as one target molecule per tumor cell (
+<xref ref-type="fig" rid="f2">Figure 2</xref>).</p><p>Mechanistically, it is not clear whether CARs require the same extent of clustering as TCRs in the T-cell membrane and whether the signaling domains of CARs are actually generating the same stoichiometry and quantitative signaling amplification. The structural organization of CARs allows MHC-independent recognition of antigens, and hence there is no known contribution of co-receptors for further improvements in the sensitivity of this interaction. Accordingly, for each CAR system, it will be important to determine the range of target antigen densities toward which responses against tumor (but not normal tissue) are achieved. This might also require comparison of multiple scFv and CAR formats.</p><p>Naturally occurring TCRs possess low affinity toward their pepMHC ligands (dissociation constant [K
+<sub>D</sub>] ranging from 10 to 100 &#x003bc;M for foreign pepMHC) but still efficiently induce T-cell activation because of the contribution from co-receptors, serial triggering, and the stoichiometry of the CD3 complex. However, the affinity can be significantly lower for a self-cancer antigen (K
+<sub>D</sub> of as low as about 1,000 &#x003bc;M)
+<sup><xref rid="ref-73" ref-type="bibr">73</xref></sup>. Efforts to engineer TCRs for higher affinity are focused on two goals: first, to optimize the activity of CD8 T cells against self-pepMHC (class I) since the higher-affinity TCRs have been deleted during thymic selection
+<sup><xref rid="ref-73" ref-type="bibr">73</xref></sup> and, second, to redirect the activity of CD4 T helper cells against a class I MHC target since this interaction would not be able to use the cognate co-receptor CD8
+<sup><xref rid="ref-74" ref-type="bibr">74</xref>,
+<xref rid="ref-75" ref-type="bibr">75</xref></sup>. Various studies have shown that there is an affinity threshold for TCRs in CD8 T cells (about 10 &#x003bc;M) and CD4 T cells (about 1 &#x003bc;M) beyond which they risk mediating self-peptide cross-reactivity
+<sup><xref rid="ref-76" ref-type="bibr">76</xref>&#x02013;
+<xref rid="ref-82" ref-type="bibr">82</xref></sup>. Such affinity-enhanced TCRs (for example, against HLA-A1 restricted MAGE-A3 epitope) have been shown to cause off-target cross-reactivity resulting in lethality
+<sup><xref rid="ref-16" ref-type="bibr">16</xref>,
+<xref rid="ref-83" ref-type="bibr">83</xref>,
+<xref rid="ref-84" ref-type="bibr">84</xref></sup>. It is generally accepted that there is no need to engineer TCR affinities below these &#x0201c;optimal&#x0201d; K
+<sub>D</sub> values, but again each TCR requires individual testing to assess safety issues.</p><p>In contrast to TCRs, CARs typically contain scFv fragments from higher-affinity, monoclonal antibodies (K
+<sub>D</sub> values in the range of 1 to 100 nM). It should be possible to select scFv affinities and CAR formats that avoid stimulation by normal tissues caused by on-target, off-tumor reactions, as apparently was observed with an ErbB2-directed CAR that was reactive with ErbB2 levels in the lungs of a patient
+<sup><xref rid="ref-62" ref-type="bibr">62</xref></sup>. A recent study demonstrated the usefulness of low-affinity CAR T cells for distinguishing between malignant and normal cells (high antigen density versus low antigen density), but the high-affinity CAR T cells demonstrated a response that was independent of antigen density, indicating that, as with TCRs, understanding the affinity threshold window is important for controlling responses mediated by CARs
+<sup><xref rid="ref-85" ref-type="bibr">85</xref></sup>.</p><p>To directly compare TCRs and CARs, our lab used the recognition domains (V&#x003b1; and V&#x003b2;) of a high-affinity TCR, formatted either as a conventional full-length &#x003b1;&#x003b2; TCR or as a CAR. Although both formats exhibited the same high affinity (30 nM), the TCR format was significantly more sensitive to pepMHC than the CAR format
+<sup><xref rid="ref-86" ref-type="bibr">86</xref></sup>, showing that the native TCR/CD3 architecture has evolved more sensitivity than the current CAR designs. In another study, a TCR with a K
+<sub>D</sub> value of about 1 &#x003bc;M was compared with CAR constructs (scFv) with K
+<sub>D</sub> values of 30 or 400 nM against the same pepMHC
+<sup><xref rid="ref-87" ref-type="bibr">87</xref></sup>. The lower-affinity TCR exhibited more potent cytotoxic activity and a high degree of specificity, whereas the high-affinity CAR exhibited reduced cytotoxic activity and loss of specificity.</p><p>There are various possible explanations for reduced sensitivity of CARs compared with conventional TCRs. The TCR/CD3 assembly in the membrane provides a total of 10 immunoreceptor tyrosine-rich activation motifs (ITAMs) that can be phosphorylated during TCR-pepMHC binding, initiating downstream signaling for T-cell activation
+<sup><xref rid="ref-42" ref-type="bibr">42</xref></sup>. Current-generation CARs, on the other hand, contain fewer ITAMs (for example, three) which may yield a reduced level or kinetics (or both) of proximal signaling and corresponding lower sensitivities than TCRs, even when the TCR and CAR have identical binding affinities
+<sup><xref rid="ref-86" ref-type="bibr">86</xref></sup>. The co-receptors CD4 or CD8 also participate in the binding and proximal signaling upon TCR interaction with pepMHC, whereas CAR-target antigen interactions do not appear to involve CD4 or CD8. Finally, normal TCR:pepMHC interactions can involve co-stimulatory receptors like CD28 and 4-1BB, further promoting full T-cell activation. In summary, although CAR design has included domains from important T-cell signaling domains (CD3&#x003b6;, CD28, or 4-1BB or a combination of these), the ability of CARs to multimerize in the membrane and to associate with other proximal signaling molecules is likely not as efficient as has evolved with TCR-associated machinery.</p></sec><sec><title>Neoantigens as targets for TCR-mediated adoptive T-cell therapies</title><p>To date, efforts to treat cancer using TCR gene transfer into adoptive T cells have targeted shared cancer-associated antigens, including cancer/testis antigens
+<sup><xref rid="ref-10" ref-type="bibr">10</xref>,
+<xref rid="ref-12" ref-type="bibr">12</xref>,
+<xref rid="ref-14" ref-type="bibr">14</xref></sup>. Whereas TCR-mediated targeting of NY-ESO has shown significant clinical promise
+<sup><xref rid="ref-12" ref-type="bibr">12</xref>,
+<xref rid="ref-14" ref-type="bibr">14</xref>,
+<xref rid="ref-15" ref-type="bibr">15</xref></sup>, targeting of MAGE-A3 by two different TCRs led to lethal off-target reactions
+<sup><xref rid="ref-16" ref-type="bibr">16</xref>,
+<xref rid="ref-83" ref-type="bibr">83</xref>,
+<xref rid="ref-84" ref-type="bibr">84</xref></sup>, and targeting of MART1 has been associated with significant on-target, off-tumor side effects
+<sup><xref rid="ref-11" ref-type="bibr">11</xref>,
+<xref rid="ref-88" ref-type="bibr">88</xref></sup>. Hence, there has been increasing interest in redirecting the activity of T cells against antigens that are unique to tumors in the form of mutated peptides known as neoantigens
+<sup><xref rid="ref-89" ref-type="bibr">89</xref>&#x02013;
+<xref rid="ref-91" ref-type="bibr">91</xref></sup>. Although these antigens represent potential targets with a high level of antigen specificity, they are also typically unique to individual patients and thus pose significant challenges in the development of such personalized TCR-based therapeutics
+<sup><xref rid="ref-92" ref-type="bibr">92</xref></sup>. Also, not all patients will possess T cells that mount a response to neoantigens, and one of the challenges will be to determine which neoantigen(s) are expressed at adequate levels on tumors to serve as targets for T-cell therapies.</p><p>Neoantigens arise as a consequence of somatic mutations in tumors and hence T cells against them are not subject to the same thymic tolerance mechanisms as self-antigens
+<sup><xref rid="ref-90" ref-type="bibr">90</xref>,
+<xref rid="ref-93" ref-type="bibr">93</xref></sup>. In fact, it is this property that allows cancer patients treated with checkpoint inhibitors against CTLA-4 and PD-1 to elicit immune responses against such neoantigens
+<sup><xref rid="ref-94" ref-type="bibr">94</xref>&#x02013;
+<xref rid="ref-96" ref-type="bibr">96</xref></sup>. The identification of neoantigens from a patient&#x02019;s tumor has been performed by whole exome sequencing, when RNA is available for RNASeq analysis (for example,
+<sup><xref rid="ref-97" ref-type="bibr">97</xref>,
+<xref rid="ref-98" ref-type="bibr">98</xref></sup>), followed by
+<italic>in silico</italic> screening for mutated peptides using HLA-binding and -processing prediction algorithms
+<sup><xref rid="ref-99" ref-type="bibr">99</xref>&#x02013;
+<xref rid="ref-106" ref-type="bibr">106</xref></sup>. Candidate neoantigens are assessed for their ability to elicit T cells by use of synthetic peptides and autologous APCs
+<sup><xref rid="ref-107" ref-type="bibr">107</xref></sup>, single-cell analysis using pep-HLA multimers
+<sup><xref rid="ref-108" ref-type="bibr">108</xref></sup>, or expression of peptide cassettes in autologous APCs
+<sup><xref rid="ref-109" ref-type="bibr">109</xref></sup>.</p><p>Although some approaches will use neoantigens in vaccine formulations, the use of neoantigens as targets in therapeutic numbers of T cells may benefit from the isolation of TCR genes from T cells that respond to the specific neoantigens, as has been done recently in a mouse system
+<sup><xref rid="ref-110" ref-type="bibr">110</xref></sup>. Success here will depend on multiple factors. It has been shown that even with a significant number of predicted neoantigen epitopes, neoantigen-reactive T cells may be limited in some patients with cancer
+<sup><xref rid="ref-91" ref-type="bibr">91</xref>,
+<xref rid="ref-111" ref-type="bibr">111</xref></sup>. In a recent study, T cells isolated from healthy individuals were used to raise specific T cells against tumor neoantigens derived from patients
+<sup><xref rid="ref-91" ref-type="bibr">91</xref></sup>. These results and others suggest that it will be possible to identify TCRs against specific neoantigens and to eventually use them to increase the number of therapeutic T cells by TCR gene transfer.</p><p>Neoantigens identified by tumor sequencing and bioinformatic analysis of MHC-binding (and possibly antigen-processing) algorithms are not all equal in terms of theoretical efficacy. It is useful to consider the classes that each neoantigenic peptide may represent. First, some predicted peptide epitopes will not be processed, or presented, at levels adequate to elicit T-cell immune responses. The magnitude of this class of neoantigen will vary depending on the robustness of the prediction algorithms for each HLA allele
+<sup><xref rid="ref-112" ref-type="bibr">112</xref>,
+<xref rid="ref-113" ref-type="bibr">113</xref></sup>.</p><p>A second class of neoantigens will be those peptides that have been identified because they were predicted to have greater binding, than the wild-type peptide, to an HLA allele (for example, peptides with a mutation in a known anchor residue or other residues that point toward MHC) (
+<xref ref-type="fig" rid="f3">Figure 3A</xref>). Such a mutation may increase binding of the peptide to the MHC molecule and hence will impact the number of the neoantigen/HLA complexes on the tumor cell surface (that is, density) compared with the number of the wild-type antigen/HLA complexes. Mechanistically, this outcome (higher pepMHC surface levels) is similar to upregulated cancer-associated self-peptides if one assumes that the mutation does not impact the conformation of the peptide region presented to the T cell. T cells with TCRs against these neoantigens, like TCRs against self-peptide cancer-associated antigens, will in general be of lower affinity as T cells expressing higher-affinity TCRs will have been deleted during thymic selection
+<sup><xref rid="ref-73" ref-type="bibr">73</xref></sup>.</p><fig fig-type="figure" id="f3" orientation="portrait" position="float"><label>Figure 3. </label><caption><title>Neoantigens as targets for T cells: possible effects of single mutations.</title><p>(
+<bold>A</bold>) A mutation in a major histocompatibility complex (MHC) anchor residue (Ala to Leu; shown in red) is shown. Such a mutation could improve the binding of the peptide to MHC and thereby increase the number of peptide-MHC (pepMHC) complexes on a target cell (antigen-presenting cell). (
+<bold>B</bold>) A mutation (Ile to Ala; shown in blue) in a residue that points away from the MHC but is in a position to interact with a T-cell receptor (TCR) is shown. Since the normal repertoire of peripheral T cells has not been tolerized against the mutated peptide, there are likely to be some TCRs that have binding affinities for this pepMHC complex that drive T-cell activity. Alternatively, a combination of effects shown in (
+<bold>A</bold>) and (
+<bold>B</bold>) might be achieved when the mutated residue impacts affinity for the MHC but also alters the conformation of the exposed peptide which could interact with a TCR. For reference, the MART-1 peptide is shown (PDB: 4QOK) and the specific mutations were either present in a known structure (PDB: 3HG1) or modeled by using PyMol.</p></caption><graphic xlink:href="f1000research-5-9765-g0002"/></fig><p>A third class of neoantigens consists of those peptides that contain a mutation in a residue that points toward the TCR and hence could impact binding to TCR (
+<xref ref-type="fig" rid="f3">Figure 3B</xref>). In principle, these mutated peptides could serve as optimal targets since they will be more immunogenic; that is, peripheral T cells will perceive these peptides as non-self/foreign since the T cells have not been subjected to thymic negative selection.</p><p>A fourth class of neoantigens includes peptides that have a mutation in a residue that impacts the interaction both with the TCR and with the MHC. These neoantigens could potentially have the strongest impact since the number of neoantigen/HLA complexes would be higher than the wild-type peptide/HLA (assuming the mutation increased binding to the HLA) and the neoantigen-peptide surface recognized by the TCR would differ from the surface of the wild-type peptide, such that T cells with TCRs exhibiting higher affinity would be available in the periphery. We have shown that the number of positions in a peptide that could impact both MHC and TCR binding varies among different MHC alleles
+<sup><xref rid="ref-114" ref-type="bibr">114</xref></sup>. It will be important to examine these issues with single amino acid peptide variants tested in many different HLA alleles. Such detailed analysis of mutations at each residue in peptide antigens should provide a better understanding of the potential potency of neoantigens and help guide the selection of neoantigens for adoptive T-cell therapies. Although we have focused here on neoantigens that exhibit single-site mutations, there is the potential for other classes of neoantigens that derive from more extensive mutation, including insertions, deletions, or even glycosylation aberrancies
+<sup><xref rid="ref-115" ref-type="bibr">115</xref></sup>.</p></sec><sec><title>Concluding remarks</title><p>Recent efforts to engineer T cells against cancer have taken two different approaches. Conventional TCR-mediated therapies take advantage of the well-known specificity and sensitivity of normal T-cell activities. Studies have begun to explore the possibilities of engineering T cells by using TCRs against a patient&#x02019;s neoantigens. Many of these represent intracellular antigens that would not be accessible by conventional antibody (or CAR) therapies. The selection of the most efficacious neoantigen(s) as targets should consider the mechanistic impact of the mutation and the selection algorithms used to identify these potential antigens.</p><p>CAR-mediated approaches have tremendous potential against tumor cell surface antigens but their mechanism of action is less fixed than the TCR because of features that vary among different target antigens and CAR constructs. Thus, it is important to find an appropriate balance between antigen on the one side (antigen surface level, epitope location, and antigen mobility) and CAR structure (CAR surface level, affinity, and signaling domains) on the other.</p></sec><sec><title>Abbreviations</title><p>ADC, antibody drug conjugate; APC, antigen-presenting cell; BiTE, bispecific T-cell engager; CAR, chimeric antigen receptor; HLA, human leukocyte antigen (refers to human major histocompatibility complex alleles); ITAM, immunoreceptor tyrosine-rich activation motif; K
+<sub>D</sub>, dissociation constant; Lck, lymphocyte-specific receptor kinase; MHC, major histocompatibility complex; pepMHC, peptide complexed with major histocompatibility complex; scFv, single-chain fragments variable; TCR, T-cell receptor.</p></sec></body><back><ack><title>Acknowledgments</title><p>We thank past and present members of the lab for their contributions over the years.</p></ack><ref-list><ref id="ref-1"><label>1</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rudolph</surname><given-names>MG</given-names></name><name><surname>Stanfield</surname><given-names>RL</given-names></name><name><surname>Wilson</surname><given-names>IA</given-names></name></person-group>:
+<article-title>How TCRs bind MHCs, peptides, and coreceptors.</article-title>
+<source><italic>Annu Rev Immunol.</italic></source>
+<year>2006</year>;<volume>24</volume>:<fpage>419</fpage>&#x02013;<lpage>66</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.immunol.23.021704.115658</pub-id>
+<?supplied-pmid 16551255?><pub-id pub-id-type="pmid">16551255</pub-id></mixed-citation></ref><ref id="ref-2"><label>2</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Starr</surname><given-names>TK</given-names></name><name><surname>Jameson</surname><given-names>SC</given-names></name><name><surname>Hogquist</surname><given-names>KA</given-names></name></person-group>:
+<article-title>Positive and negative selection of T cells.</article-title>
+<source><italic>Annu Rev Immunol.</italic></source>
+<year>2003</year>;<volume>21</volume>:<fpage>139</fpage>&#x02013;<lpage>76</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.immunol.21.120601.141107</pub-id>
+<?supplied-pmid 12414722?><pub-id pub-id-type="pmid">12414722</pub-id></mixed-citation></ref><ref id="ref-3"><label>3</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stone</surname><given-names>JD</given-names></name><name><surname>Chervin</surname><given-names>AS</given-names></name><name><surname>Kranz</surname><given-names>DM</given-names></name></person-group>:
+<article-title>T-cell receptor binding affinities and kinetics: impact on T-cell activity and specificity.</article-title>
+<source><italic>Immunology.</italic></source>
+<year>2009</year>;<volume>126</volume>(<issue>2</issue>):<fpage>165</fpage>&#x02013;<lpage>76</lpage>.
+<pub-id pub-id-type="doi">10.1111/j.1365-2567.2008.03015.x</pub-id>
+<!--<pub-id pub-id-type="pmcid">2632691</pub-id>-->
+<?supplied-pmid 19125887?><pub-id pub-id-type="pmid">19125887</pub-id></mixed-citation></ref><ref id="ref-4"><label>4</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ebert</surname><given-names>PJ</given-names></name><name><surname>Li</surname><given-names>QJ</given-names></name><name><surname>Huppa</surname><given-names>JB</given-names></name><etal/></person-group>:
+<article-title>Functional development of the T cell receptor for antigen.</article-title>
+<source><italic>Prog Mol Biol Transl Sci.</italic></source>
+<year>2010</year>;<volume>92</volume>:<fpage>65</fpage>&#x02013;<lpage>100</lpage>.
+<pub-id pub-id-type="doi">10.1016/S1877-1173(10)92004-8</pub-id>
+<!--<pub-id pub-id-type="pmcid">4887107</pub-id>-->
+<?supplied-pmid 20800817?><pub-id pub-id-type="pmid">20800817</pub-id></mixed-citation></ref><ref id="ref-5"><label>5</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bowerman</surname><given-names>NA</given-names></name><name><surname>Crofts</surname><given-names>TS</given-names></name><name><surname>Chlewicki</surname><given-names>L</given-names></name><etal/></person-group>:
+<article-title>Engineering the binding properties of the T cell receptor:peptide:MHC ternary complex that governs T cell activity.</article-title>
+<source><italic>Mol Immunol.</italic></source>
+<year>2009</year>;<volume>46</volume>(<issue>15</issue>):<fpage>3000</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.molimm.2009.06.012</pub-id>
+<!--<pub-id pub-id-type="pmcid">2773466</pub-id>-->
+<?supplied-pmid 19595460?><pub-id pub-id-type="pmid">19595460</pub-id></mixed-citation></ref><ref id="ref-6"><label>6</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sykulev</surname><given-names>Y</given-names></name><name><surname>Joo</surname><given-names>M</given-names></name><name><surname>Vturina</surname><given-names>I</given-names></name><etal/></person-group>:
+<article-title>Evidence that a single peptide-MHC complex on a target cell can elicit a cytolytic T cell response.</article-title>
+<source><italic>Immunity.</italic></source>
+<year>1996</year>;<volume>4</volume>(<issue>6</issue>):<fpage>565</fpage>&#x02013;<lpage>71</lpage>.
+<pub-id pub-id-type="doi">10.1016/S1074-7613(00)80483-5</pub-id>
+<?supplied-pmid 8673703?><pub-id pub-id-type="pmid">8673703</pub-id></mixed-citation></ref><ref id="ref-7"><label>7</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>J</given-names></name><name><surname>Brameshuber</surname><given-names>M</given-names></name><name><surname>Zeng</surname><given-names>X</given-names></name><etal/></person-group>:
+<article-title>A single peptide-major histocompatibility complex ligand triggers digital cytokine secretion in CD4
+<sup>+</sup> T cells.</article-title>
+<source><italic>Immunity.</italic></source>
+<year>2013</year>;<volume>39</volume>(<issue>5</issue>):<fpage>846</fpage>&#x02013;<lpage>57</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.immuni.2013.08.036</pub-id>
+<!--<pub-id pub-id-type="pmcid">3846396</pub-id>-->
+<?supplied-pmid 24120362?><pub-id pub-id-type="pmid">24120362</pub-id></mixed-citation></ref><ref id="ref-8"><label>8</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Irvine</surname><given-names>DJ</given-names></name><name><surname>Purbhoo</surname><given-names>MA</given-names></name><name><surname>Krogsgaard</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Direct observation of ligand recognition by T cells.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2002</year>;<volume>419</volume>(<issue>6909</issue>):<fpage>845</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature01076</pub-id>
+<?supplied-pmid 12397360?><pub-id pub-id-type="pmid">12397360</pub-id></mixed-citation></ref><ref id="ref-9"><label>9</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Purbhoo</surname><given-names>MA</given-names></name><name><surname>Irvine</surname><given-names>DJ</given-names></name><name><surname>Huppa</surname><given-names>JB</given-names></name><etal/></person-group>:
+<article-title>T cell killing does not require the formation of a stable mature immunological synapse.</article-title>
+<source><italic>Nat Immunol.</italic></source>
+<year>2004</year>;<volume>5</volume>(<issue>5</issue>):<fpage>524</fpage>&#x02013;<lpage>30</lpage>.
+<pub-id pub-id-type="doi">10.1038/ni1058</pub-id>
+<?supplied-pmid 15048111?><pub-id pub-id-type="pmid">15048111</pub-id></mixed-citation></ref><ref id="ref-10"><label>10</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morgan</surname><given-names>RA</given-names></name><name><surname>Dudley</surname><given-names>ME</given-names></name><name><surname>Wunderlich</surname><given-names>JR</given-names></name><etal/></person-group>:
+<article-title>Cancer regression in patients after transfer of genetically engineered lymphocytes.</article-title>
+<source><italic>Science.</italic></source>
+<year>2006</year>;<volume>314</volume>(<issue>5796</issue>):<fpage>126</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1129003</pub-id>
+<!--<pub-id pub-id-type="pmcid">2267026</pub-id>-->
+<?supplied-pmid 16946036?><pub-id pub-id-type="pmid">16946036</pub-id></mixed-citation></ref><ref id="ref-11"><label>11</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnson</surname><given-names>LA</given-names></name><name><surname>Morgan</surname><given-names>RA</given-names></name><name><surname>Dudley</surname><given-names>ME</given-names></name><etal/></person-group>:
+<article-title>Gene therapy with human and mouse T-cell receptors mediates cancer regression and targets normal tissues expressing cognate antigen.</article-title>
+<source><italic>Blood.</italic></source>
+<year>2009</year>;<volume>114</volume>(<issue>3</issue>):<fpage>535</fpage>&#x02013;<lpage>46</lpage>.
+<pub-id pub-id-type="doi">10.1182/blood-2009-03-211714</pub-id>
+<!--<pub-id pub-id-type="pmcid">2929689</pub-id>-->
+<?supplied-pmid 19451549?><pub-id pub-id-type="pmid">19451549</pub-id></mixed-citation></ref><ref id="ref-12"><label>12</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robbins</surname><given-names>PF</given-names></name><name><surname>Morgan</surname><given-names>RA</given-names></name><name><surname>Feldman</surname><given-names>SA</given-names></name><etal/></person-group>:
+<article-title>Tumor regression in patients with metastatic synovial cell sarcoma and melanoma using genetically engineered lymphocytes reactive with NY-ESO-1.</article-title>
+<source><italic>J Clin Oncol.</italic></source>
+<year>2011</year>;<volume>29</volume>(<issue>7</issue>):<fpage>917</fpage>&#x02013;<lpage>24</lpage>.
+<pub-id pub-id-type="doi">10.1200/JCO.2010.32.2537</pub-id>
+<!--<pub-id pub-id-type="pmcid">3068063</pub-id>-->
+<?supplied-pmid 21282551?><pub-id pub-id-type="pmid">21282551</pub-id></mixed-citation></ref><ref id="ref-13"><label>13</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chapuis</surname><given-names>AG</given-names></name><name><surname>Ragnarsson</surname><given-names>GB</given-names></name><name><surname>Nguyen</surname><given-names>HN</given-names></name><etal/></person-group>:
+<article-title>Transferred WT1-reactive CD8
+<sup>+</sup> T cells can mediate antileukemic activity and persist in post-transplant patients.</article-title>
+<source><italic>Sci Transl Med.</italic></source>
+<year>2013</year>;<volume>5</volume>(<issue>174</issue>):<fpage>174ra27</fpage>.
+<pub-id pub-id-type="doi">10.1126/scitranslmed.3004916</pub-id>
+<!--<pub-id pub-id-type="pmcid">3678970</pub-id>-->
+<?supplied-pmid 23447018?><pub-id pub-id-type="pmid">23447018</pub-id></mixed-citation></ref><ref id="ref-14"><label>14</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robbins</surname><given-names>PF</given-names></name><name><surname>Kassim</surname><given-names>SH</given-names></name><name><surname>Tran</surname><given-names>TL</given-names></name><etal/></person-group>:
+<article-title>A pilot trial using lymphocytes genetically engineered with an NY-ESO-1-reactive T-cell receptor: long-term follow-up and correlates with response.</article-title>
+<source><italic>Clin Cancer Res.</italic></source>
+<year>2015</year>;<volume>21</volume>(<issue>5</issue>):<fpage>1019</fpage>&#x02013;<lpage>27</lpage>.
+<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-14-2708</pub-id>
+<!--<pub-id pub-id-type="pmcid">4361810</pub-id>-->
+<?supplied-pmid 25538264?><pub-id pub-id-type="pmid">25538264</pub-id></mixed-citation></ref><ref id="ref-15"><label>15</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singh</surname><given-names>N</given-names></name><name><surname>Kulikovskaya</surname><given-names>I</given-names></name><name><surname>Barrett</surname><given-names>DM</given-names></name><etal/></person-group>:
+<article-title>T cells targeting NY-ESO-1 demonstrate efficacy against disseminated neuroblastoma.</article-title>
+<source><italic>Oncoimmunology.</italic></source>
+<year>2016</year>;<volume>5</volume>(<issue>1</issue>):<fpage>e1040216</fpage>.
+<pub-id pub-id-type="doi">10.1080/2162402X.2015.1040216</pub-id>
+<!--<pub-id pub-id-type="pmcid">4760344</pub-id>-->
+<?supplied-pmid 26942053?><pub-id pub-id-type="pmid">26942053</pub-id></mixed-citation></ref><ref id="ref-16"><label>16</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morgan</surname><given-names>RA</given-names></name><name><surname>Chinnasamy</surname><given-names>N</given-names></name><name><surname>Abate-Daga</surname><given-names>D</given-names></name><etal/></person-group>:
+<article-title>Cancer regression and neurological toxicity following anti-MAGE-A3 TCR gene therapy.</article-title>
+<source><italic>J Immunother.</italic></source>
+<year>2013</year>;<volume>36</volume>(<issue>2</issue>):<fpage>133</fpage>&#x02013;<lpage>51</lpage>.
+<pub-id pub-id-type="doi">10.1097/CJI.0b013e3182829903</pub-id>
+<!--<pub-id pub-id-type="pmcid">3581823</pub-id>-->
+<?supplied-pmid 23377668?><pub-id pub-id-type="pmid">23377668</pub-id></mixed-citation></ref><ref id="ref-17"><label>17</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bendle</surname><given-names>GM</given-names></name><name><surname>Linnemann</surname><given-names>C</given-names></name><name><surname>Hooijkaas</surname><given-names>AI</given-names></name><etal/></person-group>:
+<article-title>Lethal graft-versus-host disease in mouse models of T cell receptor gene therapy.</article-title>
+<source><italic>Nat Med.</italic></source>
+<year>2010</year>;<volume>16</volume>(<issue>5</issue>):<fpage>565</fpage>&#x02013;<lpage>70</lpage>, 1p following 570.
+<pub-id pub-id-type="doi">10.1038/nm.2128</pub-id>
+<?supplied-pmid 20400962?><pub-id pub-id-type="pmid">20400962</pub-id></mixed-citation></ref><ref id="ref-18"><label>18</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boulter</surname><given-names>JM</given-names></name><name><surname>Glick</surname><given-names>M</given-names></name><name><surname>Todorov</surname><given-names>PT</given-names></name><etal/></person-group>:
+<article-title>Stable, soluble T-cell receptor molecules for crystallization and therapeutics.</article-title>
+<source><italic>Protein Eng.</italic></source>
+<year>2003</year>;<volume>16</volume>(<issue>9</issue>):<fpage>707</fpage>&#x02013;<lpage>11</lpage>.
+<pub-id pub-id-type="doi">10.1093/protein/gzg087</pub-id>
+<?supplied-pmid 14560057?><pub-id pub-id-type="pmid">14560057</pub-id></mixed-citation></ref><ref id="ref-19"><label>19</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuball</surname><given-names>J</given-names></name><name><surname>Dossett</surname><given-names>ML</given-names></name><name><surname>Wolfl</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Facilitating matched pairing and expression of TCR chains introduced into human T cells.</article-title>
+<source><italic>Blood.</italic></source>
+<year>2007</year>;<volume>109</volume>(<issue>6</issue>):<fpage>2331</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1182/blood-2006-05-023069</pub-id>
+<!--<pub-id pub-id-type="pmcid">1852191</pub-id>-->
+<?supplied-pmid 17082316?><pub-id pub-id-type="pmid">17082316</pub-id></mixed-citation></ref><ref id="ref-20"><label>20</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Voss</surname><given-names>RH</given-names></name><name><surname>Willemsen</surname><given-names>RA</given-names></name><name><surname>Kuball</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>Molecular design of the Calphabeta interface favors specific pairing of introduced TCRalphabeta in human T cells.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2008</year>;<volume>180</volume>(<issue>1</issue>):<fpage>391</fpage>&#x02013;<lpage>401</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.180.1.391</pub-id>
+<?supplied-pmid 18097040?><pub-id pub-id-type="pmid">18097040</pub-id></mixed-citation></ref><ref id="ref-21"><label>21</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Provasi</surname><given-names>E</given-names></name><name><surname>Genovese</surname><given-names>P</given-names></name><name><surname>Lombardo</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Editing T cell specificity towards leukemia by zinc finger nucleases and lentiviral gene transfer.</article-title>
+<source><italic>Nat Med.</italic></source>
+<year>2012</year>;<volume>18</volume>(<issue>5</issue>):<fpage>807</fpage>&#x02013;<lpage>15</lpage>.
+<pub-id pub-id-type="doi">10.1038/nm.2700</pub-id>
+<!--<pub-id pub-id-type="pmcid">5019824</pub-id>-->
+<?supplied-pmid 22466705?><pub-id pub-id-type="pmid">22466705</pub-id></mixed-citation></ref><ref id="ref-22"><label>22</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bunse</surname><given-names>M</given-names></name><name><surname>Bendle</surname><given-names>GM</given-names></name><name><surname>Linnemann</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>RNAi-mediated TCR knockdown prevents autoimmunity in mice caused by mixed TCR dimers following TCR gene transfer.</article-title>
+<source><italic>Mol Ther.</italic></source>
+<year>2014</year>;<volume>22</volume>(<issue>11</issue>):<fpage>1983</fpage>&#x02013;<lpage>91</lpage>.
+<pub-id pub-id-type="doi">10.1038/mt.2014.142</pub-id>
+<!--<pub-id pub-id-type="pmcid">4429734</pub-id>-->
+<?supplied-pmid 25048215?><pub-id pub-id-type="pmid">25048215</pub-id></mixed-citation></ref><ref id="ref-23"><label>23</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eshhar</surname><given-names>Z</given-names></name><name><surname>Waks</surname><given-names>T</given-names></name><name><surname>Gross</surname><given-names>G</given-names></name><etal/></person-group>:
+<article-title>Specific activation and targeting of cytotoxic lymphocytes through chimeric single chains consisting of antibody-binding domains and the gamma or zeta subunits of the immunoglobulin and T-cell receptors.</article-title>
+<source><italic>Proc Natl Acad Sci USA.</italic></source>
+<year>1993</year>;<volume>90</volume>(<issue>2</issue>):<fpage>720</fpage>&#x02013;<lpage>4</lpage>.
+<pub-id pub-id-type="doi">10.1073/pnas.90.2.720</pub-id>
+<!--<pub-id pub-id-type="pmcid">45737</pub-id>-->
+<?supplied-pmid 8421711?><pub-id pub-id-type="pmid">8421711</pub-id></mixed-citation></ref><ref id="ref-24"><label>24</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maude</surname><given-names>SL</given-names></name><name><surname>Frey</surname><given-names>N</given-names></name><name><surname>Shaw</surname><given-names>PA</given-names></name><etal/></person-group>:
+<article-title>Chimeric antigen receptor T cells for sustained remissions in leukemia.</article-title>
+<source><italic>N Engl J Med.</italic></source>
+<year>2014</year>;<volume>371</volume>(<issue>16</issue>):<fpage>1507</fpage>&#x02013;<lpage>17</lpage>.
+<pub-id pub-id-type="doi">10.1056/NEJMoa1407222</pub-id>
+<!--<pub-id pub-id-type="pmcid">4267531</pub-id>-->
+<?supplied-pmid 25317870?><pub-id pub-id-type="pmid">25317870</pub-id></mixed-citation></ref><ref id="ref-25"><label>25</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davila</surname><given-names>ML</given-names></name><name><surname>Riviere</surname><given-names>I</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name><etal/></person-group>:
+<article-title>Efficacy and toxicity management of 19-28z CAR T cell therapy in B cell acute lymphoblastic leukemia.</article-title>
+<source><italic>Sci Transl Med.</italic></source>
+<year>2014</year>;<volume>6</volume>(<issue>224</issue>):<fpage>224ra25</fpage>.
+<pub-id pub-id-type="doi">10.1126/scitranslmed.3008226</pub-id>
+<!--<pub-id pub-id-type="pmcid">4684949</pub-id>-->
+<?supplied-pmid 24553386?><pub-id pub-id-type="pmid">24553386</pub-id></mixed-citation></ref><ref id="ref-26"><label>26</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Porter</surname><given-names>DL</given-names></name><name><surname>Levine</surname><given-names>BL</given-names></name><name><surname>Kalos</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Chimeric antigen receptor-modified T cells in chronic lymphoid leukemia.</article-title>
+<source><italic>N Engl J Med.</italic></source>
+<year>2011</year>;<volume>365</volume>(<issue>8</issue>):<fpage>725</fpage>&#x02013;<lpage>33</lpage>.
+<pub-id pub-id-type="doi">10.1056/NEJMoa1103849</pub-id>
+<!--<pub-id pub-id-type="pmcid">3387277</pub-id>-->
+<?supplied-pmid 21830940?><pub-id pub-id-type="pmid">21830940</pub-id></mixed-citation></ref><ref id="ref-27"><label>27</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grupp</surname><given-names>SA</given-names></name><name><surname>Kalos</surname><given-names>M</given-names></name><name><surname>Barrett</surname><given-names>D</given-names></name><etal/></person-group>:
+<article-title>Chimeric antigen receptor-modified T cells for acute lymphoid leukemia.</article-title>
+<source><italic>N Engl J Med.</italic></source>
+<year>2013</year>;<volume>368</volume>(<issue>16</issue>):<fpage>1509</fpage>&#x02013;<lpage>18</lpage>.
+<pub-id pub-id-type="doi">10.1056/NEJMoa1215134</pub-id>
+<!--<pub-id pub-id-type="pmcid">4058440</pub-id>-->
+<?supplied-pmid 23527958?><pub-id pub-id-type="pmid">23527958</pub-id></mixed-citation></ref><ref id="ref-28"><label>28</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>DW</given-names></name><name><surname>Kochenderfer</surname><given-names>JN</given-names></name><name><surname>Stetler-Stevenson</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>T cells expressing CD19 chimeric antigen receptors for acute lymphoblastic leukaemia in children and young adults: a phase 1 dose-escalation trial.</article-title>
+<source><italic>Lancet.</italic></source>
+<year>2015</year>;<volume>385</volume>(<issue>9967</issue>):<fpage>517</fpage>&#x02013;<lpage>28</lpage>.
+<pub-id pub-id-type="doi">10.1016/S0140-6736(14)61403-3</pub-id>
+<?supplied-pmid 25319501?><pub-id pub-id-type="pmid">25319501</pub-id></mixed-citation></ref><ref id="ref-29"><label>29</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brudno</surname><given-names>JN</given-names></name><name><surname>Somerville</surname><given-names>RP</given-names></name><name><surname>Shi</surname><given-names>V</given-names></name><etal/></person-group>:
+<article-title>Allogeneic T Cells That Express an Anti-CD19 Chimeric Antigen Receptor Induce Remissions of B-Cell Malignancies That Progress After Allogeneic Hematopoietic Stem-Cell Transplantation Without Causing Graft-Versus-Host Disease.</article-title>
+<source><italic>J Clin Oncol.</italic></source>
+<year>2016</year>;<volume>34</volume>(<issue>10</issue>):<fpage>1112</fpage>&#x02013;<lpage>21</lpage>.
+<pub-id pub-id-type="doi">10.1200/JCO.2015.64.5929</pub-id>
+<!--<pub-id pub-id-type="pmcid">4872017</pub-id>-->
+<?supplied-pmid 26811520?><pub-id pub-id-type="pmid">26811520</pub-id></mixed-citation></ref><ref id="ref-30"><label>30</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turtle</surname><given-names>CJ</given-names></name><name><surname>Hanafi</surname><given-names>LA</given-names></name><name><surname>Berger</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>CD19 CAR-T cells of defined CD4
+<sup>+</sup>:CD8
+<sup>+</sup> composition in adult B cell ALL patients.</article-title>
+<source><italic>J Clin Invest.</italic></source>
+<year>2016</year>;<volume>126</volume>(<issue>6</issue>):<fpage>2123</fpage>&#x02013;<lpage>38</lpage>.
+<pub-id pub-id-type="doi">10.1172/JCI85309</pub-id>
+<!--<pub-id pub-id-type="pmcid">4887159</pub-id>-->
+<?supplied-pmid 27111235?><pub-id pub-id-type="pmid">27111235</pub-id></mixed-citation></ref><ref id="ref-31"><label>31</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ahmed</surname><given-names>N</given-names></name><name><surname>Brawley</surname><given-names>VS</given-names></name><name><surname>Hegde</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Human Epidermal Growth Factor Receptor 2 (HER2) -Specific Chimeric Antigen Receptor-Modified T Cells for the Immunotherapy of HER2-Positive Sarcoma.</article-title>
+<source><italic>J Clin Oncol.</italic></source>
+<year>2015</year>;<volume>33</volume>(<issue>15</issue>):<fpage>1688</fpage>&#x02013;<lpage>96</lpage>.
+<pub-id pub-id-type="doi">10.1200/JCO.2014.58.0225</pub-id>
+<!--<pub-id pub-id-type="pmcid">4429176</pub-id>-->
+<?supplied-pmid 25800760?><pub-id pub-id-type="pmid">25800760</pub-id></mixed-citation></ref><ref id="ref-32"><label>32</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beatty</surname><given-names>GL</given-names></name><name><surname>Haas</surname><given-names>AR</given-names></name><name><surname>Maus</surname><given-names>MV</given-names></name><etal/></person-group>:
+<article-title>Mesothelin-specific chimeric antigen receptor mRNA-engineered T cells induce anti-tumor activity in solid malignancies.</article-title>
+<source><italic>Cancer Immunol Res.</italic></source>
+<year>2014</year>;<volume>2</volume>(<issue>2</issue>):<fpage>112</fpage>&#x02013;<lpage>20</lpage>.
+<pub-id pub-id-type="doi">10.1158/2326-6066.CIR-13-0170</pub-id>
+<!--<pub-id pub-id-type="pmcid">3932715</pub-id>-->
+<?supplied-pmid 24579088?><pub-id pub-id-type="pmid">24579088</pub-id></mixed-citation></ref><ref id="ref-33"><label>33</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lanitis</surname><given-names>E</given-names></name><name><surname>Poussin</surname><given-names>M</given-names></name><name><surname>Hagemann</surname><given-names>IS</given-names></name><etal/></person-group>:
+<article-title>Redirected antitumor activity of primary human lymphocytes transduced with a fully human anti-mesothelin chimeric receptor.</article-title>
+<source><italic>Mol Ther.</italic></source>
+<year>2012</year>;<volume>20</volume>(<issue>3</issue>):<fpage>633</fpage>&#x02013;<lpage>43</lpage>.
+<pub-id pub-id-type="doi">10.1038/mt.2011.256</pub-id>
+<!--<pub-id pub-id-type="pmcid">3293635</pub-id>-->
+<?supplied-pmid 22127019?><pub-id pub-id-type="pmid">22127019</pub-id></mixed-citation></ref><ref id="ref-34"><label>34</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adusumilli</surname><given-names>PS</given-names></name><name><surname>Cherkassky</surname><given-names>L</given-names></name><name><surname>Villena-Vargas</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>Regional delivery of mesothelin-targeted CAR T cell therapy generates potent and long-lasting CD4-dependent tumor immunity.</article-title>
+<source><italic>Sci Transl Med.</italic></source>
+<year>2014</year>;<volume>6</volume>(<issue>261</issue>):<fpage>261ra151</fpage>.
+<pub-id pub-id-type="doi">10.1126/scitranslmed.3010162</pub-id>
+<!--<pub-id pub-id-type="pmcid">4373413</pub-id>-->
+<?supplied-pmid 25378643?><pub-id pub-id-type="pmid">25378643</pub-id></mixed-citation></ref><ref id="ref-35"><label>35</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bullain</surname><given-names>SS</given-names></name><name><surname>Sahin</surname><given-names>A</given-names></name><name><surname>Szentirmai</surname><given-names>O</given-names></name><etal/></person-group>:
+<article-title>Genetically engineered T cells to target EGFRvIII expressing glioblastoma.</article-title>
+<source><italic>J Neurooncol.</italic></source>
+<year>2009</year>;<volume>94</volume>(<issue>3</issue>):<fpage>373</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="doi">10.1007/s11060-009-9889-1</pub-id>
+<!--<pub-id pub-id-type="pmcid">2730985</pub-id>-->
+<?supplied-pmid 19387557?><pub-id pub-id-type="pmid">19387557</pub-id></mixed-citation></ref><ref id="ref-36"><label>36</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stone</surname><given-names>JD</given-names></name><name><surname>Aggen</surname><given-names>DH</given-names></name><name><surname>Schietinger</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>A sensitivity scale for targeting T cells with chimeric antigen receptors (CARs) and bispecific T-cell Engagers (BiTEs).</article-title>
+<source><italic>Oncoimmunology.</italic></source>
+<year>2012</year>;<volume>1</volume>(<issue>6</issue>):<fpage>863</fpage>&#x02013;<lpage>73</lpage>.
+<pub-id pub-id-type="doi">10.4161/onci.20592</pub-id>
+<!--<pub-id pub-id-type="pmcid">3489742</pub-id>-->
+<?supplied-pmid 23162754?><pub-id pub-id-type="pmid">23162754</pub-id></mixed-citation></ref><ref id="ref-37"><label>37</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>June</surname><given-names>CH</given-names></name><name><surname>Riddell</surname><given-names>SR</given-names></name><name><surname>Schumacher</surname><given-names>TN</given-names></name></person-group>:
+<article-title>Adoptive cellular therapy: a race to the finish line.</article-title>
+<source><italic>Sci Transl Med.</italic></source>
+<year>2015</year>;<volume>7</volume>(<issue>280</issue>):<fpage>280ps7</fpage>.
+<pub-id pub-id-type="doi">10.1126/scitranslmed.aaa3643</pub-id>
+<?supplied-pmid 25810311?><pub-id pub-id-type="pmid">25810311</pub-id></mixed-citation></ref><ref id="ref-38"><label>38</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Curran</surname><given-names>KJ</given-names></name><name><surname>Brentjens</surname><given-names>RJ</given-names></name></person-group>:
+<article-title>Chimeric antigen receptor T cells for cancer immunotherapy.</article-title>
+<source><italic>J Clin Oncol.</italic></source>
+<year>2015</year>;<volume>33</volume>(<issue>15</issue>):<fpage>1703</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="doi">10.1200/JCO.2014.60.3449</pub-id>
+<?supplied-pmid 25897155?><pub-id pub-id-type="pmid">25897155</pub-id></mixed-citation></ref><ref id="ref-39"><label>39</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jensen</surname><given-names>MC</given-names></name><name><surname>Riddell</surname><given-names>SR</given-names></name></person-group>:
+<article-title>Designing chimeric antigen receptors to effectively and safely target tumors.</article-title>
+<source><italic>Curr Opin Immunol.</italic></source>
+<year>2015</year>;<volume>33</volume>(<issue>9</issue>):<fpage>9</fpage>&#x02013;<lpage>15</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.coi.2015.01.002</pub-id>
+<!--<pub-id pub-id-type="pmcid">4397136</pub-id>-->
+<?supplied-pmid 25621840?><pub-id pub-id-type="pmid">25621840</pub-id></mixed-citation></ref><ref id="ref-40"><label>40</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van der Stegen</surname><given-names>SJ</given-names></name><name><surname>Hamieh</surname><given-names>M</given-names></name><name><surname>Sadelain</surname><given-names>M</given-names></name></person-group>:
+<article-title>The pharmacology of second-generation chimeric antigen receptors.</article-title>
+<source><italic>Nat Rev Drug Discov.</italic></source>
+<year>2015</year>;<volume>14</volume>(<issue>7</issue>):<fpage>499</fpage>&#x02013;<lpage>509</lpage>.
+<pub-id pub-id-type="doi">10.1038/nrd4597</pub-id>
+<?supplied-pmid 26129802?><pub-id pub-id-type="pmid">26129802</pub-id></mixed-citation></ref><ref id="ref-41"><label>41</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Srivastava</surname><given-names>S</given-names></name><name><surname>Riddell</surname><given-names>SR</given-names></name></person-group>:
+<article-title>Engineering CAR-T cells: Design concepts.</article-title>
+<source><italic>Trends Immunol.</italic></source>
+<year>2015</year>;<volume>36</volume>(<issue>8</issue>):<fpage>494</fpage>&#x02013;<lpage>502</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.it.2015.06.004</pub-id>
+<!--<pub-id pub-id-type="pmcid">4746114</pub-id>-->
+<?supplied-pmid 26169254?><pub-id pub-id-type="pmid">26169254</pub-id></mixed-citation></ref><ref id="ref-42"><label>42</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harris</surname><given-names>DT</given-names></name><name><surname>Kranz</surname><given-names>DM</given-names></name></person-group>:
+<article-title>Adoptive T Cell Therapies: A Comparison of T Cell Receptors and Chimeric Antigen Receptors.</article-title>
+<source><italic>Trends Pharmacol Sci.</italic></source>
+<year>2016</year>;<volume>37</volume>(<issue>3</issue>):<fpage>220</fpage>&#x02013;<lpage>30</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.tips.2015.11.004</pub-id>
+<!--<pub-id pub-id-type="pmcid">4764454</pub-id>-->
+<?supplied-pmid 26705086?><pub-id pub-id-type="pmid">26705086</pub-id></mixed-citation></ref><ref id="ref-43"><label>43</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Minami</surname><given-names>Y</given-names></name><name><surname>Weissman</surname><given-names>AM</given-names></name><name><surname>Samelson</surname><given-names>LE</given-names></name><etal/></person-group>:
+<article-title>Building a multichain receptor: synthesis, degradation, and assembly of the T-cell antigen receptor.</article-title>
+<source><italic>Proc Natl Acad Sci USA.</italic></source>
+<year>1987</year>;<volume>84</volume>(<issue>9</issue>):<fpage>2688</fpage>&#x02013;<lpage>92</lpage>.
+<pub-id pub-id-type="doi">10.1073/pnas.84.9.2688</pub-id>
+<!--<pub-id pub-id-type="pmcid">304723</pub-id>-->
+<?supplied-pmid 3495001?><pub-id pub-id-type="pmid">3495001</pub-id></mixed-citation></ref><ref id="ref-44"><label>44</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hombach</surname><given-names>A</given-names></name><name><surname>Hombach</surname><given-names>AA</given-names></name><name><surname>Abken</surname><given-names>H</given-names></name></person-group>:
+<article-title>Adoptive immunotherapy with genetically engineered T cells: modification of the IgG1 Fc 'spacer' domain in the extracellular moiety of chimeric antigen receptors avoids 'off-target' activation and unintended initiation of an innate immune response.</article-title>
+<source><italic>Gene Ther.</italic></source>
+<year>2010</year>;<volume>17</volume>(<issue>10</issue>):<fpage>1206</fpage>&#x02013;<lpage>13</lpage>.
+<pub-id pub-id-type="doi">10.1038/gt.2010.91</pub-id>|<?supplied-pmid 20555360?><pub-id pub-id-type="pmid">20555360</pub-id></mixed-citation></ref><ref id="ref-45"><label>45</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hudecek</surname><given-names>M</given-names></name><name><surname>Sommermeyer</surname><given-names>D</given-names></name><name><surname>Kosasih</surname><given-names>PL</given-names></name><etal/></person-group>:
+<article-title>The nonsignaling extracellular spacer domain of chimeric antigen receptors is decisive for
+<italic>in vivo</italic> antitumor activity.</article-title>
+<source><italic>Cancer Immunol Res.</italic></source>
+<year>2015</year>;<volume>3</volume>(<issue>2</issue>):<fpage>125</fpage>&#x02013;<lpage>35</lpage>.
+<pub-id pub-id-type="doi">10.1158/2326-6066.CIR-14-0127</pub-id>
+<!--<pub-id pub-id-type="pmcid">4692801</pub-id>-->
+<?supplied-pmid 25212991?><pub-id pub-id-type="pmid">25212991</pub-id></mixed-citation></ref><ref id="ref-46"><label>46</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Milone</surname><given-names>MC</given-names></name><name><surname>Fish</surname><given-names>JD</given-names></name><name><surname>Carpenito</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>Chimeric receptors containing CD137 signal transduction domains mediate enhanced survival of T cells and increased antileukemic efficacy
+<italic>in vivo</italic>.</article-title>
+<source><italic>Mol Ther.</italic></source>
+<year>2009</year>;<volume>17</volume>(<issue>8</issue>):<fpage>1453</fpage>&#x02013;<lpage>64</lpage>.
+<pub-id pub-id-type="doi">10.1038/mt.2009.83</pub-id>
+<!--<pub-id pub-id-type="pmcid">2805264</pub-id>-->
+<?supplied-pmid 19384291?><pub-id pub-id-type="pmid">19384291</pub-id></mixed-citation></ref><ref id="ref-47"><label>47</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Almasbak</surname><given-names>H</given-names></name><name><surname>Walseng</surname><given-names>E</given-names></name><name><surname>Kristian</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Inclusion of an IgG1-Fc spacer abrogates efficacy of CD19 CAR T cells in a xenograft mouse model.</article-title>
+<source><italic>Gene Ther.</italic></source>
+<year>2015</year>;<volume>22</volume>(<issue>5</issue>):<fpage>391</fpage>&#x02013;<lpage>403</lpage>.
+<pub-id pub-id-type="doi">10.1038/gt.2015.4</pub-id>
+<?supplied-pmid 25652098?><pub-id pub-id-type="pmid">25652098</pub-id></mixed-citation></ref><ref id="ref-48"><label>48</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hudecek</surname><given-names>M</given-names></name><name><surname>Lupo-Stanghellini</surname><given-names>M</given-names></name><name><surname>Kosasih</surname><given-names>PL</given-names></name><etal/></person-group>:
+<article-title>Receptor affinity and extracellular domain modifications affect tumor recognition by ROR1-specific chimeric antigen receptor T cells.</article-title>
+<source><italic>Clin Cancer Res.</italic></source>
+<year>2013</year>;<volume>19</volume>(<issue>12</issue>):<fpage>3153</fpage>&#x02013;<lpage>64</lpage>.
+<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-13-0330</pub-id>
+<!--<pub-id pub-id-type="pmcid">3804130</pub-id>-->
+<?supplied-pmid 23620405?><pub-id pub-id-type="pmid">23620405</pub-id></mixed-citation></ref><ref id="ref-49"><label>49</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>James</surname><given-names>SE</given-names></name><name><surname>Greenberg</surname><given-names>PD</given-names></name><name><surname>Jensen</surname><given-names>MC</given-names></name><etal/></person-group>:
+<article-title>Antigen sensitivity of CD22-specific chimeric TCR is modulated by target epitope distance from the cell membrane.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2008</year>;<volume>180</volume>(<issue>10</issue>):<fpage>7028</fpage>&#x02013;<lpage>38</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.180.10.7028</pub-id>
+<!--<pub-id pub-id-type="pmcid">2585549</pub-id>-->
+<?supplied-pmid 18453625?><pub-id pub-id-type="pmid">18453625</pub-id></mixed-citation></ref><ref id="ref-50"><label>50</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guest</surname><given-names>RD</given-names></name><name><surname>Hawkins</surname><given-names>RE</given-names></name><name><surname>Kirillova</surname><given-names>N</given-names></name><etal/></person-group>:
+<article-title>The role of extracellular spacer regions in the optimal design of chimeric immune receptors: evaluation of four different scFvs and antigens.</article-title>
+<source><italic>J Immunother.</italic></source>
+<year>2005</year>;<volume>28</volume>(<issue>3</issue>):<fpage>203</fpage>&#x02013;<lpage>11</lpage>.
+<pub-id pub-id-type="doi">10.1097/01.cji.0000161397.96582.59</pub-id>
+<?supplied-pmid 15838376?><pub-id pub-id-type="pmid">15838376</pub-id></mixed-citation></ref><ref id="ref-51"><label>51</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hombach</surname><given-names>AA</given-names></name><name><surname>Schildgen</surname><given-names>V</given-names></name><name><surname>Heuser</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>T cell activation by antibody-like immunoreceptors: the position of the binding epitope within the target molecule determines the efficiency of activation of redirected T cells.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2007</year>;<volume>178</volume>(<issue>7</issue>):<fpage>4650</fpage>&#x02013;<lpage>7</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.178.7.4650</pub-id>
+<?supplied-pmid 17372024?><pub-id pub-id-type="pmid">17372024</pub-id></mixed-citation></ref><ref id="ref-52"><label>52</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hombach</surname><given-names>A</given-names></name><name><surname>Heuser</surname><given-names>C</given-names></name><name><surname>Gerken</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>T cell activation by recombinant FcepsilonRI gamma-chain immune receptors: an extracellular spacer domain impairs antigen-dependent T cell activation but not antigen recognition.</article-title>
+<source><italic>Gene Ther.</italic></source>
+<year>2000</year>;<volume>7</volume>(<issue>12</issue>):<fpage>1067</fpage>&#x02013;<lpage>75</lpage>.
+<pub-id pub-id-type="doi">10.1038/sj.gt.3301195</pub-id>
+<?supplied-pmid 10871757?><pub-id pub-id-type="pmid">10871757</pub-id></mixed-citation></ref><ref id="ref-53"><label>53</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garboczi</surname><given-names>DN</given-names></name><name><surname>Ghosh</surname><given-names>P</given-names></name><name><surname>Utz</surname><given-names>U</given-names></name><etal/></person-group>:
+<article-title>Structure of the complex between human T-cell receptor, viral peptide and HLA-A2.</article-title>
+<source><italic>Nature.</italic></source>
+<year>1996</year>;<volume>384</volume>(<issue>6605</issue>):<fpage>134</fpage>&#x02013;<lpage>41</lpage>.
+<pub-id pub-id-type="doi">10.1038/384134a0</pub-id>
+<?supplied-pmid 8906788?><pub-id pub-id-type="pmid">8906788</pub-id></mixed-citation></ref><ref id="ref-54"><label>54</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garcia</surname><given-names>KC</given-names></name><name><surname>Degano</surname><given-names>M</given-names></name><name><surname>Stanfield</surname><given-names>RL</given-names></name><etal/></person-group>:
+<article-title>An alphabeta T cell receptor structure at 2.5 A and its orientation in the TCR-MHC complex.</article-title>
+<source><italic>Science.</italic></source>
+<year>1996</year>;<volume>274</volume>(<issue>5285</issue>):<fpage>209</fpage>&#x02013;<lpage>19</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.274.5285.209</pub-id>
+<?supplied-pmid 8824178?><pub-id pub-id-type="pmid">8824178</pub-id></mixed-citation></ref><ref id="ref-55"><label>55</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wucherpfennig</surname><given-names>KW</given-names></name></person-group>:
+<article-title>The first structures of T cell receptors bound to peptide-MHC.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2010</year>;<volume>185</volume>(<issue>11</issue>):<fpage>6391</fpage>&#x02013;<lpage>3</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.1090110</pub-id>
+<?supplied-pmid 21084667?><pub-id pub-id-type="pmid">21084667</pub-id></mixed-citation></ref><ref id="ref-56"><label>56</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Birnbaum</surname><given-names>ME</given-names></name><name><surname>Berry</surname><given-names>R</given-names></name><name><surname>Hsiao</surname><given-names>YS</given-names></name><etal/></person-group>:
+<article-title>Molecular architecture of the &#x003b1;&#x003b2; T cell receptor-CD3 complex.</article-title>
+<source><italic>Proc Natl Acad Sci U S A.</italic></source>
+<year>2014</year>;<volume>111</volume>(<issue>49</issue>):<fpage>17576</fpage>&#x02013;<lpage>81</lpage>.
+<pub-id pub-id-type="doi">10.1073/pnas.1420936111</pub-id>
+<!--<pub-id pub-id-type="pmcid">4267357</pub-id>-->
+<?supplied-pmid 25422432?><pub-id pub-id-type="pmid">25422432</pub-id></mixed-citation></ref><ref id="ref-57"><label>57</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Choudhuri</surname><given-names>K</given-names></name><name><surname>Wiseman</surname><given-names>D</given-names></name><name><surname>Brown</surname><given-names>MH</given-names></name><etal/></person-group>:
+<article-title>T-cell receptor triggering is critically dependent on the dimensions of its peptide-MHC ligand.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2005</year>;<volume>436</volume>(<issue>7050</issue>):<fpage>578</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature03843</pub-id>
+<?supplied-pmid 16049493?><pub-id pub-id-type="pmid">16049493</pub-id></mixed-citation></ref><ref id="ref-58"><label>58</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>MM</given-names></name><name><surname>Krogsgaard</surname><given-names>M</given-names></name><name><surname>Huppa</surname><given-names>JB</given-names></name><etal/></person-group>:
+<article-title>Dynamics of cell surface molecules during T cell recognition.</article-title>
+<source><italic>Annu Rev Biochem.</italic></source>
+<year>2003</year>;<volume>72</volume>:<fpage>717</fpage>&#x02013;<lpage>42</lpage>.
+<pub-id pub-id-type="doi">10.1146/annurev.biochem.72.121801.161625</pub-id>
+<?supplied-pmid 14527326?><pub-id pub-id-type="pmid">14527326</pub-id></mixed-citation></ref><ref id="ref-59"><label>59</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chakraborty</surname><given-names>AK</given-names></name><name><surname>Weiss</surname><given-names>A</given-names></name></person-group>:
+<article-title>Insights into the initiation of TCR signaling.</article-title>
+<source><italic>Nat Immunol.</italic></source>
+<year>2014</year>;<volume>15</volume>(<issue>9</issue>):<fpage>798</fpage>&#x02013;<lpage>807</lpage>.
+<pub-id pub-id-type="doi">10.1038/ni.2940</pub-id>
+<?supplied-pmid 25137454?><pub-id pub-id-type="pmid">25137454</pub-id></mixed-citation></ref><ref id="ref-60"><label>60</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chang</surname><given-names>VT</given-names></name><name><surname>Fernandes</surname><given-names>RA</given-names></name><name><surname>Ganzinger</surname><given-names>KA</given-names></name><etal/></person-group>:
+<article-title>Initiation of T cell signaling by CD45 segregation at 'close contacts'.</article-title>
+<source><italic>Nat Immunol.</italic></source>
+<year>2016</year>;<volume>17</volume>(<issue>5</issue>):<fpage>574</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="doi">10.1038/ni.3392</pub-id>
+<!--<pub-id pub-id-type="pmcid">4839504</pub-id>-->
+<?supplied-pmid 26998761?><pub-id pub-id-type="pmid">26998761</pub-id></mixed-citation></ref><ref id="ref-61"><label>61</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhao</surname><given-names>Y</given-names></name><name><surname>Wang</surname><given-names>QJ</given-names></name><name><surname>Yang</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>A herceptin-based chimeric antigen receptor with modified signaling domains leads to enhanced survival of transduced T lymphocytes and antitumor activity.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2009</year>;<volume>183</volume>(<issue>9</issue>):<fpage>5563</fpage>&#x02013;<lpage>74</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.0900447</pub-id>
+<?supplied-pmid 19843940?><pub-id pub-id-type="pmid">19843940</pub-id></mixed-citation></ref><ref id="ref-62"><label>62</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morgan</surname><given-names>RA</given-names></name><name><surname>Yang</surname><given-names>JC</given-names></name><name><surname>Kitano</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Case report of a serious adverse event following the administration of T cells transduced with a chimeric antigen receptor recognizing
+<italic>ERBB2</italic>.</article-title>
+<source><italic>Mol Ther.</italic></source>
+<year>2010</year>;<volume>18</volume>(<issue>4</issue>):<fpage>843</fpage>&#x02013;<lpage>51</lpage>.
+<pub-id pub-id-type="doi">10.1038/mt.2010.24</pub-id>
+<!--<pub-id pub-id-type="pmcid">2862534</pub-id>-->
+<?supplied-pmid 20179677?><pub-id pub-id-type="pmid">20179677</pub-id></mixed-citation></ref><ref id="ref-63"><label>63</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhou</surname><given-names>H</given-names></name><name><surname>Zha</surname><given-names>Z</given-names></name><name><surname>Liu</surname><given-names>Y</given-names></name><etal/></person-group>:
+<article-title>Structural insights into the down-regulation of overexpressed p185
+<sup><italic>her2/neu</italic></sup> protein of transformed cells by the antibody chA21.</article-title>
+<source><italic>J Biol Chem.</italic></source>
+<year>2011</year>;<volume>286</volume>(<issue>36</issue>):<fpage>31676</fpage>&#x02013;<lpage>83</lpage>.
+<pub-id pub-id-type="doi">10.1074/jbc.M111.235184</pub-id>
+<!--<pub-id pub-id-type="pmcid">3173138</pub-id>-->
+<?supplied-pmid 21680730?><pub-id pub-id-type="pmid">21680730</pub-id></mixed-citation></ref><ref id="ref-64"><label>64</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cho</surname><given-names>HS</given-names></name><name><surname>Mason</surname><given-names>K</given-names></name><name><surname>Ramyar</surname><given-names>KX</given-names></name><etal/></person-group>:
+<article-title>Structure of the extracellular region of HER2 alone and in complex with the Herceptin Fab.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2003</year>;<volume>421</volume>(<issue>6924</issue>):<fpage>756</fpage>&#x02013;<lpage>60</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature01392</pub-id>
+<?supplied-pmid 12610629?><pub-id pub-id-type="pmid">12610629</pub-id></mixed-citation></ref><ref id="ref-65"><label>65</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ma</surname><given-names>J</given-names></name><name><surname>Tang</surname><given-names>WK</given-names></name><name><surname>Esser</surname><given-names>L</given-names></name><etal/></person-group>:
+<article-title>Recognition of mesothelin by the therapeutic antibody MORAb-009: structural and mechanistic insights.</article-title>
+<source><italic>J Biol Chem.</italic></source>
+<year>2012</year>;<volume>287</volume>(<issue>40</issue>):<fpage>33123</fpage>&#x02013;<lpage>31</lpage>.
+<pub-id pub-id-type="doi">10.1074/jbc.M112.381756</pub-id>
+<!--<pub-id pub-id-type="pmcid">3460419</pub-id>-->
+<?supplied-pmid 22787150?><pub-id pub-id-type="pmid">22787150</pub-id></mixed-citation></ref><ref id="ref-66"><label>66</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valitutti</surname><given-names>S</given-names></name><name><surname>M&#x000fc;ller</surname><given-names>S</given-names></name><name><surname>Cella</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Serial triggering of many T-cell receptors by a few peptide-MHC complexes.</article-title>
+<source><italic>Nature.</italic></source>
+<year>1995</year>;<volume>375</volume>(<issue>6527</issue>):<fpage>148</fpage>&#x02013;<lpage>51</lpage>.
+<pub-id pub-id-type="doi">10.1038/375148a0</pub-id>
+<?supplied-pmid 7753171?><pub-id pub-id-type="pmid">7753171</pub-id></mixed-citation></ref><ref id="ref-67"><label>67</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Artyomov</surname><given-names>MN</given-names></name><name><surname>Lis</surname><given-names>M</given-names></name><name><surname>Devadas</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>CD4 and CD8 binding to MHC molecules primarily acts to enhance Lck delivery.</article-title>
+<source><italic>Proc Natl Acad Sci U S A.</italic></source>
+<year>2010</year>;<volume>107</volume>(<issue>39</issue>):<fpage>16916</fpage>&#x02013;<lpage>21</lpage>.
+<pub-id pub-id-type="doi">10.1073/pnas.1010568107</pub-id>
+<!--<pub-id pub-id-type="pmcid">2947881</pub-id>-->
+<?supplied-pmid 20837541?><pub-id pub-id-type="pmid">20837541</pub-id></mixed-citation></ref><ref id="ref-68"><label>68</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>QJ</given-names></name><name><surname>Dinner</surname><given-names>AR</given-names></name><name><surname>Qi</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>CD4 enhances T cell sensitivity to antigen by coordinating Lck accumulation at the immunological synapse.</article-title>
+<source><italic>Nat Immunol.</italic></source>
+<year>2004</year>;<volume>5</volume>(<issue>8</issue>):<fpage>791</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1038/ni1095</pub-id>
+<?supplied-pmid 15247914?><pub-id pub-id-type="pmid">15247914</pub-id></mixed-citation></ref><ref id="ref-69"><label>69</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Watanabe</surname><given-names>K</given-names></name><name><surname>Terakura</surname><given-names>S</given-names></name><name><surname>Martens</surname><given-names>AC</given-names></name><etal/></person-group>:
+<article-title>Target antigen density governs the efficacy of anti-CD20-CD28-CD3 zeta chimeric antigen receptor-modified effector CD8+ T cells.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2015</year>;<volume>194</volume>(<issue>3</issue>):<fpage>911</fpage>&#x02013;<lpage>20</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.1402346</pub-id>
+<?supplied-pmid 25520398?><pub-id pub-id-type="pmid">25520398</pub-id></mixed-citation></ref><ref id="ref-70"><label>70</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Veomett</surname><given-names>N</given-names></name><name><surname>Dao</surname><given-names>T</given-names></name><name><surname>Liu</surname><given-names>H</given-names></name><etal/></person-group>:
+<article-title>Therapeutic efficacy of an Fc-enhanced TCR-like antibody to the intracellular WT1 oncoprotein.</article-title>
+<source><italic>Clin Cancer Res.</italic></source>
+<year>2014</year>;<volume>20</volume>(<issue>15</issue>):<fpage>4036</fpage>&#x02013;<lpage>46</lpage>.
+<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-13-2756</pub-id>
+<!--<pub-id pub-id-type="pmcid">4119489</pub-id>-->
+<?supplied-pmid 24850840?><pub-id pub-id-type="pmid">24850840</pub-id></mixed-citation></ref><ref id="ref-71"><label>71</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dao</surname><given-names>T</given-names></name><name><surname>Pankov</surname><given-names>D</given-names></name><name><surname>Scott</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Therapeutic bispecific T-cell engager antibody targeting the intracellular oncoprotein WT1.</article-title>
+<source><italic>Nat Biotechnol.</italic></source>
+<year>2015</year>;<volume>33</volume>(<issue>10</issue>):<fpage>1079</fpage>&#x02013;<lpage>86</lpage>.
+<pub-id pub-id-type="doi">10.1038/nbt.3349</pub-id>
+<!--<pub-id pub-id-type="pmcid">4600043</pub-id>-->
+<?supplied-pmid 26389576?><pub-id pub-id-type="pmid">26389576</pub-id></mixed-citation></ref><ref id="ref-72"><label>72</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Perez</surname><given-names>HL</given-names></name><name><surname>Cardarelli</surname><given-names>PM</given-names></name><name><surname>Deshpande</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>Antibody-drug conjugates: current status and future directions.</article-title>
+<source><italic>Drug Discov Today.</italic></source>
+<year>2014</year>;<volume>19</volume>(<issue>7</issue>):<fpage>869</fpage>&#x02013;<lpage>81</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.drudis.2013.11.004</pub-id>
+<?supplied-pmid 24239727?><pub-id pub-id-type="pmid">24239727</pub-id></mixed-citation></ref><ref id="ref-73"><label>73</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aleksic</surname><given-names>M</given-names></name><name><surname>Liddy</surname><given-names>N</given-names></name><name><surname>Molloy</surname><given-names>PE</given-names></name><etal/></person-group>:
+<article-title>Different affinity windows for virus and cancer-specific T-cell receptors: implications for therapeutic strategies.</article-title>
+<source><italic>Eur J Immunol.</italic></source>
+<year>2012</year>;<volume>42</volume>(<issue>12</issue>):<fpage>3174</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1002/eji.201242606</pub-id>
+<!--<pub-id pub-id-type="pmcid">3776049</pub-id>-->
+<?supplied-pmid 22949370?><pub-id pub-id-type="pmid">22949370</pub-id></mixed-citation></ref><ref id="ref-74"><label>74</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engels</surname><given-names>B</given-names></name><name><surname>Chervin</surname><given-names>AS</given-names></name><name><surname>Sant</surname><given-names>AJ</given-names></name><etal/></person-group>:
+<article-title>Long-term persistence of CD4
+<sup>+</sup> but rapid disappearance of CD8
+<sup>+</sup> T cells expressing an MHC class I-restricted TCR of nanomolar affinity.</article-title>
+<source><italic>Mol Ther.</italic></source>
+<year>2012</year>;<volume>20</volume>(<issue>3</issue>):<fpage>652</fpage>&#x02013;<lpage>60</lpage>.
+<pub-id pub-id-type="doi">10.1038/mt.2011.286</pub-id>
+<!--<pub-id pub-id-type="pmcid">3293607</pub-id>-->
+<?supplied-pmid 22233579?><pub-id pub-id-type="pmid">22233579</pub-id></mixed-citation></ref><ref id="ref-75"><label>75</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Soto</surname><given-names>CM</given-names></name><name><surname>Stone</surname><given-names>JD</given-names></name><name><surname>Chervin</surname><given-names>AS</given-names></name><etal/></person-group>:
+<article-title>MHC-class I-restricted CD4 T cells: a nanomolar affinity TCR has improved anti-tumor efficacy
+<italic>in vivo</italic> compared to the micromolar wild-type TCR.</article-title>
+<source><italic>Cancer Immunol Immunother.</italic></source>
+<year>2013</year>;<volume>62</volume>(<issue>2</issue>):<fpage>359</fpage>&#x02013;<lpage>69</lpage>.
+<pub-id pub-id-type="doi">10.1007/s00262-012-1336-z</pub-id>
+<!--<pub-id pub-id-type="pmcid">3570684</pub-id>-->
+<?supplied-pmid 22926060?><pub-id pub-id-type="pmid">22926060</pub-id></mixed-citation></ref><ref id="ref-76"><label>76</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holler</surname><given-names>PD</given-names></name><name><surname>Chlewicki</surname><given-names>LK</given-names></name><name><surname>Kranz</surname><given-names>DM</given-names></name></person-group>:
+<article-title>TCRs with high affinity for foreign pMHC show self-reactivity.</article-title>
+<source><italic>Nat Immunol.</italic></source>
+<year>2003</year>;<volume>4</volume>(<issue>1</issue>):<fpage>55</fpage>&#x02013;<lpage>62</lpage>.
+<pub-id pub-id-type="doi">10.1038/ni863</pub-id>
+<?supplied-pmid 12469116?><pub-id pub-id-type="pmid">12469116</pub-id></mixed-citation></ref><ref id="ref-77"><label>77</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhao</surname><given-names>Y</given-names></name><name><surname>Bennett</surname><given-names>AD</given-names></name><name><surname>Zheng</surname><given-names>Z</given-names></name><etal/></person-group>:
+<article-title>High-affinity TCRs generated by phage display provide CD4
+<sup>+</sup> T cells with the ability to recognize and kill tumor cell lines.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2007</year>;<volume>179</volume>(<issue>9</issue>):<fpage>5845</fpage>&#x02013;<lpage>54</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.179.9.5845</pub-id>
+<!--<pub-id pub-id-type="pmcid">2140228</pub-id>-->
+<?supplied-pmid 17947658?><pub-id pub-id-type="pmid">17947658</pub-id></mixed-citation></ref><ref id="ref-78"><label>78</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chervin</surname><given-names>AS</given-names></name><name><surname>Stone</surname><given-names>JD</given-names></name><name><surname>Holler</surname><given-names>PD</given-names></name><etal/></person-group>:
+<article-title>The impact of TCR-binding properties and antigen presentation format on T cell responsiveness.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2009</year>;<volume>183</volume>(<issue>2</issue>):<fpage>1166</fpage>&#x02013;<lpage>78</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.0900054</pub-id>
+<!--<pub-id pub-id-type="pmcid">2841305</pub-id>-->
+<?supplied-pmid 19553539?><pub-id pub-id-type="pmid">19553539</pub-id></mixed-citation></ref><ref id="ref-79"><label>79</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Corse</surname><given-names>E</given-names></name><name><surname>Gottschalk</surname><given-names>RA</given-names></name><name><surname>Krogsgaard</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Attenuated T cell responses to a high-potency ligand
+<italic>in vivo</italic>.</article-title>
+<source><italic>PLoS Biol.</italic></source>
+<year>2010</year>;<volume>8</volume>(<issue>9</issue>): pii: e1000481.
+<pub-id pub-id-type="doi">10.1371/journal.pbio.1000481</pub-id>
+<!--<pub-id pub-id-type="pmcid">2939023</pub-id>-->
+<?supplied-pmid 20856903?><pub-id pub-id-type="pmid">20856903</pub-id></mixed-citation></ref><ref id="ref-80"><label>80</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhong</surname><given-names>S</given-names></name><name><surname>Malecek</surname><given-names>K</given-names></name><name><surname>Johnson</surname><given-names>LA</given-names></name><etal/></person-group>:
+<article-title>T-cell receptor affinity and avidity defines antitumor response and autoimmunity in T-cell immunotherapy.</article-title>
+<source><italic>Proc Natl Acad Sci U S A.</italic></source>
+<year>2013</year>;<volume>110</volume>(<issue>17</issue>):<fpage>6973</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1073/pnas.1221609110</pub-id>
+<!--<pub-id pub-id-type="pmcid">3637771</pub-id>-->
+<?supplied-pmid 23576742?><pub-id pub-id-type="pmid">23576742</pub-id></mixed-citation></ref><ref id="ref-81"><label>81</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hebeisen</surname><given-names>M</given-names></name><name><surname>Baitsch</surname><given-names>L</given-names></name><name><surname>Presotto</surname><given-names>D</given-names></name><etal/></person-group>:
+<article-title>SHP-1 phosphatase activity counteracts increased T cell receptor affinity.</article-title>
+<source><italic>J Clin Invest.</italic></source>
+<year>2013</year>;<volume>123</volume>(<issue>3</issue>):<fpage>1044</fpage>&#x02013;<lpage>56</lpage>.
+<pub-id pub-id-type="doi">10.1172/JCI65325</pub-id>
+<!--<pub-id pub-id-type="pmcid">3582132</pub-id>-->
+<?supplied-pmid 23391724?><pub-id pub-id-type="pmid">23391724</pub-id></mixed-citation></ref><ref id="ref-82"><label>82</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zehn</surname><given-names>D</given-names></name><name><surname>Lee</surname><given-names>SY</given-names></name><name><surname>Bevan</surname><given-names>MJ</given-names></name></person-group>:
+<article-title>Complete but curtailed T-cell response to very low-affinity antigen.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2009</year>;<volume>458</volume>(<issue>7235</issue>):<fpage>211</fpage>&#x02013;<lpage>4</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature07657</pub-id>
+<!--<pub-id pub-id-type="pmcid">2735344</pub-id>-->
+<?supplied-pmid 19182777?><pub-id pub-id-type="pmid">19182777</pub-id></mixed-citation></ref><ref id="ref-83"><label>83</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cameron</surname><given-names>BJ</given-names></name><name><surname>Gerry</surname><given-names>AB</given-names></name><name><surname>Dukes</surname><given-names>J</given-names></name><etal/></person-group>:
+<article-title>Identification of a Titin-derived HLA-A1-presented peptide as a cross-reactive target for engineered MAGE A3-directed T cells.</article-title>
+<source><italic>Sci Transl Med.</italic></source>
+<year>2013</year>;<volume>5</volume>(<issue>197</issue>):<fpage>197ra103</fpage>.
+<pub-id pub-id-type="doi">10.1126/scitranslmed.3006034</pub-id>
+<?supplied-pmid 23926201?><pub-id pub-id-type="pmid">23926201</pub-id></mixed-citation></ref><ref id="ref-84"><label>84</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linette</surname><given-names>GP</given-names></name><name><surname>Stadtmauer</surname><given-names>EA</given-names></name><name><surname>Maus</surname><given-names>MV</given-names></name><etal/></person-group>:
+<article-title>Cardiovascular toxicity and titin cross-reactivity of affinity-enhanced T cells in myeloma and melanoma.</article-title>
+<source><italic>Blood.</italic></source>
+<year>2013</year>;<volume>122</volume>(<issue>6</issue>):<fpage>863</fpage>&#x02013;<lpage>71</lpage>.
+<pub-id pub-id-type="doi">10.1182/blood-2013-03-490565</pub-id>
+<!--<pub-id pub-id-type="pmcid">3743463</pub-id>-->
+<?supplied-pmid 23770775?><pub-id pub-id-type="pmid">23770775</pub-id></mixed-citation></ref><ref id="ref-85"><label>85</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caruso</surname><given-names>HG</given-names></name><name><surname>Hurton</surname><given-names>LV</given-names></name><name><surname>Najjar</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Tuning Sensitivity of CAR to EGFR Density Limits Recognition of Normal Tissue While Maintaining Potent Antitumor Activity.</article-title>
+<source><italic>Cancer Res.</italic></source>
+<year>2015</year>;<volume>75</volume>(<issue>17</issue>):<fpage>3505</fpage>&#x02013;<lpage>18</lpage>.
+<pub-id pub-id-type="doi">10.1158/0008-5472.CAN-15-0139</pub-id>
+<!--<pub-id pub-id-type="pmcid">4624228</pub-id>-->
+<?supplied-pmid 26330164?><pub-id pub-id-type="pmid">26330164</pub-id></mixed-citation></ref><ref id="ref-86"><label>86</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stone</surname><given-names>JD</given-names></name><name><surname>Harris</surname><given-names>DT</given-names></name><name><surname>Soto</surname><given-names>CM</given-names></name><etal/></person-group>:
+<article-title>A novel T cell receptor single-chain signaling complex mediates antigen-specific T cell activity and tumor control.</article-title>
+<source><italic>Cancer Immunol Immunother.</italic></source>
+<year>2014</year>;<volume>63</volume>(<issue>11</issue>):<fpage>1163</fpage>&#x02013;<lpage>76</lpage>.
+<pub-id pub-id-type="doi">10.1007/s00262-014-1586-z</pub-id>
+<!--<pub-id pub-id-type="pmcid">4262137</pub-id>-->
+<?supplied-pmid 25082071?><pub-id pub-id-type="pmid">25082071</pub-id></mixed-citation></ref><ref id="ref-87"><label>87</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oren</surname><given-names>R</given-names></name><name><surname>Hod-Marco</surname><given-names>M</given-names></name><name><surname>Haus-Cohen</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Functional comparison of engineered T cells carrying a native TCR versus TCR-like antibody-based chimeric antigen receptors indicates affinity/avidity thresholds.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2014</year>;<volume>193</volume>(<issue>11</issue>):<fpage>5733</fpage>&#x02013;<lpage>43</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.1301769</pub-id>
+<?supplied-pmid 25362181?><pub-id pub-id-type="pmid">25362181</pub-id></mixed-citation></ref><ref id="ref-88"><label>88</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van den Berg</surname><given-names>JH</given-names></name><name><surname>Gomez-Eerland</surname><given-names>R</given-names></name><name><surname>van de Wiel</surname><given-names>B</given-names></name><etal/></person-group>:
+<article-title>Case Report of a Fatal Serious Adverse Event Upon Administration of T Cells Transduced With a MART-1-specific T-cell Receptor.</article-title>
+<source><italic>Mol Ther.</italic></source>
+<year>2015</year>;<volume>23</volume>(<issue>9</issue>):<fpage>1541</fpage>&#x02013;<lpage>50</lpage>.
+<pub-id pub-id-type="doi">10.1038/mt.2015.60</pub-id>
+<!--<pub-id pub-id-type="pmcid">4817886</pub-id>-->
+<?supplied-pmid 25896248?><pub-id pub-id-type="pmid">25896248</pub-id></mixed-citation></ref><ref id="ref-89"><label>89</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blankenstein</surname><given-names>T</given-names></name><name><surname>Leisegang</surname><given-names>M</given-names></name><name><surname>Uckert</surname><given-names>W</given-names></name><etal/></person-group>:
+<article-title>Targeting cancer-specific mutations by T cell receptor gene therapy.</article-title>
+<source><italic>Curr Opin Immunol.</italic></source>
+<year>2015</year>;<volume>33</volume>:<fpage>112</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1016/j.coi.2015.02.005</pub-id>
+<!--<pub-id pub-id-type="pmcid">4557613</pub-id>-->
+<?supplied-pmid 25728991?><pub-id pub-id-type="pmid">25728991</pub-id></mixed-citation></ref><ref id="ref-90"><label>90</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schumacher</surname><given-names>TN</given-names></name><name><surname>Schreiber</surname><given-names>RD</given-names></name></person-group>:
+<article-title>Neoantigens in cancer immunotherapy.</article-title>
+<source><italic>Science.</italic></source>
+<year>2015</year>;<volume>348</volume>(<issue>6230</issue>):<fpage>69</fpage>&#x02013;<lpage>74</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.aaa4971</pub-id>
+<?supplied-pmid 25838375?><pub-id pub-id-type="pmid">25838375</pub-id></mixed-citation></ref><ref id="ref-91"><label>91</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Str&#x000f8;nen</surname><given-names>E</given-names></name><name><surname>Toebes</surname><given-names>M</given-names></name><name><surname>Kelderman</surname><given-names>S</given-names></name><etal/></person-group>:
+<article-title>Targeting of cancer neoantigens with donor-derived T cell receptor repertoires.</article-title>
+<source><italic>Science.</italic></source>
+<year>2016</year>;<volume>352</volume>(<issue>6291</issue>):<fpage>1337</fpage>&#x02013;<lpage>41</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.aaf2288</pub-id>
+<?supplied-pmid 27198675?><pub-id pub-id-type="pmid">27198675</pub-id></mixed-citation></ref><ref id="ref-92"><label>92</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gubin</surname><given-names>MM</given-names></name><name><surname>Artyomov</surname><given-names>MN</given-names></name><name><surname>Mardis</surname><given-names>ER</given-names></name><etal/></person-group>:
+<article-title>Tumor neoantigens: building a framework for personalized cancer immunotherapy.</article-title>
+<source><italic>J Clin Invest.</italic></source>
+<year>2015</year>;<volume>125</volume>(<issue>9</issue>):<fpage>3413</fpage>&#x02013;<lpage>21</lpage>.
+<pub-id pub-id-type="doi">10.1172/JCI80008</pub-id>
+<!--<pub-id pub-id-type="pmcid">4588307</pub-id>-->
+<?supplied-pmid 26258412?><pub-id pub-id-type="pmid">26258412</pub-id></mixed-citation></ref><ref id="ref-93"><label>93</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ward</surname><given-names>JP</given-names></name><name><surname>Gubin</surname><given-names>MM</given-names></name><name><surname>Schreiber</surname><given-names>RD</given-names></name></person-group>:
+<article-title>The Role of Neoantigens in Naturally Occurring and Therapeutically Induced Immune Responses to Cancer.</article-title>
+<source><italic>Adv Immunol.</italic></source>
+<year>2016</year>;<volume>130</volume>:<fpage>25</fpage>&#x02013;<lpage>74</lpage>.
+<pub-id pub-id-type="doi">10.1016/bs.ai.2016.01.001</pub-id>
+<?supplied-pmid 26922999?><pub-id pub-id-type="pmid">26922999</pub-id></mixed-citation></ref><ref id="ref-94"><label>94</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Snyder</surname><given-names>A</given-names></name><name><surname>Makarov</surname><given-names>V</given-names></name><name><surname>Merghoub</surname><given-names>T</given-names></name><etal/></person-group>:
+<article-title>Genetic basis for clinical response to CTLA-4 blockade in melanoma.</article-title>
+<source><italic>N Engl J Med.</italic></source>
+<year>2014</year>;<volume>371</volume>(<issue>23</issue>):<fpage>2189</fpage>&#x02013;<lpage>99</lpage>.
+<pub-id pub-id-type="doi">10.1056/NEJMoa1406498</pub-id>
+<!--<pub-id pub-id-type="pmcid">4315319</pub-id>-->
+<?supplied-pmid 25409260?><pub-id pub-id-type="pmid">25409260</pub-id></mixed-citation></ref><ref id="ref-95"><label>95</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gubin</surname><given-names>MM</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Schuster</surname><given-names>H</given-names></name><etal/></person-group>:
+<article-title>Checkpoint blockade cancer immunotherapy targets tumour-specific mutant antigens.</article-title>
+<source><italic>Nature.</italic></source>
+<year>2014</year>;<volume>515</volume>(<issue>7528</issue>):<fpage>577</fpage>&#x02013;<lpage>81</lpage>.
+<pub-id pub-id-type="doi">10.1038/nature13988</pub-id>
+<!--<pub-id pub-id-type="pmcid">4279952</pub-id>-->
+<?supplied-pmid 25428507?><pub-id pub-id-type="pmid">25428507</pub-id></mixed-citation></ref><ref id="ref-96"><label>96</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rizvi</surname><given-names>NA</given-names></name><name><surname>Hellmann</surname><given-names>MD</given-names></name><name><surname>Snyder</surname><given-names>A</given-names></name><etal/></person-group>:
+<article-title>Cancer immunology. Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer.</article-title>
+<source><italic>Science.</italic></source>
+<year>2015</year>;<volume>348</volume>(<issue>6230</issue>):<fpage>124</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.aaa1348</pub-id>
+<!--<pub-id pub-id-type="pmcid">4993154</pub-id>-->
+<?supplied-pmid 25765070?><pub-id pub-id-type="pmid">25765070</pub-id></mixed-citation></ref><ref id="ref-97"><label>97</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robbins</surname><given-names>PF</given-names></name><name><surname>Lu</surname><given-names>YC</given-names></name><name><surname>El-Gamil</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Mining exomic sequencing data to identify mutated antigens recognized by adoptively transferred tumor-reactive T cells.</article-title>
+<source><italic>Nat Med.</italic></source>
+<year>2013</year>;<volume>19</volume>(<issue>6</issue>):<fpage>747</fpage>&#x02013;<lpage>52</lpage>.
+<pub-id pub-id-type="doi">10.1038/nm.3161</pub-id>
+<!--<pub-id pub-id-type="pmcid">3757932</pub-id>-->
+<?supplied-pmid 23644516?><pub-id pub-id-type="pmid">23644516</pub-id></mixed-citation></ref><ref id="ref-98"><label>98</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalaora</surname><given-names>S</given-names></name><name><surname>Barnea</surname><given-names>E</given-names></name><name><surname>Merhavi-Shoham</surname><given-names>E</given-names></name><etal/></person-group>:
+<article-title>Use of HLA peptidomics and whole exome sequencing to identify human immunogenic neo-antigens.</article-title>
+<source><italic>Oncotarget.</italic></source>
+<year>2016</year>;<volume>7</volume>(<issue>5</issue>):<fpage>5110</fpage>&#x02013;<lpage>7</lpage>.
+<pub-id pub-id-type="doi">10.18632/oncotarget.6960</pub-id>
+<!--<pub-id pub-id-type="pmcid">4868674</pub-id>-->
+<?supplied-pmid 26819371?><pub-id pub-id-type="pmid">26819371</pub-id></mixed-citation></ref><ref id="ref-99"><label>99</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parker</surname><given-names>KC</given-names></name><name><surname>Bednarek</surname><given-names>MA</given-names></name><name><surname>Coligan</surname><given-names>JE</given-names></name></person-group>:
+<article-title>Scheme for ranking potential HLA-A2 binding peptides based on independent binding of individual peptide side-chains.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>1994</year>;<volume>152</volume>(<issue>1</issue>):<fpage>163</fpage>&#x02013;<lpage>75</lpage>.
+<?supplied-pmid 8254189?><pub-id pub-id-type="pmid">8254189</pub-id></mixed-citation></ref><ref id="ref-100"><label>100</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rammensee</surname><given-names>H</given-names></name><name><surname>Bachmann</surname><given-names>J</given-names></name><name><surname>Emmerich</surname><given-names>NP</given-names></name><etal/></person-group>:
+<article-title>SYFPEITHI: database for MHC ligands and peptide motifs.</article-title>
+<source><italic>Immunogenetics.</italic></source>
+<year>1999</year>;<volume>50</volume>(<issue>3&#x02013;4</issue>):<fpage>213</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1007/s002510050595</pub-id>
+<?supplied-pmid 10602881?><pub-id pub-id-type="pmid">10602881</pub-id></mixed-citation></ref><ref id="ref-101"><label>101</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>M</given-names></name><name><surname>Lundegaard</surname><given-names>C</given-names></name><name><surname>Worning</surname><given-names>P</given-names></name><etal/></person-group>:
+<article-title>Reliable prediction of T-cell epitopes using neural networks with novel sequence representations.</article-title>
+<source><italic>Protein Sci.</italic></source>
+<year>2003</year>;<volume>12</volume>(<issue>5</issue>):<fpage>1007</fpage>&#x02013;<lpage>17</lpage>.
+<pub-id pub-id-type="doi">10.1110/ps.0239403</pub-id>
+<!--<pub-id pub-id-type="pmcid">2323871</pub-id>-->
+<?supplied-pmid 12717023?><pub-id pub-id-type="pmid">12717023</pub-id></mixed-citation></ref><ref id="ref-102"><label>102</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peters</surname><given-names>B</given-names></name><name><surname>Sette</surname><given-names>A</given-names></name></person-group>:
+<article-title>Generating quantitative models describing the sequence specificity of biological processes with the stabilized matrix method.</article-title>
+<source><italic>BMC Bioinformatics.</italic></source>
+<year>2005</year>;<volume>6</volume>:<fpage>132</fpage>.
+<pub-id pub-id-type="doi">10.1186/1471-2105-6-132</pub-id>
+<!--<pub-id pub-id-type="pmcid">1173087</pub-id>-->
+<?supplied-pmid 15927070?><pub-id pub-id-type="pmid">15927070</pub-id></mixed-citation></ref><ref id="ref-103"><label>103</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>M</given-names></name><name><surname>Lundegaard</surname><given-names>C</given-names></name><name><surname>Blicher</surname><given-names>T</given-names></name><etal/></person-group>:
+<article-title>
+<italic>NetMHCpan</italic>, a method for quantitative predictions of peptide binding to any HLA-A and -B locus protein of known sequence.</article-title>
+<source><italic>PLoS One.</italic></source>
+<year>2007</year>;<volume>2</volume>(<issue>8</issue>):<fpage>e796</fpage>.
+<pub-id pub-id-type="doi">10.1371/journal.pone.0000796</pub-id>
+<!--<pub-id pub-id-type="pmcid">1949492</pub-id>-->
+<?supplied-pmid 17726526?><pub-id pub-id-type="pmid">17726526</pub-id></mixed-citation></ref><ref id="ref-104"><label>104</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fritsch</surname><given-names>EF</given-names></name><name><surname>Rajasagi</surname><given-names>M</given-names></name><name><surname>Ott</surname><given-names>PA</given-names></name><etal/></person-group>:
+<article-title>HLA-binding properties of tumor neoepitopes in humans.</article-title>
+<source><italic>Cancer Immunol Res.</italic></source>
+<year>2014</year>;<volume>2</volume>(<issue>6</issue>):<fpage>522</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1158/2326-6066.CIR-13-0227</pub-id>
+<!--<pub-id pub-id-type="pmcid">4049249</pub-id>-->
+<?supplied-pmid 24894089?><pub-id pub-id-type="pmid">24894089</pub-id></mixed-citation></ref><ref id="ref-105"><label>105</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berkers</surname><given-names>CR</given-names></name><name><surname>de Jong</surname><given-names>A</given-names></name><name><surname>Schuurman</surname><given-names>KG</given-names></name><etal/></person-group>:
+<article-title>Definition of Proteasomal Peptide Splicing Rules for High-Efficiency Spliced Peptide Presentation by MHC Class I Molecules.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2015</year>;<volume>195</volume>(<issue>9</issue>):<fpage>4085</fpage>&#x02013;<lpage>95</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.1402455</pub-id>
+<!--<pub-id pub-id-type="pmcid">4642839</pub-id>-->
+<?supplied-pmid 26401003?><pub-id pub-id-type="pmid">26401003</pub-id></mixed-citation></ref><ref id="ref-106"><label>106</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paul</surname><given-names>S</given-names></name><name><surname>Dillon</surname><given-names>MB</given-names></name><name><surname>Lindestam Arlehamn</surname><given-names>CS</given-names></name><etal/></person-group>:
+<article-title>A population response analysis approach to assign class II HLA-epitope restrictions.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2015</year>;<volume>194</volume>(<issue>12</issue>):<fpage>6164</fpage>&#x02013;<lpage>76</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.1403074</pub-id>
+<!--<pub-id pub-id-type="pmcid">4458389</pub-id>-->
+<?supplied-pmid 25948811?><pub-id pub-id-type="pmid">25948811</pub-id></mixed-citation></ref><ref id="ref-107"><label>107</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linnemann</surname><given-names>C</given-names></name><name><surname>van Buuren</surname><given-names>MM</given-names></name><name><surname>Bies</surname><given-names>L</given-names></name><etal/></person-group>:
+<article-title>High-throughput epitope discovery reveals frequent recognition of neo-antigens by CD4
+<sup>+</sup> T cells in human melanoma.</article-title>
+<source><italic>Nat Med.</italic></source>
+<year>2015</year>;<volume>21</volume>(<issue>1</issue>):<fpage>81</fpage>&#x02013;<lpage>5</lpage>.
+<pub-id pub-id-type="doi">10.1038/nm.3773</pub-id>
+<?supplied-pmid 25531942?><pub-id pub-id-type="pmid">25531942</pub-id></mixed-citation></ref><ref id="ref-108"><label>108</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Han</surname><given-names>A</given-names></name><name><surname>Glanville</surname><given-names>J</given-names></name><name><surname>Hansmann</surname><given-names>L</given-names></name><etal/></person-group>:
+<article-title>Linking T-cell receptor sequence to functional phenotype at the single-cell level.</article-title>
+<source><italic>Nat Biotechnol.</italic></source>
+<year>2014</year>;<volume>32</volume>(<issue>7</issue>):<fpage>684</fpage>&#x02013;<lpage>92</lpage>.
+<pub-id pub-id-type="doi">10.1038/nbt.2938</pub-id>
+<!--<pub-id pub-id-type="pmcid">4337815</pub-id>-->
+<?supplied-pmid 24952902?><pub-id pub-id-type="pmid">24952902</pub-id></mixed-citation></ref><ref id="ref-109"><label>109</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gros</surname><given-names>A</given-names></name><name><surname>Parkhurst</surname><given-names>MR</given-names></name><name><surname>Tran</surname><given-names>E</given-names></name><etal/></person-group>:
+<article-title>Prospective identification of neoantigen-specific lymphocytes in the peripheral blood of melanoma patients.</article-title>
+<source><italic>Nat Med.</italic></source>
+<year>2016</year>;<volume>22</volume>(<issue>4</issue>):<fpage>433</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1038/nm.4051</pub-id>
+<?supplied-pmid 26901407?><pub-id pub-id-type="pmid">26901407</pub-id></mixed-citation></ref><ref id="ref-110"><label>110</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leisegang</surname><given-names>M</given-names></name><name><surname>Engels</surname><given-names>B</given-names></name><name><surname>Schreiber</surname><given-names>K</given-names></name><etal/></person-group>:
+<article-title>Eradication of Large Solid Tumors by Gene Therapy with a T-Cell Receptor Targeting a Single Cancer-Specific Point Mutation.</article-title>
+<source><italic>Clin Cancer Res.</italic></source>
+<year>2016</year>;<volume>22</volume>(<issue>11</issue>):<fpage>2734</fpage>&#x02013;<lpage>43</lpage>.
+<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-15-2361</pub-id>
+<!--<pub-id pub-id-type="pmcid">4891260</pub-id>-->
+<?supplied-pmid 26667491?><pub-id pub-id-type="pmid">26667491</pub-id></mixed-citation></ref><ref id="ref-111"><label>111</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Rooij</surname><given-names>N</given-names></name><name><surname>van Buuren</surname><given-names>MM</given-names></name><name><surname>Philips</surname><given-names>D</given-names></name><etal/></person-group>:
+<article-title>Tumor exome analysis reveals neoantigen-specific T-cell reactivity in an ipilimumab-responsive melanoma.</article-title>
+<source><italic>J Clin Oncol.</italic></source>
+<year>2013</year>;<volume>31</volume>(<issue>32</issue>):<fpage>e439</fpage>&#x02013;<lpage>42</lpage>.
+<pub-id pub-id-type="doi">10.1200/JCO.2012.47.7521</pub-id>
+<!--<pub-id pub-id-type="pmcid">3836220</pub-id>-->
+<?supplied-pmid 24043743?><pub-id pub-id-type="pmid">24043743</pub-id></mixed-citation></ref><ref id="ref-112"><label>112</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Buuren</surname><given-names>MM</given-names></name><name><surname>Dijkgraaf</surname><given-names>FE</given-names></name><name><surname>Linnemann</surname><given-names>C</given-names></name><etal/></person-group>:
+<article-title>HLA micropolymorphisms strongly affect peptide-MHC multimer-based monitoring of antigen-specific CD8
+<sup>+</sup> T cell responses.</article-title>
+<source><italic>J Immunol.</italic></source>
+<year>2014</year>;<volume>192</volume>(<issue>2</issue>):<fpage>641</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.4049/jimmunol.1301770</pub-id>
+<?supplied-pmid 24342804?><pub-id pub-id-type="pmid">24342804</pub-id></mixed-citation></ref><ref id="ref-113"><label>113</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Buuren</surname><given-names>MM</given-names></name><name><surname>Calis</surname><given-names>JJ</given-names></name><name><surname>Schumacher</surname><given-names>TN</given-names></name></person-group>:
+<article-title>High sensitivity of cancer exome-based CD8 T cell neo-antigen identification.</article-title>
+<source><italic>Oncoimmunology.</italic></source>
+<year>2014</year>;<volume>3</volume>(<issue>5</issue>):<fpage>e28836</fpage>.
+<pub-id pub-id-type="doi">10.4161/onci.28836</pub-id>
+<!--<pub-id pub-id-type="pmcid">4106163</pub-id>-->
+<?supplied-pmid 25083320?><pub-id pub-id-type="pmid">25083320</pub-id></mixed-citation></ref><ref id="ref-114"><label>114</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bowerman</surname><given-names>NA</given-names></name><name><surname>Colf</surname><given-names>LA</given-names></name><name><surname>Garcia</surname><given-names>KC</given-names></name><etal/></person-group>:
+<article-title>Different strategies adopted by K
+<sup>b</sup> and L
+<sup>d</sup> to generate T cell specificity directed against their respective bound peptides.</article-title>
+<source><italic>J Biol Chem.</italic></source>
+<year>2009</year>;<volume>284</volume>(<issue>47</issue>):<fpage>32551</fpage>&#x02013;<lpage>61</lpage>.
+<pub-id pub-id-type="doi">10.1074/jbc.M109.040501</pub-id>
+<!--<pub-id pub-id-type="pmcid">2781669</pub-id>-->
+<?supplied-pmid 19755422?><pub-id pub-id-type="pmid">19755422</pub-id></mixed-citation></ref><ref id="ref-115"><label>115</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schietinger</surname><given-names>A</given-names></name><name><surname>Philip</surname><given-names>M</given-names></name><name><surname>Yoshida</surname><given-names>BA</given-names></name><etal/></person-group>:
+<article-title>A mutant chaperone converts a wild-type protein into a tumor-specific antigen.</article-title>
+<source><italic>Science.</italic></source>
+<year>2006</year>;<volume>314</volume>(<issue>5797</issue>):<fpage>304</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1126/science.1129200</pub-id>
+<?supplied-pmid 17038624?><pub-id pub-id-type="pmid">17038624</pub-id></mixed-citation></ref><ref id="ref-116"><label>116</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cole</surname><given-names>DK</given-names></name><name><surname>Yuan</surname><given-names>F</given-names></name><name><surname>Rizkallah</surname><given-names>PJ</given-names></name><etal/></person-group>:
+<article-title>Germ line-governed recognition of a cancer epitope by an immunodominant human T-cell receptor.</article-title>
+<source><italic>J Biol Chem.</italic></source>
+<year>2009</year>;<volume>284</volume>(<issue>40</issue>):<fpage>27281</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="doi">10.1074/jbc.M109.022509</pub-id>
+<!--<pub-id pub-id-type="pmcid">2785656</pub-id>-->
+<?supplied-pmid 19605354?><pub-id pub-id-type="pmid">19605354</pub-id></mixed-citation></ref><ref id="ref-117"><label>117</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kelley</surname><given-names>LA</given-names></name><name><surname>Mezulis</surname><given-names>S</given-names></name><name><surname>Yates</surname><given-names>CM</given-names></name><etal/></person-group>:
+<article-title>The Phyre2 web portal for protein modeling, prediction and analysis.</article-title>
+<source><italic>Nat Protoc.</italic></source>
+<year>2015</year>;<volume>10</volume>(<issue>6</issue>):<fpage>845</fpage>&#x02013;<lpage>58</lpage>.
+<pub-id pub-id-type="doi">10.1038/nprot.2015.053</pub-id>
+<?supplied-pmid 25950237?><pub-id pub-id-type="pmid">25950237</pub-id></mixed-citation></ref><ref id="ref-118"><label>118</label><mixed-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hassan</surname><given-names>R</given-names></name><name><surname>Cohen</surname><given-names>SJ</given-names></name><name><surname>Phillips</surname><given-names>M</given-names></name><etal/></person-group>:
+<article-title>Phase I clinical trial of the chimeric anti-mesothelin monoclonal antibody MORAb-009 in patients with mesothelin-expressing cancers.</article-title>
+<source><italic>Clin Cancer Res.</italic></source>
+<year>2010</year>;<volume>16</volume>(<issue>24</issue>):<fpage>6132</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-10-2275</pub-id>
+<!--<pub-id pub-id-type="pmcid">3057907</pub-id>-->
+<?supplied-pmid 21037025?><pub-id pub-id-type="pmid">21037025</pub-id></mixed-citation></ref></ref-list></back></article>

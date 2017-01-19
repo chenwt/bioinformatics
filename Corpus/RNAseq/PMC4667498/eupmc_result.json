@@ -1,0 +1,430 @@
+{
+  "id": [
+    "26626453"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26626453"
+  ],
+  "pmcid": [
+    "PMC4667498"
+  ],
+  "doi": [
+    "10.1186/s12864-015-2223-8"
+  ],
+  "title": [
+    "Fast dimension reduction and integrative clustering of multi-omics data using low-rank approximation: application to cancer molecular classification."
+  ],
+  "authorString": [
+    "Wu D, Wang D, Zhang MQ, Gu J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wu D"
+          ],
+          "firstName": [
+            "Dingming"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "MOE Key Laboratory of Bioinformatics, TNLIST Bioinformatics Division & Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Wang D"
+          ],
+          "firstName": [
+            "Dongfang"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "MOE Key Laboratory of Bioinformatics, TNLIST Bioinformatics Division & Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang MQ"
+          ],
+          "firstName": [
+            "Michael Q"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "MQ"
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, Center for Systems Biology, University of Texas at Dallas, Richardson, TX, 75080, USA. michael.zhang@utdallas.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Gu J"
+          ],
+          "firstName": [
+            "Jin"
+          ],
+          "lastName": [
+            "Gu"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "MOE Key Laboratory of Bioinformatics, TNLIST Bioinformatics Division & Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China. jgu@tsinghua.edu.cn."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2257341"
+      ],
+      "dateOfPublication": [
+        "2015 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "1022"
+  ],
+  "abstractText": [
+    "One major goal of large-scale cancer omics study is to identify molecular subtypes for more accurate cancer diagnoses and treatments. To deal with high-dimensional cancer multi-omics data, a promising strategy is to find an effective low-dimensional subspace of the original data and then cluster cancer samples in the reduced subspace. However, due to data-type diversity and big data volume, few methods can integrative and efficiently find the principal low-dimensional manifold of the high-dimensional cancer multi-omics data.In this study, we proposed a novel low-rank approximation based integrative probabilistic model to fast find the shared principal subspace across multiple data types: the convexity of the low-rank regularized likelihood function of the probabilistic model ensures efficient and stable model fitting. Candidate molecular subtypes can be identified by unsupervised clustering hundreds of cancer samples in the reduced low-dimensional subspace. On testing datasets, our method LRAcluster (low-rank approximation based multi-omics data clustering) runs much faster with better clustering performances than the existing method. Then, we applied LRAcluster on large-scale cancer multi-omics data from TCGA. The pan-cancer analysis results show that the cancers of different tissue origins are generally grouped as independent clusters, except squamous-like carcinomas. While the single cancer type analysis suggests that the omics data have different subtyping abilities for different cancer types.LRAcluster is a very useful method for fast dimension reduction and unsupervised clustering of large-scale multi-omics data. LRAcluster is implemented in R and freely available via http://bioinfo.au.tsinghua.edu.cn/software/lracluster/ ."
+  ],
+  "affiliation": [
+    "MOE Key Laboratory of Bioinformatics, TNLIST Bioinformatics Division & Center for Synthetic and Systems Biology, Department of Automation, Tsinghua University, Beijing, 100084, China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cluster Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Epigenomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Datasets as Topic"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4667498?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4667498"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-015-2223-8"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-09-09"
+  ],
+  "dateOfCreation": [
+    "2015-12-02"
+  ],
+  "dateOfRevision": [
+    "2015-12-04"
+  ],
+  "electronicPublicationDate": [
+    "2015-12-01"
+  ],
+  "firstPublicationDate": [
+    "2015-12-01"
+  ]
+}

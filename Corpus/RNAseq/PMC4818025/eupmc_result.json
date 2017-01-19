@@ -1,0 +1,559 @@
+{
+  "id": [
+    "27035433"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27035433"
+  ],
+  "pmcid": [
+    "PMC4818025"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0152792"
+  ],
+  "title": [
+    "Identifying Cancer Subtypes from miRNA-TF-mRNA Regulatory Networks and Expression Data."
+  ],
+  "authorString": [
+    "Xu T, Le TD, Liu L, Wang R, Sun B, Li J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Xu T"
+          ],
+          "firstName": [
+            "Taosheng"
+          ],
+          "lastName": [
+            "Xu"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Department of Automation, University of Science and Technology of China, Hefei, Anhui, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Le TD"
+          ],
+          "firstName": [
+            "Thuc Duy"
+          ],
+          "lastName": [
+            "Le"
+          ],
+          "initials": [
+            "TD"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9732-4313",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "School of Information Technology and Mathematical Sciences, University of South Australia, Adelaide, South Australia, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Liu L"
+          ],
+          "firstName": [
+            "Lin"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "School of Information Technology and Mathematical Sciences, University of South Australia, Adelaide, South Australia, Australia."
+          ]
+        },
+        {
+          "fullName": [
+            "Wang R"
+          ],
+          "firstName": [
+            "Rujing"
+          ],
+          "lastName": [
+            "Wang"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Institute of Intelligent Machines, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Sun B"
+          ],
+          "firstName": [
+            "Bingyu"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Institute of Intelligent Machines, Hefei Institutes of Physical Science, Chinese Academy of Sciences, Hefei, Anhui, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Li J"
+          ],
+          "firstName": [
+            "Jiuyong"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "School of Information Technology and Mathematical Sciences, University of South Australia, Adelaide, South Australia, Australia."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-9732-4313",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "4"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2392598"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0152792"
+  ],
+  "abstractText": [
+    "Identifying cancer subtypes is an important component of the personalised medicine framework. An increasing number of computational methods have been developed to identify cancer subtypes. However, existing methods rarely use information from gene regulatory networks to facilitate the subtype identification. It is widely accepted that gene regulatory networks play crucial roles in understanding the mechanisms of diseases. Different cancer subtypes are likely caused by different regulatory mechanisms. Therefore, there are great opportunities for developing methods that can utilise network information in identifying cancer subtypes.In this paper, we propose a method, weighted similarity network fusion (WSNF), to utilise the information in the complex miRNA-TF-mRNA regulatory network in identifying cancer subtypes. We firstly build the regulatory network where the nodes represent the features, i.e. the microRNAs (miRNAs), transcription factors (TFs) and messenger RNAs (mRNAs) and the edges indicate the interactions between the features. The interactions are retrieved from various interatomic databases. We then use the network information and the expression data of the miRNAs, TFs and mRNAs to calculate the weight of the features, representing the level of importance of the features. The feature weight is then integrated into a network fusion approach to cluster the samples (patients) and thus to identify cancer subtypes. We applied our method to the TCGA breast invasive carcinoma (BRCA) and glioblastoma multiforme (GBM) datasets. The experimental results show that WSNF performs better than the other commonly used computational methods, and the information from miRNA-TF-mRNA regulatory network contributes to the performance improvement. The WSNF method successfully identified five breast cancer subtypes and three GBM subtypes which show significantly different survival patterns. We observed that the expression patterns of the features in some miRNA-TF-mRNA sub-networks vary across different identified subtypes. In addition, pathway enrichment analyses show that the top pathways involving the most differentially expressed genes in each of the identified subtypes are different. The results would provide valuable information for understanding the mechanisms characterising different cancer subtypes and assist the design of treatment therapies. All datasets and the R scripts to reproduce the results are available online at the website: http://nugget.unisa.edu.au/Thuc/cancersubtypes/."
+  ],
+  "affiliation": [
+    "Department of Automation, University of Science and Technology of China, Hefei, Anhui, China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Glioblastoma"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Breast Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brain Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CL"
+                  ],
+                  "qualifierName": [
+                    "classification"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcription Factors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "MicroRNAs"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Neoplastic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Regulatory Networks"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Transcription Factors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MicroRNAs"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4818025?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4818025"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1371/journal.pone.0152792"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-15"
+  ],
+  "dateOfCreation": [
+    "2016-04-02"
+  ],
+  "dateOfRevision": [
+    "2016-04-20"
+  ],
+  "electronicPublicationDate": [
+    "2016-04-01"
+  ],
+  "firstPublicationDate": [
+    "2016-04-01"
+  ]
+}

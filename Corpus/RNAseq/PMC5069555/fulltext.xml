@@ -1,0 +1,1319 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 1?><front><journal-meta><journal-id journal-id-type="nlm-ta">EMBO J</journal-id><journal-id journal-id-type="iso-abbrev">EMBO J</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1460-2075</journal-id><journal-id journal-id-type="publisher-id">EMBJ</journal-id><journal-id journal-id-type="hwp">embojnl</journal-id><journal-title-group><journal-title>The EMBO Journal</journal-title></journal-title-group><issn pub-type="ppub">0261-4189</issn><issn pub-type="epub">1460-2075</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5069555</article-id><article-id pub-id-type="pmid">27647875</article-id><article-id pub-id-type="doi">10.15252/embj.201694857</article-id><article-id pub-id-type="publisher-id">EMBJ201694857</article-id><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>TUT&#x02010;DIS3L2 is a mammalian surveillance pathway for aberrant structured non&#x02010;coding RNAs</article-title><alt-title alt-title-type="left-running-head">Dmytro Ustianenko <italic>et&#x000a0;al</italic></alt-title></title-group><contrib-group><contrib id="embj201694857-cr-0001" contrib-type="author"><name><surname>Ustianenko</surname><given-names>Dmytro</given-names></name><xref ref-type="aff" rid="embj201694857-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="embj201694857-note-0001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="embj201694857-cr-0002" contrib-type="author"><name><surname>Pasulka</surname><given-names>Josef</given-names></name><xref ref-type="aff" rid="embj201694857-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="embj201694857-note-0001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="embj201694857-cr-0003" contrib-type="author"><name><surname>Feketova</surname><given-names>Zuzana</given-names></name><xref ref-type="aff" rid="embj201694857-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="author-notes" rid="embj201694857-note-0001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="embj201694857-cr-0004" contrib-type="author"><name><surname>Bednarik</surname><given-names>Lukas</given-names></name><xref ref-type="aff" rid="embj201694857-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="embj201694857-cr-0005" contrib-type="author"><name><surname>Zigackova</surname><given-names>Dagmar</given-names></name><xref ref-type="aff" rid="embj201694857-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="embj201694857-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="embj201694857-cr-0006" contrib-type="author"><name><surname>Fortova</surname><given-names>Andrea</given-names></name><xref ref-type="aff" rid="embj201694857-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="embj201694857-cr-0007" contrib-type="author"><name><surname>Zavolan</surname><given-names>Mihaela</given-names></name><xref ref-type="aff" rid="embj201694857-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="embj201694857-cr-0008" contrib-type="author" corresp="yes"><name><surname>Vanacova</surname><given-names>Stepanka</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8807-0684</contrib-id><address><email>stepanka.vanacova@ceitec.muni.cz</email></address><xref ref-type="aff" rid="embj201694857-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="embj201694857-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">CEITEC&#x02010;Central European Institute of Technology</named-content><institution>Masaryk University</institution><named-content content-type="city">Brno</named-content><country country="CZ">Czech Republic</country></aff><aff id="embj201694857-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">National Centre for Biomolecular Research</named-content><named-content content-type="organisation-division">Faculty of Science</named-content><institution>Masaryk University</institution><named-content content-type="city">Brno</named-content><country country="CZ">Czech Republic</country></aff><aff id="embj201694857-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Biozentrum</named-content><institution>University of Basel and Swiss Institute of Bioinformatics</institution><named-content content-type="city">Basel</named-content><country country="CH">Switzerland</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label>Corresponding author. Tel: +420 549495042; E&#x02010;mail: <email>stepanka.vanacova@ceitec.muni.cz</email></corresp><fn fn-type="equal" id="embj201694857-note-0001"><label>&#x02020;</label><p>These authors contributed equally to this work</p></fn></author-notes><pub-date pub-type="epub"><day>19</day><month>9</month><year>2016</year></pub-date><pub-date pub-type="ppub"><day>17</day><month>10</month><year>2016</year></pub-date><pub-date pub-type="pmc-release"><day>19</day><month>9</month><year>2016</year></pub-date><!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. --><volume>35</volume><issue>20</issue><issue-id pub-id-type="doi">10.1002/embj.v35.20</issue-id><fpage>2179</fpage><lpage>2191</lpage><history><date date-type="received"><day>25</day><month>5</month><year>2016</year></date><date date-type="rev-recd"><day>18</day><month>8</month><year>2016</year></date><date date-type="accepted"><day>19</day><month>8</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 EMBO <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2016 The Authors. Published under the terms of the CC BY 4.0 license</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:EMBJ-35-2179.pdf"/><abstract id="embj201694857-abs-0001"><title>Abstract</title><p>Uridylation of various cellular RNA species at the 3&#x02032; end has been generally linked to RNA degradation. In mammals, uridylated pre&#x02010;let&#x02010;7 miRNAs and mRNAs are targeted by the 3&#x02032; to 5&#x02032; exoribonuclease DIS3L2. Mutations in DIS3L2 have been associated with Perlman syndrome and with Wilms tumor susceptibility. Using <italic>in&#x000a0;vivo</italic> cross&#x02010;linking and immunoprecipitation (CLIP) method, we discovered the DIS3L2&#x02010;dependent cytoplasmic uridylome of human cells. We found a broad spectrum of uridylated RNAs including rRNAs, snRNAs, snoRNAs, tRNAs, vault, 7SL, Y RNAs, mRNAs, lncRNAs, and transcripts from pseudogenes. The unifying features of most of these identified RNAs are aberrant processing and the presence of stable secondary structures. Most importantly, we demonstrate that uridylation mediates DIS3L2 degradation of short RNA polymerase II&#x02010;derived RNAs. Our findings establish the role of DIS3L2 and oligouridylation as the cytoplasmic quality control for highly structured ncRNAs.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="embj201694857-kwd-0001">DIS3L2</kwd><kwd id="embj201694857-kwd-0002">ncRNAs</kwd><kwd id="embj201694857-kwd-0003">RNA surveillance</kwd><kwd id="embj201694857-kwd-0004">TSSa</kwd><kwd id="embj201694857-kwd-0005">uridylation</kwd></kwd-group><kwd-group kwd-group-type="subject-categories"><title>Subject Categories</title><kwd>RNA Biology</kwd></kwd-group><funding-group><award-group><funding-source>Wellcome Trust</funding-source><award-id>084316/B/07/Z</award-id></award-group></funding-group><funding-group><award-group><funding-source>Czech Science Foundation</funding-source><award-id>16&#x02010;21341S</award-id><award-id>305/11/1095</award-id></award-group></funding-group><funding-group><award-group><funding-source>Ministry of Education, Youth and Sports</funding-source><award-id>LQ1601</award-id></award-group></funding-group><counts><fig-count count="8"/><table-count count="0"/><page-count count="13"/><word-count count="9288"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>embj201694857</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>17 October 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.7 mode:remove_FC converted:18.11.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="embj201694857-cit-1001">
+<source>The EMBO Journal</source> (<year>2016</year>) <volume>35</volume>: <fpage>2179</fpage>&#x02013;<lpage>2191</lpage>
+<pub-id pub-id-type="pmid">27647875</pub-id></mixed-citation>
+</p></notes></front><body><sec id="embj201694857-sec-0001"><title>Introduction</title><p>Post&#x02010;transcriptional modification of RNAs, by oligonucleotide addition at the 3&#x02032; termini (tailing) or by base modification, has a key function in embryogenesis, cell differentiation, circadian rhythm, immunity, and disease (reviewed in Lee <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0027" ref-type="ref">2014</xref>). Uridine (U)&#x02010;tailing generally results in RNA degradation (Lee <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0027" ref-type="ref">2014</xref>). In mammalian cells, the two best&#x02010;characterized roles of U&#x02010;tailing are in the regulation of let&#x02010;7 miRNA processing (Heo <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0014" ref-type="ref">2008</xref>, <xref rid="embj201694857-bib-0015" ref-type="ref">2009</xref>, <xref rid="embj201694857-bib-0016" ref-type="ref">2012</xref>; Hagan <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0011" ref-type="ref">2009</xref>; Nam <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0037" ref-type="ref">2011</xref>; Thornton <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0049" ref-type="ref">2012</xref>) and the degradation of replication&#x02010;dependent histone mRNAs in the late S&#x02010;phase of the cell cycle (Mullen &#x00026; Marzluff, <xref rid="embj201694857-bib-0036" ref-type="ref">2008</xref>; Schmidt <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0041" ref-type="ref">2011</xref>; Su <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0045" ref-type="ref">2013</xref>; Slevin <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0044" ref-type="ref">2014</xref>). Comprehensive profiling of RNA modifications requires targeted approaches, which only recently have been developed. Initial transcriptome&#x02010;wide studies revealed the presence of one to three uridine residues on several non&#x02010;coding RNAs in human ES cells (Choi <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0005" ref-type="ref">2012</xref>), and more recently, monouridylation of shortened poly(A) tails was implicated in mRNA turnover in yeast and human cells (Rissland &#x00026; Norbury, <xref rid="embj201694857-bib-0040" ref-type="ref">2009</xref>; Malecki <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0032" ref-type="ref">2013</xref>; Lim <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0028" ref-type="ref">2014</xref>). However, non&#x02010;templated uridylation does not always lead to RNA degradation. On the contrary, monouridylation of certain pre&#x02010;miRNAs facilitates DICER processing (Heo <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0016" ref-type="ref">2012</xref>) and oligouridylation of U6 snRNA is an integral part of U6 maturation (Lund &#x00026; Dahlberg, <xref rid="embj201694857-bib-0031" ref-type="ref">1992</xref>; Tazi <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0047" ref-type="ref">1993</xref>).</p><p>At least four mammalian enzymes known as terminal uridyltransferases (TUTs), TUT1/4/7 and GLD&#x02010;2, have the potential to add non&#x02010;templated UMPs to 3&#x02032; RNA termini (reviewed in Lee <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0027" ref-type="ref">2014</xref>; Scott &#x00026; Norbury, <xref rid="embj201694857-bib-0042" ref-type="ref">2013</xref>). For this activity, they often associate with co&#x02010;factors. For example, TUT4 and TUT7 processivity is enhanced upon association with LIN28A/B (Hagan <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0011" ref-type="ref">2009</xref>; Heo <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0015" ref-type="ref">2009</xref>; Thornton <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0049" ref-type="ref">2012</xref>), whereas GLD&#x02010;2 forms a complex with GLD&#x02010;3 (Kwak <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0025" ref-type="ref">2004</xref>). In contrast to the family of TUTases, which seems to be relatively large, only two nucleases that specifically target uridylated tails have been found to date in mammalian cells. They are ERI1/HEXO1, which acts on uridylated histone mRNAs to induce replication&#x02010;dependent decay (Hoefig <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0017" ref-type="ref">2013</xref>) and DIS3L2, which degrades uridylated precursors of let&#x02010;7 miRNA (Chang <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0004" ref-type="ref">2013</xref>; Ustianenko <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0051" ref-type="ref">2013</xref>). Recent studies suggested a broader spectrum of DIS3L2 targets in the context of various stresses. Upon viral infection, TUTase and DIS3L2 are involved in template&#x02010;dependent miRNA degradation (TDMD) (Haas <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0010" ref-type="ref">2016</xref>) and in the decay of improperly processed ncRNAs (Eckwahl <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0007" ref-type="ref">2015</xref>). Moreover, DIS3L2 targets uridylated mRNA cleavage products in apoptotic cells (Abernathy <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0001" ref-type="ref">2015</xref>; Thomas <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0048" ref-type="ref">2015</xref>). The crystal structures of mouse and yeast DIS3L2 have revealed unique residues that allow for the specific recognition of the uridine stretches as well as for its ability to process structured substrates, which is due to the specific shape of its RNA binding funnel (Faehnle <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0008" ref-type="ref">2014</xref>). Interestingly, DIS3L2 is highly processive on structured RNA substrates <italic>in&#x000a0;vitro</italic> (Lubas <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0030" ref-type="ref">2013</xref>; Ustianenko <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0051" ref-type="ref">2013</xref>).</p><p>Several members of these RNA surveillance pathways have been linked to human disease. Elevated expression of LIN28A and TUT4 has been observed in several types of carcinomas (Hallett &#x00026; Hassell, <xref rid="embj201694857-bib-0012" ref-type="ref">2011</xref>; Zhou <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0055" ref-type="ref">2013</xref>). Loss&#x02010;of&#x02010;function germline mutations in the <italic>DIS3L2</italic> gene lead to the Perlman syndrome (Astuti <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0002" ref-type="ref">2012</xref>). Disruption of <italic>DIS3L2</italic> and mutations in the microprocessor complex components in these patients also seems to increase the incidence of Wilms and bilateral tumors (Morris <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0035" ref-type="ref">2013</xref>; Wegert <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0053" ref-type="ref">2015</xref>). In cellular models, impairment of DIS3L2 function leads to severe cell cycle defects (Astuti <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0002" ref-type="ref">2012</xref>). The mechanisms causing these DIS3L2 mutation&#x02010;linked phenotypes are currently unknown.</p><p>In a previous study (Ustianenko <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0051" ref-type="ref">2013</xref>), we have demonstrated that the catalytic site mutant of DIS3L2, D391N, efficiently binds uridylated RNAs <italic>in&#x000a0;vitro</italic> and <italic>in&#x000a0;vivo</italic>. In this work, we used D391N as bait to comprehensively identify the <italic>in&#x000a0;vivo</italic> targets of DIS3L2 by cross&#x02010;linking and immunoprecipitation followed by sequencing (CLIP&#x02010;seq) in HEK293T&#x02010;Rex cells. We thereby identified an extensive set of uridylated RNAs including non&#x02010;coding RNAs such as the small nuclear (sn)RNAs, ribosomal (r)RNAs, transfer (t)RNAs, long non&#x02010;coding (lnc)RNA, vault RNAs, Y RNAs, micro(mi)RNAs, mRNAs, and transcription start site&#x02010;derived RNAs from protein&#x02010;coding gene loci. Together with the biochemical evidence presented here as well as what we previously demonstrated, these data indicate that TUT&#x02010;DIS3L2 are part of a general mechanism of cytoplasmic RNA surveillance and degradation in mammalian cells.</p></sec><sec id="embj201694857-sec-0002"><title>Results</title><sec id="embj201694857-sec-0003"><title>CLIP&#x02010;seq identification of uridylated RNAs bound by mutant DIS3L2</title><p>To identify DIS3L2 RNA targets, we performed CLIP&#x02010;seq analysis with the catalytically inactive DIS3L2 mutant, D391N (Ustianenko <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0051" ref-type="ref">2013</xref>), stably integrated in the HEK293T&#x02010;Rex cell line (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>A). Initial inspection of the sequenced reads revealed that more than 10% possessed 3&#x02032;&#x02010;terminal oligo(U) stretches of median length 6&#x02013;8 nucleotides (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>B). Whereas homomeric stretches of 1&#x02013;3 A, C, or G nucleotides occurred with similar frequencies at the end of the reads, longer homomeric stretches consisted only of uridines (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>B). Consistent with the post&#x02010;transcriptional modification of DIS3L2 targets, 70% of the reads did not map to the human genome (hg19). Thus, to comprehensively annotate these targets, we trimmed the oligo(U) tails from the reads and remapped them to the genome (Fig&#x000a0;<xref rid="embj201694857-fig-0001ev" ref-type="fig">EV1</xref>A). Functional annotation of the reads that had clear evidence of non&#x02010;templated uridylation revealed that the DIS3L2 D391N binds a broad spectrum of U&#x02010;tailed (U+) RNAs (Figs&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>C and <xref rid="embj201694857-fig-0001ev" ref-type="fig">EV1</xref>B, and <xref rid="embj201694857-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV1</xref>). The highest percentage (26%) of U+ reads belonged to the miscellaneous RNA (miscRNA) category, which includes vault RNA, 7SK, Y RNAs, and RNaseP. The other U+ reads mapped to Pol I rRNA (20%), snRNA (16%), mRNA (11%), 5S rRNA (10%), tRNA (6%), miRNA (7%), snoRNA (2%), and lincRNA (&#x0003c;&#x000a0;0.5%) (Figs&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>C and <xref rid="embj201694857-fig-0001ev" ref-type="fig">EV1</xref>B). Although the oligo(U) tails were typically 6&#x02013;8 nucleotides in length (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>B), the average length differed between the target classes (Fig&#x000a0;<xref rid="embj201694857-fig-0001ev" ref-type="fig">EV1</xref>C). Whereas for many classes of RNAs, the U+ reads mapped in the proximity of the 3&#x02032; end of the mature molecule (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>C), in some snoRNAs, mRNAs and lincRNAs U+ reads mapped in the proximity of their 5&#x02032; ends (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>C and see the last paragraph of the Results for more details).</p><fig fig-type="Figure" xml:lang="en" id="embj201694857-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><title>DIS3L2 CLIP identifies broad repertoire of uridylated RNAs</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0002"><list-item><p>SDS&#x02013;PAGE analysis of the D391N DIS3L2&#x02010;RNA complexes. RNAs were radioactively labeled at the 5&#x02032; end, and DIS3L2&#x02010;bound RNAs were detected by autoradiography. The negative control was performed with HEK293T&#x02010;Rex cells (Control)</p></list-item><list-item><p>DIS3L2 CLIP reads possess oligo(U) 3&#x02032; termini. Histograms of reads with 3&#x02032;&#x02010;terminal stretches of identical nucleotides. Only oligo(U) tails longer than four nucleotides are observed.</p></list-item><list-item><p>The untemplated uridylation is mostly found in the proximity of mature 3&#x02032; RNA ends. The heat map shows the coverage of various RNA types by uridylated reads. RNA class and number of uridylated genes/transcripts for each category are indicated at the left. The length of each mature RNA was scaled to 100%.</p></list-item><list-item><p>List of DIS3L2&#x02010;bound uridylated miRNAs with the number of uridylated reads identified in all three replicate CLIPs. Members of the let&#x02010;7 family are shown in bold.</p></list-item><list-item><p>Identification of hybrid reads consisting of the 5&#x02032; and 3&#x02032; arm of pre&#x02010;let&#x02010;7 miRNA. Profile of read coverage along the pre&#x02010;let&#x02010;7 genomic locus is indicated above.</p></list-item><list-item><p>Secondary structure of pre&#x02010;hsa&#x02010;let&#x02010;7i, with both 5p and 3p mature products highlighted in bold. The intramolecular ligation position is indicated in dash line between nt 28 and 61. It corresponds to cleavage positions of RNaseT1, which leaves 3&#x02032;&#x02010;terminal guanosine residues. </p></list-item><list-item><p>D391N DIS3L2 overexpression does not cause abundance changes of CLIPed uridylated RNAs. Scatter plot of transcript abundances estimated from RNA&#x02010;seq from the cell line overexpressing D391N DIS3L2 and control HEK293T&#x02010;Rex cells. CLIPed transcripts are marked in white.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-5" xlink:href="EMBJ-35-2179-g002"/></fig><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201694857-fig-0001ev" orientation="portrait" position="float"><label>Figure EV1</label><caption><title>Analysis of D391N DIS3L2 CLIP</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0006"><list-item><p>Schematic representation of CLIP data analysis.</p></list-item><list-item><p>Percentage of uridylated reads with at least 4Us for various functional categories of RNAs.</p></list-item><list-item><p>Distribution of untemplated oligo(U) extension lengths for reads in various RNA annotation categories.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-7" xlink:href="EMBJ-35-2179-g003"/></fig><p>The majority of DIS3L2&#x02010;bound miRNAs belonged to the let&#x02010;7 family (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>D and <xref rid="embj201694857-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV1</xref>), in line with the previously reported role of TUT&#x02010;DIS3L2 in pre&#x02010;let&#x02010;7 turnover (Hagan <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0011" ref-type="ref">2009</xref>; Chang <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0004" ref-type="ref">2013</xref>; Ustianenko <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0051" ref-type="ref">2013</xref>). Interestingly, a modified mapping protocol (see <xref rid="embj201694857-sec-0008" ref-type="sec">Materials and Methods</xref>) revealed chimeric reads corresponding to ligated 5&#x02032; and 3&#x02032; arms of pre&#x02010;let&#x02010;7 in our CLIP&#x02010;seq data (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>E and F), which demonstrates that DIS3L2 binds to folded pre&#x02010;miRNAs <italic>in&#x000a0;vivo</italic>. Our data further revealed an expanded repertoire of U+ pre&#x02010;miRNA targets, most of which lack an identifiable LIN28A binding motif (<xref rid="embj201694857-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV1</xref>).</p><p>To determine whether DIS3L2 affects the stability of its targets, we compared the transcriptome of D391N&#x02010;expressing and the control HEK293T&#x02010;Rex cells by RNA&#x02010;seq. Although there was an overall small decrease in abundance of RNAs in DIS3L2 D391N&#x02010;expression cells, the CLIPed targets were not distinguishable from non&#x02010;targets in their pattern of expression change upon D391N overexpression (Fig&#x000a0;<xref rid="embj201694857-fig-0001" ref-type="fig">1</xref>G). To summarize, we demonstrated that 3&#x02032;&#x02010;terminal RNA uridylation is a general process relevant for the metabolism of most classes of RNAs, produced by all three nuclear RNA polymerases (RNAPs).</p></sec><sec id="embj201694857-sec-0004"><title>The TUT&#x02010;DIS3L2 surveillance (TDS) targets highly structured aberrant ncRNAs</title><p>More than 70% of the CLIP reads originated in ncRNAs other than miRNAs such as 5S rRNA, snRNAs, snoRNAs, RNaseP, vault RNA, and Y RNAs (Figs&#x000a0;<xref rid="embj201694857-fig-0002" ref-type="fig">2</xref>A and <xref rid="embj201694857-fig-0001ev" ref-type="fig">EV1</xref>B). Significantly, the U+ reads mapped often to non&#x02010;functional transcripts, such as pseudogenes or improperly processed forms (ENSEMBL Release 78, Homo Sapiens, 2014, Fig&#x000a0;<xref rid="embj201694857-fig-0002" ref-type="fig">2</xref>A and <xref rid="embj201694857-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV1</xref>). In several types of ncRNAs, such as snRNAs, vault, or 7SL RNAs, the U+ reads also mapped to regions downstream of the 3&#x02032; mature termini indicating the presence of uridylated 3&#x02032;&#x02010;extended RNAs (Fig&#x000a0;<xref rid="embj201694857-fig-0002" ref-type="fig">2</xref>B and <xref rid="embj201694857-sup-0001" ref-type="supplementary-material">Appendix&#x000a0;Table&#x000a0;S1</xref>). We confirmed these findings on individual snRNAs by RNA immunoprecipitation (RIP) and subsequent sequencing which revealed that DIS3L2 binds trimmed as well as extended forms of snRNAs (Figs&#x000a0;<xref rid="embj201694857-fig-0002" ref-type="fig">2</xref>C and <xref rid="embj201694857-fig-0002ev" ref-type="fig">EV2</xref>A&#x02013;C). The mature and partially trimmed snRNAs mostly lacked uridylation, whereas the 3&#x02032;&#x02010;extended forms contained U+ extensions (Fig&#x000a0;<xref rid="embj201694857-fig-0002" ref-type="fig">2</xref>C and <xref rid="embj201694857-fig-0002ev" ref-type="fig">EV2</xref>B and C). Similar to pre&#x02010;let&#x02010;7, we observed chimeric reads corresponding to known secondary structures on these ncRNAs (Fig&#x000a0;<xref rid="embj201694857-fig-0002" ref-type="fig">2</xref>D and <xref rid="embj201694857-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV1</xref>). As the presence of stable secondary structures appears to be the unifying feature of DIS3L2&#x02010;bound RNAs, we propose that the TUT&#x02010;DIS3L2 surveillance (TDS) is responsible for monitoring and removal of aberrant structured ncRNAs.</p><fig fig-type="Figure" xml:lang="en" id="embj201694857-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><title>TUT&#x02010;DIS3L2 is a surveillance pathway for structured ncRNAs produced by all three RNA polymerases</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0003"><list-item><p>Types of uridylated ncRNAs identified by DIS3L2 CLIP&#x02010;seq.</p></list-item><list-item><p>U+ read coverage in downstream regions of mature U12 snRNA, vault1, and 7SL ncRNAs. The full dark box represents mature ncRNA, and the thin line indicates the region downstream of the mature 3&#x02032; end (extension).</p></list-item><list-item><p>Quantification of DIS3L2 D391N RIP analysis of U12 and U5D snRNAs showing the number of snRNA clones with mature (Mat), extended (ext), or trimmed (Trim) 3&#x02032; end. +U is the number of clones with untemplated 3&#x02032; oligo(U) ends. For more details, see <xref rid="embj201694857-sup-0001" ref-type="supplementary-material">Appendix&#x000a0;Fig&#x000a0;S2</xref>.</p></list-item><list-item><p>An example of hybrid reads (produced by intrastrand ligation of RNaseT1 products during CLIP protocol) for RNU5D snRNA.</p></list-item><list-item><p>U+ reads mapped to the rDNA locus by using the artificial chromosome U13369.1.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-9" xlink:href="EMBJ-35-2179-g004"/></fig><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201694857-fig-0002ev" orientation="portrait" position="float"><label>Figure EV2</label><caption><title>Confirmation of DIS3L2 binding to aberrant forms of snRNAs by RIP followed by Sanger sequencing</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0007"><list-item><p>The scheme showing the uridylated CLIP read coverage on mature snRNAs (in box below the graph) and regions downstream of their mature 3&#x02032; termini (line below the graph). The position of forward PCR primers annealing to the mature snRNAs (U12 F and U5F F) and to the regions downstream of the mature 3&#x02032; end (U12ext F and U5Fext F) is indicated at the bottom.</p></list-item><list-item><p>RT&#x02013;PCR analysis of U12 and U5 snRNAs co&#x02010;precipitated with D391N DIS3L2. D391N&#x02010;bound RNAs were ligated to 3&#x02032;&#x02010;terminal linker. Linker&#x02010;specific primer was used for cDNA synthesis. PCR amplification was performed using the 3&#x02032; adaptor primer and primer specific to mature (U12 F and U5F F) or 3&#x02032;&#x02010;extended (U12ext F and U5Fext F) snRNAs, respectively. &#x02212;RT ctrl is a PCR with RT reactions in which the reverse transcriptase was omitted, and PCR ctrl are controls where no cDNA was added. MW is molecular weight marker in base pairs (bp).</p></list-item><list-item><p>Summary of sequencing results of snRNAs co&#x02010;precipitated with D391N DIS3L2. Both mature and extended snRNA reads are shown, and gene&#x02010;specific primer used for PCR is represented by the white box. The untemplated nucleotides are in red. Point mutations are in small letters, deletions indicated by &#x02212;, for space constrains, the sequences were shortened, and the positions of interruption are indicated by dots. Wherever we identified identical sequences, they are indicated by number of repetitions in brackets on the right.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-11" xlink:href="EMBJ-35-2179-g005"/></fig><p>For RNA polymerase I&#x02010;synthesized rRNAs, most of the U+ reads mapped to the mature rRNA regions, and only few aligned to 5&#x02032; and 3&#x02032; ETS as well as ITS1 and ITS2 (Fig&#x000a0;<xref rid="embj201694857-fig-0002" ref-type="fig">2</xref>E). Because DIS3L2 also associates with polysomes (Lubas <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0030" ref-type="ref">2013</xref>), this may suggest that TDS plays a role in general rRNA turnover.</p></sec><sec id="embj201694857-sec-0005"><title>TDS targets precursor and aberrant forms of tRNAs</title><p>Uridylated aberrant pre&#x02010;tRNAs from host cells have been recently detected in retroviral particles (Eckwahl <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0007" ref-type="ref">2015</xref>). U+ tRNA&#x02010;derived fragments were highly abundant in our D391N CLIP&#x02010;seq data as well (Fig&#x000a0;<xref rid="embj201694857-fig-0001ev" ref-type="fig">EV1</xref>B), mapping to tRNA forms truncated within the T&#x02010;loop or to the 3&#x02032;&#x02010;end tRNA trailers. These extensions are typically cleaved by tRNaseZ (Fig&#x000a0;<xref rid="embj201694857-fig-0003" ref-type="fig">3</xref>A and B). We validated these results by RIP with the WT and D391N DIS3L2. Northern blot analysis of D391N&#x02010;precipitated tRNAVal revealed both slower and faster migrating species compared to mature tRNA signal (Fig&#x000a0;<xref rid="embj201694857-fig-0003" ref-type="fig">3</xref>C). Interestingly, the wild&#x02010;type DIS3L2 co&#x02010;precipitated shorter forms of tRNAs of about 24&#x02013;30 nt in length. These could potentially represent the end&#x02010;products of the DIS3L2 degradation. The DIS3 protein did not precipitate any tRNAs above the background signal, suggesting that exosome is not involved in tRNA surveillance in this context. In agreement with previous reports (Kumar <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0024" ref-type="ref">2014</xref>), 3&#x02032;&#x02010;derived tRNA fragments were immunoprecipitated by AGO2 (Fig&#x000a0;<xref rid="embj201694857-fig-0003" ref-type="fig">3</xref>C). We further validated the results of the bioinformatics analysis by Sanger sequencing of cDNA clones for Leu(TAG) and Val(CAC) tRNAs prepared from the RIPed RNAs. Five out of 20 tRNALeu&#x02010;derived clones mapped to the genomic locus without apparent oligo(U) tails, whereas the remaining 15 clones corresponded to 3&#x02032;&#x02010;truncated tRNALeu possessing untemplated stretches of up to 12 uridines (Fig&#x000a0;<xref rid="embj201694857-fig-0003" ref-type="fig">3</xref>D). We obtained similar results for another tRNA, tRNAVal (Fig&#x000a0;<xref rid="embj201694857-fig-0003" ref-type="fig">3</xref>D). Akin to pre&#x02010;let&#x02010;7 and snRNAs, the sequencing data contained several hybrid reads consisting of two distinct tRNA regions (Fig&#x000a0;<xref rid="embj201694857-fig-0003" ref-type="fig">3</xref>E). Interestingly, 5&#x02032; arms of these hybrids often corresponded to 5&#x02032; tRNA trailers (Fig&#x000a0;<xref rid="embj201694857-fig-0003" ref-type="fig">3</xref>E).</p><fig fig-type="Figure" xml:lang="en" id="embj201694857-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><title>TUT&#x02010;DIS3L2 pathway targets precursor and aberrant forms of tRNAs</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0004"><list-item><p>Schematic representation of the pre&#x02010;tRNA secondary structure.</p></list-item><list-item><p>Uridylated tRNA reads overlap mainly with 3&#x02032; trailers, T&#x02010;loop, and anticodon loop regions. Heat map showing the coverage of uridylated reads on pre&#x02010;tRNAs. The pre&#x02010;tRNA subregions (as indicated in A) are in small letters on the <italic>x</italic>&#x02010;axis.</p></list-item><list-item><p>Northern blot analysis of RNAs immunoprecipitated with Flag&#x02010;tagged WT (DIS3L2) and D391N (MUT) DIS3L2, AGO2, and DIS3, respectively. The blots were probed with radioactively labeled probes for 5&#x02032; and 3&#x02032; ends of mature tRNAVal, respectively.</p></list-item><list-item><p>Sequencing of MUT DIS3L2&#x02010;bound tRNAVal and tRNALeu confirmed the uridylation status of the tRNA fragments identified by CLIP&#x02010;seq. Genomic sequence for each tRNA is indicated at the top with the 3&#x02032; trailer region separated by a vertical line. Non&#x02010;templated uridine residues are in red.</p></list-item><list-item><p>Identification of hybrid reads (produced by intrastrand ligation of RNaseT1 products during CLIP protocol) mapping to tRNAPhe(GAA) and tRNAAsn(GTT) genes. To the right, the schematic representation of selected hybrid reads with corresponding color&#x02010;code.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-13" xlink:href="EMBJ-35-2179-g006"/></fig><p>To test which of the known TUTases might be responsible for the uridylation of tRNAs, we compared the <italic>in&#x000a0;vitro</italic> uridylation activities of purified TUT1, TUT4, and TUT7 using the tRNA fragment (tRF) as a substrate (Fig&#x000a0;<xref rid="embj201694857-fig-0003ev" ref-type="fig">EV3</xref>A). Whereas the activity of TUT1 was very weak, TUT7 catalyzed addition of long poly(U) tails. TUT4 modified the tRF with 10&#x02013;20 UMPs, which most closely resembled the oligo(U) tails identified on RNAs in our CLIP data (Fig&#x000a0;<xref rid="embj201694857-fig-0003ev" ref-type="fig">EV3</xref>A). Moreover, the TUT4 activity enhanced the DIS3L2 degradation of tRFs <italic>in&#x000a0;vitro</italic> (Fig&#x000a0;<xref rid="embj201694857-fig-0002ev" ref-type="fig">EV2</xref>B). These results suggested that TUT4 might be one of the enzymes acting in the TDS pathway. However, more extensive studies <italic>in&#x000a0;vivo</italic> are needed to reveal the involvement of the individual TUTases in this surveillance pathway.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201694857-fig-0003ev" orientation="portrait" position="float"><label>Figure EV3</label><caption><title>TUT4 can uridylate tRNAs and TUT4 activity enhances tRNA degradation by DIS3L2</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0008"><list-item><p>
+<italic>In vitro</italic> uridylation assay with TUTases 4, 6, and 7 purified from human cells and a Leu tRNA fragment (tRFLeu) as a template.</p></list-item><list-item><p>Coupled, <italic>in&#x000a0;vitro</italic> uridylation/degradation assay. 5&#x02032;&#x02010;end&#x02010;labeled tRFLeu was incubated with wild&#x02010;type (WT) or catalytically inactive (DADA) TUT4 for 40&#x000a0;min in the presence of 0.25&#x000a0;mM UTP. Subsequently, the WT or mutant DIS3L2 was added and the reactions were stopped after times indicated at the top of the panel. The RNAs were resolved on 20% denaturing acrylamide gel, and radioactivity was detected by autoradiography. The migration position of the input tRFLeu, the uridylated forms and the degradation products, is marked on the left side.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-15" xlink:href="EMBJ-35-2179-g007"/></fig></sec><sec id="embj201694857-sec-0006"><title>Short promoter proximal RNAP II transcripts are degraded by TDS</title><p>We next examined the position of U+ mRNA reads with respect to the coding regions. We observed a striking pattern of uridylated reads mapping to either 5&#x02032; or 3&#x02032; UTRs (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>A). All U+ reads mapping to 3&#x02032; UTRs originated from terminal stem&#x02010;loops of histone mRNAs (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>B), consistent with previous reports on the role of uridylation in histone mRNA turnover (Mullen &#x00026; Marzluff, <xref rid="embj201694857-bib-0036" ref-type="ref">2008</xref>; Schmidt <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0041" ref-type="ref">2011</xref>; Su <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0045" ref-type="ref">2013</xref>; Slevin <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0044" ref-type="ref">2014</xref>). However, our data revealed novel uridylated 5&#x02032; mRNA fragments (U+ 5&#x02032; mRf), which corresponded to a variety of mRNAs (<xref rid="embj201694857-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV1</xref>). A large fraction of U+ 5&#x02032; mRfs extended from the first exon to the first intron, which indicated that uridylation occurred on unspliced pre&#x02010;mRNAs (<xref rid="embj201694857-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV1</xref>, exon&#x02010;intron sheet). We were able to validate the existence of U+ 5&#x02032; mRf independently of DIS3L2 binding by RT&#x02013;PCR and sequencing of low molecular weight RNA isolated from control HEK293T&#x02010;Rex cells (Figs&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>C and <xref rid="embj201694857-fig-0004ev" ref-type="fig">EV4</xref>A and B). We analyzed 30 clones of the OAT 5&#x02032; mRfs PCR products from each, the control and D391N overexpressing cells. Sequencing analysis revealed that more than 60% of fragments in D391N&#x02010;oex cells contained untemplated oligo(U) tails (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>C), whereas only one clone from the control 293T cells had oligo(U) extension longer than three Us (Fig&#x000a0;<xref rid="embj201694857-fig-0004ev" ref-type="fig">EV4</xref>A). This demonstrated that overexpression of inactive DIS3L2 leads to U+ 5&#x02032; mRfs upregulation. To further investigate the role of DIS3L2 in the turnover of U+ 5&#x02032; mRfs, we prepared DIS3L2 knockout (KO) cell line by using the CRISPR&#x02010;Cas9 approach (Ran <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0039" ref-type="ref">2013</xref>; Hsu <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0020" ref-type="ref">2014</xref>). To test to what extent is the enzymatic activity involved in the turnover of U+ RNAs, we stably reintroduced the wild&#x02010;type (WT) or D391N mutant DIS3L2 to the KO cell line. As loading controls, we used PCR products of amplification products of the mature regions of 5S rRNA and 7SL RNA, because correctly processed functional ncRNAs do not appear to be targets of TDS. The levels of mature 5S rRNA and 7SL RNA remained unchanged in all cell lines tested. Notably, DIS3L2 depletion by KO resulted in accumulation of OAT and RPL12 U+ 5&#x02032; mRfs as well as upregulation of the 3&#x02032;&#x02010;extended forms of U12 snRNA (RNU12ext) (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>D). This upregulation was strongly augmented by the additional overexpression of mutant DIS3L2 in KO cells. Conversely, reintroduction of the WT DIS3L2 resulted in reduction of the aberrant U+ RNAs signal to levels comparable to control HEK293T cells (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>D). These results strongly support the conclusion that uridylated RNAs identified by the D391N CLIP&#x02010;seq analysis are direct targets of DIS3L2 and that DIS3L2 is involved in their decay.</p><fig fig-type="Figure" xml:lang="en" id="embj201694857-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><title>DIS3L2 targets short uridylated transcripts originating from mRNA transcription start sites</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0005"><list-item><p>DIS3L2&#x02010;bound uridylated mRNA reads map to the 5&#x02032; and 3&#x02032; UTRs.</p></list-item><list-item><p>Most 3&#x02032; UTR U+ reads match the stem&#x02010;loop structure of histone mRNAs. Heat map representation of the uridylation position.</p></list-item><list-item><p>The uridylated aberrant RNAs are stabilized in cells with non&#x02010;functional DIS3L2. Small RNAs were modified with 3&#x02032;&#x02010;end linker, and linker&#x02010;specific primer was used for cDNA synthesis. Uridylated RNAs were PCR amplified in a semiquantitative way with the same amount of input RNA used for the RT reaction. We used a combination of the gene&#x02010; and linker&#x02010;specific primers, &#x02212;RT ctrl is RT&#x02013;PCR control, where no reverse transcriptase was added; PCR control is a reaction with no cDNA added. The graph on the right summarizes the percentage of uridylated and non&#x02010;uridylated 5&#x02032; fragments of OAT mRNA in HEK293T&#x02010;Rex cells (Ctrl) and cells overexpressing mutant DIS3L2 (D391N). Bands marked with * are unspecific primer&#x02013;dimer PCR products.</p></list-item><list-item><p>DIS3L2&#x02010;bound uridylated RNAs are degraded by DIS3L2 <italic>in&#x000a0;vivo</italic>. RT&#x02013;PCR amplification of 5&#x02032; mRfs of OAT and RPL12 genes and 3&#x02032;&#x02010;extended forms of U12 snRNA (RNU12 ext) from HEK293T cell lines with modified expression of DIS3L2 (as marked on top) was performed as described in (C). Regions of mature 5S rRNA and 7SL RNA were used as loading controls. DIS3L2 KO is a DIS3L2 knockout cell line. DIS3L2 rescue is DIS3L2 KO cells with stably integrated mutant (D391N) and wild&#x02010;type (WT) DIS3L2 expressing constructs, respectively. Bands marked with * are unspecific primer&#x02013;dimer PCR products.</p></list-item><list-item><p>Metagene analysis of the position of DIS3L2 D391N clipped U+ reads peak maximum around mRNA transcription start sites (TSS) and of the ChIP&#x02010;seq data for RNAP II.</p></list-item><list-item><p>U+&#x000a0;5&#x02032; mRfs and aberrant forms of U12 snRNA are highly enriched in the cytoplasm. RT&#x02013;PCR detection of 5&#x02032; mRfs of the OAT and RPL12 and aberrant form of U12 snRNA was performed as described in (C) with RNA isolated from nuclear and cytoplasmic fractions, respectively. The RT&#x02013;PCR amplification of the body of 5S rRNA was used as a positive control for RNA isolation and RT reaction in both fractions. The identity and uridylation status of cytoplasmic OAT U+ 5&#x02032; mRfs was confirmed by sequencing (shown on the bottom). In red are untemplated nucleotides, in green region corresponding to the first intron of OAT pre&#x02010;mRNA. The efficiency of the subcellular fractionation was monitored by Western blot (right panel, WB). DDX5 is nucleoplasmic, ACO2 is mitochondrial, and DIS3L2 and TUB&#x003b1; are cytoplasmic markers.</p></list-item></list>
+</p><p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p></caption><graphic id="nlm-graphic-17" xlink:href="EMBJ-35-2179-g008"/></fig><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201694857-fig-0004ev" orientation="portrait" position="float"><label>Figure EV4</label><caption><title>DIS3L2 binds short uridylated transcripts derived from promoters of protein&#x02010;coding genes (U+&#x000a0;5&#x02032; mRFs)</title><p>
+<list list-type="alpha-upper" id="embj201694857-list-0009"><list-item><p>RT&#x02013;PCR and sequencing analysis of the small RNA fraction isolated from the control HEK293T&#x02010;Rex cell line and the cell line overexpressing D391N DIS3L2 (D391N&#x02010;oex). Identification of uridylated transcripts of the <italic>OAT</italic> gene independent of DIS3L2 binding. The mature (spliced) first two exons are indicated below the graph together with the position of the translation start site (ATG). Gene&#x02010;specific primer is represented by the white box. The untemplated 3&#x02032;&#x02010;terminal nucleotides detected by sequencing are shown in red. The numbers in brackets on the right indicate number of clones with identical sequences. Several clones from the D391N&#x02010;oex cell line revealed uridylated unspliced transcripts that contained the first exon and part of intron 1 (schematically shown in the lower scheme).</p></list-item><list-item><p>Identification of uridylated transcripts of <italic>RPL12</italic> and <italic>RPS12</italic> genes. The results are represented as described in (A).</p></list-item><list-item><p>D391N DIS3L2 overexpression does not cause differential expression of protein&#x02010;coding genes with DIS3L2&#x02010;bound 5&#x02032; UTR fragments. Scatter plot of transcript abundances estimated from RNA&#x02010;seq from the cell line overexpressing D391N DIS3L2 and control HEK293T&#x02010;Rex cells. CLIPed transcripts are marked in white.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-19" xlink:href="EMBJ-35-2179-g009"/></fig><p>Next, we aimed to investigate what leads to the production of the uridylated 5&#x02032; mRNA fragments. We noticed that the following features of U+ 5&#x02032; mRfs are shared with the so&#x02010;called transcription start site&#x02010;associated short RNAs (TSSas): (i) close proximity to mRNA transcription start sites (TSS), (ii) frequent spanning to introns, and (iii) binding of DIS3L2 to U+ 5&#x02032; mRf did not correlate with changes in respective mRNA expression upon DIS3L2 inactivation (Fig&#x000a0;<xref rid="embj201694857-fig-0004ev" ref-type="fig">EV4</xref>C). TSSas arise from both up and downstream of human bidirectional RNAPII promoters, as a result of RNAPII stalling and premature transcription termination (Seila <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0043" ref-type="ref">2008</xref>; Taft <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0046" ref-type="ref">2009</xref>; Valen <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0052" ref-type="ref">2011</xref>; Ntini <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0038" ref-type="ref">2013</xref>). D391N CLIPed U+ reads revealed peaks at positions +50 in sense and 200 in antisense orientation from mRNA TSS. These coincide precisely with the centers of peaks of stalling RNAPII (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>E) and have identical location with previously reported 3&#x02032; ends of TSSa (Seila <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0043" ref-type="ref">2008</xref>). We next performed subcellular fractionation of D391&#x02010;oex cell line (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>F) to test whether TSSa&#x02010;like U+ 5&#x02032; mRfs are targeted by DIS3L2 in the cytoplasm. The RT&#x02013;PCR analysis of RNAs isolated from nuclear and cytoplasmic fractions revealed strong accumulation of OAT and RPL12 5&#x02032; mRfs in the cytoplasm. The RT&#x02013;PCR amplification of the body of 5S rRNA was used as a positive control for RNA isolation and RT reaction in both fractions. The subsequent sequencing of several clones revealed that OAT 5&#x02032; mRfs amplified from the cytoplasmic, but not nuclear factions were uridylated (Fig&#x000a0;<xref rid="embj201694857-fig-0004" ref-type="fig">4</xref>F). In summary, our data demonstrated that at least a subset of TSSa RNAs are targets of the TDS pathway and that DIS3L2 is directly involved in their turnover in the cytoplasm.</p></sec></sec><sec id="embj201694857-sec-0007"><title>Discussion</title><p>Eukaryotic cells have evolved a number of mechanisms for RNA quality control, which come into play when faulty transcription or processing leads to aberrant RNAs. Here, we reveal for the first time an extensive catalog of oligouridylated mammalian RNAs. Moreover, we show that TUTase&#x02010;DIS3L2 Surveillance (TDS) is a general pathway of cytoplasmic quality control for structured, mammalian ncRNAs. Uridylation and DIS3L2 were previously implicated in the rapid mRNA turnover in response to various stresses, such as viral infections or apoptosis (Abernathy <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0001" ref-type="ref">2015</xref>; Eckwahl <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0007" ref-type="ref">2015</xref>; Thomas <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0048" ref-type="ref">2015</xref>; Haas <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0010" ref-type="ref">2016</xref>). Here, however, we demonstrate that TDS is a constitutive machine that monitors an extensive repertoire of short as well as long ncRNAs in normal, unstressed conditions. In the yeast nucleus, an analogous TRAMP&#x02010;exosome pathway controls degradation of a wide range of aberrant transcripts. We thus propose that eukaryotes possess subcellular compartment&#x02010;specific mechanisms to deal with non&#x02010;functional RNAs, both involving the tagging of target RNAs with homo&#x02010;oligonucleotide runs. Nuclear surveillance involves oligo(A) tagging, whereas cytoplasmic utilizes oligouridylation.</p><p>The DIS3L2&#x02010;bound uridylome revealed that TDS deals with many types of RNAs which are incompletely processed. Importantly, we captured U+ transcripts from a number of pseudogenes. We carefully inspected the mapping of U+ reads to these loci to ensure their correct annotation as pseudogenes. For 5S rRNA and other rRNAs, which occur in multiple genomic copies, assigning the reads to the appropriate loci is problematic. Nevertheless, after detailed manual inspection of 5S rRNA alignments, we concluded that TDS indeed targets transcripts from pseudogenes. The unifying feature of the DIS3L2&#x02010;bound RNAs is that they are uridylated at positions that are close to stable secondary structures. We could even capture these as chimeric reads generated through intramolecular ligations during the CLIP protocol. The ligations occurred next to 5&#x02032; G nucleotides, reflecting the specificity of the RNase T1 treatment during CLIP. Although the captured intramolecular contacts mostly corresponded to structural elements present in mature RNAs, we also obtained hybrids reflecting tertiary contacts in tRNAs. This implies that aberrant RNAs mostly acquire known conformations and that TUTase/s are capable of adding UMPs to highly structured molecules. In some cases, DIS3L2 may target aberrant species independently of post&#x02010;transcriptional uridylation. In our data, we are not able to distinguish untemplated extensions from encoded 3&#x02032;&#x02010;terminal Us of RNAPIII transcripts. However, the length of oligo(U) stretches on these transcripts rarely extended beyond the genome&#x02010;encoded U tract. Thus, it is possible that terminators may serve as a signal for DIS3L2 targeting. During the revision process of this manuscript, a study was published also showing that uridylation and DIS3L2 mediate quality control of non&#x02010;coding RNAs, such as snRNAs or Y RNAs (Labno <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0026" ref-type="ref">2016</xref>).</p><p>Recent reports implicated monouridylation and stress&#x02010;induced oligouridylation in mammalian mRNA turnover (Abernathy <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0001" ref-type="ref">2015</xref>; Kim <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0021" ref-type="ref">2015</xref>; Thomas <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0048" ref-type="ref">2015</xref>). Our study however revealed yet another role of TDS in decay of transcripts from protein&#x02010;coding genes. We uncovered an interesting set of uridylated forms of sense and antisense promoter proximal transcripts known as TSSas or tiny RNAs (Seila <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0043" ref-type="ref">2008</xref>; Taft <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0046" ref-type="ref">2009</xref>). Surprisingly, TSSas are not degraded by exosomes (Valen <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0052" ref-type="ref">2011</xref>; Ntini <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0038" ref-type="ref">2013</xref>). Therefore, TUT&#x02010;DIS3L2 appears to be the main degradation mechanism for these short transcripts. Our D391N DIS3L2 CLIP also broadened the repertoire of uridylated pre&#x02010;miRNAs. Most of the non&#x02010;let&#x02010;7 pre&#x02010;miRNAs seem to lack any LIN28A&#x02010;binding motif, which suggests that other cofactors facilitate their oligouridylation. The two most represented pre&#x02010;miRNAs other than let&#x02010;7 were miR&#x02010;484 and miR&#x02010;320. Interestingly, these pre&#x02010;miRNAs are processed in a Drosha&#x02010;independent manner from TSS&#x02010;proximal prematurely terminated transcripts of protein&#x02010;coding genes (Xie <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0054" ref-type="ref">2013</xref>; Kim <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0022" ref-type="ref">2016</xref>). Although we cannot exclude the possibility that miR&#x02010;484 and miR&#x02010;320 mapping U+ reads are in fact TSSas, these findings suggest a novel role for TDS in the regulation of alternative miRNA processing pathways.</p></sec><sec id="embj201694857-sec-0008"><title>Materials and Methods</title><sec id="embj201694857-sec-0009"><title>Cross&#x02010;linking and Immunoprecipitation (CLIP)</title><p>For the CLIP analysis, we used the previously described stable cell line of human embryonic kidney cells (HEK293T&#x02010;Rex, Invitrogen) with inducible expression of human catalytically inactive form of DIS3L2 D391N that possess C&#x02010;terminal fusion 3xFlag tag (Ustianenko <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0051" ref-type="ref">2013</xref>). The CLIP protocol was a modification of the protocol described in Ule <italic>et&#x000a0;al</italic> (<xref rid="embj201694857-bib-0050" ref-type="ref">2005</xref>). The cells were grown in DMEM and DIS3L2&#x02010;Flag expression was induced 12&#x000a0;h before harvesting. Cells were washed with 1&#x000d7;&#x000a0;PBS and exposed to 400&#x000a0;mJ of 365&#x000a0;nm UV. Cells were collected, frozen in liquid nitrogen, and stored at &#x02212;80&#x000b0;C. The subsequent steps of the CLIP protocol were performed with minor changes as described in Martin <italic>et&#x000a0;al</italic> (<xref rid="embj201694857-bib-0034" ref-type="ref">2012</xref>). Briefly, cells were lysed in lysis buffer (LB, containing 50&#x000a0;mM Tris pH 7.5, 0.5% Triton X&#x02010;100, 150&#x000a0;mM NaCl, supplemented with 1&#x000a0;mM DTT, protease inhibitor cocktail (Roche), and RNase inhibitor RNAsin (Promega)) and the insoluble fraction was sediment by centrifugation. FLAG&#x02010;tagged DIS3L2 was immunoprecipitated using anti&#x02010;FLAG M2 monoclonal antibody (Sigma) coupled to Protein G Dynabeads (Invitrogen). Bound protein&#x02013;RNA complexes were extensively washed with LB containing 800&#x000a0;mM NaCl. The extracts bound to the beads were then split in two halves. One&#x02010;half was treated with 1&#x000a0;unit/ml and the other aliquot with 5&#x000a0;units/ml of RNase T1 (Ambion, AM2283) for 10&#x000a0;min at 22&#x000b0;C, both parallels were cooled on ice and subsequently pooled back together. The extracts bound to the beads were further treated with 2&#x000a0;units of alkaline phosphatase (Fast&#x02010;AP, Fermentas). The cross&#x02010;linked RNAs were radiolabeled with polynucleotide kinase (T4 PNK, NEB) and gamma&#x02010;<sup>32</sup>P ATP. The 5&#x02032; adaptor (5&#x02032;&#x02010;rGrUrUrCrArGrArGrUrUrCrUrArCrArGrUrCrCrGrArCrGrArUrC&#x02010;3&#x02032;) was ligated to the bound RNA with T4 RNA ligase (Fermentas) in buffer containing 25% PEG 8000 at 16&#x000b0;C overnight. Protein&#x02013;RNA complexes were resolved on a 4&#x02013;12% gradient SDS&#x02013;PAGE (NuPAGE, Invitrogen), and the region corresponding to the region above migration position of DIS3L2&#x02010;Flag was cut out from the gel and eluted with proteinase K&#x02010;containing elution buffer (50&#x000a0;mM Tris pH 7.5, 50&#x000a0;mM NaCl, 10&#x000a0;mM EDTA, 2&#x000a0;M urea, 2&#x000a0;mg/ml proteinase K) at 50&#x000b0;C for 2&#x000a0;h. RNAs were then ligated to the 3&#x02032; adaptor (5&#x02032;&#x02010;rAppAGATCGGAAGAGCACACGTCT&#x02010;NH2&#x02010;3&#x02032;). RNA was size fractionated on 8% polyacrylamide/8 M urea gel. RNA fragments of the length of 70&#x02013;110 nt were excised and extracted from the gel. Reverse transcription was done with a 3&#x02032; primer (5&#x02032;&#x02010;AGACGTGTGCTCTTCCGATCT&#x02010;3&#x02032;) and Superscript III reverse transcriptase (Invitrogen). The resulting cDNA was used as a template for PCR amplification (5&#x02032; Primer: 5&#x02032;&#x02010;AATGATACGGCGACCACCGAGATCTACACGTTCAGAGTTCTACAGTCCG&#x02010;s&#x02010;A&#x02010;3&#x02032;). The PCR products were sequenced on the Illumina 2000 sequencer.</p></sec><sec id="embj201694857-sec-0010"><title>Bioinformatics analyses of the CLIPseq results</title><p>Mapping of DIS3L2 mutant CLIP replicates to the reference genome GRCh37/hg19 was performed with the Segemehl software (Hoffmann <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0018" ref-type="ref">2009</xref>). After initial mapping, reads that could not be mapped were trimmed of 3&#x02032;&#x02010;terminal stretches of more than three Ts stretches and mapping was repeated. All reads that mapped uniquely to the genome at one of these two steps were compared with the reference genome to identify untemplated poly(T) tails. For more details and statistical analyses, see <xref rid="embj201694857-sup-0001" ref-type="supplementary-material">Appendix&#x000a0;Supplementary Methods</xref>.</p></sec><sec id="embj201694857-sec-0011"><title>Gene annotation</title><p>Based on the human genome annotation, reads that mapped to annotated regions of the genome were assigned to the following annotation categories (listed here in order of their priority in our annotation procedure): tRNA &#x02192; miRNA &#x02192; snRNA &#x02192; 5S rRNA &#x02192; miscRNA &#x02192; snoRNA &#x02192; mRNA &#x02192; lincRNA. The tRNA and miRNA genes were annotated with miRBase (Kozomara &#x00026; Griffiths&#x02010;Jones, <xref rid="embj201694857-bib-0023" ref-type="ref">2014</xref>) database for miRNA and GtRNAdb (Chan &#x00026; Lowe, <xref rid="embj201694857-bib-0003" ref-type="ref">2009</xref>) for tRNA. The basic set of GENCODE tracks (Harrow <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0013" ref-type="ref">2012</xref>) were used for the remainder of the gene annotations. To allow annotation of potential pre&#x02010;tRNA transcripts, tRNA genes were extended by 60 nt upstream and downstream of mature tRNAs.</p></sec><sec id="embj201694857-sec-0012"><title>Immunoprecipitaion of FLAG&#x02010;tagged DIS3L2 from human cells</title><p>Cells were resuspended in 4&#x000a0;ml of ice&#x02010;cold lysis buffer (50&#x000a0;mM Tris pH 8.0, 150&#x000a0;mM NaCl, 0.5% Triton X&#x02010;100 and Complete Protease Inhibitor Cocktail (Roche)) and incubated rocking at 4&#x000b0;C for 15&#x000a0;min. Lysate was cleared by centrifugation (10,000&#x000a0;<italic>g</italic>, 30&#x000a0;min, 4&#x000b0;C). For purification of FLAG&#x02010;DIS3L2, 100&#x000a0;&#x003bc;l of anti&#x02010;FLAG M2 beads (Sigma&#x02010;Aldrich) washed with lysis buffer was incubated with cell extracts for 1&#x000a0;h in a cold room rotating. Beads were extensively washed with 10 volumes of wash buffer (50&#x000a0;mM Tris pH 8.0, 300&#x000a0;mM NaCl, 0.1% Triton X&#x02010;100). Depending on the downstream application, proteins were eluted with one volume of 3&#x000d7;FLAG peptide (Sigma&#x02010;Aldrich) resuspended in lysis buffer or by boiling with SDS loading buffer for 5&#x000a0;min.</p></sec><sec id="embj201694857-sec-0013"><title>RNA immunoprecipitation</title><p>Cells were grown to 80% confluence, washed with ice&#x02010;cold PBS, and UV cross&#x02010;linked (400&#x000a0;mJ, 254&#x000a0;nm). Cells were lysed in buffer containing 150&#x000a0;mM NaCl, 50&#x000a0;mM Tris pH 7.6, 0.5% Triton X&#x02010;100, supplemented with protease inhibitors (EDTA&#x02010;free Complete Protease Inhibitor Cocktail, Roche), 0.5&#x000a0;mM EDTA, 1&#x000a0;mM DTT, RNasin (Promega). Lysates were cleared by centrifugation, and supernatants were applied on FLAG M2 Magnetic beads (Sigma) and incubated for 60&#x000a0;min. The bound fractions were washed two times with lysis buffer containing 150&#x000a0;mM NaCl and two times with 300&#x000a0;mM NaCl. RNA was eluted by treating whole beads with 2&#x000a0;mg/ml proteinase K (NEB) for 120&#x000a0;min at 37&#x000b0;C and subsequently phenol/chloroform extracted and ethanol precipitated.</p></sec><sec id="embj201694857-sec-0014"><title>Preparation of DIS3L2 knockout cell line by CRISPR/Cas9</title><p>DIS3L2 knockout (K.O.) HEK293T cell line was prepared by using CRISPR/Cas9 technology as described in Ran <italic>et&#x000a0;al</italic> (<xref rid="embj201694857-bib-0039" ref-type="ref">2013</xref>). Briefly, CRISPR guide sequences targeting the <italic>DIS3L2</italic> gene (A: CGGAGGTTCATTCTGTAGTCAGG, B: GGACCCCCAGAGGTAGTAAAAGG, C: CCAATAATGAGCCATCCTGACTA, D: CCAATAATGAGCCATCCTGACTA) were cloned in pSpCas9n vector. We applied the double nickase technology using several pairs of CRISPRs to reduce the amount of off&#x02010;target effects (pair 1&#x02014;AB guides, pair 2&#x02014;BC guides, pair 3&#x02014;CD guides). The disruption of the open reading frame in mutant <italic>DIS3L2</italic> mRNA was confirmed by direct measurement of DIS3L2 protein expression by Western blot.</p></sec><sec id="embj201694857-sec-0015"><title>Preparation of cDNA libraries for RNAseq analysis</title><p>The control HEK293T&#x02010;Rex FlipIn cells, and cells overexpressing WT or mutant DIS3L2, and DIS3 K.O., were maintained in Dulbecco's modified Eagle's medium (DMEM), supplemented with 10% fetal calf serum at 37&#x000b0;C in the presence of 5% CO<sub>2</sub>. Overexpression of Dis3L2 WT and DIS3L2 MUT were induced with 100&#x000a0;ng/ml of doxycycline for 24&#x000a0;h. Total RNA was isolated with TriPure Isolation Reagent (Roche) according to manufacturer's instructions, followed by RNase&#x02010;free TURBO DNase (Ambion) treatment. Ribosomal RNA was depleted from 4&#x000a0;&#x003bc;g of total RNA treated with TURBO DNase using the RiboMinus<sup>TM</sup> Eukaryote System v2 (Ambion) following the manufacturer's procedure. Efficiency of rRNA removal and concentration of rRNA&#x02010;depleted RNA was monitored by Bioanalyzer 2100 (Agilent Technologies) using RNA 6000 Pico Kit. Sequencing libraries for whole transcriptome analysis were prepared using ScriptSeq<sup>&#x02122;</sup> v2 RNA&#x02010;Seq Library Preparation Kit (Epicentre Biotechnologies) following the manufacturer's procedure. After the 3&#x02032;&#x02010;terminal tagging, the di&#x02010;tagged cDNA was purified using MinElute PCR Purification Kit (Qiagen). Three 6&#x02010;base index sequences were used to prepare bar&#x02010;coded libraries for sample multiplexing (ScriptSeq<sup>&#x02122;</sup> Index PCR Primers (Set 1); Epicentre Biotechnologies). PCR was carried out through 15 cycles to generate the second strand of cDNA, incorporate barcodes, and amplify libraries. A concluding Bioanalyzer 2100 run with the High Sensitivity DNA Kit (Agilent Technologies) that allows the analysis of DNA libraries regarding size, purity, and concentration completed the workflow of library preparation. The three RNA&#x02010;seq libraries were then multiplexed in a single lane and sequenced on an Illumina HiSeq2000 using 50&#x02010;bp single&#x02010;end sequencing chemistry.</p></sec><sec id="embj201694857-sec-0016"><title>RNA&#x02010;seq analysis</title><p>Raw reads were subjected to adapter trimming using the tool cutadapt (Martin, <xref rid="embj201694857-bib-0033" ref-type="ref">2011</xref>). Processed reads were aligned to the human transcriptome (hg38/GRCh38; ENSEMBL; merged sequences from protein&#x02010;coding and non&#x02010;coding RNA transcripts) (Cunningham <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0006" ref-type="ref">2015</xref>) using the Segemehl software (Hoffmann <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0018" ref-type="ref">2009</xref>). The estimation of the transcript expression as well as the differential expression (DE) analysis was done using the BitSeq software package (Glaus <italic>et&#x000a0;al</italic>, <xref rid="embj201694857-bib-0009" ref-type="ref">2012</xref>).</p></sec><sec id="embj201694857-sec-0017"><title>Northern blot analysis</title><p>Total RNA was resolved on 10% denaturing polyacrylamide gel and transferred to Hybond&#x02010;N+ membrane (GE Healthcare) by electroblotting (Bio&#x02010;Rad). The hybridization with radioactively labeled oligonucleotides was performed in ULTRAhyb&#x02010;oligo hybridization buffer (Ambion) at 38&#x000b0;C. Prior to addition of the labeled probe, the membrane was prehybridized at 42&#x000b0;C for 2&#x000a0;h. The radioactive signal was monitored by phosphorimager FLA&#x02010;9000 (FUJIFILM). Quantification of signals was done using Multi Gauge software v3.2 (FUJIFILM).</p></sec><sec id="embj201694857-sec-0018"><title>RNA isolation and PCR amplification of 5&#x02032; mRNA fragments (5&#x02032; UTR PCR)</title><p>Small RNA was isolated from indicated cell lines grown to 80&#x02013;90% confluence treated with doxycycline (100&#x000a0;ng/ml of medium) using TriPure Isolation Reagent (Roche) followed by selective RNA precipitation. Fraction of RNA larger than 500 nt was first precipitated with 0.5 volume of 75% EtOH at room temperature for 10&#x000a0;min, followed by centrifugation (12,000&#x000a0;<italic>g</italic>, 4&#x000b0;C, 8&#x000a0;min.). The remaining small RNA in the supernatant was then precipitated with 0.7 volumes of isopropanol at 4&#x000b0;C for 30&#x000a0;min. followed by centrifugation (12,000&#x000a0;<italic>g</italic>, 4&#x000b0;C, 30&#x000a0;min). Small RNA fraction was treated with Turbo DNase (Ambion) extracted by phenol/chloroform and precipitated by isopropanol. 3&#x02032; pre&#x02010;adenylated DNA linker ligation was performed using T4 RNA Ligase2, truncated K227Q (New England BioLabs) according to manufacturer's instructions. Briefly, 2&#x000a0;&#x003bc;g of small RNA was incubated with 2&#x000a0;&#x003bc;l of 10&#x000a0;&#x003bc;M L3AppDNA linker (5rApp/AGATCGGAAGAGCACACGTCT/3ddC, IDT) and 200&#x000a0;U of the ligase in 20&#x000a0;&#x003bc;l of total reaction volume at 16&#x000b0;C overnight. RNA was reverse&#x02010;transcribed with SuperScript RTIII (Invitrogen) using RT&#x02010;CLIP2 primer and PCR amplified with gene&#x02010;specific primers (<xref rid="embj201694857-sup-0001" ref-type="supplementary-material">Appendix&#x000a0;Table&#x000a0;S2</xref>). To make the PCR semiquantitative and comparable between different cell lines, same amounts of RNA were used for linker ligation step and master mixes were used whenever possible.</p></sec><sec id="embj201694857-sec-0019"><title>PCR amplification of snRNAs</title><p>After RNA immunoprecipitation, the isolated RNA was ligated with L3AppDNA linker (as in 5&#x02032; UTR PCR) and reverse&#x02010;transcribed for 50&#x000a0;min. at 60&#x000b0;C using TGIRT&#x02010;III (InGex) and RT&#x02010;CLIP2 primer following manufacturer's instructions. PCR was performed with RT&#x02010;CLIP2 and indicated gene&#x02010;specific primers (<xref rid="embj201694857-sup-0001" ref-type="supplementary-material">Appendix&#x000a0;Table&#x000a0;S2</xref>).</p></sec><sec id="embj201694857-sec-0020"><title>Subcellular fractionation</title><p>Subcellular fractionation was performed with minor modifications as described in Holden &#x00026; Horton (<xref rid="embj201694857-bib-0019" ref-type="ref">2009</xref>) and Liu &#x00026; Fagotto (<xref rid="embj201694857-bib-0029" ref-type="ref">2011</xref>). HEK293T cells (or modified as indicated in particular experiment) were grown to 75% confluency on 10&#x02010;cm dish and induced with 100&#x000a0;ng/ml of doxycycline for 24&#x000a0;h. Cells were washed with cold 1&#x000d7;&#x000a0;PBS on the dish and permeabilized with digitonin (in solution containing 45&#x000a0;&#x003bc;g/ml digitonin, 10&#x000a0;mM DTT, and 10&#x000a0;mM MgCl<sub>2</sub> in 1&#x000d7; NEH buffer) and incubated gently rocking at 4&#x000b0;C for 10&#x000a0;min. The released cytoplasmic fraction was collected from the dish and cleared by centrifugation at 500&#x000a0;<italic>g</italic> for 3&#x000a0;min. 1.5&#x000a0;ml TRI&#x02010;reagent LS (Sigma) was added to 500&#x000a0;&#x003bc;l of the supernatant for subsequent isolation of the small RNA by selective precipitation as described above. Residues of the cells on the dish were washed with ice&#x02010;cold 1&#x000d7;&#x000a0;PBS and collected by scrapping in 1&#x000a0;ml of Buffer 2 (150&#x000a0;mM NaCl, 50&#x000a0;mM HEPES pH 7.4, 1% NP&#x02010;40). After 30&#x02010;min incubation on ice, nuclei were pelleted by centrifugation at 7,000&#x000a0;<italic>g</italic> for 15&#x000a0;min. The supernatant, which contained other organelles, was transferred to a new tube. The pellet was washed with cold 1&#x000d7;&#x000a0;PBS and kept as the nuclear fraction. An aliquot from each fraction was used for a Western blot analysis. The cytoplasmic, nuclear, and organellar fractions were then used for small RNA isolation by selective precipitation as described above.</p></sec><sec id="embj201694857-sec-0021"><title>Antibodies used in this work</title><p>Anti&#x02010;FLAG M2 mouse monoclonal Ab, Sigma&#x02010;Aldrich, cat. no. F3165; anti&#x02010;alpha&#x02010;tubulin mouse monoclonal Ab, Sigma, cat. no. T6074; anti&#x02010;ACO2 (D6D9) XP rabbit monoclonal Ab, Cell Signalling Technologies, cat. no. 6571; anti&#x02010;DDX5 (D15E10) XP rabbit monoclonal Ab, Cell Signalling Technologies, cat. no. 9877; anti&#x02010;rabbit IgG HRP polyclonal secondary Ab, Promega, cat. no. W4011; anti&#x02010;mouse IgG HRP polyclonal secondary Ab, Promega, cat. no. W4021; anti&#x02010;DIS3L2 rabbit polyclonal Ab, produced by Moravian Biotechnology, assay (WB) specific test in Ustianenko <italic>et&#x000a0;al</italic> (<xref rid="embj201694857-bib-0051" ref-type="ref">2013</xref>).</p></sec><sec id="embj201694857-sec-0022"><title>High&#x02010;throughput sequencing accession code</title><p>Raw and processed data of CLIP and RNAseq experiments can be found in GEO database under accession code GSE81537.</p></sec></sec><sec id="embj201694857-sec-0024"><title>Author contributions</title><p>SV conceived, designed and interpreted experiments, and supervised the project. DU performed, analyzed, and interpreted the CLIP&#x02010;seq analyses, JP designed and performed the bioinformatics analyses, ZF performed CLIP&#x02010;seq validation experiments of ncRNAs and TSSas and helped with the manuscripts preparation, LB performed initial bioinformatics analyses, DZ performed cell fractionation and subsequent RNA analyses, and AF prepared stable cell lines, RNAs, and cDNA libraries for high&#x02010;throughput sequencing. MZ helped with the design and interpretation of bioinformatics analyses and manuscript preparation. SV, DU, and JP wrote the manuscript.</p></sec><sec id="embj201694857-sec-0025"><title>Conflict of interest</title><p>The authors declare that they have no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"/><supplementary-material content-type="local-data" id="embj201694857-sup-0001"><caption><p>Appendix</p></caption><media xlink:href="EMBJ-35-2179-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="embj201694857-sup-0002"><caption><p>Expanded View Figures PDF</p></caption><media xlink:href="EMBJ-35-2179-s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="embj201694857-sup-0004"><caption><p>Table&#x000a0;EV1</p></caption><media xlink:href="EMBJ-35-2179-s003.xls"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Review Process File</p></caption><media xlink:href="EMBJ-35-2179-s005.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="embj201694857-supp-data-0001"><caption><p>Source Data for Figure 4</p></caption><media xlink:href="EMBJ-35-2179-s004.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="embj201694857-sec-0023"><title>Acknowledgements</title><p>The authors thank Leona Kledrowetzova for excellent technical assistance and all members of Vanacova laboratory for useful discussions. We thank Torben Jensen for DIS3 and Bernd&#x02010;Joachim Benecke for TUT1 expression constructs, Georges Martin for the initial help with stable cell line preparation and CLIP protocol optimization, and Mary O'Connell for reading the manuscript. Computational resources were provided by the CESNET LM2015042 and the CERIT Scientific Cloud LM2015085, provided under the program &#x0201c;Projects of Projects of Large Research, Development, and Innovations Infrastructures&#x0201d;. This work was supported by the Wellcome Trust (084316/B/07/Z to S.V.), by the Czech Science Foundation (16&#x02010;21341S to S.V., and J.P. was supported from 305/11/1095), and by the Ministry of Education, Youth and Sports of the Czech Republic under the project CEITEC 2020 (LQ1601).</p></ack><ref-list content-type="cited-references" id="embj201694857-bibl-0001"><title>References</title><ref id="embj201694857-bib-0001"><mixed-citation publication-type="journal" id="embj201694857-cit-0001">
+<string-name>
+<surname>Abernathy</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Gilbertson</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Alla</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Glaunsinger</surname>
+<given-names>B</given-names>
+</string-name> (<year>2015</year>) <article-title>Viral Nucleases Induce an mRNA Degradation&#x02010;Transcription Feedback Loop in Mammalian Cells</article-title>. <source>Cell Host Microbe</source>
+<volume>18</volume>: <fpage>243</fpage>&#x02013;<lpage>253</lpage>
+<pub-id pub-id-type="pmid">26211836</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0002"><mixed-citation publication-type="journal" id="embj201694857-cit-0002">
+<string-name>
+<surname>Astuti</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Morris</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Cooper</surname>
+<given-names>WN</given-names>
+</string-name>, <string-name>
+<surname>Staals</surname>
+<given-names>RH</given-names>
+</string-name>, <string-name>
+<surname>Wake</surname>
+<given-names>NC</given-names>
+</string-name>, <string-name>
+<surname>Fews</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name>
+<surname>Gill</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Gentle</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Shuib</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ricketts</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Cole</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>van Essen</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>van Lingen</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Neri</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Opitz</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Rump</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Stolte&#x02010;Dijkstra</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Muller</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Pruijn</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name>
+<surname>Latif</surname>
+<given-names>F</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic>&#x000a0;(<year>2012</year>) <article-title>Germline mutations in DIS3L2 cause the Perlman syndrome&#x000a0;of overgrowth and Wilms tumor susceptibility</article-title>. <source>Nat Genet</source>
+<volume>44</volume>: <fpage>277</fpage>&#x02013;<lpage>284</lpage>
+<pub-id pub-id-type="pmid">22306653</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0003"><mixed-citation publication-type="journal" id="embj201694857-cit-0003">
+<string-name>
+<surname>Chan</surname>
+<given-names>PP</given-names>
+</string-name>, <string-name>
+<surname>Lowe</surname>
+<given-names>TM</given-names>
+</string-name> (<year>2009</year>) <article-title>GtRNAdb: a database of transfer RNA genes detected in genomic sequence</article-title>. <source>Nucleic Acids Res</source>
+<volume>37</volume>: <fpage>D93</fpage>&#x02013;<lpage>D97</lpage>
+<pub-id pub-id-type="pmid">18984615</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0004"><mixed-citation publication-type="journal" id="embj201694857-cit-0004">
+<string-name>
+<surname>Chang</surname>
+<given-names>HM</given-names>
+</string-name>, <string-name>
+<surname>Triboulet</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Thornton</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Gregory</surname>
+<given-names>RI</given-names>
+</string-name> (<year>2013</year>) <article-title>A role for the Perlman syndrome exonuclease Dis3l2 in the Lin28&#x02010;let&#x02010;7 pathway</article-title>. <source>Nature</source>
+<volume>497</volume>: <fpage>244</fpage>&#x02013;<lpage>248</lpage>
+<pub-id pub-id-type="pmid">23594738</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0005"><mixed-citation publication-type="journal" id="embj201694857-cit-0005">
+<string-name>
+<surname>Choi</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name>
+<surname>Patena</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Leavitt</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name>
+<surname>McManus</surname>
+<given-names>MT</given-names>
+</string-name> (<year>2012</year>) <article-title>Widespread RNA 3&#x02032;&#x02010;end oligouridylation in mammals</article-title>. <source>RNA</source>
+<volume>18</volume>: <fpage>394</fpage>&#x02013;<lpage>401</lpage>
+<pub-id pub-id-type="pmid">22291204</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0006"><mixed-citation publication-type="journal" id="embj201694857-cit-0006">
+<string-name>
+<surname>Cunningham</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Amode</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Barrell</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Beal</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Billis</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Brent</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Carvalho&#x02010;Silva</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Clapham</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Coates</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Fitzgerald</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Gil</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Giron</surname>
+<given-names>CG</given-names>
+</string-name>, <string-name>
+<surname>Gordon</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hourlier</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Hunt</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Janacek</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Juettemann</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Kahari</surname>
+<given-names>AK</given-names>
+</string-name>, <string-name>
+<surname>Keenan</surname>
+<given-names>S</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>Ensembl 2015</article-title>. <source>Nucleic Acids Res</source>
+<volume>43</volume>: <fpage>D662</fpage>&#x02013;<lpage>D669</lpage>
+<pub-id pub-id-type="pmid">25352552</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0007"><mixed-citation publication-type="journal" id="embj201694857-cit-0007">
+<string-name>
+<surname>Eckwahl</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Sim</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Telesnitsky</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Wolin</surname>
+<given-names>SL</given-names>
+</string-name> (<year>2015</year>) <article-title>A retrovirus packages nascent host noncoding RNAs from a novel surveillance pathway</article-title>. <source>Genes Dev</source>
+<volume>29</volume>: <fpage>646</fpage>&#x02013;<lpage>657</lpage>
+<pub-id pub-id-type="pmid">25792599</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0008"><mixed-citation publication-type="journal" id="embj201694857-cit-0008">
+<string-name>
+<surname>Faehnle</surname>
+<given-names>CR</given-names>
+</string-name>, <string-name>
+<surname>Walleshauser</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Joshua&#x02010;Tor</surname>
+<given-names>L</given-names>
+</string-name> (<year>2014</year>) <article-title>Mechanism of Dis3l2 substrate recognition in the Lin28&#x02010;let&#x02010;7 pathway</article-title>. <source>Nature</source>
+<volume>514</volume>: <fpage>252</fpage>&#x02013;<lpage>256</lpage>
+<pub-id pub-id-type="pmid">25119025</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0009"><mixed-citation publication-type="journal" id="embj201694857-cit-0009">
+<string-name>
+<surname>Glaus</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Honkela</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rattray</surname>
+<given-names>M</given-names>
+</string-name> (<year>2012</year>) <article-title>Identifying differentially expressed transcripts from RNA&#x02010;seq data with biological variation</article-title>. <source>Bioinformatics</source>
+<volume>28</volume>: <fpage>1721</fpage>&#x02013;<lpage>1728</lpage>
+<pub-id pub-id-type="pmid">22563066</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0010"><mixed-citation publication-type="journal" id="embj201694857-cit-0010">
+<string-name>
+<surname>Haas</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Cetin</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Messmer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Chane&#x02010;Woon&#x02010;Ming</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Terenzi</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Chicher</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kuhn</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hammann</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Pfeffer</surname>
+<given-names>S</given-names>
+</string-name> (<year>2016</year>) <article-title>Identification of factors involved in target RNA&#x02010;directed microRNA degradation</article-title>. <source>Nucleic Acids Res</source>
+<volume>44</volume>: <fpage>2873</fpage>&#x02013;<lpage>2887</lpage>
+<pub-id pub-id-type="pmid">26809675</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0011"><mixed-citation publication-type="journal" id="embj201694857-cit-0011">
+<string-name>
+<surname>Hagan</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Piskounova</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Gregory</surname>
+<given-names>RI</given-names>
+</string-name> (<year>2009</year>) <article-title>Lin28 recruits the TUTase Zcchc11 to inhibit let&#x02010;7 maturation in mouse embryonic stem cells</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>16</volume>: <fpage>1021</fpage>&#x02013;<lpage>1025</lpage>
+<pub-id pub-id-type="pmid">19713958</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0012"><mixed-citation publication-type="journal" id="embj201694857-cit-0012">
+<string-name>
+<surname>Hallett</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name>
+<surname>Hassell</surname>
+<given-names>JA</given-names>
+</string-name> (<year>2011</year>) <article-title>E2F1 and KIAA0191 expression predicts breast cancer patient survival</article-title>. <source>BMC Res Notes</source>
+<volume>4</volume>: <fpage>95</fpage>
+<pub-id pub-id-type="pmid">21453498</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0013"><mixed-citation publication-type="journal" id="embj201694857-cit-0013">
+<string-name>
+<surname>Harrow</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Frankish</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Gonzalez</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Tapanari</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Diekhans</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kokocinski</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Aken</surname>
+<given-names>BL</given-names>
+</string-name>, <string-name>
+<surname>Barrell</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Zadissa</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Searle</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Barnes</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Bignell</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Boychenko</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Hunt</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Kay</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Mukherjee</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Rajan</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Despacio&#x02010;Reyes</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Saunders</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Steward</surname>
+<given-names>C</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>GENCODE: the reference human genome annotation for The ENCODE Project</article-title>. <source>Genome Res</source>
+<volume>22</volume>: <fpage>1760</fpage>&#x02013;<lpage>1774</lpage>
+<pub-id pub-id-type="pmid">22955987</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0014"><mixed-citation publication-type="journal" id="embj201694857-cit-0014">
+<string-name>
+<surname>Heo</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Joo</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Cho</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ha</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Han</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>VN</given-names>
+</string-name> (<year>2008</year>) <article-title>Lin28 mediates the terminal uridylation of let&#x02010;7 precursor MicroRNA</article-title>. <source>Mol Cell</source>
+<volume>32</volume>: <fpage>276</fpage>&#x02013;<lpage>284</lpage>
+<pub-id pub-id-type="pmid">18951094</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0015"><mixed-citation publication-type="journal" id="embj201694857-cit-0015">
+<string-name>
+<surname>Heo</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Joo</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>YK</given-names>
+</string-name>, <string-name>
+<surname>Ha</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Yoon</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Cho</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Yeom</surname>
+<given-names>KH</given-names>
+</string-name>, <string-name>
+<surname>Han</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>VN</given-names>
+</string-name> (<year>2009</year>) <article-title>TUT4 in concert with Lin28 suppresses microRNA biogenesis through pre&#x02010;microRNA uridylation</article-title>. <source>Cell</source>
+<volume>138</volume>: <fpage>696</fpage>&#x02013;<lpage>708</lpage>
+<pub-id pub-id-type="pmid">19703396</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0016"><mixed-citation publication-type="journal" id="embj201694857-cit-0016">
+<string-name>
+<surname>Heo</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Ha</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Lim</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Yoon</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Park</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Kwon</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name>
+<surname>Chang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>VN</given-names>
+</string-name> (<year>2012</year>) <article-title>Mono&#x02010;uridylation of pre&#x02010;microRNA as a key step in the biogenesis of group II let&#x02010;7 microRNAs</article-title>. <source>Cell</source>
+<volume>151</volume>: <fpage>521</fpage>&#x02013;<lpage>532</lpage>
+<pub-id pub-id-type="pmid">23063654</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0017"><mixed-citation publication-type="journal" id="embj201694857-cit-0017">
+<string-name>
+<surname>Hoefig</surname>
+<given-names>KP</given-names>
+</string-name>, <string-name>
+<surname>Rath</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Heinz</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name>
+<surname>Wolf</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Dameris</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Schepers</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Kremmer</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Ansel</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name>
+<surname>Heissmeyer</surname>
+<given-names>V</given-names>
+</string-name> (<year>2013</year>) <article-title>Eri1 degrades the stem&#x02010;loop of oligouridylated histone mRNAs to induce replication&#x02010;dependent decay</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>20</volume>: <fpage>73</fpage>&#x02013;<lpage>81</lpage>
+<pub-id pub-id-type="pmid">23202588</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0018"><mixed-citation publication-type="journal" id="embj201694857-cit-0018">
+<string-name>
+<surname>Hoffmann</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Otto</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kurtz</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Sharma</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Khaitovich</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Vogel</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stadler</surname>
+<given-names>PF</given-names>
+</string-name>, <string-name>
+<surname>Hackermuller</surname>
+<given-names>J</given-names>
+</string-name> (<year>2009</year>) <article-title>Fast mapping of short sequences with mismatches, insertions and deletions using index structures</article-title>. <source>PLoS Comput Biol</source>
+<volume>5</volume>: <fpage>e1000502</fpage>
+<pub-id pub-id-type="pmid">19750212</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0019"><mixed-citation publication-type="journal" id="embj201694857-cit-0019">
+<string-name>
+<surname>Holden</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Horton</surname>
+<given-names>WA</given-names>
+</string-name> (<year>2009</year>) <article-title>Crude subcellular fractionation of cultured mammalian cell lines</article-title>. <source>BMC Res Notes</source>
+<volume>2</volume>: <fpage>1</fpage>&#x02013;<lpage>10</lpage>
+<pub-id pub-id-type="pmid">19121226</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0020"><mixed-citation publication-type="journal" id="embj201694857-cit-0020">
+<string-name>
+<surname>Hsu</surname>
+<given-names>PD</given-names>
+</string-name>, <string-name>
+<surname>Lander</surname>
+<given-names>ES</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>F</given-names>
+</string-name> (<year>2014</year>) <article-title>Development and applications of CRISPR&#x02010;Cas9 for genome engineering</article-title>. <source>Cell</source>
+<volume>157</volume>: <fpage>1262</fpage>&#x02013;<lpage>1278</lpage>
+<pub-id pub-id-type="pmid">24906146</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0021"><mixed-citation publication-type="journal" id="embj201694857-cit-0021">
+<string-name>
+<surname>Kim</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Ha</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Loeff</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Chang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Simanshu</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Fareh</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Patel</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Joo</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>VN</given-names>
+</string-name> (<year>2015</year>) <article-title>TUT7 controls the fate of precursor microRNAs by using three different uridylation mechanisms</article-title>. <source>EMBO J</source>
+<volume>34</volume>: <fpage>1801</fpage>&#x02013;<lpage>1815</lpage>
+<pub-id pub-id-type="pmid">25979828</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0022"><mixed-citation publication-type="journal" id="embj201694857-cit-0022">
+<string-name>
+<surname>Kim</surname>
+<given-names>YK</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>VN</given-names>
+</string-name> (<year>2016</year>) <article-title>Re&#x02010;evaluation of the roles of DROSHA, Exportin 5, and DICER in microRNA biogenesis</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>113</volume>: <fpage>E1881</fpage>&#x02013;<lpage>E1889</lpage>
+<pub-id pub-id-type="pmid">26976605</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0023"><mixed-citation publication-type="journal" id="embj201694857-cit-0023">
+<string-name>
+<surname>Kozomara</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Griffiths&#x02010;Jones</surname>
+<given-names>S</given-names>
+</string-name> (<year>2014</year>) <article-title>miRBase: annotating high confidence microRNAs using deep sequencing data</article-title>. <source>Nucleic Acids Res</source>
+<volume>42</volume>: <fpage>D68</fpage>&#x02013;<lpage>D73</lpage>
+<pub-id pub-id-type="pmid">24275495</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0024"><mixed-citation publication-type="journal" id="embj201694857-cit-0024">
+<string-name>
+<surname>Kumar</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Anaya</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Mudunuri</surname>
+<given-names>SB</given-names>
+</string-name>, <string-name>
+<surname>Dutta</surname>
+<given-names>A</given-names>
+</string-name> (<year>2014</year>) <article-title>Meta&#x02010;analysis of tRNA derived RNA fragments reveals that they are evolutionarily conserved and associate with AGO proteins to recognize specific RNA targets</article-title>. <source>BMC Biol</source>
+<volume>12</volume>: <fpage>78</fpage>
+<pub-id pub-id-type="pmid">25270025</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0025"><mixed-citation publication-type="journal" id="embj201694857-cit-0025">
+<string-name>
+<surname>Kwak</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Ballantyne</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kimble</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Wickens</surname>
+<given-names>M</given-names>
+</string-name> (<year>2004</year>) <article-title>Mammalian GLD&#x02010;2 homologs are poly(A) polymerases</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>101</volume>: <fpage>4407</fpage>&#x02013;<lpage>4412</lpage>
+<pub-id pub-id-type="pmid">15070731</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0026"><mixed-citation publication-type="journal" id="embj201694857-cit-0026">
+<string-name>
+<surname>Labno</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Warkocki</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Kulinski</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Krawczyk</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name>
+<surname>Bijata</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Tomecki</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Dziembowski</surname>
+<given-names>A</given-names>
+</string-name> (<year>2016</year>) <article-title>Perlman syndrome nuclease DIS3L2 controls cytoplasmic non&#x02010;coding RNAs and provides surveillance pathway for maturing snRNAs</article-title>. <source>Nucleic Acids Res</source> doi: <ext-link ext-link-type="doi" xlink:href="10.1093/nar/gkw649">10.1093/nar/gkw649</ext-link>
+</mixed-citation></ref><ref id="embj201694857-bib-0027"><mixed-citation publication-type="journal" id="embj201694857-cit-0027">
+<string-name>
+<surname>Lee</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>VN</given-names>
+</string-name> (<year>2014</year>) <article-title>Emerging roles of RNA modification: m(6)A and U&#x02010;tail</article-title>. <source>Cell</source>
+<volume>158</volume>: <fpage>980</fpage>&#x02013;<lpage>987</lpage>
+<pub-id pub-id-type="pmid">25171402</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0028"><mixed-citation publication-type="journal" id="embj201694857-cit-0028">
+<string-name>
+<surname>Lim</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ha</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Chang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Kwon</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name>
+<surname>Simanshu</surname>
+<given-names>DK</given-names>
+</string-name>, <string-name>
+<surname>Patel</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>VN</given-names>
+</string-name> (<year>2014</year>) <article-title>Uridylation by TUT4 and TUT7 marks mRNA for degradation</article-title>. <source>Cell</source>
+<volume>159</volume>: <fpage>1365</fpage>&#x02013;<lpage>1376</lpage>
+<pub-id pub-id-type="pmid">25480299</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0029"><mixed-citation publication-type="journal" id="embj201694857-cit-0029">
+<string-name>
+<surname>Liu</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Fagotto</surname>
+<given-names>F</given-names>
+</string-name> (<year>2011</year>) <article-title>A method to separate nuclear, cytosolic, and membrane&#x02010;associated signaling molecules in cultured cells</article-title>. <source>Sci Signal</source>
+<volume>4</volume>: <fpage>pl2</fpage>
+<pub-id pub-id-type="pmid">22169476</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0030"><mixed-citation publication-type="journal" id="embj201694857-cit-0030">
+<string-name>
+<surname>Lubas</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Damgaard</surname>
+<given-names>CK</given-names>
+</string-name>, <string-name>
+<surname>Tomecki</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Cysewski</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name>
+<surname>Dziembowski</surname>
+<given-names>A</given-names>
+</string-name> (<year>2013</year>) <article-title>Exonuclease hDIS3L2 specifies an exosome&#x02010;independent 3&#x02032;&#x02010;5&#x02032; degradation pathway of human cytoplasmic mRNA</article-title>. <source>EMBO J</source>
+<volume>32</volume>: <fpage>1855</fpage>&#x02013;<lpage>1868</lpage>
+<pub-id pub-id-type="pmid">23756462</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0031"><mixed-citation publication-type="journal" id="embj201694857-cit-0031">
+<string-name>
+<surname>Lund</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Dahlberg</surname>
+<given-names>JE</given-names>
+</string-name> (<year>1992</year>) <article-title>Cyclic 2&#x02032;,3&#x02032;&#x02010;phosphates and nontemplated nucleotides at the 3&#x02032; end of spliceosomal U6 small nuclear RNA's</article-title>. <source>Science</source>
+<volume>255</volume>: <fpage>327</fpage>&#x02013;<lpage>330</lpage>
+<pub-id pub-id-type="pmid">1549778</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0032"><mixed-citation publication-type="journal" id="embj201694857-cit-0032">
+<string-name>
+<surname>Malecki</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Viegas</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name>
+<surname>Carneiro</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Golik</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Dressaire</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Ferreira</surname>
+<given-names>MG</given-names>
+</string-name>, <string-name>
+<surname>Arraiano</surname>
+<given-names>CM</given-names>
+</string-name> (<year>2013</year>) <article-title>The exoribonuclease Dis3L2 defines a novel eukaryotic RNA degradation pathway</article-title>. <source>EMBO J</source>
+<volume>32</volume>: <fpage>1842</fpage>&#x02013;<lpage>1854</lpage>
+<pub-id pub-id-type="pmid">23503588</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0033"><mixed-citation publication-type="journal" id="embj201694857-cit-0033">
+<string-name>
+<surname>Martin</surname>
+<given-names>M</given-names>
+</string-name> (<year>2011</year>) <article-title>Cutadapt removes adapter sequences from high&#x02010;throughput sequencing reads</article-title>. <source>EMBnetjournal</source>
+<volume>17</volume>: <fpage>10</fpage>&#x02013;<lpage>12</lpage>
+</mixed-citation></ref><ref id="embj201694857-bib-0034"><mixed-citation publication-type="journal" id="embj201694857-cit-0034">
+<string-name>
+<surname>Martin</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Gruber</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name>
+<surname>Keller</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Zavolan</surname>
+<given-names>M</given-names>
+</string-name> (<year>2012</year>) <article-title>Genome&#x02010;wide analysis of pre&#x02010;mRNA 3&#x02032; end processing reveals a decisive role of human cleavage factor I in the regulation of 3&#x02032; UTR length</article-title>. <source>Cell Rep</source>
+<volume>1</volume>: <fpage>753</fpage>&#x02013;<lpage>763</lpage>
+<pub-id pub-id-type="pmid">22813749</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0035"><mixed-citation publication-type="journal" id="embj201694857-cit-0035">
+<string-name>
+<surname>Morris</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Astuti</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Maher</surname>
+<given-names>ER</given-names>
+</string-name> (<year>2013</year>) <article-title>Perlman syndrome: overgrowth, Wilms tumor predisposition and DIS3L2</article-title>. <source>Am J Med Genet C Semin Med Genet</source>
+<volume>163C</volume>: <fpage>106</fpage>&#x02013;<lpage>113</lpage>
+<pub-id pub-id-type="pmid">23613427</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0036"><mixed-citation publication-type="journal" id="embj201694857-cit-0036">
+<string-name>
+<surname>Mullen</surname>
+<given-names>TE</given-names>
+</string-name>, <string-name>
+<surname>Marzluff</surname>
+<given-names>WF</given-names>
+</string-name> (<year>2008</year>) <article-title>Degradation of histone mRNA requires oligouridylation followed by decapping and simultaneous degradation of the mRNA both 5&#x02032; to 3&#x02032; and 3&#x02032; to 5&#x02032;</article-title>. <source>Genes Dev</source>
+<volume>22</volume>: <fpage>50</fpage>&#x02013;<lpage>65</lpage>
+<pub-id pub-id-type="pmid">18172165</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0037"><mixed-citation publication-type="journal" id="embj201694857-cit-0037">
+<string-name>
+<surname>Nam</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Gregory</surname>
+<given-names>RI</given-names>
+</string-name>, <string-name>
+<surname>Chou</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Sliz</surname>
+<given-names>P</given-names>
+</string-name> (<year>2011</year>) <article-title>Molecular basis for interaction of let&#x02010;7 microRNAs with Lin28</article-title>. <source>Cell</source>
+<volume>147</volume>: <fpage>1080</fpage>&#x02013;<lpage>1091</lpage>
+<pub-id pub-id-type="pmid">22078496</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0038"><mixed-citation publication-type="journal" id="embj201694857-cit-0038">
+<string-name>
+<surname>Ntini</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Jarvelin</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name>
+<surname>Bornholdt</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Boyd</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Jorgensen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Andersson</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Hoof</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Schein</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Andersen</surname>
+<given-names>PR</given-names>
+</string-name>, <string-name>
+<surname>Andersen</surname>
+<given-names>PK</given-names>
+</string-name>, <string-name>
+<surname>Preker</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Valen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Pelechano</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Steinmetz</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Sandelin</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>TH</given-names>
+</string-name> (<year>2013</year>) <article-title>Polyadenylation site&#x02010;induced decay of upstream transcripts enforces promoter directionality</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>20</volume>: <fpage>923</fpage>&#x02013;<lpage>928</lpage>
+<pub-id pub-id-type="pmid">23851456</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0039"><mixed-citation publication-type="journal" id="embj201694857-cit-0039">
+<string-name>
+<surname>Ran</surname>
+<given-names>FA</given-names>
+</string-name>, <string-name>
+<surname>Hsu</surname>
+<given-names>PD</given-names>
+</string-name>, <string-name>
+<surname>Wright</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Agarwala</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Scott</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>F</given-names>
+</string-name> (<year>2013</year>) <article-title>Genome engineering using the CRISPR&#x02010;Cas9 system</article-title>. <source>Nat Protoc</source>
+<volume>8</volume>: <fpage>2281</fpage>&#x02013;<lpage>2308</lpage>
+<pub-id pub-id-type="pmid">24157548</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0040"><mixed-citation publication-type="journal" id="embj201694857-cit-0040">
+<string-name>
+<surname>Rissland</surname>
+<given-names>OS</given-names>
+</string-name>, <string-name>
+<surname>Norbury</surname>
+<given-names>CJ</given-names>
+</string-name> (<year>2009</year>) <article-title>Decapping is preceded by 3&#x02032; uridylation in a novel pathway of bulk mRNA turnover</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>16</volume>: <fpage>616</fpage>&#x02013;<lpage>623</lpage>
+<pub-id pub-id-type="pmid">19430462</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0041"><mixed-citation publication-type="journal" id="embj201694857-cit-0041">
+<string-name>
+<surname>Schmidt</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>West</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Norbury</surname>
+<given-names>CJ</given-names>
+</string-name> (<year>2011</year>) <article-title>The human cytoplasmic RNA terminal U&#x02010;transferase ZCCHC11 targets histone mRNAs for degradation</article-title>. <source>RNA</source>
+<volume>17</volume>: <fpage>39</fpage>&#x02013;<lpage>44</lpage>
+<pub-id pub-id-type="pmid">21051505</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0042"><mixed-citation publication-type="journal" id="embj201694857-cit-0042">
+<string-name>
+<surname>Scott</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Norbury</surname>
+<given-names>CJ</given-names>
+</string-name> (<year>2013</year>) <article-title>RNA decay via 3&#x02032; uridylation</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1829</volume>: <fpage>654</fpage>&#x02013;<lpage>665</lpage>
+<pub-id pub-id-type="pmid">23385389</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0043"><mixed-citation publication-type="journal" id="embj201694857-cit-0043">
+<string-name>
+<surname>Seila</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Calabrese</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Levine</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Yeo</surname>
+<given-names>GW</given-names>
+</string-name>, <string-name>
+<surname>Rahl</surname>
+<given-names>PB</given-names>
+</string-name>, <string-name>
+<surname>Flynn</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Sharp</surname>
+<given-names>PA</given-names>
+</string-name> (<year>2008</year>) <article-title>Divergent transcription from active promoters</article-title>. <source>Science</source>
+<volume>322</volume>: <fpage>1849</fpage>&#x02013;<lpage>1851</lpage>
+<pub-id pub-id-type="pmid">19056940</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0044"><mixed-citation publication-type="journal" id="embj201694857-cit-0044">
+<string-name>
+<surname>Slevin</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name>
+<surname>Meaux</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Welch</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Bigler</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Miliani de Marval</surname>
+<given-names>PL</given-names>
+</string-name>, <string-name>
+<surname>Su</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Rhoads</surname>
+<given-names>RE</given-names>
+</string-name>, <string-name>
+<surname>Prins</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name>
+<surname>Marzluff</surname>
+<given-names>WF</given-names>
+</string-name> (<year>2014</year>) <article-title>Deep sequencing shows multiple oligouridylations are required for 3&#x02032; to 5&#x02032; degradation of histone mRNAs on polyribosomes</article-title>. <source>Mol Cell</source>
+<volume>53</volume>: <fpage>1020</fpage>&#x02013;<lpage>1030</lpage>
+<pub-id pub-id-type="pmid">24656133</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0045"><mixed-citation publication-type="journal" id="embj201694857-cit-0045">
+<string-name>
+<surname>Su</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Slepenkov</surname>
+<given-names>SV</given-names>
+</string-name>, <string-name>
+<surname>Slevin</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name>
+<surname>Lyons</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Ziemniak</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kowalska</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Darzynkiewicz</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Jemielity</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Marzluff</surname>
+<given-names>WF</given-names>
+</string-name>, <string-name>
+<surname>Rhoads</surname>
+<given-names>RE</given-names>
+</string-name> (<year>2013</year>) <article-title>mRNAs containing the histone 3&#x02032; stem&#x02010;loop are degraded primarily by decapping mediated by oligouridylation of the 3&#x02032; end</article-title>. <source>RNA</source>
+<volume>19</volume>: <fpage>1</fpage>&#x02013;<lpage>16</lpage>
+<pub-id pub-id-type="pmid">23188809</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0046"><mixed-citation publication-type="journal" id="embj201694857-cit-0046">
+<string-name>
+<surname>Taft</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Glazov</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name>
+<surname>Cloonan</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Simons</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Stephen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Faulkner</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name>
+<surname>Lassmann</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Forrest</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name>
+<surname>Grimmond</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Schroder</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Irvine</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Arakawa</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Nakamura</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kubosaki</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Hayashida</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Kawazu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Murata</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Nishiyori</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Fukuda</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kawai</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2009</year>) <article-title>Tiny RNAs associated with transcription start sites in animals</article-title>. <source>Nat Genet</source>
+<volume>41</volume>: <fpage>572</fpage>&#x02013;<lpage>578</lpage>
+<pub-id pub-id-type="pmid">19377478</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0047"><mixed-citation publication-type="journal" id="embj201694857-cit-0047">
+<string-name>
+<surname>Tazi</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Forne</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Jeanteur</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Cathala</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Brunel</surname>
+<given-names>C</given-names>
+</string-name> (<year>1993</year>) <article-title>Mammalian U6 small nuclear RNA undergoes 3&#x02032; end modifications within the spliceosome</article-title>. <source>Mol Cell Biol</source>
+<volume>13</volume>: <fpage>1641</fpage>&#x02013;<lpage>1650</lpage>
+<pub-id pub-id-type="pmid">8441402</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0048"><mixed-citation publication-type="journal" id="embj201694857-cit-0048">
+<string-name>
+<surname>Thomas</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Whangbo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>McCrossan</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Sanborn</surname>
+<given-names>KB</given-names>
+</string-name>, <string-name>
+<surname>Basar</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Walch</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Lieberman</surname>
+<given-names>J</given-names>
+</string-name> (<year>2015</year>) <article-title>Apoptosis Triggers Specific, Rapid, and Global mRNA Decay with 3&#x02032; Uridylated Intermediates Degraded by DIS3L2</article-title>. <source>Cell Rep</source>
+<volume>11</volume>: <fpage>1079</fpage>&#x02013;<lpage>1089</lpage>
+<pub-id pub-id-type="pmid">25959823</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0049"><mixed-citation publication-type="journal" id="embj201694857-cit-0049">
+<string-name>
+<surname>Thornton</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Chang</surname>
+<given-names>HM</given-names>
+</string-name>, <string-name>
+<surname>Piskounova</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Gregory</surname>
+<given-names>RI</given-names>
+</string-name> (<year>2012</year>) <article-title>Lin28&#x02010;mediated control of let&#x02010;7 microRNA expression by alternative TUTases Zcchc11 (TUT4) and Zcchc6 (TUT7)</article-title>. <source>RNA</source>
+<volume>18</volume>: <fpage>1875</fpage>&#x02013;<lpage>1885</lpage>
+<pub-id pub-id-type="pmid">22898984</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0050"><mixed-citation publication-type="journal" id="embj201694857-cit-0050">
+<string-name>
+<surname>Ule</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Mele</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Darnell</surname>
+<given-names>RB</given-names>
+</string-name> (<year>2005</year>) <article-title>CLIP: a method for identifying&#x000a0;protein&#x02010;RNA interaction sites in living cells</article-title>. <source>Methods</source>
+<volume>37</volume>: <fpage>376</fpage>&#x02013;<lpage>386</lpage>
+<pub-id pub-id-type="pmid">16314267</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0051"><mixed-citation publication-type="journal" id="embj201694857-cit-0051">
+<string-name>
+<surname>Ustianenko</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Hrossova</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Potesil</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Chalupnikova</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Hrazdilova</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Pachernik</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Cetkovska</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Uldrijan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Zdrahal</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Vanacova</surname>
+<given-names>S</given-names>
+</string-name> (<year>2013</year>) <article-title>Mammalian DIS3L2 exoribonuclease targets the uridylated precursors of let&#x02010;7 miRNAs</article-title>. <source>RNA</source>
+<volume>19</volume>: <fpage>1632</fpage>&#x02013;<lpage>1638</lpage>
+<pub-id pub-id-type="pmid">24141620</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0052"><mixed-citation publication-type="journal" id="embj201694857-cit-0052">
+<string-name>
+<surname>Valen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Preker</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Andersen</surname>
+<given-names>PR</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Ender</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Dueck</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Meister</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Sandelin</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>TH</given-names>
+</string-name> (<year>2011</year>) <article-title>Biogenic mechanisms and utilization of small RNAs derived from human protein&#x02010;coding genes</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>18</volume>: <fpage>1075</fpage>&#x02013;<lpage>1082</lpage>
+<pub-id pub-id-type="pmid">21822281</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0053"><mixed-citation publication-type="journal" id="embj201694857-cit-0053">
+<string-name>
+<surname>Wegert</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ishaque</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Vardapour</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Georg</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Gu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Bieg</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ziegler</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Bausenwein</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Nourkami</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Ludwig</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Keller</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Grimm</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kneitz</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Chagtai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Pritchard&#x02010;Jones</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>van Sluis</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Volckmann</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Koster</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Versteeg</surname>
+<given-names>R</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>Mutations in the SIX1/2 pathway and the DROSHA/DGCR8 miRNA microprocessor complex underlie high&#x02010;risk blastemal type Wilms tumors</article-title>. <source>Cancer Cell</source>
+<volume>27</volume>: <fpage>298</fpage>&#x02013;<lpage>311</lpage>
+<pub-id pub-id-type="pmid">25670083</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0054"><mixed-citation publication-type="journal" id="embj201694857-cit-0054">
+<string-name>
+<surname>Xie</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Vilborg</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Shu</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Yartseva</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Sestan</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Steitz</surname>
+<given-names>JA</given-names>
+</string-name> (<year>2013</year>) <article-title>Mammalian 5&#x02032;&#x02010;capped microRNA precursors that generate a single microRNA</article-title>. <source>Cell</source>
+<volume>155</volume>: <fpage>1568</fpage>&#x02013;<lpage>1580</lpage>
+<pub-id pub-id-type="pmid">24360278</pub-id></mixed-citation></ref><ref id="embj201694857-bib-0055"><mixed-citation publication-type="journal" id="embj201694857-cit-0055">
+<string-name>
+<surname>Zhou</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ng</surname>
+<given-names>SB</given-names>
+</string-name>, <string-name>
+<surname>Chng</surname>
+<given-names>WJ</given-names>
+</string-name> (<year>2013</year>) <article-title>LIN28/LIN28B: an emerging oncogenic driver in cancer stem cells</article-title>. <source>Int J Biochem Cell Biol</source>
+<volume>45</volume>: <fpage>973</fpage>&#x02013;<lpage>978</lpage>
+<pub-id pub-id-type="pmid">23420006</pub-id></mixed-citation></ref></ref-list></back></article>

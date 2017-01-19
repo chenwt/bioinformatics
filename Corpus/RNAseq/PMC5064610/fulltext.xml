@@ -1,0 +1,642 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Appl Toxicol</journal-id><journal-id journal-id-type="iso-abbrev">J Appl Toxicol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1099-1263</journal-id><journal-id journal-id-type="publisher-id">JAT</journal-id><journal-title-group><journal-title>Journal of Applied Toxicology</journal-title></journal-title-group><issn pub-type="ppub">0260-437X</issn><issn pub-type="epub">1099-1263</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5064610</article-id><article-id pub-id-type="doi">10.1002/jat.3265</article-id><article-id pub-id-type="publisher-id">JAT3265</article-id><article-id pub-id-type="other">JAT-15-0581.R2</article-id><article-categories><subj-group subj-group-type="overline"><subject>Research Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Research Articles</subject></subj-group></article-categories><title-group><article-title>BMDExpress Data Viewer &#x02010; a visualization tool to analyze BMDExpress datasets</article-title><alt-title alt-title-type="right-running-head">BMDExpress Data Viewer</alt-title><alt-title alt-title-type="left-running-head">B. Kuo <italic>et al.</italic></alt-title></title-group><contrib-group><contrib id="jat3265-cr-0001" contrib-type="author"><name><surname>Kuo</surname><given-names>Byron</given-names></name><xref ref-type="aff" rid="jat3265-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="jat3265-cr-0002" contrib-type="author"><name><surname>Francina Webster</surname><given-names>A.</given-names></name><xref ref-type="aff" rid="jat3265-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="jat3265-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="jat3265-cr-0003" contrib-type="author"><name><surname>Thomas</surname><given-names>Russell S.</given-names></name><xref ref-type="aff" rid="jat3265-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="jat3265-cr-0004" contrib-type="author" corresp="yes"><name><surname>Yauk</surname><given-names>Carole L.</given-names></name><xref ref-type="aff" rid="jat3265-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="jat3265-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Environmental Health Science and Research Bureau</named-content><institution>Health Canada</institution><named-content content-type="city">Ottawa</named-content><named-content content-type="country-part">ON</named-content><country country="CA">Canada</country><named-content content-type="post-code">K1A 0K9</named-content></aff><aff id="jat3265-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Department of Biology</named-content><institution>Carleton University</institution><named-content content-type="street">1125 Colonel By Drive</named-content><named-content content-type="city">Ottawa</named-content><named-content content-type="post-code">K1S 5B6</named-content><country country="CA">Canada</country></aff><aff id="jat3265-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">United States Environmental Protection Agency, Office of Research and Development</named-content><institution>National Center for Computational Toxicology</institution><named-content content-type="city">Research Triangle Park</named-content><named-content content-type="country-part">NC</named-content><named-content content-type="post-code">27711</named-content><country country="US">USA</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Correspondence to: Carole L. Yauk, Environmental Health Science and Research Bureau, Health Canada, Tunney's Pasture, Bldg. 8 (P/L 0803A), 50 Columbine Driveway, Ottawa, Ontario K1A 0K9, Canada<break/> 
+E&#x02010;mail: <email>Carole.Yauk@hc-sc.gc.ca</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>15</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="ppub"><month>8</month><year>2016</year></pub-date><volume>36</volume><issue>8</issue><issue-id pub-id-type="doi">10.1002/jat.v36.8</issue-id><fpage>1048</fpage><lpage>1059</lpage><history><date date-type="received"><day>23</day><month>9</month><year>2015</year></date><date date-type="rev-recd"><day>15</day><month>10</month><year>2015</year></date><date date-type="accepted"><day>16</day><month>10</month><year>2015</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2016 John Wiley & Sons, Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2015 Her Majesty the Queen in Right of Canada. <italic>Journal of Applied Toxicology</italic> published by John Wiley &#x00026; Sons, Ltd.</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution&#x02010;NonCommercial&#x02010;NoDerivs</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:JAT-36-1048.pdf"/><abstract><title>Abstract</title><p>Regulatory agencies increasingly apply benchmark dose (BMD) modeling to determine points of departure for risk assessment. BMDExpress applies BMD modeling to transcriptomic datasets to identify transcriptional BMDs. However, graphing and analytical capabilities within BMDExpress are limited, and the analysis of output files is challenging. We developed a web&#x02010;based application, BMDExpress Data Viewer (<ext-link ext-link-type="uri" xlink:href="http://apps.sciome.com:8082/BMDX_Viewer/">http://apps.sciome.com:8082/BMDX_Viewer/</ext-link>), for visualizing and graphing BMDExpress output files. The application consists of &#x0201c;Summary Visualization&#x0201d; and &#x0201c;Dataset Exploratory&#x0201d; tools. Through analysis of transcriptomic datasets of the toxicants furan and 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine, we demonstrate that the &#x0201c;Summary Visualization Tools&#x0201d; can be used to examine distributions of gene and pathway BMD values, and to derive a potential point of departure value based on summary statistics. By applying filters on enrichment P&#x02010;values and minimum number of significant genes, the &#x0201c;Functional Enrichment Analysis&#x0201d; tool enables the user to select biological processes or pathways that are selectively perturbed by chemical exposure and identify the related BMD. The &#x0201c;Multiple Dataset Comparison&#x0201d; tool enables comparison of gene and pathway BMD values across multiple experiments (e.g., across timepoints or tissues). The &#x0201c;BMDL&#x02010;BMD Range Plotter&#x0201d; tool facilitates the observation of BMD trends across biological processes or pathways. Through our case studies, we demonstrate that BMDExpress Data Viewer is a useful tool to visualize, explore and analyze BMDExpress output files. Visualizing the data in this manner enables rapid assessment of data quality, model fit, doses of peak activity, most sensitive pathway perturbations and other metrics that will be useful in applying toxicogenomics in risk assessment. &#x000a9; 2015 Her Majesty the Queen in Right of Canada. <italic>Journal of Applied Toxicology</italic> published by John Wiley &#x00026; Sons, Ltd.</p></abstract><abstract abstract-type="short"><p>We developed BMDExpress Data Viewer, which contains two collections of tools, &#x0201c;Summary Visualization Tools&#x0201d; and &#x0201c;Dataset Exploratory Tools,&#x0201d; to visualize and analyze BMDExpress output files. Through two case studies, we demonstrate the capabilities of graphically examining transcriptomic dose&#x02013;response datasets in a risk assessment context by comparing and observing trends in transcriptomic benchmark doses (BMDs) for biological processes and pathways. Our results illustrate that BMDExpress Data Viewer is a useful tool to visualize, explore and analyze BMDExpress output files.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="jat3265-kwd-0001">microarray</kwd><kwd id="jat3265-kwd-0002">gene expression</kwd><kwd id="jat3265-kwd-0003">genomics</kwd><kwd id="jat3265-kwd-0004">transcriptomics</kwd><kwd id="jat3265-kwd-0005">benchmark dose (BMD)</kwd><kwd id="jat3265-kwd-0006">BMDExpress</kwd><kwd id="jat3265-kwd-0007">bioinformatics</kwd><kwd id="jat3265-kwd-0008">data visualization</kwd><kwd id="jat3265-kwd-0009">human health risk assessment</kwd><kwd id="jat3265-kwd-0010">furan</kwd><kwd id="jat3265-kwd-0011">4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine (MDMB)</kwd><kwd id="jat3265-kwd-0012">dose&#x02013;response</kwd></kwd-group><counts><page-count count="12"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>jat3265</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>August 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.4 mode:remove_FC converted:14.10.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="jat3265-cit-0000">
+<string-name>
+<surname>Kuo</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Francina Webster</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Thomas</surname>, <given-names>R. S.</given-names>
+</string-name>, and <string-name>
+<surname>Yauk</surname>, <given-names>C. L.</given-names>
+</string-name> (<year>2016</year>) <article-title>BMDExpress Data Viewer &#x02010; a visualization tool to analyze BMDExpress datasets</article-title>. <source>J. Appl. Toxicol.</source>, <volume>36</volume>: <fpage>1048</fpage>&#x02013;<lpage>1059</lpage>. doi: <ext-link ext-link-type="doi" xlink:href="10.1002/jat.3265">10.1002/jat.3265</ext-link>.<pub-id pub-id-type="pmid">26671443</pub-id></mixed-citation>
+</p></notes><notes><fn-group id="jat3265-ntgp-0010"><fn id="jat3265-note-0023"><p>Reproduced with the permission of the Minister of Health Canada.</p></fn></fn-group></notes></front><body><sec id="jat3265-sec-0001"><title>Introduction</title><p>Chemical risk assessment aims to establish acceptable levels of exposures based on toxicological dose&#x02013;response studies. Traditional methods that apply the lowest&#x02010;observed&#x02010;adverse&#x02010;effect&#x02010;level or no&#x02010;observed&#x02010;adverse&#x02010;effects&#x02010;level, may be limited by the selection of doses, sample sizes required to detect subtle effects and by technical and biological variability that limits ability to detect significant changes (Crump, <xref rid="jat3265-bib-0007" ref-type="ref">1984</xref>). In contrast, benchmark dose (BMD) modeling fits experimental dose&#x02013;response data with a statistical model to identify a defined level of response relative to a control group. BMD was developed to overcome the limitations of the lowest&#x02010;observed&#x02010;adverse&#x02010;effect&#x02010;level/no&#x02010;observed&#x02010;adverse&#x02010;effects&#x02010;level approach (Crump, <xref rid="jat3265-bib-0007" ref-type="ref">1984</xref>). Regulatory agencies have increasingly adopted BMD modeling for human health risk assessment (Budtz&#x02010;Jorgensen <italic>et al</italic>., <xref rid="jat3265-bib-0005" ref-type="ref">2013</xref>; Health Canada, <xref rid="jat3265-bib-0010" ref-type="ref">2013</xref>).</p><p>Toxicogenomic studies use genomics technologies, such as DNA microarrays and RNA&#x02010;sequencing, to investigate global transcriptional responses following chemical exposures. It has been proposed that BMD modeling be applied to model the dose&#x02013;response of toxicogenomics data to derive BMD values for transcriptional endpoints, including genes, pathways and gene ontologies (Thomas <italic>et al</italic>. <xref rid="jat3265-bib-0019" ref-type="ref">2007</xref>). This approach has already been applied to a variety of chemicals (Bhat <italic>et al</italic>., <xref rid="jat3265-bib-0002" ref-type="ref">2013</xref>; Moffat <italic>et al</italic>., <xref rid="jat3265-bib-0016" ref-type="ref">2015</xref>; Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0023" ref-type="ref">2013b</xref>). Importantly, these studies have shown concordance between the BMD values modeled for transcriptional and apical endpoints. However, this type of work is very much in its infancy, and a significant amount of research is required to determine the best approaches for use in practical regulatory science or product development settings.</p><p>The standard software BMDS (US EPA, <xref rid="jat3265-bib-0026" ref-type="ref">2015</xref>), which was developed to model the dose&#x02013;response of apical data, is inefficient for modeling the response of transcriptomics datasets because these contain gene expression profiles of tens of thousands of genes. To address this issue, Yang <italic>et al</italic>. (<xref rid="jat3265-bib-0029" ref-type="ref">2007</xref>) developed a tool called &#x0201c;BMDExpress&#x0201d; that automates the statistical analysis and BMD modeling computational steps to facilitate timely analysis of very large transcriptomic datasets. In addition to modeling the dose&#x02013;response of individual genes, BMDExpress also computes BMD values for biological categories (e.g., pathway BMD means, medians, 5th percentiles, etc.) using a feature called &#x0201c;Functional Classifications.&#x0201d; Global transcriptional BMD modeling using BMDExpress has been used to demonstrate that toxicogenomic BMDs fall within the range of BMDs derived from apical data, and has been useful for investigating the mode of action of several toxicants (Bhat <italic>et al</italic>., <xref rid="jat3265-bib-0002" ref-type="ref">2013</xref>; Bourdon <italic>et al</italic>., <xref rid="jat3265-bib-0004" ref-type="ref">2013</xref>; Jackson <italic>et al</italic>., <xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>; Moffat <italic>et al</italic>., <xref rid="jat3265-bib-0016" ref-type="ref">2015</xref>). These studies support the notion that transcriptional BMDs can be used to derive points of departure for human health risk assessment, particularly in instances when apical data are not available (Chepelev <italic>et al</italic>., <xref rid="jat3265-bib-0006" ref-type="ref">2015</xref>; Moffat <italic>et al</italic>., <xref rid="jat3265-bib-0016" ref-type="ref">2015</xref>; Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0021" ref-type="ref">2012</xref>, <xref rid="jat3265-bib-0022" ref-type="ref">2013a</xref>, b).</p><p>BMDExpress computations are presented in tabular format viewable in the BMDExpress software. However, because of the limited capability to perform additional analyses and data visualization in the BMDExpress application, the results are typically exported to separate software (e.g., a spreadsheet) for further exploration. There are two major types of outputs that can be exported, i.e., (1) &#x0201c;BMD Analysis,&#x0201d; and (2) &#x0201c;Functional Classifications.&#x0201d; A &#x0201c;BMD Analysis&#x0201d; output file contains gene (or microarray probe), BMD and BMD lower confidence (BMDL) values for each statistical model, as well as the information required for model selection. A &#x0201c;Functional Classifications&#x0201d; output file can be exported as &#x0201c;Gene Ontology Analyses,&#x0201d; &#x0201c;Signaling Pathway Analyses&#x0201d; or &#x0201c;Defined Category Analyses.&#x0201d; This file includes statistical BMD values for each pathway, and lists the transcripts that were used to obtain the pathway BMD. These output files typically contain 30&#x02013;60 columns and thousands of rows of numbers and text. Processing and analysis of these complex files can be challenging and time&#x02010;consuming. Therefore, we have developed a tool that summarizes the BMDExpress output files, and allows for quick exploration, analysis and visualization of these complex datasets. Our tool allows users to identify important genes or biological processes based on their BMD values, which we anticipate will be very useful for human health risk assessment. In this paper, we describe the development of BMDExpress Data Viewer, which is a user&#x02010;friendly web&#x02010;based tool that reads BMDExpress output files, provides visual (graphical and tabular) data summaries and provides an interactive interface for the analyses. We anticipate that BMDExpress Data Viewer will streamline the analyses of BMDExpress output files and facilitate the use of transcriptional BMD data in human health risk assessment.</p></sec><sec id="jat3265-sec-0002"><title>Materials and methods</title><sec id="jat3265-sec-0003"><title>Implementation, compatibility and availability</title><p>The core component of BMDExpress Data Viewer was written in the Java programming language, while the browser&#x02010;based user interface was developed with a combination of hypertext markup language (HTML), Java Servlet and Javascript. Data visualization was created using the Google Charts application programming interface (API) (Google Inc., <xref rid="jat3265-bib-0008" ref-type="ref">2015</xref>). All visualization APIs, including histogram, scatter plot, pie chart, column chart, table and bubble chart, were provided by Google Developers, while the heatmap plot was provided by the Institute of Systems Biology (Institute of Systems Biology <xref rid="jat3265-bib-0013" ref-type="ref">2008</xref>). Javascripts to generate charts and tables are downloaded at the time the user requests BMDExpress Data Viewer to generate applicable visualizations, and the user's data are processed directly within the web browser.</p><p>The application is hosted on a Tomcat server, version 7.0.6, with Java version 1.6.0_37&#x02010;b06. The Google Charts API is based on HTML5 and Scalable Vector Graphics technology (Google Inc., 2015). The application is compatible with all modern browsers, including Internet Explorer 9+ (Microsoft Windows), Safari (Mac OSX), Firefox, Chrome and Opera.</p><p>BMDExpress Data Viewer is available as a browser&#x02010;based application, and is freely available at <ext-link ext-link-type="uri" xlink:href="http://apps.sciome.com:8082/BMDX_Viewer/">http://apps.sciome.com:8082/BMDX_Viewer/</ext-link> (MIT license).</p></sec><sec id="jat3265-sec-0004"><title>BMD Analysis Summary: probe&#x02010;to&#x02010;gene mapping</title><p>To convert microarray probes to gene symbols, we first compiled a probe&#x02010;to&#x02010;gene symbol file by matching the <italic>probe2gene</italic> file to the <italic>genes2symbols</italic> file from each supported platform in the BMDExpress installation directory. A probe&#x02010;to&#x02010;accession number file was also compiled by obtaining the respective platform annotation files from the National Center for Biotechnology Information (NCBI) Gene Expression Omnibus (GEO). This allows the gene symbols that correspond to each probe to be displayed (if available) in the BMD Analysis Summary Dynamic Viewer. In the case where an official gene symbol is not available, corresponding GenBank accession numbers are displayed. In instances when neither gene symbol nor GenBank accession number are available, or if the imported file is not of a supported platform, the original probe identifiers are displayed. Currently, supported platforms include: Agilent human whole genome (4 &#x000d7; 44 K and 8 &#x000d7; 60 K), Agilent mouse whole genome (4 &#x000d7; 44K and 8 &#x000d7; 60 K), Agilent rat whole genome (4 &#x000d7; 44 K and 8 &#x000d7; 60 K), Affymetrix human (HG_Focus, HG_U133A, HG&#x02010;U133A_2 and HG&#x02010;U133_Plus_1), Affymetrix mouse (MG_U74A, MG_U74Avs, MOE430A, MOE320B, Mouse430A_2 and Mouse430_2) and Affymetrix Rat (RAE230A, RAE230B, Rat230_2 and RGU34A).</p><p>BMDExpress Data Viewer also supports human, mouse and rat RNAseq&#x02010;based datasets that use Ensembl Gene ID to represent genes. The <italic>gene2ensembl</italic> file was downloaded from the NCBI's FTP site and was parsed for human (Taxonomy ID: 9606), mouse (Taxonomy ID: 10090) and rat genes (Taxonomy ID: 10116). The parsed file was matched by Entrez Gene ID to the <italic>Homo_sapiens.gene_info</italic>, <italic>Mus_musculus.gene_info</italic> and <italic>Rattus_norvegicus.gene_info</italic> files to compile an <italic>ensembl2symbols</italic> file. The BMD Analysis Summary Dynamic Viewer uses the <italic>ensembl2symbols</italic> file to display corresponding gene symbols. In the case where a gene symbol is not available, the Ensembl Gene ID is displayed.</p></sec><sec id="jat3265-sec-0005"><title>Functional Enrichment Analysis: implementation of the Fisher's exact test</title><p>The Fisher's exact test in the Functional Enrichment Analysis tool uses Java Statistical Classes version 1.0 (Bertie, <xref rid="jat3265-bib-0001" ref-type="ref">2002</xref>). The Fisher's exact test examines the association between a set of genes to a particular pathway. For each pathway, a 2 &#x000d7; 2 contingency table is constructed. The Functional Enrichment Analysis tool defines the four elements of the contingency table as: (1) number of genes from the input list that are found in the biological process (or pathway, network, etc.) and show a dose response (i.e., genes with goodness&#x02010;of&#x02010;fit <italic>P</italic> &#x02265; 0.1); (2) total number of genes in the pathway minus the number of significant genes in the pathways; (3) number of input genes minus the number of significant genes in the pathway; and (4) number of background genes minus the total number of genes in the pathway. The Fisher's exact test performed in the Functional Enrichment Analysis tool requires that the genes show a dose&#x02013;response that can be modeled to be included in the analysis; thus, the approach is slightly different from other pathway enrichment analyses (e.g., the Database for Annotation, Visualization and Integrated Discovery (DAVID); Huang <italic>et al</italic>., <xref rid="jat3265-bib-0012" ref-type="ref">2007b</xref>). The number of input genes is equal to the total number of genes surveyed by the technological platform, while the number of background genes is set to 30 000, which is the approximate total number of genes in human, mouse and rat.</p><p>Depending on the analysis approach, the user may apply pre&#x02010;filtering (e.g., statistical presence or fold change) to the microarray probes before importing datasets to BMDExpress. If no pre&#x02010;filtering or only the built&#x02010;in ANOVA in BMDExpress is applied, all of the four Fisher's exact test parameters can be obtained from the two files uploaded to generate the Bubble Chart view (described below). In the case where pre&#x02010;filtering other than the built&#x02010;in ANOVA in BMDExpress was applied, the user needs to specify the platform and the pathway database, to determine the correct number of input genes and sizes of pathways.</p></sec><sec id="jat3265-sec-0006"><title>Case study datasets</title><p>To demonstrate the functionality and features of BMDExpress Data Viewer, two microarray datasets were downloaded from GEO (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/">http://www.ncbi.nlm.nih.gov/geo/</ext-link>), derived from two microarray platforms: Agilent mouse DNA microarrays and Affymetrix rat microarrays. In the first dataset (GSE48644), mice were exposed to increasing doses (0, 1, 2, 4, 8 mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup> body weight) of the hepatocarcinogen furan (the liver is the target organ for cancer in rodents following furan exposure) by oral gavage for 21 days. Dose and tissue (liver) selection was based on a previous rodent cancer bioassay (Haseman <italic>et al</italic>., <xref rid="jat3265-bib-0009" ref-type="ref">1998</xref>), and included two doses that did not induce liver cancer in the same strain of mice (1 and 2 mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup>) and two doses that caused liver cancer (4 and 8 mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup>). Agilent DNA microarrays were used to examine hepatic transcriptional profiles for these mice. Detailed methods for the preparation of samples, microarray gene expression and normalization of the data are described in the publications (Jackson <italic>et al</italic>., <xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>; Webster <italic>et al</italic>., <xref rid="jat3265-bib-0027" ref-type="ref">2014</xref>). In the second dataset (GSE45892), rats were exposed to increasing doses of one of six chemicals for 5, 14, 28 and 90 days. Affymetrix HT RG&#x02010;230 PM microarrays were used to examine transcriptional profiles for these rats (Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0023" ref-type="ref">2013b</xref>). We obtained the datasets for the chemical 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine (MDMB), which examined transcriptional changes in the thyroid following exposure to 50, 200, 375, 500 and 750 ppm in drinking water. All timepoints were considered. The chosen target tissue, strain, sex and route of exposure were based on the critical effect in the IRIS toxicological review for MDMB (US EPA, <xref rid="jat3265-bib-0024" ref-type="ref">1989</xref>). The MDMB datasets were normalized using the Robust Multi&#x02010;array Average (Irizarry <italic>et al</italic>., <xref rid="jat3265-bib-0014" ref-type="ref">2003</xref>).</p></sec><sec id="jat3265-sec-0007"><title>Benchmark dose analyses for the case study datasets</title><p>BMDExpress version 1.4.1 (Yang <italic>et al</italic>., <xref rid="jat3265-bib-0029" ref-type="ref">2007</xref>) was used to perform BMD analyses. For the Agilent dataset (furan study), only the probes that had signal intensities that were significantly above background probe (non&#x02010;murine control oligonucleotides) intensities (at least three standard deviations above the mean of the background signal intensities) in at least one dose group were imported into BMDExpress for analysis. These datasets were pre&#x02010;filtered using the built&#x02010;in one&#x02010;way ANOVA function for differential gene expression in three ways: (1) unfiltered; (2) ANOVA <italic>P</italic>&#x02009;&#x0003c;&#x02009;0.05 (in at least one dose); and (3) false discovery rate (FDR) <italic>P</italic>&#x02009;&#x0003c;&#x02009;0.05 (in at least one dose). Detailed analyses of these results were published previously (Webster <italic>et al</italic>., <xref rid="jat3265-bib-0028" ref-type="ref">2015</xref>). For the Affymetrix dataset (MDMB study), all probes were imported into BMDExpress and the ANOVA <italic>P</italic> &#x0003c; 0.05 was applied. In the BMDExpress analysis for both furan and MDMB datasets, the best fitting model for each probe was selected based on: (1) a nested chi&#x02010;squared cutoff value of 0.05 to select between linear and polynomial models; (2) lowest Akaike information criterion value for the Hill and Power models; and (3) likelihood ratio test goodness&#x02010;of&#x02010;fit <italic>P</italic>&#x02009;&#x0003e;&#x02009;0.1. Other modeling parameters included maximum iterations of 250, confidence interval of 0.95, benchmark response value of 1.349 and restricting power parameter to &#x02265; 1. A Hill model was flagged if the <italic>k</italic> parameter was greater than one&#x02010;third of the lowest dose, and the next best model was selected if it had a goodness of fit <italic>P</italic> &#x0003e; 0.05. The Hill model was only used and the BMD was modified to 0.5 of the lowest BMD value if no other model had a <italic>P</italic> &#x0003e; 0.1. Using the &#x0201c;Defined Category Analyses&#x0201d; feature in BMDExpress, the BMD analyzed datasets were mapped to the Ingenuity Pathway Analysis (IPA) mouse (Furan) and rat (MDMB) canonical pathways, which were downloaded on April 24, 2014. In mapping to the IPA pathways, probes were removed if the BMD value was greater than the highest dose used in the experiment. Probes were also removed if the goodness&#x02010;of&#x02010;fit <italic>P</italic>&#x02010;value was less than 0.1. Conflicting probe sets were identified and a correlation cutoff of 0.5 was applied to the conflicting probe sets. Both the BMD analyzed dataset and the IPA mapped dataset were exported using the &#x0201c;Export&#x0201d; function.</p></sec></sec><sec id="jat3265-sec-0008"><title>Results</title><p>We developed BMDExpress Data Viewer, a web&#x02010;based tool designed for visualization and exploration of BMDExpress output files. Our application provides graphical summaries and statistics of BMDExpress&#x02010;generated output files. We demonstrate through two case studies the features and potential use cases of the application.</p><sec id="jat3265-sec-0009"><title>Overview of BMDExpress Data Viewer</title><p>BMDExpress Data Viewer consists of two collections of tools: &#x0201c;Summary Visualization Tools,&#x0201d; and &#x0201c;Dataset Exploratory Tools&#x0201d; (Fig.&#x000a0;<xref rid="jat3265-fig-0001" ref-type="fig">1</xref>). Each collection contains tools that summarize datasets in addition to allowing users to explore datasets and perform specific analyses. The workflow for BMDExpress Data Viewer begins with uploading unmodified BMDExpress output files, followed by interfaces to guide the user through to display results or perform analyses (Fig.&#x000a0;<xref rid="jat3265-fig-0001" ref-type="fig">1</xref>).</p><fig fig-type="Figure" xml:lang="en" id="jat3265-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Workflow demonstrating the features and functionality of BMDExpress Data Viewer. BMD, benchmark dose; BMDL, benchmark dose lower confidence (values); GO, gene ontology; POD, point of departure.</p></caption><graphic id="nlm-graphic-1" xlink:href="JAT-36-1048-g001"/></fig></sec><sec id="jat3265-sec-0010"><title>Example analysis with furan&#x02010;treated mouse liver and 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine&#x02010;treated rat thyroid datasets</title><p>To illustrate the features and functionality of BMDExpress Data Viewer, BMDExpress output datasets were obtained from two case studies, i.e., (1) hepatic gene expression (Agilent) profiles of mice orally exposed to increasing doses of furan by oral gavage (Jackson <italic>et al</italic>., <xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>), and (2) thyroid gene expression (Affymetrix) profiles from rats that were orally exposed to increasing doses of the chemical MDMB (Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0023" ref-type="ref">2013b</xref>).</p><p>Three statistical pre&#x02010;filtering stringencies were applied to the furan data before BMD analysis: (1) no filtering (removing only the probes with signal intensities within the background range across all conditions, i.e., genes with low or no expression); (2) genes that reached an ANOVA <italic>P</italic> &#x0003c; 0.05 compared to controls in at least one dose group; and (3) genes that reached an FDR <italic>P</italic> &#x0003c; 0.05 in at least one dose group compared to controls. Overall, the filtered datasets contained 29847, 2597 and 362 probes, for the unfiltered, ANOVA&#x02010;filtered and FDR&#x02010;filtered datasets, respectively. For the MDMB study, we applied an ANOVA <italic>P</italic> &#x0003c; 0.05 filter on all four timepoints before BMD analysis. The resulting dataset contained 6006, 7130, 8981 and 2697 probes for the 5&#x02010;, 14&#x02010;, 28&#x02010; and 90&#x02010;day timepoints, respectively.</p><p>To demonstrate the features of each tool, we compared the effects of statistical pre&#x02010;filtering in the furan study, as well as changes in the BMD over the four timepoints in the MDMB study. We analyzed the summaries of probes and pathways for the three pre&#x02010;filtered furan datasets and the four timepoints in the MDMB study. We applied both studies to the &#x0201c;Functional Enrichment Analysis&#x0201d; tool to identify potentially sensitive pathways. The pathways that were common across timepoints in the MDMB study were further examined in the &#x0201c;Multiple Dataset Comparison&#x0201d; and &#x0201c;BMDL&#x02010;BMD Range Plotter&#x0201d; tools.</p></sec><sec id="jat3265-sec-0011"><title>BMD Analysis Summary</title><p>The BMD Analysis Summary tool was applied to provide visual summaries of the BMD, BMDL and fit <italic>P</italic>&#x02010;values, and the best&#x02010;fit models, which are the commonly examined parts of the probe BMD datasets (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>). Two components, Dataset Summary and Dynamic Viewer, are available in the BMD Analysis Summary tool. The dataset summary component presents overall summaries of the BMD and BMDL values as histograms and scatterplots to illustrate distributions, enabling inspection of main trends and outliers. A histogram of fit <italic>P</italic>&#x02010;values is also presented for inspection of the overall quality of modeling. Summary statistics are also computed for maximum, minimum, mean and median BMD and BMDL values, as well as fit <italic>P</italic>&#x02010;values. Pie charts are plotted to illustrate the distribution of best&#x02010;fit models selected by BMDExpress. In the Dynamic Viewer component, the complete list of probes uploaded is presented in both a stepped chart and a table, illustrating BMD and BMDL values for each probe. Slider bars for BMD and BMDL values allow the user to set ranges to focus on specific parts of the dataset.</p><fig fig-type="Figure" xml:lang="en" id="jat3265-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Summaries of the analyses performed using the &#x0201c;BMD Analysis Summary&#x0201d; tool. (A) Effects of pre&#x02010;filtering methods on the distributions of probe BMD values (furan dataset on the Agilent platform). (B) Distributions of probe BMD values over timepoints (MDMB dataset on the Affymetrix platform). (C) Distributions of fit <italic>P</italic>&#x02010;values (MDMB dataset on the Affymetrix platform). (D) BMD vs. BMDL over time (MDMB dataset on the Affymetrix platform). (E) Distribution of selected models over time (MDMB dataset on the Affymetrix platform). BMD, benchmark dose; BMDL, benchmark dose lower confidence (values); FDR, false discovery rate; MDMB, 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine.</p></caption><graphic id="nlm-graphic-3" xlink:href="JAT-36-1048-g002"/></fig><p>We used the BMD Analysis Summary tool to investigate the distributions of BMD and BMDL values in both datasets. As illustrated in Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>(A), the BMD histogram of the unfiltered furan dataset showed an even distribution of BMDs across dose. In contrast, peaks of BMD values were clearly visible in both the ANOVA and FDR&#x02010;filtered datasets. The even distribution in the unfiltered dataset and the bimodal distribution in the ANOVA&#x02010;filtered dataset were reduced to approach a unimodal distribution in the FDR&#x02010;filtered dataset. The main mode (peak) in the ANOVA&#x02010;filtered dataset occurred at approximately 4.2 mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup>, while for the FDR&#x02010;filtered dataset, it was approximately 3 mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup>. In the MDMB study (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>B), ANOVA pre&#x02010;filtering was applied and all four timepoints displayed clearly visible peaks, with unimodal distributions at 14 and 28 days, and bimodal distributions at 5 and 90 days. The main modes occurred at approximately 440, 190, 450 and 460 ppm for 5, 14, 28 and 90 days, respectively. Fit <italic>P</italic>&#x02010;value distributions of the MDMB datasets were examined (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>C). No clear peaks were observed for any of the four timepoints. However, the distribution showed a slightly increasing trend towards higher fit <italic>P</italic>&#x02010;values at 5 days, while decreasing trends were observed at 14, 28 and 90 days.</p><p>We also examined the BMD versus BMDL scatterplots for the MDMB dataset (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>D). The BMD/BMDL ratios were approximately 1.2 with few outliers (two at 14 days and one at 90 days). The pie chart of models suggested that the Power model was the most frequently applied (36.7&#x02013;44.7%), followed by the Hill model (27.2&#x02013;31.7%) in 5&#x02010;, 28&#x02010; and 90&#x02010;day datasets (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>E). For 14 days, the 2&#x000b0; Polynomial model was the predominant best&#x02010;fit model at 55.9%, followed by the Hill model at 17.8%.</p></sec><sec id="jat3265-sec-0012"><title>Functional Classification Summary</title><p>The Functional Classification Summary tool visually summarizes the BMD means, BMD medians, BMDL means, BMDL medians and BMD 5th and 10th percentiles from the export files of Functional Classification Analyses, which may be one of: Signaling Pathway Analyses, Gene Ontology Analyses or Defined Category Analyses. Similar to the BMD Analysis Summary tool, two components are available: Dataset Summary and Dynamic Viewer. In the dataset summary component, histograms are plotted to illustrate the distributions. Scatterplots of BMD mean versus BMDL mean, BMD median versus BMDL median and BMD 5th percentile versus BMD 10th percentile illustrate the relationships of these values for each pathway. In the Dynamic Viewer component, a complete list of pathways and their respective BMD and BMDL means and medians, BMD 5th and 10th percentiles, as well as the number of significant genes and the percentage of these genes relative to the total number of genes in the pathway are also plotted in a stacked chart and a data table. Slider bars for these values are available for setting ranges to focus on the desired part of the dataset. By default, the number of significant genes is &#x0201c;Items with BMD <italic>P</italic> &#x02265; 0.1&#x0201d; column, where the value 0.1 can be any cutoff the user used in BMDExpress analysis. This ensures only genes with the BMD less or equal to the highest dose and with a <italic>P</italic>&#x02010;value greater or equal to the cutoff for the model fit is examined.</p><p>Using the Functional Classification Summary tool, we investigated the distributions of BMD/BMDL mean and median values, as well as BMD 5th and 10th percentile values in both the furan and the MDMB studies. We highlight the results of BMD mean distributions in both studies (Fig.&#x000a0;<xref rid="jat3265-fig-0003" ref-type="fig">3</xref>A,B). In both studies, BMD means for the pathways displayed unimodal distributions, with minimal noise on either side of the histograms. For the furan study, the modes were approximately 4.5, 4 and 2.5 mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup> for the unfiltered, ANOVA&#x02010;filtered and FDR&#x02010;filtered datasets, respectively. For the MDMB study, these numbers were approximately 375, 315, 435 and 440 ppm for the 5&#x02010;, 14&#x02010;, 28&#x02010; and 90&#x02010;day timepoints, respectively. Compared to the bimodal distributions in the ANOVA&#x02010;filtered furan dataset observed at the gene level, as well as in the 5&#x02010; and 90&#x02010;day MDMB timepoints, the secondary modes observed at the lower doses had largely been reduced.</p><fig fig-type="Figure" xml:lang="en" id="jat3265-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>Summaries of the analyses performed using the &#x0201c;Functional Classification Summary&#x0201d; tool. (A) Effects of pre&#x02010;filtering methods on the distributions of pathway BMD mean values (furan dataset on the Agilent platform). (B) Distributions of pathway BMD mean values over time (MDMB dataset on the Affymetrix platform). (C) Twenty&#x02010;four pathways identified by the Dynamic Viewer in the peak regions of the MDMB 90&#x02010;day timepoint. Slider bar ranges for BMDL mean, median, BMD fifth and 10th percentile values were selected based on the main modes of their respective histograms. A minimum of five genes was applied as suggested in previous studies (Moffat <italic>et al</italic>., <xref rid="jat3265-bib-0016" ref-type="ref">2015</xref>; Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0020" ref-type="ref">2011</xref>, <xref rid="jat3265-bib-0021" ref-type="ref">2012</xref>). BMD, benchmark dose; FDR, false discovery rate; MDMB, 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine.</p></caption><graphic id="nlm-graphic-5" xlink:href="JAT-36-1048-g003"/></fig><p>Using the Dynamic Viewer, we investigated the pathways that were at the modes of the MDMB 90&#x02010;day histograms (see <xref rid="jat3265-supinf-0001" ref-type="supplementary-material">Supplementary Fig. S1</xref> for all histograms). By setting the sliders on top of the Dynamic Viewer to where the modes of each histogram occurred, with a minimum of five genes, 24 pathways were identified (Fig.&#x000a0;<xref rid="jat3265-fig-0003" ref-type="fig">3</xref>C). The majority of these pathways had more than 10 significant genes at approximately 15% mapping percentage.</p></sec><sec id="jat3265-sec-0013"><title>Functional Enrichment Analysis</title><p>Although some studies have suggested that application of BMD gene expression data focus on selecting biological processes, such as gene ontology terms and pathways, which are associated with disease processes or known mechanisms of action in toxicity, it is valuable to consider more unbiased approaches to filter through and explore pathways of potential toxicological significance. The Functional Enrichment Analysis tool displays BMDs for biological processes in a bubble chart view to enable exploration of the dataset and selection of perturbations that may have significant biological impacts.</p><p>In the Functional Enrichment Analysis tool, each biological process is represented as a bubble in a two&#x02010;dimensional space, with enrichment probability on the <italic>Y</italic>&#x02010;axis and BMD value on the <italic>X</italic>&#x02010;axis (Fig.&#x000a0;<xref rid="jat3265-fig-0004" ref-type="fig">4</xref>). Enrichment probability is computed using a Fisher's exact test. The BMDs that are shown can be BMD mean, BMD median, BMDL mean, BMDL median or BMD 5th or 10th percentiles. In addition to position, a bubble is also defined by its size and color. The size of a bubble represents the total number of genes in the biological process, whereas the depth of color indicates the number of genes from the user's input list that mapped to the pathway (i.e., more affected genes in a pathway will mean a darker color). Slider bars are available to set ranges to limit the number of significant genes, size of pathways and Fisher's exact test <italic>P</italic>&#x02010;value in percentages. Altering the ranges of these values dynamically refreshes the bubble chart and the data table by displaying only the pathways fitting the criterion. The user can mouse&#x02010;over to the pathway (bubble) of interest and a dialogue box will automatically appear to show the respective information on the number of genes, pathway size, Fisher's exact test <italic>P</italic>&#x02010;value and BMD.</p><fig fig-type="Figure" xml:lang="en" id="jat3265-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>Screenshot of the analysis on the 90&#x02010;day timepoint of the MDMB study using the &#x0201c;Functional Enrichment Analysis&#x0201d; tool. Each pathway is represented as a bubble, with size of bubble representing the total number of genes in the biological process, and the depth of color indicating the number of genes from the user's input list that mapped to the pathway. A minimum of five genes and a Fisher's exact test <italic>P</italic>&#x02010;value cutoff of 5% (0.05) were applied in our example analyses. BMD, benchmark dose; MDMB, 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine.</p></caption><graphic id="nlm-graphic-7" xlink:href="JAT-36-1048-g004"/></fig><p>To demonstrate the ability to filter for sensitive pathways, we applied the FDR&#x02010;filtered dataset of the furan study to the Functional Enrichment Analysis tool and compared the resulting pathways to the pathways identified previously using IPA (Jackson <italic>et al</italic>., <xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>). By applying the Functional Enrichment Analysis tool with Fisher's exact test <italic>P</italic> &#x02264; 0.05 (5%), and the minimum number of significant genes equal to three (in accordance with Jackson <italic>et al</italic>. [<xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>]), we obtained 24 pathways (Table&#x000a0;<xref rid="jat3265-tbl-0001" ref-type="table-wrap">1</xref>). Fourteen (58%) of the identified pathways were also found in our previous IPA analysis (Jackson <italic>et al</italic>., <xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>). The mean and median values for the BMDL means for these pathways were 1.77 and 1.63 mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup>, respectively. The results show that by applying a cut&#x02010;off with the Fisher's exact test <italic>P</italic>&#x02010;value, the Functional Enrichment Analysis tool is capable of identifying known pathways that are potentially important for the mode of action of furan, and that exhibits a dose&#x02013;response.</p><table-wrap id="jat3265-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Pathways identified by the Functional Enrichment Analysis tool for the ANOVA&#x02010;filtered furan&#x02010;treated mouse liver dataset. A minimum of three significant genes and a Fisher's exact test <italic>P</italic> &#x02264; 0.05 (5%) were applied for the analysis</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Pathway</th><th align="center" valign="bottom" rowspan="1" colspan="1">BMDL mean (mg kg<sup>&#x02013;1</sup> day<sup>&#x02013;1</sup>)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Fisher's exact test <italic>P</italic>&#x02010;value (%)</th><th align="center" valign="bottom" rowspan="1" colspan="1">Number of significant genes</th><th align="char" char="." valign="bottom" rowspan="1" colspan="1">Pathway size</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">14&#x02010;3&#x02010;3&#x02010;mediated signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.63</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.04</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">110</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">ATM signaling</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.67</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.34</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">52</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Aldosterone signaling in epithelial cells<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.40</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.78</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">144</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Aryl hydrocarbon receptor signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.15</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.07</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">124</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">BMP signaling pathway</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.01</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4.95</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">69</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Bladder cancer signaling</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.43</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.42</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">78</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Breast cancer regulation by stathmin1<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.67</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.98</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">177</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Germ cell&#x02013;Sertoli cell junction signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.42</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3.10</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">146</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Glioblastoma multiforme signaling</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.31</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.80</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">142</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Glucocorticoid receptor signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.41</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.26</td><td align="char" char="." valign="top" rowspan="1" colspan="1">9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">242</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Hypoxia signaling in the cardiovascular system<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.67</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">57</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">NGF signaling</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.98</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3.50</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">103</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">NRF2&#x02010;mediated oxidative stress response<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.58</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.02</td><td align="char" char="." valign="top" rowspan="1" colspan="1">9</td><td align="char" char="." valign="top" rowspan="1" colspan="1">165</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PI3K signaling in B lymphocytes</td><td align="char" char="." valign="top" rowspan="1" colspan="1">2.18</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.06</td><td align="char" char="." valign="top" rowspan="1" colspan="1">7</td><td align="char" char="." valign="top" rowspan="1" colspan="1">118</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PI3K/AKT signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.52</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.27</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">116</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PPAR signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.30</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.68</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">82</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PTEN signaling</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.88</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4.91</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">115</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">PXR/RXR activation<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3.06</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.55</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">44</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Prostate cancer signaling</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.36</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.30</td><td align="char" char="." valign="top" rowspan="1" colspan="1">4</td><td align="char" char="." valign="top" rowspan="1" colspan="1">76</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Protein ubiquitination pathway<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.61</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.06</td><td align="char" char="." valign="top" rowspan="1" colspan="1">10</td><td align="char" char="." valign="top" rowspan="1" colspan="1">239</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Remodeling of epithelial adherens junctions</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.54</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3.49</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">60</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Retinol biosynthesis</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.50</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.36</td><td align="char" char="." valign="top" rowspan="1" colspan="1">3</td><td align="char" char="." valign="top" rowspan="1" colspan="1">26</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">Sertoli cell&#x02013;Sertoli cell junction signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.74</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.16</td><td align="char" char="." valign="top" rowspan="1" colspan="1">6</td><td align="char" char="." valign="top" rowspan="1" colspan="1">157</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">p53 Signaling<xref ref-type="fn" rid="jat3265-note-0002">a</xref>
+</td><td align="char" char="." valign="top" rowspan="1" colspan="1">1.64</td><td align="char" char="." valign="top" rowspan="1" colspan="1">0.34</td><td align="char" char="." valign="top" rowspan="1" colspan="1">5</td><td align="char" char="." valign="top" rowspan="1" colspan="1">84</td></tr></tbody></table><table-wrap-foot><fn id="jat3265-note-0001"><p>BMDL, benchmark dose lower confidence (values).</p></fn><fn id="jat3265-note-0002"><label>a</label><p>Pathways that matched to the Ingenuity Pathway Analysis (IPA) result performed in a previous study (Jackson <italic>et al</italic>., <xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>).</p></fn></table-wrap-foot></table-wrap><p>We also applied the Functional Enrichment Analysis tool to the four timepoints of the MDMB study. We applied a Fisher's exact test <italic>P</italic> &#x02264; 0.01 (1%) and the minimum number of significant genes equal to five (in accordance with Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0023" ref-type="ref">2013b</xref>) to all four timepoints. For each of the 5&#x02010;, 14&#x02010;, 28&#x02010; and 90&#x02010;day timepoints, we obtained 91, 67, 242 and 44 pathways, respectively. Comparison of these four lists of pathways showed that nine were in common, with means (medians) of 351.50 (352.16), 350.27 (340.27), 404.50 (404.67) and 415.48 (417.12) ppm for 5, 14, 28 and 90 days, respectively (Table&#x000a0;<xref rid="jat3265-tbl-0002" ref-type="table-wrap">2</xref>).</p><table-wrap id="jat3265-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Common pathways identified using the Functional Enrichment Analysis tool on the four timepoints of the MDMB study (values for each timepoint are BMD means)</p></caption><table frame="hsides" rules="groups"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Pathway</th><th align="center" valign="bottom" rowspan="1" colspan="1">5 days</th><th align="center" valign="bottom" rowspan="1" colspan="1">14 days</th><th align="center" valign="bottom" rowspan="1" colspan="1">28 days</th><th align="center" valign="bottom" rowspan="1" colspan="1">90 days</th></tr></thead><tbody valign="top"><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Colorectal cancer metastasis signaling</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">332.01</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">342.84</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">394.15</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">396.45</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Endothelin&#x02010;1 signaling</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">358.24</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">325.90</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">410.97</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">419.76</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Glioblastoma multiforme signaling</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">344.00</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">321.17</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">404.83</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">396.32</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">HMGB1 signaling</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">354.35</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">360.03</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">404.39</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">423.17</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Hepatic fibrosis/hepatic stellate cell activation</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">352.81</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">432.79</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">421.11</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">457.97</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">IL&#x02010;8 signaling</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">343.88</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">337.70</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">387.05</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">418.76</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">ILK signaling</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">358.97</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">379.46</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">408.96</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">387.71</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Nitric oxide signaling in the cardiovascular system</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">348.94</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">337.21</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">410.81</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">379.97</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Regulation of the epithelial&#x02010;mesenchymal transition pathway</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">370.30</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">315.33</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">398.27</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">459.18</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Mean</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">351.50</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">350.27</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">404.50</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">415.48</td></tr><tr><td style="bgcolor:white" align="left" valign="top" rowspan="1" colspan="1">Median</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">352.16</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">340.27</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">404.67</td><td align="char" char="." style="bgcolor:white" valign="top" rowspan="1" colspan="1">417.12</td></tr></tbody></table><table-wrap-foot><fn id="jat3265-note-0003"><p>BMD, benchmark dose; IL, interleukin; MDMB, 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine.</p></fn></table-wrap-foot></table-wrap></sec><sec id="jat3265-sec-0014"><title>Multiple Dataset Comparison</title><p>The Multiple Dataset Comparison tool lets the user compare how BMD values vary over different experimental conditions, such as across timepoints, tissues or treatments. This tool lets the user select the number of datasets to compare, followed by uploading the files accordingly. It is important that the files uploaded in a comparison analysis are analyzed using the same pathway or defined category source, as the tool looks for exact matches in names between files and generates a list of biological processes to be selected for comparison. The tool displays only the biological processes common to the uploaded files for selection. When only one file is selected and uploaded, the user can compare pathway BMDs within the same dataset. BMD comparisons can be performed on BMD mean, BMD median, BMDL mean, BMDL median and BMD fifth and 10th percentiles. Four visualization options are available for comparisons: column chart, stepped chart, heat map and data table.</p><p>To demonstrate the Multiple Dataset Comparison tool, we compared nine pathways that we found were enriched using the Functional Enrichment Analysis tool in each of the four timepoints for the MDMB study (Table&#x000a0;<xref rid="jat3265-tbl-0002" ref-type="table-wrap">2</xref> and Fig.&#x000a0;<xref rid="jat3265-fig-0005" ref-type="fig">5</xref>). In general, BMD mean values were considerably lower at the 5&#x02010; (average of 352 ppm) and 14&#x02010;day (average of 350 ppm) timepoints than at the 28&#x02010; (average of 405 ppm) and 90&#x02010;day (average of 415 ppm) timepoints. All but the <italic>glioblastoma multiforme signaling</italic>, <italic>ILK signaling</italic> and <italic>nitric oxide signaling</italic> in the cardiovascular system pathways showed increasing BMD mean values from 28 to 90 days. For the 14&#x02010;day timepoint, the <italic>hepatic fibrosis/hepatic stellate cell activation</italic> pathway had a BMD mean value of 433 ppm, while the other eight pathways were within 310&#x02013;380 ppm. Overall, the BMD mean values for these pathways displayed an increasing trend over time.</p><fig fig-type="Figure" xml:lang="en" id="jat3265-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><p>Comparison of BMD mean values for the nine common pathways identified across four timepoints in the MDMB study using the &#x0201c;Multiple Dataset Comparison&#x0201d; tool. BMD, benchmark dose; IL, interleukin; MDMB, 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine.</p></caption><graphic id="nlm-graphic-9" xlink:href="JAT-36-1048-g005"/></fig></sec><sec id="jat3265-sec-0015"><title>BMDL&#x02010;BMD Range Plotter</title><p>The BMDL&#x02010;BMD Range Plotter tool displays both BMD and BMDL mean or median values as upper and lower bound ranges for user&#x02010;selected pathways in a single figure, similar to approaches described previously (Slob and Setzer, <xref rid="jat3265-bib-0018" ref-type="ref">2014</xref>). As BMDExpress does not provide BMD upper confidence limit (BMDU) values at this time, we applied BMD as the upper bound in the figure at this time. We define the value bound between the BMDL and the BMD as a &#x0201c;range.&#x0201d; The tool displays the range of BMDs for the selected pathways, enabling assessment of these ranges across pathways, and providing information on trends that are useful in determining what BMD may be relevant for regulatory purposes.</p><p>To demonstrate the BMDL&#x02010;BMD Range Plotter tool, we selected the nine pathways identified by the Functional Enrichment Analysis tool that were common between the four timepoints of the MDMB study. We applied the tool to the datasets for each of these timepoints. The analysis revealed consistent ranges between the BMDL and BMD (approximately 110 ppm) for all timepoints (Fig.&#x000a0;<xref rid="jat3265-fig-0006" ref-type="fig">6</xref>). In each of the 5&#x02010;, 28&#x02010; and 90&#x02010;day timepoints, the nine pathways overlapped with each other, and the lengths of overlaps were approximately 60&#x02013;70 ppm. In contrast, the ranges of all of the pathways did not overlap with each other in the 14&#x02010;day timepoint. In general, the ranges extended to lower doses for the earlier timepoints (BMDLs approximating 250&#x02013;350 ppm, and 220&#x02013;350 ppm, for 5 and 14 days, respectively), while they were bound at higher doses for the later timepoints (approximately 300&#x02013;400 ppm, and 250&#x02013;450 ppm, for 28 and 90 days, respectively). For the 14&#x02010;day timepoint, the range of the <italic>hepatic fibrosis/hepatic stellate cell activation</italic> pathway had a higher BMDL and BMD bound, while the other eight pathways extended to lower doses. In general, the centers of overlaps were lower (290 and 300 ppm) for 5 and 14 days, respectively, and higher (340 and 360 ppm) for 28 and 90 days, respectively.</p><fig fig-type="Figure" xml:lang="en" id="jat3265-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>BMDL&#x02010;BMD range plots for the nine common pathways identified across four timepoints in the MDMB study using the &#x0201c;BMDL&#x02010;BMD Range Plotter&#x0201d; tool. BMD, benchmark dose; BMDL, benchmark dose lower confidence (values); MDMB, 4,4&#x02032;&#x02010;methylenebis(<italic>N</italic>,<italic>N</italic>&#x02010;dimethyl)benzenamine.</p></caption><graphic id="nlm-graphic-11" xlink:href="JAT-36-1048-g006"/></fig></sec></sec><sec id="jat3265-sec-0016"><title>Discussion</title><p>We developed BMDExpress Data Viewer to assist in the analysis of BMDExpress output files by providing visualization tools to summarize datasets, and data exploratory tools to identify sensitive biological processes, to compare BMDs across experiments and to determine BMDs of potential regulatory use. In this paper, we analyzed DNA microarray datasets from rodent tissues generated from two separate dose&#x02013;response experiments to demonstrate the features and functionality of BMDExpress Data Viewer. We show that BMDExpress Data Viewer can be used to visualize BMDExpress output files and provide novel ways to explore and analyze these datasets.</p><p>By applying the furan and MDMB datasets to the BMD Analysis Summary and the Functional Classification Summary tools, we demonstrate some variables that may influence the BMDs derived from whole genome transcriptional profiles. For example, statistical pre&#x02010;filtering of the data influences the distribution of gene BMDs leading to more normal distributions that may yield more robust BMD estimates. In addition, a general trend of declining BMDs with increasing statistical stringency (i.e., unfiltered versus ANOVA&#x02010;filtered versus FDR&#x02010;filtered) was found. However, secondary modes and the &#x0201c;noise&#x0201d; at extreme ends of the probe BMD histograms (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>A,B) were largely minimized in the histograms of pathway BMDs (Fig.&#x000a0;<xref rid="jat3265-fig-0003" ref-type="fig">3</xref>A,B). Our results also showed that the peaks (main modes) of BMD were very similar to the BMD values reported in previous studies. It has previously been proposed that the lowest BMD be used as a point of departure for risk assessment (Moffat <italic>et al</italic>., <xref rid="jat3265-bib-0016" ref-type="ref">2015</xref>; Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0020" ref-type="ref">2011</xref>, <xref rid="jat3265-bib-0021" ref-type="ref">2012</xref>). Our results suggest that the main modes of gene expression BMDs may be useful surrogates to estimate the BMDs at which adverse apical effects (such as cancer in the 2&#x02010;year cancer bioassay) may occur (Webster <italic>et al</italic>., <xref rid="jat3265-bib-0028" ref-type="ref">2015</xref>). More work is needed across a diverse array of toxicological endpoints to determine the most effective application of gene expression BMDs as points of departure.</p><p>In the furan ANOVA dataset, as well as in the MDMB 5&#x02010; and 90&#x02010;day datasets, the BMDs were bimodally distributed. As an example of how this distribution might be used to inform risk assessment, we extracted the genes underlying each mode from the three BMDExpress output files and performed pathway enrichment analysis using IPA. There was no overlap in the top 10 pathways from these analyses, with a single exception (<italic>mitotic roles of polo&#x02010;like kinase</italic> pathway in the MDMB 5&#x02010;day dataset) (Supplementary file). Given that the pathways in the lower mode are activated by a lower dose than the pathways in the higher mode, these processes may represent the most sensitive drivers of the underlying toxicological effects. We speculate that these processes will be important considerations for establishing the mode of action and point of departure for this chemical. However, detailed analysis and interpretation of the biological effects observed here are beyond the scope of this paper. More work is needed to investigate further the mechanisms of interactions between the groups of pathways.</p><p>The histogram of fit <italic>P</italic>&#x02010;value distributions provides an opportunity to investigate the overall quality of the models. Our results from the four MDMB timepoints suggest an overall lower confidence of fit for the 14&#x02010;, 28&#x02010; and 90&#x02010;day datasets (fit <italic>P</italic>&#x02010;values closer to cutoff of 0.1) relative to the 5&#x02010;day dataset where more probes were modeled with higher confidence (fit <italic>P</italic>&#x02010;values closer to 1). To demonstrate an example of further analysis, we obtained the number of probes before and after the fit <italic>P</italic>&#x02010;value filter (by checking and unchecking the option in the BMD Analysis Summary tool) and computed the percentage of probes that could be modeled (Supplementary File&#x000a0;2). For all timepoints, except for 14 days, over 80% of the probes that passed the initial filter of one dose with ANOVA <italic>P</italic> &#x0003c; 0.05 relative to control could be modeled. In contrast, only ~50% of probes could be modeled at 14 days. Interestingly, the 14&#x02010;day timepoint also exhibited a different model distribution from the other three timepoints (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>E). More research is needed to understand the biological basis for these differences, but this is beyond the scope of the present study.</p><p>The scatterplot of BMD versus BMDL provides the capability to identify quickly the outliers and allows the user to investigate ratios of BMD/BMDL. We note that it has been suggested that since BMDL calculation takes into account measures of data uncertainty, a higher BMD/BMDL ratio may indicate higher uncertainty; thus, it has been proposed that a BMD/BMDL ratio &#x0003c; 2 indicates low uncertainty (Muri <italic>et al</italic>., <xref rid="jat3265-bib-0017" ref-type="ref">2009</xref>). BMDExpress Data Viewer enables users to assess rapidly which genes and pathways are not in agreement with these principles, facilitating the filtering of poor fitting data before subsequent analyses.</p><p>The pie chart of models in the BMD Analysis Summary tool displays an overall representation of the models used. Where a specific model is preferred, such as the Hill model for receptor&#x02010;mediated responses (Zhao <italic>et al</italic>., <xref rid="jat3265-bib-0030" ref-type="ref">2010</xref>), the pie chart can be used for a quick assessment of the suitability of the models used. If an unexpected skew is observed in the types of models used, the model selection parameters in BMDExpress may then be adjusted. In our analysis with the four MDMB timepoint datasets, we noted a considerably different distribution of models in the 14&#x02010;day timepoint in comparison to other timepoints (Fig.&#x000a0;<xref rid="jat3265-fig-0002" ref-type="fig">2</xref>E). The dissimilar model distribution in the 14&#x02010;day timepoint may be the cause for some divergent results observed in the main modes of probe and pathway BMD histograms at this timepoint, as well as in the reduced degree of overlap in the BMDL&#x02010;BMD range plots. More work is needed to assess the source of this observed dissimilarity.</p><p>The Dynamic Viewers in the BMD Analysis Summary and Functional Classification Summary tools provide an opportunity for the user to explore graphically the input datasets with the flexibility to zoom in and out for more or less detail. If the user has an expected range of BMDs in mind, or if pathways within a particular range are of interest, the Dynamic Viewers will reveal the genes or pathways in the set ranges. In addition, the Dynamic Viewers can be used to examine the specific ranges of BMDs within a region (e.g., within a mode, or within an outlier regions) identified in the histograms or scatterplots. Overall, this viewer enables a dynamic filtering capability for comparison of BMD values across pathways. In our investigation of the modes of the 90&#x02010;day timepoint of the MDMB study, we identified 24 pathways (Fig.&#x000a0;<xref rid="jat3265-fig-0003" ref-type="fig">3</xref>C); of these, only the <italic>endothelin&#x02010;1 signaling</italic>, <italic>HMGB1 signaling</italic>, <italic>IL&#x02010;8 signaling</italic> and <italic>RAR activation</italic> pathways were among the nine common pathways later identified using the Functional Enrichment Analysis tool. This low number of matches is not unexpected, as the Dynamic Viewer simply presents the pathways within the specified BMD ranges without utilizing probability values of the statistical enrichment test.</p><p>The Functional Enrichment Analysis tool represents biological processes as bubbles in a two&#x02010;dimensional space. The main difference between this analysis and other pathway or functional enrichment approaches is that it only includes genes that were fit to a mathematical model and therefore have a BMD. Thus, the test requires that the gene was significant in at least one dose, in addition to showing a dose&#x02013;response that could be modeled. Overall, it makes use of dose&#x02013;response information that is not considered in the other pathway enrichment approaches. With this tool, users can visualize and evaluate the relevance of each pathway. Larger bubbles represent larger pathways (pathways with more genes) and the darker the color, the more genes perturbed in the pathway. Thus, large and dark bubbles that are near the bottom left (i.e., lower BMDs and <italic>P</italic>&#x02010;values) may be important biological perturbations. Applications such as DAVID have integrated a Fisher's exact test to determine the probability of a pathway matching from a short list of genes as opposed to randomly picking it up from a full list of genes in the organism (Huang <italic>et al</italic>., <xref rid="jat3265-bib-0011" ref-type="ref">2007a</xref>). We found that by applying a Fisher's exact test <italic>P</italic> &#x02264; 0.05 and a minimum of three significant genes, similar pathways were identified to our previous IPA approach (Jackson <italic>et al</italic>. <xref rid="jat3265-bib-0015" ref-type="ref">2014</xref>) (Table&#x000a0;<xref rid="jat3265-tbl-0001" ref-type="table-wrap">1</xref>). However, our approach here has the added benefit of including the BMDs within the pathway analysis. As we decreased the Fisher's exact test <italic>P</italic>&#x02010;value and increased the minimum number of significant genes in the Functional Enrichment Analysis tool, more pathways in the upper range of the BMDL mean axis were filtered out. The remaining pathways that matched the previous IPA analysis were generally larger. This shows how the Functional Enrichment Analysis tool presented here is capable of identifying potentially important pathways for further investigations.</p><p>By using the Multiple Dataset Comparison tool, the nine common pathways in the MDMB study showed an increasing BMD trend over time (Table&#x000a0;<xref rid="jat3265-tbl-0002" ref-type="table-wrap">2</xref> and Fig.&#x000a0;<xref rid="jat3265-fig-0005" ref-type="fig">5</xref>). A potential hypothesis is that over time the organism may be adapting to the chemical exposure, hence requiring a higher dose to activate these pathways. We also have applied this tool to compare datasets across three gene expression technology platforms: reverse transcription&#x02013;polymerase chain reaction, microarray and RNAseq (Webster <italic>et al</italic>., <xref rid="jat3265-bib-0028" ref-type="ref">2015</xref>). Overall, the &#x0201c;Multiple Dataset Comparison&#x0201d; tool enables an analysis of important trends across different datasets to provide support in identifying the most relevant pathways.</p><p>Application of the BMDL&#x02010;BMD Range Plotter tool to nine common pathways between the four MDMB timepoints revealed lower BMD values at two earlier timepoints than the later timepoints (Fig.&#x000a0;<xref rid="jat3265-fig-0006" ref-type="fig">6</xref>). This observation was consistent with results of the Multiple Dataset Comparison analysis. The center values of overlaps for the timepoints were very similar to the 2&#x02010;year rodent cancer bioassay BMD of 381 ppm (Thomas <italic>et al</italic>., <xref rid="jat3265-bib-0023" ref-type="ref">2013b</xref>). The higher BMDL&#x02010;BMD range of the <italic>hepatic fibrosis/hepatic stellate cell activation</italic> pathway in 14, 28 and 90 days may indicate that the pathway requires a higher dose to be activated than the other pathways. Slob and Setzer (<xref rid="jat3265-bib-0018" ref-type="ref">2014</xref>) demonstrated that within a BMDL&#x02010;BMDU range, a true BMD can be defined with 90% confidence and thus true differences across pathway BMDs can be assessed. However, in the BMDL&#x02010;BMD Range Plotter, similar confidence cannot be assumed. When two BMDL&#x02010;BMD ranges overlap, their true BMD values are more likely similar if the overlapping interval is larger. Such confidence will increase if the ranges include BMDU values. Non&#x02010;overlapping BMDL&#x02010;BMD ranges, in addition, may or may not overlap with BMDU values. BMDExpress does not compute BMDU. Enabling this feature would improve the utility of this tool and will be addressed in future work. At present, the BMDL&#x02010;BMD Range Plotter provides an effective means to visualize trends and assess potential pathways for use in determining a transcriptional point of departure.</p><p>In conclusion, BMDExpress is an important software application used to compute BMDs from high&#x02010;throughput transcriptional datasets. We anticipate that the application of such approaches will grow as higher&#x02010;throughput and less expensive methodologies for global gene expression analysis are produced. Indeed, it has been proposed that BMDs from toxicogenomic experiments be used as points of departure in human health risk assessment in the absence of data from traditional methods (Chepelev <italic>et al</italic>. <xref rid="jat3265-bib-0006" ref-type="ref">2015</xref>; Moffat <italic>et al</italic>. <xref rid="jat3265-bib-0016" ref-type="ref">2015</xref>; Thomas <italic>et al</italic>. <xref rid="jat3265-bib-0021" ref-type="ref">2012</xref>, <xref rid="jat3265-bib-0022" ref-type="ref">2013a</xref>, b). The application of toxicogenomics in risk assessment is still in an early phase of development. We hope BMDExpress Data Viewer can help advance the utility of toxicogenomics in developing effective approaches to determine the most suitable BMDs in a whole genome analysis. Previous work has shown that toxicogenomic experiments with sufficient biological replicates and doses (preferably encompassing doses both above and below the BMD) can be modeled to derive the BMDs that are comparable to apical BMDs (Black <italic>et al</italic>., <xref rid="jat3265-bib-0003" ref-type="ref">2014</xref>; Webster <italic>et al</italic>., <xref rid="jat3265-bib-0028" ref-type="ref">2015</xref>). We highly recommend that the designs of experiments in this field follow best practices that are already established for BMD modeling of apical data, for example, having at least one dose near the anticipated BMD as well as including the lower doses that should be closer to point of departure for sensitive endpoints (US EPA, <xref rid="jat3265-bib-0025" ref-type="ref">2012</xref>). We demonstrate that BMDExpress Data Viewer can be used to assist in the interpretation of toxicogenomic BMDs derived using BMDExpress, and hope that it will facilitate further work to establish the best approaches for BMD applications to toxicogenomic data. The application provides a means to evaluate the quality of study data, explore BMD ranges across pathways, experiments and experimental conditions, and identify the most relevant perturbations. In the example analyses, we showed how this tool could be used to explore the most sensitive biological perturbations occurring in a transcriptomics study through analysis of gene and pathway BMDs. These features and results illustrate that BMDExpress Data Viewer is a useful tool to visualize, explore and analyze BMDExpress output files.</p></sec><sec id="jat3265-sec-0017"><title>Conflict of interest</title><p>The authors did not report any conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data" id="jat3265-supinf-0001"/><supplementary-material content-type="local-data" id="jat3265-supitem-0001"><caption><p>Supporting info item</p></caption><media xlink:href="JAT-36-1048-s001.bmp"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="jat3265-supitem-0002"><caption><p>Supporting info item</p></caption><media xlink:href="JAT-36-1048-s002.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="jat3265-supitem-0003"><caption><p>Supporting Info item</p></caption><media xlink:href="JAT-36-1048-s003.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="jat3265-sec-0018"><title>Acknowledgments</title><p>We thank Jill Franzosa, Reza Farmahin, Nikolai Chepelev, John Wills and Sarah Labib for providing useful comments and suggestions. We thank Reza Farmahin for identifying the MDMB datasets to be included in the analysis. We thank Andrew Williams for providing useful advice on the statistical methods. We acknowledge Scott Auerbach of the National Toxicology Program along with Ruchir Shah, Dan Svoboda and Jason Phillips of Sciome LLC for technical support. This research was funded by the Health Canada Genomics Research and Development Initiative and the Chemicals Management Plan. AFW was supported by the Natural Sciences and Engineering Research Council and the Ontario Graduate Scholarship.</p></ack><ref-list content-type="cited-references" id="jat3265-bibl-0001"><title>References</title><ref id="jat3265-bib-0001"><mixed-citation publication-type="journal" id="jat3265-cit-0001">
+<string-name>
+<surname>Bertie</surname>
+<given-names>AJ</given-names>
+</string-name>. <year>2002</year>
+<article-title>Java applications for teaching statistics</article-title>. <source>MSOR Connect</source>
+<volume>2</volume>: <fpage>ui</fpage>&#x02013;<lpage>81</lpage>.</mixed-citation></ref><ref id="jat3265-bib-0002"><mixed-citation publication-type="journal" id="jat3265-cit-0002">
+<string-name>
+<surname>Bhat</surname>
+<given-names>VS</given-names>
+</string-name>, <string-name>
+<surname>Hester</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name>
+<surname>Nesnow</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Eastmond</surname>
+<given-names>DA</given-names>
+</string-name>. <year>2013</year>
+<article-title>Concordance of transcriptional and apical benchmark dose levels for conazole&#x02010;induced liver effects in mice</article-title>. <source>Toxicol. Sci.</source>
+<volume>136</volume>: <fpage>205</fpage>&#x02013;<lpage>215</lpage>.<pub-id pub-id-type="pmid">23970803</pub-id></mixed-citation></ref><ref id="jat3265-bib-0003"><mixed-citation publication-type="journal" id="jat3265-cit-0003">
+<string-name>
+<surname>Black</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name>
+<surname>Parks</surname>
+<given-names>BB</given-names>
+</string-name>, <string-name>
+<surname>Pluta</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Chu</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Allen</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name>
+<surname>Wolfinger</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Thomas</surname>
+<given-names>RS</given-names>
+</string-name>. <year>2014</year>
+<article-title>Comparison of microarrays and RNA&#x02010;seq for gene expression analyses of dose&#x02010;response experiments</article-title>. <source>Toxicol. Sci.</source>
+<volume>137</volume>: <fpage>385</fpage>&#x02013;<lpage>403</lpage>.<pub-id pub-id-type="pmid">24194394</pub-id></mixed-citation></ref><ref id="jat3265-bib-0004"><mixed-citation publication-type="journal" id="jat3265-cit-0004">
+<string-name>
+<surname>Bourdon</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Kuo</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Moffat</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>White</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Halappanavar</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Vogel</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Wallin</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Yauk</surname>
+<given-names>CL</given-names>
+</string-name>. <year>2013</year>
+<article-title>Gene expression profiling to identify potentially relevant disease outcomes and support human health risk assessment for carbon black nanoparticle exposure</article-title>. <source>Toxicology</source>
+<volume>303</volume>: <fpage>83</fpage>&#x02013;<lpage>93</lpage>.<pub-id pub-id-type="pmid">23146762</pub-id></mixed-citation></ref><ref id="jat3265-bib-0005"><mixed-citation publication-type="journal" id="jat3265-cit-0005">
+<string-name>
+<surname>Budtz&#x02010;Jorgensen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Bellinger</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Lanphear</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Grandjean</surname>
+<given-names>P</given-names>
+</string-name>, International Pooled Lead Study Investigators. <year>2013</year>
+<article-title>An international pooled analysis for obtaining a benchmark dose for environmental lead exposure in children</article-title>. <source>Risk Anal.</source>
+<volume>33</volume>: <fpage>450</fpage>&#x02013;<lpage>461</lpage>.<pub-id pub-id-type="pmid">22924487</pub-id></mixed-citation></ref><ref id="jat3265-bib-0006"><mixed-citation publication-type="journal" id="jat3265-cit-0006">
+<string-name>
+<surname>Chepelev</surname>
+<given-names>NL</given-names>
+</string-name>, <string-name>
+<surname>Moffat</surname>
+<given-names>ID</given-names>
+</string-name>, <string-name>
+<surname>Labib</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Bourdon&#x02010;Lacombe</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kuo</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Buick</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Lemieux</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Malik</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name>
+<surname>Halappanavar</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Yauk</surname>
+<given-names>CL</given-names>
+</string-name>. <year>2015</year>
+<article-title>Integrating toxicogenomics into human health risk assessment: lessons learned from the benzo[a]pyrene case study</article-title>. <source>Crit. Rev. Toxicol.</source>
+<volume>45</volume>: <fpage>44</fpage>&#x02013;<lpage>52</lpage>.<pub-id pub-id-type="pmid">25605027</pub-id></mixed-citation></ref><ref id="jat3265-bib-0007"><mixed-citation publication-type="journal" id="jat3265-cit-0007">
+<string-name>
+<surname>Crump</surname>
+<given-names>KS</given-names>
+</string-name>. <year>1984</year>
+<article-title>A new method for determining allowable daily intakes</article-title>. <source>Fundam. Appl. Toxicol.</source>
+<volume>4</volume>: <fpage>854</fpage>&#x02013;<lpage>871</lpage>.<pub-id pub-id-type="pmid">6510615</pub-id></mixed-citation></ref><ref id="jat3265-bib-0008"><mixed-citation publication-type="miscellaneous" id="jat3265-cit-0008">
+<collab collab-type="authors">Google Inc</collab>
+. <year>2015</year> Google Charts &#x02013; Google Developers. <ext-link ext-link-type="uri" xlink:href="https://developers.google.com/chart/">https://developers.google.com/chart/</ext-link> (25 March 2015).</mixed-citation></ref><ref id="jat3265-bib-0009"><mixed-citation publication-type="journal" id="jat3265-cit-0009">
+<string-name>
+<surname>Haseman</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Hailey</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Morris</surname>
+<given-names>RW</given-names>
+</string-name>. <year>1998</year>
+<article-title>Spontaneous neoplasm incidences in Fischer 344 rats and B6C3F1 mice in two&#x02010;year carcinogenicity studies: a National Toxicology Program update</article-title>. <source>Toxicol. Pathol.</source>
+<volume>26</volume>: <fpage>428</fpage>&#x02013;<lpage>441</lpage>.<pub-id pub-id-type="pmid">9608650</pub-id></mixed-citation></ref><ref id="jat3265-bib-0010"><mixed-citation publication-type="book" id="jat3265-cit-0010">
+<collab collab-type="authors">Health Canada</collab>
+. <year>2013</year>
+<source>Final Human Health State of the Science Report on Lead</source>. <publisher-name>Government of Canada</publisher-name>.</mixed-citation></ref><ref id="jat3265-bib-0011"><mixed-citation publication-type="journal" id="jat3265-cit-0011">
+<string-name>
+<surname>Huang</surname>
+<given-names>DW</given-names>
+</string-name>, <string-name>
+<surname>Sherman</surname>
+<given-names>BT</given-names>
+</string-name>, <string-name>
+<surname>Tan</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name>
+<surname>Collins</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Alvord</surname>
+<given-names>WG</given-names>
+</string-name>, <string-name>
+<surname>Roayaei</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Baseler</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Lane</surname>
+<given-names>HC</given-names>
+</string-name>, <string-name>
+<surname>Lempicki</surname>
+<given-names>RA</given-names>
+</string-name>. <year>2007a</year>
+<article-title>The DAVID Gene Functional Classification Tool: a novel biological module&#x02010;centric algorithm to functionally analyze large gene lists</article-title>. <source>Genome Biol.</source>
+<volume>8</volume>: <fpage>R183</fpage>.<pub-id pub-id-type="pmid">17784955</pub-id></mixed-citation></ref><ref id="jat3265-bib-0012"><mixed-citation publication-type="journal" id="jat3265-cit-0012">
+<string-name>
+<surname>Huang</surname>
+<given-names>DW</given-names>
+</string-name>, <string-name>
+<surname>Sherman</surname>
+<given-names>BT</given-names>
+</string-name>, <string-name>
+<surname>Tan</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name>
+<surname>Kir</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Bryant</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Guo</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Baseler</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Lane</surname>
+<given-names>HC</given-names>
+</string-name>, <string-name>
+<surname>Lempicki</surname>
+<given-names>RA</given-names>
+</string-name>. <year>2007b</year>
+<article-title>DAVID Bioinformatics Resources: expanded annotation database and novel algorithms to better extract biology from large gene lists</article-title>. <source>Nucleic Acids Res.</source>
+<volume>35</volume>: <fpage>W169</fpage>&#x02013;<lpage>175</lpage>.<pub-id pub-id-type="pmid">17576678</pub-id></mixed-citation></ref><ref id="jat3265-bib-0013"><mixed-citation publication-type="miscellaneous" id="jat3265-cit-0013">
+<collab collab-type="authors">Institute of Systems Biology</collab>
+.<year>2008</year>
+<article-title>Visualization: BioHeatMap &#x02013; A Heatmap for Gene Expression and Other Data</article-title>
+<ext-link ext-link-type="uri" xlink:href="http://informatics.systemsbiology.net/visualizations/heatmap/bioheatmap.html">http://informatics.systemsbiology.net/visualizations/heatmap/bioheatmap.html</ext-link> (25 March 2015).</mixed-citation></ref><ref id="jat3265-bib-0014"><mixed-citation publication-type="journal" id="jat3265-cit-0014">
+<string-name>
+<surname>Irizarry</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Hobbs</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Collin</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Beazer&#x02010;Barclay</surname>
+<given-names>YD</given-names>
+</string-name>, <string-name>
+<surname>Antonellis</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Scherf</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Speed</surname>
+<given-names>TP</given-names>
+</string-name>. <year>2003</year>
+<article-title>Exploration, normalization, and summaries of high density oligonucleotide array probe level data</article-title>. <source>Biostatistics</source>
+<volume>4</volume>: <fpage>249</fpage>&#x02013;<lpage>264</lpage>.<pub-id pub-id-type="pmid">12925520</pub-id></mixed-citation></ref><ref id="jat3265-bib-0015"><mixed-citation publication-type="journal" id="jat3265-cit-0015">
+<string-name>
+<surname>Jackson</surname>
+<given-names>AF</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Recio</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Waters</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Lambert</surname>
+<given-names>IB</given-names>
+</string-name>, <string-name>
+<surname>Yauk</surname>
+<given-names>CL</given-names>
+</string-name>. <year>2014</year>
+<article-title>Case study on the utility of hepatic global gene expression profiling in the risk assessment of the carcinogen furan</article-title>. <source>Toxicol. Appl. Pharmacol.</source>
+<volume>274</volume>: <fpage>63</fpage>&#x02013;<lpage>77</lpage>.<pub-id pub-id-type="pmid">24183702</pub-id></mixed-citation></ref><ref id="jat3265-bib-0016"><mixed-citation publication-type="journal" id="jat3265-cit-0016">
+<string-name>
+<surname>Moffat</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Chepelev</surname>
+<given-names>NL</given-names>
+</string-name>, <string-name>
+<surname>Labib</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Bourdon&#x02010;Lacombe</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kuo</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Buick</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Lemieux</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Halappanavar</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Malik</surname>
+<given-names>AI</given-names>
+</string-name>, <string-name>
+<surname>Luijten</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Aubrecht</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Hyduke</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Fornace</surname>
+<given-names>AJJ</given-names>
+</string-name>, <string-name>
+<surname>Swartz</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name>
+<surname>Recio</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Yauk</surname>
+<given-names>CL</given-names>
+</string-name>. <year>2015</year>
+<article-title>Comparison of toxicogenomics and traditional approaches to inform mode of action and points of departure in human health risk assessment of benzo[a]pyrene in drinking water</article-title>. <source>Crit. Rev. Toxicol.</source>
+<volume>45</volume>: <fpage>1</fpage>&#x02013;<lpage>43</lpage>.</mixed-citation></ref><ref id="jat3265-bib-0017"><mixed-citation publication-type="journal" id="jat3265-cit-0017">
+<string-name>
+<surname>Muri</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name>
+<surname>Schlatter</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Bruschweiler</surname>
+<given-names>BJ</given-names>
+</string-name>. <year>2009</year>
+<article-title>The benchmark dose approach in food risk assessment: is it applicable and worthwhile?</article-title>
+<source>Food Chem. Toxicol.</source>
+<volume>47</volume>: <fpage>2906</fpage>&#x02013;<lpage>2925</lpage>.<pub-id pub-id-type="pmid">19682530</pub-id></mixed-citation></ref><ref id="jat3265-bib-0018"><mixed-citation publication-type="journal" id="jat3265-cit-0018">
+<string-name>
+<surname>Slob</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Setzer</surname>
+<given-names>W</given-names>
+</string-name>. <year>2014</year>
+<article-title>Shape and steepness of toxicological dose&#x02013;response relationships of continuous endpoints</article-title>. <source>Crit. Rev. Toxicol.</source>
+<volume>44</volume>: <fpage>270</fpage>&#x02013;<lpage>297</lpage>.<pub-id pub-id-type="pmid">24252121</pub-id></mixed-citation></ref><ref id="jat3265-bib-0019"><mixed-citation publication-type="journal" id="jat3265-cit-0019">
+<string-name>
+<surname>Thomas</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name>
+<surname>O'Connell</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Pluta</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Wolfinger</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Page</surname>
+<given-names>TJ</given-names>
+</string-name>. <year>2007</year>
+<article-title>A comparison of transcriptomic and metabonomic technologies for identifying biomarkers predictive of two&#x02010;year rodent cancer bioassays</article-title>. <source>Toxicol. Sci.</source>
+<volume>96</volume>: <fpage>40</fpage>&#x02013;<lpage>46</lpage>.<pub-id pub-id-type="pmid">17114358</pub-id></mixed-citation></ref><ref id="jat3265-bib-0020"><mixed-citation publication-type="journal" id="jat3265-cit-0020">
+<string-name>
+<surname>Thomas</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name>
+<surname>Clewell</surname>
+<given-names>HJ3</given-names>
+</string-name>, <string-name>
+<surname>Allen</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name>
+<surname>Wesselkamper</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>NC</given-names>
+</string-name>, <string-name>
+<surname>Lambert</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Hess&#x02010;Wilson</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>
+<given-names>QJ</given-names>
+</string-name>, <string-name>
+<surname>Andersen</surname>
+<given-names>ME</given-names>
+</string-name>. <year>2011</year>
+<article-title>Application of transcriptional benchmark dose values in quantitative cancer and noncancer risk assessment</article-title>. <source>Toxicol. Sci.</source>
+<volume>120</volume>: <fpage>194</fpage>&#x02013;<lpage>205</lpage>.<pub-id pub-id-type="pmid">21097997</pub-id></mixed-citation></ref><ref id="jat3265-bib-0021"><mixed-citation publication-type="journal" id="jat3265-cit-0021">
+<string-name>
+<surname>Thomas</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name>
+<surname>Clewell</surname>
+<given-names>HJ3</given-names>
+</string-name>, <string-name>
+<surname>Allen</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Healy</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Andersen</surname>
+<given-names>ME</given-names>
+</string-name>. <year>2012</year>
+<article-title>Integrating pathway&#x02010;based transcriptomic data into quantitative chemical risk assessment: a five chemical case study</article-title>. <source>Mutat. Res.</source>
+<volume>746</volume>: <fpage>135</fpage>&#x02013;<lpage>143</lpage>.<pub-id pub-id-type="pmid">22305970</pub-id></mixed-citation></ref><ref id="jat3265-bib-0022"><mixed-citation publication-type="journal" id="jat3265-cit-0022">
+<string-name>
+<surname>Thomas</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name>
+<surname>Philbert</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Auerbach</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Wetmore</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name>
+<surname>Devito</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Cote</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Rowlands</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Whelan</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Hays</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Andersen</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Meek</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Reiter</surname>
+<given-names>LW</given-names>
+</string-name>, <string-name>
+<surname>Lambert</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Clewell</surname>
+<given-names>HJ3</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>
+<given-names>QJ</given-names>
+</string-name>, <string-name>
+<surname>Flowers</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Carney</surname>
+<given-names>EW</given-names>
+</string-name>, <string-name>
+<surname>Pastoor</surname>
+<given-names>TP</given-names>
+</string-name>, <string-name>
+<surname>Petersen</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Yauk</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Nong</surname>
+<given-names>A</given-names>
+</string-name>. <year>2013a</year>
+<article-title>Incorporating new technologies into toxicity testing and risk assessment: moving from 21st century vision to a data&#x02010;driven framework</article-title>. <source>Toxicol. Sci.</source>
+<volume>136</volume>: <fpage>4</fpage>&#x02013;<lpage>18</lpage>.<pub-id pub-id-type="pmid">23958734</pub-id></mixed-citation></ref><ref id="jat3265-bib-0023"><mixed-citation publication-type="journal" id="jat3265-cit-0023">
+<string-name>
+<surname>Thomas</surname>
+<given-names>RS</given-names>
+</string-name>, <string-name>
+<surname>Wesselkamper</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>NC</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>
+<given-names>QJ</given-names>
+</string-name>, <string-name>
+<surname>Petersen</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Lambert</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Cote</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Healy</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Black</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name>
+<surname>Clewell</surname>
+<given-names>HJ3</given-names>
+</string-name>, <string-name>
+<surname>Allen</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name>
+<surname>Andersen</surname>
+<given-names>ME</given-names>
+</string-name>. <year>2013b</year>
+<article-title>Temporal concordance between apical and transcriptional points of departure for chemical risk assessment</article-title>. <source>Toxicol. Sci.</source>
+<volume>134</volume>: <fpage>180</fpage>&#x02013;<lpage>194</lpage>.<pub-id pub-id-type="pmid">23596260</pub-id></mixed-citation></ref><ref id="jat3265-bib-0024"><mixed-citation publication-type="miscellaneous" id="jat3265-cit-0024">
+<collab collab-type="authors">US EPA</collab>
+. <year>1989</year>
+<article-title>Integrated Risk Information System (IRIS) Chemical Assessment Summary: 4,4&#x02032;&#x02010;Methylene bis(N,N&#x02032;&#x02010;dimethyl)aniline (CASRN 101&#x02010;61&#x02010;1)</article-title>. <ext-link ext-link-type="uri" xlink:href="http://cfpub.epa.gov/ncea/iris/iris_documents/documents/subst/0386_summary.pdf">http://cfpub.epa.gov/ncea/iris/iris_documents/documents/subst/0386_summary.pdf</ext-link> (5 October 2015).</mixed-citation></ref><ref id="jat3265-bib-0025"><mixed-citation publication-type="miscellaneous" id="jat3265-cit-0025">
+<collab collab-type="authors">US EPA</collab>
+. <year>2012</year>
+<article-title>Benchmark Dose Technical Guidance (EPA/100/R&#x02010;12/001)</article-title>. <ext-link ext-link-type="uri" xlink:href="http://www2.epa.gov/sites/production/files/2015-01/documents/benchmark_dose_guidance.pdf">http://www2.epa.gov/sites/production/files/2015&#x02010;01/documents/benchmark_dose_guidance.pdf</ext-link> (7 October 2015).</mixed-citation></ref><ref id="jat3265-bib-0026"><mixed-citation publication-type="miscellaneous" id="jat3265-cit-0026">
+<string-name>US EPA</string-name>. <year>2015</year>
+<article-title>Benchmark Dose Software (BMDS). Environmental Assessment. US EPA</article-title>
+<ext-link ext-link-type="uri" xlink:href="http://www.epa.gov/ncea/bmds/">http://www.epa.gov/ncea/bmds/</ext-link> (16 April 2015).</mixed-citation></ref><ref id="jat3265-bib-0027"><mixed-citation publication-type="journal" id="jat3265-cit-0027">
+<string-name>
+<surname>Webster</surname>
+<given-names>AF</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Recio</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Yauk</surname>
+<given-names>CL</given-names>
+</string-name>. <year>2014</year>
+<article-title>Gene expression analysis of livers from female B6C3F1 mice exposed to carcinogenic and non&#x02010;carcinogenic doses of furan, with or without bromodeoxyuridine (BrdU) treatment</article-title>. <source>Genom. Data</source>
+<volume>2</volume>: <fpage>117</fpage>&#x02013;<lpage>122</lpage>.<pub-id pub-id-type="pmid">26484082</pub-id></mixed-citation></ref><ref id="jat3265-bib-0028"><mixed-citation publication-type="journal" id="jat3265-cit-0028">
+<string-name>
+<surname>Webster</surname>
+<given-names>AF</given-names>
+</string-name>, <string-name>
+<surname>Chepelev</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Gagne</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Kuo</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Recio</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Yauk</surname>
+<given-names>CL</given-names>
+</string-name>. <year>2015</year>
+<article-title>Impact of Genomics Platform and Statistical Filtering on Transcriptional Benchmark Doses (BMD) and Multiple Approaches for Selection of Chemical Point of Departure (PoD)</article-title>. <source>PLoS One</source>
+<volume>10</volume>: <fpage>e0136764</fpage>.<pub-id pub-id-type="pmid">26313361</pub-id></mixed-citation></ref><ref id="jat3265-bib-0029"><mixed-citation publication-type="journal" id="jat3265-cit-0029">
+<string-name>
+<surname>Yang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Allen</surname>
+<given-names>BC</given-names>
+</string-name>, <string-name>
+<surname>Thomas</surname>
+<given-names>RS</given-names>
+</string-name>. <year>2007</year>
+<article-title>BMDExpress: a software tool for the benchmark dose analyses of genomic data</article-title>. <source>BMC Genomics</source>
+<volume>8</volume>: <fpage>387</fpage>.<pub-id pub-id-type="pmid">17961223</pub-id></mixed-citation></ref><ref id="jat3265-bib-0030"><mixed-citation publication-type="book" id="jat3265-cit-0030">
+<string-name>
+<surname>Zhao</surname>
+<given-names>QJ</given-names>
+</string-name>, <string-name>
+<surname>Haber</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Kohrman&#x02010;Vincent</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Nance</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Dourson</surname>
+<given-names>M</given-names>
+</string-name>. <year>2010</year>
+<chapter-title>Quantitative modeling in noncancer risk assessment</chapter-title> In <source>Quantitative Modeling in Toxicology</source>, <person-group person-group-type="editor"><name><surname>Krishnan</surname><given-names>K</given-names></name></person-group>, <person-group person-group-type="editor"><name><surname>Andersen</surname><given-names>ME</given-names></name></person-group> (eds). <publisher-name>John Wiley &#x00026; Sons Ltd</publisher-name>: <publisher-loc>West Sussex</publisher-loc>; <fpage>371</fpage>&#x02013;<lpage>398</lpage>.</mixed-citation></ref></ref-list></back></article>

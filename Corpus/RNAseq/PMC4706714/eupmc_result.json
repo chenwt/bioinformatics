@@ -1,0 +1,503 @@
+{
+  "id": [
+    "26747388"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26747388"
+  ],
+  "pmcid": [
+    "PMC4706714"
+  ],
+  "doi": [
+    "10.1186/s12864-015-2356-9"
+  ],
+  "title": [
+    "QuickRNASeq lifts large-scale RNA-seq data analyses to the next level of automation and interactive visualization."
+  ],
+  "authorString": [
+    "Zhao S, Xi L, Quan J, Xi H, Zhang Y, von Schack D, Vincent M, Zhang B."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Zhao S"
+          ],
+          "firstName": [
+            "Shanrong"
+          ],
+          "lastName": [
+            "Zhao"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "PharmaTherapeutics Clinical R&D, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Shanrong.Zhao@pfizer.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Xi L"
+          ],
+          "firstName": [
+            "Li"
+          ],
+          "lastName": [
+            "Xi"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "PharmaTherapeutics Clinical R&D, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Li.Xi@pfizer.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Quan J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Quan"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Computational Sciences Center of Emphasis, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Jie.Quan@pfizer.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Xi H"
+          ],
+          "firstName": [
+            "Hualin"
+          ],
+          "lastName": [
+            "Xi"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Computational Sciences Center of Emphasis, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Hualin.Xi@pfizer.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang Y"
+          ],
+          "firstName": [
+            "Ying"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "PharmaTherapeutics Clinical R&D, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Ying.Zhang1@pfizer.com."
+          ]
+        },
+        {
+          "fullName": [
+            "von Schack D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "von Schack"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "PharmaTherapeutics Clinical R&D, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. David.VonSchack@pfizer.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Vincent M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Vincent"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "PharmaTherapeutics Clinical R&D, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Michael.Vincent@pfizer.com."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang B"
+          ],
+          "firstName": [
+            "Baohong"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "PharmaTherapeutics Clinical R&D, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Baohong.Zhang@pfizer.com."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2401365"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "39"
+  ],
+  "abstractText": [
+    "RNA sequencing (RNA-seq), a next-generation sequencing technique for transcriptome profiling, is being increasingly used, in part driven by the decreasing cost of sequencing. Nevertheless, the analysis of the massive amounts of data generated by large-scale RNA-seq remains a challenge. Multiple algorithms pertinent to basic analyses have been developed, and there is an increasing need to automate the use of these tools so as to obtain results in an efficient and user friendly manner. Increased automation and improved visualization of the results will help make the results and findings of the analyses readily available to experimental scientists.By combing the best open source tools developed for RNA-seq data analyses and the most advanced web 2.0 technologies, we have implemented QuickRNASeq, a pipeline for large-scale RNA-seq data analyses and visualization. The QuickRNASeq workflow consists of three main steps. In Step #1, each individual sample is processed, including mapping RNA-seq reads to a reference genome, counting the numbers of mapped reads, quality control of the aligned reads, and SNP (single nucleotide polymorphism) calling. Step #1 is computationally intensive, and can be processed in parallel. In Step #2, the results from individual samples are merged, and an integrated and interactive project report is generated. All analyses results in the report are accessible via a single HTML entry webpage. Step #3 is the data interpretation and presentation step. The rich visualization features implemented here allow end users to interactively explore the results of RNA-seq data analyses, and to gain more insights into RNA-seq datasets. In addition, we used a real world dataset to demonstrate the simplicity and efficiency of QuickRNASeq in RNA-seq data analyses and interactive visualizations. The seamless integration of automated capabilites with interactive visualizations in QuickRNASeq is not available in other published RNA-seq pipelines.The high degree of automation and interactivity in QuickRNASeq leads to a substantial reduction in the time and effort required prior to further downstream analyses and interpretation of the analyses findings. QuickRNASeq advances primary RNA-seq data analyses to the next level of automation, and is mature for public release and adoption."
+  ],
+  "affiliation": [
+    "PharmaTherapeutics Clinical R&D, Pfizer Worldwide Research and Development, Cambridge, MA, 02139, USA. Shanrong.Zhao@pfizer.com."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Base Sequence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA"
+          ],
+          "registryNumber": [
+            "63231-63-0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4706714?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4706714"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-015-2356-9"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-09-28"
+  ],
+  "dateOfCreation": [
+    "2016-01-09"
+  ],
+  "dateOfRevision": [
+    "2016-01-11"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-08"
+  ],
+  "firstPublicationDate": [
+    "2016-01-08"
+  ]
+}

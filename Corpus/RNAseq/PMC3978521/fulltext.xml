@@ -1,0 +1,922 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Genes (Basel)</journal-id><journal-id journal-id-type="iso-abbrev">Genes (Basel)</journal-id><journal-id journal-id-type="publisher-id">genes</journal-id><journal-title-group><journal-title>Genes</journal-title></journal-title-group><issn pub-type="epub">2073-4425</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3978521</article-id><article-id pub-id-type="pmid">24705295</article-id><article-id pub-id-type="doi">10.3390/genes5010235</article-id><article-id pub-id-type="publisher-id">genes-05-00235</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Illuminating the Transcriptome through the Genome</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Elliott</surname><given-names>David J.</given-names></name></contrib></contrib-group><aff>Institute of Genetic Medicine, Newcastle University, Newcastle, NE1 3BZ, UK; E-Mail: <email>David.Elliott@ncl.ac.uk</email>; Tel.: +44-0191-241-8694; Fax: +44-0191-241-8666</aff><pub-date pub-type="epub"><day>14</day><month>3</month><year>2014</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2014</year></pub-date><volume>5</volume><issue>1</issue><fpage>235</fpage><lpage>253</lpage><history><date date-type="received"><day>17</day><month>1</month><year>2014</year></date><date date-type="rev-recd"><day>03</day><month>3</month><year>2014</year></date><date date-type="accepted"><day>05</day><month>3</month><year>2014</year></date></history><permissions><copyright-statement>&#x000a9; 2014 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2014</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link>).</license-p></license></permissions><abstract><p>Sequencing the human genome was a huge milestone in genetic research that revealed almost the total DNA sequence required to create a human being. However, in order to function, the DNA genome needs to be expressed as an RNA transcriptome. This article reviews how knowledge of genome sequence information has led to fundamental discoveries in how the transcriptome is processed, with a focus on new system-wide insights into how pre-mRNAs that are encoded by split genes in the genome are rearranged by splicing into functional mRNAs. These advances have been made possible by the development of new post-genome technologies to probe splicing patterns. Transcriptome-wide approaches have characterised a &#x0201c;splicing code&#x0201d; that is embedded within and has a significant role in deciphering the genome, and is deciphered by RNA binding proteins. These analyses have also found that most human genes encode multiple mRNA isoforms, and in some cases proteins, leading in turn to a re-assessment of what exactly a gene is. Analysis of the transcriptome has given insights into how the genome is packaged and transcribed, and is helping to explain important aspects of genome evolution.</p></abstract><kwd-group><kwd>transcriptome</kwd><kwd>RNA splicing</kwd><kwd>post-genome</kwd></kwd-group></article-meta></front><body><sec><title>1. Introduction</title><p>The completion of the human genome sequence [<xref rid="B1-genes-05-00235" ref-type="bibr">1</xref>,<xref rid="B2-genes-05-00235" ref-type="bibr">2</xref>] brought together key scientific and philosophical questions, including exactly what we are as a species and individuals. However, in order to function, the genome has to be expressed. The primary expression product of the genome is RNA, and the complete set of all RNA molecules made through copying the genome into RNA is called the transcriptome (<xref ref-type="fig" rid="genes-05-00235-f001">Figure 1</xref>). After transcription in the nucleus, mRNAs are translated into protein in the cytoplasm to yield the proteome while other RNAs have noncoding functions [<xref rid="B3-genes-05-00235" ref-type="bibr">3</xref>].</p><fig id="genes-05-00235-f001" position="float"><label>Figure 1</label><caption><p>Information flow from the genome to the proteome. The genome represents an archive of information embedded in DNA. This information is transcribed as RNA to give the transcriptome, and then translated into protein to give the proteome.</p></caption><graphic xlink:href="genes-05-00235-g001"/></fig><p>A key feature of human (and other eukaryotic) genes is their split exon-intron structure [<xref rid="B4-genes-05-00235" ref-type="bibr">4</xref>,<xref rid="B5-genes-05-00235" ref-type="bibr">5</xref>]. <xref ref-type="fig" rid="genes-05-00235-f002">Figure 2</xref> shows the exon-intron structure of a typical human gene displayed on a genome browser [<xref rid="B6-genes-05-00235" ref-type="bibr">6</xref>]. The exons include the protein coding information of the gene while introns are the intervening sequences between them. The term exon refers to the fact that exon sequences are expressed in the mRNA made from the gene, as opposed to introns which are removed (intron refers to intragenic regions) [<xref rid="B7-genes-05-00235" ref-type="bibr">7</xref>]. The presence of introns within genes and the long intergenic sequences between genes mean that only a small fraction of the human genome is truly protein-encoding. To put some figures on this, human protein-encoding genes contribute ~33.5% of the human genome sequence [<xref rid="B1-genes-05-00235" ref-type="bibr">1</xref>,<xref rid="B2-genes-05-00235" ref-type="bibr">2</xref>] but exons alone comprise 2.94% of the genome [<xref rid="B8-genes-05-00235" ref-type="bibr">8</xref>]. Protein coding exons make up a smaller proportion still (1.2%) of the genome. This is because there are at least partially untranslated exons in every mRNA (some of which can have important regulatory roles), and some exons remain entirely untranslated (see below).</p><p>Genes need to be transcribed over their full length (including both introns and exons) to generate precursor mRNAs (pre-mRNAs). Transcription of long genes represents a considerable energy investment by the cell. One of the longest genes in the human genome, <italic>DYSTROPHIN</italic> takes in the order of 16 hours to transcribe, yet produces a final mRNA of just ~14 kb that would have just taken ~7 minutes to transcribe by itself, assuming an elongation rate of 2 kb/minute [<xref rid="B9-genes-05-00235" ref-type="bibr">9</xref>]. It is calculated that ~95% of RNA does not leave the nucleus [<xref rid="B10-genes-05-00235" ref-type="bibr">10</xref>]. Nuclear-retained RNA includes intron sequences and some long ncRNAs that are also spliced but retained in the nucleus.</p><fig id="genes-05-00235-f002" position="float"><label>Figure 2</label><caption><p>The intron-exon structure of a typical human gene displayed on the UCSC genome browser [<xref rid="B6-genes-05-00235" ref-type="bibr">6</xref>]. Introns are shown as lines (the &#x0201c;arrowheads&#x0201d; in the lines indicate the direction of transcription). Exons are shown as vertical bars. Coding exons are shown as thicker vertical bars than non-coding exon sequence. This example shows the <italic>NASP</italic> gene. The gene structures shown are &#x0201c;Refseq genes&#x0201d; that represent known human protein-coding and non-protein-coding genes taken from the NCBI RNA reference sequences collection. Notice that this single gene locus contains three distinct Refseq annotations containing different exon structures. Conserved sequences detected by comparative genomic information from 100 vertebrate genome sequences are shown at the bottom as a Phastcons plot&#x02014;the higher values are most conserved, and often correspond to exons.</p></caption><graphic xlink:href="genes-05-00235-g002"/></fig><p>The splicing reaction is catalysed by the spliceosome. While introns are generally discarded after splicing, some introns can yield functional RNAs after splicing (e.g., miRNAs) [<xref rid="B11-genes-05-00235" ref-type="bibr">11</xref>,<xref rid="B12-genes-05-00235" ref-type="bibr">12</xref>]. Spliceosomes themselves are multi-component machines containing five snRNAs and at least 200 proteins, making them one of the most complicated assemblies in the cell [<xref rid="B13-genes-05-00235" ref-type="bibr">13</xref>,<xref rid="B14-genes-05-00235" ref-type="bibr">14</xref>]. Spliceosomes assemble <italic>de novo</italic> around each intron to be removed. A typical gene containing eight exons would require the assembly of eight spliceosomes to create a functional mRNA. Input of energy is required for spliceosomes to properly assemble through multiple ATP-dependent RNA helicases and other energy consuming proteins (including GTPases) [<xref rid="B15-genes-05-00235" ref-type="bibr">15</xref>].</p><p>Prior to completion of the human genome sequence, research into splicing typically looked at single genes and exons as models. However, while these detailed studies continue to be very important, the advances in genomics catalysed by genome sequencing projects have spawned parallel advances in transcriptomics, enabling a much broader system-wide dissection of RNA processing pathways. Here I review some of these new insights. While the focus here is on pre-mRNA splicing, transcriptome-wide analyses have also been directed at other aspects of genome expression, including RNA editing, RNA stability, expression of ncRNAs, polyadenylation and translation.</p></sec><sec><title>2. The Human Genome Sequence Has Led to New Global Insights into the Control of Splicing</title><p>In the 1980s examination of a limited number of genes led to the identification of short conserved sequences called 5' and 3' splice sites at exon-intron junctions [<xref rid="B16-genes-05-00235" ref-type="bibr">16</xref>]. The availability of the human and other genome sequences have enabled these studies to be extended genome-wide [<xref rid="B17-genes-05-00235" ref-type="bibr">17</xref>]. Most human exons are spliced together by a single kind of major spliceosome that recognises most 5' and 3' splice sites. In addition a second minor spliceosome exists in parallel that decodes a smaller subset of intron&#x02013;exon junctions [<xref rid="B18-genes-05-00235" ref-type="bibr">18</xref>]. This minor spliceosome has a different but overlapping complement of snRNAs to the major spliceosome. Recent transcriptome-wide data show a key snRNA component in the minor spliceosome (called U6<sub>ATAC</sub>) is an important gene expression switch controlling patterns of splicing [<xref rid="B19-genes-05-00235" ref-type="bibr">19</xref>]. In the rest of this review the activities of the major and minor spliceosomes are not separately distinguished.</p><p>The conserved 5' and 3' splice site sequences encoded in the genome at exon-intron junctions are quite short. Furthermore, scattered within introns are short sequence elements called pseudoexons. Pseudoexons &#x0201c;look like&#x0201d; exons in that they have 5' and 3' splice sites, but are not selected as exons by the spliceosome. Estimates from model human genes suggest pre-mRNA splicing is remarkably accurate [<xref rid="B20-genes-05-00235" ref-type="bibr">20</xref>]. However, transcriptome-wide analyses of splicing patterns using RNAseq do detect some errors in splicing (at a rate of around 0.7% errors/intron)&#x02014;these errors have been termed &#x0201c;noisy splicing&#x0201d;, and might contribute to gene and protein evolution by enabling new mRNA isoforms to be made even at low frequencies [<xref rid="B21-genes-05-00235" ref-type="bibr">21</xref>].</p><p>The spliceosome uses several mechanisms to accurately decode exon/intron structure using information embedded in the transcriptome. Firstly, in humans and most vertebrates, spliceosomes recognise exons from introns through a process called exon definition [<xref rid="B22-genes-05-00235" ref-type="bibr">22</xref>,<xref rid="B23-genes-05-00235" ref-type="bibr">23</xref>,<xref rid="B24-genes-05-00235" ref-type="bibr">24</xref>]. The advantage of exon definition is that since exons are quite small they should be easier to identify as discrete units compared most (considerably longer) vertebrate introns. In exon definition, early spliceosome components bind to the pre-mRNA and &#x0201c;flag&#x0201d; exons to be spliced together. Following exon definition, pairs of exons are then joined together by splicing which removes the intervening intron sequences. Amongst the early binding components of the spliceosome involved in exon definition are the U1 snRNP RNA-protein complex that recognises the 5' splice site, and a protein dimer which recognises 3' splice sites called U2AF (U2AF65 and U2AF35 are the two proteins in the dimer).</p><p>A second mechanism that facilitates accurate decoding of the genome is the presence of a splicing code that helps to differentiate between exons and introns in pre-mRNA. Before the sequencing of the human and other eukaryotic genomes, the important sequences controlling splicing of an exon were usually worked out on a gene by gene basis, using a finite number of model exons. The importance of exon sequences outside the splice junctions for splicing were first identified in pioneering experiments using model exons in the <italic>FIBRONECTIN</italic> and &#x003b2; globin genes [<xref rid="B25-genes-05-00235" ref-type="bibr">25</xref>,<xref rid="B26-genes-05-00235" ref-type="bibr">26</xref>]. It is now known that pre-mRNAs each contain multiple short nucleotide sequences that can enhance or silence splicing of their associated exons [<xref rid="B27-genes-05-00235" ref-type="bibr">27</xref>,<xref rid="B28-genes-05-00235" ref-type="bibr">28</xref>,<xref rid="B29-genes-05-00235" ref-type="bibr">29</xref>]. Exon sequences can function as exonic splicing enhancers (abbreviated ESEs) that help the spliceosome to recognise exons, or exonic splicing silencers (abbreviated ESSs) that inhibit spliceosome recognition by the spliceosome. Similarly, intron associated sequences can function as intronic splicing enhancers (abbreviated ISE) or Intronic Splicing Silencers (abbreviated ISSs). Splicing enhancers are bound by proteins or complexes of proteins, including the SR proteins that contain domains enriched in serine and arginine residues, and splicing silencers are frequently bound by heterogeneous ribonucleoproteins (abbreviated hnRNPs).</p><p>The availability of genome sequences have allowed system-wide approaches to identify splicing enhancers and silencers that control splicing and led to significant insights into the &#x0201c;splicing code&#x0201d; [<xref rid="B29-genes-05-00235" ref-type="bibr">29</xref>]. These approaches have included machine learning approaches to utilize hundreds of features in pre-mRNAs including motifs bound by RNA binding proteins and RNA secondary structure predictions to predict <italic>in vivo</italic> splicing decisions [<xref rid="B30-genes-05-00235" ref-type="bibr">30</xref>]. Computer programmes have also been devised that can computationally predict positions of predicted splicing enhancers and silencers and the target sequences of RNA binding proteins in an input genomic sequence (e.g., <xref ref-type="fig" rid="genes-05-00235-f003">Figure 3</xref>) [<xref rid="B30-genes-05-00235" ref-type="bibr">30</xref>,<xref rid="B31-genes-05-00235" ref-type="bibr">31</xref>,<xref rid="B32-genes-05-00235" ref-type="bibr">32</xref>,<xref rid="B33-genes-05-00235" ref-type="bibr">33</xref>]. The combination of these system-wide experimental and bioinformatic analyses show the splicing code is maintained as nucleotide information in the genome. The splicing code has similar importance to the genetic code that is deciphered to read amino acid sequences from mRNAs. However, the splicing code is much more complex than the genetic code. While the genetic code uses triplet codons to specify amino acids, in the splicing code multiple sequence elements act in combination to decipher the exon/intron structure of pre-mRNAs [<xref rid="B30-genes-05-00235" ref-type="bibr">30</xref>].</p><fig id="genes-05-00235-f003" position="float"><label>Figure 3</label><caption><p>Transcriptome-wide data can be used to predict the splicing code in specific genes. In this example sequences within a cassette exon in the mouse NASP gene have been analysed using genome and transcriptome wide datasets to pinpoint splicing control sequences. Firstly a Chasin Z-score plot was used that can identify sequences predictive of exonic splicing enhancers and silencers [<xref rid="B32-genes-05-00235" ref-type="bibr">32</xref>,<xref rid="B34-genes-05-00235" ref-type="bibr">34</xref>]: the four exonic splicing enhancer (ESE) sequences identified are shown as peaks in the plot above the sequence. In this example, these ESE sequences were individually mutated to test function in minigenes (the Chasin profiles of the mutants M1-M4 are shown compared to the wild type sequence: notice the change in the Z-score plot removes predicted ESE activity for each mutant). The positions of these ESEs mapped to binding sites for the splicing factor Tra2&#x003b2;, both individually identified using cross linking immunoprecipitation (CLIP) in the mouse testis and predicted from the <italic>in vivo</italic> binding site generated from transcriptome-wide Tra2&#x003b2; binding data from the mouse testis. This figure is adapted from [<xref rid="B32-genes-05-00235" ref-type="bibr">32</xref>]. </p></caption><graphic xlink:href="genes-05-00235-g003"/></fig><p>Because they are needed for exons to be spliced into mRNAs, ESE sequences have been maintained in exons as well as the codons that specify amino acid sequences [<xref rid="B35-genes-05-00235" ref-type="bibr">35</xref>]. The intronic sequences that flank exons are often also strongly conserved between species (<xref ref-type="fig" rid="genes-05-00235-f004">Figure 4</xref> shows as an example conserved nucleotide sequences flanking an exon in the mouse <italic>Neurexin3</italic> gene downloaded from the UCSC genome browser). Comparison of the human and mouse genomes [<xref rid="B1-genes-05-00235" ref-type="bibr">1</xref>,<xref rid="B36-genes-05-00235" ref-type="bibr">36</xref>] which diverged 75 million years ago show that alternative exons are usually flanked by much longer stretches of conserved intron sequences than constitutive exons, consistent with more elaborate control mechanisms [<xref rid="B37-genes-05-00235" ref-type="bibr">37</xref>,<xref rid="B38-genes-05-00235" ref-type="bibr">38</xref>]. Conservation in these exon flanking intron sequences in some cases is much higher than in promoters, suggesting that one of the main functions of conserved noncoding sequences between mouse and human is the regulation of alternative splicing [<xref rid="B37-genes-05-00235" ref-type="bibr">37</xref>]. Even non-protein coding exons can be highly conserved in the genome. Noncoding exons include highly conserved &#x0201c;poison exons&#x0201d; (for example see <xref ref-type="fig" rid="genes-05-00235-f005">Figure 5</xref>), that when included insert premature translational termination codons and lead to mRNA decay [<xref rid="B32-genes-05-00235" ref-type="bibr">32</xref>,<xref rid="B39-genes-05-00235" ref-type="bibr">39</xref>]. &#x0201c;Poison exons&#x0201d; are very important for auto-regulation of RNA binding proteins that control splicing [<xref rid="B39-genes-05-00235" ref-type="bibr">39</xref>,<xref rid="B40-genes-05-00235" ref-type="bibr">40</xref>]. Together these studies show the maintenance of splicing control sequences has had a significant impact in constraining genome evolution.</p><fig id="genes-05-00235-f004" position="float"><label>Figure 4</label><caption><p>A functional requirement to maintain splicing control sequences constrains evolution of the genome. This screenshot is downloaded from the UCSC genome browser [<xref rid="B6-genes-05-00235" ref-type="bibr">6</xref>] and shows conserved intron sequences flanking the alternatively spliced AS4 exon from the mouse <italic>Nrxn3</italic> gene. The conserved sequences are shaded. At the top, the UCSC gene annotations show that this cassette exon is included in &#x000be; mRNA isoforms made from this gene. At the bottom the Phastcons plot shows that the flanking intron sequences are also highly conserved as well as the exon sequence (exons might be conserved because of their protein-coding content). Conservation of these intron sequences are likely important to control tissue-specific splicing of this exon by the spliceosome. Known alternative events are annotated on the UCSC track &#x0201c;Alt events&#x0201d;, and can be shown alongside the gene structure (here the cassette exon is annotated in the alt events track, and is in purple).</p></caption><graphic xlink:href="genes-05-00235-g004"/></fig><p>Genome sequences have been used to help develop technologies aimed to globally dissect RNA processing pathways [<xref rid="B41-genes-05-00235" ref-type="bibr">41</xref>]. These technologies can identify the target sites of RNA binding proteins transcriptome-wide. In cross linking immunoprecipitation (abbreviated CLIP) experiments RNA binding proteins are cross-linked <italic>in situ</italic> to their target RNAs within intact cells using ultra violet irradiation, followed by immunoprecipitation of the RNA protein complexes and amplification by PCR [<xref rid="B42-genes-05-00235" ref-type="bibr">42</xref>,<xref rid="B43-genes-05-00235" ref-type="bibr">43</xref>,<xref rid="B44-genes-05-00235" ref-type="bibr">44</xref>]. Once unique target sites are identified by next generation sequencing (these are called CLIP tags), these can be mapped onto genome sequences to reveal the initial binding sites in the transcriptome. Transcriptome-wide CLIP analyses have enabled maps to be drawn of the target sites of RNA binding proteins relative to regulated exons, and these maps can be used to predict mechanisms of splicing control [<xref rid="B45-genes-05-00235" ref-type="bibr">45</xref>]. For example, CLIP tags of the RNA binding protein Tra2&#x003b2; that is needed for splicing inclusion for a regulated cassette exon in the NASP gene are shown in <xref ref-type="fig" rid="genes-05-00235-f003">Figure 3</xref> [<xref rid="B32-genes-05-00235" ref-type="bibr">32</xref>].</p><fig id="genes-05-00235-f005" position="float"><label>Figure 5</label><caption><p>Non protein coding exons are conserved in the genome. Some non-coding exons are highly conserved in the human genome and play important roles in controlling the expression levels of splicing regulator proteins. The <italic>TRA2A</italic> gene encodes the splicing regulator protein Tra2&#x003b1; and contains a poison exon that contains multiple stop codons and is only inserted into some mRNAs. Despite not containing coding information, the <italic>TRA2A</italic> poison exon is highly conserved across species (indicated by the Phastcons score). Notice that the TRA2A gene encodes also alternative 5' splice sites and uses alternative promoters. This screenshot was downloaded from the UCSC genome browser [<xref rid="B6-genes-05-00235" ref-type="bibr">6</xref>].</p></caption><graphic xlink:href="genes-05-00235-g005"/></fig><p>The completion of the human genome sequence enabled the development of comprehensive microarrays to interrogate gene expression. These global techniques include the development of splice-sensitive microarrays. These microarrays either detect specific exons in the transcriptome or the use of specific splice junctions and report splicing patterns in mRNA [<xref rid="B46-genes-05-00235" ref-type="bibr">46</xref>,<xref rid="B47-genes-05-00235" ref-type="bibr">47</xref>]. Transcriptome-wide patterns of alternative splicing can also be detected by RNAseq [<xref rid="B48-genes-05-00235" ref-type="bibr">48</xref>,<xref rid="B49-genes-05-00235" ref-type="bibr">49</xref>]. These technologies have been used to search for exons mis-spliced after depletion of particular RNA binding proteins from cells. By analysing thousands of exons in parallel the splicing events that are regulated by specific RNA binding proteins can be comprehensively identified. These experiments have shown some individual RNA binding proteins bind to and regulate similar mRNAs. For example, the NOVA protein regulates splicing of a functionally coherent set of genes involved in synapse function [<xref rid="B50-genes-05-00235" ref-type="bibr">50</xref>]. Other splicing regulators might similarly have coherent RNA functional targets, including T-STAR and SAM68 which regulate regional alternative splicing of the synaptic neurexin genes in the brain [<xref rid="B51-genes-05-00235" ref-type="bibr">51</xref>,<xref rid="B52-genes-05-00235" ref-type="bibr">52</xref>].</p><p>Knowing which splicing events are regulated by what proteins at a global level has been used to derive general rules. For example, binding of the NOVA proteins upstream of exons tends to block splicing, while binding of the same proteins downstream of exons enhance splicing [<xref rid="B44-genes-05-00235" ref-type="bibr">44</xref>,<xref rid="B45-genes-05-00235" ref-type="bibr">45</xref>]. These rules governing the RNA motifs bound by NOVA and their role in activating or repressing associated exon inclusion are conserved between flies and mammals, although the actual target mRNAs are different [<xref rid="B53-genes-05-00235" ref-type="bibr">53</xref>]. Similar rules have also been uncovered for PTB and some other splicing regulator proteins [<xref rid="B45-genes-05-00235" ref-type="bibr">45</xref>,<xref rid="B54-genes-05-00235" ref-type="bibr">54</xref>,<xref rid="B55-genes-05-00235" ref-type="bibr">55</xref>]. Recent developments to understand the splicing code have compared binding maps for different RNA binding proteins, and show that some functionally collaborate with each other to generate tissue specific splicing patterns [<xref rid="B56-genes-05-00235" ref-type="bibr">56</xref>].</p><p>Transcriptome-wide insights have have also revealed the involvement of RNA binding proteins in other aspects of genome biology. Alu sequences are retro-transposable elements that frequently insert into introns, and have sequence similarities to exons [<xref rid="B57-genes-05-00235" ref-type="bibr">57</xref>]. There are over 15,000 Alu sequences in the human genome, many of which are inserted into introns. The RNA binding protein hnRNP C has an important role for in protecting the transcriptome from potential mis-splicing caused by the insertion of Alu retrotransposable elements into genomic introns [<xref rid="B58-genes-05-00235" ref-type="bibr">58</xref>]. Depletion of hnRNPC leads to aberrant inclusion of around 1000 Alu-derived exons into the transcriptome. Alu sequences contain polypyrimidine tracts that potentially bind U2AF65, leading to them being aberrantly included into mRNAs, but this splicing is blocked by hnRNPC.</p></sec><sec><title>3. Analysis of the Human Transcriptome Led to the Realisation That Most Human Genes Encode Alternatively Spliced mRNAs</title><p>Historically genes have been defined in different ways by different people at different times. Following the human genome sequencing project, the fundamental definition of what a gene actually is has been enriched, and to some extent clouded, by comparison of genome and transcriptome sequences [<xref rid="B59-genes-05-00235" ref-type="bibr">59</xref>,<xref rid="B60-genes-05-00235" ref-type="bibr">60</xref>]. Alternative mRNA isoforms can originate from the same genetic loci through use of alternative promoters and polyadenylation sites, and by the process of alternative splicing through which exons can be spliced into different combinations to give multiple mRNAs. Hence a &#x0201c;single gene&#x0201d; can encode multiple products. Alternative splicing fits into four different categories, depending on how variable splice junctions are utilised (<xref ref-type="fig" rid="genes-05-00235-f006">Figure 6</xref>). In the simplest form of alternative splicing, called exon skipping, whole exons are either spliced into the mRNA or skipped (ignored by the spliceosome). Exon sequences can also be spliced into mRNA using different splice sites (alternative 5' splice site or 3' splice sites can be selected). Whole introns can also be left in the mRNA (this is called intron retention). Transcriptome-wide analyses show that in humans exon skipping is the most frequent form of alternative splicing, and intron retention the least frequent [<xref rid="B61-genes-05-00235" ref-type="bibr">61</xref>].</p><fig id="genes-05-00235-f006" position="float"><label>Figure 6</label><caption><p>Types of alternative splicing events detected in the human transcriptome. Exons are shown as boxes, introns as lines, and splicing patterns as broken lines. mRNAs can be made from individual genes can using multiple alternative events, including different types of splicing, to build up complex patterns of alternative spliced mRNAs.</p></caption><graphic xlink:href="genes-05-00235-g006"/></fig><p>Evidence provided by comparative genome and transcriptome sequences has shown alternative splicing to be extremely frequent. Before the human genome was published, random sequencing of human mRNAs from their 3' ends using oligo dT priming suggested ~40% of human genes encoded alternatively spliced mRNAs [<xref rid="B62-genes-05-00235" ref-type="bibr">62</xref>,<xref rid="B63-genes-05-00235" ref-type="bibr">63</xref>]. During the human genome sequencing project, reconstruction of mRNAs from the gene rich chromosomes 19 and 22 upped this estimate to 59% of genes encode alternative mRNAs, with 2&#x02013;3 mRNA isoforms made/gene [<xref rid="B1-genes-05-00235" ref-type="bibr">1</xref>]. The use of microarrays to detect global patterns of alternative splicing indicated 73%&#x02013;74% of human genes express alternatively spliced mRNA isoforms [<xref rid="B46-genes-05-00235" ref-type="bibr">46</xref>,<xref rid="B64-genes-05-00235" ref-type="bibr">64</xref>]. The most recently reported RNAseq analyses of the human transcriptome is consistent with ~95% of multi-exonic genes expressing variant mRNA isoforms, with a plateaux of 10&#x02013;11 isoforms/gene/cell line [<xref rid="B65-genes-05-00235" ref-type="bibr">65</xref>]. Usually one or two major mRNA isoforms predominate in a given cell line so many cell types will just express one major mRNA isoform [<xref rid="B60-genes-05-00235" ref-type="bibr">60</xref>,<xref rid="B65-genes-05-00235" ref-type="bibr">65</xref>,<xref rid="B66-genes-05-00235" ref-type="bibr">66</xref>]. 86% of genes have a minor isoform frequency of 15% or more, and more than 50% of alternative exons are tissue specific in expression [<xref rid="B48-genes-05-00235" ref-type="bibr">48</xref>,<xref rid="B67-genes-05-00235" ref-type="bibr">67</xref>]. Alternative events are now annotated on genome browsers like the UCSC genome browser (e.g., <xref ref-type="fig" rid="genes-05-00235-f004">Figure 4</xref>) [<xref rid="B6-genes-05-00235" ref-type="bibr">6</xref>].</p></sec><sec><title>4. To What Extent Can Human Complexity Be Ascribed to Alternative Splicing?</title><p>Proteins make up large components of human bodies. Prior to the genome sequence estimates of human gene numbers went as high as 100,000. An initial surprise from the human genome sequence was a much lower protein coding gene number, initially counted at around 23,000 [<xref rid="B1-genes-05-00235" ref-type="bibr">1</xref>,<xref rid="B2-genes-05-00235" ref-type="bibr">2</xref>]. The most recent gene counts from the ENCODE consortia suggest only 20,687 human protein coding genes [<xref rid="B8-genes-05-00235" ref-type="bibr">8</xref>]. The number of proteins expressed in a human cell is in contrast estimated to be ~100,000 [<xref rid="B68-genes-05-00235" ref-type="bibr">68</xref>,<xref rid="B69-genes-05-00235" ref-type="bibr">69</xref>]. This protein number represents an amplification factor of 5-fold compared to the counted number of genes. This total gene number in humans does not seem to be exceptionally higher than seemingly less sophisticated organisms. The genome of <italic>Haemophilus</italic><italic>influenza</italic> contains 1743 predicted genes, the yeast <italic>Saccharomyces cerevisiae</italic> ~6000 genes, <italic>Drosophila melanogaster</italic> ~13,600 genes, and nematode worms 18,425 genes [<xref rid="B70-genes-05-00235" ref-type="bibr">70</xref>,<xref rid="B71-genes-05-00235" ref-type="bibr">71</xref>,<xref rid="B72-genes-05-00235" ref-type="bibr">72</xref>]. </p><p>This apparent failure of gene numbers to correlate with complexity has been called the gene number paradox, and counted as one of the major surprises from the human genome sequence. To what extent might alternative splicing and the resulting expansion in protein coding information help explain developmental and physiological complexity in humans (<xref ref-type="fig" rid="genes-05-00235-f007">Figure 7</xref>)? Until recently this question has been difficult to address, since the higher number of mRNA and EST sequences available from humans made comparisons of alternative splicing frequency with other species biased. However, a recent modencode project based on RNAseq analysis to look at alternative splicing in <italic>C. elegans</italic> found ~25% alternative splicing in 5000 genes, with around 30% of these being alternatively spliced between different developmental stages [<xref rid="B73-genes-05-00235" ref-type="bibr">73</xref>]. In depth experiments using RNAseq and tiling arrays do show a lower frequency (60.7%) of genes in the fruitfly are alternatively spliced than in humans, often in a developmental or sex-specific fashion [<xref rid="B74-genes-05-00235" ref-type="bibr">74</xref>].</p><fig id="genes-05-00235-f007" position="float"><label>Figure 7</label><caption><p>Alternative splicing amplifies genome information. Alternative splicing amplifies information in the human transcriptome relative to the genome.</p></caption><graphic xlink:href="genes-05-00235-g007"/></fig><p>Hence amongst multicellular animals investigated in detail, humans do seem to exhibit higher levels of alternative splicing, which might lend credence to the idea that alternative splicing may be a factor contributing to human sophistication. If phylogenetic differences in alternative splicing frequency correlate with complexity, one might expect a decreased level in single celled organisms compared with multicellular organisms. On the one level less introns are found in the single celled baker&#x02019;s yeast <italic>Saccharomyces cerevisiae</italic>: only 5% of genes contain introns in this yeast (290/6000 genes). However, these lower intron numbers are a bit misleading. The reason for a low overall intron number in this yeast is that many introns have been lost because of reverse transcriptase activity converting mRNAs into cDNAs, which then re-integrate into the genome through high levels of homologous recombination replacing originally intron containing genes [<xref rid="B75-genes-05-00235" ref-type="bibr">75</xref>]. While intron-containing genes generally are rare in yeast, alternative splicing of some of these introns are specifically utilised to control developmental timing of during meiosis that takes place under conditions of limiting nutrients [<xref rid="B76-genes-05-00235" ref-type="bibr">76</xref>,<xref rid="B77-genes-05-00235" ref-type="bibr">77</xref>] so alternative splicing is used to control a complex stage in the lifecycle of this single celled organism. Taken as a whole, it is difficult to draw general correlations between overall frequencies of alternative splicing and organism sophistication.</p><p>Alternative splicing patterns can also evolve rapidly and sometimes differ between closely related species. For example, despite almost 99% identity in protein coding information, comparative transcriptome analyses have shown that 6%&#x02013;8% of alternative spliced exons have different inclusion patterns between humans and chimps. These observations are consistent with alternative splicing contributing to species-species differences, and transcriptomes being more distinct between species than protein coding information [<xref rid="B78-genes-05-00235" ref-type="bibr">78</xref>]. Although the major conclusion from evolutionary comparisons is that much alternative splicing is not conserved between species, comparative genomics show some alternative exons have been highly conserved during evolution [<xref rid="B79-genes-05-00235" ref-type="bibr">79</xref>,<xref rid="B80-genes-05-00235" ref-type="bibr">80</xref>,<xref rid="B81-genes-05-00235" ref-type="bibr">81</xref>]. These include the highly conserved &#x0201c;AS4&#x0201d; alternative exon in the <italic>Neurexin3</italic> gene (abbreviated <italic>Nrxn3</italic>, <xref ref-type="fig" rid="genes-05-00235-f004">Figure 4</xref>) that is conserved across the vertebrate lineage [<xref rid="B51-genes-05-00235" ref-type="bibr">51</xref>]. The <italic>Neurexin</italic> genes have been linked with autism and schizophrenia, and mice genetically engineered to be unable to regulate this AS4 alternative exon in the <italic>Nrxn3</italic> gene have different synaptic activity in the brain [<xref rid="B82-genes-05-00235" ref-type="bibr">82</xref>].</p><p>Post-genome analyses have also addressed the question what alternative splicing does. Protein sequences encoded by alternatively spliced exons are frequently involved in protein-protein interaction networks and contain signalling domains [<xref rid="B83-genes-05-00235" ref-type="bibr">83</xref>,<xref rid="B84-genes-05-00235" ref-type="bibr">84</xref>]. Some alternatively spliced mRNAs encode proteins with clearly different functional activity. For example, different mRNA splice isoforms encoding the FOXP1 transcription factor are made between neural stem cells and differentiated cells, and these encode proteins that activate different promoters [<xref rid="B85-genes-05-00235" ref-type="bibr">85</xref>]. Alternative splicing regulators have been implicated in human cognitive diseases like autism [<xref rid="B86-genes-05-00235" ref-type="bibr">86</xref>]. Different groups of genes are regulated by alternative splicing from those regulated by transcription [<xref rid="B87-genes-05-00235" ref-type="bibr">87</xref>].</p><p>Alternative splicing pathways have been shown to have important roles in controlling development, and some human diseases are caused by defects in alternative splicing including the multi-system disorder myotonic dystrophy [<xref rid="B87-genes-05-00235" ref-type="bibr">87</xref>]. However, individual RNA binding proteins likely regulate coordinated splicing programmes of many target exons, and each of these individual exons might only have somewhat subtle biological contributions. Furthermore, post-genome technologies are also starting to introduce a note of caution in the interpretation of high levels of alternative splicing. Some lower abundance splice variants might be non-functional isoforms that occur as a result of low frequency events mistakes in the splicing process if they are neither evolutionarily conserved nor protein-coding [<xref rid="B21-genes-05-00235" ref-type="bibr">21</xref>,<xref rid="B88-genes-05-00235" ref-type="bibr">88</xref>]. Hence the frequency of functional alternative splicing is likely to be lower than the total frequency of all alternative splicing events.</p></sec><sec><title>5. Human Genome Packaging into Chromatin Correlates with Its Intron/Exon Structure</title><p>Post genome analyses have shown that the genome and transcriptome are intimately linked. In particular the exon/intron structure of genes correlates with how the genome is packaged. Within the nucleus the genome is wrapped around protein complexes called nucleosomes to form chromatin. Each nucleosome is itself made up of eight positively charged histone molecules that can be modified by the addition of small chemical groups (typically methyl and acetyl groups) [<xref rid="B89-genes-05-00235" ref-type="bibr">89</xref>]. Packaging of the genome within chromatin is important to enable storage of chromosomes within the comparatively small space afforded by the nuclear volume. </p><p>After experimental treatment of chromatin with the enzyme DNAse I, the DNA sequences wrapped around nucleosomes remain protected, while the DNA linkages joining nucleosomes together become degraded. Genome-wide analysis of sequences protected from DNAse I digestion in humans and other species indicate a 1.5 fold enrichment of exon sequences over nucleosomes compared to intron sequences [<xref rid="B90-genes-05-00235" ref-type="bibr">90</xref>,<xref rid="B91-genes-05-00235" ref-type="bibr">91</xref>]. This means that in chromatin exons are preferentially (but not exclusively) associated with nucleosomes. This is likely to have a biochemical explanation: exon sequences are GC-enriched, while their flanking intron sequences are AT-rich. Nucleosomes interact more strongly with GC-rich sequences, which likely help anchor exons to nucleosomes. The association of exons with nucleosomes has in turn had important implications for genome evolution. A length of ~150 nucleotides of DNA is needed to wrap around a nucleosome, and this is also the average size of an exon. Hence nucleosome wrapping has placed an evolutionary constraint on exon size, while in contrast introns have been able to expand in size to thousands of nucleotides.</p></sec><sec><title>6. Most Splicing Occurs Co-Transcriptionally</title><p>Another important connection between the genome and the transcriptome is their physical proximity during important RNA processing steps. In several species including humans much pre-mRNA splicing has been shown to take place co-transcriptionally [<xref rid="B92-genes-05-00235" ref-type="bibr">92</xref>]. This means that &#x0201c;full length&#x0201d; pre-mRNA copies of genes are not made. Instead processing takes place as pre-mRNAs are produced on nascent pre-mRNAs still attached to RNA polymerases engaged in transcription. Deep sequencing of fractionated nascent RNA in human cell lines and total RNA in the brain show that exons located more upstream in genes are most likely to be spliced on nascent RNA [<xref rid="B65-genes-05-00235" ref-type="bibr">65</xref>,<xref rid="B93-genes-05-00235" ref-type="bibr">93</xref>,<xref rid="B94-genes-05-00235" ref-type="bibr">94</xref>]. Transcription of the genome also functionally depends on components more &#x0201c;traditionally&#x0201d; thought to be involved in splicing. Transcriptome-wide analysis of gene expression following depletion of U1 snRNP (a component of the spliceosome that recognises 5' splice sites) has shown that high nuclear concentrations of U1 snRNP are needed to prevent premature intragenic polyadenylation at sites upstream of the proper 3' boundary of genes [<xref rid="B95-genes-05-00235" ref-type="bibr">95</xref>].</p><p>The fact that splicing takes place on chromatin during ongoing transcription has important implications for alternative splicing patterns. Single molecule experiments have shown that nucleosomes slow down the progress of transcription [<xref rid="B96-genes-05-00235" ref-type="bibr">96</xref>,<xref rid="B97-genes-05-00235" ref-type="bibr">97</xref>]. This means that the time taken to traverse nucleosomes can provide pauses in RNA polymerase II elongation, allowing the spliceosome a window to assemble on nascent pre-mRNA. Nucleosomes have thus been described as &#x0201c;speed bumps&#x0201d; [<xref rid="B98-genes-05-00235" ref-type="bibr">98</xref>,<xref rid="B99-genes-05-00235" ref-type="bibr">99</xref>,<xref rid="B100-genes-05-00235" ref-type="bibr">100</xref>,<xref rid="B101-genes-05-00235" ref-type="bibr">101</xref>]. Interestingly only true exons, and not pseudoexons, are associated with nucleosomes [<xref rid="B90-genes-05-00235" ref-type="bibr">90</xref>,<xref rid="B91-genes-05-00235" ref-type="bibr">91</xref>]. Exon association with nucleosomes is likely to help in their recognition by the spliceosome. Pauses in transcriptional elongation on bona fide exons might facilitate spliceosome assembly before potentially competing splice sites in downstream pseudoexons can be transcribed. Changes in chromatin structure can locally speed up or slow down transcription within genes and be important for controlling alternative splicing [<xref rid="B99-genes-05-00235" ref-type="bibr">99</xref>]. Local transcriptional pauses would provide spliceosomes a longer &#x0201c;window&#x0201d; of time in which to assemble and sometimes even carry out splicing of an exon before a competing downstream splice site appears [<xref rid="B102-genes-05-00235" ref-type="bibr">102</xref>,<xref rid="B103-genes-05-00235" ref-type="bibr">103</xref>]. Faster elongating RNA polymerase II enzymes would give spliceosomes less time to assemble on nascent pre-mRNA before competing exons were transcribed, and so would favour exon skipping. In some cases changes in histone modification can recruit or stabilise RNA binding proteins which regulate splicing of the pre-mRNAs made from the gene [<xref rid="B104-genes-05-00235" ref-type="bibr">104</xref>]. The interactions between the different processes in gene expression have been recently reviewed in [<xref rid="B105-genes-05-00235" ref-type="bibr">105</xref>].</p></sec><sec><title>7. Conclusions</title><p>The human genome sequence has provided a catalyst for understanding the transcriptome. System-wide approaches of the transcriptome have led to a fuller appreciation of how genomes work including how the human genome operates with a finite gene number and providing a system wide view of RNA processing.</p></sec></body><back><ack><title>Acknowledgments</title><p>I thank Julian Venables for comments on the manuscript. This work was supported by the Wellcome Trust (grant numbers WT080368MA and WT089225/Z/09/Z to DJE) and the BBSRC (grant numbers BB/D013917/1 and BB/I006923/1 to DJE).</p></ack><notes><title>Author Contributions</title><p>DJE wrote the manuscript.</p></notes><notes><title>Conflicts of Interest</title><p>The author declares no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-genes-05-00235"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lander</surname><given-names>E.S.</given-names></name><name><surname>Linton</surname><given-names>L.M.</given-names></name><name><surname>Birren</surname><given-names>B.</given-names></name><name><surname>Nusbaum</surname><given-names>C.</given-names></name><name><surname>Zody</surname><given-names>M.C.</given-names></name><name><surname>Baldwin</surname><given-names>J.</given-names></name><name><surname>Devon</surname><given-names>K.</given-names></name><name><surname>Dewar</surname><given-names>K.</given-names></name><name><surname>Doyle</surname><given-names>M.</given-names></name><name><surname>FitzHugh</surname><given-names>W.</given-names></name><etal/></person-group>
+<article-title>Initial sequencing and analysis of the human genome</article-title>
+<source>Nature</source>
+<year>2001</year>
+<volume>409</volume>
+<fpage>860</fpage>
+<lpage>921</lpage>
+<pub-id pub-id-type="doi">10.1038/35057062</pub-id>
+<pub-id pub-id-type="pmid">11237011</pub-id></element-citation></ref><ref id="B2-genes-05-00235"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Venter</surname><given-names>J.C.</given-names></name><name><surname>Adams</surname><given-names>M.D.</given-names></name><name><surname>Myers</surname><given-names>E.W.</given-names></name><name><surname>Li</surname><given-names>P.W.</given-names></name><name><surname>Mural</surname><given-names>R.J.</given-names></name><name><surname>Sutton</surname><given-names>G.G.</given-names></name><name><surname>Smith</surname><given-names>H.O.</given-names></name><name><surname>Yandell</surname><given-names>M.</given-names></name><name><surname>Evans</surname><given-names>C.A.</given-names></name><name><surname>Holt</surname><given-names>R.A.</given-names></name><etal/></person-group>
+<article-title>The sequence of the human genome</article-title>
+<source>Science</source>
+<year>2001</year>
+<volume>291</volume>
+<fpage>1304</fpage>
+<lpage>1351</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1058040</pub-id>
+<pub-id pub-id-type="pmid">11181995</pub-id></element-citation></ref><ref id="B3-genes-05-00235"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fatica</surname><given-names>A.</given-names></name><name><surname>Bozzoni</surname><given-names>I.</given-names></name></person-group>
+<article-title>Long non-coding RNAs: New players in cell differentiation and development</article-title>
+<source>Nat. Rev. Genet.</source>
+<year>2014</year>
+<volume>15</volume>
+<fpage>7</fpage>
+<lpage>21</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg3606</pub-id>
+<pub-id pub-id-type="pmid">24296535</pub-id></element-citation></ref><ref id="B4-genes-05-00235"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berget</surname><given-names>S.M.</given-names></name><name><surname>Moore</surname><given-names>C.</given-names></name><name><surname>Sharp</surname><given-names>P.A.</given-names></name></person-group>
+<article-title>Spliced segments at the 5' terminus of adenovirus 2 late mRNA</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1977</year>
+<volume>74</volume>
+<fpage>3171</fpage>
+<lpage>3175</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.74.8.3171</pub-id>
+<pub-id pub-id-type="pmid">269380</pub-id></element-citation></ref><ref id="B5-genes-05-00235"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chow</surname><given-names>L.T.</given-names></name><name><surname>Gelinas</surname><given-names>R.E.</given-names></name><name><surname>Broker</surname><given-names>T.R.</given-names></name><name><surname>Roberts</surname><given-names>R.J.</given-names></name></person-group>
+<article-title>An amazing sequence arrangement at the 5' ends of adenovirus 2 messenger RNA</article-title>
+<source>Cell</source>
+<year>1977</year>
+<volume>12</volume>
+<fpage>1</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">902310</pub-id></element-citation></ref><ref id="B6-genes-05-00235"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karolchik</surname><given-names>D.</given-names></name><name><surname>Barber</surname><given-names>G.P.</given-names></name><name><surname>Casper</surname><given-names>J.</given-names></name><name><surname>Clawson</surname><given-names>H.</given-names></name><name><surname>Cline</surname><given-names>M.S.</given-names></name><name><surname>Diekhans</surname><given-names>M.</given-names></name><name><surname>Dreszer</surname><given-names>T.R.</given-names></name><name><surname>Fujita</surname><given-names>P.A.</given-names></name><name><surname>Guruvadoo</surname><given-names>L.</given-names></name><name><surname>Haeussler</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>The UCSC Genome Browser database: 2014 update</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2014</year>
+<volume>42</volume>
+<fpage>D764</fpage>
+<lpage>D770</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkt1168</pub-id>
+<pub-id pub-id-type="pmid">24270787</pub-id></element-citation></ref><ref id="B7-genes-05-00235"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilbert</surname><given-names>W.</given-names></name></person-group>
+<article-title>Why genes in pieces?</article-title>
+<source>Nature</source>
+<year>1978</year>
+<volume>271</volume>
+<fpage>501</fpage>
+<pub-id pub-id-type="doi">10.1038/271501a0</pub-id>
+<pub-id pub-id-type="pmid">622185</pub-id></element-citation></ref><ref id="B8-genes-05-00235"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunham</surname><given-names>I.</given-names></name><name><surname>Kundaje</surname><given-names>A.</given-names></name><name><surname>Aldred</surname><given-names>S.F.</given-names></name><name><surname>Collins</surname><given-names>P.J.</given-names></name><name><surname>Davis</surname><given-names>C.</given-names></name><name><surname>Doyle</surname><given-names>F.</given-names></name><name><surname>Epstein</surname><given-names>C.B.</given-names></name><name><surname>Frietze</surname><given-names>S.</given-names></name><name><surname>Harrow</surname><given-names>J.</given-names></name><name><surname>Kaul</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>An integrated encyclopedia of DNA elements in the human genome</article-title>
+<source>Nature</source>
+<year>2012</year>
+<volume>489</volume>
+<fpage>57</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="doi">10.1038/nature11247</pub-id>
+<pub-id pub-id-type="pmid">22955616</pub-id></element-citation></ref><ref id="B9-genes-05-00235"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tennyson</surname><given-names>C.N.</given-names></name><name><surname>Klamut</surname><given-names>H.J.</given-names></name><name><surname>Worton</surname><given-names>R.G.</given-names></name></person-group>
+<article-title>The human dystrophin gene requires 16 hours to be transcribed and is cotranscriptionally spliced</article-title>
+<source>Nat. Genet.</source>
+<year>1995</year>
+<volume>9</volume>
+<fpage>184</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="doi">10.1038/ng0295-184</pub-id>
+<pub-id pub-id-type="pmid">7719347</pub-id></element-citation></ref><ref id="B10-genes-05-00235"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jackson</surname><given-names>D.A.</given-names></name><name><surname>Pombo</surname><given-names>A.</given-names></name><name><surname>Iborra</surname><given-names>F.</given-names></name></person-group>
+<article-title>The balance sheet for transcription: An analysis of nuclear RNA metabolism in mammalian cells</article-title>
+<source>FASEB J.</source>
+<year>2000</year>
+<volume>14</volume>
+<fpage>242</fpage>
+<lpage>254</lpage>
+<pub-id pub-id-type="pmid">10657981</pub-id></element-citation></ref><ref id="B11-genes-05-00235"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Okamura</surname><given-names>K.</given-names></name><name><surname>Hagen</surname><given-names>J.W.</given-names></name><name><surname>Duan</surname><given-names>H.</given-names></name><name><surname>Tyler</surname><given-names>D.M.</given-names></name><name><surname>Lai</surname><given-names>E.C.</given-names></name></person-group>
+<article-title>The mirtron pathway generates microRNA-class regulatory RNAs in Drosophila</article-title>
+<source>Cell</source>
+<year>2007</year>
+<volume>130</volume>
+<fpage>89</fpage>
+<lpage>100</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2007.06.028</pub-id>
+<pub-id pub-id-type="pmid">17599402</pub-id></element-citation></ref><ref id="B12-genes-05-00235"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruby</surname><given-names>J.G.</given-names></name><name><surname>Jan</surname><given-names>C.H.</given-names></name><name><surname>Bartel</surname><given-names>D.P.</given-names></name></person-group>
+<article-title>Intronic microRNA precursors that bypass Drosha processing</article-title>
+<source>Nature</source>
+<year>2007</year>
+<volume>448</volume>
+<fpage>83</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="doi">10.1038/nature05983</pub-id>
+<pub-id pub-id-type="pmid">17589500</pub-id></element-citation></ref><ref id="B13-genes-05-00235"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jurica</surname><given-names>M.S.</given-names></name><name><surname>Moore</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>Pre-mRNA splicing: Awash in a sea of proteins</article-title>
+<source>Mol. Cell</source>
+<year>2003</year>
+<volume>12</volume>
+<fpage>5</fpage>
+<lpage>14</lpage>
+<pub-id pub-id-type="doi">10.1016/S1097-2765(03)00270-3</pub-id>
+<pub-id pub-id-type="pmid">12887888</pub-id></element-citation></ref><ref id="B14-genes-05-00235"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wahl</surname><given-names>M.C.</given-names></name><name><surname>Will</surname><given-names>C.L.</given-names></name><name><surname>Luhrmann</surname><given-names>R.</given-names></name></person-group>
+<article-title>The spliceosome: Design principles of a dynamic RNP machine</article-title>
+<source>Cell</source>
+<year>2009</year>
+<volume>136</volume>
+<fpage>701</fpage>
+<lpage>718</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2009.02.009</pub-id>
+<pub-id pub-id-type="pmid">19239890</pub-id></element-citation></ref><ref id="B15-genes-05-00235"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brow</surname><given-names>D.A.</given-names></name></person-group>
+<article-title>Allosteric cascade of spliceosome activation</article-title>
+<source>Annu. Rev. Genet.</source>
+<year>2002</year>
+<volume>36</volume>
+<fpage>333</fpage>
+<lpage>360</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.genet.36.043002.091635</pub-id>
+<pub-id pub-id-type="pmid">12429696</pub-id></element-citation></ref><ref id="B16-genes-05-00235"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mount</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>A catalogue of splice junction sequences</article-title>
+<source>Nucleic Acids Res.</source>
+<year>1982</year>
+<volume>10</volume>
+<fpage>459</fpage>
+<lpage>472</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/10.2.459</pub-id>
+<pub-id pub-id-type="pmid">7063411</pub-id></element-citation></ref><ref id="B17-genes-05-00235"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lim</surname><given-names>L.P.</given-names></name><name><surname>Burge</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>A computational analysis of sequence features involved in recognition of short introns</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2001</year>
+<volume>98</volume>
+<fpage>11193</fpage>
+<lpage>11198</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.201407298</pub-id>
+<pub-id pub-id-type="pmid">11572975</pub-id></element-citation></ref><ref id="B18-genes-05-00235"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Patel</surname><given-names>A.A.</given-names></name><name><surname>Steitz</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Splicing double: Insights from the second spliceosome</article-title>
+<source>Nat. Rev. Mol. Cell. Biol.</source>
+<year>2003</year>
+<volume>4</volume>
+<fpage>960</fpage>
+<lpage>970</lpage>
+<pub-id pub-id-type="doi">10.1038/nrm1259</pub-id>
+<pub-id pub-id-type="pmid">14685174</pub-id></element-citation></ref><ref id="B19-genes-05-00235"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Younis</surname><given-names>I.</given-names></name><name><surname>Dittmar</surname><given-names>K.</given-names></name><name><surname>Wang</surname><given-names>W.</given-names></name><name><surname>Foley</surname><given-names>S.W.</given-names></name><name><surname>Berg</surname><given-names>M.G.</given-names></name><name><surname>Hu</surname><given-names>K.Y.</given-names></name><name><surname>Wei</surname><given-names>Z.</given-names></name><name><surname>Wan</surname><given-names>L.</given-names></name><name><surname>Dreyfuss</surname><given-names>G.</given-names></name></person-group>
+<article-title>Minor introns are embedded molecular switches regulated by highly unstable U6atac snRNA</article-title>
+<source>Elife</source>
+<year>2013</year>
+<volume>2</volume>
+<fpage>e00780</fpage>
+<pub-id pub-id-type="doi">10.7554/eLife.00780</pub-id>
+<pub-id pub-id-type="pmid">23908766</pub-id></element-citation></ref><ref id="B20-genes-05-00235"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fox-Walsh</surname><given-names>K.L.</given-names></name><name><surname>Hertel</surname><given-names>K.J.</given-names></name></person-group>
+<article-title>Splice-site pairing is an intrinsically high fidelity process</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2009</year>
+<volume>106</volume>
+<fpage>1766</fpage>
+<lpage>1771</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0813128106</pub-id>
+<pub-id pub-id-type="pmid">19179398</pub-id></element-citation></ref><ref id="B21-genes-05-00235"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pickrell</surname><given-names>J.K.</given-names></name><name><surname>Pai</surname><given-names>A.A.</given-names></name><name><surname>Gilad</surname><given-names>Y.</given-names></name><name><surname>Pritchard</surname><given-names>J.K.</given-names></name></person-group>
+<article-title>Noisy splicing drives mRNA isoform diversity in human cells</article-title>
+<source>PLoS Genet.</source>
+<year>2010</year>
+<volume>6</volume>
+<fpage>e1001236</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1001236</pub-id>
+<pub-id pub-id-type="pmid">21151575</pub-id></element-citation></ref><ref id="B22-genes-05-00235"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berget</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Exon recognition in vertebrate splicing</article-title>
+<source>J. Biol. Chem.</source>
+<year>1995</year>
+<volume>270</volume>
+<fpage>2411</fpage>
+<lpage>2414</lpage>
+<pub-id pub-id-type="pmid">7852296</pub-id></element-citation></ref><ref id="B23-genes-05-00235"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Black</surname><given-names>D.L.</given-names></name></person-group>
+<article-title>Finding splice sites within a wilderness of RNA</article-title>
+<source>RNA</source>
+<year>1995</year>
+<volume>1</volume>
+<fpage>763</fpage>
+<lpage>771</lpage>
+<pub-id pub-id-type="pmid">7493322</pub-id></element-citation></ref><ref id="B24-genes-05-00235"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robberson</surname><given-names>B.L.</given-names></name><name><surname>Cote</surname><given-names>G.J.</given-names></name><name><surname>Berget</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Exon definition may facilitate splice site selection in RNAs with multiple exons</article-title>
+<source>Mol. Cell. Biol.</source>
+<year>1990</year>
+<volume>10</volume>
+<fpage>84</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">2136768</pub-id></element-citation></ref><ref id="B25-genes-05-00235"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mardon</surname><given-names>H.J.</given-names></name><name><surname>Sebastio</surname><given-names>G.</given-names></name><name><surname>Baralle</surname><given-names>F.E.</given-names></name></person-group>
+<article-title>A role for exon sequences in alternative splicing of the human fibronectin gene</article-title>
+<source>Nucleic Acids Res.</source>
+<year>1987</year>
+<volume>15</volume>
+<fpage>7725</fpage>
+<lpage>7733</lpage>
+<pub-id pub-id-type="pmid">3671064</pub-id></element-citation></ref><ref id="B26-genes-05-00235"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reed</surname><given-names>R.</given-names></name><name><surname>Maniatis</surname><given-names>T.</given-names></name></person-group>
+<article-title>A role for exon sequences and splice-site proximity in splice-site selection</article-title>
+<source>Cell</source>
+<year>1986</year>
+<volume>46</volume>
+<fpage>681</fpage>
+<lpage>690</lpage>
+<pub-id pub-id-type="doi">10.1016/0092-8674(86)90343-0</pub-id>
+<pub-id pub-id-type="pmid">2427200</pub-id></element-citation></ref><ref id="B27-genes-05-00235"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Black</surname><given-names>D.L.</given-names></name></person-group>
+<article-title>Protein diversity from alternative splicing: A challenge for bioinformatics and post-genome biology</article-title>
+<source>Cell</source>
+<year>2000</year>
+<volume>103</volume>
+<fpage>367</fpage>
+<lpage>370</lpage>
+<pub-id pub-id-type="doi">10.1016/S0092-8674(00)00128-8</pub-id>
+<pub-id pub-id-type="pmid">11081623</pub-id></element-citation></ref><ref id="B28-genes-05-00235"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maniatis</surname><given-names>T.</given-names></name><name><surname>Tasic</surname><given-names>B.</given-names></name></person-group>
+<article-title>Alternative pre-mRNA splicing and proteome expansion in metazoans</article-title>
+<source>Nature</source>
+<year>2002</year>
+<volume>418</volume>
+<fpage>236</fpage>
+<lpage>243</lpage>
+<pub-id pub-id-type="doi">10.1038/418236a</pub-id>
+<pub-id pub-id-type="pmid">12110900</pub-id></element-citation></ref><ref id="B29-genes-05-00235"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>Z.</given-names></name><name><surname>Burge</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>Splicing regulation: From a parts list of regulatory elements to an integrated splicing code</article-title>
+<source>RNA</source>
+<year>2008</year>
+<volume>14</volume>
+<fpage>802</fpage>
+<lpage>813</lpage>
+<pub-id pub-id-type="doi">10.1261/rna.876308</pub-id>
+<pub-id pub-id-type="pmid">18369186</pub-id></element-citation></ref><ref id="B30-genes-05-00235"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barash</surname><given-names>Y.</given-names></name><name><surname>Calarco</surname><given-names>J.A.</given-names></name><name><surname>Gao</surname><given-names>W.</given-names></name><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Wang</surname><given-names>X.</given-names></name><name><surname>Shai</surname><given-names>O.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name><name><surname>Frey</surname><given-names>B.J.</given-names></name></person-group>
+<article-title>Deciphering the splicing code</article-title>
+<source>Nature</source>
+<year>2010</year>
+<volume>465</volume>
+<fpage>53</fpage>
+<lpage>59</lpage>
+<pub-id pub-id-type="doi">10.1038/nature09000</pub-id>
+<pub-id pub-id-type="pmid">20445623</pub-id></element-citation></ref><ref id="B31-genes-05-00235"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwartz</surname><given-names>S.</given-names></name><name><surname>Hall</surname><given-names>E.</given-names></name><name><surname>Ast</surname><given-names>G.</given-names></name></person-group>
+<article-title>SROOGLE: Webserver for integrative, user-friendly visualization of splicing signals</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2009</year>
+<volume>37</volume>
+<fpage>W189</fpage>
+<lpage>W192</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkp320</pub-id>
+<pub-id pub-id-type="pmid">19429896</pub-id></element-citation></ref><ref id="B32-genes-05-00235"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grellscheid</surname><given-names>S.</given-names></name><name><surname>Dalgliesh</surname><given-names>C.</given-names></name><name><surname>Storbeck</surname><given-names>M.</given-names></name><name><surname>Best</surname><given-names>A.</given-names></name><name><surname>Liu</surname><given-names>Y.</given-names></name><name><surname>Jakubik</surname><given-names>M.</given-names></name><name><surname>Mende</surname><given-names>Y.</given-names></name><name><surname>Ehrmann</surname><given-names>I.</given-names></name><name><surname>Curk</surname><given-names>T.</given-names></name><name><surname>Rossbach</surname><given-names>K.</given-names></name><etal/></person-group>
+<article-title>Identification of evolutionarily conserved exons as regulated targets for the splicing activator tra2beta in development</article-title>
+<source>PLoS Genet.</source>
+<year>2011</year>
+<volume>7</volume>
+<fpage>e1002390</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1002390</pub-id>
+<pub-id pub-id-type="pmid">22194695</pub-id></element-citation></ref><ref id="B33-genes-05-00235"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paz</surname><given-names>I.</given-names></name><name><surname>Akerman</surname><given-names>M.</given-names></name><name><surname>Dror</surname><given-names>I.</given-names></name><name><surname>Kosti</surname><given-names>I.</given-names></name><name><surname>Mandel-Gutfreund</surname><given-names>Y.</given-names></name></person-group>
+<article-title>SFmap: A web server for motif analysis and prediction of splicing factor binding sites</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2010</year>
+<volume>38</volume>
+<fpage>W281</fpage>
+<lpage>W285</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkq444</pub-id>
+<pub-id pub-id-type="pmid">20501600</pub-id></element-citation></ref><ref id="B34-genes-05-00235"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>X.H.</given-names></name><name><surname>Chasin</surname><given-names>L.A.</given-names></name></person-group>
+<article-title>Computational definition of sequence motifs governing constitutive exon splicing</article-title>
+<source>Genes Dev.</source>
+<year>2004</year>
+<volume>18</volume>
+<fpage>1241</fpage>
+<lpage>1250</lpage>
+<pub-id pub-id-type="doi">10.1101/gad.1195304</pub-id>
+<pub-id pub-id-type="pmid">15145827</pub-id></element-citation></ref><ref id="B35-genes-05-00235"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caceres</surname><given-names>E.F.</given-names></name><name><surname>Hurst</surname><given-names>L.D.</given-names></name></person-group>
+<article-title>The evolution, impact and properties of exonic splice enhancers</article-title>
+<source>Genome Biol.</source>
+<year>2013</year>
+<volume>14</volume>
+<fpage>R143</fpage>
+<pub-id pub-id-type="doi">10.1186/gb-2013-14-12-r143</pub-id>
+<pub-id pub-id-type="pmid">24359918</pub-id></element-citation></ref><ref id="B36-genes-05-00235"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waterston</surname><given-names>R.H.</given-names></name><name><surname>Lindblad-Toh</surname><given-names>K.</given-names></name><name><surname>Birney</surname><given-names>E.</given-names></name><name><surname>Rogers</surname><given-names>J.</given-names></name><name><surname>Abril</surname><given-names>J.F.</given-names></name><name><surname>Agarwal</surname><given-names>P.</given-names></name><name><surname>Agarwala</surname><given-names>R.</given-names></name><name><surname>Ainscough</surname><given-names>R.</given-names></name><name><surname>Alexandersson</surname><given-names>M.</given-names></name><name><surname>An</surname><given-names>P.</given-names></name><etal/></person-group>
+<article-title>Initial sequencing and comparative analysis of the mouse genome</article-title>
+<source>Nature</source>
+<year>2002</year>
+<volume>420</volume>
+<fpage>520</fpage>
+<lpage>562</lpage>
+<pub-id pub-id-type="doi">10.1038/nature01262</pub-id>
+<pub-id pub-id-type="pmid">12466850</pub-id></element-citation></ref><ref id="B37-genes-05-00235"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorek</surname><given-names>R.</given-names></name><name><surname>Ast</surname><given-names>G.</given-names></name></person-group>
+<article-title>Intronic sequences flanking alternatively spliced exons are conserved between human and mouse</article-title>
+<source>Genome Res.</source>
+<year>2003</year>
+<volume>13</volume>
+<fpage>1631</fpage>
+<lpage>1637</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.1208803</pub-id>
+<pub-id pub-id-type="pmid">12840041</pub-id></element-citation></ref><ref id="B38-genes-05-00235"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sugnet</surname><given-names>C.W.</given-names></name><name><surname>Srinivasan</surname><given-names>K.</given-names></name><name><surname>Clark</surname><given-names>T.A.</given-names></name><name><surname>O'Brien</surname><given-names>G.</given-names></name><name><surname>Cline</surname><given-names>M.S.</given-names></name><name><surname>Wang</surname><given-names>H.</given-names></name><name><surname>Williams</surname><given-names>A.</given-names></name><name><surname>Kulp</surname><given-names>D.</given-names></name><name><surname>Blume</surname><given-names>J.E.</given-names></name><name><surname>Haussler</surname><given-names>D.</given-names></name><etal/></person-group>
+<article-title>Unusual intron conservation near tissue-regulated exons found by splicing microarrays</article-title>
+<source>PLoS Comput. Biol.</source>
+<year>2006</year>
+<volume>2</volume>
+<fpage>e4</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pcbi.0020004</pub-id>
+<pub-id pub-id-type="pmid">16424921</pub-id></element-citation></ref><ref id="B39-genes-05-00235"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lareau</surname><given-names>L.F.</given-names></name><name><surname>Inada</surname><given-names>M.</given-names></name><name><surname>Green</surname><given-names>R.E.</given-names></name><name><surname>Wengrod</surname><given-names>J.C.</given-names></name><name><surname>Brenner</surname><given-names>S.E.</given-names></name></person-group>
+<article-title>Unproductive splicing of SR genes associated with highly conserved and ultraconserved DNA elements</article-title>
+<source>Nature</source>
+<year>2007</year>
+<volume>446</volume>
+<fpage>926</fpage>
+<lpage>929</lpage>
+<pub-id pub-id-type="doi">10.1038/nature05676</pub-id>
+<pub-id pub-id-type="pmid">17361132</pub-id></element-citation></ref><ref id="B40-genes-05-00235"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ni</surname><given-names>J.Z.</given-names></name><name><surname>Grate</surname><given-names>L.</given-names></name><name><surname>Donohue</surname><given-names>J.P.</given-names></name><name><surname>Preston</surname><given-names>C.</given-names></name><name><surname>Nobida</surname><given-names>N.</given-names></name><name><surname>O'Brien</surname><given-names>G.</given-names></name><name><surname>Shiue</surname><given-names>L.</given-names></name><name><surname>Clark</surname><given-names>T.A.</given-names></name><name><surname>Blume</surname><given-names>J.E.</given-names></name><name><surname>Ares</surname><given-names>M.</given-names><suffix>Jr.</suffix></name></person-group>
+<article-title>Ultraconserved elements are associated with homeostatic control of splicing regulators by alternative splicing and nonsense-mediated decay</article-title>
+<source>Genes Dev.</source>
+<year>2007</year>
+<volume>21</volume>
+<fpage>708</fpage>
+<lpage>718</lpage>
+<pub-id pub-id-type="doi">10.1101/gad.1525507</pub-id>
+<pub-id pub-id-type="pmid">17369403</pub-id></element-citation></ref><ref id="B41-genes-05-00235"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Buratti</surname><given-names>E.</given-names></name><name><surname>Baralle</surname><given-names>M.</given-names></name><name><surname>Baralle</surname><given-names>F.E.</given-names></name></person-group>
+<article-title>From single splicing events to thousands: The ambiguous step forward in splicing research</article-title>
+<source>Brief. Funct. Genomics</source>
+<year>2013</year>
+<volume>12</volume>
+<fpage>3</fpage>
+<lpage>12</lpage>
+<pub-id pub-id-type="doi">10.1093/bfgp/els048</pub-id>
+<pub-id pub-id-type="pmid">23165350</pub-id></element-citation></ref><ref id="B42-genes-05-00235"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Licatalosi</surname><given-names>D.D.</given-names></name><name><surname>Mele</surname><given-names>A.</given-names></name><name><surname>Fak</surname><given-names>J.J.</given-names></name><name><surname>Ule</surname><given-names>J.</given-names></name><name><surname>Kayikci</surname><given-names>M.</given-names></name><name><surname>Chi</surname><given-names>S.W.</given-names></name><name><surname>Clark</surname><given-names>T.A.</given-names></name><name><surname>Schweitzer</surname><given-names>A.C.</given-names></name><name><surname>Blume</surname><given-names>J.E.</given-names></name><name><surname>Wang</surname><given-names>X.</given-names></name><name><surname>Darnell</surname><given-names>J.C.</given-names></name><name><surname>Darnell</surname><given-names>R.B.</given-names></name></person-group>
+<article-title>HITS-CLIP yields genome-wide insights into brain alternative RNA processing</article-title>
+<source>Nature</source>
+<year>2008</year>
+<volume>456</volume>
+<fpage>464</fpage>
+<lpage>469</lpage>
+<pub-id pub-id-type="doi">10.1038/nature07488</pub-id>
+<pub-id pub-id-type="pmid">18978773</pub-id></element-citation></ref><ref id="B43-genes-05-00235"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Konig</surname><given-names>J.</given-names></name><name><surname>Zarnack</surname><given-names>K.</given-names></name><name><surname>Rot</surname><given-names>G.</given-names></name><name><surname>Curk</surname><given-names>T.</given-names></name><name><surname>Kayikci</surname><given-names>M.</given-names></name><name><surname>Zupan</surname><given-names>B.</given-names></name><name><surname>Turner</surname><given-names>D.J.</given-names></name><name><surname>Luscombe</surname><given-names>N.M.</given-names></name><name><surname>Ule</surname><given-names>J.</given-names></name></person-group>
+<article-title>iCLIP&#x02014;Transcriptome-wide mapping of protein-RNA interactions with individual nucleotide resolution</article-title>
+<source>J. Vis. Exp.</source>
+<year>2011</year>
+<volume>50</volume>
+<fpage>2638</fpage>
+<pub-id pub-id-type="pmid">21559008</pub-id></element-citation></ref><ref id="B44-genes-05-00235"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anko</surname><given-names>M.L.</given-names></name><name><surname>Neugebauer</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>RNA-protein interactions <italic>in vivo</italic>: Global gets specific</article-title>
+<source>Trends Biochem. Sci.</source>
+<year>2012</year>
+<volume>37</volume>
+<fpage>255</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tibs.2012.02.005</pub-id>
+<pub-id pub-id-type="pmid">22425269</pub-id></element-citation></ref><ref id="B45-genes-05-00235"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Witten</surname><given-names>J.T.</given-names></name><name><surname>Ule</surname><given-names>J.</given-names></name></person-group>
+<article-title>Understanding splicing regulation through RNA splicing maps</article-title>
+<source>Trends Genet.</source>
+<year>2011</year>
+<volume>27</volume>
+<fpage>89</fpage>
+<lpage>97</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tig.2010.12.001</pub-id>
+<pub-id pub-id-type="pmid">21232811</pub-id></element-citation></ref><ref id="B46-genes-05-00235"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnson</surname><given-names>J.M.</given-names></name><name><surname>Castle</surname><given-names>J.</given-names></name><name><surname>Garrett-Engele</surname><given-names>P.</given-names></name><name><surname>Kan</surname><given-names>Z.</given-names></name><name><surname>Loerch</surname><given-names>P.M.</given-names></name><name><surname>Armour</surname><given-names>C.D.</given-names></name><name><surname>Santos</surname><given-names>R.</given-names></name><name><surname>Schadt</surname><given-names>E.E.</given-names></name><name><surname>Stoughton</surname><given-names>R.</given-names></name><name><surname>Shoemaker</surname><given-names>D.D.</given-names></name></person-group>
+<article-title>Genome-wide survey of human alternative pre-mRNA splicing with exon junction microarrays</article-title>
+<source>Science</source>
+<year>2003</year>
+<volume>302</volume>
+<fpage>2141</fpage>
+<lpage>2144</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1090100</pub-id>
+<pub-id pub-id-type="pmid">14684825</pub-id></element-citation></ref><ref id="B47-genes-05-00235"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Shai</surname><given-names>O.</given-names></name><name><surname>Misquitta</surname><given-names>C.</given-names></name><name><surname>Zhang</surname><given-names>W.</given-names></name><name><surname>Saltzman</surname><given-names>A.L.</given-names></name><name><surname>Mohammad</surname><given-names>N.</given-names></name><name><surname>Babak</surname><given-names>T.</given-names></name><name><surname>Siu</surname><given-names>H.</given-names></name><name><surname>Hughes</surname><given-names>T.R.</given-names></name><name><surname>Morris</surname><given-names>Q.D.</given-names></name><etal/></person-group>
+<article-title>Revealing global regulatory features of mammalian alternative splicing using a quantitative microarray platform</article-title>
+<source>Mol. Cell</source>
+<year>2004</year>
+<volume>16</volume>
+<fpage>929</fpage>
+<lpage>941</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2004.12.004</pub-id>
+<pub-id pub-id-type="pmid">15610736</pub-id></element-citation></ref><ref id="B48-genes-05-00235"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Shai</surname><given-names>O.</given-names></name><name><surname>Lee</surname><given-names>L.J.</given-names></name><name><surname>Frey</surname><given-names>B.J.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name></person-group>
+<article-title>Deep surveying of alternative splicing complexity in the human transcriptome by high-throughput sequencing</article-title>
+<source>Nat. Genet.</source>
+<year>2008</year>
+<volume>40</volume>
+<fpage>1413</fpage>
+<lpage>1415</lpage>
+<pub-id pub-id-type="doi">10.1038/ng.259</pub-id>
+<pub-id pub-id-type="pmid">18978789</pub-id></element-citation></ref><ref id="B49-genes-05-00235"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sultan</surname><given-names>M.</given-names></name><name><surname>Schulz</surname><given-names>M.H.</given-names></name><name><surname>Richard</surname><given-names>H.</given-names></name><name><surname>Magen</surname><given-names>A.</given-names></name><name><surname>Klingenhoff</surname><given-names>A.</given-names></name><name><surname>Scherf</surname><given-names>M.</given-names></name><name><surname>Seifert</surname><given-names>M.</given-names></name><name><surname>Borodina</surname><given-names>T.</given-names></name><name><surname>Soldatov</surname><given-names>A.</given-names></name><name><surname>Parkhomchuk</surname><given-names>D.</given-names></name><etal/></person-group>
+<article-title>A global view of gene activity and alternative splicing by deep sequencing of the human transcriptome</article-title>
+<source>Science</source>
+<year>2008</year>
+<volume>321</volume>
+<fpage>956</fpage>
+<lpage>960</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1160342</pub-id>
+<pub-id pub-id-type="pmid">18599741</pub-id></element-citation></ref><ref id="B50-genes-05-00235"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ule</surname><given-names>J.</given-names></name><name><surname>Ule</surname><given-names>A.</given-names></name><name><surname>Spencer</surname><given-names>J.</given-names></name><name><surname>Williams</surname><given-names>A.</given-names></name><name><surname>Hu</surname><given-names>J.S.</given-names></name><name><surname>Cline</surname><given-names>M.</given-names></name><name><surname>Wang</surname><given-names>H.</given-names></name><name><surname>Clark</surname><given-names>T.</given-names></name><name><surname>Fraser</surname><given-names>C.</given-names></name><name><surname>Ruggiu</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Nova regulates brain-specific splicing to shape the synapse</article-title>
+<source>Nat. Genet.</source>
+<year>2005</year>
+<volume>37</volume>
+<fpage>844</fpage>
+<lpage>852</lpage>
+<pub-id pub-id-type="doi">10.1038/ng1610</pub-id>
+<pub-id pub-id-type="pmid">16041372</pub-id></element-citation></ref><ref id="B51-genes-05-00235"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ehrmann</surname><given-names>I.</given-names></name><name><surname>Dalgliesh</surname><given-names>C.</given-names></name><name><surname>Liu</surname><given-names>Y.</given-names></name><name><surname>Danilenko</surname><given-names>M.</given-names></name><name><surname>Crosier</surname><given-names>M.</given-names></name><name><surname>Overman</surname><given-names>L.</given-names></name><name><surname>Arthur</surname><given-names>H.M.</given-names></name><name><surname>Lindsay</surname><given-names>S.</given-names></name><name><surname>Clowry</surname><given-names>G.J.</given-names></name><name><surname>Venables</surname><given-names>J.P.</given-names></name><etal/></person-group>
+<article-title>The tissue-specific RNA binding protein T-STAR controls regional splicing patterns of neurexin pre-mRNAs in the brain</article-title>
+<source>PLoS Genet.</source>
+<year>2013</year>
+<volume>9</volume>
+<fpage>e1003474</fpage>
+<pub-id pub-id-type="pmid">23637638</pub-id></element-citation></ref><ref id="B52-genes-05-00235"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Iijima</surname><given-names>T.</given-names></name><name><surname>Wu</surname><given-names>K.</given-names></name><name><surname>Witte</surname><given-names>H.</given-names></name><name><surname>Hanno-Iijima</surname><given-names>Y.</given-names></name><name><surname>Glatter</surname><given-names>T.</given-names></name><name><surname>Richard</surname><given-names>S.</given-names></name><name><surname>Scheiffele</surname><given-names>P.</given-names></name></person-group>
+<article-title>SAM68 regulates neuronal activity-dependent alternative splicing of neurexin-1</article-title>
+<source>Cell</source>
+<year>2011</year>
+<volume>147</volume>
+<fpage>1601</fpage>
+<lpage>1614</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.11.028</pub-id>
+<pub-id pub-id-type="pmid">22196734</pub-id></element-citation></ref><ref id="B53-genes-05-00235"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brooks</surname><given-names>A.N.</given-names></name><name><surname>Yang</surname><given-names>L.</given-names></name><name><surname>Duff</surname><given-names>M.O.</given-names></name><name><surname>Hansen</surname><given-names>K.D.</given-names></name><name><surname>Park</surname><given-names>J.W.</given-names></name><name><surname>Dudoit</surname><given-names>S.</given-names></name><name><surname>Brenner</surname><given-names>S.E.</given-names></name><name><surname>Graveley</surname><given-names>B.R.</given-names></name></person-group>
+<article-title>Conservation of an RNA regulatory map between Drosophila and mammals</article-title>
+<source>Genome Res.</source>
+<year>2011</year>
+<volume>21</volume>
+<fpage>193</fpage>
+<lpage>202</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.108662.110</pub-id>
+<pub-id pub-id-type="pmid">20921232</pub-id></element-citation></ref><ref id="B54-genes-05-00235"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Llorian</surname><given-names>M.</given-names></name><name><surname>Schwartz</surname><given-names>S.</given-names></name><name><surname>Clark</surname><given-names>T.A.</given-names></name><name><surname>Hollander</surname><given-names>D.</given-names></name><name><surname>Tan</surname><given-names>L.Y.</given-names></name><name><surname>Spellman</surname><given-names>R.</given-names></name><name><surname>Gordon</surname><given-names>A.</given-names></name><name><surname>Schweitzer</surname><given-names>A.C.</given-names></name><name><surname>de la Grange</surname><given-names>P.</given-names></name><name><surname>Ast</surname><given-names>G.</given-names></name><etal/></person-group>
+<article-title>Position-dependent alternative splicing activity revealed by global profiling of alternative splicing events regulated by PTB</article-title>
+<source>Nat. Struct. Mol. Biol.</source>
+<year>2010</year>
+<volume>17</volume>
+<fpage>1114</fpage>
+<lpage>1123</lpage>
+<pub-id pub-id-type="doi">10.1038/nsmb.1881</pub-id>
+<pub-id pub-id-type="pmid">20711188</pub-id></element-citation></ref><ref id="B55-genes-05-00235"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xue</surname><given-names>Y.</given-names></name><name><surname>Zhou</surname><given-names>Y.</given-names></name><name><surname>Wu</surname><given-names>T.</given-names></name><name><surname>Zhu</surname><given-names>T.</given-names></name><name><surname>Ji</surname><given-names>X.</given-names></name><name><surname>Kwon</surname><given-names>Y.S.</given-names></name><name><surname>Zhang</surname><given-names>C.</given-names></name><name><surname>Yeo</surname><given-names>G.</given-names></name><name><surname>Black</surname><given-names>D.L.</given-names></name><name><surname>Sun</surname><given-names>H.</given-names></name><etal/></person-group>
+<article-title>Genome-wide analysis of PTB-RNA interactions reveals a strategy used by the general splicing repressor to modulate exon inclusion or skipping</article-title>
+<source>Mol. Cell</source>
+<year>2009</year>
+<volume>36</volume>
+<fpage>996</fpage>
+<lpage>1006</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2009.12.003</pub-id>
+<pub-id pub-id-type="pmid">20064465</pub-id></element-citation></ref><ref id="B56-genes-05-00235"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>C.</given-names></name><name><surname>Frias</surname><given-names>M.A.</given-names></name><name><surname>Mele</surname><given-names>A.</given-names></name><name><surname>Ruggiu</surname><given-names>M.</given-names></name><name><surname>Eom</surname><given-names>T.</given-names></name><name><surname>Marney</surname><given-names>C.B.</given-names></name><name><surname>Wang</surname><given-names>H.</given-names></name><name><surname>Licatalosi</surname><given-names>D.D.</given-names></name><name><surname>Fak</surname><given-names>J.J.</given-names></name><name><surname>Darnell</surname><given-names>R.B.</given-names></name></person-group>
+<article-title>Integrative modeling defines the Nova splicing-regulatory network and its combinatorial controls</article-title>
+<source>Science</source>
+<year>2010</year>
+<volume>329</volume>
+<fpage>439</fpage>
+<lpage>443</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1191150</pub-id>
+<pub-id pub-id-type="pmid">20558669</pub-id></element-citation></ref><ref id="B57-genes-05-00235"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorek</surname><given-names>R.</given-names></name><name><surname>Lev-Maor</surname><given-names>G.</given-names></name><name><surname>Reznik</surname><given-names>M.</given-names></name><name><surname>Dagan</surname><given-names>T.</given-names></name><name><surname>Belinky</surname><given-names>F.</given-names></name><name><surname>Graur</surname><given-names>D.</given-names></name><name><surname>Ast</surname><given-names>G.</given-names></name></person-group>
+<article-title>Minimal conditions for exonization of intronic sequences: 5 ' splice site formation in Alu exons</article-title>
+<source>Mol. Cell</source>
+<year>2004</year>
+<volume>14</volume>
+<fpage>221</fpage>
+<lpage>231</lpage>
+<pub-id pub-id-type="doi">10.1016/S1097-2765(04)00181-9</pub-id>
+<pub-id pub-id-type="pmid">15099521</pub-id></element-citation></ref><ref id="B58-genes-05-00235"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zarnack</surname><given-names>K.</given-names></name><name><surname>Konig</surname><given-names>J.</given-names></name><name><surname>Tajnik</surname><given-names>M.</given-names></name><name><surname>Martincorena</surname><given-names>I.</given-names></name><name><surname>Eustermann</surname><given-names>S.</given-names></name><name><surname>Stevant</surname><given-names>I.</given-names></name><name><surname>Reyes</surname><given-names>A.</given-names></name><name><surname>Anders</surname><given-names>S.</given-names></name><name><surname>Luscombe</surname><given-names>N.M.</given-names></name><name><surname>Ule</surname><given-names>J.</given-names></name></person-group>
+<article-title>Direct competition between hnRNP C and U2AF65 protects the transcriptome from the exonization of Alu elements</article-title>
+<source>Cell</source>
+<year>2013</year>
+<volume>152</volume>
+<fpage>453</fpage>
+<lpage>466</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2012.12.023</pub-id>
+<pub-id pub-id-type="pmid">23374342</pub-id></element-citation></ref><ref id="B59-genes-05-00235"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerstein</surname><given-names>M.B.</given-names></name><name><surname>Bruce</surname><given-names>C.</given-names></name><name><surname>Rozowsky</surname><given-names>J.S.</given-names></name><name><surname>Zheng</surname><given-names>D.</given-names></name><name><surname>Du</surname><given-names>J.</given-names></name><name><surname>Korbel</surname><given-names>J.O.</given-names></name><name><surname>Emanuelsson</surname><given-names>O.</given-names></name><name><surname>Zhang</surname><given-names>Z.D.</given-names></name><name><surname>Weissman</surname><given-names>S.</given-names></name><name><surname>Snyder</surname><given-names>M.</given-names></name></person-group>
+<article-title>What is a gene, post-ENCODE? History and updated definition</article-title>
+<source>Genome Res.</source>
+<year>2007</year>
+<volume>17</volume>
+<fpage>669</fpage>
+<lpage>681</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.6339607</pub-id>
+<pub-id pub-id-type="pmid">17567988</pub-id></element-citation></ref><ref id="B60-genes-05-00235"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mudge</surname><given-names>J.M.</given-names></name><name><surname>Frankish</surname><given-names>A.</given-names></name><name><surname>Harrow</surname><given-names>J.</given-names></name></person-group>
+<article-title>Functional transcriptomics in the post-ENCODE era</article-title>
+<source>Genome Res.</source>
+<year>2013</year>
+<volume>12</volume>
+<fpage>1961</fpage>
+<lpage>1973</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.161315.113</pub-id>
+<pub-id pub-id-type="pmid">24172201</pub-id></element-citation></ref><ref id="B61-genes-05-00235"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ast</surname><given-names>G.</given-names></name></person-group>
+<article-title>How did alternative splicing evolve?</article-title>
+<source>Nat. Rev. Genet.</source>
+<year>2004</year>
+<volume>5</volume>
+<fpage>773</fpage>
+<lpage>782</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg1451</pub-id>
+<pub-id pub-id-type="pmid">15510168</pub-id></element-citation></ref><ref id="B62-genes-05-00235"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brett</surname><given-names>D.</given-names></name><name><surname>Hanke</surname><given-names>J.</given-names></name><name><surname>Lehmann</surname><given-names>G.</given-names></name><name><surname>Haase</surname><given-names>S.</given-names></name><name><surname>Delbruck</surname><given-names>S.</given-names></name><name><surname>Krueger</surname><given-names>S.</given-names></name><name><surname>Reich</surname><given-names>J.</given-names></name><name><surname>Bork</surname><given-names>P.</given-names></name></person-group>
+<article-title>EST comparison indicates 38% of human mRNAs contain possible alternative splice forms</article-title>
+<source>FEBS Lett.</source>
+<year>2000</year>
+<volume>474</volume>
+<fpage>83</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="doi">10.1016/S0014-5793(00)01581-7</pub-id>
+<pub-id pub-id-type="pmid">10828456</pub-id></element-citation></ref><ref id="B63-genes-05-00235"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mironov</surname><given-names>A.A.</given-names></name><name><surname>Fickett</surname><given-names>J.W.</given-names></name><name><surname>Gelfand</surname><given-names>M.S.</given-names></name></person-group>
+<article-title>Frequent alternative splicing of human genes</article-title>
+<source>Genome Res.</source>
+<year>1999</year>
+<volume>9</volume>
+<fpage>1288</fpage>
+<lpage>1293</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.9.12.1288</pub-id>
+<pub-id pub-id-type="pmid">10613851</pub-id></element-citation></ref><ref id="B64-genes-05-00235"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clark</surname><given-names>T.A.</given-names></name><name><surname>Schweitzer</surname><given-names>A.C.</given-names></name><name><surname>Chen</surname><given-names>T.X.</given-names></name><name><surname>Staples</surname><given-names>M.K.</given-names></name><name><surname>Lu</surname><given-names>G.</given-names></name><name><surname>Wang</surname><given-names>H.</given-names></name><name><surname>Williams</surname><given-names>A.</given-names></name><name><surname>Blume</surname><given-names>J.E.</given-names></name></person-group>
+<article-title>Discovery of tissue-specific exons using comprehensive human exon microarrays</article-title>
+<source>Genome Biol.</source>
+<year>2007</year>
+<volume>8</volume>
+<fpage>R64</fpage>
+<pub-id pub-id-type="doi">10.1186/gb-2007-8-4-r64</pub-id>
+<pub-id pub-id-type="pmid">17456239</pub-id></element-citation></ref><ref id="B65-genes-05-00235"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Djebali</surname><given-names>S.</given-names></name><name><surname>Davis</surname><given-names>C.A.</given-names></name><name><surname>Merkel</surname><given-names>A.</given-names></name><name><surname>Dobin</surname><given-names>A.</given-names></name><name><surname>Lassmann</surname><given-names>T.</given-names></name><name><surname>Mortazavi</surname><given-names>A.</given-names></name><name><surname>Tanzer</surname><given-names>A.</given-names></name><name><surname>Lagarde</surname><given-names>J.</given-names></name><name><surname>Lin</surname><given-names>W.</given-names></name><name><surname>Schlesinger</surname><given-names>F.</given-names></name><etal/></person-group>
+<article-title>Landscape of transcription in human cells</article-title>
+<source>Nature</source>
+<year>2012</year>
+<volume>489</volume>
+<fpage>101</fpage>
+<lpage>108</lpage>
+<pub-id pub-id-type="doi">10.1038/nature11233</pub-id>
+<pub-id pub-id-type="pmid">22955620</pub-id></element-citation></ref><ref id="B66-genes-05-00235"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gonzalez-Porta</surname><given-names>M.</given-names></name><name><surname>Frankish</surname><given-names>A.</given-names></name><name><surname>Rung</surname><given-names>J.</given-names></name><name><surname>Harrow</surname><given-names>J.</given-names></name><name><surname>Brazma</surname><given-names>A.</given-names></name></person-group>
+<article-title>Transcriptome analysis of human tissues and cell lines reveals one dominant transcript per gene</article-title>
+<source>Genome Biol.</source>
+<year>2013</year>
+<volume>14</volume>
+<fpage>R70</fpage>
+<pub-id pub-id-type="doi">10.1186/gb-2013-14-7-r70</pub-id>
+<pub-id pub-id-type="pmid">23815980</pub-id></element-citation></ref><ref id="B67-genes-05-00235"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>E.T.</given-names></name><name><surname>Sandberg</surname><given-names>R.</given-names></name><name><surname>Luo</surname><given-names>S.</given-names></name><name><surname>Khrebtukova</surname><given-names>I.</given-names></name><name><surname>Zhang</surname><given-names>L.</given-names></name><name><surname>Mayr</surname><given-names>C.</given-names></name><name><surname>Kingsmore</surname><given-names>S.F.</given-names></name><name><surname>Schroth</surname><given-names>G.P.</given-names></name><name><surname>Burge</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>Alternative isoform regulation in human tissue transcriptomes</article-title>
+<source>Nature</source>
+<year>2008</year>
+<volume>456</volume>
+<fpage>470</fpage>
+<lpage>476</lpage>
+<pub-id pub-id-type="doi">10.1038/nature07509</pub-id>
+<pub-id pub-id-type="pmid">18978772</pub-id></element-citation></ref><ref id="B68-genes-05-00235"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harrison</surname><given-names>P.M.</given-names></name><name><surname>Kumar</surname><given-names>A.</given-names></name><name><surname>Lang</surname><given-names>N.</given-names></name><name><surname>Snyder</surname><given-names>M.</given-names></name><name><surname>Gerstein</surname><given-names>M.</given-names></name></person-group>
+<article-title>A question of size: The eukaryotic proteome and the problems in defining it</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2002</year>
+<volume>30</volume>
+<fpage>1083</fpage>
+<lpage>1090</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/30.5.1083</pub-id>
+<pub-id pub-id-type="pmid">11861898</pub-id></element-citation></ref><ref id="B69-genes-05-00235"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stamm</surname><given-names>S.</given-names></name></person-group>
+<article-title>Signals and their transduction pathways regulating alternative splicing: A new dimension of the human genome</article-title>
+<source>Hum. Mol. Genet.</source>
+<year>2002</year>
+<volume>11</volume>
+<fpage>2409</fpage>
+<lpage>2416</lpage>
+<pub-id pub-id-type="doi">10.1093/hmg/11.20.2409</pub-id>
+<pub-id pub-id-type="pmid">12351576</pub-id></element-citation></ref><ref id="B70-genes-05-00235"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adams</surname><given-names>M.D.</given-names></name><name><surname>Celniker</surname><given-names>S.E.</given-names></name><name><surname>Holt</surname><given-names>R.A.</given-names></name><name><surname>Evans</surname><given-names>C.A.</given-names></name><name><surname>Gocayne</surname><given-names>J.D.</given-names></name><name><surname>Amanatides</surname><given-names>P.G.</given-names></name><name><surname>Scherer</surname><given-names>S.E.</given-names></name><name><surname>Li</surname><given-names>P.W.</given-names></name><name><surname>Hoskins</surname><given-names>R.A.</given-names></name><name><surname>Galle</surname><given-names>R.F.</given-names></name><etal/></person-group>
+<article-title>The genome sequence of Drosophila melanogaster</article-title>
+<source>Science</source>
+<year>2000</year>
+<volume>287</volume>
+<fpage>2185</fpage>
+<lpage>2195</lpage>
+<pub-id pub-id-type="doi">10.1126/science.287.5461.2185</pub-id>
+<pub-id pub-id-type="pmid">10731132</pub-id></element-citation></ref><ref id="B71-genes-05-00235"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fleischmann</surname><given-names>R.D.</given-names></name><name><surname>Adams</surname><given-names>M.D.</given-names></name><name><surname>White</surname><given-names>O.</given-names></name><name><surname>Clayton</surname><given-names>R.A.</given-names></name><name><surname>Kirkness</surname><given-names>E.F.</given-names></name><name><surname>Kerlavage</surname><given-names>A.R.</given-names></name><name><surname>Bult</surname><given-names>C.J.</given-names></name><name><surname>Tomb</surname><given-names>J.F.</given-names></name><name><surname>Dougherty</surname><given-names>B.A.</given-names></name><name><surname>Merrick</surname><given-names>J.M.</given-names></name><etal/></person-group>
+<article-title>Whole-genome random sequencing and assembly of Haemophilus influenzae Rd</article-title>
+<source>Science</source>
+<year>1995</year>
+<volume>269</volume>
+<fpage>496</fpage>
+<lpage>512</lpage>
+<pub-id pub-id-type="pmid">7542800</pub-id></element-citation></ref><ref id="B72-genes-05-00235"><label>72.</label><element-citation publication-type="journal">
+<article-title>Genome sequence of the nematode <italic>C. elegans</italic>: A platform for investigating biology</article-title>
+<source>Science</source>
+<year>1998</year>
+<volume>282</volume>
+<fpage>2012</fpage>
+<lpage>2018</lpage>
+<pub-id pub-id-type="doi">10.1126/science.282.5396.2012</pub-id>
+<pub-id pub-id-type="pmid">9851916</pub-id></element-citation></ref><ref id="B73-genes-05-00235"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ramani</surname><given-names>A.K.</given-names></name><name><surname>Calarco</surname><given-names>J.A.</given-names></name><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Mavandadi</surname><given-names>S.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Nelson</surname><given-names>A.C.</given-names></name><name><surname>Lee</surname><given-names>L.J.</given-names></name><name><surname>Morris</surname><given-names>Q.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name><name><surname>Zhen</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Genome-wide analysis of alternative splicing in Caenorhabditis elegans</article-title>
+<source>Genome Res.</source>
+<year>2011</year>
+<volume>21</volume>
+<fpage>342</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.114645.110</pub-id>
+<pub-id pub-id-type="pmid">21177968</pub-id></element-citation></ref><ref id="B74-genes-05-00235"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Graveley</surname><given-names>B.R.</given-names></name><name><surname>Brooks</surname><given-names>A.N.</given-names></name><name><surname>Carlson</surname><given-names>J.W.</given-names></name><name><surname>Duff</surname><given-names>M.O.</given-names></name><name><surname>Landolin</surname><given-names>J.M.</given-names></name><name><surname>Yang</surname><given-names>L.</given-names></name><name><surname>Artieri</surname><given-names>C.G.</given-names></name><name><surname>van Baren</surname><given-names>M.J.</given-names></name><name><surname>Boley</surname><given-names>N.</given-names></name><name><surname>Booth</surname><given-names>B.W.</given-names></name><etal/></person-group>
+<article-title>The developmental transcriptome of Drosophila melanogaster</article-title>
+<source>Nature</source>
+<year>2011</year>
+<volume>471</volume>
+<fpage>473</fpage>
+<lpage>479</lpage>
+<pub-id pub-id-type="doi">10.1038/nature09715</pub-id>
+<pub-id pub-id-type="pmid">21179090</pub-id></element-citation></ref><ref id="B75-genes-05-00235"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roy</surname><given-names>S.W.</given-names></name></person-group>
+<article-title>Intron-rich ancestors</article-title>
+<source>Trends Genet.</source>
+<year>2006</year>
+<volume>22</volume>
+<fpage>468</fpage>
+<lpage>471</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tig.2006.07.002</pub-id>
+<pub-id pub-id-type="pmid">16857287</pub-id></element-citation></ref><ref id="B76-genes-05-00235"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Munding</surname><given-names>E.M.</given-names></name><name><surname>Igel</surname><given-names>A.H.</given-names></name><name><surname>Shiue</surname><given-names>L.</given-names></name><name><surname>Dorighi</surname><given-names>K.M.</given-names></name><name><surname>Trevino</surname><given-names>L.R.</given-names></name><name><surname>Ares</surname><given-names>M.</given-names><suffix>Jr.</suffix></name></person-group>
+<article-title>Integration of a splicing regulatory network within the meiotic gene expression program of Saccharomyces cerevisiae</article-title>
+<source>Genes Dev.</source>
+<year>2010</year>
+<volume>24</volume>
+<fpage>2693</fpage>
+<lpage>2704</lpage>
+<pub-id pub-id-type="doi">10.1101/gad.1977410</pub-id>
+<pub-id pub-id-type="pmid">21123654</pub-id></element-citation></ref><ref id="B77-genes-05-00235"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pleiss</surname><given-names>J.A.</given-names></name><name><surname>Whitworth</surname><given-names>G.B.</given-names></name><name><surname>Bergkessel</surname><given-names>M.</given-names></name><name><surname>Guthrie</surname><given-names>C.</given-names></name></person-group>
+<article-title>Rapid, transcript-specific changes in splicing in response to environmental stress</article-title>
+<source>Mol. Cell</source>
+<year>2007</year>
+<volume>27</volume>
+<fpage>928</fpage>
+<lpage>937</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2007.07.018</pub-id>
+<pub-id pub-id-type="pmid">17889666</pub-id></element-citation></ref><ref id="B78-genes-05-00235"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Calarco</surname><given-names>J.A.</given-names></name><name><surname>Xing</surname><given-names>Y.</given-names></name><name><surname>Caceres</surname><given-names>M.</given-names></name><name><surname>Calarco</surname><given-names>J.P.</given-names></name><name><surname>Xiao</surname><given-names>X.</given-names></name><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Lee</surname><given-names>C.</given-names></name><name><surname>Preuss</surname><given-names>T.M.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name></person-group>
+<article-title>Global analysis of alternative splicing differences between humans and chimpanzees</article-title>
+<source>Genes Dev.</source>
+<year>2007</year>
+<volume>21</volume>
+<fpage>2963</fpage>
+<lpage>2975</lpage>
+<pub-id pub-id-type="doi">10.1101/gad.1606907</pub-id>
+<pub-id pub-id-type="pmid">17978102</pub-id></element-citation></ref><ref id="B79-genes-05-00235"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barbosa-Morais</surname><given-names>N.L.</given-names></name><name><surname>Irimia</surname><given-names>M.</given-names></name><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Xiong</surname><given-names>H.Y.</given-names></name><name><surname>Gueroussov</surname><given-names>S.</given-names></name><name><surname>Lee</surname><given-names>L.J.</given-names></name><name><surname>Slobodeniuc</surname><given-names>V.</given-names></name><name><surname>Kutter</surname><given-names>C.</given-names></name><name><surname>Watt</surname><given-names>S.</given-names></name><name><surname>Colak</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>The evolutionary landscape of alternative splicing in vertebrate species</article-title>
+<source>Science</source>
+<year>2012</year>
+<volume>338</volume>
+<fpage>1587</fpage>
+<lpage>1593</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1230612</pub-id>
+<pub-id pub-id-type="pmid">23258890</pub-id></element-citation></ref><ref id="B80-genes-05-00235"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Venables</surname><given-names>J.P.</given-names></name><name><surname>Vignal</surname><given-names>E.</given-names></name><name><surname>Baghdiguian</surname><given-names>S.</given-names></name><name><surname>Fort</surname><given-names>P.</given-names></name><name><surname>Tazi</surname><given-names>J.</given-names></name></person-group>
+<article-title>Tissue-specific alternative splicing of Tak1 is conserved in deuterostomes</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2012</year>
+<volume>29</volume>
+<fpage>261</fpage>
+<lpage>269</lpage>
+<pub-id pub-id-type="doi">10.1093/molbev/msr193</pub-id>
+<pub-id pub-id-type="pmid">21873631</pub-id></element-citation></ref><ref id="B81-genes-05-00235"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Merkin</surname><given-names>J.</given-names></name><name><surname>Russell</surname><given-names>C.</given-names></name><name><surname>Chen</surname><given-names>P.</given-names></name><name><surname>Burge</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>Evolutionary dynamics of gene and isoform regulation in Mammalian tissues</article-title>
+<source>Science</source>
+<year>2012</year>
+<volume>338</volume>
+<fpage>1593</fpage>
+<lpage>1599</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1228186</pub-id>
+<pub-id pub-id-type="pmid">23258891</pub-id></element-citation></ref><ref id="B82-genes-05-00235"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aoto</surname><given-names>J.</given-names></name><name><surname>Martinelli</surname><given-names>D.C.</given-names></name><name><surname>Malenka</surname><given-names>R.C.</given-names></name><name><surname>Tabuchi</surname><given-names>K.</given-names></name><name><surname>Sudhof</surname><given-names>T.C.</given-names></name></person-group>
+<article-title>Presynaptic neurexin-3 alternative splicing trans-synaptically controls postsynaptic AMPA receptor trafficking</article-title>
+<source>Cell</source>
+<year>2013</year>
+<volume>154</volume>
+<fpage>75</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.05.060</pub-id>
+<pub-id pub-id-type="pmid">23827676</pub-id></element-citation></ref><ref id="B83-genes-05-00235"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Colak</surname><given-names>R.</given-names></name><name><surname>Kim</surname><given-names>T.</given-names></name><name><surname>Michaut</surname><given-names>M.</given-names></name><name><surname>Sun</surname><given-names>M.</given-names></name><name><surname>Irimia</surname><given-names>M.</given-names></name><name><surname>Bellay</surname><given-names>J.</given-names></name><name><surname>Myers</surname><given-names>C.L.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name><name><surname>Kim</surname><given-names>P.M.</given-names></name></person-group>
+<article-title>Distinct types of disorder in the human proteome: Functional implications for alternative splicing</article-title>
+<source>PLoS Comput. Biol.</source>
+<year>2013</year>
+<volume>9</volume>
+<fpage>e1003030</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pcbi.1003030</pub-id>
+<pub-id pub-id-type="pmid">23633940</pub-id></element-citation></ref><ref id="B84-genes-05-00235"><label>84.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ellis</surname><given-names>J.D.</given-names></name><name><surname>Barrios-Rodiles</surname><given-names>M.</given-names></name><name><surname>Colak</surname><given-names>R.</given-names></name><name><surname>Irimia</surname><given-names>M.</given-names></name><name><surname>Kim</surname><given-names>T.</given-names></name><name><surname>Calarco</surname><given-names>J.A.</given-names></name><name><surname>Wang</surname><given-names>X.</given-names></name><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>O'Hanlon</surname><given-names>D.</given-names></name><name><surname>Kim</surname><given-names>P.M.</given-names></name><etal/></person-group>
+<article-title>Tissue-specific alternative splicing remodels protein-protein interaction networks</article-title>
+<source>Mol. Cell</source>
+<year>2012</year>
+<volume>46</volume>
+<fpage>884</fpage>
+<lpage>892</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2012.05.037</pub-id>
+<pub-id pub-id-type="pmid">22749401</pub-id></element-citation></ref><ref id="B85-genes-05-00235"><label>85.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gabut</surname><given-names>M.</given-names></name><name><surname>Samavarchi-Tehrani</surname><given-names>P.</given-names></name><name><surname>Wang</surname><given-names>X.</given-names></name><name><surname>Slobodeniuc</surname><given-names>V.</given-names></name><name><surname>O'Hanlon</surname><given-names>D.</given-names></name><name><surname>Sung</surname><given-names>H.K.</given-names></name><name><surname>Alvarez</surname><given-names>M.</given-names></name><name><surname>Talukder</surname><given-names>S.</given-names></name><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Mazzoni</surname><given-names>E.O.</given-names></name><etal/></person-group>
+<article-title>An alternative splicing switch regulates embryonic stem cell pluripotency and reprogramming</article-title>
+<source>Cell</source>
+<year>2011</year>
+<volume>147</volume>
+<fpage>132</fpage>
+<lpage>146</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.08.023</pub-id>
+<pub-id pub-id-type="pmid">21924763</pub-id></element-citation></ref><ref id="B86-genes-05-00235"><label>86.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Voineagu</surname><given-names>I.</given-names></name><name><surname>Wang</surname><given-names>X.</given-names></name><name><surname>Johnston</surname><given-names>P.</given-names></name><name><surname>Lowe</surname><given-names>J.K.</given-names></name><name><surname>Tian</surname><given-names>Y.</given-names></name><name><surname>Horvath</surname><given-names>S.</given-names></name><name><surname>Mill</surname><given-names>J.</given-names></name><name><surname>Cantor</surname><given-names>R.M.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name><name><surname>Geschwind</surname><given-names>D.H.</given-names></name></person-group>
+<article-title>Transcriptomic analysis of autistic brain reveals convergent molecular pathology</article-title>
+<source>Nature</source>
+<year>2011</year>
+<volume>474</volume>
+<fpage>380</fpage>
+<lpage>384</lpage>
+<pub-id pub-id-type="doi">10.1038/nature10110</pub-id>
+<pub-id pub-id-type="pmid">21614001</pub-id></element-citation></ref><ref id="B87-genes-05-00235"><label>87.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalsotra</surname><given-names>A.</given-names></name><name><surname>Cooper</surname><given-names>T.A.</given-names></name></person-group>
+<article-title>Functional consequences of developmentally regulated alternative splicing</article-title>
+<source>Nat. Rev. Genet.</source>
+<year>2011</year>
+<volume>12</volume>
+<fpage>715</fpage>
+<lpage>729</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg3052</pub-id>
+<pub-id pub-id-type="pmid">21921927</pub-id></element-citation></ref><ref id="B88-genes-05-00235"><label>88.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hsu</surname><given-names>S.N.</given-names></name><name><surname>Hertel</surname><given-names>K.J.</given-names></name></person-group>
+<article-title>Spliceosomes walk the line: Splicing errors and their impact on cellular function</article-title>
+<source>RNA Biol.</source>
+<year>2009</year>
+<volume>6</volume>
+<fpage>526</fpage>
+<lpage>530</lpage>
+<pub-id pub-id-type="doi">10.4161/rna.6.5.9860</pub-id>
+<pub-id pub-id-type="pmid">19829058</pub-id></element-citation></ref><ref id="B89-genes-05-00235"><label>89.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luger</surname><given-names>K.</given-names></name><name><surname>Mader</surname><given-names>A.W.</given-names></name><name><surname>Richmond</surname><given-names>R.K.</given-names></name><name><surname>Sargent</surname><given-names>D.F.</given-names></name><name><surname>Richmond</surname><given-names>T.J.</given-names></name></person-group>
+<article-title>Crystal structure of the nucleosome core particle at 2.8 A resolution</article-title>
+<source>Nature</source>
+<year>1997</year>
+<volume>389</volume>
+<fpage>251</fpage>
+<lpage>260</lpage>
+<pub-id pub-id-type="doi">10.1038/38444</pub-id>
+<pub-id pub-id-type="pmid">9305837</pub-id></element-citation></ref><ref id="B90-genes-05-00235"><label>90.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwartz</surname><given-names>S.</given-names></name><name><surname>Meshorer</surname><given-names>E.</given-names></name><name><surname>Ast</surname><given-names>G.</given-names></name></person-group>
+<article-title>Chromatin organization marks exon-intron structure</article-title>
+<source>Nat. Struct. Mol. Biol.</source>
+<year>2009</year>
+<volume>16</volume>
+<fpage>990</fpage>
+<lpage>995</lpage>
+<pub-id pub-id-type="doi">10.1038/nsmb.1659</pub-id>
+<pub-id pub-id-type="pmid">19684600</pub-id></element-citation></ref><ref id="B91-genes-05-00235"><label>91.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tilgner</surname><given-names>H.</given-names></name><name><surname>Nikolaou</surname><given-names>C.</given-names></name><name><surname>Althammer</surname><given-names>S.</given-names></name><name><surname>Sammeth</surname><given-names>M.</given-names></name><name><surname>Beato</surname><given-names>M.</given-names></name><name><surname>Valcarcel</surname><given-names>J.</given-names></name><name><surname>Guigo</surname><given-names>R.</given-names></name></person-group>
+<article-title>Nucleosome positioning as a determinant of exon recognition</article-title>
+<source>Nat. Struct. Mol. Biol.</source>
+<year>2009</year>
+<volume>16</volume>
+<fpage>996</fpage>
+<lpage>1001</lpage>
+<pub-id pub-id-type="doi">10.1038/nsmb.1658</pub-id>
+<pub-id pub-id-type="pmid">19684599</pub-id></element-citation></ref><ref id="B92-genes-05-00235"><label>92.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brugiolo</surname><given-names>M.</given-names></name><name><surname>Herzel</surname><given-names>L.</given-names></name><name><surname>Neugebauer</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Counting on co-transcriptional splicing</article-title>
+<source>F1000Prime Rep.</source>
+<year>2013</year>
+<volume>5</volume>
+<fpage>9</fpage>
+<pub-id pub-id-type="pmid">23638305</pub-id></element-citation></ref><ref id="B93-genes-05-00235"><label>93.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tilgner</surname><given-names>H.</given-names></name><name><surname>Knowles</surname><given-names>D.G.</given-names></name><name><surname>Johnson</surname><given-names>R.</given-names></name><name><surname>Davis</surname><given-names>C.A.</given-names></name><name><surname>Chakrabortty</surname><given-names>S.</given-names></name><name><surname>Djebali</surname><given-names>S.</given-names></name><name><surname>Curado</surname><given-names>J.</given-names></name><name><surname>Snyder</surname><given-names>M.</given-names></name><name><surname>Gingeras</surname><given-names>T.R.</given-names></name><name><surname>Guigo</surname><given-names>R.</given-names></name></person-group>
+<article-title>Deep sequencing of subcellular RNA fractions shows splicing to be predominantly co-transcriptional in the human genome but inefficient for lncRNAs</article-title>
+<source>Genome Res.</source>
+<year>2012</year>
+<volume>22</volume>
+<fpage>1616</fpage>
+<lpage>1625</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.134445.111</pub-id>
+<pub-id pub-id-type="pmid">22955974</pub-id></element-citation></ref><ref id="B94-genes-05-00235"><label>94.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ameur</surname><given-names>A.</given-names></name><name><surname>Zaghlool</surname><given-names>A.</given-names></name><name><surname>Halvardson</surname><given-names>J.</given-names></name><name><surname>Wetterbom</surname><given-names>A.</given-names></name><name><surname>Gyllensten</surname><given-names>U.</given-names></name><name><surname>Cavelier</surname><given-names>L.</given-names></name><name><surname>Feuk</surname><given-names>L.</given-names></name></person-group>
+<article-title>Total RNA sequencing reveals nascent transcription and widespread co-transcriptional splicing in the human brain</article-title>
+<source>Nat. Struct. Mol. Biol.</source>
+<year>2011</year>
+<volume>18</volume>
+<fpage>U1435</fpage>
+<lpage>U1157</lpage>
+<pub-id pub-id-type="doi">10.1038/nsmb.2143</pub-id>
+</element-citation></ref><ref id="B95-genes-05-00235"><label>95.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaida</surname><given-names>D.</given-names></name><name><surname>Berg</surname><given-names>M.G.</given-names></name><name><surname>Younis</surname><given-names>I.</given-names></name><name><surname>Kasim</surname><given-names>M.</given-names></name><name><surname>Singh</surname><given-names>L.N.</given-names></name><name><surname>Wan</surname><given-names>L.</given-names></name><name><surname>Dreyfuss</surname><given-names>G.</given-names></name></person-group>
+<article-title>U1 snRNP protects pre-mRNAs from premature cleavage and polyadenylation</article-title>
+<source>Nature</source>
+<year>2010</year>
+<volume>468</volume>
+<fpage>664</fpage>
+<lpage>668</lpage>
+<pub-id pub-id-type="doi">10.1038/nature09479</pub-id>
+<pub-id pub-id-type="pmid">20881964</pub-id></element-citation></ref><ref id="B96-genes-05-00235"><label>96.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hodges</surname><given-names>C.</given-names></name><name><surname>Bintu</surname><given-names>L.</given-names></name><name><surname>Lubkowska</surname><given-names>L.</given-names></name><name><surname>Kashlev</surname><given-names>M.</given-names></name><name><surname>Bustamante</surname><given-names>C.</given-names></name></person-group>
+<article-title>Nucleosomal fluctuations govern the transcription dynamics of RNA polymerase II</article-title>
+<source>Science</source>
+<year>2009</year>
+<volume>325</volume>
+<fpage>626</fpage>
+<lpage>628</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1172926</pub-id>
+<pub-id pub-id-type="pmid">19644123</pub-id></element-citation></ref><ref id="B97-genes-05-00235"><label>97.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kornblihtt</surname><given-names>A.R.</given-names></name><name><surname>Schor</surname><given-names>I.E.</given-names></name><name><surname>Allo</surname><given-names>M.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name></person-group>
+<article-title>When chromatin meets splicing</article-title>
+<source>Nat. Struct. Mol. Biol.</source>
+<year>2009</year>
+<volume>16</volume>
+<fpage>902</fpage>
+<lpage>903</lpage>
+<pub-id pub-id-type="doi">10.1038/nsmb0909-902</pub-id>
+<pub-id pub-id-type="pmid">19739285</pub-id></element-citation></ref><ref id="B98-genes-05-00235"><label>98.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwartz</surname><given-names>S.</given-names></name><name><surname>Ast</surname><given-names>G.</given-names></name></person-group>
+<article-title>Chromatin density and splicing destiny: On the cross-talk between chromatin structure and splicing</article-title>
+<source>EMBO J.</source>
+<year>2010</year>
+<volume>29</volume>
+<fpage>1629</fpage>
+<lpage>1636</lpage>
+<pub-id pub-id-type="doi">10.1038/emboj.2010.71</pub-id>
+<pub-id pub-id-type="pmid">20407423</pub-id></element-citation></ref><ref id="B99-genes-05-00235"><label>99.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carrillo Oesterreich</surname><given-names>F.</given-names></name><name><surname>Bieberstein</surname><given-names>N.</given-names></name><name><surname>Neugebauer</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Pause locally, splice globally</article-title>
+<source>Trends Cell. Biol.</source>
+<year>2011</year>
+<volume>21</volume>
+<fpage>328</fpage>
+<lpage>335</lpage>
+<pub-id pub-id-type="pmid">21530266</pub-id></element-citation></ref><ref id="B100-genes-05-00235"><label>100.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schor</surname><given-names>I.E.</given-names></name><name><surname>Allo</surname><given-names>M.</given-names></name><name><surname>Kornblihtt</surname><given-names>A.R.</given-names></name></person-group>
+<article-title>Intragenic chromatin modifications: A new layer in alternative splicing regulation</article-title>
+<source>Epigenetics</source>
+<year>2010</year>
+<volume>5</volume>
+<fpage>174</fpage>
+<lpage>179</lpage>
+<pub-id pub-id-type="doi">10.4161/epi.5.3.11316</pub-id>
+</element-citation></ref><ref id="B101-genes-05-00235"><label>101.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tilgner</surname><given-names>H.</given-names></name><name><surname>Guigo</surname><given-names>R.</given-names></name></person-group>
+<article-title>From chromatin to splicing: RNA-processing as a total artwork</article-title>
+<source>Epigenetics</source>
+<year>2010</year>
+<volume>5</volume>
+<fpage>180</fpage>
+<lpage>184</lpage>
+<pub-id pub-id-type="doi">10.4161/epi.5.3.11319</pub-id>
+</element-citation></ref><ref id="B102-genes-05-00235"><label>102.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De la Mata</surname><given-names>M.</given-names></name><name><surname>Alonso</surname><given-names>C.R.</given-names></name><name><surname>Kadener</surname><given-names>S.</given-names></name><name><surname>Fededa</surname><given-names>J.P.</given-names></name><name><surname>Blaustein</surname><given-names>M.</given-names></name><name><surname>Pelisch</surname><given-names>F.</given-names></name><name><surname>Cramer</surname><given-names>P.</given-names></name><name><surname>Bentley</surname><given-names>D.</given-names></name><name><surname>Kornblihtt</surname><given-names>A.R.</given-names></name></person-group>
+<article-title>A slow RNA polymerase II affects alternative splicing <italic>in vivo</italic></article-title>
+<source>Mol. Cell</source>
+<year>2003</year>
+<volume>12</volume>
+<fpage>525</fpage>
+<lpage>532</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2003.08.001</pub-id>
+<pub-id pub-id-type="pmid">14536091</pub-id></element-citation></ref><ref id="B103-genes-05-00235"><label>103.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schor</surname><given-names>I.E.</given-names></name><name><surname>Rascovan</surname><given-names>N.</given-names></name><name><surname>Pelisch</surname><given-names>F.</given-names></name><name><surname>Allo</surname><given-names>M.</given-names></name><name><surname>Kornblihtt</surname><given-names>A.R.</given-names></name></person-group>
+<article-title>Neuronal cell depolarization induces intragenic chromatin modifications affecting NCAM alternative splicing</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2009</year>
+<volume>106</volume>
+<fpage>4325</fpage>
+<lpage>4330</lpage>
+<pub-id pub-id-type="pmid">19251664</pub-id></element-citation></ref><ref id="B104-genes-05-00235"><label>104.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luco</surname><given-names>R.F.</given-names></name><name><surname>Pan</surname><given-names>Q.</given-names></name><name><surname>Tominaga</surname><given-names>K.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name><name><surname>Pereira-Smith</surname><given-names>O.M.</given-names></name><name><surname>Misteli</surname><given-names>T.</given-names></name></person-group>
+<article-title>Regulation of alternative splicing by histone modifications</article-title>
+<source>Science</source>
+<year>2010</year>
+<volume>327</volume>
+<fpage>996</fpage>
+<lpage>1000</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1184208</pub-id>
+<pub-id pub-id-type="pmid">20133523</pub-id></element-citation></ref><ref id="B105-genes-05-00235"><label>105.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Braunschweig</surname><given-names>U.</given-names></name><name><surname>Gueroussov</surname><given-names>S.</given-names></name><name><surname>Plocik</surname><given-names>A.M.</given-names></name><name><surname>Graveley</surname><given-names>B.R.</given-names></name><name><surname>Blencowe</surname><given-names>B.J.</given-names></name></person-group>
+<article-title>Dynamic integration of splicing within gene regulatory pathways</article-title>
+<source>Cell</source>
+<year>2013</year>
+<volume>152</volume>
+<fpage>1252</fpage>
+<lpage>1269</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.02.034</pub-id>
+<pub-id pub-id-type="pmid">23498935</pub-id></element-citation></ref></ref-list></back></article>

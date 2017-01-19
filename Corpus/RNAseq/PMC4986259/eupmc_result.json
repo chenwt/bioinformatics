@@ -1,0 +1,491 @@
+{
+  "id": [
+    "27528457"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27528457"
+  ],
+  "pmcid": [
+    "PMC4986259"
+  ],
+  "doi": [
+    "10.1186/s12864-016-2855-3"
+  ],
+  "title": [
+    "A comprehensive and scalable database search system for metaproteomics."
+  ],
+  "authorString": [
+    "Chatterjee S, Stupp GS, Park SK, Ducom JC, Yates JR, Su AI, Wolan DW."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Chatterjee S"
+          ],
+          "firstName": [
+            "Sandip"
+          ],
+          "lastName": [
+            "Chatterjee"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Department of Molecular and Experimental Medicine, The Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA, 92037, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Stupp GS"
+          ],
+          "firstName": [
+            "Gregory S"
+          ],
+          "lastName": [
+            "Stupp"
+          ],
+          "initials": [
+            "GS"
+          ],
+          "affiliation": [
+            "Department of Molecular and Experimental Medicine, The Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA, 92037, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Park SK"
+          ],
+          "firstName": [
+            "Sung Kyu Robin"
+          ],
+          "lastName": [
+            "Park"
+          ],
+          "initials": [
+            "SK"
+          ],
+          "affiliation": [
+            "Department of Chemical Physiology, The Scripps Research Institute, La Jolla, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ducom JC"
+          ],
+          "firstName": [
+            "Jean-Christophe"
+          ],
+          "lastName": [
+            "Ducom"
+          ],
+          "initials": [
+            "JC"
+          ],
+          "affiliation": [
+            "High Performance Computing Technology Core, The Scripps Research Institute, La Jolla, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Yates JR 3rd"
+          ],
+          "firstName": [
+            "John R"
+          ],
+          "lastName": [
+            "Yates"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Department of Chemical Physiology, The Scripps Research Institute, La Jolla, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Su AI"
+          ],
+          "firstName": [
+            "Andrew I"
+          ],
+          "lastName": [
+            "Su"
+          ],
+          "initials": [
+            "AI"
+          ],
+          "affiliation": [
+            "Department of Integrative Structural and Computational Biology, The Scripps Research Institute, La Jolla, USA. asu@scripps.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Wolan DW"
+          ],
+          "firstName": [
+            "Dennis W"
+          ],
+          "lastName": [
+            "Wolan"
+          ],
+          "initials": [
+            "DW"
+          ],
+          "affiliation": [
+            "Department of Chemical Physiology, The Scripps Research Institute, La Jolla, USA. wolan@scripps.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-0644-7212",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2461017"
+      ],
+      "dateOfPublication": [
+        "2016 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "642"
+  ],
+  "abstractText": [
+    "Mass spectrometry-based shotgun proteomics experiments rely on accurate matching of experimental spectra against a database of protein sequences. Existing computational analysis methods are limited in the size of their sequence databases, which severely restricts the proteomic sequencing depth and functional analysis of highly complex samples. The growing amount of public high-throughput sequencing data will only exacerbate this problem. We designed a broadly applicable metaproteomic analysis method (ComPIL) that addresses protein database size limitations.Our approach to overcome this significant limitation in metaproteomics was to design a scalable set of sequence databases assembled for optimal library querying speeds. ComPIL was integrated with a modified version of the search engine ProLuCID (termed \"Blazmass\") to permit rapid matching of experimental spectra. Proof-of-principle analysis of human HEK293 lysate with a ComPIL database derived from high-quality genomic libraries was able to detect nearly all of the same peptides as a search with a human database (~500x fewer peptides in the database), with a small reduction in sensitivity. We were also able to detect proteins from the adenovirus used to immortalize these cells. We applied our method to a set of healthy human gut microbiome proteomic samples and showed a substantial increase in the number of identified peptides and proteins compared to previous metaproteomic analyses, while retaining a high degree of protein identification accuracy and allowing for a more in-depth characterization of the functional landscape of the samples.The combination of ComPIL with Blazmass allows proteomic searches to be performed with database sizes much larger than previously possible. These large database searches can be applied to complex meta-samples with unknown composition or proteomic samples where unexpected proteins may be identified. The protein database, proteomic search engine, and the proteomic data files for the 5 microbiome samples characterized and discussed herein are open source and available for use and additional analysis."
+  ],
+  "affiliation": [
+    "Department of Molecular and Experimental Medicine, The Scripps Research Institute, 10550 North Torrey Pines Road, La Jolla, CA, 92037, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "HHSN268201000035C"
+          ],
+          "agency": [
+            "NHLBI NIH HHS"
+          ],
+          "acronym": [
+            "HL"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P41 GM103533"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 GM089820"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "UL1 TR001114"
+          ],
+          "agency": [
+            "NCATS NIH HHS"
+          ],
+          "acronym": [
+            "TR"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 MH100175"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R21 CA181027"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U54 GM114833"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 MH067880"
+          ],
+          "agency": [
+            "NIMH NIH HHS"
+          ],
+          "acronym": [
+            "MH"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Database",
+        "Proteomics",
+        "Microbiome",
+        "Metaproteomics",
+        "Mongodb",
+        "Proteomic Search Engine"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4986259?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4986259"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-016-2855-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "go"
+      ]
+    }
+  ],
+  "dateOfCreation": [
+    "2016-08-16"
+  ],
+  "dateOfRevision": [
+    "2016-12-03"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-16"
+  ],
+  "firstPublicationDate": [
+    "2016-08-16"
+  ]
+}

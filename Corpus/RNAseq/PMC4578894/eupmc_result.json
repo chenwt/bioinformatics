@@ -1,0 +1,409 @@
+{
+  "id": [
+    "26393794"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26393794"
+  ],
+  "pmcid": [
+    "PMC4578894"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0138006"
+  ],
+  "title": [
+    "Semantic Assembly and Annotation of Draft RNAseq Transcripts without a Reference Genome."
+  ],
+  "authorString": [
+    "Ptitsyn A, Temanni R, Bouchard C, Anderson PA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ptitsyn A"
+          ],
+          "firstName": [
+            "Andrey"
+          ],
+          "lastName": [
+            "Ptitsyn"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1196-8757",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Sidra Medical and Research Center, P.O. Box, 26999, Doha, Qatar."
+          ]
+        },
+        {
+          "fullName": [
+            "Temanni R"
+          ],
+          "firstName": [
+            "Ramzi"
+          ],
+          "lastName": [
+            "Temanni"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Sidra Medical and Research Center, P.O. Box, 26999, Doha, Qatar."
+          ]
+        },
+        {
+          "fullName": [
+            "Bouchard C"
+          ],
+          "firstName": [
+            "Christelle"
+          ],
+          "lastName": [
+            "Bouchard"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "University of South Florida Sarasota-Manatee, 8350 N. Tamiami Trail, Sarasota, FL, 34243, United States of America."
+          ]
+        },
+        {
+          "fullName": [
+            "Anderson PA"
+          ],
+          "firstName": [
+            "Peter A V"
+          ],
+          "lastName": [
+            "Anderson"
+          ],
+          "initials": [
+            "PA"
+          ],
+          "affiliation": [
+            "Whitney Laboratory for Marine Biosciences, University of Florida; 9505 Ocean Shore Blvd, Saint Augustine, FL, 32080, United States of America; Department of Physiology and Functional Genomics, University of Florida; 9505 Ocean Shore Blvd, Saint Augustine, FL, 32080, United States of America."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1196-8757",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "9"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2318586"
+      ],
+      "dateOfPublication": [
+        "2015"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "e0138006"
+  ],
+  "abstractText": [
+    "Transcriptomes are one of the first sources of high-throughput genomic data that have benefitted from the introduction of Next-Gen Sequencing. As sequencing technology becomes more accessible, transcriptome sequencing is applicable to multiple organisms for which genome sequences are unavailable. Currently all methods for de novo assembly are based on the concept of matching the nucleotide context overlapping between short fragments-reads. However, even short reads may still contain biologically relevant information which can be used as hints in guiding the assembly process. We propose a computational workflow for the reconstruction and functional annotation of expressed gene transcripts that does not require a reference genome sequence and can be tolerant to low coverage, high error rates and other issues that often lead to poor results of de novo assembly in studies of non-model organisms. We start with either raw sequences or the output of a context-based de novo transcriptome assembly. Instead of mapping reads to a reference genome or creating a completely unsupervised clustering of reads, we assemble the unknown transcriptome using nearest homologs from a public database as seeds. We consider even distant relations, indirectly linking protein-coding fragments to entire gene families in multiple distantly related genomes. The intended application of the proposed method is an additional step of semantic (based on relations between protein-coding fragments) scaffolding following traditional (i.e. based on sequence overlap) de novo assembly. The method we developed was effective in analysis of the jellyfish Cyanea capillata transcriptome and may be applicable in other studies of gene expression in species lacking a high quality reference genome sequence. Our algorithms are implemented in C and designed for parallel computation using a high-performance computer. The software is available free of charge via an open source license."
+  ],
+  "affiliation": [
+    "Sidra Medical and Research Center, P.O. Box, 26999, Doha, Qatar."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA"
+          ],
+          "registryNumber": [
+            "63231-63-0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4578894?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4578894"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1371/journal.pone.0138006"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-05-24"
+  ],
+  "dateOfCreation": [
+    "2015-09-23"
+  ],
+  "dateOfRevision": [
+    "2015-10-02"
+  ],
+  "electronicPublicationDate": [
+    "2015-09-22"
+  ],
+  "firstPublicationDate": [
+    "2015-09-22"
+  ]
+}

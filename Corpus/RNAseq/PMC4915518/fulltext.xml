@@ -1,0 +1,1381 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Syst Biol</journal-id><journal-id journal-id-type="iso-abbrev">Mol. Syst. Biol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1744-4292</journal-id><journal-id journal-id-type="publisher-id">MSB</journal-id><journal-id journal-id-type="hwp">msb</journal-id><journal-title-group><journal-title>Molecular Systems Biology</journal-title></journal-title-group><issn pub-type="epub">1744-4292</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4915518</article-id><article-id pub-id-type="pmid">27288397</article-id><article-id pub-id-type="doi">10.15252/msb.20166869</article-id><article-id pub-id-type="publisher-id">MSB166869</article-id><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>Strand&#x02010;specific, high&#x02010;resolution mapping of modified RNA polymerase II</article-title><alt-title alt-title-type="left-running-head">Laura Milligan <italic>et&#x000a0;al</italic></alt-title></title-group><contrib-group><contrib id="msb166869-cr-0001" contrib-type="author"><name><surname>Milligan</surname><given-names>Laura</given-names></name><xref ref-type="aff" rid="msb166869-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb166869-cr-0002" contrib-type="author"><name><surname>Huynh&#x02010;Thu</surname><given-names>V&#x000e2;n A</given-names></name><xref ref-type="aff" rid="msb166869-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="msb166869-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="msb166869-cr-0003" contrib-type="author"><name><surname>Delan&#x02010;Forino</surname><given-names>Cl&#x000e9;mentine</given-names></name><xref ref-type="aff" rid="msb166869-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb166869-cr-0004" contrib-type="author"><name><surname>Tuck</surname><given-names>Alex</given-names></name><xref ref-type="aff" rid="msb166869-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="msb166869-aff-0004">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="msb166869-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="msb166869-cr-0005" contrib-type="author"><name><surname>Petfalski</surname><given-names>Elisabeth</given-names></name><xref ref-type="aff" rid="msb166869-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb166869-cr-0006" contrib-type="author"><name><surname>Lombra&#x000f1;a</surname><given-names>Rodrigo</given-names></name><xref ref-type="aff" rid="msb166869-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="msb166869-cr-0007" contrib-type="author" corresp="yes"><name><surname>Sanguinetti</surname><given-names>Guido</given-names></name><xref ref-type="aff" rid="msb166869-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="msb166869-cr-0008" contrib-type="author" corresp="yes"><name><surname>Kudla</surname><given-names>Grzegorz</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7924-2744</contrib-id><xref ref-type="aff" rid="msb166869-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="msb166869-cr-0009" contrib-type="author" corresp="yes"><name><surname>Tollervey</surname><given-names>David</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-2894-2772</contrib-id><xref ref-type="aff" rid="msb166869-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="msb166869-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Wellcome Trust Centre for Cell Biology</named-content><institution>University of Edinburgh</institution><named-content content-type="city">Edinburgh</named-content><country country="GB">UK</country></aff><aff id="msb166869-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">School of Informatics</named-content><institution>University of Edinburgh</institution><named-content content-type="city">Edinburgh</named-content><country country="GB">UK</country></aff><aff id="msb166869-aff-0003"><label><sup>3</sup></label><institution>Department of Electrical Engineering and Computer Science</institution><named-content content-type="organisation-division">University of Li&#x000e8;ge</named-content><named-content content-type="city">Li&#x000e8;ge</named-content><country country="BE">Belgium</country></aff><aff id="msb166869-aff-0004"><label><sup>4</sup></label><institution>Friedrich Miescher Institute for Biomedical Research</institution><named-content content-type="city">Basel</named-content><country country="CH">Switzerland</country></aff><aff id="msb166869-aff-0005"><label><sup>5</sup></label><named-content content-type="organisation-division">European Molecular Biology Laboratory</named-content><institution>European Bioinformatics Institute (EMBL&#x02010;EBI)</institution><institution>Wellcome Trust Genome Campus</institution><named-content content-type="city">Cambridge</named-content><country country="GB">UK</country></aff><aff id="msb166869-aff-0006"><label><sup>6</sup></label><named-content content-type="organisation-division">MRC Human Genetics Unit</named-content><institution>IGMM, University of Edinburgh</institution><named-content content-type="city">Edinburgh</named-content><country country="GB">UK</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Corresponding author. Tel: +44 131 650 7092; E&#x02010;mail: <email>d.tollervey@ed.ac.uk</email><break/>
+Corresponding author. Tel: +44 131 651 8628; E&#x02010;mail: <email>gkudla@gmail.com</email><break/>
+Corresponding author. Tel: +44 131 650 5136; E&#x02010;mail: <email>gsanguin@inf.ed.ac.uk</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>10</day><month>6</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2016</year></pub-date><volume>12</volume><issue>6</issue><issue-id pub-id-type="doi">10.1002/msb.v12.6</issue-id><elocation-id>874</elocation-id><history><date date-type="received"><day>08</day><month>2</month><year>2016</year></date><date date-type="rev-recd"><day>13</day><month>5</month><year>2016</year></date><date date-type="accepted"><day>18</day><month>5</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 EMBO <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2016 The Authors. Published under the terms of the CC BY 4.0 license</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:MSB-12-874.pdf"/><abstract id="msb166869-abs-0001"><title>Abstract</title><p>Reversible modification of the <styled-content style="fixed-case">RNAP</styled-content>II C&#x02010;terminal domain links transcription with <styled-content style="fixed-case">RNA</styled-content> processing and surveillance activities. To better understand this, we mapped the location of <styled-content style="fixed-case">RNAP</styled-content>II carrying the five types of <styled-content style="fixed-case">CTD</styled-content> phosphorylation on the <styled-content style="fixed-case">RNA</styled-content> transcript, providing strand&#x02010;specific, nucleotide&#x02010;resolution information, and we used a machine learning&#x02010;based approach to define RNAPII states. This revealed enrichment of Ser5P, and depletion of Tyr1P, Ser2P, Thr4P, and Ser7P in the transcription start site (TSS) proximal ~150 nt of most genes, with depletion of all modifications close to the poly(A) site. The <styled-content style="fixed-case">TSS</styled-content> region also showed elevated RNAPII relative to regions further 3&#x02032;, with high recruitment of <styled-content style="fixed-case">RNA</styled-content> surveillance and termination factors, and correlated with the previously mapped 3&#x02032; ends of short, unstable ncRNA transcripts. A hidden Markov model identified distinct modification states associated with initiating, early elongating and later elongating <styled-content style="fixed-case">RNAP</styled-content>II. The initiation state was enriched near the TSS of protein&#x02010;coding genes and persisted throughout exon 1 of intron&#x02010;containing genes. Notably, unstable ncRNAs apparently failed to transition into the elongation states seen on protein&#x02010;coding genes.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="msb166869-kwd-0001">hidden Markov model</kwd><kwd id="msb166869-kwd-0002">polymerase CTD phosphorylation</kwd><kwd id="msb166869-kwd-0003">transcription</kwd><kwd id="msb166869-kwd-0004">yeast</kwd></kwd-group><kwd-group kwd-group-type="subject-categories"><title>Subject Categories</title><kwd>Chromatin, Epigenetics, Genomics &#x00026; Functional Genomics</kwd><kwd>Methods &#x00026; Resources</kwd><kwd>Transcription</kwd></kwd-group><funding-group><award-group><funding-source>Wellcome Trust</funding-source><award-id>077248</award-id><award-id>103977</award-id><award-id>097383</award-id><award-id>092076</award-id></award-group></funding-group><funding-group><award-group><funding-source>FEBS Long&#x02010;Term Fellowship</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Medical Research Council</funding-source></award-group></funding-group><funding-group><award-group><funding-source>European Research Council</funding-source><award-id>MLCS 306999</award-id></award-group></funding-group><counts><page-count count="15"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>msb166869</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>June 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.1 mode:remove_FC converted:28.06.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="msb166869-cit-1001">
+<source>Mol Syst Biol</source>. (<year>2016</year>) <volume>12</volume>: 874</mixed-citation>
+</p></notes></front><body><sec id="msb166869-sec-0001"><title>Introduction</title><p>Eukaryotic RNA polymerase II (RNAPII) is a large, multisubunit complex. The largest RNAPII subunit, termed Rpo21 in yeast, has a catalytic N&#x02010;terminal domain (NTD) that performs nucleotide polymerization, and a regulatory C&#x02010;terminal domain (CTD), consisting of multiple heptad (consensus YSPTSPS) repeats (26 in yeast, 52 in humans). Each position in the heptads of the CTD can undergo independent, reversible post&#x02010;translational modification (PTM) (reviewed in Heidemann <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0017" ref-type="ref">2013</xref>). In particular, phosphorylation/dephosphorylation of Tyr1, Ser2, Thr4, Ser5, and Ser7 can regulate interactions with multiple transcription and RNA processing factors (reviewed in Buratowski, <xref rid="msb166869-bib-0004" ref-type="ref">2009</xref>; Hsin &#x00026; Manley, <xref rid="msb166869-bib-0021" ref-type="ref">2012</xref>). Two recent studies addressed the mapping of these phosphorylation sites of the CTD in a heptad&#x02010;specific manner (Sch&#x000fc;ller <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0043" ref-type="ref">2016</xref>; Suh <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0047" ref-type="ref">2016</xref>). Both studies indicate that Ser5P and Ser2P are the major modifications; however, other phosphorylation sites are clearly also functionally important (Egloff <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0012" ref-type="ref">2007</xref>; Hsin <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0020" ref-type="ref">2011</xref>; Mayer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0030" ref-type="ref">2012</xref>; Rosonina <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0040" ref-type="ref">2014</xref>). The RNAPII CTD shows dynamic changes in PTMs as the polymerase traverses protein&#x02010;coding genes in yeast (see, e.g., Mayer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0029" ref-type="ref">2010</xref>), which can be detected using a set of antibodies that each recognize a specific phosphorylation (reviewed in Eick &#x00026; Geyer, <xref rid="msb166869-bib-0013" ref-type="ref">2013</xref>; Heidemann <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0017" ref-type="ref">2013</xref>). Such antibodies have been used to assess the distribution of the different modifications across individual transcription units in ChIP analyses, or across many transcription units in ChIP&#x02010;Seq. These analyses have been highly informative and have played important roles in our current understanding of eukaryotic gene expression. However, ChIP and ChIP&#x02010;Seq map RNAPII by formaldehyde crosslinking in sonicated chromatin, so the transcribed strand cannot be identified and spatial resolution is limited by the fragment sizes&#x02014;typically around 200&#x02013;300 nt. In contrast, recent analyses of RNA&#x02010;binding proteins have used UV crosslinking and sequence small RNA fragments, giving a high degree of spatial resolution (reviewed in Darnell, <xref rid="msb166869-bib-0009" ref-type="ref">2010</xref>). Here, we have applied <italic>in&#x000a0;vivo</italic> UV <underline underline-style="single">cr</underline>osslinking and <underline underline-style="single">a</underline>nalysis of <underline underline-style="single">c</underline>DNA (CRAC) (Granneman <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0015" ref-type="ref">2009</xref>) to generate a high&#x02010;resolution, strand&#x02010;specific map of the location of transcribing RNAPII relative to the nascent transcript. We also incorporated an additional immunoprecipitation step to separate modified forms of RNAPII (modification CRAC; mCRAC) and map these across the transcriptome. A related approach was recently reported to identify the locations of Ser5P&#x02010; and Ser2P&#x02010;modified RNAPII in human cells (Nojima <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0035" ref-type="ref">2015</xref>).</p><p>Extracting biological insights from large and complex transcriptomic or genomic datasets remain challenging. To address this problem, modeling approaches can help identify significant common features across genes and between gene classes in metagene analyses based on sequence analyses. We have therefore used machine learning and probabilistic modeling to segment the genome using a hidden Markov model (HMM). The HMM explains the mCRAC data by postulating an underlying, finite set of hidden RNAPII states, each characterized by a noisy signature of PTM log&#x02010;enrichments (emissions). RNAPII can transition between different states stochastically; however, the model assumptions enforce spatial coherence in the state distribution, effectively yielding a partitioning of the genome according to different HMM states. See Eddy (<xref rid="msb166869-bib-0011" ref-type="ref">2004</xref>) for an accessible overview of the use of HMMs to analyze biological data. HMMs have recently been used to define features of yeast transcription units and the transcription initiation&#x02013;elongation transition (de&#x000a0;Boer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0003" ref-type="ref">2014</xref>; Zacher <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0059" ref-type="ref">2014</xref>).</p><p>Like other eukaryotes, yeast transcribes large numbers of ncRNAs. These include the cryptic unstable transcripts (CUTs), which are normally very rapidly degraded (Wyers <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0057" ref-type="ref">2005</xref>), and the stable untranslated transcripts (SUTs) a class of generally nuclear retained, but more stable ncRNAs (Xu <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0058" ref-type="ref">2009</xref>). CUTs are strongly stabilized by mutations in the exosome nuclease complex, the Trf4/5&#x02010;Air1/2&#x02010;Mtr4 (TRAMP) nuclear polyadenylase complex, a major exosome cofactor, or the Nrd1 and Nab3 components of the Nrd1/Nab3/Sen1 (NNS) complex that terminates transcription and targets the nascent transcript to TRAMP and the exosome (Arigo <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0002" ref-type="ref">2006</xref>; Heo <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0018" ref-type="ref">2013</xref>; Schulz <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0044" ref-type="ref">2013</xref>; Tudek <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0052" ref-type="ref">2014</xref>; Webb <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0054" ref-type="ref">2014</xref>; Fasken <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0014" ref-type="ref">2015</xref>). These observations strongly support the model that CUTs are transcriptionally terminated by NNS, with the released transcripts being targeted to the TRAMP/exosome complex for rapid degradation. The NNS complex can associate with Ser5 phosphorylated RNAPII CTD via Nrd1 (Vasiljeva <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0053" ref-type="ref">2008</xref>) and with the histone H3, lysine 4 trimethylation (H3K4me3) present on the promoter&#x02010;proximal nucleosome(s) (Terzi <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0049" ref-type="ref">2011</xref>), and Nab3 can also directly recruit the Rrp6 component of the exosome (Fasken <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0014" ref-type="ref">2015</xref>). However, features that discriminate between mRNAs and ncRNA transcripts to confer their different fates are not fully understood. Consensus <italic>in&#x000a0;vitro</italic> binding sites for Nrd1 and Nab3 are depleted in protein&#x02010;coding genes relative to the total genome or ncRNAs (Schulz <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0044" ref-type="ref">2013</xref>). However, while Nrd1 and Nab3 show a strong 5&#x02032; bias, they also bind throughout protein&#x02010;coding genes (Webb <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0054" ref-type="ref">2014</xref>) and individual <italic>in&#x000a0;vivo</italic> Nrd1 and Nab3 binding sites frequently lack these motifs (Jamonnak <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0023" ref-type="ref">2011</xref>; Wlotzka <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0056" ref-type="ref">2011</xref>), indicating that these are not the sole determinants of NNS function <italic>in&#x000a0;vivo</italic>.</p><p>Systematic analyses revealed that the pre&#x02010;mRNA&#x02010;binding proteins Hrp1 and Nab2 have dual roles, promoting both pre&#x02010;mRNA cleavage and polyadenylation, and degradation of CUT ncRNAs (Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). Surprisingly, on protein&#x02010;coding transcripts, Hrp1 and Nab2 were most abundant close to the transcription start site, and this was also found to be the case for the nuclear surveillance factor Mtr4. These observations suggested that short ncRNAs might be generated from the 5&#x02032; regions of many or all protein&#x02010;coding genes in yeast.</p><p>Here, we report that the combination of high&#x02010;resolution, strand&#x02010;specific mapping of RNAPII phosphorylation states across the transcriptome with an HMM allowed the segmentation of the genome based on RNAPII state changes. This segmentation can readily be compared to any other feature for which genome&#x02010;wide data exist. We use this approach to reveal systematic differences between RNAPII on intron&#x02010;containing and intronless transcripts, and between mRNAs and lncRNAs. We propose that close to the transcription start site (TSS) RNAPII is normally &#x0201c;surveillance ready&#x0201d;. The early post&#x02010;initiation state for RNAPII transcripts is prone to termination, with degradation of the released transcript. On genes encoding unstable CUT ncRNAs, RNAPII remains in this state. We postulate that, in consequence, the surveillance system does not need to specifically identify thousands of different ncRNA species.</p></sec><sec id="msb166869-sec-0002"><title>Results</title><sec id="msb166869-sec-0003"><title>Rpo21 CRAC recovers nascent RNAPII transcripts</title><p>To assess the distribution of total RNAPII along the yeast genome, we applied CRAC to Rpo21, the large subunit of the RNAPII complex. HTP&#x02010;tagged Rpo21 was expressed from the endogenous locus with a His6&#x02010;TEV&#x02010;protein A tag (Rpo21&#x02010;HTP, Fig&#x000a0;<xref rid="msb166869-fig-0001ev" ref-type="fig">EV1</xref>). Rpo21&#x02010;HTP was the only source of Rpo21 and growth of the resulting strains was indistinguishable from the parental wild type (BY4741), indicating that the tagged construct is functional. Rpo21 was crosslinked to RNA by UV irradiation at 254&#x000a0;nm for 1&#x000a0;min in actively growing cells and purified using a multistep, tandem&#x02010;affinity protocol, followed by gel purification (Figs&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>A and <xref rid="msb166869-fig-0001ev" ref-type="fig">EV1</xref>). The protocol includes two highly denaturing steps (incubation and nickel column binding in 4&#x000a0;M guanidinium&#x02013;HCl and SDS gel electrophoresis) ensuring very high enrichment for covalently associated RNAs. RNA fragments crosslinked to Rpo21 were amplified and sequenced, yielding 1.5&#x000a0;million unique reads that could be mapped to the genome. After quality filtering and removal of PCR duplicates, more than 90% of these sequences were mapped to genes transcribed by RNAPII, including mRNAs, several lncRNAs classes (CUTs, SUTs, NUTs, XUTs, and antisense transcripts), small nucleolar RNAs (snoRNAs), and small nuclear RNAs (snRNAs), indicating specific recovery of RNAPII transcripts (Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>B).</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb166869-fig-0001ev" orientation="portrait" position="float"><label>Figure EV1</label><caption><title>Rpo21 crosslinking and purification during mCRAC</title><p>The schematic indicates the major steps in the mCRAC protocol. The inset gel shows two replicates of the gel purification of Rpo21, with antibodies against the modifications indicated or a no antibody control (NAb), visualized by autoradiography of the 5&#x02032; [<sup>32</sup>P] labeled, crosslinked RNA.</p></caption><graphic id="nlm-graphic-5" xlink:href="MSB-12-874-g003"/></fig><fig fig-type="Figure" xml:lang="en" id="msb166869-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><title>RNAPII can be mapped with high&#x02010;resolution using CRAC</title><p>
+<list list-type="alpha-upper" id="msb166869-list-0003"><list-item><p>Outline of the mCRAC protocol. See Fig&#x000a0;<xref rid="msb166869-fig-0001ev" ref-type="fig">EV1</xref> for further details. In all figures, the analyses used <italic>S.&#x000a0;cerevisiae</italic> strains derived from BY4741.</p></list-item><list-item><p>Distribution of RNAPII reads across transcript classes determined by CRAC analyses of Rpo21&#x02010;HTP.</p></list-item><list-item><p>Distribution of RNAPII across protein&#x02010;coding genes in the sense and antisense orientations. In the upper panel, the vertical line indicates the TSS. The curved line indicates the location of the poly(A). All protein&#x02010;coding genes are shown in the sense orientation, ordered with the shortest ORF at the top. The lower panel shows reads that are antisense to the same regions.</p></list-item><list-item><p>Ratio of spliced to unspliced RNAs in RNAPII&#x02010;bound RNAs, calculated as the ratio of sequences spanning exon&#x02013;exon (spliced) relative to intron&#x02013;exon (unspliced) junctions.</p></list-item><list-item><p>Peaks in RNAPII binding correlate with nucleosome positions. The zero point (solid vertical line) is the mapped positions of nucleosome 5&#x02032; boundaries (Jiang &#x00026; Pugh, <xref rid="msb166869-bib-0025" ref-type="ref">2009</xref>) across all protein&#x02010;coding genes. The red line shows the overall RNAPII density with respect to each nucleosome boundary. Dashed lines show locations RNAPII maxima, which show an apparent 150 nt periodicity.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-7" xlink:href="MSB-12-874-g002"/></fig><p>Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>C shows the RNAPII binding profile on all protein&#x02010;coding genes, aligned by the transcription start site (TSS) and arranged by transcript length. Robust RNAPII binding was found on the majority of mRNAs, suggesting that most mRNAs are expressed and detected by CRAC. This analysis showed that high signals on the sense strand were not accompanied by antisense signals, confirming the strand specificity of the CRAC technique. The distribution of RNAPII across selected individual genes is shown in <xref rid="msb166869-sup-0005" ref-type="supplementary-material">Dataset EV1</xref>. Inspection of the total RNAPII signals on the plus and minus strands in panels A&#x02013;C shows the high strand specificity of the CRAC data. <xref rid="msb166869-sup-0005" ref-type="supplementary-material">Dataset EV1D</xref> shows the <italic>PHO84</italic> gene, which has a well&#x02010;characterized, functionally important antisense transcript (Camblong <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0005" ref-type="ref">2007</xref>). Sense transcription and antisense transcription are clearly resolved in the CRAC data, but would be conflated in ChIP analyses.</p><p>Pre&#x02010;mRNA splicing in yeast is very rapid and largely takes place on the nascent transcript (Moehle <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0033" ref-type="ref">2014</xref>). To calculate relative abundances of spliced and unspliced reads, we mapped the reads to a database containing all known splice junctions in mRNA sequences. The proportion of spliced to unspliced reads was calculated as (2&#x000a0;&#x000d7;&#x000a0;ExEx)/(ExI+IEx), where ExEx is the number of reads spanning exon&#x02013;exon junctions, ExI is the number of reads spanning exon&#x02013;intron junctions (5&#x02032; splice sites), and IEx is the number of reads spanning intron&#x02013;exon junctions (3&#x02032; splice sites). Pre&#x02010;mRNAs (ExI+IEx reads) were strongly enriched relative to mature RNAs (ExEx reads), consistent with the recovery of <italic>bona fide</italic> RNAPII&#x02010;associated, nascent transcripts (Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>D).</p><p>We noted that the RNAPII distribution was frequently uneven along individual genes. It seemed possible that this reflected changes in RNAPII elongation rates in response to the presence of nucleosomes on the DNA template. The density of RNAPII crosslinking across all protein&#x02010;coding genes was therefore mapped with respect to nucleosome boundaries (Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>E). A striking pattern f RNAPII hit density was observed, with strong 150 nt periodicity. Nucleosome arrays are formed on most yeast genes (Jiang &#x00026; Pugh, <xref rid="msb166869-bib-0025" ref-type="ref">2009</xref>; Weiner <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0055" ref-type="ref">2010</xref>), and the distribution of RNAPII peaks matches the nucleosome spacing. The locations of nucleosomes on individual genes are shown in <xref rid="msb166869-sup-0005" ref-type="supplementary-material">Dataset&#x000a0;EV1</xref>.</p><p>These data would be consistent with the model that nucleosomes remain associated with the DNA during transcription, with RNAPII moving more slowly through the center of the nucleosome&#x02010;bound DNA region than the outside and spacers. Similar conclusions were drawn from the analysis of RNAPII pause sites determined by NET&#x02010;seq analysis (Churchman &#x00026; Weissman, <xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>).</p><p>The RNAPII signal dropped sharply in the 3&#x02032; untranslated regions (3&#x02032; UTRs) of protein&#x02010;coding genes. The principal drop in RNAPII density was centered around the translation stop codon (Fig&#x000a0;<xref rid="msb166869-fig-0002ev" ref-type="fig">EV2</xref>), which in yeast is generally located approximately 50&#x02013;100 nt upstream of the principal polyadenylation p(A) sites, indicated by the distribution of the poly(A)&#x02010;binding protein (Pab1) in Fig&#x000a0;<xref rid="msb166869-fig-0002ev" ref-type="fig">EV2</xref>.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb166869-fig-0002ev" orientation="portrait" position="float"><label>Figure EV2</label><caption><title>Distribution of RNAPII with respect to gene features</title><p>RNAPII signals drop around the position of the translation termination codon. The graphs show the site of the termination codon as 0 plus 500 nt flanking regions. The density of crosslinking over all protein&#x02010;coding genes is shown for Rpo21 (total RNAPII), as well as the poly(A)&#x02010;binding protein Pab1 and the cytoplasmic degradation factor Xrn1 (data from Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). The frequency of polyadenylation signals, AWTAAA and TATATA, are also indicated. Nucleosome distribution: The curve shows the fraction of transcripts where a nucleosome matches the corresponding position.</p></caption><graphic id="nlm-graphic-9" xlink:href="MSB-12-874-g005"/></fig><p>Motif analysis upstream of the poly(A) showed strong enrichment for the canonical polyadenylation signal AWUAAA and the binding site for the polyadenylation factor Hrp1 (Nab4), AUAUAU (Fig&#x000a0;<xref rid="msb166869-fig-0002ev" ref-type="fig">EV2</xref>) (Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). Similar reduced RNAPII occupancy is visible in NET&#x02010;Seq data (see figures 2 and 6 in Nojima <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0035" ref-type="ref">2015</xref>) and is consistent with the formation of a distinct Pol II elongation complex close to the termination site (see below and Mayer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0029" ref-type="ref">2010</xref>). Nucleosome analysis (Fig&#x000a0;<xref rid="msb166869-fig-0002ev" ref-type="fig">EV2</xref>) (Jiang &#x00026; Pugh, <xref rid="msb166869-bib-0025" ref-type="ref">2009</xref>; Weiner <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0055" ref-type="ref">2010</xref>) showed a peak of nucleosome occupancy immediately upstream of the stop codon, but the significance of this is unclear. In ChIP analyses, increased RNAPII density was observed at the 3&#x02032; ends of mRNAs. However, Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>C shows that antisense ncRNA transcripts are detected in the 3&#x02032; regions of many protein&#x02010;coding genes, which will contribute to RNAPII ChIP signals.</p></sec><sec id="msb166869-sec-0004"><title>The 5&#x02032; region of protein&#x02010;coding genes shows high occupancy by RNAPII and surveillance factors</title><p>Analysis of the distribution of RNAPII across protein&#x02010;coding genes (Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>C) indicated systematically higher levels close to the TSS, as previously observed in NET&#x02010;seq analyses in yeast and human cells (Churchman &#x00026; Weissman, <xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>; Mayer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0031" ref-type="ref">2015</xref>; Nojima <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0035" ref-type="ref">2015</xref>). Filtering the genes for transcripts longer than 500 nt in length confirmed that the RNAPII signal is indeed elevated close to the TSS (Fig&#x000a0;<xref rid="msb166869-fig-0002" ref-type="fig">2</xref>A). Previous analyses showed that the RNA&#x02010;binding proteins Hrp1 and Nab2 have dual functions in promoting mRNA 3&#x02032; end formation and transcription termination, and destabilizing CUT ncRNAs (Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). Notably, the distribution of Hrp1 and Nab2, as well as the nuclear surveillance factor Mtr4, was heavily skewed toward the TSS (Fig&#x000a0;<xref rid="msb166869-fig-0002" ref-type="fig">2</xref>), suggesting the possibility that many protein&#x02010;coding genes generate short, truncated ncRNAs in addition to the full&#x02010;length mRNA. CUTs and other rapidly degraded nuclear RNAs are stabilized by loss of the exosome nuclease complex, or its cofactors the TRAMP polyadenylation complex and the NNS transcription termination/surveillance complex. To assess whether binding of the nuclear surveillance system is generally enriched close to the TSS, we compared the distribution of the catalytic components of the nuclear exosome, Rrp6 and Rrp44, as well as its major nuclear cofactors, the TRAMP complex components Trf4 and Air2 (this work), and the NNS transcription termination complex component Nab3 (Holmes <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0019" ref-type="ref">2015</xref>). Strikingly each of these major nuclear RNA surveillance factors showed a strong 5&#x02032;&#x000a0;bias in pre&#x02010;mRNA association, with peak binding within ~150 nt from the TSS (Fig&#x000a0;<xref rid="msb166869-fig-0002" ref-type="fig">2</xref>B&#x02013;F). The major RNA export factor Mex67 binds newly synthesized nuclear pre&#x02010;mRNAs but is dissociated immediately following nuclear export (Segref <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0045" ref-type="ref">1997</xref>; Lund &#x00026; Guthrie, <xref rid="msb166869-bib-0028" ref-type="ref">2005</xref>), and is depleted from ncRNAs relative to mRNAs (Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). The distribution of Mex67 was strikingly different from the surveillance factors, showing strong depletion close to the TSS (Fig&#x000a0;<xref rid="msb166869-fig-0002" ref-type="fig">2</xref>G) (Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). These observations are consistent with a substantial degree of transcription termination in the promoter&#x02010;proximal region of protein&#x02010;coding genes and, indeed, the 3&#x02032; ends of these RNAs can be observed in published RNAseq data (Fig&#x000a0;<xref rid="msb166869-fig-0002" ref-type="fig">2</xref>H) (Neil <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0034" ref-type="ref">2009</xref>).</p><fig fig-type="Figure" xml:lang="en" id="msb166869-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><title>Binding by RNA surveillance and degradation factors is strongly enriched close to the TSS on protein&#x02010;coding genes</title><p>
+<list list-type="simple" id="msb166869-list-0004"><list-item><label>A&#x02013;J</label><p>Each panel shows the hit density, normalized to the maximal binding value across all mRNA genes longer than 500 nt inside each individual experiment. The two lines in each panel represent results from independent CRAC experiments. The TSS&#x02010;proximal 150 nt region is shaded. (A) Rpo21 (RNAPII); (B) Rrp44; (C) Rrp6; (D) Trf4; (E) Air2; (F) Nab3; (G) Mex67; (H) Distribution of the 3&#x02032; ends of short, promoter&#x02010;proximal, sense&#x02010;orientated ncRNA transcripts (S CUTs); (I) Nab2; (J) Hrp1. Sequence data source: (A&#x02010;E) (this work), (F) (Holmes <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0019" ref-type="ref">2015</xref>). (G, I, J) (Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>), (H) (Neil <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0034" ref-type="ref">2009</xref>). </p></list-item></list>
+</p></caption><graphic id="nlm-graphic-11" xlink:href="MSB-12-874-g004"/></fig></sec><sec id="msb166869-sec-0005"><title>RNAPII shows distinct features close to the TSS and pA site</title><p>To examine transcriptome&#x02010;wide profiles of RNAPII phosphorylation, we included an additional immunoprecipitation step in the mCRAC procedure (Figs&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>A and <xref rid="msb166869-fig-0001ev" ref-type="fig">EV1</xref>), which allowed us to map the distribution of Tyr1P, Ser2P, Thr4P, Ser5P, or Ser7P phosphorylation in the CTD of RNAPII (Figs&#x000a0;<xref rid="msb166869-fig-0003" ref-type="fig">3</xref>A and <xref rid="msb166869-fig-0003ev" ref-type="fig">EV3</xref>). To account for unequal Pol II distribution along the genome, phosphorylation enrichment was quantified as log2 (phosphorylated Pol II/total Pol II) (see <xref rid="msb166869-sec-0011" ref-type="sec">Materials and Methods</xref>). Phosphorylation profiles were remarkably similar among mRNA genes and were independent of gene length (Figs&#x000a0;<xref rid="msb166869-fig-0003" ref-type="fig">3</xref>A and B, and <xref rid="msb166869-fig-0003ev" ref-type="fig">EV3</xref>). Genome&#x02010;wide locations of Tyr1P, Ser2P, Thr4P, and Ser7P enrichment were strongly correlated with each other and anticorrelated with Ser5P. Ser5P was enriched near mRNA 5&#x02032; ends, as expected, but sharply declined further 3&#x02032;. In contrast, Tyr1p, Ser2P, Thr4P, and Ser7P were all strongly depleted near the 5&#x02032; end. Tyr1P and Ser2P were depleted in a narrow window of 0&#x02013;150 nt downstream from the TSS, whereas Thr4P and Ser7P were depleted in a relatively broader area (0&#x02013;300 nt from TSS), suggesting that these CTD phosphorylations might be placed in an ordered fashion during transcription.</p><fig fig-type="Figure" xml:lang="en" id="msb166869-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><title>Profiles of RNAPII phosphorylation on mRNA and ncRNA genes can be generated using mCRAC</title><p>
+<list list-type="alpha-upper" id="msb166869-list-0005"><list-item><p>Distribution of RNAPII phosphorylation across protein&#x02010;coding genes aligned at the TSS, as in Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>C as determined by mCRAC analyses on Rpo21&#x02010;HTP. Red color indicates depletion, and green color indicates enrichment of phosphorylation relative to total RNAPII.</p></list-item><list-item><p>As panel (A) but with genes aligned at the polyadenylation site.</p></list-item><list-item><p>Metagene analysis of RNAPII phosphorylation enrichment relative to the 5,000 strongest RNAPII pause sites in mRNA genes, identified by NET&#x02010;Seq (Churchman &#x00026; Weissman, <xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>).</p></list-item><list-item><p>Metagene analysis of RNAPII phosphorylation enrichment relative to transcription start sites, calculated for all mRNA genes. The TSS&#x02010;proximal 150 nt region, where Ser5P is enriched and Ser2P and Tyr1P are depleted, is indicated with a dashed line.</p></list-item><list-item><p>Metagene analysis of RNAPII phosphorylation on CUTs as for (D).</p></list-item><list-item><p>Metagene analysis of RNAPII phosphorylation on SUTs as for (D).</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-13" xlink:href="MSB-12-874-g006"/></fig><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb166869-fig-0003ev" orientation="portrait" position="float"><label>Figure EV3</label><caption><title>Distribution of RNAPII phosphorylation across mRNAs and non&#x02010;coding RNA genes</title><p>Distribution of RNAPII phosphorylation as in Fig&#x000a0;<xref rid="msb166869-fig-0003" ref-type="fig">3</xref>A, across all protein&#x02010;coding genes, compared to the SUT, CUT, and snoRNA classes of ncRNA. Red color indicates depletion, and green color indicates enrichment of phosphorylation relative to total RNAPII. The graph below each panel shows a metagene analysis of RNAPII phosphorylation enrichment for all genes in each class.</p></caption><graphic id="nlm-graphic-15" xlink:href="MSB-12-874-g007"/></fig><p>Alignment of the RNAPII modification profiles by the pA sites gave a different result, with strong depletion of all modification immediately upstream of the pA site (Fig&#x000a0;<xref rid="msb166869-fig-0003" ref-type="fig">3</xref>B). Dephosphorylation of Tyr1 by Glc7 was previously shown to be important for mRNA 3&#x02032;&#x000a0;end formation (Schreieck <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0042" ref-type="ref">2014</xref>), but these findings indicate that other residues are also dephosphorylated in this region. We speculate that this is related to the reduced occupancy observed for total RNAPII in this region in CRAC and NETseq analyses (Fig&#x000a0;<xref rid="msb166869-fig-0002ev" ref-type="fig">EV2</xref>; Churchman &#x00026; Weissman, <xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>; Mayer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0031" ref-type="ref">2015</xref>; Nojima <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0035" ref-type="ref">2015</xref>).</p><p>Sites of interaction of the transcribing polymerase with the nascent transcript were previously mapped by sequencing of protected fragments (NET&#x02010;seq) in yeast (Churchman &#x00026; Weissman, <xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>) and human cells (Nojima <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0035" ref-type="ref">2015</xref>). The major NET&#x02010;seq products in yeast were reported to represent sites of RNAPII transcription pausing. To assess the relationship between RNAPII modification patterns and transcriptional pausing, we aligned the strongest reported pause sites over all protein&#x02010;coding genes with enrichment for the different RNAPII modifications. Notably higher levels of Ser5 phosphorylation were seen immediately 5&#x02032; to the pause site compared to the 3&#x02032; flanking region. In contrast, maxima for Tyr1, Ser2, Thr4, and Ser7 phosphorylation were located 3&#x02032; to the pause sites (Fig&#x000a0;<xref rid="msb166869-fig-0003" ref-type="fig">3</xref>C).</p><p>In analyzing the distribution of the different modified forms of RNAPII, we expressed the relative abundance at each position as a fraction of the total RNAPII signal. This is important because the absolute amount of RNAPII varies strongly across the genes. Without this normalization, the 5&#x02032; enrichment of RNAPII signal skews the apparent distribution of the modifications. Notably, the Ser7P depletion near the 5&#x02032; end of mRNAs we observed is not in agreement with prior observations of 5&#x02032; proximal enrichment of Ser7P (Mayer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0029" ref-type="ref">2010</xref>); however, in this analysis Ser7P enrichment was calculated relative to input DNA, whereas we calculated enrichment relative to the total RNAPII signal. In another study (Kim <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0200" ref-type="ref">2010</xref>), where enrichment was calculated relative to total RNAPII, the authors noted that CTD Ser7P differs from Ser5P with the Ser5 5&#x02032;peak relatively constant, whereas the profiles of Ser7P were variable over different genes consistent with our data.</p><p>A comparison of the unstable CUT class of lncRNAs with mRNAs revealed systematic differences in their RNAPII phosphorylation profiles. Both classes of transcripts had similar patterns of phosphorylation near their 5&#x02032; ends, but CUTs lacked the enrichment of Ser2P, Thr4P, and Ser7P seen in the middle, and toward the 3&#x02032; end, of most mRNAs (Figs&#x000a0;<xref rid="msb166869-fig-0003" ref-type="fig">3</xref>D&#x02013;F and <xref rid="msb166869-fig-0004ev" ref-type="fig">EV4</xref>). As a result, CUTs show a global depletion of Ser2P, Ser7P, and most significantly, Thr4P. Analysis of the initial 500 nt of mRNAs, CUTs, and SUTs that are greater than 500 nt in length (Fig&#x000a0;<xref rid="msb166869-fig-0004ev" ref-type="fig">EV4</xref>B) confirmed that depletion of the phosphorylation states associated with productive elongation is not due to the shorter length of CUTs. The more stable SUT class of ncRNA showed an intermediate pattern of modification (Fig&#x000a0;<xref rid="msb166869-fig-0003" ref-type="fig">3</xref>F). Statistical analyses (Fig&#x000a0;<xref rid="msb166869-fig-0004ev" ref-type="fig">EV4</xref>) confirmed that differences in modification patterns between mRNAs, CUTs, and SUTs are significant (Wilcoxon test with Bonferroni correction, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.01 indicated by lines above the boxes on the boxplot) when compared over the entire transcripts (Fig&#x000a0;<xref rid="msb166869-fig-0004ev" ref-type="fig">EV4</xref>A) or over the first 500 nt of transcripts greater than 500 nt in length (Fig&#x000a0;<xref rid="msb166869-fig-0004ev" ref-type="fig">EV4</xref>B). Details of the analysis are listed in <xref rid="msb166869-sup-0002" ref-type="supplementary-material">Table&#x000a0;EV1</xref>.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb166869-fig-0004ev" orientation="portrait" position="float"><label>Figure EV4</label><caption><title>Comparison of distributions of phosphorylation enrichment between different transcript classes</title><p>
+<list list-type="alpha-upper" id="msb166869-list-0008"><list-item><p>Distributions of phosphorylation enrichment on individual mRNAs, CUTs, and SUTs. The boxes show the median and interquartile range of phosphorylation enrichment scores for mRNAs (<italic>N</italic>&#x000a0;=&#x000a0;5,171), CUTs (<italic>N</italic>&#x000a0;=&#x000a0;925), and SUTs (<italic>N</italic>&#x000a0;=&#x000a0;847).</p></list-item><list-item><p>Distributions of phosphorylation enrichment in the first 500 nt of mRNAs, CUTs, and SUTs. Only genes with length greater than 500 nt were analyzed. The boxes show the median and interquartile range of phosphorylation enrichment scores for mRNAs (<italic>N</italic>&#x000a0;=&#x000a0;5,040), CUTs (<italic>N</italic>&#x000a0;=&#x000a0;294), and SUTs (<italic>N</italic>&#x000a0;=&#x000a0;563).</p></list-item></list>Data information: The whiskers indicate 1.5 times the interquartile range, and the asterisks indicate statistical significance (<italic>P</italic> &#x0003c; 0.01, Wilcoxon test with Bonferroni correction, <italic>N</italic>&#x000a0;=&#x000a0;30).</p></caption><graphic id="nlm-graphic-17" xlink:href="MSB-12-874-g009"/></fig></sec><sec id="msb166869-sec-0006"><title>Generation of a hidden Markov model for RNAPII phosphorylation states</title><p>The mCRAC analyses generated high&#x02010;resolution data for five different RNAPII modifications across thousands of transcription units from several different classes of RNA. To facilitate the extraction of biological insights from these complex data, we developed an eight&#x02010;state, strand&#x02010;specific hidden Markov model (HMM) that integrates the information from all RNAPII phosphorylation datasets. The model allowed us to partition each strand of the genome into segments characterized by recurrent patterns of RNAPII phosphorylation (Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>).</p><fig fig-type="Figure" xml:lang="en" id="msb166869-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><title>HMM analyses of phosphorylation state distributions</title><p>
+<list list-type="simple" id="msb166869-list-0006"><list-item><label>A</label><p>Metagene analysis of frequency distribution for each state on all protein&#x02010;coding genes. See expanded view for analyses of replicate datasets and statistical analyses.</p></list-item><list-item><label>B</label><p>Genome browser views showing the distribution of the 8 states in the HMM over an unspliced gene (<italic>LCP5</italic>) and a spliced gene (<italic>RPS0B</italic>).</p></list-item><list-item><label>C</label><p>Learned emission matrix of the 8&#x02010;state HMM. Each row shows the average log&#x02010;enrichment levels of the different phosphorylated forms of Rpo21 over total RNAPII in one of the states.</p></list-item><list-item><label>D</label><p>Comparison of the locations of the 3&#x02032; end of initiation state I1 with the 3&#x02032; boundary of nucleosome 1.</p></list-item><list-item><label>E</label><p>Comparison of the locations of the 5&#x02032; end of early elongation state EE with the 5&#x02032; boundary of nucleosome 2.</p></list-item><list-item><label>F&#x02013;H</label><p>The presence of an intron is associated with displacement of phosphorylation state boundaries. The graphs show state fold enrichment for each state over protein&#x02010;coding genes lacking an intron (F), containing short exon 1 (&#x0003c;&#x000a0;100 nt) regions (G) or long (&#x0003e;&#x000a0;100 nt) exon 1 regions (H). For each panel, the length of each gene has been divided into ten bins to allow the combination of genes with different lengths. T, Transcript; E1, Exon 1; I, Intron; E2, Exon 2. Intron&#x02010;containing genes in yeast are generally highly expressed, and the top quartile of intronless genes was therefore taken for comparison.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-19" xlink:href="MSB-12-874-g008"/></fig><p>The HMM has only one parameter, the number <italic>K</italic> of possible states, whose value has to be selected <italic>a priori</italic>. We tried different values of <italic>K</italic> (from 3 to 15 states) and each time evaluated the data fit using the mean squared error (MSE) (see <xref rid="msb166869-sec-0011" ref-type="sec">Materials and Methods</xref>). The MSE typically decreases as <italic>K</italic> increases, as more complex models allow a better fit to the data. In this case there were inflection points at 6, 8, and 10 states (Fig&#x000a0;<xref rid="msb166869-fig-0005ev" ref-type="fig">EV5</xref>A). Analyses of models with 6, 8, or 10 gave qualitatively similar results (see below). We chose to perform most analyses using the HMM with 8 states, as it gave a good tradeoff between model fit and cost in terms of extra parameters to estimate. To interpret the segmentation returned by the HMM, we analyzed the profiles of states along mRNA transcripts.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb166869-fig-0005ev" orientation="portrait" position="float"><label>Figure EV5</label><caption><title>HMM transition matrix, reproducibility of results, and state enrichment analysis</title><p>
+<list list-type="alpha-upper" id="msb166869-list-0009"><list-item><p>Plot showing the mean squared error with respect to the number of states in the HMM.</p></list-item><list-item><p>Learned state transition matrix for 8&#x02010;state HMM. Each entry (i,j) of the matrix shows the probability of transitioning from hidden state i to j at any position along the genome.</p></list-item><list-item><p>State distributions across first quartile of protein&#x02010;coding genes from two independent mCRAC analyses.</p></list-item><list-item><p>State distributions across first quartile of protein coding relative to the positions of nucleosomes 1&#x02013;5 (N1&#x02013;N5) on these genes.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-21" xlink:href="MSB-12-874-g011"/></fig><p>A metagene analysis of the 8&#x02010;state model revealed two initiation states (I1 and I2), an early elongation state (EE), three mid&#x02010;/late elongation states (E1, E2, E3), a low phosphorylation state (L) enriched toward both ends of protein&#x02010;coding genes, and a &#x0201c;noise&#x0201d; state (N), which was usually associated with non&#x02010;transcribed regions of chromosomes (Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>A and B). These states showed a clear overall progression from I1 =&#x0003e;&#x000a0;EE =&#x0003e;&#x000a0;E1 on many genes (Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>A). The &#x0201c;emission matrix&#x0201d; showing the distribution of predicted phosphorylation patterns for each state is shown in Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>C. As expected, initiation states were characterized by intermediate (I1) to high (I2) levels of Ser5P and low levels of Ser2P and Thr4P. Consistent with our analysis of phosphorylation profiles, the early elongation state featured low Ser5P and Thr4P, with high Tyr1P, Ser2P, and Ser7P, whereas mid&#x02010;/late elongation states had low Ser5P, and various combinations of high Tyr1P, Ser2P, Thr4P, and Ser7P. In particular, the major elongation state (E1) was associated with an elevated level of Thr4P. This may be related to the observation that the 5&#x02032; depletion of Thr4P extends further 3&#x02032; than that of Ser2P. In consequence, Thr4P levels increase at the location of state E1 rather than the early elongation state (EE). State L featured low levels of all phosphorylations (particularly Ser5P and Thr4P). Transition sites were strikingly reproducible between two replicate datasets (Fig&#x000a0;<xref rid="msb166869-fig-0005ev" ref-type="fig">EV5</xref>C).</p><p>RNAPII occupancy appeared to be sensitive to the presence of nucleosomes (Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>E). It therefore seemed possible that the locations of state transitions might be influenced by nucleosome positions, which are highly organized on most yeast genes (Jiang &#x00026; Pugh, <xref rid="msb166869-bib-0025" ref-type="ref">2009</xref>). Comparing the locations of the end of the state I1 and the start of state EE to the reported nucleosome boundaries revealed enrichment for state I1 ending at or close to the 3&#x02032; boundary of nucleosome 1 and for state EE commencing at or close to the 5&#x02032; boundary of nucleosome 2 (Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>D and E). Comparison of all state changes with nucleosome boundaries (Fig&#x000a0;<xref rid="msb166869-fig-0005ev" ref-type="fig">EV5</xref>D) confirmed the enrichment of state I1 across the first nucleosome and the enrichment of state EE across nucleosomes 2 and 3. State E1 then increased over subsequent nucleosomes.</p></sec><sec id="msb166869-sec-0007"><title>The presence of an intron is associated with displacement of phosphorylation state boundaries</title><p>Pre&#x02010;mRNA splicing has been reported to influence RNAPII phosphorylation in yeast (Alexander <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0001" ref-type="ref">2010</xref>; Chathoth <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0006" ref-type="ref">2014</xref>) and we therefore compared phosphorylation state boundaries in protein&#x02010;coding genes lacking an intron (Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>F) with short exon 1 (&#x0003c;&#x000a0;100 nt) regions (Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>G) or with long (&#x0003e;&#x000a0;100 nt) exon 1 regions (Fig&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>H). In Figs&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>, <xref rid="msb166869-fig-0005ev" ref-type="fig">EV5</xref>, and <xref rid="msb166869-fig-0006ev" ref-type="fig">EV6</xref>, the data along each gene have been assigned to ten bins. This allows features to be aligned in genes of different lengths, although at the cost of reduced resolution. On intron&#x02010;containing genes, initiation state I1 extended further 3&#x02032; relative to intronless genes, with a peak around the 5&#x02032; splice site. The elongation states EE and E1 were also displaced further 3&#x02032;, presumably as a consequence of the extended I1 region. Notably, the same major conclusions could be reached from 6&#x02010;state and 10&#x02010;state HMM models (Fig&#x000a0;<xref rid="msb166869-fig-0006ev" ref-type="fig">EV6</xref>). This demonstrates that our conclusions hold independently of the specific implementation of the model. In comparison with the 8&#x02010;state model, the 6&#x02010;state model lacks a distinct early elongation (EE) state, probably because the complexity is too low, whereas the in 10&#x02010;state model two initiation states have approximately equal frequencies.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb166869-fig-0006ev" orientation="portrait" position="float"><label>Figure EV6</label><caption><title>Comparison of the effects of different state numbers in the HMM</title><p>
+<list list-type="simple" id="msb166869-list-0010"><list-item><label>A</label><p>Emission matrices for 6&#x02010;, 8&#x02010;, and 10&#x02010;state HMM models.</p></list-item><list-item><label>B&#x02013;D</label><p>(B) 6&#x02010;state HMM model; (C) 8&#x02010;state HMM model; (D) 10&#x02010;state HMM model. In each panel, the left graph (I) shows the top quartile of protein&#x02010;coding genes, the middle graph&#x000a0;(II) shows spliced genes with short exon 1 regions (&#x0003c;&#x000a0;100 nt) and the right graph&#x000a0;(III) shows spliced genes with long exon 1 regions (&#x0003e;&#x000a0;100 nt). In each model, preferential initiation and elongation states are clearly resolved. In all models, the initiation state is clearly extended further 3&#x02032; on intron&#x02010;containing genes.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-23" xlink:href="MSB-12-874-g013"/></fig><p>Comparison of intron&#x02010;containing and intronless genes that were aligned without binning gave similar results (Fig&#x000a0;<xref rid="msb166869-fig-0007ev" ref-type="fig">EV7</xref>). Alignment by the TSS indicated that the transition from state I1 to states EE and then E1 occurs further 3&#x02032; on spliced genes (Fig&#x000a0;<xref rid="msb166869-fig-0007ev" ref-type="fig">EV7</xref>A and B). Alignment of intron&#x02010;containing genes at the 5&#x02032; splice site (5&#x02032;SS) (Fig&#x000a0;<xref rid="msb166869-fig-0007ev" ref-type="fig">EV7</xref>C) showed that the maximum enrichment of state I1 coincided with the 5&#x02032; end of the intron, with 3&#x02032; displacement of the elongation states EE and E1. We conclude that the presence of an intron leads to changes in the transition sites for RNAPII modification patterns, upstream of the intronic regions. It was recently reported that splicing defects can lead to RNAPII accumulation over the exon 1 regions of endogenous genes (Chathoth <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0006" ref-type="ref">2014</xref>), supporting this model.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb166869-fig-0007ev" orientation="portrait" position="float"><label>Figure EV7</label><caption><title>The presence of an intron is associated with displacement of phosphorylation state boundaries</title><p>
+<list list-type="simple" id="msb166869-list-0011"><list-item><label>A</label><p>Average state probabilities shown individually for each state over protein&#x02010;coding genes lacking an intron (intronless) or with short (&#x0003c;&#x000a0;100 nt) or long (&#x0003e;&#x000a0;100 nt) exon 1 regions, aligned by the transcription start site (TSS).</p></list-item><list-item><label>B, C</label><p>Average state probabilities shown individually for each state over protein&#x02010;coding genes with short (&#x0003c;&#x000a0;100 nt) or long (&#x0003e;&#x000a0;100 nt) exon 1 regions, aligned by 5&#x02032; splice site (5&#x02032;SS; panel B) or 3&#x02032; splice site (3&#x02032;SS; panel C).</p></list-item><list-item><label>D</label><p>Distribution of phosphorylated RNAPII relative to the 3&#x02032; splice site (3&#x02032;SS) in intron&#x02010;containing genes.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-25" xlink:href="MSB-12-874-g014"/></fig><p>Unexpectedly, alignment of pre&#x02010;mRNAs at the 3&#x02032; splice site (3&#x02032;&#x000a0;SS) showed specific depletion of the major elongation state E1 at this position, whereas states E2 and E3 appeared unaffected (Fig&#x000a0;<xref rid="msb166869-fig-0007ev" ref-type="fig">EV7</xref>C and data not shown). This indicates that the 3&#x02032; intron boundary is associated with distinct changes in RNAPII modification and also that the different elongation states are not fully interchangeable. The loss of state E1 at the 3&#x02032;SS prompted us to examine the RNAPII phosphorylation data for these sites (Fig&#x000a0;<xref rid="msb166869-fig-0007ev" ref-type="fig">EV7</xref>D). This confirmed that specific changes in RNAPII phosphorylation are associated with 3&#x02032; splice sites. In particular, Ser7P was elevated at the 3&#x02032;SS, with depletion of Ser2P and Thr4P. The depletion of Thr4P is the main factor in the loss of state E1 at the 3&#x02032;SS. Whether these changes primarily reflect altered rates of phosphorylation or dephosphorylation remains to be determined.</p></sec><sec id="msb166869-sec-0008"><title>State changes are altered on lncRNAs</title><p>We compared the representation of different HMM states on genes encoding mRNAs or the SUT and CUT classes of lncRNA (Fig&#x000a0;<xref rid="msb166869-fig-0005" ref-type="fig">5</xref>A and B). To reduce potential effects of differences in expression levels on RNAPII modification patterns, we took the upper expression quartile of SUTs (211 genes), based on RNAPII crosslinking frequency, and identified sets of protein&#x02010;coding genes (213 genes) and CUTs (211 genes) with matched expression levels. The mRNAs, CUTs, and SUTs showed similar levels of enrichment of the initiation state I1 close to the TSS. However, in comparison with mRNAs, the CUTs, and to a lesser extent SUTs, lack the early elongation state EE and the elongation states, particularly E1, confirming our findings that phosphorylation states associated with elongation were depleted on CUTs relative to length&#x02010;matched mRNAs (Fig&#x000a0;<xref rid="msb166869-fig-0004ev" ref-type="fig">EV4</xref>). We&#x000a0;conclude that on CUTs RNAPII largely fails to transition from the initiation states to the early elongation state EE and elongation states E1, E2, and E3.</p><fig fig-type="Figure" xml:lang="en" id="msb166869-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><title>Metagene HMM analyses of phosphorylation states on protein&#x02010;coding and ncRNA genes</title><p>
+<list list-type="alpha-upper" id="msb166869-list-0007"><list-item><p>Comparison of state frequencies over expression&#x02010;matched protein&#x02010;coding mRNAs, SUTs, and CUTs.</p></list-item><list-item><p>Comparison of state distributions over expression&#x02010;matched protein&#x02010;coding mRNAs and CUTs as in A.</p></list-item><list-item><p>The failure of lncRNAs to exit initiation state I1 is not a consequence of short length. The curves show the positions at which RNAPII exits initiation state I1 (red curve) and enters early elongation state EE (black curve), relative to the lengths of CUTs (green line) and SUTs (blue line).</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-27" xlink:href="MSB-12-874-g010"/></fig><p>On genes encoding CUTs, transcription termination is believed to be mediated by the Nrd1/Nab3/Sen1 (NNS) complex, which is proposed to directly recruit the TRAMP and exosome complexes to degrade or process the newly synthesized RNA (Arigo <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0002" ref-type="ref">2006</xref>; Heo <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0018" ref-type="ref">2013</xref>; Schulz <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0044" ref-type="ref">2013</xref>; Tudek <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0052" ref-type="ref">2014</xref>; Webb <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0054" ref-type="ref">2014</xref>; Fasken <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0014" ref-type="ref">2015</xref>). The CTD&#x02010;interacting domain (CID) of Nrd1 preferentially binds CTD heptads with Ser5P modification <italic>in&#x000a0;vitro</italic> (Vasiljeva <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0053" ref-type="ref">2008</xref>). This led to the proposal that NNS termination and degradation of CUTs reflect their short lengths and the bias toward Ser5P modification close to the transcription initiation site. However, inspection of the data presented here indicates that on most mRNA genes RNAPII transition out of the Ser5P&#x02010;associated initiation states into the early elongation state before reaching the median length of CUTs (377 nt) (Fig&#x000a0;<xref rid="msb166869-fig-0005" ref-type="fig">5</xref>C), whereas these transitions do not generally occur on CUTs. These observations suggest that CUTs are short because RNAPII remains in a termination&#x02010;prone, initiation state, the reverse of the previously proposed causality (Fig&#x000a0;<xref rid="msb166869-fig-0006" ref-type="fig">6</xref>).</p><fig fig-type="Figure" xml:lang="en" id="msb166869-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><title>Model comparing the state transitions on coding and non&#x02010;coding RNA transcripts</title><p>Yeast genes typically have a well&#x02010;ordered nucleosome close to the transcription start site. On both mRNA and ncRNA genes, RNAPII generally in an initiation state (I1 and I2; shown as I1) while traversing the first nucleosome. This state favors recruitment of nuclear RNA surveillance machinery, including the NNS termination complex and the TRAMP&#x02013;exosome degradation system. On mRNAs, RNAPII then transitions into the early elongation state (EE) followed by the major elongation states (E1 to E3; shown as E1). On intron&#x02010;containing mRNAs, the transition from initiation of early elongation states is displaced further 3&#x02032;. On ncRNAs, the initiation state persists and the failure to transition to an elongation states (EE and E1) favors termination and transcript degradation.</p></caption><graphic id="nlm-graphic-29" xlink:href="MSB-12-874-g012"/></fig></sec></sec><sec id="msb166869-sec-0009"><title>Discussion</title><p>We report the development and application of mCRAC for high&#x02010;resolution, strand&#x02010;specific profiling of the five known types of RNAPII phosphorylation across the yeast transcriptome.</p><p>Comparison of RNAPII density over the +&#x000a0;50&#x02013;150 and +&#x000a0;450&#x02013;500 regions (on genes longer than 800 nt) indicated a reduction of 40&#x02013;50% over this interval. Analysis of RNAPII position by the unrelated NET&#x02010;seq protocol also revealed elevated polymerase density in the 5&#x02032; regions of protein&#x02010;coding genes (Churchman &#x00026; Weissman, <xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>), indicating that this enrichment does not reflect differences in crosslinking efficiency. Moreover, high levels of promoter&#x02010;proximal binding was seen for all of the key nuclear RNA surveillance factors tested; the exosome nuclease complex (Rrp44, Rrp6) and its major cofactor, the TRAMP nuclear polyadenylation complex (Trf4, Air2) (this work), as well as the NNS transcription termination and surveillance complex (Nab3), as previously reported (Creamer <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0008" ref-type="ref">2011</xref>; Webb <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0054" ref-type="ref">2014</xref>; Holmes <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0019" ref-type="ref">2015</xref>). Notably, the 3&#x02032; ends of short TSS&#x02010;associated ncRNA transcripts, termed sense CUTs (S CUTs), were previously mapped to the same region (Neil <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0034" ref-type="ref">2009</xref>). In contrast, the mRNA export factor Mex67, which is under&#x02010;represented on ncRNAs relative to mRNAs (Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>), was depleted from the TSS&#x02010;proximal region.</p><p>These data are consistent with the model that short transcripts are generated by early termination, but are targets for rapid degradation by the exosome. In human cells, the generation of short, promoter&#x02010;proximal ncRNAs has also been reported, termed PROMPTs, PASR, TSSa&#x02010;RNAs, or tiRNAs (Kapranov <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0026" ref-type="ref">2007</xref>; Preker <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0037" ref-type="ref">2008</xref>, <xref rid="msb166869-bib-0038" ref-type="ref">2011</xref>; Seila <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0046" ref-type="ref">2008</xref>; Jacquier, <xref rid="msb166869-bib-0022" ref-type="ref">2009</xref>; Taft <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0048" ref-type="ref">2010</xref>). The accumulation of these relatively short ncRNAs is reported to correlate with cancer outcomes, supporting their functional significance (Zovoilis <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0060" ref-type="ref">2014</xref>). The exosome also degrades ncRNAs generated from enhancer regions of human genes (Pefanis <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0036" ref-type="ref">2015</xref>), suggesting that these may follow a similar degradation pathway.</p><p>Dramatic reductions in both total RNAPII occupancy and phosphorylation were also seen immediately upstream of the polyadenylation site. A similar reduction in RNAPII occupancy was seen in NETseq, showing that this does not reflect alterations in crosslinking efficiency. In contrast, this was not reported in previous ChIP analyses. It is possible that the relatively higher ChIP signals might be due to a combination of antisense transcription, which is seen in this region of most protein&#x02010;coding genes (Fig&#x000a0;<xref rid="msb166869-fig-0001" ref-type="fig">1</xref>), and transcript&#x02010;free RNAPII immediately downstream of the poly(A) site. Notably, recent analyses in human cells have revealed the presence of a transcription elongation checkpoint upstream of the poly(A) site (Laitem <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0027" ref-type="ref">2015</xref>). We speculate that following satisfaction of a similar checkpoint, yeast RNAPII moves rapidly through the poly(A) region, leading to low CRAC and NETseq signals. Dramatically reduced RNAPII phosphorylation was also observed in this region, when expressed as a fraction of total RNAPII. We therefore propose that passage through the checkpoint is accompanied by RNAPII CTD dephosphorylation. Consistent with this model, a requirement for Tyr1 dephosphorylation prior to polyadenylation was recently demonstrated in yeast (Schreieck <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0042" ref-type="ref">2014</xref>).</p><sec id="msb166869-sec-0010"><title>Features potentially distinguishing mRNAs and lncRNAs</title><p>The synthesis of strikingly large numbers of lncRNAs has been reported in human cells and all other eukaryotes examined in detail. Many of these are rapidly degraded by the nuclear RNA surveillance system, particularly the TRAMP and exosome complexes, which are highly conserved between yeast and humans. In contrast, the lncRNAs represent a very diverse set of transcripts that show poor evolutionary conservation. This has made it difficult to discern common or conserved features in the lncRNA population, which might serve as markers that target them to the surveillance machinery. However, specific targeting of lncRNAs might not be required, if the TSS RNAPII is intrinsically prone to transcription termination coupled to degradation of the nascent transcript (Buratowski, <xref rid="msb166869-bib-0004" ref-type="ref">2009</xref>; Jensen <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0024" ref-type="ref">2013</xref>; Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). We postulate that the generation of short, highly unstable RNAs may therefore be a default fate. This state of RNAPII is characterized by a distinct set of CTD modifications that can be recognized as a distinct initiation state by the HMM.</p><p>The Nrd1 component of the (NNS) complex preferentially binds the Ser5&#x02010;modified RNAPII CTD <italic>in&#x000a0;vitro</italic>, via its CTD&#x02010;interacting domain (CID) (Vasiljeva <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0053" ref-type="ref">2008</xref>). The NNS complex promotes transcription termination and recruits the TRAMP nuclear surveillance complex to the transcript, leading to its degradation by the exosome (Thiebaut <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0050" ref-type="ref">2006</xref>; Tudek <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0052" ref-type="ref">2014</xref>). On genes encoding the highly unstable CUT class of ncRNAs (Wyers <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0057" ref-type="ref">2005</xref>), RNAPII predominantly failed to transition out of the Ser5P&#x02010;rich, initiation state I1. This was seen to a lesser extent on SUT ncRNAs, which are more stable than the CUTs but are still largely targeted for degradation by&#x000a0;the nuclear surveillance pathway (David <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0010" ref-type="ref">2006</xref>; Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). In addition to differences in stability, CUTs (median length 377 nt) are generally shorter than SUTs (median length 745 nt) and mRNAs (median length 1,521 nt). Importantly, however, as shown in Fig&#x000a0;<xref rid="msb166869-fig-0005" ref-type="fig">5</xref>C, the median lengths of CUTs and SUTs are markedly longer than the median locations of the transition from initiation to elongation state on protein&#x02010;coding genes. Together, these observations support the model shown in Fig&#x000a0;<xref rid="msb166869-fig-0006" ref-type="fig">6</xref>. On both coding and non&#x02010;coding RNAs, RNAPII is largely in initiation state I1 in the TSS region and is prone to termination and transcript degradation. On protein&#x02010;coding genes, RNAPII transitions out of state I1 after transcription of a median of 122 nt, generally into the early elongation state EE and then elongation state E1. We propose that the failure of RNAPII on CUTs to transition out of state I1 underlies both the short length and high instability of these ncRNAs. Notably, previous attempts to define a specific instability element within CUTs lead to the suggestion that multiple, separable instability determinants must be present in each CUT (Thiebaut <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0050" ref-type="ref">2006</xref>). Our model indicates an alternative explanation, that instability reflects interactions with the transcribing polymerase. Enhanced levels of Ser5&#x02010;modified RNAPII were also seen adjacent to the 5&#x02032;SS and at transcription pause sites predicted from the&#x000a0;NETseq analyses. We speculate that in both cases RNAPII may be&#x000a0;placed in a state that favors NNS recruitment, transcription termination, and rapid transcript degradation.</p><p>Peaks in RNAPII density seen here and in NETseq data showed a striking 150 nt periodicity that agrees well with the arrays of nucleosomes formed on most yeast genes (Jiang &#x00026; Pugh, <xref rid="msb166869-bib-0025" ref-type="ref">2009</xref>; Weiner <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0055" ref-type="ref">2010</xref>; Churchman &#x00026; Weissman, <xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>). Notably, peak RNAPII binding was seen around the nucleosome centers, suggesting that nucleosomes may not generally be displaced by transcription, but the polymerase moves more slowly around the nucleosomes. This situation clearly has the potential to facilitate interactions between modified histones, or histone&#x02010;binding proteins, and the transcribing polymerase or associated factors. Apparent correlations were observed between the locations of state changes in RNAPII and the positions of the first two nucleosomes, although it remains to be established whether these are causal. Consistent with this, the presence of H3K4me3 on the promoter&#x02010;proximal nucleosome is associated with NNS recruitment (Terzi <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0049" ref-type="ref">2011</xref>).</p><p>The antibodies used for CTD analyses generally recognize a single phosphorylated amino acid, although in some cases recognition is modulated by other specific phosphorylated residues in the same or the adjacent heptad (see Eick &#x00026; Geyer, <xref rid="msb166869-bib-0013" ref-type="ref">2013</xref>). However, we cannot currently determine which, or how many, of the 26 heptad repeats are actually modified <italic>in&#x000a0;vivo</italic> on specific transcripts. If the modifications are dispersed across the repeats, then competing phosphorylation sites seems unlikely to be a major problem. In any event, the effects of competition between modifications on antibody binding are unlikely to alter the locations of transitions in the HMM, although they might affect the mechanistic interpretation in terms of precise protein interactions at these sites.</p><p>Finally, many other protein factors bind to the phospho&#x02010;CTD, including the TREX pre&#x02010;mRNA packaging complex, and factors required for pre&#x02010;mRNA splicing and polyadenylation (Meinel <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0032" ref-type="ref">2013</xref>). The segmentation of the genome by the HMM should also facilitate understanding of the interactions between these factors and the transcribing polymerase.</p></sec></sec><sec id="msb166869-sec-0011"><title>Materials and Methods</title><sec id="msb166869-sec-0012"><title>Strains and yeast culture</title><p>
+<italic>Saccharomyces cerevisiae</italic> strain BY4741 was used for all experiments. Prior to crosslinking, cultures were grown to OD<sub>600</sub> 0.5 at 30&#x000b0;C in standard, minimal YNB medium with 2% glucose, supplemented with complete supplement mix minus tryptophan (all from MP Biomedicals).</p><p>To assess the distribution of RNAPII, an Rpo21&#x02010;HTP construct (C&#x02010;terminal, tripartite tag; His6&#x02010;TEV protease cleavage site&#x02013;protein A) was integrated at the <italic>RPO21</italic> chromosomal locus under the control of the endogenous <italic>P</italic>
+<sub><italic>RPO21</italic></sub> promoter. Rpo21&#x02010;HTP was the only source of Rpo21 and growth of the resulting strains was indistinguishable from the parental wild type (BY4741), indicating that the tagged construct is functional. To assess the distribution of RNAPII, an Rpo21&#x02010;HTP construct (C&#x02010;terminal, tripartite tag; His6&#x02010;TEV protease cleavage site&#x02013;protein A) was integrated at the <italic>RPO21</italic> chromosomal locus under the control of the endogenous <italic>P</italic>
+<sub><italic>RPO21</italic></sub> promoter. Rpo21&#x02010;HTP was the only source of Rpo21 and growth of the resulting strains was indistinguishable from the parental wild type (BY4741), indicating that the tagged construct is functional. CRAC analyses on Rrp6 and Trf4 were performed using strains expressing previously described Rrp6&#x02010;HTP and Trf4&#x02010;HTP constructs (Schneider <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0041" ref-type="ref">2012</xref>; Tuck &#x00026; Tollervey, <xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>). Strains expressing Air2&#x02010;HTP and Rrp44&#x02010;HTP constructs were constructed by integrating the tag at the chromosomal locus, as described above.</p></sec><sec id="msb166869-sec-0013"><title>mCRAC analysis</title><p>UV crosslinking at 254 nm was performed on actively growing Rpo21&#x02010;HTP cells as well as cells carrying an untagged allele of Rpo21 as a negative control. Rpo21&#x02010;HTP was recovered from the lysate by binding of the protein A tag to an IgG column and elution by TEV cleavage, essentially as described (Granneman <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0016" ref-type="ref">2011</xref>; Schneider <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0041" ref-type="ref">2012</xref>). Differentially phosphorylated forms of RNAPII were then separated by immunoprecipitation using antibodies purchased from Chromotek directed against the CTD carrying Tyr1P (3D12), Ser2P (3E10), Thr4P (6D7), Ser5P (3E8), or Ser7P (4E12) bound to sheep anti&#x02010;rat IgG Dynabeads, or a no antibody control with sheep anti&#x02010;rat IgG Dynabeads alone. RNA&#x02013;protein complexes were subjected to partial RNase degradation, denatured by the addition of guanidinium&#x02013;HCl to 4&#x000a0;M and bound to a nickel column via the His6 tag on Rpo21. Linkers were added to the Rpo21&#x02010;associated RNAs on the nickel column and the bound protein&#x02013;RNA complexes were eluted with imidazole and gel purified by SDS&#x02013;PAGE (Fig&#x000a0;<xref rid="msb166869-fig-0001ev" ref-type="fig">EV1</xref>). Following proteinase K digestion, RNAs were identified by reverse transcription and PCR amplification, followed by Illumina sequencing. Illumina sequencing was performed by Edinburgh Genomics and Source Biosystems. CRAC analyses on Rrp6&#x02010;HTP, Rrp44&#x02010;HTP, Air2&#x02010;HTP, and Trf4&#x02010;HTP were&#x000a0;performed essentially as described (Granneman <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0016" ref-type="ref">2011</xref>; Schneider <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0041" ref-type="ref">2012</xref>).</p><p>The replicate RNAPII CRAC datasets were compared to all annotated transcripts. The average proportions of transcripts captured were as follows: at least 1 read, 95% CUTs, 93% SUTs, 99% mRNAs; at least 10 reads, 54% CUTs, 60% SUTs, 97% mRNAs. It is not expected all genes will be active under the specific growth condition used.</p></sec><sec id="msb166869-sec-0014"><title>Sequence data analysis</title><p>The FASTX&#x02010;Toolkit (<ext-link ext-link-type="uri" xlink:href="http://hannonlab.cshl.edu/fastx_toolkit/">http://hannonlab.cshl.edu/fastx_toolkit/</ext-link>) was used for the preprocessing of Illumina sequencing data: Reads were trimmed using fastx&#x02010;clipper to remove the 3&#x02032;&#x02010;linker sequence and quality&#x02010;filtered using fastq_quality_trimmer (&#x02010;t 30) and fastq_quality_filter (&#x02010;q 23 &#x02010;p 100). Preprocessed reads were demultiplexed using pyCRAC (Webb <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0054" ref-type="ref">2014</xref>) and index and random barcode sequences from the 5&#x02032; ends of reads were removed. Reads were mapped to the yeast genome (sacCer3, downloaded from the&#x000a0;<italic>Saccharomyces</italic> Genome Database) using novoalign (&#x02212;r Random &#x02212;s 1). Alternatively, mapping reads with TopHat gave very similar results. To remove potential PCR duplicates, reads mapped to the same start position in the genome and sharing the same barcode were collapsed, as described in Tuck and Tollervey (<xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>).</p><p>Bedtools (Quinlan &#x00026; Hall, <xref rid="msb166869-bib-0039" ref-type="ref">2010</xref>) and custom AWK and Perl scripts were used for downstream analyses. For calculation of coverage pie charts, reads were uniquely assigned to RNA biotypes using a hierarchical procedure, starting with the most abundant biotypes. Transcript annotations were from the <italic>Saccharomyces</italic> Genome Database and (Xu <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0058" ref-type="ref">2009</xref>) (mRNAs, CUTs, and SUTs). Where appropriate, transcript coordinates were converted to the sacCer3 genome assembly using liftOver. Coverage around genomic features (metagene analyses and 2D heatmaps) was plotted using custom R and gnuplot scripts. To calculate the enrichment of phosphorylated RNAPII signal relative to total RNAPII signal, normalized coverage (reads per million) was calculated at each position along the genome for all datasets and averaged between replicate datasets. Log2 enrichment was calculated after the addition of 5 pseudocounts to both the numerator and denominator; this number was selected because it represented about one read in the&#x000a0;dataset with the lowest coverage. Pab1 and Xrn1 CRAC data were from Tuck and Tollervey (<xref rid="msb166869-bib-0051" ref-type="ref">2013</xref>), and NET&#x02010;Seq coordinates were from Churchman and Weissman (<xref rid="msb166869-bib-0007" ref-type="ref">2011</xref>).</p></sec><sec id="msb166869-sec-0015"><title>Modeling the mCRAC data with a hidden Markov model</title><p>A multivariate hidden Markov model (HMM) was used to model jointly the different RNAPII phosphorylation datasets. The HMM was learned from the log&#x02010;enrichment values (i.e., log2(phosphorylated Pol II&#x000a0;+&#x000a0;5/total Pol II&#x000a0;+&#x000a0;5)), where a pseudocount of 5 was added to each genomic region to avoid numerical instabilities. The entire segmentation data can be found in <xref rid="msb166869-sup-0006" ref-type="supplementary-material">Dataset EV2</xref>.</p><p>An HMM is a probabilistic model, which explains a sequence of&#x000a0;observations {<italic><bold>x</bold></italic>
+<sub>1</sub>,&#x000a0;<italic><bold>x</bold></italic>
+<sub>2</sub>,&#x000a0;&#x02026;,&#x000a0;<italic><bold>x</bold></italic>
+<sub><italic>N</italic></sub>} through an unobserved (latent) sequence of discrete states. In our case, each variable <italic><bold>x</bold></italic>
+<sub><italic>i</italic></sub> is a five&#x02010;dimensional vector describing the Tyr<sub>1</sub>, Ser<sub>2</sub>, Thr<sub>4</sub>, Ser<sub>5</sub>, and Ser<sub>7</sub> phosphorylation log&#x02010;enrichment levels over total RNAPII in the i<sup>th</sup> 20 nt&#x02010;bin along the genome. Since mCRAC provides strand&#x02010;specific information, the two strands of the genome were simply concatenated and modeled together, avoiding the need for more specialized computational tools (Zacher <italic>et&#x000a0;al</italic>, <xref rid="msb166869-bib-0059" ref-type="ref">2014</xref>). The architecture of a HMM consists of a Markov chain of latent variables {<italic>z</italic>
+<sub>1</sub>,&#x000a0;<italic>z</italic>
+<sub>2</sub>,&#x000a0;&#x02026;,&#x000a0;<italic>z</italic>
+<sub><italic>N</italic></sub>}, where each variable <italic>z</italic>
+<sub><italic>n</italic></sub> can be in one of <italic>K states</italic>. The state of <italic>z</italic>
+<sub><italic>n</italic></sub> only depends on the state of the previous latent variable <italic>z</italic>
+<sub><italic>n</italic>&#x02212;1</sub>, and each observation <italic><bold>x</bold></italic>
+<sub><italic>n</italic></sub> is conditioned on the state of the corresponding latent variable <italic>z</italic>
+<sub><italic>n</italic></sub>. The model is characterized by two sets of parameters: 
+<list list-type="bullet" id="msb166869-list-0002"><list-item><p>The <italic>transition</italic> probabilities <italic>P</italic>(<italic>z</italic>
+<sub><italic>n</italic></sub>&#x000a0;=&#x000a0;<italic>j</italic>&#x000a0;|&#x000a0;<italic>z</italic>
+<sub><italic>n</italic>&#x02212;1</sub>&#x000a0;=&#x000a0;<italic>i</italic>), describing the probability for <italic>z</italic>
+<sub><italic>n</italic></sub> to be in state <italic>j</italic> given that <italic>z</italic>
+<sub><italic>n</italic>&#x02212;1</sub> is in state i (<italic>i</italic>,&#x000a0;<italic>j</italic>&#x000a0;=&#x000a0;1,&#x000a0;&#x02026;,&#x000a0;<italic>K</italic>);</p></list-item><list-item><p>The <italic>emission</italic> probabilities <italic>P</italic>(<italic><bold>x</bold></italic>
+<sub><italic>n</italic></sub>&#x000a0;|&#x000a0;<italic>z</italic>
+<sub><italic>n</italic></sub>), describing the probability distribution of the observed variable <italic>x</italic>
+<sub><italic>n</italic></sub>, conditioned on the state of <italic>z</italic>
+<sub><italic>n</italic></sub>. In our model, we assume Gaussian emission probabilities: <mml:math id="nlm-math-1"><mml:mrow><mml:mi>P</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="false">|</mml:mo></mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mi>n</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mi>i</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>&#x0223c;</mml:mo><mml:mi mathvariant="script">N</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mi>n</mml:mi></mml:msub><mml:mo stretchy="false">|</mml:mo><mml:msub><mml:mi mathvariant="bold-italic">&#x003bc;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mi mathvariant="normal">&#x003a3;</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>,</mml:mo><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mo>&#x02026;</mml:mo><mml:mo>,</mml:mo><mml:mi>K</mml:mi><mml:mo>.</mml:mo></mml:mrow></mml:math> Therefore, the parameters associated with the emission probabilities are a set of 5 mean values and 20 covariance values for each state.</p></list-item></list>
+</p><p>The values of the different model parameters, that is, the transition probabilities, and the means <italic><bold>&#x003bc;</bold></italic>
+<sub><italic>i</italic></sub> and covariances &#x003a3;<sub><italic>i</italic></sub> of the Gaussian distributions, are learned by running an expectation maximization algorithm. The values of the transition probabilities are initialized randomly from a uniform distribution, while the means <italic>&#x003bc;</italic>
+<sub><italic>i</italic></sub> are initialized by applying the <italic>K</italic>&#x02010;means clustering algorithm to the data and the covariances &#x003a3;<sub><italic>i</italic></sub> are initialized to the covariance matrices of the obtained clusters. The most probable sequence of states for each strand is identified using the Viterbi algorithm. The MATLAB scripts we used to learn the HMM can be found in <xref rid="msb166869-sup-0004" ref-type="supplementary-material">Code EV1</xref>.</p><p>The HMM has only one parameter, the number <italic>K</italic> of possible states, whose value has to be selected <italic>a priori</italic>. We tried different values of <italic>K</italic> (from 3 to 15 states) and each time evaluated the data fit using the mean squared error (MSE):<disp-formula id="msb166869-disp-0001"><mml:math id="nlm-math-2"><mml:mrow><mml:mtext>MSE</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mrow><mml:mn>10</mml:mn><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>s</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mn>2</mml:mn></mml:munderover><mml:munderover><mml:mo movablelimits="false">&#x02211;</mml:mo><mml:mrow><mml:mi>n</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>N</mml:mi></mml:munderover><mml:mo stretchy="false">&#x02016;</mml:mo><mml:msubsup><mml:mrow><mml:mi mathvariant="bold-italic">x</mml:mi></mml:mrow><mml:mi>n</mml:mi><mml:mi>s</mml:mi></mml:msubsup><mml:mo>&#x02212;</mml:mo><mml:msubsup><mml:mi mathvariant="bold-italic">&#x003bc;</mml:mi><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mi>n</mml:mi></mml:msub></mml:mrow><mml:mi>s</mml:mi></mml:msubsup><mml:msup><mml:mo stretchy="false">&#x02016;</mml:mo><mml:mn>2</mml:mn></mml:msup><mml:mo>,</mml:mo></mml:mrow></mml:math></disp-formula>where superscript <italic>s</italic> refers to the strand.</p><p>The MSE typically decreases as <italic>K</italic> increases, as more complex models allow a better fit to the data, but appeared to level off after 8 states, yielding diminishing returns in terms of model fit for the same cost in terms of extra parameters to estimate. We chose therefore to retain the HMM with 8 states for further analyses as it gave a good tradeoff between model complexity and model fit. The transition and emission matrices of the 8&#x02010;state model are shown in Figs&#x000a0;<xref rid="msb166869-fig-0004" ref-type="fig">4</xref>C and <xref rid="msb166869-fig-0006ev" ref-type="fig">EV6</xref>A, respectively. As shown in Fig&#x000a0;<xref rid="msb166869-fig-0006ev" ref-type="fig">EV6</xref>, qualitatively similar conclusions could be drawn from models with 6 or 10 states.</p></sec><sec id="msb166869-sec-0016"><title>Reproducibility of the HMM results</title><p>We ran the HMM algorithm with 10 different random parameter initializations, and each time checked the similarity between the new obtained sequence of states and the one we used for our analysis. Both for the positive and negative strands, the percentage of 20 nt&#x02010;windows that are predicted to be in the same state in both sequences is 87% (&#x000b1;&#x000a0;5%) on average (to be compared to the random baseline of 12.5%).</p><p>We also compared the sequences of states obtained from two independent mCRAC datasets. The Jaccard index is a commonly used way to assess the similarity of two sample sets. It computes the ratio A/B, where A (resp. B) is the size of the intersection (resp. union) of the two sets. <xref rid="msb166869-sup-0003" ref-type="supplementary-material">Table&#x000a0;EV2</xref> shows the Jaccard index for each state <italic>i</italic>, measuring the similarity of the sets of 20 nt&#x02010;windows that are predicted to be in state <italic>i</italic> in the two HMM sequences, respectively (with positive and negative genomic strands presented separately). The Jaccard indices that are shown in <xref rid="msb166869-sup-0003" ref-type="supplementary-material">Table&#x000a0;EV2</xref> are significantly high, each corresponding to a <italic>P</italic>&#x02010;value of &#x0003c;&#x000a0;10<sup>&#x02212;4</sup> (computed using 1,000 random permutations of one of the sequences), indicating a high similarity between the two replicates. The two state distributions across the first quartile of protein&#x02010;coding genes are also highly similar (Fig&#x000a0;<xref rid="msb166869-fig-0005ev" ref-type="fig">EV5</xref>C).</p></sec><sec id="msb166869-sec-0017"><title>State enrichment analysis</title><p>Given the predicted sequence of hidden states along the genome, the enrichment of a state <italic>i</italic> in a window of interest is computed as the ratio <italic>n</italic>
+<sub>i,obs</sub>/<italic>n</italic>
+<sub>i,exp</sub>, where n<sub>i,obs</sub> (resp. <italic>n</italic>
+<sub>i,exp</sub>) is the observed (resp. expected) number of states <italic>i</italic> within this window. The expected number of states <italic>i</italic> is computed from the total number of states <italic>i</italic> that are observed along the genome and assuming a uniform distribution.</p></sec><sec id="msb166869-sec-0018"><title>Data availability</title><p>All sequences generated during this work have been deposited with GEO and can be accessed under the accession number GSE69676. Additional datasets used for Fig&#x000a0;<xref rid="msb166869-fig-0002" ref-type="fig">2</xref> are available from GEO. Mex67&#x000a0;CRAC data: Tuck AC, Tollervey D. A transcriptome&#x02010;wide atlas of RNP composition reveals diverse classes of mRNAs and&#x000a0;lncRNAs. Accession number: GSE46742. CUT 3&#x02032; end data: Neil <italic>et&#x000a0;al</italic> (<xref rid="msb166869-bib-0034" ref-type="ref">2009</xref>). Accession number: GSE25132. Nucleosome position coordinates were obtained from Additional data file 1 of Jiang and Pugh (<xref rid="msb166869-bib-0025" ref-type="ref">2009</xref>).</p></sec></sec><sec id="msb166869-sec-0020"><title>Author contributions</title><p>LM and DT conceived the project and designed experiments; LM, EP, and CD&#x02010;F constructed strains and performed CRAC experiments; VAH&#x02010;T, AT, RL, GS, CD&#x02010;F, and GK performed bioinformatic analysis; GS, GK, and DT wrote the paper.</p></sec><sec id="msb166869-sec-0021"><title>Conflict of interest</title><p>The authors declare that they have no conflicts of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"/><supplementary-material content-type="local-data" id="msb166869-sup-0001"><caption><p>Expanded View Figures PDF</p></caption><media xlink:href="MSB-12-874-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb166869-sup-0002"><caption><p>Table&#x000a0;EV1</p></caption><media xlink:href="MSB-12-874-s002.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb166869-sup-0003"><caption><p>Table&#x000a0;EV2</p></caption><media xlink:href="MSB-12-874-s003.docx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb166869-sup-0004"><caption><p>Code EV1</p></caption><media xlink:href="MSB-12-874-s004.zip"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb166869-sup-0005"><caption><p>Dataset EV1</p></caption><media xlink:href="MSB-12-874-s005.zip"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb166869-sup-0006"><caption><p>Dataset EV2</p></caption><media xlink:href="MSB-12-874-s006.zip"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Review Process File</p></caption><media xlink:href="MSB-12-874-s007.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="msb166869-sec-0019"><title>Acknowledgements</title><p>This work was supported by the Wellcome Trust through a Principal Research Fellowship to D.T. (077248). A.T. is supported by the Wellcome Trust (103977). CD&#x02010;F was supported by a FEBS Long&#x02010;Term Fellowship. G.K. was supported by the Wellcome Trust (097383) and by the Medical Research Council. V.A.H.&#x02010;T. and G.S. acknowledge support from the European Research Council under grant MLCS 306999. Work in the Wellcome Trust Centre for Cell Biology is supported by Wellcome Trust core funding (092076).</p></ack><ref-list content-type="cited-references" id="msb166869-bibl-0001"><title>References</title><ref id="msb166869-bib-0001"><mixed-citation publication-type="journal" id="msb166869-cit-0001">
+<string-name>
+<surname>Alexander</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Innocente</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Barrass</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Beggs</surname>
+<given-names>JD</given-names>
+</string-name> (<year>2010</year>) <article-title>Splicing&#x02010;dependent RNA polymerase pausing in yeast</article-title>. <source>Mol Cell</source>
+<volume>40</volume>: <fpage>582</fpage>&#x02013;<lpage>593</lpage>
+<pub-id pub-id-type="pmid">21095588</pub-id></mixed-citation></ref><ref id="msb166869-bib-0002"><mixed-citation publication-type="journal" id="msb166869-cit-0002">
+<string-name>
+<surname>Arigo</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name>
+<surname>Eyler</surname>
+<given-names>DE</given-names>
+</string-name>, <string-name>
+<surname>Carroll</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>Corden</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2006</year>) <article-title>Termination of cryptic unstable transcripts is directed by yeast RNA&#x02010;binding proteins Nrd1 and Nab3</article-title>. <source>Mol Cell</source>
+<volume>23</volume>: <fpage>841</fpage>&#x02013;<lpage>851</lpage>
+<pub-id pub-id-type="pmid">16973436</pub-id></mixed-citation></ref><ref id="msb166869-bib-0003"><mixed-citation publication-type="journal" id="msb166869-cit-0003">
+<string-name>
+<surname>de Boer</surname>
+<given-names>CG</given-names>
+</string-name>, <string-name>
+<surname>van Bakel</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Tsui</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Morris</surname>
+<given-names>QD</given-names>
+</string-name>, <string-name>
+<surname>Nislow</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Greenblatt</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name>
+<surname>Hughes</surname>
+<given-names>TR</given-names>
+</string-name> (<year>2014</year>) <article-title>A unified model for yeast transcript definition</article-title>. <source>Genome Res</source>
+<volume>24</volume>: <fpage>154</fpage>&#x02013;<lpage>166</lpage>
+<pub-id pub-id-type="pmid">24170600</pub-id></mixed-citation></ref><ref id="msb166869-bib-0004"><mixed-citation publication-type="journal" id="msb166869-cit-0004">
+<string-name>
+<surname>Buratowski</surname>
+<given-names>S</given-names>
+</string-name> (<year>2009</year>) <article-title>Progression through the RNA Polymerase II CTD Cycle</article-title>. <source>Mol Cell</source>
+<volume>36</volume>: <fpage>541</fpage>&#x02013;<lpage>546</lpage>
+<pub-id pub-id-type="pmid">19941815</pub-id></mixed-citation></ref><ref id="msb166869-bib-0005"><mixed-citation publication-type="journal" id="msb166869-cit-0005">
+<string-name>
+<surname>Camblong</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Iglesias</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Fickentscher</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Dieppois</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Stutz</surname>
+<given-names>F&#x000c1;</given-names>
+</string-name> (<year>2007</year>) <article-title>Antisense RNA stabilization induces transcriptional gene Silencing via histone deacetylation in <italic>S.&#x000a0;cerevisiae</italic>
+</article-title>. <source>Cell</source>
+<volume>131</volume>: <fpage>706</fpage>&#x02013;<lpage>717</lpage>
+<pub-id pub-id-type="pmid">18022365</pub-id></mixed-citation></ref><ref id="msb166869-bib-0006"><mixed-citation publication-type="journal" id="msb166869-cit-0006">
+<string-name>
+<surname>Chathoth</surname>
+<given-names>KT</given-names>
+</string-name>, <string-name>
+<surname>Barrass</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Webb</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Beggs Jean</surname>
+<given-names>D</given-names>
+</string-name> (<year>2014</year>) <article-title>A splicing&#x02010;dependent transcriptional checkpoint associated with prespliceosome formation</article-title>. <source>Mol Cell</source>
+<volume>53</volume>: <fpage>779</fpage>&#x02013;<lpage>790</lpage>
+<pub-id pub-id-type="pmid">24560925</pub-id></mixed-citation></ref><ref id="msb166869-bib-0007"><mixed-citation publication-type="journal" id="msb166869-cit-0007">
+<string-name>
+<surname>Churchman</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name>
+<surname>Weissman</surname>
+<given-names>JS</given-names>
+</string-name> (<year>2011</year>) <article-title>Nascent transcript sequencing visualizes transcription at nucleotide resolution</article-title>. <source>Nature</source>
+<volume>469</volume>: <fpage>368</fpage>&#x02013;<lpage>373</lpage>
+<pub-id pub-id-type="pmid">21248844</pub-id></mixed-citation></ref><ref id="msb166869-bib-0008"><mixed-citation publication-type="journal" id="msb166869-cit-0008">
+<string-name>
+<surname>Creamer</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name>
+<surname>Darby</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Jamonnak</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Schaughency</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hao</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Wheelan</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Corden</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2011</year>) <article-title>Transcriptome&#x02010;wide binding sites for components of the <italic>Saccharomyces cerevisiae</italic> non&#x02010;poly(A) termination pathway: Nrd1, Nab3, and Sen1</article-title>. <source>PLoS Genet</source>
+<volume>7</volume>: <fpage>e1002329</fpage>
+<pub-id pub-id-type="pmid">22028667</pub-id></mixed-citation></ref><ref id="msb166869-bib-0009"><mixed-citation publication-type="journal" id="msb166869-cit-0009">
+<string-name>
+<surname>Darnell</surname>
+<given-names>RB</given-names>
+</string-name> (<year>2010</year>) <article-title>HITS&#x02010;CLIP: panoramic views of protein&#x02010;RNA regulation in living cells</article-title>. <source>Wiley Interdiscip Revs RNA</source>
+<volume>1</volume>: <fpage>266</fpage>&#x02013;<lpage>286</lpage>
+<pub-id pub-id-type="pmid">21935890</pub-id></mixed-citation></ref><ref id="msb166869-bib-0010"><mixed-citation publication-type="journal" id="msb166869-cit-0010">
+<string-name>
+<surname>David</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Granovskaia</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Toedling</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Palm</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Bofkin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Davis</surname>
+<given-names>RW</given-names>
+</string-name>, <string-name>
+<surname>Steinmetz</surname>
+<given-names>LM</given-names>
+</string-name> (<year>2006</year>) <article-title>A high&#x02010;resolution map of transcription in the yeast genome</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>103</volume>: <fpage>5320</fpage>&#x02013;<lpage>5325</lpage>
+<pub-id pub-id-type="pmid">16569694</pub-id></mixed-citation></ref><ref id="msb166869-bib-0011"><mixed-citation publication-type="journal" id="msb166869-cit-0011">
+<string-name>
+<surname>Eddy</surname>
+<given-names>SR</given-names>
+</string-name> (<year>2004</year>) <article-title>What is a hidden Markov model?</article-title>
+<source>Nat Biotech</source>
+<volume>22</volume>: <fpage>1315</fpage>&#x02013;<lpage>1316</lpage>
+</mixed-citation></ref><ref id="msb166869-bib-0012"><mixed-citation publication-type="journal" id="msb166869-cit-0012">
+<string-name>
+<surname>Egloff</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>O'Reilly</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Chapman</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Tanzhaus</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Pitts</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Eick</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Murphy</surname>
+<given-names>S</given-names>
+</string-name> (<year>2007</year>) <article-title>Serine&#x02010;7 of the RNA polymerase II CTD is specifically required for snRNA gene expression</article-title>. <source>Science</source>
+<volume>318</volume>: <fpage>1777</fpage>&#x02013;<lpage>1779</lpage>
+<pub-id pub-id-type="pmid">18079403</pub-id></mixed-citation></ref><ref id="msb166869-bib-0013"><mixed-citation publication-type="journal" id="msb166869-cit-0013">
+<string-name>
+<surname>Eick</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Geyer</surname>
+<given-names>M</given-names>
+</string-name> (<year>2013</year>) <article-title>The RNA Polymerase II Carboxy&#x02010;Terminal Domain (CTD) Code</article-title>. <source>Chem Revs</source>
+<volume>113</volume>: <fpage>8456</fpage>&#x02013;<lpage>8490</lpage>
+<pub-id pub-id-type="pmid">23952966</pub-id></mixed-citation></ref><ref id="msb166869-bib-0014"><mixed-citation publication-type="journal" id="msb166869-cit-0014">
+<string-name>
+<surname>Fasken</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name>
+<surname>Laribee</surname>
+<given-names>RN</given-names>
+</string-name>, <string-name>
+<surname>Corbett</surname>
+<given-names>AH</given-names>
+</string-name> (<year>2015</year>) <article-title>Nab3 facilitates the function of the TRAMP complex in RNA processing via recruitment of Rrp6 independent of Nrd1</article-title>. <source>PLoS Genet</source>
+<volume>11</volume>: <fpage>e1005044</fpage>
+<pub-id pub-id-type="pmid">25775092</pub-id></mixed-citation></ref><ref id="msb166869-bib-0015"><mixed-citation publication-type="journal" id="msb166869-cit-0015">
+<string-name>
+<surname>Granneman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kudla</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Petfalski</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Tollervey</surname>
+<given-names>D</given-names>
+</string-name> (<year>2009</year>) <article-title>Identification of protein binding sites on U3 snoRNA and pre&#x02010;rRNA by UV cross&#x02010;linking and high throughput analysis of cDNAs</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>106</volume>: <fpage>9613</fpage>&#x02013;<lpage>9818</lpage>
+<pub-id pub-id-type="pmid">19482942</pub-id></mixed-citation></ref><ref id="msb166869-bib-0016"><mixed-citation publication-type="journal" id="msb166869-cit-0016">
+<string-name>
+<surname>Granneman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Petfalski</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Tollervey</surname>
+<given-names>D</given-names>
+</string-name> (<year>2011</year>) <article-title>A cluster of ribosome synthesis factors regulate pre&#x02010;rRNA folding and 5.8S rRNA maturation by the Rat1 exonuclease</article-title>. <source>EMBO J</source>
+<volume>30</volume>: <fpage>4006</fpage>&#x02013;<lpage>4019</lpage>
+<pub-id pub-id-type="pmid">21811236</pub-id></mixed-citation></ref><ref id="msb166869-bib-0017"><mixed-citation publication-type="journal" id="msb166869-cit-0017">
+<string-name>
+<surname>Heidemann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hintermair</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Vo&#x000df;</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Eick</surname>
+<given-names>D</given-names>
+</string-name> (<year>2013</year>) <article-title>Dynamic phosphorylation patterns of RNA polymerase II CTD during transcription</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1829</volume>: <fpage>55</fpage>&#x02013;<lpage>62</lpage>
+<pub-id pub-id-type="pmid">22982363</pub-id></mixed-citation></ref><ref id="msb166869-bib-0018"><mixed-citation publication-type="journal" id="msb166869-cit-0018">
+<string-name>
+<surname>Heo</surname>
+<given-names>D&#x02010;H</given-names>
+</string-name>, <string-name>
+<surname>Yoo</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Kong</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Lidschreiber</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>
+<given-names>B&#x02010;Y</given-names>
+</string-name>, <string-name>
+<surname>Hahn</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Buratowski</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>M</given-names>
+</string-name> (<year>2013</year>) <article-title>The RNA polymerase II C&#x02010;terminal domain&#x02010;interacting domain of yeast Nrd1 contributes to the choice of termination pathway and couples to RNA processing by the nuclear exosome</article-title>. <source>J Biol Chem</source>
+<volume>288</volume>: <fpage>36676</fpage>&#x02013;<lpage>36690</lpage>
+<pub-id pub-id-type="pmid">24196955</pub-id></mixed-citation></ref><ref id="msb166869-bib-0019"><mixed-citation publication-type="journal" id="msb166869-cit-0019">
+<string-name>
+<surname>Holmes</surname>
+<given-names>RK</given-names>
+</string-name>, <string-name>
+<surname>Tuck</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Dunn&#x02010;Davies</surname>
+<given-names>HR</given-names>
+</string-name>, <string-name>
+<surname>Kudla</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Clauder&#x02010;Munster</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Granneman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Steinmetz</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Guthrie</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Tollervey</surname>
+<given-names>D</given-names>
+</string-name> (<year>2015</year>) <article-title>Loss of the yeast SR protein Npl3 alters gene expression due to transcription readthrough</article-title>. <source>PLoS Genet</source>
+<volume>11</volume>: <fpage>e1005735</fpage>
+<pub-id pub-id-type="pmid">26694144</pub-id></mixed-citation></ref><ref id="msb166869-bib-0020"><mixed-citation publication-type="journal" id="msb166869-cit-0020">
+<string-name>
+<surname>Hsin</surname>
+<given-names>J&#x02010;P</given-names>
+</string-name>, <string-name>
+<surname>Sheth</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Manley</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2011</year>) <article-title>RNAP II CTD phosphorylated on threonine&#x02010;4 is required for histone mRNA 3&#x02032; end processing</article-title>. <source>Science</source>
+<volume>334</volume>: <fpage>683</fpage>&#x02013;<lpage>686</lpage>
+<pub-id pub-id-type="pmid">22053051</pub-id></mixed-citation></ref><ref id="msb166869-bib-0021"><mixed-citation publication-type="journal" id="msb166869-cit-0021">
+<string-name>
+<surname>Hsin</surname>
+<given-names>J&#x02010;P</given-names>
+</string-name>, <string-name>
+<surname>Manley</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2012</year>) <article-title>The RNA polymerase II CTD coordinates transcription and RNA processing</article-title>. <source>Genes Dev</source>
+<volume>26</volume>: <fpage>2119</fpage>&#x02013;<lpage>2137</lpage>
+<pub-id pub-id-type="pmid">23028141</pub-id></mixed-citation></ref><ref id="msb166869-bib-0022"><mixed-citation publication-type="journal" id="msb166869-cit-0022">
+<string-name>
+<surname>Jacquier</surname>
+<given-names>A</given-names>
+</string-name> (<year>2009</year>) <article-title>The complex eukaryotic transcriptome: unexpected pervasive transcription and novel small RNAs</article-title>. <source>Nat Rev Genet</source>
+<volume>10</volume>: <fpage>833</fpage>&#x02013;<lpage>844</lpage>
+<pub-id pub-id-type="pmid">19920851</pub-id></mixed-citation></ref><ref id="msb166869-bib-0023"><mixed-citation publication-type="journal" id="msb166869-cit-0023">
+<string-name>
+<surname>Jamonnak</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Creamer</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name>
+<surname>Darby</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Schaughency</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Wheelan</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Corden</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2011</year>) <article-title>Yeast Nrd1, Nab3, and Sen1 transcriptome&#x02010;wide binding maps suggest multiple roles in post&#x02010;transcriptional RNA processing</article-title>. <source>RNA</source>
+<volume>17</volume>: <fpage>2011</fpage>&#x02013;<lpage>2025</lpage>
+<pub-id pub-id-type="pmid">21954178</pub-id></mixed-citation></ref><ref id="msb166869-bib-0024"><mixed-citation publication-type="journal" id="msb166869-cit-0024">
+<string-name>
+<surname>Jensen</surname>
+<given-names>TH</given-names>
+</string-name>, <string-name>
+<surname>Jacquier</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Libri</surname>
+<given-names>D</given-names>
+</string-name> (<year>2013</year>) <article-title>Dealing with pervasive transcription</article-title>. <source>Mol Cell</source>
+<volume>52</volume>: <fpage>473</fpage>&#x02013;<lpage>484</lpage>
+<pub-id pub-id-type="pmid">24267449</pub-id></mixed-citation></ref><ref id="msb166869-bib-0025"><mixed-citation publication-type="journal" id="msb166869-cit-0025">
+<string-name>
+<surname>Jiang</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Pugh</surname>
+<given-names>BF</given-names>
+</string-name> (<year>2009</year>) <article-title>A compiled and systematic reference map of nucleosome positions across the <italic>Saccharomyces cerevisiae</italic> genome</article-title>. <source>Genome Biol</source>
+<volume>10</volume>: <fpage>R109</fpage>
+<pub-id pub-id-type="pmid">19814794</pub-id></mixed-citation></ref><ref id="msb166869-bib-0026"><mixed-citation publication-type="journal" id="msb166869-cit-0026">
+<string-name>
+<surname>Kapranov</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Cheng</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dike</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Nix</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Duttagupta</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Willingham</surname>
+<given-names>AT</given-names>
+</string-name>, <string-name>
+<surname>Stadler</surname>
+<given-names>PF</given-names>
+</string-name>, <string-name>
+<surname>Hertel</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Hackerm&#x000fc;ller</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Hofacker</surname>
+<given-names>IL</given-names>
+</string-name>, <string-name>
+<surname>Bell</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Cheung</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Drenkow</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dumais</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Patel</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Helt</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Ganesh</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ghosh</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Piccolboni</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sementchenko</surname>
+<given-names>V</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2007</year>) <article-title>RNA maps reveal new RNA classes and a possible function for pervasive transcription</article-title>. <source>Science</source>
+<volume>316</volume>: <fpage>1484</fpage>&#x02013;<lpage>1488</lpage>
+<pub-id pub-id-type="pmid">17510325</pub-id></mixed-citation></ref><ref id="msb166869-bib-0200"><mixed-citation publication-type="journal" id="msb166869-cit-0200">
+<string-name>
+<surname>Kim</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Erickson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Luo</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Seward</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Graber</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name>
+<surname>Pollock</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Megee</surname>
+<given-names>PC</given-names>
+</string-name>, <string-name>
+<surname>Bentley</surname>
+<given-names>DL</given-names>
+</string-name> (<year>2010</year>) <article-title>Gene&#x02010;specific RNA polymerase II phosphorylation and the CTD code</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>17</volume>: <fpage>1279</fpage>&#x02013;<lpage>1286</lpage>
+<pub-id pub-id-type="pmid">20835241</pub-id></mixed-citation></ref><ref id="msb166869-bib-0027"><mixed-citation publication-type="journal" id="msb166869-cit-0027">
+<string-name>
+<surname>Laitem</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Zaborowska</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Isa</surname>
+<given-names>NF</given-names>
+</string-name>, <string-name>
+<surname>Kufs</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Dienstbier</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Murphy</surname>
+<given-names>S</given-names>
+</string-name> (<year>2015</year>) <article-title>CDK9 inhibitors define elongation checkpoints at both ends of RNA polymerase II&#x02013;transcribed genes</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>22</volume>: <fpage>396</fpage>&#x02013;<lpage>403</lpage>
+<pub-id pub-id-type="pmid">25849141</pub-id></mixed-citation></ref><ref id="msb166869-bib-0028"><mixed-citation publication-type="journal" id="msb166869-cit-0028">
+<string-name>
+<surname>Lund</surname>
+<given-names>MK</given-names>
+</string-name>, <string-name>
+<surname>Guthrie</surname>
+<given-names>C</given-names>
+</string-name> (<year>2005</year>) <article-title>The DEAD&#x02010;box protein Dbp5p is required to dissociate Mex67p from exported mRNPs at the nuclear rim</article-title>. <source>Mol Cell</source>
+<volume>20</volume>: <fpage>645</fpage>&#x02013;<lpage>651</lpage>
+<pub-id pub-id-type="pmid">16307927</pub-id></mixed-citation></ref><ref id="msb166869-bib-0029"><mixed-citation publication-type="journal" id="msb166869-cit-0029">
+<string-name>
+<surname>Mayer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lidschreiber</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Siebert</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Leike</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Soding</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name> (<year>2010</year>) <article-title>Uniform transitions of the general RNA polymerase II transcription complex</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>17</volume>: <fpage>1272</fpage>&#x02013;<lpage>1278</lpage>
+<pub-id pub-id-type="pmid">20818391</pub-id></mixed-citation></ref><ref id="msb166869-bib-0030"><mixed-citation publication-type="journal" id="msb166869-cit-0030">
+<string-name>
+<surname>Mayer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Heidemann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Lidschreiber</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Schreieck</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hintermair</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kremmer</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Eick</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name> (<year>2012</year>) <article-title>CTD tyrosine phosphorylation impairs termination factor recruitment to RNA polymerase II</article-title>. <source>Science</source>
+<volume>336</volume>: <fpage>1723</fpage>&#x02013;<lpage>1725</lpage>
+<pub-id pub-id-type="pmid">22745433</pub-id></mixed-citation></ref><ref id="msb166869-bib-0031"><mixed-citation publication-type="journal" id="msb166869-cit-0031">
+<string-name>
+<surname>Mayer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>di Iulio</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Maleri</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Eser</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Vierstra</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Reynolds</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sandstrom</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Stamatoyannopoulos</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Churchman</surname>
+<given-names>LS</given-names>
+</string-name> (<year>2015</year>) <article-title>Native elongating transcript sequencing reveals human transcriptional activity at nucleotide resolution</article-title>. <source>Cell</source>
+<volume>161</volume>: <fpage>541</fpage>&#x02013;<lpage>554</lpage>
+<pub-id pub-id-type="pmid">25910208</pub-id></mixed-citation></ref><ref id="msb166869-bib-0032"><mixed-citation publication-type="journal" id="msb166869-cit-0032">
+<string-name>
+<surname>Meinel</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Burkert&#x02010;Kautzsch</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kieser</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>O'Duibhir</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Siebert</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>S&#x000f6;ding</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Holstege</surname>
+<given-names>FCP</given-names>
+</string-name>, <string-name>
+<surname>Str&#x000e4;&#x000df;er</surname>
+<given-names>K</given-names>
+</string-name> (<year>2013</year>) <article-title>Recruitment of TREX to the transcription machinery by its direct binding to the Phospho&#x02010;CTD of RNA polymerase II</article-title>. <source>PLoS Genet</source>
+<volume>9</volume>: <fpage>e1003914</fpage>
+<pub-id pub-id-type="pmid">24244187</pub-id></mixed-citation></ref><ref id="msb166869-bib-0033"><mixed-citation publication-type="journal" id="msb166869-cit-0033">
+<string-name>
+<surname>Moehle</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name>
+<surname>Braberg</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Krogan</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name>
+<surname>Guthrie</surname>
+<given-names>C</given-names>
+</string-name> (<year>2014</year>) <article-title>Adventures in time and space: splicing efficiency and RNA polymerase II elongation rate</article-title>. <source>RNA Biol</source>
+<volume>11</volume>: <fpage>313</fpage>&#x02013;<lpage>319</lpage>
+<pub-id pub-id-type="pmid">24717535</pub-id></mixed-citation></ref><ref id="msb166869-bib-0034"><mixed-citation publication-type="journal" id="msb166869-cit-0034">
+<string-name>
+<surname>Neil</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Malabat</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>d'Aubenton&#x02010;Carafa</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Steinmetz</surname>
+<given-names>LM</given-names>
+</string-name>, <string-name>
+<surname>Jacquier</surname>
+<given-names>A</given-names>
+</string-name> (<year>2009</year>) <article-title>Widespread bidirectional promoters are the major source of cryptic transcripts in yeast</article-title>. <source>Nature</source>
+<volume>457</volume>: <fpage>1038</fpage>&#x02013;<lpage>1042</lpage>
+<pub-id pub-id-type="pmid">19169244</pub-id></mixed-citation></ref><ref id="msb166869-bib-0035"><mixed-citation publication-type="journal" id="msb166869-cit-0035">
+<string-name>
+<surname>Nojima</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Gomes</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Grosso</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name>
+<surname>Kimura</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Dye</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Dhir</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Carmo&#x02010;Fonseca</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Proudfoot</surname>
+<given-names>NJ</given-names>
+</string-name> (<year>2015</year>) <article-title>Mammalian NET&#x02010;seq reveals genome&#x02010;wide nascent transcription coupled to RNA processing</article-title>. <source>Cell</source>
+<volume>161</volume>: <fpage>526</fpage>&#x02013;<lpage>540</lpage>
+<pub-id pub-id-type="pmid">25910207</pub-id></mixed-citation></ref><ref id="msb166869-bib-0036"><mixed-citation publication-type="journal" id="msb166869-cit-0036">
+<string-name>
+<surname>Pefanis</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Rothschild</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Lim</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kazadi</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Federation</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Chao</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Elliott</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>Z&#x02010;P</given-names>
+</string-name>, <string-name>
+<surname>Economides Aris</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Bradner James</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Rabadan</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Basu</surname>
+<given-names>U</given-names>
+</string-name> (<year>2015</year>) <article-title>RNA exosome&#x02010;regulated long non&#x02010;coding RNA transcription controls super&#x02010;enhancer activity</article-title>. <source>Cell</source>
+<volume>161</volume>: <fpage>774</fpage>&#x02013;<lpage>789</lpage>
+<pub-id pub-id-type="pmid">25957685</pub-id></mixed-citation></ref><ref id="msb166869-bib-0037"><mixed-citation publication-type="journal" id="msb166869-cit-0037">
+<string-name>
+<surname>Preker</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Nielsen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kammler</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Lykke&#x02010;Andersen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Christensen</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Mapendano</surname>
+<given-names>CK</given-names>
+</string-name>, <string-name>
+<surname>Schierup</surname>
+<given-names>MH</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>TH</given-names>
+</string-name> (<year>2008</year>) <article-title>RNA exosome depletion reveals transcription upstream of active human promoters science</article-title>. <source>Science</source>
+<volume>322</volume>: <fpage>1851</fpage>&#x02013;<lpage>1854</lpage>
+<pub-id pub-id-type="pmid">19056938</pub-id></mixed-citation></ref><ref id="msb166869-bib-0038"><mixed-citation publication-type="journal" id="msb166869-cit-0038">
+<string-name>
+<surname>Preker</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Almvig</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Christensen</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Valen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Mapendano</surname>
+<given-names>CK</given-names>
+</string-name>, <string-name>
+<surname>Sandelin</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>TH</given-names>
+</string-name> (<year>2011</year>) <article-title>PROMoter uPstream Transcripts share characteristics with mRNAs and are produced upstream of all three major types of mammalian promoters</article-title>. <source>Nucleic Acids Res</source>
+<volume>39</volume>: <fpage>7179</fpage>&#x02013;<lpage>7193</lpage>
+<pub-id pub-id-type="pmid">21596787</pub-id></mixed-citation></ref><ref id="msb166869-bib-0039"><mixed-citation publication-type="journal" id="msb166869-cit-0039">
+<string-name>
+<surname>Quinlan</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name>
+<surname>Hall</surname>
+<given-names>IM</given-names>
+</string-name> (<year>2010</year>) <article-title>BEDTools: a flexible suite of utilities for comparing genomic features</article-title>. <source>Bioinformatics</source>
+<volume>26</volume>: <fpage>841</fpage>&#x02013;<lpage>842</lpage>
+<pub-id pub-id-type="pmid">20110278</pub-id></mixed-citation></ref><ref id="msb166869-bib-0040"><mixed-citation publication-type="journal" id="msb166869-cit-0040">
+<string-name>
+<surname>Rosonina</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Yurko</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Hoque</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Tian</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Manley</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2014</year>) <article-title>Threonine&#x02010;4 of the budding yeast RNAP II CTD couples transcription with Htz1&#x02010;mediated chromatin remodeling</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>111</volume>: <fpage>11924</fpage>&#x02013;<lpage>11931</lpage>
+<pub-id pub-id-type="pmid">25071213</pub-id></mixed-citation></ref><ref id="msb166869-bib-0041"><mixed-citation publication-type="journal" id="msb166869-cit-0041">
+<string-name>
+<surname>Schneider</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kudla</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Wlotzka</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Tuck</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Tollervey</surname>
+<given-names>D</given-names>
+</string-name> (<year>2012</year>) <article-title>Transcriptome&#x02010;wide analysis of exosome targets</article-title>. <source>Mol Cell</source>
+<volume>48</volume>: <fpage>422</fpage>&#x02013;<lpage>433</lpage>
+<pub-id pub-id-type="pmid">23000172</pub-id></mixed-citation></ref><ref id="msb166869-bib-0042"><mixed-citation publication-type="journal" id="msb166869-cit-0042">
+<string-name>
+<surname>Schreieck</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Easter</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name>
+<surname>Etzold</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Wiederhold</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Lidschreiber</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Passmore</surname>
+<given-names>LA</given-names>
+</string-name> (<year>2014</year>) <article-title>RNA polymerase II termination involves C&#x02010;terminal&#x02010;domain tyrosine dephosphorylation by CPF subunit Glc7</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>21</volume>: <fpage>175</fpage>&#x02013;<lpage>179</lpage>
+<pub-id pub-id-type="pmid">24413056</pub-id></mixed-citation></ref><ref id="msb166869-bib-0043"><mixed-citation publication-type="journal" id="msb166869-cit-0043">
+<string-name>
+<surname>Sch&#x000fc;ller</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Forn&#x000e9;</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Straub</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Schreieck</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Texier</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Shah</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Decker</surname>
+<given-names>T&#x02010;M</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Imhof</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Eick</surname>
+<given-names>D</given-names>
+</string-name> (<year>2016</year>) <article-title>Heptad&#x02010;Specific Phosphorylation of RNA Polymerase II CTD</article-title>. <source>Mol Cell</source>
+<volume>61</volume>: <fpage>305</fpage>&#x02013;<lpage>314</lpage>
+<pub-id pub-id-type="pmid">26799765</pub-id></mixed-citation></ref><ref id="msb166869-bib-0044"><mixed-citation publication-type="journal" id="msb166869-cit-0044">
+<string-name>
+<surname>Schulz</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Schwalb</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Kiesel</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Baejen</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Torkler</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Gagneur</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Soeding</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name> (<year>2013</year>) <article-title>Transcriptome surveillance by selective termination of noncoding RNA synthesis</article-title>. <source>Cell</source>
+<volume>155</volume>: <fpage>1075</fpage>&#x02013;<lpage>1087</lpage>
+<pub-id pub-id-type="pmid">24210918</pub-id></mixed-citation></ref><ref id="msb166869-bib-0045"><mixed-citation publication-type="journal" id="msb166869-cit-0045">
+<string-name>
+<surname>Segref</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sharma</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Doye</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Hellwig</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Luhrmann</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Hurt</surname>
+<given-names>E</given-names>
+</string-name> (<year>1997</year>) <article-title>Mex67p, a novel factor for nuclear mRNA export, binds to both poly(A)+ RNA and nuclear pores</article-title>. <source>EMBO J</source>
+<volume>16</volume>: <fpage>3256</fpage>&#x02013;<lpage>3271</lpage>
+<pub-id pub-id-type="pmid">9214641</pub-id></mixed-citation></ref><ref id="msb166869-bib-0046"><mixed-citation publication-type="journal" id="msb166869-cit-0046">
+<string-name>
+<surname>Seila</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Calabrese</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Levine</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Yeo</surname>
+<given-names>GW</given-names>
+</string-name>, <string-name>
+<surname>Rahl</surname>
+<given-names>PB</given-names>
+</string-name>, <string-name>
+<surname>Flynn</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Sharp</surname>
+<given-names>PA</given-names>
+</string-name> (<year>2008</year>) <article-title>Divergent transcription from active promoters</article-title>. <source>Science</source>
+<volume>322</volume>: <fpage>1849</fpage>&#x02013;<lpage>1851</lpage>
+<pub-id pub-id-type="pmid">19056940</pub-id></mixed-citation></ref><ref id="msb166869-bib-0047"><mixed-citation publication-type="journal" id="msb166869-cit-0047">
+<string-name>
+<surname>Suh</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Ficarro Scott</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Kang</surname>
+<given-names>U&#x02010;B</given-names>
+</string-name>, <string-name>
+<surname>Chun</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Marto Jarrod</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Buratowski</surname>
+<given-names>S</given-names>
+</string-name> (<year>2016</year>) <article-title>Direct Analysis of Phosphorylation Sites on the Rpb1 C&#x02010;Terminal Domain of RNA Polymerase II</article-title>. <source>Mol Cell</source>
+<volume>61</volume>: <fpage>297</fpage>&#x02013;<lpage>304</lpage>
+<pub-id pub-id-type="pmid">26799764</pub-id></mixed-citation></ref><ref id="msb166869-bib-0048"><mixed-citation publication-type="journal" id="msb166869-cit-0048">
+<string-name>
+<surname>Taft</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Simons</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Nahkuri</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Oey</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Korbie</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Mercer</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name>
+<surname>Holst</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ritchie</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Wong</surname>
+<given-names>JJL</given-names>
+</string-name>, <string-name>
+<surname>Rasko</surname>
+<given-names>JEJ</given-names>
+</string-name>, <string-name>
+<surname>Rokhsar</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name>
+<surname>Degnan</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name>
+<surname>Mattick</surname>
+<given-names>JS</given-names>
+</string-name> (<year>2010</year>) <article-title>Nuclear&#x02010;localized tiny RNAs are associated with transcription initiation and splice sites in metazoans</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>17</volume>: <fpage>1030</fpage>&#x02013;<lpage>1034</lpage>
+<pub-id pub-id-type="pmid">20622877</pub-id></mixed-citation></ref><ref id="msb166869-bib-0049"><mixed-citation publication-type="journal" id="msb166869-cit-0049">
+<string-name>
+<surname>Terzi</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Churchman</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name>
+<surname>Vasiljeva</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Weissman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Buratowski</surname>
+<given-names>S</given-names>
+</string-name> (<year>2011</year>) <article-title>H3K4 trimethylation by Set1 promotes efficient termination by the Nrd1&#x02010;Nab3&#x02010;Sen1 pathway</article-title>. <source>Mol Cell Biol</source>
+<volume>31</volume>: <fpage>3569</fpage>&#x02013;<lpage>3583</lpage>
+<pub-id pub-id-type="pmid">21709022</pub-id></mixed-citation></ref><ref id="msb166869-bib-0050"><mixed-citation publication-type="journal" id="msb166869-cit-0050">
+<string-name>
+<surname>Thiebaut</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kisseleva&#x02010;Romanova</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Rougemaille</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Boulay</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Libri</surname>
+<given-names>D</given-names>
+</string-name> (<year>2006</year>) <article-title>Transcription termination and nuclear degradation of cryptic unstable transcripts: a role for the Nrd1&#x02010;Nab3 pathway in genome surveillance</article-title>. <source>Mol Cell</source>
+<volume>23</volume>: <fpage>853</fpage>&#x02013;<lpage>864</lpage>
+<pub-id pub-id-type="pmid">16973437</pub-id></mixed-citation></ref><ref id="msb166869-bib-0051"><mixed-citation publication-type="journal" id="msb166869-cit-0051">
+<string-name>
+<surname>Tuck</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Tollervey</surname>
+<given-names>D</given-names>
+</string-name> (<year>2013</year>) <article-title>A transcriptome&#x02010;wide atlas of RNP composition reveals diverse classes of mRNAs and lncRNAs</article-title>. <source>Cell</source>
+<volume>154</volume>: <fpage>996</fpage>&#x02013;<lpage>1009</lpage>
+<pub-id pub-id-type="pmid">23993093</pub-id></mixed-citation></ref><ref id="msb166869-bib-0052"><mixed-citation publication-type="journal" id="msb166869-cit-0052">
+<string-name>
+<surname>Tudek</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Porrua</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Kabzinski</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Lidschreiber</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kubicek</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Fortova</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lacroute</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Vanacova</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Stefl</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Libri</surname>
+<given-names>D</given-names>
+</string-name> (<year>2014</year>) <article-title>Molecular basis for coordinating transcription termination with noncoding RNA degradation</article-title>. <source>Mol Cell</source>
+<volume>55</volume>: <fpage>467</fpage>&#x02013;<lpage>481</lpage>
+<pub-id pub-id-type="pmid">25066235</pub-id></mixed-citation></ref><ref id="msb166869-bib-0053"><mixed-citation publication-type="journal" id="msb166869-cit-0053">
+<string-name>
+<surname>Vasiljeva</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Mutschler</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Buratowski</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Meinhart</surname>
+<given-names>A</given-names>
+</string-name> (<year>2008</year>) <article-title>The Nrd1&#x02010;Nab3&#x02010;Sen1 termination complex interacts with the Ser5&#x02010;phosphorylated RNA polymerase II C&#x02010;terminal domain</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>15</volume>: <fpage>795</fpage>&#x02013;<lpage>804</lpage>
+<pub-id pub-id-type="pmid">18660819</pub-id></mixed-citation></ref><ref id="msb166869-bib-0054"><mixed-citation publication-type="journal" id="msb166869-cit-0054">
+<string-name>
+<surname>Webb</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hector</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Kudla</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Granneman</surname>
+<given-names>S</given-names>
+</string-name> (<year>2014</year>) <article-title>PAR&#x02010;CLIP data indicate that Nrd1&#x02010;Nab3&#x02010;dependent transcription termination regulates expression of hundreds of protein coding genes in yeast</article-title>. <source>Genome Biol</source>
+<volume>15</volume>: <fpage>R8</fpage>
+<pub-id pub-id-type="pmid">24393166</pub-id></mixed-citation></ref><ref id="msb166869-bib-0055"><mixed-citation publication-type="journal" id="msb166869-cit-0055">
+<string-name>
+<surname>Weiner</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Hughes</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Yassour</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rando</surname>
+<given-names>OJ</given-names>
+</string-name>, <string-name>
+<surname>Friedman</surname>
+<given-names>N</given-names>
+</string-name> (<year>2010</year>) <article-title>High&#x02010;resolution nucleosome mapping reveals transcription&#x02010;dependent promoter packaging</article-title>. <source>Genome Res</source>
+<volume>20</volume>: <fpage>90</fpage>&#x02013;<lpage>100</lpage>
+<pub-id pub-id-type="pmid">19846608</pub-id></mixed-citation></ref><ref id="msb166869-bib-0056"><mixed-citation publication-type="journal" id="msb166869-cit-0056">
+<string-name>
+<surname>Wlotzka</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Kudla</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Granneman</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Tollervey</surname>
+<given-names>D</given-names>
+</string-name> (<year>2011</year>) <article-title>The nuclear RNA polymerase II surveillance system targets polymerase III transcripts</article-title>. <source>EMBO J</source>
+<volume>30</volume>: <fpage>1790</fpage>&#x02013;<lpage>1803</lpage>
+<pub-id pub-id-type="pmid">21460797</pub-id></mixed-citation></ref><ref id="msb166869-bib-0057"><mixed-citation publication-type="journal" id="msb166869-cit-0057">
+<string-name>
+<surname>Wyers</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Rougemaille</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Badis</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Rousselle</surname>
+<given-names>J&#x02010;C</given-names>
+</string-name>, <string-name>
+<surname>Dufour</surname>
+<given-names>M&#x02010;E</given-names>
+</string-name>, <string-name>
+<surname>Boulay</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>R&#x000e9;gnault</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Devaux</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Namane</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>S&#x000e9;raphin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Libri</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Jacquier</surname>
+<given-names>A</given-names>
+</string-name> (<year>2005</year>) <article-title>Cryptic Pol II transcripts are degraded by a nuclear quality control pathway involving a new poly(A) polymerase</article-title>. <source>Cell</source>
+<volume>121</volume>: <fpage>725</fpage>&#x02013;<lpage>737</lpage>
+<pub-id pub-id-type="pmid">15935759</pub-id></mixed-citation></ref><ref id="msb166869-bib-0058"><mixed-citation publication-type="journal" id="msb166869-cit-0058">
+<string-name>
+<surname>Xu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Wei</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Gagneur</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Perocchi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Clauder&#x02010;Munster</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Camblong</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Guffanti</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Stutz</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Steinmetz</surname>
+<given-names>LM</given-names>
+</string-name> (<year>2009</year>) <article-title>Bidirectional promoters generate pervasive transcription in yeast</article-title>. <source>Nature</source>
+<volume>457</volume>: <fpage>1033</fpage>&#x02013;<lpage>1037</lpage>
+<pub-id pub-id-type="pmid">19169243</pub-id></mixed-citation></ref><ref id="msb166869-bib-0059"><mixed-citation publication-type="journal" id="msb166869-cit-0059">
+<string-name>
+<surname>Zacher</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Lidschreiber</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Gagneur</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Tresch</surname>
+<given-names>A</given-names>
+</string-name> (<year>2014</year>) <article-title>Annotation of genomics data using bidirectional hidden Markov models unveils variations in Pol II transcription cycle</article-title>. <source>Molec Sys Biol</source>
+<volume>10</volume>: <fpage>768</fpage>
+</mixed-citation></ref><ref id="msb166869-bib-0060"><mixed-citation publication-type="journal" id="msb166869-cit-0060">
+<string-name>
+<surname>Zovoilis</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Mungall</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Moore</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Varhol</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Chu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Wong</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Marra</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>
+<given-names>SJM</given-names>
+</string-name> (<year>2014</year>) <article-title>The expression level of small non&#x02010;coding RNAs derived from the first exon of protein&#x02010;coding genes is predictive of cancer status</article-title>. <source>EMBO Rep</source>
+<volume>15</volume>: <fpage>402</fpage>&#x02013;<lpage>410</lpage>
+<pub-id pub-id-type="pmid">24534129</pub-id></mixed-citation></ref></ref-list></back></article>

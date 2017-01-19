@@ -1,0 +1,964 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Syst Biol</journal-id><journal-id journal-id-type="iso-abbrev">Mol. Syst. Biol</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1744-4292</journal-id><journal-id journal-id-type="publisher-id">MSB</journal-id><journal-id journal-id-type="hwp">msb</journal-id><journal-title-group><journal-title>Molecular Systems Biology</journal-title></journal-title-group><issn pub-type="epub">1744-4292</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5081484</article-id><article-id pub-id-type="doi">10.15252/msb.20167144</article-id><article-id pub-id-type="publisher-id">MSB167144</article-id><article-categories><subj-group subj-group-type="overline"><subject>Article</subject></subj-group><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>Gene&#x02010;specific correlation of <styled-content style="fixed-case">RNA</styled-content> and protein levels in human cells and tissues</article-title><alt-title alt-title-type="left-running-head">Fredrik Edfors <italic>et&#x000a0;al</italic></alt-title></title-group><contrib-group><contrib id="msb167144-cr-0001" contrib-type="author"><name><surname>Edfors</surname><given-names>Fredrik</given-names></name><xref ref-type="aff" rid="msb167144-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb167144-cr-0002" contrib-type="author"><name><surname>Danielsson</surname><given-names>Frida</given-names></name><xref ref-type="aff" rid="msb167144-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb167144-cr-0003" contrib-type="author"><name><surname>Hallstr&#x000f6;m</surname><given-names>Bj&#x000f6;rn M</given-names></name><xref ref-type="aff" rid="msb167144-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb167144-cr-0004" contrib-type="author"><name><surname>K&#x000e4;ll</surname><given-names>Lukas</given-names></name><xref ref-type="aff" rid="msb167144-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb167144-cr-0005" contrib-type="author"><name><surname>Lundberg</surname><given-names>Emma</given-names></name><xref ref-type="aff" rid="msb167144-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb167144-cr-0006" contrib-type="author"><name><surname>Pont&#x000e9;n</surname><given-names>Fredrik</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0003-0703-3940</contrib-id><xref ref-type="aff" rid="msb167144-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="msb167144-cr-0007" contrib-type="author"><name><surname>Forsstr&#x000f6;m</surname><given-names>Bj&#x000f6;rn</given-names></name><xref ref-type="aff" rid="msb167144-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="msb167144-cr-0008" contrib-type="author" corresp="yes"><name><surname>Uhl&#x000e9;n</surname><given-names>Mathias</given-names></name><contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-4858-8056</contrib-id><address><email>mathias.uhlen@scilifelab.se</email></address><xref ref-type="aff" rid="msb167144-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="msb167144-aff-0003">
+<sup>3</sup>
+</xref></contrib></contrib-group><aff id="msb167144-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Science for Life Laboratory</named-content><institution>KTH &#x02013; Royal Institute of Technology</institution><named-content content-type="city">Stockholm</named-content><country country="SE">Sweden</country></aff><aff id="msb167144-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Department of Immunology, Genetics and Pathology</named-content><named-content content-type="organisation-division">Rudbeck Laboratory</named-content><institution>Uppsala University</institution><named-content content-type="city">Uppsala</named-content><country country="SE">Sweden</country></aff><aff id="msb167144-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Novo Nordisk Foundation Center for Biosustainability</named-content><institution>Technical University of Denmark</institution><named-content content-type="city">H&#x000f8;rsholm</named-content><country country="DK">Denmark</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label>Corresponding author. Tel: +46 70 5132101; E&#x02010;mail: <email>mathias.uhlen@scilifelab.se</email></corresp></author-notes><pub-date pub-type="epub"><day>26</day><month>10</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>10</month><year>2016</year></pub-date><volume>12</volume><issue>10</issue><issue-id pub-id-type="doi">10.1002/msb.v12.10</issue-id><elocation-id>883</elocation-id><history><date date-type="received"><day>05</day><month>7</month><year>2016</year></date><date date-type="rev-recd"><day>05</day><month>9</month><year>2016</year></date><date date-type="accepted"><day>15</day><month>9</month><year>2016</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 EMBO <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2016 The Authors. Published under the terms of the CC BY 4.0 license</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:MSB-12-883.pdf"/><abstract id="msb167144-abs-0001"><title>Abstract</title><p>An important issue for molecular biology is to establish whether transcript levels of a given gene can be used as proxies for the corresponding protein levels. Here, we have developed a targeted proteomics approach for a set of human non&#x02010;secreted proteins based on parallel reaction monitoring to measure, at steady&#x02010;state conditions, absolute protein copy numbers across human tissues and cell lines and compared these levels with the corresponding <styled-content style="fixed-case">mRNA</styled-content> levels using transcriptomics. The study shows that the transcript and protein levels do not correlate well unless a gene&#x02010;specific RNA&#x02010;to&#x02010;protein (<styled-content style="fixed-case">RTP</styled-content>) conversion factor independent of the tissue type is introduced, thus significantly enhancing the predictability of protein copy numbers from <styled-content style="fixed-case">RNA</styled-content> levels. The results show that the <styled-content style="fixed-case">RTP</styled-content> ratio varies significantly with a few hundred copies per <styled-content style="fixed-case">mRNA</styled-content> molecule for some genes to several hundred thousands of protein copies per <styled-content style="fixed-case">mRNA</styled-content> molecule for others. In conclusion, our data suggest that transcriptome analysis can be used as a tool to predict the protein copy numbers per cell, thus forming an attractive link between the field of genomics and proteomics.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="msb167144-kwd-0001">gene expression</kwd><kwd id="msb167144-kwd-0002">protein quantification</kwd><kwd id="msb167144-kwd-0003">targeted proteomics</kwd><kwd id="msb167144-kwd-0004">transcriptomics</kwd></kwd-group><kwd-group kwd-group-type="subject-categories"><title>Subject Categories</title><kwd>Genome-Scale &#x00026; Integrative Biology</kwd><kwd>Post-translational Modifications, Proteolysis &#x00026; Proteomics</kwd><kwd>Transcription</kwd></kwd-group><funding-group><award-group><funding-source>Knut and Alice Wallenberg Foundation</funding-source></award-group></funding-group><funding-group><award-group><funding-source>Erling Persson Foundation</funding-source></award-group></funding-group><counts><fig-count count="11"/><table-count count="0"/><page-count count="10"/><word-count count="8580"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>msb167144</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>October 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.6 mode:remove_FC converted:27.10.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="msb167144-cit-1001">
+<source>Mol Syst Biol</source>. (<year>2016</year>) <volume>12</volume>: 883</mixed-citation>
+</p></notes><notes><p><related-article id="msb167144-note-1001" related-article-type="companion" xlink:href="10.15252/msb.20167325" ext-link-type="doi"/>See also: <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.15252/msb.20167325">GM Silva and C Vogel</ext-link> (October 2016)</p></notes></front><body><sec id="msb167144-sec-0001"><title>Introduction</title><p>Fundamental biological processes govern the flow of information from genome to gene product to cellular phenotype (Payne, <xref rid="msb167144-bib-0023" ref-type="ref">2015</xref>). The correlation between mRNA levels and the corresponding protein levels is in this context an important issue, and the presence or absence of such correlation on an individual gene/protein level has been debated in literature for many years (Anderson &#x00026; Seilhamer, <xref rid="msb167144-bib-0002" ref-type="ref">1997</xref>; Gry <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0009" ref-type="ref">2009</xref>; Maier <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0016" ref-type="ref">2009</xref>, <xref rid="msb167144-bib-0017" ref-type="ref">2011</xref>; Lundberg &#x00026; Uhl&#x000e9;n, <xref rid="msb167144-bib-0014" ref-type="ref">2010</xref>; Schwanh&#x000e4;usser <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0026" ref-type="ref">2011</xref>; Lawless <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0012" ref-type="ref">2016</xref>). Resolving these conflicting reports is of fundamental interest for both genome and proteome research, since massive efforts to characterize the steady&#x02010;state transcriptome in various human cells and tissues are ongoing, including the HPA (Uhl&#x000e9;n <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0032" ref-type="ref">2015</xref>), GTEx consortium (Mel&#x000e9; <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0019" ref-type="ref">2015</xref>), and ENCODE (ENCODE Project Consortium <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0006" ref-type="ref">2012</xref>) efforts. If RNA levels could be used to predict protein levels, the value of these extensive expression resources would substantially increase, thereby allowing protein level prediction studies based on genomewide transcriptomics data tremendously benefit systems biology efforts of human biology and disease. However, numerous reports have concluded (Nagaraj <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0022" ref-type="ref">2011</xref>; Vogel &#x00026; Marcotte, <xref rid="msb167144-bib-0033" ref-type="ref">2012</xref>; Payne, <xref rid="msb167144-bib-0023" ref-type="ref">2015</xref>) that proteome and transcriptome abundances are not sufficiently correlated to act as proxies for each other. In contrast, several recent reports based on genome&#x02010;scale data have suggested a correlation between the steady&#x02010;state levels of mRNA indicating a constant protein&#x02013;mRNA ratio in human cell lines (Lundberg <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0013" ref-type="ref">2010</xref>) and tissues (Wilhelm <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0034" ref-type="ref">2014</xref>). This led to the hypothesis that protein abundance in any given tissue might be predicted from mRNA abundance (Wilhelm <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0034" ref-type="ref">2014</xref>). These conflicting results thus call for more in&#x02010;depth studies to clarify this issue.</p><p>Here, we decided to investigate the correlation using a targeted proteomics approach with internal standards to allow the determination of the absolute copy number of molecules across human cell lines and tissues, in contrast to previous studies based on label&#x02010;free absolute quantification of proteins that have been shown to underestimate proteins over large dynamic ranges (Ahrn&#x000e9; <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0001" ref-type="ref">2013</xref>). The targeted proteomics method rely on spike&#x02010;in of known amounts of stable isotope&#x02010;labeled protein fragments (Zeiler <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0037" ref-type="ref">2012</xref>) followed by trypsin digestion and parallel reaction monitoring (PRM) analysis (Gallien <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0007" ref-type="ref">2012</xref>) to determine relative amounts of peptides from sample and internal standard, thereby creating precise anchoring points for all quantitative measurements between all replicates and thus minimizing technical artifacts. Absolute protein copy numbers in the sample can subsequently be calculated from the ratio measured between sample and standard peptides. In contrast to similar methods using labeled peptides as standards, such as AQUA peptides (Gerber <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0008" ref-type="ref">2003</xref>), the protein fragments are digested simultaneously together with the target protein, which minimizes errors arising during sample preparation, such as the effect of incomplete trypsin digestion or sample loss prior addition of standard.</p><p>The protein copy numbers of selected genes were determined across tissues and cell lines representing cells of different origin, and the transcript levels corresponding to the protein&#x02010;coding genes were established by genomewide transcriptome analysis. This allowed us, for the first time, to compare absolute protein copy numbers per cell with transcript levels measured as TPM (transcripts per million) (Bray <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0003" ref-type="ref">2016</xref>). An important part of the study was to develop a precise cell count method based on a histone&#x02010;based normalization procedure to allow the absolute number of cells be established also for complex tissue samples containing mixtures of cell types. Based on this normalization and the precise determination of protein copy numbers, we demonstrate that the predictability of the protein copy numbers from RNA levels can be significantly enhanced if a gene&#x02010;specific, cell independent RNA&#x02010;to&#x02010;protein (RTP) conversion factor is introduced.</p></sec><sec id="msb167144-sec-0002"><title>Results</title><sec id="msb167144-sec-0003"><title>Selection of genes and development of PRM assays</title><p>The RNA and protein levels were studied in samples from nine human cell lines (<xref rid="msb167144-sup-0002" ref-type="supplementary-material">Table&#x000a0;EV1</xref>) and 11 human tissues representing diverse functional units, such as liver, lung, kidney, and tonsil (<xref rid="msb167144-sup-0003" ref-type="supplementary-material">Table&#x000a0;EV2</xref>). The transcriptome of these samples was determined using digital counting of the transcript using RNA&#x02010;Seq (Mortazavi <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0021" ref-type="ref">2008</xref>). The number of transcripts per gene was determined as transcript per million (TPM), thus calculating the number of estimated mRNA molecules for a given gene per million of total mRNA molecules in the cell, allowing for a straightforward comparison of transcription levels between samples of different sequencing depths and cell counts. Based on transcript analysis, genes for targeted proteomics analysis were selected based according to the following criteria: (i) intracellular or membrane bound protein product (i.e., non&#x02010;secreted), (ii) present across most of the analyzed tissues and cells, and (iii) having a relatively high degree of variability in the analyzed tissues and cells. This resulted in 55 genes suitable for PRM analysis with available protein standards. Transcriptomics data across the cell lines and tissues for these genes are shown in <xref rid="msb167144-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV3</xref>.</p><p>To allow for a precise determination of copy number of the corresponding proteins, PRM assays were developed (<xref rid="msb167144-sup-0005" ref-type="supplementary-material">Table&#x000a0;EV4</xref>) representing each of the 55 genes with stable isotope&#x02010;labeled recombinant protein fragments (QPrESTs) produced in a bacterial host and quantified as described before (Zeiler <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0037" ref-type="ref">2012</xref>). PRM assays, in most cases based on at least two independent peptides, were developed (<xref rid="msb167144-sup-0006" ref-type="supplementary-material">Table&#x000a0;EV5</xref>), and the sample&#x02010;specific concentration of isotope&#x02010;labeled standard to be spiked&#x02010;in to reach approximately one&#x02010;to&#x02010;one ratio between standard and endogenous target protein were determined using lysates from a selection of cell lines (U2OS and HEK293). This allowed us to assemble a multiplex mixture of 69 isotope&#x02010;labeled QPrEST standards, some genes covered by multiple standards, with the concentration of each standard reflecting the abundance of the corresponding protein targets in the cell lines. The assembly of this QPrEST mixture allowed us to perform multiplex analysis of all the 55 protein targets using targeted mass spectrometry.</p></sec><sec id="msb167144-sec-0004"><title>Normalization of tissue samples using PRM&#x02010;based histone quantification</title><p>To analyze the number of cells in the tissue samples, we took advantage of the QPrEST approach to develop a quantitative assay based on the four core histone subunits (H2A, H2B, H3, and H4) (Fig&#x000a0;<xref rid="msb167144-fig-0001" ref-type="fig">1</xref>A). Histones have previously been shown to give a good estimate of DNA content in various samples using label&#x02010;free approaches (Wi&#x0015b;niewski <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0036" ref-type="ref">2014</xref>), and here, we introduce isotope&#x02010;labeled recombinant QPrEST standards in all our assays representing the four major histones. An analysis of cell numbers present in the different tissue samples (Fig&#x000a0;<xref rid="msb167144-fig-0001" ref-type="fig">1</xref>B) showed that there are many more cells per mg tissue from spleen and tonsil as compared to heart. This observation is supported by immunohistochemistry (Fig&#x000a0;<xref rid="msb167144-fig-0001" ref-type="fig">1</xref>C) showing many more cells with nuclear staining in tonsil as compared to heart muscle. The number of proteins quantified in each tissue sample was therefore normalized based on the histones and subsequently used to calculate cell counts for each tissue in this study, as shown in <xref rid="msb167144-sup-0007" ref-type="supplementary-material">Table&#x000a0;EV6</xref>. Dilution series of these standards demonstrated a good linearity (Fig&#x000a0;<xref rid="msb167144-fig-0001" ref-type="fig">1</xref>D) based on an assay using the heavy standard spiked into a serial dilution of a U2OS cell lysate.</p><fig fig-type="Figure" xml:lang="en" id="msb167144-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><title>Determination of cell counts using the histone abundance for normalization</title><p>
+<list list-type="alpha-upper" id="msb167144-list-0002"><list-item><p>The core histones and overview of the corresponding QPrEST and peptide standards mapped out on the protein sequence.</p></list-item><list-item><p>Relative quantification of all four histone proteins in each tissue replicate (order of appearance per replicate: H2A, H2B, H3.3, and H4).</p></list-item><list-item><p>Immunohistochemistry images from the Human Protein Atlas (<ext-link ext-link-type="uri" xlink:href="http://www.proteinatlas.org">http://www.proteinatlas.org</ext-link>) for protein ANXA1 with nuclear staining (blue) for three selected tissues (scale bars&#x000a0;=&#x000a0;100&#x000a0;&#x003bc;m).</p></list-item><list-item><p>Calibration curves for two of the four histone peptides, with decreasing amount of QPrEST standard spiked into a U2OS cell lysate.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-5" xlink:href="MSB-12-883-g002"/></fig></sec><sec id="msb167144-sec-0005"><title>The protein copy number of the target genes in tissues and cell lines</title><p>Using the multiplex QPrEST mixture, the protein copy number for the 55 target proteins was determined in all the samples. The results for all cell lines and tissues are summarized in <xref rid="msb167144-sup-009" ref-type="supplementary-material">Table&#x000a0;EV8</xref>, and examples of the results are summarized in Fig&#x000a0;<xref rid="msb167144-fig-0002" ref-type="fig">2</xref>A. The protein levels for the various target proteins ranged from thousands to hundreds of millions of copies per cell. As an example, the absolute copy number per average cell in the kidney ranged from 20,500 protein molecules for a nucleotidase (CANT1) to 15 million for a leukocyte elastase inhibitor (SERPINB1). Interestingly, the absolute copy numbers per cell of many of the target proteins are significantly different in the kidney&#x02010;derived cell line HEK293 demonstrating, as noted earlier (Uhl&#x000e9;n <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0032" ref-type="ref">2015</xref>), that caution should be taken to use cell lines as models for normal tissue. This observation is supported also when comparing the absolute copy number of proteins in liver and the liver&#x02010;derived cell line HepG2, the lung and the lung&#x02010;derived cell line A549, and the breast and the breast&#x02010;derived cell line MCF7.</p><fig fig-type="Figure" xml:lang="en" id="msb167144-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><title>Absolute copy number of proteins in tissues and corresponding cell lines</title><p>
+<list list-type="alpha-upper" id="msb167144-list-0003"><list-item><p>Absolute copy number of protein in kidney tissue and human embryonal kidney cells (HEK293), liver tissue and liver cancer cell line (HepG2), lung tissue and lung cancer cell line (A549), and breast tissue and breast cancer cell line (MCF7). The order of proteins is the same in the tissue and corresponding cell line, and the proteins have been ordered according to the abundance in the respective tissue.</p></list-item><list-item><p>The direct correlation between RNA (TPM) and protein abundances (copy number) for all quantified genes in the same tissues and cell lines. Spearman's (&#x003c1;) and Pearson's (<italic>r</italic>) correlation between the two values across the quantified genes are shown. The other seven tissues and five cell lines are shown in Fig <xref rid="msb167144-fig-0004ev" ref-type="fig">EV4</xref>.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-7" xlink:href="MSB-12-883-g004"/></fig></sec><sec id="msb167144-sec-0006"><title>The direct correlation between RNA and protein levels in tissues and cell lines</title><p>We then decided to compare directly the RNA and protein levels of the target genes in the different tissues and cell lines. In Fig&#x000a0;<xref rid="msb167144-fig-0002" ref-type="fig">2</xref>B, the RNA levels and protein copy number for the analyzed genes are plotted for some of the cell lines and tissues. A moderate correlation can be observed, and this is reflected in calculation of the Pearson's correlations across the genes. The Pearson's correlation range from 0.39 in the kidney&#x02010;derived HEK293 to 0.79 in the breast&#x02010;derived cell line MCF7 with a correlation around 0.6 for all the tissues. These results are in line with earlier results (Schwanh&#x000e4;usser <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0027" ref-type="ref">2013</xref>) showing a moderate correlation when RNA and protein levels are compared directly without taking gene&#x02010;specific differences into account.</p></sec><sec id="msb167144-sec-0007"><title>The gene&#x02010;specific correlation of RNA and protein levels for selected genes</title><p>Next, the gene&#x02010;specific RNA&#x02010;to&#x02010;protein correlation was investigated for each gene separately. In Fig&#x000a0;<xref rid="msb167144-fig-0003" ref-type="fig">3</xref>, some examples of the protein copy number and the RNA levels (TPM) are shown across the nine cell lines and the 11 tissues. For each gene, the correlation between RNA and protein levels across the cells and tissues was calculated as Spearman's (rho) or Pearson's (<italic>r</italic> or <italic>R</italic>
+<sup>2</sup>) correlations. The similarity of the ratio between RNA and protein levels across the cells of different origin allowed us also to calculate an average RNA&#x02010;to&#x02010;protein (RTP) ratio independent of cellular origin. As an example, selenium binding protein 1 (SELENBP1) shows a similar pattern of expression between RNA and protein levels across the samples and this is confirmed by a high Pearson's correlation (<italic>r</italic>&#x000a0;=&#x000a0;0.90, log&#x02010;log) resulting in an average RTP ratio of 220,000. Similarly, stomatin (STOM) shows a high correlation (<italic>r</italic>&#x000a0;=&#x000a0;0.89), but with a much lower average RTP ratio of 26,000. The third example, argininosuccinate synthetase 1 (ASS1), also shows a high correlation (<italic>r</italic>&#x000a0;=&#x000a0;0.89) with a slightly higher RTP ratio (32,500). In Fig&#x000a0;<xref rid="msb167144-fig-0001ev" ref-type="fig">EV1</xref>, the RNA and protein levels for all the 55 genes are shown and the Pearson's and Spearman's correlations with the average RTP ratios are summarized in <xref rid="msb167144-sup-0008" ref-type="supplementary-material">Table&#x000a0;EV7</xref>. The gene&#x02010;specific RNA&#x02010;to&#x02010;protein conversion factor is shown for all genes and samples, and in Fig&#x000a0;<xref rid="msb167144-fig-0004" ref-type="fig">4</xref>A, the RTP ratio across the nine cell lines and eleven tissues are summarized as box&#x02010;plots to visualized the variation of RTP values between the samples, but also between different genes. The analysis suggests that the RTP ratios are relatively constant for an individual gene independent of origin of cell and tissue, although the ratio differs significantly between the genes with the RTP ratios varying from 200 for a transcription factor (MYBL2) to 220,000 for SERPINB1, most likely reflecting differences in translation rate and/or protein degradation for individual proteins. In Fig&#x000a0;<xref rid="msb167144-fig-0002ev" ref-type="fig">EV2</xref>A, the coefficient of variation of the RTP ratios is plotted versus protein length showing a tendency for higher variation for longer proteins across the analyzed samples, although general statements must be verified with analysis of more genes in the future.</p><fig fig-type="Figure" xml:lang="en" id="msb167144-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><title>The protein and <styled-content style="fixed-case">RNA</styled-content> levels for three genes</title><p>Subcellular localization by immunofluorescence staining and immunohistochemistry staining in tissue sections by three different antibodies (<styled-content style="fixed-case">SELENBP</styled-content>1, <styled-content style="fixed-case">HPA</styled-content>011731; <styled-content style="fixed-case">STOM</styled-content>,<styled-content style="fixed-case"> HPA</styled-content>010961; <styled-content style="fixed-case">ASS</styled-content>1, <styled-content style="fixed-case">HPA</styled-content>020896). Microtubule and nuclear probes are visualized in red and blue, respectively. Antibody staining is shown in green. <styled-content style="fixed-case">RNA</styled-content>&#x02010;to&#x02010;protein ratio across nine cell lines and 11 tissues with Spearman's &#x003c1;, Pearson's <italic>r</italic> and <italic>R</italic>
+<sup>2</sup> for each gene. All other genes can be found in Fig&#x000a0;<xref rid="msb167144-fig-0001ev" ref-type="fig">EV1</xref>.</p></caption><graphic id="nlm-graphic-9" xlink:href="MSB-12-883-g006"/></fig><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb167144-fig-0001ev" orientation="portrait" position="float"><label>Figure EV1</label><caption><title>Protein copy number and <styled-content style="fixed-case">RNA</styled-content> levels (<styled-content style="fixed-case">TPM</styled-content>) for all quantified genes</title><p>The absolute copy numbers of proteins (blue) and the level of RNA (purple) measured as TPM are shown for all 55 genes across nine cell lines and 11 tissues. All values can be found in <xref rid="msb167144-sup-0004" ref-type="supplementary-material">Table&#x000a0;EV3</xref> and <xref rid="msb167144-sup-0007" ref-type="supplementary-material">Table&#x000a0;EV6</xref>.</p></caption><graphic id="nlm-graphic-11" xlink:href="MSB-12-883-g003"/></fig><fig fig-type="Figure" xml:lang="en" id="msb167144-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><title>The correlation between the absolute copy number of proteins and the corresponding RNA levels (measured as TPM) in nine cell lines and 11 tissues</title><p>
+<list list-type="alpha-upper" id="msb167144-list-0004"><list-item><p>The gene&#x02010;specific RNA&#x02010;to&#x02010;protein correlation factors are shown for all the 55 genes with a box&#x02010;plot showing the average correlation factor for each gene and the variation observed in the nine cell lines and 11 tissues. All the values for each of the cell lines and tissues are found in <xref rid="msb167144-sup-0008" ref-type="supplementary-material">Table&#x000a0;EV7</xref>. Horizontal lines&#x000a0;=&#x000a0;median. The lower and upper &#x0201c;hinges&#x0201d; correspond to the first and third quartiles (the 25th and 75th percentiles). Length of the whiskers as multiple of IQR&#x000a0;=&#x000a0;1.5. </p></list-item><list-item><p>The gene&#x02010;specific correlation between protein copy number (<italic>x</italic>&#x02010;axis) and predicted protein copy number based on the RNA levels (RNA&#x02010;based prediction) is shown for four tissues and four cell lines. The other seven tissues and five cell lines are also shown in Fig EV5 and predicted copy numbers can be found in <xref rid="msb167144-sup-0010" ref-type="supplementary-material">Table&#x000a0;EV9</xref>.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-13" xlink:href="MSB-12-883-g008"/></fig><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb167144-fig-0002ev" orientation="portrait" position="float"><label>Figure EV2</label><caption><title>RNA&#x02010;to&#x02010;protein ratio and variation versus protein length</title><p>
+<list list-type="alpha-upper" id="msb167144-list-0006"><list-item><p>The variation measured as coefficient of variation (cv) across samples are plotted against the protein length.</p></list-item><list-item><p>The protein lengths for the 55 target proteins are plotted against the RTP ratio.</p></list-item></list>
+Data information: Test based on Pearson's product moment correlation coefficient and follows a <italic>t</italic>&#x02010;distribution with length(x)&#x02010;2 degrees of freedom if the samples follow independent normal distributions. An asymptotic confidence interval is given based on Fisher's <italic>Z</italic>&#x02010;transform.
+</p></caption><graphic id="nlm-graphic-15" xlink:href="MSB-12-883-g005"/></fig><p>In Fig&#x000a0;<xref rid="msb167144-fig-0002ev" ref-type="fig">EV2</xref>B, the RTP ratios are plotted versus protein length showing a tendency for higher RTP ratios for smaller sized proteins, although the generality of this must be further investigated by including more genes in the analysis. Interestingly, an analysis of the RTP ratios for proteins in different cellular compartments (Fig&#x000a0;<xref rid="msb167144-fig-0003ev" ref-type="fig">EV3</xref>) suggests that there are subcellular effects. As an example, higher RTP ratios are in general observed for proteins in the extracellular space. Again, this tendency must be further investigated with more genes before general statements can be made.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb167144-fig-0003ev" orientation="portrait" position="float"><label>Figure EV3</label><caption><title>RNA&#x02010;to&#x02010;protein ratios for proteins with different subcellular compartments</title><p>The number of <styled-content style="fixed-case">GO</styled-content>&#x02010;annotated (UniProt, August 1, 2016) proteins in each compartment with a given <styled-content style="fixed-case">RTP</styled-content> ratio is plotted (blue) with all other proteins not annotated to this compartment (red). <italic>P</italic>&#x02010;values are calculated using Student's <italic>t</italic>&#x02010;test. </p></caption><graphic id="nlm-graphic-17" xlink:href="MSB-12-883-g007"/></fig></sec><sec id="msb167144-sec-0008"><title>Prediction of protein copy number based on RTP ratios</title><p>The results above suggest that protein copy number can be roughly predicted from the corresponding RNA levels using a gene&#x02010;specific RTP ratio independent of cellular origin. Thus, the mean RNA values in each tissue and cell were multiplied with the gene&#x02010;specific RNA&#x02010;to&#x02010;protein conversion factor and the protein copy numbers predicted from the RNA values were plotted against the experimentally determined protein copy number for all the genes for some of the tissues and cell lines (Fig&#x000a0;<xref rid="msb167144-fig-0004" ref-type="fig">4</xref>B). Note that in each case, the gene&#x02010;specific RNA&#x02010;to&#x02010;protein conversion factor used for prediction of protein copy number was calculated from the other nineteen cells and tissues, excluding the plotted tissue in order to avoid overfitting. As shown, a good correlation can be observed across all the genes in each of the tissues and cells suggesting that the RNA levels can be used to predict the corresponding protein copy number per cell using the gene&#x02010;specific RTP ratio (Figs&#x000a0;<xref rid="msb167144-fig-0004ev" ref-type="fig">EV4</xref> and <xref rid="msb167144-fig-0005ev" ref-type="fig">EV5</xref>).</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb167144-fig-0004ev" orientation="portrait" position="float"><label>Figure EV4</label><caption><title>Protein copies per cell versus RNA levels (TPM) for all quantified genes in all cell lines and tissues</title><p>
+<list list-type="simple" id="msb167144-list-0007"><list-item><label>A, B</label><p>The direct correlation between <styled-content style="fixed-case">RNA</styled-content> (<styled-content style="fixed-case">TPM</styled-content>,<italic> y</italic>&#x02010;axis) and protein abundances (copy number, <italic>x</italic>&#x02010;axis) for all quantified genes in all cell lines (A) and tissues (B). The Spearman's (&#x003c1;) and Pearson's (<italic>r</italic>) correlations between the two values across the quantified genes are shown.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-19" xlink:href="MSB-12-883-g009"/></fig><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb167144-fig-0005ev" orientation="portrait" position="float"><label>Figure EV5</label><caption><title>Prediction of protein levels based on <styled-content style="fixed-case">TPM</styled-content> levels as compared to the experimentally derived protein copy number for all quantified genes in all cell lines and tissues</title><p>
+<list list-type="simple" id="msb167144-list-0008"><list-item><label>A, B</label><p>The gene&#x02010;specific correlation between protein copy number (<italic>x</italic>&#x02010;axis) and predicted protein copy number based on the <styled-content style="fixed-case">RNA</styled-content> levels (<styled-content style="fixed-case">RNA</styled-content>&#x02010;based prediction, <italic>y</italic>&#x02010;axis) in all cell lines (A) and tissues (B). The Spearman's (&#x003c1;) and Pearson's (<italic>r</italic>) correlations between the two values across the quantified genes are shown.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-21" xlink:href="MSB-12-883-g011"/></fig><p>The robustness of the prediction was assessed by varying the number of samples used for prediction of the RNA&#x02010;to&#x02010;protein conversion factor (Fig&#x000a0;<xref rid="msb167144-fig-0005" ref-type="fig">5</xref>A). The results show that the conversion factor calculated from four or more random samples (training set), predicting all other samples (test set), yields a median Pearson's correlation higher than 0.9. These results suggest that it is enough to determine the RTP ratio in a few cell lines or tissues and then used the mean to determine a &#x0201c;universal&#x0201d; gene&#x02010;specific RTP ratio to predict protein copy number across other cells and tissues.</p><fig fig-type="Figure" xml:lang="en" id="msb167144-fig-0005" orientation="portrait" position="float"><label>Figure 5</label><caption><title>The gene&#x02010;specific correlation between <styled-content style="fixed-case">RNA</styled-content> and protein levels</title><p>
+<list list-type="alpha-upper" id="msb167144-list-0005"><list-item><p>The gene&#x02010;specific correlation between protein copy number (<italic>x</italic>&#x02010;axis) and predicted protein copy number based on the RNA levels (RNA&#x02010;based prediction) is shown for all the 55 genes and all 20 cell lines and tissues. Horizontal lines&#x000a0;=&#x000a0;median. The lower and upper &#x0201c;hinges&#x0201d; correspond to the first and third quartiles (the 25th and 75th percentiles). Length of the whiskers as multiple of IQR. Defaults to 1.5. Circles indicate outliers.</p></list-item><list-item><p>The Pearson's correlation between RNA and protein levels for the 55 genes in the nine cell lines and 11 tissues is shown as a direct comparison of RNA and protein levels (purple, RNA versus protein) and after introducing the gene&#x02010;specific correlation factor (blue, RNA&#x02010;based prediction versus protein).</p></list-item><list-item><p>Density plot for the direct comparison between RNA and protein levels before and after introducing the RTP&#x02010;conversion factor. The Pearson's correlation using the RTP&#x02010;conversion factor is improved substantially for all cell lines and tissues with a median Pearson's correlation of 0.93.</p></list-item></list>
+</p></caption><graphic id="nlm-graphic-23" xlink:href="MSB-12-883-g010"/></fig><p>The correlation between RNA and protein levels for all the analyzed genes in the various cell lines and tissues was plotted based on Pearson's correlation to allow a summary comparison before and after the use of the gene&#x02010;specific RTP correlation factor (Fig&#x000a0;<xref rid="msb167144-fig-0005" ref-type="fig">5</xref>B). The Pearson's correlations vary significantly across the cell lines and tissues when a direct comparison is carried out with a medium correlation of 0.67. This correlation is significantly enhanced when the gene&#x02010;specific RTP ratio is applied for each protein to yield a median Pearson's correlation of 0.93. An overview of these results is shown in Fig&#x000a0;<xref rid="msb167144-fig-0005" ref-type="fig">5</xref>C, in which the obtained Pearson's correlations over the 55 genes in the nine cell lines and eleven tissues are plotted with and without using the gene&#x02010;specific RTP&#x02010;conversion factor. A clear improvement of predictability is obtained by introducing the gene&#x02010;specific RTP ratio.</p></sec></sec><sec id="msb167144-sec-0009"><title>Discussion</title><p>The evidence that genomewide transcriptomics data can be used as proxies for the corresponding steady&#x02010;state protein copy numbers in cells and tissues has far&#x02010;reaching consequences and thus justifies the use of genomewide transcriptomics data for molecular studies involving the analysis of protein levels, including metabolic modeling, systems biology, and biomarker discovery efforts. The results reinforce the importance of open source transcriptomics data resources, such as GTEx (Mel&#x000e9; <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0019" ref-type="ref">2015</xref>), HPA (Uhl&#x000e9;n <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0032" ref-type="ref">2015</xref>), FANTOM (FANTOM Consortium and the RIKEN PMI and CLST (DGT), <xref rid="msb167144-bib-0004" ref-type="ref">2014</xref>), TCGA (Cancer Genome Atlas Research Network <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0028" ref-type="ref">2013</xref>), and Expression Atlas (Petryszak <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0024" ref-type="ref">2016</xref>), and the data confirm that these resources are valuable also for researchers interested in analyzing protein abundances. The results support a strategy for genomewide expression studies with an initial analysis of transcript levels using transcriptomics followed by a more in&#x02010;depth analysis of the relevant protein products using direct protein analysis, such as antibody&#x02010;based methods or mass spectrometry.</p><p>In order to determine the steady&#x02010;state number of protein molecules per cell, it is important to be able to establish the exact number of cells in a sample, which is relatively straightforward by cell counting of <italic>in&#x000a0;vitro</italic> cultivated cells, but more challenging for tissues lysates as the heterogeneity of cells present varies across different tissues. Here, we took advantage of the QPrEST approach to develop a quantitative assay based on the four core histone subunits (H2A, H2B, H3, and H4) known to be distributed approximately equally along the chromosomes (van Holde, <xref rid="msb167144-bib-0010" ref-type="ref">1989</xref>; Thomas, <xref rid="msb167144-bib-0031" ref-type="ref">1999</xref>). In this way, it was possible to calculate the number of cells in the various samples and to normalize each tissue with regard to the&#x000a0;presence of number of cells per mg of sample. An analysis of the tissue samples showed that there are many more cells per mg tissue from spleen and tonsil than compared to the heart, with 30 times more histone protein per weight tissue. Noteworthy, the determined ratio between individual histone genes is conserved across tissue types, suggesting that the level of modification in the quantified region is relatively conserved (the regions were originally selected to show few possible modification sites as reported by Uniprot), which strengthens the quantification method as each histone can be used as control for the others. Each tissue sample was thus normalized to allow the number of cells to be approximately calculated from each tissue sample, thereby eliminating artifacts that arise from interference by proteins from the extracellular matrix or by differences in cell size.</p><p>The data presented here demonstrate that the predictability of protein copy numbers from RNA levels can be significantly enhanced whether a gene&#x02010;specific, cell and tissue independent RNA&#x02010;to&#x02010;protein (RTP) conversion factor is introduced and the results from normalization of the tissues are taken into account. The results show that the RTP ratio varies hugely between different genes suggesting that one mRNA molecule in some cases can generate close to a million protein copies at steady state, while mRNA from other genes generate in average less than thousand proteins under the same conditions. This is not surprising, since it known that protein half&#x02010;lives can vary many orders of magnitude and that proteins also have different translational rates (Schwanh&#x000e4;usser <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0026" ref-type="ref">2011</xref>; Vogel &#x00026; Marcotte, <xref rid="msb167144-bib-0033" ref-type="ref">2012</xref>). However, our data imply that these gene&#x02010;specific differences in RNA&#x02010;to&#x02010;protein ratio are independent of cell or tissue, and thus, a &#x0201c;universal&#x0201d; RTP ratio can be determined that can be used across cells of different origin and stage for a given gene product. Although a relatively limited amount of genes have been investigated here, the results support the view that the translational rates and protein half&#x02010;lives are roughly the same for a given protein across various cells and tissues. The analysis here was designed to cover intracellular proteins present in a majority of the selected cell and tissue samples, thereby excluding proteins potentially expressed at very low levels in only a fraction of the investigated tissues.</p><p>Here, we have analyzed the RTP ratio in cell lines and tissues representing some of the major organs and tissues in the human body, but obviously more work is needed to extend this analysis also to other tissues and to include more genes into the analysis to possibly establish the generality of this observation and to identify exceptions in which RNA and protein levels do not correlate. Due to the inherent issues in the use of RNA as proxies for protein levels, it is important to follow up the RNA&#x02010;based analysis with protein profiling to conform the results from the transcript analysis. In this context, more in&#x02010;depth analysis of factors that might give miss&#x02010;leading ratios are encouraged, such as the presence of protein modifications on the target protein that will affect the protein copy number determinations and the presence of non&#x02010;coding RNAs that might affect the transcriptomics analysis. It is also important to point out that the tissues analyzed here consist of mixtures of cell types of different origin and thus only yields the average mRNA and protein levels at steady&#x02010;state conditions across all the different cell types in the tissue samples.</p><p>In summary, our results suggest that the predictability of protein copy numbers from RNA levels can be significantly enhanced if a gene&#x02010;specific, cell independent RNA&#x02010;to&#x02010;protein (RTP) conversion factor is used. Thus, transcriptome analysis can be used as a powerful tool to predict the corresponding protein copy numbers, forming an attractive link between the field of genomics and proteomics. We suggest that the gene&#x02010;specific RNA&#x02010;to&#x02010;protein protein conversion factor should be determined across all protein&#x02010;coding genes to provide a basic resource for the medical and life science community.</p></sec><sec id="msb167144-sec-0010"><title>Materials and Methods</title><sec id="msb167144-sec-0011"><title>Ethical statement</title><p>Human tissue samples used for protein and mRNA expression analyses were collected and handled in accordance with Swedish laws and regulation and obtained from the Department of Pathology, Uppsala University Hospital, Uppsala, Sweden, as part of the sample collection governed by the Uppsala Biobank (<ext-link ext-link-type="uri" xlink:href="http://www.uppsalabiobank.uu.se/en/">http://www.uppsalabiobank.uu.se/en/</ext-link>). All human tissue samples used in the present study were anonymized in accordance with approval and advisory report from the Uppsala Ethical Review Board [Reference # 2002&#x02010;577, 2005&#x02010;338 and 2007&#x02010;159 (protein) and # 2011&#x02010;473 (RNA)], and consequently, the need for informed consent was waived by the ethics committee.</p></sec><sec id="msb167144-sec-0012"><title>Selection of genes</title><p>A selection of 60 genes was initially chosen for the study. Firstly, genes coding for predicted secreted proteins were excluded based on a majority decision&#x02010;based method for secreted proteins (MDSEC) used for protein classification within the Protein Atlas (<ext-link ext-link-type="uri" xlink:href="http://www.proteinatlas.org/humanproteome/secretome#prediction">http://www.proteinatlas.org/humanproteome/secretome#prediction</ext-link>). Secondly, the gene had to be differentially expressed on transcript level across nine cell lines (A431, HepG2, A549, HeLa, HEK293, A549, RT4, MCF7, and SH&#x02010;SY5Y) subjected for the study. Finally, QPrEST standard had to be available, yielding at least one proteotypic peptide as the protein was degraded into peptides by trypsin.</p></sec><sec id="msb167144-sec-0013"><title>Production and quantification of protein standards for absolute quantification</title><p>An <italic>Escherichia coli</italic> strain auxotrophic for the amino acids arginine and lysine (Matic <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0018" ref-type="ref">2011</xref>) was used for recombinant production of heavy isotope&#x02010;labeled QPrEST standards. DNA fragments were initially cloned into the expression pAff8c (Larsson, <xref rid="msb167144-bib-0011" ref-type="ref">2000</xref>) and were thereafter transformed into an <italic>E.&#x000a0;coli</italic> strain for recombinant protein production. Cells containing expression vectors were cultivated in 10&#x000a0;ml minimal media using 100&#x02010;ml shake flasks as previously described (Studier, <xref rid="msb167144-bib-0029" ref-type="ref">2005</xref>; Tegel <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0030" ref-type="ref">2009</xref>). Heavy isotope&#x02010;labeled (<sup>13</sup>C and <sup>15</sup>N) versions of lysine and arginine (Cambridge Isotope Laboratories, Tewksbury, MA, USA) were provided to the cells at 200&#x000a0;&#x003bc;g/ml to generate fully incorporated heavy protein standards. Cell cultures were harvested, and the QPrESTs were purified using the N&#x02010;terminal quantification tag (QTag) that included a hexahistidine tag used for immobilize metal ion affinity chromatography (IMAC). After purification, all isotopic QPrEST fragments were absolutely quantified by mass spectrometry against a non&#x02010;labeled ultra purified QTag&#x02010;standard, which previously had been quantified by amino acid analysis. The QTag&#x02010;standard, also including a C&#x02010;terminal a OneStrep tag, was purified using IMAC chromatography, and the IMAC elution buffer was exchanged for 1&#x000d7;&#x000a0;PBS (10&#x000a0;mM NaP, 150&#x000a0;mM NaCl, pH 7.3) using a PD&#x02010;10 desalting column (GE Healthcare, Uppsala, Sweden). The sample was purified on a StrepTrap HP column (GE Healthcare) on an &#x000c4;kta explorer system (GE Healthcare) according to the manufactures protocol. All QPrESTs were quantified by mixing 1:1 with QTag&#x02010;standard and thereafter digested using an in&#x02010;solution trypsin digestion protocol. Proteins were first reduced with 10&#x000a0;mM dithiothreitol (DTT) for 30&#x000a0;min at 56&#x000b0;C and thereafter followed by addition of 50&#x000a0;mM iodoacetamide (IAA) and incubated in dark for 20&#x000a0;min. Proteomics grade porcine trypsin (Sigma) was added in a 1:50 enzyme to substrate (E:S) ratio and incubated in a thermomixer at 37&#x000b0;C. After 16&#x000a0;h, the reaction was quenched by addition of FA and the sample was desalted using in&#x02010;house prepared StageTips packed with Empore C18 Bonded Silica matrix (3M, Saint Paul, MN) (Rappsilber <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0025" ref-type="ref">2007</xref>). Briefly, three layers of octadecyl membrane were placed in 200&#x02010;&#x003bc;l pipette tips. The membrane was activated by addition of 100% ACN, followed by centrifugation for 1&#x000a0;min at 840&#x000a0;<italic>g</italic>. The membrane was equilibrated by addition of 0.1% FA, MQ followed by centrifugation for 1&#x000a0;min at 840&#x000a0;<italic>g</italic>. The sample was acidified prior addition onto the membrane, followed by centrifugation for 1&#x000a0;min at 840&#x000a0;<italic>g</italic>. The membrane was washed twice with 0.1% FA, MQ, and the peptides were eluted in two steps using 60% ACN, MQ. Desalted peptides were vacuum&#x02010;dried before subjected for LC&#x02010;MS analysis.</p></sec><sec id="msb167144-sec-0014"><title>Preparation of cell pellets</title><p>Nine different cell lines (A431, HepG2, A549, HeLa, HEK 293, U2OS, RT4, MCF7, and SH&#x02010;SY5Y) were cultivated at 37&#x000b0;C in a humidified atmosphere containing 5% CO<sub>2</sub>. HEK&#x02010;293, MCF7, HeLa, and HepG2 were cultivated in Minimum Essential Medium Eagle (Sigma&#x02010;Aldrich, St Louis, MO, USA). A549 and SH&#x02010;SY5Y were cultivated in Dulbecco's modified Eagle's medium (Sigma&#x02010;Aldrich). U2OS and RT4 were cultivated in McCoy's medium (Sigma&#x02010;Aldrich), and A431 was cultivated in RPMI&#x02010;1640 (Sigma&#x02010;Aldrich). All media were supplemented with 10% fetal bovine serum (Sigma&#x02010;Aldrich). Media for HEK 293, MCF7, HeLa, and HepG2 were supplemented with 1% MEM non&#x02010;essential amino acid solution (Sigma&#x02010;Aldrich), and media for MCF7 and HepG2 were also supplemented with 1% <sc>l</sc>&#x02010;glutamine (Sigma&#x02010;Aldrich). The cells were cultivated up to 80% confluence and counted with a Scepter 2.0 Cell Counter (Merck Millipore, Billerica, MA, USA) before pellets were collected and stored at &#x02212;80&#x000b0;C.</p></sec><sec id="msb167144-sec-0015"><title>RNAseq analysis</title><p>For the cell lines, RNA was extracted from the cells using the RNEasy<sup>&#x000ae;</sup> kit (Qiagen), generating high&#x02010;quality total RNA (i.e., RIN&#x000a0;&#x0003e;&#x000a0;8) that was used as input material for library construction with Illumina TruSeq Stranded mRNA reagents. The samples were sequenced on the Illumina HiSeq2500 platform to a depth of ~20 million reads. Raw sequences were mapped to the human reference genome GrCh38 and further quantified using the Kallisto software (Bray <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0003" ref-type="ref">2016</xref>). TPM values for genes were generated by summing up TPM values for the corresponding transcripts generated by Kallisto. All cell line data are available at <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/bioproject/PRJNA183192">http://www.ncbi.nlm.nih.gov/bioproject/PRJNA183192</ext-link>.</p><p>Procedures for extraction of RNA from tissues, library preparation, and sequencing have been described elsewhere (Uhl&#x000e9;n <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0032" ref-type="ref">2015</xref>). Briefly, reads were mapped to the human reference genome assembly GRCh38 and quantified using Kallisto version 0.42.4. Normalized expression levels (TPM values) on gene level were obtained by summing the estimated values from the constituent transcripts of each gene, respectively. All tissue data are available at <ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1733/">http://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-1733/</ext-link>.</p></sec><sec id="msb167144-sec-0016"><title>Cell lysis</title><p>Cells were dissolved in lysis buffer (100&#x000a0;mM Tris&#x02013;HCl, 4% SDS, 10&#x000a0;mM DTT, pH 7.6) and incubated at 95&#x000b0;C in a thermomixer for 5&#x000a0;min at 30&#x000a0;<italic>g</italic> and thereafter sonicated at 50% amp (1&#x000a0;s pulse, 1&#x000a0;s hold) for 1&#x000a0;min.</p></sec><sec id="msb167144-sec-0017"><title>Tissue lysis</title><p>Twenty consecutive sections from 11 different fresh&#x02010;frozen human tissues (<xref rid="msb167144-sup-0003" ref-type="supplementary-material">Table&#x000a0;EV2</xref>) were subjected for analysis. Tissue sections were disrupted directly from their frozen state by 3&#x02010;mm tungsten carbide beads using a Tissue Lyser LT (Qiagen, Hilden, Germany) set to maximum speed for 2&#x000a0;min. After complete tissue disruption, 250&#x000a0;&#x003bc;l lysis buffer (100&#x000a0;mM Tris&#x02013;HCl, 4% SDS, 10&#x000a0;mM DTT, pH 7.6) was added and samples were immediately incubated in a thermomixer for 5&#x000a0;min at 95&#x000b0;C and mixed at 30&#x000a0;<italic>g</italic>. All samples were sonicated for 1&#x000a0;min at 50% amplitude (1&#x000a0;s pulse&#x000a0;+&#x000a0;1&#x000a0;s hold) and all clarified by centrifugation at 13,570&#x000a0;<italic>g</italic> for 10&#x000a0;min.</p></sec><sec id="msb167144-sec-0018"><title>Filter&#x02010;aided Sample preparation</title><p>One QPrEST mastermix was prepared to represent a 1:1 (L:H) peptide ratio to the endogenous levels in U2OS and HEK293, and the same amount of the mastermix was spiked&#x02010;in also to all other samples, either to 1 million cells or 600&#x000a0;&#x003bc;g of clarified tissue lysate. The lysate was diluted with denaturing buffer (8&#x000a0;M urea, 100&#x000a0;mM Tris&#x02013;HCl pH 8.5) and centrifuged through a 0.22&#x02010;&#x003bc;m spin filter (Corning, Corning, NY, USA). Trypsin digestion was performed using the previously described filter&#x02010;aided sample preparation (FASP) method (Wi&#x0015b;niewski <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0035" ref-type="ref">2009</xref>) After overnight digestion using porcine trypsin (Sigma) in a 1:50 E:S ratio, all peptides were extracted from cell line digests and desalted using the same in&#x02010;house prepared C18 StageTip protocol as described above. Peptides from tissue digests (excluding kidney) were all extracted using strong cation exchange material due to polymers present in the cryopreservative surrounding the fresh&#x02010;frozen tissue. Briefly, three layers of strong cation matrix (3M, Saint Paul, MN) were placed in 200&#x02010;&#x003bc;l pipette tips. The membrane was activated by addition of 100% MeOH, followed by centrifugation for 1&#x000a0;min at 840&#x000a0;<italic>g</italic>. The membrane was equilibrated by addition of wash buffer (30% MeOH, 0.1% FA, MQ) followed by centrifugation for 1&#x000a0;min at 840&#x000a0;<italic>g</italic>. The sample was acidified prior being added onto the membrane, followed by centrifugation for 1&#x000a0;min at 840&#x000a0;<italic>g</italic>. The membranes were washed twice with wash buffer, and peptides were then eluted in two steps using elution buffer (33% NH<sub>4</sub>OH, 30% MeOH, MQ). Desalted peptides were vacuum&#x02010;dried before LC&#x02010;MS analysis.</p></sec><sec id="msb167144-sec-0019"><title>Liquid chromatography</title><p>Liquid chromatography was performed using an UltiMate 3000 binary RS nano system (Thermo Scientific) with an EASY&#x02010;Spray ion&#x000a0;source. All samples were stored in their lyophilized state and resuspended by the autosampler prior injection as 1&#x000a0;&#x003bc;g sample material was loaded onto a Acclaim PepMap 100 trap column (75&#x000a0;&#x003bc;m&#x000a0;&#x000d7;&#x000a0;2&#x000a0;cm, C18, 3&#x000a0;&#x003bc;m, 100&#x000a0;&#x000c5;), washed 5&#x000a0;min at 0.250&#x000a0;&#x003bc;l/min with solvent A (95% H<sub>2</sub>O, 5% DMSO, 0.1% FA), and thereafter separated using a PepMap 800 C18 column (15&#x000a0;cm&#x000a0;&#x000d7;&#x000a0;75&#x000a0;&#x003bc;m, 3&#x000a0;&#x003bc;m). The gradient went from solvent A to solvent B (90% ACN, 5% H<sub>2</sub>O, 5% DMSO, 0.1% FA) at a constant flow of 0.250&#x000a0;&#x003bc;l/min, up to 43% solvent B in 40&#x000a0;min, followed by an increase up to 55% in 10&#x000a0;min and thereafter a steep increase to 100% B in 2&#x000a0;min. Online LC&#x02013;MS was performed using a Q&#x02010;Exactive HF mass spectrometer (Thermo Scientific).</p></sec><sec id="msb167144-sec-0020"><title>Spectral library generation</title><p>A pool of 71 QPrESTs representing 60 genes were pooled in equimolar amounts and digested by trypsin according to the in&#x02010;solution protocol described above. QPrEST peptides were resuspended in 3% ACN, 0.1% FA, MQ prior LC&#x02010;MS analysis, and 50&#x000a0;fmol per QPrEST&#x02010;ID was injected onto column. A Top5 MS&#x02010;method with master scans performed at 60,000 resolution (mass range 300&#x02013;1,600&#x000a0;<italic>m</italic>/<italic>z</italic>, AGC 3e6) was followed by five consecutive MS2 at 30,000 resolution (AGC 1e5, underfill ratio 0.1%) with normalized collision energy set to 25. Raw files were searched using MaxQuant (Cox &#x00026; Mann, <xref rid="msb167144-bib-0005" ref-type="ref">2008</xref>), using the search engine Andromeda against QPrEST sequences (<xref rid="msb167144-sup-0005" ref-type="supplementary-material">Table&#x000a0;EV4</xref>) with an <italic>E.&#x000a0;coli</italic> (BL21 Uniprot&#x02010;ID: #UP000002032) background, which was used for recombinant protein production in order to limit false&#x02010;positive hits against QPrEST peptides. Identified peptides were further processed by only allowing proteotypic peptides mapping to one single human gene (defined by SwissProt), also excluding peptides with miscleavages and peptides including methionines.</p></sec><sec id="msb167144-sec-0021"><title>Data&#x02010;independent MS acquisition</title><p>Full MS master scans at 60,000 resolution (mass range 300&#x02013;1,600&#x000a0;<italic>m</italic>/<italic>z,</italic> AGC 1e6) were followed by 20 data&#x02010;independent acquisitions MS/MS at 60,000 resolution (AGC 1e6) defined by a scheduled parallel reaction monitoring (PRM) method (<xref rid="msb167144-sup-0006" ref-type="supplementary-material">Table&#x000a0;EV5</xref>). Precursors were isolated with a 1.2&#x000a0;<italic>m</italic>/<italic>z</italic> isolation window, and maximum injection time was set to 105&#x000a0;ms for both MS1 and MS2, which resulted in a duty cycle of 2.7&#x000a0;s. The isolation list was split into two consecutive LC runs, targeting 120 paired light and heavy peptides per injection.</p></sec><sec id="msb167144-sec-0022"><title>MS&#x02010;data evaluation and protein quantification</title><p>Raw MS&#x02010;files (available at: <ext-link ext-link-type="uri" xlink:href="http://www.proteinatlas.org/download/prm_cells_tissues.zip">http://www.proteinatlas.org/download/prm_cells_tissues.zip</ext-link>) from the data&#x02010;independent method were processed using Skyline Proteomics Environment (MacLean <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0015" ref-type="ref">2010</xref>). The ratio between endogenous and heavy peptide standard was calculated from the summed area intensity over the retention time for each peptide fragment separately. Here, five genes were excluded from the analysis as endogenous peptides could not be successfully quantified. All peptide ratios, in each replicate separately, were normalized against the amount of histones quantified in the replicate (<xref rid="msb167144-sup-0007" ref-type="supplementary-material">Table&#x000a0;EV6</xref>; Fig&#x000a0;<xref rid="msb167144-fig-0006ev" ref-type="fig">EV6</xref>) in order account for quantification errors that arise from differences in number of cells subjected for analysis, extracellular matrix in tissue samples, and pipetting errors when spiking in standards. Median peptide ratios between replicates were used to calculate the absolute amount of peptide concentration after normalizing for the absolute and known amount of protein standard that was spiked to each sample. If more than one peptide assay per protein was available (13 genes with two peptides, 11 genes with three peptides, five genes with four peptides, two genes with five peptides), the median peptide value was used for calculation of protein concentration for each replicate.</p><fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="msb167144-fig-0006ev" orientation="portrait" position="float"><label>Figure EV6</label><caption><title>Examples of quantitative peptide profiles using QPrEST for targeted proteomics</title><p>All peptides were quantified by comparing the relative amount of light endogenous peptide (red) against the heavy standard peptide (blue). The relative amount was thereafter normalized against the number of cells present in each biological replicate by accounting for the relative amount of histones present in each sample.</p></caption><graphic id="nlm-graphic-25" xlink:href="MSB-12-883-g012"/></fig></sec><sec id="msb167144-sec-0023"><title>RNA&#x02010;to&#x02010;protein conversion factor</title><p>Protein values were used to calculate a gene&#x02010;specific RNA&#x02010;to&#x02010;protein conversion factor by dividing the amount of protein in each sample by the TPM value for that gene in the corresponding sample. The gene&#x02010;specific median of all ratios was used to predict theoretical protein levels from the RNA level (TPM), that is, RNA&#x02010;based prediction, excluding the sample being predicted when calculating the RNA&#x02010;to&#x02010;protein conversion factor from all other 19 samples. In order to assess the predictive power of the conserved RNA&#x02010;to&#x02010;protein conversion factor across all investigated sample types, different sizes of test and validation sets were used in a k&#x02010;fold cross&#x02010;validation as 5,000 protein predictions were made for each test set, ranging from 1 to 19 randomly assigned sample combinations in the training set, predicting all other samples in the test set.</p></sec><sec id="msb167144-sec-0024"><title>Equations</title><p>Protein amount is dependent on cell size. This calls for a method that controls the number of cells present in an analyzed sample, especially when tissue samples as cell counter cannot be used: <disp-formula id="msb167144-disp-0001"><label>(1)</label><mml:math id="nlm-math-1"><mml:mrow><mml:mtext>Cellular protein number</mml:mtext><mml:mo>=</mml:mo><mml:mspace width="0.166667em"/><mml:mspace width="0.166667em"/><mml:mtext>Totalprotein concentration</mml:mtext><mml:mspace width="0.166667em"/><mml:mrow><mml:mo>&#x000d7;</mml:mo><mml:mspace width="0.166667em"/><mml:mtext>cell volume</mml:mtext></mml:mrow></mml:mrow></mml:math></disp-formula>Protein copies per cells is given by: <disp-formula id="msb167144-disp-0002"><label>(2)</label><mml:math id="nlm-math-2"><mml:mrow><mml:mtext>Protein number per cell</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Total protein number</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Number of cells</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>DNA amount is a proxy for number of cells (Milo, <xref rid="msb167144-bib-0020" ref-type="ref">2013</xref>) as the amount of DNA per 2N human cell equals approximately 3.6&#x000a0;pg: <disp-formula id="msb167144-disp-0003"><label>(3)</label><mml:math id="nlm-math-3"><mml:mrow><mml:mtext>Number of cells</mml:mtext><mml:mo>&#x02248;</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Total DNA mass</mml:mtext></mml:mrow><mml:mrow><mml:mtext>3.59 pg DNA per cell</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula> Also, DNA and histones are good proxies for each other as the number of histones per cell is proportional toward amount of DNA per cell, that is, same for all 2N human cells (Wi&#x0015b;niewski <italic>et&#x000a0;al</italic>, <xref rid="msb167144-bib-0036" ref-type="ref">2014</xref>) (note: not applicable for cell lines with different karyotypes): <disp-formula id="msb167144-disp-0004"><label>(4)</label><mml:math id="nlm-math-4"><mml:mrow><mml:mtext>Number of histones</mml:mtext><mml:mo>&#x0221d;</mml:mo><mml:mtext>DNA length</mml:mtext></mml:mrow></mml:math></disp-formula>
+<disp-formula id="msb167144-disp-0005"><label>(5)</label><mml:math id="nlm-math-5"><mml:mrow><mml:mtext>Number of cells</mml:mtext><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Number of histones</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Number of histones per cell</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>This is applicable for all 2N human cells and also intra&#x02010;cell lines with the same karyotype (i.e., technical replicates): <disp-formula id="msb167144-disp-0006"><label>(6)</label><mml:math id="nlm-math-6"><mml:mrow><mml:mtext>Protein number per cell</mml:mtext><mml:mo>&#x0221d;</mml:mo><mml:mfrac><mml:mrow><mml:mtext>Total protein amount</mml:mtext></mml:mrow><mml:mrow><mml:mtext>Number of histones</mml:mtext></mml:mrow></mml:mfrac></mml:mrow></mml:math></disp-formula>
+</p></sec></sec><sec id="msb167144-sec-0026"><title>Author contributions</title><p>MU designed the study. FE and BF performed the laboratory work. FE, FD MU, LK, and BMH did the bioinformatics and statistical analysis. MU, FE, and BF wrote the manuscript with contributions from EL and FP.</p></sec><sec id="msb167144-sec-0027"><title>Conflict of interest</title><p>The authors declare that they have no conflict of interest.</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"/><supplementary-material content-type="local-data" id="msb167144-sup-0001"><caption><p>Expanded View Figures PDF</p></caption><media xlink:href="MSB-12-883-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0002"><caption><p>Table&#x000a0;EV1</p></caption><media xlink:href="MSB-12-883-s002.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0003"><caption><p>Table&#x000a0;EV2</p></caption><media xlink:href="MSB-12-883-s003.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0004"><caption><p>Table&#x000a0;EV3</p></caption><media xlink:href="MSB-12-883-s004.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0005"><caption><p>Table&#x000a0;EV4</p></caption><media xlink:href="MSB-12-883-s005.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0006"><caption><p>Table&#x000a0;EV5</p></caption><media xlink:href="MSB-12-883-s006.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0007"><caption><p>Table&#x000a0;EV6</p></caption><media xlink:href="MSB-12-883-s007.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0008"><caption><p>Table&#x000a0;EV7</p></caption><media xlink:href="MSB-12-883-s008.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-009"><caption><p>Table&#x000a0;EV8</p></caption><media xlink:href="MSB-12-883-s009.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="msb167144-sup-0010"><caption><p>Table&#x000a0;EV9</p></caption><media xlink:href="MSB-12-883-s010.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>Review Process File</p></caption><media xlink:href="MSB-12-883-s011.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="msb167144-sec-0025"><title>Acknowledgements</title><p>We acknowledge the entire staff of the Human Protein Atlas program and the Science for Life Laboratory for valuable contributions. We thank Jens Nielsen, Per&#x02010;&#x000c5;ke Nygren, and Adil Mardinoglu for valuable comments and advice. We thank the Department of Pathology at the Uppsala Akademiska hospital, Uppsala, Sweden, and Uppsala Biobank for providing tissue specimens used in this study. Funding was provided by the Knut and Alice Wallenberg Foundation and Erling Persson Foundation to MU Correspondence and requests for materials should be addressed to MU.</p></ack><ref-list content-type="cited-references" id="msb167144-bibl-0001"><title>References</title><ref id="msb167144-bib-0001"><mixed-citation publication-type="journal" id="msb167144-cit-0001">
+<string-name>
+<surname>Ahrn&#x000e9;</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Molzahn</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Glatter</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>
+<given-names>A</given-names>
+</string-name> (<year>2013</year>) <article-title>Critical assessment of proteome&#x02010;wide label&#x02010;free absolute abundance estimation strategies</article-title>. <source>Proteomics</source>
+<volume>13</volume>: <fpage>2567</fpage>&#x02013;<lpage>2578</lpage>
+<pub-id pub-id-type="pmid">23794183</pub-id></mixed-citation></ref><ref id="msb167144-bib-0002"><mixed-citation publication-type="journal" id="msb167144-cit-0002">
+<string-name>
+<surname>Anderson</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Seilhamer</surname>
+<given-names>J</given-names>
+</string-name> (<year>1997</year>) <article-title>A comparison of selected mRNA and protein abundances in human liver</article-title>. <source>Electrophoresis</source>
+<volume>18</volume>: <fpage>533</fpage>&#x02013;<lpage>537</lpage>
+<pub-id pub-id-type="pmid">9150937</pub-id></mixed-citation></ref><ref id="msb167144-bib-0003"><mixed-citation publication-type="journal" id="msb167144-cit-0003">
+<string-name>
+<surname>Bray</surname>
+<given-names>NL</given-names>
+</string-name>, <string-name>
+<surname>Pimentel</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Melsted</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Pachter</surname>
+<given-names>L</given-names>
+</string-name> (<year>2016</year>) <article-title>Near&#x02010;optimal probabilistic RNA&#x02010;seq quantification</article-title>. <source>Nat Biotechnol</source>
+<volume>34</volume>: <fpage>525</fpage>&#x02013;<lpage>527</lpage>
+<pub-id pub-id-type="pmid">27043002</pub-id></mixed-citation></ref><ref id="msb167144-bib-0028"><mixed-citation publication-type="journal" id="msb167144-cit-0028">
+<collab collab-type="authors">Cancer Genome Atlas Research Network</collab>
+, <string-name>
+<surname>Weinstein</surname>
+<given-names>JN</given-names>
+</string-name>, <string-name>
+<surname>Collisson</surname>
+<given-names>EA</given-names>
+</string-name>, <string-name>
+<surname>Mills</surname>
+<given-names>GB</given-names>
+</string-name>, <string-name>
+<surname>Mills Shaw</surname>
+<given-names>KR</given-names>
+</string-name>, <string-name>
+<surname>Ozenberger</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name>
+<surname>Ellrott</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Shmulevich</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Sander</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Stuart</surname>
+<given-names>JM</given-names>
+</string-name> (<year>2013</year>) <article-title>The Cancer Genome Atlas Pan&#x02010;Cancer analysis project</article-title>. <source>Nat Genetics</source>
+<volume>45</volume>: <fpage>1113</fpage>&#x02013;<lpage>1120</lpage>
+<pub-id pub-id-type="pmid">24071849</pub-id></mixed-citation></ref><ref id="msb167144-bib-0005"><mixed-citation publication-type="journal" id="msb167144-cit-0005">
+<string-name>
+<surname>Cox</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>M</given-names>
+</string-name> (<year>2008</year>) <article-title>MaxQuant enables high peptide identification rates, individualized p.p.b.&#x02010;range mass accuracies and proteome&#x02010;wide protein quantification</article-title>. <source>Nat Biotechnol</source>
+<volume>26</volume>: <fpage>1367</fpage>&#x02013;<lpage>1372</lpage>
+<pub-id pub-id-type="pmid">19029910</pub-id></mixed-citation></ref><ref id="msb167144-bib-0006"><mixed-citation publication-type="journal" id="msb167144-cit-0006">
+<collab collab-type="authors">ENCODE Project Consortium</collab>
+, <string-name>
+<surname>Kundaje</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Aldred</surname>
+<given-names>SF</given-names>
+</string-name>, <string-name>
+<surname>Collins</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name>
+<surname>Doyle</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Epstein</surname>
+<given-names>CB</given-names>
+</string-name>, <string-name>
+<surname>Frietze</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kaul</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Lajoie</surname>
+<given-names>BR</given-names>
+</string-name>, <string-name>
+<surname>Landt</surname>
+<given-names>SG</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>B&#x02010;K</given-names>
+</string-name>, <string-name>
+<surname>Pauli</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Rosenbloom</surname>
+<given-names>KR</given-names>
+</string-name>, <string-name>
+<surname>Sabo</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Safi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sanyal</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Shoresh</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Simon</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Song</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Trinklein</surname>
+<given-names>ND</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>An integrated encyclopedia of DNA elements in the human genome</article-title>. <source>Nature</source>
+<volume>489</volume>: <fpage>57</fpage>&#x02013;<lpage>74</lpage>
+<pub-id pub-id-type="pmid">22955616</pub-id></mixed-citation></ref><ref id="msb167144-bib-0004"><mixed-citation publication-type="journal" id="msb167144-cit-0004">
+<collab collab-type="authors">FANTOM Consortium and the RIKEN PMI and CLST (DGT)</collab>
+(<year>2014</year>) <article-title>A promoter&#x02010;level mammalian expression atlas</article-title>. <source>Nature</source>
+<volume>507</volume>: <fpage>462</fpage>&#x02013;<lpage>470</lpage>
+<pub-id pub-id-type="pmid">24670764</pub-id></mixed-citation></ref><ref id="msb167144-bib-0007"><mixed-citation publication-type="journal" id="msb167144-cit-0007">
+<string-name>
+<surname>Gallien</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Gallien</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Duriez</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Duriez</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Crone</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Crone</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kellmann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kellmann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Moehring</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Moehring</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Domon</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Domon</surname>
+<given-names>B</given-names>
+</string-name> (<year>2012</year>) <article-title>Targeted proteomic quantification on quadrupole&#x02010;orbitrap mass spectrometer</article-title>. <source>Mol Cell Proteomics</source>
+<volume>11</volume>: <fpage>1709</fpage>&#x02013;<lpage>1723</lpage>
+<pub-id pub-id-type="pmid">22962056</pub-id></mixed-citation></ref><ref id="msb167144-bib-0008"><mixed-citation publication-type="journal" id="msb167144-cit-0008">
+<string-name>
+<surname>Gerber</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Gerber</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Rush</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Rush</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stemman</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Stemman</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Kirschner</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Kirschner</surname>
+<given-names>MW</given-names>
+</string-name>, <string-name>
+<surname>Gygi</surname>
+<given-names>SP</given-names>
+</string-name>, <string-name>
+<surname>Gygi</surname>
+<given-names>SP</given-names>
+</string-name> (<year>2003</year>) <article-title>Absolute quantification of proteins and phosphoproteins from cell lysates by tandem MS</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>100</volume>: <fpage>6940</fpage>&#x02013;<lpage>6945</lpage>
+<pub-id pub-id-type="pmid">12771378</pub-id></mixed-citation></ref><ref id="msb167144-bib-0009"><mixed-citation publication-type="journal" id="msb167144-cit-0009">
+<string-name>
+<surname>Gry</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Rimini</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Str&#x000f6;mberg</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Asplund</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Pont&#x000e9;n</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Uhl&#x000e9;n</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Nilsson</surname>
+<given-names>P</given-names>
+</string-name> (<year>2009</year>) <article-title>Correlations between RNA and protein expression profiles in 23 human cell lines</article-title>. <source>BMC Genom</source>
+<volume>10</volume>: <fpage>365</fpage>.</mixed-citation></ref><ref id="msb167144-bib-0010"><mixed-citation publication-type="book" id="msb167144-cit-0010">
+<string-name>
+<surname>van Holde</surname>
+<given-names>KE</given-names>
+</string-name> (<year>1989</year>) <source>Chromatin</source>. <publisher-loc>New York, NY</publisher-loc>: <publisher-name>Springer New York</publisher-name>
+</mixed-citation></ref><ref id="msb167144-bib-0011"><mixed-citation publication-type="journal" id="msb167144-cit-0011">
+<string-name>
+<surname>Larsson</surname>
+<given-names>M</given-names>
+</string-name> (<year>2000</year>) <article-title>High&#x02010;throughput protein expression of cDNA products as a tool in functional genomics</article-title>. <source>J Biotechnol</source>
+<volume>80</volume>: <fpage>143</fpage>&#x02013;<lpage>157</lpage>
+<pub-id pub-id-type="pmid">10908795</pub-id></mixed-citation></ref><ref id="msb167144-bib-0012"><mixed-citation publication-type="journal" id="msb167144-cit-0012">
+<string-name>
+<surname>Lawless</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Holman</surname>
+<given-names>SW</given-names>
+</string-name>, <string-name>
+<surname>Brownridge</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Lanthaler</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Harman</surname>
+<given-names>VM</given-names>
+</string-name>, <string-name>
+<surname>Watkins</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Hammond</surname>
+<given-names>DE</given-names>
+</string-name>, <string-name>
+<surname>Miller</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Sims</surname>
+<given-names>PFG</given-names>
+</string-name>, <string-name>
+<surname>Grant</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Eyers</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Beynon</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Hubbard</surname>
+<given-names>SJ</given-names>
+</string-name> (<year>2016</year>) <article-title>Direct and absolute quantification of over 1800 yeast proteins via selected reaction monitoring</article-title>. <source>Mol Cell Proteomics</source>
+<volume>15</volume>: <fpage>1309</fpage>&#x02013;<lpage>1322</lpage>
+<pub-id pub-id-type="pmid">26750110</pub-id></mixed-citation></ref><ref id="msb167144-bib-0013"><mixed-citation publication-type="journal" id="msb167144-cit-0013">
+<string-name>
+<surname>Lundberg</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Fagerberg</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Klevebring</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Matic</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Geiger</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Cox</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>&#x000c4;lgen&#x000e4;s</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Lundeberg</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Uhl&#x000e9;n</surname>
+<given-names>M</given-names>
+</string-name> (<year>2010</year>) <article-title>Defining the transcriptome and proteome in three functionally different human cell lines</article-title>. <source>Mol Syst Biol</source>
+<volume>6</volume>: <fpage>450</fpage>
+<pub-id pub-id-type="pmid">21179022</pub-id></mixed-citation></ref><ref id="msb167144-bib-0014"><mixed-citation publication-type="journal" id="msb167144-cit-0014">
+<string-name>
+<surname>Lundberg</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Uhl&#x000e9;n</surname>
+<given-names>M</given-names>
+</string-name> (<year>2010</year>) <article-title>Creation of an antibody&#x02010;based subcellular protein atlas</article-title>. <source>Proteomics</source>
+<volume>10</volume>: <fpage>3984</fpage>&#x02013;<lpage>3996</lpage>
+<pub-id pub-id-type="pmid">20648481</pub-id></mixed-citation></ref><ref id="msb167144-bib-0015"><mixed-citation publication-type="journal" id="msb167144-cit-0015">
+<string-name>
+<surname>MacLean</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Tomazela</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Shulman</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Chambers</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Finney</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name>
+<surname>Frewen</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Kern</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Tabb</surname>
+<given-names>DL</given-names>
+</string-name>, <string-name>
+<surname>Liebler</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>MacCoss</surname>
+<given-names>MJ</given-names>
+</string-name> (<year>2010</year>) <article-title>Skyline: an open source document editor for creating and analyzing targeted proteomics experiments</article-title>. <source>Bioinformatics</source>
+<volume>26</volume>: <fpage>966</fpage>&#x02013;<lpage>968</lpage>
+<pub-id pub-id-type="pmid">20147306</pub-id></mixed-citation></ref><ref id="msb167144-bib-0016"><mixed-citation publication-type="journal" id="msb167144-cit-0016">
+<string-name>
+<surname>Maier</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>G&#x000fc;ell</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Serrano</surname>
+<given-names>L</given-names>
+</string-name> (<year>2009</year>) <article-title>Correlation of mRNA and protein in complex biological samples</article-title>. <source>FEBS Lett</source>
+<volume>583</volume>: <fpage>3966</fpage>&#x02013;<lpage>3973</lpage>
+<pub-id pub-id-type="pmid">19850042</pub-id></mixed-citation></ref><ref id="msb167144-bib-0017"><mixed-citation publication-type="journal" id="msb167144-cit-0017">
+<string-name>
+<surname>Maier</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Guell</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kuhner</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Gavin</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Aebersold</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Serrano</surname>
+<given-names>L</given-names>
+</string-name> (<year>2011</year>) <article-title>Quantification of mRNA and protein and integration with protein turnover in a bacterium</article-title>. <source>Mol Syst Biol</source>
+<volume>7</volume>: <fpage>511</fpage>
+<pub-id pub-id-type="pmid">21772259</pub-id></mixed-citation></ref><ref id="msb167144-bib-0018"><mixed-citation publication-type="journal" id="msb167144-cit-0018">
+<string-name>
+<surname>Matic</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Jaffray</surname>
+<given-names>EG</given-names>
+</string-name>, <string-name>
+<surname>Oxenham</surname>
+<given-names>SK</given-names>
+</string-name>, <string-name>
+<surname>Groves</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Barratt</surname>
+<given-names>CLR</given-names>
+</string-name>, <string-name>
+<surname>Tauro</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Stanley&#x02010;Wall</surname>
+<given-names>NR</given-names>
+</string-name>, <string-name>
+<surname>Hay</surname>
+<given-names>RT</given-names>
+</string-name> (<year>2011</year>) <article-title>Absolute SILAC&#x02010;compatible expression strain allows Sumo&#x02010;2 copy number determination in clinical samples</article-title>. <source>J Proteome Res</source>
+<volume>10</volume>: <fpage>4869</fpage>&#x02013;<lpage>4875</lpage>
+<pub-id pub-id-type="pmid">21830832</pub-id></mixed-citation></ref><ref id="msb167144-bib-0019"><mixed-citation publication-type="journal" id="msb167144-cit-0019">
+<string-name>
+<surname>Mel&#x000e9;</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ferreira</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name>
+<surname>Reverter</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>DeLuca</surname>
+<given-names>DS</given-names>
+</string-name>, <string-name>
+<surname>Monlong</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Sammeth</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name>
+<surname>Goldmann</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Pervouchine</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Pervouchine</surname>
+<given-names>DD</given-names>
+</string-name>, <string-name>
+<surname>Sullivan</surname>
+<given-names>TJ</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Segr&#x000e8;</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name>
+<surname>Djebali</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Niarchou</surname>
+<given-names>A</given-names>
+</string-name>, <collab collab-type="authors">GTEx Consortium</collab>
+, <string-name>
+<surname>Wright</surname>
+<given-names>FA</given-names>
+</string-name>, <string-name>
+<surname>Lappalainen</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Calvo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Getz</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Dermitzakis</surname>
+<given-names>ET</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>The human transcriptome across tissues and individuals</article-title>. <source>Science</source>
+<volume>348</volume>: <fpage>660</fpage>&#x02013;<lpage>665</lpage>
+<pub-id pub-id-type="pmid">25954002</pub-id></mixed-citation></ref><ref id="msb167144-bib-0020"><mixed-citation publication-type="journal" id="msb167144-cit-0020">
+<string-name>
+<surname>Milo</surname>
+<given-names>R</given-names>
+</string-name> (<year>2013</year>) <article-title>What is the total number of protein molecules per cell volume? A call to rethink some published values</article-title>. <source>BioEssays</source>
+<volume>35</volume>: <fpage>1050</fpage>&#x02013;<lpage>1055</lpage>
+<pub-id pub-id-type="pmid">24114984</pub-id></mixed-citation></ref><ref id="msb167144-bib-0021"><mixed-citation publication-type="journal" id="msb167144-cit-0021">
+<string-name>
+<surname>Mortazavi</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name>
+<surname>McCue</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Schaeffer</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Wold</surname>
+<given-names>B</given-names>
+</string-name> (<year>2008</year>) <article-title>Mapping and quantifying mammalian transcriptomes by RNA&#x02010;Seq</article-title>. <source>Nat Methods</source>
+<volume>5</volume>: <fpage>621</fpage>&#x02013;<lpage>628</lpage>
+<pub-id pub-id-type="pmid">18516045</pub-id></mixed-citation></ref><ref id="msb167144-bib-0022"><mixed-citation publication-type="journal" id="msb167144-cit-0022">
+<string-name>
+<surname>Nagaraj</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Wi&#x0015b;niewski</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Geiger</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Cox</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kircher</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kelso</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>P&#x000e4;&#x000e4;bo</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>M</given-names>
+</string-name> (<year>2011</year>) <article-title>Deep proteome and transcriptome mapping of a human cancer cell line</article-title>. <source>Mol Syst Biol</source>
+<volume>7</volume>: <fpage>548</fpage>
+<pub-id pub-id-type="pmid">22068331</pub-id></mixed-citation></ref><ref id="msb167144-bib-0023"><mixed-citation publication-type="journal" id="msb167144-cit-0023">
+<string-name>
+<surname>Payne</surname>
+<given-names>SH</given-names>
+</string-name> (<year>2015</year>) <article-title>The utility of protein and mRNA correlation</article-title>. <source>Trends Biochem Sci</source>
+<volume>40</volume>: <fpage>1</fpage>&#x02013;<lpage>3</lpage>
+<pub-id pub-id-type="pmid">25467744</pub-id></mixed-citation></ref><ref id="msb167144-bib-0024"><mixed-citation publication-type="journal" id="msb167144-cit-0024">
+<string-name>
+<surname>Petryszak</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Keays</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Tang</surname>
+<given-names>YA</given-names>
+</string-name>, <string-name>
+<surname>Fonseca</surname>
+<given-names>NA</given-names>
+</string-name>, <string-name>
+<surname>Barrera</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Burdett</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>F&#x000fc;llgrabe</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Fuentes</surname>
+<given-names>AM&#x02010;P</given-names>
+</string-name>, <string-name>
+<surname>Jupp</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Koskinen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Mannion</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Huerta</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Megy</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Snow</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Williams</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Barzine</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hastings</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Weisser</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Wright</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Jaiswal</surname>
+<given-names>P</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2016</year>) <article-title>Expression Atlas update&#x02014;an integrated database of gene and protein expression in humans, animals and plants</article-title>. <source>Nucleic Acids Res</source>
+<volume>44</volume>: <fpage>D746</fpage>&#x02013;<lpage>D752</lpage>
+<pub-id pub-id-type="pmid">26481351</pub-id></mixed-citation></ref><ref id="msb167144-bib-0025"><mixed-citation publication-type="journal" id="msb167144-cit-0025">
+<string-name>
+<surname>Rappsilber</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ishihama</surname>
+<given-names>Y</given-names>
+</string-name> (<year>2007</year>) <article-title>Protocol for micro&#x02010;purification, enrichment, pre&#x02010;fractionation and storage of peptides for proteomics using StageTips</article-title>. <source>Nat Protoc</source>
+<volume>2</volume>: <fpage>1896</fpage>&#x02013;<lpage>1906</lpage>
+<pub-id pub-id-type="pmid">17703201</pub-id></mixed-citation></ref><ref id="msb167144-bib-0026"><mixed-citation publication-type="journal" id="msb167144-cit-0026">
+<string-name>
+<surname>Schwanh&#x000e4;usser</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Busse</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Dittmar</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Schuchhardt</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Wolf</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Selbach</surname>
+<given-names>M</given-names>
+</string-name> (<year>2011</year>) <article-title>Global quantification of mammalian gene expression control</article-title>. <source>Nature</source>
+<volume>473</volume>: <fpage>337</fpage>&#x02013;<lpage>342</lpage>
+<pub-id pub-id-type="pmid">21593866</pub-id></mixed-citation></ref><ref id="msb167144-bib-0027"><mixed-citation publication-type="journal" id="msb167144-cit-0027">
+<string-name>
+<surname>Schwanh&#x000e4;usser</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Busse</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Dittmar</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Schuchhardt</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Wolf</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Selbach</surname>
+<given-names>M</given-names>
+</string-name> (<year>2013</year>) <article-title>Corrigendum: global quantification of mammalian gene expression control</article-title>. <source>Nature</source>
+<volume>495</volume>: <fpage>126</fpage>&#x02013;<lpage>127</lpage>
+<pub-id pub-id-type="pmid">23407496</pub-id></mixed-citation></ref><ref id="msb167144-bib-0029"><mixed-citation publication-type="journal" id="msb167144-cit-0029">
+<string-name>
+<surname>Studier</surname>
+<given-names>FW</given-names>
+</string-name> (<year>2005</year>) <article-title>Protein production by auto&#x02010;induction in high density shaking cultures</article-title>. <source>Protein Expr Purif</source>
+<volume>41</volume>: <fpage>207</fpage>&#x02013;<lpage>234</lpage>
+<pub-id pub-id-type="pmid">15915565</pub-id></mixed-citation></ref><ref id="msb167144-bib-0030"><mixed-citation publication-type="journal" id="msb167144-cit-0030">
+<string-name>
+<surname>Tegel</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Steen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Konrad</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Nikdin</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Pettersson</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Stenvall</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Tourle</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Wrethagen</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Yderland</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Uhl&#x000e9;n</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hober</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ottosson</surname>
+<given-names>J</given-names>
+</string-name> (<year>2009</year>)&#x000a0;<article-title>High&#x02010;throughput protein production &#x02013; Lessons from scaling up&#x000a0;from 10 to 288 recombinant proteins per week</article-title>. <source>Biotechnol J</source>
+<volume>4</volume>: <fpage>51</fpage>&#x02013;<lpage>57</lpage>
+<pub-id pub-id-type="pmid">19039781</pub-id></mixed-citation></ref><ref id="msb167144-bib-0031"><mixed-citation publication-type="journal" id="msb167144-cit-0031">
+<string-name>
+<surname>Thomas</surname>
+<given-names>JO</given-names>
+</string-name> (<year>1999</year>) <article-title>Histone H1: location and role</article-title>. <source>Curr Opin Cell Biol</source>
+<volume>11</volume>: <fpage>312</fpage>&#x02013;<lpage>331</lpage>
+<pub-id pub-id-type="pmid">10395563</pub-id></mixed-citation></ref><ref id="msb167144-bib-0032"><mixed-citation publication-type="journal" id="msb167144-cit-0032">
+<string-name>
+<surname>Uhl&#x000e9;n</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Fagerberg</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hallstr&#x000f6;m</surname>
+<given-names>BM</given-names>
+</string-name>, <string-name>
+<surname>Lindskog</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Oksvold</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Mardinoglu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sivertsson</surname>
+<given-names>&#x000c5;</given-names>
+</string-name>, <string-name>
+<surname>Kampf</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Sj&#x000f6;stedt</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Asplund</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Olsson</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Edlund</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Lundberg</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Navani</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Szigyarto</surname>
+<given-names>CA&#x02010;K</given-names>
+</string-name>, <string-name>
+<surname>Odeberg</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Djureinovic</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Takanen</surname>
+<given-names>JO</given-names>
+</string-name>, <string-name>
+<surname>Hober</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Alm</surname>
+<given-names>T</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>Proteomics. Tissue&#x02010;based map of the human proteome</article-title>. <source>Science</source>
+<volume>347</volume>: <fpage>1260419</fpage>
+<pub-id pub-id-type="pmid">25613900</pub-id></mixed-citation></ref><ref id="msb167144-bib-0033"><mixed-citation publication-type="journal" id="msb167144-cit-0033">
+<string-name>
+<surname>Vogel</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Marcotte</surname>
+<given-names>EM</given-names>
+</string-name> (<year>2012</year>) <article-title>Insights into the regulation of protein abundance from proteomic and transcriptomic analyses</article-title>. <source>Nat Rev Genet</source>
+<volume>13</volume>: <fpage>227</fpage>&#x02013;<lpage>232</lpage>
+<pub-id pub-id-type="pmid">22411467</pub-id></mixed-citation></ref><ref id="msb167144-bib-0034"><mixed-citation publication-type="journal" id="msb167144-cit-0034">
+<string-name>
+<surname>Wilhelm</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Schlegl</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Hahne</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Moghaddas Gholami</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lieberenz</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Savitski</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Ziegler</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Butzmann</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Gessulat</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Marx</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Mathieson</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Lemeer</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Schnatbaum</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Reimer</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Wenschuh</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Mollenhauer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Slotta&#x02010;Huspenina</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Boese</surname>
+<given-names>J&#x02010;H</given-names>
+</string-name>, <string-name>
+<surname>Bantscheff</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Gerstmair</surname>
+<given-names>A</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Mass&#x02010;spectrometry&#x02010;based draft of the human proteome</article-title>. <source>Nature</source>
+<volume>509</volume>: <fpage>582</fpage>&#x02013;<lpage>587</lpage>
+<pub-id pub-id-type="pmid">24870543</pub-id></mixed-citation></ref><ref id="msb167144-bib-0035"><mixed-citation publication-type="journal" id="msb167144-cit-0035">
+<string-name>
+<surname>Wi&#x0015b;niewski</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Zougman</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Nagaraj</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>M</given-names>
+</string-name> (<year>2009</year>) <article-title>Universal sample&#x000a0;preparation method for proteome analysis</article-title>. <source>Nat Methods</source>
+<volume>6</volume>: <fpage>359</fpage>&#x02013;<lpage>362</lpage>
+<pub-id pub-id-type="pmid">19377485</pub-id></mixed-citation></ref><ref id="msb167144-bib-0036"><mixed-citation publication-type="journal" id="msb167144-cit-0036">
+<string-name>
+<surname>Wi&#x0015b;niewski</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Hein</surname>
+<given-names>MY</given-names>
+</string-name>, <string-name>
+<surname>Cox</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>M</given-names>
+</string-name> (<year>2014</year>) <article-title>A &#x02018;proteomic ruler&#x02019; for protein copy number and concentration estimation without spike&#x02010;in standards</article-title>. <source>Mol Cell Proteomics</source>
+<volume>13</volume>: <fpage>3497</fpage>&#x02013;<lpage>3506</lpage>
+<pub-id pub-id-type="pmid">25225357</pub-id></mixed-citation></ref><ref id="msb167144-bib-0037"><mixed-citation publication-type="journal" id="msb167144-cit-0037">
+<string-name>
+<surname>Zeiler</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Straube</surname>
+<given-names>WL</given-names>
+</string-name>, <string-name>
+<surname>Lundberg</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Uhl&#x000e9;n</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>M</given-names>
+</string-name> (<year>2012</year>) <article-title>A Protein Epitope Signature Tag (PrEST) library allows SILAC&#x02010;based absolute quantification and multiplexed determination of protein copy numbers in cell lines</article-title>. <source>Mol Cell Proteomics</source>
+<volume>11</volume>: <fpage>O111.009613</fpage>
+</mixed-citation></ref></ref-list></back></article>

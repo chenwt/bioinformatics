@@ -1,0 +1,486 @@
+{
+  "id": [
+    "25161221"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "25161221"
+  ],
+  "pmcid": [
+    "PMC4147894"
+  ],
+  "doi": [
+    "10.1093/bioinformatics/btu441"
+  ],
+  "title": [
+    "Towards a piRNA prediction using multiple kernel fusion and support vector machine."
+  ],
+  "authorString": [
+    "Brayet J, Zehraoui F, Jeanson-Leh L, Israeli D, Tahi F."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Brayet J"
+          ],
+          "firstName": [
+            "Jocelyn"
+          ],
+          "lastName": [
+            "Brayet"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Zehraoui F"
+          ],
+          "firstName": [
+            "Farida"
+          ],
+          "lastName": [
+            "Zehraoui"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Jeanson-Leh L"
+          ],
+          "firstName": [
+            "Laurence"
+          ],
+          "lastName": [
+            "Jeanson-Leh"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Israeli D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Israeli"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Tahi F"
+          ],
+          "firstName": [
+            "Fariza"
+          ],
+          "lastName": [
+            "Tahi"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "17"
+      ],
+      "volume": [
+        "30"
+      ],
+      "journalIssueId": [
+        "2194261"
+      ],
+      "dateOfPublication": [
+        "2014 Sep"
+      ],
+      "monthOfPublication": [
+        "9"
+      ],
+      "yearOfPublication": [
+        "2014"
+      ],
+      "printPublicationDate": [
+        "2014-09-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Bioinformatics (Oxford, England)"
+          ],
+          "ISOAbbreviation": [
+            "Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "Bioinformatics"
+          ],
+          "NLMid": [
+            "9808944"
+          ],
+          "ISSN": [
+            "1367-4803"
+          ],
+          "ESSN": [
+            "1367-4811"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2014"
+  ],
+  "pageInfo": [
+    "i364-70"
+  ],
+  "abstractText": [
+    "MOTIVATION: Piwi-interacting RNA (piRNA) is the most recently discovered and the least investigated class of Argonaute/Piwi protein-interacting small non-coding RNAs. The piRNAs are mostly known to be involved in protecting the genome from invasive transposable elements. But recent discoveries suggest their involvement in the pathophysiology of diseases, such as cancer. Their identification is therefore an important task, and computational methods are needed. However, the lack of conserved piRNA sequences and structural elements makes this identification challenging and difficult. RESULTS: In the present study, we propose a new modular and extensible machine learning method based on multiple kernels and a support vector machine (SVM) classifier for piRNA identification. Very few piRNA features are known to date. The use of a multiple kernels approach allows editing, adding or removing piRNA features that can be heterogeneous in a modular manner according to their relevance in a given species. Our algorithm is based on a combination of the previously identified features [sequence features (k-mer motifs and a uridine at the first position) and piRNAs cluster feature] and a new telomere/centromere vicinity feature. These features are heterogeneous, and the kernels allow to unify their representation. The proposed algorithm, named piRPred, gives promising results on Drosophila and Human data and outscores previously published piRNA identification algorithms. AVAILABILITY AND IMPLEMENTATION: piRPred is freely available to non-commercial users on our Web server EvryRNA http://EvryRNA.ibisc.univ-evry.fr."
+  ],
+  "affiliation": [
+    "IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France IBISC EA 4526, UEVE/Genopole, IBGBI, 23 bv. de France, 91000 Evry, France and Genethon, 1, bis rue de l'Internationale, 91002 Evry Cedex, France."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Drosophila"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Small Interfering"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Support Vector Machines"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA, Small Interfering"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4147894?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4147894"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=25161221"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=25161221&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1093/bioinformatics/btu441"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "1"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2015-01-15"
+  ],
+  "dateOfCreation": [
+    "2014-08-27"
+  ],
+  "firstPublicationDate": [
+    "2014-09-01"
+  ]
+}

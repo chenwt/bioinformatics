@@ -1,0 +1,541 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3000347</article-id><article-id pub-id-type="pmid">21151575</article-id><article-id pub-id-type="publisher-id">10-PLGE-RA-EV-3550R2</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.1001236</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline"><subject>Evolutionary Biology/Genomics</subject><subject>Genetics and Genomics</subject></subj-group></article-categories><title-group><article-title>Noisy Splicing Drives mRNA Isoform Diversity in Human Cells</article-title><alt-title alt-title-type="running-head">Noisy Splicing in Humans</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Pickrell</surname><given-names>Joseph K.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pai</surname><given-names>Athma A.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Gilad</surname><given-names>Yoav</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Pritchard</surname><given-names>Jonathan K.</given-names></name><xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref><xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref></contrib></contrib-group><aff id="aff1"><label>1</label><addr-line>Department of Human Genetics, The University of Chicago, Chicago, Illinois, United States of America</addr-line></aff><aff id="aff2"><label>2</label><addr-line>Howard Hughes Medical Institute, The University of Chicago, Chicago, Illinois, United States of America</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Dermitzakis</surname><given-names>Emmanouil T.</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Geneva Medical School, Switzerland</aff><author-notes><corresp id="cor1">* E-mail: <email>pickrell@uchicago.edu</email> (JK Pickrell); <email>athma@uchicago.edu</email> (AA Pai); <email>gilad@uchicago.edu</email> (Y Gilad); <email>pritch@uchicago.edu</email> (JK Pritchard)</corresp><fn fn-type="con"><p>Conceived and designed the experiments: JK Pickrell, Y Gilad, JK Pritchard. Performed the experiments: AA Pai. Analyzed the data: JK Pickrell. Wrote the paper: JK Pickrell, Y Gilad, JK Pritchard.</p></fn></author-notes><pub-date pub-type="collection"><month>12</month><year>2010</year></pub-date><pub-date pub-type="epub"><day>9</day><month>12</month><year>2010</year></pub-date><pub-date pub-type="ecorrected"><day>16
+</day><month>12</month><year>2010</year></pub-date><volume>6</volume><issue>12</issue><elocation-id>e1001236</elocation-id><history><date date-type="received"><day>4</day><month>7</month><year>2010</year></date><date date-type="accepted"><day>3</day><month>11</month><year>2010</year></date></history><permissions><copyright-statement>Pickrell et al.</copyright-statement><copyright-year>2010</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><abstract><p>While the majority of multiexonic human genes show some evidence of alternative splicing, it is unclear what fraction of observed splice forms is functionally relevant. In this study, we examine the extent of alternative splicing in human cells using deep RNA sequencing and <italic>de novo</italic> identification of splice junctions. We demonstrate the existence of a large class of low abundance isoforms, encompassing approximately 150,000 previously unannotated splice junctions in our data. Newly-identified splice sites show little evidence of evolutionary conservation, suggesting that the majority are due to erroneous splice site choice. We show that sequence motifs involved in the recognition of exons are enriched in the vicinity of unconserved splice sites. We estimate that the average intron has a splicing error rate of approximately 0.7% and show that introns in highly expressed genes are spliced more accurately, likely due to their shorter length. These results implicate noisy splicing as an important property of genome evolution.</p></abstract><abstract abstract-type="summary"><title>Author Summary</title><p>Most human genes are split into pieces, such that the protein-coding parts (exons) are separated in the genome by large tracts of non-coding DNA (introns) that must be transcribed and spliced out to create a functional transcript. Variation in splicing reactions can create multiple transcripts from the same gene, yet the function for many of these alternative transcripts is unknown. In this study, we show that many of these transcripts are due to splicing errors which are not preserved over evolutionary time. We estimate that the error rate in the splicing of an intron is about 0.7% and demonstrate that there are two major types of splicing error: errors in the recognition of exons and errors in the precise choice of splice site. These results raise the possibility that variation in levels of alternative splicing across species may in part be to variation in splicing error rate.</p></abstract><counts><page-count count="8"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Most mammalian mRNAs are processed from much longer precursors in a series of splicing reactions. Regulation of these splicing reactions can lead to alternatively spliced forms of mRNA from the same pre-mRNA <xref rid="pgen.1001236-Black1" ref-type="bibr">[1]</xref>, and there is considerable interest in cataloguing the functionally important transcripts of all mammalian genes. Towards this end, transcript diversity has been examined using data from full mRNA sequences, expressed sequence tags (ESTs), or high-throughput sequencing of cDNA libraries (RNA-Seq) <xref rid="pgen.1001236-lWang1" ref-type="bibr">[2]</xref>&#x02013;<xref rid="pgen.1001236-Modrek1" ref-type="bibr">[6]</xref>. In particular, recent RNA-Seq studies have established that nearly all multiexonic human genes have multiple detectable isoforms <xref rid="pgen.1001236-lWang1" ref-type="bibr">[2]</xref>, <xref rid="pgen.1001236-Pan1" ref-type="bibr">[5]</xref>.</p><p>The observation of extensive alternative splicing could indicate that most genes have many functionally-relevant isoforms; alternatively, many transcripts could be nonfunctional &#x0201c;noise&#x0201d; <xref rid="pgen.1001236-Hurst1" ref-type="bibr">[7]</xref>&#x02013;<xref rid="pgen.1001236-Baek1" ref-type="bibr">[10]</xref>. The latter explanation is supported by a few pieces of evidence from analyses of EST databases. In particular, a large fraction of exon-skipping events in human genes is not observed in mice (ie. is not conserved) <xref rid="pgen.1001236-Sorek1" ref-type="bibr">[11]</xref>&#x02013;<xref rid="pgen.1001236-Modrek2" ref-type="bibr">[13]</xref>, and the number of observed isoforms of a gene correlates with the number of exons it has (and thus the theoretical number of potential transcripts it could produce) <xref rid="pgen.1001236-Melamud1" ref-type="bibr">[8]</xref>. Additionally, it is hypothesized that short introns in humans (as well as in other eukaryotes) have evolved to preferentially trigger degradation via nonsense-mediated decay (NMD) mechanisms when the spliceosome fails to remove them, suggesting that such errors are common enough to exert a detectable selective pressure <xref rid="pgen.1001236-Jaillon1" ref-type="bibr">[14]</xref>.</p><p>There are also theoretical reasons to expect splicing to be error-prone. First, the binding sites for proteins important in exon recognition comprise a large mutational target; it has been estimated that approximately 30 bases are necessary for fully efficient splicing of an intron <xref rid="pgen.1001236-Lynch1" ref-type="bibr">[15]</xref>. The potential for mutational disruption of these binding sites has been referred to as part of the &#x0201c;intrinsic cost of introns&#x0201d; <xref rid="pgen.1001236-Lynch2" ref-type="bibr">[16]</xref>. Further, the large size of introns relative to exons gives ample opportunity for the mutational creation of <italic>new</italic> (weak) binding sites. Although mutations which create or disrupt binding sites may be slightly deleterious, the large number of possible such mutations makes it inevitable that some will reach fixation in a population. This is particularly relevant in species, such as humans, with relatively small long-term effective population sizes. It is plausible, then, that the human genome carries a substantial load of suboptimal sequences which cause the generation of aberrant transcript isoforms. In this study, we present direct evidence that this is indeed the case.</p></sec><sec id="s2"><title>Results</title><p>We have performed deep sequencing of cDNA libraries generated from mRNA from 75 lymphoblastoid cell lines derived from Nigerian individuals as part of the International HapMap Project (69 from Pickrell et al. <xref rid="pgen.1001236-Pickrell1" ref-type="bibr">[17]</xref> and 6 additional ones). In total, we generated 1.4 billion sequencing reads of either 35 or 46 base pairs. 1.2 billion of these sequencing reads mapped to the genome. We used the remainder to identify splice junctions (without reference to known exons) by splitting each sequencing read into two and mapping each end to the genome independently. In total, 48 million additional reads mapped to the genome using this read-splitting procedure, and we identified 392,612 putative splice junctions.</p><p>Most previous investigations of splice junctions using RNA-seq data have considered putative splice junctions only between previously annotated or predicted exons <xref rid="pgen.1001236-lWang1" ref-type="bibr">[2]</xref>, <xref rid="pgen.1001236-Mortazavi1" ref-type="bibr">[4]</xref>, <xref rid="pgen.1001236-Pan1" ref-type="bibr">[5]</xref>, <xref rid="pgen.1001236-Sultan1" ref-type="bibr">[18]</xref>, <xref rid="pgen.1001236-Marioni1" ref-type="bibr">[19]</xref>. Since our method makes no such restriction, one reasonable concern is that we might identify spurious junctions due to mapping or sequencing errors. However, there is strong evidence that the identified junctions are real outcomes of splicing reactions. First, despite the fact that our mapping approach used no information about the sequence specificity of the splicing reaction, the majority of the putative junctions contain GT-AG dinucleotides (the canonical splice sites) directly intronic of the edges of the predicted splice sites (<xref ref-type="fig" rid="pgen-1001236-g001">Figure 1A</xref>). If we assume that all putative junctions without intronic matches to the canonical splice sites (or the alternative dinucleotide pair GC-AG) are false positives, we estimate a False Discovery Rate (FDR) of 1.5% for the 306,606 junctions that do contain such matches (<xref ref-type="sec" rid="s4">Methods</xref>). Second, the positions of putative alternative splice sites near protein-coding splice sites follow a periodic pattern, such that splice sites which maintain the coding frame of the exon are observed more often than those which disrupt frame (<xref ref-type="fig" rid="pgen-1001236-g001">Figure 1C, 1D</xref>). In total, 42% of these alternative splice sites are in frame (<inline-formula><inline-graphic xlink:href="pgen.1001236.e001.jpg" mimetype="image"/></inline-formula>; binomial test against the null hypothesis of 33%). This observation recapitulates patterns seen in studies of EST databases <xref rid="pgen.1001236-Dou1" ref-type="bibr">[20]</xref>&#x02013;<xref rid="pgen.1001236-Hiller1" ref-type="bibr">[22]</xref>. In the remainder of the paper we analyze only the set of 306,606 junctions which contain intronic matches to GT-AG or GC-AG.</p><fig id="pgen-1001236-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1001236.g001</object-id><label>Figure 1</label><caption><title>Extensive unannotated splicing in human cells.</title><p>A. We plot, as a function of number of supporting reads, the fraction of junctions 1) matching GT-AG, the splice site consensus sequences (black), 2) matching a control pair of dinucleotides (grey), 3) annotated in EST databases (light blue), or 4) annotated in gene databases (dark blue). B. We split all junctions into those that are annotated in gene model databases and those that are not. Plotted is the cumulative number of junctions of each type by expression level. Unannotated junctions are expressed at much lower levels than annotated junctions. C and D. Alternative splice junctions near known protein-coding junctions show a periodic pattern. At each alternatively-spliced protein-coding 3&#x02032; or 5&#x02032; splice site, we counted the positions of AG (or GT, respectively) dinucleotides used as alternative splice sites, then averaged this across splice sites (see <xref ref-type="sec" rid="s4">Methods</xref>). The red points denote positions that are a multiple of three base pairs from the major splice form, and the black points those that are not. The blue box below each panel shows the position of the exon.</p></caption><graphic xlink:href="pgen.1001236.g001"/></fig><sec id="s2a"><title>Many identified junctions are novel</title><p>We compared the junctions we identified to gene models from the UCSC, Ensembl, Vega, and RefSeq databases, and to spliced ESTs from Genbank <xref rid="pgen.1001236-Hsu1" ref-type="bibr">[23]</xref>&#x02013;<xref rid="pgen.1001236-Benson1" ref-type="bibr">[27]</xref>. Of the 306,606 splice junctions, 154,927 (50.5%) are not annotated as parts of known gene models, and 136,313 (44.5%) are not present in Genbank. For splice junctions not present in gene models, we estimate an FDR of about 2% (<xref ref-type="sec" rid="s4">Methods</xref>). The extensive unannotated splicing we observe is largely due to junctions that are rarely seen in our data (<xref ref-type="fig" rid="pgen-1001236-g001">Figure 1B</xref>): while 50% of all observed junctions are not present in gene models, these account for only 1.7% of all junction-spanning sequencing reads (<xref ref-type="table" rid="pgen-1001236-t001">Table 1</xref>). For example, 21 of the 32 splice junctions observed in the gene <italic>HERPUD1</italic> are unannotated, but only around 0.5% of the reads from this gene are derived from these 21 unannotated junctions (<xref ref-type="fig" rid="pgen-1001236-g002">Figure 2</xref>). We see no sign that our identification of isoforms is near saturation (<xref ref-type="supplementary-material" rid="pgen.1001236.s001">Figure S1</xref>); thus deeper sequencing of transcriptomes will likely continue to identify additional low-abundance isoforms.</p><fig id="pgen-1001236-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1001236.g002</object-id><label>Figure 2</label><caption><title>An example of splice junctions identified in a gene.</title><p>In the top panel, we plot the average expression level at each base in a region surrounding <italic>HERPUD1</italic>. In blue are bases annotated as exonic, and in black are those annotated as not exonic. In the middle panel, we plot the positions of all splice junctions in the region identified in our data. In black are splice junctions that are present in gene databases; in red are those that are not. The number of sequencing reads supporting each junction is written to the right of each junction, and junctions are ordered from top to bottom of the plot according to their coverage. In the bottom panel, we show the gene models in the region from Ensembl. The blue boxes show the positions of exons, and the black lines the positions of introns.</p></caption><graphic xlink:href="pgen.1001236.g002"/></fig><table-wrap id="pgen-1001236-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1001236.t001</object-id><label>Table 1</label><caption><title>Characteristics of observed junctions.</title></caption><alternatives><graphic id="pgen-1001236-t001-1" xlink:href="pgen.1001236.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1"/><td colspan="2" align="left" rowspan="1">Both ends known</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">Known junc.</td><td align="left" rowspan="1" colspan="1">New junc.</td><td align="left" rowspan="1" colspan="1">New 3&#x02032; SS</td><td align="left" rowspan="1" colspan="1">New 5&#x02032; SS</td><td align="left" rowspan="1" colspan="1">Both new</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">number</td><td align="left" rowspan="1" colspan="1">151,679</td><td align="left" rowspan="1" colspan="1">27,611</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e002.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e003.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e004.jpg" mimetype="image"/></inline-formula>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">mean coverage</td><td align="left" rowspan="1" colspan="1">255</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e005.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e006.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e007.jpg" mimetype="image"/></inline-formula>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">% obs. in other tissues</td><td align="left" rowspan="1" colspan="1">87</td><td align="left" rowspan="1" colspan="1">27</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e008.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e009.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e010.jpg" mimetype="image"/></inline-formula>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">% near known [5&#x02032;,3&#x02032;]</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e011.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e012.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e013.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e014.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e015.jpg" mimetype="image"/></inline-formula>
+</td></tr><tr><td align="left" rowspan="1" colspan="1">% highly conserved [5&#x02032;,3&#x02032;]</td><td align="left" rowspan="1" colspan="1">76, 76</td><td align="left" rowspan="1" colspan="1">75, 77</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e016.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e017.jpg" mimetype="image"/></inline-formula>
+</td><td align="left" rowspan="1" colspan="1">
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e018.jpg" mimetype="image"/></inline-formula>
+</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label/><p>As described in the main text, we split the observed junctions into five classes based on gene model databases. For each class, we present the number of such junctions, the average number of reads spanning each junction in that class, the percentage of the junctions observed in any tissue assayed in Wang et al. <xref rid="pgen.1001236-lWang1" ref-type="bibr">[2]</xref>, the percentage of 5&#x02032; and 3&#x02032; splice sites of each junction that fall near an annotated splice site (&#x0201c;near&#x0201d; here is defined as within 50 base pairs), and the percentage of the 5&#x02032; and 3&#x02032; splice sites of each junction that show strong evidence of evolutionary conservation (defined as a mean <italic>phyloP</italic> score <inline-formula><inline-graphic xlink:href="pgen.1001236.e019.jpg" mimetype="image"/></inline-formula>
+<xref rid="pgen.1001236-Pollard1" ref-type="bibr">[31]</xref> at the two canonical bases of the splice site).</p></fn></table-wrap-foot></table-wrap></sec><sec id="s2b"><title>Characteristics of identified junctions and splice sites</title><p>Next, we quantified overall levels of alternative splicing. To do this, we considered a set of splice sites covered by at least 50 reads in our data (there are 77,754 such 5&#x02032; splice sites and 77,733 such 3&#x02032; splice sites; <inline-formula><inline-graphic xlink:href="pgen.1001236.e020.jpg" mimetype="image"/></inline-formula> of these are annotated in gene model databases). We then counted both the number of different places in the genome to which each site is spliced, as well as the proportions of reads covering each junction. We estimate that the &#x0201c;major&#x0201d; splice form accounts for 98.4% of reactions involving each splice site; in our data the average splice site is involved in 1.8 different splicing reactions. 5&#x02032; splice sites in untranslated regions (UTRs) are involved in a mean of 2.6 splicing reactions, versus 1.8 for 5&#x02032; splice sites in protein-coding regions; the corresponding numbers are 3.2 and 1.7 for 3&#x02032; splice sites.</p><p>We then evaluated how the splice junctions correspond to known gene models. We split the junctions into five classes: (i) those where the junction is annotated; (ii) those between splice sites that are both annotated (but not annotated as being spliced together); (iii) those where the 5&#x02032; splice site (but not the 3&#x02032; splice site) is annotated; (iv) those where the 3&#x02032; splice site (but not the 5&#x02032; splice site) is annotated; and (v) those where neither splice site is annotated. 80% of the unannotated junctions involve at least one annotated splice site, and though many newly-identified splice sites fall near annotated sites, the majority do not (<xref ref-type="table" rid="pgen-1001236-t001">Table 1</xref>). This indicates that a large fraction of the low-abundance isoforms are not modifications of known exons, but instead contain entirely new exons.</p></sec><sec id="s2c"><title>Extensive unannotated splicing is present in different human populations and tissues</title><p>We next asked whether we could confirm these observations in other cell lines and primary tissues. We first performed the same analysis on RNA-Seq data generated on a different set of human LCLs <xref rid="pgen.1001236-Montgomery1" ref-type="bibr">[28]</xref>. We identified 219,322 splice junctions at an FDR of 1.5%, 82,658 of which are unannotated (<xref ref-type="supplementary-material" rid="pgen.1001236.s001">Figure S1</xref>). We then analyzed RNA-Seq data from primary human liver samples (George Perry, unpublished data); we identified 156,905 splice junctions at an FDR of 0.8%, 29,655 of which are unannotated (<xref ref-type="supplementary-material" rid="pgen.1001236.s001">Figure S1</xref>). Finally, we analyzed RNA-Seq data from a set of several primary tissues <xref rid="pgen.1001236-lWang1" ref-type="bibr">[2]</xref>; we identified 136,499 splice junctions at an FDR of 1.8%, 21,743 of which are unannotated (<xref ref-type="supplementary-material" rid="pgen.1001236.s001">Figure S1</xref>). The numbers of unannotated splice junctions in these studies are roughly consistent with the observed numbers found in the Yoruba data, given the lower sequencing depths of those other studies and hence better sampling of common junctions relative to rare junctions (<xref ref-type="supplementary-material" rid="pgen.1001236.s001">Figure S1</xref>). This confirms that the observation of extensive unannotated splicing is broadly generalizable; for the rest of the paper we focus on the original set of Yoruban LCL data since this is the largest RNA-Seq dataset currently available.</p><p>We also considered how much splicing shows evidence of being restricted to particular individuals, rather than shared across the entire population (due to, for example, sequence polymorphisms which influence splicing <xref rid="pgen.1001236-Pickrell1" ref-type="bibr">[17]</xref>, <xref rid="pgen.1001236-Montgomery1" ref-type="bibr">[28]</xref>&#x02013;<xref rid="pgen.1001236-Fraser1" ref-type="bibr">[30]</xref>). Though it is difficult to estimate this precisely, several analyses suggest that only a couple percent of splice junctions, at maximum, show evidence of being restricted to certain individuals (<xref ref-type="supplementary-material" rid="pgen.1001236.s009">Text S1</xref>).</p></sec><sec id="s2d"><title>Most unannotated splice junctions show no evolutionary conservation</title><p>We hypothesized that unannotated, rarely-used splice sites are the result of evolutionarily-neutral (or perhaps slightly deleterious) splicing errors. To test this, we compared the sequence conservation across placental mammals (using the <italic>phyloP</italic> score <xref rid="pgen.1001236-Pollard1" ref-type="bibr">[31]</xref>) between the unannotated and annotated splice sites (we assume that current gene databases are highly enriched for truly functional exons). If the unannotated splice sites are functionally relevant, their sequence conservation should be comparable to that of annotated splice sites. For this analysis, we used the set of splice junctions where one end is an annotated splice site and the other is more than 50 bases away from an annotated splice site.</p><p>Annotated splice sites show a striking pattern of sequence conservation&#x02013;the splice sites themselves are highly conserved, as are the regions exonic of the splice sites (<xref ref-type="fig" rid="pgen-1001236-g003">Figure 3A</xref>). In contrast, the conservation scores around unannotated splice sites show little, if any, signal of evolutionary constraint (<xref ref-type="fig" rid="pgen-1001236-g003">Figure 3B</xref>). This same pattern holds in an independent sample of LCLs and in primary human liver samples (<xref ref-type="supplementary-material" rid="pgen.1001236.s002">Figures S2</xref> and <xref ref-type="supplementary-material" rid="pgen.1001236.s003">S3</xref>). To exclude the possibility that our analysis overlooked splice sites that are conserved in only a subset of placental mammals, we repeated this analysis using <italic>phyloP</italic> scores calculated using only primates, and saw the same pattern (<xref ref-type="supplementary-material" rid="pgen.1001236.s004">Figure S4</xref>). Further, humans have reduced polymorphism in the annotated splice sites, but no such reduction in the unannotated splice sites (<xref ref-type="supplementary-material" rid="pgen.1001236.s005">Figure S5</xref>). The most parsimonious explanation of these observations is that the majority of rarely-used, unannotated splice sites are simply due to mis-spliced transcripts.</p><fig id="pgen-1001236-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1001236.g003</object-id><label>Figure 3</label><caption><title>Unannotated splice junctions show little evidence of evolutionary conservation.</title><p>In each panel, we plot the mean <italic>phyloP</italic> score <xref rid="pgen.1001236-Pollard1" ref-type="bibr">[31]</xref> at each base surrounding the splice site. In the top panels are annotated splice sites, and in the bottom panels are unannotated splice sites. In blue are bases exonic of the splice site, and in black are those intronic of the splice site, as diagrammed below each panel.</p></caption><graphic xlink:href="pgen.1001236.g003"/></fig></sec><sec id="s2e"><title>Estimation of splicing error rates</title><p>To estimate the fraction of mature mRNAs resulting from mis-splicing, we identified a set of splice junctions where both the 5&#x02032; and 3&#x02032; splice sites are highly conserved (those with a <italic>phyloP</italic> score <inline-formula><inline-graphic xlink:href="pgen.1001236.e021.jpg" mimetype="image"/></inline-formula>). We then asked how often the conserved splice sites are spliced to unconserved splice sites (to provide a conservative lower bound on the amount of mis-splicing, we used a relaxed threshold of a <italic>phyloP</italic> score <inline-formula><inline-graphic xlink:href="pgen.1001236.e022.jpg" mimetype="image"/></inline-formula> 0.5 to call a splice site as unconserved for this analysis). Approximately 0.7% of reads involving either end of a conserved junction are to unconserved splice sites. Given that the median gene in the human genome has four exons (and thus three splicing reactions), this suggests that approximately 2% of transcripts from the average gene are mis-spliced. Because mis-spliced transcripts are preferentially removed by NMD mechanisms, this is likely a conservative estimate.</p><p>We next tried to identify factors that are predictive of an intron's level of splicing error. The two factors we considered were the intron's length and the expression level of the gene in which the intron falls. Longer introns show higher levels of mis-splicing (<xref ref-type="fig" rid="pgen-1001236-g004">Figure 4</xref>), while highly expressed genes show somewhat lower levels (<xref ref-type="supplementary-material" rid="pgen.1001236.s006">Figure S6</xref>). These associations may be confounded, however, by the fact that highly expressed genes tend to have shorter introns <xref rid="pgen.1001236-CastilloDavis1" ref-type="bibr">[32]</xref>. Indeed, the association between splicing error rate and gene expression level disappears after correction for intron length (<xref ref-type="supplementary-material" rid="pgen.1001236.s005">Figure S5</xref>), indicating that this association is largely driven by the lower splicing error rate of small introns. The different sequence composition of introns in highly expressed genes <xref rid="pgen.1001236-Hurst2" ref-type="bibr">[33]</xref> may also influence their lower rate of splicing error (<xref ref-type="supplementary-material" rid="pgen.1001236.s009">Text S1</xref>; <xref ref-type="supplementary-material" rid="pgen.1001236.s007">Figure S7</xref>).</p><fig id="pgen-1001236-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1001236.g004</object-id><label>Figure 4</label><caption><title>Splicing error rate correlates with intron length.</title><p>We divided all introns that are bounded by highly conserved splice sites into 100 bins based on length. We then calculated, in each bin, the mean fraction of sequencing reads from either splice site to an unconserved splice site. Plotted is this mean against the <inline-formula><inline-graphic xlink:href="pgen.1001236.e023.jpg" mimetype="image"/></inline-formula> of the mean intron length (in base pairs) of introns in the bin. In red is a spline fit to these points.</p></caption><graphic xlink:href="pgen.1001236.g004"/></fig></sec><sec id="s2f"><title>&#x0201c;Noise&#x0201d; splice sites are marked by genomic features that define exons</title><p>Finally, we considered the mechanism which results in the generation of mis-spliced transcripts. To do so, we looked for hexamers enriched in the vicinity of unconserved, rarely-used splice sites, as compared to nearby &#x0201c;decoy&#x0201d; splice sites (matching GT or AG) which we never observed to be used in our data. 574 hexamers show significant enrichment or depletion exonic of the 5&#x02032; SS, and 728 exonic of the 3&#x02032; splice site (<xref ref-type="fig" rid="pgen-1001236-g005">Figure 5A</xref>; <inline-formula><inline-graphic xlink:href="pgen.1001236.e024.jpg" mimetype="image"/></inline-formula>; <inline-formula><inline-graphic xlink:href="pgen.1001236.e025.jpg" mimetype="image"/></inline-formula> test). Although the relative enrichments of hexamers near the 5&#x02032; and 3&#x02032; splice sites are similar, a set of hexamers matching the binding site for the U1 snRNP (which recognizes the 5&#x02032; splice site) is strongly depleted in the vicinity of the 5&#x02032; splice sites, but shows only limited or no depletion in the vicinity of 3&#x02032; splice sites (<xref ref-type="fig" rid="pgen-1001236-g005">Figure 5A</xref>). This is consistent with the observation that competitive binding of the core splice factors plays an important role in splice site choice <xref rid="pgen.1001236-Yu1" ref-type="bibr">[34]</xref>. There is a smaller, but still substantial, number of hexamers enriched or depleted intronic of the splice sites (295 and 282 for 5&#x02032; and 3&#x02032; splice sites, respectively).</p><fig id="pgen-1001236-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1001236.g005</object-id><label>Figure 5</label><caption><title>Hexamers enriched near unconserved splice sites are relevant in exon definition.</title><p>A. Plotted is the <inline-formula><inline-graphic xlink:href="pgen.1001236.e026.jpg" mimetype="image"/></inline-formula> enrichment of all possible hexamers exonic of either 5&#x02032; or 3&#x02032; noise splice sites. In light blue are hexamers identified as exonic splicing enhancers by Fairbrother et al. <xref rid="pgen.1001236-Fairbrother1" ref-type="bibr">[35]</xref>, and in dark blue are hexamers that are good matches to the consensus U1 snSNP binding site (we include all hexamers matching five contiguous bases of &#x0201c;AGGTAAG&#x0201d;). B and C. Hexamers from A. mark borders of constitutively spliced exons. Each point is the fraction of hexamers starting at that position relative to a constitutively spliced exon (in these cells) which match the hexamers identified as significantly enriched exonic or intronic of the &#x0201c;noise&#x0201d; 5&#x02032; or 3&#x02032; splice sites.</p></caption><graphic xlink:href="pgen.1001236.g005"/></fig><p>We compared our list of hexamers to the list of exonic splicing enhancers (ESEs) identified by Fairbrother et al. <xref rid="pgen.1001236-Fairbrother1" ref-type="bibr">[35]</xref>, some of which were validated experimentally, and found that 79% of the ESEs are enriched exonic of both 3&#x02032; and 5&#x02032; splice sites in our data (<inline-formula><inline-graphic xlink:href="pgen.1001236.e027.jpg" mimetype="image"/></inline-formula>, <inline-formula><inline-graphic xlink:href="pgen.1001236.e028.jpg" mimetype="image"/></inline-formula> test). This is evidence that noisy splicing is a result of the binding of the same splice factors used to identify exons more generally. Further support for this possibility comes from the observation that the hexamers identified near noise splice sites demarcate the boundaries of constitutive exons in our data (<xref ref-type="fig" rid="pgen-1001236-g005">Figure 5B, 5C</xref>).</p></sec></sec><sec id="s3"><title>Discussion</title><p>In this study, we have examined the extent of alternative splicing in human cells. We have demonstrated that there is a large number of evolutionarily unconserved (and presumably slightly deleterious) alternative isoforms of most genes, and have presented evidence that this noisy splicing is the result of stochastic binding of sequence-specific factors involved in exon recognition.</p><sec id="s3a"><title>Noisy splicing</title><p>Two main observations support the contention that the majority of low-abundance isoforms are due to splicing errors. First, rarely-used splice sites are enriched near often-used splice sites, and additionally show a periodic pattern around those sites (<xref rid="pgen.1001236-Dou1" ref-type="bibr">[20]</xref>, <xref rid="pgen.1001236-Chern1" ref-type="bibr">[21]</xref>, <xref ref-type="fig" rid="pgen-1001236-g001">Figure 1</xref>). Our interpretation of these observations (like that of Dou et al. <xref rid="pgen.1001236-Dou1" ref-type="bibr">[20]</xref> and Chern et al. <xref rid="pgen.1001236-Chern1" ref-type="bibr">[21]</xref>) is that the splicing machinery occasionally misses its &#x0201c;intended&#x0201d; splice site, and that the resultant isoforms which disrupt the protein-coding reading frame are preferentially degraded by the NMD machinery. Second, rarely-used, unannotated splice sites (we interpret the fact that a splice site is annotated as evidence that it is relatively highly expressed in at least one tissue) show little evidence of evolutionary conservation across placental mammals (<xref ref-type="fig" rid="pgen-1001236-g003">Figure 3</xref>) or primates (<xref ref-type="supplementary-material" rid="pgen.1001236.s003">Figure S3</xref>), or of constraint within humans (<xref ref-type="supplementary-material" rid="pgen.1001236.s004">Figure S4</xref>). We conclude, then, that the majority of low-abundance splice forms are indeed &#x0201c;noise&#x0201d;. In fact, because our identification of splice forms is not yet at saturation (<xref ref-type="supplementary-material" rid="pgen.1001236.s001">Figure S1</xref>), we extrapolate that the majority of different mRNA isoforms present in a cell are not functionally relevant, though most copies of a pre-mRNA produce truly functional isoforms. We speculate that this conclusion will hold at the protein level as well.</p></sec><sec id="s3b"><title>Mechanisms of noisy splicing</title><p>One goal in understanding the mechanism of splicing is the generation of a &#x0201c;splicing code&#x0201d;&#x02013;a set of rules which the cell uses to convert the information present in a pre-mRNA sequence to a properly spliced mRNA <xref rid="pgen.1001236-Wang1" ref-type="bibr">[36]</xref>&#x02013;<xref rid="pgen.1001236-Barash1" ref-type="bibr">[38]</xref>. This code presumably involves the binding sites for various splice factors <xref rid="pgen.1001236-Fairbrother1" ref-type="bibr">[35]</xref>, <xref rid="pgen.1001236-Zhang2" ref-type="bibr">[39]</xref>, <xref rid="pgen.1001236-Wang2" ref-type="bibr">[40]</xref>, as well as local chromatin structure <xref rid="pgen.1001236-Luco1" ref-type="bibr">[41]</xref>&#x02013;<xref rid="pgen.1001236-KolasinskaZwierz1" ref-type="bibr">[46]</xref>. The results presented here suggest that, instead of being a deterministic function that maps a pre-mRNA sequence to a spliced transcript, the &#x0201c;splicing code&#x0201d; instead defines a probability distribution for each pre-mRNA on a large number of possible splice forms. That is, the same pre-mRNA sequence will stochastically result in a large number of isoforms, presumably even within the same cell. We suggest that low-probability events may be informative about the parameters of this distribution.</p></sec><sec id="s3c"><title>Evolutionary consequences of noisy splicing</title><p>The level of splicing error observed in a gene reflects a balance between the continuous input of mutations that disrupt splicing and the ability of selection to remove them <xref rid="pgen.1001236-Lynch2" ref-type="bibr">[16]</xref>. Indeed, selection for proper discrimination between introns and exons has affected genome evolution in a number of ways, by constraining the composition of amino acids coded near splice sites <xref rid="pgen.1001236-Parmley1" ref-type="bibr">[47]</xref> and influencing the sequence composition of introns <xref rid="pgen.1001236-Jaillon1" ref-type="bibr">[14]</xref>, <xref rid="pgen.1001236-Zhang3" ref-type="bibr">[48]</xref>. We have shown that longer introns are more prone to splicing errors. This is consistent with the increased rate of birth of new, alternatively spliced exons in long introns <xref rid="pgen.1001236-Roy1" ref-type="bibr">[49]</xref>, <xref rid="pgen.1001236-FoxWalsh1" ref-type="bibr">[50]</xref>, and supports the contention that long introns are more deleterious than short introns <xref rid="pgen.1001236-Carvalho1" ref-type="bibr">[51]</xref>, <xref rid="pgen.1001236-Lynch3" ref-type="bibr">[52]</xref>. This may contribute to selection for short introns in highly expressed genes <xref rid="pgen.1001236-CastilloDavis1" ref-type="bibr">[32]</xref>.</p><p>One implication of the above reasoning is that the level of splicing error observed in an organism should depend on the complexity of the splicing machinery in the species (ie., the number of potential mutations that could affect splicing) and the effective population size of the species (and hence the effectiveness of natural selection in removing those mutations). This is consistent with the observation that levels of alternative splicing vary considerably across eukaryotes <xref rid="pgen.1001236-Kim1" ref-type="bibr">[53]</xref>. A prediction, then, is that species with larger effective population sizes or simpler splicing mechanisms should have lower rates of splicing error. Progress in RNA-Seq technology will soon allow relatively unbiased exploration of the evolution of splicing noise in a wide variety of species, and allow propositions such as these to be tested.</p></sec></sec><sec sec-type="methods" id="s4"><title>Methods</title><sec id="s4a"><title>Data used</title><p>For the main analysis of LCLs, we used RNA-Seq data generated on 75 HapMap cell lines derived from Yoruban individuals. Data from 69 of these were reported in Pickrell et al. <xref rid="pgen.1001236-Pickrell1" ref-type="bibr">[17]</xref>. We also generated RNA-Seq data on six additional HapMap Yoruban cell lines, using the same protocol as in Pickrell et al. <xref rid="pgen.1001236-Pickrell1" ref-type="bibr">[17]</xref>. Each cell line was sequenced in two lanes on the Illumina GA2 platform, one lane at the Yale sequencing center using 35 base pair sequencing reads, and one at the Argonne sequencing center using 46 base pair sequencing reads. The cell line identifiers and basic quality control metrics are presented in <xref ref-type="table" rid="pgen-1001236-t001">Table 1</xref> in <xref ref-type="supplementary-material" rid="pgen.1001236.s009">Text S1</xref>. All data are available at <ext-link ext-link-type="uri" xlink:href="http://eqtl.uchicago.edu">http://eqtl.uchicago.edu</ext-link>.</p><p>For the analysis of an independent set of human LCLs, we obtained RNA-Seq data on a set of 60 HapMap cell lines derived from individuals of European descent <xref rid="pgen.1001236-Montgomery1" ref-type="bibr">[28]</xref>. These data consist of paired-end 37 base pair reads generated on the Illumina GA2 platform, obtained from <ext-link ext-link-type="uri" xlink:href="http://jungle.unige.ch/rnaseq_CEU60/">http://jungle.unige.ch/rnaseq_CEU60/</ext-link>. We treated each end of a paired-end read independently, and used the protocol described below to identify splice junctions. For the analysis of primary human liver cell, we used RNA-Seq data from four human liver samples (G. Perry, unpublished). These data consist of paired-end 76 base pair reads generated on the Illumina GA2 platform. RNA-Seq data from multiple other tissues were obtained from Wang et al. <xref rid="pgen.1001236-lWang1" ref-type="bibr">[2]</xref> and Wu et al. <xref rid="pgen.1001236-Wu1" ref-type="bibr">[54]</xref>. All data were processed in the same manner, described below.</p></sec><sec id="s4b"><title>Identification of splice junctions <italic>de novo</italic>
+</title><p>Here, we describe our approach for <italic>de novo</italic> identification of splice junctions, which is similar to previous approaches <xref rid="pgen.1001236-Pickrell1" ref-type="bibr">[17]</xref>, . Software is available at <ext-link ext-link-type="uri" xlink:href="http://eqtl.uchicago.edu">http://eqtl.uchicago.edu</ext-link>.</p><list list-type="order"><list-item><p>First, we mapped all the reads to a modified version of hg18, where all chromosomes labeled &#x0201c;random&#x0201d; were removed and the pseudoautosomal region of the Y chromosome was converted to all &#x0201c;N&#x0201d;s. We used bwa v.0.5.7 <xref rid="pgen.1001236-Li1" ref-type="bibr">[61]</xref> with the default parameters.</p></list-item><list-item><p>All reads that did not map to the genome in the first step were considered as possible junction-spanning reads. We took the first 20 bases and the last 20 bases of each such read and mapped each end to the genome independently using bwa. For reads shorter than 40 bases, these two ends are overlapping.</p></list-item><list-item><p>If both ends of a read shorter than 40 bases mapped uniquely to the genome, we discarded the read. If both ends of a longer read mapped uniquely (with a mapping quality score <inline-formula><inline-graphic xlink:href="pgen.1001236.e029.jpg" mimetype="image"/></inline-formula>10) to the same strand of the same chromosome within 20 kb (and greater than 50 bases apart), we considered all possible splice junctions consistent with the positions of the two ends and reported all junctions with the lowest number of mismatches between the read and the genome.</p></list-item><list-item><p>If one end of a read mapped uniquely to the genome, we first extended the alignment as far as we could without allowing a mismatch, then searched 20 kb downstream for a perfect match to the rest of the read. If there was only one such perfect match, and there were at least 10 bases mapped on either side of the splice junction, we kept the read.</p></list-item><list-item><p>We note that there is ambiguity in the precise splice site covered by a read. This is because the consensus 5&#x02032; splice site is <italic>AG</italic>
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e030.jpg" mimetype="image"/></inline-formula> GTA (where <inline-formula><inline-graphic xlink:href="pgen.1001236.e031.jpg" mimetype="image"/></inline-formula> denotes the position of the splice junction, and italics the exonic sequence), and the consensus 3&#x02032; splice site is CAG <inline-formula><inline-graphic xlink:href="pgen.1001236.e032.jpg" mimetype="image"/></inline-formula>
+<italic>G</italic>. So, for example, a read covering that splice junction would also be consistent with a 5&#x02032; splice site of <italic>A</italic>
+<inline-formula><inline-graphic xlink:href="pgen.1001236.e033.jpg" mimetype="image"/></inline-formula> GGTA and a 3&#x02032; splice site of CA <inline-formula><inline-graphic xlink:href="pgen.1001236.e034.jpg" mimetype="image"/></inline-formula>
+<italic>GG</italic>. For each read which we were able to map, we recorded all such possible splice junctions. In the majority of the paper, however, we use only those junctions matching GT-AG or GC-AG.</p></list-item></list><p>By doing the mapping in this way, we expect to recover approximately 55% of all the 46 base pair reads that span splice junctions (outside repetitive regions of the genome), and approximately 30% of all the 35 base pair reads that span splice junctions (there are 10 allowable breakpoints in a 35 base pair read, and 26 allowable breakpoints in a 46 base pair read). We note that we are also limiting ourselves to identifying introns with a maximum length of 20 kb; this is sufficient for the majority of introns in humans.</p></sec><sec id="s4c"><title>Analysis of lowly-used splice sites near protein-coding sites</title><p>In <xref ref-type="fig" rid="pgen-1001236-g001">Figure 1</xref>, we show the density of splice sites near known protein-coding sites. In this analysis, we used only splice sites annotated as being protein-coding in all the transcripts of the gene in Ensembl and Refseq. To generate this figure for the 3&#x02032; splice sites, we identified all the 5&#x02032; splice sites covered by at least 20 reads, spliced to at least two 3&#x02032; splice sites, and where one of those 3&#x02032; splice sites contributed <inline-formula><inline-graphic xlink:href="pgen.1001236.e035.jpg" mimetype="image"/></inline-formula>% of all the reads from that 5&#x02032; splice site. We will call that 3&#x02032; splice site the &#x0201c;major&#x0201d; splice site, and the other the &#x0201c;minor&#x0201d; splice site. We then recorded all the positions of matches to AG in the region surrounding the &#x0201c;major&#x0201d; splice site. For each distance from the &#x0201c;major&#x0201d; splice site, we can then count the number of &#x0201c;minor&#x0201d; splice forms at that distance, as well as the number of AG dinucleotides that would lead to a splice site at that distance. The ratio of those two numbers is plotted in <xref ref-type="fig" rid="pgen-1001236-g001">Figure 1</xref>. We excluded the positions from &#x02212;2 to +2 from the splice site due to ambiguity in the read mapping. Analysis for the 5&#x02032; splice sites is analogous.</p></sec><sec id="s4d"><title>Genome annotations used</title><p>We downloaded the Ensembl, UCSC, Vega, and RefSeq gene models from the annotation of hg18 in the UCSC Genome Browser on Dec. 31st, 2009. We downloaded the spliced EST track on March 1st, 2010. Throughout the paper, when we refer to an &#x0201c;annotated&#x0201d; splice junction, we mean one present in at least one of the Ensembl, UCSC, Vega, or RefSeq databases as of that date. In several places in the paper, we use presence of a splice site in these databases as a proxy for function (rather than, for example, read depth in our data). This is supported by our analysis of conservation (<xref ref-type="fig" rid="pgen-1001236-g003">Figure 3A</xref>); even rarely-used splice sites in LCLs which are present in gene databases show high levels of sequence conservation (<xref ref-type="supplementary-material" rid="pgen.1001236.s008">Figure S8</xref>). This is likely due to that fact that some fraction of rarely-used splice sites in LCLs are abundantly used in some other tissue, and thus are both functionally relevant and annotated in current databases.</p></sec><sec id="s4e"><title>Estimation of the False Discovery Rate of splice junctions</title><p>We can estimate the FDR for the junctions we identified by considering how often each junction is consistent with a GT-AG intron versus control pairs of dinucleotides (recall that each junction read is usually consistent with several pairs of potential splice sites). Of the 392,612 junctions initially identified, 306,606 are consistent with GT-AG or GC-AG (298,346 are consistent with the former, and 8,260 with the latter). In contrast, 4,230 are consistent with control dinucleotides GT-TC or GC-TC (note that the controls simply contain the complement of the 3&#x02032; splice site consensus dinucleotide). If we assume that all of the controls are false positives, this gives an FDR of 1.4% (4,230/306,606). If we restrict ourselves only to the 240,644 splice junctions that have not been previously observed, 154,927 are consistent with GT-AG or GC-AG, and 2,985 are consistent with the control pairs of dinucleotides. This gives an FDR for the set of unannotated junctions which contain intronic matches to GT-AG or GC-AG as 1.9% (2,985/154,927). We saw no evidence of enrichment for AT-AC introns, and so did not consider them.</p></sec><sec id="s4f"><title>Conservation analysis</title><p>In the analysis of sequence conservation, we used phylop scores generated on the 44-way vertebrate alignment, and downloaded from the UCSC Genome Browser <xref rid="pgen.1001236-Pollard1" ref-type="bibr">[31]</xref>. There are three sets of scores available (representing scores for constraint in all vertebrates, all placental mammals, and all primates); in the analysis presented in the main text, we used scores generated using the placental mammals.</p></sec><sec id="s4g"><title>Analysis of correlates of splicing error rate</title><p>For each intron with highly conserved splice sites, we counted the fraction of reads from either splice site to an unconserved splice site, as described in the main text. To estimate the expression level of each gene, we used both our RNA-Seq data and that from the different tissues assayed by Wang et al. <xref rid="pgen.1001236-lWang1" ref-type="bibr">[2]</xref>. For each tissue, we divided the number of reads mapping to exons of each gene by the length of the exons of the gene. We then took the maximum expression level across tissues as the expression level of the gene for this analysis.</p></sec><sec id="s4h"><title>Motif finding</title><p>To look for hexamers enriched around &#x0201c;noise&#x0201d; splice sites, we used a set of splice junctions where one end of the splice junction is to an annotated splice site, and the other is to an unannotated, unconserved (<italic>phyloP</italic> score <inline-formula><inline-graphic xlink:href="pgen.1001236.e036.jpg" mimetype="image"/></inline-formula>) splice site. To be conservative, we removed all the unconserved splice sites within 50 bases of an annotated splice site. Then we identified a set of control sites&#x02013;for each unconserved splice site, we found an unused GT (or AG) dinucloetide between the used splice site and the nearest annotated one. We then extracted 100 bases around both the used splice sites and the control sites, and counted the frequencies of hexamers in each class (for the 3&#x02032; splice site, we excluded the 20 bases intronic and 2 bases exonic of the splice site from this analysis; for the 5&#x02032; splice site, we excluded 5 bases intronic and 5 bases exonic). We did this separately for 3&#x02032; and 5&#x02032; splice sites, and for the intronic and exonic regions of both types of site. Significance was assessed by a <inline-formula><inline-graphic xlink:href="pgen.1001236.e037.jpg" mimetype="image"/></inline-formula> test.</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pgen.1001236.s001"><label>Figure S1</label><caption><p>Identification of isoforms is not at saturation. We subsampled the junction-spanning reads from the LCL data and asked how many splice junctions we discovered at varying read depths. In black we plot the number of unannotated junctions identified as a function of the number of junction-spanning reads sampled. In other colors are the corresponding numbers for data sets from different tissues.</p><p>(0.01 MB PDF)</p></caption><media xlink:href="pgen.1001236.s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s002"><label>Figure S2</label><caption><p>Unannotated splice sites identified in liver are unconserved. This figure is identical to <xref ref-type="fig" rid="pgen-1001236-g003">Figure 3</xref> in the main paper, except that it uses splice sites identified in the liver, rather than the LCL, data.</p><p>(0.05 MB PDF)</p></caption><media xlink:href="pgen.1001236.s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s003"><label>Figure S3</label><caption><p>Unannotated splice sites identified in a different population of LCLs are unconserved. This figure is identical to <xref ref-type="fig" rid="pgen-1001236-g003">Figure 3</xref> in the main paper, except that it uses splice sites identified in the European-ancestry LCLs.</p><p>(0.05 MB PDF)</p></caption><media xlink:href="pgen.1001236.s003.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s004"><label>Figure S4</label><caption><p>Unannotated splice sites are not conserved across primate evolution. This figure is identical to <xref ref-type="fig" rid="pgen-1001236-g003">Figure 3</xref> in the main paper, except we used phyloP score calculated in the primate phylogeny, rather than the mammalian phylogeny.</p><p>(0.05 MB PDF)</p></caption><media xlink:href="pgen.1001236.s004.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s005"><label>Figure S5</label><caption><p>Unannotated splice sites show no reduction of polymorphism levels in humans. We used data from the 1,000 Genomes Project to calculate the SNP density in and around splice sites. For each splice site (annotated or unannotated), we used the SNP calls in the Yoruban population to evaluate whether there is any polymorphism at each position at a distance from each site. Plotted is that fraction of sites that have a polymorphism in the population at each position away from the splice site. Annotated and unannotated splice sites are plotted separately. There is a clear reduction of polymorphism directly intronic of the annotated splice sites, but no such reduction intronic of the unannotated splice sites.</p><p>(0.05 MB PDF)</p></caption><media xlink:href="pgen.1001236.s005.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s006"><label>Figure S6</label><caption><p>The low splicing error rate of highly-expressed genes is largely due to their small intron sizes. A. Splicing error rate correlates with intron length. This is simply a re-plotted version of <xref ref-type="fig" rid="pgen-1001236-g003">Figure 3</xref> in the main text. All highly-conserved introns were grouped into 100 bins based on length; plotted is the mean splicing error rate in the bin against the mean intron length in the bin. B. Correction for gene expression level does not influence the correlation between splicing error rate and intron length. We corrected the observed splicing error rates for gene expression level (see <xref ref-type="supplementary-material" rid="pgen.1001236.s009">Text S1</xref>), and performed the same analysis as in A. C. Splicing error rate correlates with gene expression level. All highly-conserved introns were grouped into 100 bins based on the gene expression level of the gene in which they fall; plotted is the mean splicing error rate in the bin against the mean expression level in the bin. D. Correction for intron length removes the correlation between splicing error rate and expression level. We corrected the observed splicing error rates for intron length (see <xref ref-type="supplementary-material" rid="pgen.1001236.s009">Text S1</xref>), and performed the same analysis as in C.</p><p>(0.04 MB PDF)</p></caption><media xlink:href="pgen.1001236.s006.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s007"><label>Figure S7</label><caption><p>Sequence analysis of introns. A. 5&#x02032; splice site motif density in introns correlates with gene expression level. We calculated the density of matches to the 5&#x02032; splice site motif (see <xref ref-type="supplementary-material" rid="pgen.1001236.s009">Text S1</xref>) in each intron, then grouped all introns into 200 bins based on the expression level of the gene in which each falls. Plotted is the mean density of matches to the motif against the mean expression level in each bin. B. 3&#x02032; splice site motif density in introns correlates with gene expression level. The same plot as in A., except the y-axis is the density of matches 3&#x02032; splice site motif. C. ESE hexamer density in introns correlates with gene expression level. As in A., except the y-axis is the density of matches to the putative ESEs identified by Fairbrother et al. (2002). D. Pseudo-exon density in introns correlates with gene expression level. As in A, except the y-axis is the density of pseudo-exons (see ).</p><p>(0.06 MB PDF)</p></caption><media xlink:href="pgen.1001236.s007.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s008"><label>Figure S8</label><caption><p>Rarely-used but annotated splice sites are highly conserved. As for <xref ref-type="fig" rid="pgen-1001236-g003">Figure 3</xref> in the main text, we identified all the splice junctions where one end is annotated and the other is not. We then limited ourselves to splice sites covered by exactly one read in our data (there are approximately 10,000 such annotated splice sites and 20,000 unannotated splice sites of each type), and performed the same analysis of conservation in the main text. The top panel shows the results for the annotated splice sites, and the bottom panel the results for the unannotated splice sites. The marked difference between the two classes remains.</p><p>(0.05 MB PDF)</p></caption><media xlink:href="pgen.1001236.s008.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1001236.s009"><label>Text S1</label><caption><p>Supplementary text.</p><p>(0.09 MB PDF)</p></caption><media xlink:href="pgen.1001236.s009.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank Molly Przeworski, Jonathan Staley, and Graham McVicker for helpful discussions; George Perry for access to unpublished data; and three anonymous reviewers for helpful comments.</p></ack><fn-group><fn fn-type="COI-statement"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p>This work was supported by the HHMI and by NIH grants MH084703-01 to JK Pritchard and GM077959 to Y Gilad. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pgen.1001236-Black1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Black</surname><given-names>DL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Mechanisms of alternative pre-messenger RNA splicing.</article-title>
+<source>Annu Rev Biochem</source>
+<volume>72</volume>
+<fpage>291</fpage>
+<lpage>336</lpage>
+<pub-id pub-id-type="pmid">12626338</pub-id></element-citation></ref><ref id="pgen.1001236-lWang1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>l Wang</surname><given-names>ET</given-names></name><name><surname>Sandberg</surname><given-names>R</given-names></name><name><surname>Luo</surname><given-names>S</given-names></name><name><surname>Khrebtukova</surname><given-names>I</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Alternative isoform regulation in human tissue transcriptomes.</article-title>
+<source>Nature</source>
+<volume>456</volume>
+<fpage>470</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="pmid">18978772</pub-id></element-citation></ref><ref id="pgen.1001236-Zavolan1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zavolan</surname><given-names>M</given-names></name><name><surname>Kondo</surname><given-names>S</given-names></name><name><surname>Schonbach</surname><given-names>C</given-names></name><name><surname>Adachi</surname><given-names>J</given-names></name><name><surname>Hume</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Impact of alternative initiation, splicing, and termination on the diversity of the mRNA transcripts encoded by the mouse transcriptome.</article-title>
+<source>Genome Res</source>
+<volume>13</volume>
+<fpage>1290</fpage>
+<lpage>300</lpage>
+<pub-id pub-id-type="pmid">12819126</pub-id></element-citation></ref><ref id="pgen.1001236-Mortazavi1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mortazavi</surname><given-names>A</given-names></name><name><surname>Williams</surname><given-names>BA</given-names></name><name><surname>McCue</surname><given-names>K</given-names></name><name><surname>Schaeffer</surname><given-names>L</given-names></name><name><surname>Wold</surname><given-names>B</given-names></name></person-group>
+<year>2008</year>
+<article-title>Mapping and quantifying mammalian transcriptomes by RNA-Seq.</article-title>
+<source>Nat Methods</source>
+<volume>5</volume>
+<fpage>621</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">18516045</pub-id></element-citation></ref><ref id="pgen.1001236-Pan1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>Q</given-names></name><name><surname>Shai</surname><given-names>O</given-names></name><name><surname>Lee</surname><given-names>LJ</given-names></name><name><surname>Frey</surname><given-names>BJ</given-names></name><name><surname>Blencowe</surname><given-names>BJ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Deep surveying of alternative splicing complexity in the human transcriptome by high-throughput sequencing.</article-title>
+<source>Nat Genet</source>
+<volume>40</volume>
+<fpage>1413</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">18978789</pub-id></element-citation></ref><ref id="pgen.1001236-Modrek1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Modrek</surname><given-names>B</given-names></name><name><surname>Lee</surname><given-names>C</given-names></name></person-group>
+<year>2002</year>
+<article-title>A genomic view of alternative splicing.</article-title>
+<source>Nat Genet</source>
+<volume>30</volume>
+<fpage>13</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">11753382</pub-id></element-citation></ref><ref id="pgen.1001236-Hurst1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hurst</surname><given-names>LD</given-names></name></person-group>
+<year>2009</year>
+<article-title>Evolutionary genomics and the reach of selection.</article-title>
+<source>J Biol</source>
+<volume>8</volume>
+<fpage>12</fpage>
+<pub-id pub-id-type="pmid">19291255</pub-id></element-citation></ref><ref id="pgen.1001236-Melamud1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Melamud</surname><given-names>E</given-names></name><name><surname>Moult</surname><given-names>J</given-names></name></person-group>
+<year>2009</year>
+<article-title>Stochastic noise in splicing machinery.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>37</volume>
+<fpage>4873</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="pmid">19546110</pub-id></element-citation></ref><ref id="pgen.1001236-Zhang1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>C</given-names></name><name><surname>Krainer</surname><given-names>AR</given-names></name><name><surname>Zhang</surname><given-names>MQ</given-names></name></person-group>
+<year>2007</year>
+<article-title>Evolutionary impact of limited splicing fidelity in mammalian genes.</article-title>
+<source>Trends Genet</source>
+<volume>23</volume>
+<fpage>484</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">17719121</pub-id></element-citation></ref><ref id="pgen.1001236-Baek1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baek</surname><given-names>D</given-names></name><name><surname>Green</surname><given-names>P</given-names></name></person-group>
+<year>2005</year>
+<article-title>Sequence conservation, relative isoform frequencies, and nonsense-mediated decay in evolutionarily conserved alternative splicing.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>12813</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">16123126</pub-id></element-citation></ref><ref id="pgen.1001236-Sorek1"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorek</surname><given-names>R</given-names></name><name><surname>Shamir</surname><given-names>R</given-names></name><name><surname>Ast</surname><given-names>G</given-names></name></person-group>
+<year>2004</year>
+<article-title>How prevalent is functional alternative splicing in the human genome?</article-title>
+<source>Trends Genet</source>
+<volume>20</volume>
+<fpage>68</fpage>
+<lpage>71</lpage>
+<pub-id pub-id-type="pmid">14746986</pub-id></element-citation></ref><ref id="pgen.1001236-Yeo1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yeo</surname><given-names>GW</given-names></name><name><surname>Van Nostrand</surname><given-names>E</given-names></name><name><surname>Holste</surname><given-names>D</given-names></name><name><surname>Poggio</surname><given-names>T</given-names></name><name><surname>Burge</surname><given-names>CB</given-names></name></person-group>
+<year>2005</year>
+<article-title>Identification and analysis of alternative splicing events conserved in human and mouse.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>2850</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">15708978</pub-id></element-citation></ref><ref id="pgen.1001236-Modrek2"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Modrek</surname><given-names>B</given-names></name><name><surname>Lee</surname><given-names>CJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Alternative splicing in the human, mouse and rat genomes is associated with an increased frequency of exon creation and/or loss.</article-title>
+<source>Nat Genet</source>
+<volume>34</volume>
+<fpage>177</fpage>
+<lpage>80</lpage>
+<pub-id pub-id-type="pmid">12730695</pub-id></element-citation></ref><ref id="pgen.1001236-Jaillon1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jaillon</surname><given-names>O</given-names></name><name><surname>Bouhouche</surname><given-names>K</given-names></name><name><surname>Gout</surname><given-names>JF</given-names></name><name><surname>Aury</surname><given-names>JM</given-names></name><name><surname>Noel</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Translational control of intron splicing in eukaryotes.</article-title>
+<source>Nature</source>
+<volume>451</volume>
+<fpage>359</fpage>
+<lpage>62</lpage>
+<pub-id pub-id-type="pmid">18202663</pub-id></element-citation></ref><ref id="pgen.1001236-Lynch1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lynch</surname><given-names>M</given-names></name></person-group>
+<year>2010</year>
+<article-title>Rate, molecular spectrum, and consequences of human mutation.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>107</volume>
+<fpage>961</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">20080596</pub-id></element-citation></ref><ref id="pgen.1001236-Lynch2"><label>16</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Lynch</surname><given-names>M</given-names></name></person-group>
+<year>2007</year>
+<article-title>The origins of genome architecture.</article-title>
+<publisher-loc>Mass.</publisher-loc>
+<publisher-name>Sinauer Associates</publisher-name>
+</element-citation></ref><ref id="pgen.1001236-Pickrell1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pickrell</surname><given-names>JK</given-names></name><name><surname>Marioni</surname><given-names>JC</given-names></name><name><surname>Pai</surname><given-names>AA</given-names></name><name><surname>Degner</surname><given-names>JF</given-names></name><name><surname>Engelhardt</surname><given-names>BE</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Understanding mechanisms underlying human gene expression variation with RNA sequencing.</article-title>
+<source>Nature</source>
+<volume>464</volume>
+<fpage>768</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="pmid">20220758</pub-id></element-citation></ref><ref id="pgen.1001236-Sultan1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sultan</surname><given-names>M</given-names></name><name><surname>Schulz</surname><given-names>MH</given-names></name><name><surname>Richard</surname><given-names>H</given-names></name><name><surname>Magen</surname><given-names>A</given-names></name><name><surname>Klingenhoff</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>A global view of gene activity and alternative splicing by deep sequencing of the human transcriptome.</article-title>
+<source>Science</source>
+<volume>321</volume>
+<fpage>956</fpage>
+<lpage>60</lpage>
+<pub-id pub-id-type="pmid">18599741</pub-id></element-citation></ref><ref id="pgen.1001236-Marioni1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marioni</surname><given-names>JC</given-names></name><name><surname>Mason</surname><given-names>CE</given-names></name><name><surname>Mane</surname><given-names>SM</given-names></name><name><surname>Stephens</surname><given-names>M</given-names></name><name><surname>Gilad</surname><given-names>Y</given-names></name></person-group>
+<year>2008</year>
+<article-title>RNA-seq: an assessment of technical reproducibility and comparison with gene expression arrays.</article-title>
+<source>Genome Res</source>
+<volume>18</volume>
+<fpage>1509</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">18550803</pub-id></element-citation></ref><ref id="pgen.1001236-Dou1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dou</surname><given-names>Y</given-names></name><name><surname>Fox-Walsh</surname><given-names>KL</given-names></name><name><surname>Baldi</surname><given-names>PF</given-names></name><name><surname>Hertel</surname><given-names>KJ</given-names></name></person-group>
+<year>2006</year>
+<article-title>Genomic splice-site analysis reveals frequent alternative splicing close to the dominant splice site.</article-title>
+<source>RNA</source>
+<volume>12</volume>
+<fpage>2047</fpage>
+<lpage>56</lpage>
+<pub-id pub-id-type="pmid">17053087</pub-id></element-citation></ref><ref id="pgen.1001236-Chern1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chern</surname><given-names>TM</given-names></name><name><surname>van Nimwegen</surname><given-names>E</given-names></name><name><surname>Kai</surname><given-names>C</given-names></name><name><surname>Kawai</surname><given-names>J</given-names></name><name><surname>Carninci</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>A simple physical model predicts small exon length variations.</article-title>
+<source>PLoS Genet</source>
+<volume>2</volume>
+<fpage>e45</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.0020045">10.1371/journal.pgen.0020045</ext-link></comment>
+<pub-id pub-id-type="pmid">16683028</pub-id></element-citation></ref><ref id="pgen.1001236-Hiller1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hiller</surname><given-names>M</given-names></name><name><surname>Platzer</surname><given-names>M</given-names></name></person-group>
+<year>2008</year>
+<article-title>Widespread and subtle: alternative splicing at short-distance tandem sites.</article-title>
+<source>Trends Genet</source>
+<volume>24</volume>
+<fpage>246</fpage>
+<lpage>55</lpage>
+<pub-id pub-id-type="pmid">18394746</pub-id></element-citation></ref><ref id="pgen.1001236-Hsu1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hsu</surname><given-names>F</given-names></name><name><surname>Kent</surname><given-names>WJ</given-names></name><name><surname>Clawson</surname><given-names>H</given-names></name><name><surname>Kuhn</surname><given-names>RM</given-names></name><name><surname>Diekhans</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>The UCSC Known Genes.</article-title>
+<source>Bioinformatics</source>
+<volume>22</volume>
+<fpage>1036</fpage>
+<lpage>46</lpage>
+<pub-id pub-id-type="pmid">16500937</pub-id></element-citation></ref><ref id="pgen.1001236-Hubbard1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hubbard</surname><given-names>TJP</given-names></name><name><surname>Aken</surname><given-names>BL</given-names></name><name><surname>Ayling</surname><given-names>S</given-names></name><name><surname>Ballester</surname><given-names>B</given-names></name><name><surname>Beal</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Ensembl 2009.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>37</volume>
+<fpage>D690</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">19033362</pub-id></element-citation></ref><ref id="pgen.1001236-Pruitt1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pruitt</surname><given-names>KD</given-names></name><name><surname>Tatusova</surname><given-names>T</given-names></name><name><surname>Maglott</surname><given-names>DR</given-names></name></person-group>
+<year>2007</year>
+<article-title>NCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>35</volume>
+<fpage>D61</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">17130148</pub-id></element-citation></ref><ref id="pgen.1001236-Pruitt2"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pruitt</surname><given-names>KD</given-names></name><name><surname>Harrow</surname><given-names>J</given-names></name><name><surname>Harte</surname><given-names>RA</given-names></name><name><surname>Wallin</surname><given-names>C</given-names></name><name><surname>Diekhans</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>The consensus coding sequence (CCDS) project: Identifying a common protein-coding gene set for the human and mouse genomes.</article-title>
+<source>Genome Res</source>
+<volume>19</volume>
+<fpage>1316</fpage>
+<lpage>23</lpage>
+<pub-id pub-id-type="pmid">19498102</pub-id></element-citation></ref><ref id="pgen.1001236-Benson1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Benson</surname><given-names>DA</given-names></name><name><surname>Karsch-Mizrachi</surname><given-names>I</given-names></name><name><surname>Lipman</surname><given-names>DJ</given-names></name><name><surname>Ostell</surname><given-names>J</given-names></name><name><surname>Sayers</surname><given-names>EW</given-names></name></person-group>
+<year>2010</year>
+<article-title>GenBank.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>38</volume>
+<fpage>D46</fpage>
+<lpage>51</lpage>
+<pub-id pub-id-type="pmid">19910366</pub-id></element-citation></ref><ref id="pgen.1001236-Montgomery1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Montgomery</surname><given-names>SB</given-names></name><name><surname>Sammeth</surname><given-names>M</given-names></name><name><surname>Gutierrez-Arcelus</surname><given-names>M</given-names></name><name><surname>Lach</surname><given-names>RP</given-names></name><name><surname>Ingle</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Transcriptome genetics using second generation sequencing in a caucasian population.</article-title>
+<source>Nature</source>
+<volume>464</volume>
+<fpage>773</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">20220756</pub-id></element-citation></ref><ref id="pgen.1001236-Kwan1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kwan</surname><given-names>T</given-names></name><name><surname>Benovoy</surname><given-names>D</given-names></name><name><surname>Dias</surname><given-names>C</given-names></name><name><surname>Gurd</surname><given-names>S</given-names></name><name><surname>Provencher</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Genome-wide analysis of transcript isoform variation in humans.</article-title>
+<source>Nat Genet</source>
+<volume>40</volume>
+<fpage>225</fpage>
+<lpage>31</lpage>
+<pub-id pub-id-type="pmid">18193047</pub-id></element-citation></ref><ref id="pgen.1001236-Fraser1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fraser</surname><given-names>HB</given-names></name><name><surname>Xie</surname><given-names>X</given-names></name></person-group>
+<year>2009</year>
+<article-title>Common polymorphic transcript variation in human disease.</article-title>
+<source>Genome Res</source>
+<volume>19</volume>
+<fpage>567</fpage>
+<lpage>75</lpage>
+<pub-id pub-id-type="pmid">19189928</pub-id></element-citation></ref><ref id="pgen.1001236-Pollard1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pollard</surname><given-names>KS</given-names></name><name><surname>Hubisz</surname><given-names>MJ</given-names></name><name><surname>Rosenbloom</surname><given-names>KR</given-names></name><name><surname>Siepel</surname><given-names>A</given-names></name></person-group>
+<year>2010</year>
+<article-title>Detection of nonneutral substitution rates on mammalian phylogenies.</article-title>
+<source>Genome Res</source>
+<volume>20</volume>
+<fpage>110</fpage>
+<lpage>21</lpage>
+<pub-id pub-id-type="pmid">19858363</pub-id></element-citation></ref><ref id="pgen.1001236-CastilloDavis1"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Castillo-Davis</surname><given-names>CI</given-names></name><name><surname>Mekhedov</surname><given-names>SL</given-names></name><name><surname>Hartl</surname><given-names>DL</given-names></name><name><surname>Koonin</surname><given-names>EV</given-names></name><name><surname>Kondrashov</surname><given-names>FA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Selection for short introns in highly expressed genes.</article-title>
+<source>Nat Genet</source>
+<volume>31</volume>
+<fpage>415</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">12134150</pub-id></element-citation></ref><ref id="pgen.1001236-Hurst2"><label>33</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hurst</surname><given-names>LD</given-names></name><name><surname>Brunton</surname><given-names>CF</given-names></name><name><surname>Smith</surname><given-names>NG</given-names></name></person-group>
+<year>1999</year>
+<article-title>Small introns tend to occur in GC-rich regions in some but not all vertebrates.</article-title>
+<source>Trends Genet</source>
+<volume>15</volume>
+<fpage>437</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">10529803</pub-id></element-citation></ref><ref id="pgen.1001236-Yu1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yu</surname><given-names>Y</given-names></name><name><surname>Maroney</surname><given-names>PA</given-names></name><name><surname>Denker</surname><given-names>JA</given-names></name><name><surname>Zhang</surname><given-names>XHF</given-names></name><name><surname>Dybkov</surname><given-names>O</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Dynamic regulation of alternative splicing by silencers that modulate 5&#x02032; splice site competition.</article-title>
+<source>Cell</source>
+<volume>135</volume>
+<fpage>1224</fpage>
+<lpage>36</lpage>
+<pub-id pub-id-type="pmid">19109894</pub-id></element-citation></ref><ref id="pgen.1001236-Fairbrother1"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fairbrother</surname><given-names>WG</given-names></name><name><surname>Yeh</surname><given-names>RF</given-names></name><name><surname>Sharp</surname><given-names>PA</given-names></name><name><surname>Burge</surname><given-names>CB</given-names></name></person-group>
+<year>2002</year>
+<article-title>Predictive identification of exonic splicing enhancers in human genes.</article-title>
+<source>Science</source>
+<volume>297</volume>
+<fpage>1007</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="pmid">12114529</pub-id></element-citation></ref><ref id="pgen.1001236-Wang1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>Z</given-names></name><name><surname>Burge</surname><given-names>CB</given-names></name></person-group>
+<year>2008</year>
+<article-title>Splicing regulation: from a parts list of regulatory elements to an integrated splicing code.</article-title>
+<source>RNA</source>
+<volume>14</volume>
+<fpage>802</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="pmid">18369186</pub-id></element-citation></ref><ref id="pgen.1001236-Matlin1"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matlin</surname><given-names>AJ</given-names></name><name><surname>Clark</surname><given-names>F</given-names></name><name><surname>Smith</surname><given-names>CWJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Understanding alternative splicing: towards a cellular code.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>6</volume>
+<fpage>386</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="pmid">15956978</pub-id></element-citation></ref><ref id="pgen.1001236-Barash1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barash</surname><given-names>Y</given-names></name><name><surname>Calarco</surname><given-names>JA</given-names></name><name><surname>Gao</surname><given-names>W</given-names></name><name><surname>Pan</surname><given-names>Q</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Deciphering the splicing code.</article-title>
+<source>Nature</source>
+<volume>465</volume>
+<fpage>53</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">20445623</pub-id></element-citation></ref><ref id="pgen.1001236-Zhang2"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>XHF</given-names></name><name><surname>Chasin</surname><given-names>LA</given-names></name></person-group>
+<year>2004</year>
+<article-title>Computational definition of sequence motifs governing constitutive exon splicing.</article-title>
+<source>Genes Dev</source>
+<volume>18</volume>
+<fpage>1241</fpage>
+<lpage>50</lpage>
+<pub-id pub-id-type="pmid">15145827</pub-id></element-citation></ref><ref id="pgen.1001236-Wang2"><label>40</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>Z</given-names></name><name><surname>Rolish</surname><given-names>ME</given-names></name><name><surname>Yeo</surname><given-names>G</given-names></name><name><surname>Tung</surname><given-names>V</given-names></name><name><surname>Mawson</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Systematic identification and analysis of exonic splicing silencers.</article-title>
+<source>Cell</source>
+<volume>119</volume>
+<fpage>831</fpage>
+<lpage>45</lpage>
+<pub-id pub-id-type="pmid">15607979</pub-id></element-citation></ref><ref id="pgen.1001236-Luco1"><label>41</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luco</surname><given-names>RF</given-names></name><name><surname>Pan</surname><given-names>Q</given-names></name><name><surname>Tominaga</surname><given-names>K</given-names></name><name><surname>Blencowe</surname><given-names>BJ</given-names></name><name><surname>Pereira-Smith</surname><given-names>OM</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Regulation of alternative splicing by histone modifications.</article-title>
+<source>Science</source>
+<volume>327</volume>
+<fpage>996</fpage>
+<lpage>1000</lpage>
+<pub-id pub-id-type="pmid">20133523</pub-id></element-citation></ref><ref id="pgen.1001236-Spies1"><label>42</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spies</surname><given-names>N</given-names></name><name><surname>Nielsen</surname><given-names>CB</given-names></name><name><surname>Padgett</surname><given-names>RA</given-names></name><name><surname>Burge</surname><given-names>CB</given-names></name></person-group>
+<year>2009</year>
+<article-title>Biased chromatin signatures around polyadenylation sites and exons.</article-title>
+<source>Mol Cell</source>
+<volume>36</volume>
+<fpage>245</fpage>
+<lpage>54</lpage>
+<pub-id pub-id-type="pmid">19854133</pub-id></element-citation></ref><ref id="pgen.1001236-Schwartz1"><label>43</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwartz</surname><given-names>S</given-names></name><name><surname>Meshorer</surname><given-names>E</given-names></name><name><surname>Ast</surname><given-names>G</given-names></name></person-group>
+<year>2009</year>
+<article-title>Chromatin organization marks exon-intron structure.</article-title>
+<source>Nat Struct Mol Biol</source>
+<volume>16</volume>
+<fpage>990</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">19684600</pub-id></element-citation></ref><ref id="pgen.1001236-Tilgner1"><label>44</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tilgner</surname><given-names>H</given-names></name><name><surname>Nikolaou</surname><given-names>C</given-names></name><name><surname>Althammer</surname><given-names>S</given-names></name><name><surname>Sammeth</surname><given-names>M</given-names></name><name><surname>Beato</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Nucleosome positioning as a determinant of exon recognition.</article-title>
+<source>Nat Struct Mol Biol</source>
+<volume>16</volume>
+<fpage>996</fpage>
+<lpage>1001</lpage>
+<pub-id pub-id-type="pmid">19684599</pub-id></element-citation></ref><ref id="pgen.1001236-Andersson1"><label>45</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andersson</surname><given-names>R</given-names></name><name><surname>Enroth</surname><given-names>S</given-names></name><name><surname>Rada-Iglesias</surname><given-names>A</given-names></name><name><surname>Wadelius</surname><given-names>C</given-names></name><name><surname>Komorowski</surname><given-names>J</given-names></name></person-group>
+<year>2009</year>
+<article-title>Nucleosomes are well positioned in exons and carry characteristic histone modifications.</article-title>
+<source>Genome Res</source>
+<volume>19</volume>
+<fpage>1732</fpage>
+<lpage>41</lpage>
+<pub-id pub-id-type="pmid">19687145</pub-id></element-citation></ref><ref id="pgen.1001236-KolasinskaZwierz1"><label>46</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kolasinska-Zwierz</surname><given-names>P</given-names></name><name><surname>Down</surname><given-names>T</given-names></name><name><surname>Latorre</surname><given-names>I</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Liu</surname><given-names>XS</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Differential chromatin marking of introns and expressed exons by H3K36me3.</article-title>
+<source>Nat Genet</source>
+<volume>41</volume>
+<fpage>376</fpage>
+<lpage>81</lpage>
+<pub-id pub-id-type="pmid">19182803</pub-id></element-citation></ref><ref id="pgen.1001236-Parmley1"><label>47</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parmley</surname><given-names>JL</given-names></name><name><surname>Urrutia</surname><given-names>AO</given-names></name><name><surname>Potrzebowski</surname><given-names>L</given-names></name><name><surname>Kaessmann</surname><given-names>H</given-names></name><name><surname>Hurst</surname><given-names>LD</given-names></name></person-group>
+<year>2007</year>
+<article-title>Splicing and the evolution of proteins in mammals.</article-title>
+<source>PLoS Biol</source>
+<volume>5</volume>
+<fpage>e14</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pbio.0050014">10.1371/journal.pbio.0050014</ext-link></comment>
+<pub-id pub-id-type="pmid">17298171</pub-id></element-citation></ref><ref id="pgen.1001236-Zhang3"><label>48</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>C</given-names></name><name><surname>Li</surname><given-names>WH</given-names></name><name><surname>Krainer</surname><given-names>AR</given-names></name><name><surname>Zhang</surname><given-names>MQ</given-names></name></person-group>
+<year>2008</year>
+<article-title>Rna landscape of evolution for optimal exon and intron discrimination.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>105</volume>
+<fpage>5797</fpage>
+<lpage>802</lpage>
+<pub-id pub-id-type="pmid">18391195</pub-id></element-citation></ref><ref id="pgen.1001236-Roy1"><label>49</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roy</surname><given-names>M</given-names></name><name><surname>Kim</surname><given-names>N</given-names></name><name><surname>Xing</surname><given-names>Y</given-names></name><name><surname>Lee</surname><given-names>C</given-names></name></person-group>
+<year>2008</year>
+<article-title>The effect of intron length on exon creation ratios during the evolution of mammalian genomes.</article-title>
+<source>RNA</source>
+<volume>14</volume>
+<fpage>2261</fpage>
+<lpage>73</lpage>
+<pub-id pub-id-type="pmid">18796579</pub-id></element-citation></ref><ref id="pgen.1001236-FoxWalsh1"><label>50</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fox-Walsh</surname><given-names>KL</given-names></name><name><surname>Dou</surname><given-names>Y</given-names></name><name><surname>Lam</surname><given-names>BJ</given-names></name><name><surname>Hung</surname><given-names>SP</given-names></name><name><surname>Baldi</surname><given-names>PF</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The architecture of pre-mrnas affects mechanisms of splice-site pairing.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>16176</fpage>
+<lpage>81</lpage>
+<pub-id pub-id-type="pmid">16260721</pub-id></element-citation></ref><ref id="pgen.1001236-Carvalho1"><label>51</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carvalho</surname><given-names>AB</given-names></name><name><surname>Clark</surname><given-names>AG</given-names></name></person-group>
+<year>1999</year>
+<article-title>Intron size and natural selection.</article-title>
+<source>Nature</source>
+<volume>401</volume>
+<fpage>344</fpage>
+<pub-id pub-id-type="pmid">10517631</pub-id></element-citation></ref><ref id="pgen.1001236-Lynch3"><label>52</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lynch</surname><given-names>M</given-names></name></person-group>
+<year>2002</year>
+<article-title>Intron evolution as a population-genetic process.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>
+<fpage>6118</fpage>
+<lpage>23</lpage>
+<pub-id pub-id-type="pmid">11983904</pub-id></element-citation></ref><ref id="pgen.1001236-Kim1"><label>53</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>E</given-names></name><name><surname>Magen</surname><given-names>A</given-names></name><name><surname>Ast</surname><given-names>G</given-names></name></person-group>
+<year>2007</year>
+<article-title>Different levels of alternative splicing among eukaryotes.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>35</volume>
+<fpage>125</fpage>
+<lpage>31</lpage>
+<pub-id pub-id-type="pmid">17158149</pub-id></element-citation></ref><ref id="pgen.1001236-Wu1"><label>54</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>JQ</given-names></name><name><surname>Habegger</surname><given-names>L</given-names></name><name><surname>Noisa</surname><given-names>P</given-names></name><name><surname>Szekely</surname><given-names>A</given-names></name><name><surname>Qiu</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Dynamic transcriptomes during neural differentiation of human embryonic stem cells revealed by short, long, and paired-end sequencing.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+</element-citation></ref><ref id="pgen.1001236-Trapnell1"><label>55</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Pachter</surname><given-names>L</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group>
+<year>2009</year>
+<article-title>Tophat: discovering splice junctions with RNA-Seq.</article-title>
+<source>Bioinformatics</source>
+<volume>25</volume>
+<fpage>1105</fpage>
+<lpage>11</lpage>
+<pub-id pub-id-type="pmid">19289445</pub-id></element-citation></ref><ref id="pgen.1001236-Trapnell2"><label>56</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Williams</surname><given-names>BA</given-names></name><name><surname>Pertea</surname><given-names>G</given-names></name><name><surname>Mortazavi</surname><given-names>A</given-names></name><name><surname>Kwan</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation.</article-title>
+<source>Nat Biotechnol</source>
+<volume>28</volume>
+<fpage>511</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">20436464</pub-id></element-citation></ref><ref id="pgen.1001236-Guttman1"><label>57</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guttman</surname><given-names>M</given-names></name><name><surname>Garber</surname><given-names>M</given-names></name><name><surname>Levin</surname><given-names>JZ</given-names></name><name><surname>Donaghey</surname><given-names>J</given-names></name><name><surname>Robinson</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Ab initio reconstruction of cell type-specific transcriptomes in mouse reveals the conserved multi-exonic structure of lincRNAs.</article-title>
+<source>Nat Biotechnol</source>
+<volume>28</volume>
+<fpage>503</fpage>
+<lpage>10</lpage>
+<pub-id pub-id-type="pmid">20436462</pub-id></element-citation></ref><ref id="pgen.1001236-Ameur1"><label>58</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ameur</surname><given-names>A</given-names></name><name><surname>Wetterbom</surname><given-names>A</given-names></name><name><surname>Feuk</surname><given-names>L</given-names></name><name><surname>Gyllensten</surname><given-names>U</given-names></name></person-group>
+<year>2010</year>
+<article-title>Global and unbiased detection of splice junctions from RNA-seq data.</article-title>
+<source>Genome Biol</source>
+<volume>11</volume>
+<fpage>R34</fpage>
+<pub-id pub-id-type="pmid">20236510</pub-id></element-citation></ref><ref id="pgen.1001236-Au1"><label>59</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Au</surname><given-names>KF</given-names></name><name><surname>Jiang</surname><given-names>H</given-names></name><name><surname>Lin</surname><given-names>L</given-names></name><name><surname>Xing</surname><given-names>Y</given-names></name><name><surname>Wong</surname><given-names>WH</given-names></name></person-group>
+<year>2010</year>
+<article-title>Detection of splice junctions from paired-end RNA-seq data by SpliceMap.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>38</volume>
+<fpage>4570</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">20371516</pub-id></element-citation></ref><ref id="pgen.1001236-Yassour1"><label>60</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yassour</surname><given-names>M</given-names></name><name><surname>Kaplan</surname><given-names>T</given-names></name><name><surname>Fraser</surname><given-names>HB</given-names></name><name><surname>Levin</surname><given-names>JZ</given-names></name><name><surname>Pfiffner</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Ab initio construction of a eukaryotic transcriptome by massively parallel mRNA sequencing.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>106</volume>
+<fpage>3264</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">19208812</pub-id></element-citation></ref><ref id="pgen.1001236-Li1"><label>61</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>H</given-names></name><name><surname>Durbin</surname><given-names>R</given-names></name></person-group>
+<year>2009</year>
+<article-title>Fast and accurate short read alignment with Burrows-Wheeler transform.</article-title>
+<source>Bioinformatics</source>
+<volume>25</volume>
+<fpage>1754</fpage>
+<lpage>60</lpage>
+<pub-id pub-id-type="pmid">19451168</pub-id></element-citation></ref></ref-list></back></article>

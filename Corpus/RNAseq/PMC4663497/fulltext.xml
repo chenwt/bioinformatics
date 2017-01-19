@@ -1,0 +1,773 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d2 20140930//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NPG//DTD XML Article//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName NPG_XML_Article.dtd?><?SourceDTD.Version 2.7.10?><?ConverterInfo.XSLTName nature2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Sci Rep</journal-id><journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id><journal-title-group><journal-title>Scientific Reports</journal-title></journal-title-group><issn pub-type="epub">2045-2322</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4663497</article-id><article-id pub-id-type="pii">srep17434</article-id><article-id pub-id-type="doi">10.1038/srep17434</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Genome-wide expression analysis offers new insights into the origin and evolution of<italic>Physcomitrella patens</italic> stress response</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Khraiwesh</surname><given-names>Basel</given-names></name><xref ref-type="corresp" rid="c1">a</xref><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref></contrib><contrib contrib-type="author"><name><surname>Qudeimat</surname><given-names>Enas</given-names></name><xref ref-type="aff" rid="a2">2</xref><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="n1">*</xref></contrib><contrib contrib-type="author"><name><surname>Thimma</surname><given-names>Manjula</given-names></name><xref ref-type="aff" rid="a3">3</xref><xref ref-type="author-notes" rid="n1">*</xref></contrib><contrib contrib-type="author"><name><surname>Chaiboonchoe</surname><given-names>Amphun</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="author-notes" rid="n1">*</xref></contrib><contrib contrib-type="author"><name><surname>Jijakli</surname><given-names>Kenan</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Alzahmi</surname><given-names>Amnah</given-names></name><xref ref-type="aff" rid="a1">1</xref></contrib><contrib contrib-type="author"><name><surname>Arnoux</surname><given-names>Marc</given-names></name><xref ref-type="aff" rid="a2">2</xref></contrib><contrib contrib-type="author"><name><surname>Salehi-Ashtiani</surname><given-names>Kourosh</given-names></name><xref ref-type="aff" rid="a1">1</xref><xref ref-type="aff" rid="a2">2</xref></contrib><aff id="a1"><label>1</label><institution>Laboratory of Algal, Systems, and Synthetic Biology, Division of
+Science and Math, New York University Abu Dhabi</institution>, Abu Dhabi,
+<country>UAE</country></aff><aff id="a2"><label>2</label><institution>Center for Genomics and Systems Biology, New York University Abu
+Dhabi</institution>, Abu Dhabi, <country>UAE</country></aff><aff id="a3"><label>3</label><institution>Division of Biological and Environmental Sciences and
+Engineering, King Abdullah University of Science and Technology</institution>,
+Thuwal, <country>KSA</country></aff></contrib-group><author-notes><corresp id="c1"><label>a</label>
+<email>bhk1@nyu.edu</email>
+</corresp><corresp id="c2"><label>b</label>
+<email>ksa3@nyu.edu</email>
+</corresp><fn id="n1"><label>*</label><p>These authors contributed equally to this work.</p></fn></author-notes><pub-date pub-type="epub"><day>30</day><month>11</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>5</volume><elocation-id>17434</elocation-id><history><date date-type="received"><day>29</day><month>06</month><year>2015</year></date><date date-type="accepted"><day>29</day><month>10</month><year>2015</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2015, Macmillan Publishers Limited</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>Macmillan Publishers Limited</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><!--author-paid--><license-p>This work is licensed under a Creative Commons Attribution 4.0
+International License. The images or other third party material in this article are
+included in the article&#x02019;s Creative Commons license, unless indicated
+otherwise in the credit line; if the material is not included under the Creative
+Commons license, users will need to obtain permission from the license holder to
+reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p>Changes in the environment, such as those caused by climate change, can exert stress
+on plant growth, diversity and ultimately global food security. Thus, focused
+efforts to fully understand plant response to stress are urgently needed in order to
+develop strategies to cope with the effects of climate change. Because
+<italic>Physcomitrella patens</italic> holds a key evolutionary position bridging the gap
+between green algae and higher plants, and because it exhibits a well-developed
+stress tolerance, it is an excellent model for such exploration. Here, we have used
+<italic>Physcomitrella patens</italic> to study genome-wide responses to abiotic stress
+through transcriptomic analysis by a high-throughput sequencing platform. We report
+a comprehensive analysis of transcriptome dynamics, defining profiles of elicited
+gene regulation responses to abiotic stress-associated hormone Abscisic Acid (ABA),
+cold, drought, and salt treatments. We identified more than 20,000 genes expressed
+under each aforementioned stress treatments, of which 9,668 display differential
+expression in response to stress. The comparison of <italic>Physcomitrella patens</italic>
+stress regulated genes with unicellular algae, vascular and flowering plants
+revealed genomic delineation concomitant with the evolutionary movement to land,
+including a general gene family complexity and loss of genes associated with
+different functional groups.</p></abstract></article-meta></front><body><p>The moss <italic>Physcomitrella patens</italic> (<italic>P. patens</italic>) represents an important model
+plant species for understanding evolutionary dynamics of genes involved in different
+cellular processes<xref ref-type="bibr" rid="b1">1</xref><xref ref-type="bibr" rid="b2">2</xref>. Because mosses represent an evolutionary stage
+linking green algae to vascular plants, studies on extant mosses can yield insights on
+the evolution of plant responses to various environmental challenges and perturbations.
+Plant growth and yield potential are significantly influenced by various abiotic
+stresses caused by limited water availability on land, strong irradiation by sunlight,
+and varying temperatures. These stresses necessitate extensive modifications in
+signaling and physiological processes to modify body plans and activate complex
+regulatory networks<xref ref-type="bibr" rid="b3">3</xref>, which consist of transcriptional as well as
+post-transcriptional regulators<xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b5">5</xref>. Although the importance of abiotic
+stress signaling is recognized, some molecular components remain unknown. Additional,
+in-depth studies are needed to understand the species&#x02019; response to
+environmental factors limiting growth and development under non-ideal conditions.</p><p>The abiotic stress-associated hormone, Abscisic Acid (ABA) is a major player in mediating
+the adaptation of plants to stress and functions in many plant developmental
+processes<xref ref-type="bibr" rid="b6">6</xref>. For instance, ABA is required for the induction of genes
+as a response to dehydration stress<xref ref-type="bibr" rid="b7">7</xref><xref ref-type="bibr" rid="b8">8</xref>. While the transcriptional
+regulation of ABA response pathways has been intensively studied in seed plants<xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b8">8</xref>, the knowledge on ABA mediated gene expression in <italic>P. patens</italic> is
+currently restricted to the conserved ABA-mediated activation of ABA-responsive
+<italic>cis</italic>-elements (ABRE)<xref ref-type="bibr" rid="b9">9</xref>. Freezing or exposure to extremely low
+temperature constitutes a key factor influencing plant growth. Freezing stress at
+temperatures below 0 &#x000b0;C and chilling stress at non-freezing temperatures by
+which chilling tolerance is induced in plants is known as cold acclimation<xref ref-type="bibr" rid="b10">10</xref>. Sun <italic>et al.</italic><xref ref-type="bibr" rid="b11">11</xref> and Beike <italic>et al.</italic><xref ref-type="bibr" rid="b12">12</xref> have shown that cold acclimation in <italic>P. patens</italic> displays distinct
+differences in some aspects when compared to higher plants, suggesting significant
+alterations during the evolution of land plants.</p><p>Dehydration tolerance is an adaptive trait thought to have been necessary for the
+colonization of land by plants, and remains widespread among bryophytes<xref ref-type="bibr" rid="b13">13</xref>. <italic>P. patens</italic> has been classified as a drought tolerant plant since it has a high
+ability to recover water loss, even after a water loss of 92% on a fresh-weight
+basis<xref ref-type="bibr" rid="b14">14</xref>. <italic>P. patens</italic> has also been classified as a halophyte; a
+plant that naturally grows under high salt concentrations<xref ref-type="bibr" rid="b15">15</xref>. It can
+maintain growth at Na<sup>+</sup> concentrations that would be detrimental to most
+vascular plants<xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b16">16</xref><xref ref-type="bibr" rid="b17">17</xref>.</p><p>However, in the field, plants are subjected to a combination of different stresses, e.g.,
+drought often coincides with an increase in salinity or high temperature. Therefore,
+focus on molecular, physiological or metabolic research should not be limited to the
+effect of a single stress factor.</p><p>Based on EST-derived transcriptome analysis, the first microarrays were designed and used
+for comparative transcriptome analyses in <italic>P. patens</italic>, focusing on the
+identification of genes that respond to osmotic stress and ABA<xref ref-type="bibr" rid="b9">9</xref><xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b18">18</xref>.
+The transcriptome analysis was based on EST sequences derived mainly from partially
+sequenced cDNAs that are often incomplete in coding sequences and lack information from
+transcripts not represented in the RNA pools. High-throughput sequencing technologies
+are tremendously useful for analyzing transcriptome complexity and gene regulation. The
+RNAseq approach<xref ref-type="bibr" rid="b19">19</xref> produces millions of short cDNA reads that are mapped
+to a reference genome to obtain a genome-wide transcriptional map that provides greater
+insight and accuracy than microarrays<xref ref-type="bibr" rid="b19">19</xref><xref ref-type="bibr" rid="b20">20</xref><xref ref-type="bibr" rid="b21">21</xref><xref ref-type="bibr" rid="b22">22</xref>. Here we used
+high-throughput Illumina HiSeq sequencing system for transcriptome analysis of <italic>P.
+patens</italic> under abiotic stress treatments. This identified temporal- and
+stress-specific candidate genes. Phylogenetic analyses of these genes in turn elucidated
+lineage-specificity of stress responses. The genes of the different expression clusters
+associated with different functional categories clearly indicate the biological,
+molecular and cellular events involved in <italic>P. patens</italic> stress responses.</p><sec disp-level="1"><title>Results</title><sec disp-level="2"><title>Transcriptome sequencing and mapping of the reads to <italic>P. patens</italic>
+reference genome</title><p>The annotated <italic>P. patens</italic> genome allowed analysis, identification and
+characterization of bryophyte genes<xref ref-type="bibr" rid="b1">1</xref><xref ref-type="bibr" rid="b2">2</xref>. For RNAseq, total RNA
+pooled from three biological replicates for each sample was subjected to cDNA
+library preparation to generate a broad survey of transcripts associated with
+the <italic>P. patens</italic> stress treatments. Raw Illumina sequencing reads were
+quality and adapter trimmed to yield a total of 220,031,432 short reads
+comprising 22.64&#x02009;Gb of sequence data from the runs. Sequence reads
+were mapped to the <italic>P. patens</italic> genome annotation V1.6, which is
+480&#x02009;Mb in size with 32,272 protein-coding loci and 38,357 protein
+coding transcripts annotated<xref ref-type="bibr" rid="b2">2</xref>. Approximately 198.4 million reads,
+89.79% of total reads, were perfectly aligned to the reference genome, and 91%
+of those matched annotated gene regions (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S1</xref>). Reads mapped to the annotated gene regions
+were counted to calculate RPKM to estimate gene expression<xref ref-type="bibr" rid="b19">19</xref>.
+Among the mapped reads, we found nearly 9.5 and 0.11 million paired reads
+located in the annotated exonic regions and across the exon-intron junctions,
+respectively.</p></sec><sec disp-level="2"><title>Global analysis of gene expression</title><p>One of the primary goals of RNA sequencing is to compare gene expression levels
+between samples. RNAseq data were processed to calculate RPKM values, a
+normalized measure of read density that allows transcript levels to be compared
+both within and between samples. A total of 23,971 genes were detected in the
+samples. Their expression in the four abiotic stress treatments with selected
+time points (0.5 and 4.0&#x02009;h) are summarized in <xref ref-type="fig" rid="f1">Fig.
+1a</xref>. Venn diagrams show the distribution of expressed genes from
+abiotic stress treatments (ABA, cold, drought and salt) with selected time
+points (0.5 and 4.0&#x02009;h) compared to the control sample (<xref ref-type="fig" rid="f1">Fig. 1a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary
+Datasets 1&#x02013;4</xref>). Among these genes, the number of
+stress-specifically expressed genes was 531 (ABA 0.5&#x02009;h), 384 (ABA
+4.0&#x02009;h), 273 (ABA 0.5/4.0&#x02009;h), 499 (cold
+0.5&#x02009;h), 487 (cold 4.0&#x02009;h), 468 (cold
+0.5/4.0&#x02009;h), 448 (drought 0.5&#x02009;h), 381 (drought
+4.0&#x02009;h), 362 (drought 0.5/4.0&#x02009;h), 662 (salt
+0.5&#x02009;h), 401 (salt 4.0&#x02009;h), and 435 (salt
+0.5/4.0&#x02009;h). Although there were 17,381 genes expressed among all
+stress treatments and control sample, many of them were quantitatively regulated
+(<xref ref-type="fig" rid="f1">Fig. 1b</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 5</xref>); while some of these genes had little
+variation across abiotic stress treatments, suggesting they fulfill housekeeping
+functions.</p><p>Hierarchical clustering was performed using Pearson&#x02019;s correlation
+coefficient as a distance metric and using the average agglomeration method<xref ref-type="bibr" rid="b23">23</xref>. The genes were clustered according to the expression profile in
+the samples. The clustering shows that the samples of ABA 4.0&#x02009;h and
+control sample have a high correlation of 0.91 indicating that the variables are
+positively and linearly related between these samples. Moreover, other stress
+treatment samples have a correlation coefficient of 0.73 with the control, and
+the variables were less related for these treatments. Generally, early and late
+response time points did not cluster together, with the exception of cold
+treatment, where both the 0.5 and 4&#x02009;h time points were found to
+cluster together (<xref ref-type="fig" rid="f1">Fig. 1b</xref>). To investigate if this
+consequence of a specific clustering strategy that was used, different
+clustering methods were used based on either correlation or Euclidean distance
+with complete and average linkage, the dendrograms show the clustering of the
+expression profiles of stress treatments and the control sample (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S1</xref>). The results show that
+control and ABA 4.0&#x02009;h tend to cluster together and salt
+4.0&#x02009;h and drought 4.0&#x02009;h tend to cluster together while
+the rest of stress treatments closely grouped (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S1</xref>). Additionally,
+Principal Component Analysis (PCA) was preformed in order to summarize the
+systematic patterns of variations in the data and the grouping of expression
+profiles of each sample in the experiment. In agreement with clustering
+analysis, the PCA shows that control and ABA 4.0&#x02009;h expression
+profiles closely cluster, salt 4.0&#x02009;h and drought 4.0&#x02009;h
+also have similar profiles, and the expression profiles of cold
+0.5&#x02009;h and 4.0&#x02009;h treatments tend to cluster with ABA
+0.5&#x02009;h, drought 0.5&#x02009;h and salt 0.5&#x02009;h (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S2</xref>).</p></sec><sec disp-level="2"><title>Changes in gene expression profiles of different abiotic stress
+treatments</title><p>Differentially Expressed Genes (DEGs) were identified relative to the control
+sample grown under standard conditions (see Methods). To obtain significant
+differences in gene expression among the abiotic stress treatments and the
+control sample, we compared the RPKM-derived read count using a Log<sub>2</sub>
+Ratio calculation (a log ratio of 1 represents a 2-fold change). There were
+about 17,381 genes that were expressed across all stress conditions with RPKM
+values above zero. To minimize false positives, we set a relatively conservative
+threshold of an RPKM value &#x02265;10. The results indicated that a set of
+7,921 (ABA 0.5&#x02009;h), 9,426 (ABA 4.0&#x02009;h), 8,524 (cold
+0.5&#x02009;h), 8,084 (cold 4.0&#x02009;h), 7,285 (drought
+0.5&#x02009;h), 7,791 (drought 4.0&#x02009;h), 7,605 (salt
+0.5&#x02009;h), 8,407 (salt 4.0&#x02009;h) and 9,668 genes across all
+stress treatments without any redundancy were DEGs above RPKM 10 (<xref ref-type="fig" rid="f2">Fig. 2a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Dataset
+6</xref>).</p><p>To identify genes showing a significant change in expression among the two time
+points (0.5 and 4.0&#x02009;h) we compared all DEGs across all stress
+treatments. A total of 12,184 genes were up regulated and 14,800 genes were down
+regulated; the number of DEGs uniquely appearing in 0.5&#x02009;h time point
+was 4,911 (up regulated) and 6,702 (down regulated), while 7,273 (up regulated)
+and 8,098 (down regulated) genes were uniquely appearing in the
+4.0&#x02009;h time point (<xref ref-type="fig" rid="f2">Fig. 2b</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 7</xref>). These results
+suggest that the differentiation of expressed genes are exposure-time dependent
+and they are more differentially expressed when the <italic>P. patens</italic> protonema
+tissues are exposed to the stress treatments for 4.0&#x02009;h as compared
+to 0.5&#x02009;h.</p><p>For all comparisons of pairs, a large number of DEGs were specific for a certain
+stress treatment and time point (<xref ref-type="fig" rid="f2">Fig. 2c</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary Datasets 8&#x02013;11</xref>).
+Among all DEGs across all stress treatments for 0.5&#x02009;h, transcripts
+of 1,715 genes were induced, and 2,640 were repressed persistently (<xref ref-type="fig" rid="f2">Fig. 2c</xref>). Comparison of all DEGs across all stress
+treatments for 4.0&#x02009;h showed transcripts of 776 genes were induced,
+and 1,529 were repressed persistently among all stress treatments (<xref ref-type="fig" rid="f2">Fig. 2c</xref>). All significantly induced and repressed genes
+derived from pairwise comparisons were compared with each other, the Venn
+diagrams depict the overlaps between each pairwise comparison.</p></sec><sec disp-level="2"><title>Gene ontology and gene set enrichment analysis for DEGs</title><p>To facilitate more analysis on gene expression, all predicted <italic>P. patens</italic>
+stressed-DEGs were assigned to different functional categories using Blast2GO.
+The annotations were verified manually and integrated using gene ontology (GO)
+classification. For all DEGs, GO term annotations were analyzed; 8,383 of the
+9,668 DEGs were annotated in at least one of the three GO categories: cellular
+component, biological process or molecular function; whereas 1,285 (13.29%) of
+the DEGs had no available GO annotation (<xref ref-type="supplementary-material" rid="S1">Supplementary Datasets 6, 12&#x02013;14</xref>). Several hundreds of
+genes related to translation, oxidation-reduction process, regulation of
+transcription, response to stress, protein binding, and ATP binding were
+enriched amongst differentially expressed genes in all stress treatments (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S3</xref>). Some of these
+functional groups were enriched with a large number of genes; metabolic process
+included 3,887 genes and was a dominant group under the main category of
+biological process for instance. Binding and cell functional groups comprised
+4,121 and 6,214 genes, and were dominant in the main categories of molecular
+function and cellular component, respectively (<xref ref-type="supplementary-material" rid="S1">Supplementary Datasets 12&#x02013;14</xref>). We
+also detected a large number of genes in the functional groups of cellular
+process with 3,825 genes, catalytic activity with 3,466 genes, and cell part
+with 6,213 genes.</p><p>The g:Profiler tool<xref ref-type="bibr" rid="b24">24</xref> was used to classify the gene set enrichment
+analyses (GSEA) of <italic>P. patens</italic> stressed-DEGs for each condition (ABA, cold,
+drought and salt) based on up and down regulated genes, and they were
+categorized into 710 and 579 functional groups, respectively (<xref ref-type="supplementary-material" rid="S1">Supplementary Datasets 15</xref> and <xref ref-type="supplementary-material" rid="S1">16</xref>). Among these groups, the terms related to
+biological process (GO:0008150), metabolic process (GO:0008152), cellular
+process (GO:0009987), biosynthetic process (GO:0009058), gene expression
+(GO:0010467), translation (GO:0006412) and response to stimulus (GO:0050896)
+were dominant in all stress treatments. Most of these groups showed
+statistically significant differences in GSEA based on GO terms (biological
+process) for up and down regulated genes (<xref ref-type="fig" rid="f3">Fig. 3a,b</xref>). We
+detected a high percentage of down regulated genes from functional groups of
+single organism process (GO:0044699) in treatments of drought 0.5&#x02009;h
+and cold 4.0&#x02009;h, and high percentage of up regulated genes from
+functional groups of cellular metabolic process (GO:0044237) in ABA
+4.0&#x02009;h and cold 4.0&#x02009;h treatments. Additionally, the up
+regulated genes from functional groups of signaling (GO:0023052) were present in
+ABA, cold and drought but not in salt treatments; and RNA metabolic process
+(GO:0016070) functional group for down regulated genes was present only in
+4.0&#x02009;h stress treatments. Interestingly, the functional group related
+to response to salt stress (GO:0009651) in down regulated genes was absent in
+salt 0.5 and 4&#x02009;h (<xref ref-type="fig" rid="f3">Fig. 3b</xref>). Furthermore, it
+was observed that some functional groups are present for certain stress
+treatments in up regulated genes yet were absent in the same treatments for down
+regulated ones and conversely. Notably, GSEA of DEGs was observed for different
+functional groups involved in different pathways, which suggests that there are
+considerable differences between the physiological processes among <italic>P.
+patens</italic> stressed-DEGs.</p></sec><sec disp-level="2"><title>The early stress response genes</title><p>Many genes display up or down regulation during early abiotic stress response
+(<xref ref-type="fig" rid="f2">Fig. 2b</xref>). Identifying <italic>P. patens</italic> genes that are
+early regulators in stress responses and ABA signaling is critical for
+elucidating abiotic stress response mechanisms.</p><p>To identify early genes strongly induced by stress treatments, we compared the
+RPKM-derived read count using a Log<sub>2</sub> Ratio calculation to identify
+genes representing a high fold change in stress samples as compared to the
+control one at the 0.5&#x02009;h time point. There were seven genes highly
+up regulated across all stress conditions at 0.5&#x02009;h with
+&#x02265;50 fold change (<xref ref-type="fig" rid="f4">Fig. 4a</xref>). These highly
+regulated early stress genes have distinct functions (<xref ref-type="supplementary-material" rid="S1">Supplementary Table S2</xref>). For example,
+Pp1s370_29V6.1 encodes late embryogenesis abundant protein, LEA-3. The broad
+subcellular distribution of LEA proteins highlights the need for each cellular
+compartment to be provided with protective mechanisms to cope with desiccation
+or cold stress, and this gene might be involved in maturation and desiccation
+tolerance of seeds also<xref ref-type="bibr" rid="b25">25</xref>. The Arabidopsis homolog of this
+transcript is involved in the salt stress pathway<xref ref-type="bibr" rid="b26">26</xref>. Pp1s43_3V6.1
+and Pp1s55_253V6.1 are members of the AP2/EREBP family of transcription factors;
+recognize the drought-responsive element (DRE) in target promoters<xref ref-type="bibr" rid="b27">27</xref>. All of these genes appear to be over represented in salt and
+drought, where both of those treatments are clustered together, and less
+represented in cold and ABA treatments, where there is another cluster for those
+treatments (<xref ref-type="fig" rid="f4">Fig. 4a</xref>). There were also four genes highly
+down regulated across all stress conditions at 0.5&#x02009;h with a
+&#x02265;10 fold change (<xref ref-type="fig" rid="f4">Fig. 4b</xref>) and they encode
+different functions (<xref ref-type="supplementary-material" rid="S1">Supplementary Table
+S3</xref>) such as beta-expansin 3 (Pp1s251_59V6.1), which has been shown to
+respond to water deficiency<xref ref-type="bibr" rid="b28">28</xref>, and another expansin transcript
+(Pp1s11_29V6.1), which is involved in plant-type cell wall organization and
+perhaps morphological adaptation.</p><p>Another group of early stress response genes were predicted at high and low
+expression levels based on absolute RPKM values (<xref ref-type="fig" rid="f4">Fig. 4c</xref>,
+<xref ref-type="supplementary-material" rid="S1">Supplementary Table S4</xref>). These
+co-expressed genes in early stress response might be lying in the same pathway.
+For example, Pp1s100_117V6.1 encodes ATP synthase beta subunit protein, which
+responds to oxidative stress. The acyl-CoA-binding protein 6 (Pp1s36_294V6.1)
+responds to both cold and salt stress<xref ref-type="bibr" rid="b29">29</xref>, and in agreement with
+our results, the expression of Pp1s36_294V6.1 increases in both early cold and
+salt stress (<xref ref-type="fig" rid="f4">Fig. 4c</xref>). Other genes: Pp1s143_71V6.1,
+Pp1s37_172V6.1, Pp1s60_311V6.1, and Pp1s84_242V6.1 have no available GO
+annotation but they share the same expression profiles with the above
+transcripts. Interestingly, these genes show the same expression behavior among
+all stress treatments and appear to be expressed more in drought and less in
+cold than other treatments (<xref ref-type="fig" rid="f4">Fig. 4c</xref>).</p></sec><sec disp-level="2"><title>Validation of <italic>P. patens</italic> gene expression patterns in response to
+abiotic stresses</title><p>We further validated the accuracy and reproducibility of gene expression results
+through using quantitative real-time PCR (qPCR) as an orthogonal method of gene
+expression analysis. The transcriptional levels of two reference genes and 10
+DEGs were independently analyzed by qPCR (<xref ref-type="fig" rid="f5">Fig. 5</xref>). Based
+on the RPKM results, the two genes (Pp1s13_134V6.1 and Pp1s56_240V6.1) are
+constitutively expressed with no significant difference among all stress
+treatments and control samples (<xref ref-type="fig" rid="f5">Fig. 5a</xref>), and they encode
+3-hydroxyisobutyryl-coenzyme A and riboflavin kinase, respectively. The qPCR
+results also showed the same expression patterns with no difference in
+expression among the samples tested (<xref ref-type="fig" rid="f5">Fig. 5a</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>). Thus, these
+two genes were considered endogenous controls (reference genes) for qPCR data
+normalization. Additionally, we designed primer pairs to specifically detect the
+transcript level of 10 DEGs (up- and down-regulated) that were encoding
+different functions (<xref ref-type="supplementary-material" rid="S1">Supplementary Table
+S5</xref>). The transcript levels of the 10 DEGs were obtained by the qPCR
+assays, normalized with the above reference genes and compared with RPKM-derived
+read count using a Log<sub>2</sub> Ratio calculation. Indeed, the transcript
+levels for the 10 selected genes were differentially regulated under stress
+conditions, and the expression patterns showed high degrees of concordance
+between qPCR assays and RNAseq analyzed data (<xref ref-type="fig" rid="f5">Fig. 5b</xref>).
+Taken together, this independent qPCR evaluation confirms the reproducibility
+and validity of our method for identifying RNAseq-derived expression
+patterns.</p></sec><sec disp-level="2"><title>Evolutionary conservation of stress-regulated genes</title><p>Given the phylogenetic position of <italic>P. patens</italic>, the specific adaptations to
+the new environmental conditions required for the transition from aquatic to
+terrestrial life can be studied within this model plant<xref ref-type="bibr" rid="b1">1</xref>. To
+investigate the evolutionary conservation of stress responses in land plants, we
+conducted a comparative analysis of stressed-DEGs between unicellular algae
+(<italic>C. reinhardtii</italic>), bryophytes (<italic>P. patens</italic>), lycophytes (<italic>S.
+moellendorffii</italic>) and angiosperms (<italic>A. thaliana</italic>) to uncover the core
+networks of processes that led to the diversity of responses observed among
+extant plants. The resulting non-redundant 9,668 <italic>P. patens</italic> stressed-DEGs
+(<xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 6</xref>) were
+subjected to BLAST-P analysis (<xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 17</xref>), and 512, 3,708 and 106 genes were shared
+with <italic>A. thaliana</italic>, <italic>S. moellendorffii</italic>, and <italic>C. reinhardtii</italic>,
+respectively. Additionally, 565 genes were predicted to be orphan genes (<xref ref-type="fig" rid="f6">Fig. 6a</xref>, <xref ref-type="supplementary-material" rid="S1">Supplementary
+Datasets 18&#x02013;20</xref>). Gene set enrichment analysis, in
+conjunction with ortholog analysis was used to identify enrichment,
+conservation, and rewiring of functional categories of the ortholog genes
+between <italic>P. patens</italic> and <italic>A. thaliana</italic>, <italic>S. moellendorffii</italic> and
+<italic>C. reinhardtii.</italic> The entire ortholog sets found between the
+aforementioned species were used to examine the functional categories. We
+identified the multiple GO enriched functional categories that were conserved or
+varied between these model organisms (<xref ref-type="fig" rid="f6">Fig.
+6b&#x02013;e</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Datasets 22&#x02013;25</xref>). We also compared the GO
+enriched categories of <italic>P. patens</italic> orphan genes with <italic>P. patens</italic>/<italic>C.
+reinhardtii</italic>, <italic>P. patens</italic>/<italic>S. moellendorffii</italic>, and <italic>P.
+patens</italic>/<italic>A. thaliana</italic> genes. Remarkably, we found that there is no
+shared GO enriched term in any functional group between the conserved and the
+orphan genes (<xref ref-type="fig" rid="f6">Fig. 6b</xref>). A comparative analysis between GO
+enriched functional categories of <italic>P. patens</italic>/<italic>C. reinhardtii</italic>, <italic>P.
+patens</italic>/<italic>S. moellendorffii</italic>, and <italic>P. patens</italic>/<italic>A. thaliana</italic>
+genes indicated that the GO enriched genes for GMP (guanosine monophosphate)
+biosynthetic and GMP metabolic process among the <italic>P. patens</italic>/<italic>C.
+reinhardtii</italic> group are not connected with those from <italic>P.
+patens</italic>/<italic>S. moellendorffii</italic>, and <italic>P. patens</italic>/<italic>A. thaliana</italic>
+(<xref ref-type="fig" rid="f6">Fig. 6d,e</xref>). On the other hand, the GO terms enriched
+with gene expression, translation and protein metabolic process are shared and
+connected between <italic>P. patens</italic>/<italic>S. moellendorffii</italic>, and <italic>P.
+patens</italic>/<italic>A. thalina</italic> groups (<xref ref-type="fig" rid="f6">Fig. 6b</xref>). The
+comparison of <italic>P. patens</italic> stress regulated genes with unicellular algae,
+vascular and flowering plants revealed genomic changes concomitant with the
+evolutionary movement to land, including a general gene family complexity and
+loss of genes associated with different functional groups.</p></sec><sec disp-level="2"><title>Orphan genes of abiotic stress responses</title><p>Genes with no trans-species similarity (orphans) appear in all sequenced genomes.
+Several orphans have been implicated to play a role in plant responses to the
+environment and in lineage-specific traits; and some orphans are functional when
+introduced into evolutionarily distant species<xref ref-type="bibr" rid="b30">30</xref>. Improving our
+understanding of the origins of lineage-specific genes is key to gaining
+insights on how novel genes can arise and acquire functionality in different
+lineages<xref ref-type="bibr" rid="b30">30</xref>. The presence of lineage-specific genes was a
+striking and dominant feature revealed in the re-annotation of the <italic>P.
+patens</italic> genome (v1.6)<xref ref-type="bibr" rid="b2">2</xref>. In total, 565 of identified
+abiotic stress responsive genes in <italic>P. patens</italic> had no orthologs in other
+Viridiplantae (<xref ref-type="fig" rid="f6">Fig. 6a,b</xref>), and they were present in the
+early and late stress responses (<xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 18</xref>). Generally, they appeared to be
+differentially regulated across all the stress treatments, but some genes were
+differentially regulated in a specific stress treatment. For example,
+Pp1s120_56V6.1 has no available GO annotation but appears to be regulated only
+in ABA 4.0&#x02009;h, and Pp1s124_18V6.1 encodes anthocyanin transcriptional
+regulator and is regulated only in ABA 0.5&#x02009;h (<xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 18</xref>). The hypothetical
+protein (Pp1s27_173V6.1) appears to be up regulated only in salt
+0.5&#x02009;h and drought treatments (<xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 18</xref>).</p><p>Over-representation of GO terms combined with differentially regulated orphan
+genes across all the stress treatments were determined by using the Biological
+Networks Gene Ontology tool (BiNGO). These were categorized into 82 functional
+groups (<xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 22</xref>).
+Most of these groups showed statistically significant GO representation (<xref ref-type="fig" rid="f7">Fig. 7</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S5</xref>). Among these groups, the terms of response to
+cold (GO:0009409), response to abiotic stimulus (GO:0009628), response to
+temperature stimulus (GO:0009266) and response to stimulus (GO:0050896) showed
+significant over-representation based on the obtained <italic>P-values</italic> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. S5</xref>). Notably,
+over-representation of GO terms in <italic>P. patens</italic> orphan stressed-DEGs was
+observed for different functional groups involved in different morphological,
+physiological and metabolic pathways. This suggests that there are considerable
+differences between the physiological processes among these genes.</p></sec></sec><sec disp-level="1"><title>Discussion</title><p>The <italic>P. patens</italic> is an important model organism for <italic>evo</italic>-<italic>devo</italic>
+studies. During 470 million years of divergent evolution, extant mosses and seed
+plants developed different strategies for survival, leading to evolution of the
+dominant gametophytic and sporophytic, respectively<xref ref-type="bibr" rid="b1">1</xref><xref ref-type="bibr" rid="b31">31</xref>. Were the
+evolution of these morphological changes accompanied by changes and innovation in
+new stress responses? One of the main objectives of evolutionary conservation
+analysis between bryophytes, algae and angiosperms is to uncover the core networks
+of processes that led to the diversity of responses observed among extant plants. By
+comparative analysis of gene function in the species representing different
+evolutionary steps, it is possible to differentiate between gene families that
+emerged recently in the course of evolution and conserved gene families encoding
+proteins with fundamental functions<xref ref-type="bibr" rid="b3">3</xref>. Our data are discussed in an
+evolutionary context in order to dissect plant response strategies to stress, also
+to reveal stress induced expression of moss-specific genes, which may have
+contributed to the evolutionary success and survival of these poikilohydric
+plants.</p><p>Adaptation to land also required the evolution of proteins that protect against
+stresses. One example of this is the expansion of the heat shock protein 70 (HSP70)
+family to 13 cytosolic members in <italic>P. patens</italic>, whereas all algal genomes
+sequenced to date encode one single cytosolic HSP70. Our results indicated that
+these members are present and expressed among all the stress treatments with
+different expression levels. Some were highly expressed like: Pp1s2_216V6.1,
+Pp1s351_21V6.1 and Pp1s97_279V6.1, but others like: Pp1s351_24V6.1,
+Pp1s262_62V6.1and Pp1s298_26V6.1, were expressed at a low level (<xref ref-type="supplementary-material" rid="S1">Supplementary Dataset 5</xref>).</p><p>Dehydration tolerance in seeds is dependent on ABA to induce expression of
+seed-specific genes, such as late embryogenesis abundant proteins (LEAs), a group of
+proteins that accumulate during dehydration. <italic>P. patens</italic> contain orthologs of
+LEA genes and other genes expressed during the abiotic stress responses. The <italic>P.
+patens</italic> genome contains putative homologs of the <italic>A. thaliana</italic> ABA
+receptors, such as, the transcription factor ABI5, which implicates it in the
+regulation of ABA-mediated gene expression.</p><p>Our analysis identified that ABA- and drought- responsive genes include those
+encoding a number of LEA proteins and a dehydration-responsive element-binding
+protein (DREB) transcription factor. In <italic>A. thaliana</italic>, some
+dehydration-responsive genes are activated by transcription factors mediating an
+ABA-dependent pathway, which include basic-leucine zipper (bZIPs), MYC/MYB and
+ABI3/VPI families that recognize specific binding sites in the promoter regions of
+these genes<xref ref-type="bibr" rid="b32">32</xref>. Similarly in <italic>P. patens</italic> ABA-specific induction
+operates via binding of bZIP transcription factors to ABREs<xref ref-type="bibr" rid="b33">33</xref>.
+Salt-induced genes have been identified in <italic>P. patens</italic> encoding regulatory
+proteins such as calmodulin binding proteins<xref ref-type="bibr" rid="b34">34</xref>, a
+Ca<sup>2+</sup>-ATPase<xref ref-type="bibr" rid="b35">35</xref>, and the AP2/EREBP transcription
+factor PpDBF1<xref ref-type="bibr" rid="b36">36</xref>. In agreement with our analysis, a high number of
+salt-specifically expressed genes have been identified and a large number of
+salt-DEGs were expressed after 0.5 and 4.0&#x02009;h exposure to
+350&#x02009;mM NaCl, including the aforementioned genes. In plants, once primary
+sensors perceive a low-temperature signal, Ca<sup>2+</sup> channels are
+activated and cytosolic levels of Ca<sup>2+</sup> increase triggering the
+activation of proteins which provide cellular protection such as the activation of
+the LEA family genes and the expression of cold-regulated genes (COR)<xref ref-type="bibr" rid="b37">37</xref>. The activation of the related signal transduction pathway will result in the
+accumulation of osmoprotectants like sugars, amines and compatible solutes which
+eventually lead to membrane stabilization and altered gene expression to provide
+protection at all levels<xref ref-type="bibr" rid="b38">38</xref>. Our results indicated ABA-responsive
+genes in <italic>P. patens</italic> were induced when treated with salt and cold, which
+suggests the involvement of these genes in response to multiple stresses. Such
+cross-talk can be mediated by calcium, a second messenger, which increases during
+the various abiotic stresses and induces the signaling pathway and consequently the
+expression of various genes that have a role in maintaining the cell
+homeostasis.</p><p>Orphans may be defined as genes with coding sequences utterly unique to the species;
+in other words, genes that presumably produce previously novel proteins. However,
+every evolutionary lineage harbors orphan genes that lack homologues in other
+lineages and whose evolutionary origin is poorly understood<xref ref-type="bibr" rid="b30">30</xref>.
+Considering the high number of orphan genes among the persistent stressed-DEGs
+(<xref ref-type="fig" rid="f6">Fig. 6a,b</xref> and <xref ref-type="fig" rid="f7">Fig. 7</xref>) we conclude
+an important role of species- or lineage- specific genes in the acquisition of
+abiotic stress tolerance in mosses. Species- or lineage- specific genes could also
+be responsible for poikilohydry, as this phenomena is also noted in many forms of
+algae.</p><p>Because the majority of DEGs representing these processes have orthologs in other
+Viridiplantae, we conclude that basic molecular mechanisms of abiotic stress
+responses may occur in the gametophyte of mosses (the dominant form in bryophytes)
+and the sporophyte of flowering plants (the dominant form in vascular plants), and
+this will extend our understanding of stress molecular biology and provide a
+foundation for future studies on the stress regulatory mechanisms of <italic>P.
+patens</italic> and other plant species. Additionally, Species or lineage-specific
+stress-regulated genes not found in higher plants suggest that these unknown and
+un-classified transcripts might represent valuable targets for crop plant
+improvement in a changing climate via targeted gene replacement.</p></sec><sec disp-level="1"><title>Methods</title><sec disp-level="2"><title>Plant materials and stress treatments</title><p>The cultivation of <italic>P. patens</italic> was performed in liquid mineral medium
+[250&#x02009;mg l<sup>&#x02212;1</sup> KH<sub>2</sub>PO<sub>4</sub>,
+250&#x02009;mg l<sup>&#x02212;1</sup>
+MgSO<sub>4</sub>.7H<sub>2</sub>O,
+250&#x02009;mgl<sup>&#x02212;1</sup> KCl, 1000&#x02009;mg
+l<sup>&#x02212;1</sup>
+Ca(NO<sub>3</sub>)<sub>2</sub>.4H<sub>2</sub>O, 12.5&#x02009;mg
+l<sup>&#x02212;1</sup> FeSO<sub>4</sub>.7H<sub>2</sub>O, pH 5.8 with
+KOH]<xref ref-type="bibr" rid="b39">39</xref>. Freshly disrupted protonemata were sub-cultured for 5
+days and transferred to fresh medium and cultured over night in Erlenmeyer
+flasks on shakers at 125&#x02009;rpm. For salt and ABA treatments the medium
+was supplemented with 350&#x02009;mM NaCl while for ABA treatments,
+<italic>cis-trans</italic> ABA was added to a final concentration of
+10<sup>&#x02212;5</sup>&#x02009;M. For drought treatments, the
+protonemata tissues form Erlenmeyer flasks were transferred directly to the
+plastic base of a 9&#x02009;cm Petri dishes. The dishes (uncovered) were
+placed in transparent plastic containers containing saturated NaCl solution in
+order to maintain the atmosphere of relative humidity<xref ref-type="bibr" rid="b9">9</xref>. Cold
+treatments were performed by transferring Erlenmeyer flasks of the protonemata
+tissues to the fridge at 4 &#x000b0;C. During treatment, the temperature of
+the medium was 4 &#x000b0;C. The control plants were grown in parallel and
+harvested at the same time as the abiotic stress treated samples. After 0.5 and
+4&#x02009;hours moss material of three flasks per treatment were harvested,
+pooled and frozen in liquid nitrogen.</p></sec><sec disp-level="2"><title>RNAseq libraries construction and sequencing</title><p>Total RNA was isolated from protonema tissues using TRIzol reagent (Invitrogen,
+USA) following the manufacturer&#x02019;s instructions. The <italic>P. patens</italic>
+RNAseq libraries were prepared using TruSeq RNA sample prep kit (Illumina, Inc.)
+following the manufacturer&#x02019;s instructions. Briefly, TruSeq RNA
+sample prep kit converts the poly-A containing mRNA in total RNA into a cDNA
+library using poly-T oligo-attached magnetic bead selection. Following mRNA
+purification, the RNA is chemically fragmented prior to reverse transcription
+and cDNA generation. The fragmentation step results in an RNAseq library that
+includes inserts that range in size from approximately
+100&#x02013;400&#x02009;bp. The average insert size in an Illumina
+TruSeq RNA sequencing library is approximately 200&#x02009;bp. The cDNA
+fragments then go through an end repair process, the addition of a single
+&#x02018;A&#x02019; base to the 3&#x02019; end and then ligation of
+the adapters. Then, the products are purified and enriched with PCR to create
+the final double stranded cDNA libraries. Finally, libraries quality control and
+quantification were performed with a Bioanalyzer Chip DNA 1000 series II
+(Agilent) and sequenced directly using the high-throughput Illumina HiSeq
+sequencing system (Illumina, Inc.). The raw reads for each library were
+deposited in NCBI BioSample database and they are accessible through Sequence
+Read Archive (SRA) accession number SRP050162.</p></sec><sec disp-level="2"><title>Alignment and analysis of Illumina reads against <italic>P. patens</italic>
+reference genome</title><p>Paired End (PE) reads from each library (four abiotic stress treatments with
+selected time points 0.5 and 4.0&#x02009;hours in addition to the control
+sample) were processed using CASAVA version 1.8.2 package in Fastq format.
+Trimmomatic package<xref ref-type="bibr" rid="b40">40</xref> was used to remove adapters and filter out
+low quality bases (&#x0003c; Q20), and only those reads which showed quality
+score of 20 or higher were retained. Filtered sequences reads were mapped to the
+<italic>P. patens</italic> genome V1.6<xref ref-type="bibr" rid="b2">2</xref> (Cosmoss database; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://cosmoss.org/">http://cosmoss.org/</ext-link>, data can also be
+found in JGI (Phytozome; <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.phytozome.net/physcomitrella.php">http://www.phytozome.net/physcomitrella.php</ext-link>) by using a CLCbio
+Genomics workbench 6.1 (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.clcbio.com">http://www.clcbio.com</ext-link>). The CLCbio Genomics workbench used
+uncompressed suffix array and smith-waterman algorithm for reference
+mapping.</p></sec><sec disp-level="2"><title>Global gene expression and differential gene expression
+analysis</title><p>A comparison of commonly and uniquely expressed genes across the treatments was
+done using the online tool Venny<xref ref-type="bibr" rid="b41">41</xref>. The comparison was done for
+control versus all stress treatments including two time points. Reads were
+mapped to the reference genome of <italic>P. patens</italic> (v1.6)<xref ref-type="bibr" rid="b2">2</xref> to
+calculate normalized gene expression values using the RPKM metrics<xref ref-type="bibr" rid="b19">19</xref>. In order to filter out sequencing and mapping artifacts, we
+chose RPKM values of &#x02265;10 as our threshold. The differential
+expression is calculated for each gene by using the log<sub>2</sub>-ratio
+calculation; differential expression is reported as the log<sub>2</sub>-ratio of
+two expressed values. Equal expression values for each gene would have a
+log<sub>2</sub>-ratio of zero, while the genes are up-regulated if this
+ratio is above zero and down-regulated if the ratio is below zero, a log ratio
+of 1 represents a 2-fold change<xref ref-type="bibr" rid="b42">42</xref>. The gene expression profiling
+was done using Tophat<xref ref-type="bibr" rid="b43">43</xref>, Cufflinks<xref ref-type="bibr" rid="b20">20</xref> and
+CummeRbund package (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://compbio.mit.edu/cummeRbund/">http://compbio.mit.edu/cummeRbund/</ext-link>). The heatmaps and dendrogram
+are generated using R package (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.r-project.org/">http://www.r-project.org/</ext-link>) to compare the expression profiling of
+the transcriptome in different stress treatments. Hierarchical clustering was
+performed using Pearson&#x02019;s correlation coefficient as distance metric
+and the average agglomeration method<xref ref-type="bibr" rid="b23">23</xref>. Clustering dendrograms
+were examined below the 0.15 height threshold, allowing a close inspection of
+genes clustered at or above a cluster-average correlation coefficient of
+0.91.</p></sec><sec disp-level="2"><title>Quantitative real-time PCR (qPCR)</title><p>For qPCR, cDNA corresponding to 50&#x02009;ng of total RNA was used per
+transcript to be quantified. Quantitative PCR reactions were performed on
+Applied Biosystems StepOnePlus instrument system using KAPA SYBR FAST One-Step
+qRT-PCR Kit (Kapa Biosystems, USA) with gene-specific primers according to the
+manufacturer&#x02019;s instructions. Data were normalized relative to
+Pp1s13_134V6.1 and Pp1s56_240V6.1 genes, which exhibited relatively, stable
+expression levels in all abiotic stress treatments and in the control sample as
+well. Melting curves were analyzed on the product to determine if only a single
+product was amplified without primer dimers and other bands; melting curve
+analysis was performed for each primer pair before further analyses. Relative
+quantitative analysis was performed by comparative quantitation using StepOne
+v2.3 software. All reactions were run in triplicate. The primers for subsequent
+qPCR reactions are listed in <xref ref-type="supplementary-material" rid="S1">Supplementary
+Table S5</xref>.</p></sec><sec disp-level="2"><title>Gene ontology and gene set enrichment analysis</title><p>For the DEGs, the GO<xref ref-type="bibr" rid="b44">44</xref> annotation of the recent <italic>P. patens</italic>
+genome annotation (v1.6)<xref ref-type="bibr" rid="b2">2</xref> was analyzed with Blast2GO (version
+2.3.5) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.blast2go.org/">http://www.blast2go.org/</ext-link>) with the default parameters<xref ref-type="bibr" rid="b45">45</xref>. To assess the GSEA<xref ref-type="bibr" rid="b46">46</xref> for the DEGs we identified,
+we used the public web tool g:Profiler (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://biit.cs.ut.ee/gprofiler">http://biit.cs.ut.ee/gprofiler</ext-link>)<xref ref-type="bibr" rid="b24">24</xref> for functional
+characterization of the gene lists. g:Profiler comprises of five components
+(g:GOSt for gene group functional profiling, g:Cocoa for compact comparison of
+annotations, g:Convert for gene ID conversions, g:Sorter for expression
+similarity searches and g:Orth for orthology searches). g:GOSt was used to
+identify functional characterization of the DEG lists. The reference GO
+annotation sets are retrieved from the Ensembl database (Release 75) and Ensembl
+Genomes (Release 22) and classified into three components: biological process,
+molecular function and cellular component. Fisher&#x02019;s one-tailed test
+(cumulative hypergeometric probability) was used to calculated <italic>P-value</italic>
+and Benjamini-Hochberg False Discovery rate with the cut-off value after
+correction &#x0003c;0.05 was used for multiple testing correction. The GO terms
+that have <italic>P-values</italic> below the threshold of &#x0003c;0.05 were considered as
+statistically significant. The level plot for selected GO terms was done under R
+suite software (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.r-project.org/">http://www.r-project.org/</ext-link>). g:Profiler also provides the ortholog
+mapping (g:Orth Ortholgoy search). The input gene IDs were automatically
+converted via Ensemble gene IDs using g:Convert and then used for ortholog
+mapping based on Ensemble alignments.</p></sec><sec disp-level="2"><title>Evolutionary dynamics and orphan transcripts analysis</title><p>A detailed BLAST analysis of <italic>P. Patens</italic> DEGs against all organisms in the
+taxonomic group of Viridiplantae was carried out to define the evolutionary
+conservation of these genes within this lineage. For this purpose the entire
+available proteins sequences of Viridiplantae were downloaded from UniProt
+database (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://www.uniprot.org/">http://www.uniprot.org/</ext-link>). A BLAST database was created with these
+sequences. The protein sequences of 9,668 DEGs of <italic>P. Patens</italic>, extracted
+from <italic>P. Patens</italic> protein sequences (Cosmoss database; http://cosmoss.org/)
+were used as queries against the Viridiplantae BLAST database and were searched
+for homology at the <italic>E-</italic>values of 0.01 or lower. For the purposes of this
+study, we used <italic>C. reinhardtii</italic>, <italic>S. moellendorffii</italic> and <italic>A.
+thalina</italic> proteomes for comparative analysese; if no homology was found
+across any of Viridiplantae species in our database, we considered the query as
+an orphan gene.</p><p>GSEA was used to identify enrichment, the conservation or rewiring of functional
+categories of the orthologue genes that had a common ancestor between <italic>P.
+Patens</italic> to <italic>C. reinhardtii</italic>, <italic>S. moellendorffii</italic> and <italic>A.
+thalina</italic>. Over-representation of GO terms in a set of genes was
+determined by using the Biological Networks Gene Ontology tool (BiNGO)<xref ref-type="bibr" rid="b47">47</xref>. BiNGO retrieved the relevant GO annotation then tested for
+significance using the Hypergeometric test and corrected multiple testing using
+Benjamini and Hochberg false discovery rate (FDR) correction. The Jaccard
+coefficient was used to compare the similarity between enrichment sets A and B.
+It was defined as the intersection between group A and B divided by their union,
+the results from BiNGO were then visualized through the enrichment map.
+Cytoscape and enrichment map was used for visualization of the GSEA results from
+the BiNGO plug-in.</p></sec></sec><sec disp-level="1"><title>Additional Information</title><p><bold>How to cite this article</bold>: Khraiwesh, B. <italic>et al.</italic> Genome-wide expression
+analysis offers new insights into the origin and evolution of <italic>Physcomitrella
+patens</italic> stress response. <italic>Sci. Rep.</italic>
+<bold>5</bold>, 17434; doi: 10.1038/srep17434 (2015).</p></sec><sec sec-type="supplementary-material" id="S1"><title>Supplementary Material</title><supplementary-material id="d33e26" content-type="local-data"><caption><title>Supplementary Tables and Figures</title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-s1.pdf"/></supplementary-material><supplementary-material id="d33e29" content-type="local-data"><caption><title>Supplementary Datasets 1-25</title></caption><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-s2.xls"/></supplementary-material></sec></body><back><ack><p>We would like to thank Professor Wolfgang Frank who offered valuable suggestions for
+this study, Professor Nina Fedoroff for her help and support, the Hasebe laboratory
+for providing us the <italic>P. patens</italic> wild type strain, Kurt Warren who provided
+logistic assistance on transferring the research materials and NYUAD Core Technology
+Platform for the support on the research equipment&#x02019;s. This research was
+supported by KAUST Laboratory Base Line Funds and by New York University Abu Dhabi
+Institute grants G1205-1205i and NYU Abu Dhabi Faculty Research Fund AD060; A.A. was
+supported by the NYU Abu Dhabi Research Assistant Program for Emirati Nationals.</p></ack><ref-list><ref id="b1"><mixed-citation publication-type="journal"><name><surname>Rensing</surname><given-names>S. A.</given-names></name>
+<italic>et al.</italic>
+<article-title>The Physcomitrella genome reveals evolutionary insights into the conquest of land by plants</article-title>. <source>Science</source>
+<volume>319</volume>, <fpage>64</fpage>&#x02013;<lpage>69</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18079367</pub-id></mixed-citation></ref><ref id="b2"><mixed-citation publication-type="journal"><name><surname>Zimmer</surname><given-names>A. D.</given-names></name>
+<italic>et al.</italic>
+<article-title>Reannotation and extended community resources for the genome of the non-seed plant <italic>Physcomitrella patens</italic> provide insights into the evolution of plant gene structures and functions</article-title>. <source>BMC genomics</source>
+<volume>14</volume>, <fpage>498</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23879659</pub-id></mixed-citation></ref><ref id="b3"><mixed-citation publication-type="journal"><name><surname>Floyd</surname><given-names>S. K.</given-names></name> &#x00026; <name><surname>Bowman</surname><given-names>J. L.</given-names></name>
+<article-title>The ancestral developmental tool kit of land plants</article-title>. <source>Int J Plant Sci</source>
+<volume>168</volume>, <fpage>1</fpage>&#x02013;<lpage>35</lpage> (<year>2007</year>).</mixed-citation></ref><ref id="b4"><mixed-citation publication-type="journal"><name><surname>Khraiwesh</surname><given-names>B.</given-names></name> &#x00026; <name><surname>Qudeimat</surname><given-names>E.</given-names></name>
+<article-title>in Climate change and plant abiotic</article-title>
+<source>Stress Tolerance 481-506</source> (Wiley-VCH Verlag GmbH &#x00026; Co. KGaA, <year>2013</year>).</mixed-citation></ref><ref id="b5"><mixed-citation publication-type="journal"><name><surname>Knight</surname><given-names>H.</given-names></name> &#x00026; <name><surname>Knight</surname><given-names>M. R.</given-names></name>
+<article-title>Abiotic stress signalling pathways: specificity and cross-talk</article-title>. <source>Trends in plant science</source>
+<volume>6</volume>, <fpage>262</fpage>&#x02013;<lpage>267</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11378468</pub-id></mixed-citation></ref><ref id="b6"><mixed-citation publication-type="journal"><name><surname>Leung</surname><given-names>J.</given-names></name> &#x00026; <name><surname>Giraudat</surname><given-names>J.</given-names></name>
+<article-title>Abscisic acid signal transduction</article-title>. <source>Annual Review of Plant Physiology and Plant Molecular Biology</source>
+<volume>49</volume>, <fpage>199</fpage>&#x02013;<lpage>222</lpage> (<year>1998</year>).</mixed-citation></ref><ref id="b7"><mixed-citation publication-type="journal"><name><surname>Nakashima</surname><given-names>K.</given-names></name>, <name><surname>Ito</surname><given-names>Y.</given-names></name> &#x00026; <name><surname>Yamaguchi-Shinozaki</surname><given-names>K.</given-names></name>
+<article-title>Transcriptional regulatory networks in response to abiotic stresses in arabidopsis and grasses</article-title>. <source>Plant physiology</source>
+<volume>149</volume>, <fpage>88</fpage>&#x02013;<lpage>95</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19126699</pub-id></mixed-citation></ref><ref id="b8"><mixed-citation publication-type="journal"><name><surname>Verslues</surname><given-names>P. E.</given-names></name> &#x00026; <name><surname>Bray</surname><given-names>E. A.</given-names></name>
+<article-title>Role of abscisic acid (ABA) and <italic>Arabidopsis thaliana</italic> ABA-insensitive loci in low water potential-induced ABA and proline accumulation</article-title>. <source>Journal of experimental botany</source>
+<volume>57</volume>, <fpage>201</fpage>&#x02013;<lpage>212</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16339784</pub-id></mixed-citation></ref><ref id="b9"><mixed-citation publication-type="journal"><name><surname>Cuming</surname><given-names>A. C.</given-names></name>, <name><surname>Cho</surname><given-names>S. H.</given-names></name>, <name><surname>Kamisugi</surname><given-names>Y.</given-names></name>, <name><surname>Graham</surname><given-names>H.</given-names></name> &#x00026; <name><surname>Quatrano</surname><given-names>R. S.</given-names></name>
+<article-title>Microarray analysis of transcriptional responses to abscisic acid and osmotic, salt, and drought stress in the moss</article-title>, <source>Physcomitrella patens. New Phytologist</source>
+<volume>176</volume>, <fpage>275</fpage>&#x02013;<lpage>287</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17696978</pub-id></mixed-citation></ref><ref id="b10"><mixed-citation publication-type="journal"><name><surname>Sharma</surname><given-names>P.</given-names></name>, <name><surname>Sharma</surname><given-names>N.</given-names></name> &#x00026; <name><surname>Deswal</surname><given-names>R.</given-names></name>
+<article-title>The molecular biology of the low-temperature response in plants</article-title>. <source>BioEssays : news and reviews in molecular, cellular and developmental biology</source>
+<volume>27</volume>, <fpage>1048</fpage>&#x02013;<lpage>1059</lpage> (<year>2005</year>).</mixed-citation></ref><ref id="b11"><mixed-citation publication-type="journal"><name><surname>Sun</surname><given-names>M. M.</given-names></name>, <name><surname>Li</surname><given-names>L. H.</given-names></name>, <name><surname>Xie</surname><given-names>H.</given-names></name>, <name><surname>Ma</surname><given-names>R. C.</given-names></name> &#x00026; <name><surname>He</surname><given-names>Y. K.</given-names></name>
+<article-title>Differentially expressed genes under cold acclimation in <italic>Physcomitrella patens</italic></article-title>. <source>Journal of biochemistry and molecular biology</source>
+<volume>40</volume>, <fpage>986</fpage>&#x02013;<lpage>1001</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">18047796</pub-id></mixed-citation></ref><ref id="b12"><mixed-citation publication-type="journal"><name><surname>Beike</surname><given-names>A. K.</given-names></name>
+<italic>et al.</italic>
+<article-title>Insights from the cold transcriptome of <italic>Physcomitrella patens</italic>: global specialization pattern of conserved transcriptional regulators and identification of orphan genes involved in cold acclimation. <italic>The</italic></article-title>
+<source>New phytologist</source>
+<volume>205</volume>, <fpage>869</fpage>&#x02013;<lpage>881</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25209349</pub-id></mixed-citation></ref><ref id="b13"><mixed-citation publication-type="journal"><name><surname>Mahajan</surname><given-names>S.</given-names></name> &#x00026; <name><surname>Tuteja</surname><given-names>N.</given-names></name>
+<article-title>Cold, salinity and drought stresses: an overview</article-title>. <source>Archives of biochemistry and biophysics</source>
+<volume>444</volume>, <fpage>139</fpage>&#x02013;<lpage>158</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16309626</pub-id></mixed-citation></ref><ref id="b14"><mixed-citation publication-type="journal"><name><surname>Frank</surname><given-names>W.</given-names></name>, <name><surname>Ratnadewi</surname><given-names>D.</given-names></name> &#x00026; <name><surname>Reski</surname><given-names>R.</given-names></name>
+<article-title><italic>Physcomitrella patens</italic> is highly tolerant against drought, salt and osmotic stress</article-title>. <source>Planta</source>
+<volume>220</volume>, <fpage>384</fpage>&#x02013;<lpage>394</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15322883</pub-id></mixed-citation></ref><ref id="b15"><mixed-citation publication-type="journal"><name><surname>Zhu</surname><given-names>J. K.</given-names></name>
+<article-title>Salt and drought stress signal transduction in plants</article-title>. <source>Annual review of plant biology</source>
+<volume>53</volume>, <fpage>247</fpage>&#x02013;<lpage>273</lpage> (<year>2002</year>).</mixed-citation></ref><ref id="b16"><mixed-citation publication-type="journal"><name><surname>Benito</surname><given-names>B.</given-names></name> &#x00026; <name><surname>Rodr&#x000ed;guez-Navarro</surname><given-names>A.</given-names></name>
+<article-title>Molecular cloning and characterization of a sodium-pump ATPase of the moss <italic>Physcomitrella patens</italic></article-title>. <source>The Plant Journal</source>
+<volume>36</volume>, <fpage>382</fpage>&#x02013;<lpage>389</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14617094</pub-id></mixed-citation></ref><ref id="b17"><mixed-citation publication-type="journal"><name><surname>Lunde</surname><given-names>C.</given-names></name>, <name><surname>Drew</surname><given-names>D. P.</given-names></name>, <name><surname>Jacobs</surname><given-names>A. K.</given-names></name> &#x00026; <name><surname>Tester</surname><given-names>M.</given-names></name>
+<article-title>Exclusion of Na<sup>+</sup> via sodium ATPase (PpENA1) ensures normal growth of <italic>Physcomitrella patens</italic> under moderate salt stress</article-title>. <source>Plant physiology</source>
+<volume>144</volume>, <fpage>1786</fpage>&#x02013;<lpage>1796</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17556514</pub-id></mixed-citation></ref><ref id="b18"><mixed-citation publication-type="journal"><name><surname>Richardt</surname><given-names>S.</given-names></name>
+<italic>et al.</italic>
+<article-title>Microarray analysis of the moss <italic>Physcomitrella patens</italic> reveals evolutionarily conserved transcriptional regulation of salt stress and abscisic acid signalling</article-title>. <source>Plant molecular biology</source>
+<volume>72</volume>, <fpage>27</fpage>&#x02013;<lpage>45</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">19806323</pub-id></mixed-citation></ref><ref id="b19"><mixed-citation publication-type="journal"><name><surname>Mortazavi</surname><given-names>A.</given-names></name>, <name><surname>Williams</surname><given-names>B. A.</given-names></name>, <name><surname>McCue</surname><given-names>K.</given-names></name>, <name><surname>Schaeffer</surname><given-names>L.</given-names></name> &#x00026; <name><surname>Wold</surname><given-names>B.</given-names></name>
+<article-title>Mapping and quantifying mammalian transcriptomes by RNA-Seq</article-title>. <source>Nat Meth</source>
+<volume>5</volume>, <fpage>621</fpage>&#x02013;<lpage>628</lpage> (<year>2008</year>).</mixed-citation></ref><ref id="b20"><mixed-citation publication-type="journal"><name><surname>Trapnell</surname><given-names>C.</given-names></name>
+<italic>et al.</italic>
+<article-title>Differential analysis of gene regulation at transcript resolution with RNA-seq</article-title>. <source>Nat Biotech</source>
+<volume>31</volume>, <fpage>46</fpage>&#x02013;<lpage>53</lpage> (<year>2013</year>).</mixed-citation></ref><ref id="b21"><mixed-citation publication-type="journal"><name><surname>&#x02018;t Hoen</surname><given-names>P. A. C.</given-names></name>
+<italic>et al.</italic>
+<article-title>Deep sequencing-based expression analysis shows major advances in robustness, resolution and inter-lab portability over five microarray platforms</article-title>. <source>Nucleic Acids Research</source>
+<volume>36</volume>, <fpage>e141</fpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18927111</pub-id></mixed-citation></ref><ref id="b22"><mixed-citation publication-type="journal"><name><surname>Marioni</surname><given-names>J. C.</given-names></name>, <name><surname>Mason</surname><given-names>C. E.</given-names></name>, <name><surname>Mane</surname><given-names>S. M.</given-names></name>, <name><surname>Stephens</surname><given-names>M.</given-names></name> &#x00026; <name><surname>Gilad</surname><given-names>Y.</given-names></name>
+<article-title>RNA-seq: an assessment of technical reproducibility and comparison with gene expression arrays</article-title>. <source>Genome research</source>
+<volume>18</volume>, <fpage>1509</fpage>&#x02013;<lpage>1517</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18550803</pub-id></mixed-citation></ref><ref id="b23"><mixed-citation publication-type="journal"><name><surname>Warnes</surname><given-names>G. R.</given-names></name>
+<italic>et al.</italic>
+<article-title>gplots: Various R programming tools for plotting data</article-title>. <source>R package version</source>
+<volume>2</volume> (<year>2009</year>).</mixed-citation></ref><ref id="b24"><mixed-citation publication-type="journal"><name><surname>Reimand</surname><given-names>J.</given-names></name>, <name><surname>Arak</surname><given-names>T.</given-names></name> &#x00026; <name><surname>Vilo</surname><given-names>J.</given-names></name>
+<article-title>g:Profiler-a web server for functional interpretation of gene lists (2011 update)</article-title>. <source>Nucleic Acids Research</source>
+<volume>39</volume>, <fpage>W307</fpage>&#x02013;<lpage>W315</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21646343</pub-id></mixed-citation></ref><ref id="b25"><mixed-citation publication-type="journal"><name><surname>Candat</surname><given-names>A.</given-names></name>
+<italic>et al.</italic>
+<article-title>The ubiquitous distribution of late embryogenesis abundant proteins across cell compartments in arabidopsis offers tailored protection against abiotic stress</article-title>. <source>The Plant Cell</source>
+<volume>26</volume>, <fpage>3148</fpage>&#x02013;<lpage>3166</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25005920</pub-id></mixed-citation></ref><ref id="b26"><mixed-citation publication-type="journal"><name><surname>Ma</surname><given-names>S.</given-names></name>, <name><surname>Gong</surname><given-names>Q.</given-names></name> &#x00026; <name><surname>Bohnert</surname><given-names>H. J.</given-names></name>
+<article-title>Dissecting salt stress pathways</article-title>. <source>Journal of experimental botany</source>
+<volume>57</volume>, <fpage>1097</fpage>&#x02013;<lpage>1107</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16510518</pub-id></mixed-citation></ref><ref id="b27"><mixed-citation publication-type="journal"><name><surname>Tsutsui</surname><given-names>T.</given-names></name>
+<italic>et al.</italic>
+<article-title>DEAR1, a transcriptional repressor of DREB protein that mediates plant defense and freezing stress responses in Arabidopsis</article-title>. <source>J Plant Res</source>
+<volume>122</volume>, <fpage>633</fpage>&#x02013;<lpage>643</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19618250</pub-id></mixed-citation></ref><ref id="b28"><mixed-citation publication-type="journal"><name><surname>Guo</surname><given-names>W.</given-names></name>
+<italic>et al.</italic>
+<article-title>A soybean &#x003b2;-expansin gene GmEXPB2 intrinsically involved in root system architecture responses to abiotic stresses</article-title>. <source>The Plant Journal</source>
+<volume>66</volume>, <fpage>541</fpage>&#x02013;<lpage>552</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21261763</pub-id></mixed-citation></ref><ref id="b29"><mixed-citation publication-type="journal"><name><surname>Liao</surname><given-names>P.</given-names></name>, <name><surname>Chen</surname><given-names>Q.-F.</given-names></name> &#x00026; <name><surname>Chye</surname><given-names>M.-L.</given-names></name>
+<article-title>Transgenic arabidopsis flowers overexpressing acyl-coa-binding protein ACBP6 are freezing tolerant</article-title>. <source>Plant and Cell Physiology</source>
+<volume>55</volume>, <fpage>1055</fpage>&#x02013;<lpage>1071</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24556610</pub-id></mixed-citation></ref><ref id="b30"><mixed-citation publication-type="journal"><name><surname>Arendsee</surname><given-names>Z. W.</given-names></name>, <name><surname>Li</surname><given-names>L.</given-names></name> &#x00026; <name><surname>Wurtele</surname><given-names>E. S.</given-names></name>
+<article-title>Coming of age: orphan genes in plants</article-title>. <source>Trends in plant science</source>
+<volume>19</volume>, <fpage>698</fpage>&#x02013;<lpage>708</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25151064</pub-id></mixed-citation></ref><ref id="b31"><mixed-citation publication-type="journal"><name><surname>Strotbek</surname><given-names>C.</given-names></name>, <name><surname>Krinninger</surname><given-names>S.</given-names></name> &#x00026; <name><surname>Frank</surname><given-names>W.</given-names></name>
+<article-title>The moss <italic>Physcomitrella patens</italic>: methods and tools from cultivation to targeted analysis of gene function</article-title>. <source>The International journal of developmental biology</source>
+<volume>57</volume>, <fpage>553</fpage>&#x02013;<lpage>564</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24166438</pub-id></mixed-citation></ref><ref id="b32"><mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>J. Z.</given-names></name>, <name><surname>Creelman</surname><given-names>R. A.</given-names></name> &#x00026; <name><surname>Zhu</surname><given-names>J.-K.</given-names></name>
+<article-title>From laboratory to field. Using information from arabidopsis to engineer salt, cold, and drought tolerance in crops</article-title>. <source>Plant physiology</source>
+<volume>135</volume>, <fpage>615</fpage>&#x02013;<lpage>621</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15173567</pub-id></mixed-citation></ref><ref id="b33"><mixed-citation publication-type="journal"><name><surname>Kamisugi</surname><given-names>Y.</given-names></name> &#x00026; <name><surname>Cuming</surname><given-names>A.</given-names></name>
+<article-title>The evolution of the abscisic acid-response in land plants: comparative analysis of group 1 LEA gene expression in moss and cereals</article-title>. <source>Plant molecular biology</source>
+<volume>59</volume>, <fpage>723</fpage>&#x02013;<lpage>737</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16270226</pub-id></mixed-citation></ref><ref id="b34"><mixed-citation publication-type="journal"><name><surname>Takezawa</surname><given-names>D.</given-names></name> &#x00026; <name><surname>Minami</surname><given-names>A.</given-names></name>
+<article-title>Calmodulin-binding proteins in bryophytes: identification of abscisic acid-, cold-, and osmotic stress-induced genes encoding novel membrane-bound transporter-like proteins</article-title>. <source>Biochemical and Biophysical Research Communications</source>
+<volume>317</volume>, <fpage>428</fpage>&#x02013;<lpage>436</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15063776</pub-id></mixed-citation></ref><ref id="b35"><mixed-citation publication-type="journal"><name><surname>Qudeimat</surname><given-names>E.</given-names></name>
+<italic>et al.</italic>
+<article-title>A PIIB-type Ca<sup>2+</sup>-ATPase is essential for stress adaptation in <italic>Physcomitrella patens</italic></article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>105</volume>, <fpage>19555</fpage>&#x02013;<lpage>19560</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19050080</pub-id></mixed-citation></ref><ref id="b36"><mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>N.</given-names></name>
+<italic>et al.</italic>
+<article-title>Cloning and functional characterization of PpDBF1 gene encoding a DRE-binding transcription factor from Physcomitrella patens</article-title>. <source>Planta</source>
+<volume>226</volume>, <fpage>827</fpage>&#x02013;<lpage>838</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17541631</pub-id></mixed-citation></ref><ref id="b37"><mixed-citation publication-type="journal"><name><surname>Thomashow</surname><given-names>M. F.</given-names></name>
+<article-title>So what&#x02019;s new in the field of plant cold acclimation? lots!</article-title>
+<source>Plant physiology</source>
+<volume>125</volume>, <fpage>89</fpage>&#x02013;<lpage>93</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11154304</pub-id></mixed-citation></ref><ref id="b38"><mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>W.</given-names></name>, <name><surname>Vinocur</surname><given-names>B.</given-names></name> &#x00026; <name><surname>Altman</surname><given-names>A.</given-names></name>
+<article-title>Plant responses to drought, salinity and extreme temperatures: towards genetic engineering for stress tolerance</article-title>. <source>Planta</source>
+<volume>218</volume>, <fpage>1</fpage>&#x02013;<lpage>14</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14513379</pub-id></mixed-citation></ref><ref id="b39"><mixed-citation publication-type="journal"><name><surname>Khraiwesh</surname><given-names>B.</given-names></name>, <name><surname>Fattash</surname><given-names>I.</given-names></name>, <name><surname>Arif</surname><given-names>M. A.</given-names></name> &#x00026; <name><surname>Frank</surname><given-names>W.</given-names></name>
+<article-title>Gene function analysis by artificial microRNAs in <italic>Physcomitrella patens</italic></article-title>. <source>Methods in molecular biology</source>
+<volume>744</volume>, <fpage>57</fpage>&#x02013;<lpage>79</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21533686</pub-id></mixed-citation></ref><ref id="b40"><mixed-citation publication-type="journal"><name><surname>Bolger</surname><given-names>A. M.</given-names></name>, <name><surname>Lohse</surname><given-names>M.</given-names></name> &#x00026; <name><surname>Usadel</surname><given-names>B.</given-names></name>
+<article-title>Trimmomatic: a flexible trimmer for Illumina sequence data</article-title>. <source>Bioinformatics</source>
+<volume>30</volume>, <fpage>2114</fpage>&#x02013;<lpage>2120</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24695404</pub-id></mixed-citation></ref><ref id="b41"><mixed-citation publication-type="other"><name><surname>Oliveros</surname><given-names>J.C. Venny.</given-names></name> An interactive tool for comparing lists with Venn&#x02019;s diagrams. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="http://bioinfogp.cnb.csic.es/tools/venny/index.html">http://bioinfogp.cnb.csic.es/tools/venny/index.html</ext-link> (2007).</mixed-citation></ref><ref id="b42"><mixed-citation publication-type="journal"><name><surname>Bergemann</surname><given-names>T.</given-names></name> &#x00026; <name><surname>Wilson</surname><given-names>J.</given-names></name>
+<article-title>Proportion statistics to detect differentially expressed genes: a comparison with log-ratio statistics</article-title>. <source>BMC Bioinformatics</source>
+<volume>12</volume>, <fpage>228</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21649912</pub-id></mixed-citation></ref><ref id="b43"><mixed-citation publication-type="journal"><name><surname>Langmead</surname><given-names>B.</given-names></name>, <name><surname>Trapnell</surname><given-names>C.</given-names></name>, <name><surname>Pop</surname><given-names>M.</given-names></name> &#x00026; <name><surname>Salzberg</surname><given-names>S.</given-names></name>
+<article-title>Ultrafast and memory-efficient alignment of short DNA sequences to the human genome</article-title>. <source>Genome Biology</source>
+<volume>10</volume>, <fpage>R25</fpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19261174</pub-id></mixed-citation></ref><ref id="b44"><mixed-citation publication-type="journal"><name><surname>Ashburner</surname><given-names>M.</given-names></name>
+<italic>et al.</italic>
+<article-title>Gene Ontology: tool for the unification of biology</article-title>. <source>Nat Genet</source>
+<volume>25</volume>, <fpage>25</fpage>&#x02013;<lpage>29</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10802651</pub-id></mixed-citation></ref><ref id="b45"><mixed-citation publication-type="journal"><name><surname>Conesa</surname><given-names>A.</given-names></name>
+<italic>et al.</italic>
+<article-title>Blast2GO: a universal tool for annotation, visualization and analysis in functional genomics research</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>, <fpage>3674</fpage>&#x02013;<lpage>3676</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16081474</pub-id></mixed-citation></ref><ref id="b46"><mixed-citation publication-type="journal"><name><surname>Subramanian</surname><given-names>A.</given-names></name>
+<italic>et al.</italic>
+<article-title>Gene set enrichment analysis: a knowledge-based approach for interpreting genome-wide expression profiles</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>102</volume>, <fpage>15545</fpage>&#x02013;<lpage>15550</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16199517</pub-id></mixed-citation></ref><ref id="b47"><mixed-citation publication-type="journal"><name><surname>Maere</surname><given-names>S.</given-names></name>, <name><surname>Heymans</surname><given-names>K.</given-names></name> &#x00026; <name><surname>Kuiper</surname><given-names>M.</given-names></name>
+<article-title>BiNGO: a Cytoscape plugin to assess overrepresentation of Gene Ontology categories in Biological Networks</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>, <fpage>3448</fpage>&#x02013;<lpage>3449</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15972284</pub-id></mixed-citation></ref></ref-list><fn-group><fn><p><bold>Author Contributions</bold> B.K. conceived the framework of the study. B.K., K.S.-A. and E.Q. designed the study.
+B.K., E.Q., K.J., A.A. and M.A. performed the experimental research. B.K., M.T. and
+A.C analyzed the data. B.K. and K.S.-A. directed the data analysis and interpreted
+the results. B.K. and K.S.-A. wrote the manuscript with contribution from other
+co-authors.</p></fn></fn-group></back><floats-group><fig id="f1"><label>Figure 1</label><caption><title>Global analysis of <italic>P. patens</italic> genes expression in response to abiotic
+stresses.</title><p>A comparison of commonly and uniquely expressed genes across the treatments
+was done using the obtained RPKM values. The comparison was done for control
+versus all stress treatments including the indicated two time points.
+(<bold>a</bold>) Venn diagrams showing overlap of expressed genes relative to
+control among different subgroups of <italic>P. patens</italic> abiotic stress
+treatments. (<bold>b</bold>) Hierarchical clustering analysis and heatmap of gene
+expression based on log<sub>2</sub> ratio RPKM data across abiotic stress
+treatments and the control sample. Red color represents lower expression,
+green color represents higher expression (the expression range from
+&#x02212;5.644 to 12.889). The heatmap is based on the distance function
+1, correlation between each test statistic of the expression of each gene,
+columns represent individual experiments, and rows represent transcriptional
+units. The dendrogram at the top indicates clusters of individual
+treatments.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-f1"/></fig><fig id="f2"><label>Figure 2</label><caption><title>Differential expression of <italic>P. patens</italic> genes in response to abiotic
+stresses.</title><p>Differentially Expressed Genes (DEGs) were identified relative to the control
+sample grown under standard conditions. The differences in gene expression
+among the abiotic stress treatments and the control sample were obtained
+based on the RPKM-derived read count using a Log<sub>2</sub> Ratio
+calculation. (<bold>a</bold>) Number of up regulated (green bars) and down
+regulated (orange bars) genes are shown for each stress treatment at the
+time point in hours. (<bold>b</bold>) Venn diagram showing overlap of DEGs among
+the two time points (0.5 and 4.0&#x02009;h). (<bold>c)</bold> Venn diagrams
+showing overlap of DEGs in response to the four assayed abiotic stresses at
+two time points (0.5 and 4.0&#x02009;h). Upper diagrams indicate up
+regulated genes and lower ones indicate down regulated genes. The numbers of
+genes in each region of the diagrams are indicated. The Venn diagrams depict
+the overlaps between each pairwise comparison.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-f2"/></fig><fig id="f3"><label>Figure 3</label><caption><title>Heatmaps of gene set enrichment analysis (GSEA) of DEGs based on RNAseq data
+in response to abiotic stresses.</title><p>GO annotation from <italic>P. patens</italic> genome annotation (v1.6) was analyzed
+with Blast2GO using the default parameters. The g:Profiler tool was used to
+classify the GSEA of <italic>P. patens</italic> stressed-DEGs for each condition based
+on up- and down-regulation status of the genes. (<bold>a</bold>) Selected
+functional groups for up regulated genes. (<bold>b)</bold> Selected functional
+groups for down regulated genes. The color intensities indicate the level of
+enrichment score of each GO term. Enrichments score is log<sub>10</sub>
+(gene number). See <xref ref-type="supplementary-material" rid="S1">Supplementary
+Datasets 15</xref> and<xref ref-type="supplementary-material" rid="S1">16</xref> for
+the complete lists.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-f3"/></fig><fig id="f4"><label>Figure 4</label><caption><title>The early stress responses genes.</title><p>Expression patterns of early ABA- and stress-responsive gene in <italic>P.
+patens</italic>, only genes with high fold change were considered.
+(<bold>a</bold>,<bold>b</bold>) Heatmaps comparison of gene expression among
+0.5&#x02009;h stress treatments with high fold change. Columns represent
+individual treatments, and rows represent transcriptional units. (<bold>a)</bold>
+Up regulated genes (<bold>b</bold>) Down regulated genes. (<bold>c</bold>), Group of
+early stress-expressed genes, they are in the same manner at low and high
+expression value.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-f4"/></fig><fig id="f5"><label>Figure 5</label><caption><title>Validation of <italic>P. patens</italic> gene expression patterns in response to
+abiotic stresses.</title><p>Selected expression gene profiles were validated with quantitative real-time
+PCR (qPCR). (<bold>a</bold>) qPCR validation and expression analysis of
+Pp1s13_134V6.1 and Pp1s56_240V6.1, which they were used as reference genes.
+(<bold>b</bold>) qPCR validation and expression analysis of
+10&#x02009;DEGs (up and down) under different stress conditions and they
+were encode different functions. Blue bars indicate the expression level and
+Log<sub>2</sub> (fold changes) obtained from qPCR for the three
+replicates. Red lines indicate the expression level and Log<sub>2</sub>
+(fold change) from RNAseq data analyses. Error bars represent the standard
+error of the mean.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-f5"/></fig><fig id="f6"><label>Figure 6</label><caption><title>Evolutionary dynamics and orphan transcripts of DEGs.</title><p>(<bold>a</bold>) Venn diagram showing overlap of <italic>P. patens</italic> DEGs between
+<italic>C. reinhardtii</italic>, <italic>S. moellendorffii</italic> and <italic>A. thaliana</italic>
+based on BLAST-P analysis as well as the <italic>P. patens</italic> orphan DEGs.
+(<bold>b</bold>) Differentiating the GO enriched functional categories of
+<italic>P. patens</italic> orphan DEGs with <italic>P. patens</italic>/<italic>C.
+reinhardtii</italic>, <italic>P. patens</italic>/<italic>S. moellendorffii</italic>, and <italic>P.
+patens</italic>/<italic>A. thaliana</italic> genes (green represents the orphans and
+blue represents the genes conserved with other model organisms). (<bold>c</bold>)
+Comparative analysis between GO enriched functional categories of <italic>P.
+patens</italic>/<italic>S. moellendorffii</italic> and <italic>P. patens</italic>/<italic>A.
+thaliana</italic> groups (green represents the <italic>P. patens</italic>/<italic>A.
+thaliana</italic> enriched functional groups and blue represents the <italic>P.
+patens</italic>/<italic>S. moellendorffii</italic> enriched functional groups, arrows
+indicate the shared and connected GO enriched functional categories between
+the two groups). (<bold>d</bold>) Comparative analysis between GO enriched
+functional categories of <italic>P. patens</italic>/<italic>C. reinhardtii</italic>, and <italic>P.
+patens</italic>/<italic>S. moellendorffii</italic> groups (green represents the <italic>P.
+patens</italic>/<italic>S. moellendorffii</italic> enriched functional groups and blue
+represents the <italic>P. patens</italic>/<italic>C. reinhardtii</italic> enriched functional
+groups). (<bold>e</bold>) Comparative analysis between GO enriched functional
+categories of <italic>P. patens</italic>/<italic>C. reinhardtii</italic>, and <italic>P.
+patens</italic>/<italic>A. thaliana</italic> groups (green represents the <italic>P.
+patens</italic>/<italic>A. thaliana</italic> enriched functional groups and blue
+represents the <italic>P. patens</italic>/<italic>C. reinhardtii</italic> enriched functional
+groups). Cytoscape and Enrichment Map was used for visualization of the GSEA
+results from BiNGO plug-in. Node size represent the number of genes in <italic>P.
+patens</italic>. The color varies based on the BiNGO <italic>p-value</italic>
+significance. Edge size reflects the number of overlapping genes between the
+two connected gene-sets.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-f6"/></fig><fig id="f7"><label>Figure 7</label><caption><title>A network of GO categories combined with representative heatmaps for <italic>P.
+patens</italic> orphan stressed-DEGs.</title><p>BiNGO, a cytoscape plugin was used to visualize the GO terms that were
+statistically (hypergeometric test) over-represented from the <italic>P.
+patens</italic> orphan DEGs. Representative heatmaps clustering analysis of
+gene expression based on RPKM log<sub>2</sub> ratio. The color scale (from
+white, yellow to dark orange) is based on (corrected) <italic>p-value</italic> (5%
+FDR, p&#x02009;=&#x02009;0.05). Dark orange categories are most
+significantly overrepresented, white nodes are not significantly
+overrepresented (NA); they are included to show other nodes in the context
+of the GO hierarchy. The area of a node is proportional to the number of
+genes in the test set annotated to the corresponding GO category. The
+heatmaps were generated using the R gplots package. The RPKMs were used as
+input for the hierarchical clustering using Euclidean measure to obtain
+distance matrix, complete agglomeration and dendograms. The color scale
+(from white, red to green) is based on log<sub>2</sub> fold change. Green
+represents the up-regulated genes; red represent the down-regulated ones
+among the different stress treatments. White color indicated no gene
+expression in certain stress treatment (NA), A: ABA, C: cold: D: drought, S:
+salt.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="srep17434-f7"/></fig></floats-group></article>

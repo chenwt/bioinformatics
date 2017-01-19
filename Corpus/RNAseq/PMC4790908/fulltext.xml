@@ -1,0 +1,1029 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Ecol</journal-id><journal-id journal-id-type="iso-abbrev">Mol. Ecol</journal-id><journal-id journal-id-type="doi">10.1111/(ISSN)1365-294X</journal-id><journal-id journal-id-type="publisher-id">MEC</journal-id><journal-title-group><journal-title>Molecular Ecology</journal-title></journal-title-group><issn pub-type="ppub">0962-1083</issn><issn pub-type="epub">1365-294X</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4790908</article-id><article-id pub-id-type="doi">10.1111/mec.13520</article-id><article-id pub-id-type="publisher-id">MEC13520</article-id><article-categories><subj-group subj-group-type="overline"><subject>Original Article</subject></subj-group><subj-group subj-group-type="heading"><subject>ORIGINAL ARTICLES</subject><subj-group subj-group-type="heading"><subject>Ecological Genomics</subject></subj-group></subj-group></article-categories><title-group><article-title>Transcriptome profiling of immune tissues reveals habitat&#x02010;specific gene expression between lake and river sticklebacks</article-title><alt-title alt-title-type="left-running-head">Y. Huang <italic>et&#x000a0;al</italic>.</alt-title></title-group><contrib-group><contrib id="mec13520-cr-0001" contrib-type="author" corresp="yes"><name><surname>Huang</surname><given-names>Yun</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001"><sup>1</sup>
+</xref></contrib><contrib id="mec13520-cr-0002" contrib-type="author"><name><surname>Chain</surname><given-names>Fr&#x000e9;d&#x000e9;ric J. J.</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mec13520-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="mec13520-cr-0003" contrib-type="author"><name><surname>Panchal</surname><given-names>Mahesh</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mec13520-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="mec13520-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="mec13520-cr-0004" contrib-type="author"><name><surname>Eizaguirre</surname><given-names>Christophe</given-names></name><xref ref-type="aff" rid="mec13520-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="mec13520-cr-0005" contrib-type="author"><name><surname>Kalbe</surname><given-names>Martin</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mec13520-cr-0006" contrib-type="author"><name><surname>Lenz</surname><given-names>Tobias L.</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mec13520-cr-0007" contrib-type="author"><name><surname>Samonte</surname><given-names>Irene E.</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mec13520-cr-0008" contrib-type="author"><name><surname>Stoll</surname><given-names>Monika</given-names></name><xref ref-type="aff" rid="mec13520-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="mec13520-cr-0009" contrib-type="author"><name><surname>Bornberg&#x02010;Bauer</surname><given-names>Erich</given-names></name><xref ref-type="aff" rid="mec13520-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="mec13520-cr-0010" contrib-type="author"><name><surname>Reusch</surname><given-names>Thorsten B. H.</given-names></name><xref ref-type="aff" rid="mec13520-aff-0008">
+<sup>8</sup>
+</xref></contrib><contrib id="mec13520-cr-0011" contrib-type="author"><name><surname>Milinski</surname><given-names>Manfred</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="mec13520-cr-0012" contrib-type="author"><name><surname>Feulner</surname><given-names>Philine G. D.</given-names></name><xref ref-type="aff" rid="mec13520-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="mec13520-aff-0009">
+<sup>9</sup>
+</xref></contrib></contrib-group><aff id="mec13520-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Department of Evolutionary Ecology</named-content><institution>Max Planck Institute for Evolutionary Biology</institution><named-content content-type="post-code">24306</named-content><named-content content-type="city">Pl&#x000f6;n</named-content><country country="DE">Germany</country></aff><aff id="mec13520-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Department of Biology</named-content><institution>McGill University</institution><named-content content-type="city">Montreal</named-content><named-content content-type="country-part">QC</named-content><country country="CA">Canada</country><named-content content-type="post-code">H3A 1B1</named-content></aff><aff id="mec13520-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Bioinformatics Infrastructures for Life Sciences (BILS)</named-content><institution>Uppsala Biomedicinska Centrum (BMC)</institution><named-content content-type="street">Husargatan 3</named-content><named-content content-type="post-code">751 23</named-content><named-content content-type="city">Uppsala</named-content><country country="SE">Sweden</country></aff><aff id="mec13520-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Institute of Medical Biochemistry and Microbiology</named-content><institution>Uppsala Biomedicinska Centrum (BMC)</institution><named-content content-type="street">Husargatan 3</named-content><named-content content-type="post-code">751 23</named-content><named-content content-type="city">Uppsala</named-content><country country="SE">Sweden</country></aff><aff id="mec13520-aff-0005"><label><sup>5</sup></label><named-content content-type="organisation-division">School of Biological and Chemical Sciences</named-content><institution>Queen Mary University of London</institution><named-content content-type="post-code">E1 4NS</named-content><named-content content-type="city">London</named-content><country country="GB">UK</country></aff><aff id="mec13520-aff-0006"><label><sup>6</sup></label><named-content content-type="organisation-division">Institute of Human Genetics, Genetic Epidemiology</named-content><institution>Westf&#x000e4;lische Wilhelms University</institution><named-content content-type="post-code">48149</named-content><named-content content-type="city">M&#x000fc;nster</named-content><country country="DE">Germany</country></aff><aff id="mec13520-aff-0007"><label><sup>7</sup></label><named-content content-type="organisation-division">Institute for Evolution and Biodiversity, Evolutionary Bioinformatics</named-content><institution>Westf&#x000e4;lische Wilhelms University</institution><named-content content-type="post-code">48149</named-content><named-content content-type="city">M&#x000fc;nster</named-content><country country="DE">Germany</country></aff><aff id="mec13520-aff-0008"><label><sup>8</sup></label><named-content content-type="organisation-division">Evolutionary Ecology of Marine Fishes</named-content><institution>GEOMAR Helmholtz Centre for Ocean Research Kiel</institution><named-content content-type="post-code">24105</named-content><named-content content-type="city">Kiel</named-content><country country="DE">Germany</country></aff><aff id="mec13520-aff-0009"><label><sup>9</sup></label><named-content content-type="organisation-division">Department of Fish Ecology and Evolution</named-content><named-content content-type="organisation-division"> Eawag Swiss Federal Institute of Aquatic Science and Technology</named-content><institution>Center for Ecology, Evolution and Biogeochemistry</institution><named-content content-type="post-code">6047</named-content><named-content content-type="city">Kastanienbaum</named-content><country country="CH">Switzerland</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label>Correspondence: Yun Huang, Fax: +49 4522 763310; E&#x02010;mail: <email>yun.huang@evolbio.mpg.de</email></corresp></author-notes><pub-date pub-type="epub"><day>09</day><month>2</month><year>2016</year></pub-date><pub-date pub-type="ppub"><month>2</month><year>2016</year></pub-date><volume>25</volume><issue>4</issue><issue-id pub-id-type="doi">10.1111/mec.2016.25.issue-4</issue-id><fpage>943</fpage><lpage>958</lpage><history><date date-type="received"><day>01</day><month>4</month><year>2015</year></date><date date-type="rev-recd"><day>18</day><month>11</month><year>2015</year></date><date date-type="accepted"><day>10</day><month>12</month><year>2015</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2016 John Wiley & Sons Ltd <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2016 The Authors. <italic>Molecular Ecology</italic> Published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution&#x02010;NonCommercial&#x02010;NoDerivs</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:MEC-25-943.pdf"/><abstract id="mec13520-abs-0001"><title>Abstract</title><p>The observation of habitat&#x02010;specific phenotypes suggests the action of natural selection. The three&#x02010;spined stickleback (<italic>Gasterosteus aculeatus</italic>) has repeatedly colonized and adapted to diverse freshwater habitats across the northern hemisphere since the last glaciation, while giving rise to recurring phenotypes associated with specific habitats. Parapatric lake and river populations of sticklebacks harbour distinct parasite communities, a factor proposed to contribute to adaptive differentiation between these ecotypes. However, little is known about the transcriptional response to the distinct parasite pressure of those fish in a natural setting. Here, we sampled wild&#x02010;caught sticklebacks across four geographical locations from lake and river habitats differing in their parasite load. We compared gene expression profiles between lake and river populations using 77 whole&#x02010;transcriptome libraries from two immune&#x02010;relevant tissues, the head kidney and the spleen. Differential expression analyses revealed 139 genes with habitat&#x02010;specific expression patterns across the sampled population pairs. Among the 139 differentially expressed genes, eight are annotated with an immune function and 42 have been identified as differentially expressed in previous experimental studies in which fish have been immune challenged. Together, these findings reinforce the hypothesis that parasites contribute to adaptation of sticklebacks in lake and river habitats.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="mec13520-kwd-0001">habitat&#x02010;specific gene expression</kwd><kwd id="mec13520-kwd-0002">immune genes</kwd><kwd id="mec13520-kwd-0003">parasites</kwd><kwd id="mec13520-kwd-0004"><styled-content style="fixed-case">RNA</styled-content>&#x02010;Seq</kwd><kwd id="mec13520-kwd-0005">three&#x02010;spined stickleback</kwd><kwd id="mec13520-kwd-0006">transcriptomics</kwd></kwd-group><counts><page-count count="16"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>mec13520</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.8.5 mode:remove_FC converted:14.03.2016</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="mec13520-sec-0001"><title>Introduction</title><p>The repeated occurrence of similar phenotypes associated with a distinct habitat is often attributed to the direct effect of natural selection (Elmer &#x00026; Meyer <xref rid="mec13520-bib-0027" ref-type="ref">2011</xref>). Parallel phenotypic evolution among populations from geographically distant but ecologically similar habitats, referred to here as habitat&#x02010;specific phenotypes, is thought to reflect the advantages of those phenotypes in their respective habitat (Savolainen <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0075" ref-type="ref">2013</xref>). Numerous examples have been documented including pharyngeal jaw and thick lips in cichlids (Albertson <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0001" ref-type="ref">2005</xref>; Colombo <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0017" ref-type="ref">2013</xref>), similar ecotype morphs of anolis lizards (Losos <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0052" ref-type="ref">1998</xref>; Harmon <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0040" ref-type="ref">2005</xref>), habitat&#x02010;specific pigmentation in isopods (Hargeby <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0039" ref-type="ref">2004</xref>), repeated ecotypes with distinct shell sizes in the periwinkle snail (Butlin <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0012" ref-type="ref">2014</xref>) and repeated differences of body depth and gill raker numbers between lake and stream sticklebacks (Berner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0009" ref-type="ref">2008</xref>; Kaeuffer <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0043" ref-type="ref">2012</xref>; Lucek <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0054" ref-type="ref">2014</xref>). Although phenotypic plasticity can contribute to such habitat&#x02010;specific phenotypes (Muschick <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0061" ref-type="ref">2012</xref>; Machado&#x02010;Schiaffino <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0055" ref-type="ref">2014</xref>; Moser <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0060" ref-type="ref">2015</xref>), some of these traits have been shown to be genetically determined and under adaptive evolution (Hargeby <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0039" ref-type="ref">2004</xref>; Albertson <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0001" ref-type="ref">2005</xref>; Colombo <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0017" ref-type="ref">2013</xref>). Adaptive genetic changes include those that result from polymorphisms that alter protein structures (Ffrench&#x02010;Constant <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0029" ref-type="ref">1993</xref>; Hoekstra <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0042" ref-type="ref">2006</xref>; Protas <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0066" ref-type="ref">2006</xref>) as well as those that influence phenotypes via regulation of gene expression (Rebeiz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0069" ref-type="ref">2009</xref>; Chan <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0014" ref-type="ref">2010</xref>). Gene expression has been associated with adaptive changes in morphological and physiological changes (Rebeiz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0069" ref-type="ref">2009</xref>; Manceau <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0057" ref-type="ref">2011</xref>; Harrison <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0041" ref-type="ref">2012</xref>) and is believed to contribute to adaptive divergence in natural populations (Pavey <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0062" ref-type="ref">2010</xref>).</p><p>As gene expression bridges the underlying genotype to the ultimate morphological and physiological phenotypes, it can be considered as an extended molecular phenotype (Ranz &#x00026; Machado <xref rid="mec13520-bib-0068" ref-type="ref">2006</xref>). Hence, it is interesting to evaluate whether or not gene expression patterns differ between contrasting habitats and if so whether they hold across geographically distant populations. Such habitat&#x02010;specific gene expression could arise due to several factors, such as genetically determined expression patterns among similar habitat types (ecotypes), as well plastic responses to extrinsic environmental conditions specific to a habitat. Aside from other&#x000a0;mechanisms that might control regulation of transcription such as epigenetics, genetic studies have demonstrated variable degrees of heritability of gene expression and have for some phenotypes revealed the genetic basis underlying expression differences (Stamatoyannopoulos <xref rid="mec13520-bib-0079" ref-type="ref">2004</xref>; Gibson &#x00026; Weir <xref rid="mec13520-bib-0035" ref-type="ref">2005</xref>; Gilad <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0036" ref-type="ref">2008</xref>). There are examples of mutations affecting <italic>cis</italic>&#x02010; and <italic>trans</italic>&#x02010;regulatory regions in the genome that silence or dramatically shift gene expression, including single nucleotide polymorphisms (SNPs) (Cheung &#x00026; Spielman <xref rid="mec13520-bib-0015" ref-type="ref">2009</xref>; Fraser <xref rid="mec13520-bib-0032" ref-type="ref">2013</xref>), copy number variations (CNVs) (Haraksingh &#x00026; Snyder <xref rid="mec13520-bib-0038" ref-type="ref">2013</xref>) and tandem repeats (Gemayel <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0033" ref-type="ref">2010</xref>). Genomic changes in regulatory regions can alter the efficiency of transcription factors and thus affect expression of adjacent or remote genes. In sticklebacks, for example, frequent independent deletion events in the enhancer of <italic>Pitx1</italic> suppress expression of the gene and result in repeated pelvic reduction in freshwater populations (Chan <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0014" ref-type="ref">2010</xref>). Besides its heritable (genetic) component, gene expression is also a versatile phenotype that dynamically responds to changes in the environment (Gibson <xref rid="mec13520-bib-0034" ref-type="ref">2008</xref>) and holds the potential to facilitate plasticity to buffer against environmental changes (Franssen <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0031" ref-type="ref">2011</xref>; Whitehead <xref rid="mec13520-bib-0083" ref-type="ref">2012</xref>; Morris <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0059" ref-type="ref">2014</xref>). Despite the variability introduced by uncontrollable environmental factors, studies of gene expression in wild&#x02010;caught populations offer the opportunity to estimate the physiological responses of organisms in their environment, potentially providing insight into the role of gene expression variation in adaptation and acclimation to environmental stresses through genetic or plastic changes (Cheviron <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0016" ref-type="ref">2008</xref>).</p><p>The repeated and independent postglacial colonization history of the three&#x02010;spined stickleback (<italic>Gasterosteus aculeatus</italic>) makes it a powerful study system to investigate habitat&#x02010;specific phenotypic evolution. Sticklebacks inhabit various marine and freshwater habitats across the northern hemisphere (MacKinnon &#x00026; Rundle <xref rid="mec13520-bib-0056" ref-type="ref">2002</xref>), a distribution likely attributable to rapid adaptation from extensive standing genetic variation (Barrett &#x00026; Schluter <xref rid="mec13520-bib-0007" ref-type="ref">2008</xref>; Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0025" ref-type="ref">2012a</xref>). Genetically diverged but geographically adjacent lake and river population pairs exhibit consistent morphological differentiation across multiple pairs, such as divergence for body depth and gill raker number (Berner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0009" ref-type="ref">2008</xref>; Kaeuffer <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0043" ref-type="ref">2012</xref>; Lucek <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0054" ref-type="ref">2014</xref>). These lake and river populations are also often referred to as ecotypes (Reusch <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0070" ref-type="ref">2001</xref>). Many ecological factors differ between lake and river habitats, such as flow regime, temperature, food resource and predator communities, all contributing to the differentiation of lake and river stickleback ecotypes, for example in foraging traits (Berner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0010" ref-type="ref">2010</xref>) and antipredator traits (Lucek <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0054" ref-type="ref">2014</xref>). Another important ecological difference between lakes and rivers is the locally distinct parasite communities (Kalbe <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0044" ref-type="ref">2002</xref>; Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>; Karvonen <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0045" ref-type="ref">2015</xref>). Besides harbouring different species of parasites between ecotypes, lake fish commonly have a higher parasite load than river fish comparing parapatric population pairs (Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>), and higher immuno&#x02010;competence (Scharsack <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0076" ref-type="ref">2007</xref>). Lake fish also exhibit a higher diversity in the major histocompatibility complex (MHC) (Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>), believed to be a result of local adaptation (Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0023" ref-type="ref">2009</xref>, <xref rid="mec13520-bib-0026" ref-type="ref">2012b</xref>). Distinct immune expression patterns between lake and river individuals were detected upon multiple experimental parasite exposure of laboratory&#x02010;bred sticklebacks (Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>). Altogether, these studies suggest that parasites play an important role in the differentiation of lake and river ecotypes by shaping the diversity and expression patterns of immune&#x02010;related genes. It is, however, not yet known whether the generality of these patterns holds in multiple lake&#x02010;river systems under natural conditions.</p><p>In this study, we performed an extensive transcriptomic survey using an RNAseq approach across four parapatric lake and river stickleback population pairs to investigate patterns of habitat&#x02010;specific gene expression. We used two major organs involved in immune response, the head kidney and the spleen. Differential expression analysis was performed between fish from lake and river habitats, and results were compared to the differentially expressed genes between laboratory&#x02010;bred individuals in controlled parasite infection experiments (Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>; Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>). Our study describes gene expression differences in an ecological framework, highlighting habitat&#x02010;specific expression of genes that might be involved in adaptation.</p></sec><sec id="mec13520-sec-0002"><title>Materials and methods</title><sec id="mec13520-sec-0003"><title>Sampling</title><p>Three&#x02010;spined sticklebacks were sampled in 2010 for genomic studies (Chain <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0013" ref-type="ref">2014</xref>; Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>), from which four parapatric lake&#x02013;river population pairs were used in this study. These included two independent drainages from Germany: Gro&#x000df;er Pl&#x000f6;ner See lake (G1_L) and Malenter Au river (G1_R), Westensee lake (G2_L) and Eider river (G2_R), one pair from Norway: Skogseidvatn lake (No_L) and Orraelva river (No_R), and one pair from Canada: Misty Lake (Ca_L) and Misty Stream (Ca_R) (See Table&#x000a0;<xref rid="mec13520-tbl-0001" ref-type="table-wrap">1</xref>). All these lake&#x02010;river population pairs are significantly differentiated from each other, with a mean genome&#x02010;wide <italic>F</italic>
+<sub>ST</sub> ranging between 0.11 and 0.28 (for more detailed information about sampling sites and genetic differentiation between the populations, see Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>). The two population pairs from Germany were sampled in May while the Norwegian and Canadian populations were sampled in September. About 20 individual fish per site were caught using dip nets or minnow traps and kept alive for a few hours in the water from where they were sampled until being euthanized using MS222 and dissection. For each population pair, the fish were treated identically after capture and lake fish and river fish were alternatively dissected. Fish standard length and weight were recorded and macroparasites screened following established procedures for three&#x02010;spined sticklebacks (Kalbe <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0044" ref-type="ref">2002</xref>) (Table&#x000a0;S1, Supporting information). Immediately after euthanasia, the whole head kidneys and spleens were dissected out and preserved in RNAlater (Sigma&#x02010;Aldrich) for later transcriptomic library preparation. These are the main immune organs in teleost fish and are commonly used for immunological studies (Press &#x00026; Evensen <xref rid="mec13520-bib-0064" ref-type="ref">1999</xref>). Six individuals (three males and three females, except No_L with four males and two females) were selected for transcriptomic sequencing per sampling site. Fish selection was performed ignoring parasite screening results, but was nonrandom to ensure an equal sex distribution for each population and with a preference for larger fish to guaranty sufficient yield of RNA. Body weights of the selected fish suggest that all fish were older than 1&#x000a0;year (Table&#x000a0;S1, Supporting information).</p><table-wrap id="mec13520-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Summary of sample site information and number of individuals included in the transcriptomic analysis</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Population pair</th><th align="left" valign="top" rowspan="1" colspan="1">Location</th><th align="left" valign="top" rowspan="1" colspan="1">Habitat</th><th align="left" valign="top" rowspan="1" colspan="1">Name</th><th align="left" valign="top" rowspan="1" colspan="1">Head kidney</th><th align="left" valign="top" rowspan="1" colspan="1">Spleen</th></tr></thead><tbody><tr><td align="left" rowspan="2" colspan="1">G1</td><td align="left" rowspan="2" colspan="1">Germany</td><td align="left" rowspan="1" colspan="1">Lake</td><td align="left" rowspan="1" colspan="1">Gro&#x000df;er Ploener See (G1_L)</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">6</td></tr><tr><td align="left" rowspan="1" colspan="1">River</td><td align="left" rowspan="1" colspan="1">Malenter Au (G1_R)</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">5</td></tr><tr><td align="left" rowspan="2" colspan="1">G2</td><td align="left" rowspan="2" colspan="1">Germany</td><td align="left" rowspan="1" colspan="1">Lake</td><td align="left" rowspan="1" colspan="1">Westensee (G2_L)</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">5</td></tr><tr><td align="left" rowspan="1" colspan="1">River</td><td align="left" rowspan="1" colspan="1">Eider (G2_R)</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">6</td></tr><tr><td align="left" rowspan="2" colspan="1">No</td><td align="left" rowspan="2" colspan="1">Norway</td><td align="left" rowspan="1" colspan="1">Lake</td><td align="left" rowspan="1" colspan="1">Skogseidvatnet (No_L)</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="1" colspan="1">River</td><td align="left" rowspan="1" colspan="1">Orraelva (No_R)</td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">4</td></tr><tr><td align="left" rowspan="2" colspan="1">Ca</td><td align="left" rowspan="2" colspan="1">Canada</td><td align="left" rowspan="1" colspan="1">Lake</td><td align="left" rowspan="1" colspan="1">Misty Lake (Ca_L)</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">3</td></tr><tr><td align="left" rowspan="1" colspan="1">River</td><td align="left" rowspan="1" colspan="1">Misty Stream Inlet (Ca_R)</td><td align="left" rowspan="1" colspan="1">6</td><td align="left" rowspan="1" colspan="1">3</td></tr></tbody></table><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec><sec id="mec13520-sec-0004"><title>RNA library preparation and sequencing</title><p>Total RNA (using the entire tissue dissected) was extracted from preserved samples using NucleoSpin<sup>&#x000ae;</sup> RNA (Mackerey&#x02010;Nagel) and reverse transcribed to cDNA using Omniscript RT kits (Qiagen). RNA was quantified with NanoDrop and Bioanalyzer, and ~1&#x000a0;&#x003bc;g of RNA in a concentration of 20&#x000a0;ng/&#x003bc;L was used for library construction. A few samples with poor RNA quality were excluded before constructing 77 libraries. Therefore, sample sizes per population vary between 3 and 6 individuals (Table&#x000a0;<xref rid="mec13520-tbl-0001" ref-type="table-wrap">1</xref>). TruSeq RNA sample preparation kit (Illumina) was used for paired&#x02010;end library construction according to the manufacturer's instructions. Each sample was barcoded with a unique sequence index tag, and pools of 12 different barcoded samples were loaded in 8 lanes of a single flow cell of Illumina HiScanSQ machine.</p></sec><sec id="mec13520-sec-0005"><title>Read filtering and mapping</title><p>Raw reads were quality filtered before read mapping in the following steps. All raw reads output to fastq files were 101 base pairs (bp) in length. Sequencing adaptors were removed using <sc>seqprep</sc> 0.4 (<ext-link ext-link-type="uri" xlink:href="https://github.com/jstjohn/SeqPrep">https://github.com/jstjohn/SeqPrep</ext-link>). <sc>prinseq</sc> 0.20.3 lite (Schmieder &#x00026; Edwards <xref rid="mec13520-bib-0077" ref-type="ref">2011</xref>) was used to trim the read tails with a PHRED quality score below 20 as well as poly&#x02010;A tails longer than 10&#x000a0;bp. We kept read pairs for which both reads were longer than 60&#x000a0;bp after trimming. After filtering, read lengths varied from 60 to 101&#x000a0;bp, with about 60% of the reads exhibiting the initial 101&#x02010;bp length. Exact duplicates of both paired&#x02010;ends were removed with <sc>prinseq</sc>. The remaining quality&#x02010;filtered reads were aligned against the stickleback reference genome from <sc>ensembl</sc> version 68 (Flicek <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0030" ref-type="ref">2012</xref>) using <sc>tophat2</sc> v2.0.13 (Kim <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0048" ref-type="ref">2013</xref>) with default settings. <sc>htseq</sc> 0.5.4p5 (Anders <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0005" ref-type="ref">2014</xref>) was used to quantify read count for each gene using <sc>ensembl</sc> gene annotations (version 68) using default settings except for excluding reads with alignment quality below 5.</p></sec><sec id="mec13520-sec-0006"><title>Gene expression analyses</title><p>Gene expression across all samples was evaluated with the <sc>bioconductor</sc> package <sc>edger</sc> 3.4.2 (Robinson <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0072" ref-type="ref">2010</xref>). First, weakly expressed genes were filtered out when they had &#x0003c;1 read per million in half (38) of the 77 samples (Anders <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0004" ref-type="ref">2013</xref>). All libraries were then simultaneously normalized with the trimmed mean of M&#x02010;value (TMM) method (Robinson &#x00026; Oshlack <xref rid="mec13520-bib-0071" ref-type="ref">2010</xref>), implemented in the <sc>edger</sc> package. The TMM method computes the scaling factors as the weighted mean of log fold changes for the majority of genes between libraries, based on the assumption that the majority of genes are not differentially expressed. After applying the TMM method, most genes should have unified expression levels across individuals and the scaling factors for the libraries should be close to 1 (Dillies <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0021" ref-type="ref">2012</xref>). Except for one head kidney library from G1_R with a scaling factor of 0.35, all other transcriptome libraries obtained scaling factors close to 1 (from 0.75 to 1.18, Table&#x000a0;S2, Supporting information). The outlier library had fewer genes expressed compared to other libraries (12&#x000a0;769 vs. 15&#x000a0;735&#x02013;17&#x000a0;341). This indicates a distinct expression profile likely dominated by technical artefacts, and therefore, this library was excluded from further analyses.</p><p>Next, the dispersion of the negative binomial distribution for the expression of each gene was estimated in <sc>edger</sc>. It represents the biological coefficient of variation of a gene's expression. This was used to evaluate the expression variance where a high dispersion value indicates high variance of gene expression pattern among samples. A principal component analysis (PCA) was then performed in <sc>r</sc> 3.0.1 (R Development Core Team <xref rid="mec13520-bib-0067" ref-type="ref">2008</xref>) using prcomp function based on log&#x02010;transformed normalized read counts of all 12&#x000a0;222 expressed genes (across both tissues and after filtering out weakly expressed genes as mentioned above) to assess differences in gene expression across libraries (Fig.&#x000a0;<xref rid="mec13520-fig-0001" ref-type="fig">1</xref>).</p><fig fig-type="Figure" xml:lang="en" id="mec13520-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Principal component analysis (<styled-content style="fixed-case">PCA</styled-content>) of gene expression profiles based on all genes after filtering out weakly expressed genes (See Methods). Head kidney samples and spleen samples are separated along the <italic>x</italic>&#x02010;axis, and the Canadian samples are separated along the <italic>y</italic>&#x02010;axis. <styled-content style="fixed-case">PCA</styled-content> axes explain 41% (<italic>x</italic>&#x02010;axis) and 8% (<italic>y</italic>&#x02010;axis) of the total variation.</p></caption><graphic id="nlm-graphic-1" xlink:href="MEC-25-943-g001"/></fig><p>To identify habitat&#x02010;specific gene expression, that is the expression patterns that are similar within habitat types while significantly different between habitat types, we employed differential expression (DE) analyses that contrast lake and river fish from all four population pairs. On the basis of the PCA result (Fig.&#x000a0;<xref rid="mec13520-fig-0001" ref-type="fig">1</xref>), DE analyses were performed separately for head kidney and spleen libraries in <sc>edger</sc>. Because the PCA results suggest that the Canadian populations are substantially diverged from the European populations, the DE analyses were also performed only among the three European population pairs (those results are presented in the Supplement only). Hence, four DE analyses were performed (comparing gene expression in the head kidney across all four population pairs, in spleen across all four population pairs, in head kidney across only the three European population pairs and in spleen across only the three European population pairs). Before conducting DE analyses, weakly expressed genes were filtered out to avoid bias in fold changes due to weak expression of some genes. Genes were filtered out from the DE analyses if they did not have at least 1 read per million in <italic>n</italic> of the samples, where <italic>n</italic> is the size of the smaller group (lake or river) in the DE comparisons (Anders <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0004" ref-type="ref">2013</xref>). Libraries were renormalized within each comparison group with the TMM method in <sc>edger</sc>. A multi&#x02010;factor design was used in a negative binomial generalized linear model, which accounts for the variation attributed to different population pairs as well as for the variation associated to the sex of the individuals (Expression~Habitat type&#x000a0;+&#x000a0;Population pair&#x000a0;+&#x000a0;Sex). The gene&#x02010;wise dispersion was reestimated based on the generalized linear model within each comparison group. For each tissue, the distribution of dispersion values was left&#x02010;skewed with long tails, indicating that most genes had uniform expression, with a small proportion of genes having highly variable expression across individuals being compared (Fig.&#x000a0;S1, Supporting information). We calculated the Pearson correlation of gene expression between all possible pairs of individuals within biological replicates (individuals of the same habitat, population pair and sex) using count data in <sc>r</sc>. The overall average correlation of gene expression across all pairwise comparisons was 0.86 (first quartile: 0.81 and third quartile: 0.95). Likelihood ratio tests for the contrast coefficient (lake vs. river) were performed, and <italic>P</italic>&#x02010;values were corrected for multiple testing using the Benjamini&#x02010;Hochberg method (Benjamini &#x00026; Hochberg <xref rid="mec13520-bib-0008" ref-type="ref">1995</xref>). Genes with corrected <italic>P</italic>&#x02010;values smaller than 0.05 were categorized as differentially expressed genes (DE genes). In addition to performing all DE analyses in <sc>edger</sc> as described above, DE analyses were also performed with the default pipeline in the <sc>deseq2</sc> package 1.0.19 (Love <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0053" ref-type="ref">2014</xref>) giving similar results (Table&#x000a0;S3, Supporting information).</p></sec><sec id="mec13520-sec-0007"><title>Functional analyses</title><p>Out of 20 787 stickleback genes,&#x000a0;13&#x000a0;568 are&#x000a0;annotated with Gene Ontology [GO, (Ashburner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0006" ref-type="ref">2000</xref>)] terms&#x000a0;in <sc>ensembl</sc> version 80. We complemented this with 13&#x000a0;044 gene annotations acquired from the Zebrafish Model Organism Database (ZFIN, Howe <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0200" ref-type="ref">2013</xref>) genes associated with stickleback <sc>ensembl</sc> IDs, with annotation information from&#x000a0;<ext-link ext-link-type="ftp" xlink:href="ftp://ftp.geneontology.org/pub/go/gene-associations/gene_association.zfin.gz">ftp://ftp.geneontology.org/pub/go/gene-associations/gene_association.zfin.gz</ext-link>. After merging all annotations, a total of 17&#x000a0;081 of 20&#x000a0;787 stickleback genes were annotated with GO terms. We tested for the enrichment of GO terms in our DE gene sets with the <sc>bioconductor</sc> package <sc>topgo</sc> (Alexa <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0003" ref-type="ref">2006</xref>; Alexa &#x00026; Rahnenfuhrer <xref rid="mec13520-bib-0002" ref-type="ref">2010</xref>), based on Fisher's exact tests. The gene pools against which we compared the DE gene sets were the genes having sufficient expression and entering the differential expression analyses (see <xref rid="mec13520-sec-0006" ref-type="sec">gene expression analyses</xref> section above). Overrepresented GO terms were those with a multiple&#x02010;test corrected <italic>P</italic>&#x02010;value (Benjamini&#x02010;Hochberg's false discovery rate, FDR) smaller than 0.05. To infer the potential involvement of the habitat&#x02010;specific expressed genes in parasite defence in nature, we identified our DE genes that were also differential expressed in two previous laboratory&#x02010;controlled parasite exposure experiments (Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>; Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>).</p></sec></sec><sec id="mec13520-sec-0008"><title>Results</title><sec id="mec13520-sec-0009"><title>Qualitative description of expression patterns</title><p>For each of the 77 transcriptome libraries, an average of 6.5 million read pairs of 101&#x000a0;bp were produced. After adapter cleaning, quality trimming, and duplicate&#x02010; and length&#x02010;filtering, 92.78% of the reads remained for analyses (Table&#x000a0;S2, Supporting information). On average, 88.10% of the quality&#x02010;filtered reads mapped to the reference genome and 2.71% of these mapped to multiple regions of the genome, which were subsequently excluded from further analyses. Out of a total of 22&#x000a0;456 genes annotated in the stickleback genome (<sc>ensembl</sc> version 68), an average of 16&#x000a0;397 (&#x000b1;944) genes were found expressed. The median number of reads mapping back to each expressed gene was 60 read pairs (first quartile to third quartile: 13&#x02013;166). The principal component analysis (PCA) clearly separated the two tissue types along the first principal component, which accounted for 41% of the variance observed in the data set (Fig.&#x000a0;<xref rid="mec13520-fig-0001" ref-type="fig">1</xref>). Within the same tissue type, the second principal component (variance explained: 8%) clearly separated European samples from the Canadian samples.</p></sec><sec id="mec13520-sec-0010"><title>Differential expression (DE) analyses</title><p>After filtering out weakly expressed genes (see Methods), 12&#x000a0;105 genes expressed in head kidney and 12&#x000a0;451 expressed in spleen were contrasted between lake and river ecotypes across all four population pairs. A total of 139 genes showed significant differential expression after correction for multiple testing (Fig.&#x000a0;<xref rid="mec13520-fig-0002" ref-type="fig">2</xref>). There were 73 DE genes in the head kidney, 74 DE genes in the spleen and 8 of these genes were shared between both tissues (Table&#x000a0;S3, Supporting information). All 8 shared DE genes showed the same directional difference of expression between habitat types. A majority of the DE genes (75% in head kidney and 65% in spleen) showed higher expression in individuals from lakes than from rivers. Most of these same DE genes were identified using another commonly used software with default parameters (<sc>deseq2</sc>: 70 of 73 in the head kidney and 67 of 74 in the spleen, Table&#x000a0;S3, Supporting information). Although the PCA analyses mentioned above suggested that the overall expression patterns of the European samples seemed distinct from the Canadian samples, a separate analysis of expression log fold changes between lake and river fish from the three European population pairs showed a strong positive correlation with that of all four population pairs together (linear regression, <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.61, <italic>P&#x000a0;</italic>&#x0003c;&#x000a0;0.001 for head kidney and <italic>R</italic>
+<sup>2</sup>&#x000a0;=&#x000a0;0.82, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001 for spleen) and resulted in about half of the same DE genes (Table&#x000a0;S4, Supporting information). The 5 DE genes with the smallest adjusted <italic>P</italic>&#x02010;value in the head kidney across all lake&#x02010;river comparisons include three genes that have higher expression in lake fish (<italic>leucine&#x02010;rich repeat containing 17</italic>,<italic> ryanodine receptor 3</italic> and <italic>colony&#x02010;stimulating factor 1b)</italic> and two that have higher expression in river fish (<italic>cub and sushi multiple domains 3</italic> and one uncharacterized protein&#x02010;coding gene ENSGACG00000000187). The five genes with smallest adjusted <italic>P</italic>&#x02010;values in the spleen include three that have higher expression in lake fish (<italic>solute carrier family 43, member 3b</italic>,<italic> actin binding LIM protein 1b</italic> and <italic>complement factor D</italic>) and two uncharacterized protein&#x02010;coding genes (ENSGACG00000000187 and ENSGACG00000012387) that have higher expression in river fish (see Table&#x000a0;S3, Supporting information for all 139 DE genes identified).</p><fig fig-type="Figure" xml:lang="en" id="mec13520-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Heatmaps of <styled-content style="fixed-case">DE</styled-content> gene expression profiles among all populations in (a) head kidney and (b) spleen. Each column represents one fish and each row represents one gene. Samples are organized by population affiliation as indicated at the bottom. Genes are clustered based on the similarities of the expression profiles between samples. The colour code corresponds to the relative expression intensity, which are the normalized read counts also scaled for each gene's expression intensity (median read count as 0), where red indicates higher expression and blue indicates lower expression. On the right side, the last five digits of the&#x000a0;corresponding <sc>ensembl </sc>
+<styled-content style="fixed-case">ID</styled-content> (ENSGACG00000000000) are shown. Asterisks indicate genes that were also identified in an analysis of the European populations only (Table&#x000a0;S4, Supporting information).</p></caption><graphic id="nlm-graphic-3" xlink:href="MEC-25-943-g002"/></fig></sec><sec id="mec13520-sec-0011"><title>Functional analyses of DE genes</title><p>GO annotations from <sc>ensembl</sc> and the ZFIN database were available for 105 of the 139 DE genes (Table&#x000a0;S3, Supporting information). The DE genes in head kidney had no significant GO term enrichment, while the DE genes in spleen were enriched for collagen (GO:0005581, with 3 of 18 genes annotated with this term in the gene pool), extracellular region (GO:0005576, with 8 of 265 genes) and extracellular matrix part (GO:0044420, with 3 of 20 genes). Applying a less stringent cut&#x02010;off for DE genes (FDR&#x000a0;&#x0003c;&#x000a0;0.10) to test for enrichment of GO terms (FDR&#x000a0;&#x0003c;&#x000a0;0.05), only extracellular region (GO:0005576) remained significant in the spleen, with no additional terms found in both tissues. The top 50 GO terms from the enrichment analyses of original DE gene sets (FDR&#x000a0;&#x0003c;&#x000a0;0.05) are provided in the Dryad database (see Data Accessibility Section). To specifically investigate the differential expression of immune genes in the sampled immune&#x02010;related tissues, a list of 1126 stickleback genes with putative immune functions was acquired from a previous study (Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>). Among the DE genes between lake and river fish, three of the 73 DE genes in the head kidney and five of the 74 DE genes in the spleen are putatively immune genes (Table&#x000a0;<xref rid="mec13520-tbl-0002" ref-type="table-wrap">2</xref>). These included macrophage receptors, an interferon regulatory&#x000a0;factor and a gene annotated with the functions of antigen processing and presentation and immune response.</p><table-wrap id="mec13520-tbl-0002" xml:lang="en" orientation="portrait" position="float"><label>Table 2</label><caption><p>Differentially expressed genes between all lake and river populations with putative immune functions</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Gene ID</th><th align="left" valign="top" rowspan="1" colspan="1">Gene name</th><th align="left" valign="top" rowspan="1" colspan="1">GO term (biological process)</th><th align="left" valign="top" rowspan="1" colspan="1">Tissue</th><th align="left" valign="top" rowspan="1" colspan="1">Log fold&#x02010;change<xref ref-type="fn" rid="mec13520-note-0001">a</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">FDR</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000001509</td><td align="left" rowspan="1" colspan="1">
+<italic>Marco</italic>
+<break/>
+<italic>Macrophage receptor with collagenous structure</italic>
+</td><td align="left" rowspan="1" colspan="1">Scavenger receptor activity (molecular function)</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.0053</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000016979</td><td align="left" rowspan="1" colspan="1">
+<italic>CMKLR1 (2 of 2)</italic>
+<break/>
+<italic>chemokine&#x02010;like receptor 1</italic>
+</td><td align="left" rowspan="1" colspan="1">G&#x02010;protein coupled receptor signalling pathway</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">0.77</td><td align="left" rowspan="1" colspan="1">0.0070</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000015855</td><td align="left" rowspan="1" colspan="1">
+<italic>RAB27A</italic>
+<break/>
+<italic>Member RAS oncogene family</italic>
+</td><td align="left" rowspan="1" colspan="1">
+Nucleocytoplasmic transport<break/>
+Small GTPase mediated signal transduction<break/>
+Signal transduction<break/>
+Intracellular protein transport
+</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">0.56</td><td align="left" rowspan="1" colspan="1">0.026</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000010551</td><td align="left" rowspan="1" colspan="1">
+<italic>Mst1ra</italic>
+<break/>
+<italic>Macrophage stimulating 1 receptor a</italic>
+</td><td align="left" rowspan="1" colspan="1">Protein phosphorylation</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">0.89</td><td align="left" rowspan="1" colspan="1">0.0030</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000012609</td><td align="left" rowspan="1" colspan="1">
+<italic>LGALS1 (2 of 3)</italic>
+<break/>
+<italic>Lectin, galactoside binding, soluble, 1</italic>
+</td><td align="left" rowspan="1" colspan="1">Carbohydrate binding (molecular function)</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.0038</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000004966</td><td align="left" rowspan="1" colspan="1">
+<italic>IRF4 (2 of 2)</italic>
+<break/>
+<italic>Interferon regulatory factor 4b</italic>
+</td><td align="left" rowspan="1" colspan="1">Regulation of transcription, DNA&#x02010;templated</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">&#x02212;0.59</td><td align="left" rowspan="1" colspan="1">0.028</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000019291</td><td align="left" rowspan="1" colspan="1">
+<italic>irak3</italic>
+<break/>
+<italic>Interleukin&#x02010;1 receptor&#x02010;associated kinase 3</italic>
+</td><td align="left" rowspan="1" colspan="1">
+Signal transduction<break/>
+Protein phosphorylation
+</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">0.42</td><td align="left" rowspan="1" colspan="1">0.048</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000001978</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1">
+Antigen processing and presentation<break/>
+Immune response
+</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">&#x02212;1.44</td><td align="left" rowspan="1" colspan="1">0.048</td></tr></tbody></table><table-wrap-foot><fn id="mec13520-note-0001"><label>a</label><p>Positive values represent higher expression in lake fish than in river fish and vice versa.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap><p>While our analysis only detected very few immune function genes showing differential gene expression, the parasite survey of our sampled fish showed that lake fish harbour higher parasite loads than river fish (Table&#x000a0;S1, Supporting information). This has already been demonstrated previously using a larger sample size (Fig.&#x000a0;<xref rid="mec13520-fig-0001" ref-type="fig">1</xref> in Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>). To further investigate the role of parasite infection and potential resistance in driving differential gene expression between lake and river habitats, we compared our results with two laboratory&#x02010;controlled parasite exposure experiments that assessed gene expression in sticklebacks from the same German populations as used in our study. Lenz <italic>et&#x000a0;al</italic>. (<xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>) described the transcriptional responses of laboratory&#x02010;bred lake and river sticklebacks under either controlled or parasite&#x02010;challenged conditions. That study used three parasites that are found in the natural environment of those fish: <italic>Diplostomum pseudospathaceum</italic>,<italic> Anguillicola crassus</italic> and <italic>Camallanus lacustris</italic>. These parasites were also found in our sampled fish (see <xref rid="mec13520-sec-0012" ref-type="sec">discussion</xref> and Table&#x000a0;S1, Supporting information). Of 166 DE genes between twice parasite&#x02010;exposed lake and river fish (Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>), 51 and 73 genes showed the same directional differences of expression between habitat types in our study among all lake&#x02010;river population pairs, in the head kidney and in the spleen, respectively. Some of the differences between the two studies are likely due to that the majority of DE genes in Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref> were highly expressed in river fish as they are exposed to equal dosage of parasites compared to lake fish, while in our study the majority of DE genes were highly expressed in lake fish as the river fish were exposed to less parasites in nature. Nevertheless, among those genes with same directional differences, one gene <italic>methyltransferase like 13</italic> (<italic>mettl13</italic>) was also identified significantly differentially expressed in our study (Table&#x000a0;<xref rid="mec13520-tbl-0003" ref-type="table-wrap">3</xref>, also see <xref rid="mec13520-sec-0012" ref-type="sec">Discussion</xref> for more details). In addition, 10 of the 1057 DE genes between control and parasite&#x02010;challenged fish (Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>) overlapped with our set of DE genes (four in the head kidney and six in the spleen). In another recent parasite infection study, laboratory&#x02010;bred lake sticklebacks (from the G1_L population) were challenged with the trematode <italic>D.&#x000a0;pseudospathaceum</italic> (Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>), and DE was assessed in the head kidney and in the gill. Of 1060 DE genes between control and challenged fish in the head kidney (Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>), six overlapped with the DE genes from our study (all in the spleen). Of 1415 DE genes in the gill (Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>), 25 overlapped with our set of DE genes (12 in the head kidney and 14 in the spleen, including 1 in both tissues, Table&#x000a0;<xref rid="mec13520-tbl-0003" ref-type="table-wrap">3</xref>).</p><table-wrap id="mec13520-tbl-0003" xml:lang="en" orientation="portrait" position="float"><label>Table 3</label><caption><p>Differentially expressed genes between lake and river populations also found as differentially expressed in previous parasite infection studies</p></caption><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Gene ID</th><th align="left" valign="top" rowspan="1" colspan="1">Gene name</th><th align="left" valign="top" rowspan="1" colspan="1">Comparisons in Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>, <xref ref-type="fn" rid="mec13520-note-0003">a</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">Tissue in Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">Log fold&#x02010;change in Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>, <xref ref-type="fn" rid="mec13520-note-0004">b</xref>&#x000a0;</th><th align="left" valign="top" rowspan="1" colspan="1">Tissue in this study</th><th align="left" valign="top" rowspan="1" colspan="1">Log fold&#x02010;change in this study<xref ref-type="fn" rid="mec13520-note-0005">c</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">FDR in this study</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000011746</td><td align="left" rowspan="1" colspan="1">
+<italic>fyco1a</italic>
+<break/>
+<italic>FYVE and coiled&#x02010;coil domain containing 1a</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;3.21</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">0.71</td><td align="left" rowspan="1" colspan="1">0.0096</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000010806</td><td align="left" rowspan="1" colspan="1">
+<italic>sox7</italic>
+<break/>
+<italic>SRY&#x02010;box containing gene 7</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;2.58</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">0.74</td><td align="left" rowspan="1" colspan="1">0.038</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000013129</td><td align="left" rowspan="1" colspan="1">
+<italic>MRPL49 (2 of 2) mitochondrial ribosomal protein L49</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;2.69</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;0.91</td><td align="left" rowspan="1" colspan="1">0.017</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000015653</td><td align="left" rowspan="1" colspan="1">
+<italic>lmo1</italic>
+<break/>
+<italic>LIM domain only 1</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;1.20</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">1.13</td><td align="left" rowspan="1" colspan="1">0.033</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000014705</td><td align="left" rowspan="1" colspan="1">
+<italic>mettl13</italic>
+<break/>
+<italic>Methyltransferase&#x02010;like 13</italic>
+</td><td align="left" rowspan="1" colspan="1">Lake vs. River in 2nd infection; control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;4.4 and &#x02212;2.69</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">&#x02212;0.63</td><td align="left" rowspan="1" colspan="1">0.028</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000011977</td><td align="left" rowspan="1" colspan="1">
+<italic>ppdpfa</italic>
+<break/>
+<italic>Pancreatic progenitor cell differentiation and proliferation factor a</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">1.03</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">3.17</td><td align="left" rowspan="1" colspan="1">0.011</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000001923</td><td align="left" rowspan="1" colspan="1">
+<italic>n6amt2</italic>
+<break/>
+<italic>N&#x02010;6 adenine&#x02010;specific DNA methyltransferase 2</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">1.56</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">&#x02212;0.88</td><td align="left" rowspan="1" colspan="1">0.025</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000004515</td><td align="left" rowspan="1" colspan="1">
+<italic>Cfd</italic>
+<break/>
+<italic>Complement factor D (adipsin)</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;1.48</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">1.16</td><td align="left" rowspan="1" colspan="1">0.00065</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000012609</td><td align="left" rowspan="1" colspan="1">
+<italic>LGALS1 (2 of 3) lectin, galactoside binding, soluble, 1</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;5.09</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">0.73</td><td align="left" rowspan="1" colspan="1">0.0038</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000011683</td><td align="left" rowspan="1" colspan="1">
+<italic>slc5a6b</italic>
+<break/>
+<italic>Solute carrier family 5, member 6</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. infected</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;2.46</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">&#x02212;0.45</td><td align="left" rowspan="1" colspan="1">0.045</td></tr></tbody></table><table frame="hsides" rules="groups"><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><col style="border-right:solid 1px #000000" span="1"/><thead valign="top"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="top" rowspan="1" colspan="1">Gene ID</th><th align="left" valign="top" rowspan="1" colspan="1">Gene name</th><th align="left" valign="top" rowspan="1" colspan="1">Comparisons in Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>, <xref ref-type="fn" rid="mec13520-note-0003">a</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">Tissue in Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>
+</th><th align="left" valign="top" rowspan="1" colspan="1">Log fold&#x02010;change in Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>, <xref ref-type="fn" rid="mec13520-note-0004">b</xref>&#x000a0;</th><th align="left" valign="top" rowspan="1" colspan="1">Tissue in this study</th><th align="left" valign="top" rowspan="1" colspan="1">Log fold&#x02010;change in this study<xref ref-type="fn" rid="mec13520-note-0005">c</xref>&#x000a0;</th><th align="left" valign="top" rowspan="1" colspan="1">FDR</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000003716</td><td align="left" rowspan="1" colspan="1">
+<italic>CASQ2 (1 of 2) calsequestrin 2</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. clone XII</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">2.8</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">&#x02212;0.97</td><td align="left" rowspan="1" colspan="1">0.0080</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000017615</td><td align="left" rowspan="1" colspan="1">
+<italic>Smox</italic>
+<break/>
+<italic>Spermine oxidase</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. clone I, control vs. XII and control vs. clone mix</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">4.79, 5.81 and 5.11</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">0.65</td><td align="left" rowspan="1" colspan="1">0.011</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000011977</td><td align="left" rowspan="1" colspan="1">
+<italic>ppdpfa</italic>
+<break/>
+<italic>Pancreatic progenitor cell differentiation and proliferation factor a</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. clone I</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">&#x02212;4.08</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">3.17</td><td align="left" rowspan="1" colspan="1">0.011</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000004966</td><td align="left" rowspan="1" colspan="1">
+<italic>IRF4 (2 of 2) interferon regulatory factor 4b</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. clone I, control vs. XII and control vs. clone mix</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">1.41, 2.26 and 1.79</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">&#x02212;0.59</td><td align="left" rowspan="1" colspan="1">0.028</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000020628</td><td align="left" rowspan="1" colspan="1">
+<italic>angptl5</italic>
+<break/>
+<italic>Angiopoietin&#x02010;like 5</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. clone mix</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">2.83</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">0.71</td><td align="left" rowspan="1" colspan="1">0.028</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000017656</td><td align="left" rowspan="1" colspan="1">
+<italic>SVIL (2 of 2) supervillin</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. clone mix</td><td align="left" rowspan="1" colspan="1">Head kidney</td><td align="left" rowspan="1" colspan="1">2.96</td><td align="left" rowspan="1" colspan="1">Spleen</td><td align="left" rowspan="1" colspan="1">0.59</td><td align="left" rowspan="1" colspan="1">0.040</td></tr><tr><td align="left" rowspan="1" colspan="1">ENSGACG00000008510</td><td align="left" rowspan="1" colspan="1">
+<italic>apnl</italic>
+<break/>
+<italic>Actinoporin&#x02010;like protein</italic>
+</td><td align="left" rowspan="1" colspan="1">Control vs. clone mix</td><td align="left" rowspan="1" colspan="1">Gill</td><td align="left" rowspan="1" colspan="1">&#x02212;1.20</td><td align="left" rowspan="1" colspan="1">Head kidney and spleen</td><td align="left" rowspan="1" colspan="1">0.88 and 1.05</td><td align="left" rowspan="1" colspan="1">0.0093 and 0.0030</td></tr></tbody></table><table-wrap-foot><fn id="mec13520-note-0002"><p>For the DE genes Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref> identified in gill, only the overlapped DE genes we identified in both head kidney and spleen are shown.</p></fn><fn id="mec13520-note-0003"><label>a</label><p>Comparisons where the genes were previously identified as differentially expressed are indicated. In Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>; DE gene sets between control na&#x000ef;ve fish from lake and from river, between twice exposed fish from lake and from river (2nd infection), and between infected fish and control fish were compared to DE gene sets in this study. In Haase <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>, DE gene sets between control fish and infected fish with different parasite clones were compared.</p></fn><fn id="mec13520-note-0004"><label>b</label><p>In lake&#x02010;river comparisons, positive log fold&#x02010;change values represent higher expression in lake fish and vice versa. In control&#x02010;infection comparisons, positive values represent upregulation with infection compared to control.</p></fn><fn id="mec13520-note-0005"><label>c</label><p>Positive log fold&#x02010;change values represent higher expression in lake fish and vice versa.</p></fn></table-wrap-foot><permissions><copyright-holder>John Wiley &#x00026; Sons, Ltd</copyright-holder></permissions></table-wrap></sec></sec><sec id="mec13520-sec-0012"><title>Discussion</title><sec id="mec13520-sec-0013"><title>Habitat&#x02010;specific expression</title><p>This study investigated transcriptional profiles of three&#x02010;spined sticklebacks from contrasting lake and river habitats across a wide geographical scale. Physical and ecological differences between lake and river habitats, consisting of differences in flow regime, vegetation, food resources and parasite communities among others,&#x000a0;can influence individual fitness, behaviour, life history, morphology and physiology. Studies contrasting lake and river sticklebacks have mainly focused on their morphology (Berner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0010" ref-type="ref">2010</xref>; Lucek <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0054" ref-type="ref">2014</xref>) and genomic variation (Deagle <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0019" ref-type="ref">2012</xref>; Roesti <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0073" ref-type="ref">2012</xref>; Chain <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0013" ref-type="ref">2014</xref>; Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>). Here, we evaluated how lake and river ecotypes differ in gene expression profiles in their natural environments. We have identified habitat&#x02010;specific gene expression patterns, that is differential expression between habitats across four lake&#x02010;river pairs, three from European locations and one from Canada. For differentially expressed genes, fish from the same habitat have a similar expression, which is distinct from the expression in fish from the contrasting habitat. These habitat&#x02010;specific expression patterns suggest that a part of the transcriptome (about 1%) is shaped by the global environmental contrast across all lake&#x02010;river pairs, although a larger fraction may be affected by local habitat differences within a given population pair or expressed in other tissues or during a different season or ontogenetic stage. These findings add to the growing discussion of parallelism at the regulatory level between contrasting ecotypes and morphs (Derome <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0020" ref-type="ref">2006</xref>; Pavey <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0063" ref-type="ref">2011</xref>; Manousaki <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0058" ref-type="ref">2013</xref>).</p></sec><sec id="mec13520-sec-0014"><title>Plasticity and heritability of gene expression</title><p>A combination of evolutionary mechanisms could be shaping the habitat&#x02010;specific expression patterns observed in this study. Freshwater sticklebacks likely possess the innate ability to regulate certain genes in acclimating to the different conditions in lakes and rivers (Stutz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0081" ref-type="ref">2015</xref>). This plasticity could result in&#x000a0;habitat&#x02010;specific expression patterns. Alternatively, differential expression across habitats might also reveal adaptive genetic differences between lake and river fish. These alternative explanations for habitat&#x02010;specific patterns are by no means mutually exclusive and may both contribute to shape the gene expression profiles of lake and river sticklebacks. Setting our study into the context of previous findings, we further evaluated these explanations. Using the same individuals from this study (as well as additional individuals), recent genomic studies have shown little evidence for sequence&#x02010;based habitat&#x02010;specific patterns using genome scan approaches with single nucleotide polymorphisms (SNPs; Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>) and with copy number variations (Chain <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0013" ref-type="ref">2014</xref>). Hence, from a genomic perspective, despite significant differentiation between lake and river sticklebacks at a regional scale and across a wider continental scale (Deagle <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0019" ref-type="ref">2012</xref>; Roesti <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0073" ref-type="ref">2012</xref>; Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>), there is little evidence for parallel genetic differentiation between lake and river sticklebacks across the distribution area of the fish. In other words, genetic differences between freshwater ecotypes of sticklebacks are for the large part not shared across population pairs, whereas here we identified several genes with habitat&#x02010;specific gene expression. This discrepancy is consistent with the observation that phenotypes are similar among lake&#x02010;river populations while the genetic basis is different (Deagle <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0019" ref-type="ref">2012</xref>; Kaeuffer <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0043" ref-type="ref">2012</xref>; Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>). Gene expression, which bridges the underlying genetic basis and the ultimate phenotypes, might contribute to the understanding of the discrepancy between phenotypes and genotypes. Habitat&#x02010;specific expression patterns could be controlled by various trans&#x02010;regulatory elements from different genomic sources in different populations. Another explanation is that pathways regulating expression might be triggered at different steps in signalling cascades and therefore leave distinct signatures in the genomes of different populations (Pritchard <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0065" ref-type="ref">2010</xref>). Based on controlled laboratory studies, there is evidence that expression differences in sticklebacks can be largely heritable (Leder <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0049" ref-type="ref">2014</xref>). In addition, a laboratory&#x02010;controlled experiment in which laboratory&#x02010;bred G1_L and G1_R sticklebacks exhibited different transcriptional responses to parasite exposure suggested that the genetic background plays an important role in differential gene expression between fish ecotypes (Lenz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>). It is interesting that this differentiation between lake and river fish was most pronounced in their adaptive immune response (triggered upon 2<sup>nd</sup> exposure) to parasites, most likely resembling the differences we are observing in nature, where the fish are very likely to have multiple encounters with parasites. In the light of these studies, adaptive genetic differences between lake and river sticklebacks appear to be a likely explanation for habitat&#x02010;specific expression patterns. However, a reciprocal transplant experiment suggested that environmentally induced plasticity strongly affects the expression of some carefully selected immune genes (Stutz <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0081" ref-type="ref">2015</xref>). Hence, plasticity in gene expression might have also shaped the habitat&#x02010;specific expression pattern of some of the genes identified in this study.</p></sec><sec id="mec13520-sec-0015"><title>Immunological relevance of DE genes</title><p>Large&#x02010;scale observational studies such as the current one are complementary to experimental studies in general, and here to the stickleback system in particular. Previous studies on sticklebacks in German lake&#x02010;river systems highlighted that lake fish harbour higher parasite loads than river fish in terms of intensity and species diversity (Kalbe <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0044" ref-type="ref">2002</xref>; Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>, <xref rid="mec13520-bib-0026" ref-type="ref">2012b</xref>). This trend of contrasting parasite loads was further confirmed across a wide geographic range including all populations used in our study (Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>). Experiments have established that lake and river sticklebacks have differences in immune&#x02010;competence due to habitat&#x02010;specific adaptation to the distinct parasite communities (Scharsack <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0076" ref-type="ref">2007</xref>). It was further investigated that genetic differences in MHC genotypes between lake and river fish provide a basis for parasite&#x02010;mediated local adaptation (Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>, <xref rid="mec13520-bib-0025" ref-type="ref">2012a</xref>) following the idea that parasite resistance could represent a magic trait involved in speciation (Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0023" ref-type="ref">2009</xref>). As the differences in parasite pressure between niches could be a force driving divergent adaptation in lake and river sticklebacks, we surveyed gene expression in immune tissues with a specific focus on genes involved in immune functions. Across the 139 candidate genes, we found three putative immune genes in the head kidney and five in the spleen with habitat&#x02010;specific expression patterns (Table&#x000a0;<xref rid="mec13520-tbl-0002" ref-type="table-wrap">2</xref>). We found that genes with an immune function were not overrepresented, which indicates that under natural conditions, other factors besides parasites and immunity also contribute to the differentiation between ecotypes. The overrepresented GO terms from these habitat&#x02010;specific expressed genes suggest the gene products are often extracellular components, such as collagen&#x02010;structured proteins. Given the generic GO terms, their contribution to habitat&#x02010;specific adaptation is open to speculation. Nevertheless, a detailed examination of the DE genes showing most significant expression differences (with smallest adjusted <italic>P</italic>&#x02010;values) between lakes and rivers revealed some associations with immune&#x02010;related functions. One of the genes that is highly expressed in lake fish and differentially expressed in both the head kidney and in the spleen is <italic>colony&#x02010;stimulating factor 1b</italic> (<italic>csf1b</italic>), which is involved in macrophage production and differentiation (Stanley <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0080" ref-type="ref">1976</xref>). Another DE gene in the head kidney which is highly expressed in lake fish, <italic>leucine&#x02010;rich repeat containing 17</italic> (<italic>lrrc17</italic>), regulates osteoclasts in mice cells (Kim <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0047" ref-type="ref">2009</xref>). The repeated domain of this gene is involved in a variety of protein&#x02013;protein interactions, including binding to pathogen&#x02010;associated molecular patterns and surface receptors and thus has been studied in pathogen&#x02013;host interactions (Kedzierski <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0046" ref-type="ref">2004</xref>). Some DE genes with putative immune functions are in contrast more highly expressed in river fish. For example, an uncharacterized protein&#x02010;coding gene (ENSGACG00000000187) is differentially expressed in both head kidney and spleen, and its sequence is homologous to <italic>NOD&#x02010;like receptor family CARD domain containing 3 (NLRC3)</italic>. <italic>NLRC3</italic> is a negative regulator of innate immune signalling (Zhang <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0084" ref-type="ref">2014</xref>), which inhibits the activity of T cells (Conti <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0018" ref-type="ref">2005</xref>) and Toll&#x02010;like receptor (Schneider <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0078" ref-type="ref">2012</xref>). Another DE gene that is highly expressed in river populations in the head kidney is <italic>cub and sushi multiple domains 3</italic> (<italic>csmd3</italic>), reported to be associated with periodontal pathogen colonization in human (Divaris <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0022" ref-type="ref">2012</xref>). The putative immune&#x02010;related function of these candidate habitat&#x02010;specific genes is consistent with the hypothesis that parasites act as important selective agents driving differentiation between river and lake sticklebacks (Wegner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0082" ref-type="ref">2003</xref>; Scharsack <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0076" ref-type="ref">2007</xref>; Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>, <xref rid="mec13520-bib-0026" ref-type="ref">2012b</xref>; Feulner <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0028" ref-type="ref">2015</xref>).</p><p>To investigate how differences in parasite load between lake and river populations may be reflected in gene expression in the wild, we compared the set of DE genes with the DE gene sets identified in two previous parasite infection experiments performed on G1 stickleback populations. Despite using different conditions, sequencing technologies and bioinformatic analyses to identify DE genes, this exercise provides information on immune&#x02010;related functions of DE genes given their putative role in parasite defence based on experimental studies. The two laboratory&#x02010;controlled parasite exposure experiments that we compared our results with used three&#x02010;spined sticklebacks subjected to infection with parasites that are found in their natural environment: the three parasites <italic>Diplostomum pseudospathaceum</italic>,<italic> A.&#x000a0;crassus</italic> and <italic>C.&#x000a0;lacustris</italic> in a study by Lenz <italic>et&#x000a0;al</italic>. (<xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>), and <italic>D</italic>.&#x000a0;<italic>pseudospathaceum</italic> in a separate study by Haase <italic>et&#x000a0;al</italic>. (<xref rid="mec13520-bib-0037" ref-type="ref">2014</xref>). An independent parasite survey performed on our own transcriptome&#x02010;sequenced fish (Table&#x000a0;S1, Supporting information) showed that lake fish have a significantly higher abundance of <italic>Diplostomum</italic> sp. than river fish (negative binomial GLM, <italic>z&#x000a0;</italic>=&#x000a0;&#x02212;4.87, <italic>P</italic>&#x000a0;&#x0003c;&#x000a0;0.001, see Fig.&#x000a0;S2, Supporting information), whereas <italic>A.&#x000a0;crassus</italic> did not show a habitat&#x02010;specific pattern (binomial GLM, <italic>z&#x000a0;</italic>=&#x000a0;&#x02212;0.075, <italic>P</italic>&#x000a0;=&#x000a0;0.94) and the lake&#x02010;specific parasite <italic>C.&#x000a0;lacustris</italic> (Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>) was only found in one G1_L fish in our samples. Lenz <italic>et&#x000a0;al</italic>. (<xref rid="mec13520-bib-0051" ref-type="ref">2013</xref>) assessed gene expression in the head kidney following parasite infection carried out with one of the European population pairs (G1_L and G1_R) used in our study. Among the DE genes found in that study, <italic>methyltransferase like 13</italic> (<italic>mettl13</italic>) was expressed at lower levels in the parasite&#x02010;challenged fish compared to controls, and in lake vs. river individuals after a 2nd parasite infection. In our study, this same gene was also differentially expressed with lower expression in the lake populations in the spleen. These results suggest that <italic>mettl13</italic> expression is downregulated when the fish are challenged with more parasites, for example in lakes vs. rivers. <italic>mettl13</italic> is therefore an interesting candidate for mediating a differential expression between lake and river sticklebacks shaped by the contrasting parasite environment. These comparisons to experimental studies demonstrate another way of inferring functional insights of candidate genes, which goes beyond functional annotations based on sequence similarity with model organisms. These transcriptomic results are in line with the hypothesis that parasite&#x02010;mediated selection contributes to lake and river population differentiation; however, it does not act alone but in interaction with other factors under natural conditions.</p></sec><sec id="mec13520-sec-0016"><title>Limits of the study</title><p>Even though we have been able to gain insight into the role of gene expression in population differentiation, various factors confound the analysis of wild&#x02010;caught animals. For instance, temporal variation in expression, genetic background differences and stochastic environmental fluctuations introduce variation at the transcriptomic level (Harrison <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0041" ref-type="ref">2012</xref>; Lenz <xref rid="mec13520-bib-0050" ref-type="ref">2015</xref>). Because our samples are derived from different regions and have been caught at different times of the year, geographical and seasonal factors influenced the observed expression patterns. An important biotic aspect with respect to this study is that fish accumulate parasites from spring to autumn, and their immune system responds differently to early and to late parasite infections (Rohlenov&#x000e1; <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0074" ref-type="ref">2011</xref>). Furthermore, our study focused on macroparasites, but we acknowledge that there are more pathogens and factors in the natural environment that affect fitness, physiology and immune response. For example, it was found that gut microbiota composition in lake sticklebacks might contribute to shape the genetic polymorphism of MHC class IIb genes (Bolnick <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0011" ref-type="ref">2014</xref>), a known genetic basis that vary between fish populations (e.g. Eizaguirre <italic>et&#x000a0;al</italic>. <xref rid="mec13520-bib-0024" ref-type="ref">2011</xref>). Hence, microparasites most likely also impact the gene expression of the fish in their natural environments.</p><p>In addition, factors like temperature and light condition can vary substantially across geographical regions and seasons. Environmental factors cannot be controlled for sampling on large geographical scale and add noise to the data, reducing the ability to detect habitat&#x02010;specific patterns. However, for each location, parapatric lake and river fish were processed at the same time and alternatively dissected, minimizing the variation between lake and river fish within sampling locations. Despite analysing wild&#x02010;caught individuals, the majority of our samples showed reasonable correlations between replicated individuals (same habitat, population and sex), resulting in an average Pearson correlation of 0.86. Moreover, including multiple lake&#x02010;river contrasts can help to overcome some of the variance among wild&#x02010;caught samples, as it is unlikely that environmental fluctuations would produce habitat&#x02010;specific expression patterns across multiple individuals and populations by chance. Therefore, our results are conservative estimates of habitat&#x02010;specific gene expression across the replicated systems.</p><p>Having a single population pair from Canada might also affect some results. As the Canadian populations were rather distinct from the other populations, we also conducted DE analyses only on the three European population pairs for a comparison. However, differential expression between lake and river in the two data sets (with and without the Canadian population pair) was significantly positively correlated and about half of the DE genes are found in both data sets (Table&#x000a0;S4, Supporting information). Therefore, including one geographically distant population pair from Canada allows identifying habitat&#x02010;specific patterns on a more global scale. It provides an opportunity to examine which genes show consistent habitat&#x02010;specific expression patterns in fish across continents, forming a subset of the DE genes from all four population pairs (asterisks in Fig.&#x000a0;<xref rid="mec13520-fig-0002" ref-type="fig">2</xref>).</p><p>As we studied the transcriptomic profiles of wild&#x02010;caught fish, a large number of replication in terms of individuals and populations is required to accommodate environmental variations. This results into trading off sample size and sequencing depth. The Encyclopedia of DNA Elements (ENCODE) consortium recommends 30 million pair&#x02010;end reads of length &#x0003e;30 nucleotides, in which 20&#x02013;25 million reads are mappable to the genome for evaluating transcriptional profiles. In our study, the sequencing depths are generally 5&#x000d7; lower than the recommendation, limiting our ability to detect genes with low expression. When we used a more stringent cut&#x02010;off to filter out weakly expressed genes (at least two reads per million in half of the samples), 10&#x000a0;715 genes (compared to 12&#x000a0;183 with the original cut&#x02010;off) in the head kidney and 11&#x000a0;012 genes (compared to 12&#x000a0;503) in the spleen passed the filtering step. A total of 36 of 73 DE genes in the head kidney and 58 of 74 DE genes in the spleen remained with the higher cut&#x02010;off, suggesting at least half of the detected DE results are robust against the low sequencing depth.</p></sec><sec id="mec13520-sec-0017"><title>Conclusions and prospects</title><p>Despite some intrinsic shortcomings, studying gene expression in wild&#x02010;caught animals provides a view on differential expression responses caused by both genetic and environmental factors. Our study provides additional evidence that environmental differences, which contrast lakes and rivers and among those the distinct parasite community, shape differential gene expression patterns in sticklebacks. We utilize results of previous laboratory&#x02010;controlled experiments to explain the patterns we detected in the wild. This comparison suggests that among other factors the distinct parasite community is most likely an important explanatory factor causing expression differences between habitats. Our results add to previous laboratory results by examining the expression patterns of candidate genes under natural conditions. Those genes identified both here and in previous laboratory studies deserve special attention in potential follow&#x02010;up studies.</p></sec></sec><sec id="mec13520-sec-0019"><p>M.M. funded the project. F.J.J.C., C.E. and M.K. organized and contributed to the sample collections and dissections. F.J.J.C., I.E.S., M.S. and P.G.D.F. prepared the RNA samples. Y.H. performed quality assessment of the sequencing data, transcriptome mapping and processed data for analysis. Y.H., F.J.J.C., M.P. and P.G.D.F. designed the differential expression analyses, and all authors contributed to discussions on research design and results interpretations. Y.H. drafted the manuscript together with F.J.J.C. and P.G.D.F. All authors revised the manuscript.</p></sec><sec id="mec13520-sec-0020"><title>Data accessibility</title><p>The raw reads of RNA&#x02010;Seq data (fastq format) and mapping files (bam format) are available through the European Nucleotide Archive (study Accession no.: PRJEB8677, URL: <ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/ena/data/view/PRJEB8677">http://www.ebi.ac.uk/ena/data/view/PRJEB8677</ext-link>). <sc>htseq</sc> read counts, <sc>edger</sc> results and topGO results are archived in Dryad (doi:<ext-link ext-link-type="doi" xlink:href="10.5061/dryad.hq50s">10.5061/dryad.hq50s</ext-link>). Morphological and parasite data are included in Table&#x000a0;S1 (Supporting information).</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>
+<bold>Fig.&#x000a0;S1</bold> Distribution of dispersion values in (a) head kidney samples and (b) spleen samples.</p></caption><media xlink:href="MEC-25-943-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>
+<bold>Fig.&#x000a0;S2</bold> Counts of <italic>Diplostomum</italic> sp. across stickleback populations.</p></caption><media xlink:href="MEC-25-943-s002.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>
+<bold>Table&#x000a0;S1</bold> Morphological data and parasite loads of sequenced fish</p></caption><media xlink:href="MEC-25-943-s003.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>
+<bold>Table&#x000a0;S2</bold> Summary of library statistics in sequence quality filtering, sequence mapping and library scaling factor.</p></caption><media xlink:href="MEC-25-943-s004.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>
+<bold>Table&#x000a0;S3</bold> Differentially expressed genes between lake and river across four population pairs.</p></caption><media xlink:href="MEC-25-943-s005.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data"><caption><p>
+<bold>Table&#x000a0;S4</bold> Differentially expressed genes between lake and river in European populations.</p></caption><media xlink:href="MEC-25-943-s006.xlsx"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack id="mec13520-sec-0018"><title>Acknowledgements</title><p>We thank Derk Wachsmuth for computational assistance and MPI technicians, especially Anja Hasselmeyer for help with laboratory work. We thank Anika Witten for help with RNA&#x02010;Seq library preparation and sequencing. We thank Ludovic Mallet for discussions on the study. We thank the International Max Planck Research School for Evolutionary Biology for research support. We also acknowledge the work and generosity of sample collectors including Andrew Hendry, Renaud Kaeuffer, Shahin Muttalib, Caroline Leblond, No&#x000e9;mie Erin, Per Jakobsen, Tom Klepaker and Hendrik Schultz. We thank Sean Rogers and five reviewers for their insightful and constructive comments on a previous version of this manuscript.</p></ack><ref-list content-type="cited-references" id="mec13520-bibl-0001"><title>Reference</title><ref id="mec13520-bib-0001"><mixed-citation publication-type="journal" id="mec13520-cit-0001">
+<string-name>
+<surname>Albertson</surname>
+<given-names>RC</given-names>
+</string-name>, <string-name>
+<surname>Streelman</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name>
+<surname>Kocher</surname>
+<given-names>TD</given-names>
+</string-name>, <string-name>
+<surname>Yelick</surname>
+<given-names>PC</given-names>
+</string-name> (<year>2005</year>) <article-title>Integration and evolution of the cichlid mandible: the molecular basis of alternate feeding strategies</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>102</volume>, <fpage>16287</fpage>&#x02013;<lpage>16292</lpage>.<pub-id pub-id-type="pmid">16251275</pub-id></mixed-citation></ref><ref id="mec13520-bib-0002"><mixed-citation publication-type="miscellaneous" id="mec13520-cit-0002">
+<string-name>
+<surname>Alexa</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rahnenfuhrer</surname>
+<given-names>J</given-names>
+</string-name> (<year>2010</year>) <article-title>topGO: Enrichment analysis for Gene Ontology</article-title>. R package version 2.18.0.</mixed-citation></ref><ref id="mec13520-bib-0003"><mixed-citation publication-type="journal" id="mec13520-cit-0003">
+<string-name>
+<surname>Alexa</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rahnenf&#x000fc;hrer</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Lengauer</surname>
+<given-names>T</given-names>
+</string-name> (<year>2006</year>) <article-title>Improved scoring of functional groups from gene expression data by decorrelating GO graph structure</article-title>. <source>Bioinformatics</source>, <volume>22</volume>, <fpage>1600</fpage>&#x02013;<lpage>1607</lpage>.<pub-id pub-id-type="pmid">16606683</pub-id></mixed-citation></ref><ref id="mec13520-bib-0004"><mixed-citation publication-type="journal" id="mec13520-cit-0004">
+<string-name>
+<surname>Anders</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>McCarthy</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>Y</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>Count&#x02010;based differential expression analysis of RNA sequencing data using R and Bioconductor</article-title>. <source>Nature Protocols</source>, <volume>8</volume>, <fpage>1765</fpage>&#x02013;<lpage>1786</lpage>.<pub-id pub-id-type="pmid">23975260</pub-id></mixed-citation></ref><ref id="mec13520-bib-0005"><mixed-citation publication-type="journal" id="mec13520-cit-0005">
+<string-name>
+<surname>Anders</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Pyl</surname>
+<given-names>PT</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>
+<given-names>W</given-names>
+</string-name> (<year>2014</year>) <article-title>HTSeq &#x02013; A Python framework to work with high&#x02010;throughput sequencing data</article-title>. <source>Bioinformatics</source>, <volume>31</volume>, <fpage>166</fpage>&#x02013;<lpage>169</lpage>.<pub-id pub-id-type="pmid">25260700</pub-id></mixed-citation></ref><ref id="mec13520-bib-0006"><mixed-citation publication-type="journal" id="mec13520-cit-0006">
+<string-name>
+<surname>Ashburner</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ball</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>Blake</surname>
+<given-names>JA</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2000</year>) <article-title>Gene Ontology: tool for the unification of biology</article-title>. <source>Nature Genetics</source>, <volume>25</volume>, <fpage>25</fpage>&#x02013;<lpage>29</lpage>.<pub-id pub-id-type="pmid">10802651</pub-id></mixed-citation></ref><ref id="mec13520-bib-0007"><mixed-citation publication-type="journal" id="mec13520-cit-0007">
+<string-name>
+<surname>Barrett</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Schluter</surname>
+<given-names>D</given-names>
+</string-name> (<year>2008</year>) <article-title>Adaptation from standing genetic variation</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>23</volume>, <fpage>38</fpage>&#x02013;<lpage>44</lpage>.<pub-id pub-id-type="pmid">18006185</pub-id></mixed-citation></ref><ref id="mec13520-bib-0008"><mixed-citation publication-type="journal" id="mec13520-cit-0008">
+<string-name>
+<surname>Benjamini</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Hochberg</surname>
+<given-names>Y</given-names>
+</string-name> (<year>1995</year>) <article-title>Controlling the false discovery rate: a practical and powerful approach to multiple testing</article-title>. <source>Journal of the Royal Statistical Society Series B (Methodological)</source>, <volume>57</volume>, <fpage>289</fpage>&#x02013;<lpage>300</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0009"><mixed-citation publication-type="journal" id="mec13520-cit-0009">
+<string-name>
+<surname>Berner</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Adams</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>Grandchamp</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Hendry</surname>
+<given-names>AP</given-names>
+</string-name> (<year>2008</year>) <article-title>Natural selection drives patterns of lake&#x02010;stream divergence in stickleback foraging morphology</article-title>. <source>Journal of Evolutionary Biology</source>, <volume>21</volume>, <fpage>1653</fpage>&#x02013;<lpage>1665</lpage>.<pub-id pub-id-type="pmid">18691241</pub-id></mixed-citation></ref><ref id="mec13520-bib-0010"><mixed-citation publication-type="journal" id="mec13520-cit-0010">
+<string-name>
+<surname>Berner</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Roesti</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hendry</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name>
+<surname>Salzburger</surname>
+<given-names>W</given-names>
+</string-name> (<year>2010</year>) <article-title>Constraints on speciation suggested by comparing lake&#x02010;stream stickleback divergence across two continents</article-title>. <source>Molecular Ecology</source>, <volume>19</volume>, <fpage>4963</fpage>&#x02013;<lpage>4978</lpage>.<pub-id pub-id-type="pmid">20964754</pub-id></mixed-citation></ref><ref id="mec13520-bib-0011"><mixed-citation publication-type="journal" id="mec13520-cit-0011">
+<string-name>
+<surname>Bolnick</surname>
+<given-names>DI</given-names>
+</string-name>, <string-name>
+<surname>Snowberg</surname>
+<given-names>LK</given-names>
+</string-name>, <string-name>
+<surname>Caporaso</surname>
+<given-names>JG</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Major Histocompatibility Complex class IIb polymorphism influences gut microbiota composition and diversity</article-title>. <source>Molecular Ecology</source>, <volume>23</volume>, <fpage>4831</fpage>&#x02013;<lpage>4845</lpage>.<pub-id pub-id-type="pmid">24975397</pub-id></mixed-citation></ref><ref id="mec13520-bib-0012"><mixed-citation publication-type="journal" id="mec13520-cit-0012">
+<string-name>
+<surname>Butlin</surname>
+<given-names>RK</given-names>
+</string-name>, <string-name>
+<surname>Saura</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Charrier</surname>
+<given-names>G</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Parallel evolution of local adaptation and reproductive isolation in the face of gene flow</article-title>. <source>Evolution</source>, <volume>68</volume>, <fpage>935</fpage>&#x02013;<lpage>949</lpage>.<pub-id pub-id-type="pmid">24299519</pub-id></mixed-citation></ref><ref id="mec13520-bib-0013"><mixed-citation publication-type="journal" id="mec13520-cit-0013">
+<string-name>
+<surname>Chain</surname>
+<given-names>FJ</given-names>
+</string-name>, <string-name>
+<surname>Feulner</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name>
+<surname>Panchal</surname>
+<given-names>M</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Extensive copy&#x02010;number variation of young genes across stickleback populations</article-title>. <source>PLoS Genetics</source>, <volume>10</volume>, <fpage>e1004830</fpage>.<pub-id pub-id-type="pmid">25474574</pub-id></mixed-citation></ref><ref id="mec13520-bib-0014"><mixed-citation publication-type="journal" id="mec13520-cit-0014">
+<string-name>
+<surname>Chan</surname>
+<given-names>YF</given-names>
+</string-name>, <string-name>
+<surname>Marks</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>
+<given-names>FC</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2010</year>) <article-title>Adaptive evolution of pelvic reduction in sticklebacks by recurrent deletion of a Pitx1 enhancer</article-title>. <source>Science</source>, <volume>327</volume>, <fpage>302</fpage>&#x02013;<lpage>305</lpage>.<pub-id pub-id-type="pmid">20007865</pub-id></mixed-citation></ref><ref id="mec13520-bib-0015"><mixed-citation publication-type="journal" id="mec13520-cit-0015">
+<string-name>
+<surname>Cheung</surname>
+<given-names>VG</given-names>
+</string-name>, <string-name>
+<surname>Spielman</surname>
+<given-names>RS</given-names>
+</string-name> (<year>2009</year>) <article-title>Genetics of human gene expression: mapping DNA variants that influence gene expression</article-title>. <source>Nature Reviews Genetics</source>, <volume>10</volume>, <fpage>595</fpage>&#x02013;<lpage>604</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0016"><mixed-citation publication-type="journal" id="mec13520-cit-0016">
+<string-name>
+<surname>Cheviron</surname>
+<given-names>ZA</given-names>
+</string-name>, <string-name>
+<surname>Whitehead</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Brumfield</surname>
+<given-names>RT</given-names>
+</string-name> (<year>2008</year>) <article-title>Transcriptomic variation and plasticity in rufous&#x02010;collared sparrows (<italic>Zonotrichia capensis</italic>) along an altitudinal gradient</article-title>. <source>Molecular Ecology</source>, <volume>17</volume>, <fpage>4556</fpage>&#x02013;<lpage>4569</lpage>.<pub-id pub-id-type="pmid">18986500</pub-id></mixed-citation></ref><ref id="mec13520-bib-0017"><mixed-citation publication-type="journal" id="mec13520-cit-0017">
+<string-name>
+<surname>Colombo</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Diepeveen</surname>
+<given-names>ET</given-names>
+</string-name>, <string-name>
+<surname>Muschick</surname>
+<given-names>M</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>The ecological and genetic basis of convergent thick&#x02010;lipped phenotypes in cichlid fishes</article-title>. <source>Molecular Ecology</source>, <volume>22</volume>, <fpage>670</fpage>&#x02013;<lpage>684</lpage>.<pub-id pub-id-type="pmid">23050496</pub-id></mixed-citation></ref><ref id="mec13520-bib-0018"><mixed-citation publication-type="journal" id="mec13520-cit-0018">
+<string-name>
+<surname>Conti</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name>
+<surname>Davis</surname>
+<given-names>BK</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2005</year>) <article-title>CATERPILLER 16.2 (CLR16.2), a novel NBD/LRR family member that negatively regulates T cell function</article-title>. <source>The Journal of Biological Chemistry</source>, <volume>280</volume>, <fpage>18375</fpage>&#x02013;<lpage>18385</lpage>.<pub-id pub-id-type="pmid">15705585</pub-id></mixed-citation></ref><ref id="mec13520-bib-0019"><mixed-citation publication-type="journal" id="mec13520-cit-0019">
+<string-name>
+<surname>Deagle</surname>
+<given-names>BE</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>
+<given-names>FC</given-names>
+</string-name>, <string-name>
+<surname>Chan</surname>
+<given-names>YF</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>Population genomics of parallel phenotypic evolution in stickleback across stream&#x02010;lake ecological transitions</article-title>. <source>Proceedings of the Royal Society London Series B: Biological Sciences</source>, <volume>279</volume>, <fpage>1277</fpage>&#x02013;<lpage>1286</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0020"><mixed-citation publication-type="journal" id="mec13520-cit-0020">
+<string-name>
+<surname>Derome</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Duchesne</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Bernatchez</surname>
+<given-names>L</given-names>
+</string-name> (<year>2006</year>) <article-title>Parallelism in gene transcription among sympatric lake whitefish (<italic>Coregonus clupeaformis</italic> Mitchill) ecotypes</article-title>. <source>Molecular Ecology</source>, <volume>15</volume>, <fpage>1239</fpage>&#x02013;<lpage>1249</lpage>.<pub-id pub-id-type="pmid">16626451</pub-id></mixed-citation></ref><ref id="mec13520-bib-0021"><mixed-citation publication-type="journal" id="mec13520-cit-0021">
+<string-name>
+<surname>Dillies</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Rau</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Aubert</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>A comprehensive evaluation of normalization methods for Illumina high&#x02010;throughput RNA sequencing data analysis</article-title>. <source>Briefings in Bioinformatics</source>, <volume>14</volume>, <fpage>671</fpage>&#x02013;<lpage>683</lpage>.<pub-id pub-id-type="pmid">22988256</pub-id></mixed-citation></ref><ref id="mec13520-bib-0022"><mixed-citation publication-type="journal" id="mec13520-cit-0022">
+<string-name>
+<surname>Divaris</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Monda</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>North</surname>
+<given-names>KE</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>Genome&#x02010;wide association study of periodontal pathogen colonization</article-title>. <source>Journal of Dental Research</source>, <volume>91</volume>, <fpage>21s</fpage>&#x02013;<lpage>28s</lpage>.<pub-id pub-id-type="pmid">22699663</pub-id></mixed-citation></ref><ref id="mec13520-bib-0023"><mixed-citation publication-type="journal" id="mec13520-cit-0023">
+<string-name>
+<surname>Eizaguirre</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Lenz</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Traulsen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Milinski</surname>
+<given-names>M</given-names>
+</string-name> (<year>2009</year>) <article-title>Speciation accelerated and stabilized by pleiotropic major histocompatibility complex immunogenes</article-title>. <source>Ecology Letters</source>, <volume>12</volume>, <fpage>5</fpage>&#x02013;<lpage>12</lpage>.<pub-id pub-id-type="pmid">19087108</pub-id></mixed-citation></ref><ref id="mec13520-bib-0024"><mixed-citation publication-type="journal" id="mec13520-cit-0024">
+<string-name>
+<surname>Eizaguirre</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Lenz</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Sommerfeld</surname>
+<given-names>RD</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2011</year>) <article-title>Parasite diversity, patterns of MHC II variation and olfactory based mate choice in diverging three&#x02010;spined stickleback ecotypes</article-title>. <source>Evolutionary Ecology</source>, <volume>25</volume>, <fpage>605</fpage>&#x02013;<lpage>622</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0025"><mixed-citation publication-type="journal" id="mec13520-cit-0025">
+<string-name>
+<surname>Eizaguirre</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Lenz</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Kalbe</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Milinski</surname>
+<given-names>M</given-names>
+</string-name> (<year>2012a</year>) <article-title>Rapid and adaptive evolution of MHC genes under parasite selection in experimental vertebrate populations</article-title>. <source>Nature Communications</source>, <volume>3</volume>, <fpage>621</fpage>.</mixed-citation></ref><ref id="mec13520-bib-0026"><mixed-citation publication-type="journal" id="mec13520-cit-0026">
+<string-name>
+<surname>Eizaguirre</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Lenz</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Kalbe</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Milinski</surname>
+<given-names>M</given-names>
+</string-name> (<year>2012b</year>) <article-title>Divergent selection on locally adapted major histocompatibility complex immune genes experimentally proven in the field</article-title>. <source>Ecology Letters</source>, <volume>15</volume>, <fpage>723</fpage>&#x02013;<lpage>731</lpage>.<pub-id pub-id-type="pmid">22583762</pub-id></mixed-citation></ref><ref id="mec13520-bib-0027"><mixed-citation publication-type="journal" id="mec13520-cit-0027">
+<string-name>
+<surname>Elmer</surname>
+<given-names>KR</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>
+<given-names>A</given-names>
+</string-name> (<year>2011</year>) <article-title>Adaptation in the age of ecological genomics: insights from parallelism and convergence</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>26</volume>, <fpage>298</fpage>&#x02013;<lpage>306</lpage>.<pub-id pub-id-type="pmid">21459472</pub-id></mixed-citation></ref><ref id="mec13520-bib-0028"><mixed-citation publication-type="journal" id="mec13520-cit-0028">
+<string-name>
+<surname>Feulner</surname>
+<given-names>PG</given-names>
+</string-name>, <string-name>
+<surname>Chain</surname>
+<given-names>FJ</given-names>
+</string-name>, <string-name>
+<surname>Panchal</surname>
+<given-names>M</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2015</year>) <article-title>Genomics of divergence along a continuum of parapatric population differentiation</article-title>. <source>PLoS Genetics</source>, <volume>11</volume>, <fpage>e1004966</fpage>.<pub-id pub-id-type="pmid">25679225</pub-id></mixed-citation></ref><ref id="mec13520-bib-0029"><mixed-citation publication-type="journal" id="mec13520-cit-0029">
+<string-name>
+<surname>Ffrench&#x02010;Constant</surname>
+<given-names>RH</given-names>
+</string-name>, <string-name>
+<surname>Rocheleau</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Steichen</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Chalmers</surname>
+<given-names>AE</given-names>
+</string-name> (<year>1993</year>) <article-title>A point mutation in a Drosophila GABA receptor confers insecticide resistance</article-title>. <source>Nature</source>, <volume>363</volume>, <fpage>449</fpage>&#x02013;<lpage>451</lpage>.<pub-id pub-id-type="pmid">8389005</pub-id></mixed-citation></ref><ref id="mec13520-bib-0030"><mixed-citation publication-type="journal" id="mec13520-cit-0030">
+<string-name>
+<surname>Flicek</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Amode</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Barrell</surname>
+<given-names>D</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>Ensembl 2012</article-title>. <source>Nucleic Acids Research</source>, <volume>40</volume>, <fpage>D84</fpage>&#x02013;<lpage>D90</lpage>.<pub-id pub-id-type="pmid">22086963</pub-id></mixed-citation></ref><ref id="mec13520-bib-0031"><mixed-citation publication-type="journal" id="mec13520-cit-0031">
+<string-name>
+<surname>Franssen</surname>
+<given-names>SU</given-names>
+</string-name>, <string-name>
+<surname>Gu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Bergmann</surname>
+<given-names>N</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2011</year>) <article-title>Transcriptomic resilience to global warming in the seagrass <italic>Zostera marina</italic>, a marine foundation species</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>, <volume>108</volume>, <fpage>19276</fpage>&#x02013;<lpage>19281</lpage>.<pub-id pub-id-type="pmid">22084086</pub-id></mixed-citation></ref><ref id="mec13520-bib-0032"><mixed-citation publication-type="journal" id="mec13520-cit-0032">
+<string-name>
+<surname>Fraser</surname>
+<given-names>HB</given-names>
+</string-name> (<year>2013</year>) <article-title>Gene expression drives local adaptation in humans</article-title>. <source>Genome Research</source>, <volume>23</volume>, <fpage>1089</fpage>&#x02013;<lpage>1096</lpage>.<pub-id pub-id-type="pmid">23539138</pub-id></mixed-citation></ref><ref id="mec13520-bib-0033"><mixed-citation publication-type="journal" id="mec13520-cit-0033">
+<string-name>
+<surname>Gemayel</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Vinces</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Legendre</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Verstrepen</surname>
+<given-names>KJ</given-names>
+</string-name> (<year>2010</year>) <article-title>Variable tandem repeats accelerate evolution of coding and regulatory sequences</article-title>. <source>Annual Review of Genetics</source>, <volume>44</volume>, <fpage>445</fpage>&#x02013;<lpage>477</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0034"><mixed-citation publication-type="journal" id="mec13520-cit-0034">
+<string-name>
+<surname>Gibson</surname>
+<given-names>G</given-names>
+</string-name> (<year>2008</year>) <article-title>The environmental contribution to gene expression profiles</article-title>. <source>Nature Reviews Genetics</source>, <volume>9</volume>, <fpage>575</fpage>&#x02013;<lpage>581</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0035"><mixed-citation publication-type="journal" id="mec13520-cit-0035">
+<string-name>
+<surname>Gibson</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Weir</surname>
+<given-names>B</given-names>
+</string-name> (<year>2005</year>) <article-title>The quantitative genetics of transcription</article-title>. <source>Trends in Genetics</source>, <volume>21</volume>, <fpage>616</fpage>&#x02013;<lpage>623</lpage>.<pub-id pub-id-type="pmid">16154229</pub-id></mixed-citation></ref><ref id="mec13520-bib-0036"><mixed-citation publication-type="journal" id="mec13520-cit-0036">
+<string-name>
+<surname>Gilad</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Rifkin</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Pritchard</surname>
+<given-names>JK</given-names>
+</string-name> (<year>2008</year>) <article-title>Revealing the architecture of gene regulation: the promise of eQTL studies</article-title>. <source>Trends in Genetics</source>, <volume>24</volume>, <fpage>408</fpage>&#x02013;<lpage>415</lpage>.<pub-id pub-id-type="pmid">18597885</pub-id></mixed-citation></ref><ref id="mec13520-bib-0037"><mixed-citation publication-type="journal" id="mec13520-cit-0037">
+<string-name>
+<surname>Haase</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Rieger</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Witten</surname>
+<given-names>A</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Specific gene expression responses to parasite genotypes reveal redundancy of innate immunity in vertebrates</article-title>. <source>PLoS ONE</source>, <volume>9</volume>, <fpage>e108001</fpage>.<pub-id pub-id-type="pmid">25254967</pub-id></mixed-citation></ref><ref id="mec13520-bib-0038"><mixed-citation publication-type="journal" id="mec13520-cit-0038">
+<string-name>
+<surname>Haraksingh</surname>
+<given-names>RR</given-names>
+</string-name>, <string-name>
+<surname>Snyder</surname>
+<given-names>MP</given-names>
+</string-name> (<year>2013</year>) <article-title>Impacts of variation in the human genome on gene regulation</article-title>. <source>Journal of Molecular Biology</source>, <volume>425</volume>, <fpage>3970</fpage>&#x02013;<lpage>3977</lpage>.<pub-id pub-id-type="pmid">23871684</pub-id></mixed-citation></ref><ref id="mec13520-bib-0039"><mixed-citation publication-type="journal" id="mec13520-cit-0039">
+<string-name>
+<surname>Hargeby</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Johansson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ahnesjo</surname>
+<given-names>J</given-names>
+</string-name> (<year>2004</year>) <article-title>Habitat&#x02010;specific pigmentation in a freshwater isopod: adaptive evolution over a small spatiotemporal scale</article-title>. <source>Evolution</source>, <volume>58</volume>, <fpage>81</fpage>&#x02013;<lpage>94</lpage>.<pub-id pub-id-type="pmid">15058721</pub-id></mixed-citation></ref><ref id="mec13520-bib-0040"><mixed-citation publication-type="journal" id="mec13520-cit-0040">
+<string-name>
+<surname>Harmon</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name>
+<surname>Kolbe</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Cheverud</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Losos</surname>
+<given-names>JB</given-names>
+</string-name> (<year>2005</year>) <article-title>Convergence and the multidimensional niche</article-title>. <source>Evolution</source>, <volume>59</volume>, <fpage>409</fpage>&#x02013;<lpage>421</lpage>.<pub-id pub-id-type="pmid">15807425</pub-id></mixed-citation></ref><ref id="mec13520-bib-0041"><mixed-citation publication-type="journal" id="mec13520-cit-0041">
+<string-name>
+<surname>Harrison</surname>
+<given-names>PW</given-names>
+</string-name>, <string-name>
+<surname>Wright</surname>
+<given-names>AE</given-names>
+</string-name>, <string-name>
+<surname>Mank</surname>
+<given-names>JE</given-names>
+</string-name> (<year>2012</year>) <article-title>The evolution of gene expression and the transcriptome&#x02010;phenotype relationship</article-title>. <source>Seminars in Cell and Developmental Biology</source>, <volume>23</volume>, <fpage>222</fpage>&#x02013;<lpage>229</lpage>.<pub-id pub-id-type="pmid">22210502</pub-id></mixed-citation></ref><ref id="mec13520-bib-0042"><mixed-citation publication-type="journal" id="mec13520-cit-0042">
+<string-name>
+<surname>Hoekstra</surname>
+<given-names>HE</given-names>
+</string-name>, <string-name>
+<surname>Hirschmann</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Bundey</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Insel</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Crossland</surname>
+<given-names>JP</given-names>
+</string-name> (<year>2006</year>) <article-title>A single amino acid mutation contributes to adaptive beach mouse color pattern</article-title>. <source>Science</source>, <volume>313</volume>, <fpage>101</fpage>&#x02013;<lpage>104</lpage>.<pub-id pub-id-type="pmid">16825572</pub-id></mixed-citation></ref><ref id="mec13520-bib-0200"><mixed-citation publication-type="journal" id="mec13520-cit-0200">
+<string-name>
+<surname>Howe</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Clark</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Torroja</surname>
+<given-names>CF</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>The zebrafish reference genome sequence and its relationship to the human genome</article-title>. <source>Nature</source>, <volume>496</volume>, <fpage>498</fpage>&#x02013;<lpage>503</lpage>.<pub-id pub-id-type="pmid">23594743</pub-id></mixed-citation></ref><ref id="mec13520-bib-0043"><mixed-citation publication-type="journal" id="mec13520-cit-0043">
+<string-name>
+<surname>Kaeuffer</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Peichel</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Bolnick</surname>
+<given-names>DI</given-names>
+</string-name>, <string-name>
+<surname>Hendry</surname>
+<given-names>AP</given-names>
+</string-name> (<year>2012</year>) <article-title>Parallel and nonparallel aspects of ecological, phenotypic, and genetic divergence across replicate population pairs of lake and stream stickleback</article-title>. <source>Evolution</source>, <volume>66</volume>, <fpage>402</fpage>&#x02013;<lpage>418</lpage>.<pub-id pub-id-type="pmid">22276537</pub-id></mixed-citation></ref><ref id="mec13520-bib-0044"><mixed-citation publication-type="journal" id="mec13520-cit-0044">
+<string-name>
+<surname>Kalbe</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Wegner</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name>
+<surname>Reusch</surname>
+<given-names>TBH</given-names>
+</string-name> (<year>2002</year>) <article-title>Dispersion patterns of parasites in 0+ year three&#x02010;spined sticklebacks: a cross population comparison</article-title>. <source>Journal of Fish Biology</source>, <volume>60</volume>, <fpage>1529</fpage>&#x02013;<lpage>1542</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0045"><mixed-citation publication-type="journal" id="mec13520-cit-0045">
+<string-name>
+<surname>Karvonen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lucek</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Marques</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Seehausen</surname>
+<given-names>O</given-names>
+</string-name> (<year>2015</year>) <article-title>Divergent macroparasite infections in parapatric Swiss lake&#x02010;stream pairs of threespine stickleback (<italic>Gasterosteus aculeatus</italic>)</article-title>. <source>PLoS ONE</source>, <volume>10</volume>, <fpage>e0130579</fpage>.<pub-id pub-id-type="pmid">26086778</pub-id></mixed-citation></ref><ref id="mec13520-bib-0046"><mixed-citation publication-type="journal" id="mec13520-cit-0046">
+<string-name>
+<surname>Kedzierski</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Montgomery</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Curtis</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Handman</surname>
+<given-names>E</given-names>
+</string-name> (<year>2004</year>) <article-title>Leucine&#x02010;rich repeats in host&#x02010;pathogen interactions</article-title>. <source>Archivum Immunologiae et Therapia Experimentalis</source>, <volume>52</volume>, <fpage>104</fpage>&#x02013;<lpage>112</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0047"><mixed-citation publication-type="journal" id="mec13520-cit-0047">
+<string-name>
+<surname>Kim</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>SH</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2009</year>) <article-title>Identification of LRRc17 as a negative regulator of receptor activator of NF&#x02010;&#x003ba;B Ligand (RANKL)&#x02010;induced osteoclast differentiation</article-title>. <source>Journal of Biological Chemistry</source>, <volume>284</volume>, <fpage>15308</fpage>&#x02013;<lpage>15316</lpage>.<pub-id pub-id-type="pmid">19336404</pub-id></mixed-citation></ref><ref id="mec13520-bib-0048"><mixed-citation publication-type="journal" id="mec13520-cit-0048">
+<string-name>
+<surname>Kim</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Pertea</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Trapnell</surname>
+<given-names>C</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions</article-title>. <source>Genome Biology</source>, <volume>14</volume>, <fpage>R36</fpage>.<pub-id pub-id-type="pmid">23618408</pub-id></mixed-citation></ref><ref id="mec13520-bib-0049"><mixed-citation publication-type="journal" id="mec13520-cit-0049">
+<string-name>
+<surname>Leder</surname>
+<given-names>EH</given-names>
+</string-name>, <string-name>
+<surname>McCairns</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Leinonen</surname>
+<given-names>T</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>The evolution and adaptive potential of transcriptional variation in sticklebacks&#x02010;signatures of selection and widespread heritability</article-title>. <source>Molecular Biology and Evolution</source>, <volume>32</volume>, <fpage>674</fpage>&#x02013;<lpage>689</lpage>.<pub-id pub-id-type="pmid">25429004</pub-id></mixed-citation></ref><ref id="mec13520-bib-0050"><mixed-citation publication-type="journal" id="mec13520-cit-0050">
+<string-name>
+<surname>Lenz</surname>
+<given-names>TL</given-names>
+</string-name> (<year>2015</year>) <article-title>Transcription in space &#x02010; environmental vs. genetic effects on differential immune gene expression</article-title>. <source>Molecular Ecology</source>, <volume>24</volume>, <fpage>4583</fpage>&#x02013;<lpage>4585</lpage>.<pub-id pub-id-type="pmid">26374665</pub-id></mixed-citation></ref><ref id="mec13520-bib-0051"><mixed-citation publication-type="journal" id="mec13520-cit-0051">
+<string-name>
+<surname>Lenz</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Eizaguirre</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Rotter</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Kalbe</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Milinski</surname>
+<given-names>M</given-names>
+</string-name> (<year>2013</year>) <article-title>Exploring local immunological adaptation of two stickleback ecotypes by experimental infection and transcriptome&#x02010;wide digital gene expression analysis</article-title>. <source>Molecular Ecology</source>, <volume>22</volume>, <fpage>774</fpage>&#x02013;<lpage>786</lpage>.<pub-id pub-id-type="pmid">22971109</pub-id></mixed-citation></ref><ref id="mec13520-bib-0052"><mixed-citation publication-type="journal" id="mec13520-cit-0052">
+<string-name>
+<surname>Losos</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Jackman</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name>
+<surname>Larson</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Queiroz</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez&#x02010;Schettino</surname>
+<given-names>L</given-names>
+</string-name> (<year>1998</year>) <article-title>Contingency and determinism in replicated adaptive radiations of island lizards</article-title>. <source>Science</source>, <volume>279</volume>, <fpage>2115</fpage>&#x02013;<lpage>2118</lpage>.<pub-id pub-id-type="pmid">9516114</pub-id></mixed-citation></ref><ref id="mec13520-bib-0053"><mixed-citation publication-type="journal" id="mec13520-cit-0053">
+<string-name>
+<surname>Love</surname>
+<given-names>MI</given-names>
+</string-name>, <string-name>
+<surname>Huber</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Anders</surname>
+<given-names>S</given-names>
+</string-name> (<year>2014</year>) <article-title>Moderated estimation of fold change and dispersion for RNA&#x02010;Seq data with DESeq2</article-title>. <source>Genome Biology</source>, <volume>15</volume>, <fpage>550</fpage>.<pub-id pub-id-type="pmid">25516281</pub-id></mixed-citation></ref><ref id="mec13520-bib-0054"><mixed-citation publication-type="journal" id="mec13520-cit-0054">
+<string-name>
+<surname>Lucek</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Lemoine</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Seehausen</surname>
+<given-names>O</given-names>
+</string-name> (<year>2014</year>) <article-title>Contemporary ecotypic divergence during a recent range expansion was facilitated by adaptive introgression</article-title>. <source>Journal of Evolutionary Biology</source>, <volume>27</volume>, <fpage>2233</fpage>&#x02013;<lpage>2248</lpage>.<pub-id pub-id-type="pmid">25228272</pub-id></mixed-citation></ref><ref id="mec13520-bib-0055"><mixed-citation publication-type="journal" id="mec13520-cit-0055">
+<string-name>
+<surname>Machado&#x02010;Schiaffino</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Henning</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>
+<given-names>A</given-names>
+</string-name> (<year>2014</year>) <article-title>Species&#x02010;specific differences in adaptive phenotypic plasticity in an ecologically relevant trophic trait: hypertrophic lips in Midas cichlid fishes</article-title>. <source>Evolution</source>, <volume>68</volume>, <fpage>2086</fpage>&#x02013;<lpage>2091</lpage>.<pub-id pub-id-type="pmid">24475874</pub-id></mixed-citation></ref><ref id="mec13520-bib-0056"><mixed-citation publication-type="journal" id="mec13520-cit-0056">
+<string-name>
+<surname>MacKinnon</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Rundle</surname>
+<given-names>HD</given-names>
+</string-name> (<year>2002</year>) <article-title>Speciation in nature: the threespine stickleback model systems</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>17</volume>, <fpage>480</fpage>&#x02013;<lpage>488</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0057"><mixed-citation publication-type="journal" id="mec13520-cit-0057">
+<string-name>
+<surname>Manceau</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Domingues</surname>
+<given-names>VS</given-names>
+</string-name>, <string-name>
+<surname>Mallarino</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Hoekstra</surname>
+<given-names>HE</given-names>
+</string-name> (<year>2011</year>) <article-title>The developmental role of Agouti in color pattern evolution</article-title>. <source>Science</source>, <volume>331</volume>, <fpage>1062</fpage>&#x02013;<lpage>1065</lpage>.<pub-id pub-id-type="pmid">21350176</pub-id></mixed-citation></ref><ref id="mec13520-bib-0058"><mixed-citation publication-type="journal" id="mec13520-cit-0058">
+<string-name>
+<surname>Manousaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Hull</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name>
+<surname>Kusche</surname>
+<given-names>H</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2013</year>) <article-title>Parsing parallel evolution: ecological divergence and differential gene expression in the adaptive radiations of thick&#x02010;lipped Midas cichlid fishes from Nicaragua</article-title>. <source>Molecular Ecology</source>, <volume>22</volume>, <fpage>650</fpage>&#x02013;<lpage>669</lpage>.<pub-id pub-id-type="pmid">23057963</pub-id></mixed-citation></ref><ref id="mec13520-bib-0059"><mixed-citation publication-type="journal" id="mec13520-cit-0059">
+<string-name>
+<surname>Morris</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Richard</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Leder</surname>
+<given-names>EH</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>Gene expression plasticity evolves in response to colonization of freshwater lakes in threespine stickleback</article-title>. <source>Molecular Ecology</source>, <volume>23</volume>, <fpage>3226</fpage>&#x02013;<lpage>3240</lpage>.<pub-id pub-id-type="pmid">24889067</pub-id></mixed-citation></ref><ref id="mec13520-bib-0060"><mixed-citation publication-type="journal" id="mec13520-cit-0060">
+<string-name>
+<surname>Moser</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Kueng</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Berner</surname>
+<given-names>D</given-names>
+</string-name> (<year>2015</year>) <article-title>Lake&#x02010;stream divergence in stickleback life history: a plastic response to trophic niche differentiation?</article-title>
+<source>Evolutionary Biology</source>, <volume>42</volume>, <fpage>328</fpage>&#x02013;<lpage>338</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0061"><mixed-citation publication-type="journal" id="mec13520-cit-0061">
+<string-name>
+<surname>Muschick</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Indermaur</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Salzburger</surname>
+<given-names>W</given-names>
+</string-name> (<year>2012</year>) <article-title>Convergent evolution within an adaptive radiation of cichlid fishes</article-title>. <source>Current Biology</source>, <volume>22</volume>, <fpage>2362</fpage>&#x02013;<lpage>2368</lpage>.<pub-id pub-id-type="pmid">23159601</pub-id></mixed-citation></ref><ref id="mec13520-bib-0062"><mixed-citation publication-type="journal" id="mec13520-cit-0062">
+<string-name>
+<surname>Pavey</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Collin</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Nosil</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Rogers</surname>
+<given-names>SM</given-names>
+</string-name> (<year>2010</year>) <article-title>The role of gene expression in ecological speciation</article-title>. <source>Annals of the New York Academy of Sciences</source>, <volume>1206</volume>, <fpage>110</fpage>&#x02013;<lpage>129</lpage>.<pub-id pub-id-type="pmid">20860685</pub-id></mixed-citation></ref><ref id="mec13520-bib-0063"><mixed-citation publication-type="journal" id="mec13520-cit-0063">
+<string-name>
+<surname>Pavey</surname>
+<given-names>SA</given-names>
+</string-name>, <string-name>
+<surname>Sutherland</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name>
+<surname>Leong</surname>
+<given-names>J</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2011</year>) <article-title>Ecological transcriptomics of lake&#x02010;type and riverine sockeye salmon (<italic>Oncorhynchus nerka</italic>)</article-title>. <source>BMC Ecology</source>, <volume>11</volume>, <fpage>31</fpage>.<pub-id pub-id-type="pmid">22136247</pub-id></mixed-citation></ref><ref id="mec13520-bib-0064"><mixed-citation publication-type="journal" id="mec13520-cit-0064">
+<string-name>
+<surname>Press</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Evensen</surname>
+<given-names>O</given-names>
+</string-name> (<year>1999</year>) <article-title>The morphology of the immune system in teleost fishes</article-title>. <source>Fish &#x00026; Shellfish Immunology</source>, <volume>9</volume>, <fpage>309</fpage>&#x02013;<lpage>318</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0065"><mixed-citation publication-type="journal" id="mec13520-cit-0065">
+<string-name>
+<surname>Pritchard</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Pickrell</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Coop</surname>
+<given-names>G</given-names>
+</string-name> (<year>2010</year>) <article-title>The genetics of human adaptation: hard sweeps, soft sweeps, and polygenic adaptation</article-title>. <source>Current Biology</source>, <volume>20</volume>, <fpage>R208</fpage>&#x02013;<lpage>R215</lpage>.<pub-id pub-id-type="pmid">20178769</pub-id></mixed-citation></ref><ref id="mec13520-bib-0066"><mixed-citation publication-type="journal" id="mec13520-cit-0066">
+<string-name>
+<surname>Protas</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Hersey</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kochanek</surname>
+<given-names>D</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2006</year>) <article-title>Genetic analysis of cavefish reveals molecular convergence in the evolution of albinism</article-title>. <source>Nature Genetics</source>, <volume>38</volume>, <fpage>107</fpage>&#x02013;<lpage>111</lpage>.<pub-id pub-id-type="pmid">16341223</pub-id></mixed-citation></ref><ref id="mec13520-bib-0067"><mixed-citation publication-type="book" id="mec13520-cit-0067">
+<collab collab-type="authors">R Development Core Team</collab>
+(<year>2008</year>) <source>R: A Language and Environment for Statistical Computing</source>. <publisher-name>R Foundation for Statistical Computing</publisher-name>, <publisher-loc>Vienna, Austria</publisher-loc> ISBN 3&#x02010;900051&#x02010;07&#x02010;0, URL <ext-link ext-link-type="uri" xlink:href="http://www.R-project.org">http://www.R-project.org</ext-link>
+</mixed-citation></ref><ref id="mec13520-bib-0068"><mixed-citation publication-type="journal" id="mec13520-cit-0068">
+<string-name>
+<surname>Ranz</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Machado</surname>
+<given-names>CA</given-names>
+</string-name> (<year>2006</year>) <article-title>Uncovering evolutionary patterns of gene expression using microarrays</article-title>. <source>Trends in Ecology &#x00026; Evolution</source>, <volume>21</volume>, <fpage>29</fpage>&#x02013;<lpage>37</lpage>.<pub-id pub-id-type="pmid">16701467</pub-id></mixed-citation></ref><ref id="mec13520-bib-0069"><mixed-citation publication-type="journal" id="mec13520-cit-0069">
+<string-name>
+<surname>Rebeiz</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Pool</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Kassner</surname>
+<given-names>VA</given-names>
+</string-name>, <string-name>
+<surname>Aquadro</surname>
+<given-names>CF</given-names>
+</string-name>, <string-name>
+<surname>Carroll</surname>
+<given-names>SB</given-names>
+</string-name> (<year>2009</year>) <article-title>Stepwise modification of a modular enhancer underlies adaptation in a Drosophila population</article-title>. <source>Science</source>, <volume>326</volume>, <fpage>1663</fpage>&#x02013;<lpage>1667</lpage>.<pub-id pub-id-type="pmid">20019281</pub-id></mixed-citation></ref><ref id="mec13520-bib-0070"><mixed-citation publication-type="journal" id="mec13520-cit-0070">
+<string-name>
+<surname>Reusch</surname>
+<given-names>TB</given-names>
+</string-name>, <string-name>
+<surname>Wegner</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name>
+<surname>Kalbe</surname>
+<given-names>M</given-names>
+</string-name> (<year>2001</year>) <article-title>Rapid genetic divergence in postglacial populations of threespine stickleback (<italic>Gasterosteus aculeatus</italic>): the role of habitat type, drainage and geographical proximity</article-title>. <source>Molecular Ecology</source>, <volume>10</volume>, <fpage>2435</fpage>&#x02013;<lpage>2445</lpage>.<pub-id pub-id-type="pmid">11703651</pub-id></mixed-citation></ref><ref id="mec13520-bib-0071"><mixed-citation publication-type="journal" id="mec13520-cit-0071">
+<string-name>
+<surname>Robinson</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Oshlack</surname>
+<given-names>A</given-names>
+</string-name> (<year>2010</year>) <article-title>A scaling normalization method for differential expression analysis of RNA&#x02010;seq data</article-title>. <source>Genome Biology</source>, <volume>11</volume>, <fpage>R25</fpage>.<pub-id pub-id-type="pmid">20196867</pub-id></mixed-citation></ref><ref id="mec13520-bib-0072"><mixed-citation publication-type="journal" id="mec13520-cit-0072">
+<string-name>
+<surname>Robinson</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>McCarthy</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Smyth</surname>
+<given-names>GK</given-names>
+</string-name> (<year>2010</year>) <article-title>edgeR: a Bioconductor package for differential expression analysis of digital gene expression data</article-title>. <source>Bioinformatics</source>, <volume>26</volume>, <fpage>139</fpage>&#x02013;<lpage>140</lpage>.<pub-id pub-id-type="pmid">19910308</pub-id></mixed-citation></ref><ref id="mec13520-bib-0073"><mixed-citation publication-type="journal" id="mec13520-cit-0073">
+<string-name>
+<surname>Roesti</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hendry</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name>
+<surname>Salzburger</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Berner</surname>
+<given-names>D</given-names>
+</string-name> (<year>2012</year>) <article-title>Genome divergence during evolutionary diversification as revealed in replicate lake&#x02010;stream stickleback population pairs</article-title>. <source>Molecular Ecology</source>, <volume>21</volume>, <fpage>2852</fpage>&#x02013;<lpage>2862</lpage>.<pub-id pub-id-type="pmid">22384978</pub-id></mixed-citation></ref><ref id="mec13520-bib-0074"><mixed-citation publication-type="journal" id="mec13520-cit-0074">
+<string-name>
+<surname>Rohlenov&#x000e1;</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Morand</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hyr&#x00161;l</surname>
+<given-names>P</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2011</year>) <article-title>Are fish immune systems really affected by parasites? an immunoecological study of common carp (<italic>Cyprinus carpio</italic>)</article-title>. <source>Parasit Vectors</source>, <volume>4</volume>, <fpage>120</fpage>.<pub-id pub-id-type="pmid">21708010</pub-id></mixed-citation></ref><ref id="mec13520-bib-0075"><mixed-citation publication-type="journal" id="mec13520-cit-0075">
+<string-name>
+<surname>Savolainen</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Lascoux</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Merila</surname>
+<given-names>J</given-names>
+</string-name> (<year>2013</year>) <article-title>Ecological genomics of local adaptation</article-title>. <source>Nature Reviews Genetics</source>, <volume>14</volume>, <fpage>807</fpage>&#x02013;<lpage>820</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0076"><mixed-citation publication-type="journal" id="mec13520-cit-0076">
+<string-name>
+<surname>Scharsack</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Kalbe</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Harrod</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Rauch</surname>
+<given-names>G</given-names>
+</string-name> (<year>2007</year>) <article-title>Habitat&#x02010;specific adaptation of immune responses of stickleback (<italic>Gasterosteus aculeatus</italic>) lake and river ecotypes</article-title>. <source>Proceedings of the Royal Society London Series B: Biological Sciences</source>, <volume>274</volume>, <fpage>1523</fpage>&#x02013;<lpage>1532</lpage>.</mixed-citation></ref><ref id="mec13520-bib-0077"><mixed-citation publication-type="journal" id="mec13520-cit-0077">
+<string-name>
+<surname>Schmieder</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Edwards</surname>
+<given-names>R</given-names>
+</string-name> (<year>2011</year>) <article-title>Quality control and preprocessing of metagenomic datasets</article-title>. <source>Bioinformatics</source>, <volume>27</volume>, <fpage>863</fpage>&#x02013;<lpage>864</lpage>.<pub-id pub-id-type="pmid">21278185</pub-id></mixed-citation></ref><ref id="mec13520-bib-0078"><mixed-citation publication-type="journal" id="mec13520-cit-0078">
+<string-name>
+<surname>Schneider</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Zimmermann</surname>
+<given-names>AG</given-names>
+</string-name>, <string-name>
+<surname>Roberts</surname>
+<given-names>RA</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2012</year>) <article-title>The innate immune sensor NLRC3 attenuates Toll&#x02010;like receptor signaling via modification of the signaling adaptor TRAF6 and transcription factor NF&#x02010;kappaB</article-title>. <source>Nature Immunology</source>, <volume>13</volume>, <fpage>823</fpage>&#x02013;<lpage>831</lpage>.<pub-id pub-id-type="pmid">22863753</pub-id></mixed-citation></ref><ref id="mec13520-bib-0079"><mixed-citation publication-type="journal" id="mec13520-cit-0079">
+<string-name>
+<surname>Stamatoyannopoulos</surname>
+<given-names>JA</given-names>
+</string-name> (<year>2004</year>) <article-title>The genomics of gene expression</article-title>. <source>Genomics</source>, <volume>84</volume>, <fpage>449</fpage>&#x02013;<lpage>457</lpage>.<pub-id pub-id-type="pmid">15498452</pub-id></mixed-citation></ref><ref id="mec13520-bib-0080"><mixed-citation publication-type="journal" id="mec13520-cit-0080">
+<string-name>
+<surname>Stanley</surname>
+<given-names>ER</given-names>
+</string-name>, <string-name>
+<surname>Cifone</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Heard</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name>
+<surname>Defendi</surname>
+<given-names>V</given-names>
+</string-name> (<year>1976</year>) <article-title>Factors regulating macrophage production and growth: identity of colony&#x02010;stimulating factor and macrophage growth factor</article-title>. <source>Journal of Experimental Medicine</source>, <volume>143</volume>, <fpage>631</fpage>&#x02013;<lpage>647</lpage>.<pub-id pub-id-type="pmid">1082493</pub-id></mixed-citation></ref><ref id="mec13520-bib-0081"><mixed-citation publication-type="journal" id="mec13520-cit-0081">
+<string-name>
+<surname>Stutz</surname>
+<given-names>WE</given-names>
+</string-name>, <string-name>
+<surname>Schmerer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Coates</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name>
+<surname>Bolnick</surname>
+<given-names>DI</given-names>
+</string-name> (<year>2015</year>) <article-title>Among&#x02010;lake reciprocal transplants induce convergent expression of immune genes in threespine stickleback</article-title>. <source>Molecular Ecology</source>, <volume>24</volume>, <fpage>4629</fpage>&#x02013;<lpage>4646</lpage>.<pub-id pub-id-type="pmid">26118468</pub-id></mixed-citation></ref><ref id="mec13520-bib-0082"><mixed-citation publication-type="journal" id="mec13520-cit-0082">
+<string-name>
+<surname>Wegner</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name>
+<surname>Reusch</surname>
+<given-names>TB</given-names>
+</string-name>, <string-name>
+<surname>Kalbe</surname>
+<given-names>M</given-names>
+</string-name> (<year>2003</year>) <article-title>Multiple parasites are driving major histocompatibility complex polymorphism in the wild</article-title>. <source>Journal of Evolutionary Biology</source>, <volume>16</volume>, <fpage>224</fpage>&#x02013;<lpage>232</lpage>.<pub-id pub-id-type="pmid">14635861</pub-id></mixed-citation></ref><ref id="mec13520-bib-0083"><mixed-citation publication-type="journal" id="mec13520-cit-0083">
+<string-name>
+<surname>Whitehead</surname>
+<given-names>A</given-names>
+</string-name> (<year>2012</year>) <article-title>Comparative genomics in ecological physiology: toward a more nuanced understanding of acclimation and adaptation</article-title>. <source>The Journal of Experimental Biology</source>, <volume>215</volume>, <fpage>884</fpage>&#x02013;<lpage>891</lpage>.<pub-id pub-id-type="pmid">22357582</pub-id></mixed-citation></ref><ref id="mec13520-bib-0084"><mixed-citation publication-type="journal" id="mec13520-cit-0084">
+<string-name>
+<surname>Zhang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Mo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Swanson</surname>
+<given-names>KV</given-names>
+</string-name>
+<italic>et&#x000a0;al</italic> (<year>2014</year>) <article-title>NLRC3, a member of the NLR family of proteins, is a negative regulator of innate immune signaling induced by the DNA sensor STING</article-title>. <source>Immunity</source>, <volume>40</volume>, <fpage>329</fpage>&#x02013;<lpage>341</lpage>.<pub-id pub-id-type="pmid">24560620</pub-id></mixed-citation></ref></ref-list></back></article>

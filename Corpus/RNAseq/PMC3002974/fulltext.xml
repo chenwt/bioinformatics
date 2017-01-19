@@ -1,0 +1,1483 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "archivearticle3.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.0 20040830//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS One</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosone</journal-id><journal-title-group><journal-title>PLoS ONE</journal-title></journal-title-group><issn pub-type="epub">1932-6203</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3002974</article-id><article-id pub-id-type="publisher-id">PONE-D-10-02828</article-id><article-id pub-id-type="doi">10.1371/journal.pone.0015264</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology</subject><subj-group><subject>Developmental Biology</subject><subj-group><subject>Cell Differentiation</subject><subject>Evolutionary Developmental Biology</subject><subject>Molecular Development</subject></subj-group></subj-group><subj-group><subject>Genetics</subject><subj-group><subject>Gene Expression</subject><subj-group><subject>RNA interference</subject></subj-group></subj-group><subj-group><subject>Animal Genetics</subject><subject>Gene Function</subject><subject>Genetic Mutation</subject><subject>Population Genetics</subject></subj-group></subj-group><subj-group><subject>Genomics</subject><subj-group><subject>Genome Complexity</subject><subject>Genome Evolution</subject></subj-group></subj-group><subj-group><subject>Model Organisms</subject><subj-group><subject>Animal Models</subject><subj-group><subject>Drosophila Melanogaster</subject></subj-group></subj-group></subj-group><subj-group><subject>Molecular Cell Biology</subject><subj-group><subject>Cell Division</subject><subj-group><subject>Cytokinesis</subject></subj-group></subj-group><subj-group><subject>Cell Growth</subject></subj-group></subj-group></subj-group></article-categories><title-group><article-title>Natural Variation of the Amino-Terminal Glutamine-Rich Domain in                        <italic>Drosophila</italic> Argonaute2 Is Not Associated with Developmental
+                    Defects</article-title><alt-title alt-title-type="running-head">Argonaute2 in
+                <italic>Drosophila</italic></alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Hain</surname><given-names>Daniel</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Bettencourt</surname><given-names>Brian R.</given-names></name><xref ref-type="aff" rid="aff2"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name><surname>Okamura</surname><given-names>Katsutomo</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name><surname>Csorba</surname><given-names>Tibor</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref><xref ref-type="author-notes" rid="fn1"><sup>&#x000a4;a</sup></xref></contrib><contrib contrib-type="author"><name><surname>Meyer</surname><given-names>Wibke</given-names></name><xref ref-type="aff" rid="aff5"><sup>5</sup></xref><xref ref-type="author-notes" rid="fn2"><sup>&#x000a4;b</sup></xref></contrib><contrib contrib-type="author"><name><surname>Jin</surname><given-names>Zhigang</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name><surname>Biggerstaff</surname><given-names>Jason</given-names></name><xref ref-type="aff" rid="aff6"><sup>6</sup></xref></contrib><contrib contrib-type="author"><name><surname>Siomi</surname><given-names>Haruhiko</given-names></name><xref ref-type="aff" rid="aff7"><sup>7</sup></xref></contrib><contrib contrib-type="author"><name><surname>Hutvagner</surname><given-names>Gyorgy</given-names></name><xref ref-type="aff" rid="aff4"><sup>4</sup></xref></contrib><contrib contrib-type="author"><name><surname>Lai</surname><given-names>Eric C.</given-names></name><xref ref-type="aff" rid="aff3"><sup>3</sup></xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Welte</surname><given-names>Michael</given-names></name><xref ref-type="aff" rid="aff8"><sup>8</sup></xref></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>M&#x000fc;ller</surname><given-names>H.-Arno J.</given-names></name><xref ref-type="aff" rid="aff1"><sup>1</sup></xref><xref ref-type="corresp" rid="cor1"><sup>*</sup></xref></contrib></contrib-group><aff id="aff1"><label>1</label><addr-line>Division of Cell and Developmental Biology, College of Life Sciences,
+                    University of Dundee, Dundee, United Kingdom</addr-line></aff><aff id="aff2"><label>2</label><addr-line>Alnylam Pharmaceuticals, Cambridge, Massachusetts, United States of
+                    America</addr-line></aff><aff id="aff3"><label>3</label><addr-line>Sloan-Kettering Institute, Department of Developmental Biology, New York,
+                    New York, United States of America</addr-line></aff><aff id="aff4"><label>4</label><addr-line>Wellcome Trust Centre for Gene Regulation and Expression, College of Life
+                    Sciences, University of Dundee, Dundee, United Kingdom</addr-line></aff><aff id="aff5"><label>5</label><addr-line>Institut f&#x000fc;r Genetik, Heinrich Heine Universit&#x000e4;t,
+                    D&#x000fc;sseldorf, Germany</addr-line></aff><aff id="aff6"><label>6</label><addr-line>Boston University, Boston, Massachusetts, United States of
+                America</addr-line></aff><aff id="aff7"><label>7</label><addr-line>Department of Molecular Biology, Keio University School of Medicine,
+                    Tokyo, Japan</addr-line></aff><aff id="aff8"><label>8</label><addr-line>Department of Biology, University of Rochester, Rochester, New York,
+                    United States of America</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Bergmann</surname><given-names>Andreas</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">University of Texas MD Anderson Cancer Center, United States of America</aff><author-notes><corresp id="cor1">* E-mail: <email>h.j.muller@dundee.ac.uk</email></corresp><fn fn-type="con"><p>Conceived and designed the experiments: DH BRB KO HS GH ECL MAW HAM.
+                        Performed the experiments: DH BRB KO TC WM ZJ JB MAW. Analyzed the data: DH
+                        BRB KO TC ZJ HS GH ECL MAW HAM. Contributed reagents/materials/analysis
+                        tools: BRB KO HS MAW HAM. Wrote the paper: BRB GH ECL MAW HAM.</p></fn><fn id="fn1" fn-type="current-aff"><label>&#x000a4;a</label><p>Current address: Agricultural Biotechnology Centre, Godollo, Hungary</p></fn><fn id="fn2" fn-type="current-aff"><label>&#x000a4;b</label><p>Current address: Institute for Reference Materials and Measurements, Joint
+                        Research Centre European Commission, Geel, Belgium</p></fn></author-notes><pub-date pub-type="collection"><year>2010</year></pub-date><pub-date pub-type="epub"><day>17</day><month>12</month><year>2010</year></pub-date><pub-date pub-type="ecorrected"><day>31
+</day><month>12</month><year>2010</year></pub-date><volume>5</volume><issue>12</issue><elocation-id>e15264</elocation-id><history><date date-type="received"><day>23</day><month>9</month><year>2010</year></date><date date-type="accepted"><day>8</day><month>11</month><year>2010</year></date></history><permissions><copyright-statement>Hain et al. This is an open-access article distributed under the
+                terms of the Creative Commons Attribution License, which permits unrestricted use,
+                distribution, and reproduction in any medium, provided the original author and
+                source are credited.</copyright-statement></permissions><abstract><p>The <italic>Drosophila argonaute2</italic> (<italic>ago2</italic>) gene plays a
+                    major role in siRNA mediated RNA silencing pathways. Unlike mammalian Argonaute
+                    proteins, the <italic>Drosophila</italic> protein has an unusual amino-terminal
+                    domain made up largely of multiple copies of glutamine-rich repeats (GRRs). We
+                    report here that the <italic>ago2</italic> locus produces an alternative
+                    transcript that encodes a putative short isoform without this amino-terminal
+                    domain. Several <italic>ago2</italic> mutations previously reported to be null
+                    alleles only abolish expression of the long, GRR-containing isoform. Analysis of
+                        <italic>drop out</italic> (<italic>dop</italic>) mutations had previously
+                    suggested that variations in GRR copy number result in defects in RNAi and
+                    embryonic development. However, we find that <italic>dop</italic> mutations
+                    genetically complement transcript-null alleles of <italic>ago2</italic> and that
+                        <italic>ago2</italic> alleles with variant GRR copy numbers support normal
+                    development. In addition, we show that the assembly of the central RNAi
+                    machinery, the RISC (RNA induced silencing complex), is unimpaired in embryos
+                    when GRR copy number is altered. In fact, we find that GRR copy number is highly
+                    variable in natural <italic>D. melanogaster</italic> populations as well as in
+                    laboratory strains. Finally, while many other insects share an extensive,
+                    glutamine-rich Ago2 amino-terminal domain, its primary sequence varies
+                    drastically between species. Our data indicate that GRR variation does not
+                    modulate an essential function of Ago2 and that the amino-terminal domain of
+                    Ago2 is subject to rapid evolution.</p></abstract><counts><page-count count="14"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Argonaute proteins play key roles in diverse mechanisms of gene regulation from
+                plants to fungi and animals, including humans. The Argonaute protein family is
+                characterized by a stereotyped domain structure and has been divided into the
+                Argonaute subfamily (related to <italic>Arabidopsis thaliana</italic> Argonaute) and
+                the PIWI subfamily (related to <italic>D. melanogaster</italic> PIWI) <xref ref-type="bibr" rid="pone.0015264-Hutvagner1">[1]</xref>,
+                    <xref ref-type="bibr" rid="pone.0015264-Farazi1">[2]</xref>.
+                Organisms may contain a large number of different Argonaute encoding genes,
+                currently with a maximum of 26 family members identified in <italic>C. elegans</italic>
+                <xref ref-type="bibr" rid="pone.0015264-Yigit1">[3]</xref>. The
+                presence of multiple, differentially expressed family members in a single species
+                indicates diverse biological functions of Argonaute proteins.</p><p>A common feature of all Argonaute proteins is that they bind small RNAs and mediate
+                silencing of target transcripts by translational inhibition or RNA degradation <xref ref-type="bibr" rid="pone.0015264-Peters1">[4]</xref>.
+                Argonaute subfamily proteins interact with siRNAs and/or miRNAs and in animals exert
+                diverse functions during development of various somatic lineages. These functions
+                range from selective degradation of unwanted maternal mRNAs in early development to
+                the regulation of transcripts important for cell fate decisions during neuronal and
+                muscle development as well as degradation of viral RNA in adult organisms <xref ref-type="bibr" rid="pone.0015264-Stefani1">[5]</xref>. An
+                important function for the RNAi pathway was also demonstrated in innate immune
+                response against viruses in animals and plants <xref ref-type="bibr" rid="pone.0015264-Ding1">[6]</xref>, <xref ref-type="bibr" rid="pone.0015264-vanRij1">[7]</xref>, <xref ref-type="bibr" rid="pone.0015264-GalianaArnoux1">[8]</xref>, <xref ref-type="bibr" rid="pone.0015264-Wang1">[9]</xref>.</p><p><italic>Drosophila</italic> has proved to be an excellent model system for research
+                on Argonaute protein function <xref ref-type="bibr" rid="pone.0015264-Hammond1">[10]</xref>, <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>, <xref ref-type="bibr" rid="pone.0015264-Rand1">[12]</xref>. The <italic>Drosophila
+                    melanogaster</italic> genome encodes five Argonaute family members: Piwi
+                subfamily members Aubergine (Aub), Piwi and Ago3 and the Argonaute subfamily members
+                Ago1 and Ago2. Ago1 is essential for miRNA function, while Ago2 predominantly acts
+                in the siRNA pathway <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>, <xref ref-type="bibr" rid="pone.0015264-Williams1">[13]</xref>, <xref ref-type="bibr" rid="pone.0015264-Forstemann1">[14]</xref>.
+                Ago2 is the carrier of both exogenous and endogenous siRNAs, and functions in virus
+                defense, restriction of transposable elements, and cleavage of mRNA targets <xref ref-type="bibr" rid="pone.0015264-Okamura2">[15]</xref>. Ago1
+                and Ago2 also have overlapping functions, <italic>e.g.</italic> in the control of
+                segment polarity during embryogenesis <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>.</p><p><italic>Drosophila</italic> Ago2 is unique among the Argonaute subfamily: Its
+                sequence is highly divergent and clearly distinct from other metazoan Argonautes
+                (including <italic>Drosophila</italic> Ago1 and the four human Argonautes Ago1,
+                Ago2, Ago3 and Ago4) or even Argonautes from fungi or plants <xref ref-type="bibr" rid="pone.0015264-Murphy1">[17]</xref>. It is a modular
+                protein with the canonical PAZ and PIWI domains in the carboxy-terminal half and an
+                amino-terminal half that is highly enriched in glutamine residues <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>. The
+                carboxy-terminal region (820 amino acids) is broadly conserved in Argonaute family
+                members from plants to fission yeast and vertebrates and has well-characterized
+                biochemical functions, such as binding and cleavage of RNA <xref ref-type="bibr" rid="pone.0015264-Hutvagner1">[1]</xref>. In contrast, the
+                amino-terminal portion (in the following referred to as the amino-terminal domain or
+                NTD) is not well characterized. While the corresponding region is typically very
+                short in most other family members (e.g. 24 aa in human Ago2), the Ago2 NTD in
+                    <italic>D. melanogaster</italic> is 397 amino acids long and encompasses long
+                stretches of low sequence complexity (40% of all residues are glutamine).
+                The majority of the NTD consists of two types of imperfect glutamine-rich repeats
+                (GRR), called GRR1 (6 amino acid imperfect repeat) and GRR2 (23 amino acid imperfect
+                repeat) (<xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>; see below). Previous analysis of the <italic>drop
+                    out</italic> (<italic>dop</italic>) mutation suggested that altered GRR copy
+                number disrupts Ago2 function and leads to maternal-effect lethality <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>.</p><p>In the present paper, we demonstrate that <italic>ago2</italic> is a complex locus
+                that produces several distinct transcripts. The protein isoforms encoded by these
+                transcripts have identical C-terminal regions that include the PAZ and Piwi domains.
+                But while two long isoforms contain the unusual NTD, a previously uncharacterized
+                short isoform lacks both types of amino-terminal GRRs, reminiscent of mammalian
+                Argonaute proteins. We find that two <italic>ago2</italic> mutant alleles widely
+                employed as null alleles still express the short isoform. Using true null alleles,
+                we show that the <italic>dop</italic> mutation is not allelic to
+                <italic>ago2</italic> and that GRR variation does not cause striking defects in
+                embryonic development. In fact, we find extensive GRR repeat-number variation among
+                    <italic>D. melanogaster</italic> strains isolated from natural and laboratory
+                populations as well as tremendous variability of the Ago2 NTD between insect
+                species. These data suggest that this domain is subject to rapid evolution and has a
+                non-essential, possibly modulatory function.</p></sec><sec id="s2"><title>Results and Discussion</title><sec id="s2a"><title>The <italic>ago2</italic> locus generates transcripts encoding putative long
+                    and short isoforms</title><p>Gene annotation predicts that the <italic>ago2</italic> locus gives rise to the
+                    two transcripts AGO2-RB and AGO2-RC (FlyBase, 6_2010). They are largely
+                    identical, but differ at their very 5&#x02032; ends, due to alternative
+                    splicing and the use of distinct transcription start sites (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1A</xref>). As a result, the two protein
+                    isoforms encoded by these transcripts, AGO2-PB and AGO2-PC, differ only by tiny
+                    unique stretches (6 or 9 amino acids) at their amino termini and have a 1208
+                    amino acid region in common.</p><fig id="pone-0015264-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.g001</object-id><label>Figure 1</label><caption><title>The <italic>ago2<sup>51B</sup></italic> and
+                                <italic>ago2<sup>414</sup></italic> alleles produce an alternative
+                            transcript encoding a putative short form of the protein.</title><p>(<bold>A</bold>) <italic>ago2</italic> genomic organization indicating 8
+                            exons of the two alternatively spliced gene products Ago2-RB and Ago2-RC
+                            (UTRs are indicated in orange; CDS is indicated in blue). Also shown is
+                            the extent of the chromosomal deletions generated by imprecise excision
+                            of the <italic>EP(3)3417</italic> P-element insertion, located 12 bp
+                            downstream of the transcriptional start site (TSS) for Ago2-RB. The
+                                    <italic>ago2<sup>414</sup></italic> allele creates a deletion of
+                            2356 bp and <italic>ago2<sup>321</sup></italic> creates a deletion of
+                            2514 bp. (<bold>B</bold>) Cartoon of genomic organization of Ago2-RB and
+                            the positions of the PCR primers (RB, TS, GM (forward and reverse,
+                            respectively), E5, and PZ). RT-PCR experiments using primer pairs as
+                            indicated; all PCR products were subjected to DNA sequencing. The RB/PZ
+                            primer pair amplifies a product of 3488 bp indicative of a transcript
+                            encoding for the long isoform; this product is only detected in
+                                    <italic>w<sup>1118</sup></italic> and
+                            <italic>dop<sup>1</sup></italic>, but not in
+                            <italic>ago2<sup>51B</sup></italic> and
+                            <italic>ago2<sup>414</sup></italic>. GM/PZ amplifies a 2200 bp product,
+                            which is detected in all genotypes. The TS primer was designed to bind
+                            within the second intron. The TS/GM or TS/E5 primer pairs revealed
+                            products of the predicted sizes and sequences of an alternative
+                            transcript encoding for the short isoform
+                            (<italic>w<sup>1118</sup></italic> samples). All template
+                                polyA<sup>+</sup> RNA was prepared from ovaries.
+                            (<bold>C</bold>) 10 &#x000b5;g total RNA from adult flies was
+                            subjected to Northern blotting. The <italic>ago2<sup>414</sup></italic>
+                            allele produces detectable <italic>ago2</italic> transcripts whereas no
+                            transcript was detected in <italic>ago2<sup>321</sup></italic>
+                            homozygous flies. Note that the probe was designed against the
+                            downstream of <italic>ago2<sup>454</sup></italic> deletion and a
+                            putative truncated mRNA was detected in
+                            <italic>ago2<sup>454</sup></italic> homozygous flies. (<bold>D</bold>)
+                            Quantitative RT PCR comparing expression of transcripts encoding
+                                Ago2<sup>long</sup> and Ago2<sup>short</sup> from total RNA of
+                            3&#x02013;5 hrs embryos. Primer pairs were designed to specifically
+                            amplify PCR products of transcripts encoding for the short and long
+                            isoform, respectively. (<bold>E</bold>) <italic>UAS::GM07030-HA</italic>
+                            was expressed in embryos using maternal
+                                <italic>&#x003b1;4-tubulin64C::Gal4</italic> (mat67;mat15) and
+                            proteins were immunoblotted using anti-HA antibody.
+                                <italic>w</italic><sup>1118</sup> embryos were used as a control.
+                            The arrowhead indicates one specific protein band at around 85 kDa
+                            indicative of HA-tagged Ago2<sup>short</sup> (LC - loading control).</p></caption><graphic xlink:href="pone.0015264.g001"/></fig><p>To functionally characterize Ago2, many studies employ the two putative null
+                    alleles <italic>ago2<sup>51B</sup></italic> and
+                    <italic>ago2<sup>414</sup></italic>. These alleles represent two independently
+                    derived deletions that eliminate the first two annotated AGO2-RB exons and part
+                    of the third intron (<xref ref-type="fig" rid="pone-0015264-g001">Fig.
+                    1A</xref>; <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>, <xref ref-type="bibr" rid="pone.0015264-Xu1">[18]</xref>). As they delete the annotated translational
+                    start sites for both AGO2-RB and AGO2-RC, these alleles are expected to abolish
+                    all <italic>ago2</italic> expression <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>, <xref ref-type="bibr" rid="pone.0015264-Xu1">[18]</xref>.</p><p>To test this prediction directly, we performed RT-PCR analysis with various
+                    primers across the <italic>ago2</italic> locus (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1B</xref>). Experiments that involved a primer
+                    specific for exon 1 (primer RB) failed to detect any <italic>ago2</italic>
+                    transcripts in these alleles (<xref ref-type="fig" rid="pone-0015264-g001">Fig.
+                        1B</xref>), confirming the absence of AGO2-RB and AGO2-RC. However, when we
+                    employed primers from exons 3 through 7, we detected amplification products in
+                    these supposed null alleles. These products are not due to contamination with
+                    genomic DNA templates as their size was the same as in the wild type and
+                    sequencing confirmed that they represent correctly spliced transcripts.
+                    Furthermore, Northern analysis of total RNA of adult flies confirmed the
+                    presence of <italic>ago2</italic> transcript in
+                    <italic>ago<sup>414</sup></italic> (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1C</xref>). These results indicate the presence of previously
+                    unannotated transcripts in <italic>ago2<sup>51B</sup></italic> and
+                            <italic>ago2<sup>414</sup></italic>.</p><p>These transcripts could also be detected with primers upstream of the third exon
+                    splice site, a region annotated as intronic for AGO2-RB and AGO2-RC (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1B</xref>, primer TS).
+                    Apparently, the alternate transcripts originate 5&#x02032; to exon 3. This
+                    property makes it possible to design isoform-specific primers to examine the
+                    expression of the alternative transcript and of AGO2-RB/AGO2-RC separately.
+                    Using these primers, we found that wild-type flies express both types of
+                    transcripts. Quantitative RT-PCR analysis on samples from adult flies indicates
+                    that the shorter transcript is expressed approximately 30% less than
+                    AGO2-RB/AGO2-RC (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1D</xref>).</p><p>These alternative transcripts are predicted to encode a shorter protein isoform
+                    of Ago2, in the following referred to as Ago2<sup>short</sup>. Since we have not
+                    been able to verify protein production from this transcript in vivo, we tested
+                    whether a cDNA encoding Ago2<sup>short</sup> can in principle produce a protein
+                    of the expected size. The Berkeley <italic>Drosophila</italic> genome project
+                    (BDGP) had isolated an EST clone, <italic>GM07030</italic>, which is predicted
+                    to encode Ago2<sup>short</sup>. We generated a transgene, in which HA-tagged
+                        <italic>GM07030</italic> is driven under the control of UAS elements.
+                    Uniform expression of this transgene in the embryo results in a protein product
+                    of approximately 85 kDa, consistent with the predicted molecular weight of
+                        Ago2<sup>short</sup> (<xref ref-type="fig" rid="pone-0015264-g001">Fig.
+                    1E</xref>).</p><p>A truncated Ago2 protein lacking GRRs was recently shown to support full
+                    biochemical reconstitution of RISC indicating that the N-terminal region does
+                    not contain domains that are essential for core RNAi <xref ref-type="bibr" rid="pone.0015264-Liu1">[19]</xref>. In the lack of an
+                    NTD, Ago2<sup>short</sup> is reminiscent of the mammalian Argonautes; indeed,
+                    BLAST comparisons reveal significant similarity between Ago2<sup>short</sup> and
+                    human Ago2 throughout essentially the entire length of the proteins (not shown).
+                    We conclude that the <italic>ago2</italic> locus has the potential to encode at
+                    least three protein isoforms, only two of which encompass the unusual NTD that
+                    sets <italic>D. melanogaster</italic> Ago2 apart from other family members.</p></sec><sec id="s2b"><title>Identification of true null alleles of <italic>ago2</italic></title><p>The available putative null alleles of <italic>ago2</italic> remove 5&#x02032;
+                    exons with limited coding potential <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>, <xref ref-type="bibr" rid="pone.0015264-Xu1">[18]</xref>. The
+                    existence of an alternative isoform implies that
+                    <italic>ago2<sup>51B</sup></italic> and <italic>ago2<sup>414</sup></italic> may
+                    retain some Ago2 function. Indeed, although Northern analysis of embryos had
+                    suggested that <italic>ago2<sup>414</sup></italic> is transcript null <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>,
+                    we observed substantial amounts of nearly full length transcript in adult flies
+                        (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1C</xref>).</p><p>We therefore examined additional excision events derived from
+                    <italic>EP(3)3417</italic> to identify bona fide Ago2 null alleles. This screen
+                    identified two alleles that were transcript null in the adult,
+                            <italic>ago2<sup>321</sup></italic> and
+                    <italic>ago2<sup>454</sup></italic> (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1C</xref>). These alleles contain the same
+                    5&#x02032; breakpoint located 34 bp downstream of the transcriptional start
+                    site of AGO2-RB, but have different 3&#x02032; breakpoints (<xref ref-type="fig" rid="pone-0015264-g001">Fig. 1A</xref>). The deletion in
+                            <italic>ago2<sup>321</sup></italic> removes 2514 bp and is very similar
+                    to <italic>ago2<sup>414</sup></italic>, but retains a section of the original EP
+                    element; this insertion may contribute to why it is transcript null.
+                            <italic>ago2<sup>454</sup></italic> carries a deletion of 5750 bp and
+                    accumulates a truncated transcript consistent with this deletion. This deletion
+                    removes the PAZ domain and much of the PIWI domain, and is therefore
+                    unquestionably a null allele.</p><p>Homozygotes of <italic>ago2<sup>321</sup></italic> and
+                    <italic>ago2<sup>454</sup></italic> stocks were viable, but unlike
+                            <italic>ago2<sup>51B</sup></italic> and
+                    <italic>ago2<sup>414</sup></italic>, they exhibited low fertility in both males
+                    and females. 55% of embryos obtained from
+                    <italic>ago2<sup>321</sup></italic> homozygous mothers did not hatch
+                    (n&#x0200a;=&#x0200a;221), while
+                    <italic>ago2<sup>454</sup></italic> homozygous females did not lay any eggs.
+                    50% ovaries from <italic>ago2<sup>321</sup></italic> and
+                    90% ovaries from <italic>ago2<sup>454</sup></italic> homozygotes are
+                    rudimentary. Surprisingly, none of the phenotypes seen in
+                        <italic>ago2<sup>321</sup></italic> or <italic>ago2<sup>454</sup></italic>
+                    homozygotes except male sterility were seen in
+                            <italic>ago2<sup>321</sup>/ago2<sup>454</sup></italic>
+                    trans-heterozygotes. Moreover, <italic>ago2<sup>321</sup>/Df</italic> or
+                            <italic>ago2<sup>454</sup>/Df</italic> hemizygotes (using the
+                    molecularly defined deficiencies <italic>Df(3L)ED218</italic> and
+                        <italic>Df(3L)BSC5580</italic>) displayed none of the above-mentioned
+                    phenotypes. Therefore, the fertility phenotypes observed in
+                        <italic>ago2<sup>321</sup></italic> and <italic>ago2<sup>454</sup></italic>
+                    homozygotes are likely attributable to background mutations. While a detailed
+                    analysis of these novel <italic>ago2</italic> null alleles is beyond the scope
+                    of this paper, an exciting prospect for the future is to determine whether these
+                    alleles corroborate or extend other phenotypes that were previously reported for
+                            <italic>ago2<sup>414</sup></italic> or
+                    <italic>ago2<sup>51B</sup></italic> alleles. Such phenotypes include defective
+                    heterochromatin formation <xref ref-type="bibr" rid="pone.0015264-Fagegaltier1">[20]</xref>, defective neuromuscular junction and egg
+                    chamber development <xref ref-type="bibr" rid="pone.0015264-Pepper1">[21]</xref>, and defects in embryonic syncytial divisions
+                    and pole cell formation <xref ref-type="bibr" rid="pone.0015264-Deshpande1">[22]</xref>. The partial penetrance of these defects in
+                            <italic>ago2<sup>414</sup></italic> and
+                    <italic>ago2<sup>51B</sup></italic> homozygotes might result from residual Ago2
+                    function due to Ago2<sup>short</sup> expression.</p><p>Ago2 is the carrier of endogenous small interfering RNAs (endo-siRNAs) <xref ref-type="bibr" rid="pone.0015264-Okamura2">[15]</xref>.
+                    Although a cohort of endo-siRNA substrates have been identified, along with a
+                    number of targeted transcripts, the biological function of endogenous RNAi
+                    remains poorly defined. The major phenotypes are molecular in nature, and
+                    include upregulation of transcripts derived from transposable elements and
+                    certain direct targets of hairpin RNA-derived siRNAs <xref ref-type="bibr" rid="pone.0015264-Ghildiyal1">[23]</xref>, <xref ref-type="bibr" rid="pone.0015264-Czech1">[24]</xref>,
+                        <xref ref-type="bibr" rid="pone.0015264-Okamura3">[25]</xref>, <xref ref-type="bibr" rid="pone.0015264-Kawamura1">[26]</xref>, <xref ref-type="bibr" rid="pone.0015264-Chung1">[27]</xref>,
+                        <xref ref-type="bibr" rid="pone.0015264-Okamura4">[28]</xref>. A detailed analysis of the true
+                    <italic>ago2</italic> null alleles <italic>ago2<sup>454</sup></italic> and
+                            <italic>ago2<sup>321</sup></italic> might therefore provide the most
+                    stringent test of the overall requirements of the endo-siRNA pathway for various
+                    aspects of development.</p></sec><sec id="s2c"><title>GRR variation does not noticeably disrupt development</title><p>Our expression analysis indicates that <italic>D. melanogaster</italic> is able
+                    to produce Ago2 variants with and without the glutamine-rich NTD. This
+                    observation suggests that the NTD serves some important function as its
+                    expression is retained even though NTD-less forms can apparently be produced.</p><p>Our previous work had suggested a biological role for the NTD. We discovered
+                    variants in the GRR pattern and found that they were associated with severe
+                    disruption of embryonic development <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>. In particular, we
+                    had found that embryos from mothers homozygous for <italic>dop</italic>
+                    mutations show delays in cellularization, display abnormal transport of lipid
+                    droplets, and fail to hatch. Sequencing of genomic DNA of the
+                        <italic>dop<sup>1</sup></italic> allele revealed that in this strain
+                        <italic>ago2</italic> has 4 copies of GRR1 and 10 copies of GRR2; in
+                    contrast, the precursor chromosome (<italic>red e</italic>) exhibited the
+                    expected 4xGRR1/11xGRR2 pattern of the published wild-type sequence. For an
+                    independently derived <italic>dop</italic> allele
+                    (<italic>dop<sup>46</sup></italic>), <italic>ago2</italic> displayed 3xGRR1 and
+                    11xGRR2. A functional connection between <italic>dop</italic> and
+                    <italic>ago2</italic> was suggested by the observation that a chromosomal
+                    deletion (<italic>Df(3L)XG9</italic>) uncovering <italic>ago2</italic> does not
+                    complement <italic>dop</italic> alleles and that the maternal lethality of
+                        <italic>dop</italic> mutations is partially rescued by expression of an
+                        <italic>ago2</italic> cDNA <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>. Finally, <italic>dop</italic> alleles
+                    genetically interact with other genes involved in RNA silencing. These results
+                    suggested that deviation from the wild-type number of GRRs severely impairs Ago2
+                    functions and results in developmental defects <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>.</p><p>The identification of true null alleles of <italic>ago2</italic> (above) enabled
+                    us to perform a stringent genetic test of this idea. <italic>dop</italic>
+                    homozygous as well as <italic>dop</italic>/<italic>Df(3L)XG9</italic> mothers
+                    are completely sterile. However, mothers carrying one <italic>dop</italic>
+                    allele (either <italic>dop<sup>1</sup></italic> or
+                    <italic>dop<sup>46</sup></italic>) and one <italic>ago2</italic> null allele
+                            (<italic>ago2<sup>321</sup></italic> or
+                    <italic>ago2<sup>454</sup></italic>) were fertile. For example, the embryos
+                    obtained from
+                    <italic>dop<sup>1</sup></italic>/<italic>ago2<sup>321</sup></italic>
+                    heterozygotes hatched at rates similar to wild type (<xref ref-type="fig" rid="pone-0015264-g002">Fig. 2A</xref>).</p><fig id="pone-0015264-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.g002</object-id><label>Figure 2</label><caption><title>Null alleles of <italic>ago2</italic> complement
+                                <italic>dop<sup>1</sup></italic> mutants.</title><p>(<bold>A</bold>) Percentage of larvae hatching from indicated genotypes
+                            (n&#x0003e;300 per genotype). (<bold>B</bold>) Bright-field images of
+                            post-gastrula embryos (stage 10) show that the periphery of
+                                    <italic>dop<sup>1</sup></italic> mutant embryos is abnormally
+                            transparent compared to wild type (<italic>wt</italic>) <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>. These transparency changes are
+                            characteristic of altered lipid-droplet distribution <xref ref-type="bibr" rid="pone.0015264-Welte1">[57]</xref>. Embryos obtained from mothers
+                            transheterozygous for <italic>dop<sup>1</sup></italic> and either
+                                <italic>ago2</italic><sup>321</sup> or
+                            <italic>ago2</italic><sup>454</sup> exhibit a normal pattern
+                            lipid-droplet distribution. (<bold>C</bold>) Immunolabeling of the
+                            membrane protein Neurotactin (red) and DNA (DAPI, blue) in embryos
+                            during and after cellularization. Embryos from
+                            <italic>dop<sup>1</sup></italic> homozygous females exhibit a severe
+                            delay in membrane ingression marked by the absence of Neurotactin
+                            staining at the interface between adjacent nuclei <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>. Embryos
+                            from <italic>dop<sup>1</sup>/ago2<sup>321</sup></italic>
+                            transheterozygous mothers show normal membrane ingression during
+                            cellularization.</p></caption><graphic xlink:href="pone.0015264.g002"/></fig><p>The embryos from transheterozygous
+                        (<italic>ago2<sup>null</sup></italic>/<italic>dop</italic>) mothers also did
+                    not exhibit the developmental defects characteristic of <italic>dop</italic>
+                    mutant embryos. Embryos obtained from <italic>dop<sup>1</sup></italic> or
+                            <italic>dop<sup>46</sup></italic> homozygous mothers show normal
+                    syncytial development, but plasma membrane growth during cellularization is
+                    strongly delayed (<xref ref-type="fig" rid="pone-0015264-g002">Fig. 2B</xref>;
+                        <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>). Embryos obtained from transheterozygous mothers
+                    do not display such delay in cellularization (<xref ref-type="fig" rid="pone-0015264-g002">Fig. 2B</xref>). Furthermore, lipid droplets are
+                    severely mislocalized in <italic>dop</italic> mutant embryos during germ-band
+                    extension (<xref ref-type="fig" rid="pone-0015264-g002">Fig. 2C</xref>). In
+                    contrast, lipid-droplet distribution in embryos from
+                        <italic>ago2<sup>null</sup></italic>/<italic>dop</italic> mothers is similar
+                    to the wild type (<xref ref-type="fig" rid="pone-0015264-g002">Fig. 2C</xref>).
+                    These results demonstrate that <italic>dop</italic> is not allelic to
+                        <italic>ago2.</italic> In addition, there is no evidence that
+                    <italic>ago2</italic> with non-standard GRR pattern results in developmental
+                    defects.</p></sec><sec id="s2d"><title>GRR variation does not affect RISC assembly</title><p>Depletion of Ago2 from cell lines or flies results in a complete block of the
+                    RNAi response <xref ref-type="bibr" rid="pone.0015264-Hammond1">[10]</xref>. Furthermore, biochemical data indicate that
+                    Ago2 is an essential and sufficient component of RISC, the central machinery
+                    that directs mRNA cleavage by siRNAs <xref ref-type="bibr" rid="pone.0015264-Hammond1">[10]</xref>, <xref ref-type="bibr" rid="pone.0015264-Rand1">[12]</xref>,
+                        <xref ref-type="bibr" rid="pone.0015264-Meister1">[29]</xref>, <xref ref-type="bibr" rid="pone.0015264-Liu2">[30]</xref>. Ago2<sup>long</sup> is essential for this
+                    process, because <italic>ago2<sup>51B</sup></italic> or
+                        <italic>ago2<sup>414</sup></italic> homozygotes lack most, if not all, of
+                    the RNAi response <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>, <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>. Since the
+                            <italic>dop<sup>1</sup></italic> chromosome (characterized by the 4/10
+                    GRR <italic>ago2</italic> pattern) exhibits a mild suppression of experimental
+                    RNAi in vivo <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>, variation in Ago2<sup>long</sup> might
+                    modulate the formation of RISC.</p><p>To test this possibility directly, we assayed RISC-formation in vitro in embryo
+                    extracts obtained from wild-type and <italic>dop<sup>1</sup></italic> embryos,
+                    using gel shift experiments with siRNA <xref ref-type="bibr" rid="pone.0015264-Pham1">[31]</xref>. RISC formation as
+                    observed by assembly of complexes over time was unimpaired in
+                        <italic>dop<sup>1</sup></italic> mutant embryos when compared to wild type
+                        (<xref ref-type="fig" rid="pone-0015264-g003">Fig. 3</xref>). We therefore
+                    conclude that the variation of GRR pattern in <italic>dop</italic> mutants does
+                    not affect formation of RISC. This finding is consistent with reports that
+                    recombinant Ago2 lacking the first 277 aa of the NTD (this truncation removes
+                    all GRR1 and seven GRR2 repeats) supports RISC assembly <xref ref-type="bibr" rid="pone.0015264-Liu1">[19]</xref>.</p><fig id="pone-0015264-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.g003</object-id><label>Figure 3</label><caption><title>Comparison of RISC formation in wild type and
+                            <italic>dop<sup>1</sup></italic> mutant embryos.</title><p>In-vitro silencing complexes formation was analyzed by incubating
+                            dilutions of cell free extracts (conc: &#x000b5;g/&#x000b5;l total
+                            protein) of <italic>wild type</italic> or <italic>dop<sup>1</sup>
+                                Drosophila</italic> embryo extracts with pre-labelled siRNA. The
+                            formed silencing complexes were separated on a native acrylamide gel.
+                            The free-siRNAs and the R1, R2 and holo-RISC complexes are shown (The
+                            star marks an unknown band).</p></caption><graphic xlink:href="pone.0015264.g003"/></fig></sec><sec id="s2e"><title>GRR copy number varies extensively between different fly strains</title><p>The complementation tests above demonstrate that <italic>dop</italic> and
+                        <italic>ago2</italic> represent distinct genes. Yet, in two independently
+                    derived lines, <italic>dop</italic> mutations are associated with changes in the
+                    GRR pattern of <italic>ago2</italic>
+                    <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>.
+                    This fortuitous association might be explained if changes in the GRR pattern of
+                        <italic>ago2</italic> occur at high frequency.</p><p>We therefore examined GRR1 and GGR2 copy number in twenty-two laboratory strains
+                    of diverse origins. In these strains, GRR1 copy number varied between 2 and 4,
+                    and GRR2 copy number between 10 and 16 (<xref ref-type="table" rid="pone-0015264-t001">Table 1</xref>, <xref ref-type="fig" rid="pone-0015264-g004">Fig. 4</xref>, <xref ref-type="supplementary-material" rid="pone.0015264.s001">Fig. S1</xref>,
+                    and data not shown). For example, copies of the wild-type strain <italic>Oregon
+                        R</italic> obtained from two different laboratories had 4x GRR1 and 13x GRR2
+                    or 3x GRR1 and 16x GRR2, respectively. Various combinations of GRR1 and GRR2
+                    copy numbers can occur. In the following, we refer to these combinations as GRR
+                    haplotypes.</p><fig id="pone-0015264-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.g004</object-id><label>Figure 4</label><caption><title>Different Ago2 GRR haplotypes in <italic>Drosophila
+                            melanogaster</italic>.</title><p>(<bold>A</bold>) The domain structure of Ago2_PB protein isoform,
+                            according to FlyBase version FB2009_2. The amino-terminal half contains
+                            glutamine-rich repeats (GRR), shown in more detail in (<bold>C</bold>).
+                            The carboxy-terminal half contains the PAZ and the PIWI domains (bar
+                            indicates 100 amino acids). (<bold>B</bold>) The copy number of GRR2
+                            repeats varies between various laboratory strains. Using flanking
+                            primers, the genomic region encompassing the GRR2 repeats was amplified
+                            by PCR in various laboratory strains, or in the progeny of crosses
+                            between those strains. <italic>CS</italic>
+                            &#x0200a;=&#x0200a; <italic>Canton S</italic>;
+                                <italic>TM6B</italic> &#x0200a;=&#x0200a; balancer
+                            chromosome (tested over a deficiency encompassing the
+                            <italic>ago2</italic> locus); <italic>OR*</italic> and
+                                <italic>OR**</italic> are <italic>Oregon R</italic>
+                            strains obtained from two independent sources. Below the gel image is
+                            the number of GGR2 repeats as determined by sequencing. (<bold>C</bold>)
+                            Different <italic>ago2</italic> haplotypes determined by genomic DNA
+                            sequencing (see <xref ref-type="table" rid="pone-0015264-t001">Table
+                            1</xref> for a complete list of all haplotypes determined in this
+                            study).</p></caption><graphic xlink:href="pone.0015264.g004"/></fig><table-wrap id="pone-0015264-t001" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.t001</object-id><label>Table 1</label><caption><title>GRR pattern in Ago2 in different <italic>D. melanogaster</italic>
+                            strains.</title></caption><alternatives><graphic id="pone-0015264-t001-1" xlink:href="pone.0015264.t001"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">Line</td><td align="left" rowspan="1" colspan="1">GRR1</td><td align="left" rowspan="1" colspan="1">GRR2</td><td align="left" rowspan="1" colspan="1">Length of NTD</td><td align="left" rowspan="1" colspan="1">Glu in NTD</td><td align="left" rowspan="1" colspan="1">% Glu in NTD</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA120</italic></td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">431</td><td align="left" rowspan="1" colspan="1">168</td><td align="left" rowspan="1" colspan="1">39%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA6</italic></td><td align="left" rowspan="1" colspan="1">2</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Hammond1">[10]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA103</italic></td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">368</td><td align="left" rowspan="1" colspan="1">146</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA54</italic></td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA35</italic></td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Williams1">[13]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA129</italic></td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">n.d.</td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA122</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">397</td><td align="left" rowspan="1" colspan="1">159</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA31</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA113</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>3CPA2</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Rand1">[12]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Canton-S</italic></td><td align="left" rowspan="1" colspan="1">n.d.</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>w-14 melbourne</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">397</td><td align="left" rowspan="1" colspan="1">159</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Tai255.1</italic></td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">391</td><td align="left" rowspan="1" colspan="1">155</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Or R*</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">13</td><td align="left" rowspan="1" colspan="1">443</td><td align="left" rowspan="1" colspan="1">177</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Or R**</italic></td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">16</td><td align="left" rowspan="1" colspan="1">506</td><td align="left" rowspan="1" colspan="1">199</td><td align="left" rowspan="1" colspan="1">39%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>dop</italic><xref ref-type="bibr" rid="pone.0015264-Sawyer2">[<italic>46</italic>]</xref></td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">391</td><td align="left" rowspan="1" colspan="1">155</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>dop</italic><xref ref-type="bibr" rid="pone.0015264-Hutvagner1">[<italic>1</italic>]</xref></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">10</td><td align="left" rowspan="1" colspan="1">374</td><td align="left" rowspan="1" colspan="1">150</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>red e</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">397</td><td align="left" rowspan="1" colspan="1">159</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>In(1)AB</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">397</td><td align="left" rowspan="1" colspan="1">159</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>TM6B</italic></td><td align="left" rowspan="1" colspan="1">4</td><td align="left" rowspan="1" colspan="1">12</td><td align="left" rowspan="1" colspan="1">420</td><td align="left" rowspan="1" colspan="1">168</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>TM8</italic></td><td align="left" rowspan="1" colspan="1">n.d.</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>TM1</italic></td><td align="left" rowspan="1" colspan="1">n.d.</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Rand1">[12]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>LVM</italic></td><td align="left" rowspan="1" colspan="1">n.d.</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Rand1">[12]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Dp(3;3)Cam36</italic></td><td align="left" rowspan="1" colspan="1">n.d.</td><td align="left" rowspan="1" colspan="1"><xref ref-type="bibr" rid="pone.0015264-Williams1">[13]</xref></td><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/><td align="left" rowspan="1" colspan="1"/></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt101"><label/><p>Genomic DNA encompassing the GRR1 or GRR2 repeats was amplified using
+                                PCR. The number of repeats was estimated by gel electrophoresis as
+                                in <xref ref-type="fig" rid="pone-0015264-g003">Fig. 3A</xref>
+                                (numbers in brackets) or determined by sequencing the PCR fragments
+                                    (<xref ref-type="supplementary-material" rid="pone.0015264.s001">Fig. S1</xref>). Top: The <italic>3CPA</italic> strains were
+                                derived from a single wild North American population in 2001 <xref ref-type="bibr" rid="pone.0015264-Lazzaro1">[32]</xref>. Middle: Wild-type laboratory
+                                strains; note that two strains characterized as <italic>Or
+                                R</italic> (obtained from different laboratories) had distinct GRR
+                                repeat patterns. Bottom: A selection of other laboratory strains;
+                                homozygous lethal chromosomes (<italic>LVM</italic>,
+                                <italic>TM6B</italic>, <italic>TM1</italic>,
+                                <italic>Dp(3;3)Cam36</italic>) were analyzed as transheterozygotes
+                                with the deficiency <italic>Df(3L)XG9</italic> that encompasses the
+                                    <italic>ago2</italic> locus.</p></fn></table-wrap-foot></table-wrap><p>To assess if variation in GRR copy number is a consequence of extended laboratory
+                    culture, we examined ten strains recently isolated from the wild. These strains
+                    are isogenic for third chromosomes that had been extracted from a single wild
+                    North American population <xref ref-type="bibr" rid="pone.0015264-Lazzaro1">[32]</xref>; we analyzed their GRR haplotypes within five
+                    years after they had been established. These strains exhibited GRR haplotype
+                    diversity equal to or greater than that found in the long-established laboratory
+                    strains (<xref ref-type="table" rid="pone-0015264-t001">Table 1</xref>).</p><p>Our results indicate that in <italic>D. melanogaster</italic> the NTD of Ago2 can
+                    undergo drastic changes in length and sequence composition. As we have not
+                    attempted a comprehensive survey, we suspect that GRR variation is not
+                    restricted to the haplotypes we identified. Considering just the instances
+                    listed in <xref ref-type="table" rid="pone-0015264-t001">Table 1</xref>, NTD
+                    length can vary by over 35% (from 368 to 506 amino acids). These
+                    changes in the NTD likely arise by repeat expansion and contraction mediated by
+                    unequal crossing over <xref ref-type="bibr" rid="pone.0015264-Tompa1">[33]</xref>. Interestingly, the glutamine fraction of the
+                    NTD remains fairly constant (&#x0223c;40%).</p></sec><sec id="s2f"><title>Failure to detect phenotypic consequences of NTD variability</title><p>The NTD variability we uncovered provides an independent test whether GRR copy
+                    number and the <italic>dop</italic> phenotype are linked. Many of the strains in
+                        <xref ref-type="table" rid="pone-0015264-t001">Table 1</xref> are homozygous
+                    viable and at least grossly normal, suggesting that the exact composition of the
+                    amino-terminal domain of Ago2 is nonessential for viability and that many GRR
+                    haplotypes are compatible with normal development. In particular, the
+                        <italic>Tai255.1</italic> strain, a wild-type <italic>D.
+                    melanogaster</italic> strain isolated 1983 at Ivory Coast <xref ref-type="bibr" rid="pone.0015264-Lachaise1">[34]</xref> had the same 3/11
+                    GRR haplotype found in the <italic>dop<sup>46</sup></italic> allele. However,
+                    unlike <italic>dop<sup>1</sup></italic> or <italic>dop<sup>46</sup></italic>
+                    embryos, <italic>Tai255.1</italic> embryos develop apparently normally (<xref ref-type="fig" rid="pone-0015264-g005">Fig. 5</xref>). They cellularized
+                    normally and displayed normal lipid-droplet transport (<xref ref-type="fig" rid="pone-0015264-g005">Fig. 5A,B</xref>). We therefore conclude that GRR
+                    variation in <italic>ago2</italic> does not disrupt embryogenesis and in
+                    particular is not responsible for the developmental defects observed in
+                        <italic>dop</italic> mutants.</p><fig id="pone-0015264-g005" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.g005</object-id><label>Figure 5</label><caption><title>Altered GRR pattern is not associated with developmental defects
+                            characteristic of <italic>dop</italic> alleles.</title><p>(<bold>A</bold>) Kymographs from time-lapse microscopy of
+                                    <italic>w<sup>1118</sup></italic>, <italic>Tai255.1</italic> and
+                                    <italic>dop<sup>1</sup></italic> embryos. Upper panels show
+                            primary data and lower panels indicate the embryo surface membrane (red)
+                            and the ingressing plasma membrane (yellow) over time (t). In the wild
+                            type (wt), membrane ingression is initially slow at 0.29
+                            &#x000b5;m/min) and then increased in the second phase to 0.72
+                            &#x000b5;m/min. Similar values were observed for
+                            <italic>Tai255.1</italic>. <italic>dop<sup>1</sup></italic> mutant
+                            embryos exhibit a strong reduction in membrane ingression during slow
+                            phase (0.12 &#x000b5;m/min); fast phase is normal. (<bold>B</bold>)
+                            Bright-field images of post-gastrula stage embryos indicating
+                            distribution of lipid droplets in wild-type (wt),
+                            <italic>Tai255.1</italic> and <italic>dop<sup>1</sup></italic> mutant
+                            embryos. In wild-type and <italic>Tai255.1</italic> embryos, the
+                            periphery of the embryo is opaque due to the presence of lipid droplets
+                            within the ectoderm and mesoderm cell layer.
+                            <italic>dop<sup>1</sup></italic> mutant embryos exhibit a characteristic
+                            lipid-droplet transport defect indicated by a concentration of lipid
+                            droplets in the center of the embryo and a transparent embryonic
+                            periphery.</p></caption><graphic xlink:href="pone.0015264.g005"/></fig><p>We next examined if GRR variation influences expression of long and short Ago2
+                    isoforms. Eight wild type third-chromosome extracted 3CPA strains all express
+                    both long and short <italic>ago2</italic> transcripts (<xref ref-type="fig" rid="pone-0015264-g006">Fig. 6</xref>). We conducted quantitative real-time
+                    PCR using <italic>ago2</italic> long- and short-specific primers and cDNA
+                    prepared from 3-day old females <xref ref-type="bibr" rid="pone.0015264-Bettencourt1">[35]</xref>.
+                        <italic>ago2</italic><sup>long</sup> expression varied significantly among
+                    the strains (ANOVA; <italic>p</italic>&#x0003c;0.05), and was consistently higher
+                    than <italic>ago2</italic><sup>short</sup> expression (<xref ref-type="fig" rid="pone-0015264-g006">Fig. 6</xref>; average
+                        <italic>ago2</italic><sup>long</sup> expression is 11% higher
+                    than <italic>ago2</italic><sup>short</sup>). In contrast,
+                        <italic>ago2</italic><sup>short</sup> expression did not vary significantly
+                    among the strains, and we detected no correlation between
+                        <italic>ago2</italic><sup>long</sup> and
+                    <italic>ago2</italic><sup>short</sup> expression levels. Last, there was no
+                    obvious relationship between GRR haplotypes and
+                    <italic>ago2</italic><sup>long</sup> or <italic>ago2</italic><sup>short</sup>
+                    expression in these strains. These results suggest independent regulation of
+                    transcripts for <italic>ago2</italic><sup>long</sup> and
+                        <italic>ago2</italic><sup>short</sup>.</p><fig id="pone-0015264-g006" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.g006</object-id><label>Figure 6</label><caption><title>Expression of <italic>ago2</italic><sup>short</sup> and
+                                <italic>ago2</italic><sup>long</sup> in wild-type <italic>D.
+                                melanogaster</italic> strains.</title><p>Levels of <italic>Ago2<sup>long</sup></italic> (blue) and
+                                    <italic>Ago2<sup>short</sup></italic> (red) in the 3CPA strains.
+                            Each symbol represents mean expression level relative to
+                            <italic>RpL32</italic>, indicated as ratio of qtPCR critical thresholds
+                            (&#x0201c;CT&#x0201d;). Bars represent one SEM. X axis denotes
+                            strain.</p></caption><graphic xlink:href="pone.0015264.g006"/></fig><p>In summary, we find no evidence that GRR variation is associated with dramatic
+                    changes in embryonic development or survival, in RISC formation or with changes
+                    in isoform expression. It is conceivable that GRR variation does not have any
+                    functional consequences and simply arises as &#x0201c;noise&#x0201d; due to
+                    the propensity of repeat regions to undergo unequal crossing over.
+                    Alternatively, GRR variation may be involved in more subtle functions of Ago2
+                    than the ones tested here. While RISC formation per se can occur in the absence
+                    of most of the GRRs <xref ref-type="bibr" rid="pone.0015264-Liu1">[19]</xref>, regulation of Ago2 activity or efficient
+                    recognition of certain targets might be modulated by the NTD. For example, the
+                    long Ago2 isoform, which includes the NTD, is implicated in anti-viral responses
+                    as the <italic>ago2<sup>414</sup></italic> allele, which still expresses the
+                    short Ago2 isoform (above), exhibits strongly impaired host defense against
+                    viruses <xref ref-type="bibr" rid="pone.0015264-vanRij1">[7]</xref>. Future population-genetic and functional tests of
+                    Ago2 should therefore examine a range of complete <italic>ago2</italic>
+                    haplotypes or, at a minimum, carefully define which
+                    &#x0201c;wild-type&#x0201d; version of Ago2 is being analyzed.</p></sec><sec id="s2g"><title>Extensive remodeling of the NTD between closely related species</title><p>Previous studies have uncovered unusually high variability in non-NTD regions of
+                    Ago2 <xref ref-type="bibr" rid="pone.0015264-Obbard1">[36]</xref>, <xref ref-type="bibr" rid="pone.0015264-Obbard2">[37]</xref>. Comparison of the C-terminal 839 amino acids
+                    of Ago2 (i.e. largely excluding the NTD) in pairs of recently diverged
+                        <italic>Drosophila</italic> species revealed rapid evolutionary changes.
+                    These observations placed <italic>ago2</italic> among the fastest evolving genes
+                    in Drosophilids, along with other components of the RNAi pathway <xref ref-type="bibr" rid="pone.0015264-Obbard1">[36]</xref>. It
+                    was proposed that this reflects adaptive evolution in response to changes in
+                    viral pathogens, as part of a virus-host arms race <xref ref-type="bibr" rid="pone.0015264-Obbard2">[37]</xref>. The observed
+                    changes in these RNAi pathway genes indeed bear the signature of positive
+                    selection <xref ref-type="bibr" rid="pone.0015264-Obbard1">[36]</xref>.</p><p>The previously described evolutionary changes in Ago2 are concentrated in regions
+                    of unknown function <xref ref-type="bibr" rid="pone.0015264-Obbard1">[36]</xref>. In contrast, regions of Ago2 associated with
+                    core functions are conserved across all <italic>Drosophila</italic> species. The
+                    function of the NTD is also unknown. We therefore examined the NTDs in closely
+                    related species to determine whether their sequence evolution matches the former
+                    or latter pattern.</p><p>For this analysis, we focused on the three species most closely related to
+                        <italic>Drosophila melanogaster</italic>, namely <italic>Drosophila
+                    simulans</italic>, <italic>Drosophila mauritiana</italic>, and
+                        <italic>Drosophila sechellia</italic>. These species diverged &#x0003c;1 Mya
+                        (<italic>sechellia</italic> versus <italic>simulans</italic>) or
+                    &#x0223c;2.3 Mya (<italic>D. melanogaster</italic> versus <italic>D.
+                        sechellia</italic>/<italic>simulans/mauritiana</italic> lineages) ago from
+                    each other, and the sequences of most genes are highly conserved in all four
+                    species <xref ref-type="bibr" rid="pone.0015264-Begun1">[38]</xref>, <xref ref-type="bibr" rid="pone.0015264-Eisen1">[39]</xref>.</p><p>We first examined the DNA sequences that correspond to exon 3 of
+                    <italic>ago2</italic> in <italic>D. melanogaster</italic>. Here, this exon
+                    encodes 330 amino acids of the NTD (including all GRR2 repeats) plus the
+                    following 92 amino acids, whose sequence is conserved in Argonautes from fungi,
+                    plants and animals. The latter, non-NTD stretch displayed very high amino acid
+                    sequence conservation between the four <italic>Drosophila</italic> species
+                        (<xref ref-type="supplementary-material" rid="pone.0015264.s002">Fig.
+                    S2</xref>, <xref ref-type="supplementary-material" rid="pone.0015264.s003">S3</xref>, and data not shown). And in each of the four species, the sequence
+                    immediately 5&#x02032; to this conserved region has the potential to encode
+                    glutamine-rich, repetitive stretches, but the exact sequence is highly divergent
+                        (<xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>, and <xref ref-type="supplementary-material" rid="pone.0015264.s002">Fig. S2</xref>). For example, the 23 aa GRR2 repeats
+                    characteristic of <italic>D. melanogaster</italic> are not apparent in any of
+                    the other three species. This observation suggests that NTDs can change
+                    drastically between even closely related species.</p><p>As the Ago2-encoding genomic sequences of <italic>D. simulans</italic> and
+                        <italic>D. mauritiana</italic> were nearly identical but differed from both
+                        <italic>D. sechellia</italic> and <italic>D. melanogaster</italic>, we
+                    performed a detailed comparison of the entire NTD between <italic>D.
+                        melanogaster</italic>, <italic>D. simulans</italic> and <italic>D.
+                    sechellia</italic>. The analysis above does not reveal the full extent of the
+                    NTDs or if these putative NTDs are indeed expressed. We therefore predicted
+                    possible upstream exons and designed primers in these exons and in exon 5 for
+                    RT-PCR analysis. For both <italic>D. simulans</italic> and <italic>D.
+                    sechellia</italic>, this strategy allowed us to amplify cDNA fragments spanning
+                    these exons; sequencing revealed that these fragments indeed encompass the
+                    putative exon 3, including the highly variable glutamine-rich stretches. Thus,
+                    like <italic>D. melanogaster</italic>, these species express unusual Ago2 NTDs.</p><p>The NTDs of the three species differ extensively from each other in length
+                        (<italic>D. sechellia</italic>: 211 aa; <italic>D. simulans</italic>: 277
+                    aa; <italic>D. melanogaster</italic> 368 to 506 aa (<xref ref-type="table" rid="pone-0015264-t001">Table 1</xref>)); their glutamine content, however,
+                    was fairly similar (36&#x02013;40%) (<xref ref-type="table" rid="pone-0015264-t002">Table 2</xref>; <xref ref-type="supplementary-material" rid="pone.0015264.s003">Fig. S3</xref>).
+                    These length differences do not arise from variation in copy numbers of similar
+                    repeats, as between distinct <italic>D. melanogaster</italic> strains (<xref ref-type="table" rid="pone-0015264-t001">Table 1</xref>). Rather, NTD
+                    organization is quite different between species. The primary sequences of the
+                        <italic>simulans</italic> and <italic>sechellia</italic> NTDs are clearly
+                    related; both species contain a highly similar sequence of &#x0223c;118 aa. But
+                        <italic>D. simulans</italic> Ago2 has imperfect, tandem copies of this
+                    sequence while <italic>D. sechellia</italic> Ago2 has a single copy (<xref ref-type="supplementary-material" rid="pone.0015264.s002">Fig. S2B</xref>).
+                    Instead, in <italic>D. sechellia</italic> Ago2, a 15 aa stretch internal to the
+                    118 aa region is repeated three times. Neither the 118 aa nor the 15 aa repeat
+                    displays striking similarity to the 6 aa (GRR1) or 23 aa (GRR2) repeats in
+                        <italic>D. melanogaster</italic>. In contrast, the remainder of the Ago2
+                    sequence in all three species is highly similar and can easily be aligned (<xref ref-type="supplementary-material" rid="pone.0015264.s003">Fig. S3</xref>).
+                    Thus, the primary sequence of the NTD is extremely variable, much more so than
+                    the rest of the protein (which already is among the most rapidly evolving
+                    proteins in <italic>Drosophila</italic>
+                    <xref ref-type="bibr" rid="pone.0015264-Obbard1">[36]</xref>).</p><table-wrap id="pone-0015264-t002" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.t002</object-id><label>Table 2</label><caption><title>NTD of Ago2 orthologs in <italic>Drosophila</italic> species.</title></caption><alternatives><graphic id="pone-0015264-t002-2" xlink:href="pone.0015264.t002"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">species</td><td align="left" rowspan="1" colspan="1">name</td><td align="left" rowspan="1" colspan="1">Length of NTD</td><td align="left" rowspan="1" colspan="1">Glu in NTD</td><td align="left" rowspan="1" colspan="1">% Glu</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><italic>melanogaster</italic></td><td align="left" rowspan="1" colspan="1">Dmel\Ago2-PC</td><td align="left" rowspan="1" colspan="1">397</td><td align="left" rowspan="1" colspan="1">159</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>melanogaster</italic></td><td align="left" rowspan="1" colspan="1">Dmel\Ago2<sup>short</sup></td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">N.A.</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>simulans</italic></td><td align="left" rowspan="1" colspan="1">Dsim\Ago2</td><td align="left" rowspan="1" colspan="1">277</td><td align="left" rowspan="1" colspan="1">101</td><td align="left" rowspan="1" colspan="1">36%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>sechellia</italic></td><td align="left" rowspan="1" colspan="1">Dsec\Ago2</td><td align="left" rowspan="1" colspan="1">211</td><td align="left" rowspan="1" colspan="1">83</td><td align="left" rowspan="1" colspan="1">39%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>yakuba</italic></td><td align="left" rowspan="1" colspan="1">Dyak\Ago2</td><td align="left" rowspan="1" colspan="1">357</td><td align="left" rowspan="1" colspan="1">153</td><td align="left" rowspan="1" colspan="1">43%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>erecta</italic></td><td align="left" rowspan="1" colspan="1">Dere\Ago2</td><td align="left" rowspan="1" colspan="1">298</td><td align="left" rowspan="1" colspan="1">124</td><td align="left" rowspan="1" colspan="1">42%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>ananassae</italic></td><td align="left" rowspan="1" colspan="1">Dana\Ago2</td><td align="left" rowspan="1" colspan="1">214</td><td align="left" rowspan="1" colspan="1">78</td><td align="left" rowspan="1" colspan="1">36%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>pseudoobscura</italic></td><td align="left" rowspan="1" colspan="1">Dpse\Ago2a</td><td align="left" rowspan="1" colspan="1">226</td><td align="left" rowspan="1" colspan="1">43</td><td align="left" rowspan="1" colspan="1">19%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>pseudoobscura</italic></td><td align="left" rowspan="1" colspan="1">Dpse\Ago2b</td><td align="left" rowspan="1" colspan="1">182</td><td align="left" rowspan="1" colspan="1">36</td><td align="left" rowspan="1" colspan="1">20%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>pseudoobscura</italic></td><td align="left" rowspan="1" colspan="1">Dpse\Ago2c</td><td align="left" rowspan="1" colspan="1">157</td><td align="left" rowspan="1" colspan="1">55</td><td align="left" rowspan="1" colspan="1">35%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>pseudoobscura</italic></td><td align="left" rowspan="1" colspan="1">Dpse\Ago2d</td><td align="left" rowspan="1" colspan="1">149</td><td align="left" rowspan="1" colspan="1">34</td><td align="left" rowspan="1" colspan="1">23%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>pseudoobscura</italic></td><td align="left" rowspan="1" colspan="1">Dpse\Ago2e</td><td align="left" rowspan="1" colspan="1">46</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">7%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>persimilis</italic></td><td align="left" rowspan="1" colspan="1">Dper\Ago2a</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">0</td><td align="left" rowspan="1" colspan="1">0%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>persimilis</italic></td><td align="left" rowspan="1" colspan="1">Dper\Ago2b</td><td align="left" rowspan="1" colspan="1">200</td><td align="left" rowspan="1" colspan="1">48</td><td align="left" rowspan="1" colspan="1">24%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>persimilis</italic></td><td align="left" rowspan="1" colspan="1">Dper\Ago2c</td><td align="left" rowspan="1" colspan="1">142</td><td align="left" rowspan="1" colspan="1">57</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>persimilis</italic></td><td align="left" rowspan="1" colspan="1">Dper\Ago2d</td><td align="left" rowspan="1" colspan="1">142</td><td align="left" rowspan="1" colspan="1">34</td><td align="left" rowspan="1" colspan="1">24%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>persimilis</italic></td><td align="left" rowspan="1" colspan="1">Dper\Ago2e</td><td align="left" rowspan="1" colspan="1">46</td><td align="left" rowspan="1" colspan="1">3</td><td align="left" rowspan="1" colspan="1">7%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>willistoni</italic></td><td align="left" rowspan="1" colspan="1">Dwil\Ago2a</td><td align="left" rowspan="1" colspan="1">202</td><td align="left" rowspan="1" colspan="1">56</td><td align="left" rowspan="1" colspan="1">28%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>willistoni</italic></td><td align="left" rowspan="1" colspan="1">Dwil\Ago2b</td><td align="left" rowspan="1" colspan="1">190</td><td align="left" rowspan="1" colspan="1">51</td><td align="left" rowspan="1" colspan="1">18%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>mojavensis</italic></td><td align="left" rowspan="1" colspan="1">Dmoj\Ago2</td><td align="left" rowspan="1" colspan="1">247</td><td align="left" rowspan="1" colspan="1">57</td><td align="left" rowspan="1" colspan="1">23%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>virilis</italic></td><td align="left" rowspan="1" colspan="1">Dvir\Ago2</td><td align="left" rowspan="1" colspan="1">335</td><td align="left" rowspan="1" colspan="1">96</td><td align="left" rowspan="1" colspan="1">29%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>grimshawi</italic></td><td align="left" rowspan="1" colspan="1">Dgri\Ago2</td><td align="left" rowspan="1" colspan="1">316</td><td align="left" rowspan="1" colspan="1">99</td><td align="left" rowspan="1" colspan="1">31%</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt102"><label/><p>Predicted Ago2 proteins in the 12 sequenced
+                                <italic>Drosophila</italic> species were examined for length and
+                                glutamine content of the amino-terminal domain. The NTD was defined
+                                by comparison to <italic>Homo sapiens</italic> Ago2, as described in
+                                Experimental Procedures. For details of how these proteins were
+                                predicted and for FlyBase or GenBank names, see <xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig.
+                                    S4</xref>. For <italic>D. melanogaster</italic>, the canonical
+                                (3xGRR1, 11xGRR2) long isoform and the short isoform are listed.</p></fn></table-wrap-foot></table-wrap><p>In <italic>D. melanogaster</italic>, the NTD displays drastic intra-specific
+                    variation (<xref ref-type="table" rid="pone-0015264-t001">Table 1</xref>). To
+                    test if similar variability might occur in <italic>D. simulans</italic>, we
+                    amplified by PCR the genomic region corresponding to exon 3 from nine different
+                    strains and sequenced the PCR fragments. In total, we recovered five haplotypes
+                    that vary from each other by small deletions and insertions (<xref ref-type="supplementary-material" rid="pone.0015264.s002">Fig. S2A</xref>).
+                    We conclude that the NTD evolves rapidly both within and between species.</p></sec><sec id="s2h"><title>The NTD of Ago2 is highly variable throughout insects</title><p>In the genus <italic>Drosophila</italic>, nearly full genome sequences are
+                    available for nine additional species <xref ref-type="bibr" rid="pone.0015264-Clark1">[40]</xref>. This resource
+                    provides an opportunity to examine the pattern of Ago2 evolution across longer
+                    evolutionary times, on the order of 50 Mya. We first identified all Argonaute
+                    family members in the predicted proteomes of all twelve species, by reciprocal
+                    blastp best-hit analysis and comparison of FlyBase annotations in all 12
+                    species. We conducted multiple alignment of the protein sequences,
+                    neighbor-joining tree building and 1000 bootstrap trials via CLUSTALX (data not
+                    shown). Examination of the phylogram revealed a subset of these proteins as most
+                    closely related to Ago2 of <italic>D. melanogaster</italic>, clearly separate
+                    from Ago1, Piwi, Aubergine, and Ago3 orthologs. Interestingly, <italic>D.
+                        willistoni</italic> had two Ago2 paralogs and <italic>D.
+                    pseudoobscura</italic> and <italic>D. persimilis</italic> each had five Ago2
+                    paralogs (see also <xref ref-type="fig" rid="pone-0015264-g007">Fig. 7</xref>).
+                    Multiple Ago2s in a single genome have also been reported for the mosquito
+                        <italic>Culex quinquefasciatus</italic>
+                    <xref ref-type="bibr" rid="pone.0015264-Campbell1">[41]</xref>
+                    and the flour beetle <italic>Tribolium castaneum</italic>
+                    <xref ref-type="bibr" rid="pone.0015264-Tomoyasu1">[42]</xref>
+                        (<xref ref-type="table" rid="pone-0015264-t003">Table 3</xref>). Presumably,
+                    multiple <italic>ago2</italic> genes in a single organism allow those variants
+                    to be adapted for specific tasks. We speculate that in <italic>D.
+                    melanogaster</italic> the multiple isoforms generated from a single
+                    <italic>ago2</italic> gene allow similar specialization.</p><fig id="pone-0015264-g007" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.g007</object-id><label>Figure 7</label><caption><title>Rooted neighbor-joining phylogram of Ago2 proteins.</title><p>Tree is rooted with <italic>Homo sapiens</italic> Ago2. Branch lengths
+                            (genetic distance) indicated by ruler. Numbers at nodes indicate
+                            supportive number of 1000 bootstrap trials. Nodes labeled with D
+                            indicate gene duplications. The genus <italic>Drosophila</italic> is
+                            indicated by a black bar. Species designations: Hsap, <italic>Homo
+                                sapiens;</italic> Dpul, <italic>Daphnia pulex</italic>; Bmor,
+                                <italic>Bombyx mori</italic>; Apis, <italic>Acyrthosiphon
+                            pisum</italic>; Phum, <italic>Pediculus humanus</italic>; Amel,
+                                <italic>Apis mellifera</italic>; Nvit, <italic>Nasonia
+                            vitripennis</italic>; Tcas, <italic>Tribolium castaneum</italic>; Cqu,
+                                <italic>Culex quinquefasciatus</italic>; Aae, <italic>Aedes
+                            aegypti</italic>; Dgri, <italic>Drosophila grimshawi</italic>; Dmoj,
+                                <italic>D. mojavensis</italic>; Dvir, <italic>D. virilis</italic>;
+                            Dwil, <italic>D. willistoni</italic>; Dana, <italic>D.
+                            ananassae</italic>; Dmel, <italic>D. melanogaster</italic>; Dsim,
+                                <italic>D. simulans</italic>; Dsec, <italic>D. sechellia</italic>;
+                            Dere, <italic>D. erecta</italic>; Dyak, <italic>D. yakuba</italic>;
+                            Dpse, <italic>D. pseudoobscura</italic>; Dper, <italic>D.
+                            persimilis</italic>.</p></caption><graphic xlink:href="pone.0015264.g007"/></fig><table-wrap id="pone-0015264-t003" position="float"><object-id pub-id-type="doi">10.1371/journal.pone.0015264.t003</object-id><label>Table 3</label><caption><title>NTD of Ago2 orthologs in other species.</title></caption><alternatives><graphic id="pone-0015264-t003-3" xlink:href="pone.0015264.t003"/><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/><col align="center" span="1"/></colgroup><thead><tr><td align="left" rowspan="1" colspan="1">species</td><td align="left" rowspan="1" colspan="1">name</td><td align="left" rowspan="1" colspan="1">Length of NTD</td><td align="left" rowspan="1" colspan="1">Glu in NTD</td><td align="left" rowspan="1" colspan="1">% Glu</td></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1"><italic>Culex quinquefasciatus</italic></td><td align="left" rowspan="1" colspan="1">Cqu\Ago2-1</td><td align="left" rowspan="1" colspan="1">87</td><td align="left" rowspan="1" colspan="1">20</td><td align="left" rowspan="1" colspan="1">23%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Culex quinquefasciatus</italic></td><td align="left" rowspan="1" colspan="1">Cqu\Ago2-2</td><td align="left" rowspan="1" colspan="1">208</td><td align="left" rowspan="1" colspan="1">41</td><td align="left" rowspan="1" colspan="1">20%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Aedes aegypti</italic></td><td align="left" rowspan="1" colspan="1">Aae\Ago2</td><td align="left" rowspan="1" colspan="1">173</td><td align="left" rowspan="1" colspan="1">77</td><td align="left" rowspan="1" colspan="1">45%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Apis mellifera</italic></td><td align="left" rowspan="1" colspan="1">Amel\Ago2</td><td align="left" rowspan="1" colspan="1">366</td><td align="left" rowspan="1" colspan="1">148</td><td align="left" rowspan="1" colspan="1">40%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Nasonia vitripennis</italic></td><td align="left" rowspan="1" colspan="1">Nvit\Ago2</td><td align="left" rowspan="1" colspan="1">222</td><td align="left" rowspan="1" colspan="1">50</td><td align="left" rowspan="1" colspan="1">23%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Bombyx mori</italic></td><td align="left" rowspan="1" colspan="1">Bmor\Ago2</td><td align="left" rowspan="1" colspan="1">232</td><td align="left" rowspan="1" colspan="1">11</td><td align="left" rowspan="1" colspan="1">5%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Tribolium castaneum</italic></td><td align="left" rowspan="1" colspan="1">Tcas\Ago2a</td><td align="left" rowspan="1" colspan="1">49</td><td align="left" rowspan="1" colspan="1">5</td><td align="left" rowspan="1" colspan="1">10%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Tribolium castaneum</italic></td><td align="left" rowspan="1" colspan="1">Tcas\Ago2b</td><td align="left" rowspan="1" colspan="1">69</td><td align="left" rowspan="1" colspan="1">18</td><td align="left" rowspan="1" colspan="1">26%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Acyrthosiphon pisum</italic></td><td align="left" rowspan="1" colspan="1">Apis\Ago2</td><td align="left" rowspan="1" colspan="1">146</td><td align="left" rowspan="1" colspan="1">26</td><td align="left" rowspan="1" colspan="1">18%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Pediculus humanus</italic></td><td align="left" rowspan="1" colspan="1">Phum\Ago2</td><td align="left" rowspan="1" colspan="1">429</td><td align="left" rowspan="1" colspan="1">92</td><td align="left" rowspan="1" colspan="1">21%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Daphnia pulex</italic></td><td align="left" rowspan="1" colspan="1">Dpul\Ago2</td><td align="left" rowspan="1" colspan="1">272</td><td align="left" rowspan="1" colspan="1">67</td><td align="left" rowspan="1" colspan="1">25%</td></tr><tr><td align="left" rowspan="1" colspan="1"><italic>Homo sapiens</italic></td><td align="left" rowspan="1" colspan="1">Hsap\Ago2</td><td align="left" rowspan="1" colspan="1">24</td><td align="left" rowspan="1" colspan="1">1</td><td align="left" rowspan="1" colspan="1">4%</td></tr></tbody></table></alternatives><table-wrap-foot><fn id="nt103"><label/><p>Predicted Ago2 proteins in various insects and the crustacean
+                                    <italic>Daphnia pulex</italic> were examined for length and
+                                glutamine content of the amino-terminal domain, using the same
+                                approach as for <xref ref-type="table" rid="pone-0015264-t002">Table
+                                    2</xref>. Human Ago2 is included for comparison.</p></fn></table-wrap-foot></table-wrap><p>The protein annotation for the 11 non-<italic>melanogaster</italic> genomes
+                    employs a consensus between eight distinct gene prediction algorithms <xref ref-type="bibr" rid="pone.0015264-Clark1">[40]</xref>. For
+                    most of the Ago2 candidates, either this consensus or at least one of the
+                    individual algorithms indicated the presence of a glutamine-rich NTD, suggesting
+                    that such amino-terminal domains are common throughout the genus. In total, 18
+                    out of the 21 Ago2 sequences in <xref ref-type="table" rid="pone-0015264-t002">Table 2</xref> have an NTD of more than 240 amino acids and an NTD
+                    glutamine content above 12%. Although the presence of these NTDs will
+                    have to be independently confirmed in the future, for several of these
+                    candidates, cDNA or microarray evidence support that the NTD region is indeed
+                    expressed (<xref ref-type="supplementary-material" rid="pone.0015264.s006">Table
+                        S1</xref>).</p><p>Although many of these predicted Ago2 proteins have glutamine-rich NTDs, the
+                    primary sequence, length and glutamine content vary greatly between family
+                    members (<xref ref-type="table" rid="pone-0015264-t002">Table 2</xref>, <xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig. S4</xref>).
+                    This is even true for Ago2 paralogs in the same species, such as for the Ago2s
+                    of <italic>D. willistoni</italic> that have NTDs of 244 and 356 amino acids,
+                    respectively. And some of the <italic>D. persimilis</italic> and <italic>D.
+                        pseudoobscura</italic> copies even seem to lack a glutamine-rich NTD
+                    entirely. In addition, there are radical changes in repeat organization between
+                    species <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>. For example, in various Ago2s, we identified
+                    repeats of 11, 12, 13, 16, 22 and 31 amino acids in length. Even in the sister
+                    species <italic>D. persimilis</italic> and <italic>D. pseudoobscura</italic>
+                    which diverged &#x0223c;0.5 Mya ago <xref ref-type="bibr" rid="pone.0015264-Wang2">[43]</xref>, the closely related
+                    Ago2 pair Dpse\Ago2c and Dper\Ago2c are identical across much of the NTD and the
+                    rest of the coding sequence, but are distinguished from each other by unique
+                    repeats (<xref ref-type="supplementary-material" rid="pone.0015264.s005">Fig.
+                    S5</xref>).</p><p>To determine if Ago2 NTDs are found outside the genus
+                    <italic>Drosophila</italic>, we searched various databases for Ago2 candidates
+                    and identified them in a wide variety of insect species, including flies,
+                    beetles, bees, wasps and lice, and even the crustacean <italic>Daphnia
+                    pulex</italic> (<xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig. S4</xref>). A comparison with Argonaute family members from fungi,
+                    plants and animals (i.e., the dataset analyzed in <xref ref-type="bibr" rid="pone.0015264-Murphy1">[17]</xref>) indicated that
+                    insect plus <italic>Daphnia</italic> Ago2s are a monophyletic assemblage, well
+                    supported by bootstrap trials (data not shown). As previously noticed for
+                        <italic>D. melanogaster</italic> Ago2 <xref ref-type="bibr" rid="pone.0015264-Murphy1">[17]</xref>, this entire clade
+                    is highly divergent and distinct from all other Argonautes. And like the
+                        <italic>Drosophila</italic> Ago2s, most members of this clade are predicted
+                    to carry glutamine-rich amino-terminal domains (<xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>, <xref ref-type="fig" rid="pone-0015264-g007">Fig. 7</xref>, <xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig. S4</xref>,
+                        <xref ref-type="table" rid="pone-0015264-t003">Table 3</xref>). In several
+                    instances, cDNA data support that these NTDs are expressed (<xref ref-type="supplementary-material" rid="pone.0015264.s006">Table S1</xref>).
+                    These domains are often, but not always, organized as multiple copies of
+                    imperfect repeats. As in the genus <italic>Drosophila</italic>, the lengths and
+                    sequences of these repeats vary substantially (<xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>, <xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig. S4</xref>),
+                    and the NTDs overall do not display extensive similarity in primary sequence.
+                    Thus, highly variable Ago2 NTDs are apparently ancient and predate the origin of
+                    insects.</p><p>At the moment, it is impossible to determine whether drift or selection is the
+                    primary determinant of this variability. It is conceivable that the dramatic
+                    changes in NTD primary sequence are simply a consequence of the high instability
+                    of repetitive DNA sequences. If the NTD has no function, it may be free to vary
+                    with little constraints. In this scenario, selective sweeps due to positive
+                    selection on the rest of the Ago2 sequence, <italic>e.g.</italic> as
+                    frequency-dependent adaptation of the anti-viral response <xref ref-type="bibr" rid="pone.0015264-Obbard1">[36]</xref>, may cause certain
+                    NTD haplotypes that happened to be present in those <italic>ago2</italic>
+                    variants to rise in frequency via hitchhiking. Indeed, the number and
+                    heterozygosity of NTD alleles in the natural PA population is striking,
+                    especially when compared with other protein-coding repeats which may experience
+                    similar selective pressures. Considering the unique GRR1/GRR2 haplotypes listed
+                    in <xref ref-type="table" rid="pone-0015264-t001">Table 1</xref> (excluding
+                    missing data), there are 7 NTD alleles segregating among the PA strains.
+                    Heterozygosity, measured as one minus the sum of the allele frequencies, is
+                    0.815. A recent survey of 58 protein-coding repeats in the same strains found
+                    lower diversity overall <xref ref-type="bibr" rid="pone.0015264-Bettencourt2">[44]</xref> the mean and maximum number of alleles were
+                    2.83&#x000b1;0.2 and 8, respectively. Mean and maximum heterozygosity in the
+                    same survey were 0.457&#x000b1;0.03 and 0.83. This survey considered
+                    primarily homotypic amino-acid repeat loci, not mixed or
+                    &#x0201c;minisatellite&#x0201d; repeats as are found in the Ago2 NTD.
+                    Analyses of mixed protein-coding repeats in natural <italic>D.
+                    melanogaster</italic> populations are less common. The best-studied example
+                    involves the period (<italic>per</italic>) gene, which harbors a Thr-Gly repeat
+                    of varying length that is subject to strong natural selection imposed by
+                    photoperiod and climate <xref ref-type="bibr" rid="pone.0015264-Sawyer1">[45]</xref>. A large survey of Australian populations
+                    found 8 <italic>Per</italic> Thr-Gly alleles segregating, with overall
+                    heterozygosity of 0.640 <xref ref-type="bibr" rid="pone.0015264-Sawyer2">[46]</xref>. Thus, Ago2 NTD intraspecies variability is
+                    among the highest measured for protein-coding repeats in <italic>D.
+                        melanogaster,</italic> with very high heterozygosity consistent with
+                    selection-mediated maintenance of allele frequencies. Unlike
+                    <italic>per</italic>, however, no clear phenotypic basis for selection on NTD
+                    alleles is evident. To determine whether and how selection operates on the NTD
+                        <italic>vs.</italic> linked Ago2 regions, future studies should survey
+                    natural variability and linkage disequilibrium throughout the entire
+                        <italic>ago2</italic> locus. Such studies will greatly benefit from recent
+                    efforts to sequence multiple <italic>D. melanogaster</italic> genomes.</p><p>Glutamine-rich NTDs of low sequence complexity are present across many insect
+                    species, even in species that are apparently able to generate Ago2 variants
+                    lacking the NTD (such as Ago2<sup>short</sup> in <italic>D.
+                    melanogaster</italic> and Ago2e in <italic>D. persimilis</italic> and
+                        <italic>pseudoobscura</italic>). We therefore favor the hypothesis that the
+                    NTD provides an important regulatory activity. Given the role of Ago2 in the
+                    defense against viruses <xref ref-type="bibr" rid="pone.0015264-vanRij1">[7]</xref>, <xref ref-type="bibr" rid="pone.0015264-Wang1">[9]</xref>, it is an intriguing
+                    possibility that NTD variability modulates anti-viral responses. It will be
+                    revealing to test if the survival after viral challenge is different in
+                        <italic>D. melanogaster</italic> strains expressing endogenous Ago2 or Ago2
+                    variants in which the NTD is deleted or replaced by the NTD of other insect
+                    species.</p><p>How the NTD might modulate the biological function of Ago2 is an exciting
+                    question for the future. A possible paradigm comes from the analysis of
+                        <italic>Trypanosoma brucei</italic> Ago1: Here, the amino-terminal 68 amino
+                    acids contain ten arginine-glycine rich motifs <xref ref-type="bibr" rid="pone.0015264-Shi1">[47]</xref>. This so-called RGG
+                    domain is involved in the association of TbAgo1 with poly-ribosomes, an
+                    association required for an efficient RNAi response in this organism <xref ref-type="bibr" rid="pone.0015264-Shi2">[48]</xref>.
+                    Intriguingly, the TbAgo1 RGG domain and the NTDs of arthropod Ago2s are all
+                    characterized by low sequence complexity and are likely to be intrinsically
+                    unstructured (based on RONN algorithm predictions (<xref ref-type="bibr" rid="pone.0015264-Yang1">[49]</xref>, data not shown). As
+                    intrinsically unstructured domains have been proposed as protein interaction
+                    domains <xref ref-type="bibr" rid="pone.0015264-Dunker1">[50]</xref> and changes in the number of glutamine-rich
+                    repeats can modulate interaction strength <xref ref-type="bibr" rid="pone.0015264-Liu3">[51]</xref>, <xref ref-type="bibr" rid="pone.0015264-Parham1">[52]</xref>, RGG or NTD
+                    variation might modulate the affinity of the Argonaute protein to particular
+                    targets. Indeed, mutant versions of TbAgo1 show progressively stronger RNAi
+                    responses, the more copies of the RGG motif are present <xref ref-type="bibr" rid="pone.0015264-Shi2">[48]</xref>.</p></sec><sec id="s2i"><title>Conclusion</title><p>The evolution of the Argonaute protein family resulted in members with specific
+                    tasks in small RNA functions within a single organism. Here we uncover
+                    additional complexity: Many insects express multiple Ago2 variants, either from
+                    independent genes or by generating multiple isoforms from a single gene. In
+                    addition, there is variation between different individuals of the same species,
+                    due to extensive variation in NTD organization. The functional significance of
+                    this variation remains unknown; we find that it does not grossly alter embryonic
+                    development or RISC assembly. But given the known role of Ago2 in protection
+                    against viruses, we speculate that this variability might allow fine-tuning of
+                    anti-viral responses. Such a modulatory role of the NTD would also be consistent
+                    with the rapid evolution of this domain, as observed in comparisons across
+                    insects. A potential association between NTD haplotype and Ago2 activity might
+                    provide novel insights into the plasticity of RNAi pathways in general and the
+                    innate viral response mechanisms in particular.</p></sec></sec><sec sec-type="materials|methods" id="s3"><title>Materials and Methods</title><sec id="s3a"><title><italic>Drosophila</italic> strains and culture</title><p><italic>Drosophila</italic> strains and embryos were cultured under standard
+                    laboratory condidtions. The following strains were used in this study: Oregon R,
+                    Canton-S (gift from L. Griffith), <italic>ago2</italic><sup>51B</sup> (gift of
+                    F.-B. Gao), <italic>ago2</italic><sup>414</sup>,
+                    <italic>ago2</italic><sup>454</sup>, <italic>ago2</italic><sup>321</sup>.
+                    Screening of deletion mutants was carried out as previously described <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>.
+                    The EP transposon in the <italic>EP(3)3417</italic> line was mobilized by
+                    crossing <italic>EP(3)3417</italic> virgins with males possessing
+                        <italic>&#x00394;2-3</italic> transposase. Deletions were determined as
+                    described previously <xref ref-type="bibr" rid="pone.0015264-Okamura1">[11]</xref>. The <italic>D. melanogaster 3CPA</italic>
+                    strains were donated by B.P. Lazzaro and had been established in 2001 via
+                    extracting 3rd chromosomes segregating in a single Pennsylvania (USA) population
+                    over balancers and crossing into a common background <xref ref-type="bibr" rid="pone.0015264-Lazzaro1">[32]</xref>. <italic>D.
+                        melanogaster strains Tai255.1</italic>, <italic>w-14</italic> melbourne and
+                        <italic>Oregon R**</italic> as well as <italic>D.
+                    simulans</italic> strains <italic>Oxnard</italic>, <italic>Tsimbazaza</italic>,
+                        <italic>vermilion</italic>, <italic>maz1</italic>, <italic>maz6</italic> and
+                        <italic>C167.4</italic> were a gift from H. Hollocher. These strains are
+                    described in Sainz et al. <xref ref-type="bibr" rid="pone.0015264-Sainz1">[53]</xref>. Additional strains were obtained from the
+                    Tucson <italic>Drosophila</italic> Stock Center: three <italic>D.
+                    simulans</italic> strains
+                    (<italic>sim1</italic>&#x0200a;=&#x0200a; #14021-0251.48,
+                        <italic>sim2</italic>&#x0200a;=&#x0200a; #14021-0251.047,
+                        <italic>sim3</italic>&#x0200a;=&#x0200a; #14021-0251.004),
+                    one <italic>D. mauritiana</italic> strain (#14021-0241.46) and two <italic>D.
+                        sechellia</italic> strains (#14021-0248.08, #14021-0248.25). All other
+                    strains in <xref ref-type="table" rid="pone-0015264-t001">Table 1</xref> were
+                    obtained from the Bloomington <italic>Drosophila</italic> Stock Center.</p></sec><sec id="s3b"><title>Quantitative real-time PCR</title><p>Groups of 15 female flies aged 3-5 days were anesthetized under light
+                    CO<sub>2</sub> and flash-frozen in liquid N<sub>2</sub>. Total RNA was prepared
+                    from each group, and cDNA was synthesized using oligo-dT primers according to
+                    standard protocols (see B<sc>ettencourt</sc>
+                    <italic>et al.</italic> 2008). Three replicate preparations were obtained for
+                    each of the <italic>3CPA</italic> strains in <xref ref-type="fig" rid="pone-0015264-g006">Figure 6</xref>. QrtPCR was conducted using primers
+                    specific for <italic>ago2</italic><sup>long</sup> and
+                        <italic>ago2</italic><sup>short</sup>; sequences are available upon request.
+                    The ribosomal protein gene <italic>RpL32</italic> was also examined as a control
+                    according to B<sc>ettencourt</sc>
+                    <italic>et al</italic>. (2008). A minimum of two replicate PCR reactions per
+                    strain/gene were conducted. Reactions were conducted and analyzed on a BIO-RAD
+                    myIQ thermocycler using a standard 40-cycle protocol, and amplification products
+                    were verified via electrophoresis and melt-curve.</p></sec><sec id="s3c"><title>In vivo observations and immunohistology</title><p>For in vivo observation, embryos were collected and staged on yeasted apple juice
+                    plates and mounted in halocarbon oil 27 (Sigma-Aldrich) on microscope slides.
+                    Video-microscopy was performed on a Zeiss (Germany) microscope equipped with
+                    Nomarski optics, and time-lapse movies were taken using the OpenLab software
+                    (Improvision, UK). For immunohistology, embryos were either heat-fixed or fixed
+                    using modified Stefanini's fixative and stained with antibodies
+                    essentially as described elsewhere <xref ref-type="bibr" rid="pone.0015264-Mller1">[54]</xref>. The following
+                    antibodies were used: mouse anti Neurotactin (DSHB; Iowa, USA); mouse anti Arm
+                        <xref ref-type="bibr" rid="pone.0015264-Riggleman1">[55]</xref>. All secondary fluorochrome conjugated antibodies
+                    were from Dianova (Germany) or Molecular Probes (Eugene, OR). Imaging was
+                    performed on a Leica SP2 Confocal microscope, and image processing was performed
+                    with Adobe Photoshop.</p></sec><sec id="s3d"><title>Molecular Biology</title><p>Molecular cloning was performed following standard protocols. RT-PCR was
+                    performed using &#x02018;one Step RT PCR kit&#x02019; (Qiagen, Germany) with
+                    embryonic poly A<sup>+</sup> RNA as templates. Primer sequences are
+                    available upon request. Products from RT-PCR were confirmed by sequencing
+                    (Seqlab, G&#x000f6;ttingen, Germany). GenBank accession numbers of full-length
+                    cDNA for <italic>D. melanogaster ago2</italic> are BT003546 (EST RE04347, RB
+                    isoform) and BT099682 (EST RE36670, RC isoform). In addition, the sequence of
+                    the EST GM07030 (GenBank accession number AY094751) is consistent with
+                    expression of the <italic>ago2</italic><sup>short</sup> isoform. PCR to analyze
+                    NTDs in <italic>D. melanogaster</italic>, <italic>simulans</italic>,
+                        <italic>mauritiana</italic> and <italic>sechellia</italic> was performed
+                    with primers located in introns surrounding exons 2 and 3 of
+                    <italic>ago2</italic>, respectively. Protein extraction and immunoblotting was
+                    performed as described before <xref ref-type="bibr" rid="pone.0015264-Meyer1">[16]</xref>.</p></sec><sec id="s3e"><title>Northern blotting</title><p>RNA samples were prepared from 2-4-day old male flies using Trizol. 10
+                    &#x000b5;g total RNA was loaded in each lane on a denaturing agarose gel and
+                    transferred to Genescreen plus membrane. The template for the probe was prepared
+                    by PCR using an <italic>ago2</italic> cDNA fragment cloned in pGEMT-easy vector.
+                    The primers used for PCR amplification are available upon request. Probes were
+                    labeled using Random Primed DNA Labeling Kit (Roche) and P<sup>32</sup>-dCTP,
+                    and hybridized at 65&#x000b0;C in 500 mM Church phosphate buffer containing
+                    7% SDS and 1 mM EDTA.</p></sec><sec id="s3f"><title>RISC formation assay</title><p><italic>Drosophila</italic> embryo extract preparation and synthetic siRNA
+                    labelling and annealing were described previously <xref ref-type="bibr" rid="pone.0015264-Haley1">[56]</xref>. Reactions used
+                    different dilutions of cell free extraxts of wild-type or
+                        <italic>dop<sup>1</sup></italic> mutant embryos, 5 nM of
+                    P<sup>32</sup>-end-labelled siRNA and 1x lysis buffer containing 10%
+                    v/v of glycerol in a total volume of 10 &#x000b5;l. Reactions were incubated
+                    for 30 min to allow silencing complex formation. Native gel electrophoresis for
+                    separation of silencing complexes was essentially as described previously <xref ref-type="bibr" rid="pone.0015264-Pham1">[31]</xref>. The
+                    in vitro reaction mixtures were diluted with 10 &#x000b5;l of loading buffer
+                    (1x lysis buffer, 6% Ficoll 400), and part of the sample was analyzed
+                    on a 3.9% (39&#x02236;1 acrylamide-bisacrylamide) native acrylamide
+                    gel in 1xTBE buffer. The gels were dried and exposed to a storage phosphor
+                    screen.</p></sec><sec id="s3g"><title>Ago2 sequence comparisons</title><p>For various species, Ago2 family members were identified by searching FlyBase
+                    annotations or GenBank entries. For Ago2 proteins from
+                    <italic>Drosophila</italic> species, most candidates showed a glutamine-rich
+                    NTD. For those candidates that did not, we examined the eight distinct gene
+                    prediction algorithms from which the FlyBase consensus prediction is derived
+                        <xref ref-type="bibr" rid="pone.0015264-Clark1">[40]</xref>. In several additional cases, at least one of
+                    these algorithms predicted a glutamine-rich NTD (details provided in <xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig. S4</xref>).
+                    DUF1785, PAZ and PIWI domains were estimated using the Conserved Domain Search
+                    at NCBI. To estimate the extent of the NTD, the candidates were aligned with
+                    human Ago2 using the &#x0201c;Align two sequences by using BLAST&#x0201d;
+                    function at NCBI; the NTD was defined as those sequences amino-terminal to where
+                    significant alignment was detected. Similar results are obtained when candidates
+                    are aligned to any of the other human Argonaute family members (not shown). For
+                    human Ago2, the NTD was defined by aligning to <italic>D. melanogaster</italic>
+                    Ago2. For the phylogram in <xref ref-type="fig" rid="pone-0015264-g007">Fig.
+                    7</xref>, we conducted multiple alignment of the protein sequences,
+                    neighbor-joining tree building and 1000 bootstrap trials via CLUSTALX. In
+                    similar phylograms based on all <italic>Drosophila</italic> Argonaute family
+                    members (not shown), the branch lengths for Ago2s are much longer than for
+                    Ago1s, consistent with the observation that Ago2 evolves much more rapidly than
+                    Ago1 <xref ref-type="bibr" rid="pone.0015264-Obbard1">[36]</xref>. These increased branch lengths hold true even if
+                    the NTD sequences of Ago2 are omitted from the analysis.</p></sec></sec><sec sec-type="supplementary-material" id="s4"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pone.0015264.s001"><label>Figure S1</label><caption><p><bold>Amino acid sequence of GRR2 repeats in various </bold><bold><italic>D. melanogaster</italic></bold><bold> strains.</bold> GRR2 repeats display slight sequence
+                        variations, indicated by different colors. Fly strains differ both in number
+                        and type of repeat. The <italic>3CPA122</italic> pattern is identical to the
+                        one in the current FlyBase annotation for Ago2, and was also found in
+                        strains <italic>In(1)AB</italic>, <italic>w-14 melbourne</italic>,
+                            <italic>red e</italic>, and <italic>dop46</italic>. Note that the same
+                        overall repeat copy number can be achieved via distinct primary sequences
+                        (compare left and right columns below). This variability in sequence likely
+                        results in even greater number of distinct haplotypes, and the ten
+                        haplotypes in <xref ref-type="table" rid="pone-0015264-t001">Table 1</xref>,
+                        which are based solely on repeat copy number, probably underestimate the
+                        true variability among the 32 strains surveyed.</p><p>(PDF)</p></caption><media xlink:href="pone.0015264.s001.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0015264.s002"><label>Figure S2</label><caption><p><bold>Variability in the Ago2 NTD for </bold><bold><italic>Drosophila simulans</italic></bold><bold>, </bold><bold><italic>mauritiana</italic></bold><bold>, and </bold><bold><italic>sechellia</italic></bold><bold> strains.</bold> The genomic DNA corresponding to exon 3 of
+                            <italic>ago2</italic> was sequenced in a number of strains of the
+                            <italic>D. simulans</italic> species complex. The amino acid sequences
+                        for the corresponding NTD stretches were compared. A) Nine <italic>D.
+                            simulans</italic> and one <italic>D. mauritiana</italic> strain
+                        displayed highly similar sequences that could easily be aligned. Details on
+                        these strains are given in <xref ref-type="sec" rid="s3">materials and
+                            methods</xref>. A total of six different haplotypes differ from each
+                        other by small insertions and deletions as well as single amino-acid
+                        changes. Strains sim2 and sim3 had the same sequence as strain Oxnard;
+                        strains maz1 and C167.4 had the same sequence as maz6. B) Comparison of
+                            <italic>D. simulans</italic> (strain maz6 is shown) and <italic>D.
+                            sechellia</italic> (two strains analyzed) sequences shows that they are
+                        composed of highly related stretches (indicated in red, green, and yellow)
+                        whose overall arrangement differs. In <italic>D. simulans</italic>, there is
+                        an imperfect, tandem repeat of the red + green + yellow
+                        stretches (118 or 121 aa long). In <italic>D. sechellia</italic>, a single
+                        copy of the red stretch is followed by three repeats (15 aa long) of the
+                        green stretch, and then one copy of the yellow stretch.</p><p>(PDF)</p></caption><media xlink:href="pone.0015264.s002.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0015264.s003"><label>Figure S3</label><caption><p><bold>Ago2 from </bold><bold><italic>Drosophila melanogaster</italic></bold><bold>, </bold><bold><italic>simulans</italic></bold><bold> and </bold><bold><italic>sechellia</italic></bold><bold> are dramatically variable in the NTD, but highly similar in
+                            the rest of the protein.</bold> Ago2 from <italic>D.
+                        melanogaster</italic>, <italic>simulans</italic> and
+                        <italic>sechellia</italic> aligned with CLUSTALW. Color code for domains as
+                        in <xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig.
+                        S4</xref>.</p><p>(PDF)</p></caption><media xlink:href="pone.0015264.s003.pdf" mimetype="application" mime-subtype="pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0015264.s004"><label>Figure S4</label><caption><p><bold>Sequences of Ago2 family members in insects and in </bold><bold><italic>Daphnia pulex</italic></bold> For various species, Ago2 family members were identified by
+                        searching FlyBase annotations or GenBank entries. In a few cases, predicted
+                        proteins were corrected based on cDNA data or after resequencing problematic
+                        genomic regions; if alternative predictions for the protein included a
+                        glutamine- rich NTD, those predictions are listed below.In these sequences,
+                        four domains were identified: NTD (light blue), DUF1785 (pink), PAZ (green)
+                        and Piwi (yellow). The latter three domains were estimated using the
+                        Conserved Domain Search at NCBI. The extent of the NTD was based on
+                        comparison to human Ago2 (see <xref ref-type="sec" rid="s3">Materials and
+                            Methods</xref>). Glutamine residues are highlighted in red and bold. For
+                            <italic>D. pseudoobscura</italic>, <italic>D. persimilis</italic>, and
+                            <italic>D. willistoni</italic>, FlyBase annotations suggest the
+                        existence of multiple Ago2 paralogs. Sequences of these putative paralogs
+                        were compared to ensure that they did not represent alternative isoforms of
+                        the same gene. For annotations that showed only minor differences from each
+                        other, only one such annotation was included in the list below. The
+                        phylogram in <xref ref-type="fig" rid="pone-0015264-g007">Fig. 7</xref>
+                        suggests that the thus chosen candidates represent <italic>bona
+                        fide</italic> paralogs. <bold>Dsim\Ago2</bold>
+                        <italic>Drosophila simulans</italic> NTD sequence based on our cDNA
+                        sequencing; rest of sequence based on Genbank entry EDX10559.1. The FlyBase
+                        annotation for this gene (GD14553) is largely identical across the NTD, DUF
+                        and PAZ domains, but predicts a deletion of much of the Piwi domain.
+                            <bold>Dsec\Ago2</bold>
+                        <italic>Drosophila sechellia</italic> NTD sequence based on our cDNA
+                        sequencing; rest of sequence based on combining FlyBase annotations GM25537
+                        and GM25538 and resequencing the genomic DNA between those annotations.
+                            <bold>Dere\Ago2</bold>
+                        <italic>Drosophila erecta</italic> Based on alternative GNOMON prediction
+                        for FlyBase annotation GG15907. <bold>Dyak\Ago2</bold>
+                        <italic>Drosophila yakuba</italic> FlyBase annotation GE22249.
+                            <bold>Dana\Ago2</bold>
+                        <italic>Drosophila ananassae</italic> FlyBase annotation GF10056.
+                            <bold>Dpse\Ago2a</bold>
+                        <italic>Drosophila pseudoobscura</italic> FlyBase annotation GA28114. Note:
+                        because this prediction does not start with a Methionine, future analysis
+                        will likely refine the translation start site. <bold>Dpse\Ago2b</bold>
+                        <italic>Drosophila pseudoobscura</italic> FlyBase annotation GA27454.
+                            <bold>Dpse\Ago2c</bold>
+                        <italic>Drosophila pseudoobscura</italic> FlyBase annotation GA27411.
+                            <bold>Dpse\Ago2d</bold>
+                        <italic>Drosophila pseudoobscura</italic> Based on alternative GNOMON
+                        prediction for FlyBase annotation GA23629. <bold>Dpse\Ago2e</bold>
+                        <italic>Drosophila pseudoobscura</italic> FlyBase annotation GA26008.
+                            <bold>Dper\Ago2a</bold>
+                        <italic>Drosophila persimilis</italic> FlyBase annotation GL14308.
+                            <bold>Dper\Ago2b</bold>
+                        <italic>Drosophila persimilis</italic> FlyBase annotation GL21510.
+                            <bold>Dper\Ago2c</bold>
+                        <italic>Drosophila persimilis</italic> Based on alternative N-SCAN
+                        prediction for FlyBase annotation GL22202. <bold>Dper\Ago2d</bold>
+                        <italic>Drosophila persimilis</italic> FlyBase annotation GL24877.
+                            <bold>Dper\Ago2e</bold>
+                        <italic>Drosophila persimilis</italic> Flybase annotation GL19556.
+                            <bold>Dwil\Ago2a</bold>
+                        <italic>Drosophila willistoni</italic> FlyBase annotation GK10600.
+                            <bold>Dwil\Ago2b</bold>
+                        <italic>Drosophila willistoni</italic> FlyBase annotation GK24525.
+                            <bold>Dmoj\Ago2</bold>
+                        <italic>Drosophila mojavensis</italic> FlyBase annotation GI13119.
+                            <bold>Dgri\Ago2</bold>
+                        <italic>Drosophila grimshawi</italic> FlyBase annotation GH14741.
+                            <bold>Dvir\Ago2</bold>
+                        <italic>Drosophila virilis</italic> Based on alternative N-SCAN prediction
+                        for FlyBase annotation GJ17143. <bold>Cqu\Ago2-1</bold>
+                        <italic>Culex quinquefasciatus</italic> (Southern house mosquito) GenBank
+                        entry XP_001865113. <bold>Cqu\Ago2-2</bold>
+                        <italic>Culex quinquefasciatus</italic> (Southern house mosquito) GenBank
+                        entry EDS33578.1. <bold>Aae\Ago2</bold>
+                        <italic>Aedes aegypti</italic> (yellow fewer mosquito) GenBank entry
+                        ACR56327.1. <bold>Amel\Ago2</bold>
+                        <italic>Apis mellifera</italic> (honey bee) GenBank entry XP_395048.
+                            <bold>Nvit\Ago2</bold>
+                        <italic>Nasonia vitripennis</italic> (jewel wasp) GenBank entry
+                        XP_001607164.1. <bold>Bmor\Ago2</bold>
+                        <italic>Bombyx mori</italic> (domestic silkworm) GenBank entry NP_001036995.
+                            <bold>Tcas\Ago2a</bold>
+                        <italic>Tribolium castaneum</italic> (red flour beetle) GenBank entry
+                        NP_001107842 (Argonaute-2a). <bold>Tcas\Ago2b</bold>
+                        <italic>Tribolium castaneum</italic> (red flour beetle) GenBank entry
+                        NP_001107828 (Argonaute-2b). <bold>Apis\Ago2</bold>
+                        <italic>Acyrthosiphon pisum</italic> (pea aphid) GenBank entry
+                        XP_001944852.1. <bold>Phum\Ago2</bold>
+                        <italic>Pediculus humanus</italic> (human louse) GenBank entry EEB09910.
+                            <bold>Dpul\Ago2</bold>
+                        <italic>Daphnia pulex</italic> (common water flea) One of two alternative
+                        predictions on WfleaBase: DP_DGIL_SNO_00003046. <bold>Hsap\Ago2</bold>
+                        <italic>Homo sapiens</italic> GenBank entry NP_036286.2.</p><p>(DOC)</p></caption><media xlink:href="pone.0015264.s004.doc" mimetype="application" mime-subtype="msword"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0015264.s005"><label>Figure S5</label><caption><p><bold>Comparison of Dpse\Ago2c and Dper\Ago2c.</bold> Dpse\Ago2c and
+                        Dper\Ago2c were aligned by CLUSTALW. The two proteins are almost completely
+                        identical through the entire coding region. The major differences are in the
+                        center of the NTD, where alignment is spotty, suggesting rapid changes in
+                        primary sequence. Color code for domains as in <xref ref-type="supplementary-material" rid="pone.0015264.s004">Fig.
+                        S4</xref>.</p><p>(DOC)</p></caption><media xlink:href="pone.0015264.s005.doc" mimetype="application" mime-subtype="msword"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pone.0015264.s006"><label>Table S1</label><caption><p><bold>Evidence for expression of Ago2 NTDs in various insect species.</bold>
+                        For various insect Ago2s, the genomic regions corresponding to the NTD are
+                        indeed transcribed. Evidence includes cDNA analysis of Ago2 specifically,
+                        EST data from high-throughput sequencing efforts, and RNAseq data. If the
+                        transcribed region encompasses the entire NTD, this is indicated as
+                        &#x0201c;full&#x0201d; in the table.</p><p>(DOC)</p></caption><media xlink:href="pone.0015264.s006.doc" mimetype="application" mime-subtype="msword"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We thank the Drosophila stock centers in Bloomington (Indiana, USA), Tuscon (Arizona,
+                USA) and the Developmental Studies Hybridoma Bank (Iowa, USA) and H. Hollocher, B.
+                Lazzaro, and L. Griffith for fly stocks and antibodies, respectively. We thank T.
+                Volkmann, R. Webster, N. Levin and N. Rizzo for expert technical assistance, and Y.
+                Guo and D.-H. Kim for help with cDNA cloning.</p></ack><fn-group><fn fn-type="conflict"><p><bold>Competing Interests: </bold>Dr. Bettencourt's employment with Alnylam does not alter his adherence to the PLoS ONE policies on sharing data and materials, as detailed online in PLoS's guide for authors, <ext-link ext-link-type="uri" xlink:href="http://www.plosone.org/static/policies.action#sharing">http://www.plosone.org/static/policies.action#sharing</ext-link>.</p></fn><fn fn-type="financial-disclosure"><p><bold>Funding: </bold>TC was supported by a European Molecular Biology Organisation (EMBO) short term
+                    fellowship, BRB received support from the Commonwealth of Massachusetts, and GH
+                    was supported by a Wellcome Trust Career Development Fellowship and European
+                    Union Framework 6 programme SIROCCO (Silencing RNAs: organisers and coordinators
+                    of complexity in eukaryotic organisms). ZJ is a fellow of the National Cancer
+                    Institute of Canada Terry Fox Foundation (#700132). KO is a fellow of the Japan
+                    Society for the Promotion of Science. ECL was supported by the Burroughs
+                    Wellcome Fund, the Alfred Bressler Scholars Fund, and the National Institutes of
+                    Health R01-GM083300. MAW was supported by National Institute of General Medical
+                    Sciences grant GM64687, DH was a graduate student fellow of the Biotechnological
+                    and Biological Sciences Research Council (BBSRC, UK) and HAM was supported by
+                    Deutsche Forschungsgemeinshaft (DFG) grant MU1168/5-1, 5-2, 5-3 of the DFG
+                    priority programme 'Cell polarity', and funds of the College
+                    of Life Sciences, University of Dundee, Scotland. During the time that Dr.
+                    Bettencourt performed data analysis and prepared the manuscript he was also
+                    serving as an employee of and receiving a regular salary of Alnylam
+                    Pharmaceuticals, Inc. Alnylam did not directly or indirectly fund the research
+                    that was conducted and Dr. Bettencourt's research and work on the
+                    manuscript was not done in his capacity as an employee of Alnylam. The funders
+                    had no role in study design, data collection and analysis, decision to publish,
+                    or preparation of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pone.0015264-Hutvagner1"><label>1</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Hutvagner</surname><given-names>G</given-names></name><name><surname>Simard</surname><given-names>MJ</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>Argonaute proteins: key players in RNA silencing.</article-title>
+                    <source>Nat Rev Mol Cell Biol</source>
+                    <volume>9</volume>
+                    <fpage>22</fpage>
+                    <lpage>32</lpage>
+                <pub-id pub-id-type="pmid">18073770</pub-id></mixed-citation></ref><ref id="pone.0015264-Farazi1"><label>2</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Farazi</surname><given-names>TA</given-names></name><name><surname>Juranek</surname><given-names>SA</given-names></name><name><surname>Tuschl</surname><given-names>T</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>The growing catalog of small RNAs and their association with
+                        distinct Argonaute/Piwi family members.</article-title>
+                    <source>Development</source>
+                    <volume>135</volume>
+                    <fpage>1201</fpage>
+                    <lpage>1214</lpage>
+                <pub-id pub-id-type="pmid">18287206</pub-id></mixed-citation></ref><ref id="pone.0015264-Yigit1"><label>3</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Yigit</surname><given-names>E</given-names></name><name><surname>Batista</surname><given-names>PJ</given-names></name><name><surname>Bei</surname><given-names>Y</given-names></name><name><surname>Pang</surname><given-names>KM</given-names></name><name><surname>Chen</surname><given-names>CC</given-names></name><etal/></person-group>
+                    <year>2006</year>
+                    <article-title>Analysis of the C. elegans Argonaute family reveals that distinct
+                        Argonautes act sequentially during RNAi.</article-title>
+                    <source>Cell</source>
+                    <volume>127</volume>
+                    <fpage>747</fpage>
+                    <lpage>757</lpage>
+                <pub-id pub-id-type="pmid">17110334</pub-id></mixed-citation></ref><ref id="pone.0015264-Peters1"><label>4</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Peters</surname><given-names>L</given-names></name><name><surname>Meister</surname><given-names>G</given-names></name></person-group>
+                    <year>2007</year>
+                    <article-title>Argonaute proteins: mediators of RNA silencing.</article-title>
+                    <source>Mol Cell</source>
+                    <volume>26</volume>
+                    <fpage>611</fpage>
+                    <lpage>623</lpage>
+                <pub-id pub-id-type="pmid">17560368</pub-id></mixed-citation></ref><ref id="pone.0015264-Stefani1"><label>5</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Stefani</surname><given-names>G</given-names></name><name><surname>Slack</surname><given-names>FJ</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>Small non-coding RNAs in animal development.</article-title>
+                    <source>Nat Rev Mol Cell Biol</source>
+                    <volume>9</volume>
+                    <fpage>219</fpage>
+                    <lpage>230</lpage>
+                <pub-id pub-id-type="pmid">18270516</pub-id></mixed-citation></ref><ref id="pone.0015264-Ding1"><label>6</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Ding</surname><given-names>SW</given-names></name><name><surname>Li</surname><given-names>H</given-names></name><name><surname>Lu</surname><given-names>R</given-names></name><name><surname>Li</surname><given-names>F</given-names></name><name><surname>Li</surname><given-names>WX</given-names></name></person-group>
+                    <year>2004</year>
+                    <article-title>RNA silencing: a conserved antiviral immunity of plants and
+                        animals.</article-title>
+                    <source>Virus Res</source>
+                    <volume>102</volume>
+                    <fpage>109</fpage>
+                    <lpage>115</lpage>
+                <pub-id pub-id-type="pmid">15068886</pub-id></mixed-citation></ref><ref id="pone.0015264-vanRij1"><label>7</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>van Rij</surname><given-names>RP</given-names></name><name><surname>Saleh</surname><given-names>MC</given-names></name><name><surname>Berry</surname><given-names>B</given-names></name><name><surname>Foo</surname><given-names>C</given-names></name><name><surname>Houk</surname><given-names>A</given-names></name><etal/></person-group>
+                    <year>2006</year>
+                    <article-title>The RNA silencing endonuclease Argonaute 2 mediates specific
+                        antiviral immunity in Drosophila melanogaster.</article-title>
+                    <source>Genes Dev</source>
+                    <volume>20</volume>
+                    <fpage>2985</fpage>
+                    <lpage>2995</lpage>
+                <pub-id pub-id-type="pmid">17079687</pub-id></mixed-citation></ref><ref id="pone.0015264-GalianaArnoux1"><label>8</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Galiana-Arnoux</surname><given-names>D</given-names></name><name><surname>Dostert</surname><given-names>C</given-names></name><name><surname>Schneemann</surname><given-names>A</given-names></name><name><surname>Hoffmann</surname><given-names>JA</given-names></name><name><surname>Imler</surname><given-names>JL</given-names></name></person-group>
+                    <year>2006</year>
+                    <article-title>Essential function in vivo for Dicer-2 in host defense against
+                        RNA viruses in drosophila.</article-title>
+                    <source>Nat Immunol</source>
+                    <volume>7</volume>
+                    <fpage>590</fpage>
+                    <lpage>597</lpage>
+                <pub-id pub-id-type="pmid">16554838</pub-id></mixed-citation></ref><ref id="pone.0015264-Wang1"><label>9</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Wang</surname><given-names>XH</given-names></name><name><surname>Aliyari</surname><given-names>R</given-names></name><name><surname>Li</surname><given-names>WX</given-names></name><name><surname>Li</surname><given-names>HW</given-names></name><name><surname>Kim</surname><given-names>K</given-names></name><etal/></person-group>
+                    <year>2006</year>
+                    <article-title>RNA interference directs innate immunity against viruses in adult
+                        Drosophila.</article-title>
+                    <source>Science</source>
+                    <volume>312</volume>
+                    <fpage>452</fpage>
+                    <lpage>454</lpage>
+                <pub-id pub-id-type="pmid">16556799</pub-id></mixed-citation></ref><ref id="pone.0015264-Hammond1"><label>10</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Hammond</surname><given-names>SM</given-names></name><name><surname>Boettcher</surname><given-names>S</given-names></name><name><surname>Caudy</surname><given-names>AA</given-names></name><name><surname>Kobayashi</surname><given-names>R</given-names></name><name><surname>Hannon</surname><given-names>GJ</given-names></name></person-group>
+                    <year>2001</year>
+                    <article-title>Argonaute2, a link between genetic and biochemical analyses of
+                        RNAi.</article-title>
+                    <source>Science</source>
+                    <volume>293</volume>
+                    <fpage>1146</fpage>
+                    <lpage>1150</lpage>
+                <pub-id pub-id-type="pmid">11498593</pub-id></mixed-citation></ref><ref id="pone.0015264-Okamura1"><label>11</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Okamura</surname><given-names>K</given-names></name><name><surname>Ishizuka</surname><given-names>A</given-names></name><name><surname>Siomi</surname><given-names>H</given-names></name><name><surname>Siomi</surname><given-names>MC</given-names></name></person-group>
+                    <year>2004</year>
+                    <article-title>Distinct roles for Argonaute proteins in small RNA-directed RNA
+                        cleavage pathways.</article-title>
+                    <source>Genes Dev</source>
+                    <volume>18</volume>
+                    <fpage>1655</fpage>
+                    <lpage>1666</lpage>
+                <pub-id pub-id-type="pmid">15231716</pub-id></mixed-citation></ref><ref id="pone.0015264-Rand1"><label>12</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Rand</surname><given-names>TA</given-names></name><name><surname>Ginalski</surname><given-names>K</given-names></name><name><surname>Grishin</surname><given-names>NV</given-names></name><name><surname>Wang</surname><given-names>X</given-names></name></person-group>
+                    <year>2004</year>
+                    <article-title>Biochemical identification of Argonaute 2 as the sole protein
+                        required for RNA-induced silencing complex activity.</article-title>
+                    <source>Proc Natl Acad Sci U S A</source>
+                    <volume>101</volume>
+                    <fpage>14385</fpage>
+                    <lpage>14389</lpage>
+                <pub-id pub-id-type="pmid">15452342</pub-id></mixed-citation></ref><ref id="pone.0015264-Williams1"><label>13</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Williams</surname><given-names>RW</given-names></name><name><surname>Rubin</surname><given-names>GM</given-names></name></person-group>
+                    <year>2002</year>
+                    <article-title>ARGONAUTE1 is required for efficient RNA interference in
+                        Drosophila embryos.</article-title>
+                    <source>Proc Natl Acad Sci U S A</source>
+                    <volume>99</volume>
+                    <fpage>6889</fpage>
+                    <lpage>6894</lpage>
+                <pub-id pub-id-type="pmid">12011447</pub-id></mixed-citation></ref><ref id="pone.0015264-Forstemann1"><label>14</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Forstemann</surname><given-names>K</given-names></name><name><surname>Tomari</surname><given-names>Y</given-names></name><name><surname>Du</surname><given-names>T</given-names></name><name><surname>Vagin</surname><given-names>VV</given-names></name><name><surname>Denli</surname><given-names>AM</given-names></name><etal/></person-group>
+                    <year>2005</year>
+                    <article-title>Normal microRNA maturation and germ-line stem cell maintenance
+                        requires Loquacious, a double-stranded RNA-binding domain protein.</article-title>
+                    <source>PLoS Biol</source>
+                    <volume>3</volume>
+                    <fpage>e236</fpage>
+                <pub-id pub-id-type="pmid">15918770</pub-id></mixed-citation></ref><ref id="pone.0015264-Okamura2"><label>15</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Okamura</surname><given-names>K</given-names></name><name><surname>Lai</surname><given-names>EC</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>Endogenous small interfering RNAs in animals.</article-title>
+                    <source>Nat Rev Mol Cell Biol</source>
+                    <volume>9</volume>
+                    <fpage>673</fpage>
+                    <lpage>678</lpage>
+                <pub-id pub-id-type="pmid">18719707</pub-id></mixed-citation></ref><ref id="pone.0015264-Meyer1"><label>16</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Meyer</surname><given-names>WJ</given-names></name><name><surname>Schreiber</surname><given-names>S</given-names></name><name><surname>Guo</surname><given-names>Y</given-names></name><name><surname>Volkmann</surname><given-names>T</given-names></name><name><surname>Welte</surname><given-names>MA</given-names></name><etal/></person-group>
+                    <year>2006</year>
+                    <article-title>Overlapping functions of argonaute proteins in patterning and
+                        morphogenesis of Drosophila embryos.</article-title>
+                    <source>PLoS Genet</source>
+                    <volume>2</volume>
+                    <fpage>e134</fpage>
+                <pub-id pub-id-type="pmid">16934003</pub-id></mixed-citation></ref><ref id="pone.0015264-Murphy1"><label>17</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Murphy</surname><given-names>D</given-names></name><name><surname>Dancis</surname><given-names>B</given-names></name><name><surname>Brown</surname><given-names>JR</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>The evolution of core proteins involved in microRNA biogenesis.</article-title>
+                    <source>BMC Evol Biol</source>
+                    <volume>8</volume>
+                    <fpage>92</fpage>
+                <pub-id pub-id-type="pmid">18366743</pub-id></mixed-citation></ref><ref id="pone.0015264-Xu1"><label>18</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Xu</surname><given-names>K</given-names></name><name><surname>Bogert</surname><given-names>BA</given-names></name><name><surname>Li</surname><given-names>W</given-names></name><name><surname>Su</surname><given-names>K</given-names></name><name><surname>Lee</surname><given-names>A</given-names></name><etal/></person-group>
+                    <year>2004</year>
+                    <article-title>The fragile X-related gene affects the crawling behavior of
+                        Drosophila larvae by regulating the mRNA level of the DEG/ENaC protein
+                        pickpocket1.</article-title>
+                    <source>Curr Biol</source>
+                    <volume>14</volume>
+                    <fpage>1025</fpage>
+                    <lpage>1034</lpage>
+                <pub-id pub-id-type="pmid">15202995</pub-id></mixed-citation></ref><ref id="pone.0015264-Liu1"><label>19</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Liu</surname><given-names>Y</given-names></name><name><surname>Ye</surname><given-names>X</given-names></name><name><surname>Jiang</surname><given-names>F</given-names></name><name><surname>Liang</surname><given-names>C</given-names></name><name><surname>Chen</surname><given-names>D</given-names></name><etal/></person-group>
+                    <year>2009</year>
+                    <article-title>C3PO, an endoribonuclease that promotes RNAi by facilitating RISC
+                        activation.</article-title>
+                    <source>Science</source>
+                    <volume>325</volume>
+                    <fpage>750</fpage>
+                    <lpage>753</lpage>
+                <pub-id pub-id-type="pmid">19661431</pub-id></mixed-citation></ref><ref id="pone.0015264-Fagegaltier1"><label>20</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Fagegaltier</surname><given-names>D</given-names></name><name><surname>Bouge</surname><given-names>AL</given-names></name><name><surname>Berry</surname><given-names>B</given-names></name><name><surname>Poisot</surname><given-names>E</given-names></name><name><surname>Sismeiro</surname><given-names>O</given-names></name><etal/></person-group>
+                    <year>2009</year>
+                    <article-title>The endogenous siRNA pathway is involved in heterochromatin
+                        formation in Drosophila.</article-title>
+                    <source>Proc Natl Acad Sci U S A</source>
+                    <volume>106</volume>
+                    <fpage>21258</fpage>
+                    <lpage>21263</lpage>
+                <pub-id pub-id-type="pmid">19948966</pub-id></mixed-citation></ref><ref id="pone.0015264-Pepper1"><label>21</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Pepper</surname><given-names>AS</given-names></name><name><surname>Beerman</surname><given-names>RW</given-names></name><name><surname>Bhogal</surname><given-names>B</given-names></name><name><surname>Jongens</surname><given-names>TA</given-names></name></person-group>
+                    <year>2009</year>
+                    <article-title>Argonaute2 suppresses Drosophila fragile X expression preventing
+                        neurogenesis and oogenesis defects.</article-title>
+                    <source>PLoS One</source>
+                    <volume>4</volume>
+                    <fpage>e7618</fpage>
+                <pub-id pub-id-type="pmid">19888420</pub-id></mixed-citation></ref><ref id="pone.0015264-Deshpande1"><label>22</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Deshpande</surname><given-names>G</given-names></name><name><surname>Calhoun</surname><given-names>G</given-names></name><name><surname>Schedl</surname><given-names>P</given-names></name></person-group>
+                    <year>2005</year>
+                    <article-title>Drosophila argonaute-2 is required early in embryogenesis for the
+                        assembly of centric/centromeric heterochromatin, nuclear division, nuclear
+                        migration, and germ-cell formation.</article-title>
+                    <source>Genes Dev</source>
+                    <volume>19</volume>
+                    <fpage>1680</fpage>
+                    <lpage>1685</lpage>
+                <pub-id pub-id-type="pmid">16024657</pub-id></mixed-citation></ref><ref id="pone.0015264-Ghildiyal1"><label>23</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Ghildiyal</surname><given-names>M</given-names></name><name><surname>Seitz</surname><given-names>H</given-names></name><name><surname>Horwich</surname><given-names>MD</given-names></name><name><surname>Li</surname><given-names>C</given-names></name><name><surname>Du</surname><given-names>T</given-names></name><etal/></person-group>
+                    <year>2008</year>
+                    <article-title>Endogenous siRNAs derived from transposons and mRNAs in
+                        Drosophila somatic cells.</article-title>
+                    <source>Science</source>
+                    <volume>320</volume>
+                    <fpage>1077</fpage>
+                    <lpage>1081</lpage>
+                <pub-id pub-id-type="pmid">18403677</pub-id></mixed-citation></ref><ref id="pone.0015264-Czech1"><label>24</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Czech</surname><given-names>B</given-names></name><name><surname>Malone</surname><given-names>CD</given-names></name><name><surname>Zhou</surname><given-names>R</given-names></name><name><surname>Stark</surname><given-names>A</given-names></name><name><surname>Schlingeheyde</surname><given-names>C</given-names></name><etal/></person-group>
+                    <year>2008</year>
+                    <article-title>An endogenous small interfering RNA pathway in Drosophila.</article-title>
+                    <source>Nature</source>
+                    <volume>453</volume>
+                    <fpage>798</fpage>
+                    <lpage>802</lpage>
+                <pub-id pub-id-type="pmid">18463631</pub-id></mixed-citation></ref><ref id="pone.0015264-Okamura3"><label>25</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Okamura</surname><given-names>K</given-names></name><name><surname>Chung</surname><given-names>WJ</given-names></name><name><surname>Ruby</surname><given-names>JG</given-names></name><name><surname>Guo</surname><given-names>H</given-names></name><name><surname>Bartel</surname><given-names>DP</given-names></name><etal/></person-group>
+                    <year>2008</year>
+                    <article-title>The Drosophila hairpin RNA pathway generates endogenous short
+                        interfering RNAs.</article-title>
+                    <source>Nature</source>
+                    <volume>453</volume>
+                    <fpage>803</fpage>
+                    <lpage>806</lpage>
+                <pub-id pub-id-type="pmid">18463630</pub-id></mixed-citation></ref><ref id="pone.0015264-Kawamura1"><label>26</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Kawamura</surname><given-names>Y</given-names></name><name><surname>Saito</surname><given-names>K</given-names></name><name><surname>Kin</surname><given-names>T</given-names></name><name><surname>Ono</surname><given-names>Y</given-names></name><name><surname>Asai</surname><given-names>K</given-names></name><etal/></person-group>
+                    <year>2008</year>
+                    <article-title>Drosophila endogenous small RNAs bind to Argonaute 2 in somatic
+                        cells.</article-title>
+                    <source>Nature</source>
+                    <volume>453</volume>
+                    <fpage>793</fpage>
+                    <lpage>797</lpage>
+                <pub-id pub-id-type="pmid">18463636</pub-id></mixed-citation></ref><ref id="pone.0015264-Chung1"><label>27</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Chung</surname><given-names>WJ</given-names></name><name><surname>Okamura</surname><given-names>K</given-names></name><name><surname>Martin</surname><given-names>R</given-names></name><name><surname>Lai</surname><given-names>EC</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>Endogenous RNA interference provides a somatic defense against
+                        Drosophila transposons.</article-title>
+                    <source>Curr Biol</source>
+                    <volume>18</volume>
+                    <fpage>795</fpage>
+                    <lpage>802</lpage>
+                <pub-id pub-id-type="pmid">18501606</pub-id></mixed-citation></ref><ref id="pone.0015264-Okamura4"><label>28</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Okamura</surname><given-names>K</given-names></name><name><surname>Balla</surname><given-names>S</given-names></name><name><surname>Martin</surname><given-names>R</given-names></name><name><surname>Liu</surname><given-names>N</given-names></name><name><surname>Lai</surname><given-names>EC</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>Two distinct mechanisms generate endogenous siRNAs from
+                        bidirectional transcription in Drosophila melanogaster.</article-title>
+                    <source>Nat Struct Mol Biol</source>
+                    <volume>15</volume>
+                    <fpage>998</fpage>
+                <pub-id pub-id-type="pmid">18769470</pub-id></mixed-citation></ref><ref id="pone.0015264-Meister1"><label>29</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Meister</surname><given-names>G</given-names></name><name><surname>Landthaler</surname><given-names>M</given-names></name><name><surname>Patkaniowska</surname><given-names>A</given-names></name><name><surname>Dorsett</surname><given-names>Y</given-names></name><name><surname>Teng</surname><given-names>G</given-names></name><etal/></person-group>
+                    <year>2004</year>
+                    <article-title>Human Argonaute2 mediates RNA cleavage targeted by miRNAs and
+                        siRNAs.</article-title>
+                    <source>Mol Cell</source>
+                    <volume>15</volume>
+                    <fpage>185</fpage>
+                    <lpage>197</lpage>
+                <pub-id pub-id-type="pmid">15260970</pub-id></mixed-citation></ref><ref id="pone.0015264-Liu2"><label>30</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Liu</surname><given-names>J</given-names></name><name><surname>Carmell</surname><given-names>MA</given-names></name><name><surname>Rivas</surname><given-names>FV</given-names></name><name><surname>Marsden</surname><given-names>CG</given-names></name><name><surname>Thomson</surname><given-names>JM</given-names></name><etal/></person-group>
+                    <year>2004</year>
+                    <article-title>Argonaute2 is the catalytic engine of mammalian RNAi.</article-title>
+                    <source>Science</source>
+                    <volume>305</volume>
+                    <fpage>1437</fpage>
+                    <lpage>1441</lpage>
+                <pub-id pub-id-type="pmid">15284456</pub-id></mixed-citation></ref><ref id="pone.0015264-Pham1"><label>31</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Pham</surname><given-names>JW</given-names></name><name><surname>Pellino</surname><given-names>JL</given-names></name><name><surname>Lee</surname><given-names>YS</given-names></name><name><surname>Carthew</surname><given-names>RW</given-names></name><name><surname>Sontheimer</surname><given-names>EJ</given-names></name></person-group>
+                    <year>2004</year>
+                    <article-title>A Dicer-2-dependent 80s complex cleaves targeted mRNAs during
+                        RNAi in Drosophila.</article-title>
+                    <source>Cell</source>
+                    <volume>117</volume>
+                    <fpage>83</fpage>
+                    <lpage>94</lpage>
+                <pub-id pub-id-type="pmid">15066284</pub-id></mixed-citation></ref><ref id="pone.0015264-Lazzaro1"><label>32</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Lazzaro</surname><given-names>BP</given-names></name><name><surname>Clark</surname><given-names>AG</given-names></name></person-group>
+                    <year>2001</year>
+                    <article-title>Evidence for recurrent paralogous gene conversion and exceptional
+                        allelic divergence in the Attacin genes of Drosophila melanogaster.</article-title>
+                    <source>Genetics</source>
+                    <volume>159</volume>
+                    <fpage>659</fpage>
+                    <lpage>671</lpage>
+                <pub-id pub-id-type="pmid">11606542</pub-id></mixed-citation></ref><ref id="pone.0015264-Tompa1"><label>33</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Tompa</surname><given-names>P</given-names></name></person-group>
+                    <year>2003</year>
+                    <article-title>Intrinsically unstructured proteins evolve by repeat expansion.</article-title>
+                    <source>Bioessays</source>
+                    <volume>25</volume>
+                    <fpage>847</fpage>
+                    <lpage>855</lpage>
+                <pub-id pub-id-type="pmid">12938174</pub-id></mixed-citation></ref><ref id="pone.0015264-Lachaise1"><label>34</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Lachaise</surname><given-names>D</given-names></name><name><surname>David</surname><given-names>J</given-names></name><name><surname>Lemeunier</surname><given-names>F</given-names></name><name><surname>Tsacas</surname><given-names>L</given-names></name><name><surname>Ashburner</surname><given-names>M</given-names></name></person-group>
+                    <year>1986</year>
+                    <article-title>The reproductive relationships of Drosophila sechellia with D.
+                        mauitiana, D. simulans, and D. melanogaster from the Afro-tropical region.</article-title>
+                    <source>Evolution</source>
+                    <volume>40</volume>
+                    <fpage>262</fpage>
+                    <lpage>271</lpage>
+                </mixed-citation></ref><ref id="pone.0015264-Bettencourt1"><label>35</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Bettencourt</surname><given-names>BR</given-names></name><name><surname>Hogan</surname><given-names>CC</given-names></name><name><surname>Nimali</surname><given-names>M</given-names></name><name><surname>Drohan</surname><given-names>BW</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>Inducible and constitutive heat shock gene expression responds to
+                        modification of Hsp70 copy number in Drosophila melanogaster but does not
+                        compensate for loss of thermotolerance in Hsp70 null flies.</article-title>
+                    <source>BMC Biol</source>
+                    <volume>6</volume>
+                    <fpage>5</fpage>
+                <pub-id pub-id-type="pmid">18211703</pub-id></mixed-citation></ref><ref id="pone.0015264-Obbard1"><label>36</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Obbard</surname><given-names>DJ</given-names></name><name><surname>Jiggins</surname><given-names>FM</given-names></name><name><surname>Halligan</surname><given-names>DL</given-names></name><name><surname>Little</surname><given-names>TJ</given-names></name></person-group>
+                    <year>2006</year>
+                    <article-title>Natural selection drives extremely rapid evolution in antiviral
+                        RNAi genes.</article-title>
+                    <source>Curr Biol</source>
+                    <volume>16</volume>
+                    <fpage>580</fpage>
+                    <lpage>585</lpage>
+                <pub-id pub-id-type="pmid">16546082</pub-id></mixed-citation></ref><ref id="pone.0015264-Obbard2"><label>37</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Obbard</surname><given-names>DJ</given-names></name><name><surname>Welch</surname><given-names>JJ</given-names></name><name><surname>Kim</surname><given-names>KW</given-names></name><name><surname>Jiggins</surname><given-names>FM</given-names></name></person-group>
+                    <year>2009</year>
+                    <article-title>Quantifying adaptive evolution in the Drosophila immune system.</article-title>
+                    <source>PLoS Genet</source>
+                    <volume>5</volume>
+                    <fpage>e1000698</fpage>
+                <pub-id pub-id-type="pmid">19851448</pub-id></mixed-citation></ref><ref id="pone.0015264-Begun1"><label>38</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Begun</surname><given-names>DJ</given-names></name><name><surname>Holloway</surname><given-names>AK</given-names></name><name><surname>Stevens</surname><given-names>K</given-names></name><name><surname>Hillier</surname><given-names>LW</given-names></name><name><surname>Poh</surname><given-names>YP</given-names></name><etal/></person-group>
+                    <year>2007</year>
+                    <article-title>Population genomics: whole-genome analysis of polymorphism and
+                        divergence in Drosophila simulans.</article-title>
+                    <source>PLoS Biol</source>
+                    <volume>5</volume>
+                    <fpage>e310</fpage>
+                <pub-id pub-id-type="pmid">17988176</pub-id></mixed-citation></ref><ref id="pone.0015264-Eisen1"><label>39</label><mixed-citation publication-type="other">
+                    <person-group person-group-type="author"><name><surname>Eisen</surname><given-names>M</given-names></name></person-group>
+                    <year>2007</year>
+                    <article-title>Assembly/Alignement/Annotation of 12 related Drosophila
+                    species</article-title>
+                </mixed-citation></ref><ref id="pone.0015264-Clark1"><label>40</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Clark</surname><given-names>AG</given-names></name><name><surname>Eisen</surname><given-names>MB</given-names></name><name><surname>Smith</surname><given-names>DR</given-names></name><name><surname>Bergman</surname><given-names>CM</given-names></name><name><surname>Oliver</surname><given-names>B</given-names></name><etal/></person-group>
+                    <year>2007</year>
+                    <article-title>Evolution of genes and genomes on the Drosophila phylogeny.</article-title>
+                    <source>Nature</source>
+                    <volume>450</volume>
+                    <fpage>203</fpage>
+                    <lpage>218</lpage>
+                <pub-id pub-id-type="pmid">17994087</pub-id></mixed-citation></ref><ref id="pone.0015264-Campbell1"><label>41</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Campbell</surname><given-names>CL</given-names></name><name><surname>Black</surname><given-names>WCt</given-names></name><name><surname>Hess</surname><given-names>AM</given-names></name><name><surname>Foy</surname><given-names>BD</given-names></name></person-group>
+                    <year>2008</year>
+                    <article-title>Comparative genomics of small RNA regulatory pathway components
+                        in vector mosquitoes.</article-title>
+                    <source>BMC Genomics</source>
+                    <volume>9</volume>
+                    <fpage>425</fpage>
+                <pub-id pub-id-type="pmid">18801182</pub-id></mixed-citation></ref><ref id="pone.0015264-Tomoyasu1"><label>42</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Tomoyasu</surname><given-names>Y</given-names></name><name><surname>Miller</surname><given-names>SC</given-names></name><name><surname>Tomita</surname><given-names>S</given-names></name><name><surname>Schoppmeier</surname><given-names>M</given-names></name><name><surname>Grossmann</surname><given-names>D</given-names></name><etal/></person-group>
+                    <year>2008</year>
+                    <article-title>Exploring systemic RNA interference in insects: a genome-wide
+                        survey for RNAi genes in Tribolium.</article-title>
+                    <source>Genome Biol</source>
+                    <volume>9</volume>
+                    <fpage>R10</fpage>
+                <pub-id pub-id-type="pmid">18201385</pub-id></mixed-citation></ref><ref id="pone.0015264-Wang2"><label>43</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Wang</surname><given-names>RL</given-names></name><name><surname>Wakeley</surname><given-names>J</given-names></name><name><surname>Hey</surname><given-names>J</given-names></name></person-group>
+                    <year>1997</year>
+                    <article-title>Gene flow and natural selection in the origin of Drosophila
+                        pseudoobscura and close relatives.</article-title>
+                    <source>Genetics</source>
+                    <volume>147</volume>
+                    <fpage>1091</fpage>
+                    <lpage>1106</lpage>
+                <pub-id pub-id-type="pmid">9383055</pub-id></mixed-citation></ref><ref id="pone.0015264-Bettencourt2"><label>44</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Bettencourt</surname><given-names>BR</given-names></name><name><surname>Hogan</surname><given-names>CC</given-names></name><name><surname>Nimali</surname><given-names>M</given-names></name></person-group>
+                    <year>2007</year>
+                    <article-title>Polyglutamine expansion in Drosophila: thermal stress and Hsp70
+                        as selective agents.</article-title>
+                    <source>J Biosci</source>
+                    <volume>32</volume>
+                    <fpage>537</fpage>
+                    <lpage>547</lpage>
+                <pub-id pub-id-type="pmid">17536173</pub-id></mixed-citation></ref><ref id="pone.0015264-Sawyer1"><label>45</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Sawyer</surname><given-names>LA</given-names></name><name><surname>Hennessy</surname><given-names>JM</given-names></name><name><surname>Peixoto</surname><given-names>AA</given-names></name><name><surname>Rosato</surname><given-names>E</given-names></name><name><surname>Parkinson</surname><given-names>H</given-names></name><etal/></person-group>
+                    <year>1997</year>
+                    <article-title>Natural variation in a Drosophila clock gene and temperature
+                        compensation.</article-title>
+                    <source>Science</source>
+                    <volume>278</volume>
+                    <fpage>2117</fpage>
+                    <lpage>2120</lpage>
+                <pub-id pub-id-type="pmid">9405346</pub-id></mixed-citation></ref><ref id="pone.0015264-Sawyer2"><label>46</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Sawyer</surname><given-names>LA</given-names></name><name><surname>Sandrelli</surname><given-names>F</given-names></name><name><surname>Pasetto</surname><given-names>C</given-names></name><name><surname>Peixoto</surname><given-names>AA</given-names></name><name><surname>Rosato</surname><given-names>E</given-names></name><etal/></person-group>
+                    <year>2006</year>
+                    <article-title>The period gene Thr-Gly polymorphism in Australian and African
+                        Drosophila melanogaster populations: implications for selection.</article-title>
+                    <source>Genetics</source>
+                    <volume>174</volume>
+                    <fpage>465</fpage>
+                    <lpage>480</lpage>
+                <pub-id pub-id-type="pmid">16849607</pub-id></mixed-citation></ref><ref id="pone.0015264-Shi1"><label>47</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Shi</surname><given-names>H</given-names></name><name><surname>Djikeng</surname><given-names>A</given-names></name><name><surname>Tschudi</surname><given-names>C</given-names></name><name><surname>Ullu</surname><given-names>E</given-names></name></person-group>
+                    <year>2004</year>
+                    <article-title>Argonaute protein in the early divergent eukaryote Trypanosoma
+                        brucei: control of small interfering RNA accumulation and retroposon
+                        transcript abundance.</article-title>
+                    <source>Mol Cell Biol</source>
+                    <volume>24</volume>
+                    <fpage>420</fpage>
+                    <lpage>427</lpage>
+                <pub-id pub-id-type="pmid">14673174</pub-id></mixed-citation></ref><ref id="pone.0015264-Shi2"><label>48</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Shi</surname><given-names>H</given-names></name><name><surname>Chamond</surname><given-names>N</given-names></name><name><surname>Djikeng</surname><given-names>A</given-names></name><name><surname>Tschudi</surname><given-names>C</given-names></name><name><surname>Ullu</surname><given-names>E</given-names></name></person-group>
+                    <year>2009</year>
+                    <article-title>RNA interference in Trypanosoma brucei: role of the n-terminal
+                        RGG domain and the polyribosome association of argonaute.</article-title>
+                    <source>J Biol Chem</source>
+                    <volume>284</volume>
+                    <fpage>36511</fpage>
+                    <lpage>36520</lpage>
+                <pub-id pub-id-type="pmid">19880512</pub-id></mixed-citation></ref><ref id="pone.0015264-Yang1"><label>49</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Yang</surname><given-names>ZR</given-names></name><name><surname>Thomson</surname><given-names>R</given-names></name><name><surname>McNeil</surname><given-names>P</given-names></name><name><surname>Esnouf</surname><given-names>RM</given-names></name></person-group>
+                    <year>2005</year>
+                    <article-title>RONN: the bio-basis function neural network technique applied to
+                        the detection of natively disordered regions in proteins.</article-title>
+                    <source>Bioinformatics</source>
+                    <volume>21</volume>
+                    <fpage>3369</fpage>
+                    <lpage>3376</lpage>
+                <pub-id pub-id-type="pmid">15947016</pub-id></mixed-citation></ref><ref id="pone.0015264-Dunker1"><label>50</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Dunker</surname><given-names>AK</given-names></name><name><surname>Brown</surname><given-names>CJ</given-names></name><name><surname>Lawson</surname><given-names>JD</given-names></name><name><surname>Iakoucheva</surname><given-names>LM</given-names></name><name><surname>Obradovic</surname><given-names>Z</given-names></name></person-group>
+                    <year>2002</year>
+                    <article-title>Intrinsic disorder and protein function.</article-title>
+                    <source>Biochemistry</source>
+                    <volume>41</volume>
+                    <fpage>6573</fpage>
+                    <lpage>6582</lpage>
+                <pub-id pub-id-type="pmid">12022860</pub-id></mixed-citation></ref><ref id="pone.0015264-Liu3"><label>51</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Liu</surname><given-names>JJ</given-names></name><name><surname>Lindquist</surname><given-names>S</given-names></name></person-group>
+                    <year>1999</year>
+                    <article-title>Oligopeptide-repeat expansions modulate
+                        &#x02018;protein-only&#x02019; inheritance in yeast.</article-title>
+                    <source>Nature</source>
+                    <volume>400</volume>
+                    <fpage>573</fpage>
+                    <lpage>576</lpage>
+                <pub-id pub-id-type="pmid">10448860</pub-id></mixed-citation></ref><ref id="pone.0015264-Parham1"><label>52</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Parham</surname><given-names>SN</given-names></name><name><surname>Resende</surname><given-names>CG</given-names></name><name><surname>Tuite</surname><given-names>MF</given-names></name></person-group>
+                    <year>2001</year>
+                    <article-title>Oligopeptide repeats in the yeast protein Sup35p stabilize
+                        intermolecular prion interactions.</article-title>
+                    <source>EMBO J</source>
+                    <volume>20</volume>
+                    <fpage>2111</fpage>
+                    <lpage>2119</lpage>
+                <pub-id pub-id-type="pmid">11331577</pub-id></mixed-citation></ref><ref id="pone.0015264-Sainz1"><label>53</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Sainz</surname><given-names>A</given-names></name><name><surname>Wilder</surname><given-names>JA</given-names></name><name><surname>Wolf</surname><given-names>M</given-names></name><name><surname>Hollocher</surname><given-names>H</given-names></name></person-group>
+                    <year>2003</year>
+                    <article-title>Drosophila melanogaster and D. simulans rescue strains produce
+                        fit offspring, despite divergent centromere-specific histone alleles.</article-title>
+                    <source>Heredity</source>
+                    <volume>91</volume>
+                    <fpage>28</fpage>
+                    <lpage>35</lpage>
+                <pub-id pub-id-type="pmid">12815450</pub-id></mixed-citation></ref><ref id="pone.0015264-Mller1"><label>54</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>M&#x000fc;ller</surname><given-names>HA</given-names></name><name><surname>Wieschaus</surname><given-names>E</given-names></name></person-group>
+                    <year>1996</year>
+                    <article-title>armadillo, bazooka, and stardust are critical for early stages in
+                        formation of the zonula adherens and maintenance of the polarized blastoderm
+                        epithelium in Drosophila.</article-title>
+                    <source>J Cell Biol</source>
+                    <volume>134</volume>
+                    <fpage>149</fpage>
+                    <lpage>163</lpage>
+                <pub-id pub-id-type="pmid">8698811</pub-id></mixed-citation></ref><ref id="pone.0015264-Riggleman1"><label>55</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Riggleman</surname><given-names>B</given-names></name><name><surname>Schedl</surname><given-names>P</given-names></name><name><surname>Wieschaus</surname><given-names>E</given-names></name></person-group>
+                    <year>1990</year>
+                    <article-title>Spatial expression of the Drosophila segment polarity gene
+                        armadillo is posttranscriptionally regulated by wingless.</article-title>
+                    <source>Cell</source>
+                    <volume>63</volume>
+                    <fpage>549</fpage>
+                    <lpage>560</lpage>
+                <pub-id pub-id-type="pmid">2225066</pub-id></mixed-citation></ref><ref id="pone.0015264-Haley1"><label>56</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Haley</surname><given-names>B</given-names></name><name><surname>Tang</surname><given-names>G</given-names></name><name><surname>Zamore</surname><given-names>PD</given-names></name></person-group>
+                    <year>2003</year>
+                    <article-title>In vitro analysis of RNA interference in Drosophila melanogaster.</article-title>
+                    <source>Methods</source>
+                    <volume>30</volume>
+                    <fpage>330</fpage>
+                    <lpage>336</lpage>
+                <pub-id pub-id-type="pmid">12828947</pub-id></mixed-citation></ref><ref id="pone.0015264-Welte1"><label>57</label><mixed-citation publication-type="journal">
+                    <person-group person-group-type="author"><name><surname>Welte</surname><given-names>MA</given-names></name><name><surname>Gross</surname><given-names>SP</given-names></name><name><surname>Postner</surname><given-names>M</given-names></name><name><surname>Block</surname><given-names>SM</given-names></name><name><surname>Wieschaus</surname><given-names>EF</given-names></name></person-group>
+                    <year>1998</year>
+                    <article-title>Developmental regulation of vesicle transport in Drosophila
+                        embryos: forces and kinetics.</article-title>
+                    <source>Cell</source>
+                    <volume>92</volume>
+                    <fpage>547</fpage>
+                    <lpage>557</lpage>
+                <pub-id pub-id-type="pmid">9491895</pub-id></mixed-citation></ref></ref-list></back></article>

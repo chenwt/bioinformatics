@@ -1,0 +1,2007 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Bioessays</journal-id><journal-id journal-id-type="iso-abbrev">Bioessays</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1521-1878</journal-id><journal-id journal-id-type="publisher-id">BIES</journal-id><journal-title-group><journal-title>Bioessays</journal-title></journal-title-group><issn pub-type="ppub">0265-9247</issn><issn pub-type="epub">1521-1878</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4738397</article-id><article-id pub-id-type="doi">10.1002/bies.201500124</article-id><article-id pub-id-type="publisher-id">BIES201500124</article-id><article-categories><subj-group subj-group-type="overline"><subject>Prospects &#x00026; Overviews</subject></subj-group><subj-group subj-group-type="heading"><subject>Prospects &#x00026; Overviews</subject><subj-group subj-group-type="heading"><subject>Problems &#x00026; Paradigms</subject></subj-group></subj-group></article-categories><title-group><article-title>Variation is function: Are single cell differences functionally important?</article-title><subtitle>Testing the hypothesis that single cell variation is required for aggregate function</subtitle><alt-title alt-title-type="left-running-head">H. Dueck et al</alt-title></title-group><contrib-group><contrib id="bies201500124-cr-0001" contrib-type="author"><name><surname>Dueck</surname><given-names>Hannah</given-names></name><xref ref-type="aff" rid="bies201500124-aff-0001"><sup>1</sup>
+</xref></contrib><contrib id="bies201500124-cr-0002" contrib-type="author"><name><surname>Eberwine</surname><given-names>James</given-names></name><xref ref-type="aff" rid="bies201500124-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="bies201500124-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="bies201500124-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="bies201500124-cr-0003" contrib-type="author" corresp="yes"><name><surname>Kim</surname><given-names>Junhyong</given-names></name><xref ref-type="aff" rid="bies201500124-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="bies201500124-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="bies201500124-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="bies201500124-aff-0004">
+<sup>4</sup>
+</xref><xref ref-type="aff" rid="bies201500124-aff-0005">
+<sup>5</sup>
+</xref></contrib></contrib-group><aff id="bies201500124-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Genomics and Computational Biology Graduate Group</named-content><institution>University of Pennsylvania</institution><named-content content-type="city">Philadelphia</named-content><named-content content-type="country-part">PA</named-content><country country="US">USA</country></aff><aff id="bies201500124-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Department of Systems Pharmacology and Translational Therapeutics</named-content><institution>University of Pennsylvania</institution><named-content content-type="city">Philadelphia</named-content><named-content content-type="country-part">PA</named-content><country country="US">USA</country></aff><aff id="bies201500124-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Penn Program in Single Cell Biology</named-content><named-content content-type="organisation-division">Perelman School of Medicine</named-content><institution>University of Pennsylvania</institution><named-content content-type="city">Philadelphia</named-content><named-content content-type="country-part">PA</named-content><country country="US">USA</country></aff><aff id="bies201500124-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Department of Biology</named-content><institution>University of Pennsylvania</institution><named-content content-type="city">Philadelphia</named-content><named-content content-type="country-part">PA</named-content><country country="US">USA</country></aff><aff id="bies201500124-aff-0005"><label><sup>5</sup></label><named-content content-type="organisation-division">Department of Computer and Information Science</named-content><institution>University of Pennsylvania</institution><named-content content-type="city">Philadelphia</named-content><named-content content-type="country-part">PA</named-content><country country="US">USA</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Corresponding author:</bold><break/>
+Junhyong Kim<break/>
+E&#x02010;mail: 
+<email>junhyong@sas.upenn.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>02</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="ppub"><month>2</month><year>2016</year></pub-date><volume>38</volume><issue>2</issue><issue-id pub-id-type="doi">10.1002/bies.v38.2</issue-id><fpage>172</fpage><lpage>180</lpage><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 WILEY Periodicals, Inc. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2015 The Authors. BioEssays published by WILEY Periodicals, Inc.</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution&#x02010;NonCommercial&#x02010;NoDerivs</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:BIES-38-172.pdf"/><abstract><p>There is a growing appreciation of the extent of transcriptome variation across individual cells of the same cell type. While expression variation may be a byproduct of, for example, dynamic or homeostatic processes, here we consider whether single&#x02010;cell molecular variation per se might be crucial for population&#x02010;level function. Under this hypothesis, molecular variation indicates a diversity of hidden functional capacities within an ensemble of &#x0201c;identical&#x0201d; cells, and this functional diversity facilitates collective behavior that would be inaccessible to a homogenous population. In reviewing this topic, we explore possible functions that might be carried by a heterogeneous ensemble of cells; however, this question has proven difficult to test, both because methods to manipulate molecular variation are limited and because it is complicated to define, and measure, population&#x02010;level function. We consider several possible methods to further pursue the hypothesis that &#x0201c;variation is function&#x0201d; through the use of comparative analysis and novel experimental techniques.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="bies201500124-kwd-0001">bet&#x02010;hedging</kwd><kwd id="bies201500124-kwd-0002">evolution of variation</kwd><kwd id="bies201500124-kwd-0003">fractional response</kwd><kwd id="bies201500124-kwd-0004">functional variation</kwd><kwd id="bies201500124-kwd-0005">single cell transcriptome</kwd><kwd id="bies201500124-kwd-0006">single cell variation</kwd></kwd-group><funding-group><award-group><funding-source>Ellison Medical Foundation Aging Award</funding-source></award-group></funding-group><funding-group><award-group><funding-source>NIMH</funding-source><award-id>5U01MH098953</award-id></award-group></funding-group><funding-group><award-group><funding-source>Health Research Formula Funds</funding-source></award-group></funding-group><counts><page-count count="9"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>bies201500124</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>February 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.7.5 mode:remove_FC converted:28.01.2016</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="bies201500124-sec-0002"><title>Introduction</title><p>Cells in multi&#x02010;cellular organisms are frequently treated as fundamental units of function. While cell differentiation generates classes of cells with unique phenotypic identity, ensembles of cells within a cell type have been seen as (nearly) identical building blocks. However, recent technological advancements have enabled increasingly high&#x02010;resolution measurements of gene expression in single cells <xref rid="bies201500124-bib-0001" ref-type="ref">1</xref>, <xref rid="bies201500124-bib-0002" ref-type="ref">2</xref>, <xref rid="bies201500124-bib-0003" ref-type="ref">3</xref>, <xref rid="bies201500124-bib-0004" ref-type="ref">4</xref>, <xref rid="bies201500124-bib-0005" ref-type="ref">5</xref>, <xref rid="bies201500124-bib-0006" ref-type="ref">6</xref>, <xref rid="bies201500124-bib-0007" ref-type="ref">7</xref>, <xref rid="bies201500124-bib-0008" ref-type="ref">8</xref>, <xref rid="bies201500124-bib-0009" ref-type="ref">9</xref>, <xref rid="bies201500124-bib-0010" ref-type="ref">10</xref>, <xref rid="bies201500124-bib-0011" ref-type="ref">11</xref>, <xref rid="bies201500124-bib-0012" ref-type="ref">12</xref>, <xref rid="bies201500124-bib-0013" ref-type="ref">13</xref>, <xref rid="bies201500124-bib-0014" ref-type="ref">14</xref>, <xref rid="bies201500124-bib-0015" ref-type="ref">15</xref>, <xref rid="bies201500124-bib-0016" ref-type="ref">16</xref>, resulting in a growing appreciation for the extent of individual expression variability <xref rid="bies201500124-bib-0017" ref-type="ref">17</xref>, <xref rid="bies201500124-bib-0018" ref-type="ref">18</xref>, <xref rid="bies201500124-bib-0019" ref-type="ref">19</xref>, <xref rid="bies201500124-bib-0020" ref-type="ref">20</xref>, <xref rid="bies201500124-bib-0021" ref-type="ref">21</xref>, <xref rid="bies201500124-bib-0022" ref-type="ref">22</xref>, <xref rid="bies201500124-bib-0023" ref-type="ref">23</xref>, <xref rid="bies201500124-bib-0024" ref-type="ref">24</xref>, <xref rid="bies201500124-bib-0025" ref-type="ref">25</xref>, <xref rid="bies201500124-bib-0026" ref-type="ref">26</xref>, <xref rid="bies201500124-bib-0027" ref-type="ref">27</xref>, <xref rid="bies201500124-bib-0028" ref-type="ref">28</xref>, <xref rid="bies201500124-bib-0029" ref-type="ref">29</xref>, <xref rid="bies201500124-bib-0030" ref-type="ref">30</xref>, <xref rid="bies201500124-bib-0031" ref-type="ref">31</xref>, <xref rid="bies201500124-bib-0032" ref-type="ref">32</xref>, <xref rid="bies201500124-bib-0033" ref-type="ref">33</xref>. This variability has been examined from many vantage points: as an indicator of the vast diversity of cell types <xref rid="bies201500124-bib-0009" ref-type="ref">9</xref>, <xref rid="bies201500124-bib-0017" ref-type="ref">17</xref>, <xref rid="bies201500124-bib-0018" ref-type="ref">18</xref>, <xref rid="bies201500124-bib-0019" ref-type="ref">19</xref>, as a byproduct of redundancy in regulatory networks <xref rid="bies201500124-bib-0021" ref-type="ref">21</xref>, <xref rid="bies201500124-bib-0022" ref-type="ref">22</xref>, as a temporal snapshot of asynchronous dynamic processes <xref rid="bies201500124-bib-0023" ref-type="ref">23</xref>, <xref rid="bies201500124-bib-0024" ref-type="ref">24</xref>, <xref rid="bies201500124-bib-0025" ref-type="ref">25</xref>, <xref rid="bies201500124-bib-0026" ref-type="ref">26</xref>, <xref rid="bies201500124-bib-0027" ref-type="ref">27</xref>, <xref rid="bies201500124-bib-0028" ref-type="ref">28</xref>, <xref rid="bies201500124-bib-0029" ref-type="ref">29</xref>, <xref rid="bies201500124-bib-0030" ref-type="ref">30</xref>, or as evidence that RNA abundance may be irrelevant for cell phenotype <xref rid="bies201500124-bib-0031" ref-type="ref">31</xref>, <xref rid="bies201500124-bib-0032" ref-type="ref">32</xref>. (For further discussion, see <xref rid="bies201500124-bib-0034" ref-type="ref">34</xref>.) An alternative perspective is to consider whether single cell transcriptome, proteome, and other molecular variability might be part of what establishes tissue/population&#x02010;level function. Are individual cells in a multi&#x02010;cellular organism like individual organisms in a cooperative community, where each cell's behavior contributes to a higher&#x02010;level functional ecology?</p><p>Before we begin our exposition, we briefly consider some preliminary concepts. When we use the term &#x0201c;single cell variability&#x0201d; or &#x0201c;single cell heterogeneity,&#x0201d; it is not meant to refer to diversity of cell types that are clearly distinct and already recognized. Rather, we use the terms to describe diversity within an ensemble that has been previously defined as being generally homogeneous (e.g. pyramidal neurons from the CA3 area of the hippocampus). Of course, no two cells are exactly identical, so there is an implicit quantitative degree of variation implied in when single cell variation is discussed. &#x0201c;Function&#x0201d; is an elusive term spanning different scales from proximate function (e.g. biochemical action) to distal evolutionary fitness function. It is not our goal to precisely define function or create an ontology of single cell function. Our main focus is to ask how variation among individual cells might interact to causally generate higher&#x02010;level function, regardless of how function is defined. We leave out the discussion of certain kinds of variation that might be more of a homeostatic adaptation or a consequence of robustness promoting mechanisms rather than the result of each cell carrying out a distinct action that leads to aggregate function.</p><p>We note that variation or variability of a trait refers to the entire characteristics of the distribution of the trait over the ensemble of cells. This is distinct from a particular statistic like &#x0201c;variance,&#x0201d; which is a number computed from the distribution (average squared deviation from the mean). Two different single cell measurements can have the same variance but a different variation (Fig. <xref rid="bies201500124-fig-0001" ref-type="fig">1</xref>). And, if there are threshold effects (e.g. resistance to chemotherapy agent), the two different populations may have very different numerical responses (Fig. <xref rid="bies201500124-fig-0001" ref-type="fig">1</xref>). Because variation is a multifaceted trait, when comparing different studies or carrying out analyses, it is important to be precise about which aspect of variation is being analyzed and its model expectations (see below). An important concept is the idea that a trait's single cell variation may be changed or modulated, perhaps through genetic mechanisms. For example, a gene may be &#x0201c;ON&#x0201d; in 50% of individual cells under one genetic background while &#x0201c;ON&#x0201d; in 25% of the cells under another genetic background. Modulation of single cell variability may involve changing the variance of a trait or some other aspect of the distribution. From this perspective, the term &#x0201c;stochastic expression&#x0201d; does not imply that expression is not regulated &#x02013; gene expression may have randomness, but the characteristics of the resulting variation may be regulated (see <xref rid="bies201500124-bib-0035" ref-type="ref">35</xref>, <xref rid="bies201500124-bib-0036" ref-type="ref">36</xref>).</p><fig fig-type="Figure" xml:lang="en" id="bies201500124-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>A schematic diagram of two different single cell distributions with identical variance value. If there is a threshold value that triggers some cellular response, the two populations will respond very differently.</p></caption><graphic id="nlm-graphic-3" xlink:href="BIES-38-172-g002"><permissions><copyright-holder>Copyright &#x000a9; 2015 Wiley Periodicals, Inc.</copyright-holder></permissions></graphic></fig><p>In this essay, we review some possible scenarios in which cell&#x02010;to&#x02010;cell heterogeneity may be important for higher&#x02010;level function, and discuss possible ways of testing such a &#x0201c;variation is function&#x0201d; hypothesis (see Table <xref rid="bies201500124-tbl-0001" ref-type="table-wrap">1</xref>). In particular, we note that asking whether variability is needed for certain functions is distinct and complementary to the idea that biological mechanisms exist to &#x0201c;allow function despite variability.&#x0201d; There is no doubt that robustness, homeostasis, and canalization are important phenomena in organisms, and a contributing factor to single cell variability. Here, we focus on the idea that variation, in and of itself, is required for function.</p><table-wrap id="bies201500124-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>Scenarios where aggregate function may depend on single cell variation</p></caption><table frame="void" rules="groups"><col span="1"/><col span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Hypothesis</th><th align="left" valign="bottom" rowspan="1" colspan="1">Description</th></tr></thead><tbody><tr><td align="left" rowspan="1" colspan="1">Bet hedging</td><td align="left" rowspan="1" colspan="1">A pre&#x02010;existing diversity of cell states allows rapid population adaptation to an unpredictable environmental change</td></tr><tr><td align="left" rowspan="1" colspan="1">Generalized bet hedging</td><td align="left" rowspan="1" colspan="1">Extensive randomized phenotypic diversity allows population adaptation of vast diversity of environments</td></tr><tr><td align="left" rowspan="1" colspan="1">Response distribution</td><td align="left" rowspan="1" colspan="1">Cell&#x02010;to&#x02010;cell variation in binary decisions allows a fractional or dose&#x02010;dependent population response</td></tr><tr><td align="left" rowspan="1" colspan="1">Fate plasticity and priming</td><td align="left" rowspan="1" colspan="1">Uncorrelated, sub&#x02010;threshold fluctuations in regulators of cell fates create subpopulations of cells primed for multiple fate decisions</td></tr><tr><td align="left" rowspan="1" colspan="1">Information coding and transfer</td><td align="left" rowspan="1" colspan="1">A diverse ensemble of individuals enables the population to encode and transmit complex information</td></tr><tr><td align="left" rowspan="1" colspan="1">Crowd control</td><td align="left" rowspan="1" colspan="1">Rare individuals with capacity to respond to perturbation emit local signals that coordinate population behavior</td></tr></tbody></table><permissions><copyright-holder>&#x000a9; 2015 WILEY Periodicals, Inc.</copyright-holder></permissions></table-wrap></sec><sec id="bies201500124-sec-0003"><title>Bet hedging: A pre&#x02010;existing diversity of cell states allows rapid population adaptation to a new environment</title><p>In fluctuating, unpredictable environments, a population may benefit by maintaining a diversity of cell phenotypes, each advantageous in a distinct context. Unlike a strategy where individual cells sense and respond to the environment, maintenance of a standing diversity may be preferred when a rapid response of at least a subpopulation is advantageous and there is insufficient time for signal transduction <xref rid="bies201500124-bib-0037" ref-type="ref">37</xref>. Because this maintenance of diversity protects against a future crisis, this behavior has been termed &#x0201c;bet hedging&#x0201d; and has been extensively studied in single&#x02010;celled organisms <xref rid="bies201500124-bib-0037" ref-type="ref">37</xref>, <xref rid="bies201500124-bib-0038" ref-type="ref">38</xref>, <xref rid="bies201500124-bib-0039" ref-type="ref">39</xref>, <xref rid="bies201500124-bib-0040" ref-type="ref">40</xref>, <xref rid="bies201500124-bib-0041" ref-type="ref">41</xref>, <xref rid="bies201500124-bib-0042" ref-type="ref">42</xref>. In a classic example, <italic>E. coli</italic> populations maintain a subset of cells in persistence, a quiescent phenotypic state <xref rid="bies201500124-bib-0038" ref-type="ref">38</xref>, <xref rid="bies201500124-bib-0039" ref-type="ref">39</xref>. Though the presence of persistent cells reduces population growth in nutrient&#x02010;rich environments, it allows the population to survive unexpected antibiotic agents that target rapidly proliferating cells. To generate the standing population diversity in a uniform environment, individual <italic>E. coli</italic> cells stochastically switch into and out of persistence. Phenotype switching has been observed broadly, suggesting that this single cell behavior provides a fitness advantage in certain contexts <xref rid="bies201500124-bib-0039" ref-type="ref">39</xref>. Experimental evolution of <italic>Pseudomonas fluorescens</italic> demonstrated that, under a fluctuating selection regime, stochastic phenotype switching could evolve <xref rid="bies201500124-bib-0041" ref-type="ref">41</xref>. The rate of bi&#x02010;stable state switching can be a function of the gene regulatory network, and can affect fitness, with an optimal switching rate dependent on the rate of environmental fluctuations <xref rid="bies201500124-bib-0036" ref-type="ref">36</xref>, <xref rid="bies201500124-bib-0037" ref-type="ref">37</xref>&#x02009;
+</p><p>We know of no cases of bet hedging in healthy mammalian tissues, perhaps because of the interdependence of cells in multicellular organisms <xref rid="bies201500124-bib-0039" ref-type="ref">39</xref> or lack of experiments assessing individual cell turnover dynamics. However, it may be that mammalian cancers exhibit this behavior <xref rid="bies201500124-bib-0043" ref-type="ref">43</xref>, <xref rid="bies201500124-bib-0044" ref-type="ref">44</xref>, <xref rid="bies201500124-bib-0045" ref-type="ref">45</xref>. As in the <italic>E. coli</italic> example, cancer populations may survive chemotherapies that target proliferating cells by switching into and out of a proliferative states <xref rid="bies201500124-bib-0043" ref-type="ref">43</xref>, <xref rid="bies201500124-bib-0044" ref-type="ref">44</xref>. Phenotype switching has also been hypothesized to play a role in cancer metastasis. Lee et al. characterized a regulatory network that may be capable of producing coexisting noninvasive and pro&#x02010;metastatic expression states within a triple&#x02010;negative breast cancer population <xref rid="bies201500124-bib-0045" ref-type="ref">45</xref>. Models suggested that transient perturbations could trigger a cancer cell to switch into a malignant state and that pro&#x02010;metastatic cells may relax back into a noninvasive state. The implication for functional relevance is only speculative; however, one may imagine that state switching between noninvasive and metastatic states may be akin to whole organisms' ecological life history decisions on migration and colonization <xref rid="bies201500124-bib-0046" ref-type="ref">46</xref>. The key question is whether normal cells might employ such bet&#x02010;hedging strategies. One obvious possibility is with tissues such as skin that directly interact with unpredictable external environment or unpredictable changes in whole organism physiology (e.g. injury response). A more speculative possibility is in developmental contexts where cell proliferation and death in response to patterning gradients is part of morphogenesis. J. J. Kupiec has proposed the novel idea that variation and selection of specific cellular phenotypes (&#x0201c;Darwinian cell theory&#x0201d;) may be an intrinsic mechanism in multi&#x02010;cellular development <xref rid="bies201500124-bib-0047" ref-type="ref">47</xref>.</p></sec><sec id="bies201500124-sec-0004"><title>Generalized bet hedging: Random phenotype generation enables population response to novel environments</title><p>If the diversity of environments that may be encountered is vast, it may be of use for a population of cells to contain as broad a range of phenotypes as possible &#x02013; to have individuals extensively sample phenotypic space, potentially through use of random mechanisms such as highly variable transcription, errors in transcription or DNA replication, or random genomic rearrangements <xref rid="bies201500124-bib-0048" ref-type="ref">48</xref>, <xref rid="bies201500124-bib-0049" ref-type="ref">49</xref>, <xref rid="bies201500124-bib-0050" ref-type="ref">50</xref>, <xref rid="bies201500124-bib-0051" ref-type="ref">51</xref>. We may consider this as a more generalized form of bet hedging. Though under this strategy individual phenotypes may not be reproducible, it may be that the population benefits substantially by containing at least one successful phenotype. Archetypal examples include the adaptive immune system <xref rid="bies201500124-bib-0048" ref-type="ref">48</xref>, <xref rid="bies201500124-bib-0049" ref-type="ref">49</xref>, and stress, where the generation of diversity through increased molecular error rates may produce an individual who survives <xref rid="bies201500124-bib-0052" ref-type="ref">52</xref>. The benefits of such extensive diversity may also be relevant in disease. Cancer populations are highly heterogeneous, molecularly and phenotypically, and this population heterogeneity has been associated with resistance to drug treatment and patient survival <xref rid="bies201500124-bib-0052" ref-type="ref">52</xref>, <xref rid="bies201500124-bib-0053" ref-type="ref">53</xref>, <xref rid="bies201500124-bib-0054" ref-type="ref">54</xref>, <xref rid="bies201500124-bib-0055" ref-type="ref">55</xref>. Roux et al. show that fluctuations in protein levels can lead to recurring sub&#x02010;populations of cells that are more resistant to ligand&#x02010;induced apoptosis <xref rid="bies201500124-bib-0056" ref-type="ref">56</xref>, <xref rid="bies201500124-bib-0057" ref-type="ref">57</xref>.</p></sec><sec id="bies201500124-sec-0005"><title>Response distribution: Variation across single cells may allow a graded population response</title><p>Tissues rely on binary decisions made by individual cells, such as whether to enter the cell cycle or apoptosis. Uniformity across cells in binary decisions would produce switch&#x02010;like population behavior, and in many cases this would be undesirable. Instead, fractional quantitative responses can be achieved by integrating expression fluctuations in decision&#x02010;making, fluctuations that may be generated by stochastic gene expression. The role of stochastic fluctuations <xref rid="bies201500124-bib-0058" ref-type="ref">58</xref>, <xref rid="bies201500124-bib-0059" ref-type="ref">59</xref>, <xref rid="bies201500124-bib-0060" ref-type="ref">60</xref> and quantitatively distributed population states in the regulation of population abundance within ecological communities has been noted. Given predator&#x02010;prey dynamics, if all predators acted homogeneously, all prey would be eaten simultaneously at carrying capacity, and the population would collapse to extinction (e.g. <xref rid="bies201500124-bib-0061" ref-type="ref">61</xref>). Incorporating heterogeneity to desynchronize populations can generate fractional or dose&#x02010;dependent population responses. Recent studies have suggested this type of heterogeneity&#x02010;dependent population behavior in contexts such as fractional population death in response to chemotherapy <xref rid="bies201500124-bib-0054" ref-type="ref">54</xref>, maintenance of adult adipose tissue size by fractional differentiation of pre&#x02010;adipocytes <xref rid="bies201500124-bib-0058" ref-type="ref">58</xref>, fractional apotoptic response to ligands <xref rid="bies201500124-bib-0057" ref-type="ref">57</xref>, <xref rid="bies201500124-bib-0059" ref-type="ref">59</xref>, and graded response to growth factors in the decision to enter the cell cycle in mammary epithelial cells <xref rid="bies201500124-bib-0060" ref-type="ref">60</xref>. Graded or fractional population response mediated by individual variation may be an important general mechanism bridging the discrete outputs of a cell and the need for quantitative responses (e.g. neuronal activity).</p></sec><sec id="bies201500124-sec-0006"><title>Priming and fate plasticity: Gene expression variation endows cells and populations with fate plasticity</title><p>For some tissues, function depends on cell fate plasticity or the ability of its members to take on a diversity of cell states, as in stem cell populations. Fate plasticity has been associated with expression variation, such as stochastic, semi&#x02010;indiscriminant gene activation <xref rid="bies201500124-bib-0062" ref-type="ref">62</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>, which has also been called &#x0201c;promiscuous gene expression&#x0201d; <xref rid="bies201500124-bib-0064" ref-type="ref">64</xref>. Numerous studies of stem and progenitor cells have reported variable expression of developmental regulators <xref rid="bies201500124-bib-0002" ref-type="ref">2</xref>, <xref rid="bies201500124-bib-0062" ref-type="ref">62</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>, <xref rid="bies201500124-bib-0065" ref-type="ref">65</xref>, <xref rid="bies201500124-bib-0066" ref-type="ref">66</xref> and have associated this with heterogeneity in differentiation potential <xref rid="bies201500124-bib-0062" ref-type="ref">62</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>. Recently, Kumar et al. reported extensive variation across mouse pluripotent stem cells (PSCs) in the activation of stem&#x02010; and cell&#x02010;fate regulators, as well as genes that sense and respond to environmental cues. They also reported that the extent of variation was associated with the rate of differentiation <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>. In an environment containing cues for both differentiation and self&#x02010;renewal, the authors found multiple subpopulations of PSCs: one subpopulation demonstrated relatively homogenous expression and a bias towards self&#x02010;renewal; a second showed variable activation of cell&#x02010;fate regulators and higher rates of spontaneous differentiation.</p><p>In many cases, genes critical to cell fate decisions are involved in regulatory networks with switch&#x02010;like behavior. As gene expression levels approach the network's switching threshold, the probability that induction by external cues will trigger threshold crossing is increased. A cell with expression level near a threshold level for phenotypic switching might be considered to be &#x0201c;primed&#x0201d; for a cell&#x02010;fate decision <xref rid="bies201500124-bib-0062" ref-type="ref">62</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>. If the population contains a set of cells at variable distance from the threshold, a subset of cells might be ever ready to cross the threshold immediately. This expression variability across cells may be generated by stochastic gene activation, which &#x02013; in a process akin to signal amplification by white noise <xref rid="bies201500124-bib-0067" ref-type="ref">67</xref> &#x02013; assists cells in crossing thresholds. If the expression state of any individual fluctuates over time, as seen in populations of pluripotent stem cells <xref rid="bies201500124-bib-0062" ref-type="ref">62</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>, then, even as cells differentiate, the population may maintain a characteristic diversity of primed cells <xref rid="bies201500124-bib-0062" ref-type="ref">62</xref>.</p></sec><sec id="bies201500124-sec-0007"><title>Information propagation: Population diversity may enable information coding and transfer</title><p>There is an association of high variation with high information content (i.e. high entropy). Single cell variation can represent both high information content and, if cells are processing information, the capacity to transfer high information content. For example, medullary thymic epithelial cells (mTEC) stochastically transcribe tissue&#x02010;restricted genes in the mTEC population so that collectively the population exposes thousands of self&#x02010;antigens to developing T cells. This diversity plays an instructive role in T cell differentiation, so that only T cells with low self&#x02010;affinity are directed to an effector fate <xref rid="bies201500124-bib-0068" ref-type="ref">68</xref>. In the brain, extensive phenotypic diversity may broaden the extent of possible neural circuitry, and so enhance the brain's capacity for information transfer <xref rid="bies201500124-bib-0050" ref-type="ref">50</xref>, <xref rid="bies201500124-bib-0069" ref-type="ref">69</xref>, <xref rid="bies201500124-bib-0070" ref-type="ref">70</xref>, <xref rid="bies201500124-bib-0071" ref-type="ref">71</xref>. Increased rates of Line1 (L1) retrotranposition, a source of somatic genetic diversity, have been found during neurogenesis <xref rid="bies201500124-bib-0069" ref-type="ref">69</xref>, speculatively supporting a functional advantage to heightened diversity in the brain.</p></sec><sec id="bies201500124-sec-0008"><title>Crowd control: Rare cells respond rapidly to perturbations and coordinate population behavior</title><p>Several recent single&#x02010;cell studies of anti&#x02010;viral <xref rid="bies201500124-bib-0072" ref-type="ref">72</xref>, <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref> or inflammatory <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref>, <xref rid="bies201500124-bib-0075" ref-type="ref">75</xref> response and cell fate choice <xref rid="bies201500124-bib-0076" ref-type="ref">76</xref> have reported cases where a rare subset of cells in a population responded rapidly to perturbation and emitted signals that coordinated population behavior <xref rid="bies201500124-bib-0072" ref-type="ref">72</xref>, <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref>, <xref rid="bies201500124-bib-0075" ref-type="ref">75</xref>, <xref rid="bies201500124-bib-0076" ref-type="ref">76</xref>. Described as sentinels <xref rid="bies201500124-bib-0072" ref-type="ref">72</xref>, first responders <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, precocious cells <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref> or pioneers <xref rid="bies201500124-bib-0076" ref-type="ref">76</xref>, these cells uniquely express <xref rid="bies201500124-bib-0072" ref-type="ref">72</xref>, <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref>, <xref rid="bies201500124-bib-0076" ref-type="ref">76</xref> and secrete <xref rid="bies201500124-bib-0075" ref-type="ref">75</xref> key cytokines in response to the stimulus. By contrast, the majority of the population was incapable of responding in kind to the same stimulus <xref rid="bies201500124-bib-0072" ref-type="ref">72</xref>, <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref>, <xref rid="bies201500124-bib-0075" ref-type="ref">75</xref>, even over extended periods of time. This two&#x02010;tiered signaling mechanism coordinated population behaviors, eliciting a uniform response <xref rid="bies201500124-bib-0072" ref-type="ref">72</xref>, <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref>, <xref rid="bies201500124-bib-0075" ref-type="ref">75</xref>, <xref rid="bies201500124-bib-0076" ref-type="ref">76</xref> or more complex behavior, such as modulating phenotype heterogeneity spatially or over time <xref rid="bies201500124-bib-0072" ref-type="ref">72</xref>, <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref>, <xref rid="bies201500124-bib-0075" ref-type="ref">75</xref>. The concept of sentinel or first responder cells is that a subset of cells in a signal responding state can dynamically reprogram the greater cell population, and this helps balance competing needs of the physiological dynamics. For example, the immune system requires a balance between rapid response to assault and avoidance of self&#x02010;toxicity <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>, <xref rid="bies201500124-bib-0074" ref-type="ref">74</xref>. Recently, Patil et al. reported that when human dendritic cells were infected with Newcastle disease virus, a small fraction of cells activated Ifnb1 promptly <xref rid="bies201500124-bib-0073" ref-type="ref">73</xref>. Paracrine signals emitted by these early responders activated Ifnb1 expression in the majority of cells, but in a manner that elicited large variation across cells in time&#x02010;to&#x02010;activation. Dynamic coordinated population behavior activated through single cell variation may also be critical in other contexts, such as tissue morphogenesis. A recent study provided suggestive evidence, reporting that a subpopulation of rare cells was essential in normal breast epithelial cell morphogenesis in 3D culture for enforcement of quiescence <xref rid="bies201500124-bib-0077" ref-type="ref">77</xref>.</p></sec><sec id="bies201500124-sec-0009"><title>Evolutionary comparisons to test the &#x0201c;variation is function&#x0201d; hypothesis</title><p>The examples discussed in the above sections suggest that cell&#x02010;to&#x02010;cell variations of molecular states in seemingly homogeneous population of cells may have functional rationale in terms of population/tissue level function. Here, we discuss possible approaches to test the hypothesis that &#x0201c;variation is function&#x0201d; and the challenges associated with such tests.</p><p>Leveraging the predictions of neutral theory of molecular evolution <xref rid="bies201500124-bib-0078" ref-type="ref">78</xref>, one approach to test the idea that variation is functionally important is to assess whether single cell variability of particular genes is an evolutionarily conserved trait. Suppose we choose variance as the appropriate statistic for measuring variation (see Introduction about difference between &#x0201c;variation&#x0201d; and &#x0201c;variance&#x0201d;), we can compute the single cell variance of a gene's expression in mice and ask whether the variance is essentially the same in rats. But, if single cell variance of MAPK is 10 (normalized read units) in mouse and it is 12 in rats, how do we know that this difference is significantly different than expected under neutral evolution? When similar inferences are made with sequence analysis, a standard method is to compare rates of divergence against the divergence of sequences whose functional effects are a priori assumed to be neutral (e.g. synonymous positions of codons). In the case of gene expression, it is difficult to directly measure such expectations because it is difficult to point to some gene's expression that can be a priori assumed to be neutral in function. It is especially difficult to measure for single cell variation when we currently have no a priori theory of its function.</p><p>One possible approach is to compare the conservation of the particular degree of variance (or some similar statistic) associated with a particular gene in relation to other genes in the genome. That is, we might hypothesize that if gene A has greater cell&#x02010;to&#x02010;cell variance than gene B in mouse, it might also have greater variance in rat if the variation is functionally important enough to affect fitness. Thus, we can compute a correlation&#x02010;based test of genes' variances amongst homologous genes in mouse and rat. In Dueck et al., we applied one such test for a small dataset and found significant correlations between the gene&#x02010;variance of mouse and rat <xref rid="bies201500124-bib-0033" ref-type="ref">33</xref>.</p></sec><sec id="bies201500124-sec-0010"><title>Problems to overcome for comparative analysis</title><p>There are two important problems to overcome with the comparative approach to assessing whether single cell variation is functionally important. The first is a technical problem. A statistic that measures variability such as variance can be correlated with other features of the transcriptome. Sampling each cell's mRNA into RNAseq counts generates a mathematical relationship (nearly linear) between expression intensity and expression variance by multinomial sampling theory. Therefore, if we find a significant correlation of single cell variance of homologous genes between mouse and rat, it may be due to the correlation of expression intensity amongst homologous genes rather than due to biological functions of cell&#x02010;to&#x02010;cell variation (Fig. <xref rid="bies201500124-fig-0002" ref-type="fig">2</xref>A and B). Therefore, any comparative correlation test needs to correct for other covariance factors; e.g. by computing partial correlations as was done in Dueck et al. (Fig. <xref rid="bies201500124-fig-0002" ref-type="fig">2</xref>C). A difficulty is that other additional factors besides sampling may also affect the observed variation. For example, certain mRNA might be membrane&#x02010;bound and harder to recover, certain mRNAs' sequence features (e.g. GC percent, length, 5&#x02032; and 3&#x02032; motifs, etc.) may affect cDNA synthesis or amplification; mRNA of very low abundance may be especially difficult to capture in the first cDNA synthesis, etc. All of these factors can modulate measured single cell variance. These ancillary features of transcripts may also be conserved due to conservation of genes' sequences and cellular functions. Thus, the hypothesis test becomes compounded with the effects of evolutionary forces governing these other traits. The features that complicate the measurement of single cell variation &#x02013; such as membrane association &#x02013; may be exactly the feature that is important for the functional mechanism underlying cell&#x02010;to&#x02010;cell variation. In sum, for both evolutionary hypothesis testing and for general inference of single cell variation, it is critical to develop a robust measurement theory of single cell variation <xref rid="bies201500124-bib-0079" ref-type="ref">79</xref>. We need a model of expected variance associated with each gene and each measurement protocol that can be used to &#x0201c;correct&#x0201d; the observed variance (see Dueck et al. <xref rid="bies201500124-bib-0033" ref-type="ref">33</xref>).</p><fig fig-type="Figure" xml:lang="en" id="bies201500124-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Computing the correlation of gene expression variance between two species can be influenced by other correlated factors. <bold>A</bold>: Correlation of expression level of between homologous genes of rat and mouse neurons. <bold>B</bold>: Correlation of single cell variance between homologous genes of rat and mouse neurons. <bold>C</bold>: Partial correlation conditioned on expression level, correcting for the conservation of expression levels.</p></caption><graphic id="nlm-graphic-5" xlink:href="BIES-38-172-g003"><permissions><copyright-holder>Copyright &#x000a9; 2015 Wiley Periodicals, Inc.</copyright-holder></permissions></graphic></fig><p>The second problem for comparing single cell variability amongst genes across species is biological. If we construct a test based on conservation of relative levels of variance amongst genes across species (e.g. correlation of variance), a significant correlation pattern may emerge due to conserved functional importance of either the high&#x02010;variability genes or the low variability genes (or both). A gene may have high single cell variability vis&#x02010;&#x000e0;&#x02010;vis the rest of the transcriptome that is conserved between species due to the various possible higher&#x02010;level functions discussed above. Or, a gene may have conserved low single cell variability because the precision of its expression is important <xref rid="bies201500124-bib-0080" ref-type="ref">80</xref>, <xref rid="bies201500124-bib-0081" ref-type="ref">81</xref>, <xref rid="bies201500124-bib-0082" ref-type="ref">82</xref>, which is a different hypothesis from the idea of &#x0201c;variance is function.&#x0201d; One possible approach to distinguish between these two hypotheses is to examine the (corrected) correlation of variance across multiple cell types. Suppose we were to find significant inter&#x02010;species correlation of genome&#x02010;wide single cell variances in, say, both cardiomyocytes and neurons, respectively. Overlap in the identity of the high variability genes between the two different cell types would suggest consistent function of the high variability genes. Unfortunately, the lack of such overlap does not necessarily imply lack of functional rationale for single cell variability. Different genes may be highly variable in different cell types because the higher&#x02010;level function of different tissues might require variability of different genes, as in many of the scenarios listed above. This might be resolvable with the inclusion of many different cell types in a cross&#x02010;species comparison and identifying finite number of conserved high&#x02010;variability gene clusters.</p></sec><sec id="bies201500124-sec-0011"><title>Prospects for directly testing &#x0201c;variance is function&#x0201d;</title><p>What are the prospects for directly testing whether cell&#x02010;to&#x02010;cell variation in gene expression has functional significance? Classic studies such as canalization mechanisms show that a variety of mechanisms exist to control the variability of molecular processes <xref rid="bies201500124-bib-0083" ref-type="ref">83</xref>. There is an increasing number of studies showing that the distribution of gene expression across cells can be modulated by regulation <xref rid="bies201500124-bib-0014" ref-type="ref">14</xref>, <xref rid="bies201500124-bib-0058" ref-type="ref">58</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>, <xref rid="bies201500124-bib-0084" ref-type="ref">84</xref>, <xref rid="bies201500124-bib-0085" ref-type="ref">85</xref>, <xref rid="bies201500124-bib-0086" ref-type="ref">86</xref>, <xref rid="bies201500124-bib-0087" ref-type="ref">87</xref>, <xref rid="bies201500124-bib-0088" ref-type="ref">88</xref>, through mechanisms involving promoter accessibility <xref rid="bies201500124-bib-0086" ref-type="ref">86</xref>, transcript degradation rate <xref rid="bies201500124-bib-0033" ref-type="ref">33</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>, gene copy number <xref rid="bies201500124-bib-0014" ref-type="ref">14</xref>, or regulatory network structure <xref rid="bies201500124-bib-0058" ref-type="ref">58</xref>, <xref rid="bies201500124-bib-0063" ref-type="ref">63</xref>. Additionally, multiple studies have suggested separate control of expression mean and variance <xref rid="bies201500124-bib-0085" ref-type="ref">85</xref>, <xref rid="bies201500124-bib-0086" ref-type="ref">86</xref>, <xref rid="bies201500124-bib-0087" ref-type="ref">87</xref>. Recently, Lagha et al. showed that paused Pol II decreased temporal variation in gene activation in response to Dpp signaling during Drosophila development <xref rid="bies201500124-bib-0084" ref-type="ref">84</xref>. Benayoun et al. provided evidence that genes broadly covered with H3K4me3 histone modifications demonstrate low expression variation, uncorrelated with expression level <xref rid="bies201500124-bib-0085" ref-type="ref">85</xref>. Interestingly, Vinuelas et al. <xref rid="bies201500124-bib-0089" ref-type="ref">89</xref> report that chromatin modifying reagents can induce significant effects on the stochastic expression variation while Dar et al. <xref rid="bies201500124-bib-0087" ref-type="ref">87</xref> report almost hundred different compounds that modulate HIV gene expression variation. Examples listed suggest that there might be accessible control points to manipulate single cell variability. But complex manipulation of single&#x02010;cell variation is not a simple matter. It is possible that the absolute amounts of multiple RNAs may be important along with single cell variation <xref rid="bies201500124-bib-0090" ref-type="ref">90</xref>. This suggests that the both the amounts of variable RNAs and their relative abundances need to be controlled within the biological constraints of the cell, where approximately 200,000&#x02013;400,000 mRNA molecules are thought to be the normal complement of mRNAs. Another complication is that over&#x02010;expression of particular RNAs might cause a non&#x02010;specific change in cellular dynamics related to titration of RNA polymerases or translational machinery not related to the variability itself, and so altered expression profiles need to be carefully controlled.</p></sec><sec id="bies201500124-sec-0012"><title>General perturbation of single cell variability</title><p>If the functionally relevant single&#x02010;cell expression variation is non&#x02010;specific, such as may be the case in the generalized bet hedging scenario, one possible approach to experimentally manipulate variation is to use non&#x02010;specific effects of siRNA. While siRNA is usually utilized to target specific complementary RNA, it is well known that there are significant off&#x02010;target effects with estimates of 100&#x02010;1,000 RNAs changing as a result of the RNA manipulation <xref rid="bies201500124-bib-0091" ref-type="ref">91</xref>, <xref rid="bies201500124-bib-0092" ref-type="ref">92</xref>. These effects are generally thought to be non&#x02010;specific and include both increases and decreases in RNA abundances encoded by many genes <xref rid="bies201500124-bib-0093" ref-type="ref">93</xref>, <xref rid="bies201500124-bib-0094" ref-type="ref">94</xref>. If indeed the off&#x02010;target action of siRNA is non&#x02010;specific, then there is little reason to believe that these off&#x02010;target effects would selectively modify individual biological systems. Generation of an siRNA with primarily off&#x02010;target action, for example an siRNA of random sequence not present in the mammalian genome, would permit a test of the role of non&#x02010;specific alterations in transcriptome variation across single cells. Ideally siRNA would be introduced into cells using lentivirus where siRNA expression is under regulated promoter control (e.g. tet &#x02013; on promoter) <xref rid="bies201500124-bib-0095" ref-type="ref">95</xref>. In this paradigm, cells would be transfected, baseline population phenotypic measures quantified, and then the siRNA turned on by addition of tetracycline. At various times after activation of the siRNA, the population would be high&#x02010;content screened for phenotype alterations followed by transcriptome analysis to assess the extent of siRNA&#x02010;induced transcriptome variability between cells. If the siRNA promoter can also be turned off (removal of Tet) then, presuming that the siRNA effect is non&#x02010;specific, any phenotypic changes that have occurred at a population level would be expected to return to baseline unless the cells have responded permanently. Further, when the promoter is turned back on a new single&#x02010;cell variation will be generated (because of different off&#x02010;target effects than those initially produced by siRNA activation), facilitating an examination of reproducibility.</p></sec><sec id="bies201500124-sec-0013"><title>Targeted perturbation of sub&#x02010;systems</title><p>If functionally relevant cell&#x02010;to&#x02010;cell variability is specific to mRNAs that comprise a particular regulatory system, a different approach will be required. To assess the role of gene expression variability of specific genes in the production of population function, we need approaches to modulate multiple specific RNAs simultaneously in many cells. We discuss several possible approaches including, (1) transfection of selected in vitro transcribed RNAs in user specified amounts and ratios; (2) transfection of transcription factor (TF) encoding RNAs into cells; and, (3) use of a miRNA that anneals to multiple RNAs to modulate their translation or stability.</p><p>In <xref rid="bies201500124-bib-0096" ref-type="ref">96</xref> we created a method to quantitatively transfect multiple RNAs into cells called Transcriptome Induced Phenotype Remodeling (TIPeR). TIPeR transfects a predefined library of mRNA, either native or synthetic, into cells (usually using lipid mediated, electroporation or phototransfection procedures). Ideally, a well&#x02010;defined pool of mRNA might be transfected into individual cells and directly control cell&#x02010;to&#x02010;cell variation. This most direct approach, isolated transfection of mRNAs into individual cells, is not trivial and currently its throughput is limited so only a limited numbers of cells could be assessed. Furthermore, it would be difficult to apply to naturally interacting in vivo cell populations. The transfection of transcription factor (TF) encoding RNAs into cells permits modulation of any of the cell&#x02010;specific target genes of that specific transcription factor. The change in TF levels will add to the existing single cell variation to change the distribution. The key will be to place the TFs under regulatable promoter control, preferably one that allows the careful titration of transcription so that small or large amounts of RNA are made in the cell <xref rid="bies201500124-bib-0097" ref-type="ref">97</xref>. Fortunately such promoters exist, including those regulated by the cumate operon <xref rid="bies201500124-bib-0098" ref-type="ref">98</xref>, <xref rid="bies201500124-bib-0099" ref-type="ref">99</xref> which can be easily used in cell culture and intact animals through lentivirus infection. Targeting multiple components of some pathway may require transfecting multiple TFs. The use of miRNAs as modulators of multiple RNA expression is particularly intriguing as there is evidence to suggest that many RNAs within a regulatory pathway have the same predicted miRNA binding sites <xref rid="bies201500124-bib-0100" ref-type="ref">100</xref>, <xref rid="bies201500124-bib-0101" ref-type="ref">101</xref>. Schmiedel et al. <xref rid="bies201500124-bib-0102" ref-type="ref">102</xref> has recently shown miRNA modulation of protein expression variation. This suggests that variability of RNA expression for particular systems may be more easily manipulated using miRNAs. Tight regulation of abundances can be achieved, again using the cumate operon <xref rid="bies201500124-bib-0095" ref-type="ref">95</xref>, <xref rid="bies201500124-bib-0099" ref-type="ref">99</xref>. Performing time courses by turning the miRNAs on and off within the same cells and quantifying changes in population phenotype and transcriptome variability promises to highlight functional components of cellular transcriptome variability. TIPeR, TF transfection, or miRNA, all of the experiments will require measurable definition of higher&#x02010;level function enabled by single cell variation. Evolutionary comparisons may help narrow down some of the possible functions listed in Table <xref rid="bies201500124-tbl-0001" ref-type="table-wrap">1</xref> and help design the right experiments. Ideal future experiments might include ex vivo reconstruction of 3D tissues with coupled modulation of individual cell variability as pioneered in <xref rid="bies201500124-bib-0103" ref-type="ref">103</xref>, <xref rid="bies201500124-bib-0104" ref-type="ref">104</xref>&#x02009;
+</p></sec><sec id="bies201500124-sec-0014"><title>Conclusions and outlook</title><p>In this essay, we have explored the idea that single cell variation may, at least in part, be required for higher&#x02010;level system function. Higher&#x02010;level group properties that arise from heterogeneous ensembles are often seen in ecological communities. For example, the nutrient cycles, food webs, social groups, etc., all involve an ensemble of individuals with differentiated roles. (Many such assemblies are not selected for the group property but rather the group property arises out of the interaction of the participants). Similar dynamics amongst individual cells might be an important component of organismal physiology, and the pursuit of this topic may improve our understanding of both healthy and diseased tissues.</p><p>When considering differentiated roles, it may seem that the main question is that of classification of previously unrealized subtypes (e.g. <xref rid="bies201500124-bib-0105" ref-type="ref">105</xref>). Classification of types is a classic systematics problem, and even in whole organisms, systematicists occasionally find cryptic subtypes. It may be that, if a theory or principle of cell phenotype emerges, similar to the biological species concept <xref rid="bies201500124-bib-0106" ref-type="ref">106</xref>, much of the single cell variation might indicate multiple cryptic subtypes; however, it is also likely that much of the single cell variation is plastic and context dependent. In a more speculative model, J. J. Kupiec <xref rid="bies201500124-bib-0047" ref-type="ref">47</xref> as well as A. Paldi <xref rid="bies201500124-bib-0107" ref-type="ref">107</xref> suggest that variation may be part of a kind of Darwinian mechanism for driving developmental decisions, where stochastic variation generates possible different cell fates and subsequent mechanisms apply a kind of &#x0201c;natural selection&#x0201d; for proper differentiation. This is an extremely intriguing speculation and more broadly, we speculate that cell variation could be a mechanism for incorporating environmental information (through aforementioned Darwinian mechanism) into organismal information. In sum, we propose that understanding the mechanism and higher&#x02010;level function of single cell variation will be the key to understanding multi&#x02010;cellular systems.</p></sec></body><back><ack id="bies201500124-sec-0015"><title>Acknowledgments</title><p>This work has been supported in part by Ellison Medical Foundation Aging Award, NIMH 5U01MH098953, and Health Research Formula Funds from the Commonwealth of Pennsylvania. The funding bodies had no role in study design, in collection, analysis, interpretation of data, or in the writing of the manuscript.</p><p>The authors have declared no conflicts of interest.</p></ack><ref-list id="bies201500124-bibl-0001" content-type="cited-references"><title>References</title><ref id="bies201500124-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="bies201500124-cit-0001">
+<string-name>
+<surname>Tang</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Barbacioru</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Nordman</surname>
+<given-names>E</given-names>
+</string-name>, et al. 
+<year>2009</year>
+<article-title>mRNA&#x02010;Seq whole&#x02010;transcriptome analysis of a single cell</article-title>. 
+<source>Nat Methods</source>
+<volume>6</volume>: <fpage>377</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="pmid">19349980</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="bies201500124-cit-0002">
+<string-name>
+<surname>Islam</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Kj&#x000e4;llquist</surname>
+<given-names>U</given-names>
+</string-name>, 
+<string-name>
+<surname>Moliner</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Zajac</surname>
+<given-names>P</given-names>
+</string-name>, et al. 
+<year>2011</year>
+<article-title>Characterization of the single&#x02010;cell transcriptional landscape by highly multiplex RNA&#x02010;seq</article-title>. 
+<source>Genome Res</source>
+<volume>21</volume>: <fpage>1160</fpage>&#x02013;<lpage>7</lpage>.
+<pub-id pub-id-type="pmid">21543516</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="bies201500124-cit-0003">
+<string-name>
+<surname>Hashimshony</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Wagner</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Sher</surname>
+<given-names>N</given-names>
+</string-name>, 
+<string-name>
+<surname>Yanai</surname>
+<given-names>I</given-names>
+</string-name>. 
+<year>2012</year>
+<article-title>CEL&#x02010;seq: single&#x02010;cell rna&#x02010;seq by multiplexed linear amplification</article-title>. 
+<source>Cell Rep</source>
+<volume>2</volume>: <fpage>666</fpage>&#x02013;<lpage>73</lpage>.
+<pub-id pub-id-type="pmid">22939981</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="bies201500124-cit-0004">
+<string-name>
+<surname>Ramsk&#x000f6;ld</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Luo</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>Y&#x02010;C</given-names>
+</string-name>, 
+<string-name>
+<surname>Li</surname>
+<given-names>R</given-names>
+</string-name>, et al. 
+<year>2012</year>
+<article-title>Full&#x02010;length mRNA&#x02010;Seq from single&#x02010;cell levels of RNA and individual circulating tumor cells</article-title>. 
+<source>Nat Biotechnol</source>
+<volume>30</volume>: <fpage>777</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="pmid">22820318</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="bies201500124-cit-0005">
+<string-name>
+<surname>Picelli</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Bj&#x000f6;rklund</surname>
+<given-names>&#x000c5;K</given-names>
+</string-name>, 
+<string-name>
+<surname>Faridani</surname>
+<given-names>OR</given-names>
+</string-name>, 
+<string-name>
+<surname>Sagasser</surname>
+<given-names>S</given-names>
+</string-name>, et al. 
+<year>2013</year>
+<article-title>Smart&#x02010;seq2 for sensitive full&#x02010;length transcriptome profiling in single cells</article-title>. 
+<source>Nat Methods</source>
+<volume>10</volume>: <fpage>1096</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">24056875</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="bies201500124-cit-0006">
+<string-name>
+<surname>Sasagawa</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Nikaido</surname>
+<given-names>I</given-names>
+</string-name>, 
+<string-name>
+<surname>Hayashi</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Danno</surname>
+<given-names>H</given-names>
+</string-name>, et al. 
+<year>2013</year>
+<article-title>Quartz&#x02010;Seq: a highly reproducible and sensitive single&#x02010;cell RNA sequencing method, reveals non&#x02010;genetic gene&#x02010;expression heterogeneity</article-title>. 
+<source>Genome Biol</source>
+<volume>14</volume>: <fpage>R31</fpage>.
+<pub-id pub-id-type="pmid">23594475</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="bies201500124-cit-0007">
+<string-name>
+<surname>Islam</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Zeisel</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Joost</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>La Manno</surname>
+<given-names>G</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Quantitative single&#x02010;cell RNA&#x02010;seq with unique molecular identifiers</article-title>. 
+<source>Nat Methods</source>
+<volume>11</volume>: <fpage>163</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">24363023</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="bies201500124-cit-0008">
+<string-name>
+<surname>Lovatt</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Ruble</surname>
+<given-names>BK</given-names>
+</string-name>, 
+<string-name>
+<surname>Lee</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Dueck</surname>
+<given-names>H</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Transcriptome in vivo analysis (TIVA) of spatially defined single cells in live tissue</article-title>. 
+<source>Nat Methods</source>
+<volume>11</volume>: <fpage>190</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">24412976</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="bies201500124-cit-0009">
+<string-name>
+<surname>Jaitin</surname>
+<given-names>DA</given-names>
+</string-name>, 
+<string-name>
+<surname>Kenigsberg</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name>
+<surname>Keren&#x02010;Shaul</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name>
+<surname>Elefant</surname>
+<given-names>N</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Massively parallel single&#x02010;cell RNA&#x02010;Seq for marker&#x02010;free decomposition of tissues into cell types</article-title>. 
+<source>Science</source>
+<volume>343</volume>: <fpage>776</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">24531970</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="bies201500124-cit-0010">
+<string-name>
+<surname>Lee</surname>
+<given-names>JH</given-names>
+</string-name>, 
+<string-name>
+<surname>Daugharthy</surname>
+<given-names>ER</given-names>
+</string-name>, 
+<string-name>
+<surname>Scheiman</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Kalhor</surname>
+<given-names>R</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Highly multiplexed subcellular RNA sequencing in situ</article-title>. 
+<source>Science</source>
+<volume>343</volume>: <fpage>1360</fpage>&#x02013;<lpage>3</lpage>.
+<pub-id pub-id-type="pmid">24578530</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="bies201500124-cit-0011">
+<string-name>
+<surname>Smallwood</surname>
+<given-names>SA</given-names>
+</string-name>, 
+<string-name>
+<surname>Lee</surname>
+<given-names>HJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Angermueller</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Krueger</surname>
+<given-names>F</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Single&#x02010;cell genome&#x02010;wide bisulfite sequencing for assessing epigenetic heterogeneity</article-title>. 
+<source>Nat Methods</source>
+<volume>11</volume>: <fpage>817</fpage>&#x02013;<lpage>20</lpage>.
+<pub-id pub-id-type="pmid">25042786</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="bies201500124-cit-0012">
+<string-name>
+<surname>Cabili</surname>
+<given-names>MN</given-names>
+</string-name>, 
+<string-name>
+<surname>Dunagin</surname>
+<given-names>MC</given-names>
+</string-name>, 
+<string-name>
+<surname>McClanahan</surname>
+<given-names>PD</given-names>
+</string-name>, 
+<string-name>
+<surname>Biaesch</surname>
+<given-names>A</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Localization and abundance analysis of human lncRNAs at single&#x02010;cell and single&#x02010;molecule resolution</article-title>. 
+<source>Genome Biol</source>
+<volume>16</volume>: <fpage>20</fpage>.
+<pub-id pub-id-type="pmid">25630241</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="bies201500124-cit-0013">
+<string-name>
+<surname>Chen</surname>
+<given-names>KH</given-names>
+</string-name>, 
+<string-name>
+<surname>Boettiger</surname>
+<given-names>AN</given-names>
+</string-name>, 
+<string-name>
+<surname>Moffitt</surname>
+<given-names>JR</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>S</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Spatially resolved, highly multiplexed RNA profiling in single cells</article-title>. 
+<source>Science</source>
+<volume>348</volume>: <fpage>6090</fpage>.
+</mixed-citation></ref><ref id="bies201500124-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="bies201500124-cit-0014">
+<string-name>
+<surname>Dey</surname>
+<given-names>SS</given-names>
+</string-name>, 
+<string-name>
+<surname>Kester</surname>
+<given-names>L</given-names>
+</string-name>, 
+<string-name>
+<surname>Spanjaard</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Bienko</surname>
+<given-names>M</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Integrated genome and transcriptome sequencing of the same cell</article-title>. 
+<source>Nat Biotech</source>
+<volume>33</volume>: <fpage>285</fpage>&#x02013;<lpage>9</lpage>.
+</mixed-citation></ref><ref id="bies201500124-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="bies201500124-cit-0015">
+<string-name>
+<surname>Satija</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Farrell</surname>
+<given-names>JA</given-names>
+</string-name>, 
+<string-name>
+<surname>Gennert</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Schier</surname>
+<given-names>AF</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Spatial reconstruction of single&#x02010;cell gene expression data</article-title>. 
+<source>Nat Biotechnol</source>
+<volume>33</volume>: <fpage>495</fpage>&#x02013;<lpage>502</lpage>.
+<pub-id pub-id-type="pmid">25867923</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="bies201500124-cit-0016">
+<string-name>
+<surname>Wilson</surname>
+<given-names>NK</given-names>
+</string-name>, 
+<string-name>
+<surname>Kent</surname>
+<given-names>DG</given-names>
+</string-name>, 
+<string-name>
+<surname>Buettner</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Shehata</surname>
+<given-names>M</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Combined single&#x02010;cell functional and gene expression analysis resolves heterogeneity within stem cell populations</article-title>. 
+<source>Cell Stem Cell</source>
+<volume>16</volume>: <fpage>712</fpage>&#x02013;<lpage>24</lpage>.
+<pub-id pub-id-type="pmid">26004780</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="bies201500124-cit-0017">
+<string-name>
+<surname>Poulin</surname>
+<given-names>J&#x02010;F.</given-names>
+</string-name>, 
+<string-name>
+<surname>Zou</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Drouin&#x02010;Ouellet</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>K&#x02010;YA</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Defining midbrain dopaminergic neuron diversity by single&#x02010;cell gene expression profiling</article-title>. 
+<source>Cell Rep</source>
+<volume>9</volume>: <fpage>930</fpage>&#x02013;<lpage>43</lpage>.
+<pub-id pub-id-type="pmid">25437550</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="bies201500124-cit-0018">
+<string-name>
+<surname>Chiu</surname>
+<given-names>IM</given-names>
+</string-name>, 
+<string-name>
+<surname>Barrett</surname>
+<given-names>LB</given-names>
+</string-name>, 
+<string-name>
+<surname>Williams</surname>
+<given-names>EK</given-names>
+</string-name>, 
+<string-name>
+<surname>Strochlic</surname>
+<given-names>DE</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Transcriptional profiling at whole population and single cell levels reveals somatosensory neuron molecular diversity</article-title>. 
+<source>eLife</source>
+<volume>3</volume>: <fpage>e04660</fpage>
+</mixed-citation></ref><ref id="bies201500124-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="bies201500124-cit-0019">
+<string-name>
+<surname>Usoskin</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Furlan</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Islam</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Abdo</surname>
+<given-names>H</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Unbiased classification of sensory neuron types by large&#x02010;scale single&#x02010;cell RNA sequencing</article-title>. 
+<source>Nat Neurosci</source>
+<volume>18</volume>: <fpage>145</fpage>&#x02013;<lpage>53</lpage>.
+<pub-id pub-id-type="pmid">25420068</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="bies201500124-cit-0020">
+<string-name>
+<surname>Park</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Brureau</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Kernan</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Starks</surname>
+<given-names>A</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Inputs drive cell phenotype variability</article-title>. 
+<source>Genome Res</source>
+<volume>24</volume>: <fpage>930</fpage>&#x02013;<lpage>41</lpage>.
+<pub-id pub-id-type="pmid">24671852</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="bies201500124-cit-0021">
+<string-name>
+<surname>Marder</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name>
+<surname>Goaillard</surname>
+<given-names>J&#x02010;M.</given-names>
+</string-name>
+<year>2006</year>
+<article-title>Variability, compensation and homeostasis in neuron and network function</article-title>. 
+<source>Nat Rev Neurosci</source>
+<volume>7</volume>: <fpage>563</fpage>&#x02013;<lpage>74</lpage>.
+<pub-id pub-id-type="pmid">16791145</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="bies201500124-cit-0022">
+<string-name>
+<surname>Schulz</surname>
+<given-names>DJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Goaillard</surname>
+<given-names>J&#x02010;M.</given-names>
+</string-name>, 
+<string-name>
+<surname>Marder</surname>
+<given-names>EE.</given-names>
+</string-name>
+<year>2007</year>
+<article-title>Quantitative expression profiling of identified neurons reveals cell&#x02010;specific constraints on highly variable levels of gene expression</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>104</volume>: <fpage>13187</fpage>&#x02013;<lpage>91</lpage>.
+<pub-id pub-id-type="pmid">17652510</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="bies201500124-cit-0023">
+<string-name>
+<surname>Durruthy&#x02010;Durruthy</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Gottlieb</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Hartman</surname>
+<given-names>BH</given-names>
+</string-name>, 
+<string-name>
+<surname>Waldhaus</surname>
+<given-names>J</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Reconstruction of the mouse otocyst and early neuroblast lineage at single&#x02010;cell resolution</article-title>. 
+<source>Cell</source>
+<volume>157</volume>: <fpage>964</fpage>&#x02013;<lpage>78</lpage>.
+<pub-id pub-id-type="pmid">24768691</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="bies201500124-cit-0024">
+<string-name>
+<surname>Bieler</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Cannavo</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Gustafson</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Gobet</surname>
+<given-names>C</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Robust synchronization of coupled circadian and cell cycle oscillators in single mammalian cells</article-title>. 
+<source>Mol Syst Biol</source>
+<volume>10</volume>: <fpage>739</fpage>.
+<pub-id pub-id-type="pmid">25028488</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="bies201500124-cit-0025">
+<string-name>
+<surname>Deng</surname>
+<given-names>Q</given-names>
+</string-name>, 
+<string-name>
+<surname>Ramskold</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Reinius</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Sandberg</surname>
+<given-names>R.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Single&#x02010;cell RNA&#x02010;seq reveals dynamic, random monoallelic gene expression in mammalian cells</article-title>. 
+<source>Science</source>
+<volume>343</volume>: <fpage>193</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">24408435</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="bies201500124-cit-0026">
+<string-name>
+<surname>McDavid</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Dennis</surname>
+<given-names>L</given-names>
+</string-name>, 
+<string-name>
+<surname>Danaher</surname>
+<given-names>P</given-names>
+</string-name>, 
+<string-name>
+<surname>Finak</surname>
+<given-names>G</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Modeling bi&#x02010;modality improves characterization of cell cycle on gene expression in single cells</article-title>. 
+<source>PLoS Comput Biol</source>
+<volume>10</volume>: <fpage>e1003696</fpage>.
+<pub-id pub-id-type="pmid">25032992</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="bies201500124-cit-0027">
+<string-name>
+<surname>Piras</surname>
+<given-names>V</given-names>
+</string-name>, 
+<string-name>
+<surname>Tomita</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Selvarajoo</surname>
+<given-names>K.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Transcriptome&#x02010;wide variability in single embryonic development cells</article-title>. 
+<source>Sci Rep</source>
+<volume>4</volume>: <fpage>7137</fpage>.
+<pub-id pub-id-type="pmid">25409746</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="bies201500124-cit-0028">
+<string-name>
+<surname>Treutlein</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Brownfield</surname>
+<given-names>DG</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>AR</given-names>
+</string-name>, 
+<string-name>
+<surname>Neff</surname>
+<given-names>NF</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Reconstructing lineage hierarchies of the distal lung epithelium using single&#x02010;cell RNA&#x02010;seq</article-title>. 
+<source>Nature</source>
+<volume>509</volume>: <fpage>371</fpage>&#x02013;<lpage>5</lpage>.
+<pub-id pub-id-type="pmid">24739965</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="bies201500124-cit-0029">
+<string-name>
+<surname>Moignard</surname>
+<given-names>V</given-names>
+</string-name>, 
+<string-name>
+<surname>Woodhouse</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Haghverdi</surname>
+<given-names>L</given-names>
+</string-name>, 
+<string-name>
+<surname>Lilly</surname>
+<given-names>AJ</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Decoding the regulatory network of early blood development from single&#x02010;cell gene expression measurements</article-title>. 
+<source>Nat Biotech</source>
+<volume>33</volume>: <fpage>269</fpage>&#x02013;<lpage>76</lpage>.
+</mixed-citation></ref><ref id="bies201500124-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="bies201500124-cit-0030">
+<string-name>
+<surname>Buettner</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Natarajan</surname>
+<given-names>KN</given-names>
+</string-name>, 
+<string-name>
+<surname>Casale</surname>
+<given-names>FP</given-names>
+</string-name>, 
+<string-name>
+<surname>Proserpio</surname>
+<given-names>V</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Computational analysis of cell&#x02010;to&#x02010;cell heterogeneity in single&#x02010;cell</article-title>. 
+<source>Nat Biotechnol</source>
+<volume>33</volume>: <fpage>155</fpage>&#x02013;<lpage>60</lpage>.
+<pub-id pub-id-type="pmid">25599176</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="bies201500124-cit-0031">
+<string-name>
+<surname>Piras</surname>
+<given-names>V</given-names>
+</string-name>, 
+<string-name>
+<surname>Selvarajoo</surname>
+<given-names>K.</given-names>
+</string-name>
+<year>2015</year>
+<article-title>The reduction of gene expression variability from single cells to populations follows simple statistical laws</article-title>. 
+<source>Genomics</source>
+<volume>105</volume>: <fpage>137</fpage>&#x02013;<lpage>44</lpage>.
+<pub-id pub-id-type="pmid">25554103</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="bies201500124-cit-0032">
+<string-name>
+<surname>Eckersley&#x02010;Maslin</surname>
+<given-names>MA</given-names>
+</string-name>, 
+<string-name>
+<surname>Thybert</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Bergmann</surname>
+<given-names>JH</given-names>
+</string-name>, 
+<string-name>
+<surname>Marioni</surname>
+<given-names>JC</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Random monoallelic gene expression increases upon embryonic stem cell differentiation</article-title>. 
+<source>Dev Cell</source>
+<volume>28</volume>: <fpage>351</fpage>&#x02013;<lpage>65</lpage>.
+<pub-id pub-id-type="pmid">24576421</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="bies201500124-cit-0033">
+<string-name>
+<surname>Dueck</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name>
+<surname>Khaladkar</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>TK</given-names>
+</string-name>, 
+<string-name>
+<surname>Spaethling</surname>
+<given-names>JM</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Deep sequencing reveals cell&#x02010;type&#x02010;specific patterns of single&#x02010;cell transcriptome variation</article-title>. 
+<source>Genome Biol</source>
+<volume>16</volume>: <fpage>122</fpage>.
+<pub-id pub-id-type="pmid">26056000</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="bies201500124-cit-0034">
+<string-name>
+<surname>Eberwine</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>J.</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Cellular deconstruction: finding meaning in individual cell variation</article-title>. 
+<source>Trends Cell Biol</source>
+<volume>25</volume>: <fpage>569</fpage>&#x02013;<lpage>78</lpage>.
+<pub-id pub-id-type="pmid">26410403</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="bies201500124-cit-0035">
+<string-name>
+<surname>Yvert</surname>
+<given-names>G.</given-names>
+</string-name>
+<year>2014</year> &#x0201c;
+<article-title>Particle genetics&#x0201d;: treating every cell as unique</article-title>. 
+<source>Trends Genet</source>
+<volume>30</volume>: <fpage>49</fpage>&#x02013;<lpage>56</lpage>.
+<pub-id pub-id-type="pmid">24315431</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="bies201500124-cit-0036">
+<string-name>
+<surname>Cagatay</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Turcotte</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Elowitz</surname>
+<given-names>MB</given-names>
+</string-name>, 
+<string-name>
+<surname>Garcia&#x02010;Ojalvo</surname>
+<given-names>J</given-names>
+</string-name>, et al. 
+<year>2009</year>
+<article-title>Architecture&#x02010;dependent noise discriminates functionally analogous differentiation circuits</article-title>. 
+<source>Cell</source>
+<volume>139</volume>: <fpage>512</fpage>&#x02013;<lpage>22</lpage>.
+<pub-id pub-id-type="pmid">19853288</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="bies201500124-cit-0037">
+<string-name>
+<surname>Acar</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Mettetal</surname>
+<given-names>JT</given-names>
+</string-name>, 
+<string-name>
+<surname>van Oudenaarden</surname>
+<given-names>A.</given-names>
+</string-name>
+<year>2008</year>
+<article-title>Stochastic switching as a survival strategy in fluctuating environments</article-title>. 
+<source>Nat Genet</source>
+<volume>40</volume>: <fpage>471</fpage>&#x02013;<lpage>5</lpage>.
+<pub-id pub-id-type="pmid">18362885</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="bies201500124-cit-0038">
+<string-name>
+<surname>Eldar</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Elowitz</surname>
+<given-names>MB.</given-names>
+</string-name>
+<year>2010</year>
+<article-title>Functional roles for noise in genetic circuits</article-title>. 
+<source>Nature</source>
+<volume>467</volume>: <fpage>167</fpage>&#x02013;<lpage>73</lpage>.
+<pub-id pub-id-type="pmid">20829787</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="bies201500124-cit-0039">
+<string-name>
+<surname>Losick</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Desplan</surname>
+<given-names>C.</given-names>
+</string-name>
+<year>2008</year>
+<article-title>Stochasticity and cell fate</article-title>. 
+<source>Science</source>
+<volume>320</volume>: <fpage>65</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">18388284</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="bies201500124-cit-0040">
+<string-name>
+<surname>Martins</surname>
+<given-names>BM</given-names>
+</string-name>, 
+<string-name>
+<surname>Locke</surname>
+<given-names>JC.</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Microbial individuality: how single&#x02010;cell heterogeneity enables population level strategies</article-title>. 
+<source>Cell Regul</source>
+<volume>24</volume>: <fpage>104</fpage>&#x02013;<lpage>12</lpage>.
+</mixed-citation></ref><ref id="bies201500124-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="bies201500124-cit-0041">
+<string-name>
+<surname>Beaumont</surname>
+<given-names>HJE</given-names>
+</string-name>, 
+<string-name>
+<surname>Gallie</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Kost</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Ferguson</surname>
+<given-names>GC</given-names>
+</string-name>, et al. 
+<year>2009</year>
+<article-title>Experimental evolution of bet hedging</article-title>. 
+<source>Nature</source>
+<volume>462</volume>: <fpage>90</fpage>&#x02013;<lpage>3</lpage>.
+<pub-id pub-id-type="pmid">19890329</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="bies201500124-cit-0042">
+<string-name>
+<surname>Mineta</surname>
+<given-names>K</given-names>
+</string-name>, 
+<string-name>
+<surname>Matsumoto</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Osada</surname>
+<given-names>N</given-names>
+</string-name>, 
+<string-name>
+<surname>Araki</surname>
+<given-names>H.</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Population genetics of non&#x02010;genetic traits: Evolutionary roles of stochasticity in gene expression</article-title>. 
+<source>Gene</source>
+<volume>562</volume>: <fpage>16</fpage>&#x02013;<lpage>21</lpage>.
+<pub-id pub-id-type="pmid">25752289</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="bies201500124-cit-0043">
+<string-name>
+<surname>Gupta</surname>
+<given-names>PB</given-names>
+</string-name>, 
+<string-name>
+<surname>Fillmore</surname>
+<given-names>CM</given-names>
+</string-name>, 
+<string-name>
+<surname>Jiang</surname>
+<given-names>G</given-names>
+</string-name>, 
+<string-name>
+<surname>Shapira</surname>
+<given-names>SD</given-names>
+</string-name>, et al. 
+<year>2011</year>
+<article-title>Stochastic state transitions give rise to phenotypic equilibrium in populations of cancer cells</article-title>. 
+<source>Cell</source>
+<volume>146</volume>: <fpage>633</fpage>&#x02013;<lpage>44</lpage>.
+<pub-id pub-id-type="pmid">21854987</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="bies201500124-cit-0044">
+<string-name>
+<surname>Zhou</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Wang</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>B.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>A multi&#x02010;phenotypic cancer model with cell plasticity</article-title>. 
+<source>J Theor Biol</source>
+<volume>357</volume>: <fpage>35</fpage>&#x02013;<lpage>45</lpage>.
+<pub-id pub-id-type="pmid">24819463</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="bies201500124-cit-0045">
+<string-name>
+<surname>Lee</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Lee</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Farquhar</surname>
+<given-names>KS</given-names>
+</string-name>, 
+<string-name>
+<surname>Yun</surname>
+<given-names>J</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Network of mutually repressive metastasis regulators can promote cell heterogeneity and metastatic transitions</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>111</volume>: <fpage>E364</fpage>&#x02013;<lpage>73</lpage>.
+<pub-id pub-id-type="pmid">24395801</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="bies201500124-cit-0046">
+<string-name>
+<surname>Stearns</surname>
+<given-names>SC.</given-names>
+</string-name>
+<year>1976</year>
+<article-title>Life&#x02010;history tactics: a review of the ideas</article-title>. 
+<source>Q Rev Biol</source>
+<volume>51</volume>: <fpage>3</fpage>&#x02013;<lpage>47</lpage>.
+<pub-id pub-id-type="pmid">778893</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="bies201500124-cit-0047">
+<string-name>
+<surname>Kupiec</surname>
+<given-names>JJ.</given-names>
+</string-name>
+<year>1997</year>
+<article-title>A Darwinian theory for the origin of cellular differentiation</article-title>. 
+<source>Mol Gen Genet</source>
+<volume>255</volume>: <fpage>201</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">9236778</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="bies201500124-cit-0048">
+<string-name>
+<surname>Briney</surname>
+<given-names>BS</given-names>, <suffix>Jr</suffix>
+</string-name>
+<string-name>
+<given-names>JEC.</given-names>
+</string-name>
+<year>2013</year>
+<article-title>Secondary mechanisms of diversification in the human antibody repertoire</article-title>. 
+<source>Front Immunol</source>
+<volume>4</volume>: <fpage>42</fpage>.
+<pub-id pub-id-type="pmid">23483107</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="bies201500124-cit-0049">
+<string-name>
+<surname>Jaeger</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Fernandez</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Ferrier</surname>
+<given-names>P.</given-names>
+</string-name>
+<year>2013</year>
+<article-title>Epigenetic aspects of lymphocyte antigen receptor gene rearrangement or &#x0201c;when stochasticity completes randomness</article-title>&#x0201d;. 
+<source>Immunology</source>
+<volume>139</volume>: <fpage>141</fpage>&#x02013;<lpage>50</lpage>.
+<pub-id pub-id-type="pmid">23278765</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="bies201500124-cit-0050">
+<string-name>
+<surname>Erwin</surname>
+<given-names>JA</given-names>
+</string-name>, 
+<string-name>
+<surname>Marchetto</surname>
+<given-names>MC</given-names>
+</string-name>, 
+<string-name>
+<surname>Gage</surname>
+<given-names>FH.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Mobile DNA elements in the generation of diversity and complexity in the brain</article-title>. 
+<source>Nat Rev Neurosci</source>
+<volume>15</volume>: <fpage>497</fpage>&#x02013;<lpage>506</lpage>.
+<pub-id pub-id-type="pmid">25005482</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="bies201500124-cit-0051">
+<string-name>
+<surname>Woods</surname>
+<given-names>HA.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Mosaic physiology from developmental noise: within&#x02010;organism physiological diversity as an alternative to phenotypic plasticity and phenotypic flexibility</article-title>. 
+<source>J Exp Biol</source>
+<volume>217</volume>: <fpage>35</fpage>&#x02013;<lpage>45</lpage>.
+<pub-id pub-id-type="pmid">24353202</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="bies201500124-cit-0052">
+<string-name>
+<surname>Lee</surname>
+<given-names>M&#x02010;CW</given-names>
+</string-name>, 
+<string-name>
+<surname>Lopez&#x02010;Diaz</surname>
+<given-names>FJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Khan</surname>
+<given-names>SY</given-names>
+</string-name>, 
+<string-name>
+<surname>Tariq</surname>
+<given-names>MA</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Single&#x02010;cell analyses of transcriptional heterogeneity during drug tolerance transition in cancer cells by RNA sequencing</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>111</volume>: <fpage>E4726</fpage>&#x02013;<lpage>35</lpage>.
+<pub-id pub-id-type="pmid">25339441</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="bies201500124-cit-0053">
+<string-name>
+<surname>Patel</surname>
+<given-names>AP</given-names>
+</string-name>, 
+<string-name>
+<surname>Tirosh</surname>
+<given-names>I</given-names>
+</string-name>, 
+<string-name>
+<surname>Trombetta</surname>
+<given-names>JJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Shalek</surname>
+<given-names>AK</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Single&#x02010;cell RNA&#x02010;seq highlights intratumoral heterogeneity in primary glioblastoma</article-title>. 
+<source>Science</source>
+<volume>344</volume>: <fpage>1396</fpage>&#x02013;<lpage>401</lpage>.
+<pub-id pub-id-type="pmid">24925914</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="bies201500124-cit-0054">
+<string-name>
+<surname>Kim</surname>
+<given-names>K&#x02010;T.</given-names>
+</string-name>, 
+<string-name>
+<surname>Lee</surname>
+<given-names>HW</given-names>
+</string-name>, 
+<string-name>
+<surname>Lee</surname>
+<given-names>H&#x02010;O.</given-names>
+</string-name>, 
+<string-name>
+<surname>Kim</surname>
+<given-names>SC</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Single&#x02010;cell mRNA sequencing identifies subclonal heterogeneity in anti&#x02010;cancer drug responses of lung adenocarcinoma cells</article-title>. 
+<source>Genome Biol</source>
+<volume>16</volume>: <fpage>127</fpage>.
+<pub-id pub-id-type="pmid">26084335</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="bies201500124-cit-0055">
+<string-name>
+<surname>Singh</surname>
+<given-names>DK</given-names>
+</string-name>, 
+<string-name>
+<surname>Ku</surname>
+<given-names>C&#x02010;J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Wichaidit</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Steininger</surname>
+<given-names>RJ</given-names>
+<suffix>3rd</suffix>
+</string-name>, et al. 
+<year>2010</year>
+<article-title>Patterns of basal signaling heterogeneity can distinguish cellular populations with different drug sensitivities</article-title>. 
+<source>Mol Syst Biol</source>
+<volume>6</volume>: <fpage>369</fpage>.
+<pub-id pub-id-type="pmid">20461076</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="bies201500124-cit-0056">
+<string-name>
+<surname>Roux</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Hafner</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Bandara</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Sims</surname>
+<given-names>JJ</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Fractional killing arises from cell&#x02010;to&#x02010;cell variability in overcoming a caspase activity threshold</article-title>. 
+<source>Mol Syst Biol</source>
+<volume>11</volume>: <fpage>803</fpage>.
+<pub-id pub-id-type="pmid">25953765</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="bies201500124-cit-0057">
+<string-name>
+<surname>Bertaux</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Stoma</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Drasdo</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Batt</surname>
+<given-names>G.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Modeling dynamics of cell&#x02010;to&#x02010;cell variability in TRAIL&#x02010;induced apoptosis explains fractional killing and predicts reversible resistance</article-title>. 
+<source>PLoS Comput Biol</source>
+<volume>10</volume>: <fpage>e1003893</fpage>.
+<pub-id pub-id-type="pmid">25340343</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="bies201500124-cit-0058">
+<string-name>
+<surname>Ahrends</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Ota</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Kovary</surname>
+<given-names>KM</given-names>
+</string-name>, 
+<string-name>
+<surname>Kudo</surname>
+<given-names>T</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Controlling low rates of cell differentiation through noise and ultrahigh feedback</article-title>. 
+<source>Science</source>
+<volume>344</volume>: <fpage>1384</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">24948735</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="bies201500124-cit-0059">
+<string-name>
+<surname>Spencer</surname>
+<given-names>SL</given-names>
+</string-name>, 
+<string-name>
+<surname>Gaudet</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Albeck</surname>
+<given-names>JG</given-names>
+</string-name>, 
+<string-name>
+<surname>Burke</surname>
+<given-names>JM</given-names>
+</string-name>, et al. 
+<year>2009</year>
+<article-title>Non&#x02010;genetic origins of cell&#x02010;to&#x02010;cell variability in TRAIL&#x02010;induced apoptosis</article-title>. 
+<source>Nature</source>
+<volume>459</volume>: <fpage>428</fpage>&#x02013;<lpage>32</lpage>.
+<pub-id pub-id-type="pmid">19363473</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="bies201500124-cit-0060">
+<string-name>
+<surname>Overton</surname>
+<given-names>KW</given-names>
+</string-name>, 
+<string-name>
+<surname>Spencer</surname>
+<given-names>SL</given-names>
+</string-name>, 
+<string-name>
+<surname>Noderer</surname>
+<given-names>WL</given-names>
+</string-name>, 
+<string-name>
+<surname>Meyer</surname>
+<given-names>T</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Basal p21 controls population heterogeneity in cycling and quiescent cell cycle states</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>111</volume>: <fpage>E4386</fpage>&#x02013;<lpage>93</lpage>.
+<pub-id pub-id-type="pmid">25267623</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="bies201500124-cit-0061">
+<string-name>
+<surname>Hanski</surname>
+<given-names>I</given-names>
+</string-name>. 
+<year>1981</year>
+<article-title>Coexistence of competitors in patchy environment with and without predation</article-title>. 
+<source>Oikos</source>
+<volume>37</volume>: <fpage>306</fpage>&#x02013;<lpage>12</lpage>.
+</mixed-citation></ref><ref id="bies201500124-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="bies201500124-cit-0062">
+<string-name>
+<surname>Chang</surname>
+<given-names>HH</given-names>
+</string-name>, 
+<string-name>
+<surname>Hemberg</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Barahona</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Ingber</surname>
+<given-names>DE</given-names>
+</string-name>, et al. 
+<year>2008</year>
+<article-title>Transcriptome&#x02010;wide noise controls lineage choice in mammalian progenitor cells</article-title>. 
+<source>Nature</source>
+<volume>453</volume>: <fpage>544</fpage>&#x02013;<lpage>7</lpage>.
+<pub-id pub-id-type="pmid">18497826</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="bies201500124-cit-0063">
+<string-name>
+<surname>Kumar</surname>
+<given-names>RM</given-names>
+</string-name>, 
+<string-name>
+<surname>Cahan</surname>
+<given-names>P</given-names>
+</string-name>, 
+<string-name>
+<surname>Shalek</surname>
+<given-names>AK</given-names>
+</string-name>, 
+<string-name>
+<surname>Satija</surname>
+<given-names>R</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Deconstructing transcriptional heterogeneity in pluripotent stem cells</article-title>. 
+<source>Nature</source>
+<volume>516</volume>: <fpage>56</fpage>&#x02013;<lpage>61</lpage>.
+<pub-id pub-id-type="pmid">25471879</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="bies201500124-cit-0064">
+<string-name>
+<surname>Sansom</surname>
+<given-names>SN</given-names>
+</string-name>, 
+<string-name>
+<surname>Shikama&#x02010;Dorn</surname>
+<given-names>N</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhanybekova</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Nusspaumer</surname>
+<given-names>G</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Population and single&#x02010;cell genomics reveal the Aire dependency, relief from Polycomb silencing, and distribution of self&#x02010;antigen expression in thymic epithelia</article-title>. 
+<source>Genome Res</source>
+<volume>24</volume>: <fpage>1918</fpage>&#x02013;<lpage>31</lpage>.
+<pub-id pub-id-type="pmid">25224068</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="bies201500124-cit-0065">
+<string-name>
+<surname>Ohnishi</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Huber</surname>
+<given-names>W</given-names>
+</string-name>, 
+<string-name>
+<surname>Tsumura</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Kang</surname>
+<given-names>M</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Cell&#x02010;to&#x02010;cell expression variability followed by signal reinforcement progressively segregates early mouse lineages</article-title>. 
+<source>Nat Cell Biol</source>
+<volume>16</volume>: <fpage>27</fpage>&#x02013;<lpage>37</lpage>.
+<pub-id pub-id-type="pmid">24292013</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="bies201500124-cit-0066">
+<string-name>
+<surname>Singer</surname>
+<given-names>ZS</given-names>
+</string-name>, 
+<string-name>
+<surname>Yong</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Tischler</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Hackett</surname>
+<given-names>JA</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Dynamic heterogeneity and DNA methylation in embryonic stem cells</article-title>. 
+<source>Mol Cell</source>
+<volume>55</volume>: <fpage>319</fpage>&#x02013;<lpage>31</lpage>.
+<pub-id pub-id-type="pmid">25038413</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="bies201500124-cit-0067">
+<string-name>
+<surname>Badzey</surname>
+<given-names>RL</given-names>
+</string-name>, 
+<string-name>
+<surname>Mohanty</surname>
+<given-names>P.</given-names>
+</string-name>
+<year>2005</year>
+<article-title>Coherent signal amplification in bistable nanomechanical oscillators by stochastic resonance</article-title>. 
+<source>Nature</source>
+<volume>437</volume>: <fpage>995</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">16222295</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="bies201500124-cit-0068">
+<string-name>
+<surname>Hogquist</surname>
+<given-names>KA</given-names>
+</string-name>, 
+<string-name>
+<surname>Baldwin</surname>
+<given-names>TA</given-names>
+</string-name>, 
+<string-name>
+<surname>Jameson</surname>
+<given-names>SC.</given-names>
+</string-name>
+<year>2005</year>
+<article-title>Central tolerance: learning self&#x02010;control in the thymus</article-title>. 
+<source>Nat Rev Immunol</source>
+<volume>5</volume>: <fpage>772</fpage>&#x02013;<lpage>82</lpage>.
+<pub-id pub-id-type="pmid">16200080</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="bies201500124-cit-0069">
+<string-name>
+<surname>Muotri</surname>
+<given-names>AR</given-names>
+</string-name>, 
+<string-name>
+<surname>Chu</surname>
+<given-names>VT</given-names>
+</string-name>, 
+<string-name>
+<surname>Marchetto</surname>
+<given-names>MCN</given-names>
+</string-name>, 
+<string-name>
+<surname>Deng</surname>
+<given-names>W</given-names>
+</string-name>, et al. 
+<year>2005</year>
+<article-title>Somatic mosaicism in neuronal precursor cells mediated by L1 retrotransposition</article-title>. 
+<source>Nature</source>
+<volume>435</volume>: <fpage>903</fpage>&#x02013;<lpage>10</lpage>.
+<pub-id pub-id-type="pmid">15959507</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="bies201500124-cit-0070">
+<string-name>
+<surname>Muotri</surname>
+<given-names>AR</given-names>
+</string-name>, 
+<string-name>
+<surname>Marchetto</surname>
+<given-names>MCN</given-names>
+</string-name>, 
+<string-name>
+<surname>Coufal</surname>
+<given-names>NG</given-names>
+</string-name>, 
+<string-name>
+<surname>Oefner</surname>
+<given-names>R</given-names>
+</string-name>, et al. 
+<year>2010</year>
+<article-title>L1 retrotransposition in neurons is modulated by Me CP2</article-title>. 
+<source>Nature</source>
+<volume>468</volume>: <fpage>443</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">21085180</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="bies201500124-cit-0071">
+<string-name>
+<surname>O'Rourke</surname>
+<given-names>NA</given-names>
+</string-name>, 
+<string-name>
+<surname>Weiler</surname>
+<given-names>NC</given-names>
+</string-name>, 
+<string-name>
+<surname>Micheva</surname>
+<given-names>KD</given-names>
+</string-name>, 
+<string-name>
+<surname>Smith</surname>
+<given-names>SJ.</given-names>
+</string-name>
+<year>2012</year>
+<article-title>Deep molecular diversity of mammalian synapses: why it matters and how to measure it</article-title>. 
+<source>Nat Rev Neurosci</source>
+<volume>13</volume>: <fpage>365</fpage>&#x02013;<lpage>79</lpage>.
+<pub-id pub-id-type="pmid">22573027</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="bies201500124-cit-0072">
+<string-name>
+<surname>Rand</surname>
+<given-names>U</given-names>
+</string-name>, 
+<string-name>
+<surname>Rinas</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Schwerk</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Nohren</surname>
+<given-names>G</given-names>
+</string-name>, et al. 
+<year>2012</year>
+<article-title>Multi&#x02010;layered stochasticity and paracrine signal propagation shape the type&#x02010;I interferon response</article-title>. 
+<source>Mol Syst Biol</source>
+<volume>8</volume>: <fpage>584</fpage>.
+<pub-id pub-id-type="pmid">22617958</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="bies201500124-cit-0073">
+<string-name>
+<surname>Patil</surname>
+<given-names>S</given-names>
+</string-name>, 
+<string-name>
+<surname>Fribourg</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Ge</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Batish</surname>
+<given-names>M</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Single&#x02010;cell analysis shows that paracrine signaling by first responder cells shapes the interferon&#x02010;beta response to viral infection</article-title>. 
+<source>Sci Signal</source>
+<volume>8</volume>: <fpage>ra6</fpage>.
+<pub-id pub-id-type="pmid">25605972</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="bies201500124-cit-0074">
+<string-name>
+<surname>Shalek</surname>
+<given-names>AK</given-names>
+</string-name>, 
+<string-name>
+<surname>Satija</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Shuga</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Trombetta</surname>
+<given-names>JJ</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Single&#x02010;cell RNA&#x02010;seq reveals dynamic paracrine control of cellular variation</article-title>. 
+<source>Nature</source>
+<volume>510</volume>: <fpage>363</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">24919153</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="bies201500124-cit-0075">
+<string-name>
+<surname>Xue</surname>
+<given-names>Q</given-names>
+</string-name>, 
+<string-name>
+<surname>Lu</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Eisele</surname>
+<given-names>MR</given-names>
+</string-name>, 
+<string-name>
+<surname>Sulistijo</surname>
+<given-names>ES</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Analysis of single&#x02010;cell cytokine secretion reveals a role for paracrine signaling in coordinating macrophage responses to TLR4 stimulation</article-title>. 
+<source>Sci Signal</source>
+<volume>8</volume>: <fpage>ra59</fpage>.
+<pub-id pub-id-type="pmid">26082435</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="bies201500124-cit-0076">
+<string-name>
+<surname>Fang</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Xie</surname>
+<given-names>H</given-names>
+</string-name>, 
+<string-name>
+<surname>Dougan</surname>
+<given-names>SK</given-names>
+</string-name>, 
+<string-name>
+<surname>Ploegh</surname>
+<given-names>H</given-names>
+</string-name>, et al. 
+<year>2013</year>
+<article-title>Stochastic cytokine expression induces mixed T helper cell states</article-title>. 
+<source>PLoS Biol</source>
+<volume>11</volume>: <fpage>e1001618</fpage>.
+<pub-id pub-id-type="pmid">23935453</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="bies201500124-cit-0077">
+<string-name>
+<surname>Bajikar</surname>
+<given-names>SS</given-names>
+</string-name>, 
+<string-name>
+<surname>Fuchs</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Roller</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Theis</surname>
+<given-names>FJ</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Parameterizing cell&#x02010;to&#x02010;cell regulatory heterogeneities via stochastic transcriptional profiles</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>111</volume>: <fpage>E626</fpage>&#x02013;<lpage>35</lpage>.
+<pub-id pub-id-type="pmid">24449900</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0078"><label>78</label><mixed-citation publication-type="book" id="bies201500124-cit-0078">
+<string-name>
+<surname>Kimura</surname>
+<given-names>M.</given-names>
+</string-name>
+<year>1983</year>
+<source>The Neutral Theory of Molecular Evolution</source>. 
+<publisher-loc>Cambridge, UK</publisher-loc>: 
+<publisher-name>Cambridge University Press</publisher-name>.
+</mixed-citation></ref><ref id="bies201500124-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="bies201500124-cit-0079">
+<string-name>
+<surname>Grun</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Kester</surname>
+<given-names>L</given-names>
+</string-name>, 
+<string-name>
+<surname>van Oudenaarden</surname>
+<given-names>A.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>Validation of noise models for single&#x02010;cell transcriptomics</article-title>. 
+<source>Nat Methods</source>
+<volume>11</volume>: <fpage>637</fpage>&#x02013;<lpage>40</lpage>.
+<pub-id pub-id-type="pmid">24747814</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="bies201500124-cit-0080">
+<string-name>
+<surname>Morris</surname>
+<given-names>KV</given-names>
+</string-name>, 
+<string-name>
+<surname>Mattick</surname>
+<given-names>JS.</given-names>
+</string-name>
+<year>2014</year>
+<article-title>The rise of regulatory RNA</article-title>. 
+<source>Nat Rev Genet</source>
+<volume>15</volume>: <fpage>423</fpage>&#x02013;<lpage>37</lpage>.
+<pub-id pub-id-type="pmid">24776770</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="bies201500124-cit-0081">
+<string-name>
+<surname>Panning</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Segal</surname>
+<given-names>E.</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Editorial overview: Genome architecture and expression</article-title>. 
+<source>Curr Opin Genet Dev</source>
+<volume>31</volume>: <fpage>5</fpage>&#x02013;<lpage>6</lpage>.
+</mixed-citation></ref><ref id="bies201500124-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="bies201500124-cit-0082">
+<string-name>
+<surname>Sharon</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name>
+<surname>van Dijk</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Kalma</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Keren</surname>
+<given-names>L</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Probing the effect of promoters on noise in gene expression using thousands of designed sequences</article-title>. 
+<source>Genome Res</source>
+<volume>24</volume>: <fpage>1698</fpage>&#x02013;<lpage>706</lpage>.
+<pub-id pub-id-type="pmid">25030889</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0083"><label>83</label><mixed-citation publication-type="journal" id="bies201500124-cit-0083">
+<string-name>
+<surname>Stearns</surname>
+<given-names>SC.</given-names>
+</string-name>
+<year>2002</year>
+<article-title>Progress on canalization</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>99</volume>: <fpage>10229</fpage>&#x02013;<lpage>30</lpage>.
+<pub-id pub-id-type="pmid">12149521</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0084"><label>84</label><mixed-citation publication-type="journal" id="bies201500124-cit-0084">
+<string-name>
+<surname>Lagha</surname>
+<given-names>M</given-names>
+</string-name>, 
+<string-name>
+<surname>Bothma</surname>
+<given-names>JP</given-names>
+</string-name>, 
+<string-name>
+<surname>Esposito</surname>
+<given-names>E</given-names>
+</string-name>, 
+<string-name>
+<surname>Ng</surname>
+<given-names>S</given-names>
+</string-name>, et al. 
+<year>2013</year>
+<article-title>Paused Pol II coordinates tissue morphogenesis in the Drosophila embryo</article-title>. 
+<source>Cell</source>
+<volume>153</volume>: <fpage>976</fpage>&#x02013;<lpage>87</lpage>.
+<pub-id pub-id-type="pmid">23706736</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0085"><label>85</label><mixed-citation publication-type="journal" id="bies201500124-cit-0085">
+<string-name>
+<surname>Benayoun</surname>
+<given-names>BA</given-names>
+</string-name>, 
+<string-name>
+<surname>Pollina</surname>
+<given-names>EA</given-names>
+</string-name>, 
+<string-name>
+<surname>Ucar</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Mahmoudi</surname>
+<given-names>S</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>H3K4me3 breadth is linked to cell identity and transcriptional consistency</article-title>. 
+<source>Cell</source>
+<volume>158</volume>: <fpage>673</fpage>&#x02013;<lpage>88</lpage>.
+<pub-id pub-id-type="pmid">25083876</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0086"><label>86</label><mixed-citation publication-type="journal" id="bies201500124-cit-0086">
+<string-name>
+<surname>Dey</surname>
+<given-names>SS</given-names>
+</string-name>, 
+<string-name>
+<surname>Foley</surname>
+<given-names>JE</given-names>
+</string-name>, 
+<string-name>
+<surname>Limsirichai</surname>
+<given-names>P</given-names>
+</string-name>, 
+<string-name>
+<surname>Schaffer</surname>
+<given-names>DV</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Orthogonal control of expression mean and variance by epigenetic features at different genomic loci</article-title>. 
+<source>Mol Syst Biol</source>
+<volume>11</volume>: <fpage>806</fpage>.
+<pub-id pub-id-type="pmid">25943345</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0087"><label>87</label><mixed-citation publication-type="journal" id="bies201500124-cit-0087">
+<string-name>
+<surname>Dar</surname>
+<given-names>RD</given-names>
+</string-name>, 
+<string-name>
+<surname>Hosmane</surname>
+<given-names>NN</given-names>
+</string-name>, 
+<string-name>
+<surname>Arkin</surname>
+<given-names>MR</given-names>
+</string-name>, 
+<string-name>
+<surname>Siliciano</surname>
+<given-names>RF</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Screening for noise in gene expression identifies drug synergies</article-title>. 
+<source>Science</source>
+<volume>344</volume>: <fpage>1392</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">24903562</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0088"><label>88</label><mixed-citation publication-type="journal" id="bies201500124-cit-0088">
+<string-name>
+<surname>Senecal</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Munsky</surname>
+<given-names>B</given-names>
+</string-name>, 
+<string-name>
+<surname>Proux</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Ly</surname>
+<given-names>N</given-names>
+</string-name>, et al. 
+<year>2014</year>
+<article-title>Transcription factors modulate c&#x02010;Fos transcriptional bursts</article-title>. 
+<source>Cell Rep</source>
+<volume>8</volume>: <fpage>75</fpage>&#x02013;<lpage>83</lpage>.
+<pub-id pub-id-type="pmid">24981864</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0089"><label>89</label><mixed-citation publication-type="journal" id="bies201500124-cit-0089">
+<string-name>
+<surname>Vinuelas</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Kaneko</surname>
+<given-names>G</given-names>
+</string-name>, 
+<string-name>
+<surname>Coulon</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Vallin</surname>
+<given-names>E</given-names>
+</string-name>, et al. 
+<year>2013</year>
+<article-title>Quantifying the contribution of chromatin dynamics to stochastic gene expression reveals long, locus&#x02010;dependent periods between transcriptional bursts</article-title>. 
+<source>BMC Biol</source>
+<volume>11</volume>: <fpage>15</fpage>.
+<pub-id pub-id-type="pmid">23442824</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0090"><label>90</label><mixed-citation publication-type="journal" id="bies201500124-cit-0090">
+<string-name>
+<surname>Kim</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Eberwine</surname>
+<given-names>J.</given-names>
+</string-name>
+<year>2010</year>
+<article-title>RNA: state memory and mediator of cellular phenotype</article-title>. 
+<source>Trends Cell Biol</source>
+<volume>20</volume>: <fpage>311</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">20382532</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0091"><label>91</label><mixed-citation publication-type="journal" id="bies201500124-cit-0091">
+<string-name>
+<surname>Lin</surname>
+<given-names>X</given-names>
+</string-name>, 
+<string-name>
+<surname>Ruan</surname>
+<given-names>X</given-names>
+</string-name>, 
+<string-name>
+<surname>Anderson</surname>
+<given-names>MG</given-names>
+</string-name>, 
+<string-name>
+<surname>McDowell</surname>
+<given-names>JA</given-names>
+</string-name>, et al. 
+<year>2005</year>
+<article-title>siRNA&#x02010;mediated off&#x02010;target gene silencing triggered by a 7 nt complementation</article-title>. 
+<source>Nucleic Acids Res</source>
+<volume>33</volume>: <fpage>4527</fpage>&#x02013;<lpage>35</lpage>.
+<pub-id pub-id-type="pmid">16091630</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0092"><label>92</label><mixed-citation publication-type="journal" id="bies201500124-cit-0092">
+<string-name>
+<surname>Persengiev</surname>
+<given-names>SP</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhu</surname>
+<given-names>X</given-names>
+</string-name>, 
+<string-name>
+<surname>Green</surname>
+<given-names>MR.</given-names>
+</string-name>
+<year>2004</year>
+<article-title>Nonspecific, concentration&#x02010;dependent stimulation and repression of mammalian gene expression by small interfering RNAs (siRNAs)</article-title>. 
+<source>RNA</source>
+<volume>10</volume>: <fpage>12</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">14681580</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0093"><label>93</label><mixed-citation publication-type="journal" id="bies201500124-cit-0093">
+<string-name>
+<surname>Scacheri</surname>
+<given-names>PC</given-names>
+</string-name>, 
+<string-name>
+<surname>Rozenblatt&#x02010;Rosen</surname>
+<given-names>O</given-names>
+</string-name>, 
+<string-name>
+<surname>Caplen</surname>
+<given-names>NJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Wolfsberg</surname>
+<given-names>TG</given-names>
+</string-name>, et al. 
+<year>2004</year>
+<article-title>Short interfering RNAs can induce unexpected and divergent changes in the levels of untargeted proteins in mammalian cells</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>101</volume>: <fpage>1892</fpage>&#x02013;<lpage>7</lpage>.
+<pub-id pub-id-type="pmid">14769924</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0094"><label>94</label><mixed-citation publication-type="journal" id="bies201500124-cit-0094">
+<string-name>
+<surname>Jackson</surname>
+<given-names>AL</given-names>
+</string-name>, 
+<string-name>
+<surname>Bartz</surname>
+<given-names>SR</given-names>
+</string-name>, 
+<string-name>
+<surname>Schelter</surname>
+<given-names>J</given-names>
+</string-name>, 
+<string-name>
+<surname>Kobayashi</surname>
+<given-names>SV</given-names>
+</string-name>, et al. 
+<year>2003</year>
+<article-title>Expression profiling reveals off&#x02010;target gene regulation by RNAi</article-title>. 
+<source>Nat Biotechnol</source>
+<volume>21</volume>: <fpage>635</fpage>&#x02013;<lpage>7</lpage>.
+<pub-id pub-id-type="pmid">12754523</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0095"><label>95</label><mixed-citation publication-type="journal" id="bies201500124-cit-0095">
+<string-name>
+<surname>Weidenfeld</surname>
+<given-names>I</given-names>
+</string-name>. 
+<year>2012</year>
+<article-title>Inducible microRNA&#x02010;mediated knockdown of the endogenous human lamin A/C gene</article-title>. 
+<source>Methods Mol Biol</source>
+<volume>815</volume>: <fpage>289</fpage>&#x02013;<lpage>305</lpage>.
+<pub-id pub-id-type="pmid">22131000</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0096"><label>96</label><mixed-citation publication-type="journal" id="bies201500124-cit-0096">
+<string-name>
+<surname>Sul</surname>
+<given-names>J&#x02010;Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>C&#x02010;w.K</given-names>
+</string-name>, 
+<string-name>
+<surname>Zeng</surname>
+<given-names>F</given-names>
+</string-name>, 
+<string-name>
+<surname>Jochems</surname>
+<given-names>J</given-names>
+</string-name>, et al. 
+<year>2009</year>
+<article-title>Transcriptome transfer produces a predictable cellular phenotype</article-title>. 
+<source>Proc Natl Acad Sci USA</source>
+<volume>106</volume>: <fpage>7624</fpage>&#x02013;<lpage>9</lpage>.
+<pub-id pub-id-type="pmid">19380745</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0097"><label>97</label><mixed-citation publication-type="journal" id="bies201500124-cit-0097">
+<string-name>
+<surname>Tenen</surname>
+<given-names>DG</given-names>
+</string-name>, 
+<string-name>
+<surname>Hromas</surname>
+<given-names>R</given-names>
+</string-name>, 
+<string-name>
+<surname>Licht</surname>
+<given-names>JD</given-names>
+</string-name>, 
+<string-name>
+<surname>Zhang</surname>
+<given-names>DE.</given-names>
+</string-name>
+<year>1997</year>
+<article-title>Transcription factors, normal myeloid development, and leukemia</article-title>. 
+<source>Blood</source>
+<volume>90</volume>: <fpage>489</fpage>&#x02013;<lpage>519</lpage>.
+<pub-id pub-id-type="pmid">9226149</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0098"><label>98</label><mixed-citation publication-type="journal" id="bies201500124-cit-0098">
+<string-name>
+<surname>Schulze</surname>
+<given-names>W</given-names>
+</string-name>, 
+<string-name>
+<surname>Hayata&#x02010;Takano</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Kamo</surname>
+<given-names>T</given-names>
+</string-name>, 
+<string-name>
+<surname>Nakazawa</surname>
+<given-names>T</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Simultaneous neuron&#x02010; and astrocyte&#x02010;specific fluorescent marking</article-title>. 
+<source>Biochem Biophys Res Commun</source>
+<volume>459</volume>: <fpage>81</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">25721661</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0099"><label>99</label><mixed-citation publication-type="journal" id="bies201500124-cit-0099">
+<string-name>
+<surname>Liu</surname>
+<given-names>G</given-names>
+</string-name>, 
+<string-name>
+<surname>Sprenger</surname>
+<given-names>C</given-names>
+</string-name>, 
+<string-name>
+<surname>Wu</surname>
+<given-names>P&#x02010;J.</given-names>
+</string-name>, 
+<string-name>
+<surname>Sun</surname>
+<given-names>S</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>MED1 mediates androgen receptor splice variant induced gene expression in the absence of ligand</article-title>. 
+<source>Oncotarget</source>
+<volume>6</volume>: <fpage>288</fpage>&#x02013;<lpage>304</lpage>.
+<pub-id pub-id-type="pmid">25481872</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0100"><label>100</label><mixed-citation publication-type="journal" id="bies201500124-cit-0100">
+<string-name>
+<surname>Ambros</surname>
+<given-names>V.</given-names>
+</string-name>
+<year>2003</year>
+<article-title>MicroRNA pathways in flies and worms: growth, death, fat, stress, and timing</article-title>. 
+<source>Cell</source>
+<volume>113</volume>: <fpage>673</fpage>&#x02013;<lpage>6</lpage>.
+<pub-id pub-id-type="pmid">12809598</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0101"><label>101</label><mixed-citation publication-type="journal" id="bies201500124-cit-0101">
+<string-name>
+<surname>Buhagiar</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Ayers</surname>
+<given-names>D.</given-names>
+</string-name>
+<year>2015</year>
+<article-title>Chemoresistance, cancer stem cells, and miRNA influences: the case for neuroblastoma</article-title>. 
+<source>Anal Cell Pathol Amst</source>
+<volume>2015</volume>: <fpage>150634</fpage>.
+<pub-id pub-id-type="pmid">26258008</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0102"><label>102</label><mixed-citation publication-type="journal" id="bies201500124-cit-0102">
+<string-name>
+<surname>Schmiedel</surname>
+<given-names>JM</given-names>
+</string-name>, 
+<string-name>
+<surname>Klemm</surname>
+<given-names>SL</given-names>
+</string-name>, 
+<string-name>
+<surname>Zheng</surname>
+<given-names>Y</given-names>
+</string-name>, 
+<string-name>
+<surname>Sahay</surname>
+<given-names>A</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Gene expression. MicroRNA control of protein expression noise</article-title>. 
+<source>Science</source>
+<volume>348</volume>: <fpage>128</fpage>&#x02013;<lpage>32</lpage>.
+<pub-id pub-id-type="pmid">25838385</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0103"><label>103</label><mixed-citation publication-type="journal" id="bies201500124-cit-0103">
+<string-name>
+<surname>Todhunter</surname>
+<given-names>ME</given-names>
+</string-name>, 
+<string-name>
+<surname>Jee</surname>
+<given-names>NY</given-names>
+</string-name>, 
+<string-name>
+<surname>Hughes</surname>
+<given-names>AJ</given-names>
+</string-name>, 
+<string-name>
+<surname>Coyle</surname>
+<given-names>MC</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Programmed synthesis of three&#x02010;dimensional tissues</article-title>. 
+<source>Nat Methods</source>
+<volume>12</volume>: <fpage>975</fpage>&#x02013;<lpage>81</lpage>.
+<pub-id pub-id-type="pmid">26322836</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0104"><label>104</label><mixed-citation publication-type="journal" id="bies201500124-cit-0104">
+<string-name>
+<surname>Liu</surname>
+<given-names>JS</given-names>
+</string-name>, 
+<string-name>
+<surname>Farlow</surname>
+<given-names>JT</given-names>
+</string-name>, 
+<string-name>
+<surname>Paulson</surname>
+<given-names>AK</given-names>
+</string-name>, 
+<string-name>
+<surname>Labarge</surname>
+<given-names>MA</given-names>
+</string-name>, et al. 
+<year>2012</year>
+<article-title>Programmed cell&#x02010;to&#x02010;cell variability in Ras activity triggers emergent behaviors during mammary epithelial morphogenesis</article-title>. 
+<source>Cell Rep</source>
+<volume>2</volume>: <fpage>1461</fpage>&#x02013;<lpage>70</lpage>.
+<pub-id pub-id-type="pmid">23041312</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0105"><label>105</label><mixed-citation publication-type="journal" id="bies201500124-cit-0105">
+<string-name>
+<surname>Grun</surname>
+<given-names>D</given-names>
+</string-name>, 
+<string-name>
+<surname>Lyubimova</surname>
+<given-names>A</given-names>
+</string-name>, 
+<string-name>
+<surname>Kester</surname>
+<given-names>L</given-names>
+</string-name>, 
+<string-name>
+<surname>Wiebrands</surname>
+<given-names>K</given-names>
+</string-name>, et al. 
+<year>2015</year>
+<article-title>Single&#x02010;cell messenger RNA sequencing reveals rare intestinal cell types</article-title>. 
+<source>Nature</source>
+<volume>525</volume>: <fpage>251</fpage>&#x02013;<lpage>5</lpage>.
+<pub-id pub-id-type="pmid">26287467</pub-id></mixed-citation></ref><ref id="bies201500124-bib-0106"><label>106</label><mixed-citation publication-type="book" id="bies201500124-cit-0106">
+<string-name>
+<surname>Mayr</surname>
+<given-names>E.</given-names>
+</string-name>
+<year>1942</year>
+<source>Systematics and the Origin of Species, from the Viewpoint of a Zoologist</source>. 
+<publisher-loc>Cambridge, MA</publisher-loc>: 
+<publisher-name>Harvard University Press</publisher-name>.
+</mixed-citation></ref><ref id="bies201500124-bib-0107"><label>107</label><mixed-citation publication-type="journal" id="bies201500124-cit-0107">
+<string-name>
+<surname>Paldi</surname>
+<given-names>A.</given-names>
+</string-name>
+<year>2003</year>
+<article-title>Stochastic gene expression during cell differentiation: order from disorder</article-title>? 
+<source>Cell Mol Life Sci</source>
+<volume>60</volume>: <fpage>1775</fpage>&#x02013;<lpage>8</lpage>.
+<pub-id pub-id-type="pmid">14523542</pub-id></mixed-citation></ref></ref-list></back></article>

@@ -1,0 +1,791 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20031101//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id><journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id><journal-id journal-id-type="publisher-id">plos</journal-id><journal-id journal-id-type="pmc">plosgen</journal-id><journal-title-group><journal-title>PLoS Genetics</journal-title></journal-title-group><issn pub-type="ppub">1553-7390</issn><issn pub-type="epub">1553-7404</issn><publisher><publisher-name>Public Library of Science</publisher-name><publisher-loc>San Francisco, USA</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3107198</article-id><article-id pub-id-type="pmid">21655081</article-id><article-id pub-id-type="publisher-id">PGENETICS-D-11-00164</article-id><article-id pub-id-type="doi">10.1371/journal.pgen.1002090</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group><subj-group subj-group-type="Discipline-v2"><subject>Biology</subject><subj-group><subject>Developmental Biology</subject><subj-group><subject>Stem Cells</subject><subj-group><subject>Embryonic Stem Cells</subject></subj-group></subj-group><subj-group><subject>Cell Differentiation</subject><subject>Cell Fate Determination</subject></subj-group></subj-group><subj-group><subject>Genetics</subject><subj-group><subject>Epigenetics</subject><subj-group><subject>Histone Modification</subject><subject>Chromatin</subject></subj-group></subj-group><subj-group><subject>Gene expression</subject><subj-group><subject>DNA transcription</subject><subject>Histone modification</subject><subject>Chromatin</subject></subj-group></subj-group></subj-group></subj-group></article-categories><title-group><article-title>Genomic Prevalence of Heterochromatic H3K9me2 and Transcription Do
+Not Discriminate Pluripotent from Terminally Differentiated
+Cells</article-title><alt-title alt-title-type="running-head">H3K9me2 and Transcription during
+Differentiation</alt-title></title-group><contrib-group><contrib contrib-type="author" equal-contrib="yes"><name><surname>Lienert</surname><given-names>Florian</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author" equal-contrib="yes"><name><surname>Mohn</surname><given-names>Fabio</given-names></name><xref ref-type="aff" rid="aff1"/><xref ref-type="author-notes" rid="fn1">
+<sup>&#x000a4;</sup>
+</xref></contrib><contrib contrib-type="author"><name><surname>Tiwari</surname><given-names>Vijay K.</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Baubec</surname><given-names>Tuncay</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Roloff</surname><given-names>Tim C.</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Gaidatzis</surname><given-names>Dimos</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Stadler</surname><given-names>Michael B.</given-names></name><xref ref-type="aff" rid="aff1"/></contrib><contrib contrib-type="author"><name><surname>Sch&#x000fc;beler</surname><given-names>Dirk</given-names></name><xref ref-type="aff" rid="aff1"/><xref ref-type="corresp" rid="cor1">
+<sup>&#x0002a;</sup>
+</xref></contrib></contrib-group><aff id="aff1"><addr-line>Friedrich Miescher Institute for Biomedical Research, Basel,
+Switzerland</addr-line></aff><contrib-group><contrib contrib-type="editor"><name><surname>Reik</surname><given-names>Wolf</given-names></name><role>Editor</role><xref ref-type="aff" rid="edit1"/></contrib></contrib-group><aff id="edit1">The Babraham Institute, United Kingdom</aff><author-notes><corresp id="cor1">&#x0002a; E-mail: <email>dirk@fmi.ch</email></corresp><fn id="fn1" fn-type="current-aff"><p><bold>&#x000a4;:</bold> Current address: Institute of Molecular Biotechnology, Vienna, Austria</p></fn><fn fn-type="con"><p>Conceived and designed the experiments: FL FM DS. Performed the experiments:
+FL FM VKT. Analyzed the data: FL FM TB DS. Wrote the paper: FL FM DS.
+Designed the microarray: TCR. Designed tools to store and analyze deep
+sequencing data and contributed to data analysis and writing of the
+manuscript: MBS DG.</p></fn></author-notes><pub-date pub-type="collection"><month>6</month><year>2011</year></pub-date><pub-date pub-type="epub"><day>2</day><month>6</month><year>2011</year></pub-date><volume>7</volume><issue>6</issue><elocation-id>e1002090</elocation-id><history><date date-type="received"><day>21</day><month>1</month><year>2011</year></date><date date-type="accepted"><day>17</day><month>3</month><year>2011</year></date></history><permissions><copyright-statement>Lienert et al.</copyright-statement><copyright-year>2011</copyright-year><license xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p></license></permissions><related-article id="d36e209" related-article-type="companion" ext-link-type="doi" xlink:href="10.1371/journal.pgen.1002093">
+<article-title>Revisiting Heterochromatin in Embryonic Stem Cells</article-title>
+</related-article><abstract><p>Cellular differentiation entails reprogramming of the transcriptome from a
+pluripotent to a unipotent fate. This process was suggested to coincide with a
+global increase of repressive heterochromatin, which results in a reduction of
+transcriptional plasticity and potential. Here we report the dynamics of the
+transcriptome and an abundant heterochromatic histone modification,
+dimethylation of histone H3 at lysine 9 (H3K9me2), during neuronal
+differentiation of embryonic stem cells. In contrast to the prevailing model, we
+find H3K9me2 to occupy over 50&#x00025; of chromosomal regions already in stem
+cells. Marked are most genomic regions that are devoid of transcription and a
+subgroup of histone modifications. Importantly, no global increase occurs during
+differentiation, but discrete local changes of H3K9me2 particularly at genic
+regions can be detected. Mirroring the cell fate change, many genes show altered
+expression upon differentiation. Quantitative sequencing of transcripts
+demonstrates however that the total number of active genes is equal between stem
+cells and several tested differentiated cell types. Together, these findings
+reveal high prevalence of a heterochromatic mark in stem cells and challenge the
+model of low abundance of epigenetic repression and resulting global basal level
+transcription in stem cells. This suggests that cellular differentiation entails
+local rather than global changes in epigenetic repression and transcriptional
+activity.</p></abstract><abstract abstract-type="summary"><title>Author Summary</title><p>Epigenetic modifications of DNA and bound histones are major determinants of cell
+type&#x02013;specific gene expression patterns. A prevalent model in stem cell
+biology suggests that the loss of pluripotency entails global increase in
+heterochromatin and coinciding shutdown of lineage unrelated genes. We performed
+analysis of both H3K9 dimethylation pattern and the global transcriptome in an
+advanced murine neuronal differentiation model. In this paradigm, we do not find
+evidence for a global increase in heterochromatic H3K9 dimethylation or
+reduction of transcriptome complexity as stem cells become terminally
+differentiated post-mitotic neurons. This suggests that pluripotent embryonic
+stem cells are not <italic>per se</italic> unique in regards to heterochromatin
+abundance and transcriptional plasticity as compared to somatic cells. Instead,
+focal changes in chromatin might help to stabilize cellular states at any
+developmental stage.</p></abstract><counts><page-count count="9"/></counts></article-meta></front><body><sec id="s1"><title>Introduction</title><p>Resetting of the transcriptional program is the key driver for cell type
+specification during organismal development <xref rid="pgen.1002090-Boyer1" ref-type="bibr">[1]</xref>, <xref rid="pgen.1002090-Egli1" ref-type="bibr">[2]</xref>. While embryonic stem (ES) cells
+bear the fascinating ability to acquire very diverse fates, derived somatic stages
+are usually irreversible under physiological conditions. This unidirectionality has
+been suggested to depend in part on epigenetic repression of lineage unrelated genes
+<xref rid="pgen.1002090-Reik1" ref-type="bibr">[3]</xref>, <xref rid="pgen.1002090-Bernstein1" ref-type="bibr">[4]</xref>. Accordingly,
+ES cell plasticity was suggested to rely on a low prevalence of heterochromatin and
+coinciding promiscuous low-level expression of many genes in stem cells <xref rid="pgen.1002090-Niwa1" ref-type="bibr">[5]</xref>&#x02013;<xref rid="pgen.1002090-GasparMaia2" ref-type="bibr">[11]</xref>. In line
+with this model, distinct changes in nuclear staining had previously been observed
+by electron microscopy during cellular differentiation <xref rid="pgen.1002090-Francastel1" ref-type="bibr">[12]</xref>, <xref rid="pgen.1002090-Ahmed1" ref-type="bibr">[13]</xref>. Further, a subset of promoters
+was shown to become DNA methylated <xref rid="pgen.1002090-Mohn1" ref-type="bibr">[14]</xref>&#x02013;<xref rid="pgen.1002090-Farthing1" ref-type="bibr">[16]</xref> and the repressive histone modifications H3K27me3 and
+H3K9me3 were reported to locally expand in differentiated cells <xref rid="pgen.1002090-Hawkins1" ref-type="bibr">[9]</xref>.</p><p>Here, we set out to test the model of widespread heterochromatinization via
+monitoring of the differentiation-coupled dynamics of H3K9me2, a repressive
+epigenetic modification, which appears to be the most abundant heterochromatic
+modification and has recently been reported to cover large domains in differentiated
+cells <xref rid="pgen.1002090-Wen1" ref-type="bibr">[17]</xref>.
+Unexpectedly, we found that H3K9me2 is not only highly abundant in terminally
+differentiated cells, but already occupies large parts of the genome in pluripotent
+stem cells. In this cellular state, H3K9me2 occupies most genomic regions devoid of
+transcription and certain histone modifications. While our analysis revealed
+discrete local changes particularly at gene bodies, we observed little global
+increase in H3K9me2 during differentiation. This unexpected finding motivated us to
+revisit the model of promiscuous low-level gene expression in undifferentiated cells
+by quantitative RNA sequencing. Remarkably, we found the actual number of low-level
+expressed genes, postulated hallmarks of stem cells to be equal between both
+developmental states. Together, our findings challenge the model of promiscuous
+basal gene expression as a distinct property of pluripotency and a widespread
+increase of heterochromatin during cellular differentiation.</p></sec><sec id="s2"><title>Results</title><sec id="s2a"><title>H3K9me2 is nearly invariant and only displays distinct local changes between
+developmental stages</title><p>To asses differentiation associated dynamics of the repressive histone
+modification H3K9me2 we made use of a highly pure and robust murine <italic>in
+vitro</italic> neurogenesis model <xref rid="pgen.1002090-Bibel1" ref-type="bibr">[18]</xref>, which we previously used to
+profile histone and DNA methylation <xref rid="pgen.1002090-Mohn1" ref-type="bibr">[14]</xref>. Here, we generated profiles
+for H3K9me2 in pluripotent embryonic stem cells and derived terminally
+differentiated pyramidal neurons. We made use of custom tiling arrays covering
+10&#x00025; of the mouse genome including all well-annotated promoters, several
+large multi-gene loci and the complete chromosome 19 (see <xref ref-type="supplementary-material" rid="pgen.1002090.s001">Figure S1</xref>
+and <xref ref-type="supplementary-material" rid="pgen.1002090.s013">Text
+S1</xref>). The chromosomal profiles for H3K9me2 revealed domains of
+enrichments that upon visual inspection were highly comparable between stem
+cells and the neuronal state (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1A</xref>), which is further supported by a high overall pair-wise
+correlation (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1B</xref>).
+Despite this overall similarity we noticed confined regional differences (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1A</xref>), a finding which is
+consistent with the fact that biological replicates of H3K9me2 are more similar
+than the patterns between cell states (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1B</xref>). We also included in our
+comparison a recently published dataset for H3K9me2 in a distinct ES cell line
+<xref rid="pgen.1002090-Wen1" ref-type="bibr">[17]</xref>, which
+shows high correlation to our ES cell datasets despite different experimental
+conditions (<xref ref-type="supplementary-material" rid="pgen.1002090.s002">Figure S2</xref>). Of note, analysis of the H3K9me2 dataset from Wen et al.
+<xref rid="pgen.1002090-Wen1" ref-type="bibr">[17]</xref> revealed
+that chromosome 19 behaves similar to the other chromosomes (<xref ref-type="supplementary-material" rid="pgen.1002090.s003">Figure S3</xref>),
+suggesting that our results can be extrapolated to the entire genome. Together
+this demonstrates that our H3K9me2 data are reproducible and of high resolution,
+yet overall patterns appear to be highly similar between a pluripotent and a
+terminally differentiated state. Visual inspection suggests that H3K9me2 covers
+large domains in both ES cells and neurons (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1A</xref>). To quantitatively define the
+actual location and sizes of domains we applied a Hidden-Markov-Model (HMM)
+analysis to the microarray data. This unsupervised statistical method is a
+widely accepted approach for unbiased data segmentation in epigenome analysis
+<xref rid="pgen.1002090-Birney1" ref-type="bibr">[19]</xref>,
+<xref rid="pgen.1002090-Koch1" ref-type="bibr">[20]</xref>. The
+HMM analysis not only agreed with and statistically corroborated the visual
+impression of the raw data, but also yielded robust results under variable
+settings (<xref ref-type="supplementary-material" rid="pgen.1002090.s004">Figure
+S4</xref>). It revealed that over 50&#x00025; of chromosome 19 is covered by
+H3K9me2 in ES cells (<xref ref-type="fig" rid="pgen-1002090-g001">Figure
+1C</xref>). Using the same approach for the H3K9me2 data in the ES
+cell-derived terminally differentiated neurons, we detected a modest yet
+reproducible 5&#x00025; increase of genomic regions covered by H3K9me2 (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1C</xref>). We conclude that
+global coverage and size of H3K9me2 domains is nearly identical between ES cells
+and derived post-mitotic pyramidal neurons. In line with this finding we do not
+detect a significant change in global H3K9me2 levels by Western blot detection
+(<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1D</xref>). Moreover,
+H3K9me2 domain features of ES cells and neurons show similar size distribution
+and median length (<xref ref-type="supplementary-material" rid="pgen.1002090.s004">Figure S4</xref>). Further analysis revealed that
+changes in H3K9me2 between the two examined cellular states are rare; 88&#x00025;
+of H3K9me2 occupied regions in ES cells are also occupied in neurons (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1F</xref>). Notably, regions
+that change in H3K9me2 state tend to be small and are below the average size of
+invariant domains (<xref ref-type="supplementary-material" rid="pgen.1002090.s005">Figure S5</xref>). Consistent with the overall
+increase of 5&#x00025; in H3K9me2 coverage during differentiation, regions which
+gain H3K9me2 are more frequent and of larger size than regions showing a loss of
+the mark (<xref ref-type="supplementary-material" rid="pgen.1002090.s005">Figure
+S5</xref> and <xref ref-type="supplementary-material" rid="pgen.1002090.s006">Figure S6</xref>). Interestingly, most of the larger
+regions (&#x0003e;10 kb) that gain H3K9me2 are located within genes, starting
+downstream of the promoter region (<xref ref-type="fig" rid="pgen-1002090-g002">Figure 2A</xref> and <xref ref-type="supplementary-material" rid="pgen.1002090.s005">Figure S5</xref>). These global findings are fully
+reproducible in single gene controls (<xref ref-type="fig" rid="pgen-1002090-g002">Figure 2B</xref>) and consistent with a focused
+comparison of only genic regions (<xref ref-type="fig" rid="pgen-1002090-g002">Figure 2C</xref>). Importantly, this shows that our experimental and data
+analysis approach is indeed highly sensitive to detect differences if they do
+occur. Interestingly, many genes that acquire H3K9me2 show slightly reduced
+expression in many cases, while others increase expression upon gain of the
+modification (<xref ref-type="fig" rid="pgen-1002090-g002">Figure 2D</xref> and
+<xref ref-type="supplementary-material" rid="pgen.1002090.s005">Figure
+S5</xref>). This suggests that the gain of H3K9me2, while highly selective
+for gene bodies, cannot simply be explained by the silencing of gene
+activity.</p><fig id="pgen-1002090-g001" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1002090.g001</object-id><label>Figure 1</label><caption><title>H3K9me2 covers large domains in pluripotent stem cells and derived
+neurons and is largely invariant between both states.</title><p>(A) H3K9me2 localization in ES cells and neurons at a representative
+chromosomal region. Bars above each track indicate H3K9me2 domains
+determined by HMM. The red boxes highlight two regions that lose and
+gain H3K9me2, respectively. (B) Pair-wise correlation of H3K9me2 signal
+among different samples and experiments. Biological replicates are
+indicated as 1 and 2. Pearson correlations of IP/Input ratios were
+calculated for 500 bp windows on chromosome 19 (white/yellow corresponds
+to higher correlations). (C) Quantification of genomic coverage of
+H3K9me2 in ES cells and neurons applying a two-state HMM (i.e.
+&#x0201c;high&#x0201d; or &#x0201c;low&#x0201d;). Shown is the percentage of
+chromosome 19 that is in an H3K9me2 &#x0201c;high&#x0201d; state (i.e.
+enriched for H3K9me2) in both biological replicates. The value was
+normalized to the total coverage of the tiled region on the array. (D)
+Western blot detection of H3K9me2 levels in ES cells and neurons (TN).
+(E) Venn diagram showing the overlap of H3K9me2 enriched regions between
+ES cells and neurons (TN).</p></caption><graphic xlink:href="pgen.1002090.g001"/></fig><fig id="pgen-1002090-g002" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1002090.g002</object-id><label>Figure 2</label><caption><title>Changes in H3K9me2 during differentiation occur localized and at gene
+bodies.</title><p>(A) H3K9me2 signal at the <italic>Kif20b</italic> locus as an example of
+a locus, which gains H3K9me2 in neurons. Bars above each track indicate
+HMM-defined H3K9me2 domains. (B) Validation of microarray results by
+single gene PCRs for a set of gene bodies that gain H3K9me2. Enrichments
+were normalized to <italic>Gda</italic>. Both <italic>Gda</italic> and
+<italic>Pcsk5</italic> have equally high H3K9me2 levels in both
+cellular states in the array data. Methylation levels of
+<italic>Hprt</italic> (negative control) and <italic>Oct4</italic>
+(<italic>Pou5f1;</italic> positive control <xref rid="pgen.1002090-Feldman1" ref-type="bibr">[39]</xref>) were measured at
+the promoter. Shown are averages from 2 independent differentiation
+experiments. Error bars indicate standard deviation. (C) Comparison of
+H3K9me2 enrichments in gene bodies in ES cells and neurons. Genes, which
+gain and lose H3K9me2 significantly (adjusted P-Value &#x0003c;0.05) are
+depicted in green and orange, respectively. (D) RNAseq read counts of 10
+genes that show the most significant gain of H3K9me2. Black and white
+bars indicate RNA in ES cells (ES) and neurons (TN), respectively.</p></caption><graphic xlink:href="pgen.1002090.g002"/></fig></sec><sec id="s2b"><title>H3K9me2 and H3K27me3 are mutually exclusive</title><p>Given the high prevalence of H3K9me2, we next asked how its presence relates to a
+distinct repressive chromatin modification, namely trimethylation of H3K27
+(H3K27me3). This mark is set by the Polycomb pathway and often occurs in domains
+of several kilobases <xref rid="pgen.1002090-Hawkins1" ref-type="bibr">[9]</xref>, <xref rid="pgen.1002090-Ringrose1" ref-type="bibr">[21]</xref>, <xref rid="pgen.1002090-Schwartz1" ref-type="bibr">[22]</xref>. We find that both heterochromatic histone
+modifications occur mutually exclusive even when in direct neighborhood as
+illustrated by the sharp boundaries of the H3K9me2 signal next to H3K27me3 peaks
+(<xref ref-type="fig" rid="pgen-1002090-g003">Figure 3A, 3B and 3C</xref>).
+This is consistent with a previous study in human embryonal carcinoma cells that
+was limited to promoters <xref rid="pgen.1002090-OGeen1" ref-type="bibr">[23]</xref>.</p><fig id="pgen-1002090-g003" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1002090.g003</object-id><label>Figure 3</label><caption><title>H3K9me2 occurs mutually exclusive with expression and distinct
+chromatin marks.</title><p>(A) Enrichment for H3K27me3 and H3K9me2 in a representative region. (B)
+H3K9me2 enrichments relative to peaks of H3K27me3 illustrating the sharp
+boundaries between both marks. Plotted are the moving-window averages
+(median) of H3K9me2 enrichments with window sizes of 500 bp (blue line)
+around all H3K27me3 domains on chromosome 19 (shown in grey). (C) and
+(D) Venn diagram illustrating the actual overlap between H3K9me2 and
+H3K27me3 occupied regions (C) and between H3K9me2, H3K4me2 occupied and
+active regions (D). Numbers indicate base pair coverage on chromosome 19
+(in kb). Note that areas are not drawn to scale. (E) The higher H3K9me2,
+the less likely a genomic region is active or contains H3K27me3 or
+H3K4me2. H3K9me2 enrichment values of 500 bp windows were binned into
+groups of equal size. Plotted is the frequency for H3K9me2 enrichment
+bins to overlap with active regions (orange), H3K27me3 occupied (gray),
+H3K4me2 occupied (green) and regions in either of these states
+(black).</p></caption><graphic xlink:href="pgen.1002090.g003"/></fig></sec><sec id="s2c"><title>H3K9me2 is largely exclusive with active chromatin</title><p>We further related H3K9me2 occupancy to regions with transcriptional activity or
+presence of the active modification H3K4me2. Active regions are mutually
+exclusive with H3K9me2 in ES cells but surprisingly to a lesser extent in
+neurons (<xref ref-type="fig" rid="pgen-1002090-g003">Figure 3D</xref>). The
+compatibility of H3K9me2 and gene expression in neurons is however limited to
+gene bodies and does not occur in the promoters of expressed genes, consistent
+with the former regions gaining H3K9me2 during differentiation (<xref ref-type="fig" rid="pgen-1002090-g002">Figure 2A</xref> and <xref ref-type="supplementary-material" rid="pgen.1002090.s007">Figure S7</xref>).
+We find the majority of H3K4me2 regions to be mutually exclusive with H3K9me2 in
+stem cells (<xref ref-type="fig" rid="pgen-1002090-g003">Figure 3D</xref>). In
+neurons, a small number of regions become co-occupied, again most of these being
+within transcribed genes (<xref ref-type="fig" rid="pgen-1002090-g003">Figure
+3D</xref>). Importantly, an HMM independent analysis confirms that regions
+with high H3K9me2 enrichment do not overlap with transcribed genes in stem
+cells, yet a subset does in neurons (<xref ref-type="fig" rid="pgen-1002090-g003">Figure 3E</xref>). We conclude that gain of H3K9me2
+during differentiation has only a minor effect on the overall chromosomal
+coverage of the modification, yet it occurs highly localized and preferentially
+at genic regions.</p></sec><sec id="s2d"><title>Prevalent low-level transcription is not a stem cell&#x02013;specific
+feature</title><p>Our finding of surprising conservation of heterochromatin patterns in a refined
+model of differentiation let us to revisit the transcriptome in a quantitative
+manner using high throughput RNA sequencing (RNAseq). RNAseq in ES cells and
+derived neurons revealed the expected down regulation of stem cell specific
+genes and induction of neuron specific genes (<xref ref-type="fig" rid="pgen-1002090-g004">Figure 4A</xref>). Further, when counting RNA
+molecules after gene mapping and normalization, both cell types displayed a
+characteristic bimodal distribution. This reflects a group of genes that is in a
+clear off state with no detectable RNA molecules and a second peak of expressed
+genes (<xref ref-type="fig" rid="pgen-1002090-g004">Figure 4B</xref>).
+Separating these two groups of genes by a stringent cutoff revealed that out of
+35&#x02032;606 transcription units, 45&#x00025; are expressed in ES cells.
+Interestingly, we identified a slightly higher number (50&#x00025;) of expressed
+genes in terminally differentiated neurons, indicating that differentiation of
+stem cells is not coinciding with a reduced number of highly expressed genes.
+This agrees with a recent report that suggested that stem cells and somatic
+cells do mainly differ in the number of low-level expressed genes due to a
+global reduction of basal gene activity in the course of lineage-commitment and
+loss of pluripotency <xref rid="pgen.1002090-Efroni1" ref-type="bibr">[10]</xref>. To test this in our <italic>in vitro</italic>
+differentiation system, we grouped the genes that could not clearly be assigned
+to the on or off state, into a separate class of genes expressed at low to
+background level (<xref ref-type="fig" rid="pgen-1002090-g004">Figure
+4B</xref>). This analysis reveals that in stem cells 16&#x00025; of all
+transcription units show a basal expression level. Surprisingly however, the
+proportion of genes expressed at such low level (14&#x00025;) is very similar in
+neurons. This unexpected finding prompted us to conduct an additional RNAseq
+experiment in a second fully differentiated somatic murine cell type; primary
+mouse embryonic fibroblasts (MEFs). Interestingly, also fibroblasts display a
+similar transcriptional landscape as stem cells, with 46&#x00025; of all
+transcription units being highly expressed and 13&#x00025; being expressed at
+basal levels. Hence, this qualitative similarity of expression patterns is not
+specific to the neuronal subtype we generated <italic>in vitro</italic>, but
+appears to be a more general property of both undifferentiated and
+differentiated cells. Thus, while transcripts expressed at low levels show
+little overlap between stem cells and somatic cells (<xref ref-type="supplementary-material" rid="pgen.1002090.s008">Figure S8</xref>),
+their numbers are remarkably similar. Stem cells do also not show an increased
+number of highly expressed genes. Based on additional analysis we can exclude
+that this similarity of the transcriptional landscape is a consequence of
+insufficient sampling (<xref ref-type="supplementary-material" rid="pgen.1002090.s009">Figure S9</xref>). Moreover, it is not limited to
+genic regions as the abundance of transcripts generated from diverse classes of
+endogenous repeat is comparable between stem cells and neurons (<xref ref-type="fig" rid="pgen-1002090-g004">Figure 4C</xref>).</p><fig id="pgen-1002090-g004" position="float"><object-id pub-id-type="doi">10.1371/journal.pgen.1002090.g004</object-id><label>Figure 4</label><caption><title>Promiscuous low-level expression is not a distinctive feature of the
+pluripotent state.</title><p>(A) Representative region illustrating RNAseq data in ES cells and
+neurons (TN). Blue boxes indicate genes that either increase
+(<italic>Lrrc3</italic>, a neuron specific ion channel) or decrease
+(<italic>Aire</italic>, <italic>Dnmt3l</italic>,
+<italic>Icosl</italic>; three ES cell specific genes) expression
+during differentiation, while the other genes remain constant. (B)
+Density distribution of transcript abundance (measured as read counts)
+for all RefSeq transcripts in ES cells (green line), derived neurons
+(dark green line) and mouse embryonic fibroblasts (red line). Numbers
+indicate percentage of expressed genes in each cell type based on a
+threshold of log2(read count)&#x0200a;=&#x0200a;5 (black dotted
+line). The gray area between 2 and 5 indicates the zone of low-level
+expression. (C) Boxplot representation of expression levels of prominent
+repeat classes in ES cells and neurons (TN). Numbers below indicate how
+many repeat elements are included in each repeat class.</p></caption><graphic xlink:href="pgen.1002090.g004"/></fig></sec></sec><sec id="s3"><title>Discussion</title><p>Embryonic stem cells are characterized by their potential to differentiate into any
+cell type of the three germ layers in the developing embryo, while somatic cells
+lose this developmental plasticity upon lineage-commitment. Despite its relevance
+for our understanding of development and disease, the molecular determinants of
+pluripotency are still not fully understood and the factors responsible for this
+uniqueness of stem cells are actively debated <xref rid="pgen.1002090-Hanna1" ref-type="bibr">[24]</xref>. Our study of gene expression
+and an abundant heterochromatin mark reveal surprising conservation of the
+transcriptome and epigenome landscape between pluripotent and unipotent cells.
+H3K9me2 is already highly prevalent in ES cells, arguing that the pathways that
+mediate H3K9me2 are highly active in stem cells, and serve similar functions as in
+somatic cells, which only show a slight increase of the mark (from 53 to
+58&#x00025;). Interestingly, the observed gain occurs very localized at gene bodies
+and does not necessarily coincide with lower transcription of the corresponding
+gene. The analysis of regions that acquire H3K9me2 during differentiation further
+revealed a differentiation specific coexistence of H3K9me2 and transcriptional
+activity, which is not detected in the pluripotent state and which could be involved
+in modulating expression in the differentiated cell. Nevertheless, despite the
+subtle increase we detected, an involvement of H3K9me2 in globally regulating
+cell-type specific gene repression appears unlikely. The limited dynamics as
+compared to massive transcriptome reprogramming and the limited correlation between
+expression and gain of H3K9me2 at target genes argue against H3K9me2 as being a
+major player in setting up gene expression programs.</p><p>These findings disagree with a recent report that suggested absence of large H3K9me2
+domains in ES cells and found a striking increase in differentiated cells <xref rid="pgen.1002090-Wen1" ref-type="bibr">[17]</xref>. Notably, our ES
+cell profile for H3K9me2 is similar to the one generated previously (<xref ref-type="fig" rid="pgen-1002090-g001">Figure 1B</xref> and <xref ref-type="supplementary-material" rid="pgen.1002090.s002">Figure S2</xref>),
+making data analysis a likely explanation for the discrepancy. We applied an
+unbiased approach that is insensitive to variations between arrays and which we show
+to lead to similar results under various parameter settings (<xref ref-type="fig" rid="pgen-1002090-g003">Figure 3</xref> and <xref ref-type="supplementary-material" rid="pgen.1002090.s010">Figure S10</xref>). As
+already discussed by Fillion and van Steensel <xref rid="pgen.1002090-Filion1" ref-type="bibr">[25]</xref>, the previous study relied on
+defined thresholds, which can be prone to false estimation of differences particular
+in the absence of biological replicates <xref rid="pgen.1002090-Filion1" ref-type="bibr">[25]</xref>.</p><p>Widespread low-level expression in stem cells has previously been reported and
+interpreted as a sign of pluripotency <xref rid="pgen.1002090-Niwa1" ref-type="bibr">[5]</xref>, <xref rid="pgen.1002090-Meshorer1" ref-type="bibr">[6]</xref>, <xref rid="pgen.1002090-Efroni1" ref-type="bibr">[10]</xref>. It has been speculated that this basal promiscuous
+activity would poise genes for rapid induction upon receipt of differentiation cues
+<xref rid="pgen.1002090-Niwa1" ref-type="bibr">[5]</xref>, <xref rid="pgen.1002090-Meshorer1" ref-type="bibr">[6]</xref>, <xref rid="pgen.1002090-Efroni1" ref-type="bibr">[10]</xref>. Using mRNA
+sequencing in our differentiation paradigm does not confirm this model. We do not
+find evidence of elevated transcription throughout the genome or on specific
+chromosome (<xref ref-type="supplementary-material" rid="pgen.1002090.s008">Figure
+S8</xref>; <xref rid="pgen.1002090-Efroni1" ref-type="bibr">[10]</xref>). A likely explanation for these discrepancies is that
+microarrays, which were used in the previous studies, overestimate low level signal
+due to cross-hybridization <xref rid="pgen.1002090-vanBakel1" ref-type="bibr">[26]</xref>. In the present study we utilized RNAseq, which permits
+an actual counting of RNA molecules and thus enables accurate discrimination between
+very low and no expression. Notably, RNA sequencing experiments have recently put
+other findings in question that relied on quantifying small transcriptome
+differences detected by microarrays. For example, recent RNAseq data challenged the
+presence of pervasive intergenic transcription <xref rid="pgen.1002090-vanBakel1" ref-type="bibr">[26]</xref> and the existence of
+transcriptional dosage compensation of the single male X chromosome <xref rid="pgen.1002090-Xiong1" ref-type="bibr">[27]</xref>. In addition to
+the increased sensitivity of RNAseq that can explain the differences to previous
+studies, the presence of a small fraction of differentiated cells in suboptimal
+conditions of stem cell culture could similarly contribute to an overestimation of
+the number of genes that are actually expressed in stem cells. Notably, the ES cell
+differentiation protocol applied by us is optimized to reduce the number of
+differentiated cells in the culture <xref rid="pgen.1002090-Bibel1" ref-type="bibr">[18]</xref>.</p><p>In summary, our analysis suggests to revisit the model of massive
+heterochromatinization during cellular differentiation via a global increase in
+repressive histone marks <xref rid="pgen.1002090-Niwa1" ref-type="bibr">[5]</xref>&#x02013;<xref rid="pgen.1002090-Hawkins1" ref-type="bibr">[9]</xref>, <xref rid="pgen.1002090-Wen1" ref-type="bibr">[17]</xref> and coinciding repression of basal gene activity <xref rid="pgen.1002090-Niwa1" ref-type="bibr">[5]</xref>, <xref rid="pgen.1002090-Meshorer1" ref-type="bibr">[6]</xref>, <xref rid="pgen.1002090-Efroni1" ref-type="bibr">[10]</xref>.</p><p>Our data together with previous reports on dynamics of DNA methylation, H3K9me3 and
+the Polycomb pathway between pluripotent and somatic cells <xref rid="pgen.1002090-Hawkins1" ref-type="bibr">[9]</xref>, <xref rid="pgen.1002090-Mohn1" ref-type="bibr">[14]</xref>, <xref rid="pgen.1002090-Meissner1" ref-type="bibr">[15]</xref>, <xref rid="pgen.1002090-Mikkelsen1" ref-type="bibr">[28]</xref>&#x02013;<xref rid="pgen.1002090-Lister1" ref-type="bibr">[31]</xref> support a model whereby
+repressive chromatin is already highly active in stem cells and that epigenome
+reprogramming entails localized changes of repressive histone modifications and DNA
+methylation at regulatory regions that specify and stabilize lineage specification
+and terminal differentiation <xref rid="pgen.1002090-Mohn2" ref-type="bibr">[32]</xref>. It will be interesting to determine if these local
+differences account for the observed changes in nuclear morphology <xref rid="pgen.1002090-Meister1" ref-type="bibr">[33]</xref>. Notably,
+epigenetic repression can be overcome by the local activity of transcription factors
+upon strong induction cues during normal differentiation or artificially during
+generation of induced pluripotent stem cells (iPS) <xref rid="pgen.1002090-Takahashi1" ref-type="bibr">[34]</xref> and might therefore
+safeguard rather than actively channel development via direct transcriptome
+regulation.</p></sec><sec sec-type="methods" id="s4"><title>Methods</title><sec id="s4a"><title>Cell culture</title><p>Wild-type embryonic stem cells (129Sv-C57Bl/6) were cultured and differentiated
+as previously described <xref rid="pgen.1002090-Mohn1" ref-type="bibr">[14]</xref>, <xref rid="pgen.1002090-Bibel2" ref-type="bibr">[35]</xref>. Fibroblasts were isolated from wild-type embryos
+(C57Bl/6).</p></sec><sec id="s4b"><title>Western blot and peptide dot blot analysis</title><p>Peptide sequences can be found in <xref ref-type="supplementary-material" rid="pgen.1002090.s012">Table S2</xref>. Western blot analysis was performed
+with acid extracts using 1/1000 dilutions of either anti-H3K9me2 (Abcam no.
+1220) or anti-H4 (Upstate, no. 07&#x02013;108) antibodies. Blots were developed
+with ECL reagent (GE Healthcare).</p></sec><sec id="s4c"><title>Chromatin-IP (ChIP)</title><p>ChIP experiments were performed as described before <xref rid="pgen.1002090-Mohn1" ref-type="bibr">[14]</xref>, starting with 70 &#x000b5;g of
+chromatin and 5 &#x000b5;g of the following antibodies: anti-dimethyl-H3K9 (LP
+Bio, no. AR-0108), anti-dimethyl-H3K9 (Abcam no. 1220), anti-trimethyl-H3K27
+(Upstate, no. 07&#x02013;449), anti-dimethyl-H3K4 (Upstate, no. 07&#x02013;030).
+H3K9me2 ChIP samples were amplified using the WGA2 kit (Sigma) and hybridized to
+a custom tiling microarray (NimbleGen Systems Inc., see below). H3K27me3 and
+H3K4me2 ChIP libraries for Illumina sequencing were prepared with the Illumina
+ChIP-Seq DNA Sample Prep Kit (Cat# IP-102-1001) according to Illumina's
+instructions and sequenced on the Genome Analyzer II following the
+manufacturer's protocols. ChIP-real time PCR was performed using SYBR Green
+chemistry (ABI) and 1/40 of ChIP or 20 ng of input chromatin per PCR reaction.
+Primers are listed in <xref ref-type="supplementary-material" rid="pgen.1002090.s011">Table S1</xref>.</p></sec><sec id="s4d"><title>Microarray design</title><p>H3K9me2 ChIP samples were hybridized to custom designed microarrays representing
+all well-annotated promoters, several large multi-gene loci and the complete
+chromosome 19 with an average probe spacing of 100 bp and a total of 2.1 million
+features (HD2.1, NimbleGen Systems Inc).</p></sec><sec id="s4e"><title>Microarray hybridization and analysis</title><p>Sample labeling, hybridization and array scanning were performed by NimbleGen
+Systems Inc. according to standard procedures. For analysis, raw fluorescent
+intensity values were used to calculate log2 of the bound/input ratios for each
+individual oligo. Subsequently, for comparison all arrays were normalized to a
+median log2&#x0200a;=&#x0200a;0 and scale normalized to have the same
+median absolute deviation using the &#x0201c;LIMMA&#x0201d; R/Bioconductor package
+<xref rid="pgen.1002090-Smyth1" ref-type="bibr">[36]</xref>, <xref rid="pgen.1002090-Smyth2" ref-type="bibr">[37]</xref>.</p></sec><sec id="s4f"><title>RNAseq data analysis</title><p>RNA from ES cells, neurons and fibroblasts of two independent biological
+replicates each was used for cDNA preparation using oligo dT primers followed by
+sequencing on an Illumina GA II analyzer. Reads were mapped to the <italic>Mus
+musculus</italic> transcriptome and normalized to transcript length and
+sequencing library size (for details see <xref ref-type="supplementary-material" rid="pgen.1002090.s013">Text S1</xref>).</p></sec><sec id="s4g"><title>Bioinformatics</title><p>Unless otherwise stated, H3K9me2 enriched regions were identified by HMM and
+H3K4me2 and H3K27me3 peaks using MACS peak finder <xref rid="pgen.1002090-Zhang1" ref-type="bibr">[38]</xref>. Active regions were defined
+as RefSeq transcription units with a normalized RNAseq log2 read count above 5
+(for details see <xref ref-type="supplementary-material" rid="pgen.1002090.s013">Text S1</xref>). Microarray design, hybridization and analysis, ChIPseq and
+RNAseq analysis and additional references are described in <xref ref-type="supplementary-material" rid="pgen.1002090.s013">Text
+S1</xref>.</p></sec><sec id="s4h"><title>Datasets</title><p>Microarray and deep sequencing data were deposited at NCBI's Gene Expression
+Omnibus and are accessible through GEO Series accession number GSE27866
+(<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27866">http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27866</ext-link>).</p></sec></sec><sec sec-type="supplementary-material" id="s5"><title>Supporting Information</title><supplementary-material content-type="local-data" id="pgen.1002090.s001"><label>Figure S1</label><caption><p>Specificity of H3K9me2 antibodies used in this study. Indicated amounts of
+either modified or unmodified H3 and H4 peptides (H3 residues 1&#x02013;20,
+19&#x02013;38 and 25&#x02013;45, H4 residues 12&#x02013;31) were spotted onto
+polyvinylidene difluoride membranes (GE) and probed with (A)
+anti-dimethyl-H3K9 (LP Bio, no. AR-0108) or (B) anti-dimethyl-H3K9 (Abcam
+no. 1220) at 1&#x02236;1000 dilution each. Both antibodies are highly specific
+towards H3K9me2.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s001.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s002"><label>Figure S2</label><caption><p>High similarity of ES cell H3K9me2 datasets. (A) Comparison of our H3K9me2
+enrichment profiles in ES cells to a previously generated ES cell profile
+(Wen et al., 2009). (B) Venn diagram illustrating the overlap of
+H3K9me2-occupied regions between the two ES cell datasets from (A) (defined
+by an HMM approach). The overlap agrees with the high correlation for this
+previously generated ES cell dataset with our two ES cell replicates
+(Pearson correlation of 0.73 and 0.74, on 500 bp windows).</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s002.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s003"><label>Figure S3</label><caption><p>H3K9me2 enrichments on chromosome 19 are representative of the entire genome.
+(A) H3K9me2 enrichments in ES cells from a previously generated dataset (Wen
+et al., 2009). The boxplots show H3K9me2 enrichment values for all probes
+separated by chromosome, with chromosome 19 highlighted in blue. (B) H3K9me2
+enrichments per 900 bp promoter windows (defined in Mohn et al., 2008) in ES
+cells. The boxplots represent average enrichments at promoters separated by
+chromosome with chromosome 19 highlighted in blue.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s003.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s004"><label>Figure S4</label><caption><p>H3K9me2 enriched regions are robustly identified independent of HMM
+parameters and H3K9me2 domain size is highly similar in ES cells and
+neurons. (A) Shown is the comparison of H3K9me2 enrichments in ES cells and
+neurons using a 3 state HMM to define non-occupied (low), intermediately and
+highly occupied domains (top). Importantly, the state specific HMM
+distribution parameters (mean and variance of H3K9me2 enrichment) are very
+similar between ES cells and neurons (bottom). Note that with a 3 state HMM
+the percentage of domains in the high state does not change between ES cells
+and neurons (TN). However, we detect an overall increase of the intermediate
+state of around 10&#x00025;. (B) H3K9me2 domains were defined by HMM (see
+<xref ref-type="sec" rid="s4">methods</xref>). While numbers of domains
+on chromosome 19 increase from 1618 to 1914 from ES cells to neurons, their
+domain size distribution is very similar. This was also seen using
+alternative domain definition methods (data not shown).</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s004.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s005"><label>Figure S5</label><caption><p>Regions that lose are smaller than regions that gain H3K9me2 during
+differentiation and gaining regions often overlap with gene bodies. (A and
+B) Histograms displaying the size distributions of regions that lose (A) and
+gain (B) H3K9me2 during neuronal differentiation. Adjacent 500 bp windows
+being in a low HMM state in both ES cell replicates and in a high HMM state
+in the neuron replicates were grouped into H3K9me2 losing and gaining
+regions, respectively. (C) Pie chart illustrating the percentage of large
+(&#x0003e;10kb) H3K9me2 gaining regions within (grey) and outside (white) of
+genes (left). This overlap is significantly higher than for all regions that
+have no H3K9me2 in ES cells, i.e. which are in a HMM low state in both
+replicates (right). (D) Boxplot showing expression levels of all genes
+(n&#x0200a;=&#x0200a;138, adjusted P-value &#x0003c;0.05) that gain H3K9me2
+in neurons. Note that the median expression does not change significantly
+between ES cells and neurons (TN), indicating that there is no global trend
+towards either up- or down-regulation upon accumulation of H3K9me2 in the
+gene bodies of these genes.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s005.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s006"><label>Figure S6</label><caption><p>Regions losing H3K9me2 during differentiation are close to background.
+(A&#x02013;C) Shown are representative genomic regions that significantly lose
+H3K9me2 as defined by HMM analysis. (D) ChIP-real time PCR validation of the
+regions shown in (A&#x02013;C). Note that H3K9me2 enrichments are already low
+in ES and only slightly above background as exemplified by the active
+housekeeping gene <italic>Hprt</italic>, which does not carry H3K9me2. The
+loss of enrichment in neurons is small, though reproducible.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s006.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s007"><label>Figure S7</label><caption><p>H3K9me2 in neurons rarely overlaps with promoter regions of active genes. (A
+and B) Pie chart illustrating the percentage of promoters (1 kb up- and
+downstream of TSS) (A) and gene bodies (B) of transcribed genes that overlap
+H3K9me2-occupied regions in neurons. Note that promoters are rarely H3K9
+dimethylated when the gene is actively transcribed.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s007.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s008"><label>Figure S8</label><caption><p>Overlap of low-level expressed genes and expression of transcripts per
+chromosome. (A) Venn diagram illustrating the overlap of transcripts
+expressed at a low level (log2 RNAseq reads between 2 and 5) in at least one
+of the examined cell types. Note that areas are not drawn to scale. (B)
+Boxplots showing expression levels of transcripts per chromosomes.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s008.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s009"><label>Figure S9</label><caption><p>Absence of difference in transcriptome complexity is not a function of sample
+size in next generation sequencing. Shown is the number of detected Refseq
+transcripts (at least 32 reads) relative to the number of sampled reads.
+Number of detected transcripts is shown as the mean of 100 rounds of random
+subsampling with the same total read numbers. Irrespective of the sample
+size, a random sampling of RNAseq reads from ES cells (green line), neurons
+(dark green line) and MEFs (red line) revealed a smaller number of detected
+transcripts than an artificial sample with pooled reads from all three cell
+types (blue line) at any given sample size.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s009.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s010"><label>Figure S10</label><caption><p>H3K9me2 domain definition by different statistical methods leads to similar
+results. (A) HMM-independent quantification of genomic coverage of H3K9me2
+in ES cells and neurons. Shown is the percentage of chromosome 19 that lies
+within H3K9me2 peaks defined by a simple threshold method (t-peaks, see
+<xref ref-type="supplementary-material" rid="pgen.1002090.s013">Text
+S1</xref>). (B) Diagram illustrating the actual overlap between regions
+defined to be occupied by H3K9me2 by two different methods; a simple
+threshold method (t-peaks; see <xref ref-type="supplementary-material" rid="pgen.1002090.s013">Text S1</xref>) and by an HMM approach (HMM; see
+<xref ref-type="supplementary-material" rid="pgen.1002090.s013">Text
+S1</xref>).</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s010.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s011"><label>Table S1</label><caption><p>List of real time PCR primers.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s011.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s012"><label>Table S2</label><caption><p>Peptides used in dot blots in <xref ref-type="supplementary-material" rid="pgen.1002090.s001">Figure S1</xref>.</p><p>(TIF)</p></caption><media xlink:href="pgen.1002090.s012.tif"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="pgen.1002090.s013"><label>Text S1</label><caption><p>Supplementary methods.</p><p>(DOC)</p></caption><media xlink:href="pgen.1002090.s013.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ack><p>We are grateful to Christian Beisel and Ina Nissen for processing deep sequencing
+samples within the ETH BSSE Deep Sequencing unit. We thank Antoine Peters and
+Fr&#x000e9;d&#x000e9;ric Zilbermann for providing H3 and H4 peptides; Christiane
+Wirbelauer and Leslie Hoerner for technical assistance; and members of the
+Sch&#x000fc;beler lab, Antoine Peters, and Marc B&#x000fc;hler for critical comments on
+the manuscript.</p></ack><fn-group><fn fn-type="COI-statement"><p>The authors have declared that no competing interests exist.</p></fn><fn fn-type="financial-disclosure"><p>FL and FM were supported by a PhD fellowship of the Boehringer Ingelheim Fonds.
+VKT is supported by Marie Curie International Incoming fellowship and an EMBO
+long-term postdoctoral fellowship. TB is supported by an EMBO longterm
+postdoctoral fellowship. Research in the laboratory of DS is supported by the
+Novartis Research Foundation, by the European Union (NoE &#x0201c;The
+Epigenome&#x0201d; LSHG-CT-2004-503433, LSHG-CT-2006-037415), the European
+Research Council (ERC-204264), SystemsX.ch, the Swiss initiative in Systems
+Biology, and the EMBO Young Investigator program. The funders had no role in
+study design, data collection and analysis, decision to publish, or preparation
+of the manuscript.</p></fn></fn-group><ref-list><title>References</title><ref id="pgen.1002090-Boyer1"><label>1</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boyer</surname><given-names>LA</given-names></name><name><surname>Mathur</surname><given-names>D</given-names></name><name><surname>Jaenisch</surname><given-names>R</given-names></name></person-group>
+<year>2006</year>
+<article-title>Molecular control of pluripotency.</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>16</volume>
+<fpage>455</fpage>
+<lpage>462</lpage>
+<pub-id pub-id-type="pmid">16920351</pub-id></element-citation></ref><ref id="pgen.1002090-Egli1"><label>2</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Egli</surname><given-names>D</given-names></name><name><surname>Birkhoff</surname><given-names>G</given-names></name><name><surname>Eggan</surname><given-names>K</given-names></name></person-group>
+<year>2008</year>
+<article-title>Mediators of reprogramming: transcription factors and transitions
+through mitosis.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>9</volume>
+<fpage>505</fpage>
+<lpage>516</lpage>
+<pub-id pub-id-type="pmid">18568039</pub-id></element-citation></ref><ref id="pgen.1002090-Reik1"><label>3</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reik</surname><given-names>W</given-names></name><name><surname>Dean</surname><given-names>W</given-names></name><name><surname>Walter</surname><given-names>J</given-names></name></person-group>
+<year>2001</year>
+<article-title>Epigenetic reprogramming in mammalian
+development.</article-title>
+<source>Science</source>
+<volume>293</volume>
+<fpage>1089</fpage>
+<lpage>1093</lpage>
+<pub-id pub-id-type="pmid">11498579</pub-id></element-citation></ref><ref id="pgen.1002090-Bernstein1"><label>4</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bernstein</surname><given-names>BE</given-names></name><name><surname>Meissner</surname><given-names>A</given-names></name><name><surname>Lander</surname><given-names>ES</given-names></name></person-group>
+<year>2007</year>
+<article-title>The mammalian epigenome.</article-title>
+<source>Cell</source>
+<volume>128</volume>
+<fpage>669</fpage>
+<lpage>681</lpage>
+<pub-id pub-id-type="pmid">17320505</pub-id></element-citation></ref><ref id="pgen.1002090-Niwa1"><label>5</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Niwa</surname><given-names>H</given-names></name></person-group>
+<year>2007</year>
+<article-title>Open conformation chromatin and pluripotency.</article-title>
+<source>Genes Dev</source>
+<volume>21</volume>
+<fpage>2671</fpage>
+<lpage>2676</lpage>
+<pub-id pub-id-type="pmid">17974911</pub-id></element-citation></ref><ref id="pgen.1002090-Meshorer1"><label>6</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meshorer</surname><given-names>E</given-names></name><name><surname>Misteli</surname><given-names>T</given-names></name></person-group>
+<year>2006</year>
+<article-title>Chromatin in pluripotent embryonic stem cells and
+differentiation.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>7</volume>
+<fpage>540</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="pmid">16723974</pub-id></element-citation></ref><ref id="pgen.1002090-GasparMaia1"><label>7</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gaspar-Maia</surname><given-names>A</given-names></name><name><surname>Alajem</surname><given-names>A</given-names></name><name><surname>Polesso</surname><given-names>F</given-names></name><name><surname>Sridharan</surname><given-names>R</given-names></name><name><surname>Mason</surname><given-names>MJ</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Chd1 regulates open chromatin and pluripotency of embryonic stem
+cells.</article-title>
+<source>Nature</source>
+<volume>460</volume>
+<fpage>863</fpage>
+<lpage>868</lpage>
+<pub-id pub-id-type="pmid">19587682</pub-id></element-citation></ref><ref id="pgen.1002090-Persson1"><label>8</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Persson</surname><given-names>J</given-names></name><name><surname>Ekwall</surname><given-names>K</given-names></name></person-group>
+<year>2010</year>
+<article-title>Chd1 remodelers maintain open chromatin and regulate the
+epigenetics of differentiation.</article-title>
+<source>Exp Cell Res</source>
+<volume>316</volume>
+<fpage>1316</fpage>
+<lpage>1323</lpage>
+<pub-id pub-id-type="pmid">20211173</pub-id></element-citation></ref><ref id="pgen.1002090-Hawkins1"><label>9</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hawkins</surname><given-names>RD</given-names></name><name><surname>Hon</surname><given-names>GC</given-names></name><name><surname>Lee</surname><given-names>LK</given-names></name><name><surname>Ngo</surname><given-names>Q</given-names></name><name><surname>Lister</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Distinct epigenomic landscapes of pluripotent and
+lineage-committed human cells.</article-title>
+<source>Cell Stem Cell</source>
+<volume>6</volume>
+<fpage>479</fpage>
+<lpage>491</lpage>
+<pub-id pub-id-type="pmid">20452322</pub-id></element-citation></ref><ref id="pgen.1002090-Efroni1"><label>10</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Efroni</surname><given-names>S</given-names></name><name><surname>Duttagupta</surname><given-names>R</given-names></name><name><surname>Cheng</surname><given-names>J</given-names></name><name><surname>Dehghani</surname><given-names>H</given-names></name><name><surname>Hoeppner</surname><given-names>DJ</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Global transcription in pluripotent embryonic stem
+cells.</article-title>
+<source>Cell Stem Cell</source>
+<volume>2</volume>
+<fpage>437</fpage>
+<lpage>447</lpage>
+<pub-id pub-id-type="pmid">18462694</pub-id></element-citation></ref><ref id="pgen.1002090-GasparMaia2"><label>11</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gaspar-Maia</surname><given-names>A</given-names></name><name><surname>Alajem</surname><given-names>A</given-names></name><name><surname>Meshorer</surname><given-names>E</given-names></name><name><surname>Ramalho-Santos</surname><given-names>M</given-names></name></person-group>
+<year>2011</year>
+<article-title>Open chromatin in pluripotency and reprogramming.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>12</volume>
+<fpage>36</fpage>
+<lpage>47</lpage>
+<pub-id pub-id-type="pmid">21179060</pub-id></element-citation></ref><ref id="pgen.1002090-Francastel1"><label>12</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Francastel</surname><given-names>C</given-names></name><name><surname>Schubeler</surname><given-names>D</given-names></name><name><surname>Martin</surname><given-names>DI</given-names></name><name><surname>Groudine</surname><given-names>M</given-names></name></person-group>
+<year>2000</year>
+<article-title>Nuclear compartmentalization and gene activity.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>1</volume>
+<fpage>137</fpage>
+<lpage>143</lpage>
+<pub-id pub-id-type="pmid">11253366</pub-id></element-citation></ref><ref id="pgen.1002090-Ahmed1"><label>13</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ahmed</surname><given-names>K</given-names></name><name><surname>Dehghani</surname><given-names>H</given-names></name><name><surname>Rugg-Gunn</surname><given-names>P</given-names></name><name><surname>Fussner</surname><given-names>E</given-names></name><name><surname>Rossant</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Global chromatin architecture reflects pluripotency and lineage
+commitment in the early mouse embryo.</article-title>
+<source>PLoS ONE</source>
+<volume>5</volume>
+<fpage>e10531</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0010531">10.1371/journal.pone.0010531</ext-link></comment>
+<pub-id pub-id-type="pmid">20479880</pub-id></element-citation></ref><ref id="pgen.1002090-Mohn1"><label>14</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mohn</surname><given-names>F</given-names></name><name><surname>Weber</surname><given-names>M</given-names></name><name><surname>Rebhan</surname><given-names>M</given-names></name><name><surname>Roloff</surname><given-names>TC</given-names></name><name><surname>Richter</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Lineage-specific polycomb targets and de novo DNA methylation
+define restriction and potential of neuronal progenitors.</article-title>
+<source>Mol Cell</source>
+<volume>30</volume>
+<fpage>755</fpage>
+<lpage>766</lpage>
+<pub-id pub-id-type="pmid">18514006</pub-id></element-citation></ref><ref id="pgen.1002090-Meissner1"><label>15</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meissner</surname><given-names>A</given-names></name><name><surname>Mikkelsen</surname><given-names>TS</given-names></name><name><surname>Gu</surname><given-names>H</given-names></name><name><surname>Wernig</surname><given-names>M</given-names></name><name><surname>Hanna</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Genome-scale DNA methylation maps of pluripotent and
+differentiated cells.</article-title>
+<source>Nature</source>
+<volume>454</volume>
+<fpage>766</fpage>
+<lpage>770</lpage>
+<pub-id pub-id-type="pmid">18600261</pub-id></element-citation></ref><ref id="pgen.1002090-Farthing1"><label>16</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Farthing</surname><given-names>CR</given-names></name><name><surname>Ficz</surname><given-names>G</given-names></name><name><surname>Ng</surname><given-names>RK</given-names></name><name><surname>Chan</surname><given-names>CF</given-names></name><name><surname>Andrews</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Global mapping of DNA methylation in mouse promoters reveals
+epigenetic reprogramming of pluripotency genes.</article-title>
+<source>PLoS Genet</source>
+<volume>4</volume>
+<fpage>e1000116</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.1000116">10.1371/journal.pgen.1000116</ext-link></comment>
+<pub-id pub-id-type="pmid">18584034</pub-id></element-citation></ref><ref id="pgen.1002090-Wen1"><label>17</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wen</surname><given-names>B</given-names></name><name><surname>Wu</surname><given-names>H</given-names></name><name><surname>Shinkai</surname><given-names>Y</given-names></name><name><surname>Irizarry</surname><given-names>RA</given-names></name><name><surname>Feinberg</surname><given-names>AP</given-names></name></person-group>
+<year>2009</year>
+<article-title>Large histone H3 lysine 9 dimethylated chromatin blocks
+distinguish differentiated from embryonic stem cells.</article-title>
+<source>Nat Genet</source>
+<volume>41</volume>
+<fpage>246</fpage>
+<lpage>250</lpage>
+<pub-id pub-id-type="pmid">19151716</pub-id></element-citation></ref><ref id="pgen.1002090-Bibel1"><label>18</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bibel</surname><given-names>M</given-names></name><name><surname>Richter</surname><given-names>J</given-names></name><name><surname>Schrenk</surname><given-names>K</given-names></name><name><surname>Tucker</surname><given-names>KL</given-names></name><name><surname>Staiger</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Differentiation of mouse embryonic stem cells into a defined
+neuronal lineage.</article-title>
+<source>Nat Neurosci</source>
+<volume>7</volume>
+<fpage>1003</fpage>
+<lpage>1009</lpage>
+<pub-id pub-id-type="pmid">15332090</pub-id></element-citation></ref><ref id="pgen.1002090-Birney1"><label>19</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Birney</surname><given-names>E</given-names></name><name><surname>Stamatoyannopoulos</surname><given-names>JA</given-names></name><name><surname>Dutta</surname><given-names>A</given-names></name><name><surname>Guigo</surname><given-names>R</given-names></name><name><surname>Gingeras</surname><given-names>TR</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Identification and analysis of functional elements in 1&#x00025;
+of the human genome by the ENCODE pilot project.</article-title>
+<source>Nature</source>
+<volume>447</volume>
+<fpage>799</fpage>
+<lpage>816</lpage>
+<pub-id pub-id-type="pmid">17571346</pub-id></element-citation></ref><ref id="pgen.1002090-Koch1"><label>20</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koch</surname><given-names>CM</given-names></name><name><surname>Andrews</surname><given-names>RM</given-names></name><name><surname>Flicek</surname><given-names>P</given-names></name><name><surname>Dillon</surname><given-names>SC</given-names></name><name><surname>Karaoz</surname><given-names>U</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>The landscape of histone modifications across 1&#x00025; of the
+human genome in five human cell lines.</article-title>
+<source>Genome Res</source>
+<volume>17</volume>
+<fpage>691</fpage>
+<lpage>707</lpage>
+<pub-id pub-id-type="pmid">17567990</pub-id></element-citation></ref><ref id="pgen.1002090-Ringrose1"><label>21</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ringrose</surname><given-names>L</given-names></name><name><surname>Paro</surname><given-names>R</given-names></name></person-group>
+<year>2007</year>
+<article-title>Polycomb/Trithorax response elements and epigenetic memory of
+cell identity.</article-title>
+<source>Development</source>
+<volume>134</volume>
+<fpage>223</fpage>
+<lpage>232</lpage>
+<pub-id pub-id-type="pmid">17185323</pub-id></element-citation></ref><ref id="pgen.1002090-Schwartz1"><label>22</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwartz</surname><given-names>YB</given-names></name><name><surname>Pirrotta</surname><given-names>V</given-names></name></person-group>
+<year>2007</year>
+<article-title>Polycomb silencing mechanisms and the management of genomic
+programmes.</article-title>
+<source>Nat Rev Genet</source>
+<volume>8</volume>
+<fpage>9</fpage>
+<lpage>22</lpage>
+<pub-id pub-id-type="pmid">17173055</pub-id></element-citation></ref><ref id="pgen.1002090-OGeen1"><label>23</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Geen</surname><given-names>H</given-names></name><name><surname>Squazzo</surname><given-names>SL</given-names></name><name><surname>Iyengar</surname><given-names>S</given-names></name><name><surname>Blahnik</surname><given-names>K</given-names></name><name><surname>Rinn</surname><given-names>JL</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Genome-wide analysis of KAP1 binding suggests autoregulation of
+KRAB-ZNFs.</article-title>
+<source>PLoS Genet</source>
+<volume>3</volume>
+<fpage>e89</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pgen.0030089">10.1371/journal.pgen.0030089</ext-link></comment>
+<pub-id pub-id-type="pmid">17542650</pub-id></element-citation></ref><ref id="pgen.1002090-Hanna1"><label>24</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hanna</surname><given-names>JH</given-names></name><name><surname>Saha</surname><given-names>K</given-names></name><name><surname>Jaenisch</surname><given-names>R</given-names></name></person-group>
+<year>2010</year>
+<article-title>Pluripotency and cellular reprogramming: facts, hypotheses,
+unresolved issues.</article-title>
+<source>Cell</source>
+<volume>143</volume>
+<fpage>508</fpage>
+<lpage>525</lpage>
+<pub-id pub-id-type="pmid">21074044</pub-id></element-citation></ref><ref id="pgen.1002090-Filion1"><label>25</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Filion</surname><given-names>GJ</given-names></name><name><surname>van Steensel</surname><given-names>B</given-names></name></person-group>
+<year>2010</year>
+<article-title>Reassessing the abundance of H3K9me2 chromatin domains in
+embryonic stem cells.</article-title>
+<source>Nat Genet 42: 4; author reply 5&#x02013;6</source>
+</element-citation></ref><ref id="pgen.1002090-vanBakel1"><label>26</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Bakel</surname><given-names>H</given-names></name><name><surname>Nislow</surname><given-names>C</given-names></name><name><surname>Blencowe</surname><given-names>BJ</given-names></name><name><surname>Hughes</surname><given-names>TR</given-names></name></person-group>
+<year>2010</year>
+<article-title>Most "dark matter" transcripts are associated with known
+genes.</article-title>
+<source>PLoS Biol</source>
+<volume>8</volume>
+<fpage>e1000371</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pbio.1000371">10.1371/journal.pbio.1000371</ext-link></comment>
+<pub-id pub-id-type="pmid">20502517</pub-id></element-citation></ref><ref id="pgen.1002090-Xiong1"><label>27</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xiong</surname><given-names>YY</given-names></name><name><surname>Chen</surname><given-names>XS</given-names></name><name><surname>Chen</surname><given-names>ZD</given-names></name><name><surname>Wang</surname><given-names>XZ</given-names></name><name><surname>Shi</surname><given-names>SH</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>RNA sequencing shows no dosage compensation of the active
+X-chromosome.</article-title>
+<source>Nature Genetics</source>
+<volume>42</volume>
+<fpage>1043-U1029</fpage>
+<pub-id pub-id-type="pmid">21102464</pub-id></element-citation></ref><ref id="pgen.1002090-Mikkelsen1"><label>28</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mikkelsen</surname><given-names>TS</given-names></name><name><surname>Ku</surname><given-names>M</given-names></name><name><surname>Jaffe</surname><given-names>DB</given-names></name><name><surname>Issac</surname><given-names>B</given-names></name><name><surname>Lieberman</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Genome-wide maps of chromatin state in pluripotent and
+lineage-committed cells.</article-title>
+<source>Nature</source>
+<volume>448</volume>
+<fpage>553</fpage>
+<lpage>560</lpage>
+<pub-id pub-id-type="pmid">17603471</pub-id></element-citation></ref><ref id="pgen.1002090-Pasini1"><label>29</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pasini</surname><given-names>D</given-names></name><name><surname>Bracken</surname><given-names>AP</given-names></name><name><surname>Hansen</surname><given-names>JB</given-names></name><name><surname>Capillo</surname><given-names>M</given-names></name><name><surname>Helin</surname><given-names>K</given-names></name></person-group>
+<year>2007</year>
+<article-title>The polycomb group protein Suz12 is required for embryonic stem
+cell differentiation.</article-title>
+<source>Mol Cell Biol</source>
+<volume>27</volume>
+<fpage>3769</fpage>
+<lpage>3779</lpage>
+<pub-id pub-id-type="pmid">17339329</pub-id></element-citation></ref><ref id="pgen.1002090-Pan1"><label>30</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pan</surname><given-names>G</given-names></name><name><surname>Tian</surname><given-names>S</given-names></name><name><surname>Nie</surname><given-names>J</given-names></name><name><surname>Yang</surname><given-names>C</given-names></name><name><surname>Ruotti</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Whole-Genome Analysis of Histone H3 Lysine 4 and Lysine 27
+Methylation in Human Embryonic Stem Cells.</article-title>
+<source>Cell Stem Cell</source>
+<volume>1</volume>
+<fpage>299</fpage>
+<lpage>312</lpage>
+<pub-id pub-id-type="pmid">18371364</pub-id></element-citation></ref><ref id="pgen.1002090-Lister1"><label>31</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lister</surname><given-names>R</given-names></name><name><surname>Pelizzola</surname><given-names>M</given-names></name><name><surname>Dowen</surname><given-names>RH</given-names></name><name><surname>Hawkins</surname><given-names>RD</given-names></name><name><surname>Hon</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Human DNA methylomes at base resolution show widespread
+epigenomic differences.</article-title>
+<source>Nature</source>
+<volume>462</volume>
+<fpage>315</fpage>
+<lpage>322</lpage>
+<pub-id pub-id-type="pmid">19829295</pub-id></element-citation></ref><ref id="pgen.1002090-Mohn2"><label>32</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mohn</surname><given-names>F</given-names></name><name><surname>Schubeler</surname><given-names>D</given-names></name></person-group>
+<year>2009</year>
+<article-title>Genetics and epigenetics: stability and plasticity during
+cellular differentiation.</article-title>
+<source>Trends Genet</source>
+<volume>25</volume>
+<fpage>129</fpage>
+<lpage>136</lpage>
+<pub-id pub-id-type="pmid">19185382</pub-id></element-citation></ref><ref id="pgen.1002090-Meister1"><label>33</label><element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Meister</surname><given-names>P</given-names></name><name><surname>Mango</surname><given-names>SE</given-names></name><name><surname>Gasser</surname><given-names>SM</given-names></name></person-group>
+<year>2011</year>
+<article-title>Locking the genome: nuclear organization and cell
+fate.</article-title>
+<comment>Curr Opin Genet Dev. In press</comment>
+</element-citation></ref><ref id="pgen.1002090-Takahashi1"><label>34</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takahashi</surname><given-names>K</given-names></name><name><surname>Yamanaka</surname><given-names>S</given-names></name></person-group>
+<year>2006</year>
+<article-title>Induction of pluripotent stem cells from mouse embryonic and
+adult fibroblast cultures by defined factors.</article-title>
+<source>Cell</source>
+<volume>126</volume>
+<fpage>663</fpage>
+<lpage>676</lpage>
+<pub-id pub-id-type="pmid">16904174</pub-id></element-citation></ref><ref id="pgen.1002090-Bibel2"><label>35</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bibel</surname><given-names>M</given-names></name><name><surname>Richter</surname><given-names>J</given-names></name><name><surname>Lacroix</surname><given-names>E</given-names></name><name><surname>Barde</surname><given-names>YA</given-names></name></person-group>
+<year>2007</year>
+<article-title>Generation of a defined and uniform population of CNS progenitors
+and neurons from mouse embryonic stem cells.</article-title>
+<source>Nat Protoc</source>
+<volume>2</volume>
+<fpage>1034</fpage>
+<lpage>1043</lpage>
+<pub-id pub-id-type="pmid">17546008</pub-id></element-citation></ref><ref id="pgen.1002090-Smyth1"><label>36</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smyth</surname><given-names>GK</given-names></name></person-group>
+<year>2004</year>
+<article-title>Linear models and empirical bayes methods for assessing
+differential expression in microarray experiments.</article-title>
+<source>Stat Appl Genet Mol Biol</source>
+<volume>3</volume>
+<fpage>Article3</fpage>
+<pub-id pub-id-type="pmid">16646809</pub-id></element-citation></ref><ref id="pgen.1002090-Smyth2"><label>37</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smyth</surname><given-names>GK</given-names></name><name><surname>Speed</surname><given-names>T</given-names></name></person-group>
+<year>2003</year>
+<article-title>Normalization of cDNA microarray data.</article-title>
+<source>Methods</source>
+<volume>31</volume>
+<fpage>265</fpage>
+<lpage>273</lpage>
+<pub-id pub-id-type="pmid">14597310</pub-id></element-citation></ref><ref id="pgen.1002090-Zhang1"><label>38</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Y</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Meyer</surname><given-names>CA</given-names></name><name><surname>Eeckhoute</surname><given-names>J</given-names></name><name><surname>Johnson</surname><given-names>DS</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Model-based analysis of ChIP-Seq (MACS).</article-title>
+<source>Genome Biol</source>
+<volume>9</volume>
+<fpage>R137</fpage>
+<pub-id pub-id-type="pmid">18798982</pub-id></element-citation></ref><ref id="pgen.1002090-Feldman1"><label>39</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Feldman</surname><given-names>N</given-names></name><name><surname>Gerson</surname><given-names>A</given-names></name><name><surname>Fang</surname><given-names>J</given-names></name><name><surname>Li</surname><given-names>E</given-names></name><name><surname>Zhang</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>G9a-mediated irreversible epigenetic inactivation of Oct-3/4
+during early embryogenesis.</article-title>
+<source>Nat Cell Biol</source>
+<volume>8</volume>
+<fpage>188</fpage>
+<lpage>194</lpage>
+<pub-id pub-id-type="pmid">16415856</pub-id></element-citation></ref></ref-list></back></article>

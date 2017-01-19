@@ -1,0 +1,582 @@
+{
+  "id": [
+    "26558718"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26558718"
+  ],
+  "pmcid": [
+    "PMC4642669"
+  ],
+  "doi": [
+    "10.1186/s12859-015-0801-z"
+  ],
+  "title": [
+    "An investigation of causes of false positive single nucleotide polymorphisms using simulated reads from a small eukaryote genome."
+  ],
+  "authorString": [
+    "Ribeiro A, Golicz A, Hackett CA, Milne I, Stephen G, Marshall D, Flavell AJ, Bayer M."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Ribeiro A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Ribeiro"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Division of Plant Sciences, University of Dundee at JHI, Invergowrie, Dundee, DD2 5DA, Scotland, UK. antonio.ribeiro@hutton.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Golicz A"
+          ],
+          "firstName": [
+            "Agnieszka"
+          ],
+          "lastName": [
+            "Golicz"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Australian Centre for Plant Functional Genomics and School of Agriculture and Food Sciences, University of Queensland, Brisbane, Queensland, 4072, Australia. agnieszka.golicz@uq.net.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Hackett CA"
+          ],
+          "firstName": [
+            "Christine Anne"
+          ],
+          "lastName": [
+            "Hackett"
+          ],
+          "initials": [
+            "CA"
+          ],
+          "affiliation": [
+            "Biomathematics and Statistics Scotland, Invergowrie, Dundee, DD2 5DA, Scotland, UK. Christine.Hackett@bioss.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Milne I"
+          ],
+          "firstName": [
+            "Iain"
+          ],
+          "lastName": [
+            "Milne"
+          ],
+          "initials": [
+            "I"
+          ],
+          "affiliation": [
+            "The James Hutton Institute, Invergowrie, Dundee, DD2 5DA, Scotland, UK. iain.milne@hutton.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Stephen G"
+          ],
+          "firstName": [
+            "Gordon"
+          ],
+          "lastName": [
+            "Stephen"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "The James Hutton Institute, Invergowrie, Dundee, DD2 5DA, Scotland, UK. gordon.stephen@hutton.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Marshall D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Marshall"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "The James Hutton Institute, Invergowrie, Dundee, DD2 5DA, Scotland, UK. david.marshall@hutton.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Flavell AJ"
+          ],
+          "firstName": [
+            "Andrew J"
+          ],
+          "lastName": [
+            "Flavell"
+          ],
+          "initials": [
+            "AJ"
+          ],
+          "affiliation": [
+            "Division of Plant Sciences, University of Dundee at JHI, Invergowrie, Dundee, DD2 5DA, Scotland, UK. as.j.flavell@dundee.ac.uk."
+          ]
+        },
+        {
+          "fullName": [
+            "Bayer M"
+          ],
+          "firstName": [
+            "Micha"
+          ],
+          "lastName": [
+            "Bayer"
+          ],
+          "initials": [
+            "M"
+          ],
+          "affiliation": [
+            "The James Hutton Institute, Invergowrie, Dundee, DD2 5DA, Scotland, UK. micha.bayer@hutton.ac.uk."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2262627"
+      ],
+      "dateOfPublication": [
+        "2015 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "382"
+  ],
+  "abstractText": [
+    "Single Nucleotide Polymorphisms (SNPs) are widely used molecular markers, and their use has increased massively since the inception of Next Generation Sequencing (NGS) technologies, which allow detection of large numbers of SNPs at low cost. However, both NGS data and their analysis are error-prone, which can lead to the generation of false positive (FP) SNPs. We explored the relationship between FP SNPs and seven factors involved in mapping-based variant calling - quality of the reference sequence, read length, choice of mapper and variant caller, mapping stringency and filtering of SNPs by read mapping quality and read depth. This resulted in 576 possible factor level combinations. We used error- and variant-free simulated reads to ensure that every SNP found was indeed a false positive.The variation in the number of FP SNPs generated ranged from 0 to 36,621 for the 120 million base pairs (Mbp) genome. All of the experimental factors tested had statistically significant effects on the number of FP SNPs generated and there was a considerable amount of interaction between the different factors. Using a fragmented reference sequence led to a dramatic increase in the number of FP SNPs generated, as did relaxed read mapping and a lack of SNP filtering. The choice of reference assembler, mapper and variant caller also significantly affected the outcome. The effect of read length was more complex and suggests a possible interaction between mapping specificity and the potential for contributing more false positives as read length increases.The choice of tools and parameters involved in variant calling can have a dramatic effect on the number of FP SNPs produced, with particularly poor combinations of software and/or parameter settings yielding tens of thousands in this experiment. Between-factor interactions make simple recommendations difficult for a SNP discovery pipeline but the quality of the reference sequence is clearly of paramount importance. Our findings are also a stark reminder that it can be unwise to use the relaxed mismatch settings provided as defaults by some read mappers when reads are being mapped to a relatively unfinished reference sequence from e.g. a non-model organism in its early stages of genomic exploration."
+  ],
+  "affiliation": [
+    "Division of Plant Sciences, University of Dundee at JHI, Invergowrie, Dundee, DD2 5DA, Scotland, UK. antonio.ribeiro@hutton.ac.uk."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "BB/M004856/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Arabidopsis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, DNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymorphism, Single Nucleotide"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Databases, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Eukaryota"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Sequence Annotation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4642669?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4642669"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12859-015-0801-z"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-04-19"
+  ],
+  "dateOfCreation": [
+    "2015-11-12"
+  ],
+  "dateOfRevision": [
+    "2015-11-16"
+  ],
+  "electronicPublicationDate": [
+    "2015-11-11"
+  ],
+  "firstPublicationDate": [
+    "2015-11-11"
+  ]
+}

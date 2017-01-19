@@ -1,0 +1,972 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.0 20120330//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Cell Biol</journal-id><journal-id journal-id-type="iso-abbrev">J. Cell Biol</journal-id><journal-id journal-id-type="hwp">jcb</journal-id><journal-id journal-id-type="publisher-id">jcb</journal-id><journal-title-group><journal-title>The Journal of Cell Biology</journal-title></journal-title-group><issn pub-type="ppub">0021-9525</issn><issn pub-type="epub">1540-8140</issn><publisher><publisher-name>The Rockefeller University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4164942</article-id><article-id pub-id-type="publisher-id">201405027</article-id><article-id pub-id-type="doi">10.1083/jcb.201405027</article-id><article-categories><subj-group subj-group-type="hwp-journal-coll"><subject>3</subject></subj-group><subj-group subj-group-type="heading"><subject>Reviews</subject><subj-group><subject>Review</subject></subj-group></subj-group></article-categories><title-group><article-title>Systems cell biology</article-title><alt-title alt-title-type="short">Systems cell biology</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Mast</surname><given-names>Fred D.</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Ratushny</surname><given-names>Alexander V.</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author" corresp="yes"><name><surname>Aitchison</surname><given-names>John D.</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib></contrib-group><aff id="aff1"><label>1</label><institution>Seattle Biomedical Research Institute, Seattle, WA 98109</institution></aff><aff id="aff2"><label>2</label><institution>Institute for Systems Biology, Seattle, WA 98109</institution></aff><author-notes><corresp>Correspondence to John D. Aitchison: <email>john.aitchison@seattlebiomed.org</email></corresp></author-notes><pub-date pub-type="ppub"><day>15</day><month>9</month><year>2014</year></pub-date><volume>206</volume><issue>6</issue><fpage>695</fpage><lpage>706</lpage><history><date date-type="received"><day>8</day><month>5</month><year>2014</year></date><date date-type="accepted"><day>25</day><month>8</month><year>2014</year></date></history><permissions><copyright-statement>&#x000a9; 2014 Mast et al.</copyright-statement><copyright-year>2014</copyright-year><license license-type="openaccess"><license-p>This article is distributed under the terms of an Attribution&#x02013;Noncommercial&#x02013;Share Alike&#x02013;No Mirror Sites license for the first six months after the publication date (see <ext-link ext-link-type="uri" xlink:href="http://www.rupress.org/terms">http://www.rupress.org/terms</ext-link>). After six months it is available under a Creative Commons License (Attribution&#x02013;Noncommercial&#x02013;Share Alike 3.0 Unported license, as described at <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0/">http://creativecommons.org/licenses/by-nc-sa/3.0/</ext-link>).</license-p></license></permissions><self-uri xlink:role="icon" xlink:href="JCB_201405027_thumb.gif"/><abstract><p>Systems cell biology melds high-throughput experimentation with quantitative analysis and modeling to understand many critical processes that contribute to cellular organization and dynamics. Recently, there have been several advances in technology and in the application of modeling approaches that enable the exploration of the dynamic properties of cells. Merging technology and computation offers an opportunity to objectively address unsolved cellular mechanisms, and has revealed emergent properties and helped to gain a more comprehensive and fundamental understanding of cell biology.</p></abstract></article-meta></front><body><sec disp-level="2"><title>Systems cell biology: What it is and what it is not</title><p>Systems cell biology is the study of the emergent properties of a cell and its component parts using comprehensive and quantitative experimental methods that are interpreted by predictive mathematical and statistical models. Emergent properties result from &#x0201c;the whole being greater than the sum of its parts.&#x0201d; The progression to studying the cell as a system is a natural one for cell biologists who have always sought to meld the biochemical processes of molecules and modules with the spatial and structural features of cells (<xref rid="bib6" ref-type="bibr">Alberts, 1998</xref>; <xref rid="bib50" ref-type="bibr">Hartwell et al., 1999</xref>). Thus, understanding cell biology is inherently a multiscale problem, with many levels and hierarchies of cellular organization, compartmentalization, and temporal regulation (<xref ref-type="fig" rid="fig1">Fig. 1</xref>). Emergent properties within a cell derive from the interplay of system components arranged in complex motifs such as logic gates, feedback and feed-forward loops, and combinations thereof (<xref rid="bib8" ref-type="bibr">Alon, 2007</xref>; <xref rid="bib126" ref-type="bibr">Tyson and Nov&#x000e1;k, 2010</xref>). This complex interplay leads to behaviors that include switch-like functionality, filtering, signal amplification, oscillations, and multistability. This gives rise to systems-level properties of cells including robustness, hysteresis, modularity, and population heterogeneity. The goal of systems cell biology is therefore to achieve more than a description of the individual components and component properties. It is to achieve an understanding of how information is transmitted and interpreted by the cell. Systems cell biology is also more than simply the acquisition of large amounts of data, or the assembly and visualization of that data into networks, heat maps, and diagrams. It is also not an unbiased replacement for intuition, as many cellular processes can be intuitively explored from a systems perspective. A prime example is the eukaryotic cell cycle, where a rich history of applying nonlinear dynamical systems models that rely, in part, on an intuition about the interactions of key cell cycle regulators has dramatically advanced our understanding of this process (see <xref rid="bib40" ref-type="bibr">Ferrell et al., 2011</xref> and the references within).</p></sec><sec disp-level="2"><title>Systems biology: A glove for every hand?</title><p>Systems biology is broadly defined as a framework for conducting quantitative and comprehensive scientific enquiry. This framework facilitates a rigorous analysis of the complexity of biological systems at all levels of cellular organization that contribute to a behavior or phenotype of interest (<xref rid="bib62" ref-type="bibr">Kitano, 2002</xref>). However, this common definition is rather vague, and this has encouraged skepticism with regard to the ability of systems biology research to achieve the lofty goal of understanding complex biology (<xref rid="bib21" ref-type="bibr">Brenner, 2010</xref>).</p><p>Irrespective of the focus of a study, a systems biology approach often includes several common elements: exploratory data acquisition and visualization, data integration and the formulation of quantitative models, and the testing of these models, along with the hypotheses they generate, with further experimentation (<xref rid="bib57" ref-type="bibr">Ideker et al., 2001</xref>; <xref rid="bib3" ref-type="bibr">Aitchison and Galitski, 2003</xref>). These results can then be used to guide iterative cycles of the systems approach that serve to refine the model in question (<xref ref-type="fig" rid="fig1">Fig. 1</xref>). Another way to consider this is that systems biology enables the identification of the many ways information can flow and be processed within a biological system (<xref rid="bib57" ref-type="bibr">Ideker et al., 2001</xref>; <xref rid="bib90" ref-type="bibr">Nurse, 2008</xref>). To function in this capacity, systems biology requires systems-level data collection.</p><fig id="fig1" orientation="portrait" position="float"><label>Figure 1.</label><caption><p><bold>Exploring the cell as a system.</bold> Systems cell biology incorporates systems-level and small-scale measurements of information flow from all the components of the system and from all the hierarchies of the relevant temporal and spatial scale. Multiscale modeling approaches are used to infer missing parameters and visualize phenotypes as the function of multiscale system characteristics. The process is iterative, and the model is refined until it is predictive.</p></caption><graphic xlink:href="JCB_201405027R_Fig1"/></fig></sec><sec disp-level="2"><title>The omics of systems biology: Exploratory data acquisition and visualization</title><p>Systems biology is commonly associated with large-scale &#x0201c;-omics&#x0201d; technologies such as genomics, proteomics, and functional genetics that are used to explore the state of a system under investigation (<xref rid="bib113" ref-type="bibr">Short, 2009</xref>). However, it is a misapprehension to think that systems biology is only the acquisition of such large-scale datasets. The inclusion of an omic discovery component to the analysis of biological complexity assists in identifying situations where a phenotype is caused by an emergent or unanticipated property of the system (<xref rid="bib3" ref-type="bibr">Aitchison and Galitski, 2003</xref>). This does not imply that emergent properties are naturally revealed through omics approaches, but rather that through the acquisition of a comprehensive and quantitative dataset such properties can be revealed through mathematical modeling and computational analysis. To be of practical use in discovering these essential components, omics technologies must be quantitative and amenable to high throughput approaches, comprehensible visualization, and statistical approaches. Even when properly executed, experiments often fall short of this goal, and, ideally, computational interpretation of the results can assist in identifying missing variables and influences or measurements that would be more informative. Moreover, computational analyses and modeling strategies can assist in revealing the underlying mechanisms of the system (<xref ref-type="fig" rid="fig1">Fig. 1</xref>). From this vantage point, proximal causes and effects can be separated from distal ones and be analyzed further with a cycle of modeling and experimentation.</p></sec><sec disp-level="2"><title>Next-generation sequencing (NGS): Understanding genetic determinants in cellular systems</title><p>For the correct implementation of a great deal of other systems approaches, such as proteomics and functional genetics, a reference genome is an essential starting point and necessary tool for their implementation. NGS, also known as &#x0201c;deep-sequencing,&#x0201d; is helping to redefine our understanding of chromatin structure and organization (<xref rid="bib133" ref-type="bibr">Yen et al., 2013</xref>), as well as the regulation of transcription (<xref rid="bib104" ref-type="bibr">Rhee and Pugh, 2011</xref>, <xref rid="bib105" ref-type="bibr">2012</xref>) and translation (<xref rid="bib58" ref-type="bibr">Ingolia et al., 2009</xref>, <xref rid="bib59" ref-type="bibr">2011</xref>; <xref rid="bib48" ref-type="bibr">Guttman et al., 2013</xref>). Although we will avoid giving a thorough overview of the technology and various NGS platforms (which can be found in <xref rid="bib64" ref-type="bibr">Koboldt et al., 2013</xref>; <xref rid="bib79" ref-type="bibr">Mardis, 2013</xref>), we highlight recent discoveries that illustrate the need to view the cell from a systems perspective.</p><p>A current trend from the rapid rise in genomic sequencing is the inclusion of phylogenetic and comparative genomic analyses in considering mechanistic models of cell biology (<xref rid="bib76" ref-type="bibr">Liti et al., 2009</xref>; <xref rid="bib41" ref-type="bibr">Finnigan et al., 2012</xref>; <xref rid="bib83" ref-type="bibr">Mast et al., 2014</xref>). Addressing the challenge of assigning cell components to a particular function is thus partly alleviated by considering the idiosyncratic origins of the components of a system. Evolutionary analyses of cell biology on a systems scale have benefitted from increased taxon sampling and are enabling tests of the implicit assumptions of molecular cell biology as well as the study of cellular phenomena in model systems. These evolutionary comparisons on a systems level are helping to place the findings from one cellular system within the context of all cellular systems (<xref rid="bib37" ref-type="bibr">Elias et al., 2012</xref>; <xref rid="bib66" ref-type="bibr">Koonin and Mulkidjanian, 2013</xref>). Furthermore, it enables the exploration of the origins of cellular complexity and helps restrict the search space of causal mechanisms to those that are congruent with evolutionary theory (<xref rid="bib65" ref-type="bibr">Koonin, 2011</xref>; <xref rid="bib34" ref-type="bibr">Doolittle, 2012</xref>; <xref rid="bib67" ref-type="bibr">Koumandou et al., 2013</xref>). See the <italic>JCB</italic> review series on evolution (<ext-link ext-link-type="uri" xlink:href="http://jcb.rupress.org/cgi/collection/7">http://jcb.rupress.org/cgi/collection/7</ext-link>).</p><p>NGS has also resulted in an increase in the number of individual genomes from a single species (<xref rid="bib76" ref-type="bibr">Liti et al., 2009</xref>; <xref rid="bib1" ref-type="bibr">1000 Genomes Project Consortium et al., 2010</xref>; <xref rid="bib64" ref-type="bibr">Koboldt et al., 2013</xref>). Phenotypic analysis of related strains of budding yeast showed remarkable differences in response to a variety of stimuli including acclimation to temperature and tolerance to drugs (<xref rid="bib76" ref-type="bibr">Liti et al., 2009</xref>). From a medical perspective, the intraorganismal comparisons of genome-wide association studies (GWAS) are identifying allelic heterogeneity that has important implications for organismal development and disease diagnosis, progression, and prognosis (<xref rid="bib131" ref-type="bibr">Welch et al., 2012</xref>). For example, polymorphisms in the FOXO3 locus, a member of the forkhead family of transcription factors with roles in diverse cellular processes (<xref rid="bib78" ref-type="bibr">Litvak et al., 2012</xref>; <xref rid="bib36" ref-type="bibr">Eijkelenboom and Burgering, 2013</xref>), are prognostic for the outcome of patients diagnosed with Crohn&#x02019;s disease (<xref rid="bib73" ref-type="bibr">Lee et al., 2013</xref>). Importantly, the polymorphisms in FOXO3 are not diagnostic for the disease, and susceptibility is therefore contingent on other factors. In addition to Crohn&#x02019;s disease, FOXO3 may also affect the severity of prognosis for other autoimmune diseases including rheumatoid arthritis. These results highlight the importance of allelic diversity to cellular function, an underexplored topic that will only be understood from the context of a systems perspective.</p><p>The role of NGS in providing high-resolution data on the transcriptome of cells also has mechanistic relevance for cell biology. Deep sequencing of RNA (RNaseq) provides absolute transcription levels of both annotated and unannotated regions of the genome. The result of its application has revealed a wealth of unanticipated complexity in transcript heterogeneity, including novel splice variants, alternative start and stop sites, the lengths of 5&#x02032; and 3&#x02032; untranslated regions, and the dynamic expression of bicistronic transcripts (<xref rid="bib94" ref-type="bibr">Pelechano et al., 2013</xref>; <xref rid="bib47" ref-type="bibr">Gupta et al., 2014</xref>; <xref rid="bib95" ref-type="bibr">Pelechano et al., 2014</xref>). Transcription of the genome is also much more pervasive and ubiquitous than previously thought (<xref rid="bib32" ref-type="bibr">Djebali et al., 2012</xref>). Use of NGS technology in combination with novel processing steps is just beginning to vastly redefine our understanding of transcriptional regulation and complexity (<xref rid="bib89" ref-type="bibr">Mudge et al., 2013</xref>). For example, a recent survey of the yeast transcriptome identified 1.88 million unique mRNA transcript reads (<xref rid="bib94" ref-type="bibr">Pelechano et al., 2013</xref>). From an organism originally characterized as having 5,885 genes (<xref rid="bib45" ref-type="bibr">Goffeau et al., 1996</xref>), this is a staggering amount of diversity at the mRNA level. To avoid the biases of isoform analysis that result from enrichment strategies to sequence only the 5&#x02032; or 3&#x02032; end of individual mature mRNA molecules, a novel intramolecular ligation step after mRNA isolation allowed joint sequencing of both ends of a single mRNA isoform (<xref rid="bib94" ref-type="bibr">Pelechano et al., 2013</xref>). Consistent with a functional relevance for at least some of this diversity, rather than a result of stochastic transcription initiation or termination, isoform variation was demonstrated to be responsive to changes in growth conditions. These new layers of transcriptional complexity will be of use in refining our understanding of the regulation and plasticity of a cell&#x02019;s transcriptional response to environmental perturbations.</p><p>The ability to precisely map protein&#x02013;nucleic acid interactions in a quantitative way is perhaps the most demonstrative example of the advancement and refinement of NGS technology. Protein&#x02013;DNA or protein&#x02013;RNA purification strategies in combination with exonuclease treatment before deep sequencing of the protected fragments provides the ability to map such interactions at a genome-wide scale to within single nucleotide resolution (<xref rid="bib58" ref-type="bibr">Ingolia et al., 2009</xref>; <xref rid="bib104" ref-type="bibr">Rhee and Pugh, 2011</xref>). These high-resolution genome-wide studies enable the comprehensive study and direct visualization of chromatin remodeling dynamics (<xref rid="bib133" ref-type="bibr">Yen et al., 2013</xref>), identification of transcription factor binding sites (<xref rid="bib104" ref-type="bibr">Rhee and Pugh, 2011</xref>), assembly of RNA polymerase pre-initiation complexes (<xref rid="bib105" ref-type="bibr">Rhee and Pugh, 2012</xref>), and the profiling of ribosome occupancy of mRNA (<xref rid="bib58" ref-type="bibr">Ingolia et al., 2009</xref>; <xref rid="bib59" ref-type="bibr">Ingolia et al., 2011</xref>; <xref rid="bib48" ref-type="bibr">Guttman et al., 2013</xref>). When visualized globally, the noisy signals from individual genes are smoothed and universal mechanisms are revealed. Aligning DNA sequences bound to RNA polymerase II pre-initiation complexes and viewing them at a genome scale has provided a unifying view of many regulatory mechanisms governing transcription. One striking revelation was the presence of degenerate TATA-like elements at previously characterized &#x0201c;TATA-less&#x0201d; promoters in yeast (<xref rid="bib105" ref-type="bibr">Rhee and Pugh, 2012</xref>). Assembling genome-wide maps for an ensemble of RNA polymerase II&#x02013;associated general transcription factors has also revealed consequences for deviations from the TATA consensus sequence, including increased reliance on nucleosome positioning for proper assembly (<xref rid="bib105" ref-type="bibr">Rhee and Pugh, 2012</xref>). The fate of both coding and noncoding RNA has been mapped by immunoprecipitations of mRNA-binding proteins (<xref rid="bib125" ref-type="bibr">Tuck and Tollervey, 2013</xref>). Sorting the ribonucleoprotein complexes using clustering approaches allowed for the identification and classification of several mRNP subclasses with implications for the importance of 3&#x02032; processing events in biogenesis, localization, and turnover (<xref rid="bib125" ref-type="bibr">Tuck and Tollervey, 2013</xref>).</p></sec><sec disp-level="2"><title>From genomics to proteomics</title><p>Despite the advancements in NGS, gene expression and mRNA levels are not very good proxies for protein levels or function in cells. Regulatory mechanisms exist at each stage of a protein&#x02019;s life cycle: synthesis, folding, targeting, integration into distinct compartments and complexes, activity, stability, and degradation (<xref rid="bib128" ref-type="bibr">Vogel and Marcotte, 2012</xref>). Measuring the half-life of proteins on a global scale has revealed complexity in protein turnover in a cell type&#x02013;dependent manner (<xref rid="bib25" ref-type="bibr">Claydon and Beynon, 2012</xref>). The constituents of protein complexes measured typically have similar turnover rates, although there are exceptions (for examples see <xref rid="bib99" ref-type="bibr">Price et al., 2010</xref>). In addition, translation and proteolysis not only regulate the synthesis and degradation of proteins, but also serve to buffer intracellular amino acids levels, and must therefore receive regulatory inputs from several sources (<xref rid="bib128" ref-type="bibr">Vogel and Marcotte, 2012</xref>). Profiling the association of ribosomes with mRNA provides one measure of the rate of protein synthesis (<xref rid="bib59" ref-type="bibr">Ingolia et al., 2011</xref>). This technique was recently complemented with a proteomic analysis of protein longevity using isotope pulse labeling combined with shotgun tandem mass spectrometry (MS) to measure both the translation of new protein and the longevity of old protein in rat liver and brain cells (<xref rid="bib122" ref-type="bibr">Toyama et al., 2013</xref>). In addition to discovering 37 long-lived proteins, the combined approach of ribosome profiling and semiquantitative MS revealed that despite the longevity of these proteins, all were pervasively translated. In several cases, discrepancies in the longevity of members of histone and nuclear pore complexes suggest mechanisms regulating the turnover and assembly of these complexes (<xref rid="bib122" ref-type="bibr">Toyama et al., 2013</xref>).</p><p>Information on the pathways and function of a protein is often derived from knowledge of the proteins with which it interacts. Protein&#x02013;protein interactions (PPIs) range from stable molecular machines of defined stoichiometries and functions to transient interactions whose mechanisms of dynamics are poorly defined. Areas of outstanding interest in proteomics research therefore concern the composition and stoichiometry of protein complexes, the interconnectivity and presence of shared components of different protein complexes, and identification of sites of posttranslational modifications. While detectable at the genomic and transcriptional level, the functional consequence of variation from alternative splicing, allelic variations, and point mutations often plays out in the altered activity or binding capacity of the encoded proteins. For example, one possible phenotype caused by the reduced expression or enhanced turnover of a protein may have more to do with the effect this has on that protein&#x02019;s binding partners.</p></sec><sec disp-level="2"><title>Quantitative, sensitive, and reproducible proteomics approaches</title><p>Recently, alternative operation modalities using certain types of mass spectrometers are making MS-based proteomics studies quantitative and reproducible, with attomole sensitivity (<xref rid="bib33" ref-type="bibr">Doerr, 2013</xref>; <xref rid="bib82" ref-type="bibr">Marx, 2013</xref>; <xref rid="bib96" ref-type="bibr">Picotti et al., 2013a</xref>). Accumulated data on the fragmentation properties and chromatographic behavior of peptides has enabled the development of targeted and data-independent proteomics approaches (<xref rid="bib38" ref-type="bibr">Farrah et al., 2012</xref>). In targeted proteomics, e.g., selective reaction monitoring (SRM), the mass spectrometer is tuned to selectively monitor predefined pairs of precursor and product ion masses of unique proteins. This approach has been greatly enabled by the availability of genomic data, inexpensive de novo peptide synthesis techniques, and large-scale peptide reference maps (<xref rid="bib2" ref-type="bibr">Ackermann et al., 2008</xref>; <xref rid="bib38" ref-type="bibr">Farrah et al., 2012</xref>; <xref rid="bib56" ref-type="bibr">Holman et al., 2012</xref>; <xref rid="bib97" ref-type="bibr">Picotti et al., 2013b</xref>). Multiplexing the assay by retuning the filter allows one to keep a quantitative tally for several hundred proteins in a single experiment.</p><p>Targeted proteomics enable an interrogation of the dynamics of PPI networks. Importantly, the focus of proteomic studies can move beyond the technicalities of coverage depth or reproducibility, and allows one to pursue interrogation of the kinetic properties of protein complexes. For example, by adapting an affinity purification strategy to SRM-MS, <xref rid="bib15" ref-type="bibr">Bisson et al. (2011)</xref> identified 90 reproducible interactors of GRB2, an important hub in growth factor signaling, and mapped the binding site of each protein to one of three characterized protein binding domains within GRB2. Thus, with a single experiment, detailed and quantitative data for 90 PPIs were collected. The dynamics of GRB2 signaling hub complexes and their association with different receptor tyrosine kinases (RTKs) to form signaling scaffolds were then measured against a battery of different growth factor receptor stimulants (<xref rid="bib15" ref-type="bibr">Bisson et al., 2011</xref>). These experiments revealed stimulation-specific GRB2 complexes that displayed unique temporal kinetics of assembly and disassembly (<xref rid="bib15" ref-type="bibr">Bisson et al., 2011</xref>). Similarly, the consequences of the temporal kinetics of RTK scaffold assembly were explored with the epidermal growth factor receptor (EGFR) signaling scaffold protein Shc1 (<xref rid="bib135" ref-type="bibr">Zheng et al., 2013</xref>). The dynamics of Shc1 phosphorylation at six residues and its association with 41 binding partners was followed over multiple time points after activation of EGFR by EGF. Analysis of the results revealed a dynamic network of phosphorylation-dependent regulated recruitment and assembly of three distinct signaling complexes (<xref rid="bib135" ref-type="bibr">Zheng et al., 2013</xref>). Therefore, SRM-MS offers the ability to explore the dynamic properties of protein networks that are essential for mechanistic understanding of biological function. In addition to studying signaling cascade kinetics, SRM-MS has also been successfully applied to the interrogation of 464 known and putative RNA polymerase II&#x02013;associated general transcription factors and used to probe them for DNA binding capacity (<xref rid="bib87" ref-type="bibr">Mirzaei et al., 2013</xref>).</p><p>Refinements of MS methodologies have also allowed for the development of quantitative data-independent approaches. For example, the systematic fragmentation of precursor ions independently of ion count was applied to a proteomic analysis of the principle of polydispersity (<xref rid="bib60" ref-type="bibr">Jung et al., 2013</xref>). Polydispersity is a population phenomenon of proteins owing to their localization to one or more organelles that have nonuniform properties leading, for example, to a collection of different sedimentation coefficients (<xref rid="bib31" ref-type="bibr">De Duve et al., 1960</xref>; <xref rid="bib30" ref-type="bibr">de Duve, 1964</xref>). The cosedimentation profile of proteins from cytosolic and organellar fractions of yeast grown under different nutrient conditions enabled a comprehensive look at the dynamics of protein movement between the cytosol and organelles such as mitochondria and peroxisomes. This data-independent acquisition protocol improved the dynamic range of protein identification by over an order of magnitude from the classic shotgun MS/MS approach (<xref rid="bib134" ref-type="bibr">Yi et al., 2002</xref>; <xref rid="bib80" ref-type="bibr">Marelli et al., 2004</xref>; <xref rid="bib60" ref-type="bibr">Jung et al., 2013</xref>). Remarkably, this approach revealed that as many as &#x0223c;1,200 proteins, a substantial portion of the yeast proteome, shift their relative distributions between the cytosol and an organellar fraction in response to changes in nutrient conditions (<xref rid="bib60" ref-type="bibr">Jung et al., 2013</xref>).</p><p>The goal of an unbiased data-independent approach is to combine the benefits of increased sensitivity and quantitative capacity of targeted approaches with the discovery component found in data-dependent approaches (<xref rid="bib43" ref-type="bibr">Gillet et al., 2012</xref>). As with targeted SRM-MS, a priori information from preassembled spectral libraries can be used by targeted data-mining algorithms to identify protein-specific peptide fragment ion traces in complex fragment ion spectra (<xref rid="bib43" ref-type="bibr">Gillet et al., 2012</xref>). With specialized mass spectrometers, a complete record of the proteins contained in a sample can be recorded by implementing comprehensive and systematic acquisition protocols that produce time-resolved and mass-segmented complex spectral ion maps. One such promising approach is sequential window acquisition of all theoretical spectra (SWATH-MS), which refers to the way the mass spectrometer is operated to collect these comprehensive proteomics data (<xref rid="bib27" ref-type="bibr">Collins et al., 2013</xref>). In a proof-of-principle experiment, SWATH-MS of affinity purified 14-3-3&#x003b2;, an abundant cytosolic scaffold protein, consistently identified 1,967 interacting proteins and quantified the dynamic changes of 567 members of the promiscuous 14-3-3&#x003b2; scaffold interactome after stimulation of the insulin&#x02013;PI3K&#x02013;AKT pathway (<xref rid="bib27" ref-type="bibr">Collins et al., 2013</xref>). In a complementary study, the interactome data generated by SWATH-MS was used to track changes to PPI networks induced by chemical inhibitors or allelic variations linked to disease pathologies (<xref rid="bib71" ref-type="bibr">Lambert et al., 2013</xref>). Retaining the discovery component of traditional MS, experiments conducted with data-independent approaches, such as SWATH-MS, ensure an accurate measurement of the effect of biological perturbations on the study of cellular mechanisms. Also, the comprehensive spectral data generated serve as a reliable digital record of a protein sample, and ensure data integrity. These spectral maps can assist in experiment optimization or in comparing protocols or results between laboratories, or can be used for reassessment of samples to look for features that might have been initially missed or deemed unimportant. Excitingly, targeted and data-independent MS combined with cross-linking agents is an emerging approach to improve the detection and measurement of transient PPIs and for discovering the dynamic rearrangements within protein complexes (<xref rid="bib44" ref-type="bibr">Gingras et al., 2007</xref>; <xref rid="bib98" ref-type="bibr">Politis et al., 2014</xref>).</p></sec><sec disp-level="2"><title>Systematically deciphering the genotype-to-phenotype paradigm</title><p>Functional genomic studies pursue a mechanistic explanation for the cause and effect relationship between genotype and phenotype (<xref ref-type="fig" rid="fig2">Fig. 2</xref>). At a systems level, the cause and effect of genetic perturbations are typically considered from a network perspective. In organisms that are easy to manipulate genetically, i.e., <italic>Saccharomyces cerevisiae</italic>, functional genetics have been automated using robotics-assisted synthetic genetic array (SGA) methodology and measurements of colony size as a function of cellular fitness for a phenotype (<xref rid="bib121" ref-type="bibr">Tong et al., 2001</xref>; <xref rid="bib111" ref-type="bibr">Schuldiner et al., 2005</xref>; <xref rid="bib120" ref-type="bibr">Tong and Boone, 2006</xref>; <xref rid="bib106" ref-type="bibr">Roguev et al., 2008</xref>). The first compilation of a global genetic map was composed of genetic interaction profiles that covered 75% of all genes in yeast (<xref rid="bib28" ref-type="bibr">Costanzo et al., 2010</xref>). These initial studies have revealed that the genetic interaction profile of one allele, against a genomic collection of other alleles, comprises a unique phenotypic signature that can be used to deduce uncharacterized functions and to order sets of genes within novel functional pathways (<xref rid="bib13" ref-type="bibr">Beltrao et al., 2010</xref>; <xref rid="bib28" ref-type="bibr">Costanzo et al., 2010</xref>; <xref rid="bib11" ref-type="bibr">Baryshnikova et al., 2013</xref>). Such global genetic interaction networks are assembled by systematically measuring the degree of epistasis that pairs of genetic alleles impart on each other. The strength of epistasis of one allele against another cannot be assumed to scale linearly across a systematic array of all alleles in a genome. However, the systematic assembly of epistatic interactions between an allele of one gene against alleles in all other genes has successfully revealed the modularity of protein complexes as well as the cooperativity and redundancy that exists between known biological pathways and processes (<xref rid="bib11" ref-type="bibr">Baryshnikova et al., 2013</xref>). For example, comparing the genetic interaction network profiles with networks identified by chemical&#x02013;genetic perturbations can help predict the cellular targets of chemical compounds (<xref rid="bib52" ref-type="bibr">Hillenmeyer et al., 2008</xref>, <xref rid="bib53" ref-type="bibr">2010</xref>; <xref rid="bib28" ref-type="bibr">Costanzo et al., 2010</xref>; <xref rid="bib74" ref-type="bibr">Lee et al., 2014</xref>). These functional genetics studies also highlight the challenge of pleiotropy for determining gene function with a reductionist approach. The unbiased, systematic, and quantitative characterization of genetic interaction networks has inverted the reductionist paradigm in defining a process-centric model of gene function to a component-centric model (<xref rid="bib130" ref-type="bibr">Weissman, 2010</xref>). For example, a compilation of 53 point mutation alleles of yeast RNA polymerase II was used to assemble and systematically interrogate the functional characteristics of each of its subdomains (<xref rid="bib18" ref-type="bibr">Braberg et al., 2013</xref>). This detailed analysis allowed a high-resolution dissection of coordinated RNA polymerase II activities in transcriptional regulation, including the rate of transcription, splicing events, and start site selection (<xref rid="bib18" ref-type="bibr">Braberg et al., 2013</xref>). Phenotypic screening is also not limited to cellular growth or fitness. For example, SGA technology has been coupled to an automated microscopy platform to allow systematic interrogation of spindle pole body assembly and microtubule dynamics in yeast (<xref rid="bib127" ref-type="bibr">Vizeacoumar et al., 2010</xref>; <xref rid="bib20" ref-type="bibr">Breker et al., 2013</xref>; <xref ref-type="fig" rid="fig2">Fig. 2</xref>). The combination of high-content screening and SGA technology has also been used to study peroxisome dynamics (<xref rid="bib109" ref-type="bibr">Saleem et al., 2010</xref>; <xref rid="bib26" ref-type="bibr">Cohen et al., 2014</xref>).</p><fig id="fig2" orientation="portrait" position="float"><label>Figure 2.</label><caption><p><bold>High-content microscopy screening combined with SGA technology.</bold> (a) SGA methods are used to integrate fluorescent markers into a yeast library. Depicted is the combining of two fluorescent markers, TEF2pr-mCherry, and a library where each yeast open reading frame has been C-terminally tagged with GFP. (b) Automated microscopy and image processing techniques enable the extraction of relevant information such as protein localization and intensity, which is a proxy for abundance. (c&#x02013;e) Statistical methods can be used to normalize the quantified data and group proteins and classify them in relation to a particular cellular response. Reproduced from <xref rid="bib20" ref-type="bibr">Breker et al. (2013)</xref>. Bars, 5 &#x000b5;m.</p></caption><graphic xlink:href="JCB_201405027_Fig2"/></fig><p>One exciting application of functional genetics is identifying novel drug candidates for cancer (<xref rid="bib69" ref-type="bibr">Kuiken and Beijersbergen, 2010</xref>). Here, the idea is to search for pathways and genetic interactions that are relevant in the context of a particular cancer or infection and target these pathways and genes for therapeutic intervention. For example, synthetic lethal interactors of oncogenic <italic>MYC</italic> have been identified through systematic siRNA screens of &#x0201c;druggable&#x0201d; genes, a collection of the human genome whose protein products are known or considered likely to bind with high affinity to known small molecules (<xref rid="bib24" ref-type="bibr">Cheng et al., 2007</xref>; <xref rid="bib123" ref-type="bibr">Toyoshima et al., 2012</xref>). This strategy ensures that sensitivity to the drug only occurs in the presence of oncogenic <italic>MYC</italic> and therefore is applicable in cases where targeting the oncogene itself is not practical or feasible. It also greatly expands the number of druggable targets for a given disease. Similar strategies for certain infectious diseases, where a virus or bacterial pathogen usurps the role of host cellular machinery, seem possible and are another potential application of functional genomics and systems cell biology.</p></sec><sec disp-level="2"><title>Systems analysis using public databases: Modeling guides experimentation</title><p>Publicly available databases of genetic expression data, proteomics data, functional genomic screens, and automated microscopy data repositories are available to provide the inputs necessary for large-scale systems analysis to initiate systems-level interrogations. In many cases, hypotheses formed from the evaluation of a systems dataset are easily addressed with targeted and more traditional approaches to cell biology. They may also serve as a guide for choosing the right type of systems approach to invest for use in further study.</p><p>This approach was recently validated for a globally predictive environmental and gene regulatory influence network (EGRIN) model of peroxisome biogenesis in yeast (<xref rid="bib29" ref-type="bibr">Danziger et al., 2014</xref>). The predictive capacity of the model was subsequently verified in a gene-by-gene focused study of the top candidates to more accurately assess activator or repressor function. This layered and iterative approach added an additional regulatory circuit composed of genes previously not associated with regulating peroxisome biogenesis and integrated them into a model containing a well-studied regulatory circuit. The virtuous cycle of model refinement and the explanatory power of the mechanistically predictive model aptly demonstrate the promise of systems biology to improving our understanding of cellular mechanisms.</p><p>An important outcome and aim of systems cell biology will need to be the continued creation and curation of high-quality repositories for systems-level data that ensure accessibility and ease of use for the entire biological community (<xref rid="bib49" ref-type="bibr">Hakenberg et al., 2004</xref>; <xref rid="bib119" ref-type="bibr">Stark et al., 2006</xref>; <xref rid="bib68" ref-type="bibr">Kowald and Schmeier, 2011</xref>; <xref rid="bib22" ref-type="bibr">Chatr-aryamontri et al., 2013</xref>).</p></sec><sec disp-level="2"><title>Modeling cellular systems</title><p>The spectrum of modeling approaches span from conceptual to mechanistic and from focused to broad (<xref rid="bib7" ref-type="bibr">Aldridge et al., 2006</xref>). It is beyond the scope of this review to cover the plethora of modeling approaches that exist for cell biology (see <xref rid="bib85" ref-type="bibr">Meier-Schellersheim et al., 2009</xref>; <xref rid="bib23" ref-type="bibr">Chen et al., 2010</xref>; <xref rid="bib40" ref-type="bibr">Ferrell et al., 2011</xref>; <xref rid="bib101" ref-type="bibr">Ratushny et al., 2011a</xref>; <xref rid="bib88" ref-type="bibr">Mogilner et al., 2012</xref>; <xref rid="bib72" ref-type="bibr">Lander, 2013</xref>). However, within a systems biology paradigm, modeling forms a central part of a cycle that includes the interpretation and integration of existing and new data, the formation of new hypotheses, and the exploration of relative parameters that aid in designing new experiments to test the model (<xref ref-type="fig" rid="fig1">Fig. 1</xref>). Modeling brings objectivity and minimizes the phenomenon of pareidolia, the illusion or misperception of perceiving a vague or obscure stimulus as clear and distinct, in the complex patterns found in systems biology data (<xref ref-type="fig" rid="fig3">Fig. 3</xref>).</p><fig id="fig3" orientation="portrait" position="float"><label>Figure 3.</label><caption><p><bold>Common pitfalls in systems cell biology include pareidolia and experimenter bias.</bold> (a) Two satellite photos of an elevated area of land in the Cydonia region of Mars. The image on the left gives the illusion of a face due to the perspective of the image and its relatively low resolution. This illusion is missing from the higher-resolution image on the right. Images captured by the National Aeronautics and Space Administration (NASA). (b) Results from an SGA experiment before (left) and after (right) statistical normalization of the data reflect the pareidolia phenomenon. (c) Rorschach blot 01 is the first in a series of ink blots used in psychological tests that evaluate a subject&#x02019;s interpretation of ambiguous images for clues about their personality and mental state. Image generated by Hermann Rorschach. (d) A network diagram based on the yeast regulome (<xref rid="bib93" ref-type="bibr">Payne and Garrels, 1997</xref>) is subject to a similar bias when a familiar node of interest is focused upon.</p></caption><graphic xlink:href="JCB_201405027_Fig3"/></fig><p>The goal of modeling is to not merely imitate biological behavior but to simulate perturbations to the system in order to provide quantitative and reliable predictions of function. However, the relationship between any particular model and a set of observations is rarely unique; the number of possible models for a given system is too large without a theory to focus the search space (<xref rid="bib21" ref-type="bibr">Brenner, 2010</xref>). Therefore, the pairing of a modeling approach with a biological system is important, as each modeling method has individual requirements, limitations, and predictive power. The utility of any given model is in its ability to focus experiments that are predicted to be most informative to the biological area of interest. This is critical given the vast potential of solutions imparted by evolution. Models sharpen questions (<xref rid="bib84" ref-type="bibr">Matessi and Karlin, 1984</xref>).</p><p>Combining modeling with experimentation often leads to new insights synergistically. For example, global monitoring of the GINS complex combined with a very simple model of its movements revealed a surprisingly uniform progression of replication across the genome (<xref rid="bib112" ref-type="bibr">Sekedat et al., 2010</xref>). The GINS complex is essential for establishing the DNA replication fork that is central to chromosome replication (<xref rid="bib70" ref-type="bibr">Labib and Gambus, 2007</xref>). Time-resolved chromatin immunoprecipitation (ChIP)-chip experiments were compared with simulations that recapitulated the observed dynamics using an iterative model that relies on reliable assumptions of the distribution of start times, replication velocity, efficiency of initiation, and pausing. The combination of systems data acquisition and accurate models that simulated the data was then used to study firing efficiencies at several replication origins and to study the effect of highly transcribed transfer RNA (tRNA) genes on replication fork arrest (<xref rid="bib112" ref-type="bibr">Sekedat et al., 2010</xref>).</p><p>Qualitative models that use pictures and diagrams with connecting arrows to propose mechanisms are likely the most common and most familiar type of models used by cell biologists. Challenges arise when such models are too abstract, when they depict mechanisms that operate outside of the scale of study, or when an attempt is made to incorporate many different types of experimental observations made under different time frames, conditions, or scales. Formalizing these qualitative models into more mechanistic and multiscale models is an essential step in systems cell biology. For example, we have studied the mechanisms of peroxisome regulation and biogenesis by integrating various global systems datasets to build both kinetic models and genome-wide statistical models (<xref rid="bib115" ref-type="bibr">Smith et al., 2007</xref>, <xref rid="bib116" ref-type="bibr">2011a</xref>,<xref rid="bib117" ref-type="bibr">b</xref>; <xref rid="bib100" ref-type="bibr">Ratushny et al., 2008</xref>, <xref rid="bib103" ref-type="bibr">2012</xref>; <xref rid="bib29" ref-type="bibr">Danziger et al., 2014</xref>). These and other studies have revealed the coordination of peroxisome dynamics with other cellular processes. Focusing on peroxisome biogenesis, transcription was shown to control peroxisomal metabolism and peroxisome import and fission machineries, but not components of de novo peroxisome biogenesis. This suggests the utility of transcriptional regulatory data in informing models of regulated peroxisome biogenesis (for review see <xref rid="bib114" ref-type="bibr">Smith and Aitchison, 2013</xref>).</p><p>Models also help to explore the features and topologies of large networks that are useful for studying emergent systems properties. Research into the universality of network structure has revealed several shared characteristics including the small-world phenomenon; that is, molecular networks are like social networks, separated by only a handful of connections (<xref rid="bib86" ref-type="bibr">Milgram, 1967</xref>; <xref rid="bib129" ref-type="bibr">Watts and Strogatz, 1998</xref>; <xref rid="bib12" ref-type="bibr">Barzel and Barab&#x000e1;si, 2013</xref>). However, at this level many networks fall prey to the &#x0201c;hair-ball&#x0201d; syndrome and can become unintelligible. Furthermore, the ontological assignments provided in these large-scale networks are oftentimes myopic because they are assigned based on partially characterized phenomena and ignore the unknowns. One solution to this problem is to systematically infer ontological features from the data itself (<xref rid="bib35" ref-type="bibr">Dutkowski et al., 2013</xref>). By repeating this process in combination with the integration of new data into repositories, we can refine the ontologies that reflect the system characteristics of individual cellular components.</p><p>Bringing the leverage of systems biology tools from the level of large networks to the level of the molecules and macromolecular complexes populating these networks is a frontier where both progress and challenges exist. Here, the central challenge is to equate the structural elements of a protein encoded in the genome with the functional capabilities that are phenotypically observed. This is confounded by the modularity evidenced in cells as well as the observed fact that many proteins participate in multiple different complexes. Efforts to map the structure&#x02013;function relationship with the subcomponents of the nuclear pore complex (NPC) help to illustrate this point (<xref rid="bib107" ref-type="bibr">Rout et al., 2000</xref>; <xref rid="bib51" ref-type="bibr">Hetzer and Wente, 2009</xref>; <xref rid="bib4" ref-type="bibr">Aitchison and Rout, 2012</xref>; <xref ref-type="fig" rid="fig4">Fig. 4</xref>). Structural, biochemical, and genetic evidence has revealed a modular NPC with eightfold symmetry (<xref rid="bib5" ref-type="bibr">Alber et al., 2007</xref>; <xref rid="bib54" ref-type="bibr">Hoelz et al., 2011</xref>). Forming the outer rings of the NPC is the Nup84 complex, a heptameric modular structure composed of Nup133, Nup120, Nup145c, Nup85, Nup84, Seh1, and Sec13. Seh1 and Sec13 are also components of the Seh1-associated complex and the COPII vesicle-coating complex (<xref rid="bib10" ref-type="bibr">Barlowe et al., 1994</xref>; <xref rid="bib118" ref-type="bibr">Stagg et al., 2006</xref>), and this complicates the matter of assigning specific functions to these proteins within the NPC. To determine the subunit arrangement and morphology of the Nup84 complex, an extensive domain-mapping proteomics approach was used to identify contact points within the subcomplex, as well as between the Nup84 complex and the rest of the NPC (<xref rid="bib39" ref-type="bibr">Fernandez-Martinez et al., 2012</xref>). In addition, negative stain electron microscopy was used to obtain structural information on the different truncated forms of the complex. These data were then translated into spatial restraints and integrated with existing structural data for individual components to build a density map for the Nup84 complex and its arrangement within the NPC (<xref ref-type="fig" rid="fig4">Fig. 4</xref>). This process of data integration in combination with modeling, iteration, and refinement, while specific to a portion of a much larger nuclear pore complex, is a specific example of how to systematically explore cellular function.</p><fig id="fig4" orientation="portrait" position="float"><label>Figure 4.</label><caption><p><bold>Integrative biology combining multiple experimental approaches with statistical inference and modeling approaches.</bold> Structural data on the Nup84 complex was derived from domain mapping, negative stain electron microscopy, and x-ray crystallography experiments and integrated with comparative data modeling and bioinformatics methods. The resulting structural models were then overlaid with data from functional mapping experiments. The process is refined by iteration and results in a set of possible structural configurations from which inferences can be made regarding the dynamics of this subcomplex within the much larger nuclear pore complex. Reproduced from <xref rid="bib39" ref-type="bibr">Fernandez-Martinez et al. (2012)</xref>.</p></caption><graphic xlink:href="JCB_201405027_Fig4"/></fig></sec><sec disp-level="2"><title>Challenges</title><p>Notwithstanding our expanded potential to map and quantify molecular components, processes, and functions of biological systems with advanced technologies, our understanding of many parts of these systems is far from complete. There are several major challenges that remain to be addressed in order to effectively model, systematically explore, and predictably control biological systems.</p><p>First, high-throughput experimental measurements often uncover intricate relationships between hundreds or thousands of molecular components. This simple fact dramatically increases the number of parameters that need to be included in corresponding models, which in turn necessitates a deluge of new experiments and system interrogations for validation of these parameters. It is important to develop modeling and analytical approaches for rational formulation and parameterization of mathematical models and optimal experimental design. This is especially critical for analysis of combinatorial regulations to avoid an explosion in the number of parameters using algorithms for rational reduction of the model complexity (<xref rid="bib16" ref-type="bibr">Bongard and Lipson, 2007</xref>; <xref rid="bib75" ref-type="bibr">Likhoshvai and Ratushny, 2007</xref>). It is also important to develop methods for linking genome-scale models (<xref rid="bib17" ref-type="bibr">Bonneau et al., 2007</xref>; <xref rid="bib29" ref-type="bibr">Danziger et al., 2014</xref>) with meso- (<xref rid="bib81" ref-type="bibr">Martin et al., 1990</xref>; <xref rid="bib55" ref-type="bibr">Hoffmann et al., 2002</xref>; <xref rid="bib100" ref-type="bibr">Ratushny et al., 2008</xref>; <xref rid="bib9" ref-type="bibr">Ashall et al., 2009</xref>; <xref rid="bib92" ref-type="bibr">Pang et al., 2013</xref>) and small-scale (<xref rid="bib19" ref-type="bibr">Brandman et al., 2005</xref>; <xref rid="bib124" ref-type="bibr">Tsai et al., 2008</xref>; <xref rid="bib103" ref-type="bibr">Ratushny et al., 2012</xref>; <xref rid="bib132" ref-type="bibr">Wurtmann et al., 2014</xref>) models of relevant subsystems for effective and systematic exploration of the underlying detailed mechanisms. Such methods and models (<xref rid="bib61" ref-type="bibr">Karr et al., 2012</xref>) are essential for the investigation of transient responses of biological systems when their complexity is maximally exposed due to the presence of nonlinear cooperative and synergistic effects, along with feedback and feed-forward regulatory mechanisms (<xref rid="bib8" ref-type="bibr">Alon, 2007</xref>; <xref rid="bib14" ref-type="bibr">Bennett et al., 2008</xref>; <xref rid="bib100" ref-type="bibr">Ratushny et al., 2008</xref>, <xref rid="bib102" ref-type="bibr">2011b</xref>; <xref rid="bib9" ref-type="bibr">Ashall et al., 2009</xref>; <xref rid="bib77" ref-type="bibr">Litvak et al., 2009</xref>).</p><p>This issue is compounded by the fact that many systems techniques take measurements of populations of cells and molecules rather than of single cells and molecules. Averaging a signal over the population can obscure important phenomena such as phase variation and the processing and response to stochasticity. Techniques that enable the measurement of the genome, transcriptome, metabolome, or proteome of single cells are being developed (<xref rid="bib108" ref-type="bibr">Rubakhin et al., 2011</xref>; <xref rid="bib42" ref-type="bibr">Giesen et al., 2014</xref>; <xref rid="bib46" ref-type="bibr">Gr&#x000fc;n et al., 2014</xref>; <xref rid="bib63" ref-type="bibr">Klemm et al., 2014</xref>). The ability to make quantitative measurements of many different molecules repeated on the same cell over time and to multiply this process for many cells would pave the way for understanding biological variability.</p><p>Second, the heterogeneity of experimental data and the difficulties in obtaining relevant high-quality data for particular conditions challenges the building cycle of predictive models. Often, available experimental data are not sufficient to fully inform molecular mechanisms of the vast majority of biological systems, and researchers struggle with &#x0201c;black&#x0201d; or &#x0201c;gray&#x0201d; box problems, trying to investigate partially known or poorly understood molecular subsystems. Thus, it is important to develop modeling approaches that allow rational selection of the most appropriate level of detail in the model and match its complexity with the complexity of available experimental data and prior knowledge about the biological system (<xref rid="bib75" ref-type="bibr">Likhoshvai and Ratushny, 2007</xref>; <xref rid="bib16" ref-type="bibr">Bongard and Lipson, 2007</xref>; <xref rid="bib110" ref-type="bibr">Schmidt and Lipson, 2009</xref>; <xref rid="bib101" ref-type="bibr">Ratushny et al., 2011a</xref>).</p><p>Third, molecular processes of many biological systems inherently occur on multiple scales in time and space. Temporally, they span from very fast processes (e.g., formation of molecular complexes and signaling) to relatively slow processes (e.g., organelle biogenesis and cell division). Spatially, biological systems are multicompartmental structures, and frequently many biomolecular processes within any given compartment are inhomogeneous (<xref rid="bib88" ref-type="bibr">Mogilner et al., 2012</xref>). Integration and exploration of biological processes at multiple levels simultaneously or, in contrast, constructing multiscale models, are fundamental challenges. Furthermore, the nature of biological processes is very diverse and can be viewed/modeled as preferably discrete and stochastic, or, conversely, relatively continuous and deterministic. Therefore, it is crucial to develop flexible hybrid modeling approaches that simultaneously and effectively span the various processes in cells, from the molecular to the morphological. These approaches should integrate temporal and spatial multiscale properties of biological systems and allow a reversible cross-scale flow of information within a single model.</p><p>How the cell manages the processing, storage, and transmission of information across multiple scales remains an exceptional challenge (<xref rid="bib91" ref-type="bibr">Nurse and Hayles, 2011</xref>). In particular, discovering the extent to which different systems mechanisms are responsible for cellular function, and how systems motifs can be combined to bring about new phenotypes, are exciting avenues of pursuit. The future of cell biology as outlined here will increasingly come to rely on systems approaches. It is an exciting time to be pursuing the new biology of the 21st century.</p></sec></body><back><ack><p>The authors thank members of the Aitchison laboratory for critical comments on the manuscript and for discussion. We also thank the anonymous reviewers, even Reviewer 3, who in this case was phenomenal.</p><p>Research in the Aitchison laboratory is supported by grants P50 GM076547, U54 GM103511, and U01 GM098256 from the National Institutes of Health.</p><p>The authors declare no competing financial interests.</p></ack><fn-group><fn><p><def-list><title>Abbreviations used in this paper:</title><def-item><term>MS</term><def><p>mass spectrometry</p></def></def-item><def-item><term>NGS</term><def><p>next-generation sequencing</p></def></def-item><def-item><term>PPI</term><def><p>protein&#x02013;protein interaction</p></def></def-item><def-item><term>SGA</term><def><p>synthetic genetic array</p></def></def-item><def-item><term>SRM</term><def><p>selective reaction monitoring</p></def></def-item><def-item><term>SWATH</term><def><p>sequential window acquisition of all theoretical spectra</p></def></def-item></def-list></p></fn></fn-group><ref-list><ref id="bib1"><mixed-citation publication-type="journal"><collab>1000 Genomes Project Consortium</collab>, <person-group person-group-type="author"><string-name><surname>Abecasis</surname><given-names>G.R.</given-names></string-name>, <string-name><given-names>D.</given-names><surname>Altshuler</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Auton</surname></string-name>, <string-name><given-names>L.D.</given-names>
+<surname>Brooks</surname></string-name>, <string-name><given-names>R.M.</given-names>
+<surname>Durbin</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Gibbs</surname></string-name>, <string-name><given-names>M.E.</given-names>
+<surname>Hurles</surname></string-name>, and <string-name><given-names>G.A.</given-names>
+<surname>McVean</surname></string-name></person-group>
+<year>2010</year>
+<article-title>A map of human genome variation from population-scale sequencing</article-title>. <source>Nature.</source><volume>467</volume>:<fpage>1061</fpage>&#x02013;<lpage>1073</lpage>
+<comment>(published erratum appears in <italic>Nature</italic>. 2011. 473:544)</comment><pub-id pub-id-type="doi">10.1038/nature09534</pub-id><pub-id pub-id-type="pmid">20981092</pub-id></mixed-citation></ref><ref id="bib2"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ackermann</surname>, <given-names>B.L.</given-names></string-name>, <string-name><given-names>M.J.</given-names>
+<surname>Berna</surname></string-name>, <string-name><given-names>J.A.</given-names>
+<surname>Eckstein</surname></string-name>, <string-name><given-names>L.W.</given-names>
+<surname>Ott</surname></string-name>, and <string-name><given-names>A.K.</given-names>
+<surname>Chaudhary</surname></string-name></person-group>
+<year>2008</year>
+<article-title>Current applications of liquid chromatography/mass spectrometry in pharmaceutical discovery after a decade of innovation</article-title>. <source>Annu. Rev. Anal. Chem. (Palo Alto Calif).</source><volume>1</volume>:<fpage>357</fpage>&#x02013;<lpage>396</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.anchem.1.031207.112855</pub-id><pub-id pub-id-type="pmid">20636083</pub-id></mixed-citation></ref><ref id="bib3"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Aitchison</surname>, <given-names>J.D.</given-names></string-name>, and <string-name><given-names>T.</given-names>
+<surname>Galitski</surname></string-name></person-group>
+<year>2003</year>
+<article-title>Inventories to insights</article-title>. <source>J. Cell Biol.</source><volume>161</volume>:<fpage>465</fpage>&#x02013;<lpage>469</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200302041</pub-id><pub-id pub-id-type="pmid">12743099</pub-id></mixed-citation></ref><ref id="bib4"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Aitchison</surname>, <given-names>J.D.</given-names></string-name>, and <string-name><given-names>M.P.</given-names>
+<surname>Rout</surname></string-name></person-group>
+<year>2012</year>
+<article-title>The yeast nuclear pore complex and transport through it</article-title>. <source>Genetics.</source><volume>190</volume>:<fpage>855</fpage>&#x02013;<lpage>883</lpage>
+<pub-id pub-id-type="doi">10.1534/genetics.111.127803</pub-id><pub-id pub-id-type="pmid">22419078</pub-id></mixed-citation></ref><ref id="bib5"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Alber</surname>, <given-names>F.</given-names></string-name>, <string-name><given-names>S.</given-names>
+<surname>Dokudovskaya</surname></string-name>, <string-name><given-names>L.M.</given-names>
+<surname>Veenhoff</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Kipper</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Devos</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Suprapto</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Karni-Schmidt</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Williams</surname></string-name>, <string-name><given-names>B.T.</given-names>
+<surname>Chait</surname></string-name>, <etal/></person-group>
+<year>2007</year>
+<article-title>Determining the architectures of macromolecular assemblies</article-title>. <source>Nature.</source><volume>450</volume>:<fpage>683</fpage>&#x02013;<lpage>694</lpage>
+<pub-id pub-id-type="doi">10.1038/nature06404</pub-id><pub-id pub-id-type="pmid">18046405</pub-id></mixed-citation></ref><ref id="bib6"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Alberts</surname>, <given-names>B.</given-names></string-name></person-group><year>1998</year>
+<article-title>The cell as a collection of protein machines: preparing the next generation of molecular biologists</article-title>. <source>Cell.</source><volume>92</volume>:<fpage>291</fpage>&#x02013;<lpage>294</lpage>
+<pub-id pub-id-type="doi">10.1016/S0092-8674(00)80922-8</pub-id><pub-id pub-id-type="pmid">9476889</pub-id></mixed-citation></ref><ref id="bib7"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Aldridge</surname>, <given-names>B.B.</given-names></string-name>, <string-name><given-names>J.M.</given-names>
+<surname>Burke</surname></string-name>, <string-name><given-names>D.A.</given-names>
+<surname>Lauffenburger</surname></string-name>, and <string-name><given-names>P.K.</given-names>
+<surname>Sorger</surname></string-name></person-group>
+<year>2006</year>
+<article-title>Physicochemical modelling of cell signalling pathways</article-title>. <source>Nat. Cell Biol.</source><volume>8</volume>:<fpage>1195</fpage>&#x02013;<lpage>1203</lpage>
+<pub-id pub-id-type="doi">10.1038/ncb1497</pub-id><pub-id pub-id-type="pmid">17060902</pub-id></mixed-citation></ref><ref id="bib8"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Alon</surname>, <given-names>U.</given-names></string-name></person-group><year>2007</year>
+<article-title>Network motifs: theory and experimental approaches</article-title>. <source>Nat. Rev. Genet.</source><volume>8</volume>:<fpage>450</fpage>&#x02013;<lpage>461</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg2102</pub-id><pub-id pub-id-type="pmid">17510665</pub-id></mixed-citation></ref><ref id="bib9"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ashall</surname>, <given-names>L.</given-names></string-name>, <string-name><given-names>C.A.</given-names>
+<surname>Horton</surname></string-name>, <string-name><given-names>D.E.</given-names>
+<surname>Nelson</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Paszek</surname></string-name>, <string-name><given-names>C.V.</given-names>
+<surname>Harper</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Sillitoe</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Ryan</surname></string-name>, <string-name><given-names>D.G.</given-names>
+<surname>Spiller</surname></string-name>, <string-name><given-names>J.F.</given-names>
+<surname>Unitt</surname></string-name>, <string-name><given-names>D.S.</given-names>
+<surname>Broomhead</surname></string-name>, <etal/></person-group>
+<year>2009</year>
+<article-title>Pulsatile stimulation determines timing and specificity of NF-&#x003ba;B-dependent transcription</article-title>. <source>Science.</source><volume>324</volume>:<fpage>242</fpage>&#x02013;<lpage>246</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1164860</pub-id><pub-id pub-id-type="pmid">19359585</pub-id></mixed-citation></ref><ref id="bib10"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Barlowe</surname>, <given-names>C.</given-names></string-name>, <string-name><given-names>L.</given-names>
+<surname>Orci</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Yeung</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Hosobuchi</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Hamamoto</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Salama</surname></string-name>, <string-name><given-names>M.F.</given-names>
+<surname>Rexach</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Ravazzola</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Amherdt</surname></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Schekman</surname></string-name></person-group>
+<year>1994</year>
+<article-title>COPII: a membrane coat formed by Sec proteins that drive vesicle budding from the endoplasmic reticulum</article-title>. <source>Cell.</source><volume>77</volume>:<fpage>895</fpage>&#x02013;<lpage>907</lpage>
+<pub-id pub-id-type="doi">10.1016/0092-8674(94)90138-4</pub-id><pub-id pub-id-type="pmid">8004676</pub-id></mixed-citation></ref><ref id="bib11"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Baryshnikova</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Costanzo</surname></string-name>, <string-name><given-names>C.L.</given-names>
+<surname>Myers</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Andrews</surname></string-name>, and <string-name><given-names>C.</given-names>
+<surname>Boone</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Genetic interaction networks: toward an understanding of heritability</article-title>. <source>Annu. Rev. Genomics Hum. Genet.</source><volume>14</volume>:<fpage>111</fpage>&#x02013;<lpage>133</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-genom-082509-141730</pub-id><pub-id pub-id-type="pmid">23808365</pub-id></mixed-citation></ref><ref id="bib12"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Barzel</surname>, <given-names>B.</given-names></string-name>, and <string-name><given-names>A.-L.</given-names>
+<surname>Barab&#x000e1;si</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Universality in network dynamics</article-title>. <source>Nat. Phys.</source><volume>9</volume>:<fpage>750</fpage>
+<pub-id pub-id-type="doi">10.1038/nphys2797</pub-id></mixed-citation></ref><ref id="bib13"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Beltrao</surname>, <given-names>P.</given-names></string-name>, <string-name><given-names>G.</given-names>
+<surname>Cagney</surname></string-name>, and <string-name><given-names>N.J.</given-names>
+<surname>Krogan</surname></string-name></person-group>
+<year>2010</year>
+<article-title>Quantitative genetic interactions reveal biological modularity</article-title>. <source>Cell.</source><volume>141</volume>:<fpage>739</fpage>&#x02013;<lpage>745</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2010.05.019</pub-id><pub-id pub-id-type="pmid">20510918</pub-id></mixed-citation></ref><ref id="bib14"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bennett</surname>, <given-names>M.R.</given-names></string-name>, <string-name><given-names>W.L.</given-names>
+<surname>Pang</surname></string-name>, <string-name><given-names>N.A.</given-names>
+<surname>Ostroff</surname></string-name>, <string-name><given-names>B.L.</given-names>
+<surname>Baumgartner</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Nayak</surname></string-name>, <string-name><given-names>L.S.</given-names>
+<surname>Tsimring</surname></string-name>, and <string-name><given-names>J.</given-names>
+<surname>Hasty</surname></string-name></person-group>
+<year>2008</year>
+<article-title>Metabolic gene regulation in a dynamically changing environment</article-title>. <source>Nature.</source><volume>454</volume>:<fpage>1119</fpage>&#x02013;<lpage>1122</lpage>
+<pub-id pub-id-type="doi">10.1038/nature07211</pub-id><pub-id pub-id-type="pmid">18668041</pub-id></mixed-citation></ref><ref id="bib15"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bisson</surname>, <given-names>N.</given-names></string-name>, <string-name><given-names>D.A.</given-names>
+<surname>James</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Ivosev</surname></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>Tate</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Bonner</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Taylor</surname></string-name>, and <string-name><given-names>T.</given-names>
+<surname>Pawson</surname></string-name></person-group>
+<year>2011</year>
+<article-title>Selected reaction monitoring mass spectrometry reveals the dynamics of signaling through the GRB2 adaptor</article-title>. <source>Nat. Biotechnol.</source><volume>29</volume>:<fpage>653</fpage>&#x02013;<lpage>658</lpage>
+<pub-id pub-id-type="doi">10.1038/nbt.1905</pub-id><pub-id pub-id-type="pmid">21706016</pub-id></mixed-citation></ref><ref id="bib16"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bongard</surname>, <given-names>J.</given-names></string-name>, and <string-name><given-names>H.</given-names>
+<surname>Lipson</surname></string-name></person-group>
+<year>2007</year>
+<article-title>Automated reverse engineering of nonlinear dynamical systems</article-title>. <source>Proc. Natl. Acad. Sci. USA.</source><volume>104</volume>:<fpage>9943</fpage>&#x02013;<lpage>9948</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0609476104</pub-id><pub-id pub-id-type="pmid">17553966</pub-id></mixed-citation></ref><ref id="bib17"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Bonneau</surname>, <given-names>R.</given-names></string-name>, <string-name><given-names>M.T.</given-names>
+<surname>Facciotti</surname></string-name>, <string-name><given-names>D.J.</given-names>
+<surname>Reiss</surname></string-name>, <string-name><given-names>A.K.</given-names>
+<surname>Schmid</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Pan</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Kaur</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Thorsson</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Shannon</surname></string-name>, <string-name><given-names>M.H.</given-names>
+<surname>Johnson</surname></string-name>, <string-name><given-names>J.C.</given-names>
+<surname>Bare</surname></string-name>, <etal/></person-group>
+<year>2007</year>
+<article-title>A predictive model for transcriptional control of physiology in a free living cell</article-title>. <source>Cell.</source><volume>131</volume>:<fpage>1354</fpage>&#x02013;<lpage>1365</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2007.10.053</pub-id><pub-id pub-id-type="pmid">18160043</pub-id></mixed-citation></ref><ref id="bib18"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Braberg</surname>, <given-names>H.</given-names></string-name>, <string-name><given-names>H.</given-names>
+<surname>Jin</surname></string-name>, <string-name><given-names>E.A.</given-names>
+<surname>Moehle</surname></string-name>, <string-name><given-names>Y.A.</given-names>
+<surname>Chan</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Shales</surname></string-name>, <string-name><given-names>J.J.</given-names>
+<surname>Benschop</surname></string-name>, <string-name><given-names>J.H.</given-names>
+<surname>Morris</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Qiu</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Hu</surname></string-name>, <etal/></person-group>
+<year>2013</year>
+<article-title>From structure to systems: high-resolution, quantitative genetic analysis of RNA polymerase II</article-title>. <source>Cell.</source><volume>154</volume>:<fpage>775</fpage>&#x02013;<lpage>788</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.07.033</pub-id><pub-id pub-id-type="pmid">23932120</pub-id></mixed-citation></ref><ref id="bib19"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brandman</surname>, <given-names>O.</given-names></string-name>, <string-name><given-names>J.E.</given-names>
+<surname>Ferrell</surname>
+<suffix>Jr</suffix></string-name>, <string-name><given-names>R.</given-names>
+<surname>Li</surname></string-name>, and <string-name><given-names>T.</given-names>
+<surname>Meyer</surname></string-name></person-group>
+<year>2005</year>
+<article-title>Interlinked fast and slow positive feedback loops drive reliable cell decisions</article-title>. <source>Science.</source><volume>310</volume>:<fpage>496</fpage>&#x02013;<lpage>498</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1113834</pub-id><pub-id pub-id-type="pmid">16239477</pub-id></mixed-citation></ref><ref id="bib20"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Breker</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Gymrek</surname></string-name>, and <string-name><given-names>M.</given-names>
+<surname>Schuldiner</surname></string-name></person-group>
+<year>2013</year>
+<article-title>A novel single-cell screening platform reveals proteome plasticity during yeast stress responses</article-title>. <source>J. Cell Biol.</source><volume>200</volume>:<fpage>839</fpage>&#x02013;<lpage>850</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.201301120</pub-id><pub-id pub-id-type="pmid">23509072</pub-id></mixed-citation></ref><ref id="bib21"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Brenner</surname>, <given-names>S.</given-names></string-name></person-group><year>2010</year>
+<article-title>Sequences and consequences</article-title>. <source>Philos. Trans. R. Soc. Lond. B Biol. Sci.</source><volume>365</volume>:<fpage>207</fpage>&#x02013;<lpage>212</lpage>
+<pub-id pub-id-type="doi">10.1098/rstb.2009.0221</pub-id><pub-id pub-id-type="pmid">20008397</pub-id></mixed-citation></ref><ref id="bib22"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chatr-aryamontri</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>B.-J.</given-names>
+<surname>Breitkreutz</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Heinicke</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Boucher</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Winter</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Stark</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Nixon</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Ramage</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Kolas</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>O&#x02019;Donnell</surname></string-name>, <etal/></person-group>
+<year>2013</year>
+<article-title>The BioGRID interaction database: 2013 update</article-title>. <source>Nucleic Acids Res.</source><volume>41</volume>:<fpage>D816</fpage>&#x02013;<lpage>D823</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gks1158</pub-id><pub-id pub-id-type="pmid">23203989</pub-id></mixed-citation></ref><ref id="bib23"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Chen</surname>, <given-names>W.W.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Niepel</surname></string-name>, and <string-name><given-names>P.K.</given-names>
+<surname>Sorger</surname></string-name></person-group>
+<year>2010</year>
+<article-title>Classic and contemporary approaches to modeling biochemical reactions</article-title>. <source>Genes Dev.</source><volume>24</volume>:<fpage>1861</fpage>&#x02013;<lpage>1875</lpage>
+<pub-id pub-id-type="doi">10.1101/gad.1945410</pub-id><pub-id pub-id-type="pmid">20810646</pub-id></mixed-citation></ref><ref id="bib24"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cheng</surname>, <given-names>A.C.</given-names></string-name>, <string-name><given-names>R.G.</given-names>
+<surname>Coleman</surname></string-name>, <string-name><given-names>K.T.</given-names>
+<surname>Smyth</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Cao</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Soulard</surname></string-name>, <string-name><given-names>D.R.</given-names>
+<surname>Caffrey</surname></string-name>, <string-name><given-names>A.C.</given-names>
+<surname>Salzberg</surname></string-name>, and <string-name><given-names>E.S.</given-names>
+<surname>Huang</surname></string-name></person-group>
+<year>2007</year>
+<article-title>Structure-based maximal affinity model predicts small-molecule druggability</article-title>. <source>Nat. Biotechnol.</source><volume>25</volume>:<fpage>71</fpage>&#x02013;<lpage>75</lpage>
+<pub-id pub-id-type="doi">10.1038/nbt1273</pub-id><pub-id pub-id-type="pmid">17211405</pub-id></mixed-citation></ref><ref id="bib25"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Claydon</surname>, <given-names>A.J.</given-names></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Beynon</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Proteome dynamics: revisiting turnover with a global perspective</article-title>. <source>Mol. Cell. Proteomics.</source><volume>11</volume>:<fpage>1551</fpage>&#x02013;<lpage>1565</lpage>
+<pub-id pub-id-type="doi">10.1074/mcp.O112.022186</pub-id><pub-id pub-id-type="pmid">23125033</pub-id></mixed-citation></ref><ref id="bib26"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Cohen</surname>, <given-names>Y.</given-names></string-name>, <string-name><given-names>Y.A.</given-names>
+<surname>Klug</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Dimitrov</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Erez</surname></string-name>, <string-name><given-names>S.G.</given-names>
+<surname>Chuartzman</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Elinger</surname></string-name>, <string-name><given-names>I.</given-names>
+<surname>Yofe</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Soliman</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>G&#x000e4;rtner</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Thoms</surname></string-name>, <etal/></person-group>
+<year>2014</year>
+<article-title>Peroxisomes are juxtaposed to strategic sites on mitochondria</article-title>. <source>Mol. Biosyst.</source><volume>10</volume>:<fpage>1742</fpage>&#x02013;<lpage>1748</lpage>
+<pub-id pub-id-type="doi">10.1039/c4mb00001c</pub-id><pub-id pub-id-type="pmid">24722918</pub-id></mixed-citation></ref><ref id="bib27"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Collins</surname>, <given-names>B.C.</given-names></string-name>, <string-name><given-names>L.C.</given-names>
+<surname>Gillet</surname></string-name>, <string-name><given-names>G.</given-names>
+<surname>Rosenberger</surname></string-name>, <string-name><given-names>H.L.</given-names>
+<surname>R&#x000f6;st</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Vichalkovski</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Gstaiger</surname></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Aebersold</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Quantifying protein interaction dynamics by SWATH mass spectrometry: application to the 14-3-3 system</article-title>. <source>Nat. Methods.</source><volume>10</volume>:<fpage>1246</fpage>&#x02013;<lpage>1253</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2703</pub-id><pub-id pub-id-type="pmid">24162925</pub-id></mixed-citation></ref><ref id="bib28"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Costanzo</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>A.</given-names>
+<surname>Baryshnikova</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Bellay</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>E.D.</given-names>
+<surname>Spear</surname></string-name>, <string-name><given-names>C.S.</given-names>
+<surname>Sevier</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Ding</surname></string-name>, <string-name><given-names>J.L.Y.</given-names>
+<surname>Koh</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Toufighi</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Mostafavi</surname></string-name>, <etal/></person-group>
+<year>2010</year>
+<article-title>The genetic landscape of a cell</article-title>. <source>Science.</source><volume>327</volume>:<fpage>425</fpage>&#x02013;<lpage>431</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1180823</pub-id><pub-id pub-id-type="pmid">20093466</pub-id></mixed-citation></ref><ref id="bib29"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Danziger</surname>, <given-names>S.A.</given-names></string-name>, <string-name><given-names>A.V.</given-names>
+<surname>Ratushny</surname></string-name>, <string-name><given-names>J.J.</given-names>
+<surname>Smith</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Saleem</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wan</surname></string-name>, <string-name><given-names>C.E.</given-names>
+<surname>Arens</surname></string-name>, <string-name><given-names>A.M.</given-names>
+<surname>Armstrong</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Sitko</surname></string-name>, <string-name><given-names>W.-M.</given-names>
+<surname>Chen</surname></string-name>, <string-name><given-names>J.-H.</given-names>
+<surname>Chiang</surname></string-name>, <etal/></person-group>
+<year>2014</year>
+<article-title>Molecular mechanisms of system responses to novel stimuli are predictable from public data</article-title>. <source>Nucleic Acids Res.</source><volume>42</volume>:<fpage>1442</fpage>&#x02013;<lpage>1460</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkt938</pub-id><pub-id pub-id-type="pmid">24185701</pub-id></mixed-citation></ref><ref id="bib30"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>de Duve</surname>, <given-names>C.</given-names></string-name></person-group><year>1964</year>
+<article-title>Principles of tissue fractionation</article-title>. <source>J. Theor. Biol.</source><volume>6</volume>:<fpage>33</fpage>&#x02013;<lpage>59</lpage>
+<pub-id pub-id-type="doi">10.1016/0022-5193(64)90065-7</pub-id><pub-id pub-id-type="pmid">5875177</pub-id></mixed-citation></ref><ref id="bib31"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>De Duve</surname>, <given-names>C.</given-names></string-name>, <string-name><given-names>H.</given-names>
+<surname>Beaufay</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Jacques</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Rahman-Li</surname></string-name>, <string-name><given-names>O.Z.</given-names>
+<surname>Sellinger</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Wattiaux</surname></string-name>, and <string-name><given-names>S.</given-names>
+<surname>De Coninck</surname></string-name></person-group>
+<year>1960</year>
+<article-title>Intracellular localization of catalase and of some oxidases in rat liver</article-title>. <source>Biochim. Biophys. Acta.</source><volume>40</volume>:<fpage>186</fpage>&#x02013;<lpage>187</lpage>
+<pub-id pub-id-type="doi">10.1016/0006-3002(60)91338-X</pub-id><pub-id pub-id-type="pmid">13814739</pub-id></mixed-citation></ref><ref id="bib32"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Djebali</surname>, <given-names>S.</given-names></string-name>, <string-name><given-names>C.A.</given-names>
+<surname>Davis</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Merkel</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Dobin</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Lassmann</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Mortazavi</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Tanzer</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Lagarde</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Schlesinger</surname></string-name>, <etal/></person-group>
+<year>2012</year>
+<article-title>Landscape of transcription in human cells</article-title>. <source>Nature.</source><volume>489</volume>:<fpage>101</fpage>&#x02013;<lpage>108</lpage>
+<pub-id pub-id-type="doi">10.1038/nature11233</pub-id><pub-id pub-id-type="pmid">22955620</pub-id></mixed-citation></ref><ref id="bib33"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Doerr</surname>, <given-names>A.</given-names></string-name></person-group><year>2013</year>
+<article-title>Mass spectrometry-based targeted proteomics</article-title>. <source>Nat. Methods.</source><volume>10</volume>:<fpage>23</fpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2286</pub-id><pub-id pub-id-type="pmid">23547294</pub-id></mixed-citation></ref><ref id="bib34"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Doolittle</surname>, <given-names>W.F.</given-names></string-name></person-group><year>2012</year>
+<article-title>Evolutionary biology: A ratchet for protein complexity</article-title>. <source>Nature.</source><volume>481</volume>:<fpage>270</fpage>&#x02013;<lpage>271</lpage><pub-id pub-id-type="pmid">22230958</pub-id></mixed-citation></ref><ref id="bib35"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Dutkowski</surname>, <given-names>J.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Kramer</surname></string-name>, <string-name><given-names>M.A.</given-names>
+<surname>Surma</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Balakrishnan</surname></string-name>, <string-name><given-names>J.M.</given-names>
+<surname>Cherry</surname></string-name>, <string-name><given-names>N.J.</given-names>
+<surname>Krogan</surname></string-name>, and <string-name><given-names>T.</given-names>
+<surname>Ideker</surname></string-name></person-group>
+<year>2013</year>
+<article-title>A gene ontology inferred from molecular networks</article-title>. <source>Nat. Biotechnol.</source><volume>31</volume>:<fpage>38</fpage>&#x02013;<lpage>45</lpage>
+<pub-id pub-id-type="doi">10.1038/nbt.2463</pub-id><pub-id pub-id-type="pmid">23242164</pub-id></mixed-citation></ref><ref id="bib36"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Eijkelenboom</surname>, <given-names>A.</given-names></string-name>, and <string-name><given-names>B.M.T.</given-names>
+<surname>Burgering</surname></string-name></person-group>
+<year>2013</year>
+<article-title>FOXOs: signalling integrators for homeostasis maintenance</article-title>. <source>Nat. Rev. Mol. Cell Biol.</source><volume>14</volume>:<fpage>83</fpage>&#x02013;<lpage>97</lpage>
+<pub-id pub-id-type="doi">10.1038/nrm3507</pub-id><pub-id pub-id-type="pmid">23325358</pub-id></mixed-citation></ref><ref id="bib37"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Elias</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>A.</given-names>
+<surname>Brighouse</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Gabernet-Castello</surname></string-name>, <string-name><given-names>M.C.</given-names>
+<surname>Field</surname></string-name>, and <string-name><given-names>J.B.</given-names>
+<surname>Dacks</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Sculpting the endomembrane system in deep time: high resolution phylogenetics of Rab GTPases</article-title>. <source>J. Cell Sci.</source><volume>125</volume>:<fpage>2500</fpage>&#x02013;<lpage>2508</lpage>
+<pub-id pub-id-type="doi">10.1242/jcs.101378</pub-id><pub-id pub-id-type="pmid">22366452</pub-id></mixed-citation></ref><ref id="bib38"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Farrah</surname>, <given-names>T.</given-names></string-name>, <string-name><given-names>E.W.</given-names>
+<surname>Deutsch</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Kreisberg</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>D.S.</given-names>
+<surname>Campbell</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Mendoza</surname></string-name>, <string-name><given-names>U.</given-names>
+<surname>Kusebauch</surname></string-name>, <string-name><given-names>M.-Y.</given-names>
+<surname>Brusniak</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>H&#x000fc;ttenhain</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Schiess</surname></string-name>, <etal/></person-group>
+<year>2012</year>
+<article-title>PASSEL: the PeptideAtlas SRMexperiment library</article-title>. <source>Proteomics.</source><volume>12</volume>:<fpage>1170</fpage>&#x02013;<lpage>1175</lpage>
+<pub-id pub-id-type="doi">10.1002/pmic.201100515</pub-id><pub-id pub-id-type="pmid">22318887</pub-id></mixed-citation></ref><ref id="bib39"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Fernandez-Martinez</surname>, <given-names>J.</given-names></string-name>, <string-name><given-names>J.</given-names>
+<surname>Phillips</surname></string-name>, <string-name><given-names>M.D.</given-names>
+<surname>Sekedat</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Diaz-Avalos</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Velazquez-Muriel</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Franke</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Williams</surname></string-name>, <string-name><given-names>D.L.</given-names>
+<surname>Stokes</surname></string-name>, <string-name><given-names>B.T.</given-names>
+<surname>Chait</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Sali</surname></string-name>, and <string-name><given-names>M.P.</given-names>
+<surname>Rout</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Structure-function mapping of a heptameric module in the nuclear pore complex</article-title>. <source>J. Cell Biol.</source><volume>196</volume>:<fpage>419</fpage>&#x02013;<lpage>434</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.201109008</pub-id><pub-id pub-id-type="pmid">22331846</pub-id></mixed-citation></ref><ref id="bib40"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ferrell</surname>, <given-names>J.E.</given-names>
+<suffix>Jr</suffix></string-name>, <string-name><given-names>T.Y.-C.</given-names>
+<surname>Tsai</surname></string-name>, and <string-name><given-names>Q.</given-names>
+<surname>Yang</surname></string-name></person-group>
+<year>2011</year>
+<article-title>Modeling the cell cycle: why do certain circuits oscillate?</article-title><source>Cell.</source><volume>144</volume>:<fpage>874</fpage>&#x02013;<lpage>885</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.03.006</pub-id><pub-id pub-id-type="pmid">21414480</pub-id></mixed-citation></ref><ref id="bib41"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Finnigan</surname>, <given-names>G.C.</given-names></string-name>, <string-name><given-names>V.</given-names>
+<surname>Hanson-Smith</surname></string-name>, <string-name><given-names>T.H.</given-names>
+<surname>Stevens</surname></string-name>, and <string-name><given-names>J.W.</given-names>
+<surname>Thornton</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Evolution of increased complexity in a molecular machine</article-title>. <source>Nature.</source><volume>481</volume>:<fpage>360</fpage>&#x02013;<lpage>364</lpage><pub-id pub-id-type="pmid">22230956</pub-id></mixed-citation></ref><ref id="bib42"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Giesen</surname>, <given-names>C.</given-names></string-name>, <string-name><given-names>H.A.O.</given-names>
+<surname>Wang</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Schapiro</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Zivanovic</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Jacobs</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Hattendorf</surname></string-name>, <string-name><given-names>P.J.</given-names>
+<surname>Sch&#x000fc;ffler</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Grolimund</surname></string-name>, <string-name><given-names>J.M.</given-names>
+<surname>Buhmann</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Brandt</surname></string-name>, <etal/></person-group>
+<year>2014</year>
+<article-title>Highly multiplexed imaging of tumor tissues with subcellular resolution by mass cytometry</article-title>. <source>Nat. Methods.</source><volume>11</volume>:<fpage>417</fpage>&#x02013;<lpage>422</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2869</pub-id><pub-id pub-id-type="pmid">24584193</pub-id></mixed-citation></ref><ref id="bib43"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gillet</surname>, <given-names>L.C.</given-names></string-name>, <string-name><given-names>P.</given-names>
+<surname>Navarro</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Tate</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>R&#x000f6;st</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Selevsek</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Reiter</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Bonner</surname></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Aebersold</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Targeted data extraction of the MS/MS spectra generated by data-independent acquisition: a new concept for consistent and accurate proteome analysis</article-title>. <source>Mol. Cell. Proteomics.</source><volume>11</volume>:<fpage>O111.016717</fpage>
+<pub-id pub-id-type="doi">10.1074/mcp.O111.016717</pub-id><pub-id pub-id-type="pmid">22261725</pub-id></mixed-citation></ref><ref id="bib44"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gingras</surname>, <given-names>A.-C.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Gstaiger</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Raught</surname></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Aebersold</surname></string-name></person-group>
+<year>2007</year>
+<article-title>Analysis of protein complexes using mass spectrometry</article-title>. <source>Nat. Rev. Mol. Cell Biol.</source><volume>8</volume>:<fpage>645</fpage>&#x02013;<lpage>654</lpage>
+<pub-id pub-id-type="doi">10.1038/nrm2208</pub-id><pub-id pub-id-type="pmid">17593931</pub-id></mixed-citation></ref><ref id="bib45"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Goffeau</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>B.G.</given-names>
+<surname>Barrell</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Bussey</surname></string-name>, <string-name><given-names>R.W.</given-names>
+<surname>Davis</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Dujon</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Feldmann</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Galibert</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Hoheisel</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Jacq</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Johnston</surname></string-name>, <etal/></person-group>
+<year>1996</year>
+<article-title>Life with 6000 genes</article-title>. <source>Science.</source><volume>274</volume>:<fpage>546</fpage>&#x02013;<lpage>567</lpage>
+<pub-id pub-id-type="doi">10.1126/science.274.5287.546</pub-id><pub-id pub-id-type="pmid">8849441</pub-id></mixed-citation></ref><ref id="bib46"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gr&#x000fc;n</surname>, <given-names>D.</given-names></string-name>, <string-name><given-names>L.</given-names>
+<surname>Kester</surname></string-name>, and <string-name><given-names>A.</given-names>
+<surname>van Oudenaarden</surname></string-name></person-group>
+<year>2014</year>
+<article-title>Validation of noise models for single-cell transcriptomics</article-title>. <source>Nat. Methods.</source><volume>11</volume>:<fpage>637</fpage>&#x02013;<lpage>640</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2930</pub-id><pub-id pub-id-type="pmid">24747814</pub-id></mixed-citation></ref><ref id="bib47"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Gupta</surname>, <given-names>I.</given-names></string-name>, <string-name><given-names>S.</given-names>
+<surname>Clauder-M&#x000fc;nster</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Klaus</surname></string-name>, <string-name><given-names>A.I.</given-names>
+<surname>J&#x000e4;rvelin</surname></string-name>, <string-name><given-names>R.S.</given-names>
+<surname>Aiyar</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Benes</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Wilkening</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Huber</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Pelechano</surname></string-name>, and <string-name><given-names>L.M.</given-names>
+<surname>Steinmetz</surname></string-name></person-group>
+<year>2014</year>
+<article-title>Alternative polyadenylation diversifies post-transcriptional regulation by selective RNA-protein interactions</article-title>. <source>Mol. Syst. Biol.</source><volume>10</volume>:<fpage>719</fpage>
+<pub-id pub-id-type="doi">10.1002/msb.135068</pub-id><pub-id pub-id-type="pmid">24569168</pub-id></mixed-citation></ref><ref id="bib48"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Guttman</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>P.</given-names>
+<surname>Russell</surname></string-name>, <string-name><given-names>N.T.</given-names>
+<surname>Ingolia</surname></string-name>, <string-name><given-names>J.S.</given-names>
+<surname>Weissman</surname></string-name>, and <string-name><given-names>E.S.</given-names>
+<surname>Lander</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Ribosome profiling provides evidence that large noncoding RNAs do not encode proteins</article-title>. <source>Cell.</source><volume>154</volume>:<fpage>240</fpage>&#x02013;<lpage>251</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.06.009</pub-id><pub-id pub-id-type="pmid">23810193</pub-id></mixed-citation></ref><ref id="bib49"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hakenberg</surname>, <given-names>J.</given-names></string-name>, <string-name><given-names>S.</given-names>
+<surname>Schmeier</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Kowald</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Klipp</surname></string-name>, and <string-name><given-names>U.</given-names>
+<surname>Leser</surname></string-name></person-group>
+<year>2004</year>
+<article-title>Finding kinetic parameters using text mining</article-title>. <source>OMICS.</source><volume>8</volume>:<fpage>131</fpage>&#x02013;<lpage>152</lpage>
+<pub-id pub-id-type="doi">10.1089/1536231041388366</pub-id><pub-id pub-id-type="pmid">15268772</pub-id></mixed-citation></ref><ref id="bib50"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hartwell</surname>, <given-names>L.H.</given-names></string-name>, <string-name><given-names>J.J.</given-names>
+<surname>Hopfield</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Leibler</surname></string-name>, and <string-name><given-names>A.W.</given-names>
+<surname>Murray</surname></string-name></person-group>
+<year>1999</year>
+<article-title>From molecular to modular cell biology</article-title>. <source>Nature.</source><volume>402</volume>(<issue>6761</issue><issue>Suppl</issue>):<fpage>C47</fpage>&#x02013;<lpage>C52</lpage>
+<pub-id pub-id-type="doi">10.1038/35011540</pub-id><pub-id pub-id-type="pmid">10591225</pub-id></mixed-citation></ref><ref id="bib51"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hetzer</surname>, <given-names>M.W.</given-names></string-name>, and <string-name><given-names>S.R.</given-names>
+<surname>Wente</surname></string-name></person-group>
+<year>2009</year>
+<article-title>Border control at the nucleus: biogenesis and organization of the nuclear membrane and pore complexes</article-title>. <source>Dev. Cell.</source><volume>17</volume>:<fpage>606</fpage>&#x02013;<lpage>616</lpage>
+<pub-id pub-id-type="doi">10.1016/j.devcel.2009.10.007</pub-id><pub-id pub-id-type="pmid">19922866</pub-id></mixed-citation></ref><ref id="bib52"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hillenmeyer</surname>, <given-names>M.E.</given-names></string-name>, <string-name><given-names>E.</given-names>
+<surname>Fung</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Wildenhain</surname></string-name>, <string-name><given-names>S.E.</given-names>
+<surname>Pierce</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Hoon</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Proctor</surname></string-name>, <string-name><given-names>R.P.</given-names>
+<surname>St. Onge</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Tyers</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Koller</surname></string-name>, <etal/></person-group>
+<year>2008</year>
+<article-title>The chemical genomic portrait of yeast: uncovering a phenotype for all genes</article-title>. <source>Science.</source><volume>320</volume>:<fpage>362</fpage>&#x02013;<lpage>365</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1150021</pub-id><pub-id pub-id-type="pmid">18420932</pub-id></mixed-citation></ref><ref id="bib53"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hillenmeyer</surname>, <given-names>M.E.</given-names></string-name>, <string-name><given-names>E.</given-names>
+<surname>Ericson</surname></string-name>, <string-name><given-names>R.W.</given-names>
+<surname>Davis</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Nislow</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Koller</surname></string-name>, and <string-name><given-names>G.</given-names>
+<surname>Giaever</surname></string-name></person-group>
+<year>2010</year>
+<article-title>Systematic analysis of genome-wide fitness data in yeast reveals novel gene function and drug action</article-title>. <source>Genome Biol.</source><volume>11</volume>:<fpage>R30</fpage>
+<pub-id pub-id-type="doi">10.1186/gb-2010-11-3-r30</pub-id><pub-id pub-id-type="pmid">20226027</pub-id></mixed-citation></ref><ref id="bib54"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hoelz</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>E.W.</given-names>
+<surname>Debler</surname></string-name>, and <string-name><given-names>G.</given-names>
+<surname>Blobel</surname></string-name></person-group>
+<year>2011</year>
+<article-title>The structure of the nuclear pore complex</article-title>. <source>Annu. Rev. Biochem.</source><volume>80</volume>:<fpage>613</fpage>&#x02013;<lpage>643</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-biochem-060109-151030</pub-id><pub-id pub-id-type="pmid">21495847</pub-id></mixed-citation></ref><ref id="bib55"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Hoffmann</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>A.</given-names>
+<surname>Levchenko</surname></string-name>, <string-name><given-names>M.L.</given-names>
+<surname>Scott</surname></string-name>, and <string-name><given-names>D.</given-names>
+<surname>Baltimore</surname></string-name></person-group>
+<year>2002</year>
+<article-title>The I&#x003ba;B-NF-&#x003ba;B signaling module: temporal control and selective gene activation</article-title>. <source>Science.</source><volume>298</volume>:<fpage>1241</fpage>&#x02013;<lpage>1245</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1071914</pub-id><pub-id pub-id-type="pmid">12424381</pub-id></mixed-citation></ref><ref id="bib56"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Holman</surname>, <given-names>S.W.</given-names></string-name>, <string-name><given-names>P.F.G.</given-names>
+<surname>Sims</surname></string-name>, and <string-name><given-names>C.E.</given-names>
+<surname>Eyers</surname></string-name></person-group>
+<year>2012</year>
+<article-title>The use of selected reaction monitoring in quantitative proteomics</article-title>. <source>Bioanalysis.</source><volume>4</volume>:<fpage>1763</fpage>&#x02013;<lpage>1786</lpage>
+<pub-id pub-id-type="doi">10.4155/bio.12.126</pub-id><pub-id pub-id-type="pmid">22877222</pub-id></mixed-citation></ref><ref id="bib57"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ideker</surname>, <given-names>T.</given-names></string-name>, <string-name><given-names>T.</given-names>
+<surname>Galitski</surname></string-name>, and <string-name><given-names>L.</given-names>
+<surname>Hood</surname></string-name></person-group>
+<year>2001</year>
+<article-title>A new approach to decoding life: systems biology</article-title>. <source>Annu. Rev. Genomics Hum. Genet.</source><volume>2</volume>:<fpage>343</fpage>&#x02013;<lpage>372</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.genom.2.1.343</pub-id><pub-id pub-id-type="pmid">11701654</pub-id></mixed-citation></ref><ref id="bib58"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ingolia</surname>, <given-names>N.T.</given-names></string-name>, <string-name><given-names>S.</given-names>
+<surname>Ghaemmaghami</surname></string-name>, <string-name><given-names>J.R.S.</given-names>
+<surname>Newman</surname></string-name>, and <string-name><given-names>J.S.</given-names>
+<surname>Weissman</surname></string-name></person-group>
+<year>2009</year>
+<article-title>Genome-wide analysis in vivo of translation with nucleotide resolution using ribosome profiling</article-title>. <source>Science.</source><volume>324</volume>:<fpage>218</fpage>&#x02013;<lpage>223</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1168978</pub-id><pub-id pub-id-type="pmid">19213877</pub-id></mixed-citation></ref><ref id="bib59"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ingolia</surname>, <given-names>N.T.</given-names></string-name>, <string-name><given-names>L.F.</given-names>
+<surname>Lareau</surname></string-name>, and <string-name><given-names>J.S.</given-names>
+<surname>Weissman</surname></string-name></person-group>
+<year>2011</year>
+<article-title>Ribosome profiling of mouse embryonic stem cells reveals the complexity and dynamics of mammalian proteomes</article-title>. <source>Cell.</source><volume>147</volume>:<fpage>789</fpage>&#x02013;<lpage>802</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.10.002</pub-id><pub-id pub-id-type="pmid">22056041</pub-id></mixed-citation></ref><ref id="bib60"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Jung</surname>, <given-names>S.</given-names></string-name>, <string-name><given-names>J.J.</given-names>
+<surname>Smith</surname></string-name>, <string-name><given-names>P.D.</given-names>
+<surname>von Haller</surname></string-name>, <string-name><given-names>D.J.</given-names>
+<surname>Dilworth</surname></string-name>, <string-name><given-names>K.A.</given-names>
+<surname>Sitko</surname></string-name>, <string-name><given-names>L.R.</given-names>
+<surname>Miller</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Saleem</surname></string-name>, <string-name><given-names>D.R.</given-names>
+<surname>Goodlett</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Global analysis of condition-specific subcellular protein distribution and abundance</article-title>. <source>Mol. Cell. Proteomics.</source><volume>12</volume>:<fpage>1421</fpage>&#x02013;<lpage>1435</lpage>
+<pub-id pub-id-type="doi">10.1074/mcp.O112.019166</pub-id><pub-id pub-id-type="pmid">23349476</pub-id></mixed-citation></ref><ref id="bib61"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Karr</surname>, <given-names>J.R.</given-names></string-name>, <string-name><given-names>J.C.</given-names>
+<surname>Sanghvi</surname></string-name>, <string-name><given-names>D.N.</given-names>
+<surname>Macklin</surname></string-name>, <string-name><given-names>M.V.</given-names>
+<surname>Gutschow</surname></string-name>, <string-name><given-names>J.M.</given-names>
+<surname>Jacobs</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Bolival</surname>
+<suffix>Jr</suffix></string-name>, <string-name><given-names>N.</given-names>
+<surname>Assad-Garcia</surname></string-name>, <string-name><given-names>J.I.</given-names>
+<surname>Glass</surname></string-name>, and <string-name><given-names>M.W.</given-names>
+<surname>Covert</surname></string-name></person-group>
+<year>2012</year>
+<article-title>A whole-cell computational model predicts phenotype from genotype</article-title>. <source>Cell.</source><volume>150</volume>:<fpage>389</fpage>&#x02013;<lpage>401</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2012.05.044</pub-id><pub-id pub-id-type="pmid">22817898</pub-id></mixed-citation></ref><ref id="bib62"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kitano</surname>, <given-names>H.</given-names></string-name></person-group><year>2002</year>
+<article-title>Systems biology: a brief overview</article-title>. <source>Science.</source><volume>295</volume>:<fpage>1662</fpage>&#x02013;<lpage>1664</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1069492</pub-id><pub-id pub-id-type="pmid">11872829</pub-id></mixed-citation></ref><ref id="bib63"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Klemm</surname>, <given-names>S.</given-names></string-name>, <string-name><given-names>S.</given-names>
+<surname>Semrau</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Wiebrands</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Mooijman</surname></string-name>, <string-name><given-names>D.A.</given-names>
+<surname>Faddah</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Jaenisch</surname></string-name>, and <string-name><given-names>A.</given-names>
+<surname>van Oudenaarden</surname></string-name></person-group>
+<year>2014</year>
+<article-title>Transcriptional profiling of cells sorted by RNA abundance</article-title>. <source>Nat. Methods.</source><volume>11</volume>:<fpage>549</fpage>&#x02013;<lpage>551</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2910</pub-id><pub-id pub-id-type="pmid">24681693</pub-id></mixed-citation></ref><ref id="bib64"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Koboldt</surname>, <given-names>D.C.</given-names></string-name>, <string-name><given-names>K.M.</given-names>
+<surname>Steinberg</surname></string-name>, <string-name><given-names>D.E.</given-names>
+<surname>Larson</surname></string-name>, <string-name><given-names>R.K.</given-names>
+<surname>Wilson</surname></string-name>, and <string-name><given-names>E.R.</given-names>
+<surname>Mardis</surname></string-name></person-group>
+<year>2013</year>
+<article-title>The next-generation sequencing revolution and its impact on genomics</article-title>. <source>Cell.</source><volume>155</volume>:<fpage>27</fpage>&#x02013;<lpage>38</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.09.006</pub-id><pub-id pub-id-type="pmid">24074859</pub-id></mixed-citation></ref><ref id="bib65"><mixed-citation publication-type="book"><person-group person-group-type="author"><string-name><surname>Koonin</surname>, <given-names>E.V.</given-names></string-name></person-group><year>2011</year>
+<article-title>The Logic of Chance</article-title>. <edition>First edition</edition>
+<publisher-name>FT Press Service</publisher-name>, <publisher-loc>Upper Saddle River, NJ</publisher-loc>
+<comment>516 pp</comment></mixed-citation></ref><ref id="bib66"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Koonin</surname>, <given-names>E.V.</given-names></string-name>, and <string-name><given-names>A.Y.</given-names>
+<surname>Mulkidjanian</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Evolution of cell division: from shear mechanics to complex molecular machineries</article-title>. <source>Cell.</source><volume>152</volume>:<fpage>942</fpage>&#x02013;<lpage>944</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.02.008</pub-id><pub-id pub-id-type="pmid">23452845</pub-id></mixed-citation></ref><ref id="bib67"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Koumandou</surname>, <given-names>V.L.</given-names></string-name>, <string-name><given-names>B.</given-names>
+<surname>Wickstead</surname></string-name>, <string-name><given-names>M.L.</given-names>
+<surname>Ginger</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>van der Giezen</surname></string-name>, <string-name><given-names>J.B.</given-names>
+<surname>Dacks</surname></string-name>, and <string-name><given-names>M.C.</given-names>
+<surname>Field</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Molecular paleontology and complexity in the last eukaryotic common ancestor</article-title>. <source>Crit. Rev. Biochem. Mol. Biol.</source><volume>48</volume>:<fpage>373</fpage>&#x02013;<lpage>396</lpage>
+<pub-id pub-id-type="doi">10.3109/10409238.2013.821444</pub-id><pub-id pub-id-type="pmid">23895660</pub-id></mixed-citation></ref><ref id="bib68"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kowald</surname>, <given-names>A.</given-names></string-name>, and <string-name><given-names>S.</given-names>
+<surname>Schmeier</surname></string-name></person-group>
+<year>2011</year>
+<article-title>Text mining for systems modeling</article-title>. <source>Methods Mol. Biol.</source><volume>696</volume>:<fpage>305</fpage>&#x02013;<lpage>318</lpage>
+<pub-id pub-id-type="doi">10.1007/978-1-60761-987-1_19</pub-id><pub-id pub-id-type="pmid">21063956</pub-id></mixed-citation></ref><ref id="bib69"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Kuiken</surname>, <given-names>H.J.</given-names></string-name>, and <string-name><given-names>R.L.</given-names>
+<surname>Beijersbergen</surname></string-name></person-group>
+<year>2010</year>
+<article-title>Exploration of synthetic lethal interactions as cancer drug targets</article-title>. <source>Future Oncol.</source><volume>6</volume>:<fpage>1789</fpage>&#x02013;<lpage>1802</lpage>
+<pub-id pub-id-type="doi">10.2217/fon.10.131</pub-id><pub-id pub-id-type="pmid">21142664</pub-id></mixed-citation></ref><ref id="bib70"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Labib</surname>, <given-names>K.</given-names></string-name>, and <string-name><given-names>A.</given-names>
+<surname>Gambus</surname></string-name></person-group>
+<year>2007</year>
+<article-title>A key role for the GINS complex at DNA replication forks</article-title>. <source>Trends Cell Biol.</source><volume>17</volume>:<fpage>271</fpage>&#x02013;<lpage>278</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tcb.2007.04.002</pub-id><pub-id pub-id-type="pmid">17467990</pub-id></mixed-citation></ref><ref id="bib71"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lambert</surname>, <given-names>J.-P.</given-names></string-name>, <string-name><given-names>G.</given-names>
+<surname>Ivosev</surname></string-name>, <string-name><given-names>A.L.</given-names>
+<surname>Couzens</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Larsen</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Taipale</surname></string-name>, <string-name><given-names>Z.-Y.</given-names>
+<surname>Lin</surname></string-name>, <string-name><given-names>Q.</given-names>
+<surname>Zhong</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Lindquist</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Vidal</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Aebersold</surname></string-name>, <etal/></person-group>
+<year>2013</year>
+<article-title>Mapping differential interactomes by affinity purification coupled with data-independent mass spectrometry acquisition</article-title>. <source>Nat. Methods.</source><volume>10</volume>:<fpage>1239</fpage>&#x02013;<lpage>1245</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2702</pub-id><pub-id pub-id-type="pmid">24162924</pub-id></mixed-citation></ref><ref id="bib72"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lander</surname>, <given-names>A.D.</given-names></string-name></person-group><year>2013</year>
+<article-title>How cells know where they are</article-title>. <source>Science.</source><volume>339</volume>:<fpage>923</fpage>&#x02013;<lpage>927</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1224186</pub-id><pub-id pub-id-type="pmid">23430648</pub-id></mixed-citation></ref><ref id="bib73"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lee</surname>, <given-names>J.C.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Esp&#x000e9;li</surname></string-name>, <string-name><given-names>C.A.</given-names>
+<surname>Anderson</surname></string-name>, <string-name><given-names>M.A.</given-names>
+<surname>Linterman</surname></string-name>, <string-name><given-names>J.M.</given-names>
+<surname>Pocock</surname></string-name>, <string-name><given-names>N.J.</given-names>
+<surname>Williams</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Roberts</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Viatte</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Fu</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Peshu</surname></string-name>, <etal/></person-group><collab>UK IBD Genetics Consortium</collab>. <year>2013</year>
+<article-title>Human SNP links differential outcomes in inflammatory and infectious disease to a FOXO3-regulated pathway</article-title>. <source>Cell.</source><volume>155</volume>:<fpage>57</fpage>&#x02013;<lpage>69</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.08.034</pub-id><pub-id pub-id-type="pmid">24035192</pub-id></mixed-citation></ref><ref id="bib74"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Lee</surname>, <given-names>A.Y.</given-names></string-name>, <string-name><given-names>R.P.</given-names>
+<surname>St. Onge</surname></string-name>, <string-name><given-names>M.J.</given-names>
+<surname>Proctor</surname></string-name>, <string-name><given-names>I.M.</given-names>
+<surname>Wallace</surname></string-name>, <string-name><given-names>A.H.</given-names>
+<surname>Nile</surname></string-name>, <string-name><given-names>P.A.</given-names>
+<surname>Spagnuolo</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Jitkova</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Gronda</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wu</surname></string-name>, <string-name><given-names>M.K.</given-names>
+<surname>Kim</surname></string-name>, <etal/></person-group>
+<year>2014</year>
+<article-title>Mapping the cellular response to small molecules using chemogenomic fitness signatures</article-title>. <source>Science.</source><volume>344</volume>:<fpage>208</fpage>&#x02013;<lpage>211</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1250217</pub-id><pub-id pub-id-type="pmid">24723613</pub-id></mixed-citation></ref><ref id="bib75"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Likhoshvai</surname>, <given-names>V.</given-names></string-name>, and <string-name><given-names>A.</given-names>
+<surname>Ratushny</surname></string-name></person-group>
+<year>2007</year>
+<article-title>Generalized hill function method for modeling molecular processes</article-title>. <source>J. Bioinform. Comput. Biol.</source><volume>5</volume>:<fpage>521</fpage>&#x02013;<lpage>531</lpage>
+<pub-id pub-id-type="doi">10.1142/S0219720007002837</pub-id><pub-id pub-id-type="pmid">17636859</pub-id></mixed-citation></ref><ref id="bib76"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Liti</surname>, <given-names>G.</given-names></string-name>, <string-name><given-names>D.M.</given-names>
+<surname>Carter</surname></string-name>, <string-name><given-names>A.M.</given-names>
+<surname>Moses</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Warringer</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Parts</surname></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>James</surname></string-name>, <string-name><given-names>R.P.</given-names>
+<surname>Davey</surname></string-name>, <string-name><given-names>I.N.</given-names>
+<surname>Roberts</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Burt</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Koufopanou</surname></string-name>, <etal/></person-group>
+<year>2009</year>
+<article-title>Population genomics of domestic and wild yeasts</article-title>. <source>Nature.</source><volume>458</volume>:<fpage>337</fpage>&#x02013;<lpage>341</lpage>
+<pub-id pub-id-type="doi">10.1038/nature07743</pub-id><pub-id pub-id-type="pmid">19212322</pub-id></mixed-citation></ref><ref id="bib77"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Litvak</surname>, <given-names>V.</given-names></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>Ramsey</surname></string-name>, <string-name><given-names>A.G.</given-names>
+<surname>Rust</surname></string-name>, <string-name><given-names>D.E.</given-names>
+<surname>Zak</surname></string-name>, <string-name><given-names>K.A.</given-names>
+<surname>Kennedy</surname></string-name>, <string-name><given-names>A.E.</given-names>
+<surname>Lampano</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Nykter</surname></string-name>, <string-name><given-names>I.</given-names>
+<surname>Shmulevich</surname></string-name>, and <string-name><given-names>A.</given-names>
+<surname>Aderem</surname></string-name></person-group>
+<year>2009</year>
+<article-title>Function of C/EBP&#x003b4; in a regulatory circuit that discriminates between transient and persistent TLR4-induced signals</article-title>. <source>Nat. Immunol.</source><volume>10</volume>:<fpage>437</fpage>&#x02013;<lpage>443</lpage>
+<pub-id pub-id-type="doi">10.1038/ni.1721</pub-id><pub-id pub-id-type="pmid">19270711</pub-id></mixed-citation></ref><ref id="bib78"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Litvak</surname>, <given-names>V.</given-names></string-name>, <string-name><given-names>A.V.</given-names>
+<surname>Ratushny</surname></string-name>, <string-name><given-names>A.E.</given-names>
+<surname>Lampano</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Schmitz</surname></string-name>, <string-name><given-names>A.C.</given-names>
+<surname>Huang</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Raman</surname></string-name>, <string-name><given-names>A.G.</given-names>
+<surname>Rust</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Bergthaler</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name>, and <string-name><given-names>A.</given-names>
+<surname>Aderem</surname></string-name></person-group>
+<year>2012</year>
+<article-title>A FOXO3-IRF7 gene regulatory circuit limits inflammatory sequelae of antiviral responses</article-title>. <source>Nature.</source><volume>490</volume>:<fpage>421</fpage>&#x02013;<lpage>425</lpage>
+<pub-id pub-id-type="doi">10.1038/nature11428</pub-id><pub-id pub-id-type="pmid">22982991</pub-id></mixed-citation></ref><ref id="bib79"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mardis</surname>, <given-names>E.R.</given-names></string-name></person-group><year>2013</year>
+<article-title>Next-generation sequencing platforms</article-title>. <source>Annu. Rev. Anal. Chem. (Palo Alto Calif.).</source><volume>6</volume>:<fpage>287</fpage>&#x02013;<lpage>303</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-anchem-062012-092628</pub-id><pub-id pub-id-type="pmid">23560931</pub-id></mixed-citation></ref><ref id="bib80"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Marelli</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>J.J.</given-names>
+<surname>Smith</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Jung</surname></string-name>, <string-name><given-names>E.</given-names>
+<surname>Yi</surname></string-name>, <string-name><given-names>A.I.</given-names>
+<surname>Nesvizhskii</surname></string-name>, <string-name><given-names>R.H.</given-names>
+<surname>Christmas</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Saleem</surname></string-name>, <string-name><given-names>Y.Y.C.</given-names>
+<surname>Tam</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Fagarasanu</surname></string-name>, <string-name><given-names>D.R.</given-names>
+<surname>Goodlett</surname></string-name>, <etal/></person-group>
+<year>2004</year>
+<article-title>Quantitative mass spectrometry reveals a role for the GTPase Rho1p in actin organization on the peroxisome membrane</article-title>. <source>J. Cell Biol.</source><volume>167</volume>:<fpage>1099</fpage>&#x02013;<lpage>1112</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200404119</pub-id><pub-id pub-id-type="pmid">15596542</pub-id></mixed-citation></ref><ref id="bib81"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Martin</surname>, <given-names>R.J.</given-names></string-name>, <string-name><given-names>J.R.</given-names>
+<surname>Kusel</surname></string-name>, and <string-name><given-names>A.J.</given-names>
+<surname>Pennington</surname></string-name></person-group>
+<year>1990</year>
+<article-title>Surface properties of membrane vesicles prepared from muscle cells of <italic>Ascaris suum</italic></article-title>. <source>J. Parasitol.</source><volume>76</volume>:<fpage>340</fpage>&#x02013;<lpage>348</lpage>
+<pub-id pub-id-type="doi">10.2307/3282663</pub-id><pub-id pub-id-type="pmid">1693673</pub-id></mixed-citation></ref><ref id="bib82"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Marx</surname>, <given-names>V.</given-names></string-name></person-group><year>2013</year>
+<article-title>Targeted proteomics</article-title>. <source>Nat. Methods.</source><volume>10</volume>:<fpage>19</fpage>&#x02013;<lpage>22</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2285</pub-id><pub-id pub-id-type="pmid">23547293</pub-id></mixed-citation></ref><ref id="bib83"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mast</surname>, <given-names>F.D.</given-names></string-name>, <string-name><given-names>L.D.</given-names>
+<surname>Barlow</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Rachubinski</surname></string-name>, and <string-name><given-names>J.B.</given-names>
+<surname>Dacks</surname></string-name></person-group>
+<year>2014</year>
+<article-title>Evolutionary mechanisms for establishing eukaryotic cellular complexity</article-title>. <source>Trends Cell Biol.</source><volume>24</volume>:<fpage>435</fpage>&#x02013;<lpage>442</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tcb.2014.02.003</pub-id><pub-id pub-id-type="pmid">24656655</pub-id></mixed-citation></ref><ref id="bib84"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Matessi</surname>, <given-names>C.</given-names></string-name>, and <string-name><given-names>S.</given-names>
+<surname>Karlin</surname></string-name></person-group>
+<year>1984</year>
+<article-title>On the evolution of altruism by kin selection</article-title>. <source>Proc. Natl. Acad. Sci. USA.</source><volume>81</volume>:<fpage>1754</fpage>&#x02013;<lpage>1758</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.81.6.1754</pub-id><pub-id pub-id-type="pmid">16593437</pub-id></mixed-citation></ref><ref id="bib85"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Meier-Schellersheim</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>I.D.C.</given-names>
+<surname>Fraser</surname></string-name>, and <string-name><given-names>F.</given-names>
+<surname>Klauschen</surname></string-name></person-group>
+<year>2009</year>
+<article-title>Multiscale modeling for biologists</article-title>. <source>Wiley Interdiscip. Rev. Syst. Biol. Med.</source><volume>1</volume>:<fpage>4</fpage>&#x02013;<lpage>14</lpage>
+<pub-id pub-id-type="doi">10.1002/wsbm.33</pub-id><pub-id pub-id-type="pmid">20448808</pub-id></mixed-citation></ref><ref id="bib86"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Milgram</surname>, <given-names>S.</given-names></string-name></person-group><year>1967</year>
+<article-title>The small world problem</article-title>. <source>Psychol. Today.</source><volume>2</volume>:<fpage>60</fpage>&#x02013;<lpage>67</lpage></mixed-citation></ref><ref id="bib87"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mirzaei</surname>, <given-names>H.</given-names></string-name>, <string-name><given-names>T.A.</given-names>
+<surname>Knijnenburg</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Kim</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Robinson</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Picotti</surname></string-name>, <string-name><given-names>G.W.</given-names>
+<surname>Carter</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>D.J.</given-names>
+<surname>Dilworth</surname></string-name>, <string-name><given-names>J.K.</given-names>
+<surname>Eng</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name>, <etal/></person-group>
+<year>2013</year>
+<article-title>Systematic measurement of transcription factor-DNA interactions by targeted mass spectrometry identifies candidate gene regulatory proteins</article-title>. <source>Proc. Natl. Acad. Sci. USA.</source><volume>110</volume>:<fpage>3645</fpage>&#x02013;<lpage>3650</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1216918110</pub-id><pub-id pub-id-type="pmid">23388641</pub-id></mixed-citation></ref><ref id="bib88"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mogilner</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>J.</given-names>
+<surname>Allard</surname></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Wollman</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Cell polarity: quantitative modeling as a tool in cell biology</article-title>. <source>Science.</source><volume>336</volume>:<fpage>175</fpage>&#x02013;<lpage>179</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1216380</pub-id><pub-id pub-id-type="pmid">22499937</pub-id></mixed-citation></ref><ref id="bib89"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Mudge</surname>, <given-names>J.M.</given-names></string-name>, <string-name><given-names>A.</given-names>
+<surname>Frankish</surname></string-name>, and <string-name><given-names>J.</given-names>
+<surname>Harrow</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Functional transcriptomics in the post-ENCODE era</article-title>. <source>Genome Res.</source><volume>23</volume>:<fpage>1961</fpage>&#x02013;<lpage>1973</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.161315.113</pub-id><pub-id pub-id-type="pmid">24172201</pub-id></mixed-citation></ref><ref id="bib90"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nurse</surname>, <given-names>P.</given-names></string-name></person-group><year>2008</year>
+<article-title>Life, logic and information</article-title>. <source>Nature.</source><volume>454</volume>:<fpage>424</fpage>&#x02013;<lpage>426</lpage>
+<pub-id pub-id-type="doi">10.1038/454424a</pub-id><pub-id pub-id-type="pmid">18650911</pub-id></mixed-citation></ref><ref id="bib91"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Nurse</surname>, <given-names>P.</given-names></string-name>, and <string-name><given-names>J.</given-names>
+<surname>Hayles</surname></string-name></person-group>
+<year>2011</year>
+<article-title>The cell in an era of systems biology</article-title>. <source>Cell.</source><volume>144</volume>:<fpage>850</fpage>&#x02013;<lpage>854</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.02.045</pub-id><pub-id pub-id-type="pmid">21414476</pub-id></mixed-citation></ref><ref id="bib92"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pang</surname>, <given-names>W.L.</given-names></string-name>, <string-name><given-names>A.</given-names>
+<surname>Kaur</surname></string-name>, <string-name><given-names>A.V.</given-names>
+<surname>Ratushny</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Cvetkovic</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Kumar</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Pan</surname></string-name>, <string-name><given-names>A.P.</given-names>
+<surname>Arkin</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name>, <string-name><given-names>M.W.W.</given-names>
+<surname>Adams</surname></string-name>, and <string-name><given-names>N.S.</given-names>
+<surname>Baliga</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Metallochaperones regulate intracellular copper levels</article-title>. <source>PLOS Comput. Biol.</source><volume>9</volume>:<fpage>e1002880</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pcbi.1002880</pub-id><pub-id pub-id-type="pmid">23349626</pub-id></mixed-citation></ref><ref id="bib93"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Payne</surname>, <given-names>W.E.</given-names></string-name>, and <string-name><given-names>J.I.</given-names>
+<surname>Garrels</surname></string-name></person-group>
+<year>1997</year>
+<article-title>Yeast Protein database (YPD): a database for the complete proteome of <italic>Saccharomyces cerevisiae</italic></article-title>. <source>Nucleic Acids Res.</source><volume>25</volume>:<fpage>57</fpage>&#x02013;<lpage>62</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/25.1.57</pub-id><pub-id pub-id-type="pmid">9016505</pub-id></mixed-citation></ref><ref id="bib94"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pelechano</surname>, <given-names>V.</given-names></string-name>, <string-name><given-names>W.</given-names>
+<surname>Wei</surname></string-name>, and <string-name><given-names>L.M.</given-names>
+<surname>Steinmetz</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Extensive transcriptional heterogeneity revealed by isoform profiling</article-title>. <source>Nature.</source><volume>497</volume>:<fpage>127</fpage>&#x02013;<lpage>131</lpage>
+<pub-id pub-id-type="doi">10.1038/nature12121</pub-id><pub-id pub-id-type="pmid">23615609</pub-id></mixed-citation></ref><ref id="bib95"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Pelechano</surname>, <given-names>V.</given-names></string-name>, <string-name><given-names>W.</given-names>
+<surname>Wei</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Jakob</surname></string-name>, and <string-name><given-names>L.M.</given-names>
+<surname>Steinmetz</surname></string-name></person-group>
+<year>2014</year>
+<article-title>Genome-wide identification of transcript start and end sites by transcript isoform sequencing</article-title>. <source>Nat. Protoc.</source><volume>9</volume>:<fpage>1740</fpage>&#x02013;<lpage>1759</lpage>
+<pub-id pub-id-type="doi">10.1038/nprot.2014.121</pub-id><pub-id pub-id-type="pmid">24967623</pub-id></mixed-citation></ref><ref id="bib96"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Picotti</surname>, <given-names>P.</given-names></string-name>, <string-name><given-names>B.</given-names>
+<surname>Bodenmiller</surname></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Aebersold</surname></string-name></person-group>
+<year>2013a</year>
+<article-title>Proteomics meets the scientific method</article-title>. <source>Nat. Methods.</source><volume>10</volume>:<fpage>24</fpage>&#x02013;<lpage>27</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2291</pub-id><pub-id pub-id-type="pmid">23269373</pub-id></mixed-citation></ref><ref id="bib97"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Picotti</surname>, <given-names>P.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Cl&#x000e9;ment-Ziza</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Lam</surname></string-name>, <string-name><given-names>D.S.</given-names>
+<surname>Campbell</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Schmidt</surname></string-name>, <string-name><given-names>E.W.</given-names>
+<surname>Deutsch</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>R&#x000f6;st</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Sun</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Rinner</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Reiter</surname></string-name>, <etal/></person-group>
+<year>2013b</year>
+<article-title>A complete mass-spectrometric map of the yeast proteome applied to quantitative trait analysis</article-title>. <source>Nature.</source><volume>494</volume>:<fpage>266</fpage>&#x02013;<lpage>270</lpage>
+<pub-id pub-id-type="doi">10.1038/nature11835</pub-id><pub-id pub-id-type="pmid">23334424</pub-id></mixed-citation></ref><ref id="bib98"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Politis</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>F.</given-names>
+<surname>Stengel</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Hall</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Hern&#x000e1;ndez</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Leitner</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Walzthoeni</surname></string-name>, <string-name><given-names>C.V.</given-names>
+<surname>Robinson</surname></string-name>, and <string-name><given-names>R.</given-names>
+<surname>Aebersold</surname></string-name></person-group>
+<year>2014</year>
+<article-title>A mass spectrometry-based hybrid method for structural modeling of protein complexes</article-title>. <source>Nat. Methods.</source><volume>11</volume>:<fpage>403</fpage>&#x02013;<lpage>406</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.2841</pub-id><pub-id pub-id-type="pmid">24509631</pub-id></mixed-citation></ref><ref id="bib99"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Price</surname>, <given-names>J.C.</given-names></string-name>, <string-name><given-names>S.</given-names>
+<surname>Guan</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Burlingame</surname></string-name>, <string-name><given-names>S.B.</given-names>
+<surname>Prusiner</surname></string-name>, and <string-name><given-names>S.</given-names>
+<surname>Ghaemmaghami</surname></string-name></person-group>
+<year>2010</year>
+<article-title>Analysis of proteome dynamics in the mouse brain</article-title>. <source>Proc. Natl. Acad. Sci. USA.</source><volume>107</volume>:<fpage>14508</fpage>&#x02013;<lpage>14513</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1006551107</pub-id><pub-id pub-id-type="pmid">20699386</pub-id></mixed-citation></ref><ref id="bib100"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ratushny</surname>, <given-names>A.V.</given-names></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>Ramsey</surname></string-name>, <string-name><given-names>O.</given-names>
+<surname>Roda</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wan</surname></string-name>, <string-name><given-names>J.J.</given-names>
+<surname>Smith</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2008</year>
+<article-title>Control of transcriptional variability by overlapping feed-forward regulatory motifs</article-title>. <source>Biophys. J.</source><volume>95</volume>:<fpage>3715</fpage>&#x02013;<lpage>3723</lpage>
+<pub-id pub-id-type="doi">10.1529/biophysj.108.134064</pub-id><pub-id pub-id-type="pmid">18621837</pub-id></mixed-citation></ref><ref id="bib101"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ratushny</surname>, <given-names>A.V.</given-names></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>Ramsey</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2011a</year>
+<article-title>Mathematical modeling of biomolecular network dynamics</article-title>. <source>Methods Mol. Biol.</source><volume>781</volume>:<fpage>415</fpage>&#x02013;<lpage>433</lpage>
+<pub-id pub-id-type="doi">10.1007/978-1-61779-276-2_21</pub-id><pub-id pub-id-type="pmid">21877294</pub-id></mixed-citation></ref><ref id="bib102"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ratushny</surname>, <given-names>A.V.</given-names></string-name>, <string-name><given-names>I.</given-names>
+<surname>Shmulevich</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2011b</year>
+<article-title>Trade-off between responsiveness and noise suppression in biomolecular system responses to environmental cues</article-title>. <source>PLOS Comput. Biol.</source><volume>7</volume>:<fpage>e1002091</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pcbi.1002091</pub-id><pub-id pub-id-type="pmid">21738459</pub-id></mixed-citation></ref><ref id="bib103"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Ratushny</surname>, <given-names>A.V.</given-names></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Saleem</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Sitko</surname></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>Ramsey</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Asymmetric positive feedback loops reliably control biological responses</article-title>. <source>Mol. Syst. Biol.</source><volume>8</volume>:<fpage>577</fpage>
+<pub-id pub-id-type="doi">10.1038/msb.2012.10</pub-id><pub-id pub-id-type="pmid">22531117</pub-id></mixed-citation></ref><ref id="bib104"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rhee</surname>, <given-names>H.S.</given-names></string-name>, and <string-name><given-names>B.F.</given-names>
+<surname>Pugh</surname></string-name></person-group>
+<year>2011</year>
+<article-title>Comprehensive genome-wide protein-DNA interactions detected at single-nucleotide resolution</article-title>. <source>Cell.</source><volume>147</volume>:<fpage>1408</fpage>&#x02013;<lpage>1419</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.11.013</pub-id><pub-id pub-id-type="pmid">22153082</pub-id></mixed-citation></ref><ref id="bib105"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rhee</surname>, <given-names>H.S.</given-names></string-name>, and <string-name><given-names>B.F.</given-names>
+<surname>Pugh</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Genome-wide structure and organization of eukaryotic pre-initiation complexes</article-title>. <source>Nature.</source><volume>483</volume>:<fpage>295</fpage>&#x02013;<lpage>301</lpage>
+<pub-id pub-id-type="doi">10.1038/nature10799</pub-id><pub-id pub-id-type="pmid">22258509</pub-id></mixed-citation></ref><ref id="bib106"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Roguev</surname>, <given-names>A.</given-names></string-name>, <string-name><given-names>S.</given-names>
+<surname>Bandyopadhyay</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Zofall</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Fischer</surname></string-name>, <string-name><given-names>S.R.</given-names>
+<surname>Collins</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Qu</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Shales</surname></string-name>, <string-name><given-names>H.-O.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Hayles</surname></string-name>, <etal/></person-group>
+<year>2008</year>
+<article-title>Conservation and rewiring of functional modules revealed by an epistasis map in fission yeast</article-title>. <source>Science.</source><volume>322</volume>:<fpage>405</fpage>&#x02013;<lpage>410</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1162609</pub-id><pub-id pub-id-type="pmid">18818364</pub-id></mixed-citation></ref><ref id="bib107"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rout</surname>, <given-names>M.P.</given-names></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Suprapto</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Hjertaas</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Zhao</surname></string-name>, and <string-name><given-names>B.T.</given-names>
+<surname>Chait</surname></string-name></person-group>
+<year>2000</year>
+<article-title>The yeast nuclear pore complex: composition, architecture, and transport mechanism</article-title>. <source>J. Cell Biol.</source><volume>148</volume>:<fpage>635</fpage>&#x02013;<lpage>652</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.148.4.635</pub-id><pub-id pub-id-type="pmid">10684247</pub-id></mixed-citation></ref><ref id="bib108"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Rubakhin</surname>, <given-names>S.S.</given-names></string-name>, <string-name><given-names>E.V.</given-names>
+<surname>Romanova</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>Nemes</surname></string-name>, and <string-name><given-names>J.V.</given-names>
+<surname>Sweedler</surname></string-name></person-group>
+<year>2011</year>
+<article-title>Profiling metabolites and peptides in single cells</article-title>. <source>Nat. Methods.</source><volume>8</volume>:<fpage>S20</fpage>&#x02013;<lpage>S29</lpage>
+<pub-id pub-id-type="doi">10.1038/nmeth.1549</pub-id><pub-id pub-id-type="pmid">21451513</pub-id></mixed-citation></ref><ref id="bib109"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Saleem</surname>, <given-names>R.A.</given-names></string-name>, <string-name><given-names>R.</given-names>
+<surname>Long-O&#x02019;Donnell</surname></string-name>, <string-name><given-names>D.J.</given-names>
+<surname>Dilworth</surname></string-name>, <string-name><given-names>A.M.</given-names>
+<surname>Armstrong</surname></string-name>, <string-name><given-names>A.P.</given-names>
+<surname>Jamakhandi</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wan</surname></string-name>, <string-name><given-names>T.A.</given-names>
+<surname>Knijnenburg</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Niemist&#x000f6;</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Boyle</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Rachubinski</surname></string-name>, <etal/></person-group>
+<year>2010</year>
+<article-title>Genome-wide analysis of effectors of peroxisome biogenesis</article-title>. <source>PLoS ONE.</source><volume>5</volume>:<fpage>e11953</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0011953</pub-id><pub-id pub-id-type="pmid">20694151</pub-id></mixed-citation></ref><ref id="bib110"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schmidt</surname>, <given-names>M.</given-names></string-name>, and <string-name><given-names>H.</given-names>
+<surname>Lipson</surname></string-name></person-group>
+<year>2009</year>
+<article-title>Distilling free-form natural laws from experimental data</article-title>. <source>Science.</source><volume>324</volume>:<fpage>81</fpage>&#x02013;<lpage>85</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1165893</pub-id><pub-id pub-id-type="pmid">19342586</pub-id></mixed-citation></ref><ref id="bib111"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Schuldiner</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>S.R.</given-names>
+<surname>Collins</surname></string-name>, <string-name><given-names>N.J.</given-names>
+<surname>Thompson</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Denic</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Bhamidipati</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Punna</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Ihmels</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Andrews</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Boone</surname></string-name>, <string-name><given-names>J.F.</given-names>
+<surname>Greenblatt</surname></string-name>, <etal/></person-group>
+<year>2005</year>
+<article-title>Exploration of the function and organization of the yeast early secretory pathway through an epistatic miniarray profile</article-title>. <source>Cell.</source><volume>123</volume>:<fpage>507</fpage>&#x02013;<lpage>519</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2005.08.031</pub-id><pub-id pub-id-type="pmid">16269340</pub-id></mixed-citation></ref><ref id="bib112"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Sekedat</surname>, <given-names>M.D.</given-names></string-name>, <string-name><given-names>D.</given-names>
+<surname>Feny&#x000f6;</surname></string-name>, <string-name><given-names>R.S.</given-names>
+<surname>Rogers</surname></string-name>, <string-name><given-names>A.J.</given-names>
+<surname>Tackett</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name>, and <string-name><given-names>B.T.</given-names>
+<surname>Chait</surname></string-name></person-group>
+<year>2010</year>
+<article-title>GINS motion reveals replication fork progression is remarkably uniform throughout the yeast genome</article-title>. <source>Mol. Syst. Biol.</source><volume>6</volume>:<fpage>353</fpage>
+<pub-id pub-id-type="doi">10.1038/msb.2010.8</pub-id><pub-id pub-id-type="pmid">20212525</pub-id></mixed-citation></ref><ref id="bib113"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Short</surname>, <given-names>B.</given-names></string-name></person-group><year>2009</year>
+<article-title>Cell biologists expand their networks</article-title>. <source>J. Cell Biol.</source><volume>186</volume>:<fpage>305</fpage>&#x02013;<lpage>311</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200907093</pub-id><pub-id pub-id-type="pmid">19667124</pub-id></mixed-citation></ref><ref id="bib114"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Smith</surname>, <given-names>J.J.</given-names></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Peroxisomes take shape</article-title>. <source>Nat. Rev. Mol. Cell Biol.</source><volume>14</volume>:<fpage>803</fpage>&#x02013;<lpage>817</lpage>
+<pub-id pub-id-type="doi">10.1038/nrm3700</pub-id><pub-id pub-id-type="pmid">24263361</pub-id></mixed-citation></ref><ref id="bib115"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Smith</surname>, <given-names>J.J.</given-names></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>Ramsey</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Marelli</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Marzolf</surname></string-name>, <string-name><given-names>D.</given-names>
+<surname>Hwang</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Saleem</surname></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Rachubinski</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2007</year>
+<article-title>Transcriptional responses to fatty acid are coordinated by combinatorial control</article-title>. <source>Mol. Syst. Biol.</source><volume>3</volume>:<fpage>115</fpage>
+<pub-id pub-id-type="doi">10.1038/msb4100157</pub-id><pub-id pub-id-type="pmid">17551510</pub-id></mixed-citation></ref><ref id="bib116"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Smith</surname>, <given-names>J.J.</given-names></string-name>, <string-name><given-names>L.R.</given-names>
+<surname>Miller</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Kreisberg</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Vazquez</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Wan</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2011a</year>
+<article-title>Environment-responsive transcription factors bind subtelomeric elements and regulate gene silencing</article-title>. <source>Mol. Syst. Biol.</source><volume>7</volume>:<fpage>455</fpage>
+<pub-id pub-id-type="doi">10.1038/msb.2010.110</pub-id><pub-id pub-id-type="pmid">21206489</pub-id></mixed-citation></ref><ref id="bib117"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Smith</surname>, <given-names>J.J.</given-names></string-name>, <string-name><given-names>R.A.</given-names>
+<surname>Saleem</surname></string-name>, and <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name></person-group>
+<year>2011b</year>
+<article-title>Statistical analysis of dynamic transcriptional regulatory network structure</article-title>. <source>Methods Mol. Biol.</source><volume>781</volume>:<fpage>337</fpage>&#x02013;<lpage>352</lpage>
+<pub-id pub-id-type="doi">10.1007/978-1-61779-276-2_16</pub-id><pub-id pub-id-type="pmid">21877289</pub-id></mixed-citation></ref><ref id="bib118"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Stagg</surname>, <given-names>S.M.</given-names></string-name>, <string-name><given-names>C.</given-names>
+<surname>G&#x000fc;rkan</surname></string-name>, <string-name><given-names>D.M.</given-names>
+<surname>Fowler</surname></string-name>, <string-name><given-names>P.</given-names>
+<surname>LaPointe</surname></string-name>, <string-name><given-names>T.R.</given-names>
+<surname>Foss</surname></string-name>, <string-name><given-names>C.S.</given-names>
+<surname>Potter</surname></string-name>, <string-name><given-names>B.</given-names>
+<surname>Carragher</surname></string-name>, and <string-name><given-names>W.E.</given-names>
+<surname>Balch</surname></string-name></person-group>
+<year>2006</year>
+<article-title>Structure of the Sec13/31 COPII coat cage</article-title>. <source>Nature.</source><volume>439</volume>:<fpage>234</fpage>&#x02013;<lpage>238</lpage>
+<pub-id pub-id-type="doi">10.1038/nature04339</pub-id><pub-id pub-id-type="pmid">16407955</pub-id></mixed-citation></ref><ref id="bib119"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Stark</surname>, <given-names>C.</given-names></string-name>, <string-name><given-names>B.-J.</given-names>
+<surname>Breitkreutz</surname></string-name>, <string-name><given-names>T.</given-names>
+<surname>Reguly</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Boucher</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Breitkreutz</surname></string-name>, and <string-name><given-names>M.</given-names>
+<surname>Tyers</surname></string-name></person-group>
+<year>2006</year>
+<article-title>BioGRID: a general repository for interaction datasets</article-title>. <source>Nucleic Acids Res.</source><volume>34</volume>:<fpage>D535</fpage>&#x02013;<lpage>D539</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkj109</pub-id><pub-id pub-id-type="pmid">16381927</pub-id></mixed-citation></ref><ref id="bib120"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tong</surname>, <given-names>A.H.Y.</given-names></string-name>, and <string-name><given-names>C.</given-names>
+<surname>Boone</surname></string-name></person-group>
+<year>2006</year>
+<article-title>Synthetic genetic array analysis in <italic>Saccharomyces cerevisiae</italic></article-title>. <source>Methods Mol. Biol.</source><volume>313</volume>:<fpage>171</fpage>&#x02013;<lpage>192</lpage><pub-id pub-id-type="pmid">16118434</pub-id></mixed-citation></ref><ref id="bib121"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tong</surname>, <given-names>A.H.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Evangelista</surname></string-name>, <string-name><given-names>A.B.</given-names>
+<surname>Parsons</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Xu</surname></string-name>, <string-name><given-names>G.D.</given-names>
+<surname>Bader</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Pag&#x000e9;</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Robinson</surname></string-name>, <string-name><given-names>S.</given-names>
+<surname>Raghibizadeh</surname></string-name>, <string-name><given-names>C.W.</given-names>
+<surname>Hogue</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Bussey</surname></string-name>, <etal/></person-group>
+<year>2001</year>
+<article-title>Systematic genetic analysis with ordered arrays of yeast deletion mutants</article-title>. <source>Science.</source><volume>294</volume>:<fpage>2364</fpage>&#x02013;<lpage>2368</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1065810</pub-id><pub-id pub-id-type="pmid">11743205</pub-id></mixed-citation></ref><ref id="bib122"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Toyama</surname>, <given-names>B.H.</given-names></string-name>, <string-name><given-names>J.N.</given-names>
+<surname>Savas</surname></string-name>, <string-name><given-names>S.K.</given-names>
+<surname>Park</surname></string-name>, <string-name><given-names>M.S.</given-names>
+<surname>Harris</surname></string-name>, <string-name><given-names>N.T.</given-names>
+<surname>Ingolia</surname></string-name>, <string-name><given-names>J.R.</given-names>
+<surname>Yates</surname>
+<suffix>III</suffix></string-name>, and <string-name><given-names>M.W.</given-names>
+<surname>Hetzer</surname></string-name></person-group>
+<year>2013</year>
+<article-title>Identification of long-lived proteins reveals exceptional stability of essential cellular structures</article-title>. <source>Cell.</source><volume>154</volume>:<fpage>971</fpage>&#x02013;<lpage>982</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.07.037</pub-id><pub-id pub-id-type="pmid">23993091</pub-id></mixed-citation></ref><ref id="bib123"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Toyoshima</surname>, <given-names>M.</given-names></string-name>, <string-name><given-names>H.L.</given-names>
+<surname>Howie</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Imakura</surname></string-name>, <string-name><given-names>R.M.</given-names>
+<surname>Walsh</surname></string-name>, <string-name><given-names>J.E.</given-names>
+<surname>Annis</surname></string-name>, <string-name><given-names>A.N.</given-names>
+<surname>Chang</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Frazier</surname></string-name>, <string-name><given-names>B.N.</given-names>
+<surname>Chau</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Loboda</surname></string-name>, <string-name><given-names>P.S.</given-names>
+<surname>Linsley</surname></string-name>, <etal/></person-group>
+<year>2012</year>
+<article-title>Functional genomics identifies therapeutic targets for MYC-driven cancer</article-title>. <source>Proc. Natl. Acad. Sci. USA.</source><volume>109</volume>:<fpage>9545</fpage>&#x02013;<lpage>9550</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1121119109</pub-id><pub-id pub-id-type="pmid">22623531</pub-id></mixed-citation></ref><ref id="bib124"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tsai</surname>, <given-names>T.Y.-C.</given-names></string-name>, <string-name><given-names>Y.S.</given-names>
+<surname>Choi</surname></string-name>, <string-name><given-names>W.</given-names>
+<surname>Ma</surname></string-name>, <string-name><given-names>J.R.</given-names>
+<surname>Pomerening</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Tang</surname></string-name>, and <string-name><given-names>J.E.</given-names>
+<surname>Ferrell</surname>
+<suffix>Jr</suffix></string-name></person-group>
+<year>2008</year>
+<article-title>Robust, tunable biological oscillations from interlinked positive and negative feedback loops</article-title>. <source>Science.</source><volume>321</volume>:<fpage>126</fpage>&#x02013;<lpage>129</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1156951</pub-id><pub-id pub-id-type="pmid">18599789</pub-id></mixed-citation></ref><ref id="bib125"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tuck</surname>, <given-names>A.C.</given-names></string-name>, and <string-name><given-names>D.</given-names>
+<surname>Tollervey</surname></string-name></person-group>
+<year>2013</year>
+<article-title>A transcriptome-wide atlas of RNP composition reveals diverse classes of mRNAs and lncRNAs</article-title>. <source>Cell.</source><volume>154</volume>:<fpage>996</fpage>&#x02013;<lpage>1009</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.07.047</pub-id><pub-id pub-id-type="pmid">23993093</pub-id></mixed-citation></ref><ref id="bib126"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Tyson</surname>, <given-names>J.J.</given-names></string-name>, and <string-name><given-names>B.</given-names>
+<surname>Nov&#x000e1;k</surname></string-name></person-group>
+<year>2010</year>
+<article-title>Functional motifs in biochemical reaction networks</article-title>. <source>Annu. Rev. Phys. Chem.</source><volume>61</volume>:<fpage>219</fpage>&#x02013;<lpage>240</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.physchem.012809.103457</pub-id><pub-id pub-id-type="pmid">20055671</pub-id></mixed-citation></ref><ref id="bib127"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Vizeacoumar</surname>, <given-names>F.J.</given-names></string-name>, <string-name><given-names>N.</given-names>
+<surname>van Dyk</surname></string-name>, <string-name><given-names>F.S.</given-names>
+<surname>Vizeacoumar</surname></string-name>, <string-name><given-names>V.</given-names>
+<surname>Cheung</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>Y.</given-names>
+<surname>Sydorskyy</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>Case</surname></string-name>, <string-name><given-names>Z.</given-names>
+<surname>Li</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Datti</surname></string-name>, <string-name><given-names>C.</given-names>
+<surname>Nislow</surname></string-name>, <etal/></person-group>
+<year>2010</year>
+<article-title>Integrating high-throughput genetic interaction mapping and high-content screening to explore yeast spindle morphogenesis</article-title>. <source>J. Cell Biol.</source><volume>188</volume>:<fpage>69</fpage>&#x02013;<lpage>81</lpage>
+<pub-id pub-id-type="doi">10.1083/jcb.200909013</pub-id><pub-id pub-id-type="pmid">20065090</pub-id></mixed-citation></ref><ref id="bib128"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Vogel</surname>, <given-names>C.</given-names></string-name>, and <string-name><given-names>E.M.</given-names>
+<surname>Marcotte</surname></string-name></person-group>
+<year>2012</year>
+<article-title>Insights into the regulation of protein abundance from proteomic and transcriptomic analyses</article-title>. <source>Nat. Rev. Genet.</source><volume>13</volume>:<fpage>227</fpage>&#x02013;<lpage>232</lpage><pub-id pub-id-type="pmid">22411467</pub-id></mixed-citation></ref><ref id="bib129"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Watts</surname>, <given-names>D.J.</given-names></string-name>, and <string-name><given-names>S.H.</given-names>
+<surname>Strogatz</surname></string-name></person-group>
+<year>1998</year>
+<article-title>Collective dynamics of &#x02018;small-world&#x02019; networks</article-title>. <source>Nature.</source><volume>393</volume>:<fpage>440</fpage>&#x02013;<lpage>442</lpage>
+<pub-id pub-id-type="doi">10.1038/30918</pub-id><pub-id pub-id-type="pmid">9623998</pub-id></mixed-citation></ref><ref id="bib130"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Weissman</surname>, <given-names>J.S.</given-names></string-name></person-group><year>2010</year>
+<article-title>The epistemology of cell biology</article-title>. <source>Mol. Biol. Cell.</source><volume>21</volume>:<fpage>3825</fpage>
+<pub-id pub-id-type="doi">10.1091/mbc.E10-04-0370</pub-id><pub-id pub-id-type="pmid">21079033</pub-id></mixed-citation></ref><ref id="bib131"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Welch</surname>, <given-names>J.S.</given-names></string-name>, <string-name><given-names>T.J.</given-names>
+<surname>Ley</surname></string-name>, <string-name><given-names>D.C.</given-names>
+<surname>Link</surname></string-name>, <string-name><given-names>C.A.</given-names>
+<surname>Miller</surname></string-name>, <string-name><given-names>D.E.</given-names>
+<surname>Larson</surname></string-name>, <string-name><given-names>D.C.</given-names>
+<surname>Koboldt</surname></string-name>, <string-name><given-names>L.D.</given-names>
+<surname>Wartman</surname></string-name>, <string-name><given-names>T.L.</given-names>
+<surname>Lamprecht</surname></string-name>, <string-name><given-names>F.</given-names>
+<surname>Liu</surname></string-name>, <string-name><given-names>J.</given-names>
+<surname>Xia</surname></string-name>, <etal/></person-group>
+<year>2012</year>
+<article-title>The origin and evolution of mutations in acute myeloid leukemia</article-title>. <source>Cell.</source><volume>150</volume>:<fpage>264</fpage>&#x02013;<lpage>278</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2012.06.023</pub-id><pub-id pub-id-type="pmid">22817890</pub-id></mixed-citation></ref><ref id="bib132"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Wurtmann</surname>, <given-names>E.J.</given-names></string-name>, <string-name><given-names>A.V.</given-names>
+<surname>Ratushny</surname></string-name>, <string-name><given-names>M.</given-names>
+<surname>Pan</surname></string-name>, <string-name><given-names>K.D.</given-names>
+<surname>Beer</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name>, and <string-name><given-names>N.S.</given-names>
+<surname>Baliga</surname></string-name></person-group>
+<year>2014</year>
+<article-title>An evolutionarily conserved RNase-based mechanism for repression of transcriptional positive autoregulation</article-title>. <source>Mol. Microbiol.</source><volume>92</volume>:<fpage>369</fpage>&#x02013;<lpage>382</lpage>
+<pub-id pub-id-type="doi">10.1111/mmi.12564</pub-id><pub-id pub-id-type="pmid">24612392</pub-id></mixed-citation></ref><ref id="bib133"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yen</surname>, <given-names>K.</given-names></string-name>, <string-name><given-names>V.</given-names>
+<surname>Vinayachandran</surname></string-name>, and <string-name><given-names>B.F.</given-names>
+<surname>Pugh</surname></string-name></person-group>
+<year>2013</year>
+<article-title>SWR-C and INO80 chromatin remodelers recognize nucleosome-free regions near +1 nucleosomes</article-title>. <source>Cell.</source><volume>154</volume>:<fpage>1246</fpage>&#x02013;<lpage>1256</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.08.043</pub-id><pub-id pub-id-type="pmid">24034248</pub-id></mixed-citation></ref><ref id="bib134"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Yi</surname>, <given-names>E.C.</given-names></string-name>, <string-name><given-names>M.</given-names>
+<surname>Marelli</surname></string-name>, <string-name><given-names>H.</given-names>
+<surname>Lee</surname></string-name>, <string-name><given-names>S.O.</given-names>
+<surname>Purvine</surname></string-name>, <string-name><given-names>R.</given-names>
+<surname>Aebersold</surname></string-name>, <string-name><given-names>J.D.</given-names>
+<surname>Aitchison</surname></string-name>, and <string-name><given-names>D.R.</given-names>
+<surname>Goodlett</surname></string-name></person-group>
+<year>2002</year>
+<article-title>Approaching complete peroxisome characterization by gas-phase fractionation</article-title>. <source>Electrophoresis.</source><volume>23</volume>:<fpage>3205</fpage>&#x02013;<lpage>3216</lpage>
+<pub-id pub-id-type="doi">10.1002/1522-2683(200209)23:18&#x0003c;3205::AID-ELPS3205&#x0003e;3.0.CO;2-Y</pub-id><pub-id pub-id-type="pmid">12298092</pub-id></mixed-citation></ref><ref id="bib135"><mixed-citation publication-type="journal"><person-group person-group-type="author"><string-name><surname>Zheng</surname>, <given-names>Y.</given-names></string-name>, <string-name><given-names>C.</given-names>
+<surname>Zhang</surname></string-name>, <string-name><given-names>D.R.</given-names>
+<surname>Croucher</surname></string-name>, <string-name><given-names>M.A.</given-names>
+<surname>Soliman</surname></string-name>, <string-name><given-names>N.</given-names>
+<surname>St-Denis</surname></string-name>, <string-name><given-names>A.</given-names>
+<surname>Pasculescu</surname></string-name>, <string-name><given-names>L.</given-names>
+<surname>Taylor</surname></string-name>, <string-name><given-names>S.A.</given-names>
+<surname>Tate</surname></string-name>, <string-name><given-names>W.R.</given-names>
+<surname>Hardy</surname></string-name>, <string-name><given-names>K.</given-names>
+<surname>Colwill</surname></string-name>, <etal/></person-group>
+<year>2013</year>
+<article-title>Temporal regulation of EGF signalling networks by the scaffold protein Shc1</article-title>. <source>Nature.</source><volume>499</volume>:<fpage>166</fpage>&#x02013;<lpage>171</lpage>
+<pub-id pub-id-type="doi">10.1038/nature12308</pub-id><pub-id pub-id-type="pmid">23846654</pub-id></mixed-citation></ref></ref-list></back></article>

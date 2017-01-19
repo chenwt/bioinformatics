@@ -1,0 +1,660 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Pancreas</journal-id><journal-id journal-id-type="iso-abbrev">Pancreas</journal-id><journal-id journal-id-type="publisher-id">MPA</journal-id><journal-title-group><journal-title>Pancreas</journal-title></journal-title-group><issn pub-type="ppub">0885-3177</issn><issn pub-type="epub">1536-4828</issn><publisher><publisher-name>Lippincott Williams &#x00026; Wilkins</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4206352</article-id><article-id pub-id-type="publisher-id">MPA13323</article-id><article-id pub-id-type="doi">10.1097/MPA.0000000000000020</article-id><article-id pub-id-type="art-access-id">00005</article-id><article-categories><subj-group subj-group-type="heading"><subject>Original Articles</subject></subj-group></article-categories><title-group><article-title>Evidence for the Importance of Personalized Molecular Profiling in Pancreatic Cancer</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Lili</surname><given-names>Loukia N.</given-names></name><degrees>PhD</degrees><xref ref-type="aff" rid="aff1">*</xref></contrib><contrib contrib-type="author"><name><surname>Matyunina</surname><given-names>Lilya V.</given-names></name><degrees>PhD</degrees><xref ref-type="aff" rid="aff1">*</xref></contrib><contrib contrib-type="author"><name><surname>Walker</surname><given-names>L. DeEtte</given-names></name><degrees>PhD</degrees><xref ref-type="aff" rid="aff1">*</xref></contrib><contrib contrib-type="author"><name><surname>Daneker</surname><given-names>George W.</given-names></name><degrees>MD</degrees><xref ref-type="aff" rid="aff1">&#x02020;</xref></contrib><contrib contrib-type="author"><name><surname>McDonald</surname><given-names>John F.</given-names></name><degrees>PhD</degrees><xref ref-type="aff" rid="aff1">*</xref></contrib></contrib-group><aff id="aff1">From the *Integrated Cancer Research Center, School of Biology, and Parker H. Petit Institute of Bioengineering and Biosciences, Georgia Institute of Technology, Atlanta; and &#x02020;Cancer Treatment Centers of America SE Regional Facility, Newnan, GA.</aff><author-notes><corresp>Reprints: John F. McDonald, PhD, Integrated Cancer Research Center, School of Biology, and Parker H. Petit Institute of Bioengineering and Biosciences, Georgia Institute of Technology, 315 Ferst Dr, Atlanta, GA (e-mail: <email>john.mcdonald@biology.gatech.edu</email>).</corresp></author-notes><pub-date pub-type="ppub"><month>3</month><year>2014</year></pub-date><pub-date pub-type="epub"><day>11</day><month>2</month><year>2014</year></pub-date><volume>43</volume><issue>2</issue><fpage>198</fpage><lpage>211</lpage><history><date date-type="received"><day>14</day><month>5</month><year>2013</year></date><date date-type="accepted"><day>28</day><month>10</month><year>2013</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2014 by Lippincott Williams &#x00026; Wilkins</copyright-statement><copyright-year>2014</copyright-year><license><license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 3.0 License, where it is permissible to download and share the work provided it is properly cited. The work cannot be changed in any way or used commercially. <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/3.0">http://creativecommons.org/licenses/by-nc-nd/3.0</ext-link>.</license-p></license></permissions><self-uri xlink:type="simple" xlink:href="mpa-43-198.pdf"/><abstract abstract-type="toc"><p>Supplemental digital content is available in the text.</p></abstract><abstract><sec><title>Objectives</title><p>There is a growing body of evidence that targeted gene therapy holds great promise for the future treatment of cancer. A crucial step in this therapy is the accurate identification of appropriate candidate genes/pathways for targeted treatment. One approach is to identify variant genes/pathways that are significantly enriched in groups of afflicted individuals relative to control subjects. However, if there are multiple molecular pathways to the same cancer, the molecular determinants of the disease may be heterogeneous among individuals and possibly go undetected by group analyses.</p></sec><sec><title>Methods</title><p>In an effort to explore this question in pancreatic cancer, we compared the most significantly differentially expressed genes/pathways between cancer and control patient samples as determined by group versus personalized analyses.</p></sec><sec><title>Results</title><p>We found little to no overlap between genes/pathways identified by gene expression profiling using group analyses relative to those identified by personalized analyses.</p></sec><sec><title>Conclusions</title><p>Our results indicate that personalized and not group molecular profiling is the most appropriate approach for the identification of putative candidates for targeted gene therapy of pancreatic and perhaps other cancers with heterogeneous molecular etiology.</p></sec></abstract><kwd-group><title>Key Words</title><kwd>cancer diagnostics</kwd><kwd>personalized cancer profiling</kwd><kwd>gene expression</kwd><kwd>microarray</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>OPEN-ACCESS</meta-name><meta-value>TRUE</meta-value></custom-meta><custom-meta><meta-name>SDC</meta-name><meta-value>T</meta-value></custom-meta></custom-meta-group></article-meta></front><body><p>High-throughput molecular profiles (DNA and RNA sequencing, microarray gene expression analyses, etc) are revolutionizing the way cancers are diagnosed,<xref rid="R1" ref-type="bibr">1</xref>&#x02013;<xref rid="R4" ref-type="bibr">4</xref> classified,<xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref> and treated.<xref rid="R7" ref-type="bibr">7</xref>&#x02013;<xref rid="R9" ref-type="bibr">9</xref> One well-established approach to identify molecular variants (eg, genetic, epigenetic, or gene expression pattern variants) that may be causally related to complex diseases such as cancer is to identify variant patterns that are significantly enriched in groups of afflicted individuals relative to control subjects. Examples of this approach are the various genome-wide association studies designed to identify disease-causing alleles.<xref rid="R10" ref-type="bibr">10</xref>,<xref rid="R11" ref-type="bibr">11</xref> While the group approach can, by design, detect genetic or gene expression patterns that are in common among groups of afflicted individuals, genetic variants/molecular patterns that are unique to specific individuals, albeit of potential clinical significance, may go undetected using the group approach. This is likely to be especially true if there are multiple possible molecular paths to the same disease state as is believed to be the case for many, if not all, cancers.<xref rid="R12" ref-type="bibr">12</xref></p><p>In this study, we were interested in evaluating the impact of using a group versus a personalized approach in the analysis of gene expression profiles of a series of pancreatic cancer patients. We found that the most significant genes/molecular pathways identified among these patients, when analyzed as a group, were substantially different from the significant genes/molecular pathways identified when the analysis was performed on an individual patient basis. Our results are consistent with earlier DNA sequence studies,<xref rid="R13" ref-type="bibr">13</xref>&#x02013;<xref rid="R15" ref-type="bibr">15</xref> indicating that, on the molecular level, pancreatic cancer is a highly heterogeneous disease, and as a consequence, personalized gene expression profiling is critical to the acquisition of clinically significant information.</p><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Tissue Collection and Cell Extraction</title><p>Patient tissues (Table <xref ref-type="table" rid="T1">1</xref>) were collected at St Joseph&#x02019;s Hospital (Atlanta, Ga) under appropriate institutional review board protocols. Following resection, the tumor tissues were grossly examined by a pathologist and then placed in cryotubes and frozen in liquid nitrogen. Samples were transported on dry ice to Georgia Institute of Technology (Atlanta, Ga), and stored at &#x02212;80&#x000b0;C.</p><table-wrap id="T1" position="float"><label>TABLE 1</label><caption><p>Patient Clinical Information at the Time of Surgery and Clinical Outcome at the Time of This Study</p></caption><graphic xlink:href="mpa-43-198-g001"/></table-wrap><p>The tissue samples were examined microscopically, and the histology of ductal adenocarcinoma was verified by a pathologist. Following the examination and verification, tissue samples were embedded in cryomatrix (Shandon, Fisher Scientific, Pittsburg, Pa), and 7-&#x000b5;m frozen sections were cut and attached to uncharged microscope slides. Immediately after dehydration and staining (HistoGene, LCM Frozen Section Staining Kit; Life Technologies, Carlsbad, Calif), slides were processed in an Autopix (Life Technologies) instrument for laser capture microdissection (LCM). For each of the 4 patients, 3 samples from their ductal epithelial tumor cells and 3 samples of their normal ductal epithelial cells were collected. All cells were isolated by LCM to ensure purity of samples. Approximately 30,000 cells were collected for each of the 24 total samples (12 cancer and 12 normal samples).</p></sec><sec><title>RNA Extraction and Amplification</title><p>PicoPure RNA Isolation Kit (Life Technologies) protocols were followed for RNA extraction from the LCM cells on the Macro LCM caps in 30 &#x000b5;L of extraction buffer. RNA quality was verified for all samples on the Bioanalyzer RNA Pico Chip (Agilent Technologies, Santa Clara, Calif). Total RNA from the above extractions was processed using Ovation Pico WTA System (NuGEN) in conjunction with the Encore BiotinIL Module (NuGEN Technologies, San Carlos, Calif), to produce an amplified, biotin-labeled cDNA suitable for hybridizing to GeneChip Human Genome U133 Plus 2.0 Arrays (Affymetrix, Santa Clara, Calif) following manufacturer&#x02019;s recommendations.</p></sec><sec><title>Microarray Data Analysis</title><p>We generated 24 individual gene expression profiles from the 3 cancer and 3 normal biological replicate samples of the 4 patients. Affymetrix .CEL files were processed using the Affymetrix Expression Console Software version 1.1 with the Robust Multi-Array Average normalization method. The normalized expression values from all 24 samples were log<sub>2</sub> transformed.</p></sec><sec><title>Group Analysis</title><p>The initial data contained 54,675 probe set expression values from the Affymetrix Human Genome U133 Plus 2.0 chip. For the group analysis, the log<sub>2</sub>-transformed values were averaged across the 12 cancer and 12 normal samples. An unpaired <italic>t</italic> test (<italic>P</italic> &#x02264; 0.005) was applied to identify those probe sets (350) that had significantly different expressions between all 12 cancer and all 12 normal samples. These 350 probe sets were used in the group clustering analysis. Of these 350 probe sets, the 287 unique, annotated genes were ranked by fold change (FC). The FC of each gene was calculated by subtracting the average normal value from the average cancer value. Pathway analyses were carried out using the Web-based integrated software suite MetaCore of GeneGO (<ext-link ext-link-type="uri" xlink:href="http://thomsonreuters.com/products_services/science/systems-biology/">http://thomsonreuters.com/products_services/science/systems-biology/</ext-link>). Applying the default cutoff <italic>P</italic> &#x02264; 0.05, the 287 genes were found to be enriched for 22 pathways.</p></sec><sec sec-type="subjects"><title>Individual Patient Analysis</title><p>For the individual patient analysis, the log<sub>2</sub>-transformed values were averaged across each individual&#x02019;s cancer and normal replicate samples. From each of the patient&#x02019;s initial 54,675 probe sets, an unpaired <italic>t</italic> test (<italic>P</italic> &#x02264; 0.005) was applied to identify 188, 267, 435, and 291 probe sets that had significantly different expression between the cancer and normal replicate samples for each of the patients P1, P2, P3, and P4, respectively. As in the group analysis, these probe sets were used in individual clustering analyses (heat maps). Of these, the 148, 211, 351, and 215 unique, annotated genes for P1, P2, P3, and P4, respectively, were ranked according to FC. The FC of each gene was calculated by subtracting the average normal value from the average cancer value for each individual. These genes also were used in the pathway analyses as described above (MetaCore GeneGO software suite). Applying the default cutoff <italic>P</italic> &#x02264; 0.05, the genes were found to be significantly enriched for 15, 17, 25, and 30 pathways in P1, P2, P3, and P4, respectively. For the probe set clusterings (heat maps) in both the group and individual analyses, the log<sub>2</sub>-transformed values were normalized by <italic>Z</italic> score statistics.</p></sec><sec><title>Analysis of Data From the Previously Published Study of Badea et al</title><p>Seventy-eight Affymetrix .CEL files were downloaded from the GEO Omnibus database with accession number GDS4103.<xref rid="R16" ref-type="bibr">16</xref> The files were processed using the Affymetrix Expression Console Software version 1.1 with the Robust Multi-Array Average normalization method, and the normalized expression values were log<sub>2</sub> transformed, similarly to our sample analysis. All the 78 samples from 36 patients were used for the group analysis. For the individual analysis, the available 2 replicate cancer and 2 replicate normal samples from 3 patients were used (herein referred to as patients P5, P6, and P7; 12 samples total). Both the group and the individual analyses were performed using the methods described above. Because technical replicates (multiple assays of the same biological patient sample) rather than biological replicates (assays of multiple biological samples from the same patient), as assayed in our study, were used in the study of Badea et al,<xref rid="R16" ref-type="bibr">16</xref> the number of significantly differentiated genes at <italic>P</italic> &#x02264; 0.005 was more than an order of magnitude greater than that in our study. Thus, we used an unpaired <italic>t</italic> test with a more stringent cutoff (<italic>P</italic> &#x02264; 0.00001) than in our analysis to keep the number of significantly differentiated genes comparable to our study. Using this criterion, 17,658 significantly differentially expressed probe sets were detected, of which the 500 (330 annotated, unique genes) most significant were used for further analysis. For the individual gene analysis, the same unpaired <italic>t</italic> test with <italic>P</italic> &#x02264; 0.00001 identified 12, 37, and 22 significant probe sets (12, 29, and 20 annotated, unique genes) in patients P5, P6, and P7, respectively.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Group Profiling Identifies Genes and Functional Pathways Previously Implicated in Pancreatic and Other Cancers</title><sec><title>Genes</title><p>In the group profiling, all 12 cancer samples were compared against all 12 normal samples, and 350 probe sets (287 genes) were found to display significant differences in expression (<italic>P</italic> &#x02264; 0.005). The clustering of these 350 probe sets presented in Figure <xref ref-type="fig" rid="F1">1</xref> demonstrates clear separation of the cancer and control samples. However, multiple samples taken from the same patient do not consistently cluster together, indicating heterogeneity within both the cancer and control groups.</p><fig id="F1" position="float"><label>FIGURE 1</label><caption><p>Hierarchical clustering of the 350 probe sets that display a significant (<italic>P</italic> &#x02264; 0.005) difference in gene expression among all cancer and normal samples. The heat map was generated by <italic>z</italic> score normalization of log<sub>2</sub> expression values from the Affymetrix HG U133 Plus 2.0 chip. Patients are denoted as P1, P2, P3, and P4 with their associated cancer and normal biological replicate samples (ie, C1, C2, C3 and N1, N2, N3, respectively).</p></caption><graphic xlink:href="mpa-43-198-g002"/></fig><p>Table <xref ref-type="table" rid="T2">2</xref> presents the top 20 most significant differentially expressed genes (10 most significantly up-regulated and 10 most significantly down-regulated) between the normal and cancer samples as ranked by FC (a complete listing of significantly differentiated genes is presented in Supplemental Tables 1 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A282">http://links.lww.com/MPA/A282</ext-link> and 2 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A283">http://links.lww.com/MPA/A283</ext-link>). A summary of the previously documented significance of a representative sampling of these genes is presented in Table <xref ref-type="table" rid="T3">3</xref>.</p><table-wrap id="T2" position="float"><label>TABLE 2</label><caption><p>The 10 Most Significantly Up-regulated and the 10 Most Significantly Down-regulated Genes in Cancer Resulting From the Group Analysis of the 287 Unique, Annotated, Significantly Differentially Expressed Genes</p></caption><graphic xlink:href="mpa-43-198-g003"/></table-wrap><table-wrap id="T3" position="float"><label>TABLE 3</label><caption><p>Selective Genes From Table <xref ref-type="table" rid="T2">2</xref> Implicated in Pancreatic and Other Cancers</p></caption><graphic xlink:href="mpa-43-198-g004"/></table-wrap></sec><sec><title>Pathways</title><p>Functional analysis was carried out with the integrated software suite MetaCore of GeneGO (<ext-link ext-link-type="uri" xlink:href="http://thomsonreuters.com/products_services/science/systems-biology/">http://thomsonreuters.com/products_services/science/systems-biology/</ext-link>) incorporating the 287 differentially expressed genes. The analysis identified 22 significantly enriched functional pathways (<italic>P</italic> &#x02264; 0.05, Table <xref ref-type="table" rid="T4">4</xref>). More than half of the 22 pathways were associated with the immune response (12/22). Oncostatin M appeared in 4 of the 12 immune response pathways. Oncostatin M is a member of a cytokine family that includes leukemia-inhibitory factor, granulocyte colony-stimulating factor, and interleukin 6, and it possesses the ability to inhibit the proliferation of cells in lines derived from several tumor types, including breast carcinoma, ovarian cancer, melanoma, glioma, and lung carcinoma.<xref rid="R17" ref-type="bibr">17</xref> The 2 most significantly enriched pathways involve androstenedione and testosterone biosynthesis and metabolism (ie, androgen metabolism), both of which have been found significantly altered in pancreatic cancer.<xref rid="R18" ref-type="bibr">18</xref> Other immune response pathways from the group functional analysis were related to interleukins IL-13, IL-17, and IL-18. Interleukin 13 was previously shown to play a pivotal role in the immunoregulatory pathway of natural killer T cells that suppress tumor immunosurveillance.<xref rid="R19" ref-type="bibr">19</xref> Although IL-17 seems to have been previously associated with both tumor regression and tumor growth,<xref rid="R20" ref-type="bibr">20</xref> the specific IL-17 immune response pathway enriched in our analysis contained the protumorigenic gene, CCL2.<xref rid="R21" ref-type="bibr">21</xref></p><table-wrap id="T4" position="float"><label>TABLE 4</label><caption><p>The 22 Significantly Enriched Pathways (<italic>P</italic> &#x02264; 0.05) of the Differentially Expressed Genes From the Group Analysis (287 genes)</p></caption><graphic xlink:href="mpa-43-198-g005"/></table-wrap></sec></sec><sec><title>Personalized Profiling Identifies Additional Genes and Functional Pathways Previously Implicated in Cancer</title><sec><title>Genes</title><p>For the personalized profiles, the gene expression data for each individual patient were analyzed identically to the group profiling analyses. The number of significantly differentially expressed probe sets between cancer and normal replicate samples of each patient (<italic>P</italic> &#x02264; 0.005) varied up to &#x0223c;2-fold between patients (P1, 188 probe sets; P2, 267 probe sets; P3, 435 probe sets; P4, 291 probe sets). The clustering of these differentially expressed probe sets for each patient is presented as heat maps in Figure <xref ref-type="fig" rid="F2">2</xref>.</p><fig id="F2" position="float"><label>FIGURE 2</label><caption><p>Supervised clustering of probe sets displaying a significant (<italic>P</italic> &#x02264; 0.005) difference in expression between normal and cancer samples for patients P1 (A), P2 (B), P3 (C), and P4 (D). The heat map was generated by <italic>z</italic> score normalization of log<sub>2</sub> expression values from the Affymetrix HG U133 Plus 2.0 chip. Patients are denoted as P1, P2, P3, and P4 with their associated cancer and normal biological replicate samples (ie, C1, C2, C3 and N1, N2, N3, respectively).</p></caption><graphic xlink:href="mpa-43-198-g006"/></fig><p>A list of the 20 most significantly (<italic>P</italic> &#x02264; 0.005) differentially expressed genes ranked by FC (10 most significantly up-regulated and 10 most significantly down-regulated) between the normal and cancer samples for each individual patient is presented in Table <xref ref-type="table" rid="T5">5</xref> (a complete list of all significantly differentially expressed probe sets is presented in Supplemental Tables 1 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A282">http://links.lww.com/MPA/A282</ext-link> and 2 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A283">http://links.lww.com/MPA/A283</ext-link>). A summary of the previously documented significance of a representative sampling of these genes is presented in Table <xref ref-type="table" rid="T6">6</xref>.</p><table-wrap id="T5" position="float"><label>TABLE 5</label><caption><p>The 10 Most Significantly Up-regulated and 10 Most Down-regulated Genes (<italic>P</italic> &#x02264; 0.005) Between Normal and Cancer Samples for Each Patient From the Personalized Profiling Analysis (Fig. <xref ref-type="fig" rid="F2">2</xref>)</p></caption><graphic xlink:href="mpa-43-198-g007"/></table-wrap><table-wrap id="T6" position="float"><label>TABLE 6</label><caption><p>Selective Genes From Table <xref ref-type="table" rid="T5">5</xref> Implicated in Pancreatic and Other Cancers</p></caption><graphic xlink:href="mpa-43-198-g008"/></table-wrap></sec><sec><title>Pathways</title><p>As in the group analysis, functional pathway analysis was carried out on all significantly (<italic>P</italic> &#x02264; 0.005) differentially expressed, unique, annotated genes for each patient (P1, 148 genes; P2, 211 genes; P3, 351 genes; P4, 215 genes) to identify functional pathways significantly (<italic>P</italic> &#x02264; 0.05) overrepresented in the cancer samples isolated from each individual patient (Table <xref ref-type="table" rid="T7">7</xref>).</p><table-wrap id="T7" position="float"><label>TABLE 7</label><caption><p>The Significantly (<italic>P</italic> &#x02264; 0.05) Enriched Pathways of the Annotated, Unique, Differentially Expressed Genes in P1 (148 Genes, 15 Pathways), P2 (211 Genes, 17 Pathways), P3 (351 Genes, 25 Pathways), and P4 (215 Genes, 30 Pathways)</p></caption><graphic xlink:href="mpa-43-198-g009"/></table-wrap></sec><sec sec-type="subjects"><title>Patient 1 (P1)</title><p>Five of the 15 most significantly enriched pathways in P1 are associated with the immune response. More specifically, NFAT (nuclear factor of activated T cells) is a major transcriptional regulator in T cells and recently identified as a potent immunoregulator in cancer development and as a potential target for therapeutic manipulation of the immune response in cancer patients.<xref rid="R22" ref-type="bibr">22</xref> Patient 1 also showed enrichment for the TCR and CD28 signaling pathways. Glutathione metabolism was also identified as a significantly enriched pathway in P1. Glutathione is known to affect the efficacy of antineoplastic interventions mainly through nucleophilic thioether formation or oxidation-reduction reactions.<xref rid="R23" ref-type="bibr">23</xref> The prevalence of enriched immune response and glutathione metabolism pathways may help account, thus far, for the favorable outcome in P1.</p></sec><sec sec-type="subjects"><title>Patient 2 (P2)</title><p>Patient 2 displayed pathways that have been implicated strongly in cancer development and invasion. Notch signaling participates in many developmental processes regulating cell differentiation, proliferation, apoptosis, adhesion, epithelial-to-mesenchymal transition, migration, and angiogenesis and can act either as an oncogene or tumor suppressor in a highly context-dependent manner.<xref rid="R24" ref-type="bibr">24</xref> Cell cycle disruption is a typical feature of cancer cells and results in DNA damage.<xref rid="R25" ref-type="bibr">25</xref> Cytoskeleton remodeling is required for cancer cell invasion and metastasis, apparent in most cancers.<xref rid="R26" ref-type="bibr">26</xref> Cell adhesion determines the polarity of cells and maintains the cell architecture in tissues. Cell adhesiveness is generally reduced in cancer to allow for invasiveness, extracellular matrix decomposition, and metastasis.<xref rid="R27" ref-type="bibr">27</xref></p></sec><sec sec-type="subjects"><title>Patient 3 (P3)</title><p>Genes in P3 were enriched predominantly for cell cycle regulatory pathways (9 of a total 25 pathways). This is typical for cancer cells at an advanced stage as with P2. Like P1, P3 showed enrichment of interleukin-mediated immune responses and the glutathione metabolism pathway. Interleukin 12 is a powerful coordinator of the innate and adaptive immune responses and has been shown to have promising antitumor effects in murine tumor models.<xref rid="R28" ref-type="bibr">28</xref> Interleukin 12 is currently being investigated as a potential therapeutic agent against cancer.<xref rid="R29" ref-type="bibr">29</xref></p></sec><sec sec-type="subjects"><title>Patient 4 (P4)</title><p>The most significantly enriched pathway in P4 was the WNT signaling pathway. The canonical WNT/&#x003b2;-catenin pathway has emerged as a critical regulator in stem cells and has also been associated with cancer in many tissues.<xref rid="R30" ref-type="bibr">30</xref> For P4, this particular WNT pathway involved the <italic>frizzled family receptor 7</italic> (<italic>FZD7</italic>), which was up-regulated. Up-regulation of <italic>FZD7</italic> has been reported in gastric and colorectal cancers.<xref rid="R31" ref-type="bibr">31</xref>,<xref rid="R32" ref-type="bibr">32</xref> Patient 4 also showed enrichment of apoptotic and survival pathways. In the p53-dependent apoptosis pathway, the <italic>BCL2L11</italic> gene (BCL2-like 11-apoptosis facilitator), responsible for cytoplasmic transport of proapoptotic proteins BID, BMF, and BIM, is down-regulated. On the other hand, <italic>CDK1</italic> (cyclin-dependent kinase 1) that promotes phosphorylation of the proapoptotic <italic>BAD</italic> (BCL-2&#x02013;associated agonist of cell death) was up-regulated in the BAD phosphorylation pathway. This is evidence for deregulation of the apoptosis and survival pathways in P4.</p></sec></sec><sec sec-type="subjects"><title>Significant Genes and Pathways in the Personalized Analyses Display Little to No Overlap Among Individual Patients or With Those Identified in the Group Analysis</title><p>As shown above, both the group and the personalized analyses identified genes and pathways previously implicated in the onset/progression of pancreatic and a broad spectrum of other cancers. We were next interested in determining the degree of overlap among those genes and pathways identified as significant in each of the individual patient analyses and in the group analysis. Interestingly, we found that the degree of overlap is remarkably low. As shown in Figure <xref ref-type="fig" rid="F3">3</xref> (see also Supplemental Tables 1 [<ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A282">http://links.lww.com/MPA/A282</ext-link>] and 2 [<ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A283">http://links.lww.com/MPA/A283</ext-link>]), less than 6.5% (average, 3.3%) of the genes identified as significantly differentially expressed between normal and cancer cells isolated from individual patients (personalized profiles) overlap with genes identified as significantly differentially expressed across the combined patient samples (group analysis). Likewise, there is remarkably little overlap among the individual patients. For example, of the combined number of annotated genes identified as significantly differentially expressed in samples P1 and P2 (148 + 211 = 359), there was less than 1% (2 / 359 &#x02248; 0.006) overlap. Even between P2 and P3, samples that share the largest number of overlapping genes (8 genes), the degree of overlap is only slightly more than 1% (8 / (211 + 351) &#x02248; 0.014).</p><fig id="F3" position="float"><label>FIGURE 3</label><caption><p>Venn diagrams showing the unique, annotated genes identified as significantly differentially expressed in the group analysis and in the personalized analysis(es) of at least 1 patient.</p></caption><graphic xlink:href="mpa-43-198-g010"/></fig><p>Comparison of the most significantly overrepresented pathways identified in the personalized and group analyses resulted in similar results to the gene analyses; that is, there is relatively little overlap between pathways identified as overrepresented in the group analysis versus the personalized analyses. Furthermore, there is remarkably little overlap in overrepresented pathways among individual patients based on the personalized profiles (Fig. <xref ref-type="fig" rid="F4">4</xref>; Supplemental Table 3 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A284">http://links.lww.com/MPA/A284</ext-link>).</p><fig id="F4" position="float"><label>FIGURE 4</label><caption><p>Venn diagrams showing pathways identified as significantly enriched in the group analysis and in the personalized analysis(es) of at least 1 patient.</p></caption><graphic xlink:href="mpa-43-198-g011"/></fig><p>As shown in Figure <xref ref-type="fig" rid="F4">4</xref> (see also Supplemental Table 3 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A284">http://links.lww.com/MPA/A284</ext-link>), less than 5% (average, 1.7%) of the pathways identified as significantly overrepresented in individual patients (personalized profiles) overlap with pathways of genes identified as significantly differentially expressed across the combined patient samples (group analysis). In fact, pathways identified as overrepresented in 2 of the patient samples (P1 and P4) had no overlap with those identified in the group analysis. In addition, there is relatively little overlap among the individual patients. For example, of the pathways identified as significantly overrepresented in samples P1 and P2 (15 + 17 = 32), there was only 6.3% (2/32 &#x02248; 0.063) overlap. Even between P3 and P4, samples that share the largest number of significantly overrepresented pathways (6 pathways), the degree of overlap is less than 11% (6 / (25 + 30) &#x02248; 0.109).</p><p>The results of the above studies indicate that genes and pathways identified as being most significantly different between normal and cancer samples as determined by the group analysis display little or no overlap with those identified as significant by individual personalized analyses. Likewise, we found little or no overlap in genes and pathways identified as being most significantly different among individual patient samples (personalized analyses).</p><p>To determine if our findings were simply an artifact of the relatively high stringency used in identifying significantly differentiated genes (<italic>P</italic> &#x02264; 0.005), we recomputed the degree of overlap between the personalized and group analyses with a variety of cutoff values ranging from 0.05 to 0.001 Although as stringency is reduced, the total number of differentially expressed genes increases as expected, the low overlap between genes identified as significant by the group versus the personalized analyses remained remarkably low (Fig. <xref ref-type="fig" rid="F5">5</xref>).</p><fig id="F5" position="float"><label>FIGURE 5</label><caption><p>Histogram representing the percent overlap of differentially expressed genes found by group versus P1, group versus P2, group versus P3, and group versus P4 over a range of <italic>P</italic> values. Note that even at a nonsignificant cutoff <italic>P</italic> value of 0.1, the group versus personalized of P3 shows relatively little overlap (&#x0223c;18%).</p></caption><graphic xlink:href="mpa-43-198-g012"/></fig><p>To address the possibility that our findings may simply be an artifact of the relatively small number of patients examined in our study, we conducted a similar analysis using data from a previously published microarray gene expression analysis of control and cancer tissue samples isolated from 36 patients.<xref rid="R16" ref-type="bibr">16</xref> In this earlier study, replicate assays were carried out on 3 patients, allowing us to compare the most significantly differentiated genes as determined by a group analysis (36 patient samples) versus the significantly differentiated genes determined in personalized analyses of 3 patients. Consistent with our previous findings, the results demonstrate remarkably little overlap between genes identified as significant in the group versus personalized analyses (Fig. <xref ref-type="fig" rid="F6">6</xref>; Supplemental Table 4 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A285">http://links.lww.com/MPA/A285</ext-link>).</p><fig id="F6" position="float"><label>FIGURE 6</label><caption><p>Venn diagrams showing the genes identified as significantly differentially expressed in the group analysis and in the personalized analysis(es) of at least 1 patient using data from Badea et al.<xref rid="R16" ref-type="bibr">16</xref></p></caption><graphic xlink:href="mpa-43-198-g013"/></fig><p>As shown in Figure <xref ref-type="fig" rid="F6">6</xref> (see also Supplemental Table 4 <ext-link ext-link-type="uri" xlink:href="http://links.lww.com/MPA/A285">http://links.lww.com/MPA/A285</ext-link>), less than 2% (average, 1.07%) of the genes identified as significantly differentially expressed between normal and cancer cells (<italic>P</italic> &#x02264; 0.00001) isolated from individual patients (personalized profiles) overlap with genes identified as most significantly differentially expressed (top 500 of 17,658 genes significantly differentially expressed, <italic>P</italic> &#x02264; 0.00001) across the combined patient samples. There was no overlap among patients in significantly differentiated genes.</p></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>Molecular profiling is revolutionizing the way we view and treat cancer. Rather than the traditional tissue-of-origin approach to the classification and treatment of the disease, molecular profiling is providing gene-based diagnostics and therapeutics as a realistic alternative. The identification of key genes/pathways associated with various types of cancer is the foundation for both molecular diagnostics and therapeutics.</p><p>The group approach to the identification of key genes/pathways involves combining the molecular profiles of collections of samples from diseased patients to identify shared variant profiles that are distinct from those associated with nondiseased controls (eg, see Clarke et al<xref rid="R33" ref-type="bibr">33</xref>). Although this can be a productive approach for the detection of biomarkers and potential therapeutic targets for diseases caused by 1 or a few genes, for diseases caused by aberrations in a variety of alternative genes/pathways, the group approach may be less effective.<xref rid="R34" ref-type="bibr">34</xref></p><p>Genomes can be profiled with respect to DNA sequence and with respect to gene expression (RNA quantification by microarray or RNAseq analyses, etc). The 2 approaches are complementary in that some functionally significant changes in DNA sequence may not result in changes in gene expression (eg, changes resulting in an altered protein sequence), whereas some changes in gene expression may not be associated with changes in gene sequence (epigenetic changes or changes in a gene&#x02019;s promoter region, etc). A number of DNA sequence analyses of tumor samples isolated from large numbers of pancreatic cancer patients indicate that, from the gene mutation perspective, pancreatic cancer is a highly heterogeneous disease,<xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R15" ref-type="bibr">15</xref> suggesting that pancreatic cancer cannot be characterized by a narrowly defined set of mutations across all patients.<xref rid="R35" ref-type="bibr">35</xref> In the present study, we were interested in further examining this question by comparing the most significantly differentially expressed genes/pathways between pancreatic cancer and control samples as determined by group versus personalized analyses of the same samples. Toward this end, we used LCM to collect 3 distinct sets (biological replicates) of normal and cancer cells from tissue samples obtained from 4 pancreatic patients. In addition, we reanalyzed data from a previous gene expression analysis of 36 pancreatic patients<xref rid="R16" ref-type="bibr">16</xref> and compared the most significantly differentiated genes/pathways as determined by the group analysis relative to the most significantly differentiated genes/pathways as determined by personalized analyses of 3 patients for which replicate microarray assays were performed.</p><p>Our results consistently demonstrated little to no overlap between genes/pathways identified in the group analyses relative to those identified in the personalized analyses. For example, consistent with earlier reports,<xref rid="R36" ref-type="bibr">36</xref> our group analysis identified MUC4 as one of the most significantly differentiated expressed genes between the normal and pancreatic cancer samples (Table <xref ref-type="table" rid="T2">2</xref>). Indeed, MUC4 has recently been proposed as a prime candidate for targeted drug therapy in pancreatic cancer.<xref rid="R37" ref-type="bibr">37</xref> In our personalized analyses, however, MUC4 was identified as significantly overexpressed in only 1 of the 7 patients examined suggesting that MUC4 therapy would likely not be effective for the majority of the patients examined in our study. Conversely, many of the genes identified as being significantly differentially expressed in individual patients (personalized profiles) were not identified as significant in the group analysis. For example, the most significantly differentially expressed gene in the cancer samples isolated from P1 is <italic>PSCA</italic> (prostate stem cell antigen). Interestingly, a monoclonal antibody against PSCA is currently being tested in clinical trials for both prostate and pancreatic cancer.<xref rid="R38" ref-type="bibr">38</xref>,<xref rid="R39" ref-type="bibr">39</xref> Thus, whereas PSCA targeted therapy might well be expected to be effective for P1, it was not identified as being significantly overexpressed in the group analysis or in the personalized analyses of any of the other patients examined. Similarly, <italic>ADAM</italic> (<italic>a d</italic>isintegrin <italic>a</italic>nd <italic>m</italic>etalloprotease), a gene reported to be overexpressed in a number of human cancers<xref rid="R40" ref-type="bibr">40</xref> and identified as a potential candidate for targeted gene therapy,<xref rid="R41" ref-type="bibr">41</xref> was among the most significantly overexpressed genes in P4 but was not identified as being significantly overexpressed in the group analysis or in the personalized analyses of any of the other patients examined.</p><p>Collectively, our results are consistent with earlier findings indicating that, on the molecular level, pancreatic cancer is a highly heterogeneous disease.<xref rid="R13" ref-type="bibr">13</xref> Although targeted gene therapy is believed by many to hold great promise in the treatment of pancreatic and other cancers, a crucial step in the process is the accurate identification of appropriate candidate genes for targeted therapy. Our findings indicate that personalized and not group molecular profiling is the most appropriate approach for the identification of putative candidates for effective targeted gene therapy for pancreatic and perhaps other cancers with heterogeneous molecular etiology.</p></sec></body><back><fn-group><fn fn-type="financial-disclosure"><p>Source of financial support: Georgia Tech Foundation and St Joseph&#x02019;s Mercy Foundation.</p></fn><fn fn-type="conflict"><p>The authors declare no conflict of interest.</p></fn><fn fn-type="supplementary-material"><p>Supplemental digital contents are available for this article. Direct URL citations appear in the printed text and are provided in the HTML and PDF versions of this article on the journal&#x02019;s Web site (<ext-link ext-link-type="uri" xlink:href="www.pancreasjournal.com">www.pancreasjournal.com</ext-link>).</p></fn></fn-group><ref-list><title>REFERENCES</title><ref id="R1"><label>1.</label><mixed-citation publication-type="journal"><person-group><name><surname>Idris</surname><given-names>SF</given-names></name><name><surname>Ahmad</surname><given-names>SS</given-names></name><name><surname>Scott</surname><given-names>MA</given-names></name><etal/></person-group>
+<article-title>The role of high-throughput technologies in clinical cancer genomics</article-title>. 
+<source><italic>Expert Rev Mol Diagn</italic></source>. 
+<year>2013</year>;
+<volume>13</volume>:
+<fpage>167</fpage>&#x02013;
+<lpage>181</lpage><pub-id pub-id-type="pmid">23477557</pub-id></mixed-citation></ref><ref id="R2"><label>2.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Lakhani</surname><given-names>SR</given-names></name><name><surname>Ashworth</surname><given-names>A</given-names></name></person-group>. <article-title>Microarray and histopathological analysis of tumours: the future and the past?</article-title>
+<source><italic>Nat Rev Cancer</italic></source>. 
+<year>2001</year>;
+<volume>1</volume>:
+<fpage>151</fpage>&#x02013;
+<lpage>157</lpage><pub-id pub-id-type="pmid">11905806</pub-id></mixed-citation></ref><ref id="R3"><label>3.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>ten Bosch</surname><given-names>JR</given-names></name><name><surname>Grody</surname><given-names>WW</given-names></name></person-group>. <article-title>Keeping up with the next generation: massively parallel sequencing in clinical diagnostics</article-title>. 
+<source><italic>J Mol Diagn</italic></source>. 
+<year>2008</year>;
+<volume>10</volume>:
+<fpage>484</fpage>&#x02013;
+<lpage>492</lpage><pub-id pub-id-type="pmid">18832462</pub-id></mixed-citation></ref><ref id="R4"><label>4.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Su</surname><given-names>Z</given-names></name><name><surname>Ning</surname><given-names>B</given-names></name><name><surname>Fang</surname><given-names>H</given-names></name><etal/></person-group>
+<article-title>Next-generation sequencing and its applications in molecular diagnostics</article-title>. 
+<source><italic>Expert Rev Mol Diagn</italic></source>. 
+<year>2011</year>;
+<volume>11</volume>:
+<fpage>333</fpage>&#x02013;
+<lpage>343</lpage><pub-id pub-id-type="pmid">21463242</pub-id></mixed-citation></ref><ref id="R5"><label>5.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Sotiriou</surname><given-names>C</given-names></name><name><surname>Neo</surname><given-names>SY</given-names></name><name><surname>McShane</surname><given-names>LM</given-names></name><etal/></person-group>
+<article-title>Breast cancer classification and prognosis based on gene expression profiles from a population-based study</article-title>. 
+<source><italic>Proc Natl Acad Sci U S A</italic></source>. 
+<year>2003</year>;
+<volume>100</volume>:
+<fpage>10393</fpage>&#x02013;
+<lpage>10398</lpage><pub-id pub-id-type="pmid">12917485</pub-id></mixed-citation></ref><ref id="R6"><label>6.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Chuang</surname><given-names>HY</given-names></name><name><surname>Lee</surname><given-names>E</given-names></name><name><surname>Liu</surname><given-names>YT</given-names></name><etal/></person-group>
+<article-title>Network-based classification of breast cancer metastasis</article-title>. 
+<source><italic>Mol Syst Biol</italic></source>. 
+<year>2007</year>;
+<volume>3</volume>:
+<fpage>140</fpage><pub-id pub-id-type="pmid">17940530</pub-id></mixed-citation></ref><ref id="R7"><label>7.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Meyerson</surname><given-names>M</given-names></name><name><surname>Gabriel</surname><given-names>S</given-names></name><name><surname>Getz</surname><given-names>G</given-names></name></person-group>. <article-title>Advances in understanding cancer genomes through second-generation sequencing</article-title>. 
+<source><italic>Nat Rev Genet</italic></source>. 
+<year>2010</year>;
+<volume>11</volume>:
+<fpage>685</fpage>&#x02013;
+<lpage>696</lpage><pub-id pub-id-type="pmid">20847746</pub-id></mixed-citation></ref><ref id="R8"><label>8.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>van&#x02019;t Veer</surname><given-names>LJ</given-names></name><name><surname>Bernards</surname><given-names>R</given-names></name></person-group>. <article-title>Enabling personalized cancer medicine through analysis of gene-expression patterns</article-title>. 
+<source><italic>Nature</italic></source>. 
+<year>2008</year>;
+<volume>452</volume>:
+<fpage>564</fpage>&#x02013;
+<lpage>570</lpage><pub-id pub-id-type="pmid">18385730</pub-id></mixed-citation></ref><ref id="R9"><label>9.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Wulfkuhle</surname><given-names>J</given-names></name><name><surname>Espina</surname><given-names>V</given-names></name><name><surname>Liotta</surname><given-names>L</given-names></name><etal/></person-group>
+<article-title>Genomic and proteomic technologies for individualisation and improvement of cancer treatment</article-title>. 
+<source><italic>Eur J Cancer</italic></source>. 
+<year>2004</year>;
+<volume>40</volume>:
+<fpage>2623</fpage>&#x02013;
+<lpage>2632</lpage><pub-id pub-id-type="pmid">15541963</pub-id></mixed-citation></ref><ref id="R10"><label>10.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Altshuler</surname><given-names>D</given-names></name><name><surname>Daly</surname><given-names>MJ</given-names></name><name><surname>Lander</surname><given-names>ES</given-names></name></person-group>. <article-title>Genetic mapping in human disease</article-title>. 
+<source><italic>Science</italic></source>. 
+<year>2008</year>;
+<volume>322</volume>:
+<fpage>881</fpage>&#x02013;
+<lpage>888</lpage><pub-id pub-id-type="pmid">18988837</pub-id></mixed-citation></ref><ref id="R11"><label>11.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>McClellan</surname><given-names>J</given-names></name><name><surname>King</surname><given-names>MC</given-names></name></person-group>. <article-title>Genetic heterogeneity in human disease</article-title>. 
+<source><italic>Cell</italic></source>. 
+<year>2010</year>;
+<volume>141</volume>:
+<fpage>210</fpage>&#x02013;
+<lpage>217</lpage><pub-id pub-id-type="pmid">20403315</pub-id></mixed-citation></ref><ref id="R12"><label>12.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Vogelstein</surname><given-names>B</given-names></name><name><surname>Kinzler</surname><given-names>KW</given-names></name></person-group>. <article-title>Cancer genes and the pathways they control</article-title>. 
+<source><italic>Nat Med</italic></source>. 
+<year>2004</year>;
+<volume>10</volume>:
+<fpage>789</fpage>&#x02013;
+<lpage>799</lpage><pub-id pub-id-type="pmid">15286780</pub-id></mixed-citation></ref><ref id="R13"><label>13.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Jones</surname><given-names>S</given-names></name><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Parsons</surname><given-names>DW</given-names></name><etal/></person-group>
+<article-title>Core signaling pathways in human pancreatic cancers revealed by global genomic analyses</article-title>. 
+<source><italic>Science</italic></source>. 
+<year>2008</year>;
+<volume>321</volume>:
+<fpage>1801</fpage>&#x02013;
+<lpage>1806</lpage><pub-id pub-id-type="pmid">18772397</pub-id></mixed-citation></ref><ref id="R14"><label>14.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Liang</surname><given-names>WS</given-names></name><name><surname>Craig</surname><given-names>DW</given-names></name><name><surname>Carpten</surname><given-names>J</given-names></name><etal/></person-group>
+<article-title>Genome-wide characterization of pancreatic adenocarcinoma patients using next generation sequencing</article-title>. 
+<source><italic>PLoS One</italic></source>. 
+<year>2012</year>;
+<volume>7</volume>:
+<fpage>e43192</fpage><pub-id pub-id-type="pmid">23071490</pub-id></mixed-citation></ref><ref id="R15"><label>15.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Biankin</surname><given-names>AV</given-names></name><name><surname>Waddell</surname><given-names>N</given-names></name><name><surname>Kassahn</surname><given-names>KS</given-names></name><etal/></person-group>
+<article-title>Pancreatic cancer genomes reveal aberrations in axon guidance pathway genes</article-title>. 
+<source><italic>Nature</italic></source>. 
+<year>2012</year>;
+<volume>491</volume>:
+<fpage>399</fpage>&#x02013;
+<lpage>405</lpage><pub-id pub-id-type="pmid">23103869</pub-id></mixed-citation></ref><ref id="R16"><label>16.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Badea</surname><given-names>L</given-names></name><name><surname>Herlea</surname><given-names>V</given-names></name><name><surname>Dima</surname><given-names>SO</given-names></name><etal/></person-group>
+<article-title>Combined gene expression analysis of whole-tissue and microdissected pancreatic ductal adenocarcinoma identifies genes specifically overexpressed in tumor epithelia</article-title>. 
+<source><italic>Hepatogastroenterology</italic></source>. 
+<year>2008</year>;
+<volume>55</volume>:
+<fpage>2016</fpage>&#x02013;
+<lpage>2027</lpage><pub-id pub-id-type="pmid">19260470</pub-id></mixed-citation></ref><ref id="R17"><label>17.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Grant</surname><given-names>SL</given-names></name><name><surname>Begley</surname><given-names>CG</given-names></name></person-group>. <article-title>The oncostatin M signalling pathway: reversing the neoplastic phenotype?</article-title>
+<source><italic>Mol Med Today</italic></source>. 
+<year>1999</year>;
+<volume>5</volume>:
+<fpage>406</fpage>&#x02013;
+<lpage>412</lpage><pub-id pub-id-type="pmid">10462753</pub-id></mixed-citation></ref><ref id="R18"><label>18.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Fernandez-del Castillo</surname><given-names>C</given-names></name><name><surname>Robles-Diaz</surname><given-names>G</given-names></name><name><surname>Diaz-Sanchez</surname><given-names>V</given-names></name><etal/></person-group>
+<article-title>Pancreatic cancer and androgen metabolism: high androstenedione and low testosterone serum levels</article-title>. 
+<source><italic>Pancreas</italic></source>. 
+<year>1990</year>;
+<volume>5</volume>:
+<fpage>515</fpage>&#x02013;
+<lpage>518</lpage><pub-id pub-id-type="pmid">2235963</pub-id></mixed-citation></ref><ref id="R19"><label>19.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Terabe</surname><given-names>M</given-names></name><name><surname>Park</surname><given-names>JM</given-names></name><name><surname>Berzofsky</surname><given-names>JA</given-names></name></person-group>. <article-title>Role of IL-13 in regulation of anti-tumor immunity and tumor growth</article-title>. 
+<source><italic>Cancer Immunol Immunother</italic></source>. 
+<year>2004</year>;
+<volume>53</volume>:
+<fpage>79</fpage>&#x02013;
+<lpage>85</lpage><pub-id pub-id-type="pmid">14610620</pub-id></mixed-citation></ref><ref id="R20"><label>20.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Murugaiyan</surname><given-names>G</given-names></name><name><surname>Saha</surname><given-names>B</given-names></name></person-group>. <article-title>Protumor vs antitumor functions of IL-17</article-title>. 
+<source><italic>J Immunol</italic></source>. 
+<year>2009</year>;
+<volume>183</volume>:
+<fpage>4169</fpage>&#x02013;
+<lpage>4175</lpage><pub-id pub-id-type="pmid">19767566</pub-id></mixed-citation></ref><ref id="R21"><label>21.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Conti</surname><given-names>I</given-names></name><name><surname>Rollins</surname><given-names>BJ</given-names></name></person-group>. <article-title>CCL2 (monocyte chemoattractant protein-1) and cancer</article-title>. 
+<source><italic>Semin Cancer Biol</italic></source>. 
+<year>2004</year>;
+<volume>14</volume>:
+<fpage>149</fpage>&#x02013;
+<lpage>154</lpage><pub-id pub-id-type="pmid">15246049</pub-id></mixed-citation></ref><ref id="R22"><label>22.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Muller</surname><given-names>MR</given-names></name><name><surname>Rao</surname><given-names>A</given-names></name></person-group>. <article-title>NFAT, immunity and cancer: a transcription factor comes of age</article-title>. 
+<source><italic>Nat Rev Immunol</italic></source>. 
+<year>2010</year>;
+<volume>10</volume>:
+<fpage>645</fpage>&#x02013;
+<lpage>656</lpage><pub-id pub-id-type="pmid">20725108</pub-id></mixed-citation></ref><ref id="R23"><label>23.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Arrick</surname><given-names>BA</given-names></name><name><surname>Nathan</surname><given-names>CF</given-names></name></person-group>. <article-title>Glutathione metabolism as a determinant of therapeutic efficacy: a review</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>1984</year>;
+<volume>44</volume>:
+<fpage>4224</fpage>&#x02013;
+<lpage>4232</lpage><pub-id pub-id-type="pmid">6380705</pub-id></mixed-citation></ref><ref id="R24"><label>24.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Bolos</surname><given-names>V</given-names></name><name><surname>Grego-Bessa</surname><given-names>J</given-names></name><name><surname>de la Pompa</surname><given-names>JL</given-names></name></person-group>. <article-title>Notch signaling in development and cancer</article-title>. 
+<source><italic>Endocr Rev</italic></source>. 
+<year>2007</year>;
+<volume>28</volume>:
+<fpage>339</fpage>&#x02013;
+<lpage>363</lpage><pub-id pub-id-type="pmid">17409286</pub-id></mixed-citation></ref><ref id="R25"><label>25.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kastan</surname><given-names>MB</given-names></name><name><surname>Bartek</surname><given-names>J</given-names></name></person-group>. <article-title>Cell-cycle checkpoints and cancer</article-title>. 
+<source><italic>Nature</italic></source>. 
+<year>2004</year>;
+<volume>432</volume>:
+<fpage>316</fpage>&#x02013;
+<lpage>323</lpage><pub-id pub-id-type="pmid">15549093</pub-id></mixed-citation></ref><ref id="R26"><label>26.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Yilmaz</surname><given-names>M</given-names></name><name><surname>Christofori</surname><given-names>G</given-names></name></person-group>. <article-title>EMT, the cytoskeleton, and cancer cell invasion</article-title>. 
+<source><italic>Cancer Metastasis Rev</italic></source>. 
+<year>2009</year>;
+<volume>28</volume>:
+<fpage>15</fpage>&#x02013;
+<lpage>33</lpage><pub-id pub-id-type="pmid">19169796</pub-id></mixed-citation></ref><ref id="R27"><label>27.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Hirohashi</surname><given-names>S</given-names></name><name><surname>Kanai</surname><given-names>Y</given-names></name></person-group>. <article-title>Cell adhesion system and human cancer morphogenesis</article-title>. 
+<source><italic>Cancer Sci</italic></source>. 
+<year>2003</year>;
+<volume>94</volume>:
+<fpage>575</fpage>&#x02013;
+<lpage>581</lpage><pub-id pub-id-type="pmid">12841864</pub-id></mixed-citation></ref><ref id="R28"><label>28.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Tahara</surname><given-names>H</given-names></name><name><surname>Lotze</surname><given-names>MT</given-names></name></person-group>. <article-title>Antitumor effects of interleukin-12 (IL-12): applications for the immunotherapy and gene therapy of cancer</article-title>. 
+<source><italic>Gene Ther</italic></source>. 
+<year>1995</year>;
+<volume>2</volume>:
+<fpage>96</fpage>&#x02013;
+<lpage>106</lpage><pub-id pub-id-type="pmid">7719935</pub-id></mixed-citation></ref><ref id="R29"><label>29.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Colombo</surname><given-names>MP</given-names></name><name><surname>Trinchieri</surname><given-names>G</given-names></name></person-group>. <article-title>Interleukin-12 in anti-tumor immunity and immunotherapy</article-title>. 
+<source><italic>Cytokine Growth Factor Rev</italic></source>. 
+<year>2002</year>;
+<volume>13</volume>:
+<fpage>155</fpage>&#x02013;
+<lpage>168</lpage><pub-id pub-id-type="pmid">11900991</pub-id></mixed-citation></ref><ref id="R30"><label>30.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Reya</surname><given-names>T</given-names></name><name><surname>Clevers</surname><given-names>H</given-names></name></person-group>. <article-title>Wnt signalling in stem cells and cancer</article-title>. 
+<source><italic>Nature</italic></source>. 
+<year>2005</year>;
+<volume>434</volume>:
+<fpage>843</fpage>&#x02013;
+<lpage>850</lpage><pub-id pub-id-type="pmid">15829953</pub-id></mixed-citation></ref><ref id="R31"><label>31.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kirikoshi</surname><given-names>H</given-names></name><name><surname>Sekihara</surname><given-names>H</given-names></name><name><surname>Katoh</surname><given-names>M</given-names></name></person-group>. <article-title>Up-regulation of Frizzled-7 (FZD7) in human gastric cancer</article-title>. 
+<source><italic>Int J Oncol</italic></source>. 
+<year>2001</year>;
+<volume>19</volume>:
+<fpage>111</fpage>&#x02013;
+<lpage>115</lpage><pub-id pub-id-type="pmid">11408930</pub-id></mixed-citation></ref><ref id="R32"><label>32.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Ueno</surname><given-names>K</given-names></name><name><surname>Hiura</surname><given-names>M</given-names></name><name><surname>Suehiro</surname><given-names>Y</given-names></name><etal/></person-group>
+<article-title>Frizzled-7 as a potential therapeutic target in colorectal cancer</article-title>. 
+<source><italic>Neoplasia</italic></source>. 
+<year>2008</year>;
+<volume>10</volume>:
+<fpage>697</fpage>&#x02013;
+<lpage>705</lpage><pub-id pub-id-type="pmid">18592008</pub-id></mixed-citation></ref><ref id="R33"><label>33.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Clarke</surname><given-names>GM</given-names></name><name><surname>Anderson</surname><given-names>CA</given-names></name><name><surname>Pettersson</surname><given-names>FH</given-names></name><etal/></person-group>
+<article-title>Basic statistical analysis in genetic case-control studies</article-title>. 
+<source><italic>Nat Protoc</italic></source>. 
+<year>2011</year>;
+<volume>6</volume>:
+<fpage>121</fpage>&#x02013;
+<lpage>133</lpage><pub-id pub-id-type="pmid">21293453</pub-id></mixed-citation></ref><ref id="R34"><label>34.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Williams</surname><given-names>SM</given-names></name><name><surname>Canter</surname><given-names>JA</given-names></name><name><surname>Crawford</surname><given-names>DC</given-names></name><etal/></person-group>
+<article-title>Problems with genome-wide association studies</article-title>. 
+<source><italic>Science</italic></source>. 
+<year>2007</year>;
+<volume>316</volume>:
+<fpage>1840</fpage>&#x02013;
+<lpage>1842</lpage><pub-id pub-id-type="pmid">17605173</pub-id></mixed-citation></ref><ref id="R35"><label>35.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Makohon-Moore</surname><given-names>A</given-names></name><name><surname>Brosnan</surname><given-names>JA</given-names></name><name><surname>Iacobuzio-Donahue</surname><given-names>CA</given-names></name></person-group>. <article-title>Pancreatic cancer genomics: insights and opportunities for clinical translation</article-title>. 
+<source><italic>Genome Med</italic></source>. 
+<year>2013</year>;
+<volume>5</volume>:
+<fpage>26</fpage><pub-id pub-id-type="pmid">23673020</pub-id></mixed-citation></ref><ref id="R36"><label>36.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Andrianifahanana</surname><given-names>M</given-names></name><name><surname>Moniaux</surname><given-names>N</given-names></name><name><surname>Schmied</surname><given-names>BM</given-names></name><etal/></person-group>
+<article-title>Mucin (MUC) gene expression in human pancreatic adenocarcinoma and chronic pancreatitis: a potential role of MUC4 as a tumor marker of diagnostic significance</article-title>. 
+<source><italic>Clin Cancer Res</italic></source>. 
+<year>2001</year>;
+<volume>7</volume>:
+<fpage>4033</fpage>&#x02013;
+<lpage>4040</lpage><pub-id pub-id-type="pmid">11751498</pub-id></mixed-citation></ref><ref id="R37"><label>37.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Singh</surname><given-names>AP</given-names></name><name><surname>Chaturvedi</surname><given-names>P</given-names></name><name><surname>Batra</surname><given-names>SK</given-names></name></person-group>. <article-title>Emerging roles of MUC4 in cancer: a novel target for diagnosis and therapy</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2007</year>;
+<volume>67</volume>:
+<fpage>433</fpage>&#x02013;
+<lpage>436</lpage><pub-id pub-id-type="pmid">17234748</pub-id></mixed-citation></ref><ref id="R38"><label>38.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Antonarakis</surname><given-names>ES</given-names></name><name><surname>Carducci</surname><given-names>MA</given-names></name><name><surname>Eisenberger</surname><given-names>MA</given-names></name><etal/></person-group>
+<article-title>Phase I rapid dose-escalation study of AGS-1C4D4, a human anti-PSCA (prostate stem cell antigen) monoclonal antibody, in patients with castration-resistant prostate cancer: a PCCTC trial</article-title>. 
+<source><italic>Cancer Chemother Pharmacol</italic></source>. 
+<year>2012</year>;
+<volume>69</volume>:
+<fpage>763</fpage>&#x02013;
+<lpage>771</lpage><pub-id pub-id-type="pmid">22020316</pub-id></mixed-citation></ref><ref id="R39"><label>39.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Wolpin</surname><given-names>BM</given-names></name><name><surname>O&#x02019;Relly</surname><given-names>EM</given-names></name><name><surname>Ko</surname><given-names>Y</given-names></name></person-group>. <article-title>Global, multicenter, open-label, randomized phase II trial comparing gemcitabine (G) with G plus AGS-1C4D4 (A) in patients (pts) with metastatic pancreatic cancer (mPC)</article-title>. 
+<source><italic>J Clin Oncol</italic></source>. 
+<year>2011</year>;
+<volume>29</volume>
+<issue>(suppl)</issue>. <comment>Abstract 4031</comment></mixed-citation></ref><ref id="R40"><label>40.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Mochizuki</surname><given-names>S</given-names></name><name><surname>Okada</surname><given-names>Y</given-names></name></person-group>. <article-title>ADAMs in cancer cell proliferation and progression</article-title>. 
+<source><italic>Cancer Sci</italic></source>. 
+<year>2007</year>;
+<volume>98</volume>:
+<fpage>621</fpage>&#x02013;
+<lpage>628</lpage><pub-id pub-id-type="pmid">17355265</pub-id></mixed-citation></ref><ref id="R41"><label>41.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Lu</surname><given-names>X</given-names></name><name><surname>Lu</surname><given-names>D</given-names></name><name><surname>Scully</surname><given-names>M</given-names></name><etal/></person-group>
+<article-title>ADAM proteins&#x02014;therapeutic potential in cancer</article-title>. 
+<source><italic>Curr Cancer Drug Targets</italic></source>. 
+<year>2008</year>;
+<volume>8</volume>:
+<fpage>720</fpage>&#x02013;
+<lpage>732</lpage><pub-id pub-id-type="pmid">19075595</pub-id></mixed-citation></ref><ref id="R42"><label>42.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Arumugam</surname><given-names>T</given-names></name><name><surname>Simeone</surname><given-names>DM</given-names></name><name><surname>van Golen</surname><given-names>K</given-names></name><etal/></person-group>
+<article-title>S100P promotes pancreatic cancer growth, survival, and invasion</article-title>. 
+<source><italic>Clin Cancer Res</italic></source>. 
+<year>2005</year>;
+<volume>11</volume>:
+<fpage>5356</fpage>&#x02013;
+<lpage>5364</lpage><pub-id pub-id-type="pmid">16061848</pub-id></mixed-citation></ref><ref id="R43"><label>43.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Basu</surname><given-names>GD</given-names></name><name><surname>Azorsa</surname><given-names>DO</given-names></name><name><surname>Kiefer</surname><given-names>JA</given-names></name><etal/></person-group>
+<article-title>Functional evidence implicating S100P in prostate cancer progression</article-title>. 
+<source><italic>Int J Cancer</italic></source>. 
+<year>2008</year>;
+<volume>123</volume>:
+<fpage>330</fpage>&#x02013;
+<lpage>339</lpage><pub-id pub-id-type="pmid">18452169</pub-id></mixed-citation></ref><ref id="R44"><label>44.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Baine</surname><given-names>MJ</given-names></name><name><surname>Chakraborty</surname><given-names>S</given-names></name><name><surname>Smith</surname><given-names>LM</given-names></name><etal/></person-group>
+<article-title>Transcriptional profiling of peripheral blood mononuclear cells in pancreatic cancer patients identifies novel genes with potential diagnostic utility</article-title>. 
+<source><italic>PLoS One</italic></source>. 
+<year>2011</year>;
+<volume>6</volume>:
+<fpage>e17014</fpage><pub-id pub-id-type="pmid">21347333</pub-id></mixed-citation></ref><ref id="R45"><label>45.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Chaturvedi</surname><given-names>P</given-names></name><name><surname>Singh</surname><given-names>AP</given-names></name><name><surname>Moniaux</surname><given-names>N</given-names></name><etal/></person-group>
+<article-title>MUC4 mucin potentiates pancreatic tumor cell proliferation, survival, and invasive properties and interferes with its interaction to extracellular matrix proteins</article-title>. 
+<source><italic>Mol Cancer Res</italic></source>. 
+<year>2007</year>;
+<volume>5</volume>:
+<fpage>309</fpage>&#x02013;
+<lpage>320</lpage><pub-id pub-id-type="pmid">17406026</pub-id></mixed-citation></ref><ref id="R46"><label>46.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Chaturvedi</surname><given-names>P</given-names></name><name><surname>Singh</surname><given-names>AP</given-names></name><name><surname>Chakraborty</surname><given-names>S</given-names></name><etal/></person-group>
+<article-title>MUC4 mucin interacts with and stabilizes the HER2 oncoprotein in human pancreatic cancer cells</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2008</year>;
+<volume>68</volume>:
+<fpage>2065</fpage>&#x02013;
+<lpage>2070</lpage><pub-id pub-id-type="pmid">18381409</pub-id></mixed-citation></ref><ref id="R47"><label>47.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Graham</surname><given-names>LD</given-names></name><name><surname>Pedersen</surname><given-names>SK</given-names></name><name><surname>Brown</surname><given-names>GS</given-names></name><etal/></person-group>
+<article-title>Colorectal neoplasia differentially expressed (CRNDE), a novel gene with elevated expression in colorectal adenomas and adenocarcinomas</article-title>. 
+<source><italic>Genes Cancer</italic></source>. 
+<year>2011</year>;
+<volume>2</volume>:
+<fpage>829</fpage>&#x02013;
+<lpage>840</lpage><pub-id pub-id-type="pmid">22393467</pub-id></mixed-citation></ref><ref id="R48"><label>48.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Chae</surname><given-names>YK</given-names></name><name><surname>Kang</surname><given-names>SK</given-names></name><name><surname>Kim</surname><given-names>MS</given-names></name><etal/></person-group>
+<article-title>Human AQP5 plays a role in the progression of chronic myelogenous leukemia (CML)</article-title>. 
+<source><italic>PLoS One</italic></source>. 
+<year>2008</year>;
+<volume>3</volume>:
+<fpage>e2594</fpage><pub-id pub-id-type="pmid">18612408</pub-id></mixed-citation></ref><ref id="R49"><label>49.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Chae</surname><given-names>YK</given-names></name><name><surname>Woo</surname><given-names>J</given-names></name><name><surname>Kim</surname><given-names>MJ</given-names></name><etal/></person-group>
+<article-title>Expression of aquaporin 5 (AQP5) promotes tumor invasion in human non small cell lung cancer</article-title>. 
+<source><italic>PLoS One</italic></source>. 
+<year>2008</year>;
+<volume>3</volume>:
+<fpage>e2162</fpage><pub-id pub-id-type="pmid">18478076</pub-id></mixed-citation></ref><ref id="R50"><label>50.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Jung</surname><given-names>HJ</given-names></name><name><surname>Park</surname><given-names>JY</given-names></name><name><surname>Jeon</surname><given-names>HS</given-names></name><etal/></person-group>
+<article-title>Aquaporin-5: a marker protein for proliferation and migration of human breast cancer cells</article-title>. 
+<source><italic>PLoS One</italic></source>. 
+<year>2011</year>;
+<volume>6</volume>:
+<fpage>e28492</fpage><pub-id pub-id-type="pmid">22145049</pub-id></mixed-citation></ref><ref id="R51"><label>51.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kang</surname><given-names>SK</given-names></name><name><surname>Chae</surname><given-names>YK</given-names></name><name><surname>Woo</surname><given-names>J</given-names></name><etal/></person-group>
+<article-title>Role of human aquaporin 5 in colorectal carcinogenesis</article-title>. 
+<source><italic>Am J Pathol</italic></source>. 
+<year>2008</year>;
+<volume>173</volume>:
+<fpage>518</fpage>&#x02013;
+<lpage>525</lpage><pub-id pub-id-type="pmid">18583321</pub-id></mixed-citation></ref><ref id="R52"><label>52.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Woo</surname><given-names>J</given-names></name><name><surname>Lee</surname><given-names>J</given-names></name><name><surname>Chae</surname><given-names>YK</given-names></name><etal/></person-group>
+<article-title>Overexpression of AQP5, a putative oncogene, promotes cell growth and transformation</article-title>. 
+<source><italic>Cancer Lett</italic></source>. 
+<year>2008</year>;
+<volume>264</volume>:
+<fpage>54</fpage>&#x02013;
+<lpage>62</lpage><pub-id pub-id-type="pmid">18423983</pub-id></mixed-citation></ref><ref id="R53"><label>53.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Chen</surname><given-names>Z</given-names></name><name><surname>Song</surname><given-names>Y</given-names></name><etal/></person-group>
+<article-title>Expression of aquaporin 5 increases proliferation and metastasis potential of lung cancer</article-title>. 
+<source><italic>J Pathol</italic></source>. 
+<year>2010</year>;
+<volume>221</volume>:
+<fpage>210</fpage>&#x02013;
+<lpage>220</lpage><pub-id pub-id-type="pmid">20455256</pub-id></mixed-citation></ref><ref id="R54"><label>54.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Chand</surname><given-names>HS</given-names></name><name><surname>Foster</surname><given-names>DC</given-names></name><name><surname>Kisiel</surname><given-names>W</given-names></name></person-group>. <article-title>Structure, function and biology of tissue factor pathway inhibitor-2</article-title>. 
+<source><italic>Thromb Haemost</italic></source>. 
+<year>2005</year>;
+<volume>94</volume>:
+<fpage>1122</fpage>&#x02013;
+<lpage>1130</lpage><pub-id pub-id-type="pmid">16411383</pub-id></mixed-citation></ref><ref id="R55"><label>55.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Glockner</surname><given-names>SC</given-names></name><name><surname>Dhir</surname><given-names>M</given-names></name><name><surname>Yi</surname><given-names>JM</given-names></name><etal/></person-group>
+<article-title>Methylation of TFPI2 in stool DNA: a potential novel biomarker for the detection of colorectal cancer</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2009</year>;
+<volume>69</volume>:
+<fpage>4691</fpage>&#x02013;
+<lpage>4699</lpage><pub-id pub-id-type="pmid">19435926</pub-id></mixed-citation></ref><ref id="R56"><label>56.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Sato</surname><given-names>N</given-names></name><name><surname>Parker</surname><given-names>AR</given-names></name><name><surname>Fukushima</surname><given-names>N</given-names></name><etal/></person-group>
+<article-title>Epigenetic inactivation of TFPI-2 as a common mechanism associated with growth and invasion of pancreatic ductal adenocarcinoma</article-title>. 
+<source><italic>Oncogene</italic></source>. 
+<year>2005</year>;
+<volume>24</volume>:
+<fpage>850</fpage>&#x02013;
+<lpage>858</lpage><pub-id pub-id-type="pmid">15592528</pub-id></mixed-citation></ref><ref id="R57"><label>57.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Sierko</surname><given-names>E</given-names></name><name><surname>Wojtukiewicz</surname><given-names>MZ</given-names></name><name><surname>Kisiel</surname><given-names>W</given-names></name></person-group>. <article-title>The role of tissue factor pathway inhibitor-2 in cancer biology</article-title>. 
+<source><italic>Semin Thromb Hemost</italic></source>. 
+<year>2007</year>;
+<volume>33</volume>:
+<fpage>653</fpage>&#x02013;
+<lpage>659</lpage><pub-id pub-id-type="pmid">18000791</pub-id></mixed-citation></ref><ref id="R58"><label>58.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Turner</surname><given-names>N</given-names></name><name><surname>Grose</surname><given-names>R</given-names></name></person-group>. <article-title>Fibroblast growth factor signalling: from development to cancer</article-title>. 
+<source><italic>Nat Rev Cancer</italic></source>. 
+<year>2010</year>;
+<volume>10</volume>:
+<fpage>116</fpage>&#x02013;
+<lpage>129</lpage><pub-id pub-id-type="pmid">20094046</pub-id></mixed-citation></ref><ref id="R59"><label>59.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Lauffart</surname><given-names>B</given-names></name><name><surname>Vaughan</surname><given-names>MM</given-names></name><name><surname>Eddy</surname><given-names>R</given-names></name><etal/></person-group>
+<article-title>Aberrations of TACC1 and TACC3 are associated with ovarian cancer</article-title>. 
+<source><italic>BMC Womens Health</italic></source>. 
+<year>2005</year>;
+<volume>5</volume>:
+<fpage>8</fpage><pub-id pub-id-type="pmid">15918899</pub-id></mixed-citation></ref><ref id="R60"><label>60.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Argani</surname><given-names>P</given-names></name><name><surname>Rosty</surname><given-names>C</given-names></name><name><surname>Reiter</surname><given-names>RE</given-names></name><etal/></person-group>
+<article-title>Discovery of new markers of cancer through serial analysis of gene expression: prostate stem cell antigen is overexpressed in pancreatic adenocarcinoma</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2001</year>;
+<volume>61</volume>:
+<fpage>4320</fpage>&#x02013;
+<lpage>4324</lpage><pub-id pub-id-type="pmid">11389052</pub-id></mixed-citation></ref><ref id="R61"><label>61.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>He</surname><given-names>P</given-names></name><name><surname>Varticovski</surname><given-names>L</given-names></name><name><surname>Bowman</surname><given-names>ED</given-names></name><etal/></person-group>
+<article-title>Identification of carboxypeptidase E and gamma-glutamyl hydrolase as biomarkers for pulmonary neuroendocrine tumors by cDNA microarray</article-title>. 
+<source><italic>Hum Pathol</italic></source>. 
+<year>2004</year>;
+<volume>35</volume>:
+<fpage>1196</fpage>&#x02013;
+<lpage>1209</lpage><pub-id pub-id-type="pmid">15492986</pub-id></mixed-citation></ref><ref id="R62"><label>62.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Karlsson</surname><given-names>E</given-names></name><name><surname>Delle</surname><given-names>U</given-names></name><name><surname>Danielsson</surname><given-names>A</given-names></name><etal/></person-group>
+<article-title>Gene expression variation to predict 10-year survival in lymph-node&#x02013;negative breast cancer</article-title>. 
+<source><italic>BMC Cancer</italic></source>. 
+<year>2008</year>;
+<volume>8</volume>:
+<fpage>254</fpage><pub-id pub-id-type="pmid">18778486</pub-id></mixed-citation></ref><ref id="R63"><label>63.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>van Houdt</surname><given-names>IS</given-names></name><name><surname>Oudejans</surname><given-names>JJ</given-names></name><name><surname>van den Eertwegh</surname><given-names>AJ</given-names></name><etal/></person-group>
+<article-title>Expression of the apoptosis inhibitor protease inhibitor 9 predicts clinical outcome in vaccinated patients with stage III and IV melanoma</article-title>. 
+<source><italic>Clin Cancer Res</italic></source>. 
+<year>2005</year>;
+<volume>11</volume>:
+<fpage>6400</fpage>&#x02013;
+<lpage>6407</lpage><pub-id pub-id-type="pmid">16144945</pub-id></mixed-citation></ref><ref id="R64"><label>64.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Yoshikawa</surname><given-names>R</given-names></name><name><surname>Yanagi</surname><given-names>H</given-names></name><name><surname>Shen</surname><given-names>CS</given-names></name><etal/></person-group>
+<article-title>ECA39 is a novel distant metastasis-related biomarker in colorectal cancer</article-title>. 
+<source><italic>World J Gastroenterol</italic></source>. 
+<year>2006</year>;
+<volume>12</volume>:
+<fpage>5884</fpage>&#x02013;
+<lpage>5889</lpage><pub-id pub-id-type="pmid">17007058</pub-id></mixed-citation></ref><ref id="R65"><label>65.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Egeblad</surname><given-names>M</given-names></name><name><surname>Werb</surname><given-names>Z</given-names></name></person-group>. <article-title>New functions for the matrix metalloproteinases in cancer progression</article-title>. 
+<source><italic>Nat Rev Cancer</italic></source>. 
+<year>2002</year>;
+<volume>2</volume>:
+<fpage>161</fpage>&#x02013;
+<lpage>174</lpage><pub-id pub-id-type="pmid">11990853</pub-id></mixed-citation></ref><ref id="R66"><label>66.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Foda</surname><given-names>HD</given-names></name><name><surname>Zucker</surname><given-names>S</given-names></name></person-group>. <article-title>Matrix metalloproteinases in cancer invasion, metastasis and angiogenesis</article-title>. 
+<source><italic>Drug Discov Today</italic></source>. 
+<year>2001</year>;
+<volume>6</volume>:
+<fpage>478</fpage>&#x02013;
+<lpage>482</lpage><pub-id pub-id-type="pmid">11344033</pub-id></mixed-citation></ref><ref id="R67"><label>67.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Peruzzi</surname><given-names>D</given-names></name><name><surname>Mori</surname><given-names>F</given-names></name><name><surname>Conforti</surname><given-names>A</given-names></name><etal/></person-group>
+<article-title>MMP11: a novel target antigen for cancer immunotherapy</article-title>. 
+<source><italic>Clin Cancer Res</italic></source>. 
+<year>2009</year>;
+<volume>15</volume>:
+<fpage>4104</fpage>&#x02013;
+<lpage>4113</lpage><pub-id pub-id-type="pmid">19509157</pub-id></mixed-citation></ref><ref id="R68"><label>68.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Hasegawa</surname><given-names>S</given-names></name><name><surname>Furukawa</surname><given-names>Y</given-names></name><name><surname>Li</surname><given-names>M</given-names></name><etal/></person-group>
+<article-title>Genome-wide analysis of gene expression in intestinal-type gastric cancers using a complementary DNA microarray representing 23,040 genes</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2002</year>;
+<volume>62</volume>:
+<fpage>7012</fpage>&#x02013;
+<lpage>7017</lpage><pub-id pub-id-type="pmid">12460921</pub-id></mixed-citation></ref><ref id="R69"><label>69.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kim</surname><given-names>B</given-names></name><name><surname>Bang</surname><given-names>S</given-names></name><name><surname>Lee</surname><given-names>S</given-names></name><etal/></person-group>
+<article-title>Expression profiling and subtype-specific expression of stomach cancer</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2003</year>;
+<volume>63</volume>:
+<fpage>8248</fpage>&#x02013;
+<lpage>8255</lpage><pub-id pub-id-type="pmid">14678982</pub-id></mixed-citation></ref><ref id="R70"><label>70.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Falany</surname><given-names>CN</given-names></name><name><surname>Meloche</surname><given-names>CA</given-names></name><name><surname>He</surname><given-names>D</given-names></name><etal/></person-group>
+<article-title>Expression and subcellular localization of human sulfotransferases (SULTs) in normal and cancerous prostate and breast tissues</article-title>. 
+<source><italic>Proc Am Assoc Cancer Res</italic></source>. 
+<year>2004</year>;
+<volume>2004</volume>:
+<fpage>1020</fpage></mixed-citation></ref><ref id="R71"><label>71.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Hewitt</surname><given-names>KJ</given-names></name><name><surname>Agarwal</surname><given-names>R</given-names></name><name><surname>Morin</surname><given-names>PJ</given-names></name></person-group>. <article-title>The claudin gene family: expression in normal and neoplastic tissues</article-title>. 
+<source><italic>BMC Cancer</italic></source>. 
+<year>2006</year>;
+<volume>6</volume>:
+<fpage>186</fpage><pub-id pub-id-type="pmid">16836752</pub-id></mixed-citation></ref><ref id="R72"><label>72.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Hiraoka</surname><given-names>N</given-names></name><name><surname>Yamazaki-Itoh</surname><given-names>R</given-names></name><name><surname>Ino</surname><given-names>Y</given-names></name><etal/></person-group>
+<article-title>CXCL17 and ICAM2 are associated with a potential anti-tumor immune response in early intraepithelial stages of human pancreatic carcinogenesis</article-title>. 
+<source><italic>Gastroenterology</italic></source>. 
+<year>2011</year>;
+<volume>140</volume>:
+<fpage>310</fpage>&#x02013;
+<lpage>321</lpage><pub-id pub-id-type="pmid">20955708</pub-id></mixed-citation></ref><ref id="R73"><label>73.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kawakubo</surname><given-names>H</given-names></name><name><surname>Carey</surname><given-names>JL</given-names></name><name><surname>Brachtel</surname><given-names>E</given-names></name><etal/></person-group>
+<article-title>Expression of the NF-kappaB&#x02013;responsive gene <italic>BTG2</italic> is aberrantly regulated in breast cancer</article-title>. 
+<source><italic>Oncogene</italic></source>. 
+<year>2004</year>;
+<volume>23</volume>:
+<fpage>8310</fpage>&#x02013;
+<lpage>8319</lpage><pub-id pub-id-type="pmid">15378000</pub-id></mixed-citation></ref><ref id="R74"><label>74.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Rouault</surname><given-names>JP</given-names></name><name><surname>Falette</surname><given-names>N</given-names></name><name><surname>Guehenneux</surname><given-names>F</given-names></name><etal/></person-group>
+<article-title>Identification of BTG2, an antiproliferative p53-dependent component of the DNA damage cellular response pathway</article-title>. 
+<source><italic>Nat Genet</italic></source>. 
+<year>1996</year>;
+<volume>14</volume>:
+<fpage>482</fpage>&#x02013;
+<lpage>486</lpage><pub-id pub-id-type="pmid">8944033</pub-id></mixed-citation></ref><ref id="R75"><label>75.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Arango</surname><given-names>D</given-names></name><name><surname>Al-Obaidi</surname><given-names>S</given-names></name><name><surname>Williams</surname><given-names>DS</given-names></name><etal/></person-group>
+<article-title>Villin expression is frequently lost in poorly differentiated colon cancer</article-title>. 
+<source><italic>Am J Pathol</italic></source>. 
+<year>2012</year>;
+<volume>180</volume>:
+<fpage>1509</fpage>&#x02013;
+<lpage>1521</lpage><pub-id pub-id-type="pmid">22349300</pub-id></mixed-citation></ref><ref id="R76"><label>76.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Galli</surname><given-names>M</given-names></name><name><surname>van Gool</surname><given-names>F</given-names></name><name><surname>Rongvaux</surname><given-names>A</given-names></name><etal/></person-group>
+<article-title>The nicotinamide phosphoribosyltransferase: a molecular link between metabolism, inflammation, and cancer</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2010</year>;
+<volume>70</volume>:
+<fpage>8</fpage>&#x02013;
+<lpage>11</lpage><pub-id pub-id-type="pmid">20028851</pub-id></mixed-citation></ref><ref id="R77"><label>77.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Garten</surname><given-names>A</given-names></name><name><surname>Petzold</surname><given-names>S</given-names></name><name><surname>Korner</surname><given-names>A</given-names></name><etal/></person-group>
+<article-title>Nampt: linking NAD biology, metabolism and cancer</article-title>. 
+<source><italic>Trends Endocrinol Metab</italic></source>. 
+<year>2009</year>;
+<volume>20</volume>:
+<fpage>130</fpage>&#x02013;
+<lpage>138</lpage><pub-id pub-id-type="pmid">19109034</pub-id></mixed-citation></ref><ref id="R78"><label>78.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Siddiqui</surname><given-names>S</given-names></name><name><surname>Bruker</surname><given-names>CT</given-names></name><name><surname>Kestler</surname><given-names>DP</given-names></name><etal/></person-group>
+<article-title>Odontogenic ameloblast associated protein as a novel biomarker for human breast cancer</article-title>. 
+<source><italic>Am Surg</italic></source>. 
+<year>2009</year>;
+<volume>75</volume>:
+<fpage>769</fpage>&#x02013;
+<lpage>775</lpage>; <comment>discussion 775</comment><pub-id pub-id-type="pmid">19774947</pub-id></mixed-citation></ref><ref id="R79"><label>79.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Bjorge</surname><given-names>L</given-names></name><name><surname>Hakulinen</surname><given-names>J</given-names></name><name><surname>Wahlstrom</surname><given-names>T</given-names></name><etal/></person-group>
+<article-title>Complement-regulatory proteins in ovarian malignancies</article-title>. 
+<source><italic>Int J Cancer</italic></source>. 
+<year>1997</year>;
+<volume>70</volume>:
+<fpage>14</fpage>&#x02013;
+<lpage>25</lpage><pub-id pub-id-type="pmid">8985085</pub-id></mixed-citation></ref><ref id="R80"><label>80.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Loberg</surname><given-names>RD</given-names></name><name><surname>Day</surname><given-names>LL</given-names></name><name><surname>Dunn</surname><given-names>R</given-names></name><etal/></person-group>
+<article-title>Inhibition of decay-accelerating factor (CD55) attenuates prostate cancer growth and survival in vivo</article-title>. 
+<source><italic>Neoplasia</italic></source>. 
+<year>2006</year>;
+<volume>8</volume>:
+<fpage>69</fpage>&#x02013;
+<lpage>78</lpage><pub-id pub-id-type="pmid">16533428</pub-id></mixed-citation></ref><ref id="R81"><label>81.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Rushmere</surname><given-names>NK</given-names></name><name><surname>Knowlden</surname><given-names>JM</given-names></name><name><surname>Gee</surname><given-names>JM</given-names></name><etal/></person-group>
+<article-title>Analysis of the level of mRNA expression of the membrane regulators of complement, CD59, CD55 and CD46, in breast cancer</article-title>. 
+<source><italic>Int J Cancer</italic></source>. 
+<year>2003</year>;
+<volume>108</volume>:
+<fpage>930</fpage>&#x02013;
+<lpage>936</lpage><pub-id pub-id-type="pmid">14712499</pub-id></mixed-citation></ref><ref id="R82"><label>82.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kobayashi</surname><given-names>D</given-names></name><name><surname>Koshida</surname><given-names>S</given-names></name><name><surname>Moriai</surname><given-names>R</given-names></name><etal/></person-group>
+<article-title>Olfactomedin 4 promotes S-phase transition in proliferation of pancreatic cancer cells</article-title>. 
+<source><italic>Cancer Sci</italic></source>. 
+<year>2007</year>;
+<volume>98</volume>:
+<fpage>334</fpage>&#x02013;
+<lpage>340</lpage><pub-id pub-id-type="pmid">17270022</pub-id></mixed-citation></ref><ref id="R83"><label>83.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kim</surname><given-names>H</given-names></name><name><surname>Lapointe</surname><given-names>J</given-names></name><name><surname>Kaygusuz</surname><given-names>G</given-names></name><etal/></person-group>
+<article-title>The retinoic acid synthesis gene <italic>ALDH1a2</italic> is a candidate tumor suppressor in prostate cancer</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2005</year>;
+<volume>65</volume>:
+<fpage>8118</fpage>&#x02013;
+<lpage>8124</lpage><pub-id pub-id-type="pmid">16166285</pub-id></mixed-citation></ref><ref id="R84"><label>84.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Zhou</surname><given-names>L</given-names></name><name><surname>Zhang</surname><given-names>R</given-names></name><name><surname>Zhang</surname><given-names>L</given-names></name><etal/></person-group>
+<article-title>Angiotensin-converting enzyme 2 acts as a potential molecular target for pancreatic cancer therapy</article-title>. 
+<source><italic>Cancer Lett</italic></source>. 
+<year>2011</year>;
+<volume>307</volume>:
+<fpage>18</fpage>&#x02013;
+<lpage>25</lpage><pub-id pub-id-type="pmid">21481527</pub-id></mixed-citation></ref><ref id="R85"><label>85.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Glavinas</surname><given-names>H</given-names></name><name><surname>Krajcsi</surname><given-names>P</given-names></name><name><surname>Cserepes</surname><given-names>J</given-names></name><etal/></person-group>
+<article-title>The role of ABC transporters in drug resistance, metabolism and toxicity</article-title>. 
+<source><italic>Curr Drug Deliv</italic></source>. 
+<year>2004</year>;
+<volume>1</volume>:
+<fpage>27</fpage>&#x02013;
+<lpage>42</lpage><pub-id pub-id-type="pmid">16305368</pub-id></mixed-citation></ref><ref id="R86"><label>86.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Ishizuka</surname><given-names>J</given-names></name><name><surname>Townsend</surname><given-names>CM</given-names><suffix>Jr</suffix></name><name><surname>Thompson</surname><given-names>JC</given-names></name></person-group>. <article-title>Neurotensin regulates growth of human pancreatic cancer</article-title>. 
+<source><italic>Ann Surg</italic></source>. 
+<year>1993</year>;
+<volume>217</volume>:
+<fpage>439</fpage>&#x02013;
+<lpage>445</lpage>; <comment>discussion 446</comment><pub-id pub-id-type="pmid">8387763</pub-id></mixed-citation></ref><ref id="R87"><label>87.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Ryder</surname><given-names>NM</given-names></name><name><surname>Guha</surname><given-names>S</given-names></name><name><surname>Hines</surname><given-names>OJ</given-names></name><etal/></person-group>
+<article-title>G protein&#x02013;coupled receptor signaling in human ductal pancreatic cancer cells: neurotensin responsiveness and mitogenic stimulation</article-title>. 
+<source><italic>J Cell Physiol</italic></source>. 
+<year>2001</year>;
+<volume>186</volume>:
+<fpage>53</fpage>&#x02013;
+<lpage>64</lpage><pub-id pub-id-type="pmid">11147814</pub-id></mixed-citation></ref><ref id="R88"><label>88.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Bernard-Pierrot</surname><given-names>I</given-names></name><name><surname>Gruel</surname><given-names>N</given-names></name><name><surname>Stransky</surname><given-names>N</given-names></name><etal/></person-group>
+<article-title>Characterization of the recurrent 8p11&#x02013;12 amplicon identifies PPAPDC1B, a phosphatase protein, as a new therapeutic target in breast cancer</article-title>. 
+<source><italic>Cancer Res</italic></source>. 
+<year>2008</year>;
+<volume>68</volume>:
+<fpage>7165</fpage>&#x02013;
+<lpage>7175</lpage><pub-id pub-id-type="pmid">18757432</pub-id></mixed-citation></ref><ref id="R89"><label>89.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Kang</surname><given-names>D</given-names></name><name><surname>Cho</surname><given-names>HS</given-names></name><name><surname>Toyokawa</surname><given-names>G</given-names></name><etal/></person-group>
+<article-title>The histone methyltransferase Wolf-Hirschhorn syndrome candidate 1-like 1 (WHSC1L1) is involved in human carcinogenesis</article-title>. 
+<source><italic>Genes Chromosomes Cancer</italic></source>. 
+<year>2013</year>;
+<volume>52</volume>:
+<fpage>126</fpage>&#x02013;
+<lpage>139</lpage><pub-id pub-id-type="pmid">23011637</pub-id></mixed-citation></ref><ref id="R90"><label>90.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Erkan</surname><given-names>M</given-names></name><name><surname>Hausmann</surname><given-names>S</given-names></name><name><surname>Michalski</surname><given-names>CW</given-names></name><etal/></person-group>
+<article-title>The role of stroma in pancreatic cancer: diagnostic and therapeutic implications</article-title>. 
+<source><italic>Nat Rev Gastroenterol Hepatol</italic></source>. 
+<year>2012</year>;
+<volume>9</volume>:
+<fpage>454</fpage>&#x02013;
+<lpage>467</lpage><pub-id pub-id-type="pmid">22710569</pub-id></mixed-citation></ref><ref id="R91"><label>91.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Erkan</surname><given-names>M</given-names></name><name><surname>Weis</surname><given-names>N</given-names></name><name><surname>Pan</surname><given-names>Z</given-names></name><etal/></person-group>
+<article-title>Organ-, inflammation- and cancer specific transcriptional fingerprints of pancreatic and hepatic stellate cells</article-title>. 
+<source><italic>Mol Cancer</italic></source>. 
+<year>2010</year>;
+<volume>9</volume>:
+<fpage>88</fpage><pub-id pub-id-type="pmid">20416094</pub-id></mixed-citation></ref><ref id="R92"><label>92.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Harada</surname><given-names>T</given-names></name><name><surname>Chelala</surname><given-names>C</given-names></name><name><surname>Crnogorac-Jurcevic</surname><given-names>T</given-names></name><etal/></person-group>
+<article-title>Genome-wide analysis of pancreatic cancer using microarray-based techniques</article-title>. 
+<source><italic>Pancreatology</italic></source>. 
+<year>2009</year>;
+<volume>9</volume>:
+<fpage>13</fpage>&#x02013;
+<lpage>24</lpage><pub-id pub-id-type="pmid">19077451</pub-id></mixed-citation></ref><ref id="R93"><label>93.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>van den Broeck</surname><given-names>A</given-names></name><name><surname>Vankelecom</surname><given-names>H</given-names></name><name><surname>van Eijsden</surname><given-names>R</given-names></name><etal/></person-group>
+<article-title>Molecular markers associated with outcome and metastasis in human pancreatic cancer</article-title>. 
+<source><italic>J Exp Clin Cancer Res</italic></source>. 
+<year>2012</year>;
+<volume>31</volume>:
+<fpage>68</fpage><pub-id pub-id-type="pmid">22925330</pub-id></mixed-citation></ref><ref id="R94"><label>94.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Grutzmann</surname><given-names>R</given-names></name><name><surname>Foerder</surname><given-names>M</given-names></name><name><surname>Alldinger</surname><given-names>I</given-names></name><etal/></person-group>
+<article-title>Gene expression profiles of microdissected pancreatic ductal adenocarcinoma</article-title>. 
+<source><italic>Virchows Arch</italic></source>. 
+<year>2003</year>;
+<volume>443</volume>:
+<fpage>508</fpage>&#x02013;
+<lpage>517</lpage><pub-id pub-id-type="pmid">12942322</pub-id></mixed-citation></ref><ref id="R95"><label>95.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Ivanov</surname><given-names>S</given-names></name><name><surname>Liao</surname><given-names>SY</given-names></name><name><surname>Ivanova</surname><given-names>A</given-names></name><etal/></person-group>
+<article-title>Expression of hypoxia-inducible cell-surface transmembrane carbonic anhydrases in human cancer</article-title>. 
+<source><italic>Am J Pathol</italic></source>. 
+<year>2001</year>;
+<volume>158</volume>:
+<fpage>905</fpage>&#x02013;
+<lpage>919</lpage><pub-id pub-id-type="pmid">11238039</pub-id></mixed-citation></ref><ref id="R96"><label>96.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Rocks</surname><given-names>N</given-names></name><name><surname>Paulissen</surname><given-names>G</given-names></name><name><surname>El Hour</surname><given-names>M</given-names></name><etal/></person-group>
+<article-title>Emerging roles of ADAM and ADAMTS metalloproteinases in cancer</article-title>. 
+<source><italic>Biochimie</italic></source>. 
+<year>2008</year>;
+<volume>90</volume>:
+<fpage>369</fpage>&#x02013;
+<lpage>379</lpage><pub-id pub-id-type="pmid">17920749</pub-id></mixed-citation></ref><ref id="R97"><label>97.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Yuan</surname><given-names>G</given-names></name><name><surname>Wang</surname><given-names>C</given-names></name><name><surname>Ma</surname><given-names>C</given-names></name><etal/></person-group>
+<article-title>Oncogenic function of DACT1 in colon cancer through the regulation of beta-catenin</article-title>. 
+<source><italic>PLoS One</italic></source>. 
+<year>2012</year>;
+<volume>7</volume>:
+<fpage>e34004</fpage><pub-id pub-id-type="pmid">22470507</pub-id></mixed-citation></ref><ref id="R98"><label>98.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Lehmann</surname><given-names>BD</given-names></name><name><surname>Bauer</surname><given-names>JA</given-names></name><name><surname>Chen</surname><given-names>X</given-names></name><etal/></person-group>
+<article-title>Identification of human triple-negative breast cancer subtypes and preclinical models for selection of targeted therapies</article-title>. 
+<source><italic>J Clin Invest</italic></source>. 
+<year>2011</year>;
+<volume>121</volume>:
+<fpage>2750</fpage>&#x02013;
+<lpage>2767</lpage><pub-id pub-id-type="pmid">21633166</pub-id></mixed-citation></ref><ref id="R99"><label>99.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Martoglio</surname><given-names>AM</given-names></name><name><surname>Tom</surname><given-names>BD</given-names></name><name><surname>Starkey</surname><given-names>M</given-names></name><etal/></person-group>
+<article-title>Changes in tumorigenesis- and angiogenesis-related gene transcript abundance profiles in ovarian cancer detected by tailored high density cDNA arrays</article-title>. 
+<source><italic>Mol Med</italic></source>. 
+<year>2000</year>;
+<volume>6</volume>:
+<fpage>750</fpage>&#x02013;
+<lpage>765</lpage><pub-id pub-id-type="pmid">11071270</pub-id></mixed-citation></ref><ref id="R100"><label>100.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name><name><surname>Li</surname><given-names>Q</given-names></name><etal/></person-group>
+<article-title>Identifying novel prostate cancer associated pathways based on integrative microarray data analysis</article-title>. 
+<source><italic>Comput Biol Chem</italic></source>. 
+<year>2011</year>;
+<volume>35</volume>:
+<fpage>151</fpage>&#x02013;
+<lpage>158</lpage><pub-id pub-id-type="pmid">21704261</pub-id></mixed-citation></ref><ref id="R101"><label>101.</label><mixed-citation publication-type="journal">
+<person-group><name><surname>Wiesmann</surname><given-names>F</given-names></name><name><surname>Veeck</surname><given-names>J</given-names></name><name><surname>Galm</surname><given-names>O</given-names></name><etal/></person-group>
+<article-title>Frequent loss of endothelin-3 (EDN3) expression due to epigenetic inactivation in human breast cancer</article-title>. 
+<source><italic>Breast Cancer Res</italic></source>. 
+<year>2009</year>;
+<volume>11</volume>:
+<fpage>R34</fpage><pub-id pub-id-type="pmid">19527488</pub-id></mixed-citation></ref></ref-list></back></article>

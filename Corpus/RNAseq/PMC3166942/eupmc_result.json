@@ -1,0 +1,590 @@
+{
+  "id": [
+    "21816037"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "21816037"
+  ],
+  "pmcid": [
+    "PMC3166942"
+  ],
+  "doi": [
+    "10.1186/1471-2105-12-322"
+  ],
+  "title": [
+    "Strategies for aggregating gene expression data: the collapseRows R function."
+  ],
+  "authorString": [
+    "Miller JA, Cai C, Langfelder P, Geschwind DH, Kurian SM, Salomon DR, Horvath S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Miller JA"
+          ],
+          "firstName": [
+            "Jeremy A"
+          ],
+          "lastName": [
+            "Miller"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Interdepartmental Program for Neuroscience, UCLA, Los Angeles, California, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Cai C"
+          ],
+          "firstName": [
+            "Chaochao"
+          ],
+          "lastName": [
+            "Cai"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Langfelder P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "Langfelder"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Geschwind DH"
+          ],
+          "firstName": [
+            "Daniel H"
+          ],
+          "lastName": [
+            "Geschwind"
+          ],
+          "initials": [
+            "DH"
+          ]
+        },
+        {
+          "fullName": [
+            "Kurian SM"
+          ],
+          "firstName": [
+            "Sunil M"
+          ],
+          "lastName": [
+            "Kurian"
+          ],
+          "initials": [
+            "SM"
+          ]
+        },
+        {
+          "fullName": [
+            "Salomon DR"
+          ],
+          "firstName": [
+            "Daniel R"
+          ],
+          "lastName": [
+            "Salomon"
+          ],
+          "initials": [
+            "DR"
+          ]
+        },
+        {
+          "fullName": [
+            "Horvath S"
+          ],
+          "firstName": [
+            "Steve"
+          ],
+          "lastName": [
+            "Horvath"
+          ],
+          "initials": [
+            "S"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "2470003"
+      ],
+      "dateOfPublication": [
+        "2011 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2011"
+      ],
+      "printPublicationDate": [
+        "2011-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2011"
+  ],
+  "pageInfo": [
+    "322"
+  ],
+  "abstractText": [
+    "Genomic and other high dimensional analyses often require one to summarize multiple related variables by a single representative. This task is also variously referred to as collapsing, combining, reducing, or aggregating variables. Examples include summarizing several probe measurements corresponding to a single gene, representing the expression profiles of a co-expression module by a single expression profile, and aggregating cell-type marker information to de-convolute expression data. Several standard statistical summary techniques can be used, but network methods also provide useful alternative methods to find representatives. Currently few collapsing functions are developed and widely applied.We introduce the R function collapseRows that implements several collapsing methods and evaluate its performance in three applications. First, we study a crucial step of the meta-analysis of microarray data: the merging of independent gene expression data sets, which may have been measured on different platforms. Toward this end, we collapse multiple microarray probes for a single gene and then merge the data by gene identifier. We find that choosing the probe with the highest average expression leads to best between-study consistency. Second, we study methods for summarizing the gene expression profiles of a co-expression module. Several gene co-expression network analysis applications show that the optimal collapsing strategy depends on the analysis goal. Third, we study aggregating the information of cell type marker genes when the aim is to predict the abundance of cell types in a tissue sample based on gene expression data (\"expression deconvolution\"). We apply different collapsing methods to predict cell type abundances in peripheral human blood and in mixtures of blood cell lines. Interestingly, the most accurate prediction method involves choosing the most highly connected \"hub\" marker gene. Finally, to facilitate biological interpretation of collapsed gene lists, we introduce the function userListEnrichment, which assesses the enrichment of gene lists for known brain and blood cell type markers, and for other published biological pathways.The R function collapseRows implements several standard and network-based collapsing methods. In various genomic applications we provide evidence that both types of methods are robust and biologically relevant tools."
+  ],
+  "affiliation": [
+    "Interdepartmental Program for Neuroscience, UCLA, Los Angeles, California, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "F31 AG031649"
+          ],
+          "agency": [
+            "NIA NIH HHS"
+          ],
+          "acronym": [
+            "AG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P01 HL030568"
+          ],
+          "agency": [
+            "NHLBI NIH HHS"
+          ],
+          "acronym": [
+            "HL"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U19 AI063603-07"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 AG26938-05"
+          ],
+          "agency": [
+            "NIA NIH HHS"
+          ],
+          "acronym": [
+            "AG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P50CA092131"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Brain"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Blood"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Mice"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oligonucleotide Array Sequence Analysis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Models, Statistical"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Meta-Analysis as Topic"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3166942?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3166942"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=21816037&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=21816037"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/1471-2105-12-322"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "68"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2011-12-29"
+  ],
+  "dateOfCreation": [
+    "2011-09-06"
+  ],
+  "dateOfRevision": [
+    "2016-10-19"
+  ],
+  "electronicPublicationDate": [
+    "2011-08-04"
+  ],
+  "firstPublicationDate": [
+    "2011-08-04"
+  ]
+}

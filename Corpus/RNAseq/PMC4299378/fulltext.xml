@@ -1,0 +1,776 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.0 20040830//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Syst Biol</journal-id><journal-id journal-id-type="iso-abbrev">Mol. Syst. Biol</journal-id><journal-id journal-id-type="publisher-id">msb</journal-id><journal-title-group><journal-title>Molecular Systems Biology</journal-title></journal-title-group><issn pub-type="ppub">1744-4292</issn><issn pub-type="epub">1744-4292</issn><publisher><publisher-name>BlackWell Publishing Ltd</publisher-name><publisher-loc>Oxford, UK</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4299378</article-id><article-id pub-id-type="doi">10.15252/msb.20145625</article-id><article-categories><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>Ultrasensitive proteome analysis using paramagnetic bead technology</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Hughes</surname><given-names>Christopher S</given-names></name><xref ref-type="aff" rid="au1"/></contrib><contrib contrib-type="author"><name><surname>Foehr</surname><given-names>Sophia</given-names></name><xref ref-type="aff" rid="au1"/></contrib><contrib contrib-type="author"><name><surname>Garfield</surname><given-names>David A</given-names></name><xref ref-type="aff" rid="au1"/></contrib><contrib contrib-type="author"><name><surname>Furlong</surname><given-names>Eileen E</given-names></name><xref ref-type="aff" rid="au1"/></contrib><contrib contrib-type="author"><name><surname>Steinmetz</surname><given-names>Lars M</given-names></name><xref ref-type="aff" rid="au1"/></contrib><contrib contrib-type="author"><name><surname>Krijgsveld</surname><given-names>Jeroen</given-names></name><xref ref-type="aff" rid="au1"/><xref ref-type="corresp" rid="cor1">*</xref></contrib><aff id="au1"><institution>European Molecular Biology Laboratory, Genome Biology Unit</institution><addr-line>Heidelberg, Germany</addr-line></aff></contrib-group><author-notes><corresp id="cor1"> *Corresponding author. Tel: +49 6221 3878560; E-mail:<email>jeroen.krijgsveld@embl.de</email></corresp><fn><p><bold>Funding Information</bold>Methods &#x00026; Resources; Post-translational Modifications,
+Proteolysis &#x00026; Proteomics</p></fn></author-notes><pub-date pub-type="collection"><day>01</day><month>10</month><year>2014</year></pub-date><pub-date pub-type="epub"><day>30</day><month>10</month><year>2014</year></pub-date><volume>10</volume><issue>10</issue><fpage seq="d">1</fpage><lpage>10</lpage><history><date date-type="received"><day>27</day><month>7</month><year>2014</year></date><date date-type="rev-recd"><day>01</day><month>10</month><year>2014</year></date><date date-type="accepted"><day>07</day><month>10</month><year>2014</year></date></history><permissions><copyright-statement>&#x000a9; 2014 The Authors. Published under the terms of the CC BY 4.0
+license</copyright-statement><copyright-year>2014</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><license-p>This is an open access article under the terms of the Creative Commons Attribution 4.0 License,
+which permits use, distribution and reproduction in any medium, provided the original work is
+properly cited.</license-p></license></permissions><abstract><p>In order to obtain a systems-level understanding of a complex biological system, detailed
+proteome information is essential. Despite great progress in proteomics technologies, thorough
+interrogation of the proteome from quantity-limited biological samples is hampered by inefficiencies
+during processing. To address these challenges, here we introduce a novel protocol using
+paramagnetic beads, termed Single-Pot Solid-Phase-enhanced Sample Preparation (SP3). SP3 provides a
+rapid and unbiased means of proteomic sample preparation in a single tube that facilitates
+ultrasensitive analysis by outperforming existing protocols in terms of efficiency, scalability,
+speed, throughput, and flexibility. To illustrate these benefits, characterization of 1,000 HeLa
+cells and single <italic>Drosophila</italic> embryos is used to establish that SP3 provides an
+enhanced platform for profiling proteomes derived from sub-microgram amounts of material. These data
+present a first view of developmental stage-specific proteome dynamics in
+<italic>Drosophila</italic> at a single-embryo resolution, permitting characterization of
+inter-individual expression variation. Together, the findings of this work position SP3 as a
+superior protocol that facilitates exciting new directions in multiple areas of proteomics ranging
+from developmental biology to clinical applications.</p></abstract><kwd-group><kwd>mass spectrometry</kwd><kwd>paramagnetic beads</kwd><kwd>proteomics</kwd><kwd>quantification</kwd><kwd>sample preparation</kwd></kwd-group></article-meta></front><body><sec><title>Introduction</title><p>Diversity and complexity in cellular proteomes have driven the development of a broad range of
+protocols to improve analyses by mass spectrometry (MS). In traditional bottom-up experiments, these
+methods are optimized to enhance the depth of proteome coverage through generation of conditions
+favorable for proteolytic digestion and sample recovery (Le&#x000f3;n <italic>et&#x000a0;al</italic>,
+<xref rid="b33" ref-type="bibr">2013</xref>; Tanca <italic>et&#x000a0;al</italic>, <xref rid="b55" ref-type="bibr">2013</xref>) and have led to charting of the near-complete proteomes of
+various mammalian cell lines (Beck <italic>et&#x000a0;al</italic>, <xref rid="b6" ref-type="bibr">2011</xref>; Moghaddas Gholami <italic>et&#x000a0;al</italic>, <xref rid="b38" ref-type="bibr">2013</xref>; Branca <italic>et&#x000a0;al</italic>, <xref rid="b9" ref-type="bibr">2014</xref>).
+However, performance in proteomic experiments drops steeply when protein amounts are limited, due to
+inefficiencies related to sample processing and instrument sensitivity. Although recent innovations
+in mass spectrometric instrumentation have accelerated the speed and sensitivity of proteome
+analysis (Hebert <italic>et&#x000a0;al</italic>, <xref rid="b23" ref-type="bibr">2014</xref>),
+further improvements can be obtained by emphasizing the optimization, simplification, and
+miniaturization of sample preparation.</p><p>To enhance sample processing, agents that aid in cell disruption and solubilization such as
+detergents and chaotropes are often utilized. Problematically, the majority of these additives are
+incompatible with proteolysis and MS analysis and thus necessitate removal using ultrafiltration
+(Wisniewski <italic>et&#x000a0;al</italic>, <xref rid="b62" ref-type="bibr">2009</xref>) and
+bead-based (Bereman <italic>et&#x000a0;al</italic>, <xref rid="b7" ref-type="bibr">2011</xref>;
+Hengel <italic>et&#x000a0;al</italic>, <xref rid="b24" ref-type="bibr">2012</xref>) or precipitation
+approaches, each of which increase handling and subsequent loss of material. As MS-based proteomics
+drives toward the analysis of rare and quantity-limited samples, ultrasensitive workflows that
+eliminate these losses are essential (Altelaar &#x00026; Heck, <xref rid="b3" ref-type="bibr">2012</xref>). This has led to the development of methodologies that minimize handling and promote
+high sample recovery (Ethier &#x00026; Hou, <xref rid="b17" ref-type="bibr">2006</xref>; Umar
+<italic>et&#x000a0;al</italic>, <xref rid="b58" ref-type="bibr">2007</xref>; Waanders
+<italic>et&#x000a0;al</italic>, <xref rid="b59" ref-type="bibr">2009</xref>; Wang
+<italic>et&#x000a0;al</italic>, <xref rid="b60" ref-type="bibr">2010</xref>; Di Palma
+<italic>et&#x000a0;al</italic>, <xref rid="b15" ref-type="bibr">2011</xref>; Wisniewski
+<italic>et&#x000a0;al</italic>, <xref rid="b63" ref-type="bibr">2011a</xref>; Sun
+<italic>et&#x000a0;al</italic>, <xref rid="b52" ref-type="bibr">2013</xref>; Erde
+<italic>et&#x000a0;al</italic>, <xref rid="b16" ref-type="bibr">2014</xref>; Kulak
+<italic>et&#x000a0;al</italic>, <xref rid="b30" ref-type="bibr">2014</xref>; Zougman
+<italic>et&#x000a0;al</italic>, <xref rid="b70" ref-type="bibr">2014</xref>). However, these
+protocols have limited flexibility due to several shortcomings, including reagent incompatibilities
+(detergents, chaotropes, salts), the required use of detergent alternatives (e.g., amphipols),
+restrictions related to absolute sample volume, throughput, and excessive handling. Subsequently,
+these workflows have typically been limited to processing of absolute material quantities
+&#x0003e;&#x000a0;1&#x000a0;&#x003bc;g or achieve reduced proteome coverage (&#x0223c;2,000 total
+proteins) when examining sub-microgram amounts of protein. These drawbacks have largely precluded
+the use of proteomics in applications where high reproducibility, sensitivity, and throughput are
+necessary, such as in clinical studies or population screening.</p><p>The rapid expansion of next-generation sequencing has prompted the development of methods
+amenable to high-throughput genome library preparation that are greatly facilitated by the
+application of paramagnetic beads in manual and roboticized platforms (DeAngelis
+<italic>et&#x000a0;al</italic>, <xref rid="b14" ref-type="bibr">1995</xref>; Wilkening
+<italic>et&#x000a0;al</italic>, <xref rid="b61" ref-type="bibr">2013</xref>). However, paramagnetic
+bead usage is not common in general proteomics, although they have been employed in specialized
+applications for covalent coupling or affinity purification of proteins, immobilized proteolysis
+(Fan <italic>et&#x000a0;al</italic>, <xref rid="b18" ref-type="bibr">2014</xref>), and for the
+enrichment of post-translationally modified peptides (Yeh <italic>et&#x000a0;al</italic>, <xref rid="b65" ref-type="bibr">2012</xref>; Zeng <italic>et&#x000a0;al</italic>, <xref rid="b68" ref-type="bibr">2012</xref>). Recent technologies based on nanodiamond particles have illustrated the
+depletion of contaminating substances and enhancement of compartment-specific proteomics (Chen
+<italic>et&#x000a0;al</italic>, <xref rid="b12" ref-type="bibr">2006</xref>; Pham
+<italic>et&#x000a0;al</italic>, <xref rid="b43" ref-type="bibr">2013</xref>). Building on technology
+developments pioneered by solid-phase reversible immobilization (SPRI) (DeAngelis
+<italic>et&#x000a0;al</italic>, <xref rid="b14" ref-type="bibr">1995</xref>) and nanodiamond
+technologies (Chen <italic>et&#x000a0;al</italic>, <xref rid="b12" ref-type="bibr">2006</xref>), and
+with the goal of enhancing and simplifying generic proteomics sample processing, we have developed
+SP3. SP3 is a novel single-tube proteomics workflow that provides efficient unbiased binding of
+proteins and peptides, enabling rapid and efficient completion of common proteomics workflows in a
+high-throughput manner.</p><p>In this study, SP3 is applied to a variety of conventional and ultrasensitive proteomics
+applications. Based on the observation that SP3 provided an enhanced platform for handling
+sub-microgram amounts of material determined from in-depth proteome profiling HeLa cells, we applied
+SP3 to examine embryonic development using <italic>Drosophila</italic> embryos. While a wealth of
+gene expression data exists for <italic>Drosophila</italic>, its proteome dynamics during
+development has been the focus of relatively few studies (Carmena, <xref rid="b11" ref-type="bibr">2009</xref>). With an SP3-based approach, the proteome here is profiled to a depth of
+&#x0003e;&#x000a0;6,000 proteins, of the predicted 18,000 proteins in the <italic>Drosophila</italic>
+genome, from pooled embryos at 2&#x02013;4&#x000a0;h (stages 5&#x02013;7) and 10&#x02013;12&#x000a0;h
+(stages 13&#x02013;15) of development. This analysis was extended to capture dynamics in an
+ultrasensitive screen at a single-embryo resolution. These data represent the largest catalog of the
+<italic>Drosophila</italic> embryo proteome to date, while providing unparalleled sensitivity for
+quantitative comparisons that have the potential to reveal novel inter-individual proteome variance.
+Furthermore, the use of SP3 in these studies illustrates its potential advantages in other areas of
+developmental and clinical biology where reproducible in-depth quantitative analysis is required to
+explain inter-individual variation with scarce sample amounts.</p></sec><sec sec-type="results"><title>Results</title><p>Here, we demonstrate for the first time that proteins and peptides can be immobilized on the
+hydrophilic surface of carboxylate-coated paramagnetic beads in an unbiased fashion, initiated by
+the introduction of an organic additive, and by a mechanism similar to hydrophilic interaction
+chromatography (HILIC) (Alpert, <xref rid="b1" ref-type="bibr">1990</xref>) or electrostatic
+repulsion hydrophilic interaction chromatography (ERLIC) (Alpert, <xref rid="b2" ref-type="bibr">2008</xref>) (Fig<xref ref-type="fig" rid="fig01">1</xref>A). The addition of an organic solvent to
+an aqueous solution containing paramagnetic beads promotes trapping of proteins and peptides in a
+solvation layer on the hydrophilic surface of the beads. This interaction can be adjusted through
+modulation of the solution pH, where an acidic solution promotes HILIC-style binding, and basic
+conditions are similar to ERLIC with repulsion driven by the negatively charged carboxylate group on
+the bead surface. We have observed this mechanism to be effective utilizing beads from a range of
+manufacturers (Supplementary Fig S1A).</p><fig id="fig01" position="float"><label>Figure 1</label><caption><title>SP3 provides an efficient means for preparing protein and peptide samples for MS
+analysis</title><p><list list-type="alpha-upper"><list-item><p>Schematic of the SP3 workflow in a single tube. Protein and peptide mixtures are bound to
+carboxylate-coated paramagnetic beads through the addition of acetonitrile in a manner similar to
+HILIC and ERLIC. Immobilization on the bead surface permits rinsing and removal of contaminating
+substances prior to proteolysis or MS analysis. Elution is performed directly into aqueous solution.
+Red text indicates steps carried out at the protein level, and blue are performed on peptides.</p></list-item><list-item><p>SP3 is compatible with a variety of commonly used reagents. Table of common reagents used in
+proteomics studies that we have tested and determined to be compatible with SP3. Listed values are
+the maximum concentrations tested. Reagents that do not appear in this table have not been tested
+and may be compatible with SP3.</p></list-item><list-item><p>SP3 demonstrates high recovery for both proteins and peptides. SDS&#x02013;PAGE analysis of a
+yeast whole-cell lysate left untreated (Control) or treated with SP3. Numerical values at the top of
+each lane indicate the amount of starting material (&#x003bc;g of protein). Plot on the right
+displays overlaid densitometry data from the 37.5&#x000a0;&#x003bc;g lanes.</p></list-item><list-item><p>Base-peak chromatograms of equivalent peptide mixtures analyzed by MS after treatment with
+StageTips (Control) or with SP3.</p></list-item></list>
+</p></caption><graphic xlink:href="msb0010-0757-f1"/></fig><p>Once immobilized on-bead, proteins and peptides can be rinsed while on a magnetic rack
+(Supplementary Fig S1B and C) with a combination of solutions to efficiently remove contaminating
+agents, such as detergents and chaotropes. We have found that a combination of rinses with
+70% ethanol and 100% acetonitrile provides optimal removal of a range of reagents
+common to proteomics (Fig<xref ref-type="fig" rid="fig01">1</xref>B). After rinsing, proteins and
+peptides are eluted into an aqueous solution. At this stage, purified proteins can be directly used
+in a variety of downstream protocols, such as fractionation or digestion. Employing a similar
+workflow, peptide mixtures can be immobilized and rinsed on the surface of the paramagnetic beads.
+SP3 of peptide mixtures accomplishes both cleanup and concentration, eliminating the need for common
+de-salting and rotary evaporation steps. Subsequently, eluted peptide mixtures can be immediately
+subjected to MS analysis. Alternatively, peptides can be selectively eluted in a stepwise manner
+through modulation of the acetonitrile concentration and fractionated off-bead using ERLIC or HILIC
+conditions prior to MS analysis. Preceding fractionation or peptide SP3, peptides may also be
+chemically labeled. Each SP3 process (protein and peptide) is rapid, requiring just 15&#x000a0;min
+(excluding digestion times), and can be completed entirely in parallel with no increase in process
+time, even when scaling to a 96-well format. Furthermore, all steps in a conventional proteomics
+protocol (cell lysis, protein cleanup and digestion, peptide labeling, desalting, fractionation, and
+concentration) can be completed entirely in a single tube with SP3, maximizing throughput while
+minimizing potential sample loss.</p><p>To illustrate the efficiency and utility of SP3 in comparison with conventional methods for
+protein manipulation, we employed a whole-cell lysate prepared in 1% SDS-containing buffer
+derived from the yeast <italic>Saccharomyces cerevisiae</italic>. SDS&#x02013;PAGE analysis of
+SP3-treated lysates showed no discernible protein loss when compared with untreated controls
+(Fig<xref ref-type="fig" rid="fig01">1</xref>C). In contrast, when utilizing conditions previously
+described to promote protein binding to nanodiamond particles through modulation of the solution pH
+or bead concentration (Chen <italic>et&#x000a0;al</italic>, <xref rid="b12" ref-type="bibr">2006</xref>; Pham <italic>et&#x000a0;al</italic>, <xref rid="b43" ref-type="bibr">2013</xref>),
+interestingly reduced interaction with the paramagnetic beads used with SP3 was observed
+(Supplementary Fig S2A and B). Non-specific losses that limit protein recovery were not observed
+when compared to precipitation conditions as employed in SPRI for oligonucleotides, as well as a
+common ultrafiltration-based approach (filter-aided sample preparation, FASP) (Wisniewski
+<italic>et&#x000a0;al</italic>, <xref rid="b62" ref-type="bibr">2009</xref>, <xref rid="b64" ref-type="bibr">2011b</xref>) (Supplementary Fig S2C and D). Protein enrichment with SP3 was observed to
+be efficient in both concentrated and dilute solutions (Supplementary Fig S3A and B), as well as in
+the presence of harsh sample solubilization matrices, including 10% SDS and Laemmli loading
+buffer, conditions incompatible with ultrafiltration membranes, and nanodiamond enrichment
+(Supplementary Fig S3C and D).</p><p>After proteolysis, peptide mixtures are commonly handled in a variety of downstream workflows
+targeted at cleanup, concentration, or labeling. These protocols use a diverse range of reagents and
+necessitate numerous processing steps. Simplification of these procedures while maintaining their
+benefits is essential for ultrasensitive proteomics. To illustrate the enhanced completion of these
+procedures with SP3, we employed peptide mixtures derived from a trypsin-LysC-digested yeast protein
+lysate. MS analysis of SP3-treated peptide mixtures showed no apparent peptide loss when compared
+with control samples prepared using a conventional StageTip procedure (Rappsilber
+<italic>et&#x000a0;al</italic>, <xref rid="b44" ref-type="bibr">2003</xref>) (Fig<xref ref-type="fig" rid="fig01">1</xref>D). Improved peptide recovery was observable when comparing SP3 conditions to
+pH, high bead concentration, or precipitation conditions utilized in nanodiamond and SPRI approaches
+(Supplementary Fig S4A&#x02013;C). In addition, there was no discernible difference between
+chromatograms from MS analysis of replicate enrichments (Supplementary Fig S4D), indicating that
+these benefits did not come at the cost of reproducibility.</p><p>Prior to, or as part of, cleanup and concentration procedures, it is common to chemically label
+peptide mixtures with stable isotopes to facilitate quantitative comparisons between treatment and
+control conditions. The two most frequently applied chemical labeling approaches, reductive
+dimethylation (Boersema <italic>et&#x000a0;al</italic>, <xref rid="b8" ref-type="bibr">2009</xref>)
+and isobaric mass tagging (Thompson <italic>et&#x000a0;al</italic>, <xref rid="b56" ref-type="bibr">2003</xref>; Ross <italic>et&#x000a0;al</italic>, <xref rid="b45" ref-type="bibr">2004</xref>), are
+based on amine-reactive chemistry and thus have specific buffer and solution composition
+requirements. Using a peptide mixture derived from a yeast whole-cell lysate, along with a simple
+modification to the SP3 protocol (Supplementary Fig S5A), &#x0003e;&#x000a0;98% efficiency of
+labeling with both dimethyl and tandem mass tags (TMT) (Fig<xref ref-type="fig" rid="fig02">2</xref>A) was observed. The reproducibility of the labeling and enrichment reactions was found to
+be high as illustrated by the minimal deviation from a fold change of zero for peptides in TMT
+6-plex experiments of biological replicate samples (Supplementary Fig S5B). Biological
+reproducibility was also found to be high even when handling sub-microgram amounts of material in an
+SP3-based single-tube workflow. This was demonstrated by the high reproducibility in protein
+quantification (mean Pearson correlation: 0.89) (Fig<xref ref-type="fig" rid="fig02">2</xref>B) when
+comparing mouse embryonic stem cells (mESC) and neural progenitor (NP) cells in 10 biological
+replicates, each starting from 5,000 cells prepared in 1% SDS-containing buffer as input.
+Together, these data indicate that SP3 provides a means for simple and efficient completion of a
+variety of established quantitative proteomics workflows.</p><fig id="fig02" position="float"><label>Figure 2</label><caption><title>SP3 facilitates efficient and reproducible chemical isotope labeling of peptide
+samples</title><p><list list-type="alpha-upper"><list-item><p>SP3 promotes efficient labeling of peptide mixtures. Labeling efficiency of dimethyl and TMT
+methods when coupled to SP3 as measured by the number of peptides identified as fully labeled or
+partially/not labeled with the expected tag in triplicate measurements. Values above columns
+indicate numbers of identified (in brackets) and labeled peptides.</p></list-item><list-item><p>SP3 enhances quantification reproducibility in quantity-limited samples. Replicates of 5,000 cell
+populations of mESC and NP cells were prepared using SP3 and analyzed with single-shot injections
+and a dimethyl tagging approach for quantification. A total of 10 individual biological replicates
+for each cell type (20 total samples) were prepared and analyzed. Intensity of each box represents
+the Pearson correlation between the heavy:light transformed (VSN) peptide areas translated into
+protein ratios (<italic>n</italic>&#x000a0;=&#x000a0;588), with values displayed as text.
+Peptides were required to be quantified as heavy:light pairs in a minimum of 9 biological
+replicates.</p></list-item></list>
+</p></caption><graphic xlink:href="msb0010-0757-f2"/></fig><p>A significant amount of effort in proteomics is focused on achieving in-depth proteome coverage
+both in abundant and in quantity-limited applications. To assess performance with in-depth proteome
+profiling in abundant samples, we analyzed a yeast whole-cell lysate (&#x0223c;10&#x000a0;&#x003bc;g of
+protein from a lysis prepared in 1% SDS-containing buffer) treated with SP3 or filter-aided
+sample preparation (FASP) prior to high-pH reversed-phase fractionation. Combining biological
+duplicates, comparable coverage between SP3 and FASP was observed, with a total of 3,944 and 4,008
+proteins identified (Supplementary Fig S6A), mapping to 39,211 and 43,318 unique peptides,
+respectively. This identity extended to reproducibility between individual replicates (Supplementary
+Fig S6A), protein abundance distributions (Supplementary Fig S6B), and intensity-based absolute
+quantification (iBAQ) (Schwanh&#x000e4;usser <italic>et&#x000a0;al</italic>, <xref rid="b49" ref-type="bibr">2011</xref>) assignments (Supplementary Fig S6C). Moreover, there was no discernible bias
+in properties of the peptides captured with each protocol, as indicated by charge state
+(Supplementary Fig S7A), molecular mass (Supplementary Fig S7B), isoelectric point (Supplementary
+Fig S7C), grand average hydropathy (GRAVY) (Kyte &#x00026; Doolittle, <xref rid="b31" ref-type="bibr">1982</xref>) distributions (Supplementary Fig S7D), and amino acid content (Supplementary Fig S7E).
+Interestingly, although we observed an expected recovery of &#x0223c;50% of starting material
+in FASP compared with SP3 (Supplementary Fig S2C) (Wisniewski <italic>et&#x000a0;al</italic>, <xref rid="b64" ref-type="bibr">2011b</xref>), this did not adversely affect the depth of proteome
+coverage. This indicates that the differences in recovery between the protocols are indeed
+non-specific in nature and that the amount of starting material was sufficient to overcome these
+losses. Therefore, it can be concluded that SP3 has no observable bias and is compatible with
+total-proteome characterization when compared with a widely employed method, FASP.</p><p>One of the primary strengths of the SP3 approach is the ability to provide scalable protein and
+peptide recovery in a single-tube workflow, maximizing potential efficiency for ultrasensitive
+applications. Previous attempts at analyzing small amounts of material have faced challenges during
+sample processing and have frequently relied on the preparation of large cell populations diluted to
+working concentrations (typically in the range of approximately 1,000&#x02013;5,000 cells) after
+lysis and digestion (Altelaar &#x00026; Heck, <xref rid="b3" ref-type="bibr">2012</xref>). Instead,
+here we assessed the performance of SP3 for in-depth proteome analysis starting from sub-microgram
+amounts of material. Specifically, replicate HeLa cell lysates from populations totaling 500,000,
+50,000, 5,000, and 1,000 cells were prepared using a simplified detergent-based lysis coupled to the
+single-tube SP3 protocol.</p><p>After fractionation with high-pH reversed-phase HPLC, high-pH reversed-phase StageTip, SP3
+fractionation (ERLIC-style), or single-shot injections, efficient protein and peptide recovery was
+observed across a wide quantity range determined by base-peak chromatogram complexities and
+intensities (Fig<xref ref-type="fig" rid="fig03">3</xref>A). This resulted in high depth of proteome
+coverage based on unique peptide identifications in single-shot and fraction injections of low
+abundance samples (Fig<xref ref-type="fig" rid="fig03">3</xref>B). Strikingly, even when starting
+from 1,000 cells, we reliably identified &#x0003e;&#x000a0;15,000 unique peptides (Fig<xref ref-type="fig" rid="fig03">3</xref>B). However, the 1,000 cell samples approached the limit in
+sensitivity of the MS hardware, resulting in a loss of total proteome coverage and sample intensity,
+and subsequently in a skewed distribution of iBAQ values (Supplementary Fig S8A). In contrast, there
+was no observable difference in the abundance profiles (Fig<xref ref-type="fig" rid="fig03">3</xref>C, Supplementary Fig S8A) between the 50,000 (25% injected) and 5,000 cell
+single-shot samples, likely stemming from saturation in the instrument sampling rate (Supplementary
+Fig S8B). This highlights the similarity of the captured proteomes in contrast to the difference in
+starting material.</p><fig id="fig03" position="float"><label>Figure 3</label><caption><title>SP3 is compatible with and enhances ultrasensitive proteome analysis</title><p><list list-type="alpha-upper"><list-item><p>SP3 facilitates enhanced depth of coverage in quantity-limited samples. Base-peak chromatograms
+from single-shot injections of peptide mixtures prepared using a single-tube SP3 protocol from
+50,000, 5,000, and 1,000 HeLa cells. In the cases of the 5,000 and 1,000 samples, the entire
+recovered peptide amount was injected. For the 50,000 cell sample, 25% of the recovered
+amount was injected to avoid overloading of the chromatography column.</p></list-item><list-item><p>Number and reproducibility of unique peptides (by sequence) identified in each analysis. The
+intensity of color in each block denotes the percentage overlap in peptides between replicate
+samples (<italic>n</italic>&#x000a0;=&#x000a0;2 for all samples). Values in each block denote
+the fraction overlap and the total number of unique identifications from combined biological
+duplicates. The number following the&#x000a0;&#x000d7;&#x000a0;in each method indicates the number of
+fractions analyzed.</p></list-item><list-item><p>SP3 enables proteome profiling across a wide range of proteome abundance in quantity-limited
+samples. Box plot of fractional protein abundance values estimated from iBAQ values from the 50,000,
+5,000, and 1,000 single-shot injections. Values for each protein represent mean iBAQ values from
+combined biological duplicates. Only proteins identified in all three combined single-shot samples
+are used in the analysis (<italic>n</italic>&#x000a0;=&#x000a0;1,257). Dashed red and blue
+lines indicate the median and a range spanning 5&#x02013;95% of log (iBAQ) values.</p></list-item></list>
+</p></caption><graphic xlink:href="msb0010-0757-f3"/></fig><p>Despite prior developments in protocols aimed at the preparation of ultrasensitive samples, none
+is yet accepted as a &#x02018;gold standard&#x02019; for proteomics. Although FASP has seen widespread
+utility for sample processing, the requirement for modifications to overcome losses associated with
+the method has limited its utility in ultrasensitive screens (Wisniewski
+<italic>et&#x000a0;al</italic>, <xref rid="b63" ref-type="bibr">2011a</xref>,<xref rid="b64" ref-type="bibr">b</xref>; Erde <italic>et&#x000a0;al</italic>, <xref rid="b16" ref-type="bibr">2014</xref>). To benchmark SP3 in relation to current state-of-the-art high-efficiency proteomics
+methods, we compared with the data as presented by the recently described integrated Stage-Tip (iST)
+protocol (Kulak <italic>et&#x000a0;al</italic>, <xref rid="b30" ref-type="bibr">2014</xref>).
+Although not as flexible as FASP in terms of reagents, iST boasts excellent performance in handling
+of minute quantities of material. In the original paper, this is highlighted in an ultrasensitive
+analysis of limited numbers of HeLa cells (Supplementary Fig S1D in Kulak
+<italic>et&#x000a0;al</italic>). Comparing the numbers of identified peptides, the depth of coverage
+obtained with 10,000 cells by the iST protocol requires just 5,000 cells with the SP3 approach.
+Interestingly, we observed an increase of &#x0223c;5,000 unique peptide identifications when
+analyzing equivalent cell numbers (1,000 cells) with SP3 compared to the iST data. It is noteworthy
+that although both protocols focus on the minimization of processing volumes and encapsulation of
+all steps in a single device, the reversed-phase nature of the iST method imparts the limitations of
+conventional proteomics methods on the technology (e.g., inability to use detergents such as SDS or
+solvents such as trifluoroethanol (TFE) during lysis). In contrast, SP3 does not suffer from any of
+the limitations that hinder ultrasensitive proteomics methods, and as a result, we were able to
+utilize 1% SDS to enhance cell lysis and protein solubilization, potentially explaining the
+increased numbers of identified peptides.</p><p>To capitalize on the benefits of the SP3 approach, it was applied in a whole-proteome analysis of
+<italic>Drosophila</italic> embryos at 2&#x02013;4 and 10&#x02013;12&#x000a0;h after egg lay (AEL).
+Previous proteomics analyses of <italic>Drosophila</italic> embryos have necessitated the use of
+milligrams of material, equating to hundreds of individual embryos combined across multiple stages
+of embryogenesis (Brunner <italic>et&#x000a0;al</italic>, <xref rid="b10" ref-type="bibr">2007</xref>; Zhai &#x00026; Vill&#x000e9;n, <xref rid="b69" ref-type="bibr">2008</xref>; Gouw
+<italic>et&#x000a0;al</italic>, <xref rid="b20" ref-type="bibr">2009</xref>). This experimental
+design limits the resolution of the analysis by eliminating stage-specific developmental dynamics as
+well as averaging out variability between individuals. We applied a modified SDS-TFE-lysis protocol
+designed to eliminate the need for physical disruption (e.g., bead milling or beating, Dounce
+homogenization), in combination with a single-tube SP3 workflow to 60 embryos, and identified a
+total of 5,632 unique gene products, including prominent developmental factors, such as
+<italic>bicoid</italic>, <italic>hunchback</italic>, and <italic>nanos</italic> (harvested between 2
+and 4&#x000a0;h AEL, 12 MS runs, <italic>n</italic>&#x000a0;=&#x000a0;1) (Fig<xref ref-type="fig" rid="fig04">4</xref>A, Supplementary Table S1). Previous studies have estimated the
+number of polyadenylated RNA species to be between 5,000 and 7,000 (Levy &#x00026; Manning, <xref rid="b34" ref-type="bibr">1981</xref>), and the number of gene products in the range of
+8,000&#x02013;10,000 in 2- to 4- and 10- to 12-h stages (Graveley <italic>et&#x000a0;al</italic>,
+<xref rid="b21" ref-type="bibr">2011</xref>). Thus, the SP3-generated proteome covers
+&#x0003e;&#x000a0;60% of the predicted gene models. These data represent a significant increase
+in depth of coverage compared with a previous benchmark study utilizing hundreds of embryos from
+multiple stages (2- or 24-h pooled AEL, 3,856 genes) and 62 individual MS runs (Brunner
+<italic>et&#x000a0;al</italic>, <xref rid="b10" ref-type="bibr">2007</xref>).</p><fig id="fig04" position="float"><label>Figure 4</label><caption><title>SP3 facilitates enhanced qualitative and quantitative analysis of single
+<italic>Drosophila</italic> embryos</title><p><list list-type="alpha-upper"><list-item><p>In-depth proteome coverage can be obtained across a wide range of pool sizes down to the
+single-embryo level with SP3. Venn diagram depicting the number of unique gene products (FlyBase
+accession) identified between different starting pools of embryos (60-embryo pool,
+<italic>n</italic>&#x000a0;=&#x000a0;1, 20-embryo pool,
+<italic>n</italic>&#x000a0;=&#x000a0;2, single embryos,
+<italic>n</italic>&#x000a0;=&#x000a0;11). All samples are combined identifications from
+2&#x02013;4 to 10&#x02013;12&#x000a0;h samples.</p></list-item><list-item><p>Number of unique gene products identified between single-embryo samples and published datasets
+focused on staged developmental proteome analysis.</p></list-item><list-item><p>SP3 permits quantitative analysis at the single-embryo level. Volcano plot depicting protein
+variance between 2- to 4-h and 10- to 12-h developmental time points in single-embryo samples. Fold
+changes were determined as a trimmed mean of VSN transformed peptide values.
+<italic>P</italic>-values were determined using limma with Benjamini&#x02013;Hochberg correction for
+multiple testing. Values were calculated across a total of 11 biological replicates. Blue lines
+indicated the mean fold change, 0.014&#x000a0;&#x000b1;&#x000a0;2.5 times the standard deviation.</p></list-item><list-item><p>Scatter plot of protein fold-change values between pooled and single-embryo samples illustrating
+the limited variation between fold-change values determined between the two study designs.
+Colorization is based on <italic>P</italic>-values determined through comparison of 2- to 4-h and
+10- to 12-h stages in single-embryo samples. Blue lines indicate zero-fold-change values, and the
+red line is a linear fit to the data.</p></list-item></list>
+</p></caption><graphic xlink:href="msb0010-0757-f4"/></fig><p>To examine proteome dynamics between developmental stages, a dimethyl tagging approach coupled
+with SP3 was utilized (Supplementary Fig S9A). With combined replicates
+(<italic>n</italic>&#x000a0;=&#x000a0;2), a total of 3,870 and 3,881 unique gene products
+(3,892 combined) could be identified in 2- to 4- and 10- to 12-h staged samples (Fig<xref ref-type="fig" rid="fig04">4</xref>A, Supplementary Fig S9B, Supplementary Tables S1 and S2). This
+depth of coverage required just 20 pooled embryos per stage and, in spite of the limited amount of
+starting material, provided excellent quantitative reproducibility prior to (Supplementary Fig S9C)
+and following data normalization (Supplementary Fig S9D), as well as between replicates
+(Supplementary Fig S9E). Thus, the use of SP3 enabled in-depth analysis of a limited sample to
+achieve quantifiable dynamics of the developmental proteome from pooled embryos.</p><p>Recent work with <italic>Xenopus laevis</italic> has illustrated the quantitative analysis of
+expression kinetics at a single-embryo resolution (Sun <italic>et&#x000a0;al</italic>, <xref rid="b53" ref-type="bibr">2014</xref>). This was facilitated by the large size of the
+<italic>Xenopus</italic> embryo (&#x0003e;&#x000a0;1.2&#x000a0;mm) coupled to pooling with multiplexed
+isobaric tagging. Examination at a single-embryo resolution affords investigation of
+inter-individual variability not possible in pooled samples. To achieve this resolution in
+significantly smaller (&#x0003c;&#x000a0;500&#x000a0;&#x003bc;m) individual <italic>Drosophila</italic>
+embryos, a single-tube SP3 protocol was utilized. Due to the limited amount of material, efficient
+lysis and capture of the resultant material was essential. The flexibility of SP3 allowed for the
+use of the harsh solution-based SDS-TFE protocol in combination with sonication to provide efficient
+and reproducible lysis, and eliminated the need for physical disruption methods (e.g., bead beating)
+that would result in unacceptable material losses when handling a single embryo. From a collection
+of 11 biological replicates per stage (22 total samples), coverage of a total of 2,938 unique genes
+was obtained (97.8% of genes covered in pooled samples) (Fig<xref ref-type="fig" rid="fig04">4</xref>A). While we estimate a single embryo contains just &#x0223c;200 ng of protein, significant
+complexity is observable within each single-shot analysis (Supplementary Fig S10A), leading to a
+high sampling rate (Supplementary Fig S10B).</p><p>Although a portion of the embryo proteome is missed due to the low quantity of starting protein
+(Fig<xref ref-type="fig" rid="fig04">4</xref>A), the similarity in depth of coverage of identified
+gene products compared with previous stage-specific studies (Fig<xref ref-type="fig" rid="fig04">4</xref>B) utilizing considerably larger amounts of material indicates that SP3-based single-embryo
+analyses provide sufficient information for comparative experiments. Quantitatively, the data
+revealed few differences from the pooled samples, where averaging of embryos would be expected to
+minimize variation (Supplementary Table S2). Nominal deviations in reproducibility (single: 0.69,
+pooled: 0.74, Pearson correlations) (Supplementary Fig S10C) and in mean fold change (single: 0.014
+SD&#x000a0;&#x000b1;&#x000a0;0.31, pooled: 0.018 SD&#x000a0;&#x000b1;&#x000a0;0.15) (Supplementary Fig
+S10D) between replicates and stages indicated the quality of the quantitative information relative
+to the pooled samples. A total of 17 and 59 proteins meeting a minimum <italic>P</italic>-value
+cutoff of 0.05 (Benjamini&#x02013;Hochberg correction) and an absolute fold change
+&#x0003e;&#x000a0;2.5 times the standard deviation (Fig<xref ref-type="fig" rid="fig04">4</xref>C,
+Supplementary Table S2) were observed as enriched between the 2- to 4- and 10- to 12-h stages.
+Importantly, the directional trends in protein expression are highly correlated (Pearson
+correlation&#x000a0;=&#x000a0;0.67, <italic>n</italic>&#x000a0;=&#x000a0;2,323) between
+the pooled and single-embryo data (Fig<xref ref-type="fig" rid="fig04">4</xref>D), further
+highlighting the ability to extract reliable quantitative information from single embryos.</p><p>Examination of functional annotation within these sets revealed genes involved in a range of
+cellular processes (Supplementary Fig S11A). Genes associated with mitosis and meiosis
+(<italic>polo</italic>, <italic>Klp3A</italic>, <italic>BRWD3</italic>), stress response
+(<italic>ref(2)p</italic>, <italic>homer</italic>), or chromatin and chromosome organization
+(<italic>aur</italic>, <italic>CG3509</italic>) were enriched in 2&#x02013;4&#x000a0;h collections. A
+significant number of genes associated with neural development (<italic>Fas2</italic>,
+<italic>betaTub60D, Nrg, Nrt, fax, Ama,</italic> and <italic>hts</italic>) were abundant in 10- to
+12-h pools. In addition to neural processes, proteins involved in splicing (<italic>U2af50,
+Pep</italic>), chromosome structure or function (<italic>Dsp1, D1, mod</italic>), and regulation of
+transcription (<italic>Ref1, pzg</italic>) were enriched. In both stages, new proteins whose
+biological functions were uncharacterized were identified as enriched. Interestingly, comparison of
+the top 20 increased proteins in each stage with gene expression data (Graveley
+<italic>et&#x000a0;al</italic>, <xref rid="b21" ref-type="bibr">2011</xref>) revealed that many of
+the observed abundance changes were also detected in RNAseq (Supplementary Fig S11B) and RNA
+<italic>in situ</italic> hybridization (Supplementary Fig S12) experiments targeting the equivalent
+points in <italic>Drosophila</italic> development, further validating the directionality of the
+observed trends.</p><p>In addition to general abundance, previous stage-specific analyses of primordial germ cells and
+staged embryo pools have revealed diverse proteome alterations during the early and late phases of
+the maternal-to-zygotic (MZT) transition (Gouw <italic>et&#x000a0;al</italic>, <xref rid="b20" ref-type="bibr">2009</xref>; Siddiqui <italic>et&#x000a0;al</italic>, <xref rid="b51" ref-type="bibr">2012</xref>). The bulk of zygotic transcription initiates at &#x0223c;2&#x000a0;h post-fertilization
+(Tadros &#x00026; Lipshitz, <xref rid="b54" ref-type="bibr">2009</xref>), and as such, the levels of
+the associated proteins would be expected to rise. Using associated proteins identified in the
+single-embryo data (Fig<xref ref-type="fig" rid="fig05">5</xref>A), a significant difference in
+zygotic and maternal associated protein expression was observed
+(<italic>P</italic>&#x000a0;=&#x000a0;3.43e-21, Mann&#x02013;Whitney <italic>U</italic>-test,
+zygote <italic>n</italic>&#x000a0;=&#x000a0;251, maternal
+<italic>n</italic>&#x000a0;=&#x000a0;139) (Fig<xref ref-type="fig" rid="fig05">5</xref>B).
+Zygotic genes previously found to increase during MZT (Gouw <italic>et&#x000a0;al</italic>, <xref rid="b20" ref-type="bibr">2009</xref>), such as <italic>bnb</italic> and <italic>ama</italic>, were
+among those with the highest rise in abundance, whereas maternal genes like <italic>yl</italic> were
+significantly decreased in 10- to 12-h samples relative to 2&#x02013;4. From a set of 27 genes
+classified as having strictly maternal expression (Arbeitman <italic>et&#x000a0;al</italic>, <xref rid="b4" ref-type="bibr">2002</xref>), 11 are identified in this study. Only 6 (<italic>me31B,
+DNApol-alpha50, CG3800, wech, Pxt</italic>, and <italic>Cyt-b5</italic>) are contained in the final
+quantification dataset, with the other 5 (<italic>smg, bru-2, CG7627, CG5568</italic>, and
+<italic>fs(1)M3</italic>) falling below our stringent threshold for reliable detection across
+replicates due to their low abundance. The remaining 6 have a mean fold change of &#x02212;0.53,
+emphasizing their low abundance in the later stages of development.</p><fig id="fig05" position="float"><label>Figure 5</label><caption><title>Increased zygotic-associated expression is observed in 10&#x02013;12&#x000a0;h embryos relative
+to those from 2 to 4&#x000a0;h</title><p><list list-type="alpha-upper"><list-item><p>Venn diagram depicting the number of identified maternal and zygote-associated gene products in
+this study. Single-embryo data were annotated and compared with previously determined
+maternal-to-zygotic expression data (Gouw <italic>et&#x000a0;al</italic>, <xref rid="b20" ref-type="bibr">2009</xref>). Comparisons were made based on FlyBase gene accessions from both
+datasets.</p></list-item><list-item><p>Notched box plot of fold-change values from maternal and zygote-associated gene products between
+2- to 4-h and 10- to 12-h samples. Whiskers indicate 1.5&#x000d7; the interquartile range, plus or
+minus the values for the third or first quartiles, respectively. <italic>P</italic>-values were
+determined using a Mann&#x02013;Whitney <italic>U</italic>-test.</p></list-item></list>
+</p></caption><graphic xlink:href="msb0010-0757-f5"/></fig><p>In addition to variation in protein abundance between developmental stages, examination at the
+single-embryo level facilitates inter-individual analyses not feasible in pooled samples. To examine
+the ability to measure differences between individuals, standard expression maps for 2- to 4- and
+10- to 12-h time windows were prepared using pooled embryos
+(<italic>n</italic>&#x000a0;=&#x000a0;2 per stage, 20 embryos per pool). Single embryos were
+then analyzed, and the correlation between protein fold-change values used to determine similarity
+with the standard expression maps. All fold-change values were relative to a common internal
+standard (pooled embryos from all compared stages) to facilitate comparison between samples. We
+focused on proteins that were detected in all samples
+(<italic>n</italic>&#x000a0;=&#x000a0;1,019) and then examined quantitative differences in
+their abundance between individual embryos.</p><p>These data revealed significant differences in abundance for proteins quantified from single
+embryos collected in 2- to 4- and 10- to 12-h time windows (Supplementary Fig S13A and B,
+Supplementary Table S3). The expected difference in protein expression between the two developmental
+stages could be easily recognized in single embryos and, in the case of 10&#x02013;12&#x000a0;h, can
+even be used to map them on a developmental timescale based on their shared similarity with the
+corresponding pool (Fig<xref ref-type="fig" rid="fig06">6</xref>A, upper triangular). When this
+proteome set is narrowed to a subset of proteins that show differential expression (determined as
+the maximum difference in fold change that generated a sufficient pool of candidates for a reliable
+correlation) between the two stages, the clarity of the mapping could be improved (Fig<xref ref-type="fig" rid="fig06">6</xref>A, lower triangular). Unsurprisingly, this subset of 25 proteins
+contained numerous proteins, such as <italic>bnb</italic>, <italic>Bacc, fax, Cys</italic>,
+<italic>Nrg, Fas2,</italic> and <italic>yl</italic> previously observed to differ in a
+stage-specific manner at both the transcriptional and translational levels in the single-embryo
+screen.</p><fig id="fig06" position="float"><label>Figure 6</label><caption><title>The quantitative resolution provided by SP3 permits tracing of embryo origin based on protein
+expression patterns</title><p><list list-type="alpha-upper"><list-item><p>Single embryos can be mapped between time points with large divergence in protein expression.
+Low-resolution expression mapping based on 2- to 4-h and 10- to 12-h developmental stages. Heat map
+depicts the correlation between fold-change values relative to an internal standard for all proteins
+quantified (<italic>n</italic>&#x000a0;=&#x000a0;1,019, upper triangular) or those with a
+difference in fold-change value&#x000a0;&#x0003e;&#x000a0;1
+(<italic>n</italic>&#x000a0;=&#x000a0;39, lower triangular) between pooled (20 embryos each,
+<italic>n</italic>&#x000a0;=&#x000a0;2 for each stage) and single embryos
+(<italic>n</italic>&#x000a0;=&#x000a0;3 for each stage).</p></list-item><list-item><p>Single embryos can be mapped between time points with minimal divergence in protein expression.
+High-resolution expression mapping based on 2- to 2.5-h and 3.5- to 4-h developmental stages. Heat
+map depicts the correlation between fold-change values relative to an internal standard for proteins
+quantified with a difference in fold-change value&#x000a0;&#x0003e;&#x000a0;0.75
+(<italic>n</italic>&#x000a0;=&#x000a0;25) between pooled (20 embryos each,
+<italic>n</italic>&#x000a0;=&#x000a0;2 for each stage) and single embryos
+(<italic>n</italic>&#x000a0;=&#x000a0;8).</p></list-item></list> Data information: Color intensity is based on the Pearson correlation with values displayed
+in boxes.</p></caption><graphic xlink:href="msb0010-0757-f6"/></fig><p>To determine whether abundance patterns could be used to map embryos where total proteome
+differences are expected to be small, standard expression maps were prepared using 20 embryo pools
+(<italic>n</italic>&#x000a0;=&#x000a0;2 for each stage) from 2- to 2.5- to 3.5- to 4-h time
+windows. Single embryos collected in a 2- to 4-h time window were then analyzed to determine
+similarity with the expression maps and to allow more precise molecular staging of each individual.
+Based on the quantified proteins from the single embryos, few significant differences in fold change
+were detectable due to the similarity between the stages (Supplementary Fig S13C and D,
+Supplementary Table S4). However, when the dataset was narrowed to include only those proteins that
+show differential expression (determined as the maximum difference in fold change that generated a
+sufficient number of candidates for a reliable correlation), clusters of individual embryos that
+displayed expression profiles similar to 2&#x02013;2.5 and 3&#x02013;3.5&#x000a0;h samples could be
+discerned (Fig<xref ref-type="fig" rid="fig06">6</xref>B).</p><p>To further validate the expression patterns of the subset of candidate proteins, we utilized
+high-resolution expression data from sectioned embryos (Combs &#x00026; Eisen, <xref rid="b13" ref-type="bibr">2013</xref>). Expression data were derived from 25-&#x003bc;m sections of embryonic stage 2
+(25&#x02013;65&#x000a0;min AEL), 4 (80&#x02013;130&#x000a0;min AEL), and 5 time points within stage 5
+(130&#x02013;170&#x000a0;min AEL). For a majority of the 25 candidate proteins, the corresponding
+expression pattern could also be detected at the RNA level (Supplementary Fig S13E). Of these 25
+proteins, 10 were associated with the maternal-to-zygotic transition. This developmental process
+directly overlaps with the 2- to 4-h collection window. From these 10 proteins, nine had expression
+profiles available in the section data. A total of eight of these exhibited the expected
+directionality in expression also observed in the protein data based on knowledge of the
+maternal-to-zygotic transition (Supplementary Fig S13F, maternal: CG3663, iPLA2-VIA; zygotic: Nrt,
+bnb). Together, these data highlight the ability to detect differences at a high resolution that can
+be validated with the knowledge of cellular processes or expression dynamics.</p></sec><sec sec-type="discussion"><title>Discussion</title><p>In this work, we have presented a novel concept for proteomics that simplifies and streamlines a
+range of conventional handling procedures common to MS-based protein analysis experiments. SP3
+affords efficient completion of numerous proteomics protocols combining all steps from cell lysis to
+fractionated peptide samples ready for MS analysis in a single-tube workflow. As such, SP3 offers
+several advantages compared with current state-of-the-art proteomics technologies in the areas of
+flexibility, scalability, and throughput. Importantly, SP3 combines these benefits into a single
+platform, effectively simplifying sample preparation and eliminating the need for significant
+protocol optimization prior to proteome analysis. The data presented in this work demonstrate the
+feasibility of performing ultrasensitive, high-throughput analyses of challenging biological
+specimens with the SP3 approach, opening new avenues of research to the proteomics community.</p><p>The diverse nature of the proteome necessitates the use of an equally broad set of reagents for
+its preparation. This is especially important when handling difficult matrices, such as tissues,
+where harsh denaturants are essential. The flexibility and benefits of using these reagents are
+demonstrated throughout this work, where all experiments in yeast, human, mouse, and
+<italic>Drosophila</italic> were performed in the presence of 1% (or greater) concentrations
+of SDS. As a result, SP3 provides unmatched flexibility in catering reagent conditions to enhance
+analysis of protein subsets (e.g., membrane) or total proteome mixtures. Although protocols such as
+FASP offer the ability to use a broad set of reagents, this is limited by the compatibility of the
+filter unit membrane. An added advantage of SP3 is that these benefits extend to the peptide level,
+where proteolysis-enhancing reagents (e.g., urea, deoxycholate) can be used without protocol
+modification due to their removal during SP3 treatment. This circumvents the need for tedious acid
+precipitation or phase-transfer protocols for detergent removal, or dilution and desalting steps in
+the case of urea.</p><p>Notably, the flexibility of the SP3 protocol also applies and was proven to be essential to
+ultrasensitive applications in this study. Although mammalian cells can be easily lysed with SDS
+treatment, yeast and embryo samples present a significant challenge and are conventionally tackled
+using physical disruption methods (e.g., bead beating, Dounce homogenization). In the
+<italic>Drosophila</italic> embryo work data presented in this study, single-embryo screening
+required the use of a high-efficiency, lossless lysis protocol that could not rely on disruption
+with physical means due to the limited sample quantity and the inefficiency of these methods. In our
+hands, effective and reproducible lysis could only be obtained with a combination of detergents and
+organic solvents. This reagent combination renders the lysate incompatible with numerous processing
+protocols, including the recently published, state-of-the-art iST approach (Kulak
+<italic>et&#x000a0;al</italic>, <xref rid="b30" ref-type="bibr">2014</xref>).</p><p>The extension of this harsh treatment method to an ultrasensitive application further highlights
+the robustness of SP3. Due to the losses associated with the removal of contaminants (e.g.,
+detergents used to aid in unbiased and complete protein solubilization), they are typically excluded
+in ultrasensitive processing methods. Although acid-labile detergents and amphipols (Ning
+<italic>et&#x000a0;al</italic>, <xref rid="b41" ref-type="bibr">2013</xref>) offer an attractive
+alternative to conventional detergents, they nevertheless require removal with acid precipitation or
+phase transfer prior to MS analysis. These extra processing steps increase the potential for protein
+and peptide loss and limit the sensitivity of low-quantity samples. The ability of SP3 to scale from
+pools of 60 to single embryos without method adaptation renders it unique in this aspect among
+proteomics protocols and facilitated acquisition of an entirely novel dataset targeting
+<italic>Drosophila</italic> embryogenesis.</p><p>In addition to challenges concerning protein extraction and processing, SP3 provided essential
+enhancements for quantitative handling of proteins and peptides. As efficient extraction from a
+single embryo yields only an estimated 200&#x000a0;ng of protein, scalable and lossless processing is
+vital. The reproducibility of these extraction and processing steps is paramount for minimizing
+technical noise that can dominate inter-sample signal when working with limited quantities of
+material. SP3 exhibited high performance in all of these critical areas, demonstrated by in-depth
+profiling of HeLa samples originating from as few as 1,000 cells, and unmatched depth of coverage in
+pooled and single embryos. Impressively, the results in the HeLa analyses were obtained from samples
+starting from the indicated low cell numbers, which is in contrast with the common practice of
+examining a diluted sample of material obtained from a larger pooled lysate derived from millions of
+cells (Altelaar &#x00026; Heck, <xref rid="b3" ref-type="bibr">2012</xref>). Preparation of samples
+in this manner can mask variability and losses introduced during lysis and early handling steps. By
+working directly with minute cell numbers, the results presented here are directly extendable to
+true experimental situations where 1,000 cells may be the entire available quantity. Adaptation of
+SP3 to microfluidic platforms where losses to plastic ware are eliminated can potentially decrease
+this workable cell number further.</p><p>With the ever-increasing demand for methods compatible with the analysis of large sample cohorts
+in tissue libraries, or populations of genetically distinct individuals, coupling the flexibility
+and sensitivity of SP3 to high-throughput situations would be of significant advantage. Although
+SDS-Gels (Schmidt, <xref rid="b47" ref-type="bibr">2013</xref>), FASP (Yu
+<italic>et&#x000a0;al</italic>, <xref rid="b66" ref-type="bibr">2014</xref>), in-solution, and iST
+(Kulak <italic>et&#x000a0;al</italic>, <xref rid="b30" ref-type="bibr">2014</xref>) methods are
+theoretically scalable to 96-well format, these protocols can require specialized equipment (iST)
+and lengthy processing (FASP) or perform poorly with small quantities of sample (FASP, SDS-Gels).
+The <italic>Drosophila</italic> single-embryo data presented in this study directly benefitted from
+an SP3 method that combined flexibility, sensitivity, and throughput. In addition to the rapid
+completion of SP3 (15&#x000a0;min for protein or peptide enrichment), single embryos were processed
+in parallel in a 96-well format. This facilitated processing a large number of individual embryos
+for analysis, affording an increase in statistical power. Importantly, this high-throughput
+processing did not result in reduced reproducibility, even when handling limited sample quantities
+(single embryos, mESCs, NP cells) and coupled to a chemical isotope labeling protocol (reductive
+dimethylation). This minimization of variance promoted examination of true biological divergence
+between the developmental stages examined.</p><p>Exploiting these advantages, we examined proteome dynamics during <italic>Drosophila</italic>
+embryogenesis. Using just 60 embryos of starting material, we annotated &#x0003e;&#x000a0;60%
+of gene products that are potentially expressed at any given stage of development. This represents
+the greatest depth of profiling of the <italic>Drosophila</italic> proteome during development and
+is a significant step toward proteome annotation in this fundamental model organism. Importantly,
+this depth of coverage was achieved using a significantly reduced number of embryos, eliminating the
+need to harvest hundreds to perform in-depth proteome profiling. This sensitivity afforded
+completion of an entirely novel screen of proteome dynamics in single embryos. By completing
+differential proteome analysis at this resolution, we have developed a new paradigm with which
+<italic>Drosophila</italic> screens can be completed. Despite the low sample input, the SP3 approach
+successfully met or exceeded proteome coverage of previous works without sacrificing quantitative
+accuracy or resolution between individuals. The ability to probe the proteome to a significant depth
+from small pools or individual embryos opens new avenues for proteomics research in
+<italic>Drosophila</italic>, where sampling limitations have previously placed restrictions on
+proteome examination with MS.</p><p>In addition to the identifications, the quantitative stage-specific data revealed significant
+diversity in protein abundance between embryos collected in 2- to 4- and 10- to 12-h (AEL)
+collection windows. Due to the early developmental stage, we identify proteins with increased
+abundance in the 2- to 4-h windows that are involved in the formation and maintenance of the
+embryos, such as <italic>yl</italic> (Schonbaum <italic>et&#x000a0;al</italic>, <xref rid="b48" ref-type="bibr">2000</xref>) and <italic>ptx</italic> (Tootle <italic>et&#x000a0;al</italic>, <xref rid="b57" ref-type="bibr">2011</xref>) and in the progression of early embryo development, such as
+<italic>polo</italic>. <italic>Polo</italic> is a multifunction kinase whose activity is required
+during mitosis, and thus, its expression is highest in regions where cells are proliferating.
+Mutants of <italic>polo</italic> have been identified through maternal effect screens and illustrate
+the necessity for its partial activity prior to and after the transition to zygotic expression
+(Glover, <xref rid="b19" ref-type="bibr">2005</xref>). We also capture the maternally deposited,
+actin-binding protein Homer. Expression of <italic>homer</italic> has been described to have a
+redundant function to <italic>bifocal</italic> in maintaining posterior localization of
+<italic>osk</italic> gene products, a critical process for embryonic patterning in the early embryo
+(Babu <italic>et&#x000a0;al</italic>, <xref rid="b5" ref-type="bibr">2004</xref>). Another posterior
+localized protein, Vasa, was also identified as enriched in the 2- to 4-h stage. In the early
+embryo, expression of <italic>vas</italic> has been linked to the formation of the posterior germ
+plasm that will eventually lead to the formation of germ cells (Mahowald, <xref rid="b36" ref-type="bibr">2001</xref>). The enrichment of proteins with characterized roles in early development
+highlights the ability of the SP3 method to reveal protein dynamics at a single-embryo
+resolution.</p><p>From embryos in the 10- to 12-h stage, we observed increased abundance for proteins associated
+with a wide array of cellular processes. In this candidate list, we identify prominent regulatory
+proteins, such as Putzig, that plays a role in regulating the expression of Notch, an important
+factor for controlling proliferation during development (Kugler &#x00026; Nagel, <xref rid="b29" ref-type="bibr">2007</xref>). In <italic>C. elegans</italic>, the Ref-1 (Aly) proteins
+also identified here have similarly been implicated in Notch signaling during embryo patterning
+(Neves &#x00026; Priess, <xref rid="b40" ref-type="bibr">2005</xref>). We also observed enrichment of
+the protein product of the <italic>glo</italic> gene that has been shown to regulate
+<italic>nanos</italic> expression, an essential factor in early development during embryo patterning
+(Kalifa <italic>et&#x000a0;al</italic>, <xref rid="b27" ref-type="bibr">2006</xref>). Although the
+RNA expression profiles of patterning factors like <italic>glo</italic> extend across multiple
+developmental stages, the differences in their protein levels suggest potential post-transcriptional
+regulation. Future investigation into post-translational patterns of modifications can potentially
+aid in determining the relation between the transcriptional and translational status of these
+proteins.</p><p>In addition to proteins regulating transcription and translation, a substantial fraction of the
+proteins enriched in 10- to 12-h collections were associated with pathways related to neural
+development. Specifically, we identified many proteins with roles in axon targeting and development
+of the central nervous system (CNS) (<italic>Fas2, Ama, hts, Nrg, Nrt, pod-1, fax, lamins</italic>).
+Interestingly, the products of <italic>Fas2, Nrt, Ama,</italic> and <italic>Nrg</italic> all
+function as cell-adhesion molecules (CAMs) on the surface of axons. <italic>Nrt</italic> and
+<italic>Ama</italic> have been described to function together in a junction complex to regulate axon
+guidance (Zeev-Ben-Mordehai <italic>et&#x000a0;al</italic>, <xref rid="b67" ref-type="bibr">2009</xref>). <italic>Ama</italic> and <italic>fax</italic> have also been described as dominant
+enhancers that augment the mutant phenotype of Abelson tyrosine kinase (Abl), promoting disruption
+of the central nervous system (Hill <italic>et&#x000a0;al</italic>, <xref rid="b25" ref-type="bibr">1995</xref>; Liebl, <xref rid="b35" ref-type="bibr">2003</xref>). <italic>Fas2</italic> and
+<italic>Nrg</italic> have both been implicated in the regulation of epidermal growth factor receptor
+(EGFR) signaling, the expression of which is essential for cell differentiation and development
+(Islam, <xref rid="b26" ref-type="bibr">2003</xref>; Mao &#x00026; Freeman, <xref rid="b37" ref-type="bibr">2009</xref>). The products of the <italic>hts</italic> and <italic>pod-1</italic> genes
+have both been described to play a role in axon guidance, operating through cytoskeletal or
+trans-membrane associations (Rothenberg <italic>et&#x000a0;al</italic>, <xref rid="b46" ref-type="bibr">2003</xref>; Ohler <italic>et&#x000a0;al</italic>, <xref rid="b42" ref-type="bibr">2011</xref>). Lastly, the Jupiter protein also has a potential role in these developmental
+processes, suggested by its high, localized expression in axons (Karpova
+<italic>et&#x000a0;al</italic>, <xref rid="b28" ref-type="bibr">2006</xref>). Development of the
+neural system begins at &#x0223c;4.5&#x000a0;h with the migration of neural precursor cells to the
+interior of the embryo (Scott &#x00026; O'Farrell, <xref rid="b50" ref-type="bibr">1986</xref>). Correspondingly, the majority of these candidate genes exhibit high gene expression
+during this transition (Graveley <italic>et&#x000a0;al</italic>, <xref rid="b21" ref-type="bibr">2011</xref>), consistent with the trends in protein abundance observed here.</p><p>In addition to cellular regulation, these data could be associated with the patterns of protein
+expression related to developmental processes. Shifts in candidate expression associated with the
+MZT based on transcript (Arbeitman <italic>et&#x000a0;al</italic>, <xref rid="b4" ref-type="bibr">2002</xref>) or protein (Gouw <italic>et&#x000a0;al</italic>, <xref rid="b20" ref-type="bibr">2009</xref>) data were easily distinguishable at the single-embryo level between stages.
+Interestingly, this diversity could also be observed between individuals collected within a single
+stage (2&#x02013;4&#x000a0;h) for genes such as <italic>bnb, Nrt, yl,</italic> and
+<italic>Nplp2</italic>. In addition, we also observed differential abundance in proteins such as
+Kugelkern, which is known to be present throughout early embryogenesis, switching from a maternally
+deposited isoform to a zygotic form thereafter (Guilgur <italic>et&#x000a0;al</italic>, <xref rid="b22" ref-type="bibr">2014</xref>). Therefore, even in this small developmental window,
+biologically valid abundance diversity relating to cellular shifts can be captured.</p><p>Aside from those involved in the MZT, the majority of the candidate proteins identified in the
+inter-individual screens exhibit high expression in the early embryo in RNAseq experiments (Graveley
+<italic>et&#x000a0;al</italic>, <xref rid="b21" ref-type="bibr">2011</xref>). Although the biological
+functions of many of the detected candidates are as yet uncharacterized, a variety of proteins
+implicated in cellular developmental processes, such as neurogenesis, are identified. In combination
+with histones themselves, we observed differential expression of the histone splicing and uptake
+regulatory protein, Slbp. Slbp is known to regulate the progression through S-phase in the cell
+cycle, and the increasing expression profile observed here fits with the requirement for Slbp in
+early development (Lanzotti &#x00026; Kupsco, <xref rid="b32" ref-type="bibr">2004</xref>). We also
+observed dynamic abundance in the essential transcriptional regulatory protein Bap60. The
+<italic>Bap60</italic> gene is expressed from both maternal and zygotic expression transcripts and
+increases throughout development (M&#x000f6;ller <italic>et&#x000a0;al</italic>, <xref rid="b39" ref-type="bibr">2005</xref>), corresponding with the protein abundance profiles observed here. Together,
+these data highlight the quantitative resolution of single-embryo analyses with SP3, as well as
+demonstrating the potential for new applications in screening of closely related individuals, such
+as isogenic libraries where expression differences are expected to be small.</p><p>The findings of this work have important implications toward advancing the development of
+proteomics as a supplementary tool for understanding complex biological systems, in particular for
+integrative studies combining proteome data with that from multiple streams, such as genomics,
+transcriptomics, and metabolomics. Of particular note is the increased sensitivity provided by SP3
+that reduces the absolute sample requirements for proteomics, permitting splitting of material to
+acquire sample-matched data. As MS instrumentation continues to advance and gains in sensitivity are
+made, we expect that integration of SP3 with these cutting-edge platforms will push proteomics
+toward achieving complete proteome profiling from ultrasensitive samples. In the future, we envision
+extension of these analyses to screening of individuals within genetic libraries, clinical fluid or
+tissue samples (before or after paraffin embedding), or previously inaccessible ultrasensitive
+applications. These extensions will be further aided by the cost efficiency of SP3
+(&#x0003c;&#x000a0;1 cent per assay based on consumable cost), extending its global reach in research
+studies. The compatibility and ease of adaption of SP3 protocols to robotics or microfluidic
+platforms will decrease these costs further, while increasing throughput and automation. This
+collection of benefits positions SP3 as an incredibly robust single-tube proteomics method
+integrating all steps from cell lysis to peptide fractionation.</p></sec><sec sec-type="materials|methods"><title>Materials and Methods</title><sec><title>Paramagnetic beads</title><p>In all experiments with SP3, we utilize commercially available beads that carry a carboxylate
+moiety. We have tested and verified the protocols used in this study with beads from Beckman Coulter
+(Ampure XP, CAT# A63880), CleanNA (Clean PCR, CAT# CPCR1300), ReSyn Biosciences (MagReSyn, CAT#
+MR-CBX005), and Thermo Fisher (Sera-Mag Speed Beads, CAT# 09-981-121, 09-981-123) with a variety of
+reagents (Fig<xref ref-type="fig" rid="fig01">1</xref>B; Supplementary Fig S1A). In all cases, beads
+have an average diameter of 1&#x000a0;&#x003bc;m and are coated with a hydrophilic surface. For all
+SP3 experiments in this manuscript, a 1:1 combination mix of the two types of Sera-Mag speed beads
+is used. Beads are rinsed with water prior to use and stored at 4&#x000b0;C at a stock concentration
+of 10&#x000a0;&#x003bc;g/&#x003bc;l. Magnetic racks used in all experiments were designed and
+manufactured in-house (Supplementary Fig S1B and C). Neodymium magnets used in racks were purchased
+from Supermagnete (Germany).</p></sec><sec><title>Handling of <italic>Drosophila</italic> embryo samples</title><p>Staged embryos from line RAL-859 (Bloomington #25210) were collected on agar plates at
+25&#x000b0;C following standard protocols. In brief, following three 1-h pre-lays (embryo collections
+that serve to synchronize the developmental stages of the final embryo collection), embryos were
+collected during 2-h windows and aged at 25&#x000b0;C to the appropriate stage [2&#x02013;4&#x000a0;h,
+2&#x02013;2.5&#x000a0;h, 3.5&#x02013;4&#x000a0;h, or 10&#x02013;12&#x000a0;h after egg lay (AEL)]. The
+embryos were then rinsed with water, dechorionated by incubating in 3% NaOCl (50%
+bleach) for 2&#x000a0;min, washed with PBT (PBS with 0.1% Triton), and air-dried at room
+temperature. Single embryos were then transferred to individual PCR tubes and flash frozen in liquid
+nitrogen. Details of yeast, HeLa, mESC, and NP culture are given in the Supplementary
+Information.</p></sec><sec><title>Cell lysis, protein reduction, and alkylation</title><p>In all experiments involving the use of yeast, lysis was performed using a mechanical bead
+beating procedure in 1% SDS-containing buffer. In all HeLa, mESC, and NP experiments, lysis
+was performed using 1% SDS-containing buffer with Benzonase treatment to shear chromatin.
+Details of yeast, HeLa, mESC, and NP lysis, reduction, and alkylation protocols are given in the
+Supplementary Information.</p><p><italic>Drosophila</italic> embryos were lysed using a solution-based procedure with sonication.
+Single embryos in PCR tubes were re-suspended in 20&#x000a0;&#x003bc;l of lysis buffer containing
+20&#x000a0;&#x003bc;g of SP3 beads. Lysis buffer was composed of 1% SDS (Bio-Rad), 1&#x000d7;
+cOmplete Protease Inhibitor Cocktail-EDTA (Roche), 5&#x000a0;mM EDTA, 5&#x000a0;mM EGTA, 10&#x000a0;mM
+NaOH, and 10&#x000a0;mM DTT, in 10&#x000a0;mM HEPES buffer at pH 8.5 (Sigma). The lysis solution was
+combined with 20&#x000a0;&#x003bc;l of neat trifluoroethanol (Sigma) and sonicated for 15&#x000a0;min
+in a Bioruptor (Diagenode) for 10 cycles (30&#x000a0;s on, 30&#x000a0;s off) on the setting
+&#x02018;high&#x02019;. The Bioruptor was operated in the absence of active cooling to allow the water
+bath to heat and facilitate lysis and shearing of chromatin. To neutralize the lysis solution,
+0.75&#x000a0;&#x003bc;l of 0.1% formic acid was added. Samples were then heated at 95&#x000b0;C
+for 5&#x000a0;min and placed on ice before proceeding with reduction and alkylation steps. (Details
+of reduction and alkylation can be found in the Supplementary Information.)</p></sec><sec><title>Protein SP3 protocol</title><p>Details of SP3 optimization experiments for protein binding as well as digestion conditions are
+given in the Supplementary Information. Step-by-step protocols for performing SP3 can also be found
+in the Supplementary Information.</p><p>The Sera-Mag SP3 bead mix that had been prepared as discussed above was stored as a stock at a
+concentration of 10&#x000a0;&#x003bc;g/&#x003bc;l. Unless otherwise noted, all reactions are carried
+out in untreated PCR tubes (Ratiolab). To each protein mixture to be treated, 2&#x000a0;&#x003bc;l of
+this bead stock (20&#x000a0;&#x003bc;g) was added and pipette mixed to generate a homogeneous
+solution. Although 20&#x000a0;&#x003bc;g of beads exceeds the required amount given the binding
+capacity of 1&#x000a0;&#x003bc;g of beads per 100&#x000a0;&#x003bc;g of protein determined above, it is
+beneficial to retain the absolute bead concentration at values
+&#x0003e;&#x000a0;0.1&#x000a0;&#x003bc;g/&#x003bc;l in solution to promote bead aggregation as the
+reaction progresses (e.g., 20&#x000a0;&#x003bc;g of beads after addition of 195&#x000a0;&#x003bc;l in
+peptide SP3 gives 0.1&#x000a0;&#x003bc;g/&#x003bc;l in the total volume of 200&#x000a0;&#x003bc;l). The
+bead&#x02013;protein mixture was then acidified (pH &#x0223c;2) through the addition of formic acid,
+and acetonitrile (100% stock) was added to a reach a final concentration of 50% (v/v)
+of the total volume. Mixtures were incubated upright for 8&#x000a0;min at room temperature and then
+placed on a magnetic rack for a further 2&#x000a0;min. While on the magnet, the supernatant was
+removed and discarded. The beads were rinsed through addition of 200&#x000a0;&#x003bc;l of 70%
+absolute ethanol, incubated for 30&#x000a0;s, and the supernatant discarded. This step was repeated
+one further time. Beads were then rinsed one further time with 180&#x000a0;&#x003bc;l of 100%
+acetonitrile, incubated for 30&#x000a0;s, and the supernatant discarded. All rinses were carried out
+while tubes were mounted on the magnetic rack. Rinsed beads were then reconstituted in aqueous
+buffer (e.g., 5&#x000a0;&#x003bc;l of 50&#x000a0;mM HEPES pH 8), pipette mixed, and incubated for
+5&#x000a0;min at room temperature to elute proteins. The composition of the elution buffer can be
+catered to the desired downstream protocol.</p></sec><sec><title>Peptide SP3 protocol</title><p>Details of SP3 optimization experiments for peptide binding as well as fractionation conditions
+are given in the Supplementary Information. Step-by-step protocols for performing SP3 can also be
+found in the Supplementary Information.</p><p>When peptide mixtures did not originate from a previous SP3 digest and thus did not contain
+beads, 2&#x000a0;&#x003bc;l of beads from a 10&#x000a0;&#x003bc;g/&#x003bc;l stock (20&#x000a0;&#x003bc;g)
+was added and pipette mixed. When peptide mixtures were derived from an SP3 digest,
+bead&#x02013;peptide solutions were pipette mixed to re-suspend the beads that had settled during the
+digestion procedure. Unless otherwise noted, all reactions are carried out in untreated PCR tubes.
+To each tube, 100% acetonitrile was added to achieve a final concentration
+&#x0003e;&#x000a0;95% (e.g., 5&#x000a0;&#x003bc;l of bead-protein mixture +
+195&#x000a0;&#x003bc;l of 100% acetonitrile). Mixtures were incubated for 8&#x000a0;min at room
+temperature and following this placed on a magnetic rack for a further 2&#x000a0;min. The supernatant
+was discarded, and the beads rinsed one time with 180&#x000a0;&#x003bc;l of 100% acetonitrile.
+Rinsed beads were reconstituted in an aqueous solution (typically H<sub>2</sub>O) containing
+2% dimethylsulfoxide (DMSO). The volume used for elution can be catered for the downstream
+application and the expected concentration of the peptide mixture (e.g., 10&#x000a0;&#x003bc;l).
+Mixtures were pipette mixed and incubated for 5&#x000a0;min at room temperature. Tubes were placed on
+a magnetic rack and eluted peptides recovered. Prior to analysis with MS and after removal from the
+paramagnetic beads, peptides solutions were acidified with formic acid.</p></sec><sec><title>Mass spectrometry data acquisition</title><p>Experiments involving the analysis of limited amounts of material (HeLa and
+<italic>Drosophila</italic>) were carried out on an Orbitrap Velos Pro MS system (Thermo Scientific)
+equipped with a nanoAcquity liquid chromatography system (Waters). Injected peptides were trapped on
+Symmetry C18 columns (180&#x000a0;&#x003bc;m x 20&#x000a0;mm). After trapping, gradient elution of
+peptides was performed on a C18 (nanoAcquity BEH130 C18, 75&#x000a0;&#x003bc;m x 200&#x000a0;mm,
+1.7&#x000a0;&#x003bc;m) column. For single-shot samples where extended analysis was used, elution was
+performed with a gradient of mobile phase A (99.9% water and 0.1% formic acid) to
+25% B (99.9% acetonitrile and 0.1% formic acid) over 190&#x000a0;min, and to
+40% B over 40&#x000a0;min, for a final length of 265&#x000a0;min. For samples fractionated with
+high-pH reversed-phase, 145-min gradient runs were used (Supplementary Methods). For SP3
+fractionated samples, 180-min gradients were utilized where the percentage of B was ramped to
+25% over 120&#x000a0;min and to 40% B over 40&#x000a0;min, for a final length of
+210&#x000a0;min.</p><p>Data acquisition on the Orbitrap Velos Pro MS was carried out using a data-dependent method. The
+top 15 precursors were selected for MS2 analysis after collisional induced fragmentation (CID).
+Survey scans covering the mass range of 350&#x02013;1,500 were acquired at a resolution of 30,000 (at
+<italic>m</italic>/<italic>z</italic> 400) with a maximum fill time of 500&#x000a0;ms and an AGC
+target value of 1e6. MS2 scans were acquired with a maximum fill time of 50&#x000a0;ms and an AGC
+target value of 1e4 with an isolation window of 2.0&#x000a0;<italic>m</italic>/<italic>z</italic>.
+CID fragmentation was induced with an NCE of 40, an activation time of 10&#x000a0;ms, and an
+activation Q of 0.250. Dynamic exclusion was set to exclude previously selected precursors for a
+total of 60&#x02013;90&#x000a0;s depending on gradient length. Charge state exclusion was set to
+ignore unassigned, 1, and 4 and greater charges. MS1 data were acquired in profile mode, whereas MS2
+data were obtained in centroid format. Further details of conditions used for MS analysis are given
+in the Supplementary Information.</p></sec><sec><title>Data analysis</title><p>Details of data processing, statistical validation and testing, and biological feature extraction
+are given in the Supplementary Information.</p></sec><sec><title>Data availability</title><p>All raw data and protein and peptide identification tables associated with this manuscript can be
+downloaded from Chorus (https://chorusproject.org) under the title &#x0201c;Enhanced workflows with
+paramagnetic beads for ultrasensitive proteomics&#x0201d;. All scripts associated with this
+manuscript are available upon request.</p></sec></sec></body><back><ack><p>The authors would like to acknowledge valuable contributions, input, and discussions from Raeka
+Aiyar, Kristina Dzeyk, Stefan Leicht, Marco Hennrich, Lida Radan, and Joanna Kirkpatrick. The
+authors would also like to acknowledge Lucia Ciglar and Raquel Ferreres for valuable help during
+embryo collections.</p></ack><sec><title>Author contributions</title><p>CH conceived the idea, designed and carried out the experiments and data analysis. SF carried out
+experiments. DG aided in experimental design and carried out experiments. CH and JK wrote the
+manuscript. EF and LS aided in experimental design and contributed to writing of the manuscript. CH
+is funded by a EU Marie Curie Actions Cofund grant for EIPOD fellows awarded to EMBL.</p></sec><sec><title>Conflict of interest</title><p>The authors declare that they have no conflict of interest.</p></sec><ref-list><title>References</title><ref id="b1"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alpert</surname><given-names>A</given-names></name></person-group><article-title>Hydrophilic-interaction chromatography for the separation of peptides, nucleic acids
+and other polar compounds</article-title><source>J Chromatogr A</source><year>1990</year><volume>499</volume><fpage>177</fpage><lpage>196</lpage></element-citation></ref><ref id="b2"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Alpert</surname><given-names>A</given-names></name></person-group><article-title>Electrostatic repulsion hydrophilic interaction chromatography for isocratic
+separation of charged solutes and selective isolation of phosphopeptides</article-title><source>Anal Chem</source><year>2008</year><volume>80</volume><fpage>62</fpage><lpage>76</lpage><pub-id pub-id-type="pmid">18027909</pub-id></element-citation></ref><ref id="b3"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Altelaar</surname><given-names>AFM</given-names></name><name><surname>Heck</surname><given-names>AJR</given-names></name></person-group><article-title>Trends in ultrasensitive proteomics</article-title><source>Curr Opin Chem Biol</source><year>2012</year><volume>16</volume><fpage>206</fpage><lpage>213</lpage><pub-id pub-id-type="pmid">22226769</pub-id></element-citation></ref><ref id="b4"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Arbeitman</surname><given-names>MN</given-names></name><name><surname>Furlong</surname><given-names>EEM</given-names></name><name><surname>Imam</surname><given-names>F</given-names></name><name><surname>Johnson</surname><given-names>E</given-names></name><name><surname>Null</surname><given-names>BH</given-names></name><name><surname>Baker</surname><given-names>BS</given-names></name><name><surname>Krasnow</surname><given-names>MA</given-names></name><name><surname>Scott</surname><given-names>MP</given-names></name><name><surname>Davis</surname><given-names>RW</given-names></name><name><surname>White</surname><given-names>KP</given-names></name></person-group><article-title>Gene expression during the life cycle of <italic>Drosophila
+melanogaster</italic></article-title><source>Science</source><year>2002</year><volume>297</volume><fpage>2270</fpage><lpage>2275</lpage><pub-id pub-id-type="pmid">12351791</pub-id></element-citation></ref><ref id="b5"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Babu</surname><given-names>K</given-names></name><name><surname>Cai</surname><given-names>Y</given-names></name><name><surname>Bahri</surname><given-names>S</given-names></name><name><surname>Yang</surname><given-names>X</given-names></name><name><surname>Chia</surname><given-names>W</given-names></name></person-group><article-title>Roles of Bifocal, Homer, and F-actin in anchoring Oskar to the posterior cortex of
+<italic>Drosophila</italic> oocytes</article-title><source>Genes Dev</source><year>2004</year><volume>18</volume><fpage>138</fpage><lpage>143</lpage><pub-id pub-id-type="pmid">14752008</pub-id></element-citation></ref><ref id="b6"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Beck</surname><given-names>M</given-names></name><name><surname>Schmidt</surname><given-names>A</given-names></name><name><surname>Malmstroem</surname><given-names>J</given-names></name><name><surname>Claassen</surname><given-names>M</given-names></name><name><surname>Ori</surname><given-names>A</given-names></name><name><surname>Szymborska</surname><given-names>A</given-names></name><name><surname>Herzog</surname><given-names>F</given-names></name><name><surname>Rinner</surname><given-names>O</given-names></name><name><surname>Ellenberg</surname><given-names>J</given-names></name><name><surname>Aebersold</surname><given-names>R</given-names></name></person-group><article-title>The quantitative proteome of a human cell line</article-title><source>Mol Syst Biol</source><year>2011</year><volume>7</volume><fpage>549</fpage><pub-id pub-id-type="pmid">22068332</pub-id></element-citation></ref><ref id="b7"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bereman</surname><given-names>MS</given-names></name><name><surname>Egertson</surname><given-names>JD</given-names></name><name><surname>MacCoss</surname><given-names>MJ</given-names></name></person-group><article-title>Comparison between procedures using SDS for shotgun proteomic analyses of complex
+samples</article-title><source>Proteomics</source><year>2011</year><volume>11</volume><fpage>2931</fpage><lpage>2935</lpage><pub-id pub-id-type="pmid">21656683</pub-id></element-citation></ref><ref id="b8"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Boersema</surname><given-names>PJ</given-names></name><name><surname>Raijmakers</surname><given-names>R</given-names></name><name><surname>Lemeer</surname><given-names>S</given-names></name><name><surname>Mohammed</surname><given-names>S</given-names></name><name><surname>Heck</surname><given-names>AJR</given-names></name></person-group><article-title>Multiplex peptide stable isotope dimethyl labeling for quantitative
+proteomics</article-title><source>Nat Protoc</source><year>2009</year><volume>4</volume><fpage>484</fpage><lpage>494</lpage><pub-id pub-id-type="pmid">19300442</pub-id></element-citation></ref><ref id="b9"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Branca</surname><given-names>RMM</given-names></name><name><surname>Orre</surname><given-names>LM</given-names></name><name><surname>Johansson</surname><given-names>HJ</given-names></name><name><surname>Granholm</surname><given-names>V</given-names></name><name><surname>Huss</surname><given-names>M</given-names></name><name><surname>P&#x000e9;rez-Bercoff</surname><given-names>&#x000c5;</given-names></name><name><surname>Forshed</surname><given-names>J</given-names></name><name><surname>K&#x000e4;ll</surname><given-names>L</given-names></name><name><surname>Lehti&#x000f6;</surname><given-names>J</given-names></name></person-group><article-title>HiRIEF LC-MS enables deep proteome coverage and unbiased
+proteogenomics</article-title><source>Nat Methods</source><year>2014</year><volume>11</volume><fpage>59</fpage><lpage>62</lpage><pub-id pub-id-type="pmid">24240322</pub-id></element-citation></ref><ref id="b10"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Brunner</surname><given-names>E</given-names></name><name><surname>Ahrens</surname><given-names>CH</given-names></name><name><surname>Mohanty</surname><given-names>S</given-names></name><name><surname>Baetschmann</surname><given-names>H</given-names></name><name><surname>Loevenich</surname><given-names>S</given-names></name><name><surname>Potthast</surname><given-names>F</given-names></name><name><surname>Deutsch</surname><given-names>EW</given-names></name><name><surname>Panse</surname><given-names>C</given-names></name><name><surname>de Lichtenberg</surname><given-names>U</given-names></name><name><surname>Rinner</surname><given-names>O</given-names></name><name><surname>Lee</surname><given-names>H</given-names></name><name><surname>Pedrioli</surname><given-names>PGA</given-names></name><name><surname>Malmstrom</surname><given-names>J</given-names></name><name><surname>Koehler</surname><given-names>K</given-names></name><name><surname>Schrimpf</surname><given-names>S</given-names></name><name><surname>Krijgsveld</surname><given-names>J</given-names></name><name><surname>Kregenow</surname><given-names>F</given-names></name><name><surname>Heck</surname><given-names>AJR</given-names></name><name><surname>Hafen</surname><given-names>E</given-names></name><name><surname>Schlapbach</surname><given-names>R</given-names></name><etal/></person-group><article-title>A high-quality catalog of the <italic>Drosophila melanogaster</italic>
+proteome</article-title><source>Nat Biotechnol</source><year>2007</year><volume>25</volume><fpage>576</fpage><lpage>583</lpage><pub-id pub-id-type="pmid">17450130</pub-id></element-citation></ref><ref id="b11"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Carmena</surname><given-names>A</given-names></name></person-group><article-title>Approaching <italic>Drosophila</italic> development through proteomic tools and
+databases: at the hub of the post-genomic era</article-title><source>Mech Dev</source><year>2009</year><volume>126</volume><fpage>761</fpage><lpage>770</lpage><pub-id pub-id-type="pmid">19679183</pub-id></element-citation></ref><ref id="b12"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Chen</surname><given-names>W-H</given-names></name><name><surname>Lee</surname><given-names>S-C</given-names></name><name><surname>Sabu</surname><given-names>S</given-names></name><name><surname>Fang</surname><given-names>H-C</given-names></name><name><surname>Chung</surname><given-names>S-C</given-names></name><name><surname>Han</surname><given-names>C-C</given-names></name><name><surname>Chang</surname><given-names>H-C</given-names></name></person-group><article-title>Solid-phase extraction and elution on diamond (SPEED): a fast and general platform
+for proteome analysis with mass spectrometry</article-title><source>Anal Chem</source><year>2006</year><volume>78</volume><fpage>4228</fpage><lpage>4234</lpage><pub-id pub-id-type="pmid">16771555</pub-id></element-citation></ref><ref id="b13"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Combs</surname><given-names>PA</given-names></name><name><surname>Eisen</surname><given-names>MB</given-names></name></person-group><article-title>Sequencing mRNA from cryo-sliced <italic>Drosophila</italic> embryos to determine
+genome-wide spatial patterns of gene expression</article-title><source>PLoS ONE</source><year>2013</year><volume>8</volume><fpage>e71820</fpage><pub-id pub-id-type="pmid">23951250</pub-id></element-citation></ref><ref id="b14"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>DeAngelis</surname><given-names>MM</given-names></name><name><surname>Wang</surname><given-names>DG</given-names></name><name><surname>Hawkins</surname><given-names>TL</given-names></name></person-group><article-title>Solid-phase reversible immobilization for the isolation of PCR
+products</article-title><source>Nucleic Acids Res</source><year>1995</year><volume>23</volume><fpage>4742</fpage><lpage>4743</lpage><pub-id pub-id-type="pmid">8524672</pub-id></element-citation></ref><ref id="b15"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Di Palma</surname><given-names>S</given-names></name><name><surname>Stange</surname><given-names>D</given-names></name><name><surname>van de Wetering</surname><given-names>M</given-names></name><name><surname>Clevers</surname><given-names>H</given-names></name><name><surname>Heck</surname><given-names>AJR</given-names></name><name><surname>Mohammed</surname><given-names>S</given-names></name></person-group><article-title>Highly sensitive proteome analysis of FACS-sorted adult colon stem
+cells</article-title><source>J Proteome Res</source><year>2011</year><volume>10</volume><fpage>3814</fpage><lpage>3819</lpage><pub-id pub-id-type="pmid">21696214</pub-id></element-citation></ref><ref id="b16"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Erde</surname><given-names>J</given-names></name><name><surname>Loo</surname><given-names>R</given-names></name><name><surname>Loo</surname><given-names>J</given-names></name></person-group><article-title>Enhanced FASP (eFASP) to increase proteome coverage and sample recovery for
+quantitative proteomic experiments</article-title><source>J Proteome Res</source><year>2014</year><volume>13</volume><fpage>1885</fpage><lpage>1895</lpage><pub-id pub-id-type="pmid">24552128</pub-id></element-citation></ref><ref id="b17"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ethier</surname><given-names>M</given-names></name><name><surname>Hou</surname><given-names>W</given-names></name></person-group><article-title>The proteomic reactor: a microfluidic device for processing minute amounts of protein
+prior to mass spectrometry analysis</article-title><source>J Proteome Res</source><year>2006</year><volume>275</volume><fpage>4</fpage><lpage>2759</lpage></element-citation></ref><ref id="b18"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Fan</surname><given-names>C</given-names></name><name><surname>Shi</surname><given-names>Z</given-names></name><name><surname>Pan</surname><given-names>Y</given-names></name><name><surname>Song</surname><given-names>Z</given-names></name><name><surname>Zhang</surname><given-names>W</given-names></name><name><surname>Zhao</surname><given-names>X</given-names></name><name><surname>Tian</surname><given-names>F</given-names></name><name><surname>Peng</surname><given-names>B</given-names></name><name><surname>Qin</surname><given-names>W</given-names></name><name><surname>Cai</surname><given-names>Y</given-names></name><name><surname>Qian</surname><given-names>X</given-names></name></person-group><article-title>Dual matrix-based immobilized trypsin for complementary proteolytic digestion and
+fast proteomics analysis with higher protein sequence coverage</article-title><source>Anal Chem</source><year>2014</year><volume>86</volume><fpage>1452</fpage><lpage>1458</lpage><pub-id pub-id-type="pmid">24447065</pub-id></element-citation></ref><ref id="b19"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Glover</surname><given-names>DM</given-names></name></person-group><article-title>Polo kinase and progression through M phase in <italic>Drosophila</italic>: a
+perspective from the spindle poles</article-title><source>Oncogene</source><year>2005</year><volume>24</volume><fpage>230</fpage><lpage>237</lpage><pub-id pub-id-type="pmid">15640838</pub-id></element-citation></ref><ref id="b20"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gouw</surname><given-names>JW</given-names></name><name><surname>Pinkse</surname><given-names>MWH</given-names></name><name><surname>Vos</surname><given-names>HR</given-names></name><name><surname>Moshkin</surname><given-names>Y</given-names></name><name><surname>Verrijzer</surname><given-names>CP</given-names></name><name><surname>Heck</surname><given-names>AJR</given-names></name><name><surname>Krijgsveld</surname><given-names>J</given-names></name></person-group><article-title>In vivo stable isotope labeling of fruit flies reveals post-transcriptional
+regulation in the maternal-to-zygotic transition</article-title><source>Mol Cell Proteomics</source><year>2009</year><volume>8</volume><fpage>1566</fpage><lpage>1578</lpage><pub-id pub-id-type="pmid">19321433</pub-id></element-citation></ref><ref id="b21"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Graveley</surname><given-names>BR</given-names></name><name><surname>Brooks</surname><given-names>AN</given-names></name><name><surname>Carlson</surname><given-names>JW</given-names></name><name><surname>Duff</surname><given-names>MO</given-names></name><name><surname>Landolin</surname><given-names>JM</given-names></name><name><surname>Yang</surname><given-names>L</given-names></name><name><surname>Artieri</surname><given-names>CG</given-names></name><name><surname>van Baren</surname><given-names>MJ</given-names></name><name><surname>Boley</surname><given-names>N</given-names></name><name><surname>Booth</surname><given-names>BW</given-names></name><name><surname>Brown</surname><given-names>JB</given-names></name><name><surname>Cherbas</surname><given-names>L</given-names></name><name><surname>Davis</surname><given-names>CA</given-names></name><name><surname>Dobin</surname><given-names>A</given-names></name><name><surname>Li</surname><given-names>R</given-names></name><name><surname>Lin</surname><given-names>W</given-names></name><name><surname>Malone</surname><given-names>JH</given-names></name><name><surname>Mattiuzzo</surname><given-names>NR</given-names></name><name><surname>Miller</surname><given-names>D</given-names></name><name><surname>Sturgill</surname><given-names>D</given-names></name><etal/></person-group><article-title>The developmental transcriptome of <italic>Drosophila
+melanogaster</italic></article-title><source>Nature</source><year>2011</year><volume>471</volume><fpage>473</fpage><lpage>479</lpage><pub-id pub-id-type="pmid">21179090</pub-id></element-citation></ref><ref id="b22"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Guilgur</surname><given-names>L</given-names></name><name><surname>Prud&#x000ea;ncio</surname><given-names>P</given-names></name><name><surname>Sobral</surname><given-names>D</given-names></name></person-group><article-title>Requirement for highly efficient pre-mRNA splicing during <italic>Drosophila</italic>
+early embryonic development</article-title><source>Elife</source><year>2014</year><volume>3</volume><fpage>1</fpage><lpage>21</lpage></element-citation></ref><ref id="b23"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hebert</surname><given-names>AS</given-names></name><name><surname>Richards</surname><given-names>AL</given-names></name><name><surname>Bailey</surname><given-names>DJ</given-names></name><name><surname>Ulbrich</surname><given-names>A</given-names></name><name><surname>Coughlin</surname><given-names>EE</given-names></name><name><surname>Westphall</surname><given-names>MS</given-names></name><name><surname>Coon</surname><given-names>JJ</given-names></name></person-group><article-title>The one hour yeast proteome</article-title><source>Mol Cell Proteomics</source><year>2014</year><volume>13</volume><fpage>339</fpage><lpage>347</lpage><pub-id pub-id-type="pmid">24143002</pub-id></element-citation></ref><ref id="b24"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hengel</surname><given-names>SM</given-names></name><name><surname>Floyd</surname><given-names>E</given-names></name><name><surname>Baker</surname><given-names>ES</given-names></name><name><surname>Zhao</surname><given-names>R</given-names></name><name><surname>Wu</surname><given-names>S</given-names></name><name><surname>Pa&#x00161;a-Toli&#x00107;</surname><given-names>L</given-names></name></person-group><article-title>Evaluation of SDS depletion using an affinity spin column and IMS-MS
+detection</article-title><source>Proteomics</source><year>2012</year><volume>12</volume><fpage>3138</fpage><lpage>3142</lpage><pub-id pub-id-type="pmid">22936678</pub-id></element-citation></ref><ref id="b25"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hill</surname><given-names>KK</given-names></name><name><surname>Juang</surname><given-names>VBJ</given-names></name><name><surname>Hoffmann</surname><given-names>FM</given-names></name></person-group><source>Genetics</source><year>1995</year><volume>141</volume><fpage>595</fpage><lpage>606</lpage><comment>Genetic interactions between the Drosophila Abelson (Abl) tyrosine kinase and failed axon
+connections</comment><pub-id pub-id-type="pmid">8647396</pub-id></element-citation></ref><ref id="b26"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Islam</surname><given-names>R</given-names></name></person-group><article-title>Neuroglian activates Echinoid to antagonize the <italic>Drosophila</italic> EGF
+receptor signaling pathway</article-title><source>Development</source><year>2003</year><volume>130</volume><fpage>2051</fpage><lpage>2059</lpage><pub-id pub-id-type="pmid">12668620</pub-id></element-citation></ref><ref id="b27"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kalifa</surname><given-names>Y</given-names></name><name><surname>Huang</surname><given-names>T</given-names></name><name><surname>Rosen</surname><given-names>LN</given-names></name><name><surname>Chatterjee</surname><given-names>S</given-names></name><name><surname>Gavis</surname><given-names>ER</given-names></name></person-group><article-title>Glorund, a <italic>Drosophila</italic> hnRNP F/H homolog, is an ovarian repressor of
+nanos translation</article-title><source>Dev Cell</source><year>2006</year><volume>10</volume><fpage>291</fpage><lpage>301</lpage><pub-id pub-id-type="pmid">16516833</pub-id></element-citation></ref><ref id="b28"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Karpova</surname><given-names>N</given-names></name><name><surname>Bobinnec</surname><given-names>Y</given-names></name><name><surname>Fouix</surname><given-names>S</given-names></name><name><surname>Huitorel</surname><given-names>P</given-names></name><name><surname>Debec</surname><given-names>A</given-names></name></person-group><article-title>Jupiter, a new <italic>Drosophila</italic> protein associated with
+microtubules</article-title><source>Cell Motil Cytoskeleton</source><year>2006</year><volume>63</volume><fpage>301</fpage><lpage>312</lpage><pub-id pub-id-type="pmid">16518797</pub-id></element-citation></ref><ref id="b29"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kugler</surname><given-names>SJ</given-names></name><name><surname>Nagel</surname><given-names>AC</given-names></name></person-group><article-title>putzig is required for cell proliferation and regulates notch activity in
+<italic>Drosophila</italic></article-title><source>Mol Biol Cell</source><year>2007</year><volume>18</volume><fpage>3733</fpage><lpage>3740</lpage><pub-id pub-id-type="pmid">17634285</pub-id></element-citation></ref><ref id="b30"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kulak</surname><given-names>NA</given-names></name><name><surname>Pichler</surname><given-names>G</given-names></name><name><surname>Paron</surname><given-names>I</given-names></name><name><surname>Nagaraj</surname><given-names>N</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name></person-group><article-title>Minimal, encapsulated proteomic-sample processing applied to copy-number estimation
+in eukaryotic cells</article-title><source>Nat Methods</source><year>2014</year><volume>11</volume><fpage>1</fpage><lpage>8</lpage><pub-id pub-id-type="pmid">24524124</pub-id></element-citation></ref><ref id="b31"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kyte</surname><given-names>J</given-names></name><name><surname>Doolittle</surname><given-names>RF</given-names></name></person-group><article-title>A simple method for displaying the hydropathic character of a protein</article-title><source>J Mol Biol</source><year>1982</year><volume>157</volume><fpage>105</fpage><lpage>132</lpage><pub-id pub-id-type="pmid">7108955</pub-id></element-citation></ref><ref id="b32"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lanzotti</surname><given-names>D</given-names></name><name><surname>Kupsco</surname><given-names>J</given-names></name></person-group><article-title><italic>Drosophila</italic> stem-loop binding protein intracellular localization is
+mediated by phosphorylation and is required for cell cycle-regulated histone mRNA
+expression</article-title><source>Mol Biol Cell</source><year>2004</year><volume>15</volume><fpage>1112</fpage><lpage>1123</lpage><pub-id pub-id-type="pmid">14999087</pub-id></element-citation></ref><ref id="b33"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Le&#x000f3;n</surname><given-names>IR</given-names></name><name><surname>Schw&#x000e4;mmle</surname><given-names>V</given-names></name><name><surname>Jensen</surname><given-names>ON</given-names></name><name><surname>Sprenger</surname><given-names>RR</given-names></name></person-group><article-title>Quantitative assessment of in-solution digestion efficiency identifies optimal
+protocols for unbiased protein analysis</article-title><source>Mol Cell Proteomics</source><year>2013</year><volume>12</volume><fpage>2992</fpage><lpage>3005</lpage><pub-id pub-id-type="pmid">23792921</pub-id></element-citation></ref><ref id="b34"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Levy</surname><given-names>LS</given-names></name><name><surname>Manning</surname><given-names>JE</given-names></name></person-group><article-title>Messenger RNA sequence complexity and homology in developmental stages of
+<italic>Drosophila</italic></article-title><source>Dev Biol</source><year>1981</year><volume>85</volume><fpage>141</fpage><lpage>149</lpage><pub-id pub-id-type="pmid">6114003</pub-id></element-citation></ref><ref id="b35"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Liebl</surname><given-names>EC</given-names></name></person-group><article-title>Interactions between the secreted protein Amalgam, its transmembrane receptor
+Neurotactin and the Abelson tyrosine kinase affect axon pathfinding</article-title><source>Development</source><year>2003</year><volume>130</volume><fpage>3217</fpage><lpage>3226</lpage><pub-id pub-id-type="pmid">12783792</pub-id></element-citation></ref><ref id="b36"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mahowald</surname><given-names>AP</given-names></name></person-group><article-title>Assembly of the <italic>Drosophila</italic> germ plasm</article-title><source>Int Rev Cytol</source><year>2001</year><volume>203</volume><fpage>187</fpage><lpage>213</lpage><pub-id pub-id-type="pmid">11131516</pub-id></element-citation></ref><ref id="b37"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mao</surname><given-names>Y</given-names></name><name><surname>Freeman</surname><given-names>M</given-names></name></person-group><article-title>Fasciclin 2, the <italic>Drosophila</italic> orthologue of neural cell-adhesion
+molecule, inhibits EGF receptor signalling</article-title><source>Development</source><year>2009</year><volume>136</volume><fpage>473</fpage><lpage>481</lpage><pub-id pub-id-type="pmid">19141676</pub-id></element-citation></ref><ref id="b38"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Moghaddas Gholami</surname><given-names>A</given-names></name><name><surname>Hahne</surname><given-names>H</given-names></name><name><surname>Wu</surname><given-names>Z</given-names></name><name><surname>Auer</surname><given-names>FJ</given-names></name><name><surname>Meng</surname><given-names>C</given-names></name><name><surname>Wilhelm</surname><given-names>M</given-names></name><name><surname>Kuster</surname><given-names>B</given-names></name></person-group><article-title>Global proteome analysis of the NCI-60 cell line panel</article-title><source>Cell Rep</source><year>2013</year><volume>4</volume><fpage>609</fpage><lpage>620</lpage><pub-id pub-id-type="pmid">23933261</pub-id></element-citation></ref><ref id="b39"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>M&#x000f6;ller</surname><given-names>A</given-names></name><name><surname>Avila</surname><given-names>FW</given-names></name><name><surname>Erickson</surname><given-names>JW</given-names></name><name><surname>J&#x000e4;ckle</surname><given-names>H</given-names></name></person-group><article-title><italic>Drosophila</italic> BAP60 is an essential component of the Brahma complex,
+required for gene activation and repression</article-title><source>J Mol Biol</source><year>2005</year><volume>352</volume><fpage>329</fpage><lpage>337</lpage><pub-id pub-id-type="pmid">16083904</pub-id></element-citation></ref><ref id="b40"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Neves</surname><given-names>A</given-names></name><name><surname>Priess</surname><given-names>JR</given-names></name></person-group><article-title>The REF-1 family of bHLH transcription factors pattern
+<italic>C.&#x000a0;elegans</italic> embryos through Notch-dependent and Notch-independent
+pathways</article-title><source>Dev Cell</source><year>2005</year><volume>8</volume><fpage>867</fpage><lpage>879</lpage><pub-id pub-id-type="pmid">15935776</pub-id></element-citation></ref><ref id="b41"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ning</surname><given-names>Z</given-names></name><name><surname>Seebun</surname><given-names>D</given-names></name><name><surname>Hawley</surname><given-names>B</given-names></name><name><surname>Chiang</surname><given-names>C-K</given-names></name><name><surname>Figeys</surname><given-names>D</given-names></name></person-group><article-title>From cells to peptides: &#x0201c;one-stop&#x0201d; integrated proteomic processing
+using amphipols</article-title><source>J Proteome Res</source><year>2013</year><volume>12</volume><fpage>1512</fpage><lpage>1519</lpage><pub-id pub-id-type="pmid">23394071</pub-id></element-citation></ref><ref id="b42"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ohler</surname><given-names>S</given-names></name><name><surname>Hakeda-Suzuki</surname><given-names>S</given-names></name><name><surname>Suzuki</surname><given-names>T</given-names></name></person-group><article-title>Hts, the <italic>Drosophila</italic> homologue of Adducin, physically interacts with
+the transmembrane receptor Golden goal to guide photoreceptor axons</article-title><source>Dev Dyn</source><year>2011</year><volume>240</volume><fpage>135</fpage><lpage>148</lpage><pub-id pub-id-type="pmid">21128303</pub-id></element-citation></ref><ref id="b43"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pham</surname><given-names>MD</given-names></name><name><surname>Yu</surname><given-names>SS-F</given-names></name><name><surname>Han</surname><given-names>C-C</given-names></name><name><surname>Chan</surname><given-names>SI</given-names></name></person-group><article-title>Improved mass spectrometric analysis of membrane proteins based on rapid and
+versatile sample preparation on nanodiamond particles</article-title><source>Anal Chem</source><year>2013</year><volume>85</volume><fpage>6748</fpage><lpage>6755</lpage><pub-id pub-id-type="pmid">23763332</pub-id></element-citation></ref><ref id="b44"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rappsilber</surname><given-names>J</given-names></name><name><surname>Ishihama</surname><given-names>Y</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name></person-group><article-title>Stop and go extraction tips for matrix-assisted laser desorption/ionization,
+nanoelectrospray, and LC/MS sample pretreatment in proteomics</article-title><source>Anal Chem</source><year>2003</year><volume>75</volume><fpage>663</fpage><lpage>670</lpage><pub-id pub-id-type="pmid">12585499</pub-id></element-citation></ref><ref id="b45"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ross</surname><given-names>PL</given-names></name><name><surname>Huang</surname><given-names>YN</given-names></name><name><surname>Marchese</surname><given-names>JN</given-names></name><name><surname>Williamson</surname><given-names>B</given-names></name><name><surname>Parker</surname><given-names>K</given-names></name><name><surname>Hattan</surname><given-names>S</given-names></name><name><surname>Khainovski</surname><given-names>N</given-names></name><name><surname>Pillai</surname><given-names>S</given-names></name><name><surname>Dey</surname><given-names>S</given-names></name><name><surname>Daniels</surname><given-names>S</given-names></name><name><surname>Purkayastha</surname><given-names>S</given-names></name><name><surname>Juhasz</surname><given-names>P</given-names></name><name><surname>Martin</surname><given-names>S</given-names></name><name><surname>Bartlet-Jones</surname><given-names>M</given-names></name><name><surname>He</surname><given-names>F</given-names></name><name><surname>Jacobson</surname><given-names>A</given-names></name><name><surname>Pappin</surname><given-names>DJ</given-names></name></person-group><article-title>Multiplexed protein quantitation in <italic>Saccharomyces cerevisiae</italic> using
+amine-reactive isobaric tagging reagents</article-title><source>Mol Cell Proteomics</source><year>2004</year><volume>3</volume><fpage>1154</fpage><lpage>1169</lpage><pub-id pub-id-type="pmid">15385600</pub-id></element-citation></ref><ref id="b46"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rothenberg</surname><given-names>ME</given-names></name><name><surname>Rogers</surname><given-names>SL</given-names></name><name><surname>Vale</surname><given-names>RD</given-names></name><name><surname>Jan</surname><given-names>LY</given-names></name><name><surname>Jan</surname><given-names>Y-N</given-names></name></person-group><article-title><italic>Drosophila</italic> pod-1 crosslinks both actin and microtubules and controls
+the targeting of axons</article-title><source>Neuron</source><year>2003</year><volume>39</volume><fpage>779</fpage><lpage>791</lpage><pub-id pub-id-type="pmid">12948445</pub-id></element-citation></ref><ref id="b47"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schmidt</surname><given-names>C</given-names></name></person-group><article-title>An automated in-gel digestion/iTRAQ-labeling workflow for robust quantification of
+gel-separated proteins</article-title><source>Proteomics</source><year>2013</year><volume>13</volume><fpage>1417</fpage><lpage>1422</lpage><pub-id pub-id-type="pmid">23456960</pub-id></element-citation></ref><ref id="b48"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schonbaum</surname><given-names>CP</given-names></name><name><surname>Perrino</surname><given-names>JJ</given-names></name><name><surname>Mahowald</surname><given-names>AP</given-names></name></person-group><article-title>Regulation of the vitellogenin receptor during <italic>Drosophila
+melanogaster</italic> oogenesis</article-title><source>Mol Biol Cell</source><year>2000</year><volume>11</volume><fpage>511</fpage><lpage>521</lpage><pub-id pub-id-type="pmid">10679010</pub-id></element-citation></ref><ref id="b49"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schwanh&#x000e4;usser</surname><given-names>B</given-names></name><name><surname>Busse</surname><given-names>D</given-names></name><name><surname>Li</surname><given-names>N</given-names></name><name><surname>Dittmar</surname><given-names>G</given-names></name><name><surname>Schuchhardt</surname><given-names>J</given-names></name><name><surname>Wolf</surname><given-names>J</given-names></name><name><surname>Chen</surname><given-names>W</given-names></name><name><surname>Selbach</surname><given-names>M</given-names></name></person-group><article-title>Global quantification of mammalian gene expression control</article-title><source>Nature</source><year>2011</year><volume>473</volume><fpage>337</fpage><lpage>342</lpage><pub-id pub-id-type="pmid">21593866</pub-id></element-citation></ref><ref id="b50"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Scott</surname><given-names>M</given-names></name><name><surname>O'Farrell</surname><given-names>P</given-names></name></person-group><article-title>Spatial programming of gene expression in early <italic>Drosophila</italic>
+embryogenesis</article-title><source>Annu Rev Cell Biol</source><year>1986</year><volume>2</volume><fpage>49</fpage><lpage>80</lpage><pub-id pub-id-type="pmid">2881561</pub-id></element-citation></ref><ref id="b51"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Siddiqui</surname><given-names>NU</given-names></name><name><surname>Li</surname><given-names>X</given-names></name><name><surname>Luo</surname><given-names>H</given-names></name><name><surname>Karaiskakis</surname><given-names>A</given-names></name><name><surname>Hou</surname><given-names>H</given-names></name><name><surname>Kislinger</surname><given-names>T</given-names></name><name><surname>Westwood</surname><given-names>JT</given-names></name><name><surname>Morris</surname><given-names>Q</given-names></name><name><surname>Lipshitz</surname><given-names>HD</given-names></name></person-group><article-title>Genome-wide analysis of the maternal-to-zygotic transition in
+<italic>Drosophila</italic> primordial germ cells</article-title><source>Genome Biol</source><year>2012</year><volume>13</volume><fpage>R11</fpage><pub-id pub-id-type="pmid">22348290</pub-id></element-citation></ref><ref id="b52"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sun</surname><given-names>L</given-names></name><name><surname>Zhu</surname><given-names>G</given-names></name><name><surname>Zhao</surname><given-names>Y</given-names></name><name><surname>Yan</surname><given-names>X</given-names></name><name><surname>Mou</surname><given-names>S</given-names></name><name><surname>Dovichi</surname><given-names>NJ</given-names></name></person-group><article-title>Ultrasensitive and fast bottom-up analysis of femtogram amounts of complex proteome
+digests</article-title><source>Angew Chem Int Ed Engl</source><year>2013</year><volume>52</volume><fpage>13661</fpage><lpage>13664</lpage><pub-id pub-id-type="pmid">24173663</pub-id></element-citation></ref><ref id="b53"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sun</surname><given-names>L</given-names></name><name><surname>Bertke</surname><given-names>MM</given-names></name><name><surname>Champion</surname><given-names>MM</given-names></name><name><surname>Zhu</surname><given-names>G</given-names></name><name><surname>Huber</surname><given-names>PW</given-names></name><name><surname>Dovichi</surname><given-names>NJ</given-names></name></person-group><article-title>Quantitative proteomics of <italic>Xenopus laevis</italic> embryos: expression
+kinetics of nearly 4000 proteins during early development</article-title><source>Sci Rep</source><year>2014</year><volume>4</volume><fpage>4365</fpage><pub-id pub-id-type="pmid">24626130</pub-id></element-citation></ref><ref id="b54"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tadros</surname><given-names>W</given-names></name><name><surname>Lipshitz</surname><given-names>HD</given-names></name></person-group><article-title>The maternal-to-zygotic transition: a play in two acts</article-title><source>Development</source><year>2009</year><volume>136</volume><fpage>3033</fpage><lpage>3042</lpage><pub-id pub-id-type="pmid">19700615</pub-id></element-citation></ref><ref id="b55"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tanca</surname><given-names>A</given-names></name><name><surname>Biosa</surname><given-names>G</given-names></name><name><surname>Pagnozzi</surname><given-names>D</given-names></name><name><surname>Addis</surname><given-names>MF</given-names></name><name><surname>Uzzau</surname><given-names>S</given-names></name></person-group><article-title>Comparison of detergent-based sample preparation workflows for LTQ-Orbitrap analysis
+of the <italic>Escherichia coli</italic> proteome</article-title><source>Proteomics</source><year>2013</year><volume>13</volume><fpage>2597</fpage><lpage>2607</lpage><pub-id pub-id-type="pmid">23784971</pub-id></element-citation></ref><ref id="b56"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Thompson</surname><given-names>A</given-names></name><name><surname>Sch&#x000e4;fer</surname><given-names>J</given-names></name><name><surname>Kuhn</surname><given-names>K</given-names></name><name><surname>Kienle</surname><given-names>S</given-names></name><name><surname>Schwarz</surname><given-names>J</given-names></name><name><surname>Schmidt</surname><given-names>G</given-names></name><name><surname>Neumann</surname><given-names>T</given-names></name><name><surname>Johnstone</surname><given-names>R</given-names></name><name><surname>Mohammed</surname><given-names>AK</given-names></name><name><surname>Hamon</surname><given-names>C</given-names></name></person-group><article-title>Tandem mass tags: a novel quantification strategy for comparative analysis of complex
+protein mixtures by MS/MS</article-title><source>Anal Chem</source><year>2003</year><volume>75</volume><fpage>1895</fpage><lpage>1904</lpage><pub-id pub-id-type="pmid">12713048</pub-id></element-citation></ref><ref id="b57"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tootle</surname><given-names>TL</given-names></name><name><surname>Williams</surname><given-names>D</given-names></name><name><surname>Hubb</surname><given-names>A</given-names></name><name><surname>Frederick</surname><given-names>R</given-names></name><name><surname>Spradling</surname><given-names>A</given-names></name></person-group><article-title><italic>Drosophila</italic> eggshell production: identification of new genes and
+coordination by Pxt</article-title><source>PLoS ONE</source><year>2011</year><volume>6</volume><fpage>e19943</fpage><pub-id pub-id-type="pmid">21637834</pub-id></element-citation></ref><ref id="b58"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Umar</surname><given-names>A</given-names></name><name><surname>Luider</surname><given-names>TM</given-names></name><name><surname>Foekens</surname><given-names>JA</given-names></name><name><surname>Pasa-Toli&#x00107;</surname><given-names>L</given-names></name></person-group><article-title>NanoLC-FT-ICR MS improves proteome coverage attainable for approximately 3000
+laser-microdissected breast carcinoma cells</article-title><source>Proteomics</source><year>2007</year><volume>7</volume><fpage>323</fpage><lpage>329</lpage><pub-id pub-id-type="pmid">17163580</pub-id></element-citation></ref><ref id="b59"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Waanders</surname><given-names>LF</given-names></name><name><surname>Chwalek</surname><given-names>K</given-names></name><name><surname>Monetti</surname><given-names>M</given-names></name><name><surname>Kumar</surname><given-names>C</given-names></name><name><surname>Lammert</surname><given-names>E</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name></person-group><article-title>Quantitative proteomic analysis of single pancreatic islets</article-title><source>Proc Natl Acad Sci USA</source><year>2009</year><volume>106</volume><fpage>18902</fpage><lpage>18907</lpage><pub-id pub-id-type="pmid">19846766</pub-id></element-citation></ref><ref id="b60"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname><given-names>N</given-names></name><name><surname>Xu</surname><given-names>M</given-names></name><name><surname>Wang</surname><given-names>P</given-names></name><name><surname>Li</surname><given-names>L</given-names></name></person-group><article-title>Development of mass spectrometry-based shotgun method for proteome analysis of 500 to
+5000 cancer cells</article-title><source>Anal Chem</source><year>2010</year><volume>82</volume><fpage>2262</fpage><lpage>2271</lpage><pub-id pub-id-type="pmid">20092350</pub-id></element-citation></ref><ref id="b61"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wilkening</surname><given-names>S</given-names></name><name><surname>Tekkedil</surname><given-names>MM</given-names></name><name><surname>Lin</surname><given-names>G</given-names></name><name><surname>Fritsch</surname><given-names>ES</given-names></name><name><surname>Wei</surname><given-names>W</given-names></name><name><surname>Gagneur</surname><given-names>J</given-names></name><name><surname>Lazinski</surname><given-names>DW</given-names></name><name><surname>Camilli</surname><given-names>A</given-names></name><name><surname>Steinmetz</surname><given-names>LM</given-names></name></person-group><article-title>Genotyping 1000 yeast strains by next-generation sequencing</article-title><source>BMC Genom</source><year>2013</year><volume>14</volume><fpage>90</fpage></element-citation></ref><ref id="b62"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wisniewski</surname><given-names>J</given-names></name><name><surname>Zougman</surname><given-names>A</given-names></name><name><surname>Nagaraj</surname><given-names>N</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name></person-group><article-title>Universal sample preparation method for proteome analysis</article-title><source>Nat Methods</source><year>2009</year><volume>6</volume><fpage>3</fpage><lpage>7</lpage><pub-id pub-id-type="pmid">19116609</pub-id></element-citation></ref><ref id="b63"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wisniewski</surname><given-names>JR</given-names></name><name><surname>Ostasiewicz</surname><given-names>P</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name></person-group><article-title>High recovery FASP applied to the proteomic analysis of microdissected formalin fixed
+paraffin embedded cancer tissues retrieves known colon cancer markers</article-title><source>J Proteome Res</source><year>2011a</year><volume>10</volume><fpage>3040</fpage><lpage>3049</lpage><pub-id pub-id-type="pmid">21526778</pub-id></element-citation></ref><ref id="b64"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wisniewski</surname><given-names>JR</given-names></name><name><surname>Zielinska</surname><given-names>DF</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name></person-group><article-title>Comparison of ultrafiltration units for proteomic and N-glycoproteomic analysis by
+the filter-aided sample preparation method</article-title><source>Anal Biochem</source><year>2011b</year><volume>410</volume><fpage>307</fpage><lpage>309</lpage><pub-id pub-id-type="pmid">21144814</pub-id></element-citation></ref><ref id="b65"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yeh</surname><given-names>C-H</given-names></name><name><surname>Chen</surname><given-names>S-H</given-names></name><name><surname>Li</surname><given-names>D-T</given-names></name><name><surname>Lin</surname><given-names>H-P</given-names></name><name><surname>Huang</surname><given-names>H-J</given-names></name><name><surname>Chang</surname><given-names>C-I</given-names></name><name><surname>Shih</surname><given-names>W-L</given-names></name><name><surname>Chern</surname><given-names>C-L</given-names></name><name><surname>Shi</surname><given-names>F-K</given-names></name><name><surname>Hsu</surname><given-names>J-L</given-names></name></person-group><article-title>Magnetic bead-based hydrophilic interaction liquid chromatography for glycopeptide
+enrichments</article-title><source>J Chromatogr A</source><year>2012</year><volume>1224</volume><fpage>70</fpage><lpage>78</lpage><pub-id pub-id-type="pmid">22226559</pub-id></element-citation></ref><ref id="b66"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Yu</surname><given-names>Y</given-names></name><name><surname>Suh</surname><given-names>M-J</given-names></name><name><surname>Sikorski</surname><given-names>P</given-names></name><name><surname>Kwon</surname><given-names>K</given-names></name><name><surname>Nelson</surname><given-names>KE</given-names></name><name><surname>Pieper</surname><given-names>R</given-names></name></person-group><article-title>Urine sample preparation in 96-well filter plates for quantitative clinical
+proteomics</article-title><source>Anal Chem</source><year>2014</year><volume>86</volume><fpage>5470</fpage><lpage>5477</lpage><pub-id pub-id-type="pmid">24797144</pub-id></element-citation></ref><ref id="b67"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zeev-Ben-Mordehai</surname><given-names>T</given-names></name><name><surname>Mylonas</surname><given-names>E</given-names></name><name><surname>Paz</surname><given-names>A</given-names></name><name><surname>Peleg</surname><given-names>Y</given-names></name><name><surname>Toker</surname><given-names>L</given-names></name><name><surname>Silman</surname><given-names>I</given-names></name><name><surname>Svergun</surname><given-names>DI</given-names></name><name><surname>Sussman</surname><given-names>JL</given-names></name></person-group><article-title>The quaternary structure of amalgam, a <italic>Drosophila</italic> neuronal adhesion
+protein, explains its dual adhesion properties</article-title><source>Biophys J</source><year>2009</year><volume>97</volume><fpage>2316</fpage><lpage>2326</lpage><pub-id pub-id-type="pmid">19843464</pub-id></element-citation></ref><ref id="b68"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zeng</surname><given-names>YY</given-names></name><name><surname>Chen</surname><given-names>H-J</given-names></name><name><surname>Shiau</surname><given-names>KJ</given-names></name><name><surname>Hung</surname><given-names>S-U</given-names></name><name><surname>Wang</surname><given-names>Y-S</given-names></name><name><surname>Wu</surname><given-names>C-C</given-names></name></person-group><article-title>Efficient enrichment of phosphopeptides by magnetic TiO<sub>2</sub>-coated
+carbon-encapsulated iron nanoparticles</article-title><source>Proteomics</source><year>2012</year><volume>12</volume><fpage>380</fpage><lpage>390</lpage><pub-id pub-id-type="pmid">22144111</pub-id></element-citation></ref><ref id="b69"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zhai</surname><given-names>B</given-names></name><name><surname>Vill&#x000e9;n</surname><given-names>J</given-names></name></person-group><article-title>Phosphoproteome analysis of <italic>Drosophila melanogaster</italic>
+embryos</article-title><source>J Proteome Res</source><year>2008</year><volume>7</volume><fpage>1675</fpage><lpage>1682</lpage><pub-id pub-id-type="pmid">18327897</pub-id></element-citation></ref><ref id="b70"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zougman</surname><given-names>A</given-names></name><name><surname>Selby</surname><given-names>PJ</given-names></name><name><surname>Banks</surname><given-names>RE</given-names></name></person-group><article-title>Suspension trapping (STrap) sample preparation method for bottom-up proteomics
+analysis</article-title><source>Proteomics</source><year>2014</year><volume>14</volume><fpage>1</fpage><lpage>10</lpage></element-citation></ref></ref-list><sec sec-type="supplementary-material"><title>Supporting Information</title><p>Supplementary information for this article is available online: <ext-link ext-link-type="uri" xlink:href="http://msb.embopress.org">http://msb.embopress.org</ext-link></p><supplementary-material content-type="local-data" id="sd1"><caption><p>Supplementary Information</p></caption><media mimetype="pdf" mime-subtype="pdf" xlink:href="msb0010-0757-sd1.xls" xlink:type="simple" id="d35e4262" position="anchor"/></supplementary-material><supplementary-material content-type="local-data" id="sd2"><caption><p>Supplementary Tables</p></caption><media mimetype="pdf" mime-subtype="pdf" xlink:href="msb0010-0757-sd2.pdf" xlink:type="simple" id="d35e4267" position="anchor"/></supplementary-material><supplementary-material content-type="local-data" id="sd3"><caption><p>Review Process File</p></caption><media mimetype="pdf" mime-subtype="pdf" xlink:href="msb0010-0757-sd3.pdf" xlink:type="simple" id="d35e4272" position="anchor"/></supplementary-material></sec></back></article>

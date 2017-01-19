@@ -1,0 +1,945 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Viruses</journal-id><journal-id journal-id-type="iso-abbrev">Viruses</journal-id><journal-id journal-id-type="publisher-id">viruses</journal-id><journal-title-group><journal-title>Viruses</journal-title></journal-title-group><issn pub-type="epub">1999-4915</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4997590</article-id><article-id pub-id-type="doi">10.3390/v8080228</article-id><article-id pub-id-type="publisher-id">viruses-08-00228</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Ins and Outs of Multipartite Positive-Strand RNA Plant Viruses: Packaging versus Systemic Spread</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Dall&#x02019;Ara</surname><given-names>Mattia</given-names></name><xref ref-type="aff" rid="af1-viruses-08-00228">1</xref><xref ref-type="aff" rid="af2-viruses-08-00228">2</xref></contrib><contrib contrib-type="author"><name><surname>Ratti</surname><given-names>Claudio</given-names></name><xref ref-type="aff" rid="af2-viruses-08-00228">2</xref><xref rid="c1-viruses-08-00228" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Bouzoubaa</surname><given-names>Salah E.</given-names></name><xref ref-type="aff" rid="af1-viruses-08-00228">1</xref></contrib><contrib contrib-type="author"><name><surname>Gilmer</surname><given-names>David</given-names></name><xref ref-type="aff" rid="af1-viruses-08-00228">1</xref><xref rid="c1-viruses-08-00228" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Freed</surname><given-names>Eric O.</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-viruses-08-00228"><label>1</label>Institut de Biologie Mol&#x000e9;culaire des Plantes, Integrative Virology, CNRS UPR2367, Universit&#x000e9; de Strasbourg, 12 rue du G&#x000e9;n&#x000e9;ral Zimmer, 67084 Strasbourg, France; <email>mattia.dallara5@unibo.it</email> (M.D&#x02019;A.); <email>salah.bouzoubaa@ibmp-cnrs.unistra.fr</email> (S.E.B.)</aff><aff id="af2-viruses-08-00228"><label>2</label>Dipartimento di Scienze Agrarie, Area Patologia Vegetale, Universit&#x000e0; di Bologna, Viale Fanin 40, 40127 Bologna, Italy</aff><author-notes><corresp id="c1-viruses-08-00228"><label>*</label>Correspondence: <email>claudio.ratti@unibo.it</email> (C.R.); <email>gilmer@unistra.fr</email> (D.G.); Tel.: +39-051-2096733 (C.R.); +33-367-155362 (D.G.)</corresp></author-notes><pub-date pub-type="epub"><day>18</day><month>8</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>8</month><year>2016</year></pub-date><volume>8</volume><issue>8</issue><elocation-id>228</elocation-id><history><date date-type="received"><day>31</day><month>5</month><year>2016</year></date><date date-type="accepted"><day>09</day><month>8</month><year>2016</year></date></history><permissions><copyright-statement>&#x000a9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2016</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Viruses possessing a non-segmented genome require a specific recognition of their nucleic acid to ensure its protection in a capsid. A similar feature exists for viruses having a segmented genome, usually consisting of viral genomic segments joined together into one viral entity. While this appears as a rule for animal viruses, the majority of segmented plant viruses package their genomic segments individually. To ensure a productive infection, all viral particles and thereby all segments have to be present in the same cell. Progression of the virus within the plant requires as well a concerted genome preservation to avoid loss of function. In this review, we will discuss the &#x0201c;life aspects&#x0201d; of chosen phytoviruses and argue for the existence of RNA-RNA interactions that drive the preservation of viral genome integrity while the virus progresses in the plant.</p></abstract><kwd-group><kwd>phytovirus</kwd><kwd>segmented genome</kwd><kwd>genome integrity</kwd><kwd>systemic movement</kwd><kwd>RNA-RNA interaction</kwd></kwd-group></article-meta></front><body><sec id="sec1-viruses-08-00228"><title>1. Introduction</title><p>Preserving genome integrity is a key challenge for any organism, and viruses with an RNA-based genome are not excluded from this basic rule. Obligate parasites that have a monopartite genome mainly face recombination events that draw viral evolution. While viruses with segmented genomes also encounter similar evolutionary traits, another constraint applies to the maintenance of genome integrity. Indeed, all genomic segments should be available within the same cell and be transmitted from one cell or one organism to another. To do so, all genomic components must be packaged within the same viral particle. This is well exemplified by <italic>Orthomyxoviridae</italic> members where all genomic negative-stranded ribonucleoprotein (RNP) complexes are selectively assembled together within one enveloped viral particle [<xref rid="B1-viruses-08-00228" ref-type="bibr">1</xref>], or <italic>Bunyaviridae</italic> [<xref rid="B2-viruses-08-00228" ref-type="bibr">2</xref>] where all three segments are maintained together within the envelope. Similar examples can be drawn for double-stranded RNA viruses such as <italic>Reoviridae</italic> or the well-known <italic>Cystoviridae</italic> pseudomonas phage &#x000d8;6 that possesses three genomic double-stranded (ds)RNA segments within the same viral structure [<xref rid="B3-viruses-08-00228" ref-type="bibr">3</xref>]. </p><p>Viruses that possess a positive-stranded RNA genome are found in genera that infect bacteria (e.g., <italic>Leviviridae</italic> enterobacteria phage Q&#x000df;), animals and insects (e.g., <italic>Picornavirales</italic> enterovirus C&#x02014;namely poliovirus&#x02014;and cricket paralysis virus) and also plants (e.g., <italic>Virgaviridae</italic>, tobacco mosaic virus). To date, distinguishing features of (+)-strand RNA viruses that infect bacteria, animals or insects reside in the nature of the viral genome that is limited to either one single-stranded (ss)RNA molecule or two genomic RNAs packaged within a unique icosahedral capsid (e.g., <italic>Nodaviridae</italic>, flock house virus). However, (+)-strand RNA phytoviruses with segmented genomes range between two to five positive-strand RNA molecules and such so-called multipartite viruses possess either an icosahedral (sometimes bacilliform) or helical shape. A large majority of these phytoviruses have distinctive features compared to the aforementioned animal (+)-strand RNA viruses, as each segment can be individually packaged as ribonucleoprotein complexes within a helical structure. Icosahedral phytoviruses with a segmented positive-sense RNA genome either package single segment species in each capsid or a combination of segments within the limits of physical size constraints. A.L.N. Rao has reviewed mechanisms driving genome packaging of spherical plant RNA viruses [<xref rid="B4-viruses-08-00228" ref-type="bibr">4</xref>] while Solovyev and Makarov recently focused on plant viruses with helical capsids [<xref rid="B5-viruses-08-00228" ref-type="bibr">5</xref>].</p><p>The question about the requirement for the long distance movement of the &#x02018;virus&#x02019; of either virion (packaged RNA) or RNP complex is still open and it appears closely linked to the ability of the viral RNAs to be &#x0201c;packaged.&#x0201d; Such infection of vascular tissues is not as uniform as those of mesophyll cells where phytoviruses usually begin their journey by moving cell to cell (for review see [<xref rid="B6-viruses-08-00228" ref-type="bibr">6</xref>]). Several boundaries constituted by the bundle sheath (BS) of V or IV class veins (for vein classification, refer to [<xref rid="B7-viruses-08-00228" ref-type="bibr">7</xref>]) followed by the vascular parenchyma (VP) have to be passed by the viral material in order to reach companion cells (CCs) and follow the photoassimilates flow of the sieve elements (SEs). To finish the journey, the reverse route passing through class III veins to access CC and then mesophyll cells has to be pursued to start moving cell-to-cell in the distant tissues (<xref ref-type="fig" rid="viruses-08-00228-f001">Figure 1</xref>). </p><p>Whatever the structural shape adopted for plant multipartite RNA viruses, their genomic segments are separated by distinct capsids. This situation raises concerns about the preservation of the viral genome integrity that requires all RNA segments to move from one cell to a neighbor or distant cell in the plant (<xref ref-type="fig" rid="viruses-08-00228-f001">Figure 1</xref>). This ensures the setup of a novel infection site where all viral genes need to be expressed. Here, up to three-decade old as well as new literature describing packaging, cell-to-cell and vascular movement of plant icosahedral and helical viruses has been reviewed to bring into the light our conceptual view of the nature of the systemic moving of viral material in the infected plant. Without addressing details about the RNA expression and replication mechanisms, we propose to distinguish between virions acting as storage of infectious material, ready for transmission, and moving material constituted of RNP complexes containing all RNA segments of the multipartite genome. These RNP complexes involving RNA-RNA interactions act as drivers for the &#x0201c;in planta&#x0201d; viral cycle and appear as the adequate entities for genome preservation, particularly in the long-distance journey of the virus. While this concept appears &#x0201c;insignificant&#x0201d; for monopartite RNA viruses, multipartite viruses need to preserve the expression of their entire genome in the targeted cells. After the description of chosen monopartite phytoviruses, we review and discuss the situation of multipartite RNA viruses and focus on their need to preserve the expression of their entire genome in the targeted cells. A model for benyviruses has been illustrated to present our hypotheses.</p></sec><sec id="sec2-viruses-08-00228"><title>2. Lessons from Turnip Crinkle Virus, Satellite Tobacco Mosaic Virus, Groundnut Rosette Virus and Tobacco Mosaic Virus: Monopartite RNA Genomes</title><p>For some viral species, icosahedral shells are able to assemble in virus-like particles where the genome, usually dsDNA, is incorporated using energy-dependent nanomachines, extensively studied for bacterioviruses T4, P22 or &#x000d8;29. The latter uses a non-coding RNA hexamer for DNA entry. Recent insights about the genomic encapsidation of the positive-strand RNA genome of bacterioviruses MS2 revealed the importance of coat protein (CP) dimer interactions, with an estimated number of 60 hairpin RNA structures distributed around the RNA genome (packaging signals), leading to induced-fit RNA-viral protein interactions rather than electrostatic interactions. In this sense, genomic MS2 RNA constitutes a scaffold for assembly initiated or terminated by the assembly protein, following a Hamiltonian path [<xref rid="B8-viruses-08-00228" ref-type="bibr">8</xref>,<xref rid="B9-viruses-08-00228" ref-type="bibr">9</xref>,<xref rid="B10-viruses-08-00228" ref-type="bibr">10</xref>].</p><sec id="sec2dot1-viruses-08-00228"><title>2.1. Positive-Strand RNA Packaging into Icosahedral Units</title><sec id="sec2dot1dot1-viruses-08-00228"><title>2.1.1. Autonomous Turnip Crinkle Virus</title><p>Turnip crinkle virus (TCV) from the <italic>Tombusviridae</italic> family is structured by an association of 180 copies of a 38 kDa CP. Its crystallographic structure resembles the tomato bushy stunt virus. TCV viral particles can be dissociated at elevated pH where RNA is attached to six CP subunits that permit reassembly in vitro [<xref rid="B11-viruses-08-00228" ref-type="bibr">11</xref>]. Mapping protein-RNA interactions revealed the interaction between CP and two RNA domains. A 15 base-pair (bp) long hairpin structure has been identified within the replicase gene and a 28 nucleotide (nt) bulged hairpin loop is present within a 186 nt essential element within the CP coding sequence. Viral encapsidation was also shown to be dependent on the length of the viral RNA [<xref rid="B12-viruses-08-00228" ref-type="bibr">12</xref>], suggesting the requirement of a separation between 5&#x02032; (replicase gene) and 3&#x02032; (CP gene) CP-interacting sequences, suggesting a bipartite packaging signal for this monopartite RNA viral genome. TCV CP is dispensable for the viral cell-to-cell movement but essential for the systemic spread [<xref rid="B13-viruses-08-00228" ref-type="bibr">13</xref>] as this protein acts as a suppressor of RNA silencing [<xref rid="B14-viruses-08-00228" ref-type="bibr">14</xref>,<xref rid="B15-viruses-08-00228" ref-type="bibr">15</xref>].</p></sec><sec id="sec2dot1dot2-viruses-08-00228"><title>2.1.2. Helper Virus Replication-Dependent Satellite Tobacco Mosaic Virus</title><p>Satellite tobacco mosaic virus (STMV) is an icosahedral <italic>T</italic> = 1 virus with a small genomic RNA. Atomic structure revealed 30 stem-loop RNA structures, each associated with a two-fold symmetry axis [<xref rid="B16-viruses-08-00228" ref-type="bibr">16</xref>]. Interestingly, the RNA secondary structure of STMV analyzed in solution [<xref rid="B17-viruses-08-00228" ref-type="bibr">17</xref>] does not correspond to the structure predicted in the <italic>T</italic> = 1 capsid. This discrepancy indicates a selection of the RNA genome into an icosahedral structure following a Hamiltonian pathway as described for MS2 bacteriophage [<xref rid="B10-viruses-08-00228" ref-type="bibr">10</xref>]. The existence of multiple RNA folding structures of the genome could account for distinct functions tightly regulating viral protein expression and regulated by viral proteins. This satellite virus requires a helper virus (HV) for its replication. Interestingly, HV replicating STMV belong to helical viruses such as tobacco mosaic virus (TMV) [<xref rid="B18-viruses-08-00228" ref-type="bibr">18</xref>]. A systemic movement of both the satellite virus spherical particle and HV helical entities would require a mechanism able to recognize both structural entities. However, drawing hypotheses about possible interactions between satellite RNA and HV RNA could explain a satellite RNA transport by an HV RNP moving complex.</p></sec><sec id="sec2dot1dot3-viruses-08-00228"><title>2.1.3. Umbraviruses Replicate Autonomously but Are Packaged in <italic>Trans</italic></title><p>Groundnut rosette virus (GRV) belongs to the <italic>Umbravirus</italic> genus and does not form conventional virions. Indeed, this species does not encode coat proteins. GRV possesses a monopartite genome encoding proteins necessary for its autonomous replication and movement within the plant. Its genome encapsidation occurs during mixed infection with an HV that belongs to the <italic>Luteoviridae</italic> family, specifically transmitted by aphids and only in the presence of a satellite RNA required for the selective encapsidation of GRV [<xref rid="B19-viruses-08-00228" ref-type="bibr">19</xref>]. In a host plant, GRV is able to replicate on its own and infect the entire host while the helper luteovirus remains restricted to the phloem. GRV movement is provided by the expression of the open reading frame (ORF) 3 product and recruits fibrillarin to ensure the formation of an RNP complex essential for its systemic spread [<xref rid="B20-viruses-08-00228" ref-type="bibr">20</xref>]. This example illustrates the systemic movement of a viral entity without viral shell formation. </p></sec></sec><sec id="sec2dot2-viruses-08-00228"><title>2.2. Positive-Strand RNA Packaging into Helical Units: Lessons from Tobacco Mosaic Virus</title><p>The reconstruction of TMV from purified CP and viral RNA [<xref rid="B21-viruses-08-00228" ref-type="bibr">21</xref>] set up the fundamental basis for understanding rod-shaped and flexuous helicoidal viruses that has been recently reviewed elsewhere [<xref rid="B5-viruses-08-00228" ref-type="bibr">5</xref>]. Upon the recognition of an RNA signature on the viral genome, CP nucleates and cooperatively recruits further copies of structural proteins to cover the entire genome with a first coverage of the 5&#x02032; domain followed by the protection of the 3&#x02032; terminus. Conversely, uncoating of TMV is thought to occur in the cell by a partial disassembly of the CP subunits at the 5&#x02032; termini of viral RNA (&#x003a9; region) leading to ribosomal scanning and uncoating while the first ORFs are translated. The encoded proteins produce the replicase complex that recognizes the 3&#x02032; partially uncoated domain and starts the synthesis of the viral complementary strand and simultaneously removes remaining CP-associated subunits. This ensures a proper recognition of internal promoters required for the subgenomic RNA synthesis and left-ended terminal promoter required for positive-strand synthesis. While subgenomic RNAs (sgRNAs) are produced, expression of the movement protein (MP), required for the efficient transport of viral material from the infected cell to neighboring cells, and CP expression finalize the progression of the viral cycle. TMV CP assembles spontaneously without any cellular factors. TMV genome recognition and encapsidation require both the formation of a 34 to 38 CP subunit disk (namely protohelix or two-ring disk) and the presence of an origin of assembly (OA) on the viral RNA. This leads to the rapid encapsidation (~6 min) of the ~6.4 kb RNA with 2130 copies of the CP subunits. TMV-OA is constituted by three stem loops, with stem loop 1 playing an essential function for the initiation of nucleation, together with a repetition of G residues every three nucleotides within an unpaired region [<xref rid="B22-viruses-08-00228" ref-type="bibr">22</xref>]. Importantly, this property led to the engineering of a viral Lego<sup>&#x000ae;</sup> for nanotechnologies. The combination of genetically modified CP subunits, sometimes together with wild-type CP (both expressed in <italic>Escherichia coli</italic>) with RNAs containing TMV-OA, led to the construction of nanostructures displaying new chemical reactivity, owing to their usage as nanomaterials [<xref rid="B23-viruses-08-00228" ref-type="bibr">23</xref>]. </p><p>Reverse genetics using a full-length infectious clone of TMV demonstrated that the CP is not required for cell-to-cell movement but is needed for the efficient systemic infection of hosts such as <italic>Nicotiana benthamiana (N. benthamiana)</italic> [<xref rid="B24-viruses-08-00228" ref-type="bibr">24</xref>]. Hence, TMV particles would thereby constitute stable mechanically transmissible entities between sessile hosts whereas RNP complexes containing the CP could represent the moving material within the host. This is illustrated by the description of TMV RNPs isolated from infected <italic>N. tabacum</italic> cv. Samsun plants [<xref rid="B25-viruses-08-00228" ref-type="bibr">25</xref>]. Such RNPs differ from virions by their higher buoyant density and contain TMV genomic RNA, polypeptides of 17.5 kDa (TMV CP), 31 kDa (possibly TMV MP), 37 kDa and 39 kDa. Purified RNAs from these RNPs retained the ability to be encapsidated in vitro [<xref rid="B25-viruses-08-00228" ref-type="bibr">25</xref>].</p><p>The progression of TMV infection within mesophyll cells is well characterized and occurs thanks to the transport of uncoated viral RNAs and MP RNP complex. However, little is known about the nature of the infectious material that permits viral vascular movement. Disruption of the OA by point mutations that preserve functional CP abolishes TMV systemic movement, suggesting that virions represent the long-distance entities [<xref rid="B26-viruses-08-00228" ref-type="bibr">26</xref>]. Nevertheless, experimental results outlined below suggest that the hypothesis of TMV virion as the moving material may have to be reconsidered. </p><p>As stated above, in the absence of CP synthesis, TMV is able to move cell-to-cell to access VP but fails to enter CC, suggesting a requirement of the CP to cross the VP/CC boundary [<xref rid="B27-viruses-08-00228" ref-type="bibr">27</xref>]. The TMV CP seems to play a central role in the passage of the infectious material through vascular tissues. However, the formation of viral particles does not appear to be a prerequisite because several mutants (insertion or deletion) that affect the RNA binding region of the CP are still able to move long distance, albeit with sometimes delayed kinetics [<xref rid="B28-viruses-08-00228" ref-type="bibr">28</xref>]. The crossing of each specific boundary between different cell types seems to require different strategies that could involve dedicated viral factors. </p><p>Masked strain M-TMV shows a delayed systemic spread as compared to the virulent strain U1-TMV. However, comparable replication levels and cell-to-cell movement efficiency in mesophyll cells is described for the inoculated leaves [<xref rid="B29-viruses-08-00228" ref-type="bibr">29</xref>]. The delayed systemic movement behavior is attributed to an eight-amino acid mutation in the 126 kDa protein, formerly acting as an RNA silencing suppressor, and hence in the 183 kDa replication protein. Immunohistochemical analysis of class V veins of infected leaves revealed a deficient viral accumulation in the VP and, consequently CC cells, for viruses carrying the p126 mutation [<xref rid="B30-viruses-08-00228" ref-type="bibr">30</xref>]. The different behavior of the two strains is maintained in class III veins and mesophyll tissues of non-inoculated leaves even if the number of infected CCs is comparable, suggesting that wild-type p126 is required for BS/VP and CC/VP boundary crossings [<xref rid="B30-viruses-08-00228" ref-type="bibr">30</xref>]. It is not known if p126 acts alone or as part of a vRNP complex [<xref rid="B30-viruses-08-00228" ref-type="bibr">30</xref>]; however, viral replication complexes constituted of p126, MP and viral RNA are reported to move between cells [<xref rid="B31-viruses-08-00228" ref-type="bibr">31</xref>].</p><p>Although RNA stabilization by encapsidation may be a prerequisite for TMV to enter VP and CCs, it is not necessary in the SE where no RNase activity was detected in exudates [<xref rid="B32-viruses-08-00228" ref-type="bibr">32</xref>,<xref rid="B33-viruses-08-00228" ref-type="bibr">33</xref>,<xref rid="B34-viruses-08-00228" ref-type="bibr">34</xref>]. Furthermore, the absence of translation could reinforce the hypothesis of a viral RNP complex as the form of transport, because its correct conformation should not be disrupted by the scanning activity of ribosomes. Replacement of the TMV CP by GRV Orf3 leads to systemic movement of the recombinant viral RNA without the formation of virions [<xref rid="B35-viruses-08-00228" ref-type="bibr">35</xref>]. The Orf3 product interacts with TMV RNA to form helical-structured filamentous RNP complexes lacking the uniform rod-shaped viral particles [<xref rid="B36-viruses-08-00228" ref-type="bibr">36</xref>].</p><p>Other indirect experiments permit speculation about the possibility of MP to be included as a constituent of the viral entity that moves long distance. In tobacco plants with a reduced synthesis of pectin methylesterase in vascular tissue, a cell-wall enzyme which interacts with MP [<xref rid="B37-viruses-08-00228" ref-type="bibr">37</xref>], TMV is able to load in the SE but cannot be unloaded in non-inoculated leaves [<xref rid="B38-viruses-08-00228" ref-type="bibr">38</xref>]. Beyond the CP, the MP is required for TMV cell-to-cell and long-distance movement that could involve two independent mechanisms. Gain and loss-of-function experiments support such a hypothesis. TMV does not systemically infect vanilla orchid. The related <italic>Tobamovirus</italic> odontoglossum ringspot virus protein (ORSV) is able to infect such a host but is unable to move long distance in tobacco [<xref rid="B39-viruses-08-00228" ref-type="bibr">39</xref>]. The replacement of TMV MP by ORSV MP permits chimeric TMV to systemically infect vanilla orchid and restrains the infection to local lesions in tobacco plants [<xref rid="B39-viruses-08-00228" ref-type="bibr">39</xref>]. The host-range determinant of ORSV resides in the eleven C-terminal amino acids of the MP. The deletion of this domain restores the ability of the chimera to provoke a systemic infection on tobacco and prevents the spread in orchids [<xref rid="B39-viruses-08-00228" ref-type="bibr">39</xref>]. </p></sec></sec><sec id="sec3-viruses-08-00228"><title>3. Multipartite RNA Genomes</title><sec id="sec3dot1-viruses-08-00228"><title>3.1. Positive-Strand RNA Packaging into Icosahedral Units</title><sec id="sec3dot1dot1-viruses-08-00228"><title>3.1.1. Dianthovirus: Bipartite Genome</title><p>Red clover necrotic mosaic virus (RCNMV) belongs to the <italic>Dianthovirus</italic> genus and <italic>Tombusviridae</italic> family. This icosahedral virus possesses a bipartite positive-sense single-stranded RNA genome. RNA1 codes for the proteins involved in replication and also for CP subunits through a sgRNA [<xref rid="B40-viruses-08-00228" ref-type="bibr">40</xref>,<xref rid="B41-viruses-08-00228" ref-type="bibr">41</xref>,<xref rid="B42-viruses-08-00228" ref-type="bibr">42</xref>,<xref rid="B43-viruses-08-00228" ref-type="bibr">43</xref>,<xref rid="B44-viruses-08-00228" ref-type="bibr">44</xref>]. RNA2 is monocistronic and codes for the MP, a multifunctional protein implicated in suppression of RNA silencing, in cell-to-cell and long-distance movement of the virus [<xref rid="B45-viruses-08-00228" ref-type="bibr">45</xref>,<xref rid="B46-viruses-08-00228" ref-type="bibr">46</xref>,<xref rid="B47-viruses-08-00228" ref-type="bibr">47</xref>]. Although RNA1 replicates alone, it is not able to produce the sgRNA or CP subunits in the absence of RNA2 [<xref rid="B48-viruses-08-00228" ref-type="bibr">48</xref>,<xref rid="B49-viruses-08-00228" ref-type="bibr">49</xref>,<xref rid="B50-viruses-08-00228" ref-type="bibr">50</xref>,<xref rid="B51-viruses-08-00228" ref-type="bibr">51</xref>]. A kissing interaction has been found between RNA2 and RNA1. This 8-base pairing occurs between the trans-activating TA element, present in the RNA2 MP ORF and the TA-binding site (TABS) present in sgRNA promoter on the RNA1. The heterodimerization is essential for the production of sgRNA [<xref rid="B51-viruses-08-00228" ref-type="bibr">51</xref>], whose production is regulated by RNA2. This interaction is also required for the RNA1-RNA2 packaging [<xref rid="B48-viruses-08-00228" ref-type="bibr">48</xref>], because no OA is present on RNA1. Besides these biological roles, the kissing interaction within the OA allowed the engineering of virus-like particles able to efficiently encapsidate nanoparticles or Quantum Dots [<xref rid="B52-viruses-08-00228" ref-type="bibr">52</xref>]. Therefore, the particularity of RCNMV is, on the one hand, the encapsidation of the RNA heterodimer in the same particle and, on the other hand, the packaging of multiple copies of RNA2 that could fit in tailored viral shells [<xref rid="B53-viruses-08-00228" ref-type="bibr">53</xref>]. </p><p>While the CP is not required for cell-to-cell movement, it is considered necessary for the systemic spread of RCNMV [<xref rid="B54-viruses-08-00228" ref-type="bibr">54</xref>]. However, some experiments performed in <italic>N. benthamiana</italic> revealed that RNA1 and RNA2 could move long distance in the absence of the CP and thus without the formation of virions [<xref rid="B42-viruses-08-00228" ref-type="bibr">42</xref>]. Although this property appears to depend on the host plant and temperature, it does illustrate again that systemic movement as an RNP complex is possible. Whatever the precise mechanism of its systemic movement, this bipartite viral genome provides direct evidence for the regulation of the viral cycle via the RNA-RNA interaction of distinct viral RNA species.</p></sec><sec id="sec3dot1dot2-viruses-08-00228"><title>3.1.2. Brome Mosaic Virus: Tripartite Genome</title><p>All three components of the tripartite genome of brome mosaic virus (BMV) (~8.2 kbp) are essential for viral replication and for systemic infection of plants. The RNAs are encapsidated separately in 28 nm particles with <italic>T</italic> = 3 quasi-icosahedral symmetry [<xref rid="B55-viruses-08-00228" ref-type="bibr">55</xref>]. RNA1 and 2 are packaged separately, whereas RNA3 is co-packaged with sgRNA (namely RNA4) into a third particle [<xref rid="B4-viruses-08-00228" ref-type="bibr">4</xref>]. A ~200 nt conserved 3&#x02032; tRNA-like structure (TLS) with determinants for tyrosylation is present on all genomic RNAs and acts as a nucleating element (NE) of CP subunits. This NE is required for the packaging of viral RNA3 and RNA4 [<xref rid="B56-viruses-08-00228" ref-type="bibr">56</xref>] but not for RNA1 and 2 packaging [<xref rid="B57-viruses-08-00228" ref-type="bibr">57</xref>]. Conserved 3&#x02032; untranslated regions (UTRs) appeared to contain additional elements promoting encapsidation and distribution of the RNAs in three indistinguishable particles. The RNA3 encapsidation is dependent on a 187 nt long packaging element (PE) that resides within the MP coding sequence [<xref rid="B58-viruses-08-00228" ref-type="bibr">58</xref>]. Besides, RNA3 and 4 packaging was found to be dependent on the replication and on a possible interaction between RNA3 PE and RNA4 NE domains [<xref rid="B59-viruses-08-00228" ref-type="bibr">59</xref>]. In wheat germ extracts, pre-swollen particles render viral RNAs available for direct protein synthesis [<xref rid="B60-viruses-08-00228" ref-type="bibr">60</xref>], suggesting a co-translational disassembly that has been observed for other spherical viruses such as alfalfa mosaic virus, cowpea chlorotic mottle virus and southern bean mosaic virus [<xref rid="B61-viruses-08-00228" ref-type="bibr">61</xref>]. During the course of the viral replication cycle, viral RNAs and proteins allow new viral particles to accumulate. This morphogenesis takes place around replication factories: the co-localization of BMV replicase, CP and viral RNAs could thus control packaging specificity [<xref rid="B62-viruses-08-00228" ref-type="bibr">62</xref>,<xref rid="B63-viruses-08-00228" ref-type="bibr">63</xref>]. Viral cell-to-cell movement is dependent on the expression of the 3a movement protein, whereas CP is dispensable in some natural or MP-mutated BMV isolates [<xref rid="B64-viruses-08-00228" ref-type="bibr">64</xref>,<xref rid="B65-viruses-08-00228" ref-type="bibr">65</xref>]. </p><p>Packaging was thought to play an important role in long-distance movement of the virus in the plant. However, using <italic>Agrobacterium tumefaciens</italic>-mediated transient expression of BMV genomic RNAs in leaves of <italic>N. benthamiana</italic>, Gopinath and Kao demonstrated that viral RNAs can also move long distance independently, without the presence of the viral CP [<xref rid="B66-viruses-08-00228" ref-type="bibr">66</xref>], probably forming RNP complexes with cellular factors. When produced alone, BMV RNA3 is able to move long distance without the assistance of any viral proteins, while RNA1 and RNA2 both need the MP for systemic movement [<xref rid="B66-viruses-08-00228" ref-type="bibr">66</xref>]. This allowed the reconstruction of the entire functional genome in distant tissues of the plant, a requisite for the successful infection of the host. Taken together, these data suggest that the preservation of genome integrity during long-distance movement appears to be mediated by means of a complex in which BMV RNA3 together with MP could play a fundamental role. This led to the hypothesis that viral RNAs interact, in the same cell or in the same environment such as vascular tissues, during the transit of RNA/RNP species. Another aspect of a systemic movement mechanism can be drawn as a result of this experiment. One could argue that in plant, interconnected cells could exchange viral proteins involved in the amplification or in the movement of the viral RNAs that could reach distant cells. In this situation, the proteins or the RNAs will then act in <italic>trans</italic>. To access distant cells, <italic>trans</italic> acting proteins or viral messenger RNAs will be needed in huge amount. Taking these requirements into consideration, only segmented DNA viruses&#x02014;such as geminiviruses or nanoviruses (circular ssDNA genome) that express mRNA thanks to their stabilized replicative dsDNA segments&#x02014;can fulfill such a constitutive expression. These viral DNAs ensure a continuous expression of proteins in different tissues, and viral products could move from one cell to another as proteins, mRNAs or both. In the case of BMV described above, the use of agroinfection allowed the continuous production of infectious viral RNAs from cDNAs. This situation recapitulates what could happen for segmented DNA phytoviruses described above.</p><p>Recent advances using RNA sequencing (RNAseq) analyses demonstrated the role of TLS structures in the systemic transport of mRNAs containing such structural motifs [<xref rid="B67-viruses-08-00228" ref-type="bibr">67</xref>]. The presence of such TLS on BMV RNAs (and TMV as well) may explain why these RNAs could move on their own. Some multipartite RNA viruses such as the benyviruses described below do not possess 3&#x02032; TLS and thus will require the presence of a dedicated highly structured motif within each segment to fulfill the movement of each genomic RNA. However, one should take into account that RNA amplification of multipartite RNA viruses depends at least on the expression of the replication machinery and a viral suppressor of RNA silencing. Segregated segments will not be autonomous for amplification and their expression will be transient and not sufficient to promote the production of viral protein or to allow a stabilization of yet non-replicated RNA segments. Therefore, these RNAs will face the RNA decay or could induce cell death if they are expressed. Furthermore, if we assume the movement of viral proteins between communicating cells, this will require the presence of a sequence signal for each protein species for their intercellular transport. A study quantifying the degree of symplastic continuity between plant cells revealed that mobility of non-targeted proteins is strongly dependent on their molecular weight, on the developmental stages and the growth conditions [<xref rid="B68-viruses-08-00228" ref-type="bibr">68</xref>]. Thus, if these hypotheses could not be completely excluded, they are difficult to conceive for plant multipartite RNA viruses, particularly for those possessing a helical shape.</p></sec></sec><sec id="sec3dot2-viruses-08-00228"><title>3.2. Positive-Strand RNA Packaging into Helical Particle Units</title><p>If TLS motifs and/or signal peptides could drive the systemic movement of RNP complexes, the hypothesis of an RNP involving RNA-RNA network nucleating genomic segments and driven by few viral proteins appears easier to draw. To highlight our thoughts and findings, we present our views applied to the benyvirus biology and then extend our approach to pomoviruses.</p><sec id="sec3dot2dot1-viruses-08-00228"><title>3.2.1. Benyviruses: Up to Five Genomic RNAs </title><p>The <italic>Benyviridae</italic> family is composed of the <italic>Benyvirus</italic> genus of four viral species, namely, beet necrotic yellow vein virus (BNYVV), beet soil-borne mosaic virus (BSBMV), burdock mottle virus and rice stripe necrosis virus, the latter two species having a bipartite genome [<xref rid="B69-viruses-08-00228" ref-type="bibr">69</xref>]. Benyviruses are rod-shaped virions of variable length with a constant diameter ranging from 18 to 20 nm. The particle length depends on the genomic RNA individually packaged. Among this family, BNYVV is the most studied species together with BSBMV. These two viruses share a similar genome organization, segment number, host range and transmission vector. Serologically distant, one species is able to amplify and package genomic RNA segments of the other in laboratory conditions [<xref rid="B69-viruses-08-00228" ref-type="bibr">69</xref>]. This indicates the presence of conserved promoter structural elements at the extremities of the genomic RNAs, the ability of subgenomic promoter recognition by the replicase, as well as a possibility of RNA-RNA interactions allowing RNP complexes&#x000b4; formation and function.</p><p>The OA for viral particle morphogenesis has only been studied on the RNA3 and RNA4 species. Preliminary experiments indicate the presence of <italic>cis</italic> acting sequences located in the first 300 and the last 70 nt of the RNA3 species [<xref rid="B70-viruses-08-00228" ref-type="bibr">70</xref>]. Since the non coding RNA 3 (former sgRNA3) sequence coterminous with RNA3 is not encapsidated, the OA sequence was presumed to reside within the 5&#x02032; UTR of RNA3 [<xref rid="B70-viruses-08-00228" ref-type="bibr">70</xref>]. Using a collection of deletion mutants, an encapsidation signal was identified between nt 181&#x02013;207 [<xref rid="B71-viruses-08-00228" ref-type="bibr">71</xref>,<xref rid="B72-viruses-08-00228" ref-type="bibr">72</xref>]. The absence of sequence conservation between this RNA OA and other viral RNAs suggests that this domain could be involved in a particular and transient folding required for the packaging. Moreover, nothing is yet known about the possible existence of a bipartite motif that could involve the 3&#x02032; conserved UTRs since the RNA3-derived replicon vector (Rep3, constituted by the 5&#x02032; and 3&#x02032; UTRs of RNA3) is encapsidated [<xref rid="B70-viruses-08-00228" ref-type="bibr">70</xref>,<xref rid="B72-viruses-08-00228" ref-type="bibr">72</xref>]. The recognition of the viral OA by structural proteins differs from the one described for tobamoviruses (e.g., TMV). To ensure a correct encapsidation process, the minor structural protein needs to be expressed by a read-through bypass of the coat protein stop codon [<xref rid="B73-viruses-08-00228" ref-type="bibr">73</xref>]. This 75 kDa coat protein-readthrough (CP-RT) protein is recovered from purified viral particles and has been visualized by transmission electron microscopy (TEM) after immunolabelling [<xref rid="B74-viruses-08-00228" ref-type="bibr">74</xref>]. Mutants expressing the CP alone or missing the N-terminal part of the RT domain are deficient in packaging [<xref rid="B75-viruses-08-00228" ref-type="bibr">75</xref>,<xref rid="B76-viruses-08-00228" ref-type="bibr">76</xref>]. These data suggest a recognition of the viral OAs by the CP-RT domain followed by a cooperative recruitment of the CP subunit to ensure proper packaging [<xref rid="B76-viruses-08-00228" ref-type="bibr">76</xref>]. If it exists, the specific subcellular localization of virion assembly is unknown. However, on the one hand, the encapsidation could be coupled to the replication process and thus be associated with the endoplasmic reticulum (ER) vicinity as the replication seems to occur on the ER (<xref ref-type="fig" rid="viruses-08-00228-f002">Figure 2</xref>, step 2) [<xref rid="B77-viruses-08-00228" ref-type="bibr">77</xref>]. On the other hand, this packaging could also be transiently associated to mitochondria as virions surrounding the organelle structures have been observed [<xref rid="B78-viruses-08-00228" ref-type="bibr">78</xref>]. Further work conducted on the CP-RT protein allowed the identification of a mitochondrial targeting sequence and a transmembrane domain on the minor structural protein [<xref rid="B79-viruses-08-00228" ref-type="bibr">79</xref>].</p><p>In local host species such as <italic>Chenopodium quinoa</italic>, BNYVV produces local lesions within which each RNA species accumulates and encapsidates individually (<xref ref-type="fig" rid="viruses-08-00228-f002">Figure 2</xref>, step 1) [<xref rid="B80-viruses-08-00228" ref-type="bibr">80</xref>]. Local lesion formation requires at least the presence of RNA1 and RNA2 to fulfill the housekeeping functions of replication, cell-to-cell movement and viral suppression of RNA silencing. The coat protein is dispensable for local infection [<xref rid="B81-viruses-08-00228" ref-type="bibr">81</xref>].</p><p>In systemic hosts such as <italic>Beta</italic> species or <italic>N. benthamiana</italic>, local infection starts as in <italic>Chenopodium quinoa</italic> and then reaches the vasculature of the plant leading to the possible dissemination of the viral material in the entire plant as described in <xref ref-type="fig" rid="viruses-08-00228-f001">Figure 1</xref>. The differential accumulation of virion species in primary infected cells [<xref rid="B80-viruses-08-00228" ref-type="bibr">80</xref>] argues against a dissemination of viral particles. On the one hand, taking into account the existence of an unidentified receptor for the virus, there is likelihood to saturate this entry gate with particles containing small genomic RNA species unable to replicate on their own. On the other hand, in a model lacking a receptor for the viral entry, even if still non-estimated, the probability for each segment to enter the same distant cell appears low. Similarly, non-orchestrated dissemination of a viral genomic segment to randomly distant cells will end up with the same conclusion: a low probability to reconstruct the entire viral genome. Our interrogations about the nature of moving material started with the following observations on BNYVV. All viral particles are structurally identical and only differ by their size, and all four (sometimes five) viral genomic RNAs are required to fulfill the entire cycle on the <italic>Beta</italic> species hosts [<xref rid="B82-viruses-08-00228" ref-type="bibr">82</xref>,<xref rid="B83-viruses-08-00228" ref-type="bibr">83</xref>,<xref rid="B84-viruses-08-00228" ref-type="bibr">84</xref>]. However, RNA1 and RNA2 are sufficient for <italic>N. benthamiana</italic> systemic infection thanks to a replication machinery provided, as stated before, by RNA1 and to structural proteins together with the triple gene block (TGB) movement proteins (TGB1, -2 and -3) and post-transcriptional gene silencing suppressor (viral suppressors of RNA silencing, VSR) provided by RNA2 species [<xref rid="B85-viruses-08-00228" ref-type="bibr">85</xref>,<xref rid="B86-viruses-08-00228" ref-type="bibr">86</xref>] (<xref ref-type="fig" rid="viruses-08-00228-f002">Figure 2</xref>). In this host, RNA3 is dispensable, but when present it moves long distance and accentuates symptom severity [<xref rid="B87-viruses-08-00228" ref-type="bibr">87</xref>]. Interestingly, in the presence of RNA1 + RNA2, the RNA3-derived viral expression vector Rep3 does not move long distance in <italic>N. benthamiana</italic> host. As Rep3 is encapsidated, we ruled out the thesis of virions as moving material and we formulated the hypothesis about the existence of RNA-RNA interactions allowing RNA segments to interact with one another to ensure a stabilization of an RNP complex for the long-distance movement of the viral genome in the plant. Such an RNP complex contains CP as this structural protein is required for systemic spread [<xref rid="B81-viruses-08-00228" ref-type="bibr">81</xref>]. A reinvestigation of the properties of RT mutants&#x000b4; behavior described previously [<xref rid="B76-viruses-08-00228" ref-type="bibr">76</xref>] confirmed our thoughts. Indeed, in this article some BNYVV mutants unable to form virions are still able to infect plants systemically. Thus, the minimal mobile RNP complex requires RNA1 and RNA2-interacting species to ensure the expression of housekeeping genes. Because RNA2 drives the production of subgenomic RNAs collinearly with its 3&#x02032; extremity [<xref rid="B88-viruses-08-00228" ref-type="bibr">88</xref>], we postulated that the interaction domain consists of a region present on RNA2 but not included in the sgRNAs sequence, lest 3&#x02032; RNA2 collinear sequences interfere with genomic RNA interaction. Therefore, we focused our attention on the first 2000 nt and identified a sequence able to interact with RNA1 species using electromobility shift assay performed on in vitro transcripts. A similar approach performed on RNA3 species revealed the existence of more than one domain involved in the interaction with RNA2 (Dall&#x02019;Ara et al., in preparation). To confirm our approach and share our findings, we transposed our hypothesis onto potato mop top virus, a tripartite helical virus that does not require structural proteins for its long-distance movement. These findings are discussed below in regard to mutants described in the literature. </p></sec><sec id="sec3dot2dot2-viruses-08-00228"><title>3.2.2. Potato Mop Top Virus: Tripartite, but Two Is Enough</title><p>Potato mop top virus (PMTV) belongs to the <italic>Pomovirus</italic> genus together with beet soil-borne virus, beet virus Q, and broad bean necrosis virus. PMTV is a helical rod-shaped virus with a diameter of 18&#x02013;20 nm and variable lengths (~120 to ~290 nm) according to the genomic ssRNA being packaged [<xref rid="B89-viruses-08-00228" ref-type="bibr">89</xref>]. The particles possess a fragile and partially uncoiled extremity [<xref rid="B90-viruses-08-00228" ref-type="bibr">90</xref>]. The viral genome is segmented on three positive-sense RNAs. RNA1 allows the expression of two proteins involved in viral replication thanks to a read-through mechanism. RNA2 encodes for major (CP) and minor (CP-RT) structural proteins, the later produced by ribosomal read-through of the CP Amber stop codon. RNA3 possesses four different ORFs that encode for the triple gene block movement proteins (TGB1, TGB2 and TGB3) and one cysteine-rich protein of 8 kDa [<xref rid="B89-viruses-08-00228" ref-type="bibr">89</xref>]. As described for BNYVV, minor structural protein is detected at one extremity of some particles. CP-RT is involved in the transmission by the <italic>Spongospora subterranean</italic> vector, because spontaneous deletions occur in isolates with disrupted transmission, particularly after serial mechanical inoculation [<xref rid="B91-viruses-08-00228" ref-type="bibr">91</xref>,<xref rid="B92-viruses-08-00228" ref-type="bibr">92</xref>]. However, this minor structural protein is dispensable for viral morphogenesis because deletions of the RT domain, or mutations that prevent read-through from occurring, accumulate viral particles [<xref rid="B93-viruses-08-00228" ref-type="bibr">93</xref>]. The encapsidation of viral genomic RNAs is also dispensable for systemic spread because &#x0201c;no-protein&#x0201d; and &#x0201c;CP-RT only&#x0201d; RNA2 mutants move [<xref rid="B93-viruses-08-00228" ref-type="bibr">93</xref>]. This particularity explains the systemic infection of <italic>N. benthamiana</italic> using a combination of transcripts corresponding to RNA1 and RNA3 [<xref rid="B94-viruses-08-00228" ref-type="bibr">94</xref>] and thus demonstrates that PMTV long-distance movement occurs as an RNP complex. The RNA-binding domain constituted by the 84 N-terminal residues of the TGB1 movement protein ensures PTMV RNP complex long-distance movement and appears dispensable for cell-to-cell movement [<xref rid="B95-viruses-08-00228" ref-type="bibr">95</xref>]. This domain ensures TGB1 nucleolar localization and its association to microtubules that could allow the recruitment of a cellular factor necessary for the vasculature entry of the RNPs [<xref rid="B95-viruses-08-00228" ref-type="bibr">95</xref>]. This renders &#x0201c;PMTV&#x02206;RNA2&#x0201d; comparable to GRV, which uses ORF3 protein to recruit fibrillarin to form viral RNP complexes able to move long distance [<xref rid="B96-viruses-08-00228" ref-type="bibr">96</xref>] (see <xref ref-type="sec" rid="sec2dot1dot3-viruses-08-00228">Section 2.1.3</xref>). </p><p>With the reinterpretation of the literature describing the systemic movement of PMTV RNA2 deletion mutants [<xref rid="B93-viruses-08-00228" ref-type="bibr">93</xref>], we pointed out an interesting property for the &#x0201c;CP-only&#x0201d; mutant. This viral RNA2 mutant is unable to move long distance in the presence of RNA1 and RNA3. A similar behavior appears for deletion mutants within the C-terminal part of the CP-RT sequence, leading the authors to conclude that a 140 amino acid CP-RT domain is specifically required for the systemic movement of RNA2. However, abolition of CP synthesis in these mutants restored the RNA2 species&#x000b4; long-distance transport. Consequently, we postulate on the existence of a sequence acting as a &#x0201c;riboswitch&#x0201d; that could be regulated either by a CP interaction or by refolding during ribosomal translation. Such alternative structures could allow or prevent genomic RNA-RNA network interactions, required for long-distance transport or its recruitment as messenger RNA, respectively.</p><p>Taking into consideration our preliminary data accumulated on BNYVV, we checked if similar RNA-RNA interactions could exist, using the IntaRNA program (Freiburg RNA Tools) [<xref rid="B97-viruses-08-00228" ref-type="bibr">97</xref>,<xref rid="B98-viruses-08-00228" ref-type="bibr">98</xref>] and looking for heterologous RNA-RNA interactions between PMTV genomic RNAs (Sw isolate). We took into consideration the sequences that were preserved in natural and artificial RNA2 deletion mutants that were still able to move long distance [<xref rid="B93-viruses-08-00228" ref-type="bibr">93</xref>,<xref rid="B99-viruses-08-00228" ref-type="bibr">99</xref>]. We found a 20 nt long sequence (5&#x02032;- <sup>2760</sup>UAGGG<underline>AA</underline>GAUGUCAGGUAAG<sup>2779</sup> -3&#x02032;), located within the CP-RT C-terminal coding sequence that could possibly interact with a sequence (5&#x02032;- <sup>2244</sup>CUUGCCUGACGUC<underline>GA</underline>UCCUG<sup>2263</sup> -3&#x02032;) present in the RNA1 replicase sequence with a 2 nt bulge (underlined). In a model where genome integrity needs to be preserved during the systemic movement by the association of all genomic RNAs in a RNP complex, such 20 nt base pairing, with a predicted variation of the Gibbs free energy of &#x02212;16.35 Kcal/mol, could participate in an RNA2-RNA1 specific interaction. We did not extend our computational analyses to the RNA3-RNA2 or RNA3-RNA1 interaction domains. However, taking into account the systemic infection mediated by RNA1 and RNA3, such domains should exist [<xref rid="B100-viruses-08-00228" ref-type="bibr">100</xref>].</p><p>The advantage of a regulatory network involving RNA-RNA interactions eliminates the need for a viral protein dedicated to associate RNA species with a correct stoichiometry. At the beginning of a cell infection, translation and replication events are predominantly monopolizing viral RNAs that switch between unstructured and structured forms. Thereby, RNA-RNA interactions could take place in <italic>trans</italic> and will guarantee the formation of RNP complexes dedicated to the long-distance movement thanks to the movement proteins produced via subgenomic RNAs. Late in the infection, the accumulation of structural protein would negatively regulate the RNA-RNA interaction, leading to the encapsidation of genomic RNA species ready for their acquisition by the vector thanks to the minor structural protein recognition [<xref rid="B92-viruses-08-00228" ref-type="bibr">92</xref>]. As for BNYVV, experiments need to be performed to verify the existence of a &#x0201c;riboswitch&#x0201d; in order to validate or discard these hypotheses. </p></sec></sec></sec><sec id="sec4-viruses-08-00228"><title>4. Multipartite Positive-Strand RNA Genomes Have to Preserve Their Genome Integrity</title><p>As previously mentioned, to maintain their viral genome as a functional unit, segmented positive-strand viruses require the presence of at least one of each viral RNA segment in the target cell. Such conditions require a high multiplicity of infection (MOI), especially for viruses with four or more genomic entities as demonstrated by theoretical studies [<xref rid="B101-viruses-08-00228" ref-type="bibr">101</xref>]. Because the infection of different plant cell types and tissues does not occur as a uniform process, a multipartite phytovirus has to pass through constraints and to sustain other biological costs in order to maintain its genome integrity. </p><p>Viral cell-to-cell movement ensures the progression of the infection via plasmodesmata, the connection channels between plant cells (<xref ref-type="fig" rid="viruses-08-00228-f003">Figure 3</xref>, steps 1 and 2). In the phloem (a circulation fluid that provides nutrients to all parts of the plant), fluidic mechanic rules dominate. These physical constraints tend to separate small and large viral particles with two tendencies: the first will reduce the velocity of large entities in the fluid, due to increased contacts with the phloem capillary system, whereas small entities will be less affected. Because the phloem is not just a &#x0201c;tube&#x0201d; but consists of vascular elements (sieve elements) connected with companion cells (see <xref ref-type="fig" rid="viruses-08-00228-f001">Figure 1</xref>), viral entities are subject to a &#x0201c;gel filtration&#x0201d; separation. These two effects increase the risk of a loss of one viral component during the journey, compromising the integrity of the viral genome and, therefore, moderate and reduce the speed of systemic movement and infection that should occur in each &#x0201c;visited cell&#x0201d;. </p><p>However, the viral genome must contend with RNA decay mechanisms whereby RNA species are translated or cleaved by the silencing machinery (<xref ref-type="fig" rid="viruses-08-00228-f003">Figure 3</xref>, step 8). Therefore, having its genomic components physically separated would increase the chance of essential viral segments being degraded, thus leading to a defective viral entity. Natural infections show that this is not the case, favoring our idea of a collective transport of genomic RNA species (<xref ref-type="fig" rid="viruses-08-00228-f003">Figure 3</xref>, steps 4 and 5). Hence, RNA-RNA interactions are not the only key elements. Various experiments indicate the involvement of structural protein(s), probably in the stabilization of the interactions, as well as non-structural proteins, such as movement proteins or viral suppressors of RNA silencing that counteract the cellular defenses in the distant cells. </p></sec><sec id="sec5-viruses-08-00228"><title>5. Concluding Remarks: Lessons from Superinfection Exclusion Reports</title><p>We have reviewed published literature about distinct virus packaging and long-distance movement focusing on some data and arguments in favor of a viral transport as RNP complexes rather than virions. Describing BMV long-distance movement, it appears that the RNA3 species could as well be involved in RNA-RNA interactions with other viral species to nucleate the formation of a RNP complex as postulated for BNYVV and PMTV RNA1-RNA2 species. While one RNA species modulates the recruitment of other species, no information is yet available about the stoichiometry of the genomic components in the moving RNP complex. In order to safeguard genomic integrity, it could be postulated that more than one RNA species should be present to ensure, on the one hand, the expression of essential protein(s) in the distant cell and, on the other hand, the presence of replication-ready genomic components. </p><p>A notable example of preservation of viral genomic integrity is the superinfection exclusion (SIE) that exists among some phytoviruses and prevents some co-infections from occurring. Described for T-even bacteriophages, SIE consists on the inhibition of viral genome entry in the cytoplasm of an infected cell thanks to the expression of viral proteins [<xref rid="B102-viruses-08-00228" ref-type="bibr">102</xref>]. In eukaryotes, viral mechanisms are also described for viruses that tend to deplete viral receptors from the infected cell as described for the human immunodeficiency virus (HIV) CD4 receptor internalization and proteolysis thanks to the expression of the Vpu protein [<xref rid="B103-viruses-08-00228" ref-type="bibr">103</xref>]. A limited co-infection of distant tissues has been described in plants inoculated with two recombinant monopartite potyvirus variants (Tobacco etch virus) thanks to the use of fluorescent reporter proteins, suggesting as well the establishment of a limited access to the cell, with one variant excluding the other [<xref rid="B104-viruses-08-00228" ref-type="bibr">104</xref>]. </p><p>A similar observation was made in sugar beet infected with both BNYVV and BSBMV (two benyviruses). The infection of the plant with one virus limits the possible infection of the same plant with the second virus, if inoculated a few days later [<xref rid="B105-viruses-08-00228" ref-type="bibr">105</xref>], suggesting a &#x0201c;SIE-like&#x0201d; mechanism for benyviruses. Using viral reporter RNAs from BSBMV and BNYVV RNA3 replicons, both packaged in <italic>trans</italic> during their amplification by BNYVV RNA1 + RNA2, we previously demonstrated that within local lesions, reporter RNA species exclude one another, leading to sectored lesions as shown in <xref ref-type="fig" rid="viruses-08-00228-f004">Figure 4</xref> [<xref rid="B106-viruses-08-00228" ref-type="bibr">106</xref>]. If such a process occurs on viral particles rather than on viral RNAs, then there will be a high probability for an exclusion of small entities (such as particles containing RNA3 or RNA4) in cells where RNA1 and RNA2 already started to be expressed and replicated. This property bolsters our hypothesis that specific RNA-RNA interactions preserve viral genome integrity during the viral journey within an infected plant. While some plant species susceptible to local infection could resist the systemic spread of these multipartite viruses, it could be assumed that some cellular RNA could compete by interacting with the domains involved in this RNA-RNA network formation, but this is another story&#x02026; </p></sec></body><back><ack><title>Acknowledgments</title><p>The authors are grateful to current and past members of their laboratories for constructive discussions and would like to acknowledge Todd Blevins for his help in language editing and the three reviewers for their constructive comments. Mattia Dall&#x02019;Ara&#x02019;s work was supported by the Italian ministry PhD grant (048794-0000712558) and by Marco Polo and Da Vinci programs of mobility contribution, funded by the University of Bologna and the Italo-French University of Turin, respectively. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p></ack><notes><title>Conflicts of Interest</title><p>All authors report no conflicts of interest.</p></notes><ref-list><title>References</title><ref id="B1-viruses-08-00228"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerber</surname><given-names>M.</given-names></name><name><surname>Isel</surname><given-names>C.</given-names></name><name><surname>Moules</surname><given-names>V.</given-names></name><name><surname>Marquet</surname><given-names>R.</given-names></name></person-group>
+<article-title>Selective packaging of the influenza A genome and consequences for genetic reassortment</article-title>
+<source>Trends Microbiol.</source>
+<year>2014</year>
+<volume>22</volume>
+<fpage>446</fpage>
+<lpage>455</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tim.2014.04.001</pub-id>
+<?supplied-pmid 24798745?><pub-id pub-id-type="pmid">24798745</pub-id></element-citation></ref><ref id="B2-viruses-08-00228"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guu</surname><given-names>T.S.</given-names></name><name><surname>Zheng</surname><given-names>W.</given-names></name><name><surname>Tao</surname><given-names>Y.J.</given-names></name></person-group>
+<article-title>Bunyavirus: Structure and replication</article-title>
+<source>Adv. Exp. Med. Biol.</source>
+<year>2012</year>
+<volume>726</volume>
+<fpage>245</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="pmid">22297517</pub-id></element-citation></ref><ref id="B3-viruses-08-00228"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huiskonen</surname><given-names>J.T.</given-names></name><name><surname>de Haas</surname><given-names>F.</given-names></name><name><surname>Bubeck</surname><given-names>D.</given-names></name><name><surname>Bamford</surname><given-names>D.H.</given-names></name><name><surname>Fuller</surname><given-names>S.D.</given-names></name><name><surname>Butcher</surname><given-names>S.J.</given-names></name></person-group>
+<article-title>Structure of the bacteriophage phi6 nucleocapsid suggests a mechanism for sequential RNA packaging</article-title>
+<source>Structure</source>
+<year>2006</year>
+<volume>14</volume>
+<fpage>1039</fpage>
+<lpage>1048</lpage>
+<pub-id pub-id-type="doi">10.1016/j.str.2006.03.018</pub-id>
+<?supplied-pmid 16765897?><pub-id pub-id-type="pmid">16765897</pub-id></element-citation></ref><ref id="B4-viruses-08-00228"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rao</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Genome packaging by spherical plant RNA viruses</article-title>
+<source>Annu. Rev. Phytopathol.</source>
+<year>2006</year>
+<volume>44</volume>
+<fpage>61</fpage>
+<lpage>87</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.phyto.44.070505.143334</pub-id>
+<?supplied-pmid 16480335?><pub-id pub-id-type="pmid">16480335</pub-id></element-citation></ref><ref id="B5-viruses-08-00228"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Solovyev</surname><given-names>A.G.</given-names></name><name><surname>Makarov</surname><given-names>V.V.</given-names></name></person-group>
+<article-title>Helical capsids of plant viruses: Architecture with structural lability</article-title>
+<source>J. Gen. Virol.</source>
+<year>2016</year>
+<pub-id pub-id-type="doi">10.1099/jgv.0.000524</pub-id>
+<?supplied-pmid 27312096?><pub-id pub-id-type="pmid">27312096</pub-id></element-citation></ref><ref id="B6-viruses-08-00228"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waigmann</surname><given-names>E.</given-names></name><name><surname>Ueki</surname><given-names>S.</given-names></name><name><surname>Trutnyeva</surname><given-names>K.</given-names></name><name><surname>Citovsky</surname><given-names>V.</given-names></name></person-group>
+<article-title>The ins and outs of nondestructive cell-to-cell and systemic movement of plant viruses</article-title>
+<source>Crit. Rev. Plant Sci.</source>
+<year>2004</year>
+<volume>23</volume>
+<fpage>195</fpage>
+<lpage>250</lpage>
+<pub-id pub-id-type="doi">10.1080/07352680490452807</pub-id>
+</element-citation></ref><ref id="B7-viruses-08-00228"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roberts</surname><given-names>A.G.</given-names></name><name><surname>Cruz</surname><given-names>S.S.</given-names></name><name><surname>Roberts</surname><given-names>I.M.</given-names></name><name><surname>Prior</surname><given-names>D.</given-names></name><name><surname>Turgeon</surname><given-names>R.</given-names></name><name><surname>Oparka</surname><given-names>K.J.</given-names></name></person-group>
+<article-title>Phloem unloading in sink leaves of <italic>Nicotiana benthamiana</italic>: Comparison of a fluorescent solute with a fluorescent virus</article-title>
+<source>Plant Cell</source>
+<year>1997</year>
+<volume>9</volume>
+<fpage>1381</fpage>
+<lpage>1396</lpage>
+<pub-id pub-id-type="doi">10.1105/tpc.9.8.1381</pub-id>
+<?supplied-pmid 12237387?><pub-id pub-id-type="pmid">12237387</pub-id></element-citation></ref><ref id="B8-viruses-08-00228"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dykeman</surname><given-names>E.C.</given-names></name><name><surname>Grayson</surname><given-names>N.E.</given-names></name><name><surname>Toropova</surname><given-names>K.</given-names></name><name><surname>Ranson</surname><given-names>N.A.</given-names></name><name><surname>Stockley</surname><given-names>P.G.</given-names></name><name><surname>Twarock</surname><given-names>R.</given-names></name></person-group>
+<article-title>Simple rules for efficient assembly predict the layout of a packaged viral RNA</article-title>
+<source>J. Mol. Biol.</source>
+<year>2011</year>
+<volume>408</volume>
+<fpage>399</fpage>
+<lpage>407</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jmb.2011.02.039</pub-id>
+<?supplied-pmid 21354423?><pub-id pub-id-type="pmid">21354423</pub-id></element-citation></ref><ref id="B9-viruses-08-00228"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dykeman</surname><given-names>E.C.</given-names></name><name><surname>Stockley</surname><given-names>P.G.</given-names></name><name><surname>Twarock</surname><given-names>R.</given-names></name></person-group>
+<article-title>Building a viral capsid in the presence of genomic RNA</article-title>
+<source>Phys. Rev. E Stat. Nonlin Soft Matter Phys.</source>
+<year>2013</year>
+<volume>87</volume>
+<fpage>022717</fpage>
+<pub-id pub-id-type="doi">10.1103/PhysRevE.87.022717</pub-id>
+<?supplied-pmid 23496558?><pub-id pub-id-type="pmid">23496558</pub-id></element-citation></ref><ref id="B10-viruses-08-00228"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rolfsson</surname><given-names>O.</given-names></name><name><surname>Middleton</surname><given-names>S.</given-names></name><name><surname>Manfield</surname><given-names>I.W.</given-names></name><name><surname>White</surname><given-names>S.J.</given-names></name><name><surname>Fan</surname><given-names>B.</given-names></name><name><surname>Vaughan</surname><given-names>R.</given-names></name><name><surname>Ranson</surname><given-names>N.A.</given-names></name><name><surname>Dykeman</surname><given-names>E.</given-names></name><name><surname>Twarock</surname><given-names>R.</given-names></name><name><surname>Ford</surname><given-names>J.</given-names></name><etal/></person-group>
+<article-title>Direct evidence for packaging signal-mediated assembly of bacteriophage MS2</article-title>
+<source>J. Mol. Biol.</source>
+<year>2016</year>
+<volume>428</volume>
+<fpage>431</fpage>
+<lpage>448</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jmb.2015.11.014</pub-id>
+<?supplied-pmid 26608810?><pub-id pub-id-type="pmid">26608810</pub-id></element-citation></ref><ref id="B11-viruses-08-00228"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sorger</surname><given-names>P.K.</given-names></name><name><surname>Stockley</surname><given-names>P.G.</given-names></name><name><surname>Harrison</surname><given-names>S.C.</given-names></name></person-group>
+<article-title>Structure and assembly of turnip crinkle virus. II. Mechanism of reassembly in vitro</article-title>
+<source>J. Mol. Biol.</source>
+<year>1986</year>
+<volume>191</volume>
+<fpage>639</fpage>
+<lpage>658</lpage>
+<pub-id pub-id-type="doi">10.1016/0022-2836(86)90451-1</pub-id>
+<pub-id pub-id-type="pmid">3806677</pub-id></element-citation></ref><ref id="B12-viruses-08-00228"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Qu</surname><given-names>F.</given-names></name><name><surname>Morris</surname><given-names>T.J.</given-names></name></person-group>
+<article-title>Encapsidation of turnip crinkle virus is defined by a specific packaging signal and RNA size</article-title>
+<source>J. Virol.</source>
+<year>1997</year>
+<volume>71</volume>
+<fpage>1428</fpage>
+<lpage>1435</lpage>
+<?supplied-pmid 8995668?><pub-id pub-id-type="pmid">8995668</pub-id></element-citation></ref><ref id="B13-viruses-08-00228"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cohen</surname><given-names>Y.</given-names></name><name><surname>Gisel</surname><given-names>A.</given-names></name><name><surname>Zambryski</surname><given-names>P.C.</given-names></name></person-group>
+<article-title>Cell-to-cell and systemic movement of recombinant green fluorescent protein-tagged turnip crinkle viruses</article-title>
+<source>Virology</source>
+<year>2000</year>
+<volume>273</volume>
+<fpage>258</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.2000.0441</pub-id>
+<?supplied-pmid 10915596?><pub-id pub-id-type="pmid">10915596</pub-id></element-citation></ref><ref id="B14-viruses-08-00228"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Deleris</surname><given-names>A.</given-names></name><name><surname>Gallego-Bartolome</surname><given-names>J.</given-names></name><name><surname>Bao</surname><given-names>J.</given-names></name><name><surname>Kasschau</surname><given-names>K.D.</given-names></name><name><surname>Carrington</surname><given-names>J.C.</given-names></name><name><surname>Voinnet</surname><given-names>O.</given-names></name></person-group>
+<article-title>Hierarchical action and inhibition of plant dicer-like proteins in antiviral defense</article-title>
+<source>Science</source>
+<year>2006</year>
+<volume>313</volume>
+<fpage>68</fpage>
+<lpage>71</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1128214</pub-id>
+<?supplied-pmid 16741077?><pub-id pub-id-type="pmid">16741077</pub-id></element-citation></ref><ref id="B15-viruses-08-00228"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Qu</surname><given-names>F.</given-names></name><name><surname>Ren</surname><given-names>T.</given-names></name><name><surname>Morris</surname><given-names>T.J.</given-names></name></person-group>
+<article-title>The coat protein of turnip crinkle virus suppresses posttranscriptional gene silencing at an early initiation step</article-title>
+<source>J. Virol.</source>
+<year>2003</year>
+<volume>77</volume>
+<fpage>511</fpage>
+<lpage>522</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.77.1.511-522.2003</pub-id>
+<?supplied-pmid 12477856?><pub-id pub-id-type="pmid">12477856</pub-id></element-citation></ref><ref id="B16-viruses-08-00228"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harvey</surname><given-names>S.C.</given-names></name><name><surname>Zeng</surname><given-names>Y.</given-names></name><name><surname>Heitsch</surname><given-names>C.E.</given-names></name></person-group>
+<article-title>The icosahedral RNA virus as a grotto: Organizing the genome into stalagmites and stalactites</article-title>
+<source>J. Biol. Phys.</source>
+<year>2013</year>
+<volume>39</volume>
+<fpage>163</fpage>
+<lpage>172</lpage>
+<pub-id pub-id-type="doi">10.1007/s10867-013-9312-1</pub-id>
+<?supplied-pmid 23860866?><pub-id pub-id-type="pmid">23860866</pub-id></element-citation></ref><ref id="B17-viruses-08-00228"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Archer</surname><given-names>E.J.</given-names></name><name><surname>Simpson</surname><given-names>M.A.</given-names></name><name><surname>Watts</surname><given-names>N.J.</given-names></name><name><surname>O'Kane</surname><given-names>R.</given-names></name><name><surname>Wang</surname><given-names>B.</given-names></name><name><surname>Erie</surname><given-names>D.A.</given-names></name><name><surname>McPherson</surname><given-names>A.</given-names></name><name><surname>Weeks</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Long-range architecture in a viral RNA genome</article-title>
+<source>Biochemistry</source>
+<year>2013</year>
+<volume>52</volume>
+<fpage>3182</fpage>
+<lpage>3190</lpage>
+<pub-id pub-id-type="doi">10.1021/bi4001535</pub-id>
+<?supplied-pmid 23614526?><pub-id pub-id-type="pmid">23614526</pub-id></element-citation></ref><ref id="B18-viruses-08-00228"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valverde</surname><given-names>R.A.</given-names></name><name><surname>Heick</surname><given-names>J.A.</given-names></name><name><surname>Dodds</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Interactions between satellite tobacco mosaic virus, helper tobamovirus, and their hosts</article-title>
+<source>Phytopathology</source>
+<year>1991</year>
+<volume>81</volume>
+<fpage>99</fpage>
+<lpage>104</lpage>
+<pub-id pub-id-type="doi">10.1094/Phyto-81-99</pub-id>
+</element-citation></ref><ref id="B19-viruses-08-00228"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robinson</surname><given-names>D.J.</given-names></name><name><surname>Ryabov</surname><given-names>E.V.</given-names></name><name><surname>Raj</surname><given-names>S.K.</given-names></name><name><surname>Roberts</surname><given-names>I.M.</given-names></name><name><surname>Taliansky</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>Satellite RNA is essential for encapsidation of groundnut rosette umbravirus RNA by groundnut rosette assistor luteovirus coat protein</article-title>
+<source>Virology</source>
+<year>1999</year>
+<volume>254</volume>
+<fpage>105</fpage>
+<lpage>114</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.1998.9527</pub-id>
+<?supplied-pmid 9927578?><pub-id pub-id-type="pmid">9927578</pub-id></element-citation></ref><ref id="B20-viruses-08-00228"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taliansky</surname><given-names>M.E.</given-names></name><name><surname>Robinson</surname><given-names>D.J.</given-names></name></person-group>
+<article-title>Molecular biology of umbraviruses: Phantom warriors</article-title>
+<source>J. Gen. Virol.</source>
+<year>2003</year>
+<volume>84</volume>
+<fpage>1951</fpage>
+<lpage>1960</lpage>
+<pub-id pub-id-type="doi">10.1099/vir.0.19219-0</pub-id>
+<?supplied-pmid 12867625?><pub-id pub-id-type="pmid">12867625</pub-id></element-citation></ref><ref id="B21-viruses-08-00228"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fraenkel-Conrat</surname><given-names>H.</given-names></name><name><surname>Williams</surname><given-names>R.C.</given-names></name></person-group>
+<article-title>Reconstitution of active tobacco mosaic virus from its inactive protein and nucleic acid components</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1955</year>
+<volume>41</volume>
+<fpage>690</fpage>
+<lpage>698</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.41.10.690</pub-id>
+<?supplied-pmid 16589730?><pub-id pub-id-type="pmid">16589730</pub-id></element-citation></ref><ref id="B22-viruses-08-00228"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turner</surname><given-names>D.R.</given-names></name><name><surname>Butler</surname><given-names>P.J.</given-names></name></person-group>
+<article-title>Essential features of the assembly origin of tobacco mosaic virus RNA as studied by directed mutagenesis</article-title>
+<source>Nucleic Acids Res.</source>
+<year>1986</year>
+<volume>14</volume>
+<fpage>9229</fpage>
+<lpage>9242</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/14.23.9229</pub-id>
+<?supplied-pmid 3797239?><pub-id pub-id-type="pmid">3797239</pub-id></element-citation></ref><ref id="B23-viruses-08-00228"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>Z.</given-names></name><name><surname>Qiao</surname><given-names>J.</given-names></name><name><surname>Niu</surname><given-names>Z.</given-names></name><name><surname>Wang</surname><given-names>Q.</given-names></name></person-group>
+<article-title>Natural supramolecular building blocks: From virus coat proteins to viral nanoparticles</article-title>
+<source>Chem. Soc. Rev.</source>
+<year>2012</year>
+<volume>41</volume>
+<fpage>6178</fpage>
+<lpage>6194</lpage>
+<pub-id pub-id-type="doi">10.1039/c2cs35108k</pub-id>
+<?supplied-pmid 22880206?><pub-id pub-id-type="pmid">22880206</pub-id></element-citation></ref><ref id="B24-viruses-08-00228"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guenoune-Gelbart</surname><given-names>D.</given-names></name><name><surname>Elbaum</surname><given-names>M.</given-names></name><name><surname>Sagi</surname><given-names>G.</given-names></name><name><surname>Levy</surname><given-names>A.</given-names></name><name><surname>Epel</surname><given-names>B.L.</given-names></name></person-group>
+<article-title>Tobacco mosaic virus (TMV) replicase and movement protein function synergistically in facilitating TMV spread by lateral diffusion in the plasmodesmal desmotubule of <italic>Nicotiana benthamiana</italic></article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>2008</year>
+<volume>21</volume>
+<fpage>335</fpage>
+<lpage>345</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-21-3-0335</pub-id>
+<?supplied-pmid 18257683?><pub-id pub-id-type="pmid">18257683</pub-id></element-citation></ref><ref id="B25-viruses-08-00228"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dorokhov</surname><given-names>Y.L.</given-names></name><name><surname>Alexandrova</surname><given-names>N.M.</given-names></name><name><surname>Miroshnichenko</surname><given-names>N.A.</given-names></name><name><surname>Atabekov</surname><given-names>J.G.</given-names></name></person-group>
+<article-title>Isolation and analysis of virus-specific ribonucleoprotein of tobacco mosaic virus-infected tobacco</article-title>
+<source>Virology</source>
+<year>1983</year>
+<volume>127</volume>
+<fpage>237</fpage>
+<lpage>252</lpage>
+<pub-id pub-id-type="doi">10.1016/0042-6822(83)90141-1</pub-id>
+<pub-id pub-id-type="pmid">18644308</pub-id></element-citation></ref><ref id="B26-viruses-08-00228"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saito</surname><given-names>T.</given-names></name><name><surname>Yamanaka</surname><given-names>K.</given-names></name><name><surname>Okada</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Long-distance movement and viral assembly of tobacco mosaic virus mutants</article-title>
+<source>Virology</source>
+<year>1990</year>
+<volume>176</volume>
+<fpage>329</fpage>
+<lpage>336</lpage>
+<pub-id pub-id-type="doi">10.1016/0042-6822(90)90002-9</pub-id>
+<pub-id pub-id-type="pmid">2345957</pub-id></element-citation></ref><ref id="B27-viruses-08-00228"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ding</surname><given-names>X.</given-names></name><name><surname>Shintaku</surname><given-names>M.H.</given-names></name><name><surname>Carter</surname><given-names>S.A.</given-names></name><name><surname>Nelson</surname><given-names>R.S.</given-names></name></person-group>
+<article-title>Invasion of minor veins of tobacco leaves inoculated with tobacco mosaic virus mutants defective in phloem-dependent movement</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1996</year>
+<volume>93</volume>
+<fpage>11155</fpage>
+<lpage>11160</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.93.20.11155</pub-id>
+<?supplied-pmid 8855325?><pub-id pub-id-type="pmid">8855325</pub-id></element-citation></ref><ref id="B28-viruses-08-00228"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dawson</surname><given-names>W.O.</given-names></name><name><surname>Bubrick</surname><given-names>P.</given-names></name><name><surname>Grantham</surname><given-names>G.L.</given-names></name></person-group>
+<article-title>Modifications of the tobacco mosaic virus coat protein gene affecting replication, movement and symptomatology</article-title>
+<source>Phytopathology</source>
+<year>1988</year>
+<volume>78</volume>
+<fpage>783</fpage>
+<lpage>789</lpage>
+<pub-id pub-id-type="doi">10.1094/Phyto-78-783</pub-id>
+</element-citation></ref><ref id="B29-viruses-08-00228"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nelson</surname><given-names>R.S.</given-names></name><name><surname>Li</surname><given-names>G.</given-names></name><name><surname>Hodgson</surname><given-names>R.A.</given-names></name><name><surname>Beachy</surname><given-names>R.N.</given-names></name><name><surname>Shintaku</surname><given-names>M.H.</given-names></name></person-group>
+<article-title>Impeded phloem-dependent accumulation of the masked strain of tobacco mosaic virus</article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>1993</year>
+<volume>6</volume>
+<fpage>45</fpage>
+<lpage>54</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-6-045</pub-id>
+</element-citation></ref><ref id="B30-viruses-08-00228"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ding</surname><given-names>X.S.</given-names></name><name><surname>Shintaku</surname><given-names>M.H.</given-names></name><name><surname>Arnold</surname><given-names>S.A.</given-names></name><name><surname>Nelson</surname><given-names>R.S.</given-names></name></person-group>
+<article-title>Accumulation of mild and severe strains of tobacco mosaic virus in minor veins of tobacco</article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>1995</year>
+<volume>8</volume>
+<fpage>32</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-8-0032</pub-id>
+</element-citation></ref><ref id="B31-viruses-08-00228"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heinlein</surname><given-names>M.</given-names></name></person-group>
+<article-title>Plant virus replication and movement</article-title>
+<source>Virology</source>
+<year>2015</year>
+<volume>479&#x02013;480</volume>
+<fpage>657</fpage>
+<lpage>671</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virol.2015.01.025</pub-id>
+<?supplied-pmid 25746797?><pub-id pub-id-type="pmid">25746797</pub-id></element-citation></ref><ref id="B32-viruses-08-00228"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doering-Saad</surname><given-names>C.</given-names></name><name><surname>Newbury</surname><given-names>H.J.</given-names></name><name><surname>Bale</surname><given-names>J.S.</given-names></name><name><surname>Pritchard</surname><given-names>J.</given-names></name></person-group>
+<article-title>Use of aphid stylectomy and RT-PCR for the detection of transporter mRNAs in sieve elements</article-title>
+<source>J. Exp. Bot.</source>
+<year>2002</year>
+<volume>53</volume>
+<fpage>631</fpage>
+<lpage>637</lpage>
+<pub-id pub-id-type="doi">10.1093/jexbot/53.369.631</pub-id>
+<?supplied-pmid 11886882?><pub-id pub-id-type="pmid">11886882</pub-id></element-citation></ref><ref id="B33-viruses-08-00228"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kragler</surname><given-names>F.</given-names></name></person-group>
+<article-title>Rna in the phloem: A crisis or a return on investment?</article-title>
+<source>Plant Sci.</source>
+<year>2010</year>
+<volume>178</volume>
+<fpage>99</fpage>
+<lpage>104</lpage>
+<pub-id pub-id-type="doi">10.1016/j.plantsci.2009.12.006</pub-id>
+</element-citation></ref><ref id="B34-viruses-08-00228"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sasaki</surname><given-names>T.</given-names></name><name><surname>Chino</surname><given-names>M.</given-names></name><name><surname>Hayashi</surname><given-names>H.</given-names></name><name><surname>Fujiwara</surname><given-names>T.</given-names></name></person-group>
+<article-title>Detection of several mRNA species in rice phloem sap</article-title>
+<source>Plant Cell Physiol.</source>
+<year>1998</year>
+<volume>39</volume>
+<fpage>895</fpage>
+<lpage>897</lpage>
+<pub-id pub-id-type="doi">10.1093/oxfordjournals.pcp.a029451</pub-id>
+<?supplied-pmid 9787465?><pub-id pub-id-type="pmid">9787465</pub-id></element-citation></ref><ref id="B35-viruses-08-00228"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ryabov</surname><given-names>E.V.</given-names></name><name><surname>Robinson</surname><given-names>D.J.</given-names></name><name><surname>Taliansky</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>A plant virus-encoded protein facilitates long-distance movement of heterologous viral RNA</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1999</year>
+<volume>96</volume>
+<fpage>1212</fpage>
+<lpage>1217</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.96.4.1212</pub-id>
+<?supplied-pmid 9990003?><pub-id pub-id-type="pmid">9990003</pub-id></element-citation></ref><ref id="B36-viruses-08-00228"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taliansky</surname><given-names>M.</given-names></name><name><surname>Roberts</surname><given-names>I.M.</given-names></name><name><surname>Kalinina</surname><given-names>N.</given-names></name><name><surname>Ryabov</surname><given-names>E.V.</given-names></name><name><surname>Raj</surname><given-names>S.K.</given-names></name><name><surname>Robinson</surname><given-names>D.J.</given-names></name><name><surname>Oparka</surname><given-names>K.J.</given-names></name></person-group>
+<article-title>An umbraviral protein, involved in long-distance RNA movement, binds viral RNA and forms unique, protective ribonucleoprotein complexes</article-title>
+<source>J. Virol.</source>
+<year>2003</year>
+<volume>77</volume>
+<fpage>3031</fpage>
+<lpage>3040</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.77.5.3031-3040.2003</pub-id>
+<?supplied-pmid 12584328?><pub-id pub-id-type="pmid">12584328</pub-id></element-citation></ref><ref id="B37-viruses-08-00228"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>M.-H.</given-names></name><name><surname>Sheng</surname><given-names>J.</given-names></name><name><surname>Hind</surname><given-names>G.</given-names></name><name><surname>Handa</surname><given-names>A.K.</given-names></name><name><surname>Citovsky</surname><given-names>V.</given-names></name></person-group>
+<article-title>Interaction between the tobacco mosaic virus movement protein and host cell pectin methylesterases is required for viral cell-to-cell movement</article-title>
+<source>EMBO J.</source>
+<year>2000</year>
+<volume>19</volume>
+<fpage>913</fpage>
+<lpage>920</lpage>
+<pub-id pub-id-type="doi">10.1093/emboj/19.5.913</pub-id>
+<?supplied-pmid 10698933?><pub-id pub-id-type="pmid">10698933</pub-id></element-citation></ref><ref id="B38-viruses-08-00228"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>M.-H.</given-names></name><name><surname>Citovsky</surname><given-names>V.</given-names></name></person-group>
+<article-title>Systemic movement of a tobamovirus requires host cell pectin methylesterase</article-title>
+<source>Plant J.</source>
+<year>2003</year>
+<volume>35</volume>
+<fpage>386</fpage>
+<lpage>392</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-313X.2003.01818.x</pub-id>
+<?supplied-pmid 12887589?><pub-id pub-id-type="pmid">12887589</pub-id></element-citation></ref><ref id="B39-viruses-08-00228"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fenczik</surname><given-names>C.A.</given-names></name><name><surname>Padgett</surname><given-names>H.S.</given-names></name><name><surname>Holt</surname><given-names>C.A.</given-names></name><name><surname>Casper</surname><given-names>S.J.</given-names></name><name><surname>Beachy</surname><given-names>R.N.</given-names></name></person-group>
+<article-title>Mutational analysis of the movement protein of odontoglossum ringspot virus to identify a host-range determinant</article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>1995</year>
+<volume>8</volume>
+<fpage>666</fpage>
+<lpage>673</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-8-0666</pub-id>
+<?supplied-pmid 7579612?><pub-id pub-id-type="pmid">7579612</pub-id></element-citation></ref><ref id="B40-viruses-08-00228"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>K.H.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Identification and analysis of the site of -1 ribosomal frameshifting in red clover necrotic mosaic virus</article-title>
+<source>Virology</source>
+<year>1994</year>
+<volume>200</volume>
+<fpage>574</fpage>
+<lpage>582</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.1994.1220</pub-id>
+<?supplied-pmid 8178444?><pub-id pub-id-type="pmid">8178444</pub-id></element-citation></ref><ref id="B41-viruses-08-00228"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Osman</surname><given-names>T.A.M.</given-names></name><name><surname>Buck</surname><given-names>K.W.</given-names></name></person-group>
+<article-title>Double-stranded RNAs isolated from plant tissue infected with red clover necrotic mosaic virus correspond to genomic and subgenomic single-stranded rRNA</article-title>
+<source>J. Gen. Virol.</source>
+<year>1990</year>
+<volume>71</volume>
+<fpage>945</fpage>
+<lpage>948</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-71-4-945</pub-id>
+</element-citation></ref><ref id="B42-viruses-08-00228"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xiong</surname><given-names>Z.</given-names></name><name><surname>Kim</surname><given-names>K.H.</given-names></name><name><surname>Giesman-Cookmeyer</surname><given-names>D.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>The roles of the red clover necrotic mosaic virus capsid and cell-to-cell movement proteins in systemic infection</article-title>
+<source>Virology</source>
+<year>1993</year>
+<volume>192</volume>
+<fpage>27</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.1993.1004</pub-id>
+<?supplied-pmid 8517020?><pub-id pub-id-type="pmid">8517020</pub-id></element-citation></ref><ref id="B43-viruses-08-00228"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xiong</surname><given-names>Z.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>The complete nucleotide sequence and genome organization of red clover necrotic mosaic virus RNA-1</article-title>
+<source>Virology</source>
+<year>1989</year>
+<volume>171</volume>
+<fpage>543</fpage>
+<lpage>554</lpage>
+<pub-id pub-id-type="doi">10.1016/0042-6822(89)90624-7</pub-id>
+<pub-id pub-id-type="pmid">2763465</pub-id></element-citation></ref><ref id="B44-viruses-08-00228"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zavriev</surname><given-names>S.K.</given-names></name><name><surname>Hickey</surname><given-names>C.M.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Mapping of the red clover necrotic mosaic virus subgenomic RNA</article-title>
+<source>Virology</source>
+<year>1996</year>
+<volume>216</volume>
+<fpage>407</fpage>
+<lpage>410</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.1996.0076</pub-id>
+<?supplied-pmid 8607270?><pub-id pub-id-type="pmid">8607270</pub-id></element-citation></ref><ref id="B45-viruses-08-00228"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lommel</surname><given-names>S.A.</given-names></name><name><surname>Weston-Fina</surname><given-names>M.</given-names></name><name><surname>Xiong</surname><given-names>Z.</given-names></name><name><surname>Lomonossoff</surname><given-names>G.P.</given-names></name></person-group>
+<article-title>The nucleotide sequence and gene organization of red clover necrotic mosaic virus RNA-2</article-title>
+<source>Nucleic Acids Res.</source>
+<year>1988</year>
+<volume>16</volume>
+<fpage>8587</fpage>
+<lpage>8602</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/16.17.8587</pub-id>
+<?supplied-pmid 3047682?><pub-id pub-id-type="pmid">3047682</pub-id></element-citation></ref><ref id="B46-viruses-08-00228"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Powers</surname><given-names>J.G.</given-names></name><name><surname>Sit</surname><given-names>T.L.</given-names></name><name><surname>Heinsohn</surname><given-names>C.</given-names></name><name><surname>George</surname><given-names>C.G.</given-names></name><name><surname>Kim</surname><given-names>K.H.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>The red clover necrotic mosaic virus RNA-2 encoded movement protein is a second suppressor of RNA silencing</article-title>
+<source>Virology</source>
+<year>2008</year>
+<volume>381</volume>
+<fpage>277</fpage>
+<lpage>286</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virol.2008.09.004</pub-id>
+<?supplied-pmid 18838152?><pub-id pub-id-type="pmid">18838152</pub-id></element-citation></ref><ref id="B47-viruses-08-00228"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>H.L.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Giesman-Cookmeyer</surname><given-names>D.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name><name><surname>Lucas</surname><given-names>W.J.</given-names></name></person-group>
+<article-title>Mutations in viral movement protein alter systemic infection and identify an intercellular barrier to entry into the phloem long-distance transport system</article-title>
+<source>Virology</source>
+<year>1998</year>
+<volume>245</volume>
+<fpage>75</fpage>
+<lpage>89</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.1998.9154</pub-id>
+<?supplied-pmid 9614869?><pub-id pub-id-type="pmid">9614869</pub-id></element-citation></ref><ref id="B48-viruses-08-00228"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Basnayake</surname><given-names>V.R.</given-names></name><name><surname>Sit</surname><given-names>T.L.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>The red clover necrotic mosaic virus origin of assembly is delimited to the RNA-2 trans-activator</article-title>
+<source>Virology</source>
+<year>2009</year>
+<volume>384</volume>
+<fpage>169</fpage>
+<lpage>178</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virol.2008.11.005</pub-id>
+<?supplied-pmid 19062064?><pub-id pub-id-type="pmid">19062064</pub-id></element-citation></ref><ref id="B49-viruses-08-00228"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Osman</surname><given-names>T.A.M.</given-names></name><name><surname>Buck</surname><given-names>K.W.</given-names></name></person-group>
+<article-title>Replication of red clover necrotic mosaic virus RNA in cowpea protoplasts: RNA 1 replicates independently of RNA 2</article-title>
+<source>J. Gen. Virol.</source>
+<year>1987</year>
+<volume>68</volume>
+<fpage>289</fpage>
+<lpage>296</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-68-2-289</pub-id>
+</element-citation></ref><ref id="B50-viruses-08-00228"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paje-Manalo</surname><given-names>L.L.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Independent replication of red clover necrotic mosaic virus RNA-1 in electroporated host and nonhost nicotiana species protoplasts</article-title>
+<source>Phytopathology</source>
+<year>1989</year>
+<volume>79</volume>
+<fpage>457</fpage>
+<lpage>461</lpage>
+<pub-id pub-id-type="doi">10.1094/Phyto-79-457</pub-id>
+</element-citation></ref><ref id="B51-viruses-08-00228"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sit</surname><given-names>T.L.</given-names></name><name><surname>Vaewhongs</surname><given-names>A.A.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>RNA-mediated trans-activation of transcription from a viral RNA</article-title>
+<source>Science</source>
+<year>1998</year>
+<volume>281</volume>
+<fpage>829</fpage>
+<lpage>832</lpage>
+<pub-id pub-id-type="doi">10.1126/science.281.5378.829</pub-id>
+<?supplied-pmid 9694655?><pub-id pub-id-type="pmid">9694655</pub-id></element-citation></ref><ref id="B52-viruses-08-00228"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Loo</surname><given-names>L.</given-names></name><name><surname>Guenther</surname><given-names>R.H.</given-names></name><name><surname>Basnayake</surname><given-names>V.R.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name><name><surname>Franzen</surname><given-names>S.</given-names></name></person-group>
+<article-title>Controlled encapsidation of gold nanoparticles by a viral protein shell</article-title>
+<source>J. Am. Chem. Soc.</source>
+<year>2006</year>
+<volume>128</volume>
+<fpage>4502</fpage>
+<lpage>4503</lpage>
+<pub-id pub-id-type="doi">10.1021/ja057332u</pub-id>
+<?supplied-pmid 16594649?><pub-id pub-id-type="pmid">16594649</pub-id></element-citation></ref><ref id="B53-viruses-08-00228"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Basnayake</surname><given-names>V.R.</given-names></name><name><surname>Sit</surname><given-names>T.L.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>The genomic RNA packaging scheme of red clover necrotic mosaic virus</article-title>
+<source>Virology</source>
+<year>2006</year>
+<volume>345</volume>
+<fpage>532</fpage>
+<lpage>539</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virol.2005.10.017</pub-id>
+<pub-id pub-id-type="pmid">16297955</pub-id></element-citation></ref><ref id="B54-viruses-08-00228"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vaewhongs</surname><given-names>A.A.</given-names></name><name><surname>Lommel</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Virion formation is required for the long-distance movement of red clover necrotic mosaic virus in movement protein transgenic plants</article-title>
+<source>Virology</source>
+<year>1995</year>
+<volume>212</volume>
+<fpage>607</fpage>
+<lpage>613</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.1995.1518</pub-id>
+<?supplied-pmid 7571430?><pub-id pub-id-type="pmid">7571430</pub-id></element-citation></ref><ref id="B55-viruses-08-00228"><label>55.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Lane</surname><given-names>L.C.</given-names></name></person-group>
+<article-title>Bromoviruses</article-title>
+<source>Handbook of Plant Virus Infections and Comparative Diagnosis</source>
+<person-group person-group-type="editor"><name><surname>Kurstak</surname><given-names>E.</given-names></name></person-group>
+<publisher-name>Elsevier/North Holland Biomedical Press</publisher-name>
+<publisher-loc>Amsterdam, The Netherlands</publisher-loc>
+<year>1981</year>
+<fpage>333</fpage>
+<lpage>375</lpage>
+</element-citation></ref><ref id="B56-viruses-08-00228"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Choi</surname><given-names>Y.G.</given-names></name><name><surname>Rao</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Packaging of brome mosaic virus RNA3 is mediated through a bipartite signal</article-title>
+<source>J. Virol.</source>
+<year>2003</year>
+<volume>77</volume>
+<fpage>9750</fpage>
+<lpage>9757</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.77.18.9750-9757.2003</pub-id>
+<?supplied-pmid 12941883?><pub-id pub-id-type="pmid">12941883</pub-id></element-citation></ref><ref id="B57-viruses-08-00228"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Annamalai</surname><given-names>P.</given-names></name><name><surname>Rao</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>In vivo packaging of brome mosaic virus RNA3, but not RNAs 1 and 2, is dependent on a cis-acting 3&#x02032; tRNA-like structure</article-title>
+<source>J. Virol.</source>
+<year>2007</year>
+<volume>81</volume>
+<fpage>173</fpage>
+<lpage>181</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.01500-06</pub-id>
+<?supplied-pmid 17005656?><pub-id pub-id-type="pmid">17005656</pub-id></element-citation></ref><ref id="B58-viruses-08-00228"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Damayanti</surname><given-names>T.A.</given-names></name><name><surname>Tsukaguchi</surname><given-names>S.</given-names></name><name><surname>Mise</surname><given-names>K.</given-names></name><name><surname>Okuno</surname><given-names>T.</given-names></name></person-group>
+<article-title>Cis-acting elements required for efficient packaging of brome mosaic virus RNA3 in barley protoplasts</article-title>
+<source>J. Virol.</source>
+<year>2003</year>
+<volume>77</volume>
+<fpage>9979</fpage>
+<lpage>9986</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.77.18.9979-9986.2003</pub-id>
+<?supplied-pmid 12941908?><pub-id pub-id-type="pmid">12941908</pub-id></element-citation></ref><ref id="B59-viruses-08-00228"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Annamalai</surname><given-names>P.</given-names></name><name><surname>Rao</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Packaging of brome mosaic virus subgenomic RNA is functionally coupled to replication-dependent transcription and translation of coat protein</article-title>
+<source>J. Virol.</source>
+<year>2006</year>
+<volume>80</volume>
+<fpage>10096</fpage>
+<lpage>10108</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.01186-06</pub-id>
+<?supplied-pmid 17005687?><pub-id pub-id-type="pmid">17005687</pub-id></element-citation></ref><ref id="B60-viruses-08-00228"><label>60.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Mandahar</surname><given-names>C.L.</given-names></name></person-group>
+<article-title>Infection by and uncoating of virus particles</article-title>
+<source>Multiplication of RNA Plant Viruses</source>
+<person-group person-group-type="editor"><name><surname>Mandahar</surname><given-names>C.L.</given-names></name></person-group>
+<publisher-name>Springer Netherlands</publisher-name>
+<publisher-loc>Dordrecht, The Netherlands</publisher-loc>
+<year>2006</year>
+<fpage>339</fpage>
+</element-citation></ref><ref id="B61-viruses-08-00228"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brisco</surname><given-names>M.</given-names></name><name><surname>Hull</surname><given-names>R.</given-names></name><name><surname>Wilson</surname><given-names>T.M.</given-names></name></person-group>
+<article-title>Swelling of isometric and of bacilliform plant virus nucleocapsids is required for virus-specific protein synthesis in vitro</article-title>
+<source>Virology</source>
+<year>1986</year>
+<volume>148</volume>
+<fpage>210</fpage>
+<lpage>217</lpage>
+<pub-id pub-id-type="doi">10.1016/0042-6822(86)90416-2</pub-id>
+<pub-id pub-id-type="pmid">18640565</pub-id></element-citation></ref><ref id="B62-viruses-08-00228"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seo</surname><given-names>J.K.</given-names></name><name><surname>Kwon</surname><given-names>S.J.</given-names></name><name><surname>Rao</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>A physical interaction between viral replicase and capsid protein is required for genome-packaging specificity in an RNA virus</article-title>
+<source>J. Virol.</source>
+<year>2012</year>
+<volume>86</volume>
+<fpage>6210</fpage>
+<lpage>6221</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.07184-11</pub-id>
+<?supplied-pmid 22438552?><pub-id pub-id-type="pmid">22438552</pub-id></element-citation></ref><ref id="B63-viruses-08-00228"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sztuba-Solinska</surname><given-names>J.</given-names></name><name><surname>Fanning</surname><given-names>S.W.</given-names></name><name><surname>Horn</surname><given-names>J.R.</given-names></name><name><surname>Bujarski</surname><given-names>J.J.</given-names></name></person-group>
+<article-title>Mutations in the coat protein-binding cis-acting RNA motifs debilitate RNA recombination of brome mosaic virus</article-title>
+<source>Virus Res.</source>
+<year>2012</year>
+<volume>170</volume>
+<fpage>138</fpage>
+<lpage>149</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virusres.2012.10.001</pub-id>
+<?supplied-pmid 23079110?><pub-id pub-id-type="pmid">23079110</pub-id></element-citation></ref><ref id="B64-viruses-08-00228"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sasaki</surname><given-names>N.</given-names></name><name><surname>Kaido</surname><given-names>M.</given-names></name><name><surname>Okuno</surname><given-names>T.</given-names></name><name><surname>Mise</surname><given-names>K.</given-names></name></person-group>
+<article-title>Coat protein-independent cell-to-cell movement of bromoviruses expressing brome mosaic virus movement protein with an adaptation-related amino acid change in the central region</article-title>
+<source>Arch. Virol.</source>
+<year>2005</year>
+<volume>150</volume>
+<fpage>1231</fpage>
+<lpage>1240</lpage>
+<pub-id pub-id-type="doi">10.1007/s00705-004-0481-x</pub-id>
+<?supplied-pmid 15906103?><pub-id pub-id-type="pmid">15906103</pub-id></element-citation></ref><ref id="B65-viruses-08-00228"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takeda</surname><given-names>A.</given-names></name><name><surname>Nakamura</surname><given-names>W.</given-names></name><name><surname>Sasaki</surname><given-names>N.</given-names></name><name><surname>Goto</surname><given-names>K.</given-names></name><name><surname>Kaido</surname><given-names>M.</given-names></name><name><surname>Okuno</surname><given-names>T.</given-names></name><name><surname>Mise</surname><given-names>K.</given-names></name></person-group>
+<article-title>Natural isolates of brome mosaic virus with the ability to move from cell to cell independently of coat protein</article-title>
+<source>J. Gen. Virol.</source>
+<year>2005</year>
+<volume>86</volume>
+<fpage>1201</fpage>
+<lpage>1211</lpage>
+<pub-id pub-id-type="doi">10.1099/vir.0.80775-0</pub-id>
+<?supplied-pmid 15784914?><pub-id pub-id-type="pmid">15784914</pub-id></element-citation></ref><ref id="B66-viruses-08-00228"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gopinath</surname><given-names>K.</given-names></name><name><surname>Kao</surname><given-names>C.C.</given-names></name></person-group>
+<article-title>Replication-independent long-distance trafficking by viral RNAs in <italic>Nicotiana benthamiana</italic></article-title>
+<source>Plant Cell</source>
+<year>2007</year>
+<volume>19</volume>
+<fpage>1179</fpage>
+<lpage>1191</lpage>
+<pub-id pub-id-type="doi">10.1105/tpc.107.050088</pub-id>
+<?supplied-pmid 17416731?><pub-id pub-id-type="pmid">17416731</pub-id></element-citation></ref><ref id="B67-viruses-08-00228"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>W.</given-names></name><name><surname>Thieme</surname><given-names>C.J.</given-names></name><name><surname>Kollwig</surname><given-names>G.</given-names></name><name><surname>Apelt</surname><given-names>F.</given-names></name><name><surname>Yang</surname><given-names>L.</given-names></name><name><surname>Winter</surname><given-names>N.</given-names></name><name><surname>Andresen</surname><given-names>N.</given-names></name><name><surname>Walther</surname><given-names>D.</given-names></name><name><surname>Kragler</surname><given-names>F.</given-names></name></person-group>
+<article-title>tRNA-related sequences trigger systemic mRNA transport in plants</article-title>
+<source>Plant Cell</source>
+<year>2016</year>
+<volume>28</volume>
+<fpage>1237</fpage>
+<lpage>1249</lpage>
+<pub-id pub-id-type="doi">10.1105/tpc.15.01056</pub-id>
+<?supplied-pmid 27268430?><pub-id pub-id-type="pmid">27268430</pub-id></element-citation></ref><ref id="B68-viruses-08-00228"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crawford</surname><given-names>K.M.</given-names></name><name><surname>Zambryski</surname><given-names>P.C.</given-names></name></person-group>
+<article-title>Non-targeted and targeted protein movement through plasmodesmata in leaves in different developmental and physiological states</article-title>
+<source>Plant Physiol.</source>
+<year>2001</year>
+<volume>125</volume>
+<fpage>1802</fpage>
+<lpage>1812</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.125.4.1802</pub-id>
+<?supplied-pmid 11299360?><pub-id pub-id-type="pmid">11299360</pub-id></element-citation></ref><ref id="B69-viruses-08-00228"><label>69.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Gilmer</surname><given-names>D.</given-names></name><name><surname>Ratti</surname><given-names>C.</given-names></name></person-group>
+<article-title>Benyvirus</article-title>
+<source>Virus Taxonomy: Classification and Nomenclature of Viruses: Ninth Report of the International Committee on Taxonomy of Viruses</source>
+<person-group person-group-type="editor"><name><surname>King</surname><given-names>A.M.Q.</given-names></name><name><surname>Adams</surname><given-names>M.J.</given-names></name><name><surname>Carstens</surname><given-names>E.B.</given-names></name><name><surname>Lefkowitz</surname><given-names>E.J.</given-names></name></person-group>
+<publisher-name>Elsevier</publisher-name>
+<publisher-loc>San Diego, CA, USA</publisher-loc>
+<year>2012</year>
+<fpage>1133</fpage>
+<lpage>1138</lpage>
+</element-citation></ref><ref id="B70-viruses-08-00228"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jupin</surname><given-names>I.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Pleij</surname><given-names>C.W.</given-names></name></person-group>
+<article-title>Mapping sequences required for productive replication of beet necrotic yellow vein virus RNA 3</article-title>
+<source>Virology</source>
+<year>1990</year>
+<volume>178</volume>
+<fpage>273</fpage>
+<lpage>280</lpage>
+<pub-id pub-id-type="doi">10.1016/0042-6822(90)90403-E</pub-id>
+<pub-id pub-id-type="pmid">2389553</pub-id></element-citation></ref><ref id="B71-viruses-08-00228"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilmer</surname><given-names>D.</given-names></name><name><surname>Allmang</surname><given-names>C.</given-names></name><name><surname>Ehresmann</surname><given-names>C.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name><name><surname>Ehresmann</surname><given-names>B.</given-names></name></person-group>
+<article-title>The secondary structure of the 5&#x02032;-noncoding region of beet necrotic yellow vein virus RNA 3: Evidence for a role in viral RNA replication</article-title>
+<source>Nucleic Acids Res.</source>
+<year>1993</year>
+<volume>21</volume>
+<fpage>1389</fpage>
+<lpage>1395</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/21.6.1389</pub-id>
+<?supplied-pmid 8464729?><pub-id pub-id-type="pmid">8464729</pub-id></element-citation></ref><ref id="B72-viruses-08-00228"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilmer</surname><given-names>D.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name></person-group>
+<article-title><italic>Cis</italic>-active sequences near the 5&#x02032;-termini of beet necrotic yellow vein virus RNAs 3 and 4</article-title>
+<source>Virology</source>
+<year>1992</year>
+<volume>190</volume>
+<fpage>55</fpage>
+<lpage>67</lpage>
+<pub-id pub-id-type="doi">10.1016/0042-6822(92)91192-W</pub-id>
+<pub-id pub-id-type="pmid">1529554</pub-id></element-citation></ref><ref id="B73-viruses-08-00228"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ziegler</surname><given-names>V.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name><name><surname>Putz</surname><given-names>C.</given-names></name></person-group>
+<article-title>Cell-free translation of beet necrotic yellow vein virus: Readthrough of the coat protein cistron</article-title>
+<source>J. Gen. Virol.</source>
+<year>1985</year>
+<volume>66</volume>
+<fpage>2079</fpage>
+<lpage>2087</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-66-10-2079</pub-id>
+</element-citation></ref><ref id="B74-viruses-08-00228"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haeberle</surname><given-names>A.M.</given-names></name><name><surname>Stussi-Garaud</surname><given-names>C.</given-names></name><name><surname>Schmitt</surname><given-names>C.</given-names></name><name><surname>Garaud</surname><given-names>J.C.</given-names></name><name><surname>Richards</surname><given-names>K.E.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name></person-group>
+<article-title>Detection by immunogold labelling of p75 readthrough protein near an extremity of beet necrotic yellow vein virus particles</article-title>
+<source>Arch. Virol.</source>
+<year>1994</year>
+<volume>134</volume>
+<fpage>195</fpage>
+<lpage>203</lpage>
+<pub-id pub-id-type="doi">10.1007/BF01379118</pub-id>
+<?supplied-pmid 8279955?><pub-id pub-id-type="pmid">8279955</pub-id></element-citation></ref><ref id="B75-viruses-08-00228"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmitt</surname><given-names>C.</given-names></name><name><surname>Balmori</surname><given-names>E.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name><name><surname>Richards</surname><given-names>K.E.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name></person-group>
+<article-title>In vitro mutagenesis of biologically active transcripts of beet necrotic yellow vein virus RNA 2: Evidence that a domain of the 75-kda readthrough protein is important for efficient virus assembly</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1992</year>
+<volume>89</volume>
+<fpage>5715</fpage>
+<lpage>5719</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.89.13.5715</pub-id>
+<?supplied-pmid 1631051?><pub-id pub-id-type="pmid">1631051</pub-id></element-citation></ref><ref id="B76-viruses-08-00228"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamada</surname><given-names>T.</given-names></name><name><surname>Schmitt</surname><given-names>C.</given-names></name><name><surname>Saito</surname><given-names>M.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name></person-group>
+<article-title>High resolution analysis of the readthrough domain of beet necrotic yellow vein virus readthrough protein: A KTER motif is important for efficient transmission of the virus by <italic>Polymyxa betae</italic></article-title>
+<source>J. Gen. Virol.</source>
+<year>1996</year>
+<volume>77</volume>
+<fpage>1359</fpage>
+<lpage>1367</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-77-7-1359</pub-id>
+<?supplied-pmid 8757975?><pub-id pub-id-type="pmid">8757975</pub-id></element-citation></ref><ref id="B77-viruses-08-00228"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pakdel</surname><given-names>A.</given-names></name><name><surname>Mounier</surname><given-names>C.</given-names></name><name><surname>Klein</surname><given-names>E.</given-names></name><name><surname>Hleibieh</surname><given-names>K.</given-names></name><name><surname>Monsion</surname><given-names>B.</given-names></name><name><surname>Mutterer</surname><given-names>J.</given-names></name><name><surname>Erhardt</surname><given-names>M.</given-names></name><name><surname>Bouzoubaa</surname><given-names>S.</given-names></name><name><surname>Ratti</surname><given-names>C.</given-names></name><name><surname>Gilmer</surname><given-names>D.</given-names></name></person-group>
+<article-title>On the interaction and localization of the beet necrotic yellow vein virus replicase</article-title>
+<source>Virus Res.</source>
+<year>2015</year>
+<volume>196</volume>
+<fpage>94</fpage>
+<lpage>104</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virusres.2014.11.001</pub-id>
+<?supplied-pmid 25445349?><pub-id pub-id-type="pmid">25445349</pub-id></element-citation></ref><ref id="B78-viruses-08-00228"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Erhardt</surname><given-names>M.</given-names></name><name><surname>Dunoyer</surname><given-names>P.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name><name><surname>Bouzoubaa</surname><given-names>S.</given-names></name></person-group>
+<article-title>Beet necrotic yellow vein virus particles localize to mitochondria during infection</article-title>
+<source>Virology</source>
+<year>2001</year>
+<volume>286</volume>
+<fpage>256</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="doi">10.1006/viro.2001.0931</pub-id>
+<?supplied-pmid 11485394?><pub-id pub-id-type="pmid">11485394</pub-id></element-citation></ref><ref id="B79-viruses-08-00228"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valentin</surname><given-names>C.</given-names></name><name><surname>Dunoyer</surname><given-names>P.</given-names></name><name><surname>Vetter</surname><given-names>G.</given-names></name><name><surname>Schalk</surname><given-names>C.</given-names></name><name><surname>Dietrich</surname><given-names>A.</given-names></name><name><surname>Bouzoubaa</surname><given-names>S.</given-names></name></person-group>
+<article-title>Molecular basis for mitochondrial localization of viral particles during beet necrotic yellow vein virus infection</article-title>
+<source>J. Virol.</source>
+<year>2005</year>
+<volume>79</volume>
+<fpage>9991</fpage>
+<lpage>10002</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.79.15.9991-10002.2005</pub-id>
+<?supplied-pmid 16014959?><pub-id pub-id-type="pmid">16014959</pub-id></element-citation></ref><ref id="B80-viruses-08-00228"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamada</surname><given-names>T.</given-names></name><name><surname>Shirako</surname><given-names>Y.</given-names></name><name><surname>Abe</surname><given-names>H.</given-names></name><name><surname>Saito</surname><given-names>M.</given-names></name><name><surname>Kigushi</surname><given-names>T.</given-names></name><name><surname>Harada</surname><given-names>T.</given-names></name></person-group>
+<article-title>Production and pathogenicity of isolates of beet necrotic yellow vein virus with different numbers of RNA components</article-title>
+<source>J. Gen. Virol.</source>
+<year>1989</year>
+<volume>70</volume>
+<fpage>3399</fpage>
+<lpage>3409</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-70-12-3399</pub-id>
+</element-citation></ref><ref id="B81-viruses-08-00228"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Quillet</surname><given-names>L.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name></person-group>
+<article-title>In vitro synthesis of biologically active beet necrotic yellow vein virus RNA</article-title>
+<source>Virology</source>
+<year>1989</year>
+<volume>172</volume>
+<fpage>293</fpage>
+<lpage>301</lpage>
+<?supplied-pmid 2773320?><pub-id pub-id-type="pmid">2773320</pub-id></element-citation></ref><ref id="B82-viruses-08-00228"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rahim</surname><given-names>M.D.</given-names></name><name><surname>Andika</surname><given-names>I.B.</given-names></name><name><surname>Han</surname><given-names>C.</given-names></name><name><surname>Kondo</surname><given-names>H.</given-names></name><name><surname>Tamada</surname><given-names>T.</given-names></name></person-group>
+<article-title>RNA4-encoded p31 of beet necrotic yellow vein virus is involved in efficient vector transmission, symptom severity and silencing suppression in roots</article-title>
+<source>J. Gen. Virol.</source>
+<year>2007</year>
+<volume>88</volume>
+<fpage>1611</fpage>
+<lpage>1619</lpage>
+<pub-id pub-id-type="doi">10.1099/vir.0.82720-0</pub-id>
+<?supplied-pmid 17412994?><pub-id pub-id-type="pmid">17412994</pub-id></element-citation></ref><ref id="B83-viruses-08-00228"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamada</surname><given-names>T.</given-names></name><name><surname>Abe</surname><given-names>H.</given-names></name></person-group>
+<article-title>Evidence that beet necrotic yellow vein virus RNA-4 is essential for transmission by the fungus <italic>Polymyxa betae</italic></article-title>
+<source>J. Gen. Virol.</source>
+<year>1989</year>
+<volume>70</volume>
+<fpage>3391</fpage>
+<lpage>3398</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-70-12-3391</pub-id>
+</element-citation></ref><ref id="B84-viruses-08-00228"><label>84.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamada</surname><given-names>T.</given-names></name><name><surname>Uchino</surname><given-names>H.</given-names></name><name><surname>Kusume</surname><given-names>T.</given-names></name><name><surname>Saito</surname><given-names>M.</given-names></name></person-group>
+<article-title>RNA 3 deletion mutants of beet necrotic yellow vein virus do not cause rhizomania disease in sugar beets</article-title>
+<source>Phytopathology</source>
+<year>1999</year>
+<volume>89</volume>
+<fpage>1000</fpage>
+<lpage>1006</lpage>
+<pub-id pub-id-type="doi">10.1094/PHYTO.1999.89.11.1000</pub-id>
+<?supplied-pmid 18944654?><pub-id pub-id-type="pmid">18944654</pub-id></element-citation></ref><ref id="B85-viruses-08-00228"><label>85.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andika</surname><given-names>I.B.</given-names></name><name><surname>Kondo</surname><given-names>H.</given-names></name><name><surname>Tamada</surname><given-names>T.</given-names></name></person-group>
+<article-title>Evidence that RNA silencing-mediated resistance to beet necrotic yellow vein virus is less effective in roots than in leaves</article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>2005</year>
+<volume>18</volume>
+<fpage>194</fpage>
+<lpage>204</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-18-0194</pub-id>
+<?supplied-pmid 15782633?><pub-id pub-id-type="pmid">15782633</pub-id></element-citation></ref><ref id="B86-viruses-08-00228"><label>86.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chiba</surname><given-names>S.</given-names></name><name><surname>Hleibieh</surname><given-names>K.</given-names></name><name><surname>Delbianco</surname><given-names>A.</given-names></name><name><surname>Klein</surname><given-names>E.</given-names></name><name><surname>Ratti</surname><given-names>C.</given-names></name><name><surname>Ziegler-Graff</surname><given-names>V.</given-names></name><name><surname>Bouzoubaa</surname><given-names>S.</given-names></name><name><surname>Gilmer</surname><given-names>D.</given-names></name></person-group>
+<article-title>The benyvirus RNA silencing suppressor is essential for long-distance movement, requires both zinc-finger and NoLS basic residues but not a nucleolar localization for its silencing-suppression activity</article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>2013</year>
+<volume>26</volume>
+<fpage>168</fpage>
+<lpage>181</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-06-12-0142-R</pub-id>
+<?supplied-pmid 23013437?><pub-id pub-id-type="pmid">23013437</pub-id></element-citation></ref><ref id="B87-viruses-08-00228"><label>87.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Delbianco</surname><given-names>A.</given-names></name><name><surname>Lanzoni</surname><given-names>C.</given-names></name><name><surname>Klein</surname><given-names>E.</given-names></name><name><surname>Rubies Autonell</surname><given-names>C.</given-names></name><name><surname>Gilmer</surname><given-names>D.</given-names></name><name><surname>Ratti</surname><given-names>C.</given-names></name></person-group>
+<article-title>Agroinoculation of beet necrotic yellow vein virus cDNA clones results in plant systemic infection and efficient <italic>Polymyxa betae</italic> transmission</article-title>
+<source>Mol. Plant Pathol.</source>
+<year>2013</year>
+<volume>14</volume>
+<fpage>422</fpage>
+<lpage>428</lpage>
+<pub-id pub-id-type="doi">10.1111/mpp.12018</pub-id>
+<?supplied-pmid 23384276?><pub-id pub-id-type="pmid">23384276</pub-id></element-citation></ref><ref id="B88-viruses-08-00228"><label>88.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilmer</surname><given-names>D.</given-names></name><name><surname>Bouzoubaa</surname><given-names>S.</given-names></name><name><surname>Hehn</surname><given-names>A.</given-names></name><name><surname>Guilley</surname><given-names>H.</given-names></name><name><surname>Richards</surname><given-names>K.</given-names></name><name><surname>Jonard</surname><given-names>G.</given-names></name></person-group>
+<article-title>Efficient cell-to-cell movement of beet necrotic yellow vein virus requires 3&#x02032; proximal genes located on RNA 2</article-title>
+<source>Virology</source>
+<year>1992</year>
+<volume>189</volume>
+<fpage>40</fpage>
+<lpage>47</lpage>
+<pub-id pub-id-type="doi">10.1016/0042-6822(92)90679-J</pub-id>
+<pub-id pub-id-type="pmid">1604825</pub-id></element-citation></ref><ref id="B89-viruses-08-00228"><label>89.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Adams</surname><given-names>M.J.</given-names></name><name><surname>Heinze</surname><given-names>C.</given-names></name><name><surname>Jackson</surname><given-names>A.O.</given-names></name><name><surname>Kreuze</surname><given-names>J.F.</given-names></name><name><surname>Macfarlane</surname><given-names>S.</given-names></name><name><surname>Torrance</surname><given-names>L.</given-names></name></person-group>
+<article-title>Family <italic>Virgaviridae</italic></article-title>
+<source>Virus Taxonomy: Classification and Nomenclature of Viruses: Ninth Report of the International Committee on Taxonomy of Viruses</source>
+<person-group person-group-type="editor"><name><surname>King</surname><given-names>A.M.Q.</given-names></name><name><surname>Adams</surname><given-names>M.J.</given-names></name><name><surname>Carstens</surname><given-names>E.B.</given-names></name><name><surname>Lefkowitz</surname><given-names>E.J.</given-names></name></person-group>
+<publisher-name>Elsevier</publisher-name>
+<publisher-loc>San Diego, CA, USA</publisher-loc>
+<year>2012</year>
+<fpage>1139</fpage>
+<lpage>1162</lpage>
+</element-citation></ref><ref id="B90-viruses-08-00228"><label>90.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kassanis</surname><given-names>B.</given-names></name><name><surname>Woods</surname><given-names>R.D.</given-names></name><name><surname>White</surname><given-names>R.F.</given-names></name></person-group>
+<article-title>Some properties of potato mop-top virus and its serological relationship to tobacco mosaic virus</article-title>
+<source>J. Gen. Virol.</source>
+<year>1972</year>
+<volume>14</volume>
+<fpage>123</fpage>
+<lpage>132</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-14-2-123</pub-id>
+</element-citation></ref><ref id="B91-viruses-08-00228"><label>91.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cowan</surname><given-names>G.H.</given-names></name><name><surname>Torrance</surname><given-names>L.</given-names></name><name><surname>Reavy</surname><given-names>B.</given-names></name></person-group>
+<article-title>Detection of potato mop-top virus capsid readthrough protein in virus particles</article-title>
+<source>J. Gen. Virol.</source>
+<year>1997</year>
+<volume>78 Pt 7</volume>
+<fpage>1779</fpage>
+<lpage>1783</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-78-7-1779</pub-id>
+<?supplied-pmid 9225055?><pub-id pub-id-type="pmid">9225055</pub-id></element-citation></ref><ref id="B92-viruses-08-00228"><label>92.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reavy</surname><given-names>B.</given-names></name><name><surname>Arif</surname><given-names>M.</given-names></name><name><surname>Cowan</surname><given-names>G.H.</given-names></name><name><surname>Torrance</surname><given-names>L.</given-names></name></person-group>
+<article-title>Association of sequences in the coat protein/readthrough domain of potato mop-top virus with transmission by <italic>Spongospora subterranea</italic></article-title>
+<source>J. Gen. Virol.</source>
+<year>1998</year>
+<volume>79 Pt 10</volume>
+<fpage>2343</fpage>
+<lpage>2347</lpage>
+<pub-id pub-id-type="doi">10.1099/0022-1317-79-10-2343</pub-id>
+<?supplied-pmid 9780038?><pub-id pub-id-type="pmid">9780038</pub-id></element-citation></ref><ref id="B93-viruses-08-00228"><label>93.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Torrance</surname><given-names>L.</given-names></name><name><surname>Lukhovitskaya</surname><given-names>N.I.</given-names></name><name><surname>Schepetilnikov</surname><given-names>M.V.</given-names></name><name><surname>Cowan</surname><given-names>G.H.</given-names></name><name><surname>Ziegler</surname><given-names>A.</given-names></name><name><surname>Savenkov</surname><given-names>E.I.</given-names></name></person-group>
+<article-title>Unusual long-distance movement strategies of potato mop-top virus RNAs in <italic>Nicotiana benthamiana</italic></article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>2009</year>
+<volume>22</volume>
+<fpage>381</fpage>
+<lpage>390</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-22-4-0381</pub-id>
+<?supplied-pmid 19271953?><pub-id pub-id-type="pmid">19271953</pub-id></element-citation></ref><ref id="B94-viruses-08-00228"><label>94.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Savenkov</surname><given-names>E.I.</given-names></name><name><surname>Germundsson</surname><given-names>A.</given-names></name><name><surname>Zamyatnin</surname><given-names>A.A.</given-names><suffix>Jr.</suffix></name><name><surname>Sandgren</surname><given-names>M.</given-names></name><name><surname>Valkonen</surname><given-names>J.P.T.</given-names></name></person-group>
+<article-title>Potato mop-top virus: The coat protein-encoding RNA and the gene for cysteine-rich protein are dispensable for systemic virus movement in <italic>Nicotiana benthamiana</italic></article-title>
+<source>J. Gen. Virol.</source>
+<year>2003</year>
+<volume>84</volume>
+<fpage>1001</fpage>
+<lpage>1005</lpage>
+<pub-id pub-id-type="doi">10.1099/vir.0.18813-0</pub-id>
+<?supplied-pmid 12655103?><pub-id pub-id-type="pmid">12655103</pub-id></element-citation></ref><ref id="B95-viruses-08-00228"><label>95.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wright</surname><given-names>K.M.</given-names></name><name><surname>Cowan</surname><given-names>G.H.</given-names></name><name><surname>Lukhovitskaya</surname><given-names>N.I.</given-names></name><name><surname>Tilsner</surname><given-names>J.</given-names></name><name><surname>Roberts</surname><given-names>A.G.</given-names></name><name><surname>Savenkov</surname><given-names>E.I.</given-names></name><name><surname>Torrance</surname><given-names>L.</given-names></name></person-group>
+<article-title>The N-terminal domain of PMTV TGB1 movement protein is required for nucleolar localization, microtubule association, and long-distance movement</article-title>
+<source>Mol. Plant Microbe Interact.</source>
+<year>2010</year>
+<volume>23</volume>
+<fpage>1486</fpage>
+<lpage>1497</lpage>
+<pub-id pub-id-type="doi">10.1094/MPMI-05-10-0105</pub-id>
+<?supplied-pmid 20923354?><pub-id pub-id-type="pmid">20923354</pub-id></element-citation></ref><ref id="B96-viruses-08-00228"><label>96.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>S.H.</given-names></name><name><surname>Macfarlane</surname><given-names>S.</given-names></name><name><surname>Kalinina</surname><given-names>N.O.</given-names></name><name><surname>Rakitina</surname><given-names>D.V.</given-names></name><name><surname>Ryabov</surname><given-names>E.V.</given-names></name><name><surname>Gillespie</surname><given-names>T.</given-names></name><name><surname>Haupt</surname><given-names>S.</given-names></name><name><surname>Brown</surname><given-names>J.W.</given-names></name><name><surname>Taliansky</surname><given-names>M.</given-names></name></person-group>
+<article-title>Interaction of a plant virus-encoded protein with the major nucleolar protein fibrillarin is required for systemic virus infection</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2007</year>
+<volume>104</volume>
+<fpage>11115</fpage>
+<lpage>11120</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0704632104</pub-id>
+<?supplied-pmid 17576925?><pub-id pub-id-type="pmid">17576925</pub-id></element-citation></ref><ref id="B97-viruses-08-00228"><label>97.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Busch</surname><given-names>A.</given-names></name><name><surname>Richter</surname><given-names>A.S.</given-names></name><name><surname>Backofen</surname><given-names>R.</given-names></name></person-group>
+<article-title>Intarna: Efficient prediction of bacterial sRNA targets incorporating target site accessibility and seed regions</article-title>
+<source>Bioinformatics</source>
+<year>2008</year>
+<volume>24</volume>
+<fpage>2849</fpage>
+<lpage>2856</lpage>
+<pub-id pub-id-type="doi">10.1093/bioinformatics/btn544</pub-id>
+<?supplied-pmid 18940824?><pub-id pub-id-type="pmid">18940824</pub-id></element-citation></ref><ref id="B98-viruses-08-00228"><label>98.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wright</surname><given-names>P.R.</given-names></name><name><surname>Georg</surname><given-names>J.</given-names></name><name><surname>Mann</surname><given-names>M.</given-names></name><name><surname>Sorescu</surname><given-names>D.A.</given-names></name><name><surname>Richter</surname><given-names>A.S.</given-names></name><name><surname>Lott</surname><given-names>S.</given-names></name><name><surname>Kleinkauf</surname><given-names>R.</given-names></name><name><surname>Hess</surname><given-names>W.R.</given-names></name><name><surname>Backofen</surname><given-names>R.</given-names></name></person-group>
+<article-title>Coprarna and intarna: Predicting small RNA targets, networks and interaction domains</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2014</year>
+<volume>42</volume>
+<fpage>W119</fpage>
+<lpage>W123</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gku359</pub-id>
+<?supplied-pmid 24838564?><pub-id pub-id-type="pmid">24838564</pub-id></element-citation></ref><ref id="B99-viruses-08-00228"><label>99.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sandgren</surname><given-names>M.</given-names></name><name><surname>Savenkov</surname><given-names>E.I.</given-names></name><name><surname>Valkonen</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>The readthrough region of potato mop-top virus (PMTV) coat protein encoding RNA, the second largest RNA of PMTV genome, undergoes structural changes in naturally infected and experimentally inoculated plants</article-title>
+<source>Arch. Virol.</source>
+<year>2001</year>
+<volume>146</volume>
+<fpage>467</fpage>
+<lpage>477</lpage>
+<pub-id pub-id-type="doi">10.1007/s007050170156</pub-id>
+<?supplied-pmid 11338384?><pub-id pub-id-type="pmid">11338384</pub-id></element-citation></ref><ref id="B100-viruses-08-00228"><label>100.</label><element-citation publication-type="commun">
+<person-group person-group-type="author"><name><surname>Dall&#x02019;Ara</surname><given-names>M.</given-names></name><aff>(University of Bologna, Bologna, Italy)</aff><name><surname>Ratti</surname><given-names>C.</given-names></name><aff>(University of Bologna, Bologna, Italy)</aff><name><surname>Bouzoubaa</surname><given-names>S.E.</given-names></name><aff>(University of Strasbourg, Strasbourg, France)</aff><name><surname>Gilmer</surname><given-names>D.</given-names></name><aff>(University of Strasbourg, Strasbourg, France)</aff></person-group>
+<source>Personal communication</source>
+<year>2016</year>
+</element-citation></ref><ref id="B101-viruses-08-00228"><label>101.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Iranzo</surname><given-names>J.</given-names></name><name><surname>Manrubia</surname><given-names>S.C.</given-names></name></person-group>
+<article-title>Evolutionary dynamics of genome segmentation in multipartite viruses</article-title>
+<source>Proc. Biol. Sci.</source>
+<year>2012</year>
+<volume>279</volume>
+<fpage>3812</fpage>
+<lpage>3819</lpage>
+<pub-id pub-id-type="doi">10.1098/rspb.2012.1086</pub-id>
+<?supplied-pmid 22764164?><pub-id pub-id-type="pmid">22764164</pub-id></element-citation></ref><ref id="B102-viruses-08-00228"><label>102.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lu</surname><given-names>M.J.</given-names></name><name><surname>Henning</surname><given-names>U.</given-names></name></person-group>
+<article-title>Superinfection exclusion by T-even-type coliphages</article-title>
+<source>Trends Microbiol.</source>
+<year>1994</year>
+<volume>2</volume>
+<fpage>137</fpage>
+<lpage>139</lpage>
+<pub-id pub-id-type="doi">10.1016/0966-842X(94)90601-7</pub-id>
+<pub-id pub-id-type="pmid">8012757</pub-id></element-citation></ref><ref id="B103-viruses-08-00228"><label>103.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roy</surname><given-names>N.</given-names></name><name><surname>Pacini</surname><given-names>G.</given-names></name><name><surname>Berlioz-Torrent</surname><given-names>C.</given-names></name><name><surname>Janvier</surname><given-names>K.</given-names></name></person-group>
+<article-title>Mechanisms underlying HIV-1 Vpu-mediated viral egress</article-title>
+<source>Front. Microbiol.</source>
+<year>2014</year>
+<volume>5</volume>
+<fpage>177</fpage>
+<pub-id pub-id-type="doi">10.3389/fmicb.2014.00177</pub-id>
+<?supplied-pmid 24822052?><pub-id pub-id-type="pmid">24822052</pub-id></element-citation></ref><ref id="B104-viruses-08-00228"><label>104.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tromas</surname><given-names>N.</given-names></name><name><surname>Zwart</surname><given-names>M.P.</given-names></name><name><surname>Lafforgue</surname><given-names>G.</given-names></name><name><surname>Elena</surname><given-names>S.F.</given-names></name></person-group>
+<article-title>Within-host spatiotemporal dynamics of plant virus infection at the cellular level</article-title>
+<source>PLoS Genet.</source>
+<year>2014</year>
+<volume>10</volume>
+<elocation-id>228</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1004186</pub-id>
+<?supplied-pmid 24586207?><pub-id pub-id-type="pmid">24586207</pub-id></element-citation></ref><ref id="B105-viruses-08-00228"><label>105.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mahmood</surname><given-names>T.</given-names></name><name><surname>Rush</surname><given-names>C.</given-names></name></person-group>
+<article-title>Evidence of cross-protection between beet soilborne mosaic virus and beet necrotic yellow vein virus in sugar beet</article-title>
+<source>Plant Dis.</source>
+<year>1999</year>
+<volume>83</volume>
+<fpage>521</fpage>
+<lpage>526</lpage>
+<pub-id pub-id-type="doi">10.1094/PDIS.1999.83.6.521</pub-id>
+</element-citation></ref><ref id="B106-viruses-08-00228"><label>106.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ratti</surname><given-names>C.</given-names></name><name><surname>Hleibieh</surname><given-names>K.</given-names></name><name><surname>Bianchi</surname><given-names>L.</given-names></name><name><surname>Schirmer</surname><given-names>A.</given-names></name><name><surname>Autonell</surname><given-names>C.R.</given-names></name><name><surname>Gilmer</surname><given-names>D.</given-names></name></person-group>
+<article-title>Beet soil-borne mosaic virus RNA-3 is replicated and encapsidated in the presence of BNYVV RNA-1 and -2 and allows long distance movement in <italic>Beta macrocarpa</italic></article-title>
+<source>Virology</source>
+<year>2009</year>
+<volume>385</volume>
+<fpage>392</fpage>
+<lpage>399</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virol.2008.12.013</pub-id>
+<?supplied-pmid 19141358?><pub-id pub-id-type="pmid">19141358</pub-id></element-citation></ref></ref-list></back><floats-group><fig id="viruses-08-00228-f001" position="float"><label>Figure 1</label><caption><p>Schematic representation of the initial infection (red thunderbolt) and its progression (red lines and arrows) within a source leaf of an infected plant. Infectious material passes through plasmodesmata (Pd, double green ovals) from mesophyll (ME), bundle sheath (BS), vascular parenchyma (VP) to companion cells (CC) to access sieve elements (SE) and reach the distant tissues. A reverse route occurs in the upper leaves (sink leaf) or roots (not represented). Right panels show leaf venation and illustrate viral phloem loading and unloading through minor and major veins of source and sink leaves. X, Xyleme; I&#x02212;V: vein classes.</p></caption><graphic xlink:href="viruses-08-00228-g001"/></fig><fig id="viruses-08-00228-f002" position="float"><label>Figure 2</label><caption><p>Simplified representation of replication cycle and movement of Beet necrotic yellow vein virus (BNYVV) used as model. The four genomic RNAs of the segmented helical virus (1) are expressed and amplified (2). On this scheme the RNA-RNA interaction network between genomic segments (3 and 4), stabilized by viral proteins, allows the preservation of genome integrity during long-distance movement (5) in the sieve elements (blue shaded). In particular the presence of the coat protein (CP) and the viral suppressors of RNA silencing (VSR) is necessary for their systemic movement. Vice versa the genomic RNAs can move cell to cell without the need of the CP expression but require triple gene block (TGB) movement proteins (6). ER: endoplasmic reticulum; CP-RT: coat protein-readthrough; N: Nucleus; RdRp: RNA-dependent RNA polymerase.</p></caption><graphic xlink:href="viruses-08-00228-g002"/></fig><fig id="viruses-08-00228-f003" position="float"><label>Figure 3</label><caption><p>Confrontation of two models describing the long-distance movement of multipartite RNA viruses using the BNYVV as an example. The bottom of the graphic represents the progression of an initial infection of mesophyll cells, wherein the infection progresses thanks to the individual cell-to-cell movement of viral RNAs, driven by TGB movement proteins (1) or as ribonucleoprotein (RNP) complexes involving RNA-RNA network between genomic segments (2). In the sieve elements (blue), the virion (3) or the RNP complexes (4) are transported through plasmodesmata thanks to the viral proteins. RNP complexes, driving the export of the viral genomic RNA network, could provide each distant cell with an entire and fully functional genome (<bold>5</bold>). Virions (or single viral RNAs, not presented) are transported in the sieve elements and are randomly distributed in the distant cells (<bold>6</bold>). Only the combination providing one of each viral particle (or RNA) is able to initiate an infection that preserves the genome integrity (<bold>7</bold>). The particles (or RNA) entering cells without the entire genome are either deficient for replication (not shown) or unable to move from cell to cell and express the VSR, leading to the trigger of RNA silencing (<bold>8</bold>).</p></caption><graphic xlink:href="viruses-08-00228-g003"/></fig><fig id="viruses-08-00228-f004" position="float"><label>Figure 4</label><caption><p>Fluorescence profile of a <italic>C. quinoa</italic> local lesion observed 7 days post infection after rub-inoculation of BNYVV RNA1 and RNA2 supplemented with a mixture of two replicons derived from BSBMV and BNYVV RNA3s, expressing monomeric red fluorescent protein (mRFP) and enhanced green fluorescent protein (EGFP), respectively. This image illustrates the existence of an exclusion mechanism for similar but distinct RNA species during the progression of the infection, with both replicons being able to be encapsidated by BNYVV CP (details are described in Ratti et al., 2009 [<xref rid="B104-viruses-08-00228" ref-type="bibr">104</xref>]).</p></caption><graphic xlink:href="viruses-08-00228-g004"/></fig></floats-group></article>

@@ -1,0 +1,926 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d1 20130915//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Life (Basel)</journal-id><journal-id journal-id-type="iso-abbrev">Life (Basel)</journal-id><journal-id journal-id-type="publisher-id">life</journal-id><journal-title-group><journal-title>Life</journal-title></journal-title-group><issn pub-type="epub">2075-1729</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4284476</article-id><article-id pub-id-type="pmid">25513762</article-id><article-id pub-id-type="doi">10.3390/life4040944</article-id><article-id pub-id-type="publisher-id">life-04-00944</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Regulation of Three Nitrogenase Gene Clusters in the Cyanobacterium <italic>Anabaena variabilis</italic> ATCC 29413</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Thiel</surname><given-names>Teresa</given-names></name><xref rid="c1-life-04-00944" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Pratte</surname><given-names>Brenda S.</given-names></name></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Meeks</surname><given-names>John C.</given-names></name><role>External Editor</role></contrib><contrib contrib-type="editor"><name><surname>Haselkorn</surname><given-names>Robert</given-names></name><role>External Editor</role></contrib></contrib-group><aff id="af1-life-04-00944">Department of Biology, University of Missouri&#x02013;St. Louis, St. Louis, MO 63121, USA; E-Mail: <email>pratteb@umsl.edu</email></aff><author-notes><corresp id="c1-life-04-00944"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>thiel@umsl.edu</email>; Tel.: +1-314-516-6208; Fax: +1-314-516-6233.</corresp></author-notes><pub-date pub-type="epub"><day>11</day><month>12</month><year>2014</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2014</year></pub-date><volume>4</volume><issue>4</issue><fpage>944</fpage><lpage>967</lpage><history><date date-type="received"><day>17</day><month>10</month><year>2014</year></date><date date-type="rev-recd"><day>21</day><month>11</month><year>2014</year></date><date date-type="accepted"><day>04</day><month>12</month><year>2014</year></date></history><permissions><copyright-statement>&#x000a9; 2014 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2014</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>The filamentous cyanobacterium <italic>Anabaena variabilis</italic> ATCC 29413 fixes nitrogen under aerobic conditions in specialized cells called heterocysts that form in response to an environmental deficiency in combined nitrogen. Nitrogen fixation is mediated by the enzyme nitrogenase, which is very sensitive to oxygen. Heterocysts are microxic cells that allow nitrogenase to function in a filament comprised primarily of vegetative cells that produce oxygen by photosynthesis. <italic>A. variabilis</italic> is unique among well-characterized cyanobacteria in that it has three nitrogenase gene clusters that encode different nitrogenases, which function under different environmental conditions. The <italic>nif1</italic> genes encode a Mo-nitrogenase that functions only in heterocysts, even in filaments grown anaerobically. The <italic>nif2</italic> genes encode a different Mo-nitrogenase that functions in vegetative cells, but only in filaments grown under anoxic conditions. An alternative V-nitrogenase is encoded by <italic>vnf</italic> genes that are expressed only in heterocysts in an environment that is deficient in Mo. Thus, these three nitrogenases are expressed differentially in response to environmental conditions. The entire <italic>nif1</italic> gene cluster, comprising at least 15 genes, is primarily under the control of the promoter for the first gene, <italic>nifB1</italic>. Transcriptional control of many of the downstream <italic>nif1</italic> genes occurs by a combination of weak promoters within the coding regions of some downstream genes and by RNA processing, which is associated with increased transcript stability. The <italic>vnf</italic> genes show a similar pattern of transcriptional and post-transcriptional control of expression suggesting that the complex pattern of regulation of the <italic>nif1</italic> cluster is conserved in other cyanobacterial nitrogenase gene clusters.</p></abstract><kwd-group><kwd>mRNA processing</kwd><kwd><italic>Anabaena</italic></kwd><kwd>cyanobacteria</kwd><kwd>nitrogenase</kwd><kwd>V-nitrogenase</kwd><kwd>regulation</kwd></kwd-group></article-meta></front><body><sec><title>1. Introduction </title><p>Filamentous heterocyst-forming cyanobacteria fix atmospheric nitrogen to ammonium under oxic growth conditions. Nitrogen fixation occurs in specialized cells called heterocysts that differentiate at regular intervals in a filament in response to an environment that is deficient in fixed nitrogen [<xref rid="B1-life-04-00944" ref-type="bibr">1</xref>,<xref rid="B2-life-04-00944" ref-type="bibr">2</xref>,<xref rid="B3-life-04-00944" ref-type="bibr">3</xref>,<xref rid="B4-life-04-00944" ref-type="bibr">4</xref>]. Heterocysts, which comprise 5%&#x02013;10% of the cells in a filament, have a glycolipid layer that may restrict oxygen diffusion into the cell, lack oxygen-evolving photosystem II activity, and have increased respiration, all of which serve to protect nitrogenase from oxygen [<xref rid="B5-life-04-00944" ref-type="bibr">5</xref>,<xref rid="B6-life-04-00944" ref-type="bibr">6</xref>,<xref rid="B7-life-04-00944" ref-type="bibr">7</xref>,<xref rid="B8-life-04-00944" ref-type="bibr">8</xref>,<xref rid="B9-life-04-00944" ref-type="bibr">9</xref>]. <italic>Anabaena variabilis</italic> is unusual among the heterocyst-forming cyanobacteria in that it has three nitrogenases, which are expressed in cultures grown in different environmental conditions (reviewed in [<xref rid="B10-life-04-00944" ref-type="bibr">10</xref>]). No other well-characterized cyanobacterial strain has three nitrogenases; in fact, no other characterized strain has even two. The primary nitrogenase that is expressed in cultures growing in an oxic environment that is deficient in fixed nitrogen but has adequate molybdate is the heterocyst-specific Mo-nitrogenase encoded by the <italic>nif1</italic> genes [<xref rid="B11-life-04-00944" ref-type="bibr">11</xref>,<xref rid="B12-life-04-00944" ref-type="bibr">12</xref>]. In an oxic environment that is low in fixed nitrogen and molybdate, but with vanadate, <italic>A. variabilis</italic> synthesizes an alternative, heterocyst-specific V-nitrogenase, encoded by the <italic>vnf</italic> genes [<xref rid="B11-life-04-00944" ref-type="bibr">11</xref>,<xref rid="B13-life-04-00944" ref-type="bibr">13</xref>]. The third nitrogenase, a Mo-nitrogenase, encoded by the <italic>nif2</italic> genes is made in vegetative cells only under anoxic growth conditions in an environment that is low in fixed nitrogen with molybdate [<xref rid="B14-life-04-00944" ref-type="bibr">14</xref>,<xref rid="B15-life-04-00944" ref-type="bibr">15</xref>,<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>]. Synthesis of all three nitrogenases is repressed in cells grown with a source of fixed nitrogen.</p><p>Nitrogenase activity, which requires the expression of at least a dozen genes, is found late in the differentiation process, after the heterocyst becomes microoxic [<xref rid="B10-life-04-00944" ref-type="bibr">10</xref>]. The assembly of nitrogenase is a complex process requiring highly conserved proteins that are found in large <italic>nif</italic> clusters in all nitrogen-fixing bacteria. NifD (&#x003b1;-subunit) and NifK (&#x003b2;-subunit) are the two subunits of dinitrogenase, forming a heterotetrameric enzyme with two FeMo-cofactors [7Fe-9S-Mo-C-homocitrate] [<xref rid="B17-life-04-00944" ref-type="bibr">17</xref>,<xref rid="B18-life-04-00944" ref-type="bibr">18</xref>,<xref rid="B19-life-04-00944" ref-type="bibr">19</xref>,<xref rid="B20-life-04-00944" ref-type="bibr">20</xref>,<xref rid="B21-life-04-00944" ref-type="bibr">21</xref>]. NifH, with a [Fe<sub>4</sub>-S<sub>4</sub>] cofactor, transfers electrons to the dinitrogenase [<xref rid="B22-life-04-00944" ref-type="bibr">22</xref>]. NifS transfers sulfur from cysteine to NifU [<xref rid="B23-life-04-00944" ref-type="bibr">23</xref>], which acts as a scaffolding protein for [Fe-S] cluster assembly [<xref rid="B19-life-04-00944" ref-type="bibr">19</xref>,<xref rid="B24-life-04-00944" ref-type="bibr">24</xref>]. The [Fe-S] clusters are transferred to NifB to make NifB-co, a [Fe<sub>6</sub>-S<sub>9</sub>] cluster that serves as the precursor to FeMo-cofactor [<xref rid="B25-life-04-00944" ref-type="bibr">25</xref>,<xref rid="B26-life-04-00944" ref-type="bibr">26</xref>]. NifE and NifN, a heterotetrameric complex with some similarity to NifD and NifK, respectively, function as a scaffold for FeMo-cofactor assembly, prior to its transfer to apo-nitrogenase [<xref rid="B19-life-04-00944" ref-type="bibr">19</xref>,<xref rid="B27-life-04-00944" ref-type="bibr">27</xref>]). NifW is thought to bind MoFe protein and to help with homocitrate processing [<xref rid="B28-life-04-00944" ref-type="bibr">28</xref>]. NifX serves as a transient reservoir of FeMo-cofactor [<xref rid="B29-life-04-00944" ref-type="bibr">29</xref>]. NifZ aids in P-cluster assembly [<xref rid="B30-life-04-00944" ref-type="bibr">30</xref>,<xref rid="B31-life-04-00944" ref-type="bibr">31</xref>] while NifV makes homocitrate, a component of FeMo-cofactor [<xref rid="B19-life-04-00944" ref-type="bibr">19</xref>]. Missing in cyanobacteria are the genes for NifQ, the Mo donor to FeMo-cofactor [<xref rid="B32-life-04-00944" ref-type="bibr">32</xref>], NifM, which stabilizes NifH [<xref rid="B33-life-04-00944" ref-type="bibr">33</xref>,<xref rid="B34-life-04-00944" ref-type="bibr">34</xref>], and NafY, which stabilizes the open conformation of apo-MoFe protein prior to the insertion of FeMo-cofactor [<xref rid="B35-life-04-00944" ref-type="bibr">35</xref>,<xref rid="B36-life-04-00944" ref-type="bibr">36</xref>]. NifP is a serine acetyltransferase that is thought to aid in expression of nitrogenase activity [<xref rid="B37-life-04-00944" ref-type="bibr">37</xref>]. NifT/FixU is a very small, conserved protein that is found in <italic>nif</italic> clusters; however, its function is unknown [<xref rid="B38-life-04-00944" ref-type="bibr">38</xref>,<xref rid="B39-life-04-00944" ref-type="bibr">39</xref>]. In <italic>Anabaena</italic> sp. PCC 7120, NifJ, pyruvate-flavodoxin dehydrogenase is required for nitrogen fixation under iron-limiting conditions [<xref rid="B40-life-04-00944" ref-type="bibr">40</xref>].</p><p>The alternative V-nitrogenase comprises two VnfD (&#x003b1;-subunit), <italic>two</italic> VnfK (&#x003b2;-subunit) and four &#x003b4;-subunits, VnfG, forming a heterooctomeric enzyme with two FeV-cofactors [<xref rid="B41-life-04-00944" ref-type="bibr">41</xref>,<xref rid="B42-life-04-00944" ref-type="bibr">42</xref>,<xref rid="B43-life-04-00944" ref-type="bibr">43</xref>]. Like NifH, VnfH, with a [Fe<sub>4</sub>-S<sub>4</sub>] cofactor transfers electrons to dinitrogenase. The V-nitrogenase shows different efficiency in substrate interactions than the Mo-nitrogenase; it is relatively inefficient in reducing dinitrogen and thus produces more hydrogen than the Mo-nitrogenase and, unlike the Mo-nitrogenase, it can reduce ethylene to ethane [<xref rid="B44-life-04-00944" ref-type="bibr">44</xref>]. Because it is an inefficient nitrogenase and produces hydrogen, the V-nitrogenase of <italic>A.</italic><italic>variabilis</italic> has been used to produce hydrogen in an outdoor bioreactor [<xref rid="B45-life-04-00944" ref-type="bibr">45</xref>].</p><p>In the Proteobacteria, the <italic>nif</italic> genes are structured into multiple operons, including <italic>nifHDK</italic>, encoding the structural proteins of nitrogenase, <italic>nifBQ</italic>, producing the proteins required for FeMo-cofactor assembly, <italic>nifUVSM</italic>, whose products are needed for Fe-S cluster formation, and <italic>nifENX</italic>, encoding scaffolding proteins for the assembly of the nitrogenase complex [<xref rid="B46-life-04-00944" ref-type="bibr">46</xref>,<xref rid="B47-life-04-00944" ref-type="bibr">47</xref>]. In the Proteobacteria, <italic>nif</italic> genes are under the control of the NtrBC nitrogen regulatory system, which controls synthesis of the regulatory proteins, NifA and NifL [<xref rid="B48-life-04-00944" ref-type="bibr">48</xref>]. Activation of <italic>nif</italic> genes in the absence of oxygen and fixed nitrogen requires NifA, as well as the alternative &#x003c3;<sup>54</sup> RNA polymerase [<xref rid="B48-life-04-00944" ref-type="bibr">48</xref>]. Similarly, the <italic>vnf</italic> genes of <italic>Azotobacter</italic>
+<italic>vinelandii</italic> are controlled by the activator VnfA [<xref rid="B49-life-04-00944" ref-type="bibr">49</xref>,<xref rid="B50-life-04-00944" ref-type="bibr">50</xref>].</p><p>In nitrogen-fixing cyanobacteria there are no homologues of NtrBC, NifA or NifL and there is no homologue of VnfA in <italic>A. variabilis</italic>. The global nitrogen regulatory protein, NtcA, is required for nitrogen fixation in heterocyst-forming cyanobacteria; however, it is also required for heterocyst formation so its role in activation of nitrogen fixation genes is not yet known [<xref rid="B4-life-04-00944" ref-type="bibr">4</xref>,<xref rid="B51-life-04-00944" ref-type="bibr">51</xref>,<xref rid="B52-life-04-00944" ref-type="bibr">52</xref>]. While no sigma factor specifically associated with nitrogen regulation, like the &#x003c3;<sup>54</sup> factor in Proteobacteria, has been identified in cyanobacteria, the sigma factor encoded by <italic>sigE</italic> is important, but not essential, for expression of the <italic>nif</italic> genes in <italic>Anabaena</italic> sp. PCC 7120 [<xref rid="B53-life-04-00944" ref-type="bibr">53</xref>].</p><p>In <italic>A. variabilis</italic>, and in most nitrogen-fixing cyanobacteria whose genomes have been sequenced, the <italic>nif</italic> gene clusters comprise, in the same order, <italic>nifB</italic>, <italic>fdxN</italic>, <italic>nifS</italic>, <italic>nifU</italic>, <italic>nifH</italic>, <italic>nifD</italic>, <italic>nifK</italic>, <italic>nifE</italic>, <italic>nifN</italic>, <italic>nifX</italic>, and <italic>nifW</italic>. All <italic>nif</italic> clusters also have <italic>hesAB</italic> and <italic>fdxH</italic> as well as several conserved unidentified ORFs [<xref rid="B54-life-04-00944" ref-type="bibr">54</xref>]. In <italic>A. variabilis</italic> and in <italic>Anabaena</italic> sp. PCC 7120, the <italic>nifD</italic> gene is interrupted by an 11-kb element that is removed from the chromosome of heterocysts by an excisase, XisA, late in heterocyst differentiation [<xref rid="B55-life-04-00944" ref-type="bibr">55</xref>,<xref rid="B56-life-04-00944" ref-type="bibr">56</xref>,<xref rid="B57-life-04-00944" ref-type="bibr">57</xref>]. Transcription of the <italic>nif</italic> genes was first reported over 30 years ago [<xref rid="B58-life-04-00944" ref-type="bibr">58</xref>,<xref rid="B59-life-04-00944" ref-type="bibr">59</xref>]; however, little progress has been made in identifying key regulatory mechanisms. It has been assumed, based on Northern blot results and the assumed similarity to Proteobacteria, that the large <italic>nif</italic> cluster in cyanobacteria comprises several distinct operons: <italic>nifB-fdxN-nifS-nifU</italic> [<xref rid="B58-life-04-00944" ref-type="bibr">58</xref>,<xref rid="B60-life-04-00944" ref-type="bibr">60</xref>], <italic>nifHDK</italic> [<xref rid="B59-life-04-00944" ref-type="bibr">59</xref>,<xref rid="B61-life-04-00944" ref-type="bibr">61</xref>,<xref rid="B62-life-04-00944" ref-type="bibr">62</xref>], as well as <italic>hesAB</italic> [<xref rid="B63-life-04-00944" ref-type="bibr">63</xref>], <italic>fdxH</italic> [<xref rid="B64-life-04-00944" ref-type="bibr">64</xref>] and, by default, <italic>nifENXW</italic>. In addition to the large conserved cluster, <italic>nifP</italic> is located just upstream of the <italic>nifVZT</italic> operon [<xref rid="B39-life-04-00944" ref-type="bibr">39</xref>]. In <italic>A.</italic>
+<italic>variabilis</italic>, <italic>nifP</italic> is located about 11 kb downstream from the 3' end of the large <italic>nif1</italic> cluster. The best evidence for <italic>nif</italic> promoters in <italic>Anabaena</italic> are for those genes in which the apparent transcription start sites have been mapped. These include <italic>nifB</italic> [<xref rid="B58-life-04-00944" ref-type="bibr">58</xref>,<xref rid="B60-life-04-00944" ref-type="bibr">60</xref>,<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B66-life-04-00944" ref-type="bibr">66</xref>,<xref rid="B67-life-04-00944" ref-type="bibr">67</xref>], <italic>nifH</italic> [<xref rid="B58-life-04-00944" ref-type="bibr">58</xref>,<xref rid="B68-life-04-00944" ref-type="bibr">68</xref>], <italic>hesA</italic> [<xref rid="B63-life-04-00944" ref-type="bibr">63</xref>,<xref rid="B67-life-04-00944" ref-type="bibr">67</xref>], and <italic>fdxH</italic> [<xref rid="B64-life-04-00944" ref-type="bibr">64</xref>]. Recent work from our lab that is described in more detail here has shown that there is a strong promoter driving <italic>nifB1</italic> and a separate promoter for <italic>hesA1</italic> in <italic>A. variabilis</italic>, but there is no promoter for <italic>nifH1</italic> or <italic>fdxH1</italic> [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>]. While most of the expression of the large cluster of <italic>nif1</italic> genes in <italic>A. variabilis</italic> is driven by the <italic>nifB1</italic> promoter, there are additional weak promoters, including one in the <italic>nifU1</italic> gene and in the <italic>nifE1</italic> gene, that supplement transcription from <italic>nifB1</italic> [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>]. While neither <italic>nifH1</italic> nor <italic>fdxH1</italic> has a promoter, the &#x0201c;transcription start sites&#x0201d; that were mapped upstream of these two genes are actually processed 5' transcript ends, not 5' primary transcription start sites [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>].</p></sec><sec><title>2. Organization and Evolution of <italic>nif</italic>/<italic>vnf</italic> Gene Clusters in <italic>A. variabilis</italic></title><p>The organization of the three nitrogenase gene clusters of <italic>A. variabilis</italic> is shown in <xref ref-type="fig" rid="life-04-00944-f001">Figure 1</xref> [<xref rid="B11-life-04-00944" ref-type="bibr">11</xref>,<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>,<xref rid="B70-life-04-00944" ref-type="bibr">70</xref>]. The nearest relative of the <italic>nif1</italic> cluster of <italic>A. variabilis</italic> is the sole <italic>nif</italic> cluster in <italic>Anabaena</italic> sp. PCC 7120; however, the <italic>nif</italic> cluster in <italic>Anabaena</italic> sp. strain PCC 7120 has a 55-kb excision element in <italic>fdxN</italic> that is not present in <italic>A. variabilis</italic> [<xref rid="B71-life-04-00944" ref-type="bibr">71</xref>,<xref rid="B72-life-04-00944" ref-type="bibr">72</xref>]. The <italic>nif1</italic> cluster is also very similar to the <italic>nif</italic> clusters in other heterocyst-forming cyanobacteria. In <italic>Anabaena</italic> spp., the nitrogenase encoded by these <italic>nif1</italic>-type genes is expressed only in heterocysts, even under anoxic growth conditions [<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>,<xref rid="B73-life-04-00944" ref-type="bibr">73</xref>]. The similarly organized <italic>nif2</italic> cluster in <italic>A. variabilis</italic> is most similar in overall gene organization and gene similarity to the sole <italic>nif</italic> cluster of <italic>Chroococcidiopsis thermalis</italic> PCC 7203, a strain that belongs to a group of unicellular non-heterocystous cyanobacteria that grow in extreme environments and fix nitrogen only under anoxic conditions [<xref rid="B74-life-04-00944" ref-type="bibr">74</xref>]. The similarity of the <italic>nif2</italic> gene cluster to the <italic>nif</italic> cluster in <italic>Chroococcidiopsis thermalis</italic> PCC 7203 is interesting, since the <italic>Chroococcidiopsis</italic> group is the closest relative of the heterocyst-forming cyanobacteria, based on 16S rRNA phylogeny [<xref rid="B75-life-04-00944" ref-type="bibr">75</xref>]. In particular, the unusual fusion of the <italic>nifE</italic> and <italic>nifN</italic> genes into a single gene in the <italic>nif2</italic> cluster and in the <italic>nif</italic> cluster of <italic>C.</italic>
+<italic>thermalis</italic> suggests that these genes have a common ancestor. Another major difference between the <italic>nif1</italic> and <italic>nif2</italic> clusters in <italic>A. variabilis</italic> is the presence of an excision element only in the <italic>nifD1</italic> gene. That excision element is present in most, but not all, of the <italic>nif</italic> clusters in the genomes of sequenced heterocyst-forming cyanobacteria. Although the size of the element and the genes present in these excision elements varies among strains, all of them have a conserved excisase gene that removes the element during heterocyst differentiation, thereby restoring a complete <italic>nifD</italic> gene to produce the &#x003b2;-subunit of nitrogenase [<xref rid="B55-life-04-00944" ref-type="bibr">55</xref>,<xref rid="B72-life-04-00944" ref-type="bibr">72</xref>].</p><fig id="life-04-00944-f001" position="float"><label>Figure 1</label><caption><p>Maps of the three major nitrogenase gene clusters in <italic>A. variabilis</italic>. The 11-kb excision element in <italic>nifD1</italic> is not shown. tss, transcription start site; tps, transcriptional processing site. White ORFs indicate proteins of unknown function.</p></caption><graphic xlink:href="life-04-00944-g001"/></fig><p>In contrast, the organization of the <italic>vnf</italic> genes that encode an alternative V-nitrogenase [<xref rid="B11-life-04-00944" ref-type="bibr">11</xref>] is different from the two <italic>nif</italic> clusters, in part because synthesis and assembly of the V-nitrogenase depends on the products of some of the genes that make the Mo-nitrogenase, notably NifB, NifS, NifU and possibly several of the small proteins such as NifW, HesA, HesB and ferredoxins [<xref rid="B76-life-04-00944" ref-type="bibr">76</xref>]. The <italic>vnf</italic> genes comprise <italic>vnfDG</italic>, a fusion of <italic>vnfD</italic> and <italic>vnfG</italic>, as well as genes <italic>vnfK</italic>, <italic>vnfE</italic> and <italic>vnfN</italic>. Unlike the <italic>vnf</italic> gene cluster in the Proteobacteria, there is no <italic>vnfH</italic> near the <italic>vnfDGKEN</italic> cluster, and in <italic>A. variabilis</italic>, <italic>vnfH</italic> is over 20 kb downstream from <italic>vnfN</italic>, with <italic>vupABC</italic> between <italic>vnfH</italic> and the other structural genes (<xref ref-type="fig" rid="life-04-00944-f001">Figure 1</xref>). Complete cyanobacterial genome sequences [<xref rid="B77-life-04-00944" ref-type="bibr">77</xref>] have revealed strains that have genes very similar to the <italic>vnf</italic> genes of <italic>A. variabilis</italic> [<xref rid="B70-life-04-00944" ref-type="bibr">70</xref>]. <italic>Fremyella diplosiphon</italic> UTEX 481 and <italic>Fischerella muscicola</italic> PCC 7414 have orthologs of <italic>vnfDG</italic>, <italic>vnfK</italic>, <italic>vnfE</italic> and <italic>vnfN</italic> as well as the vanadate transport genes, while <italic>Fischerella</italic> sp. PCC 9339 has orthologs of <italic>vnfDG</italic>, <italic>vnfK</italic>, <italic>vnfE</italic> and <italic>vnfN</italic> but is missing most of the vanadate transport genes. In contrast, <italic>Chlorogleopsis</italic> sp. PCC 7702 has orthologs for the vanadate transport genes, and has most of the structural genes for the V-nitrogenase; however, the fused <italic>vnfDG</italic> gene is missing the <italic>vnfD</italic> portion that encodes the &#x003b1;-subunit of the enzyme, which is essential for dinitrogenase activity. The presence of V-nitrogenase activity has not been confirmed in any of these strains.</p></sec><sec><title>3. Cell-Type Specific Expression of the Three Nitrogenases in <italic>A. variabilis</italic></title><p>In cyanobacteria, the best evidence for cell-type specific gene expression comes from imaging of cells expressing reporter genes such a <italic>gfp</italic>, <italic>luxAB</italic> or <italic>lacZ</italic> fused to cyanobacterial promoters. In our research, we have often used promoter:<italic>lacZ</italic> fusions because it is easy to assay &#x003b2;-galactosidase in the same cultures that are used for imaging and because there is no concern that the microoxic conditions in a mature heterocyst may affect the reporter protein, which might affect levels of GFP [<xref rid="B78-life-04-00944" ref-type="bibr">78</xref>]. It was first shown in <italic>Anabaena</italic> sp. PCC 7120, using a Lux reporter, that the nitrogenase genes were expressed only in heterocysts even under anoxic conditions [<xref rid="B73-life-04-00944" ref-type="bibr">73</xref>]. Similarly, in <italic>A. variabilis</italic> expression of <italic>nifD1</italic>:<italic>lacZ</italic> is confined to heterocysts, whether the cells are grown under oxic or anoxic conditions (<xref ref-type="fig" rid="life-04-00944-f002">Figure 2</xref>), indicating that some aspect of heterocyst development, possibly a heterocyst-specific activator, is required for <italic>nif1</italic> gene expression [<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>].</p><p>In contrast, the <italic>nif2</italic> genes of <italic>A. variabilis</italic> are expressed only in cells grown under anoxic conditions and expression is evident within 4&#x02013;6 h after nitrogen deprivation (<xref ref-type="fig" rid="life-04-00944-f003">Figure 3</xref>, panels A, C) [<xref rid="B14-life-04-00944" ref-type="bibr">14</xref>,<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>]. The <italic>nif2</italic> genes are poorly expressed in the heterocysts that form under anoxic growth conditions, and the &#x003b2;-galactosidase activity seen in the heterocysts (<xref ref-type="fig" rid="life-04-00944-f003">Figure 3</xref>B) may reflect enzyme that was made in the vegetative cell prior to differentiation, rather than <italic>de novo</italic> synthesis in heterocysts. In support of this hypothesis, we observe that expression of the <italic>nif2</italic> genes is restricted to vegetative cells in filaments that are first grown under oxic conditions, to allow heterocysts to form, and then switched to anoxic conditions (<xref ref-type="fig" rid="life-04-00944-f003">Figure 3</xref>, panels C and D) [<xref rid="B15-life-04-00944" ref-type="bibr">15</xref>].</p><p>Expression of the <italic>vnf</italic> genes, like the <italic>nif1</italic> genes, is restricted to heterocysts in cells grown under oxic or anoxic conditions (<xref ref-type="fig" rid="life-04-00944-f004">Figure 4</xref>) [<xref rid="B13-life-04-00944" ref-type="bibr">13</xref>], suggesting that, like the <italic>nif1</italic> cluster, expression of the <italic>vnf</italic> genes depends on a signal that is induced during heterocyst development; however, the <italic>vnf</italic> genes are not expressed unless the cells are starved for molybdate (<xref ref-type="fig" rid="life-04-00944-f005">Figure 5</xref> and <xref ref-type="fig" rid="life-04-00944-f006">Figure 6</xref>) [<xref rid="B79-life-04-00944" ref-type="bibr">79</xref>]. The fact that the V-nitrogenase requires NifB1 and possibly other gene products in the <italic>nif1</italic> cluster [<xref rid="B76-life-04-00944" ref-type="bibr">76</xref>] is also consistent with the heterocyst-specific expression of the <italic>vnf</italic> genes.</p><fig id="life-04-00944-f002" position="float"><label>Figure 2</label><caption><p>Oxic <italic>vs.</italic> anoxic expression of &#x003b2;-galactosidase in a <italic>nifD1:lacZ</italic> fusion strain. Cells grown in the absence of fixed N with oxygen; fluorescence from cleavage of fluorescein-&#x003b2;-<sc>d</sc>-galactopyranoside photographed without red cut-off filter (<bold>A</bold>); or with red cut-off filter (<bold>B</bold>); Cells grown in the absence of fixed N without oxygen; fluorescence from cleavage of fluorescein-&#x003b2;-<sc>d</sc>-galactopyranoside photographed without red cut-off filter (<bold>C</bold>); or with red cut-off filter (<bold>D</bold>). Arrows indicate heterocysts identified by bright field microscopy. Bar = 10 &#x003bc;M. Reproduced from [<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>] with permission.</p></caption><graphic xlink:href="life-04-00944-g002"/></fig><fig id="life-04-00944-f003" position="float"><label>Figure 3</label><caption><p>Anoxic &#x003b2;-galactosidase expression in a <italic>nif2:lacZ</italic> fusion strain. Panels (<bold>A</bold>) and (<bold>B</bold>): Cells with a <italic>nifD2:lacZ</italic> fusion were grown in the absence of fixed N, without oxygen; fluorescence from cleavage of fluorescein-&#x003b2;-<sc>d</sc>-galactopyranoside was photographed with red cut-off filter 6 h (A), or 24 h (B) after removal of fixed N. Arrows indicate heterocysts identified by bright field microscopy. Panels (<bold>C</bold>) and (<bold>D</bold>): Cells with a <italic>nifD2:lacZ</italic> fusion, grown for 48 h under oxic conditions without fixed N (to induce expression of the Nif1 nitrogenase) were then shifted to anoxic conditions for 4 h to induce expression of <italic>nifD2</italic>. Fluorescence from cleavage of fluorescein-&#x003b2;-<sc>d</sc>-galactopyranoside was photographed with a red cut-off filter (A). Light micrograph (D). Bar = 10 &#x003bc;M. Panels (A) and (B) are reproduced from [<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>] and panels (C) and (D) are reproduced from [<xref rid="B15-life-04-00944" ref-type="bibr">15</xref>], with permissions.</p></caption><graphic xlink:href="life-04-00944-g003"/></fig><fig id="life-04-00944-f004" position="float"><label>Figure 4</label><caption><p><italic>In situ</italic> localization of expression of <italic>lacZ</italic> under the control of the <italic>vnfH</italic> promoter. Strain BP272 (<italic>vnfH:lacZ</italic> fusion) was grown with fructose, in the absence of molybdate, with vanadate, under oxic (+O<sub>2</sub>) or anoxic (&#x02212;O<sub>2</sub>) conditions. (<bold>A</bold>) Light micrographs; (<bold>B</bold>) Fluorescence from cleavage of fluorescein-&#x003b2;-<sc>d</sc>-galactopyranoside was photographed with a red cut-off filter. H = heterocysts. Bar = 10 &#x000b5;M. Reproduced from [<xref rid="B15-life-04-00944" ref-type="bibr">15</xref>] with permission.</p></caption><graphic xlink:href="life-04-00944-g004"/></fig><fig id="life-04-00944-f005" position="float"><label>Figure 5</label><caption><p><italic>In situ</italic> localization of (<bold>A</bold>) <italic>nifH1</italic> expression and (<bold>B</bold>) <italic>vnfDG</italic> expression. Cells of strain BP221, with <italic>lacZ</italic> fused to the promoter region of <italic>nifH1</italic> (A), or BP193, with <italic>lacZ</italic> fused to the promoter region of <italic>vnfDG</italic>, were grown in AA/8 medium, with or without 1.0 &#x003bc;M molybdate or 1.0 &#x003bc;M vanadate or with 5.0 mM NH<sub>4</sub>Cl and 10 mM TES, pH 7.2. &#x003b2;-galactosidase activity was visualized using fluorescein-&#x003b2;-<sc>d</sc>-galactopyranoside. Top panels are bright field images showing heterocysts (H). Bottom panels show fluorescein fluorescence. Reproduced from [<xref rid="B80-life-04-00944" ref-type="bibr">80</xref>] with permission.</p></caption><graphic xlink:href="life-04-00944-g005"/></fig><fig id="life-04-00944-f006" position="float"><label>Figure 6</label><caption><p><italic>In situ</italic> localization of expression of <italic>vnfDG</italic>. The <italic>vnfDG</italic> gene was replaced in the chromosome by <italic>lacZ</italic>, in a <italic>vnfR1</italic> mutant (RS58), in a <italic>vnfR2</italic> mutant (RS57), in a <italic>vnfR1</italic>
+<italic>vnfR2</italic> double mutant (RS59) or in a wild-type background (LK23). &#x003b2;-galactosidase was visualized with a fluorescent substrate in cells grown with V (no Mo) or with Mo. Left panels are bright field images while the right panels are fluorescence images of the same field. Arrows indicate heterocysts. Reproduced from [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>], with permission.</p></caption><graphic xlink:href="life-04-00944-g006"/></fig></sec><sec><title>4. Metal Transport and Its Effect on Nitrogenase Gene Expression</title><p>In many bacteria, including <italic>Escherichia coli</italic>, <italic>Rhodobacter</italic>
+<italic>capsulatus</italic> and <italic>Azotobacter</italic>
+<italic>vinelandii</italic>, high-affinity molybdate transport is mediated by an ABC-type transport system encoded by <italic>modABC</italic> genes [<xref rid="B82-life-04-00944" ref-type="bibr">82</xref>,<xref rid="B83-life-04-00944" ref-type="bibr">83</xref>,<xref rid="B84-life-04-00944" ref-type="bibr">84</xref>,<xref rid="B85-life-04-00944" ref-type="bibr">85</xref>]. ModA is the periplasmic component that binds molybdate, ModB is the transmembrane component of the permease, while ModC provides the energy from the cytoplasmic side of the membrane. Transcription of the <italic>modABC</italic> operon of <italic>E. coli</italic> is negatively regulated by dimers of ModE that are bound with four molecules of molybdate [<xref rid="B86-life-04-00944" ref-type="bibr">86</xref>]. A high-affinity molybdate transport system in <italic>A. variabilis</italic>, with a <italic>K<sub>m</sub></italic> for transport of molybdate of about 0.3 nM, is encoded by genes <italic>modA</italic> and fused genes <italic>modBC</italic> [<xref rid="B79-life-04-00944" ref-type="bibr">79</xref>,<xref rid="B87-life-04-00944" ref-type="bibr">87</xref>] that are located 2.7 Mb apart in the 6.36 Mb chromosome [<xref rid="B70-life-04-00944" ref-type="bibr">70</xref>]. Mutants in this transport system cannot fix nitrogen unless molybdate is supplied at high concentrations (about 1 mM) or unless vanadate is supplied to allow assembly of the V-nitrogenase [<xref rid="B79-life-04-00944" ref-type="bibr">79</xref>]. Cells starved for molybdate and vanadate express the <italic>nif1</italic> and <italic>vnf</italic> nitrogenase genes in heterocysts (<xref ref-type="fig" rid="life-04-00944-f005">Figure 5</xref>); however, because they cannot make nitrogenase, these nitrogen-starved cells produce a very high frequency of heterocysts and overexpress the nitrogenase genes. The addition of vanadate to Mo-starved cells has no effect on the expression of the <italic>nif1</italic> genes, while the addition of molybdate, which allows the Mo-nitrogenase to function, turns off expression of the <italic>vnf</italic> genes, but also decreases <italic>nif1</italic> gene expression and reduces heterocyst frequency compared to the Mo-starved cells (<xref ref-type="fig" rid="life-04-00944-f005">Figure 5</xref>). In contrast, the <italic>vnf</italic> genes are expressed only in the absence of molybdate, with or without vanadate [<xref rid="B13-life-04-00944" ref-type="bibr">13</xref>]. NifH1, which is made in cells starved for molybdate, can substitute for VnfH in a <italic>vnfH</italic> mutant strain [<xref rid="B13-life-04-00944" ref-type="bibr">13</xref>]. Further, in a strain with a <italic>vnfH</italic> promoter mutation that allows <italic>vnfH</italic> to be expressed in cells grown with molybdate, VnfH can substitute for NifH1 when that strain has a <italic>nifH1</italic> mutation. Thus, the two dinitrogenase reductases for the Mo-nitrogenase and the V-nitrogenase in heterocysts are able to function in place of each other suggesting that they are not involved in determining the metal specificity of these two nitrogenases [<xref rid="B13-life-04-00944" ref-type="bibr">13</xref>]. This has not been shown <italic>in vivo</italic> for any other organism; however, using the nitrogenase for <italic>A. vinelandii</italic>, it has been shown <italic>in vitro</italic> that VnfH can replace NifH for the synthesis of the FeMo-cofactor and for maturation of the Mo-nitrogenase [<xref rid="B88-life-04-00944" ref-type="bibr">88</xref>].</p><p>Between the <italic>vnfDGKEN</italic> and <italic>vnfH</italic> genes in the <italic>A. variabilis</italic> genome are the <italic>vupABC</italic> genes encoding the vanadate transport system that supplies vanadate for the V-nitrogenase [<xref rid="B89-life-04-00944" ref-type="bibr">89</xref>] (<xref ref-type="fig" rid="life-04-00944-f001">Figure 1</xref>). The high-affinity vanadate transport system, with a K<sub>m</sub> of about 3 nM is, to date, the only vanadate transporter that has been characterized. The vanadate transport genes, like the V-nitrogenase genes, are repressed by molybdate [<xref rid="B89-life-04-00944" ref-type="bibr">89</xref>]. These genes are most similar to the tungstate transport genes of <italic>Eubacterium</italic>
+<italic>acidaminophilum</italic>. Similar genes are not present in the complete genomes of other bacterial strains that are known to have a V-nitrogenase, including <italic>A. vinelandii, Rhodopseudomonas palustris,</italic> and <italic>Methanosarcina barkeri</italic>, although the complete genome sequences of the cyanobacteria <italic>Fremyella</italic>
+<italic>diplosiphon</italic> UTEX 481, <italic>Chlorogloeopsis</italic> sp. PCC 7702, and <italic>Fischerella</italic>
+<italic>muscicola</italic> PCC 7414 have orthologs of the vanadate transport genes.</p><p>When <italic>A. variabilis</italic> is grown in a medium without fixed nitrogen and with less than 1.0 nM Mo and V, the cells become starved for both metals; however, slow growth continues, accompanied by low levels of nitrogen fixation [<xref rid="B80-life-04-00944" ref-type="bibr">80</xref>]. This slow growth is abolished in a <italic>nifDK1</italic> mutant lacking the heterocyst-specific Mo-nitrogenase, but slow growth continues in a mutant lacking the V-nitrogenase, suggesting that only the Mo-nitrogenase is able to support slow growth in an environment with little molybdate or vanadate. Tungstate is transported by the molybdate transporter and could, theoretically, be incorporated into a nitrogenase [<xref rid="B87-life-04-00944" ref-type="bibr">87</xref>]. The addition of tungstate, vanadate, or molybdate to cells starved for these metals resulted in an increase in nitrogenase activity, as measured by acetylene reduction, after two hours and this increase required new protein synthesis, suggesting that new nitrogenase was being synthesized with all these metals [<xref rid="B80-life-04-00944" ref-type="bibr">80</xref>]. While tungstate functioned about as well as vanadate in supporting acetylene reduction, the cells to which tungstate was added did not grow any better with tungstate than with no added metal and did not produce ethane (<xref ref-type="fig" rid="life-04-00944-f007">Figure 7</xref>) [<xref rid="B80-life-04-00944" ref-type="bibr">80</xref>]. A mutant lacking the V-nitrogenase showed no increase in nitrogenase activity upon addition of tungstate, suggesting that the V-nitrogenase, rather than the Mo-nitrogenase, was able to incorporate tungstate (<xref ref-type="fig" rid="life-04-00944-f007">Figure 7</xref>). Tungstate was able to substitute for molybdate in repressing transcription of a Mo-transport gene, but not the <italic>vnfH</italic> gene, which was, however, repressed by Mo [<xref rid="B80-life-04-00944" ref-type="bibr">80</xref>]. This suggests that the Mo-dependent regulator of the molybdate transport system, probably the product of the <italic>modE</italic> homolog located just upstream of <italic>modA</italic> [<xref rid="B79-life-04-00944" ref-type="bibr">79</xref>], interacts differently with molybdate/tungstate than the Mo-dependent regulators of the <italic>vnf</italic> genes, VnfR1 and VnfR2 [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>] discussed in more detail below.</p><fig id="life-04-00944-f007" position="float"><label>Figure 7</label><caption><p>Metal-induced increase in nitrogenase activity in cells starved for molybdate and vanadate. <italic>A. variabilis</italic> strains FD (WT) and MB2 (<italic>vnfDG</italic> mutant) were grown in Mo- and V-free medium for at least 10 generation to deplete internal stores of these metals and then Na<sub>2</sub>MoO<sub>4</sub>, Na<sub>3</sub>VO<sub>4</sub> or Na<sub>2</sub>WO<sub>4</sub> (all at 100 nM) were added to these starved cells at 0 time. Acetylene reduction was measured for strain FD at 2 h, 4 h, 6 h and 24 h after metal addition (<bold>A</bold>) and for strain MB2 (<italic>vnfDG</italic> mutant) at 6 h after metal addition (<bold>B</bold>). The inset shows the ethane (% of ethylene) produced by strain FD with added Na<sub>3</sub>VO<sub>4</sub>, which were the only samples that produced any ethane. Reproduced from [<xref rid="B80-life-04-00944" ref-type="bibr">80</xref>] with permission.</p></caption><graphic xlink:href="life-04-00944-g007"/></fig></sec><sec id="sec5-life-04-00944"><title>5. Transcription of Nitrogenase Genes</title><p>By analogy with the <italic>nif</italic> operons of other nitrogen-fixing bacteria, including <italic>Klebsiella</italic> and <italic>Azotobacter</italic>, it has been thought that the large cluster comprising most of the <italic>nif</italic> genes in <italic>Anabaena</italic> could be divided into several discrete operons, including <italic>nifBSU</italic>, <italic>nifHDK</italic> and <italic>nifENX</italic>. Northern blots appeared to confirm this and, in fact, putative transcription start sites were mapped for the <italic>nifB</italic>, <italic>nifH</italic>, <italic>hesA</italic> and <italic>fdxH</italic> genes in the <italic>nif</italic> clusters of <italic>Anabaena</italic> spp. [<xref rid="B58-life-04-00944" ref-type="bibr">58</xref>,<xref rid="B60-life-04-00944" ref-type="bibr">60</xref>,<xref rid="B63-life-04-00944" ref-type="bibr">63</xref>,<xref rid="B64-life-04-00944" ref-type="bibr">64</xref>,<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B66-life-04-00944" ref-type="bibr">66</xref>,<xref rid="B67-life-04-00944" ref-type="bibr">67</xref>,<xref rid="B68-life-04-00944" ref-type="bibr">68</xref>]. We mapped what appeared to be transcription start sites for <italic>vnfDG</italic> and <italic>vnfH</italic> (although they are actually processing sites) and confirmed that the apparent transcription start sites for <italic>nifB1</italic> and <italic>nifH1</italic> in <italic>A.</italic>
+<italic>variabilis</italic> were identical to those mapped in <italic>Anabaena</italic> sp. PCC 7120. We also identified additional weak promoters within the coding regions of <italic>nifU1</italic> and <italic>nifE1</italic> [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>]. However, when we attempted to use the <italic>nifH1</italic> promoter to drive expression of <italic>lacZ</italic>, using a 300-bp promoter fragment that extended at least 150 bp upstream from the putative <italic>nifH1</italic> transcription start site, there was no reporter activity. A strain in which this same 300-bp fragment was used to drive expression of the <italic>nifH1</italic> gene failed to grow under nitrogen-fixing conditions and had no nitrogenase activity [<xref rid="B90-life-04-00944" ref-type="bibr">90</xref>]. The same problem occurred when we attempted to drive transcription of <italic>lacZ</italic> with the putative <italic>vnfDG</italic> promoter [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>] or with the <italic>vnfH</italic> promoter [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>]; there was no expression using these promoter regions, although they extended well upstream from the putative transcription start sites. However, the promoters of other genes gave good activity, including <italic>nifB1</italic> [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>], <italic>ava4025</italic>, the gene upstream of <italic>vnfDG</italic> [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>], and <italic>vnfR2</italic>, the gene upstream of <italic>vnfH</italic> [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>]. The answer to this puzzle came when the 5' ends of these transcripts were characterized and <italic>nifH1</italic>, <italic>fdxH1</italic>, <italic>vnfH</italic>, and <italic>vnfDG</italic> were found to have the 5' monophosphate end of a processed RNA, rather than the 5' triphosphate characteristic of a primary transcript (<xref ref-type="fig" rid="life-04-00944-f008">Figure 8</xref>) [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>,<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>]. The difference in the 5' end structure of the mRNA can be determined by using a technique called RNA Ligase Mediated Rapid Amplification of cDNA Ends (5' RACE) with RNA that is treated, or not treated, with tobacco acid phosphatase (TAP), which converts a 5' triphosphate end to a 5' monophosphate end in preparation for ligation of the RNA adapter to the 5' end of the transcript. If the transcript is a primary transcript, the RNA adapter cannot ligate to the 5' triphosphate of the RNA unless it is treated with TAP; however, if the transcript is processed, it already has a 5' monophosphate and does not require TAP treatment. A 5' RACE product that is made equally well with RNA treated or not treated with TAP provides good evidence that the transcript is the result of processing <italic>in vivo</italic>. If very little 5' RACE product is made when the RNA is not treated with TAP, this indicates that the mRNA is a primary transcript. As shown in <xref ref-type="fig" rid="life-04-00944-f008">Figure 8</xref>, TAP treatment was not required to produce strong products by 5' RACE for <italic>nifH1</italic>, <italic>fdxH1</italic>, <italic>vnfDG</italic>, or <italic>vnfH</italic>, while TAP treatment was required for 5' RACE amplification of transcripts for <italic>nifB1</italic>, <italic>nifU1</italic>, <italic>hesA1</italic>, <italic>ava4025</italic> and <italic>vnfR2</italic> [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>,<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>].</p><fig id="life-04-00944-f008" position="float"><label>Figure 8</label><caption><p>Determining the 5' ends of transcripts by 5' RACE with and without TAP treatment. (<bold>A</bold>) <italic>nifB1</italic> and <italic>nifU1</italic>, requiring TAP, are primary transcripts, but <italic>nifH1</italic> is a processed transcript; (<bold>B</bold>) <italic>hesA1</italic>, requiring TAP, is a primary transcript, but <italic>fdxH1</italic> is a processed transcript; (<bold>C</bold>) <italic>ava4025</italic>, requiring TAP, is a primary transcript, but <italic>vnfDG</italic> is a processed transcript; (<bold>D</bold>) <italic>vnfR2</italic>, requiring TAP, is a primary transcript, but <italic>vnfH</italic> is a processed transcript. tss, transcription start site; tps, transcriptional processing site. Arrows indicate the PCR products that were sequenced to determine the 5' transcript ends whose location is shown on the gene maps. Gel images in panels A and D are reproduced from [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>], in panel B from [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>], and in panel C from [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>], with permissions.</p></caption><graphic xlink:href="life-04-00944-g008"/></fig><p>Transcription of the <italic>nif1</italic> gene cluster of <italic>A. variabilis</italic> appears to depend primarily on the promoter for the first gene in the cluster, <italic>nifB1</italic>. While there is a promoter inside <italic>nifU1</italic>, it is very weak compared to the <italic>nifB1</italic> promoter and a strain in which <italic>nifH1</italic> is driven only by the <italic>nifU1</italic> promoter fixes nitrogen poorly compared to the wild-type strain [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>]. There is no promoter upstream of <italic>nifK1</italic> or <italic>nifE1</italic>, so their transcription depends on the <italic>nifB1</italic> and <italic>nifU1</italic> promoters. Like the <italic>nifU1</italic> promoter, the promoter within <italic>nifE1</italic> is weak, suggesting that it serves an auxiliary rather than a primary function for gene expression [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>]. Further support for the importance of the <italic>nifB1</italic> promoter in expression of the far downstream genes, including <italic>nifKENXW1</italic> is the near loss of these transcripts in a mutant strain that lacks <italic>xisA</italic>, the gene that makes the excisase that removes the 11-kb element from <italic>nifD1</italic> [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>]. In this mutant, the <italic>nifB1</italic> and <italic>nifU1</italic> promoters cannot drive expression of the genes downstream from the 11-kb element, which is not excised, and these genes are poorly transcribed (<xref ref-type="fig" rid="life-04-00944-f009">Figure 9</xref>). Even <italic>hesA1</italic>, which has its own promoter, shows decreased expression in the <italic>xisA</italic> mutant, which suggests that the <italic>nifB1</italic> promoter is capable, at least partially, of driving transcription of a gene that is 14 kb away. Consistent with the fact that the <italic>nif1</italic> cluster encodes an enzyme that functions only in heterocysts, the <italic>nifB1</italic>, <italic>nifU1</italic> and <italic>nifE1</italic> promoters showed heterocyst-specific expression (<xref ref-type="fig" rid="life-04-00944-f010">Figure 10</xref>) [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>].</p><fig id="life-04-00944-f009" position="float"><label>Figure 9</label><caption><p>Transcript abundance of <italic>nif</italic> cluster genes in the wild-type strain compared to BP669, an <italic>xisA</italic> mutant. (<bold>A</bold>) The amount of transcript for genes in the <italic>nif</italic> cluster (relative to <italic>nifB1</italic>) was determined by RT-qPCR using RNA isolated from the wild-type strain, FD and from BP669, which cannot remove the 11-kb excision element in <italic>nifD1</italic>. Strains were grown with ammonium and then <italic>nif</italic> genes were induced by 24 h of starvation for fixed nitrogen; (<bold>B</bold>) Transcript levels in BP669 are shown relative to the wild-type strain, FD, in order to more clearly visualize the low levels of transcript for <italic>nifK1</italic>, <italic>nifE1</italic>, <italic>nifN1</italic>, <italic>nifX1</italic>, and <italic>nifW1</italic> in the mutant. Reproduced from [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>], with permission.</p></caption><graphic xlink:href="life-04-00944-g009"/></fig><fig id="life-04-00944-f010" position="float"><label>Figure 10</label><caption><p><italic>In situ</italic> localization of expression of &#x003b2;-galactosidase in strains with fusions of a promoterless <italic>lacZ</italic> to the <italic>nifB1</italic> promoter alone in strain BP682 (panels (<bold>A</bold>) and (<bold>B</bold>)), the <italic>nifU1</italic> promoter alone in strain JU472 (panels in (<bold>C</bold>) and (<bold>D</bold>)), or the <italic>nifE1</italic> promoter alone in strain BP756 (panels (<bold>E</bold>) &#x00026; (<bold>F</bold>)). Panels (A), (C), and (E), are bright-field images of filaments with white arrows indicating a few representative heterocysts. Panels (B), (D) and (F) are fluorescence images showing the expression of &#x003b2;-galactosidase primarily in heterocysts. Exposure times in seconds for the fluorescence images are provided in panels (B), (D) and (F). Reproduced from [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>], with permission.</p></caption><graphic xlink:href="life-04-00944-g010"/></fig><p>The primary promoter for the structural genes for the V-nitrogenase, <italic>vnfDGKEN</italic>, is the Mo-repressible promoter for the gene upstream from this cluster, <italic>ava4025</italic>. The predicted product of this gene shows similarity to the periplasmic component of molybdate transporters, suggesting that it may have a role in sensing molybdate in the environment; however, a mutant in <italic>ava4025</italic> has no apparent phenotype and the gene is not required for Mo-repression of <italic>vnfDGKEN</italic> [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>]. Although the <italic>ava4025</italic> promoter controls expression of <italic>ava4025</italic> and <italic>vnfDG</italic>, levels of <italic>vnfDG</italic> transcript are about 500-fold higher than <italic>ava4025</italic>, perhaps resulting from increased stability of the <italic>vnfDG</italic> transcript, which is processed at the site that was initially identified as the transcription start site [<xref rid="B11-life-04-00944" ref-type="bibr">11</xref>,<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>]. Expression of <italic>vnfDG</italic>, under the control of the <italic>ava4025</italic> promoter is heterocyst specific (see <xref ref-type="fig" rid="life-04-00944-f005">Figure 5</xref> and <xref ref-type="fig" rid="life-04-00944-f006">Figure 6</xref>) [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>]. Like <italic>vnfDGKEN</italic>, <italic>vnfH</italic>, encoding the dinitrogenase reductase component of the V-nitrogenase, is the result of the processing of a transcript that is made from the promoter of the upstream gene, <italic>vnfR1</italic>. Although we initially reported, based on Northern blots, that vanadate transport genes, <italic>vupABC</italic>, form an operon [<xref rid="B89-life-04-00944" ref-type="bibr">89</xref>], it now seems possible that the promoter for <italic>vnfR1</italic>, located upstream of the <italic>vupABC</italic> cluster may control these genes as well as the gene between <italic>vnfR1</italic> and <italic>vupABC</italic>, which may be <italic>vnfV</italic>, and that the <italic>vupABC</italic> transcripts may also result from RNA processing; however, this hypothesis awaits experimental support.</p><p>Little is known about the control of <italic>nif</italic> genes that function under anoxic conditions, including the <italic>nif2</italic> cluster in <italic>A. variabilis</italic>; however, the conservation of the organization of the entire cluster suggests that these genes may also be under the control of a single primary promoter. There are striking similarities in the sequences of <italic>nifB1</italic> and <italic>nifB2</italic> in the region upstream of the <italic>nifB1</italic> transcription start site, including conserved motifs, that suggest that the two <italic>nifB</italic> genes have some aspects of regulation in common (<xref ref-type="fig" rid="life-04-00944-f011">Figure 11</xref>). To test this hypothesis we created a fusion between the upstream region of <italic>nifB2</italic>, up to and including the first conserved motif shown in turquoise (<xref ref-type="fig" rid="life-04-00944-f011">Figure 11</xref>), to the downstream region of <italic>nifB1</italic> and then fused the hybrid promoter to GFP (strain JJ146). Expression of the <italic>nifB2</italic>:<italic>nifB1</italic> hybrid promoter fused to GFP was localized specifically to heterocysts as was GFP expressed from the control <italic>nifB1</italic> promoter (strain JJ72) (unpublished data and <xref ref-type="fig" rid="life-04-00944-f012">Figure 12</xref>). This heterocyst-specific expression of the hybrid promoter indicates that the conserved region upstream of the promoter of <italic>nifB1</italic> may serve in regulation that senses oxygen levels, since that signal is the primary one that induces expression of <italic>nifB2</italic>, and that heterocyst specificity may be conferred by sequences closer to the promoter that are not shared with the <italic>nifB2</italic> promoter and by heterocyst-specific protein(s) that may recognize these sequences. An understanding of the roles of the various elements in the promoter and upstream regions awaits a more detailed genetic analysis of both promoters and the identification of proteins that may control cell-specific transcription of the different nitrogenase genes.</p><fig id="life-04-00944-f011" position="float"><label>Figure 11</label><caption><p>Similarity of the <italic>nifB1</italic> and <italic>nifB2</italic> regions upstream from the promoter. Alignment of the region upstream of the transcription start site of <italic>nifB1</italic>, shown in red, with a similar region upstream of <italic>nifB2</italic>. A putative extended &#x02212;10 region is highlighted in magenta, a conserved TGAGTATA motif is highlighted in green, and another conserved motif is highlighted in turquoise. The T that is underlined at the end of the first motif in turquoise indicates the fusion site of a <italic>nifB2</italic>:<italic>nifB1</italic> hybrid promoter (see <xref ref-type="fig" rid="life-04-00944-f012">Figure 12</xref>).</p></caption><graphic xlink:href="life-04-00944-g011"/></fig><fig id="life-04-00944-f012" position="float"><label>Figure 12</label><caption><p>Heterocyst-specific expression of the <italic>nifB1</italic> promoter and a <italic>nifB2</italic>:<italic>nifB1</italic> hybrid promoter. The wild-type <italic>nifB1</italic> promoter was fused to the reporter gene, <italic>gfp</italic>, and a hybrid promoter of <italic>nifB2</italic>/<italic>nifB1</italic>, fused at the first nucleotide following the first conserved motif shown in turquoise in <xref ref-type="fig" rid="life-04-00944-f010">Figure 10</xref>, was also fused to <italic>gfp</italic> using fusion PCR, and the construct was integrated into the <italic>A. variabilis</italic> genome as described previously [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>]. Strains were imaged by confocal microscopy 24 h after nitrogen step-down. GFP fluorescence was localized to heterocysts, which are green in the images. The map of the fusion shows the location of the tss in <italic>nifB1</italic> at &#x02212;328 bp from the translation start site and the approximate location of the putative tss of <italic>nifB2</italic>. The vertical green arrows on the map show the locations of the three conserved motifs that are highlighted in green in <xref ref-type="fig" rid="life-04-00944-f011">Figure 11</xref>.</p></caption><graphic xlink:href="life-04-00944-g012"/></fig><p>The lack of discrete operons in the <italic>nif1</italic> clusters is inconsistent with the differences in transcript levels for different <italic>nif</italic> genes, especially for the highly abundant <italic>nifH1</italic>. The <italic>nifH1</italic> transcript is present in much greater quantity than <italic>nifU1</italic>, the gene directly upstream of <italic>nifH1</italic>, and the other structural genes for nitrogenase, <italic>nifD1</italic> and <italic>nifK1</italic>, also show high levels of transcription compared to <italic>nifB1</italic> (<xref ref-type="fig" rid="life-04-00944-f009">Figure 9</xref>A). If a strong promoter is not directly driving transcription of <italic>nifHDK1</italic>, then the higher levels of these transcripts may result from their stability. A striking feature of the region near the transcriptional processing sites of <italic>nifH1</italic>, <italic>vnfH1</italic>, <italic>vnfDG</italic>, and <italic>fdxH1</italic> is the presence of conserved stem-loop structures that may play a role in stabilizing the transcript [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>,<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>]. By measuring RNA by RT-qPCR at various times after the addition of rifampin, which inhibits initiation of transcription by RNA polymerase, we determined the half-lives of most of the genes in the <italic>nif1</italic> gene cluster [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>]. The half-life of <italic>nifH1</italic> is much longer than the genes upstream of the processing site and the half-lives of the transcripts downstream of <italic>nifH1</italic> decline with increasing distance from the processing site [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>] (<xref ref-type="table" rid="life-04-00944-t001">Table 1</xref>), suggesting that transcript stability plays a major role in controlling the relative amount of transcript. A mutant strain in which the stem-loop structure located at the processing site of <italic>nifH1</italic> is abolished shows a shorter half-life for the <italic>nifH1</italic> transcript than the wild-type strain and nitrogen fixation is strongly inhibited in this mutant (Thiel; unpublished data).</p><table-wrap id="life-04-00944-t001" position="float"><object-id pub-id-type="pii">life-04-00944-t001_Table 1</object-id><label>Table 1</label><caption><p>Half-life of <italic>nif1</italic> transcripts <sup>1</sup>.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">Gene</th><th align="center" valign="middle" rowspan="1" colspan="1">Half-Life (min)</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifB1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">12.3 &#x000b1; 2.2</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifS1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">14.7 &#x000b1; 4.8</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifU1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">8.6 &#x000b1; 2.3</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifH1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">33.8 &#x000b1; 7.8</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifD1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">22.2 &#x000b1; 4.1</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifK1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">16.7 &#x000b1; 3.6</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifE1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">7.4 &#x000b1; 1.3</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifN1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">9.1 &#x000b1; 2.5</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>nifX1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">12.3 &#x000b1; 2.1</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>hesA1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">20.9 &#x000b1; 4.6</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>fdxH1</italic>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">20.5 &#x000b1; 4.0</td></tr></tbody></table><table-wrap-foot><fn><p>Note: <sup>1</sup> Data are taken from [<xref rid="B69-life-04-00944" ref-type="bibr">69</xref>], with permission.</p></fn></table-wrap-foot></table-wrap></sec><sec><title>6. Proteins Involved in Regulation of Nitrogenase Genes</title><p>The global regulator NtcA affects many genes that respond to nitrogen availability in the cell and its binding sites have been the subject of several studies [<xref rid="B52-life-04-00944" ref-type="bibr">52</xref>,<xref rid="B91-life-04-00944" ref-type="bibr">91</xref>,<xref rid="B92-life-04-00944" ref-type="bibr">92</xref>]. Although NtcA is a regulator in all cyanobacteria, its significance in heterocyst-forming cyanobacteria is the key role it plays in sensing nitrogen starvation and initiating the complex process of heterocyst differentiation [<xref rid="B3-life-04-00944" ref-type="bibr">3</xref>,<xref rid="B4-life-04-00944" ref-type="bibr">4</xref>]. In addition to its role in activating genes that are required for the differentiation of heterocysts, NtcA activates expression of PipX, which is thought to work in concert with NtcA to allow full expression of late heterocyst-specific genes, including <italic>nifH</italic>, <italic>coxB3</italic> and <italic>coxB2</italic> (encoding heterocyst-specific cytochrome oxidases). A <italic>pipX</italic> mutant shows low levels of expression of these genes and is impaired in nitrogenase activity [<xref rid="B93-life-04-00944" ref-type="bibr">93</xref>,<xref rid="B94-life-04-00944" ref-type="bibr">94</xref>]. However, since the expression of the <italic>nif</italic> operon depends on low oxygen levels that result from high respiration that is mediated by the products of the <italic>cox2</italic> and <italic>cox3</italic> genes, the low levels of <italic>nif</italic> gene expression may be a secondary effect of relatively high oxygen levels in the heterocyst resulting from low levels of <italic>cox</italic> gene expression in the <italic>pipX</italic> mutant. In <italic>Anabaena</italic> sp. PCC 7120, <italic>patB</italic> was shown to be important for growth in the absence of fixed nitrogen [<xref rid="B95-life-04-00944" ref-type="bibr">95</xref>] and we have found that expression of <italic>nifB1</italic> requires PatB1 and expression of <italic>nifB2</italic> requires PatB2 (Thiel; unpublished data). Similarly, in a non-heterocystous cyanobacterium a PatB homologue called CnfR has been identified as a key regulator of <italic>nif</italic> gene expression [<xref rid="B96-life-04-00944" ref-type="bibr">96</xref>].</p><p>NtcA has been reported to bind weakly to a region upstream of <italic>nifH</italic> in <italic>Anabaena</italic> sp. PCC 7120 and a putative non-canonical NtcA binding site was identified [<xref rid="B68-life-04-00944" ref-type="bibr">68</xref>,<xref rid="B97-life-04-00944" ref-type="bibr">97</xref>]. However, recent ChIPSeq data for <italic>Anabaena</italic> sp. PCC 7120 showed that NtcA did not bind to any region upstream of <italic>nifH</italic>, but rather to a site within the coding region of <italic>nifH</italic> in <italic>Anabaena</italic> sp. PCC 7120 [<xref rid="B52-life-04-00944" ref-type="bibr">52</xref>]. In this study NtcA was found to bind upstream of <italic>nifB</italic>, but the binding site was hundreds of nucleotides upstream of the transcription start site of <italic>nifB</italic> [<xref rid="B52-life-04-00944" ref-type="bibr">52</xref>], suggesting that NtcA does not directly control expression from the <italic>nifB</italic> promoter. Using the <italic>nifUH1</italic> intergenic region of <italic>A. variabilis</italic> as the target, we were unable to detect binding of NtcA and mutations in the putative NtcA binding site in this region had no effect on expression of <italic>nifH1</italic> [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>]; however, this is not surprising since we could find no evidence of a promoter in the <italic>nifUH1</italic> intergenic region (see <xref ref-type="sec" rid="sec5-life-04-00944">Section 5</xref> above). There may be differences in <italic>nifHDK</italic> regulation between <italic>Anabaena</italic> sp. PCC 7120 and <italic>A. variabilis</italic>, and the putative NtcA binding site upstream of <italic>nifH</italic> in <italic>Anabaena</italic> sp. PCC 7120 is not well conserved in <italic>A. variabilis</italic>. However, because of the high degree of overall sequence homology between the two <italic>nif1</italic> clusters in both strains, it seems unlikely that the same 5' <italic>nifH</italic> transcript end, found in both strains, results from fundamentally different processes. Further, a RNAseq mapping technique that identified transcription start sites (and excluded processed sites) for the genome of <italic>Anabaena</italic> sp. PCC 7120 found the anticipated <italic>nifB</italic> transcription start site at the published site, but failed to identify the putative <italic>nifH</italic> transcription start site, even though it is found at levels of at least 20-fold higher that <italic>nifB</italic> [<xref rid="B67-life-04-00944" ref-type="bibr">67</xref>]. It is clear that NtcA is important for expression of the <italic>nif</italic> genes, but its effect is likely to be indirect, reflecting the fact that it may be essential for the expression of other genes whose products may act more directly to regulate expression of the <italic>nif</italic> genes.</p><p>The role of NtcA in expression of the <italic>nif2</italic> cluster is also not clear. An <italic>ntcA</italic> mutant of <italic>A. variabilis</italic> failed to fix nitrogen using the <italic>nif2</italic>-encoded Mo-nitrogenase, indicating that NtcA has an important role in expression of this enzyme; however, there is no canonical NtcA binding site, GTAN<sub>8</sub>TAC, anywhere in the region that is likely to have the promoter [<xref rid="B15-life-04-00944" ref-type="bibr">15</xref>]. Because of the diversity of NtcA binding sites and of their locations relative to the start of genes [<xref rid="B52-life-04-00944" ref-type="bibr">52</xref>] as well as the global effect of NtcA regulation it may be difficult to assign a specific role for NtcA in expression of these nitrogenase genes.</p><p>There are at least two proteins that are repressors of <italic>vnfDG</italic>, VnfR1 and VnfR2. VnfR1 is encoded by <italic>ava4042</italic>, located upstream of the vanadate transport genes, <italic>vupABC</italic> (<xref ref-type="fig" rid="life-04-00944-f001">Figure 1</xref>) [<xref rid="B89-life-04-00944" ref-type="bibr">89</xref>]. VnfR2 is encoded by <italic>ava4055</italic>, upstream from <italic>vnfH</italic>, which encodes the dinitrogenase reductase for the V-nitrogenase. The promoter for <italic>vnfR2</italic> serves both <italic>vnfR2</italic> and <italic>vnfH</italic> (<xref ref-type="fig" rid="life-04-00944-f008">Figure 8</xref>) [<xref rid="B65-life-04-00944" ref-type="bibr">65</xref>]. These proteins with a conserved <italic>N</italic>-terminal helix-turn-helix motif show 73% protein identity and act as Mo-dependent repressors that independently repress transcription of <italic>ava4025</italic>-<italic>vnfDG</italic> in cells grown with molybdate [<xref rid="B81-life-04-00944" ref-type="bibr">81</xref>]. Although each protein can repress expression of <italic>ava4025</italic>-<italic>vnfDG</italic>, only VnfR1 binds specifically, <italic>in vitro</italic>, to a region upstream of the <italic>ava4025</italic> promoter. Cells lacking either <italic>vnfR1</italic> or <italic>vnfR2</italic> still show heterocyst-specific, Mo-repressed expression of <italic>ava4025</italic>-<italic>vnfDG</italic>. A mutant lacking both <italic>vnfR1</italic> and <italic>vnfR2</italic> expresses <italic>ava4025</italic>-<italic>vnfDG</italic> in the presence of Mo and expression is heterocyst specific (<xref ref-type="fig" rid="life-04-00944-f006">Figure 6</xref>), indicating that other factors activate expression of this promoter in heterocysts. </p></sec><sec><title>7. Conclusions</title><p>Although there are three nitrogenases in <italic>A.</italic>
+<italic>variabilis</italic>, and two of them are Mo-nitrogenases, the tight control of expression of the <italic>nif1</italic>, <italic>nif2</italic> and <italic>vnf</italic> genes ensures that the cell makes the correct enzyme for the environment in which it is growing. This regulation includes differential expression of nitrogenases in response to cell differentiation, oxic <italic>versus</italic> anoxic growth conditions, and for environments with or without molybdate. The <italic>nif2</italic> cluster has not been found in any other well-characterized heterocyst-forming cyanobacterium and it shares an evolutionary origin with <italic>nif</italic> genes from non-heterocystous cyanobacteria especially with the primitive cyanobacterium <italic>Chroococcidiopsis thermalis</italic> [<xref rid="B75-life-04-00944" ref-type="bibr">75</xref>,<xref rid="B98-life-04-00944" ref-type="bibr">98</xref>], suggesting that an ancestor of this unicellular cyanobacterium may represent the evolutionary origin of the <italic>nif2</italic> genes. The <italic>vnf</italic> genes are not present in well-studied cyanobacteria; however, these genes have recently been found in cyanobacteria in a lichen symbiosis [<xref rid="B99-life-04-00944" ref-type="bibr">99</xref>], suggesting that they may be represented in symbiotic interactions. The culturable cyanobionts from the water fern <italic>Azolla filiculoides</italic>, <italic>Anabaena</italic> spp. [<xref rid="B58-life-04-00944" ref-type="bibr">58</xref>,<xref rid="B100-life-04-00944" ref-type="bibr">100</xref>], are virtually indistinguishable morphologically and physiologically from <italic>A. variabilis</italic> and also have <italic>vnf</italic> genes [<xref rid="B11-life-04-00944" ref-type="bibr">11</xref>] and <italic>nif2</italic> genes [<xref rid="B16-life-04-00944" ref-type="bibr">16</xref>]; however, the non-culturable <italic>Azolla</italic> symbiont, <italic>Nostoc</italic>
+<italic>azollae</italic> 0708, shows a degraded genome incapable of supporting independent growth and this strain lacks both <italic>vnf</italic> and <italic>nif2</italic> genes [<xref rid="B101-life-04-00944" ref-type="bibr">101</xref>].</p><p>While we understand at an environmental-response level and even at a whole-cell level how these three nitrogenases are regulated, information at the molecular level is still lacking. The fact that at least two of the three gene clusters employ RNA processing, and its associated transcript stability, as a regulatory mechanism suggests that this may be a more general mechanism of cyanobacterial gene regulation; however, that needs to be tested experimentally. While several promoters that show late heterocyst-specific gene expression have been identified, including a number that are described here, we still do not understand how those genes are activated late in heterocyst development. Proteins NtcA [<xref rid="B4-life-04-00944" ref-type="bibr">4</xref>] and SigE [<xref rid="B53-life-04-00944" ref-type="bibr">53</xref>] are important for expression of late heterocyst genes, but their specific function in controlling these genes is not known. Research is still needed to understand how the environmentally important process of nitrogen fixation and the synthesis of associated essential proteins, such as the uptake hydrogenase, ferredoxins, and cytochrome oxidases, are regulated.</p></sec></body><back><ack><title>Acknowledgments</title><p>Support for this research was provided by National Science Foundation grant MCB-1052241. We thank Jessie James for some unpublished data in this review.</p></ack><notes><title>Author Contributions</title><p>Teresa Thiel conceived the experiments, performed some of the experiments, constructed the figures and wrote the review. Brenda S. Pratte did a large part of the research described in the review and edited the manuscript. Both authors have read and approved the final manuscript.</p></notes><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest and the funding sponsors had no role in the design of the study; in the collection, analyses, or interpretation of data; in the writing of the manuscript, and in the decision to publish the results. </p></notes><ref-list><title>References</title><ref id="B1-life-04-00944"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>C.C.</given-names></name><name><surname>Laurent</surname><given-names>S.</given-names></name><name><surname>Sakr</surname><given-names>S.</given-names></name><name><surname>Peng</surname><given-names>L.</given-names></name><name><surname>Bedu</surname><given-names>S.</given-names></name></person-group>
+<article-title>Heterocyst differentiation and pattern formation in cyanobacteria: A chorus of signals</article-title>
+<source>Mol. Microbiol.</source>
+<year>2006</year>
+<volume>59</volume>
+<fpage>367</fpage>
+<lpage>375</lpage>
+<?supplied-pmid 16390435?><pub-id pub-id-type="pmid">16390435</pub-id></element-citation></ref><ref id="B2-life-04-00944"><label>2.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Wolk</surname><given-names>C.P.</given-names></name><name><surname>Zhu</surname><given-names>J.</given-names></name><name><surname>Kong</surname><given-names>R.</given-names></name></person-group>
+<article-title>Genetic analysis of heterocyst formation</article-title>
+<source>The Phototrophic Prokaryotes</source>
+<person-group person-group-type="editor"><name><surname>Peschek</surname><given-names>G.A.</given-names></name><name><surname>Loeffelhardt</surname><given-names>W.</given-names></name><name><surname>Schmetterer</surname><given-names>G.</given-names></name></person-group>
+<publisher-name>Springer</publisher-name>
+<publisher-loc>New York, NY, USA</publisher-loc>
+<year>1999</year>
+<fpage>509</fpage>
+<lpage>515</lpage>
+</element-citation></ref><ref id="B3-life-04-00944"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kumar</surname><given-names>K.</given-names></name><name><surname>Mella-Herrera</surname><given-names>R.A.</given-names></name><name><surname>Golden</surname><given-names>J.W.</given-names></name></person-group>
+<article-title>Cyanobacterial heterocysts</article-title>
+<source>Cold Spring Harb. Perspect. Biol.</source>
+<year>2010</year>
+<volume>2</volume>
+<pub-id pub-id-type="doi">10.1101/cshperspect.a000315</pub-id>
+</element-citation></ref><ref id="B4-life-04-00944"><label>4.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Herrero</surname><given-names>A.</given-names></name><name><surname>Picossi</surname><given-names>S.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name></person-group>
+<article-title>Gene expression during heterocyst differentiation</article-title>
+<source>Advances in Botanical Research</source>
+<person-group person-group-type="editor"><name><surname>Franck</surname><given-names>C.</given-names></name><name><surname>Corinne</surname><given-names>C.C.</given-names></name></person-group>
+<publisher-name>Academic Press</publisher-name>
+<publisher-loc>Waltham, MA, USA</publisher-loc>
+<year>2013</year>
+<volume>Volume 65</volume>
+<fpage>281</fpage>
+<lpage>329</lpage>
+</element-citation></ref><ref id="B5-life-04-00944"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walsby</surname><given-names>A.E.</given-names></name></person-group>
+<article-title>The permeability of heterocysts to the gases nitrogen and oxygen</article-title>
+<source>Proc. R. Soc. Lond. B</source>
+<year>1985</year>
+<volume>226</volume>
+<fpage>345</fpage>
+<lpage>366</lpage>
+<pub-id pub-id-type="doi">10.1098/rspb.1985.0099</pub-id>
+</element-citation></ref><ref id="B6-life-04-00944"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murry</surname><given-names>M.A.</given-names></name><name><surname>Wolk</surname><given-names>C.P.</given-names></name></person-group>
+<article-title>Evidence that the barrier to the penetration of oxygen into heterocysts depends upon two layers of the cell envelope</article-title>
+<source>Arch. Microbiol.</source>
+<year>1989</year>
+<volume>151</volume>
+<fpage>469</fpage>
+<lpage>474</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00454860</pub-id>
+</element-citation></ref><ref id="B7-life-04-00944"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walsby</surname><given-names>A.E.</given-names></name></person-group>
+<article-title>Cyanobacterial heterocysts: Terminal pores proposed as sites of gas exchange</article-title>
+<source>Trends Microbiol.</source>
+<year>2007</year>
+<volume>15</volume>
+<fpage>340</fpage>
+<lpage>349</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tim.2007.06.007</pub-id>
+<?supplied-pmid 17644394?><pub-id pub-id-type="pmid">17644394</pub-id></element-citation></ref><ref id="B8-life-04-00944"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murry</surname><given-names>M.A.</given-names></name><name><surname>Horne</surname><given-names>A.J.</given-names></name><name><surname>Benemann</surname><given-names>J.R.</given-names></name></person-group>
+<article-title>Physiological studies of oxygen protection mechanisms in the heterocysts of <italic>Anabaena cylindrica</italic></article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>1984</year>
+<volume>47</volume>
+<fpage>449</fpage>
+<lpage>454</lpage>
+<?supplied-pmid 16346484?><pub-id pub-id-type="pmid">16346484</pub-id></element-citation></ref><ref id="B9-life-04-00944"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valladares</surname><given-names>A.</given-names></name><name><surname>Herrero</surname><given-names>A.</given-names></name><name><surname>Pils</surname><given-names>D.</given-names></name><name><surname>Schmetterer</surname><given-names>G.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name></person-group>
+<article-title>Cytochrome c oxidase genes required for nitrogenase activity and diazotrophic growth in <italic>Anabaena</italic> sp. PCC 7120</article-title>
+<source>Mol. Microbiol.</source>
+<year>2003</year>
+<volume>47</volume>
+<fpage>1239</fpage>
+<lpage>1249</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03372.x</pub-id>
+<?supplied-pmid 12603731?><pub-id pub-id-type="pmid">12603731</pub-id></element-citation></ref><ref id="B10-life-04-00944"><label>10.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Nitrogen fixation in heterocyst-forming cyanobacteria</article-title>
+<source>Genetics and Regulation of Nitrogen Fixing Bacteria</source>
+<person-group person-group-type="editor"><name><surname>Klipp</surname><given-names>W.</given-names></name><name><surname>Masepohl</surname><given-names>B.</given-names></name><name><surname>Gallon</surname><given-names>J.R.</given-names></name><name><surname>Newton</surname><given-names>W.E.</given-names></name></person-group>
+<publisher-name>Kluwer Academic Publishers</publisher-name>
+<publisher-loc>Dordrecht, The Netherlands</publisher-loc>
+<year>2004</year>
+<fpage>73</fpage>
+<lpage>110</lpage>
+</element-citation></ref><ref id="B11-life-04-00944"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Characterization of genes for an alternative nitrogenase in the cyanobacterium <italic>Anabaena variabilis</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>1993</year>
+<volume>175</volume>
+<fpage>6276</fpage>
+<lpage>6286</lpage>
+<?supplied-pmid 8407800?><pub-id pub-id-type="pmid">8407800</pub-id></element-citation></ref><ref id="B12-life-04-00944"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Isolation and characterization of the <italic>vnfEN</italic> genes of the cyanobacterium <italic>Anabaena variabilis</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>1996</year>
+<volume>178</volume>
+<fpage>4493</fpage>
+<lpage>4499</lpage>
+<?supplied-pmid 8755876?><pub-id pub-id-type="pmid">8755876</pub-id></element-citation></ref><ref id="B13-life-04-00944"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pratte</surname><given-names>B.S.</given-names></name><name><surname>Eplin</surname><given-names>K.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Cross-functionality of nitrogenase components <italic>nifH1</italic> and <italic>vnfH</italic> in <italic>Anabaena variabilis</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>2006</year>
+<volume>188</volume>
+<fpage>5806</fpage>
+<lpage>5811</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.00618-06</pub-id>
+<?supplied-pmid 16885448?><pub-id pub-id-type="pmid">16885448</pub-id></element-citation></ref><ref id="B14-life-04-00944"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name><name><surname>Lyons</surname><given-names>E.M.</given-names></name><name><surname>Erker</surname><given-names>J.C.</given-names></name></person-group>
+<article-title>Characterization of genes for a second Mo-dependent nitrogenase in the cyanobacterium <italic>Anabaena variabilis</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>1997</year>
+<volume>179</volume>
+<fpage>5222</fpage>
+<lpage>5225</lpage>
+<?supplied-pmid 9260968?><pub-id pub-id-type="pmid">9260968</pub-id></element-citation></ref><ref id="B15-life-04-00944"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name><name><surname>Pratte</surname><given-names>B.</given-names></name></person-group>
+<article-title>Effect on heterocyst differentiation of nitrogen fixation in vegetative cells of the cyanobacterium <italic>Anabaena variabilis</italic> ATCC 29413</article-title>
+<source>J. Bacteriol.</source>
+<year>2001</year>
+<volume>183</volume>
+<fpage>280</fpage>
+<lpage>286</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.183.1.280-286.2001</pub-id>
+<?supplied-pmid 11114927?><pub-id pub-id-type="pmid">11114927</pub-id></element-citation></ref><ref id="B16-life-04-00944"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name><name><surname>Lyons</surname><given-names>E.M.</given-names></name><name><surname>Erker</surname><given-names>J.C.</given-names></name><name><surname>Ernst</surname><given-names>A.</given-names></name></person-group>
+<article-title>A second nitrogenase in vegetative cells of a heterocyst-forming cyanobacterium</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1995</year>
+<volume>92</volume>
+<fpage>9358</fpage>
+<lpage>9362</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.92.20.9358</pub-id>
+<?supplied-pmid 7568132?><pub-id pub-id-type="pmid">7568132</pub-id></element-citation></ref><ref id="B17-life-04-00944"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lancaster</surname><given-names>K.M.</given-names></name><name><surname>Roemelt</surname><given-names>M.</given-names></name><name><surname>Ettenhuber</surname><given-names>P.</given-names></name><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name><name><surname>Neese</surname><given-names>F.</given-names></name><name><surname>Bergmann</surname><given-names>U.</given-names></name><name><surname>DeBeer</surname><given-names>S.</given-names></name></person-group>
+<article-title>X-ray emission spectroscopy evidences a central carbon in the nitrogenase iron-molybdenum cofactor</article-title>
+<source>Science</source>
+<year>2011</year>
+<volume>334</volume>
+<fpage>974</fpage>
+<lpage>977</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1206445</pub-id>
+<?supplied-pmid 22096198?><pub-id pub-id-type="pmid">22096198</pub-id></element-citation></ref><ref id="B18-life-04-00944"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spatzal</surname><given-names>T.</given-names></name><name><surname>Aksoyoglu</surname><given-names>M.</given-names></name><name><surname>Zhang</surname><given-names>L.</given-names></name><name><surname>Andrade</surname><given-names>S.L.A.</given-names></name><name><surname>Schleicher</surname><given-names>E.</given-names></name><name><surname>Weber</surname><given-names>S.</given-names></name><name><surname>Rees</surname><given-names>D.C.</given-names></name><name><surname>Einsle</surname><given-names>O.</given-names></name></person-group>
+<article-title>Evidence for interstitial carbon in nitrogenase FeMo cofactor</article-title>
+<source>Science</source>
+<year>2011</year>
+<volume>334</volume>
+<pub-id pub-id-type="doi">10.1126/science.1214025</pub-id>
+</element-citation></ref><ref id="B19-life-04-00944"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rubio</surname><given-names>L.M.</given-names></name><name><surname>Ludden</surname><given-names>P.W.</given-names></name></person-group>
+<article-title>Biosynthesis of the iron-molybdenum cofactor of nitrogenase</article-title>
+<source>Annu. Rev. Microbiol.</source>
+<year>2008</year>
+<volume>62</volume>
+<fpage>93</fpage>
+<lpage>111</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.micro.62.081307.162737</pub-id>
+<?supplied-pmid 18429691?><pub-id pub-id-type="pmid">18429691</pub-id></element-citation></ref><ref id="B20-life-04-00944"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwarz</surname><given-names>G.</given-names></name><name><surname>Mendel</surname><given-names>R.R.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>Molybdenum cofactors, enzymes and pathways</article-title>
+<source>Nature</source>
+<year>2009</year>
+<volume>460</volume>
+<fpage>839</fpage>
+<lpage>847</lpage>
+<pub-id pub-id-type="doi">10.1038/nature08302</pub-id>
+<?supplied-pmid 19675644?><pub-id pub-id-type="pmid">19675644</pub-id></element-citation></ref><ref id="B21-life-04-00944"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>Biosynthesis of the iron-molybdenum cofactor of nitrogenase</article-title>
+<source>J. Biol. Chem.</source>
+<year>2013</year>
+<volume>288</volume>
+<fpage>13173</fpage>
+<lpage>13177</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.R113.454041</pub-id>
+<?supplied-pmid 23539617?><pub-id pub-id-type="pmid">23539617</pub-id></element-citation></ref><ref id="B22-life-04-00944"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lawson</surname><given-names>D.M.</given-names></name><name><surname>Smith</surname><given-names>B.E.</given-names></name></person-group>
+<article-title>Molybdenum nitrogenases: A crystallographic and mechanistic view</article-title>
+<source>Met. Ions Biol. Syst.</source>
+<year>2002</year>
+<volume>39</volume>
+<fpage>75</fpage>
+<lpage>119</lpage>
+<?supplied-pmid 11913144?><pub-id pub-id-type="pmid">11913144</pub-id></element-citation></ref><ref id="B23-life-04-00944"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zheng</surname><given-names>L.</given-names></name><name><surname>White</surname><given-names>R.H.</given-names></name><name><surname>Cash</surname><given-names>V.L.</given-names></name><name><surname>Jack</surname><given-names>R.F.</given-names></name><name><surname>Dean</surname><given-names>D.R.</given-names></name></person-group>
+<article-title>Cysteine desulfurase activity indicates a role for nifs in metallocluster biosynthesis</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1993</year>
+<volume>90</volume>
+<fpage>2754</fpage>
+<lpage>2758</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.90.7.2754</pub-id>
+<?supplied-pmid 8464885?><pub-id pub-id-type="pmid">8464885</pub-id></element-citation></ref><ref id="B24-life-04-00944"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yuvaniyama</surname><given-names>P.</given-names></name><name><surname>Agar</surname><given-names>J.N.</given-names></name><name><surname>Cash</surname><given-names>V.L.</given-names></name><name><surname>Johnson</surname><given-names>M.K.</given-names></name><name><surname>Dean</surname><given-names>D.R.</given-names></name></person-group>
+<article-title>NifS-directed assembly of a transient [2Fe-2S] cluster within the NifU protein</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2000</year>
+<volume>97</volume>
+<fpage>599</fpage>
+<lpage>604</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.97.2.599</pub-id>
+<?supplied-pmid 10639125?><pub-id pub-id-type="pmid">10639125</pub-id></element-citation></ref><ref id="B25-life-04-00944"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wiig</surname><given-names>J.A.</given-names></name><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>NifEN-B complex of <italic>Azotobacter vinelandii</italic> is fully functional in nitrogenase FeMo cofactor assembly</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2011</year>
+<volume>108</volume>
+<fpage>8623</fpage>
+<lpage>8627</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1102773108</pub-id>
+<?supplied-pmid 21551100?><pub-id pub-id-type="pmid">21551100</pub-id></element-citation></ref><ref id="B26-life-04-00944"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Curatti</surname><given-names>L.</given-names></name><name><surname>Hernandez</surname><given-names>J.A.</given-names></name><name><surname>Igarashi</surname><given-names>R.Y.</given-names></name><name><surname>Soboh</surname><given-names>B.</given-names></name><name><surname>Zhao</surname><given-names>D.</given-names></name><name><surname>Rubio</surname><given-names>L.M.</given-names></name></person-group>
+<article-title>In vitro synthesis of the iron molybdenum cofactor of nitrogenase from iron, sulfur, molybdenum, and homocitrate using purified proteins</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2007</year>
+<volume>104</volume>
+<fpage>17626</fpage>
+<lpage>17631</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0703050104</pub-id>
+<?supplied-pmid 17978192?><pub-id pub-id-type="pmid">17978192</pub-id></element-citation></ref><ref id="B27-life-04-00944"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaiser</surname><given-names>J.T.</given-names></name><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Wiig</surname><given-names>J.A.</given-names></name><name><surname>Rees</surname><given-names>D.C.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>Structure of precursor-bound NifEN: A nitrogenase FeMo cofactor maturase/insertase</article-title>
+<source>Science</source>
+<year>2011</year>
+<volume>331</volume>
+<fpage>91</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1196954</pub-id>
+<?supplied-pmid 21212358?><pub-id pub-id-type="pmid">21212358</pub-id></element-citation></ref><ref id="B28-life-04-00944"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>S.</given-names></name><name><surname>Burgess</surname><given-names>B.K.</given-names></name></person-group>
+<article-title>Evidence for the direct interaction of the <italic>nifW</italic> gene product with the MoFe protein</article-title>
+<source>J. Biol. Chem.</source>
+<year>1996</year>
+<volume>271</volume>
+<fpage>9764</fpage>
+<lpage>9770</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.271.16.9764</pub-id>
+<?supplied-pmid 8621656?><pub-id pub-id-type="pmid">8621656</pub-id></element-citation></ref><ref id="B29-life-04-00944"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernandez</surname><given-names>J.A.</given-names></name><name><surname>Igarashi</surname><given-names>R.Y.</given-names></name><name><surname>Soboh</surname><given-names>B.</given-names></name><name><surname>Curatti</surname><given-names>L.</given-names></name><name><surname>Dean</surname><given-names>D.R.</given-names></name><name><surname>Ludden</surname><given-names>P.W.</given-names></name><name><surname>Rubio</surname><given-names>L.M.</given-names></name></person-group>
+<article-title>NifX and NifEN exchange NifB cofactor and the VK-cluster, a newly isolated intermediate of the iron-molybdenum cofactor biosynthetic pathway</article-title>
+<source>Mol. Microbiol.</source>
+<year>2007</year>
+<volume>63</volume>
+<fpage>177</fpage>
+<lpage>192</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2958.2006.05514.x</pub-id>
+<?supplied-pmid 17163967?><pub-id pub-id-type="pmid">17163967</pub-id></element-citation></ref><ref id="B30-life-04-00944"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Fay</surname><given-names>A.W.</given-names></name><name><surname>Dos Santos</surname><given-names>P.C.</given-names></name><name><surname>Naderi</surname><given-names>F.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>Characterization of <italic>Azotobacter</italic>
+<italic>vinelandii</italic>
+<italic>nifZ</italic> deletion strains. Indication of stepwise MoFe protein assembly</article-title>
+<source>J. Biol. Chem.</source>
+<year>2004</year>
+<volume>279</volume>
+<fpage>54963</fpage>
+<lpage>54971</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M408983200</pub-id>
+<?supplied-pmid 15485884?><pub-id pub-id-type="pmid">15485884</pub-id></element-citation></ref><ref id="B31-life-04-00944"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Fay</surname><given-names>A.W.</given-names></name><name><surname>Lee</surname><given-names>C.C.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>P-cluster maturation on nitrogenase MoFe protein</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2007</year>
+<volume>104</volume>
+<fpage>10424</fpage>
+<lpage>10429</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0704297104</pub-id>
+<?supplied-pmid 17563349?><pub-id pub-id-type="pmid">17563349</pub-id></element-citation></ref><ref id="B32-life-04-00944"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hernandez</surname><given-names>J.A.</given-names></name><name><surname>Curatti</surname><given-names>L.</given-names></name><name><surname>Aznar</surname><given-names>C.P.</given-names></name><name><surname>Perova</surname><given-names>Z.</given-names></name><name><surname>Britt</surname><given-names>R.D.</given-names></name><name><surname>Rubio</surname><given-names>L.M.</given-names></name></person-group>
+<article-title>Metal trafficking for nitrogen fixation: NifQ donates molybdenum to NifEN/NifH for the biosynthesis of the nitrogenase FeMo-cofactor</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2008</year>
+<volume>105</volume>
+<fpage>11679</fpage>
+<lpage>11684</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0803576105</pub-id>
+<?supplied-pmid 18697927?><pub-id pub-id-type="pmid">18697927</pub-id></element-citation></ref><ref id="B33-life-04-00944"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gavini</surname><given-names>N.</given-names></name><name><surname>Tungtur</surname><given-names>S.</given-names></name><name><surname>Pulakat</surname><given-names>L.</given-names></name></person-group>
+<article-title>Peptidyl-prolyl cis/trans isomerase-independent functional <italic>nifH</italic> mutant of <italic>Azotobacter</italic>
+<italic>vinelandii</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>2006</year>
+<volume>188</volume>
+<fpage>6020</fpage>
+<lpage>6025</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.00379-06</pub-id>
+<?supplied-pmid 16885471?><pub-id pub-id-type="pmid">16885471</pub-id></element-citation></ref><ref id="B34-life-04-00944"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Howard</surname><given-names>K.S.</given-names></name><name><surname>McLean</surname><given-names>P.A.</given-names></name><name><surname>Hansen</surname><given-names>F.B.</given-names></name><name><surname>Lemley</surname><given-names>P.V.</given-names></name><name><surname>Koblan</surname><given-names>K.S.</given-names></name><name><surname>Orme-Johnson</surname><given-names>W.H.</given-names></name></person-group>
+<article-title><italic>Klebsiella</italic>
+<italic>pneumoniae</italic>
+<italic>nifM</italic> gene product is required for stabilization and activation of nitrogenase iron protein in <italic>Escherichia</italic>
+<italic>coli</italic></article-title>
+<source>J. Biol. Chem.</source>
+<year>1986</year>
+<volume>261</volume>
+<fpage>772</fpage>
+<lpage>778</lpage>
+<?supplied-pmid 3001082?><pub-id pub-id-type="pmid">3001082</pub-id></element-citation></ref><ref id="B35-life-04-00944"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rubio</surname><given-names>L.M.</given-names></name><name><surname>Ludden</surname><given-names>P.W.</given-names></name></person-group>
+<article-title>Maturation of nitrogenase: A biochemical puzzle</article-title>
+<source>J. Bacteriol.</source>
+<year>2005</year>
+<volume>187</volume>
+<fpage>405</fpage>
+<lpage>414</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.187.2.405-414.2005</pub-id>
+<?supplied-pmid 15629911?><pub-id pub-id-type="pmid">15629911</pub-id></element-citation></ref><ref id="B36-life-04-00944"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rubio</surname><given-names>L.M.</given-names></name><name><surname>Singer</surname><given-names>S.W.</given-names></name><name><surname>Ludden</surname><given-names>P.W.</given-names></name></person-group>
+<article-title>Purification and characterization of NafY (apodinitrogenase gamma subunit) from <italic>Azotobacter</italic>
+<italic>vinelandii</italic></article-title>
+<source>J. Biol. Chem.</source>
+<year>2004</year>
+<volume>279</volume>
+<fpage>19739</fpage>
+<lpage>19746</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M400965200</pub-id>
+<?supplied-pmid 14996831?><pub-id pub-id-type="pmid">14996831</pub-id></element-citation></ref><ref id="B37-life-04-00944"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Evans</surname><given-names>D.J.</given-names></name><name><surname>Jones</surname><given-names>R.</given-names></name><name><surname>Woodley</surname><given-names>P.R.</given-names></name><name><surname>Wilborn</surname><given-names>J.R.</given-names></name><name><surname>Robson</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Nucleotide sequence and genetic analysis of the <italic>Azotobacter</italic>
+<italic>chroococcum</italic>
+<italic>nifUSVWZM</italic> gene cluster, including a new gene (<italic>nifP</italic>) which encodes a serine acetyltransferase</article-title>
+<source>J. Bacteriol.</source>
+<year>1991</year>
+<volume>173</volume>
+<fpage>5457</fpage>
+<lpage>5469</lpage>
+<?supplied-pmid 1885524?><pub-id pub-id-type="pmid">1885524</pub-id></element-citation></ref><ref id="B38-life-04-00944"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beynon</surname><given-names>J.</given-names></name><name><surname>Cannon</surname><given-names>M.</given-names></name><name><surname>Buchanan-wollaston</surname><given-names>V.</given-names></name><name><surname>Ally</surname><given-names>A.</given-names></name><name><surname>Setterquist</surname><given-names>R.</given-names></name><name><surname>Dean</surname><given-names>D.</given-names></name><name><surname>Cannon</surname><given-names>F.</given-names></name></person-group>
+<article-title>The nucleotide sequence of the <italic>nifT</italic>, <italic>nifY</italic>, <italic>nifX</italic> and <italic>nifW</italic> genes of <italic>K. pneumoniae</italic></article-title>
+<source>Nucl. Acids Res.</source>
+<year>1988</year>
+<volume>16</volume>
+<pub-id pub-id-type="doi">10.1093/nar/16.20.9860</pub-id>
+<?supplied-pmid 2459661?><pub-id pub-id-type="pmid">2459661</pub-id></element-citation></ref><ref id="B39-life-04-00944"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stricker</surname><given-names>O.</given-names></name><name><surname>Masepohl</surname><given-names>B.</given-names></name><name><surname>Klipp</surname><given-names>W.</given-names></name><name><surname>B&#x000f6;hme</surname><given-names>H.</given-names></name></person-group>
+<article-title>Identification and characterization of the <italic>nifV</italic>-<italic>nifZ</italic>-<italic>nifT</italic> gene region from the filamentous cyanobacterium <italic>Anabaena</italic> sp. strain PCC7120</article-title>
+<source>J. Bacteriol.</source>
+<year>1997</year>
+<volume>179</volume>
+<fpage>2930</fpage>
+<lpage>2937</lpage>
+<?supplied-pmid 9139910?><pub-id pub-id-type="pmid">9139910</pub-id></element-citation></ref><ref id="B40-life-04-00944"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bauer</surname><given-names>C.C.</given-names></name><name><surname>Scappino</surname><given-names>L.</given-names></name><name><surname>Haselkorn</surname><given-names>R.</given-names></name></person-group>
+<article-title>Growth of the cyanobacterium <italic>Anabaena</italic> on molecular nitrogen: NifJ is required when iron is limited</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1993</year>
+<volume>90</volume>
+<fpage>8812</fpage>
+<lpage>8816</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.90.19.8812</pub-id>
+<?supplied-pmid 8415612?><pub-id pub-id-type="pmid">8415612</pub-id></element-citation></ref><ref id="B41-life-04-00944"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>C.C.</given-names></name><name><surname>Hu</surname><given-names>Y.</given-names></name><name><surname>Ribbe</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>Unique features of the nitrogenase VFe protein from <italic>Azotobacter vinelandii</italic></article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2009</year>
+<volume>106</volume>
+<fpage>9209</fpage>
+<lpage>9214</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0904408106</pub-id>
+<?supplied-pmid 19478062?><pub-id pub-id-type="pmid">19478062</pub-id></element-citation></ref><ref id="B42-life-04-00944"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eady</surname><given-names>R.R.</given-names></name></person-group>
+<article-title>The vanadium-containing nitrogenase of <italic>Azotobacter</italic></article-title>
+<source>Biofactors</source>
+<year>1988</year>
+<volume>1</volume>
+<fpage>111</fpage>
+<lpage>116</lpage>
+<?supplied-pmid 3076437?><pub-id pub-id-type="pmid">3076437</pub-id></element-citation></ref><ref id="B43-life-04-00944"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eady</surname><given-names>R.R.</given-names></name></person-group>
+<article-title>Vanadium nitrogenases of <italic>Azotobacter</italic></article-title>
+<source>Met. Ions Biol. Syst.</source>
+<year>1995</year>
+<volume>31</volume>
+<fpage>363</fpage>
+<lpage>405</lpage>
+<?supplied-pmid 8564813?><pub-id pub-id-type="pmid">8564813</pub-id></element-citation></ref><ref id="B44-life-04-00944"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dilworth</surname><given-names>M.J.</given-names></name><name><surname>Eady</surname><given-names>R.R.</given-names></name><name><surname>Eldridge</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>The vanadium nitrogenase of <italic>Azotobacter chroococcum</italic>. Reduction of acetylene and ethylene to ethane</article-title>
+<source>Biochem. J.</source>
+<year>1988</year>
+<volume>249</volume>
+<fpage>745</fpage>
+<lpage>751</lpage>
+<?supplied-pmid 3162672?><pub-id pub-id-type="pmid">3162672</pub-id></element-citation></ref><ref id="B45-life-04-00944"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsygankov</surname><given-names>A.A.</given-names></name><name><surname>Fedorov</surname><given-names>A.S.</given-names></name><name><surname>Kosourov</surname><given-names>S.N.</given-names></name><name><surname>Rao</surname><given-names>K.K.</given-names></name></person-group>
+<article-title>Hydrogen production by cyanobacteria in an automated outdoor photobioreactor under aerobic conditions</article-title>
+<source>Biotechnol. Bioeng.</source>
+<year>2002</year>
+<volume>80</volume>
+<fpage>777</fpage>
+<lpage>783</lpage>
+<pub-id pub-id-type="doi">10.1002/bit.10431</pub-id>
+<?supplied-pmid 12402323?><pub-id pub-id-type="pmid">12402323</pub-id></element-citation></ref><ref id="B46-life-04-00944"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beynon</surname><given-names>J.</given-names></name><name><surname>Ally</surname><given-names>A.</given-names></name><name><surname>Cannon</surname><given-names>M.</given-names></name><name><surname>Cannon</surname><given-names>F.</given-names></name><name><surname>Jacobson</surname><given-names>M.</given-names></name><name><surname>Cash</surname><given-names>V.</given-names></name><name><surname>Dean</surname><given-names>D.</given-names></name></person-group>
+<article-title>Comparative organization of nitrogen fixation-specific genes from <italic>Azotobacter vinelandii</italic> and <italic>Klebsiella pneumoniae</italic>: DNA sequence of the <italic>nifUSV</italic> genes</article-title>
+<source>J. Bacteriol.</source>
+<year>1987</year>
+<volume>169</volume>
+<fpage>4024</fpage>
+<lpage>4029</lpage>
+<?supplied-pmid 3040672?><pub-id pub-id-type="pmid">3040672</pub-id></element-citation></ref><ref id="B47-life-04-00944"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beynon</surname><given-names>J.</given-names></name><name><surname>Cannon</surname><given-names>M.</given-names></name><name><surname>Buchanan-Wollaston</surname><given-names>V.</given-names></name><name><surname>Cannon</surname><given-names>F.</given-names></name></person-group>
+<article-title>The <italic>nif</italic> promoters of <italic>Klebsiella pneumoniae</italic> have a characteristic primary structure</article-title>
+<source>Cell</source>
+<year>1983</year>
+<volume>34</volume>
+<fpage>665</fpage>
+<lpage>671</lpage>
+<pub-id pub-id-type="doi">10.1016/0092-8674(83)90399-9</pub-id>
+<?supplied-pmid 6311436?><pub-id pub-id-type="pmid">6311436</pub-id></element-citation></ref><ref id="B48-life-04-00944"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martinez-Argudo</surname><given-names>I.</given-names></name><name><surname>Little</surname><given-names>R.</given-names></name><name><surname>Shearer</surname><given-names>N.</given-names></name><name><surname>Johnson</surname><given-names>P.</given-names></name><name><surname>Dixon</surname><given-names>R.</given-names></name></person-group>
+<article-title>Nitrogen fixation: Key genetic regulatory mechanisms</article-title>
+<source>Biochem. Soc. Trans.</source>
+<year>2005</year>
+<volume>33</volume>
+<fpage>152</fpage>
+<lpage>156</lpage>
+<pub-id pub-id-type="doi">10.1042/BST0330152</pub-id>
+<?supplied-pmid 15667291?><pub-id pub-id-type="pmid">15667291</pub-id></element-citation></ref><ref id="B49-life-04-00944"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walmsley</surname><given-names>J.</given-names></name><name><surname>Toukdarian</surname><given-names>A.</given-names></name><name><surname>Kennedy</surname><given-names>C.</given-names></name></person-group>
+<article-title>The role of regulatory genes <italic>nifA</italic>, <italic>vnfA</italic>, <italic>anfA</italic>, <italic>nfrX</italic>, <italic>ntrC</italic>, and <italic>rpoN</italic> in expression of genes encoding the three nitrogenases of <italic>Azotobacter vinelandii</italic></article-title>
+<source>Arch. Microbiol.</source>
+<year>1994</year>
+<volume>162</volume>
+<fpage>422</fpage>
+<lpage>429</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00282107</pub-id>
+<?supplied-pmid 7872838?><pub-id pub-id-type="pmid">7872838</pub-id></element-citation></ref><ref id="B50-life-04-00944"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakajima</surname><given-names>H.</given-names></name><name><surname>Takatani</surname><given-names>N.</given-names></name><name><surname>Yoshimitsu</surname><given-names>K.</given-names></name><name><surname>Itoh</surname><given-names>M.</given-names></name><name><surname>Aono</surname><given-names>S.</given-names></name><name><surname>Takahashi</surname><given-names>Y.</given-names></name><name><surname>Watanabe</surname><given-names>Y.</given-names></name></person-group>
+<article-title>The role of the Fe-S cluster in the sensory domain of nitrogenase transcriptional activator VnfA from <italic>Azotobacter vinelandii</italic></article-title>
+<source>FEBS J.</source>
+<year>2010</year>
+<volume>277</volume>
+<fpage>817</fpage>
+<lpage>832</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1742-4658.2009.07530.x</pub-id>
+<?supplied-pmid 20067522?><pub-id pub-id-type="pmid">20067522</pub-id></element-citation></ref><ref id="B51-life-04-00944"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herrero</surname><given-names>A.</given-names></name><name><surname>Muro-Pastor</surname><given-names>A.M.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name></person-group>
+<article-title>Nitrogen control in cyanobacteria</article-title>
+<source>J. Bacteriol.</source>
+<year>2001</year>
+<volume>183</volume>
+<fpage>411</fpage>
+<lpage>425</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.183.2.411-425.2001</pub-id>
+<?supplied-pmid 11133933?><pub-id pub-id-type="pmid">11133933</pub-id></element-citation></ref><ref id="B52-life-04-00944"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Picossi</surname><given-names>S.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name><name><surname>Herrero</surname><given-names>A.</given-names></name></person-group>
+<article-title>ChIP analysis unravels an exceptionally wide distribution of DNA binding sites for the NtcA transcription factor in a heterocyst-forming cyanobacterium</article-title>
+<source>BMC Genomics</source>
+<year>2014</year>
+<volume>15</volume>
+<pub-id pub-id-type="doi">10.1186/1471-2164-15-22</pub-id>
+<?supplied-pmid 25363865?><pub-id pub-id-type="pmid">25363865</pub-id></element-citation></ref><ref id="B53-life-04-00944"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mella-Herrera</surname><given-names>R.A.</given-names></name><name><surname>Neunuebel</surname><given-names>M.R.</given-names></name><name><surname>Kumar</surname><given-names>K.</given-names></name><name><surname>Saha</surname><given-names>S.K.</given-names></name><name><surname>Golden</surname><given-names>J.W.</given-names></name></person-group>
+<article-title>The <italic>sigE</italic> gene is required for normal expression of heterocyst-specific genes in A<italic>nabaena</italic> sp. strain PCC 7120</article-title>
+<source>J. Bacteriol.</source>
+<year>2011</year>
+<volume>193</volume>
+<fpage>1823</fpage>
+<lpage>1832</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.01472-10</pub-id>
+<?supplied-pmid 21317330?><pub-id pub-id-type="pmid">21317330</pub-id></element-citation></ref><ref id="B54-life-04-00944"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Welsh</surname><given-names>E.A.</given-names></name><name><surname>Liberton</surname><given-names>M.</given-names></name><name><surname>St&#x000f6;ckel</surname><given-names>J.</given-names></name><name><surname>Loh</surname><given-names>T.</given-names></name><name><surname>Elvitigala</surname><given-names>T.</given-names></name><name><surname>Wang</surname><given-names>C.</given-names></name><name><surname>Wollam</surname><given-names>A.</given-names></name><name><surname>Fulton</surname><given-names>R.S.</given-names></name><name><surname>Clifton</surname><given-names>S.W.</given-names></name><name><surname>Jacobs</surname><given-names>J.M.</given-names></name><etal/></person-group>
+<article-title>The genome of Cyanothece 51142, a unicellular diazotrophic cyanobacterium important in the marine nitrogen cycle</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2008</year>
+<volume>105</volume>
+<fpage>15094</fpage>
+<lpage>15099</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0805418105</pub-id>
+<?supplied-pmid 18812508?><pub-id pub-id-type="pmid">18812508</pub-id></element-citation></ref><ref id="B55-life-04-00944"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golden</surname><given-names>J.W.</given-names></name><name><surname>Wiest</surname><given-names>D.R.</given-names></name></person-group>
+<article-title>Genome rearrangement and nitrogen fixation in A<italic>nabaena</italic> blocked by inactivation of <italic>xisA</italic> gene</article-title>
+<source>Science</source>
+<year>1988</year>
+<volume>242</volume>
+<fpage>1421</fpage>
+<lpage>1423</lpage>
+<pub-id pub-id-type="doi">10.1126/science.3144039</pub-id>
+<?supplied-pmid 3144039?><pub-id pub-id-type="pmid">3144039</pub-id></element-citation></ref><ref id="B56-life-04-00944"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meeks</surname><given-names>J.C.</given-names></name><name><surname>Campbell</surname><given-names>E.L.</given-names></name><name><surname>Bisen</surname><given-names>P.S.</given-names></name></person-group>
+<article-title>Elements interrupting nitrogen fixation genes in cyanobacteria: Presence and absence of a <italic>nifD</italic> element in clones of <italic>Nostoc</italic> sp. strain MAC</article-title>
+<source>Microbiology</source>
+<year>1994</year>
+<volume>140</volume>
+<fpage>3225</fpage>
+<lpage>3232</lpage>
+<pub-id pub-id-type="doi">10.1099/13500872-140-12-3225</pub-id>
+</element-citation></ref><ref id="B57-life-04-00944"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brusca</surname><given-names>J.S.</given-names></name><name><surname>Chastain</surname><given-names>C.J.</given-names></name><name><surname>Golden</surname><given-names>J.W.</given-names></name></person-group>
+<article-title>Expression of the <italic>Anabaena</italic> sp. strain PCC 7120 <italic>xisA</italic> gene from a heterologous promoter results in excision of the <italic>nifD</italic> element</article-title>
+<source>J. Bacteriol.</source>
+<year>1990</year>
+<volume>172</volume>
+<fpage>3925</fpage>
+<lpage>3931</lpage>
+<?supplied-pmid 2113913?><pub-id pub-id-type="pmid">2113913</pub-id></element-citation></ref><ref id="B58-life-04-00944"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jackman</surname><given-names>D.M.</given-names></name><name><surname>Mulligan</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>Characterization of a nitrogen-fixation (<italic>nif</italic>) gene cluster from <italic>Anabaena azollae</italic> 1a shows that closely related cyanobacteria have highly variable but structured intergenic regions</article-title>
+<source>Microbiology</source>
+<year>1995</year>
+<volume>141</volume>
+<fpage>2235</fpage>
+<lpage>2244</lpage>
+<pub-id pub-id-type="doi">10.1099/13500872-141-9-2235</pub-id>
+<?supplied-pmid 7496536?><pub-id pub-id-type="pmid">7496536</pub-id></element-citation></ref><ref id="B59-life-04-00944"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haselkorn</surname><given-names>R.</given-names></name><name><surname>Rice</surname><given-names>D.</given-names></name><name><surname>Curtis</surname><given-names>S.E.</given-names></name><name><surname>Robinson</surname><given-names>S.J.</given-names></name></person-group>
+<article-title>Organization and transcription of genes important in <italic>Anabaena</italic> heterocyst differentiation</article-title>
+<source>Ann. Microbiol.</source>
+<year>1983</year>
+<volume>134b</volume>
+<fpage>181</fpage>
+<lpage>193</lpage>
+</element-citation></ref><ref id="B60-life-04-00944"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mulligan</surname><given-names>M.E.</given-names></name><name><surname>Haselkorn</surname><given-names>R.</given-names></name></person-group>
+<article-title>Nitrogen fixation (<italic>nif</italic>) genes of the cyanobacterium <italic>anabaena</italic> species strain pcc 7120. The <italic>nifB</italic>-<italic>fdxN</italic>-<italic>nifS</italic>-<italic>nifU</italic> operon</article-title>
+<source>J. Biol. Chem.</source>
+<year>1989</year>
+<volume>264</volume>
+<fpage>19200</fpage>
+<lpage>19207</lpage>
+<?supplied-pmid 2553733?><pub-id pub-id-type="pmid">2553733</pub-id></element-citation></ref><ref id="B61-life-04-00944"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golden</surname><given-names>J.W.</given-names></name><name><surname>Whorff</surname><given-names>L.L.</given-names></name><name><surname>Wiest</surname><given-names>D.R.</given-names></name></person-group>
+<article-title>Independent regulation of <italic>nifHDK</italic> operon transcription and DNA rearrangement during heterocyst differentiation in the cyanobacterium A<italic>nabaena</italic> sp. strain PCC 7120</article-title>
+<source>J. Bacteriol.</source>
+<year>1991</year>
+<volume>173</volume>
+<fpage>7098</fpage>
+<lpage>7105</lpage>
+<?supplied-pmid 1938911?><pub-id pub-id-type="pmid">1938911</pub-id></element-citation></ref><ref id="B62-life-04-00944"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haselkorn</surname><given-names>R.</given-names></name><name><surname>Golden</surname><given-names>J.W.</given-names></name><name><surname>Lammers</surname><given-names>P.J.</given-names></name><name><surname>Mulligan</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>Developmental rearrangement of cyanobacterial nitrogen-fixation genes</article-title>
+<source>Trends Genet.</source>
+<year>1986</year>
+<volume>2</volume>
+<fpage>255</fpage>
+<lpage>259</lpage>
+<pub-id pub-id-type="doi">10.1016/0168-9525(86)90258-1</pub-id>
+</element-citation></ref><ref id="B63-life-04-00944"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Borthakur</surname><given-names>D.</given-names></name><name><surname>Basche</surname><given-names>M.</given-names></name><name><surname>Buikema</surname><given-names>W.J.</given-names></name><name><surname>Borthakur</surname><given-names>P.B.</given-names></name><name><surname>Haselkorn</surname><given-names>R.</given-names></name></person-group>
+<article-title>Expression, nucleotide sequence and mutational analysis of two open reading frames in the <italic>nif</italic> gene region of <italic>Anabaena</italic> sp. strain PCC7120</article-title>
+<source>Mol. Gen. Genet.</source>
+<year>1990</year>
+<volume>221</volume>
+<fpage>227</fpage>
+<lpage>234</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00261725</pub-id>
+<?supplied-pmid 2115111?><pub-id pub-id-type="pmid">2115111</pub-id></element-citation></ref><ref id="B64-life-04-00944"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>B&#x000f6;hme</surname><given-names>H.</given-names></name><name><surname>Haselkorn</surname><given-names>R.</given-names></name></person-group>
+<article-title>Molecular cloning and nucleotide sequence analysis of the gene coding for heterocyst ferredoxin from the cyanobacterium <italic>Anabaena</italic> sp. strain PCC 7120</article-title>
+<source>Mol. Gen. Genet.</source>
+<year>1988</year>
+<volume>214</volume>
+<fpage>278</fpage>
+<lpage>285</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00337722</pub-id>
+<?supplied-pmid 2467184?><pub-id pub-id-type="pmid">2467184</pub-id></element-citation></ref><ref id="B65-life-04-00944"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ungerer</surname><given-names>J.L.</given-names></name><name><surname>Pratte</surname><given-names>B.S.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>RNA processing of nitrogenase transcripts in the cyanobacterium <italic>Anabaena variabilis</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>2010</year>
+<volume>192</volume>
+<fpage>3311</fpage>
+<lpage>3320</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.00278-10</pub-id>
+<?supplied-pmid 20435734?><pub-id pub-id-type="pmid">20435734</pub-id></element-citation></ref><ref id="B66-life-04-00944"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flaherty</surname><given-names>B.L.</given-names></name><name><surname>van Nieuwerburgh</surname><given-names>F.</given-names></name><name><surname>Head</surname><given-names>S.R.</given-names></name><name><surname>Golden</surname><given-names>J.W.</given-names></name></person-group>
+<article-title>Directional RNA deep sequencing sheds new light on the transcriptional response of <italic>Anabaena</italic> sp. strain PCC 7120 to combined-nitrogen deprivation</article-title>
+<source>BMC Genomics</source>
+<year>2011</year>
+<volume>12</volume>
+<pub-id pub-id-type="doi">10.1186/1471-2164-12-332</pub-id>
+<?supplied-pmid 22369043?><pub-id pub-id-type="pmid">22369043</pub-id></element-citation></ref><ref id="B67-life-04-00944"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mitschke</surname><given-names>J.</given-names></name><name><surname>Vioque</surname><given-names>A.</given-names></name><name><surname>Haas</surname><given-names>F.</given-names></name><name><surname>Hess</surname><given-names>W.R.</given-names></name><name><surname>Muro-Pastor</surname><given-names>A.M.</given-names></name></person-group>
+<article-title>Dynamics of transcriptional start site selection during nitrogen stress-induced cell differentiation in <italic>Anabaena</italic> sp. PCC7120</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2011</year>
+<volume>108</volume>
+<fpage>20130</fpage>
+<lpage>20135</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1112724108</pub-id>
+<?supplied-pmid 22135468?><pub-id pub-id-type="pmid">22135468</pub-id></element-citation></ref><ref id="B68-life-04-00944"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valladares</surname><given-names>A.</given-names></name><name><surname>Muro-Pastor</surname><given-names>A.M.</given-names></name><name><surname>Fillat</surname><given-names>M.F.</given-names></name><name><surname>Herrero</surname><given-names>A.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name></person-group>
+<article-title>Constitutive and nitrogen-regulated promoters of the <italic>petH</italic> gene encoding ferredoxin:NADP+ reductase in the heterocyst-forming cyanobacterium <italic>Anabaena</italic> sp.</article-title>
+<source>FEBS Lett.</source>
+<year>1999</year>
+<volume>449</volume>
+<fpage>159</fpage>
+<lpage>164</lpage>
+<pub-id pub-id-type="doi">10.1016/S0014-5793(99)00404-4</pub-id>
+<?supplied-pmid 10338123?><pub-id pub-id-type="pmid">10338123</pub-id></element-citation></ref><ref id="B69-life-04-00944"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pratte</surname><given-names>B.S.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Regulation of nitrogenase gene expression by transcript stability in the cyanobacterium <italic>Anabaena variabilis</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>2014</year>
+<volume>196</volume>
+<fpage>3609</fpage>
+<lpage>3621</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.02045-14</pub-id>
+<?supplied-pmid 25092030?><pub-id pub-id-type="pmid">25092030</pub-id></element-citation></ref><ref id="B70-life-04-00944"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name><name><surname>Pratte</surname><given-names>B.S.</given-names></name><name><surname>Zhong</surname><given-names>J.</given-names></name><name><surname>Goodwin</surname><given-names>L.</given-names></name><name><surname>Copeland</surname><given-names>A.</given-names></name><name><surname>Lucas</surname><given-names>S.</given-names></name><name><surname>Han</surname><given-names>C.</given-names></name><name><surname>Pitluck</surname><given-names>S.</given-names></name><name><surname>Land</surname><given-names>M.L.</given-names></name><name><surname>Kyrpides</surname><given-names>N.C.</given-names></name><etal/></person-group>
+<article-title>Complete genome sequence of <italic>Anabaena variabilis</italic> ATCC 29413</article-title>
+<source>Stand. Genomic.</source>
+<year>2014</year>
+<volume>9</volume>
+<fpage>562</fpage>
+<lpage>573</lpage>
+<pub-id pub-id-type="doi">10.4056/sigs.3899418</pub-id>
+</element-citation></ref><ref id="B71-life-04-00944"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Golden</surname><given-names>J.W.</given-names></name><name><surname>Carrasco</surname><given-names>C.D.</given-names></name><name><surname>Mulligan</surname><given-names>M.E.</given-names></name><name><surname>Schneider</surname><given-names>G.J.</given-names></name><name><surname>Haselkorn</surname><given-names>R.</given-names></name></person-group>
+<article-title>Deletion of a 55-kilobase-pair DNA element from the chromosome during heterocyst differentiation of <italic>Anabaena</italic> sp. strain PCC 7120</article-title>
+<source>J. Bacteriol.</source>
+<year>1988</year>
+<volume>170</volume>
+<fpage>5034</fpage>
+<lpage>5041</lpage>
+<?supplied-pmid 3141375?><pub-id pub-id-type="pmid">3141375</pub-id></element-citation></ref><ref id="B72-life-04-00944"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brusca</surname><given-names>J.S.</given-names></name><name><surname>Hale</surname><given-names>M.A.</given-names></name><name><surname>Carrasco</surname><given-names>C.D.</given-names></name><name><surname>Golden</surname><given-names>J.W.</given-names></name></person-group>
+<article-title>Excision of an 11-kilobase-pair DNA element from within the <italic>nifD</italic> gene in A<italic>nabaena variabilis</italic> heterocysts</article-title>
+<source>J. Bacteriol.</source>
+<year>1989</year>
+<volume>171</volume>
+<fpage>4138</fpage>
+<lpage>4145</lpage>
+<?supplied-pmid 2502534?><pub-id pub-id-type="pmid">2502534</pub-id></element-citation></ref><ref id="B73-life-04-00944"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elhai</surname><given-names>J.</given-names></name><name><surname>Wolk</surname><given-names>C.P.</given-names></name></person-group>
+<article-title>Developmental regulation and spatial pattern of expression of the structural genes for nitrogenase in the cyanobacterium <italic>Anabaena</italic></article-title>
+<source>EMBO J.</source>
+<year>1990</year>
+<volume>9</volume>
+<fpage>3379</fpage>
+<lpage>3388</lpage>
+<?supplied-pmid 2120040?><pub-id pub-id-type="pmid">2120040</pub-id></element-citation></ref><ref id="B74-life-04-00944"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rippka</surname><given-names>R.</given-names></name><name><surname>Deruelles</surname><given-names>J.</given-names></name><name><surname>Waterbury</surname><given-names>J.B.</given-names></name><name><surname>Herdman</surname><given-names>M.</given-names></name><name><surname>Stanier</surname><given-names>R.Y.</given-names></name></person-group>
+<article-title>Generic assignments, strain histories and properties of pure cultures of cyanobacteria</article-title>
+<source>J. Gen. Microbiol.</source>
+<year>1979</year>
+<volume>111</volume>
+<fpage>1</fpage>
+<lpage>61</lpage>
+<pub-id pub-id-type="doi">10.1099/00221287-111-1-1</pub-id>
+</element-citation></ref><ref id="B75-life-04-00944"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fewer</surname><given-names>D.</given-names></name><name><surname>Friedl</surname><given-names>T.</given-names></name><name><surname>B&#x000fc;del</surname><given-names>B.</given-names></name></person-group>
+<article-title><italic>Chroococcidiopsis</italic> and heterocyst-differentiating cyanobacteria are each other&#x02019;s closest living relatives</article-title>
+<source>Mol. Phylogenet. Evol.</source>
+<year>2002</year>
+<volume>23</volume>
+<fpage>82</fpage>
+<lpage>90</lpage>
+<pub-id pub-id-type="doi">10.1006/mpev.2001.1075</pub-id>
+<?supplied-pmid 12182405?><pub-id pub-id-type="pmid">12182405</pub-id></element-citation></ref><ref id="B76-life-04-00944"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lyons</surname><given-names>E.M.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Characterization of <italic>nifB</italic>, <italic>nifS</italic>, and <italic>nifU</italic> genes in the cyanobacterium <italic>Anabaena variabilis</italic>: NifB is required for the vanadium-dependent nitrogenase</article-title>
+<source>J. Bacteriol.</source>
+<year>1995</year>
+<volume>177</volume>
+<fpage>1570</fpage>
+<lpage>1575</lpage>
+<?supplied-pmid 7883714?><pub-id pub-id-type="pmid">7883714</pub-id></element-citation></ref><ref id="B77-life-04-00944"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Markowitz</surname><given-names>V.M.</given-names></name><name><surname>Chen</surname><given-names>I.-M.A.</given-names></name><name><surname>Palaniappan</surname><given-names>K.</given-names></name><name><surname>Chu</surname><given-names>K.</given-names></name><name><surname>Szeto</surname><given-names>E.</given-names></name><name><surname>Grechkin</surname><given-names>Y.</given-names></name><name><surname>Ratner</surname><given-names>A.</given-names></name><name><surname>Jacob</surname><given-names>B.</given-names></name><name><surname>Huang</surname><given-names>J.</given-names></name><name><surname>Williams</surname><given-names>P.</given-names></name><etal/></person-group>
+<article-title>Img: The integrated microbial genomes database and comparative analysis system</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2012</year>
+<volume>40</volume>
+<fpage>D115</fpage>
+<lpage>D122</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkr1044</pub-id>
+<?supplied-pmid 22194640?><pub-id pub-id-type="pmid">22194640</pub-id></element-citation></ref><ref id="B78-life-04-00944"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Coralli</surname><given-names>C.</given-names></name><name><surname>Cemazar</surname><given-names>M.</given-names></name><name><surname>Kanthou</surname><given-names>C.</given-names></name><name><surname>Tozer</surname><given-names>G.M.</given-names></name><name><surname>Dachs</surname><given-names>G.U.</given-names></name></person-group>
+<article-title>Limitations of the reporter green fluorescent protein under simulated tumor conditions</article-title>
+<source>Cancer Res.</source>
+<year>2001</year>
+<volume>61</volume>
+<fpage>4784</fpage>
+<lpage>4790</lpage>
+<?supplied-pmid 11406553?><pub-id pub-id-type="pmid">11406553</pub-id></element-citation></ref><ref id="B79-life-04-00944"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zahalak</surname><given-names>M.</given-names></name><name><surname>Pratte</surname><given-names>B.</given-names></name><name><surname>Werth</surname><given-names>K.J.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Molybdate transport and its effect on nitrogen utilization in the cyanobacterium <italic>Anabaena variabilis</italic> ATCC 29413</article-title>
+<source>Mol. Microbiol.</source>
+<year>2004</year>
+<volume>51</volume>
+<fpage>539</fpage>
+<lpage>549</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03851.x</pub-id>
+<?supplied-pmid 14756792?><pub-id pub-id-type="pmid">14756792</pub-id></element-citation></ref><ref id="B80-life-04-00944"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name><name><surname>Pratte</surname><given-names>B.</given-names></name></person-group>
+<article-title>Alternative nitrogenases in <italic>Anabaena variabilis</italic>: The role of molybdate and vanadate in nitrogenase gene expression and activity</article-title>
+<source>Adv. Microbiol.</source>
+<year>2013</year>
+<volume>3</volume>
+<fpage>87</fpage>
+<lpage>95</lpage>
+<pub-id pub-id-type="doi">10.4236/aim.2013.36A011</pub-id>
+</element-citation></ref><ref id="B81-life-04-00944"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pratte</surname><given-names>B.S.</given-names></name><name><surname>Sheridan</surname><given-names>R.</given-names></name><name><surname>James</surname><given-names>J.A.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Regulation of V-nitrogenase genes in <italic>Anabaena variabilis</italic> by RNA processing and by dual repressors</article-title>
+<source>Mol. Microbiol.</source>
+<year>2013</year>
+<volume>88</volume>
+<fpage>413</fpage>
+<lpage>424</lpage>
+<pub-id pub-id-type="doi">10.1111/mmi.12197</pub-id>
+<?supplied-pmid 23517490?><pub-id pub-id-type="pmid">23517490</pub-id></element-citation></ref><ref id="B82-life-04-00944"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Self</surname><given-names>W.T.</given-names></name><name><surname>Grunden</surname><given-names>A.M.</given-names></name><name><surname>Hasona</surname><given-names>A.</given-names></name><name><surname>Shanmugam</surname><given-names>K.T.</given-names></name></person-group>
+<article-title>Molybdate transport</article-title>
+<source>Res. Microbiol.</source>
+<year>2001</year>
+<volume>152</volume>
+<fpage>311</fpage>
+<lpage>321</lpage>
+<pub-id pub-id-type="doi">10.1016/S0923-2508(01)01202-5</pub-id>
+<?supplied-pmid 11421278?><pub-id pub-id-type="pmid">11421278</pub-id></element-citation></ref><ref id="B83-life-04-00944"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>G.</given-names></name><name><surname>Angermuller</surname><given-names>S.</given-names></name><name><surname>Klipp</surname><given-names>W.</given-names></name></person-group>
+<article-title>Characterization of <italic>Rhodobacter</italic>
+<italic>capsulatus</italic> genes encoding a molybdenum transport system and putative molybdenum-pterin-binding proteins</article-title>
+<source>J. Bacteriol.</source>
+<year>1993</year>
+<volume>175</volume>
+<fpage>3031</fpage>
+<lpage>3042</lpage>
+<?supplied-pmid 8491722?><pub-id pub-id-type="pmid">8491722</pub-id></element-citation></ref><ref id="B84-life-04-00944"><label>84.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luque</surname><given-names>F.</given-names></name><name><surname>Mitchenall</surname><given-names>L.A.</given-names></name><name><surname>Chapman</surname><given-names>M.</given-names></name><name><surname>Christine</surname><given-names>R.</given-names></name><name><surname>Pau</surname><given-names>R.N.</given-names></name></person-group>
+<article-title>Characterization of genes involved in molybdenum transport in <italic>Azotobacter vinelandii</italic></article-title>
+<source>Mol. Microbiol.</source>
+<year>1993</year>
+<volume>7</volume>
+<fpage>447</fpage>
+<lpage>459</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2958.1993.tb01136.x</pub-id>
+<?supplied-pmid 8384683?><pub-id pub-id-type="pmid">8384683</pub-id></element-citation></ref><ref id="B85-life-04-00944"><label>85.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mouncey</surname><given-names>N.J.</given-names></name><name><surname>Mitchenall</surname><given-names>L.A.</given-names></name><name><surname>Pau</surname><given-names>R.N.</given-names></name></person-group>
+<article-title>Mutational analysis of genes of the <italic>mod</italic> locus involved in molybdenum transport, homeostasis, and processing in <italic>Azotobacter</italic>
+<italic>vinelandii</italic></article-title>
+<source>J. Bacteriol.</source>
+<year>1995</year>
+<volume>177</volume>
+<fpage>5294</fpage>
+<lpage>5302</lpage>
+<?supplied-pmid 7665518?><pub-id pub-id-type="pmid">7665518</pub-id></element-citation></ref><ref id="B86-life-04-00944"><label>86.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grunden</surname><given-names>A.M.</given-names></name><name><surname>Ray</surname><given-names>R.M.</given-names></name><name><surname>Rosentel</surname><given-names>J.K.</given-names></name><name><surname>Healy</surname><given-names>F.G.</given-names></name><name><surname>Shanmugam</surname><given-names>K.T.</given-names></name></person-group>
+<article-title>Repression of the <italic>Escherichia</italic>
+<italic>coli</italic>
+<italic>modABCD</italic> (molybdate transport) operon by ModE</article-title>
+<source>J. Bacteriol.</source>
+<year>1996</year>
+<volume>178</volume>
+<fpage>735</fpage>
+<lpage>744</lpage>
+<?supplied-pmid 8550508?><pub-id pub-id-type="pmid">8550508</pub-id></element-citation></ref><ref id="B87-life-04-00944"><label>87.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thiel</surname><given-names>T.</given-names></name><name><surname>Pratte</surname><given-names>B.</given-names></name><name><surname>Zahalak</surname><given-names>M.</given-names></name></person-group>
+<article-title>Transport of molybdate in the cyanobacterium <italic>Anabaena</italic>
+<italic>variabilis</italic> ATCC 29413</article-title>
+<source>Arch. Microbiol.</source>
+<year>2002</year>
+<volume>179</volume>
+<fpage>50</fpage>
+<lpage>56</lpage>
+<pub-id pub-id-type="doi">10.1007/s00203-002-0499-y</pub-id>
+<?supplied-pmid 12471504?><pub-id pub-id-type="pmid">12471504</pub-id></element-citation></ref><ref id="B88-life-04-00944"><label>88.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chatterjee</surname><given-names>R.</given-names></name><name><surname>Allen</surname><given-names>R.M.</given-names></name><name><surname>Ludden</surname><given-names>P.W.</given-names></name><name><surname>Shah</surname><given-names>V.K.</given-names></name></person-group>
+<article-title><italic>In vitro</italic> synthesis of the iron-molybdenum cofactor and maturation of the <italic>nif</italic>-encoded apodinitrogenase. Effect of substitution of VnfH for NifH</article-title>
+<source>J. Biol. Chem.</source>
+<year>1997</year>
+<volume>272</volume>
+<fpage>21604</fpage>
+<lpage>21608</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.272.34.21604</pub-id>
+<?supplied-pmid 9261182?><pub-id pub-id-type="pmid">9261182</pub-id></element-citation></ref><ref id="B89-life-04-00944"><label>89.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pratte</surname><given-names>B.S.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>High-affinity vanadate transport system in the cyanobacterium <italic>Anabaena variabilis</italic> ATCC 29413</article-title>
+<source>J. Bacteriol.</source>
+<year>2006</year>
+<volume>188</volume>
+<fpage>464</fpage>
+<lpage>468</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.188.2.464-468.2006</pub-id>
+<?supplied-pmid 16385036?><pub-id pub-id-type="pmid">16385036</pub-id></element-citation></ref><ref id="B90-life-04-00944"><label>90.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ungerer</surname><given-names>J.L.</given-names></name><name><surname>Pratte</surname><given-names>B.S.</given-names></name><name><surname>Thiel</surname><given-names>T.</given-names></name></person-group>
+<article-title>Regulation of fructose transport and its effect on fructose toxicity in <italic>Anabaena</italic> spp</article-title>
+<source>J. Bacteriol.</source>
+<year>2008</year>
+<volume>190</volume>
+<fpage>8115</fpage>
+<lpage>8125</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.00886-08</pub-id>
+<?supplied-pmid 18931119?><pub-id pub-id-type="pmid">18931119</pub-id></element-citation></ref><ref id="B91-life-04-00944"><label>91.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Su</surname><given-names>Z.</given-names></name><name><surname>Olman</surname><given-names>V.</given-names></name><name><surname>Mao</surname><given-names>F.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Comparative genomics analysis of NtcA regulons in cyanobacteria: Regulation of nitrogen assimilation and its coupling to photosynthesis</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2005</year>
+<volume>33</volume>
+<fpage>5156</fpage>
+<lpage>5171</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gki817</pub-id>
+<?supplied-pmid 16157864?><pub-id pub-id-type="pmid">16157864</pub-id></element-citation></ref><ref id="B92-life-04-00944"><label>92.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vazquez-Bermudez</surname><given-names>M.F.</given-names></name><name><surname>Flores</surname><given-names>E.</given-names></name><name><surname>Herrero</surname><given-names>A.</given-names></name></person-group>
+<article-title>Analysis of binding sites for the nitrogen-control transcription factor NtcA in the promoters of <italic>Synechococcus</italic> nitrogen-regulated genes</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2002</year>
+<volume>1578</volume>
+<fpage>95</fpage>
+<lpage>98</lpage>
+<pub-id pub-id-type="doi">10.1016/S0167-4781(02)00506-7</pub-id>
+<?supplied-pmid 12393192?><pub-id pub-id-type="pmid">12393192</pub-id></element-citation></ref><ref id="B93-life-04-00944"><label>93.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valladares</surname><given-names>A.</given-names></name><name><surname>Rodr&#x000ed;guez</surname><given-names>V.</given-names></name><name><surname>Camargo</surname><given-names>S.</given-names></name><name><surname>Mart&#x000ed;nez-No&#x000eb;l</surname><given-names>G.M.A.</given-names></name><name><surname>Herrero</surname><given-names>A.</given-names></name><name><surname>Luque</surname><given-names>I.</given-names></name></person-group>
+<article-title>Specific role of the cyanobacterial PipX factor in the heterocysts of <italic>Anabaena</italic> sp. strain PCC 7120</article-title>
+<source>J. Bacteriol.</source>
+<year>2011</year>
+<volume>193</volume>
+<fpage>1172</fpage>
+<lpage>1182</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.01202-10</pub-id>
+<?supplied-pmid 21193608?><pub-id pub-id-type="pmid">21193608</pub-id></element-citation></ref><ref id="B94-life-04-00944"><label>94.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Camargo</surname><given-names>S.</given-names></name><name><surname>Valladares</surname><given-names>A.</given-names></name><name><surname>Forchhammer</surname><given-names>K.</given-names></name><name><surname>Herrero</surname><given-names>A.</given-names></name></person-group>
+<article-title>Effects of PipX on NtcA-dependent promoters and characterization of the <italic>cox3</italic> promoter region in the heterocyst-forming cyanobacterium <italic>Anabaena</italic> sp. PCC 7120</article-title>
+<source>FEBS Lett.</source>
+<year>2014</year>
+<volume>588</volume>
+<fpage>1787</fpage>
+<lpage>1794</lpage>
+<pub-id pub-id-type="doi">10.1016/j.febslet.2014.03.039</pub-id>
+<?supplied-pmid 24685693?><pub-id pub-id-type="pmid">24685693</pub-id></element-citation></ref><ref id="B95-life-04-00944"><label>95.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>K.M.</given-names></name><name><surname>Buikema</surname><given-names>W.J.</given-names></name><name><surname>Haselkorn</surname><given-names>R.</given-names></name></person-group>
+<article-title>Heterocyst-specific expression of PatB, a gene required for nitrogen fixation in <italic>Anabaena</italic> sp. strain PCC 7120</article-title>
+<source>J. Bacteriol.</source>
+<year>2003</year>
+<volume>185</volume>
+<fpage>2306</fpage>
+<lpage>2314</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.185.7.2306-2314.2003</pub-id>
+<?supplied-pmid 12644502?><pub-id pub-id-type="pmid">12644502</pub-id></element-citation></ref><ref id="B96-life-04-00944"><label>96.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsujimoto</surname><given-names>R.</given-names></name><name><surname>Kamiya</surname><given-names>N.</given-names></name><name><surname>Fujita</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Transcriptional regulators Chlr and Cnfr are essential for diazotrophic growth in nonheterocystous cyanobacteria</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2014</year>
+<volume>111</volume>
+<fpage>6762</fpage>
+<lpage>6767</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1323570111</pub-id>
+<?supplied-pmid 24753612?><pub-id pub-id-type="pmid">24753612</pub-id></element-citation></ref><ref id="B97-life-04-00944"><label>97.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ramasubramanian</surname><given-names>T.S.</given-names></name><name><surname>Wei</surname><given-names>T.F.</given-names></name><name><surname>Golden</surname><given-names>J.W.</given-names></name></person-group>
+<article-title>Two <italic>Anabaena</italic> sp. strain PCC 7120 DNA-binding factors interact with vegetative cell- and heterocyst-specific genes</article-title>
+<source>J. Bacteriol.</source>
+<year>1994</year>
+<volume>176</volume>
+<fpage>1214</fpage>
+<lpage>1223</lpage>
+<?supplied-pmid 8113160?><pub-id pub-id-type="pmid">8113160</pub-id></element-citation></ref><ref id="B98-life-04-00944"><label>98.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>M.</given-names></name><name><surname>Semchonok</surname><given-names>D.A.</given-names></name><name><surname>Boekema</surname><given-names>E.J.</given-names></name><name><surname>Bruce</surname><given-names>B.D.</given-names></name></person-group>
+<article-title>Characterization and evolution of tetrameric photosystem I from the thermophilic cyanobacterium <italic>Chroococcidiopsis</italic> sp TS-821</article-title>
+<source>Plant Cell</source>
+<year>2014</year>
+<volume>26</volume>
+<fpage>1230</fpage>
+<lpage>1245</lpage>
+<pub-id pub-id-type="doi">10.1105/tpc.113.120782</pub-id>
+<?supplied-pmid 24681621?><pub-id pub-id-type="pmid">24681621</pub-id></element-citation></ref><ref id="B99-life-04-00944"><label>99.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hodkinson</surname><given-names>B.P.</given-names></name><name><surname>Allen</surname><given-names>J.L.</given-names></name><name><surname>Forrest</surname><given-names>L.L.</given-names></name><name><surname>Goffinet</surname><given-names>B.</given-names></name><name><surname>S&#x000e9;rusiaux</surname><given-names>E.</given-names></name><name><surname>Andr&#x000e9;sson</surname><given-names>&#x000d3;.S.</given-names></name><name><surname>Miao</surname><given-names>V.</given-names></name><name><surname>Bellenger</surname><given-names>J.P.</given-names></name><name><surname>Lutzoni</surname><given-names>F.</given-names></name></person-group>
+<article-title>Lichen-symbiotic cyanobacteria associated with <italic>Peltigera</italic> have an alternative vanadium-dependent nitrogen fixation system</article-title>
+<source>Eur. J. Phycol.</source>
+<year>2014</year>
+<volume>49</volume>
+<fpage>11</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="doi">10.1080/09670262.2013.873143</pub-id>
+</element-citation></ref><ref id="B100-life-04-00944"><label>100.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zimmerman</surname><given-names>W.J.H.</given-names></name><name><surname>Rosen</surname><given-names>B.</given-names></name><name><surname>Lumpkin</surname><given-names>T.A.</given-names></name></person-group>
+<article-title>Enzymatic, lectin, and morphological characterization and classification of presumptive cyanobionts from <italic>Azolla</italic> Lam</article-title>
+<source>New Phytol.</source>
+<year>1989</year>
+<volume>113</volume>
+<fpage>497</fpage>
+<lpage>503</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1469-8137.1989.tb00361.x</pub-id>
+</element-citation></ref><ref id="B101-life-04-00944"><label>101.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ran</surname><given-names>L.</given-names></name><name><surname>Larsson</surname><given-names>J.</given-names></name><name><surname>Vigil-Stenman</surname><given-names>T.</given-names></name><name><surname>Nylander</surname><given-names>J.A.A.</given-names></name><name><surname>Ininbergs</surname><given-names>K.</given-names></name><name><surname>Zheng</surname><given-names>W.W.</given-names></name><name><surname>Lapidus</surname><given-names>A.</given-names></name><name><surname>Lowry</surname><given-names>S.</given-names></name><name><surname>Haselkorn</surname><given-names>R.</given-names></name><name><surname>Bergman</surname><given-names>B.</given-names></name></person-group>
+<article-title>Genome erosion in a nitrogen-fixing vertically transmitted endosymbiotic multicellular cyanobacterium</article-title>
+<source>PloS One</source>
+<year>2010</year>
+<volume>5</volume>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0011486</pub-id>
+<pub-id pub-id-type="doi">10.1371/annotation/835c5766-5128-41c4-b636-adfe0c503103</pub-id>
+<?supplied-pmid 21203468?><pub-id pub-id-type="pmid">21203468</pub-id></element-citation></ref></ref-list></back></article>

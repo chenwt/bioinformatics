@@ -1,0 +1,589 @@
+{
+  "id": [
+    "26264682"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26264682"
+  ],
+  "pmcid": [
+    "PMC4534068"
+  ],
+  "doi": [
+    "10.1186/s12859-015-0694-x"
+  ],
+  "title": [
+    "A simplicial complex-based approach to unmixing tumor progression data."
+  ],
+  "authorString": [
+    "Roman T, Nayyeri A, Fasy BT, Schwartz R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Roman T"
+          ],
+          "firstName": [
+            "Theodore"
+          ],
+          "lastName": [
+            "Roman"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "Computatational Biology Department, Carnegie Mellon University, 5000 Forbes Ave., Pittsburgh, USA. troman@andrew.cmu.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Nayyeri A"
+          ],
+          "firstName": [
+            "Amir"
+          ],
+          "lastName": [
+            "Nayyeri"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "Computer Science Department, Carnegie Mellon University, 5000 Forbes Ave., Pittsburgh, USA. amirn@cmu.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Fasy BT"
+          ],
+          "firstName": [
+            "Brittany Terese"
+          ],
+          "lastName": [
+            "Fasy"
+          ],
+          "initials": [
+            "BT"
+          ],
+          "affiliation": [
+            "Department of Computer Science, Tulane University, 6834 St. Charles St., New Orleans, USA. bfasy@tulane.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Schwartz R"
+          ],
+          "firstName": [
+            "Russell"
+          ],
+          "lastName": [
+            "Schwartz"
+          ],
+          "initials": [
+            "R"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4970-2252",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, Carnegie Mellon University, 5000 Forbes Ave., Pittsburgh, USA. russells@andrew.cmu.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-4970-2252",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2476375"
+      ],
+      "dateOfPublication": [
+        "2015 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "254"
+  ],
+  "abstractText": [
+    "Tumorigenesis is an evolutionary process by which tumor cells acquire mutations through successive diversification and differentiation. There is much interest in reconstructing this process of evolution due to its relevance to identifying drivers of mutation and predicting future prognosis and drug response. Efforts are challenged by high tumor heterogeneity, though, both within and among patients. In prior work, we showed that this heterogeneity could be turned into an advantage by computationally reconstructing models of cell populations mixed to different degrees in distinct tumors. Such mixed membership model approaches, however, are still limited in their ability to dissect more than a few well-conserved cell populations across a tumor data set.We present a method to improve on current mixed membership model approaches by better accounting for conserved progression pathways between subsets of cancers, which imply a structure to the data that has not previously been exploited. We extend our prior methods, which use an interpretation of the mixture problem as that of reconstructing simple geometric objects called simplices, to instead search for structured unions of simplices called simplicial complexes that one would expect to emerge from mixture processes describing branches along an evolutionary tree. We further improve on the prior work with a novel objective function to better identify mixtures corresponding to parsimonious evolutionary tree models. We demonstrate that this approach improves on our ability to accurately resolve mixtures on simulated data sets and demonstrate its practical applicability on a large RNASeq tumor data set.Better exploiting the expected geometric structure for mixed membership models produced from common evolutionary trees allows us to quickly and accurately reconstruct models of cell populations sampled from those trees. In the process, we hope to develop a better understanding of tumor evolution as well as other biological problems that involve interpreting genomic data gathered from heterogeneous populations of cells."
+  ],
+  "affiliation": [
+    "Computatational Biology Department, Carnegie Mellon University, 5000 Forbes Ave., Pittsburgh, USA. troman@andrew.cmu.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "1R01AI076318"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "1R01CA140214"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "T32EB009403"
+          ],
+          "agency": [
+            "NIBIB NIH HHS"
+          ],
+          "acronym": [
+            "EB"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 CA140214"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "T32 EB009403"
+          ],
+          "agency": [
+            "NIBIB NIH HHS"
+          ],
+          "acronym": [
+            "EB"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 AI076318"
+          ],
+          "agency": [
+            "NIAID NIH HHS"
+          ],
+          "acronym": [
+            "AI"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Breast Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "PA"
+                  ],
+                  "qualifierName": [
+                    "pathology"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Disease Progression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neoplasm Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome, Human"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Computer Simulation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Regulatory Networks"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Neoplasm Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4534068?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4534068"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12859-015-0694-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-02-02"
+  ],
+  "dateOfCreation": [
+    "2015-08-12"
+  ],
+  "dateOfRevision": [
+    "2016-12-03"
+  ],
+  "electronicPublicationDate": [
+    "2015-08-12"
+  ],
+  "firstPublicationDate": [
+    "2015-08-12"
+  ]
+}

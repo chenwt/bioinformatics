@@ -1,0 +1,1017 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mar Drugs</journal-id><journal-id journal-id-type="iso-abbrev">Mar Drugs</journal-id><journal-id journal-id-type="publisher-id">marinedrugs</journal-id><journal-title-group><journal-title>Marine Drugs</journal-title></journal-title-group><issn pub-type="epub">1660-3397</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4962027</article-id><article-id pub-id-type="doi">10.3390/md14070137</article-id><article-id pub-id-type="publisher-id">marinedrugs-14-00137</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>From Discovery to Production: Biotechnology of Marine Fungi for the Production of New Antibiotics</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Silber</surname><given-names>Johanna</given-names></name><xref ref-type="aff" rid="af1-marinedrugs-14-00137">1</xref></contrib><contrib contrib-type="author"><name><surname>Kramer</surname><given-names>Annemarie</given-names></name><xref ref-type="aff" rid="af1-marinedrugs-14-00137">1</xref></contrib><contrib contrib-type="author"><name><surname>Labes</surname><given-names>Antje</given-names></name><xref ref-type="aff" rid="af1-marinedrugs-14-00137">1</xref></contrib><contrib contrib-type="author"><name><surname>Tasdemir</surname><given-names>Deniz</given-names></name><xref ref-type="aff" rid="af1-marinedrugs-14-00137">1</xref><xref ref-type="aff" rid="af2-marinedrugs-14-00137">2</xref><xref rid="c1-marinedrugs-14-00137" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Bertrand</surname><given-names>Samuel</given-names></name><role>Academic Editor</role></contrib><contrib contrib-type="editor"><name><surname>Grovel</surname><given-names>Olivier</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-marinedrugs-14-00137"><label>1</label>GEOMAR Helmholtz Centre for Ocean Research Kiel, Marine Natural Products Chemistry Research Unit, GEOMAR Centre for Marine Biotechnology (GEOMAR-Biotech), Am Kiel-Kanal 44, Kiel 24106, Germany; <email>jsilber@geomar.de</email> (J.S.); <email>akramer@geomar.de</email> (A.K.), <email>alabes@geomar.de</email> (A.L.)</aff><aff id="af2-marinedrugs-14-00137"><label>2</label>Faculty of Mathematics and Natural Sciences, University of Kiel, Christian-Albrechts-Platz 4, Kiel 24118, Germany</aff><author-notes><corresp id="c1-marinedrugs-14-00137"><label>*</label>Correspondence: <email>dtasdemir@geomar.de</email>; Tel.: +49-431-600-4430</corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>7</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>7</month><year>2016</year></pub-date><volume>14</volume><issue>7</issue><elocation-id>137</elocation-id><history><date date-type="received"><day>08</day><month>6</month><year>2016</year></date><date date-type="accepted"><day>12</day><month>7</month><year>2016</year></date></history><permissions><copyright-statement>&#x000a9; 2016 by the author; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2016</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Filamentous fungi are well known for their capability of producing antibiotic natural products. Recent studies have demonstrated the potential of antimicrobials with vast chemodiversity from marine fungi. Development of such natural products into lead compounds requires sustainable supply. Marine biotechnology can significantly contribute to the production of new antibiotics at various levels of the process chain including discovery, production, downstream processing, and lead development. However, the number of biotechnological processes described for large-scale production from marine fungi is far from the sum of the newly-discovered natural antibiotics. Methods and technologies applied in marine fungal biotechnology largely derive from analogous terrestrial processes and rarely reflect the specific demands of the marine fungi. The current developments in metabolic engineering and marine microbiology are not yet transferred into processes, but offer numerous options for improvement of production processes and establishment of new process chains. This review summarises the current state in biotechnological production of marine fungal antibiotics and points out the enormous potential of biotechnology in all stages of the discovery-to-development pipeline. At the same time, the literature survey reveals that more biotechnology transfer and method developments are needed for a sustainable and innovative production of marine fungal antibiotics.</p></abstract><kwd-group><kwd>marine biotechnology</kwd><kwd>transfer to stirred tank reactor</kwd><kwd>full fermentative process</kwd><kwd>semi-synthesis</kwd><kwd>biological derivatisation</kwd><kwd>filamentous fungi</kwd><kwd>bioprocess development</kwd><kwd>heterologous expression</kwd><kwd>genetic and metabolic engineering</kwd><kwd>downstream processing</kwd></kwd-group></article-meta></front><body><sec id="sec1-marinedrugs-14-00137"><title>1. Need for New Antibiotics</title><p>The discovery of the first antibiotic penicillin from the mold <italic>Penicillium notatum</italic> by Sir Alexander Fleming opened up a completely new era of chemotherapy, thereby changing the quality of human life. Ever since the development of penicillin in 1940s that initiated the golden era of further natural antibiotics from <italic>Streptomyces</italic> species, we have benefited from antibiotics from diverse chemical classes against pathogenic bacteria [<xref rid="B1-marinedrugs-14-00137" ref-type="bibr">1</xref>]. More than 350 agents so far have reached the world market as antimicrobials [<xref rid="B2-marinedrugs-14-00137" ref-type="bibr">2</xref>]. They include natural products, semi-synthetic antibiotics and synthetic chemicals [<xref rid="B2-marinedrugs-14-00137" ref-type="bibr">2</xref>,<xref rid="B3-marinedrugs-14-00137" ref-type="bibr">3</xref>]. The wide use of antibiotics, however, has resulted in the development of resistant microbes due to the evolutionary selection pressure driven by antibiotics [<xref rid="B4-marinedrugs-14-00137" ref-type="bibr">4</xref>]. The number of effective therapeutic measures against life-threatening bacterial and fungal infections has fallen dramatically because of the emerging multidrug-resistant (MDR) pathogens. Nowadays, infectious diseases are listed as the second leading cause of death worldwide and are regarded as a very major global societal challenge of the century [<xref rid="B5-marinedrugs-14-00137" ref-type="bibr">5</xref>,<xref rid="B6-marinedrugs-14-00137" ref-type="bibr">6</xref>]. Alarmingly, many pharmaceutical companies have significantly reduced or completely terminated R&#x00026;D programmes on antibiotics. Drug discovery pipelines are almost empty, with only a few new drug candidates in registration or in development [<xref rid="B5-marinedrugs-14-00137" ref-type="bibr">5</xref>]. Only recently, the dramatic increase of incidence of bacterial MDR infections has led to a revival of antibiotic programs. Further measures and strategies are urgently needed worldwide to tackle the drug resistance and promote research in antibiotic drug discovery, including those from natural sources [<xref rid="B7-marinedrugs-14-00137" ref-type="bibr">7</xref>].</p><p>Microbial sources have been very prolific producers of thousands of natural antibiotics. More than half of all antibiotics are produced by actinomycetes, 10%&#x02013;15% by non-filamentous bacteria and about 20% by filamentous fungi [<xref rid="B8-marinedrugs-14-00137" ref-type="bibr">8</xref>]. Still, this possibly only represents a small portion of the repertoire of microbial bioactive compounds, as drug discovery efforts often involve a specific focus, either on taxonomic groups or on habitats. In that sense, marine ecosystems have remained almost untapped although marine microorganisms can accumulate structurally unique bioactive natural products that are not found in terrestrial counterparts. A detailed analysis by Kong et al. showed that large portions of marine scaffolds are novel [<xref rid="B9-marinedrugs-14-00137" ref-type="bibr">9</xref>]. Auranomides A and B, quinazolin-4-ones substituted with a pyrrolidin-2-iminium moiety from the marine-derived fungus <italic>Penicillium aurantiogriseum,</italic> or aspergilols A and B with a C&#x02013;C fusion of an anthraquinone and orcinol unit from a deep-sea <italic>Aspergillus versicolor</italic> represent new scaffolds from marine habitats [<xref rid="B10-marinedrugs-14-00137" ref-type="bibr">10</xref>,<xref rid="B11-marinedrugs-14-00137" ref-type="bibr">11</xref>]. Secondary metabolites that are exclusively produced by marine organisms are thought to facilitate their adaptation and survival in the marine environments characterised by very special conditions [<xref rid="B12-marinedrugs-14-00137" ref-type="bibr">12</xref>]. The microbial biodiversity of marine environments is enormous, but has not yet been explored and characterised&#x02014;neither taxonomically nor chemically. Latest estimates calculate that probably less than 0.1% of the marine microbial diversity has been studied [<xref rid="B13-marinedrugs-14-00137" ref-type="bibr">13</xref>]. To our knowledge, no specific estimates are available for marine fungi.</p><p>Since the 1980s, the number of antibiotic compounds isolated from marine fungi is rapidly increasing. Most sampled sources are marine algae, sponges, and mangroves that have been shown to harbour highly talented associated fungi in terms of natural product production. The ecological reasons for this talent remain hypothetical for most cases [<xref rid="B14-marinedrugs-14-00137" ref-type="bibr">14</xref>,<xref rid="B15-marinedrugs-14-00137" ref-type="bibr">15</xref>]. Although marine fungi currently attract a good deal of research efforts, most of the studies are limited to the description of new chemical structures with in vitro biological activities. The discovery of new compounds is only the very first step of the long, expensive, and risky drug discovery pipeline, which requires large supply of the metabolite of interest. Converting the discovery of a lead compound to production at sufficient amounts for development, or processing into clinical trials is unfortunately far from being advanced. Biotechnology can offer realistic routes to the adequate supply and promotion of new compounds into marketable drugs. In this review, we report on the biotechnological approaches using marine fungi for the production of new antibiotics.</p></sec><sec id="sec2-marinedrugs-14-00137"><title>2. Marine Fungi as a Promising Source to Meet the Need for New Antibiotics</title><p>The discovery of penicillin fuelled the exploration and exploitation of microorganisms as excellent sources for antibiotics [<xref rid="B1-marinedrugs-14-00137" ref-type="bibr">1</xref>]. This led to a boost in development of biotechnological techniques, which were subsequently transferred to processes for a large variety of products [<xref rid="B16-marinedrugs-14-00137" ref-type="bibr">16</xref>]. The past decade witnessed a renewed interest in fungi for development of anti-infective lead compounds, enhancing the awareness of the importance of biotechnology. Unfortunately, the extremely low cultivability (1%) of microorganisms in standard laboratory conditions [<xref rid="B17-marinedrugs-14-00137" ref-type="bibr">17</xref>] restricts the discovery and subsequent biotechnological development of further antibacterial compounds possibly encoded in so-far-unknown fungi. The culture-independent molecular description of microbes from a number of natural habitats has uncovered a hitherto unknown microbial wealth, showing a new dimension of fungal diversity by revealing the presence of novel environmental marine phylotypes. To name only a few: deep sea <italic>Pezizomycotina</italic>, as an environmental clone group (PCG), and novel environmental sequences from marine anoxic vent habitats grouped together into the hydrothermal and/or anaerobic fungal group (Hy-An Group) within Basidiomycota and Ustilaginomycotina, for review see [<xref rid="B18-marinedrugs-14-00137" ref-type="bibr">18</xref>]. The absence of fungal isolates of these groups and limited availability of marine fungal strains in culture collections have caused insufficient exploration of biological diversity so far. In order to increase the chemodiversity, the biodiversity has to be increased accordingly. In addition, many biosynthetic gene clusters remain dormant or under-expressed in artificial laboratory culture conditions [<xref rid="B19-marinedrugs-14-00137" ref-type="bibr">19</xref>]. This leads to another restriction, i.e., the frequent replication of already known compounds, which sets a severe limit [<xref rid="B20-marinedrugs-14-00137" ref-type="bibr">20</xref>]. It can be assumed that the opportunity for discovery of new bioactive molecules in marine fungi could exceed any organisms from other ecosystems, as the oceans represent highly competitive environment with a longer evolutionary history and an untapped biodiversity. Research in recent years has led to significant improvements in the existing techniques for discovery of new compounds and thereby the available chemical space. Efforts undertaken in that context include the stimulation of the so-called &#x0201c;silent&#x0201d; gene clusters by external stimuli such as modification of all culture parameters (One-Strain-Many-Compounds = OSMAC approach [<xref rid="B21-marinedrugs-14-00137" ref-type="bibr">21</xref>]), mimicking environmental conditions [<xref rid="B22-marinedrugs-14-00137" ref-type="bibr">22</xref>,<xref rid="B23-marinedrugs-14-00137" ref-type="bibr">23</xref>] or the co-culturing with other microbes [<xref rid="B24-marinedrugs-14-00137" ref-type="bibr">24</xref>]. Different types of stress (e.g., UV) and competitive environments can also be applied, for a review see [<xref rid="B23-marinedrugs-14-00137" ref-type="bibr">23</xref>].</p><p>In the 1950s, cephalosporin C, a &#x003b2;-lactam type natural antibiotic, was discovered from a <italic>Cephalosporium</italic> (nowadays <italic>Acremonium</italic>) species obtained off the Sardinian coast [<xref rid="B25-marinedrugs-14-00137" ref-type="bibr">25</xref>,<xref rid="B26-marinedrugs-14-00137" ref-type="bibr">26</xref>]. Cephalosporin C represents the first fungal antibiotic from a marine environment. In the late 1970s, gliotoxin was identified as a new type of the antibiotic diketopiperazine produced by an <italic>Aspergillus</italic> sp. strain isolated from marine mud of the Seto Inland Sea. It was the first antimicrobial compound of this type obtained from a fungus originating from deep-sea sediments [<xref rid="B27-marinedrugs-14-00137" ref-type="bibr">27</xref>]. Later, gliotoxin and related diketopiperazines were shown to be produced by many marine and terrestrial fungi [<xref rid="B27-marinedrugs-14-00137" ref-type="bibr">27</xref>]. The first antibiotic compound from a marine yeast was indanonaftol A, a spiro-indanone derivative from a marine <italic>Aureobasidium</italic> sp. with weak activity against Gram-positive bacteria [<xref rid="B28-marinedrugs-14-00137" ref-type="bibr">28</xref>,<xref rid="B29-marinedrugs-14-00137" ref-type="bibr">29</xref>]. A steadily increasing number of new, active fungal natural products have since been identified from the marine environment, proving them to be a prolific source for bioactive compounds including antibiotics. While a total number of 272 compounds had been described from marine fungi until 2002 [<xref rid="B20-marinedrugs-14-00137" ref-type="bibr">20</xref>], almost 200 new natural products were identified from this source in 2009 alone [<xref rid="B14-marinedrugs-14-00137" ref-type="bibr">14</xref>]. This trend seems to continue: Blunt et al. listed over 200 natural products from marine-sourced fungi (excluding those from mangroves) in the year 2013, 5% of which with antibacterial properties against different <italic>Staphylococcus</italic> and <italic>Vibrio</italic> species, <italic>Escherichia</italic>
+<italic>coli</italic> and <italic>Xanthomonas</italic>
+<italic>campestris</italic> [<xref rid="B30-marinedrugs-14-00137" ref-type="bibr">30</xref>,<xref rid="B31-marinedrugs-14-00137" ref-type="bibr">31</xref>]. Cuomo et al. observed higher hit rates in marine isolates as compared to terrestrial ones, while cultivating approximately 1500 terrestrial and the same order of marine strains for evaluation of their antimicrobial potential [<xref rid="B32-marinedrugs-14-00137" ref-type="bibr">32</xref>]. </p><p>Fungal marine natural products include a large diversity of structural classes and a wide range of substituent patterns resulting in some remarkable antibacterial and other bioactivities. Ascochital, for instance, is a fairly potent aromatic aldehyde against <italic>Bacillus subtilis</italic> with a minimal inhibitory concentration (MIC) of 0.5 &#x003bc;g/mL. This compound was isolated from the marine ascomycete <italic>Kirschsteiniothelia maritima</italic> derived from a submerged wood sample [<xref rid="B20-marinedrugs-14-00137" ref-type="bibr">20</xref>]. The aminolipopeptides trichoderins A, A1, and B from a marine <italic>Trichoderma</italic> sp. (isolated from an unidentified marine sponge) exhibited notable activity against <italic>Mycobacterium smegmatis</italic>, <italic>M. bovis</italic> BCG and <italic>M. tuberculosis</italic> H37Rv. The trichoderins display activity against the active and dormant <italic>Mycobacterium</italic> test strains with MICs in the range of 0.02&#x02013;2.0 &#x003bc;g/mL [<xref rid="B33-marinedrugs-14-00137" ref-type="bibr">33</xref>]. Most illustrative example for the potential of marine fungi as producers of promising antibiotic candidates is pestalone. This chlorinated benzophenone was obtained from the mixed cultivation of a marine <italic>Pestalotia</italic> sp. (isolated from the surface of the Bahamian brown alga <italic>Rosenvingea</italic> sp.) with an unidentified marine bacterium. Pestalone showed highly potent activity against methicillin-resistant <italic>Staphylococcus aureus</italic> and vancomycin-resistant <italic>Enterococcus faecium</italic> with MIC values of 37 ng/mL and 78 ng/mL, respectively [<xref rid="B34-marinedrugs-14-00137" ref-type="bibr">34</xref>].</p></sec><sec id="sec3-marinedrugs-14-00137"><title>3. Biotechnology for Sustainable Production of New Antibiotics</title><p>In contrast to macro-organisms, micro-organisms have the advantage of feasible and sustainable production of large quantities of anti-infective natural products by large-scale cultivation at reasonable costs [<xref rid="B35-marinedrugs-14-00137" ref-type="bibr">35</xref>]. This is reflected in the proportion of fermentation products of worldwide antibiotic manufacture with total amounts of 100,000 tons, including 60,000 tons of penicillins, 5,500 tons of tetracyclines and 2,500 tons of cephalosporins. Antibiotics that are natural or derived from natural products include &#x003b2;-lactam antibiotics such as ampicillin (5,000 tons per year), cephalexin (4,000 tons), amoxicillin (16,000 tons), and cefadroxil (1,000 tons). Macrolides at high tonnage comprise azithromycin (1,500 tons) and clarithromycin (1,500 tons). Glycopeptides, such as vancomycin and teicoplanin, are produced at a total of 9,000 tons [<xref rid="B8-marinedrugs-14-00137" ref-type="bibr">8</xref>]. Nevertheless, the success stories in marine biotechnology are far fewer than in all other fields of commercial biotechnology [<xref rid="B36-marinedrugs-14-00137" ref-type="bibr">36</xref>]. Out of the many hundreds of bioactive compounds reported from marine fungi, only few reached commercialisation. The lack of transfer from the discovery stage to a proper biotechnological process chain has limited&#x02014;at least partly&#x02014;the availability of sufficient quantities of the compounds either for clinical trials or for early-stage lead development such as modification by chemical or biocatalytic means. </p><p>Similar to the biopharmaceutical biotechnology sector, bioprocess engineering in marine biotechnology follows the path from discovery to commercialisation with a variety of possible starting points and approaches, which can be used to take the compound to the next developmental step. A full value chain remains theoretical, as quantitative biotechnological engineering studies on marine fungi are virtually non-existing in the literature. As illustrated by <xref ref-type="fig" rid="marinedrugs-14-00137-f001">Figure 1</xref>, biotechnology has a vast potential for sustainable production of antibiotics from marine fungi, starting from methods that help to expand and understand the chemical space in a targeted manner, via classical full fermentative and semi-synthetic processes to metabolic engineering manipulating the genetic background as a basis for generation of &#x0201c;biological&#x0201d; derivatives.</p><p>In the following, we describe the current state of the various possibilities and approaches along the marine biotechnological process chain in the field of antibiotics from marine fungal producers (<xref ref-type="table" rid="marinedrugs-14-00137-t001">Table 1</xref>, <xref ref-type="fig" rid="marinedrugs-14-00137-f002">Figure 2</xref>). The review covers all available marine fungal antibiotic compounds for which at least one biotechnological approach has been published since March 2016. <xref ref-type="table" rid="marinedrugs-14-00137-t001">Table 1</xref> gives an overview, which will be described in more detail in the following chapters. Strategies to expand the chemical space by improving chemical and microbiological methods were not considered as biotechnology approaches.</p><sec id="sec3dot1-marinedrugs-14-00137"><title>3.1. Role of Biotechnology in Discovery</title><p>For discovery of an antibacterial product, usually a specific species is selected, the product is extracted, screened for antibacterial activity, subjected to (bioactivity-guided) isolation process and finally the natural product is obtained in a highly pure form. This type of natural product discovery is slow, tedious, labour intensive and inefficient [<xref rid="B59-marinedrugs-14-00137" ref-type="bibr">59</xref>]. Recent advancements in the dereplication and other analytical methods have led to more efficient natural product discovery. Biotechnology can as well contribute to the rapid discovery of metabolites from marine fungi by a number of approaches [<xref rid="B60-marinedrugs-14-00137" ref-type="bibr">60</xref>], overcoming random approaches such as OSMAC:
+<list list-type="bullet"><list-item><p>Controlled miniaturisation for increased screening throughput. Cultivation in small-scale fermentation (mL ranges) systems, e.g., microtiter plates, has been proven to be feasible for marine fungi [<xref rid="B61-marinedrugs-14-00137" ref-type="bibr">61</xref>,<xref rid="B62-marinedrugs-14-00137" ref-type="bibr">62</xref>,<xref rid="B63-marinedrugs-14-00137" ref-type="bibr">63</xref>] and used in screening for antibiotics of filamentous fungi (in deep well microtiter plates [<xref rid="B64-marinedrugs-14-00137" ref-type="bibr">64</xref>]). Controlled process development as the biotechnological approach is possible in specialised miniaturised fermentation systems such as &#x0201c;System Duetz&#x0201d; [<xref rid="B65-marinedrugs-14-00137" ref-type="bibr">65</xref>] or &#x0201c;BioLector&#x0201d; [<xref rid="B66-marinedrugs-14-00137" ref-type="bibr">66</xref>,<xref rid="B67-marinedrugs-14-00137" ref-type="bibr">67</xref>]. They allow enlarging the number of tested cultivation conditions, as well as to screen strains or mutant libraries in a targeted and efficient way. A mutant library established from a marine fungus has recently been screened for anticancer natural products [<xref rid="B63-marinedrugs-14-00137" ref-type="bibr">63</xref>]. This bioactivity-independent approach can be easily transferred to the antibiotic field. For detailed information on the application of microtiter plates as mini-bioreactors the reader is referred to the review by Duetz [<xref rid="B68-marinedrugs-14-00137" ref-type="bibr">68</xref>]. Such systems are necessary for the efficient application of statistical approaches for process optimisation (Design of Experiment, DoE, [<xref rid="B69-marinedrugs-14-00137" ref-type="bibr">69</xref>,<xref rid="B70-marinedrugs-14-00137" ref-type="bibr">70</xref>]).</p></list-item><list-item><p>Targeted stimulation of strains to expand chemodiversity. A proper understanding of fungal producers and their ecological role can help to find the appropriate production conditions and extend the chemical diversity of their constituents [<xref rid="B71-marinedrugs-14-00137" ref-type="bibr">71</xref>]. Standard approaches in recent years focussed on triggering a strain by as many parameters (randomly chosen) as possible (OSMAC) [<xref rid="B21-marinedrugs-14-00137" ref-type="bibr">21</xref>]. More strategic approaches would include targeted mixed fermentations based on genetic and ecological knowledge as used in the food biotechnology to enhance enzyme production. The full potential of such approaches of ecologically or genetically-based biotechnology needs to be proven in the future.</p></list-item><list-item><p>Strain characterisation using &#x02018;omics&#x02019; techniques. Comprehensive knowledge from genome to metabolome level contributes to a general understanding of the fungal potential in drug discovery but also to concrete optimisation strategies for biotechnological processes. Especially the analyses on proteome level (proteomics) may deliver valuable insights into the producing cell, underlying regulatory processes and angles for metabolic engineering [<xref rid="B72-marinedrugs-14-00137" ref-type="bibr">72</xref>]. Transcriptomics, proteomics, and secretomics can be applied to elucidate the metabolic state of a cell on all levels of gene regulation and to indicate regulation sites on DNA, RNA, and protein level. Based on such knowledge, conditions required to induce expression of the full biosynthetic potential of an organism can be established and further be controlled [<xref rid="B60-marinedrugs-14-00137" ref-type="bibr">60</xref>]. Until now, no such example is available for production of antibiotics by marine fungi, but this approach is considered as one of the major directions for future research. Current examples from a related field, anticancer compounds, already show how powerful these tools may be: A comparative proteome study on a marine <italic>Microascus brevicaulis</italic> revealed how the biotechnological fermentation process should be controlled in order to increase the production of the anti-cancer compounds scopularides A and B [<xref rid="B73-marinedrugs-14-00137" ref-type="bibr">73</xref>]. Furthermore, fluxomics, which determine the metabolic flux of primary molecules during primary and secondary metabolism in a quantitative manner, is a powerful tool to display the conversation of nutrient source into products or by-products [<xref rid="B74-marinedrugs-14-00137" ref-type="bibr">74</xref>]. This knowledge can be used to design fermentation conditions or to engineer the underlying pathways by means of genetic modification. Metabolomics, finally, identifies the global metabolite profile in both qualitative and quantitative manner.</p></list-item></list></p></sec><sec id="sec3dot2-marinedrugs-14-00137"><title>3.2. Role of Biotechnology in Production </title><p>The production of natural products in sufficient amounts is crucial for drug development and can be achieved by a number of biotechnological approaches. Most publications referring to biotechnology of marine fungal antibiotics have contributed to that part of the production chain (<xref ref-type="table" rid="marinedrugs-14-00137-t001">Table 1</xref>). They cover (i) full fermentative processes using the natural producer; (ii) semi-synthetic approaches (i.e., fermentation to produce either a precursor molecule or modifying a synthetic product by means of bioconversion), and (iii) heterologous production in genetically-modified hosts. In the following sections, we describe these directions in detail.</p><sec id="sec3dot2dot1-marinedrugs-14-00137"><title>3.2.1. Production Using Full Fermentative Processes</title><p>Although fungi have a long history of use in food production, the implementation of the industrial-scale fermentation of penicillin reflects the breakthrough of filamentous fungal biotechnology. The well-accepted suitability of large-scale production of microorganisms in contrast to macro-organisms is based on the possibility to transfer respective microbial producer strains into an established biotechnological production process. Ng et al. state that &#x0201c;for the cultivable microorganisms, the problem of isolation of enough raw natural product materials is easily solved by adopting large-scale cultivation or fermentation when using different approaches to optimise the culture medium for the enhanced production of target biomolecules&#x0201d; [<xref rid="B59-marinedrugs-14-00137" ref-type="bibr">59</xref>]. However, research on the optimisation of marine fungal fermentation in bioreactors is insufficient [<xref rid="B36-marinedrugs-14-00137" ref-type="bibr">36</xref>]. Most production strategies were established at the shake flask level (Erlenmeyer flasks, EMF) and lack a mechanistic understanding of the antibiotic production process, offering poor prospects for successful up-scaling. </p><p>Large-scale fermentations are often performed in multiplication of EMF cultures to obtain enough material for the isolation of the compounds of interest [<xref rid="B75-marinedrugs-14-00137" ref-type="bibr">75</xref>]. Since only the transfer into bioreactors allows up-scaling and control of the production process, an initial transfer of cultures into controlled systems, e.g., from EMF into bioreactors, is crucial for successful and economically feasible scale-up. This is especially important as the operating factors like aeration/dissolved oxygen, carbon dioxide, pH, temperature and foam often strongly influence antibiotic production in an unpredictable manner. A proper understanding of these factors is the basis for further successful scale-up strategies [<xref rid="B76-marinedrugs-14-00137" ref-type="bibr">76</xref>]. Currently, stirred tank reactors (STR), moving bed and solid-state systems are the most common reactor types applied for fungal biotechnology. For terrestrial fungi, the technical and economic feasibility of large-scale production has been proven for many processes. Whereas STR is predominant in most other industrial fermentation of terrestrial fungi [<xref rid="B77-marinedrugs-14-00137" ref-type="bibr">77</xref>], solid-state fermentation is used more widely for production of bioactive compounds [<xref rid="B78-marinedrugs-14-00137" ref-type="bibr">78</xref>,<xref rid="B79-marinedrugs-14-00137" ref-type="bibr">79</xref>,<xref rid="B80-marinedrugs-14-00137" ref-type="bibr">80</xref>,<xref rid="B81-marinedrugs-14-00137" ref-type="bibr">81</xref>]. No solid-state fermentation data for marine fungi were found in the literature.</p><p>Successful transfer into STR for antibiotic production from marine fungi has been demonstrated e.g., for the production of the tetramic acid compounds ascosetin and lindgomycin produced by an Arctic fungus of the <italic>Lindgomycetaceae</italic> family. The controlled process allowed an increase in product yield (by a factor of 100) and a significant reduction of process time [<xref rid="B40-marinedrugs-14-00137" ref-type="bibr">40</xref>]. Other examples for specific approaches to transfer marine fungi into controlled systems were the experiments of Lorenz and Molitoris, who performed cultivation of marine fungi in 20&#x02013;100-L systems at environmentally occurring high pressures for obligate marine fungi from deep-sea habitats [<xref rid="B58-marinedrugs-14-00137" ref-type="bibr">58</xref>]. Application of such specific environmental conditions may stimulate the expression of gene clusters, e.g., for new antibiotic natural products [<xref rid="B36-marinedrugs-14-00137" ref-type="bibr">36</xref>].</p><p>Only few marine fungal metabolite production processes have been reported in more detail. In the case of <italic>Exophilia pisciphila</italic>, a member of the so-called &#x0201c;black yeasts&#x0201d; isolated from the sponge <italic>Mycale adhaerens</italic>, a 15-L cultivation in a 20-L glass bottle fermenter was carried out with a controlled course of the medium pH, while measuring cell density for the production of the 3,5-dihydroxydecanoic polyester exophilin A [<xref rid="B48-marinedrugs-14-00137" ref-type="bibr">48</xref>]. The antibacterial activity of the broth drastically increased after six days and reached its maximum after ten days of cultivation. In another example, the antibiotic activity of the extract of the marine fungus <italic>Hypoxylon oceanicum</italic> from mangrove wood in Shenzen, China, resulted from the production of the well-known macrocyclic polylactones 15G256&#x003b1;, 15G256&#x003b2;, and the novel lipodepsipeptide 15G256&#x003b3; [<xref rid="B38-marinedrugs-14-00137" ref-type="bibr">38</xref>]. In an optimised medium, the cultivation time in 30-L and 300-L reactors was reduced to three days. In this case, production of the metabolites occurred in the stationary phase of growth. Titres of the polylactones and the lipodepsipeptide reached approximately 30 mg/L and 300 mg/L, respectively. Xu et al. studied operating factors such as inoculation, agitation speed, aeration rate, pH control, and nutrient feeding to optimise the production of (+)-terrein, a cyclopentenone from the marine fungus <italic>Aspergillus terreus</italic> (isolated from the sponge <italic>Phakellia fusca</italic>), in a 5-L stirred bioreactor. As for terrestrial bioprocesses, it was recognised that the carbon and nitrogen sources play an important role for compound production [<xref rid="B55-marinedrugs-14-00137" ref-type="bibr">55</xref>]. This was also shown for the diketopiperazine chrysogenazine from <italic>Penicillium chrysogenum</italic> originating from a mangrove [<xref rid="B44-marinedrugs-14-00137" ref-type="bibr">44</xref>]. For the production of the macrocyclic polyester calcaride A from a <italic>Calcarisporium</italic> sp., a comprehensive study led to a 200-fold increase of compound titres by adaptation of carbon-to-nitrogen ratio, besides the adjustment of the pH regime and changing the mycelial morphology [<xref rid="B52-marinedrugs-14-00137" ref-type="bibr">52</xref>]. </p><p>In addition to the typical physiochemical parameters to be controlled, morphology is one of the major parameters influencing the product formation (biosynthesis) and productivity of filamentous organisms. Filamentous fungi have the ability to grow in various morphological appearances, ranging from dispersed filaments to highly dense networks of mycelia, referred to as pellets [<xref rid="B82-marinedrugs-14-00137" ref-type="bibr">82</xref>]. As the morphology has impact on the production of the desired product, it becomes highly important for the fermentation process&#x02014;even though a general optimal form for highest production cannot be stated [<xref rid="B83-marinedrugs-14-00137" ref-type="bibr">83</xref>]. Most industrial fermentations are based on dispersed forms, which have to deal with complex non-Newtonian rheological behaviour, finally leading to inhomogeneous conditions [<xref rid="B84-marinedrugs-14-00137" ref-type="bibr">84</xref>,<xref rid="B85-marinedrugs-14-00137" ref-type="bibr">85</xref>] that affect natural product formation. For instance, effects of cycling oxygen concentrations on penicillin production were shown quite long ago [<xref rid="B86-marinedrugs-14-00137" ref-type="bibr">86</xref>]. In contrast, pellet formation would maintain the Newtonian rheological behaviour. However, due to different levels of nutrients and oxygen uptake at several layers of a pellet, pellets reflect a highly inhomogeneous agglomerate of cells on molecular level. As the morphology impacts antibiotic production [<xref rid="B87-marinedrugs-14-00137" ref-type="bibr">87</xref>,<xref rid="B88-marinedrugs-14-00137" ref-type="bibr">88</xref>], advantages and disadvantages of dispersed mycelia or pellet must be carefully balanced for each biological system [<xref rid="B89-marinedrugs-14-00137" ref-type="bibr">89</xref>]. </p><p>Brine cultivation of marine fungi in stainless steel tank reactors may be an additional challenge due to rapid corrosion. Halotolerant marine fungi have evolved unique metabolic mechanisms that are responsive to salt concentrations. These osmoregulatory mechanisms are based on compatible solutes. Since the biosynthesis of these solutes is energetically costly, fungi may exhibit decreased or slower rates of metabolite production in the presence of high salt concentrations. Interestingly, only few reports have investigated the impact of varying salt concentrations on production of antimicrobial marine fungal metabolites, such as the ortho-quinone obioninene from <italic>Leptosphaeria</italic>
+<italic>oraemaris</italic> [<xref rid="B51-marinedrugs-14-00137" ref-type="bibr">51</xref>,<xref rid="B54-marinedrugs-14-00137" ref-type="bibr">54</xref>]. These initial findings show that some marine fungal species exhibit increased growth with increasing seawater concentration in the medium while the maximal antimicrobial activity appeared in media containing 25%&#x02013;50% seawater [<xref rid="B54-marinedrugs-14-00137" ref-type="bibr">54</xref>]. Additionally, the osmotic effect on the cell, antibiotic production could be sensitive to the seawater composition, i.e., concentration of specific salts, which could have implications for tank reactor cultivation of marine fungi.</p><p>Despite success in some particular cases, many obstacles remain, such as long cultivation times due to slow growth rates, e.g., as of 10 days for maximum production of exophilin A, a 3,5-dihydroxydecanoic polyester [<xref rid="B48-marinedrugs-14-00137" ref-type="bibr">48</xref>] or 10 days of cultivation time for the phathalate bis(2-ethylhexyl)phthalate from a <italic>Cladosporium</italic> sp. [<xref rid="B51-marinedrugs-14-00137" ref-type="bibr">51</xref>,<xref rid="B41-marinedrugs-14-00137" ref-type="bibr">41</xref>]. This holds true for most of the compounds listed in <xref ref-type="table" rid="marinedrugs-14-00137-t001">Table 1</xref>. Consequently, the production costs would be rather high. </p><p>Inclusion of new methods into process development will significantly contribute to further improvements. Niche-mimic bioreactors might be one opportunity to enhance productivity, but having the industrial scale in mind, adaptation of existing technologies seems to be unavoidable. If adaption is not possible, the development of specialised reactors in industrial scale can be an alternative: The use of immobilised cells in a repeated batch tower reactor led to a significant increase of yield in the production of cephalosporin [<xref rid="B90-marinedrugs-14-00137" ref-type="bibr">90</xref>]. Development and fermentation costs must be economically balanced against the value of the product.</p><p>Furthermore, many of the above shown studies focused on the chemical isolation of a specific bioactive product without providing bioprocess data or adapting the existing bioprocess conditions, although the scales ranged from 0.3-L to 300-L working volume. Sarkar et al. provided bioprocess data for fermentations of marine fungi for enzyme production. Based on their analysis, there is a demand for further research and development to increase production scales and adapt equipment and processes to the needs of marine fungi (e.g., pressure for deep-sea organisms). They conclude the necessity of further research especially in process development of full fermentative processes [<xref rid="B91-marinedrugs-14-00137" ref-type="bibr">91</xref>]. In this context, the increasing knowledge gained by all levels of &#x02018;omics&#x02019; techniques (see <xref ref-type="sec" rid="sec3dot1-marinedrugs-14-00137">Section 3.1</xref>) provides powerful tools for the biotechnological sector (especially proteomics and fluxomics) to understand and accordingly adapt the respective production properties. Proteomics provide a distinct picture of the presence and activity of all metabolic pathways at specific time points and conditions. This can be used to reveal regulation sites, which can subsequently be addressed by process control and/or genetic modification of the producer. Fluxomics display the conversation of substrate to product, enabling to correlate input, output and losses of a bioprocess [<xref rid="B92-marinedrugs-14-00137" ref-type="bibr">92</xref>]. If such fluxes are known, the producing strains could be engineered to change the flux into direction of antibiotic production (see <xref ref-type="sec" rid="sec3dot2dot3-marinedrugs-14-00137">Section 3.2.3</xref>).</p></sec><sec id="sec3dot2dot2-marinedrugs-14-00137"><title>3.2.2. Production Using Semi-Synthesis</title><p>When full fermentative processes cannot be realised in an economically feasible way and the structural complexity limits their chemical synthesis, semi-synthetic processes offer an alternative path in product development. Especially for molecules with complex stereochemistry, the stereosensitivity of enzymatic conversions may be the only way of gaining the optically pure molecule. In semi-synthesis, precursor molecules obtained by a fermentation process are subsequently processed by chemical synthesis or, vice versa, a synthetic product is modified by means of bioconversion using enzymes, whole cells, or even fermentation processes [<xref rid="B93-marinedrugs-14-00137" ref-type="bibr">93</xref>]. A prime example for marine fungal natural products as drugs is the discovery of the &#x003b2;-lactam antibiotic cephalosporin C, which was further developed by semi-synthetic approaches: its producer, an <italic>Acremonium chrysogenum</italic> strain, was isolated from seawater samples near a sewer outlet in Sardinia [<xref rid="B94-marinedrugs-14-00137" ref-type="bibr">94</xref>]. Although cephalosporin C originally exhibited only weak antibacterial properties, the activity has been gradually increased through the generation of semi-synthetic cephalosporin derivatives [<xref rid="B95-marinedrugs-14-00137" ref-type="bibr">95</xref>]. Two-thirds of commercial cephalosporins are derived from biotechnologically-produced cephalosporin C, which serves as a precursor for synthesis of the respective semi-synthetic cephalosporins. After decades of optimisation in fermentation and strain improvement including mutagenesis and genetic engineering (see <xref ref-type="sec" rid="sec3dot2dot3-marinedrugs-14-00137">Section 3.2.3</xref>), high-yielding strains of <italic>A. chrysogenum</italic> reach harvest titres of at least 30 g/L for cephalosporin C in fed-batch fermentations [<xref rid="B43-marinedrugs-14-00137" ref-type="bibr">43</xref>]. Consequently, despite cephalosporin C being first isolated as early as 1953 [<xref rid="B25-marinedrugs-14-00137" ref-type="bibr">25</xref>,<xref rid="B26-marinedrugs-14-00137" ref-type="bibr">26</xref>,<xref rid="B96-marinedrugs-14-00137" ref-type="bibr">96</xref>], cephalosporins are still indispensable in antibacterial therapy today, including treatment of methicillin-resistant <italic>S</italic>. <italic>aureus</italic>. More than 50 cephalosporins are marketed. In 2009, cephalosporins had a market volume of $11.9 billion, followed by penicillins accounting for $7.9 billion. Together with other &#x003b2;-lactam antibiotics they represent 56% of the world antibiotic market [<xref rid="B90-marinedrugs-14-00137" ref-type="bibr">90</xref>]. Despite the rather old and successful history of cephalosporin, no other semi-synthetic approaches have been found in the literature for antibiotics with marine fungal origin. </p><p>The main &#x0201c;competitor&#x0201d; of biotechnological approaches based on full or partial fermentation (semi-synthesis) for production processes is total chemical synthesis. Synthetic organic chemistry is able to produce sufficient amounts for a broad biological screening and to provide access to synthetic analogues for structure-activity relationships (SAR) studies. Major efforts are related to the building of molecules that in nature are produced by metabolic transformations occurring with high yield and rate, and also with high regio-, diastereo-, and enantio-specificity (for state of the art in antibiotic syntheses see [<xref rid="B97-marinedrugs-14-00137" ref-type="bibr">97</xref>]). </p><p>One successful example for marine, fungal antibiotics is the chemical synthesis of corollosporine, an antibacterial phthalide derivative from the fungus <italic>Corollospora maritima</italic> isolated from driftwood collected near the Island Helgoland, Germany [<xref rid="B46-marinedrugs-14-00137" ref-type="bibr">46</xref>]. Despite the feasibility of organic synthesis, Mancini et al. reported only three natural antibiotic compounds from marine fungi for which total synthesis was described by 2007 [<xref rid="B98-marinedrugs-14-00137" ref-type="bibr">98</xref>] and the number has not increased since then. In addition to corollosporin, only farnesylated epoxy cyclohexenones yanuthones A&#x02013;C (originating from <italic>A. niger</italic> obtained from ascidian <italic>Aplidium</italic> sp.) [<xref rid="B99-marinedrugs-14-00137" ref-type="bibr">99</xref>] and pestalone (<italic>Pestalotia</italic> sp. isolated from the brown alga <italic>Rosenvingea</italic>, chlorinated benzophenone) were subjected to total synthesis. In the latter case, biosynthesis studies were considered to support the retrosynthetic approach [<xref rid="B34-marinedrugs-14-00137" ref-type="bibr">34</xref>].</p><p>The structural complexity of many natural products is the major limiting factor for their chemical synthesis. Obviously, the number of steps needed to build up a compound and the consequent economic feasibility affects their large-scale production drastically. Thus, chemical synthesis represents a non-biotechnological solution for only some antibiotic compounds.</p></sec><sec id="sec3dot2dot3-marinedrugs-14-00137"><title>3.2.3. Production Using Heterologous Systems and Genetic and Metabolic Engineering</title><p>For the majority of the microorganisms including the untapped resource of unculturable marine fungi, techniques such as metagenomics or genome mining can be used to identify their hidden chemodiversity. Transfecting DNA from the environment to a host strain may allow new natural products to be made [<xref rid="B100-marinedrugs-14-00137" ref-type="bibr">100</xref>]. Molecular techniques offer an alternative approach for the (heterologous) expression of &#x0201c;silent&#x0201d; gene clusters and a targeted manipulation of biosynthetic pathways for optimisation of production processes. The use of a heterologous host, which is optimised for industrial-scale production, presents an important tool for bioreactor production instead of a time-consuming optimisation process of cultivation conditions for the native producer strain. Despite the amazing developments in molecular techniques, their application in biotechnological production of natural products is still very limited, due to complexity and size of the genetic clusters encoding for natural products. </p><p>Furthermore, the regulation of antibiotic production is complex and involves multiple regulatory cascades and networks. Knowledge on the regulatory genes can be applied in genetic approaches to activate antibiotic production, but genetic tools for heterologous expression and for homologous manipulation of marine fungi are still in its infancy. In the field of (marine) enzyme production, the strategies have already been applied widely and continue to grow, mainly using the host <italic>Saccharomyces cerevisiae</italic> for increasing yields and changing product specificity, including heterologous protein production [<xref rid="B36-marinedrugs-14-00137" ref-type="bibr">36</xref>]. With respect to production of natural products&#x02014;e.g., antibiotics&#x02014;there is still a significant need for basic research turning fungal hosts into models for biotechnological purposes [<xref rid="B101-marinedrugs-14-00137" ref-type="bibr">101</xref>]. Reports on implementation of metabolic engineering for production of a novel sesterterpenoid (structure not further defined) from the marine fungi <italic>Fusarium heterosporum</italic> and <italic>Aspergillus versicolor</italic> pave the way to that direction [<xref rid="B56-marinedrugs-14-00137" ref-type="bibr">56</xref>]. Achievements from the terrestrial field were reported on Tet-on systems, tetracycline-inducible expression systems for quantitative control of gene expression, applied in <italic>Aspergillus niger</italic> [<xref rid="B101-marinedrugs-14-00137" ref-type="bibr">101</xref>,<xref rid="B102-marinedrugs-14-00137" ref-type="bibr">102</xref>,<xref rid="B103-marinedrugs-14-00137" ref-type="bibr">103</xref>]. Some examples of heterologous expression of terrestrial polyketide synthases in model fungal host organisms, namely <italic>Saccharomyces cerevisiae, A. oryzae</italic> and <italic>A. nidulans</italic>, illustrate the feasibility of such approaches [<xref rid="B104-marinedrugs-14-00137" ref-type="bibr">104</xref>], which need to be transferred to the marine antibiotic field. Only recently, a successful overexpression of the enniatins in <italic>A. niger</italic>, cyclodepsipeptides originally isolated from <italic>Halosarpheia</italic> sp., demonstrated reprogramming of biosynthetic pathways as a further tool for such approaches [<xref rid="B47-marinedrugs-14-00137" ref-type="bibr">47</xref>]. </p><p>Concerning metabolic engineering, the cephalosporin example has paved the way: after decades of optimisation in fermentation and strain improvement high-yielding strains of <italic>A. chrysogenum</italic> has reached the harvest titres of at least 30 g/L for cephalosporin C in fed-batch fermentations [<xref rid="B43-marinedrugs-14-00137" ref-type="bibr">43</xref>]. Strain improvement included mutagenesis and genetic engineering. Therefore, homologous cloning of many genes involved in the biosynthetic pathway of cephalosporin synthesis enabled to increase the flux of primary metabolites into secondary metabolite production. It is a common belief among researchers that combinatorial genetic, metabolic, and synthetic engineering as used for the production of cephalosporin C will be the future solution for commercial production of natural compounds.</p><p>Metabolic engineering appears to have the potential to be used for large-scale production of marine fungal antibiotics using rationale biochemical designs, but still needs to fulfil its promises in the future. In addition, molecular methods, such as homologous recombination, can be applied to generate mutant strains with altered compound spectra, as demonstrated for the cephalosporin producer [<xref rid="B53-marinedrugs-14-00137" ref-type="bibr">53</xref>]. This can overcome the laborious and random driven approaches of UV/chemical mutation. Some examples for marine fungi are available, such as the generation of mutants of a marine <italic>Microascus brevicaulis</italic> using homolog recombination of transcription factors [<xref rid="B105-marinedrugs-14-00137" ref-type="bibr">105</xref>] in comparison to a UV approach on the same strain [<xref rid="B63-marinedrugs-14-00137" ref-type="bibr">63</xref>]. However, these techniques have to be transferred to the antibiotic field. </p><p>All development of methods using genetic and metabolic engineering can be significantly improved by basing them on knowledge gained by &#x02018;omics&#x02019; techniques. Especially RNAseq, revealing the transcription state of a cell in combination with a fully sequenced genome sequence will deliver the starting points for molecular engineering methods [<xref rid="B56-marinedrugs-14-00137" ref-type="bibr">56</xref>].</p></sec></sec><sec id="sec3dot3-marinedrugs-14-00137"><title>3.3. Role of Biotechnology in Downstream Processing </title><p>Downstream processing (DSP) comprises several steps including separation, cell disruption, capture, and concentration steps, as well as extraction, purification, polishing, and formulation. DSP represents the second main part in a production process besides the upstream processing (USP). Unfortunately, only few examples have been reported that focus on the DSP part in marine fungal biotechnology, such as enzymatic treatment, as part of the purification in the cephalosporin production [<xref rid="B43-marinedrugs-14-00137" ref-type="bibr">43</xref>].</p><p>Despite the fact that DSP is the most expensive and, unfortunately, the most ineffective part of a bioprocess, it is widely underestimated in biotechnological process development [<xref rid="B106-marinedrugs-14-00137" ref-type="bibr">106</xref>]. To be able to use, especially in terms of commercialisation, the variety of antibacterial compounds from marine fungi, great efforts must be made in DSP. This includes development of continuous DSP approaches, since biotechnological production is still based on &#x02018;batchwise&#x02019; approaches limiting cost- and resource-efficient production. Many other (bio)industries already apply continuous USP and DSP, leading to a reduction in cost, energy, and space requirement [<xref rid="B107-marinedrugs-14-00137" ref-type="bibr">107</xref>,<xref rid="B108-marinedrugs-14-00137" ref-type="bibr">108</xref>].</p><p>Small-scale approaches include a high degree of empiricism, i.e., trial-and-error approaches [<xref rid="B109-marinedrugs-14-00137" ref-type="bibr">109</xref>]. However, such a trial-and-error approach is hardly feasible and extremely costly for applications on large-scale. Additional difficulties in up-scaling (e.g., lack of robustness) further limit the transfer of small-scale results to clinical development and any other large&#x02011;scale manufacturing. Statistical approaches (e.g., Design of Experiment (DoE)) would speed up such transfers and help to optimise the whole production process [<xref rid="B110-marinedrugs-14-00137" ref-type="bibr">110</xref>]. Only efficient and well-understood procedures will lead to a production of sufficient material. There are no standard applications in DSP that are suitable for all types of chemical classes. However, a broad spectrum of downstream tools is available from the established biotechnological processes on compounds from the terrestrial field, which can be easily applied to marine biotechnology. In the future, more integrated marine bioprocesses have to be developed and published.</p></sec><sec id="sec3dot4-marinedrugs-14-00137"><title>3.4. Role of Biotechnology in Lead Development</title><p>Biotechnological methods can also be applied in the late stages of the discovery pipeline, such as lead development. In general, lead development involves medicinal chemistry for the generation of derivatives with improved properties (e.g., better bioavailability and metabolisation) and to enable SAR studies. During lead development, mode of action studies help to understand and improve therapeutic application. Although not biotechnology in a strict sense, Nature already shows how small derivatisations affect bioactivity. One such example is represented by the calcarides, naturally-occurring macrocyclic and linear polyesters from a marine <italic>Calcarisporium</italic> sp. All macrocyclic calcarides inhibit <italic>S. epidermidis</italic> and <italic>X. campestris</italic>, while the very closely related, linear polyesters do not show any activities below a MIC of 100 &#x003bc;M [<xref rid="B42-marinedrugs-14-00137" ref-type="bibr">42</xref>]. The number of derivatives produced by marine fungi may occur due to promiscuity of enzymes and/or ecological relevance. Accordingly, biological derivatives can be obtained by bioconversions through enzyme treatment in biotechnological processes. This was successfully demonstrated for the generation of corollosporin derivatives by laccase-catalyzed amination [<xref rid="B45-marinedrugs-14-00137" ref-type="bibr">45</xref>]. Likewise, the original fermentative product cephalosporin C in cephalosporin production is enzymatically converted to 7-amino cephalosporanic acid, the key intermediate for the synthesis of the more active semi-synthetic products [<xref rid="B111-marinedrugs-14-00137" ref-type="bibr">111</xref>]. In addition to this central derivatisation in the production process of cephalosporins, several other enzymatic conversions have also been used. For instance, certain semi-synthetic cephalosporins, such as cefuroxime, require deacetylcephalosporin as an intermediate [<xref rid="B112-marinedrugs-14-00137" ref-type="bibr">112</xref>]. Enzyme-catalysed de-esterification is the only method for the production of this deacetyl intermediate on an industrial scale [<xref rid="B113-marinedrugs-14-00137" ref-type="bibr">113</xref>,<xref rid="B114-marinedrugs-14-00137" ref-type="bibr">114</xref>]. </p></sec></sec><sec id="sec4-marinedrugs-14-00137"><title>4. Conclusions: &#x0201c;Success Factors&#x0201d; for Bridging the Gap from Discovery to Production</title><p>Industrial-scale biotechnological processes should be feasible from scientific, technical, and economic perspectives. This viability must be demonstrated through the development of a process concept based on fermentation inclusive of metabolic engineering, purification, molecular design, and synthesis data. Considering the existing knowledge and recent approaches, the following factors seem to be essential for the establishment of more efficient and diverse biotechnological processes for antibiotic compounds of interest:<list list-type="order"><list-item><p>Use of marine fungi. The biodiversity of filamentous fungi from marine sources is mostly untapped. Projects should extend knowledge on both biodiversity and chemodiversity of these unique organisms.</p></list-item><list-item><p>Innovation in technology. There is a clear requirement for the &#x0201c;Next Generation Biotechnology&#x0201d;, which includes the new methodological approaches and the understanding of the underlying biological and technological processes. </p></list-item><list-item><p>Transdisciplinarity. The transdisciplinary and integrative approach of developmental projects should encompass research and development partners comprising all stages of the early drug discovery pipeline, integrating academia, SMEs, and industry. Thus, important gaps in the knowledge of marine fungi relevant for the production of bioactive compounds should be actively addressed and made relevant to pharmaceutical drug discovery pipelines.</p></list-item><list-item><p>Bridging the innovation gap. Researchers can promote innovation directly by employing novel techniques that promote the biosynthesis/production of new metabolites in early stage drug discovery (lead finding) programs and by enriching the pool of metabolites available for screening programs. </p></list-item></list></p><p>The step of bridging the innovation gap seems to have started happening recently. After years of industry-wide disinvestment into antibiotic research, a few large companies have started re-investing in this field. Interesting industry-academia partnerships are being established, such as a Sanofi-Fraunhofer-Gesellschaft partnership to identify and optimise novel naturally-occurring chemical and biological anti-infective compounds. In parallel, political initiatives were started to support and fund the search for new antibiotics, e.g., ADAPT (Antibiotic Development to Advance Patient Treatment), a bill of the US House of Representatives to create an accelerated approval pathway specifically for antibiotics [<xref rid="B115-marinedrugs-14-00137" ref-type="bibr">115</xref>].</p><p>In summary, marine fungal biotechnology can offer many tools and approaches for successful production of (new) antibiotics and thereby provide an entry point for the sustainable use of marine resources to tackle societal challenges. However, process engineers still face a number of obstacles. They need to be addressed through design of methods for the sustainable development of marine resources as well as by invention of new generation tools and processes to enable a greater understanding of the ocean and its resources. Overall, there are only very limited number of biotechnological processes described for antibiotics from marine fungi. More intensified studies and thorough research efforts are needed to strengthen this promising field. Piggybacking of successful terrestrial processes or other production fields, such as enzymes, can speed up their development. Successful addressing these challenges will require the combined effort of multidisciplinary teams.</p></sec></body><back><notes><title>Author Contributions</title><p>All authors contributed to drafting and writing of the manuscript. JS and AK did the drawing and organised the references.</p></notes><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest. </p></notes><glossary><title>Abbreviations</title><p>The following abbreviations are used in this manuscript:
+<array><tbody><tr><td align="left" valign="middle" rowspan="1" colspan="1">ADAPT</td><td align="left" valign="middle" rowspan="1" colspan="1">Antibiotic Development to Advance Patient Treatment</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">DoE</td><td align="left" valign="middle" rowspan="1" colspan="1">Design of Experiment</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">DSP</td><td align="left" valign="middle" rowspan="1" colspan="1">Downstream Processing</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">EMF</td><td align="left" valign="middle" rowspan="1" colspan="1">Erlenmeyer Flask</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">MIC</td><td align="left" valign="middle" rowspan="1" colspan="1">Minimal Inhibitory Concentration</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">MIC</td><td align="left" valign="middle" rowspan="1" colspan="1">Minimal Inhibitory Concentration</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">MR</td><td align="left" valign="middle" rowspan="1" colspan="1">Methicillin-Resistant</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">OSMAC</td><td align="left" valign="middle" rowspan="1" colspan="1">One-Strain-Many-Compounds</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">Ref.</td><td align="left" valign="middle" rowspan="1" colspan="1">References</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">SAR</td><td align="left" valign="middle" rowspan="1" colspan="1">Structure-Activity Relationship</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">SME</td><td align="left" valign="middle" rowspan="1" colspan="1">Small and Medium Size Enterprises</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">STR</td><td align="left" valign="middle" rowspan="1" colspan="1">Stirred Tank Reactor</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">USP</td><td align="left" valign="middle" rowspan="1" colspan="1">Upstream Processing</td></tr></tbody></array></p></glossary><ref-list><title>References</title><ref id="B1-marinedrugs-14-00137"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhu</surname><given-names>H.</given-names></name><name><surname>Swierstra</surname><given-names>J.</given-names></name><name><surname>Wu</surname><given-names>C.</given-names></name><name><surname>Girard</surname><given-names>G.</given-names></name><name><surname>Choi</surname><given-names>Y.H.</given-names></name><name><surname>van Wamel</surname><given-names>W.</given-names></name><name><surname>Sandiford</surname><given-names>S.K.</given-names></name><name><surname>van Wezel</surname><given-names>G.P.</given-names></name></person-group>
+<article-title>Eliciting antibiotics active against the ESKAPE pathogens in a collection of actinomycetes isolated from mountain soils</article-title>
+<source>Microbiology</source>
+<year>2014</year>
+<volume>160</volume>
+<fpage>1714</fpage>
+<lpage>1725</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.078295-0</pub-id>
+<?supplied-pmid 24794971?><pub-id pub-id-type="pmid">24794971</pub-id></element-citation></ref><ref id="B2-marinedrugs-14-00137"><label>2.</label><element-citation publication-type="book">
+<source>Antibacterial drugs market (By Class&#x02014;Aminoglycosides, B-Lactams, Tetracyclines, Sulfonamides, Quinolones/ Fluoroquinolones, Macrolides, Phenicols and Miscellaneous Antibacterials, and Pipeline Drugs)&#x02014;Global Industry Analysis, Size, Share, Growth, Trends and Forecast 2015&#x02013;2023</source>
+<publisher-name>Transparency Market Research</publisher-name>
+<publisher-loc>Albany, NY, USA</publisher-loc>
+<year>2014</year>
+</element-citation></ref><ref id="B3-marinedrugs-14-00137"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamad</surname><given-names>B.</given-names></name></person-group>
+<article-title>The antibiotics market</article-title>
+<source>Nat. Rev. Drug Discov.</source>
+<year>2010</year>
+<volume>9</volume>
+<fpage>675</fpage>
+<lpage>676</lpage>
+<pub-id pub-id-type="doi">10.1038/nrd3267</pub-id>
+<?supplied-pmid 20811374?><pub-id pub-id-type="pmid">20811374</pub-id></element-citation></ref><ref id="B4-marinedrugs-14-00137"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davies</surname><given-names>J.</given-names></name><name><surname>Davies</surname><given-names>D.</given-names></name></person-group>
+<article-title>Origins and evolution of antibiotic resistance</article-title>
+<source>MMBR</source>
+<year>2010</year>
+<volume>74</volume>
+<fpage>417</fpage>
+<lpage>433</lpage>
+<pub-id pub-id-type="doi">10.1128/MMBR.00016-10</pub-id>
+<?supplied-pmid 20805405?><pub-id pub-id-type="pmid">20805405</pub-id></element-citation></ref><ref id="B5-marinedrugs-14-00137"><label>5.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><collab>World Health Organisation</collab></person-group>
+<source>Antimicrobial Resistance: Global Report on Surveillance</source>
+<publisher-name>WHO</publisher-name>
+<publisher-loc>Geneva, Switzerland</publisher-loc>
+<year>2014</year>
+<fpage>256</fpage>
+</element-citation></ref><ref id="B6-marinedrugs-14-00137"><label>6.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><collab>WHO</collab></person-group>
+<source>World Health Statistics 2015</source>
+<publisher-name>World Health Organization, Department of Health Statistics and Information Systems of the Health Systems and Innovation Cluster</publisher-name>
+<publisher-loc>Geneva, Switzerland</publisher-loc>
+<year>2015</year>
+<fpage>161</fpage>
+</element-citation></ref><ref id="B7-marinedrugs-14-00137"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forsyth</surname><given-names>C.</given-names></name></person-group>
+<article-title>Repairing the antibiotic pipeline: Can the gain act do it?</article-title>
+<source>Wash. J. Law Technol. Arts</source>
+<year>2013</year>
+<comment>Available online:<ext-link ext-link-type="uri" xlink:href="http://hdl.handle.net/1773.1/1267">http://hdl.handle.net/1773.1/1267</ext-link></comment>
+<date-in-citation>(accessed on 13 July 2016)</date-in-citation>
+</element-citation></ref><ref id="B8-marinedrugs-14-00137"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Demain</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Importance of microbial natural products and the need to revitalise their discovery</article-title>
+<source>J. Ind. Microbiol. Biotechnol.</source>
+<year>2014</year>
+<volume>41</volume>
+<fpage>185</fpage>
+<lpage>201</lpage>
+<pub-id pub-id-type="doi">10.1007/s10295-013-1325-z</pub-id>
+<?supplied-pmid 23990168?><pub-id pub-id-type="pmid">23990168</pub-id></element-citation></ref><ref id="B9-marinedrugs-14-00137"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kong</surname><given-names>D.X.</given-names></name><name><surname>Jiang</surname><given-names>Y.-Y.</given-names></name><name><surname>Zhang</surname><given-names>H.-Y.</given-names></name></person-group>
+<article-title>Marine natural products as sources of novel scaffolds: Achievement and concern</article-title>
+<source>Drug Discov. Today</source>
+<year>2010</year>
+<volume>15</volume>
+<fpage>884</fpage>
+<lpage>886</lpage>
+<pub-id pub-id-type="doi">10.1016/j.drudis.2010.09.002</pub-id>
+<?supplied-pmid 20869461?><pub-id pub-id-type="pmid">20869461</pub-id></element-citation></ref><ref id="B10-marinedrugs-14-00137"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Song</surname><given-names>F.</given-names></name><name><surname>Ren</surname><given-names>B.</given-names></name><name><surname>Yu</surname><given-names>K.</given-names></name><name><surname>Chen</surname><given-names>C.</given-names></name><name><surname>Guo</surname><given-names>H.</given-names></name><name><surname>Yang</surname><given-names>N.</given-names></name><name><surname>Gao</surname><given-names>H.</given-names></name><name><surname>Liu</surname><given-names>X.</given-names></name><name><surname>Liu</surname><given-names>M.</given-names></name><name><surname>Tong</surname><given-names>Y.</given-names></name><etal/></person-group>
+<article-title>Quinazolin-4-one coupled with pyrrolidin-2-iminium alkaloids from marine-derived fungus <italic>Penicillium aurantiogriseum</italic></article-title>
+<source>Mar. Drugs</source>
+<year>2012</year>
+<volume>10</volume>
+<fpage>1297</fpage>
+<lpage>1306</lpage>
+<pub-id pub-id-type="doi">10.3390/md10061297</pub-id>
+<?supplied-pmid 22822373?><pub-id pub-id-type="pmid">22822373</pub-id></element-citation></ref><ref id="B11-marinedrugs-14-00137"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>Z.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Liu</surname><given-names>D.</given-names></name><name><surname>Proksch</surname><given-names>P.</given-names></name><name><surname>Yu</surname><given-names>S.</given-names></name><name><surname>Lin</surname><given-names>W.</given-names></name></person-group>
+<article-title>Antioxidative phenolic compounds from a marine-derived fungus <italic>Aspergillus versicolor</italic></article-title>
+<source>Tetrahedron</source>
+<year>2016</year>
+<volume>72</volume>
+<fpage>50</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tet.2015.10.038</pub-id>
+</element-citation></ref><ref id="B12-marinedrugs-14-00137"><label>12.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Bhakuni</surname><given-names>D.S.</given-names></name><name><surname>Rawat</surname><given-names>D.S.</given-names></name></person-group>
+<source>Bioactive Marine Natural Products</source>
+<publisher-name>Springer</publisher-name>
+<publisher-loc>Rotterdam, The Netherlands</publisher-loc>
+<year>2005</year>
+<fpage>382</fpage>
+</element-citation></ref><ref id="B13-marinedrugs-14-00137"><label>13.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Himaya</surname><given-names>S.W.A.</given-names></name><name><surname>Kim</surname><given-names>S.-K.</given-names></name></person-group>
+<article-title>Marine symbiotic microorganisms: A new dimension in natural products research</article-title>
+<source>Marine Microbiology&#x02014;Bioactive Compounds and Biotechnological Applications</source>
+<person-group person-group-type="editor"><name><surname>Kim</surname><given-names>S.-K.</given-names></name></person-group>
+<publisher-name>Wiley-VCH</publisher-name>
+<publisher-loc>Singapore</publisher-loc>
+<year>2013</year>
+<fpage>295</fpage>
+<lpage>306</lpage>
+</element-citation></ref><ref id="B14-marinedrugs-14-00137"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rateb</surname><given-names>M.E.</given-names></name><name><surname>Ebel</surname><given-names>R.</given-names></name></person-group>
+<article-title>Secondary metabolites of fungi from marine habitats</article-title>
+<source>Nat. Prod. Rep.</source>
+<year>2011</year>
+<volume>28</volume>
+<fpage>290</fpage>
+<lpage>344</lpage>
+<pub-id pub-id-type="doi">10.1039/c0np00061b</pub-id>
+<?supplied-pmid 21229157?><pub-id pub-id-type="pmid">21229157</pub-id></element-citation></ref><ref id="B15-marinedrugs-14-00137"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thomas</surname><given-names>T.R.</given-names></name><name><surname>Kavlekar</surname><given-names>D.P.</given-names></name><name><surname>LokaBharathi</surname><given-names>P.A.</given-names></name></person-group>
+<article-title>Marine drugs from sponge-microbe association&#x02014;A review</article-title>
+<source>Mar. Drugs</source>
+<year>2010</year>
+<volume>8</volume>
+<fpage>1417</fpage>
+<lpage>1468</lpage>
+<pub-id pub-id-type="doi">10.3390/md8041417</pub-id>
+<?supplied-pmid 20479984?><pub-id pub-id-type="pmid">20479984</pub-id></element-citation></ref><ref id="B16-marinedrugs-14-00137"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Richter</surname><given-names>L.</given-names></name><name><surname>Wanka</surname><given-names>F.</given-names></name><name><surname>Boecker</surname><given-names>S.</given-names></name><name><surname>Storm</surname><given-names>D.</given-names></name><name><surname>Kurt</surname><given-names>T.</given-names></name><name><surname>Vural</surname><given-names>&#x000d6;.</given-names></name><name><surname>S&#x000fc;&#x000df;muth</surname><given-names>R.</given-names></name><name><surname>Meyer</surname><given-names>V.</given-names></name></person-group>
+<article-title>Engineering of <italic>Aspergillus niger</italic> for the production of secondary metabolites</article-title>
+<source>Fungal Biol. Biotechnol.</source>
+<year>2014</year>
+<volume>1</volume>
+<fpage>1</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="doi">10.1186/s40694-014-0004-9</pub-id>
+<pub-id pub-id-type="pmid">26457194</pub-id></element-citation></ref><ref id="B17-marinedrugs-14-00137"><label>17.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Verma</surname><given-names>V.C.</given-names></name><name><surname>Gange</surname><given-names>A.C.</given-names></name></person-group>
+<source>Advances in Endophytic Research</source>
+<publisher-name>Springer</publisher-name>
+<publisher-loc>New Delhi, India</publisher-loc>
+<year>2014</year>
+<fpage>454</fpage>
+</element-citation></ref><ref id="B18-marinedrugs-14-00137"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Manohar</surname><given-names>C.S.</given-names></name><name><surname>Raghukumar</surname><given-names>C.</given-names></name></person-group>
+<article-title>Fungal diversity from various marine habitats deduced through culture-independent studies</article-title>
+<source>FEMS Microbiol. Lett.</source>
+<year>2013</year>
+<volume>341</volume>
+<fpage>69</fpage>
+<lpage>78</lpage>
+<pub-id pub-id-type="doi">10.1111/1574-6968.12087</pub-id>
+<?supplied-pmid 23363246?><pub-id pub-id-type="pmid">23363246</pub-id></element-citation></ref><ref id="B19-marinedrugs-14-00137"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brakhage</surname><given-names>A.A.</given-names></name><name><surname>Schroeckh</surname><given-names>V.</given-names></name></person-group>
+<article-title>Fungal secondary metabolites&#x02014;Strategies to activate silent gene clusters</article-title>
+<source>Fungal Genet. Biol.</source>
+<year>2011</year>
+<volume>48</volume>
+<fpage>15</fpage>
+<lpage>22</lpage>
+<pub-id pub-id-type="doi">10.1016/j.fgb.2010.04.004</pub-id>
+<?supplied-pmid 20433937?><pub-id pub-id-type="pmid">20433937</pub-id></element-citation></ref><ref id="B20-marinedrugs-14-00137"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bugni</surname><given-names>T.S.</given-names></name><name><surname>Ireland</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Marine-derived fungi: A chemically and biologically diverse group of microorganisms</article-title>
+<source>Nat. Prod. Rep.</source>
+<year>2004</year>
+<volume>21</volume>
+<fpage>143</fpage>
+<lpage>163</lpage>
+<pub-id pub-id-type="doi">10.1039/b301926h</pub-id>
+<?supplied-pmid 15039840?><pub-id pub-id-type="pmid">15039840</pub-id></element-citation></ref><ref id="B21-marinedrugs-14-00137"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bode</surname><given-names>H.B.</given-names></name><name><surname>Bethe</surname><given-names>B.</given-names></name><name><surname>H&#x000f6;fs</surname><given-names>R.</given-names></name><name><surname>Zeeck</surname><given-names>A.</given-names></name></person-group>
+<article-title>Big effects from small changes: Possible ways to explore nature&#x02019;s chemical diversity</article-title>
+<source>ChemBioChem</source>
+<year>2002</year>
+<volume>3</volume>
+<fpage>619</fpage>
+<lpage>627</lpage>
+<pub-id pub-id-type="doi">10.1002/1439-7633(20020703)3:7&#x0003c;619::AID-CBIC619&#x0003e;3.0.CO;2-9</pub-id>
+<pub-id pub-id-type="pmid">12324995</pub-id></element-citation></ref><ref id="B22-marinedrugs-14-00137"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kusari</surname><given-names>S.</given-names></name><name><surname>Hertweck</surname><given-names>C.</given-names></name><name><surname>Spiteller</surname><given-names>M.</given-names></name></person-group>
+<article-title>Chemical ecology of endophytic fungi: Origins of secondary metabolites</article-title>
+<source>Chem. Biol.</source>
+<year>2012</year>
+<volume>19</volume>
+<fpage>792</fpage>
+<lpage>798</lpage>
+<pub-id pub-id-type="doi">10.1016/j.chembiol.2012.06.004</pub-id>
+<?supplied-pmid 22840767?><pub-id pub-id-type="pmid">22840767</pub-id></element-citation></ref><ref id="B23-marinedrugs-14-00137"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scherlach</surname><given-names>K.</given-names></name><name><surname>Hertweck</surname><given-names>C.</given-names></name></person-group>
+<article-title>Triggering cryptic natural product biosynthesis in microorganisms</article-title>
+<source>Org. Biomol. Chem.</source>
+<year>2009</year>
+<volume>7</volume>
+<fpage>1753</fpage>
+<lpage>1760</lpage>
+<pub-id pub-id-type="doi">10.1039/b821578b</pub-id>
+<?supplied-pmid 19590766?><pub-id pub-id-type="pmid">19590766</pub-id></element-citation></ref><ref id="B24-marinedrugs-14-00137"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bode</surname><given-names>H.B.</given-names></name></person-group>
+<article-title>No need to be pure: Mix the cultures!</article-title>
+<source>Chem. Biol.</source>
+<year>2006</year>
+<volume>13</volume>
+<fpage>1245</fpage>
+<lpage>1246</lpage>
+<pub-id pub-id-type="doi">10.1016/j.chembiol.2006.12.001</pub-id>
+<?supplied-pmid 17185219?><pub-id pub-id-type="pmid">17185219</pub-id></element-citation></ref><ref id="B25-marinedrugs-14-00137"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abraham</surname><given-names>E.P.</given-names></name><name><surname>Newton</surname><given-names>G.G.</given-names></name><name><surname>Crawford</surname><given-names>K.</given-names></name><name><surname>Burton</surname><given-names>H.S.</given-names></name><name><surname>Hale</surname><given-names>C.W.</given-names></name></person-group>
+<article-title>Cephalosporin N: A new type of penicillin</article-title>
+<source>Nature</source>
+<year>1953</year>
+<pub-id pub-id-type="doi">10.1038/171343a0</pub-id>
+</element-citation></ref><ref id="B26-marinedrugs-14-00137"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Newton</surname><given-names>G.G.F.</given-names></name><name><surname>Abraham</surname><given-names>E.P.</given-names></name></person-group>
+<article-title>Cephalosporin C, a new antibiotic containing sulphur and <sc>d</sc>-&#x003b1;-aminoadipic acid</article-title>
+<source>Nature</source>
+<year>1955</year>
+<volume>175</volume>
+<fpage>548</fpage>
+<lpage>548</lpage>
+<pub-id pub-id-type="doi">10.1038/175548a0</pub-id>
+<pub-id pub-id-type="pmid">14370161</pub-id></element-citation></ref><ref id="B27-marinedrugs-14-00137"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Okutani</surname><given-names>K.</given-names></name></person-group>
+<article-title>Gliotoxin produced by a strain of <italic>Aspergillus</italic> isolated from marine mud</article-title>
+<source>Bull. Jap. Soc. Sci. Fish.</source>
+<year>1977</year>
+<volume>43</volume>
+<fpage>995</fpage>
+<lpage>1000</lpage>
+<pub-id pub-id-type="doi">10.2331/suisan.43.995</pub-id>
+</element-citation></ref><ref id="B28-marinedrugs-14-00137"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Biabani</surname><given-names>M.A.F.</given-names></name><name><surname>Laatsch</surname><given-names>H.</given-names></name></person-group>
+<article-title>Advances in chemical studies on low-molecular weight metabolites of marine fungi</article-title>
+<source>J. Prakt Chem.</source>
+<year>1998</year>
+<volume>340</volume>
+<fpage>589</fpage>
+<lpage>607</lpage>
+<pub-id pub-id-type="doi">10.1002/prac.19983400702</pub-id>
+</element-citation></ref><ref id="B29-marinedrugs-14-00137"><label>29.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hiort</surname><given-names>J.</given-names></name></person-group>
+<article-title>Neue Naturstoffe aus schwamm-assoziierten Pilzen des Mittelmeeres</article-title>
+<source>PhD thesis</source>
+<publisher-name>Heinrich Heine University D&#x000fc;sseldorf</publisher-name>
+<publisher-loc>D&#x000fc;sseldorf, Germany</publisher-loc>
+<year>2003</year>
+</element-citation></ref><ref id="B30-marinedrugs-14-00137"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blunt</surname><given-names>J.W.</given-names></name><name><surname>Copp</surname><given-names>B.R.</given-names></name><name><surname>Keyzers</surname><given-names>R.A.</given-names></name><name><surname>Munro</surname><given-names>M.H.G.</given-names></name><name><surname>Prinsep</surname><given-names>M.R.</given-names></name></person-group>
+<article-title>Marine natural products</article-title>
+<source>Nat. Prod. Rep.</source>
+<year>2015</year>
+<volume>32</volume>
+<fpage>116</fpage>
+<lpage>211</lpage>
+<pub-id pub-id-type="doi">10.1039/C4NP00144C</pub-id>
+<?supplied-pmid 25620233?><pub-id pub-id-type="pmid">25620233</pub-id></element-citation></ref><ref id="B31-marinedrugs-14-00137"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wei</surname><given-names>M.Y.</given-names></name><name><surname>Li</surname><given-names>D.</given-names></name><name><surname>Shao</surname><given-names>C.L.</given-names></name><name><surname>Deng</surname><given-names>D.S.</given-names></name><name><surname>Wang</surname><given-names>C.Y.</given-names></name></person-group>
+<article-title>(&#x000b1;)-Pestalachloride D, an antibacterial racemate of chlorinated benzophenone derivative from a soft coral-derived fungus <italic>Pestalotiopsis</italic> sp</article-title>
+<source>Mar. Drugs</source>
+<year>2013</year>
+<volume>11</volume>
+<fpage>1050</fpage>
+<lpage>1060</lpage>
+<pub-id pub-id-type="doi">10.3390/md11041050</pub-id>
+<?supplied-pmid 23538869?><pub-id pub-id-type="pmid">23538869</pub-id></element-citation></ref><ref id="B32-marinedrugs-14-00137"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cuomo</surname><given-names>V.</given-names></name><name><surname>Palomba</surname><given-names>I.</given-names></name><name><surname>Perretti</surname><given-names>A.</given-names></name><name><surname>Guerriero</surname><given-names>A.</given-names></name><name><surname>D&#x02019;Ambrosio</surname><given-names>M.</given-names></name><name><surname>Pietra</surname><given-names>F.</given-names></name></person-group>
+<article-title>Antimicrobial activities from marine fungi</article-title>
+<source>J. Mar. Biotech.</source>
+<year>1995</year>
+<volume>2</volume>
+<fpage>199</fpage>
+<lpage>204</lpage>
+</element-citation></ref><ref id="B33-marinedrugs-14-00137"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pruksakorn</surname><given-names>P.</given-names></name><name><surname>Arai</surname><given-names>M.</given-names></name><name><surname>Kotoku</surname><given-names>N.</given-names></name><name><surname>Vilcheze</surname><given-names>C.</given-names></name><name><surname>Baughn</surname><given-names>A.D.</given-names></name><name><surname>Moodley</surname><given-names>P.</given-names></name><name><surname>Jacobs</surname><given-names>W.R.</given-names></name><name><surname>Kobayashi</surname><given-names>M.</given-names></name></person-group>
+<article-title>Trichoderins, novel aminolipopeptides from a marine sponge-derived <italic>Trichoderma</italic> sp., are active against dormant mycobacteria</article-title>
+<source>Bioorg. Med. Chem. Lett.</source>
+<year>2010</year>
+<volume>20</volume>
+<fpage>3658</fpage>
+<lpage>3663</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bmcl.2010.04.100</pub-id>
+<?supplied-pmid 20483615?><pub-id pub-id-type="pmid">20483615</pub-id></element-citation></ref><ref id="B34-marinedrugs-14-00137"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cueto</surname><given-names>M.</given-names></name><name><surname>Jensen</surname><given-names>P.R.</given-names></name><name><surname>Kauffman</surname><given-names>C.</given-names></name><name><surname>Fenical</surname><given-names>W.</given-names></name><name><surname>Lobkovsky</surname><given-names>E.</given-names></name><name><surname>Clardy</surname><given-names>J.</given-names></name></person-group>
+<article-title>Pestalone, a new antibiotic produced by a marine fungus in response to bacterial challenge</article-title>
+<source>J. Nat. Prod.</source>
+<year>2001</year>
+<volume>64</volume>
+<fpage>1444</fpage>
+<lpage>1446</lpage>
+<pub-id pub-id-type="doi">10.1021/np0102713</pub-id>
+<?supplied-pmid 11720529?><pub-id pub-id-type="pmid">11720529</pub-id></element-citation></ref><ref id="B35-marinedrugs-14-00137"><label>35.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Waites</surname><given-names>M.J.</given-names></name><name><surname>Morgan</surname><given-names>N.L.</given-names></name><name><surname>Rockey</surname><given-names>J.S.</given-names></name><name><surname>Higton</surname><given-names>G.</given-names></name></person-group>
+<source>Industrial Microbiology: An Introduction</source>
+<publisher-name>Blackwell Science Ltd.</publisher-name>
+<publisher-loc>New York City, NY, US</publisher-loc>
+<year>2001</year>
+<fpage>288</fpage>
+</element-citation></ref><ref id="B36-marinedrugs-14-00137"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bhadury</surname><given-names>P.</given-names></name><name><surname>Mohammad</surname><given-names>B.T.</given-names></name><name><surname>Wright</surname><given-names>P.C.</given-names></name></person-group>
+<article-title>The current status of natural products from marine fungi and their potential as anti-infective agents</article-title>
+<source>J. Ind. Microbiol. Biotechnol.</source>
+<year>2006</year>
+<volume>33</volume>
+<fpage>325</fpage>
+<lpage>37</lpage>
+<pub-id pub-id-type="doi">10.1007/s10295-005-0070-3</pub-id>
+<?supplied-pmid 16429315?><pub-id pub-id-type="pmid">16429315</pub-id></element-citation></ref><ref id="B37-marinedrugs-14-00137"><label>37.</label><element-citation publication-type="patent">
+<person-group person-group-type="author"><name><surname>Quian</surname><given-names>P.-Y.</given-names></name><name><surname>Li</surname><given-names>Y.</given-names></name><name><surname>Kwong</surname><given-names>F.N.</given-names></name><name><surname>Yang</surname><given-names>L.H.</given-names></name><name><surname>Dobretsov</surname><given-names>S.V.</given-names></name></person-group>
+<article-title>Use of Marine Fungus Originated Compounds as Antifouling Agents</article-title>
+<source>U.S. Patent</source>
+<patent>US2006/0147410 A1</patent>
+<day>6</day>
+<month>7</month>
+<year>2006</year>
+</element-citation></ref><ref id="B38-marinedrugs-14-00137"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abbanat</surname><given-names>D.</given-names></name><name><surname>Leighton</surname><given-names>M.</given-names></name><name><surname>Maiese</surname><given-names>W.</given-names></name><name><surname>Jones</surname><given-names>E.B.</given-names></name><name><surname>Pearce</surname><given-names>C.</given-names></name><name><surname>Greenstein</surname><given-names>M.</given-names></name></person-group>
+<article-title>Cell wall active antifungal compounds produced by the marine fungus <italic>Hypoxylon oceanicum</italic> LL-15G256. I. Taxonomy and fermentation</article-title>
+<source>J. Antibiot.</source>
+<year>1998</year>
+<volume>51</volume>
+<fpage>296</fpage>
+<lpage>302</lpage>
+<pub-id pub-id-type="doi">10.7164/antibiotics.51.296</pub-id>
+<?supplied-pmid 9589065?><pub-id pub-id-type="pmid">9589065</pub-id></element-citation></ref><ref id="B39-marinedrugs-14-00137"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kanoh</surname><given-names>K.</given-names></name><name><surname>Okada</surname><given-names>A.</given-names></name><name><surname>Adachi</surname><given-names>K.</given-names></name><name><surname>Imagawa</surname><given-names>H.</given-names></name><name><surname>Nishizawa</surname><given-names>M.</given-names></name><name><surname>Matsuda</surname><given-names>S.</given-names></name><name><surname>Shizuri</surname><given-names>Y.</given-names></name><name><surname>Utsumi</surname><given-names>R.</given-names></name></person-group>
+<article-title>Ascochytatin, a novel bioactive spirodioxynaphthalene metabolite produced by the marine-derived fungus, <italic>Ascochyta</italic> sp. NGB4</article-title>
+<source>J. Antibiot.</source>
+<year>2008</year>
+<volume>61</volume>
+<fpage>142</fpage>
+<lpage>148</lpage>
+<pub-id pub-id-type="doi">10.1038/ja.2008.123</pub-id>
+<?supplied-pmid 18503192?><pub-id pub-id-type="pmid">18503192</pub-id></element-citation></ref><ref id="B40-marinedrugs-14-00137"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>B.</given-names></name><name><surname>Wiese</surname><given-names>J.</given-names></name><name><surname>Labes</surname><given-names>A.</given-names></name><name><surname>Kramer</surname><given-names>A.</given-names></name><name><surname>Schmaljohann</surname><given-names>R.</given-names></name><name><surname>Imhoff</surname><given-names>J.F.</given-names></name></person-group>
+<article-title>Lindgomycin, an unusual antibiotic polyketide from a marine fungus of the Lindgomycetaceae</article-title>
+<source>Mar. Drugs</source>
+<year>2015</year>
+<volume>13</volume>
+<fpage>4617</fpage>
+<lpage>4632</lpage>
+<pub-id pub-id-type="doi">10.3390/md13084617</pub-id>
+<?supplied-pmid 26225984?><pub-id pub-id-type="pmid">26225984</pub-id></element-citation></ref><ref id="B41-marinedrugs-14-00137"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Qi</surname><given-names>S.-H.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name><name><surname>Xiong</surname><given-names>H.-R.</given-names></name><name><surname>Qian</surname><given-names>P.-Y.</given-names></name><name><surname>Zhang</surname><given-names>S.</given-names></name></person-group>
+<article-title>Antifouling and antibacterial compounds from a marine fungus <italic>Cladosporium</italic> sp. F14</article-title>
+<source>World J. Microbiol. Biotechnol.</source>
+<year>2008</year>
+<volume>25</volume>
+<fpage>399</fpage>
+<lpage>406</lpage>
+<pub-id pub-id-type="doi">10.1007/s11274-008-9904-2</pub-id>
+</element-citation></ref><ref id="B42-marinedrugs-14-00137"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Silber</surname><given-names>J.</given-names></name><name><surname>Ohlendorf</surname><given-names>B.</given-names></name><name><surname>Labes</surname><given-names>A.</given-names></name><name><surname>Erhard</surname><given-names>A.</given-names></name><name><surname>Imhoff</surname><given-names>J.F.</given-names></name></person-group>
+<article-title>Calcarides A&#x02013;E, antibacterial macrocyclic and linear polyesters from a <italic>Calcarisporium</italic> strain</article-title>
+<source>Mar. Drugs</source>
+<year>2013</year>
+<volume>11</volume>
+<fpage>3309</fpage>
+<lpage>3323</lpage>
+<pub-id pub-id-type="doi">10.3390/md11093309</pub-id>
+<?supplied-pmid 23994907?><pub-id pub-id-type="pmid">23994907</pub-id></element-citation></ref><ref id="B43-marinedrugs-14-00137"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elander</surname><given-names>R.P.</given-names></name></person-group>
+<article-title>Industrial production of &#x003b2;-lactam antibiotics</article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2003</year>
+<volume>61</volume>
+<fpage>385</fpage>
+<lpage>392</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-003-1274-y</pub-id>
+<?supplied-pmid 12679848?><pub-id pub-id-type="pmid">12679848</pub-id></element-citation></ref><ref id="B44-marinedrugs-14-00137"><label>44.</label><element-citation publication-type="patent">
+<person-group person-group-type="author"><name><surname>Naik</surname><given-names>C.G.</given-names></name><name><surname>Devi</surname><given-names>P.</given-names></name><name><surname>Rodrigues</surname><given-names>E.</given-names></name></person-group>
+<article-title>Chrysogenazine obtained from Fungus Penicillium chrysogenum Having Antibacterial Activity</article-title>
+<source>U.S. Patent</source>
+<patent>US2005/0143392</patent>
+<day>30</day>
+<month>6</month>
+<year>2005</year>
+</element-citation></ref><ref id="B45-marinedrugs-14-00137"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mikolasch</surname><given-names>A.</given-names></name><name><surname>Hessel</surname><given-names>S.</given-names></name><name><surname>Salazar</surname><given-names>M.G.</given-names></name><name><surname>Neumann</surname><given-names>H.</given-names></name><name><surname>Manda</surname><given-names>K.</given-names></name><name><surname>G&#x0014d;rdes</surname><given-names>D.</given-names></name><name><surname>Schmidt</surname><given-names>E.</given-names></name><name><surname>Thurow</surname><given-names>K.</given-names></name><name><surname>Hammer</surname><given-names>E.</given-names></name><name><surname>Lindequist</surname><given-names>U.</given-names></name><etal/></person-group>
+<article-title>Synthesis of new <italic>N</italic>-analogous corollosporine derivatives with antibacterial activity by laccase-catalyzed amination</article-title>
+<source>Chem. Pharm. Bull.</source>
+<year>2008</year>
+<volume>56</volume>
+<fpage>781</fpage>
+<lpage>786</lpage>
+<pub-id pub-id-type="doi">10.1248/cpb.56.781</pub-id>
+<?supplied-pmid 18520080?><pub-id pub-id-type="pmid">18520080</pub-id></element-citation></ref><ref id="B46-marinedrugs-14-00137"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liberra</surname><given-names>K.</given-names></name><name><surname>Jansen</surname><given-names>R.</given-names></name><name><surname>Lindequist</surname><given-names>U.</given-names></name></person-group>
+<article-title>Corollosporine, a new phtalide derivative from the marine fungus <italic>Corollospora maritima</italic> Werderm. 1069</article-title>
+<source>Pharmazie</source>
+<year>1998</year>
+<volume>53</volume>
+<fpage>578</fpage>
+<lpage>581</lpage>
+<?supplied-pmid 9741066?><pub-id pub-id-type="pmid">9741066</pub-id></element-citation></ref><ref id="B47-marinedrugs-14-00137"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zobel</surname><given-names>S.</given-names></name><name><surname>Boecker</surname><given-names>S.</given-names></name><name><surname>Kulke</surname><given-names>D.</given-names></name><name><surname>Heimbach</surname><given-names>D.</given-names></name><name><surname>Meyer</surname><given-names>V.</given-names></name><name><surname>S&#x000fc;ssmuth</surname><given-names>R.D.</given-names></name></person-group>
+<article-title>Reprogramming the biosynthesis of cyclodepsipeptide synthetases to obtain new enniatins and beauvericins</article-title>
+<source>ChemBioChem</source>
+<year>2016</year>
+<volume>17</volume>
+<fpage>283</fpage>
+<lpage>287</lpage>
+<pub-id pub-id-type="doi">10.1002/cbic.201500649</pub-id>
+<?supplied-pmid 26663099?><pub-id pub-id-type="pmid">26663099</pub-id></element-citation></ref><ref id="B48-marinedrugs-14-00137"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doshida</surname><given-names>J.</given-names></name><name><surname>Hasegawa</surname><given-names>H.</given-names></name><name><surname>Onuki</surname><given-names>H.</given-names></name><name><surname>Shimidzu</surname><given-names>N.</given-names></name></person-group>
+<article-title>Exophilin A, a new antibiotic from a marine microorganism <italic>Exophilia pisciphila</italic></article-title>
+<source>J. Antibiot.</source>
+<year>1996</year>
+<volume>49</volume>
+<fpage>1105</fpage>
+<lpage>1109</lpage>
+<pub-id pub-id-type="doi">10.7164/antibiotics.49.1105</pub-id>
+<?supplied-pmid 8982339?><pub-id pub-id-type="pmid">8982339</pub-id></element-citation></ref><ref id="B49-marinedrugs-14-00137"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>J.D.</given-names></name><name><surname>Savard</surname><given-names>M.E.</given-names></name></person-group>
+<article-title>Antibiotic activity of the marine fungus <italic>Leptosphaeria oraemaris</italic></article-title>
+<source>Proc. N. S. Inst. Sci.</source>
+<year>1989</year>
+<volume>39</volume>
+<fpage>51</fpage>
+<lpage>58</lpage>
+</element-citation></ref><ref id="B50-marinedrugs-14-00137"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yin</surname><given-names>Y.</given-names></name><name><surname>Gao</surname><given-names>Q.</given-names></name><name><surname>Zhang</surname><given-names>F.</given-names></name><name><surname>Li</surname><given-names>Z.</given-names></name></person-group>
+<article-title>Medium optimization for the high yield production of single (+)-terrein by <italic>Aspergillus terreus</italic> strain PF26 derived from marine sponge <italic>Phakellia fusca</italic></article-title>
+<source>Process Biochem.</source>
+<year>2012</year>
+<volume>47</volume>
+<fpage>887</fpage>
+<lpage>891</lpage>
+<pub-id pub-id-type="doi">10.1016/j.procbio.2012.02.005</pub-id>
+</element-citation></ref><ref id="B51-marinedrugs-14-00137"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xiong</surname><given-names>H.</given-names></name><name><surname>Qi</surname><given-names>S.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name><name><surname>Miao</surname><given-names>L.</given-names></name><name><surname>Qian</surname><given-names>P.-Y.</given-names></name></person-group>
+<article-title>Antibiotic and antifouling compound production by the marine-derived fungus <italic>Cladosporium</italic> sp. F14</article-title>
+<source>J. Hydro Environ. Res.</source>
+<year>2009</year>
+<volume>2</volume>
+<fpage>264</fpage>
+<lpage>270</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jher.2008.12.002</pub-id>
+</element-citation></ref><ref id="B52-marinedrugs-14-00137"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tamminen</surname><given-names>A.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name><name><surname>Wiebe</surname><given-names>M.G.</given-names></name></person-group>
+<article-title>Production of calcaride A by <italic>Calcarisporium</italic> sp. in shaken flasks and stirred bioreactors</article-title>
+<source>Mar. Drugs</source>
+<year>2015</year>
+<volume>13</volume>
+<fpage>3992</fpage>
+<lpage>4005</lpage>
+<pub-id pub-id-type="doi">10.3390/md13073992</pub-id>
+<?supplied-pmid 26114617?><pub-id pub-id-type="pmid">26114617</pub-id></element-citation></ref><ref id="B53-marinedrugs-14-00137"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Skatrud</surname><given-names>P.L.</given-names></name><name><surname>Tietz</surname><given-names>A.J.</given-names></name><name><surname>Ingolia</surname><given-names>T.D.</given-names></name><name><surname>Cantwell</surname><given-names>C.A.</given-names></name><name><surname>Fisher</surname><given-names>D.L.</given-names></name><name><surname>Chapman</surname><given-names>J.L.</given-names></name><name><surname>Queener</surname><given-names>S.W.</given-names></name></person-group>
+<article-title>Use of recombinant DNA to improve production of cephalosporin C by <italic>Cephalosporium acremonium</italic></article-title>
+<source>Nature</source>
+<year>1989</year>
+<volume>7</volume>
+<fpage>477</fpage>
+<lpage>485</lpage>
+<pub-id pub-id-type="doi">10.1038/nbt0589-477</pub-id>
+</element-citation></ref><ref id="B54-marinedrugs-14-00137"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masuma</surname><given-names>R.</given-names></name><name><surname>Yamaguchi</surname><given-names>Y.</given-names></name><name><surname>Noumi</surname><given-names>M.</given-names></name><name><surname>Omura</surname><given-names>S.</given-names></name><name><surname>Namikoshi</surname><given-names>M.</given-names></name></person-group>
+<article-title>Effect of sea water concentration on hyphal growth and antimicrobial metabolite production in marine fungi</article-title>
+<source>Mycoscience</source>
+<year>2001</year>
+<volume>42</volume>
+<fpage>455</fpage>
+<lpage>459</lpage>
+<pub-id pub-id-type="doi">10.1007/BF02464342</pub-id>
+</element-citation></ref><ref id="B55-marinedrugs-14-00137"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xu</surname><given-names>B.</given-names></name><name><surname>Yin</surname><given-names>Y.</given-names></name><name><surname>Zhang</surname><given-names>F.</given-names></name><name><surname>Li</surname><given-names>Z.</given-names></name><name><surname>Wang</surname><given-names>L.</given-names></name></person-group>
+<article-title>Operating conditions optimization for (+)-terrein production in a stirred bioreactor by <italic>Aspergillus terreus</italic> strain PF-26 from marine sponge <italic>Phakellia fusca</italic></article-title>
+<source>Bioprocess Biosyst. Eng.</source>
+<year>2012</year>
+<volume>35</volume>
+<fpage>1651</fpage>
+<lpage>1655</lpage>
+<pub-id pub-id-type="doi">10.1007/s00449-012-0735-z</pub-id>
+<?supplied-pmid 22527032?><pub-id pub-id-type="pmid">22527032</pub-id></element-citation></ref><ref id="B56-marinedrugs-14-00137"><label>56.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>G.Y.</given-names></name><name><surname>Laidlaw</surname><given-names>R.D.</given-names></name><name><surname>Marshall</surname><given-names>J.</given-names></name><name><surname>Keasling</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Metabolic engineering of fungal secondary metabolic pathways</article-title>
+<source>Handbook of Industrial Mycology</source>
+<person-group person-group-type="editor"><name><surname>An</surname><given-names>Z.Q.</given-names></name></person-group>
+<publisher-name>Marcel Dekker</publisher-name>
+<publisher-loc>New York, NY, USA</publisher-loc>
+<year>2003</year>
+<fpage>10016</fpage>
+</element-citation></ref><ref id="B57-marinedrugs-14-00137"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miao</surname><given-names>L.</given-names></name><name><surname>Kwong</surname><given-names>T.F.</given-names></name><name><surname>Qian</surname><given-names>P.-Y.</given-names></name></person-group>
+<article-title>Effect of culture conditions on mycelial growth, antibacterial activity, and metabolite profiles of the marine-derived fungus <italic>Arthrinium</italic> c.f. <italic>saccharicola</italic></article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2006</year>
+<volume>72</volume>
+<fpage>1063</fpage>
+<lpage>1073</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-006-0376-8</pub-id>
+<?supplied-pmid 16538484?><pub-id pub-id-type="pmid">16538484</pub-id></element-citation></ref><ref id="B58-marinedrugs-14-00137"><label>58.</label><element-citation publication-type="confproc">
+<person-group person-group-type="author"><name><surname>Lorenz</surname><given-names>R.</given-names></name><name><surname>Molitoris</surname><given-names>H.-P.</given-names></name></person-group>
+<article-title>High pressure cultivation of marine fungi: Apparatus and method</article-title>
+<source>High Pressure and Biotechnology, Proceedings of the First European Seminar on High Pressure and Biotechnology, a Joint Meeting with the Fifth Symposium on High Pressure and Food Science</source>
+<conf-loc>La Grande Motte, France</conf-loc>
+<conf-date>13&#x02013;17 September 1992</conf-date>
+<person-group person-group-type="editor"><name><surname>Balny</surname><given-names>C.</given-names></name></person-group>
+<publisher-name>Libbey</publisher-name>
+<publisher-loc>London, UK</publisher-loc>
+<year>1992</year>
+<fpage>537</fpage>
+<lpage>539</lpage>
+</element-citation></ref><ref id="B59-marinedrugs-14-00137"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ng</surname><given-names>T.B.</given-names></name><name><surname>Cheung</surname><given-names>R.C.</given-names></name><name><surname>Wong</surname><given-names>J.H.</given-names></name><name><surname>Bekhit</surname><given-names>A.A.</given-names></name><name><surname>Bekhit Ael</surname><given-names>D.</given-names></name></person-group>
+<article-title>Antibacterial products of marine organisms</article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2015</year>
+<volume>99</volume>
+<fpage>4145</fpage>
+<lpage>4173</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-015-6553-x</pub-id>
+<?supplied-pmid 25874533?><pub-id pub-id-type="pmid">25874533</pub-id></element-citation></ref><ref id="B60-marinedrugs-14-00137"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Monaghan</surname><given-names>R.L.</given-names></name><name><surname>Barrett</surname><given-names>J.F.</given-names></name></person-group>
+<article-title>Antibacterial drug discovery&#x02014;Then, now and the genomics future</article-title>
+<source>Biochem. Pharmacol.</source>
+<year>2006</year>
+<volume>71</volume>
+<fpage>901</fpage>
+<lpage>909</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bcp.2005.11.023</pub-id>
+<?supplied-pmid 16494849?><pub-id pub-id-type="pmid">16494849</pub-id></element-citation></ref><ref id="B61-marinedrugs-14-00137"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linde</surname><given-names>T.</given-names></name><name><surname>Hansen</surname><given-names>N.B.</given-names></name><name><surname>L&#x000fc;beck</surname><given-names>M.</given-names></name><name><surname>L&#x000fc;beck</surname><given-names>P.S.</given-names></name></person-group>
+<article-title>Fermentation in 24-well plates is an efficient screening platform for filamentous fungi</article-title>
+<source>Lett. Appl. Microbiol.</source>
+<year>2014</year>
+<volume>59</volume>
+<fpage>224</fpage>
+<lpage>230</lpage>
+<pub-id pub-id-type="doi">10.1111/lam.12268</pub-id>
+<?supplied-pmid 24725208?><pub-id pub-id-type="pmid">24725208</pub-id></element-citation></ref><ref id="B62-marinedrugs-14-00137"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Girarda</surname><given-names>P.</given-names></name><name><surname>Jordana</surname><given-names>M.</given-names></name><name><surname>Tsaob</surname><given-names>M.</given-names></name><name><surname>Wurma</surname><given-names>F.M.</given-names></name></person-group>
+<article-title>Small-scale bioreactor system for process development and optimization</article-title>
+<source>Biochem. Eng. J.</source>
+<year>2001</year>
+<volume>7</volume>
+<fpage>117</fpage>
+<lpage>119</lpage>
+<pub-id pub-id-type="doi">10.1016/S1369-703X(00)00110-8</pub-id>
+<pub-id pub-id-type="pmid">11173299</pub-id></element-citation></ref><ref id="B63-marinedrugs-14-00137"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kramer</surname><given-names>A.</given-names></name><name><surname>Paun</surname><given-names>L.</given-names></name><name><surname>Imhoff</surname><given-names>J.F.</given-names></name><name><surname>Kempken</surname><given-names>F.</given-names></name><name><surname>Labes</surname><given-names>A.</given-names></name></person-group>
+<article-title>Development and validation of a fast and optimised screening method for enhanced production of secondary metabolites using the marine <italic>Scopulariopsis brevicaulis</italic> strain LF580 producing anti-cancer active scopularide A and B</article-title>
+<source>PLoS ONE</source>
+<year>2014</year>
+<volume>9</volume>
+<elocation-id>137</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0103320</pub-id>
+<?supplied-pmid 25079364?><pub-id pub-id-type="pmid">25079364</pub-id></element-citation></ref><ref id="B64-marinedrugs-14-00137"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bills</surname><given-names>G.F.</given-names></name><name><surname>Platas</surname><given-names>G.</given-names></name><name><surname>Fillola</surname><given-names>A.</given-names></name><name><surname>Jimenez</surname><given-names>M.R.</given-names></name><name><surname>Collado</surname><given-names>J.</given-names></name><name><surname>Vicente</surname><given-names>F.</given-names></name><name><surname>Martin</surname><given-names>J.</given-names></name><name><surname>Gonzalez</surname><given-names>A.</given-names></name><name><surname>Bur-Zimmermann</surname><given-names>J.</given-names></name><name><surname>Tormo</surname><given-names>J.R.</given-names></name><etal/></person-group>
+<article-title>Enhancement of antibiotic and secondary metabolite detection from filamentous fungi by growth on nutritional arrays</article-title>
+<source>J. Appl. Microbiol.</source>
+<year>2008</year>
+<volume>104</volume>
+<fpage>1644</fpage>
+<lpage>1658</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2672.2008.03735.x</pub-id>
+<?supplied-pmid 18298532?><pub-id pub-id-type="pmid">18298532</pub-id></element-citation></ref><ref id="B65-marinedrugs-14-00137"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duetz</surname><given-names>W.A.</given-names></name><name><surname>Ruedi</surname><given-names>L.</given-names></name><name><surname>Hermann</surname><given-names>R.</given-names></name><name><surname>O&#x02019;Connor</surname><given-names>K.</given-names></name><name><surname>Buchs</surname><given-names>J.</given-names></name><name><surname>Witholt</surname><given-names>B.</given-names></name></person-group>
+<article-title>Methods for intense aeration, growth, storage, and replication of bacterial strains in microtiter plates</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2000</year>
+<volume>66</volume>
+<fpage>2641</fpage>
+<lpage>2646</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.66.6.2641-2646.2000</pub-id>
+<?supplied-pmid 10831450?><pub-id pub-id-type="pmid">10831450</pub-id></element-citation></ref><ref id="B66-marinedrugs-14-00137"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Samorski</surname><given-names>M.</given-names></name><name><surname>M&#x000fc;ller-Newen</surname><given-names>G.</given-names></name><name><surname>Buchs</surname><given-names>J.</given-names></name></person-group>
+<article-title>Quasi-continuous combined scattered light and fluorescence measurements: A novel measurement technique for shaken microtiter plates</article-title>
+<source>Biotechnol. Bioeng.</source>
+<year>2005</year>
+<volume>92</volume>
+<fpage>61</fpage>
+<lpage>68</lpage>
+<pub-id pub-id-type="doi">10.1002/bit.20573</pub-id>
+<?supplied-pmid 15988771?><pub-id pub-id-type="pmid">15988771</pub-id></element-citation></ref><ref id="B67-marinedrugs-14-00137"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kensy</surname><given-names>F.</given-names></name><name><surname>Zang</surname><given-names>E.</given-names></name><name><surname>Faulhammer</surname><given-names>C.</given-names></name><name><surname>Tan</surname><given-names>R.K.</given-names></name><name><surname>Buchs</surname><given-names>J.</given-names></name></person-group>
+<article-title>Validation of a high-throughput fermentation system based on online monitoring of biomass and fluorescence in continuously shaken microtiter plates</article-title>
+<source>Microb. Cell Fact.</source>
+<year>2009</year>
+<pub-id pub-id-type="doi">10.1186/1475-2859-8-31</pub-id>
+<?supplied-pmid 19497126?><pub-id pub-id-type="pmid">19497126</pub-id></element-citation></ref><ref id="B68-marinedrugs-14-00137"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duetz</surname><given-names>W.A.</given-names></name></person-group>
+<article-title>Microtiter plates as mini-bioreactors: Miniaturization of fermentation methods</article-title>
+<source>Trends Microbiol.</source>
+<year>2007</year>
+<volume>15</volume>
+<fpage>469</fpage>
+<lpage>475</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tim.2007.09.004</pub-id>
+<?supplied-pmid 17920276?><pub-id pub-id-type="pmid">17920276</pub-id></element-citation></ref><ref id="B69-marinedrugs-14-00137"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Betts</surname><given-names>J.I.</given-names></name><name><surname>Baganz</surname><given-names>F.</given-names></name></person-group>
+<article-title>Miniature bioreactors: Current practices and future opportunities</article-title>
+<source>Microb. Cell Fact.</source>
+<year>2006</year>
+<volume>5</volume>
+<fpage>21</fpage>
+<pub-id pub-id-type="doi">10.1186/1475-2859-5-21</pub-id>
+<?supplied-pmid 16725043?><pub-id pub-id-type="pmid">16725043</pub-id></element-citation></ref><ref id="B70-marinedrugs-14-00137"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Posch</surname><given-names>A.E.</given-names></name><name><surname>Herwig</surname><given-names>C.</given-names></name><name><surname>Spadiut</surname><given-names>O.</given-names></name></person-group>
+<article-title>Science-based bioprocess design for filamentous fungi</article-title>
+<source>Trends Biotechnol.</source>
+<year>2013</year>
+<volume>31</volume>
+<fpage>37</fpage>
+<lpage>44</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tibtech.2012.10.008</pub-id>
+<?supplied-pmid 23183302?><pub-id pub-id-type="pmid">23183302</pub-id></element-citation></ref><ref id="B71-marinedrugs-14-00137"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joint</surname><given-names>I.</given-names></name><name><surname>Muhling</surname><given-names>M.</given-names></name><name><surname>Querellou</surname><given-names>J.</given-names></name></person-group>
+<article-title>Culturing marine bacteria&#x02014;An essential prerequisite for biodiscovery</article-title>
+<source>Microb. Biotechnol.</source>
+<year>2010</year>
+<volume>3</volume>
+<fpage>564</fpage>
+<lpage>575</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1751-7915.2010.00188.x</pub-id>
+<?supplied-pmid 21255353?><pub-id pub-id-type="pmid">21255353</pub-id></element-citation></ref><ref id="B72-marinedrugs-14-00137"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kniemeyer</surname><given-names>O.</given-names></name></person-group>
+<article-title>Proteomics of eukaryotic microorganisms: The medically and biotechnologically important fungal genus <italic>Aspergillus</italic></article-title>
+<source>Proteomics</source>
+<year>2011</year>
+<volume>11</volume>
+<fpage>3232</fpage>
+<lpage>3243</lpage>
+<pub-id pub-id-type="doi">10.1002/pmic.201100087</pub-id>
+<?supplied-pmid 21726053?><pub-id pub-id-type="pmid">21726053</pub-id></element-citation></ref><ref id="B73-marinedrugs-14-00137"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kramer</surname><given-names>A.</given-names></name><name><surname>Beck</surname><given-names>H.C.</given-names></name><name><surname>Kumar</surname><given-names>A.</given-names></name><name><surname>Kristensen</surname><given-names>L.P.</given-names></name><name><surname>Imhoff</surname><given-names>J.F.</given-names></name><name><surname>Labes</surname><given-names>A.</given-names></name></person-group>
+<article-title>Proteomic analysis of anti-cancerous scopularide production by a marine <italic>Microascus brevicaulis</italic> strain and its UV mutant</article-title>
+<source>PLoS ONE</source>
+<year>2015</year>
+<volume>10</volume>
+<elocation-id>137</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0140047</pub-id>
+<?supplied-pmid 26460745?><pub-id pub-id-type="pmid">26460745</pub-id></element-citation></ref><ref id="B74-marinedrugs-14-00137"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Knuf</surname><given-names>C.</given-names></name><name><surname>Nielsen</surname><given-names>J.</given-names></name></person-group>
+<article-title><italic>Aspergilli</italic>: Systems biology and industrial applications</article-title>
+<source>Biotechnol. J.</source>
+<year>2012</year>
+<volume>7</volume>
+<fpage>1147</fpage>
+<lpage>1155</lpage>
+<pub-id pub-id-type="doi">10.1002/biot.201200169</pub-id>
+<?supplied-pmid 22890866?><pub-id pub-id-type="pmid">22890866</pub-id></element-citation></ref><ref id="B75-marinedrugs-14-00137"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kjer</surname><given-names>J.</given-names></name><name><surname>Debbab</surname><given-names>A.</given-names></name><name><surname>Aly</surname><given-names>A.H.</given-names></name><name><surname>Proksch</surname><given-names>P.</given-names></name></person-group>
+<article-title>Methods for isolation of marine-derived endophytic fungi and their bioactive secondary products</article-title>
+<source>Nature Protoc.</source>
+<year>2010</year>
+<volume>5</volume>
+<fpage>479</fpage>
+<lpage>490</lpage>
+<pub-id pub-id-type="doi">10.1038/nprot.2009.233</pub-id>
+<?supplied-pmid 20203665?><pub-id pub-id-type="pmid">20203665</pub-id></element-citation></ref><ref id="B76-marinedrugs-14-00137"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lang</surname><given-names>S.</given-names></name><name><surname>H&#x000fc;ners</surname><given-names>M.</given-names></name><name><surname>Lurtz</surname><given-names>V.</given-names></name></person-group>
+<article-title>Bioprocess engineering data on the cultivation of marine prokaryotes and fungi</article-title>
+<source>Adv. Biochem. Eng. Biotechnol.</source>
+<year>2005</year>
+<volume>97</volume>
+<fpage>29</fpage>
+<lpage>62</lpage>
+<?supplied-pmid 16261805?><pub-id pub-id-type="pmid">16261805</pub-id></element-citation></ref><ref id="B77-marinedrugs-14-00137"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Riley</surname><given-names>G.L.</given-names></name><name><surname>Tucker</surname><given-names>K.G.</given-names></name><name><surname>Paul</surname><given-names>G.C.</given-names></name><name><surname>Thomas</surname><given-names>C.R.</given-names></name></person-group>
+<article-title>Effect of biomass concentration and mycelial morphology on fermentation broth rheology</article-title>
+<source>Biotechnol. Bioeng.</source>
+<year>2000</year>
+<volume>68</volume>
+<fpage>160</fpage>
+<lpage>172</lpage>
+<pub-id pub-id-type="doi">10.1002/(SICI)1097-0290(20000420)68:2&#x0003c;160::AID-BIT5&#x0003e;3.0.CO;2-P</pub-id>
+<pub-id pub-id-type="pmid">10712732</pub-id></element-citation></ref><ref id="B78-marinedrugs-14-00137"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Balakrishnan</surname><given-names>K.</given-names></name><name><surname>Pandey</surname><given-names>A.</given-names></name></person-group>
+<article-title>Production of biologically active metabolites in solid-state fermentation</article-title>
+<source>J. Sci. Ind. Res.</source>
+<year>1996</year>
+<volume>55</volume>
+<fpage>365</fpage>
+<lpage>372</lpage>
+</element-citation></ref><ref id="B79-marinedrugs-14-00137"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barrios-Gonzalez</surname><given-names>J.</given-names></name><name><surname>Meji&#x000b4;a</surname><given-names>A.</given-names></name></person-group>
+<article-title>Production of secondary metabolites by solid-state fermentation</article-title>
+<source>Biotechnol. Annu. Rev.</source>
+<year>1996</year>
+<volume>2</volume>
+<fpage>85</fpage>
+<lpage>88</lpage>
+<?supplied-pmid 9704096?><pub-id pub-id-type="pmid">9704096</pub-id></element-citation></ref><ref id="B80-marinedrugs-14-00137"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>H&#x000f6;llker</surname><given-names>U.</given-names></name><name><surname>H&#x000f6;fer</surname><given-names>M.</given-names></name><name><surname>Lenz</surname><given-names>J.</given-names></name></person-group>
+<article-title>Biotechnological advantages of laboratory-scale solid state fermentation with fungi</article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2004</year>
+<volume>64</volume>
+<fpage>175</fpage>
+<lpage>186</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-003-1504-3</pub-id>
+<?supplied-pmid 14963614?><pub-id pub-id-type="pmid">14963614</pub-id></element-citation></ref><ref id="B81-marinedrugs-14-00137"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robinson</surname><given-names>T.</given-names></name><name><surname>Singh</surname><given-names>D.</given-names></name><name><surname>Nigam</surname><given-names>P.</given-names></name></person-group>
+<article-title>Solid-state fermentation: A promising microbial technology for secondary metabolite production</article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2001</year>
+<volume>55</volume>
+<fpage>284</fpage>
+<lpage>289</lpage>
+<pub-id pub-id-type="doi">10.1007/s002530000565</pub-id>
+<?supplied-pmid 11341307?><pub-id pub-id-type="pmid">11341307</pub-id></element-citation></ref><ref id="B82-marinedrugs-14-00137"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Papagianni</surname><given-names>M.</given-names></name></person-group>
+<article-title>Fungal morphology and metabolite production in submerged mycelial processes</article-title>
+<source>Biotechnol. Adv.</source>
+<year>2004</year>
+<volume>22</volume>
+<fpage>189</fpage>
+<lpage>259</lpage>
+<pub-id pub-id-type="doi">10.1016/j.biotechadv.2003.09.005</pub-id>
+<?supplied-pmid 14665401?><pub-id pub-id-type="pmid">14665401</pub-id></element-citation></ref><ref id="B83-marinedrugs-14-00137"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gibbs</surname><given-names>P.A.</given-names></name><name><surname>Seviour</surname><given-names>R.J.</given-names></name><name><surname>Schmid</surname><given-names>F.</given-names></name></person-group>
+<article-title>Growth of filamentous fungi in submerged culture: Problems and possible solutions</article-title>
+<source>Crit. Rev. Biotechnol.</source>
+<year>2000</year>
+<volume>20</volume>
+<fpage>17</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="doi">10.1080/07388550091144177</pub-id>
+<?supplied-pmid 10770226?><pub-id pub-id-type="pmid">10770226</pub-id></element-citation></ref><ref id="B84-marinedrugs-14-00137"><label>84.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lara</surname><given-names>A.R.</given-names></name><name><surname>Galindo</surname><given-names>E.</given-names></name><name><surname>Ram&#x000ed;rez</surname><given-names>O.T.</given-names></name><name><surname>Palomares</surname><given-names>L.A.</given-names></name></person-group>
+<article-title>Living with heterogeneities in bioreactors: Understanding the effects of environmental gradients on cells</article-title>
+<source>Mol. Biotechnol.</source>
+<year>2006</year>
+<volume>34</volume>
+<fpage>355</fpage>
+<lpage>382</lpage>
+<pub-id pub-id-type="doi">10.1385/MB:34:3:355</pub-id>
+<pub-id pub-id-type="pmid">17284782</pub-id></element-citation></ref><ref id="B85-marinedrugs-14-00137"><label>85.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neubauer</surname><given-names>P.</given-names></name><name><surname>Junne</surname><given-names>S.</given-names></name></person-group>
+<article-title>Scale-down simulators for metabolic analysis of large-scale bioprocesses</article-title>
+<source>Curr. Opin. Biotechnol.</source>
+<year>2010</year>
+<volume>21</volume>
+<fpage>114</fpage>
+<lpage>121</lpage>
+<pub-id pub-id-type="doi">10.1016/j.copbio.2010.02.001</pub-id>
+<?supplied-pmid 20185293?><pub-id pub-id-type="pmid">20185293</pub-id></element-citation></ref><ref id="B86-marinedrugs-14-00137"><label>86.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vardar</surname><given-names>F.</given-names></name><name><surname>Lilly</surname><given-names>M.D.</given-names></name></person-group>
+<article-title>Effect of cycling oxygen concentrations on product formation in penicillin fermentations</article-title>
+<source>Eur. J. Appl. Microbiol. Biotechnol.</source>
+<year>1982</year>
+<volume>14</volume>
+<fpage>203</fpage>
+<lpage>211</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00498464</pub-id>
+</element-citation></ref><ref id="B87-marinedrugs-14-00137"><label>87.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaup</surname><given-names>B.A.</given-names></name><name><surname>Ehrich</surname><given-names>K.</given-names></name><name><surname>Pescheck</surname><given-names>M.</given-names></name><name><surname>Schrader</surname><given-names>J.</given-names></name></person-group>
+<article-title>Microparticle-enhanced cultivation of filamentous microorganisms: Increased chloroperoxidase formation by <italic>Caldariomyces fumago</italic> as an example</article-title>
+<source>Biotechnol. Bioeng.</source>
+<year>2008</year>
+<volume>99</volume>
+<fpage>491</fpage>
+<lpage>498</lpage>
+<pub-id pub-id-type="doi">10.1002/bit.21713</pub-id>
+<?supplied-pmid 17994590?><pub-id pub-id-type="pmid">17994590</pub-id></element-citation></ref><ref id="B88-marinedrugs-14-00137"><label>88.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Z.Y.</given-names></name><name><surname>Jin</surname><given-names>B.</given-names></name><name><surname>Kelly</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Effects of cultivation parameters on the morphology of <italic>Rhizopus arrhizus</italic> and the lactic acid production in a bubble column reactor</article-title>
+<source>Eng. Life Sci.</source>
+<year>2007</year>
+<volume>7</volume>
+<fpage>490</fpage>
+<lpage>496</lpage>
+<pub-id pub-id-type="doi">10.1002/elsc.200700002</pub-id>
+</element-citation></ref><ref id="B89-marinedrugs-14-00137"><label>89.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krull</surname><given-names>R.</given-names></name><name><surname>Wucherpfennig</surname><given-names>T.</given-names></name><name><surname>Esfandabadi</surname><given-names>M.E.</given-names></name><name><surname>Walisko</surname><given-names>R.</given-names></name><name><surname>Melzer</surname><given-names>G.</given-names></name><name><surname>Hempel</surname><given-names>D.C.</given-names></name><name><surname>Kampen</surname><given-names>I.</given-names></name><name><surname>Kwade</surname><given-names>A.</given-names></name><name><surname>Wittmann</surname><given-names>C.</given-names></name></person-group>
+<article-title>Characterization and control of fungal morphology for improved production performance in biotechnology</article-title>
+<source>J. Biotechnol.</source>
+<year>2013</year>
+<volume>163</volume>
+<fpage>112</fpage>
+<lpage>123</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jbiotec.2012.06.024</pub-id>
+<?supplied-pmid 22771505?><pub-id pub-id-type="pmid">22771505</pub-id></element-citation></ref><ref id="B90-marinedrugs-14-00137"><label>90.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ozcengiz</surname><given-names>G.</given-names></name><name><surname>Demain</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Recent advances in the biosynthesis of penicillins, cephalosporins and clavams and its regulation</article-title>
+<source>Biotechnol. Adv.</source>
+<year>2013</year>
+<volume>31</volume>
+<fpage>287</fpage>
+<lpage>311</lpage>
+<pub-id pub-id-type="doi">10.1016/j.biotechadv.2012.12.001</pub-id>
+<?supplied-pmid 23228980?><pub-id pub-id-type="pmid">23228980</pub-id></element-citation></ref><ref id="B91-marinedrugs-14-00137"><label>91.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sarkar</surname><given-names>S.</given-names></name><name><surname>Pramanik</surname><given-names>A.</given-names></name><name><surname>Mitra</surname><given-names>A.</given-names></name><name><surname>Mukherjee</surname><given-names>J.</given-names></name></person-group>
+<article-title>Bioprocessing data for the production of marine enzymes</article-title>
+<source>Mar. Drugs</source>
+<year>2010</year>
+<volume>8</volume>
+<fpage>1323</fpage>
+<lpage>1372</lpage>
+<pub-id pub-id-type="doi">10.3390/md8041323</pub-id>
+<?supplied-pmid 20479981?><pub-id pub-id-type="pmid">20479981</pub-id></element-citation></ref><ref id="B92-marinedrugs-14-00137"><label>92.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>J.</given-names></name></person-group>
+<article-title>It is all about metabolic fluxes</article-title>
+<source>J. Bacteriol.</source>
+<year>2003</year>
+<volume>185</volume>
+<fpage>7031</fpage>
+<lpage>7035</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.185.24.7031-7035.2003</pub-id>
+<?supplied-pmid 14645261?><pub-id pub-id-type="pmid">14645261</pub-id></element-citation></ref><ref id="B93-marinedrugs-14-00137"><label>93.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schneider</surname><given-names>P.</given-names></name><name><surname>Misiek</surname><given-names>M.</given-names></name><name><surname>Hoffmeister</surname><given-names>D.</given-names></name></person-group>
+<article-title>In vivo and in vitro production options for fungal secondary metabolites</article-title>
+<source>Mol. Pharm.</source>
+<year>2008</year>
+<volume>5</volume>
+<fpage>234</fpage>
+<lpage>242</lpage>
+<pub-id pub-id-type="doi">10.1021/mp7001544</pub-id>
+<?supplied-pmid 18330989?><pub-id pub-id-type="pmid">18330989</pub-id></element-citation></ref><ref id="B94-marinedrugs-14-00137"><label>94.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brotzu</surname><given-names>G.</given-names></name></person-group>
+<article-title>Ricerche su di un nuovo antibiotico</article-title>
+<source>Lavori dell'Istituto di Igiene di Cagliari</source>
+<year>1948</year>
+<comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://medicina.unica.it/pacs/brotzu.pdf">http://medicina.unica.it/pacs/brotzu.pdf</ext-link></comment>
+<date-in-citation>(accessed on 13 July 2016)</date-in-citation>
+</element-citation></ref><ref id="B95-marinedrugs-14-00137"><label>95.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>K&#x000fc;ck</surname><given-names>U.</given-names></name><name><surname>Bloemendal</surname><given-names>S.</given-names></name><name><surname>Teichert</surname><given-names>I.</given-names></name></person-group>
+<article-title>Putting fungi to work: Harvesting a cornucopia of drugs, toxins, and antibiotics</article-title>
+<source>PLoS ONE</source>
+<year>2014</year>
+<volume>10</volume>
+<elocation-id>137</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1003950</pub-id>
+<?supplied-pmid 24626260?><pub-id pub-id-type="pmid">24626260</pub-id></element-citation></ref><ref id="B96-marinedrugs-14-00137"><label>96.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Abraham</surname><given-names>E.P.</given-names></name><name><surname>Loder</surname><given-names>P.B.</given-names></name></person-group>
+<article-title>Cephalosporin C</article-title>
+<source>Cephalosporins and Penicillins</source>
+<person-group person-group-type="editor"><name><surname>Flynn</surname><given-names>E.H.</given-names></name></person-group>
+<publisher-name>Elsevier</publisher-name>
+<publisher-loc>Amsterdam, The Netherlands</publisher-loc>
+<year>1972</year>
+<fpage>1</fpage>
+<lpage>26</lpage>
+</element-citation></ref><ref id="B97-marinedrugs-14-00137"><label>97.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wright</surname><given-names>P.M.</given-names></name><name><surname>Seiple</surname><given-names>I.B.</given-names></name><name><surname>Myers</surname><given-names>A.G.</given-names></name></person-group>
+<article-title>The evolving role of chemical synthesis in antibacterial drug discovery</article-title>
+<source>Angew. Chem. Int. Ed. Engl.</source>
+<year>2014</year>
+<volume>53</volume>
+<fpage>8840</fpage>
+<lpage>8869</lpage>
+<pub-id pub-id-type="doi">10.1002/anie.201310843</pub-id>
+<?supplied-pmid 24990531?><pub-id pub-id-type="pmid">24990531</pub-id></element-citation></ref><ref id="B98-marinedrugs-14-00137"><label>98.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mancini</surname><given-names>I.</given-names></name><name><surname>Defant</surname><given-names>A.</given-names></name><name><surname>Guella</surname><given-names>G.</given-names></name></person-group>
+<article-title>Recent synthesis of marine natural products with antibacterial activities</article-title>
+<source>Anti Infect. Agents Med. Chem.</source>
+<year>2007</year>
+<volume>6</volume>
+<fpage>17</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="doi">10.2174/187152107779314151</pub-id>
+</element-citation></ref><ref id="B99-marinedrugs-14-00137"><label>99.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bugni</surname><given-names>T.S.</given-names></name><name><surname>Abbanat</surname><given-names>D.</given-names></name><name><surname>Bernan</surname><given-names>V.S.</given-names></name><name><surname>Maiese</surname><given-names>W.M.</given-names></name><name><surname>Greenstein</surname><given-names>M.</given-names></name><name><surname>van Wagoner</surname><given-names>R.M.</given-names></name><name><surname>Ireland</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>Yanuthones: Novel metabolites from a marine isolate of A<italic>spergillus niger</italic></article-title>
+<source>J. Org. Chem.</source>
+<year>2000</year>
+<volume>65</volume>
+<fpage>7195</fpage>
+<lpage>7200</lpage>
+<pub-id pub-id-type="doi">10.1021/jo0006831</pub-id>
+<?supplied-pmid 11031048?><pub-id pub-id-type="pmid">11031048</pub-id></element-citation></ref><ref id="B100-marinedrugs-14-00137"><label>100.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xiong</surname><given-names>Z.Q.</given-names></name><name><surname>Wang</surname><given-names>J.F.</given-names></name><name><surname>Hao</surname><given-names>Y.Y.</given-names></name><name><surname>Wang</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Recent advances in the discovery and development of marine microbial natural products</article-title>
+<source>Mar. Drugs</source>
+<year>2013</year>
+<volume>11</volume>
+<fpage>700</fpage>
+<lpage>717</lpage>
+<pub-id pub-id-type="doi">10.3390/md11030700</pub-id>
+<?supplied-pmid 23528949?><pub-id pub-id-type="pmid">23528949</pub-id></element-citation></ref><ref id="B101-marinedrugs-14-00137"><label>101.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyer</surname><given-names>V.</given-names></name><name><surname>Wu</surname><given-names>B.</given-names></name><name><surname>Ram</surname><given-names>A.F.</given-names></name></person-group>
+<article-title><italic>Aspergillus</italic> as a multi-purpose cell factory: Current status and perspectives</article-title>
+<source>Biotechnol. Lett.</source>
+<year>2011</year>
+<volume>33</volume>
+<fpage>469</fpage>
+<lpage>476</lpage>
+<pub-id pub-id-type="doi">10.1007/s10529-010-0473-8</pub-id>
+<?supplied-pmid 21088867?><pub-id pub-id-type="pmid">21088867</pub-id></element-citation></ref><ref id="B102-marinedrugs-14-00137"><label>102.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wanka</surname><given-names>F.</given-names></name><name><surname>Cairns</surname><given-names>T.</given-names></name><name><surname>Boecker</surname><given-names>S.</given-names></name><name><surname>Berens</surname><given-names>C.</given-names></name><name><surname>Happel</surname><given-names>A.</given-names></name><name><surname>Zheng</surname><given-names>X.</given-names></name><name><surname>Sun</surname><given-names>J.</given-names></name><name><surname>Krappmann</surname><given-names>S.</given-names></name><name><surname>Meyer</surname><given-names>V.</given-names></name></person-group>
+<article-title>Tet-on, or Tet-off, that is the question: Advanced conditional gene expression in <italic>Aspergillus</italic></article-title>
+<source>Fungal Genet. Biol.</source>
+<year>2016</year>
+<volume>89</volume>
+<fpage>72</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="doi">10.1016/j.fgb.2015.11.003</pub-id>
+<?supplied-pmid 26555930?><pub-id pub-id-type="pmid">26555930</pub-id></element-citation></ref><ref id="B103-marinedrugs-14-00137"><label>103.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Helmschrott</surname><given-names>C.</given-names></name><name><surname>Sasse</surname><given-names>A.</given-names></name><name><surname>Samantaray</surname><given-names>S.</given-names></name><name><surname>Krappmann</surname><given-names>S.</given-names></name><name><surname>Wagener</surname><given-names>J.</given-names></name></person-group>
+<article-title>Upgrading fungal gene expression on demand: Improved systems for doxycycline-dependent silencing in <italic>Aspergillus fumigatus</italic></article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2013</year>
+<volume>79</volume>
+<fpage>1751</fpage>
+<lpage>1754</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.03626-12</pub-id>
+<?supplied-pmid 23275515?><pub-id pub-id-type="pmid">23275515</pub-id></element-citation></ref><ref id="B104-marinedrugs-14-00137"><label>104.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anyaogu</surname><given-names>D.C.</given-names></name><name><surname>Mortensen</surname><given-names>U.H.</given-names></name></person-group>
+<article-title>Heterologous production of fungal secondary metabolites in <italic>Aspergilli</italic></article-title>
+<source>Front. Microbiol.</source>
+<year>2015</year>
+<pub-id pub-id-type="doi">10.3389/fmicb.2015.00077</pub-id>
+<?supplied-pmid 25713568?><pub-id pub-id-type="pmid">25713568</pub-id></element-citation></ref><ref id="B105-marinedrugs-14-00137"><label>105.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lukassen</surname><given-names>M.B.</given-names></name><name><surname>Saei</surname><given-names>W.</given-names></name><name><surname>Sondergaard</surname><given-names>T.E.</given-names></name><name><surname>Tamminen</surname><given-names>A.</given-names></name><name><surname>Kumar</surname><given-names>A.</given-names></name><name><surname>Kempken</surname><given-names>F.</given-names></name><name><surname>Wiebe</surname><given-names>M.G.</given-names></name><name><surname>Sorensen</surname><given-names>J.L.</given-names></name></person-group>
+<article-title>Identification of the scopularide biosynthetic gene cluster in <italic>Scopulariopsis brevicaulis</italic></article-title>
+<source>Mar. Drugs</source>
+<year>2015</year>
+<volume>13</volume>
+<fpage>4331</fpage>
+<lpage>4343</lpage>
+<pub-id pub-id-type="doi">10.3390/md13074331</pub-id>
+<?supplied-pmid 26184239?><pub-id pub-id-type="pmid">26184239</pub-id></element-citation></ref><ref id="B106-marinedrugs-14-00137"><label>106.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Muffler</surname><given-names>K.</given-names></name><name><surname>Ulber</surname><given-names>R.</given-names></name></person-group>
+<article-title>Downstream processing in marine biotechnology</article-title>
+<source>Adv. Biochem. Eng. Biotechnol.</source>
+<year>2005</year>
+<volume>97</volume>
+<fpage>63</fpage>
+<lpage>103</lpage>
+<?supplied-pmid 16261806?><pub-id pub-id-type="pmid">16261806</pub-id></element-citation></ref><ref id="B107-marinedrugs-14-00137"><label>107.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jungbauer</surname><given-names>A.</given-names></name></person-group>
+<article-title>Continuous downstream processing of biopharmaceuticals</article-title>
+<source>Trends Biotechnol.</source>
+<year>2013</year>
+<volume>31</volume>
+<fpage>479</fpage>
+<lpage>492</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tibtech.2013.05.011</pub-id>
+<?supplied-pmid 23849674?><pub-id pub-id-type="pmid">23849674</pub-id></element-citation></ref><ref id="B108-marinedrugs-14-00137"><label>108.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zydney</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Continuous downstream processing for high value biological products: A review</article-title>
+<source>Biotechnol. Bioeng.</source>
+<year>2016</year>
+<volume>113</volume>
+<fpage>465</fpage>
+<lpage>475</lpage>
+<pub-id pub-id-type="doi">10.1002/bit.25695</pub-id>
+<?supplied-pmid 26153056?><pub-id pub-id-type="pmid">26153056</pub-id></element-citation></ref><ref id="B109-marinedrugs-14-00137"><label>109.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lightfoot</surname><given-names>E.N.</given-names></name><name><surname>Moscariello</surname><given-names>J.S.</given-names></name></person-group>
+<article-title>Bioseparations</article-title>
+<source>Biotechnol. Bioeng.</source>
+<year>2004</year>
+<volume>87</volume>
+<fpage>259</fpage>
+<lpage>273</lpage>
+<pub-id pub-id-type="doi">10.1002/bit.20111</pub-id>
+<?supplied-pmid 15281101?><pub-id pub-id-type="pmid">15281101</pub-id></element-citation></ref><ref id="B110-marinedrugs-14-00137"><label>110.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weissman</surname><given-names>S.A.</given-names></name><name><surname>Anderson</surname><given-names>N.G.</given-names></name></person-group>
+<article-title>Design of experiments (DoE) and process optimization. A review of recent publications</article-title>
+<source>Org. Process Res. Dev.</source>
+<year>2015</year>
+<volume>19</volume>
+<fpage>1605</fpage>
+<lpage>1633</lpage>
+<pub-id pub-id-type="doi">10.1021/op500169m</pub-id>
+</element-citation></ref><ref id="B111-marinedrugs-14-00137"><label>111.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barber</surname><given-names>M.S.</given-names></name><name><surname>Giesecke</surname><given-names>U.</given-names></name><name><surname>Reichert</surname><given-names>A.</given-names></name><name><surname>Minas</surname><given-names>W.</given-names></name></person-group>
+<article-title>Industrial enzymatic production of cephalosporin-based beta-lactams</article-title>
+<source>Adv. Biochem. Eng. Biotechnol.</source>
+<year>2004</year>
+<volume>88</volume>
+<fpage>179</fpage>
+<lpage>215</lpage>
+<?supplied-pmid 15719556?><pub-id pub-id-type="pmid">15719556</pub-id></element-citation></ref><ref id="B112-marinedrugs-14-00137"><label>112.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takimoto</surname><given-names>A.</given-names></name><name><surname>Mitsushima</surname><given-names>K.</given-names></name><name><surname>Yagi</surname><given-names>S.</given-names></name><name><surname>Sonoyama</surname><given-names>T.</given-names></name></person-group>
+<article-title>Purification, characterization and partial amino-acid-sequences of a novel cephalosporin-C deacetylase from <italic>Bacillus subtilis</italic></article-title>
+<source>J. Ferment. Bioeng.</source>
+<year>1994</year>
+<volume>77</volume>
+<fpage>17</fpage>
+<lpage>22</lpage>
+<pub-id pub-id-type="doi">10.1016/0922-338X(94)90201-1</pub-id>
+</element-citation></ref><ref id="B113-marinedrugs-14-00137"><label>113.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sonawane</surname><given-names>V.C.</given-names></name></person-group>
+<article-title>Enzymatic modifications of cephalosporins by cephalosporin acylase and other enzymes</article-title>
+<source>Crit. Rev. Biotechnol.</source>
+<year>2006</year>
+<volume>26</volume>
+<fpage>95</fpage>
+<lpage>120</lpage>
+<pub-id pub-id-type="doi">10.1080/07388550600718630</pub-id>
+<?supplied-pmid 16809100?><pub-id pub-id-type="pmid">16809100</pub-id></element-citation></ref><ref id="B114-marinedrugs-14-00137"><label>114.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abbott</surname><given-names>B.J.</given-names></name></person-group>
+<article-title>Preparation of pharmaceutical compounds by immobilized enzymes and cells</article-title>
+<source>Adv. Appl. Microbiol.</source>
+<year>1976</year>
+<volume>20</volume>
+<fpage>203</fpage>
+<lpage>257</lpage>
+<?supplied-pmid 998365?><pub-id pub-id-type="pmid">998365</pub-id></element-citation></ref><ref id="B115-marinedrugs-14-00137"><label>115.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><collab>US House of Representatives</collab></person-group>
+<source>Antibiotic Development to Advance Patient Treatment</source>
+<publisher-name>Press</publisher-name>
+<publisher-loc>Washington, DC, USA</publisher-loc>
+<year>2013</year>
+</element-citation></ref></ref-list></back><floats-group><fig id="marinedrugs-14-00137-f001" position="float"><label>Figure 1</label><caption><p>Biotechnological approaches at different steps of the process chain for developing antibiotics from marine fungi. Abbreviations: SAR, structure-activity relationship; DSP, downstream processing.</p></caption><graphic xlink:href="marinedrugs-14-00137-g001"/></fig><fig id="marinedrugs-14-00137-f002" position="float"><label>Figure 2</label><caption><p>Overview on all antibacterial compounds from marine fungi that were subjected to biotechnological process developments (covering the literature until March 2016). For groups of compounds only one structure is shown as representative here. Stereochemistry is given, if known from original literature.</p></caption><table-wrap id="d36e6645" position="anchor"><table frame="hsides" rules="groups"><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i001.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i002.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i003.jpg"/></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>3-Chloro-2,5-dihydroxy benzyl alcohol [<xref rid="B37-marinedrugs-14-00137" ref-type="bibr">37</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>15G265&#x003b1; [<xref rid="B38-marinedrugs-14-00137" ref-type="bibr">38</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Ascochytatin [<xref rid="B39-marinedrugs-14-00137" ref-type="bibr">39</xref>]</bold></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i004.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i005.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i006.jpg"/></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Ascosetin [<xref rid="B40-marinedrugs-14-00137" ref-type="bibr">40</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Bis(2-ethylhexyl)phthalate [<xref rid="B41-marinedrugs-14-00137" ref-type="bibr">41</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Calcaride A [<xref rid="B42-marinedrugs-14-00137" ref-type="bibr">42</xref>]</bold></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i007.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i008.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i009.jpg"/></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Cephalosporin C [<xref rid="B43-marinedrugs-14-00137" ref-type="bibr">43</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Chrysogenazine [<xref rid="B44-marinedrugs-14-00137" ref-type="bibr">44</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Corollosporine [<xref rid="B45-marinedrugs-14-00137" ref-type="bibr">45</xref>,<xref rid="B46-marinedrugs-14-00137" ref-type="bibr">46</xref>]</bold></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i010.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i011.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i012.jpg"/></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Cyclo-(Pro-Phe) [<xref rid="B37-marinedrugs-14-00137" ref-type="bibr">37</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Enniatin B [<xref rid="B47-marinedrugs-14-00137" ref-type="bibr">47</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Exophilin A [<xref rid="B48-marinedrugs-14-00137" ref-type="bibr">48</xref>]</bold></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i013.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i014.jpg"/></td><td align="center" valign="middle" rowspan="1" colspan="1">
+<inline-graphic xlink:href="marinedrugs-14-00137-i015.jpg"/></td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Lindgomycin x [<xref rid="B40-marinedrugs-14-00137" ref-type="bibr">40</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>Obioninene [<xref rid="B49-marinedrugs-14-00137" ref-type="bibr">49</xref>]</bold></td><td align="center" valign="middle" rowspan="1" colspan="1"><bold>(+)-Terrein [<xref rid="B50-marinedrugs-14-00137" ref-type="bibr">50</xref>]</bold></td></tr></tbody></table></table-wrap></fig><table-wrap id="marinedrugs-14-00137-t001" position="float"><object-id pub-id-type="pii">marinedrugs-14-00137-t001_Table 1</object-id><label>Table 1</label><caption><p>Realisation of biotechnological approaches for natural product antibiotics from marine fungi, listing all available literature until March 2016. Parameters and fermentation scale were indicated, if available. The origin was stated as concrete as obtained from literature. Abbreviations: Ref., References; EMF, Erlenmeyer flask; STR, stirred tank reactor; MR, Methicillin-Resistant; DSP, Downstream Processing.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Compound, Chemical Class</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Producer, Origin</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Biotechnological Approach</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Antibiotic Activity Against</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Ref.</th></tr></thead><tbody><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">15G265&#x003b1;,&#x003b2;,&#x003b3; macrocyclic polylactones and lipodepsipeptide</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Hypoxylon oceanicum</italic> LL&#x02011;15G256, mangrove</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Optimised medium to increase titres <break/>Effect of seawater (negative at low temperature) <break/>Transfer to Fernbach flasks and 300-L fermenter</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus epidermidis</italic>, <italic>Xanthomonas campestris Propionibacterium acnes</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B38-marinedrugs-14-00137" ref-type="bibr">38</xref>,<xref rid="B42-marinedrugs-14-00137" ref-type="bibr">42</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Ascochytatin, spirodioxynaphthalene</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Ascochyta</italic> sp. NGB4, floating scrap of festering rope collected at a fishing port</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Optimisation of medium at small scale</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bacterial two-component regulatory system</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B39-marinedrugs-14-00137" ref-type="bibr">39</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Ascosetin, tetramic acid</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Lindgomycetaceae, <italic>Halichondria panicea</italic>, (sponge from Baltic Sea)</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Transfer from EMF to STR (10 L): adaptation of medium, increase of yield (factor 100) and decrease of cultivation time</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>S. epidermidis</italic>, <italic>S. aureus</italic>, MR <italic>S. aureus</italic>, <italic>P. acnes, X. campestris, Septoria tritici</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B40-marinedrugs-14-00137" ref-type="bibr">40</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Bis(2-ethylhexyl)phthalate, phthalate *</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Cladosporium</italic> sp., sea water in mangrove area</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Transfer from EMF to STR <break/>Record of conditions <break/>Scaling (2-L fermenter) </td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Loktanella hongkongensis</italic>, <italic>M. luteus</italic>, <italic>Rhodovulum</italic> sp., <italic>Ruegeria</italic> sp., <italic>Pseudoalteromonas piscida</italic>, <italic>Vibrio harveyi</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B41-marinedrugs-14-00137" ref-type="bibr">41</xref>,<xref rid="B51-marinedrugs-14-00137" ref-type="bibr">51</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Calcarides A&#x02013;E, macrocyclic and linear polyesters</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Calcarisporium</italic> sp., Wadden sea water</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Biosynthesis study for strain characterisation <break/>Biological derivatisation <break/>For calcaride A: Adaptation of medium in flasks (13&#x02011;fold improvement) <break/>STR: 200-fold improvement by pH adaptation, C/N ratio, nature of mycelial growth</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Macrocyclic compounds: <italic>S. epidermidis</italic>, <italic>X. campestris</italic> linear polyesters: no antibiotic activity</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B42-marinedrugs-14-00137" ref-type="bibr">42</xref>,<xref rid="B52-marinedrugs-14-00137" ref-type="bibr">52</xref>]</td></tr><tr><td rowspan="2" align="left" valign="middle" style="border-bottom:solid thin" colspan="1">Cephalosporin, &#x003b2;-lactam</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Aspergillus chrysogenum,</italic> sewage water</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Full fermentative optimised process, titres up to 25 g/L <break/>Semi-synthesis from 7&#x02011;aminocephalosporanic acid (enzymatic) <break/>Genetic engineering to reduce by&#x02011;products <break/>Enzymatic treatment in DSP <break/>Immobilised cells in a repeated batch tower reactor </td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Broad spectrum </td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B43-marinedrugs-14-00137" ref-type="bibr">43</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Cephalosporium chrysogenum</italic>, sea water</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">DNA modified by mutagenesis</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Broad spectrum </td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B53-marinedrugs-14-00137" ref-type="bibr">53</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">3-Chloro-2,5-dihydroxy benzyl alcohol, benzene derivative</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Ampelomyces</italic> sp., marine biofilm </td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Scaling in EMF</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Micrococcus</italic> sp., <italic>Vibrio</italic> sp., <italic>Pseudoalteromonas</italic> sp., <italic>S. aureus</italic>, <italic>S. haemolyticus</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B37-marinedrugs-14-00137" ref-type="bibr">37</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Chrysogenazine, diketopipera&#x000ad;zine</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Penicillium chrysogenum,</italic>
+<italic>Porteresia coarctata</italic> (mangrove plant, leaves)</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Scaling from 1-L to 5-L flasks <break/>Yield of the compound enhanced by modifying the carbon and nitrogen source</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Vibrio cholera</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B44-marinedrugs-14-00137" ref-type="bibr">44</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Corollosporin and derivates, phthalide derivatives</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Corollospora maritima,</italic> marine driftwood</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Biological derivatives by enzymatic treatment <break/>Salt dependency of fermentation</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Candida maltosa</italic>, <italic>Escherichia coli</italic>, <italic>Pseudomonas aeruginosa</italic>, <italic>Bacillus subtilis</italic>, <italic>S. aureus, S. aureus</italic> North German epidemic strain, <italic>S. epidermidis</italic>, <italic>S. haemolyticus</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B45-marinedrugs-14-00137" ref-type="bibr">45</xref>,<xref rid="B54-marinedrugs-14-00137" ref-type="bibr">54</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Cyclo-(Pro-Phe), diketopiperazine</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Unidentified marine fungus UST030110-009, marine biofilm</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Scaling in EMF</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Antibacterial antibiofilm: <italic>Micrococcus</italic> sp., <italic>Vibrio</italic> sp., <italic>Pseudoalteromonas</italic>, <italic>S. aureus</italic>, <italic>S. haemolyticus</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B37-marinedrugs-14-00137" ref-type="bibr">37</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Enniatins, cyclodepsipeptides</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Halosarpheia</italic> sp., mangrove</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Heterologous reprogramming of biosynthetic pathways</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>E. coli</italic>, <italic>Enterococcus faecium</italic>, <italic>Salmonella enterica</italic>, <italic>Shigella dysenteriae</italic>, <italic>Listeria monocytogenes</italic>, <italic>Yersinia enterocolitica</italic>, <italic>Clostridium perfringens</italic>, <italic>P. aeruginosa</italic>, <italic>S. aureus</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B47-marinedrugs-14-00137" ref-type="bibr">47</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Exophilin A, 3,5-dihydroxy-decanoic polyester</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Exophiala pisciphila</italic>, <italic>Mycale adhaerens</italic> (sponge)</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Transfer from EMF to STR (glass bottle fermenter, 20 L)</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>E. facium</italic>, <italic>E. faecalis</italic>, <italic>S. aureus</italic>, MR <italic>S. aureus</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B48-marinedrugs-14-00137" ref-type="bibr">48</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Lindgomycin, tetramic acid</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Lindgomycetaceae, <italic>Halichondria panicea</italic> (sponge from Baltic Sea)</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Adaptation of medium <break/>Transfer from EMF to STR (10 L): increase of yield (factor 100) and decrease of cultivation time (from 14 to 7 days)</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">MR <italic>S. aureus</italic>, <italic>S. epidermidis</italic>, <italic>P. acnes</italic>, <italic>X. campestris</italic>, <italic>S. tritici</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B40-marinedrugs-14-00137" ref-type="bibr">40</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Obioninene, ortho-quinone</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Leptosphaeria oraemaris,</italic> marine driftwood</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Effect of salinity on antibiotic production (in EMF) </td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Fucus</italic>-associated not identified bacterium</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B49-marinedrugs-14-00137" ref-type="bibr">49</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">(+)-Terrein, cyclopentenone</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Aspergillus terreus</italic> PF-26, <italic>Phakellia fusca</italic> (sponge)</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Optimisation of operating factors (5-L STR) such as inoculation, agitation speed, aeration rate, pH control and nutrient feeding </td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>B. subtilis</italic></td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B55-marinedrugs-14-00137" ref-type="bibr">55</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Not determined, sesterterpenoid</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Fusarium heterosporum</italic> and <italic>Aspergillus versicolor</italic>, driftwood and alga</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Metabolic engineering</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Broad spectrum</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B56-marinedrugs-14-00137" ref-type="bibr">56</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Not determined</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Arthrinium</italic> c.f. <italic>saccharicola</italic>, seawater from a mangrove habitat</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Co-culture <break/>Stimulation with bacterial elucidators <break/>Systematic manipulation of culture conditions: salinity, temperature, pH, and culture medium composition</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1"><italic>Pseudoalteromonas spongiae</italic>, <italic>Vibrio vulnificus</italic>
+</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B57-marinedrugs-14-00137" ref-type="bibr">57</xref>]</td></tr><tr><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Not determined</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Obligate fungi, marine deep-sea habitats</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">High pressure cultivation <break/>Scaling 20&#x02013;100 L</td><td align="left" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">Broad spectrum</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">[<xref rid="B58-marinedrugs-14-00137" ref-type="bibr">58</xref>]</td></tr></tbody></table><table-wrap-foot><fn><p><bold>*</bold> Although bis(2-ethylhexyl)phthalate is a common plasticizer, its total amount was about 20% of the total fungal extract while hardly any plasticware was used during isolation. It was, therefore, assumed that bis(2-ethylhexyl)phthalate was truly produced by the fungus [<xref rid="B41-marinedrugs-14-00137" ref-type="bibr">41</xref>].</p></fn></table-wrap-foot></table-wrap></floats-group></article>

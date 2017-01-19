@@ -8,10 +8,10 @@ This project aims to use text mining to identify trends in bioinformatics softwa
 
 ## Open Science
 
-I share codes used in this research to encourage transparency, reproducibility, and collaboration. Please feel free to contribute to and collaborate on this project! In this repository, you can find the following subdirectories:
+I share codes used in this research to encourage transparency, reproducibility, and collaboration. Please feel free to contribute to and collaborate on this project! In this repository, you can find the following directories:
 
-* **Corpus**: codes to download a large number of open access articles from Europe PMC (https://europepmc.org). A `Python` script is used to generate a list of commands that use `getpapers` from ContentMine. Please install `Python` (https://www.python.org/) and `getpapers` (https://github.com/ContentMine/getpapers/).
-* **Rscript**: codes to read in XML manuscript files and scan for search terms. Currently, its search and count methods do not account for the context. Beyond installing `R` (https://www.r-project.org/), please see source codes for dependencies.
+* **Corpus**: A `Python` script is used to generate a list of commands that use `getpapers` from ContentMine. Please install `Python` (https://www.python.org/) and `getpapers` (https://github.com/ContentMine/getpapers/). Generated codes download open access articles from Europe PMC (https://europepmc.org). A subdirectory **RNAseq** includes manuscripts with a keyword "RNAseq". 
+* **Rscript**: R codes to read in XML manuscript files and scan for search terms. Currently, its search and count methods do not account for the context. Beyond installing `R` (https://www.r-project.org/), please see source codes for dependencies.
 * **SoftwareList**: a list of bioinformatics software packages from Wikipedia (https://en.wikipedia.org/wiki/List_of_RNA-Seq_bioinformatics_tools). I'm seeking ways to automatically generate this list and/or to be more comprehensive/specific.
 
 These codes may contain errors or pose security risks to your systems. As always, these are provided without warranty of any kind, implied or explicit.

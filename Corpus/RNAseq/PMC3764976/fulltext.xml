@@ -1,0 +1,761 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="en"><?DTDIdentifier.IdentifierValue article.dtd?><?DTDIdentifier.IdentifierType system?><?SourceDTD.DTDName article.dtd?><?SourceDTD.Version 1.0?><?ConverterInfo.XSLTName bmc2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">BMC Genomics</journal-id><journal-id journal-id-type="iso-abbrev">BMC Genomics</journal-id><journal-title-group><journal-title>BMC Genomics</journal-title></journal-title-group><issn pub-type="epub">1471-2164</issn><publisher><publisher-name>BioMed Central</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3764976</article-id><article-id pub-id-type="publisher-id">1471-2164-14-204</article-id><article-id pub-id-type="pmid">23530871</article-id><article-id pub-id-type="doi">10.1186/1471-2164-14-204</article-id><article-categories><subj-group subj-group-type="heading"><subject>Research Article</subject></subj-group></article-categories><title-group><article-title>RNAseq versus genome-predicted transcriptomes: a large population of noveltranscripts identified in an Illumina-454 <italic>Hydra</italic> transcriptome</article-title></title-group><contrib-group><contrib contrib-type="author" id="A1"><name><surname>Wenger</surname><given-names>Yvan</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>Yvan.Wenger@unige.ch</email></contrib><contrib contrib-type="author" corresp="yes" id="A2"><name><surname>Galliot</surname><given-names>Brigitte</given-names></name><xref ref-type="aff" rid="I1">1</xref><email>Brigitte.Galliot@unige.ch</email></contrib></contrib-group><aff id="I1"><label>1</label>Department of Genetics and Evolution, Institute of Genetics and Genomics in
+Geneva (iGE3), University of Geneva, Geneva, Switzerland</aff><pub-date pub-type="collection"><year>2013</year></pub-date><pub-date pub-type="epub"><day>25</day><month>3</month><year>2013</year></pub-date><volume>14</volume><fpage>204</fpage><lpage>204</lpage><history><date date-type="received"><day>19</day><month>10</month><year>2012</year></date><date date-type="accepted"><day>14</day><month>3</month><year>2013</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2013 Wenger and Galliot; licensee BioMed Central Ltd.</copyright-statement><copyright-year>2013</copyright-year><copyright-holder>Wenger and Galliot; licensee BioMed Central Ltd.</copyright-holder><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0"><license-p>This is an Open Access article distributed under the terms of the Creative Commons
+Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which
+permits unrestricted use, distribution, and reproduction in any medium, provided the
+original work is properly cited.</license-p></license></permissions><self-uri xlink:href="http://www.biomedcentral.com/1471-2164/14/204"/><abstract><sec><title>Background</title><p>Evolutionary studies benefit from deep sequencing technologies that generate
+genomic and transcriptomic sequences from a variety of organisms. Genome
+sequencing and RNAseq have complementary strengths. In this study, we
+present the assembly of the most complete <italic>Hydra</italic> transcriptome to
+date along with a comparative analysis of the specific features of RNAseq
+and genome-predicted transcriptomes currently available in the freshwater
+hydrozoan <italic>Hydra vulgaris</italic>.</p></sec><sec><title>Results</title><p>To produce an accurate and extensive <italic>Hydra</italic> transcriptome, we
+combined Illumina and 454 Titanium reads, giving the primacy to Illumina
+over 454 reads to correct homopolymer errors. This strategy yielded an
+RNAseq transcriptome that contains 48&#x02019;909 unique sequences including
+splice variants, representing approximately 24&#x02019;450 distinct genes.
+Comparative analysis to the available genome-predicted transcriptomes
+identified 10&#x02019;597 novel <italic>Hydra</italic> transcripts that encode 529
+evolutionarily-conserved proteins. The annotation of 170 human orthologs
+points to critical functions in protein biosynthesis, FGF and TOR signaling,
+vesicle transport, immunity, cell cycle regulation, cell death,
+mitochondrial metabolism, transcription and chromatin regulation. However, a
+majority of these novel transcripts encodes short ORFs, at least 767 of them
+corresponding to pseudogenes. This RNAseq transcriptome also lacks
+11&#x02019;270 predicted transcripts that correspond either to silent genes or
+to genes expressed below the detection level of this study.</p></sec><sec><title>Conclusions</title><p>We established a simple and powerful strategy to combine Illumina and 454
+reads and we produced, with genome assistance, an extensive and accurate
+<italic>Hydra</italic> transcriptome. The comparative analysis of the RNAseq
+transcriptome with genome-predicted transcriptomes lead to the
+identification of large populations of novel as well as missing transcripts
+that might reflect <italic>Hydra</italic>-specific evolutionary events.</p></sec></abstract><kwd-group><kwd>Illumina and 454 RNAseq transcriptome assembly</kwd><kwd><italic>Hydra</italic> transcriptome</kwd><kwd>Reciprocal Best Hits (RBH)</kwd><kwd>Next generation sequencing</kwd><kwd>Genome-predicted transcriptome</kwd><kwd>Human orthologs in Hydra</kwd><kwd>Pseudogenes</kwd></kwd-group></article-meta></front><body><sec><title>Background</title><p><italic>Hydra</italic> is a freshwater polyp that belongs to Cnidaria, a sister group to
+Bilateria (Figure&#x000a0;<xref ref-type="fig" rid="F1">1</xref>A) [<xref ref-type="bibr" rid="B1">1</xref>]. <italic>Hydra</italic> anatomy is organized as a tube with an oral-aboral axis
+consisting of two cell-layers and three populations of stem cells (Figure&#x000a0;<xref ref-type="fig" rid="F1">1</xref>B). Since the discovery of <italic>Hydra</italic> regeneration in the
+mid XVIII<sup>th</sup> century, <italic>Hydra</italic> provides a unique model system to
+study how exogenous perturbations can reactivate a developmental program in an adult
+organism (see in [<xref ref-type="bibr" rid="B2">2</xref>]). Indeed, <italic>Hydra</italic> possesses the amazing ability to regenerate any
+missing part upon bisection of its body column. To dissect the genetic cascades
+supporting regenerative processes, a complete report of the genetic toolkit
+expressed in this animal is necessary. Among cnidarians, genomic data are currently
+available from three species, <italic>Hydra magnipapillata</italic>[<xref ref-type="bibr" rid="B3">3</xref>], <italic>Nematostella vectensis</italic> (sea anemone) [<xref ref-type="bibr" rid="B4">4</xref>] and <italic>Acropora digitifera</italic> (coral) [<xref ref-type="bibr" rid="B5">5</xref>]. Transcriptomic data are available from the colonial hydroid
+<italic>Hydractinia equinata</italic>[<xref ref-type="bibr" rid="B6">6</xref>], from the jellyfish <italic>Clytia haemispherica</italic>[<xref ref-type="bibr" rid="B7">7</xref>], from the coral <italic>Acropora millepora</italic>[<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>] and from two distinct <italic>Hydra</italic> strains that belong to the
+heterogeneous <italic>vulgaris</italic> group [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>]. In addition, two sets of putative transcripts, called here pred-CA and
+pred-RP, have been predicted from the <italic>Hydra magnipapillata</italic> genome [<xref ref-type="bibr" rid="B3">3</xref>]. In spite of these efforts, the transcriptome of <italic>Hydra</italic> is still
+incomplete.</p><fig id="F1" position="float"><label>Figure 1</label><caption><p><bold>Phylogenetic position of </bold><bold><italic>Hydra</italic></bold><bold>. A</bold>) The
+phylogenetic tree of opisthokonts was drawn according to [<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B13">13</xref>]. Together with ctenophores, cnidarians form the Coelenterate
+superphylum. Coelenterates together with bilaterians constitute Eumetazoa,
+whereas porifers (sponges) occupy a sister group position within Metazoa.
+Dates are expressed in million years (my) according to [<xref ref-type="bibr" rid="B14">14</xref>]. LCA: Last Common Ancestor. <bold>B</bold>) Anatomy of the adult
+<italic>Hydra</italic> polyp. Scale bar: 400 &#x003bc;m. <bold>C</bold>) Phylogenetic
+tree of the various <italic>Hydra</italic> species drawn according to [<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>]. Genome-predicted transcriptomes are available from <italic>H</italic>.
+<italic>magnipapillata</italic> (<italic>Hm</italic>) [<xref ref-type="bibr" rid="B3">3</xref>], a RNAseq-454 transcriptome was produced from <italic>H</italic>.
+<italic>vulgaris AEP</italic> (<italic>AEP</italic>) [<xref ref-type="bibr" rid="B11">11</xref>] and this study presents a RNAseq Illumina-454 transcriptome from
+<italic>H</italic>. <italic>vulgaris Basel</italic> (<italic>Hv</italic>).</p></caption><graphic xlink:href="1471-2164-14-204-1"/></fig><p>To produce a <italic>Hydra</italic> transcriptome that would account for a high proportion of
+full-length RNA sequences, we combined two widely used high-throughput sequencing
+pipelines, developed by Illumina [<xref ref-type="bibr" rid="B17">17</xref>] and 454 Life Sciences [<xref ref-type="bibr" rid="B18">18</xref>] respectively. The Illumina technology produces shorter reads (currently
+up to 150 bp) at a lower cost per base than the longer reads (~350 bp) produced by
+the Roche 454 Titanium technology. Beside these differences, the two technologies
+differ by the type of errors they generate, mostly base substitutions in Illumina,
+and micro-insertions or deletions in 454 homopolymer stretches [<xref ref-type="bibr" rid="B19">19</xref>], although the overall error rate is much lower in assemblies generated
+using Illumina reads, partly due to higher coverages [<xref ref-type="bibr" rid="B19">19</xref>]. Consequently assemblies of 454 RNAseq reads frequently contain
+frameshift errors, which lead to truncated proteins after conceptual translation.
+Despite sustained progress in the field, no single standard assembly procedure
+mixing reads of different technologies has yet met general agreement. Here, we
+reasoned that whenever Illumina and 454 sequences corresponding to a transcript were
+available, Illumina-derived contigs (containing much fewer homopolymer errors [<xref ref-type="bibr" rid="B19">19</xref>]) were to be selected in priority for building consensus stretches. To
+reflect this choice, we adapted a method that was previously used to assemble
+Illumina contigs to 454 reads [<xref ref-type="bibr" rid="B20">20</xref>]. Thanks to this strategy, we produced a <italic>Hydra</italic> transcriptome that
+contains 48&#x02019;909 unique transcripts, including 10&#x02019;597 novel sequences.
+Then, we performed a systematic comparative analysis of the RNAseq and
+genome-predicted transcriptomes.</p></sec><sec sec-type="results"><title>Results</title><sec><title>Production of an extensive transcriptome from Illumina and 454 reads</title><p>We produced a <italic>Hydra</italic> RNAseq transcriptome by combining 454 and Illumina
+reads obtained from the <italic>Hydra vulgaris</italic> strain &#x0201c;Basel&#x0201d;. This
+European strain is very closely related to the Japanese strain <italic>Hydra
+magnipapillata</italic>[<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>], and they both belong to the <italic>vulgaris</italic> group
+(Figure&#x000a0;<xref ref-type="fig" rid="F1">1</xref>C). In fact, those two strains are
+hardly differentiable at the molecular level and are distinguished based on
+their geographical origin [<xref ref-type="bibr" rid="B16">16</xref>]. The comparison of the <italic>Hydra vulgaris</italic> &#x0201c;Basel&#x0201d;
+sequence data produced in this study to the <italic>Hydra magnipapillata</italic>
+genomic sequences [<xref ref-type="bibr" rid="B3">3</xref>] typically resulted in 1% or less differences at the nucleotide level
+(see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S2B). To increase the
+odds of capturing gene specifically expressed during regeneration for subsequent
+studies, cDNAs libraries were prepared mostly from regenerating <italic>Hydra</italic>
+(Figure&#x000a0;<xref ref-type="fig" rid="F2">2</xref>AB). The size distribution of the 454
+and Illumina reads that we obtained is shown in Figure&#x000a0;<xref ref-type="fig" rid="F2">2</xref>A, <xref ref-type="fig" rid="F2">2</xref>B, respectively.</p><fig id="F2" position="float"><label>Figure 2</label><caption><p><bold>Scheme representing the conditions and the reads obtained from
+</bold><bold><italic>Hydra vulgaris </italic></bold><bold>for Illumina and 454
+RNAseq. </bold><bold>A</bold>) Left panel: number of intact and regenerating
+<italic>Hydra</italic> mixed to extract mRNA used in 454 sequencing. Right
+panel: length distribution of 454 reads after adapter trimming.
+<bold>B</bold>) Left panel: percentages of mRNA taken from <italic>Hydra</italic> in
+intact and regenerative conditions, as deduced from their respective
+number of reads sequenced. Right panel: length distribution of Illumina
+reads after barcode removal and adapter trimming.</p></caption><graphic xlink:href="1471-2164-14-204-2"/></fig><p>To increase the strength of the Illumina contigs against the 454 reads, we first
+performed an initial assembly of the Illumina reads into contigs using
+Velvet/Oases (Figure&#x000a0;<xref ref-type="fig" rid="F3">3</xref>A). Then in the course of the
+subsequent assemblies, we performed the following manipulations (see Methods for
+details): 1) Illumina contigs were duplicated (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S1); 2) artificial base qualities were generated.
+Finally, contigs longer than 2000 nt were chopped into 1999 nt with 1899 nt
+overlapping segments to accommodate a requirement of the Newbler assembler. The
+resulting sequences were used as input for Mira (Mira-<italic>dn</italic>) and Newbler
+(<italic>Newbler-dn</italic>) assemblies along with 454 reads (Figure&#x000a0;<xref ref-type="fig" rid="F3">3</xref>A).</p><fig id="F3" position="float"><label>Figure 3</label><caption><p><bold>Assembly procedures of the </bold><bold><italic>de</italic></bold><bold>-</bold><bold><italic>novo
+</italic></bold><bold>(</bold><bold><italic>dn</italic></bold><bold>) </bold><bold>and genome-assisted
+(ga) </bold><bold><italic>Hydra </italic></bold><bold>transcriptomes. A, B</bold>) Schemes
+showing the <italic>de</italic>-<italic>novo</italic> (<italic>dn</italic>) assembly process of
+<italic>Hydra</italic> RNAseq reads (<bold>A</bold>), and the genome-assisted (ga)
+and &#x0201c;best of&#x0201d; (bo) assembly processes of <italic>Hydra</italic>
+transcriptomes (<bold>B</bold>). Numbers of sequences are indicated at each
+step. For steps 2a and 2b, artificial Phred quality values were produced
+for the dataset called &#x0201c;Contigs&#x0201d; and the sequences were
+duplicated in order to further correct frameshifts due to 454 sequencing
+(see Methods section for details).</p></caption><graphic xlink:href="1471-2164-14-204-3"/></fig><p>The outputs of Mira-<italic>dn</italic> and Newbler-<italic>dn</italic> were then joined using a
+second round of Mira assembly with similar parameters (the assembly is called
+meta-<italic>dn</italic>). Occasionally, meta-<italic>dn</italic> contained longer coding
+sequences than the two original datasets and those sequences were retained (see
+Methods for details). The <italic>de</italic>-<italic>novo</italic> assembly was complemented by
+a genome-assisted (ga) assembly (Figure&#x000a0;<xref ref-type="fig" rid="F3">3</xref>B). With the
+ga procedure, and in contrast to the <italic>de</italic>-<italic>novo</italic> procedure, very
+short overlaps (up to 1 nt) between RNAseq reads that can be mapped
+unambiguously to the genome are sufficient to expect contiguity and assemble
+reads into contigs. Thus, in the case of transcripts with low coverage, the ga
+assembly procedure frequently leads to more contiguous sequences when the
+transcribed regions are available from the genome.</p><p>The ga assembly consisted in the independent mapping of the 454 and the Illumina
+reads to the genome. The cufflinks software [<xref ref-type="bibr" rid="B21">21</xref>] was then used to reunite the results of both mappings in a single
+summary file, and the sequences of the modeled transcripts were extracted (see
+Methods for details). Similarly to the <italic>de-novo</italic> assembly process, a
+second round of assembly was performed using Mira with this dataset (meta-ga
+assembly) and the longest open reading frames (ORFs) were retrieved for each
+genome-assisted sequence (<italic>Hydra-ga</italic>). Finally, a dataset reuniting the
+sequences with the longest ORFs that were found among the <italic>de-novo</italic> or
+genome-assisted assemblies was retrieved (named
+<italic>Hydra</italic>-bestof-<italic>Hydra</italic>-bo-). This <italic>Hydra</italic>-bo dataset
+contains 48&#x02019;909 sequences, 45&#x02019;269 of which are longer than 200 nt
+and have been deposited at the European Nucleotide Archive (ENA) under the
+accessions HAAC01000001-HAAC01045269.</p></sec><sec><title>Production of an hybrid RNAseq/genome-predicted transcriptome (Hydra-meta)
+and saturation analysis</title><p>To evaluate the complexity present in the Illumina reads against a comprehensive
+<italic>Hydra</italic> transcriptome that might be used as a reference for further
+studies, the <italic>Hydra</italic>-bo transcriptome was pooled with genome-predicted
+datasets (Figure&#x000a0;<xref ref-type="fig" rid="F4">4</xref>A, see Methods for details),
+resulting in a non-redundant set of contigs that contains a mixture between
+RNAseq and genome-predicted sequences (<italic>Hydra</italic>-meta). Subsets of randomly
+chosen Illumina reads were mapped onto the <italic>Hydra</italic>-meta dataset and the
+number of reads mapped to each sequence was counted (Figure&#x000a0;<xref ref-type="fig" rid="F4">4</xref>B). Of the 57&#x02019;611 sequences present in the
+<italic>Hydra</italic>-meta dataset, 7&#x02019;070 were never mapped with an Illumina
+read, pointing to insufficient Illumina sequencing depth, or genes not expressed
+in the condition tested. Another possibility is that some of the predicted
+sequences are a consequence of overprediction and are in facts never expressed
+although this cannot be determined from our data. The number of sequences mapped
+by 1 or more reads (50&#x02019;541 sequences) exhibited saturation, as a random
+subset containing 20% of all Illumina reads was sufficient to target 89.5% of
+them. However, even if a large fraction of transcripts appeared to be detected
+in this study, the fact that only 21&#x02019;746 contigs are mapped with 100 or
+more reads indicates that the sequencing depth of the Illumina dataset alone
+(53.6M reads) might be insufficient to assemble full length contigs for weakly
+expressed transcripts.</p><fig id="F4" position="float"><label>Figure 4</label><caption><p><bold>Evaluation of the completeness of the </bold><bold><italic>Hydra</italic></bold>-<bold>bo
+</bold><bold>transcriptome. </bold><bold>A</bold>) Construction of the
+<italic>Hydra</italic>-meta transcriptome, which contains an unredundant
+assembly of the <italic>Hydra</italic>-bo and predicted sequences (pred-CA and
+pred-RP). <bold>B</bold>) Saturation analysis of transcripts representation
+(y-axis) with increasing numbers of sampled reads (x-axis). The
+<italic>Hydra</italic>-meta transcriptome was used as a reference. Subsets
+of randomly sampled Illumina reads were collected and mapped to the
+reference using Bowtie. The numbers of mapped reads (hits) were counted
+for each reference sequence.</p></caption><graphic xlink:href="1471-2164-14-204-4"/></fig></sec><sec><title>Gene number estimation</title><p>A rough estimate of the number of <italic>Hydra</italic> genes based on transcripts only
+was deduced from the number of sequences in each dataset associated with a
+measure of the redundancies they contain. Indeed, the presence of multiple
+similar sequences in a dataset, due for example to allelic or splice variants,
+would lead to an overestimation of the number of genes if not corrected for
+internal redundancy. To assess the presence of multiple near-identical sequences
+within transcriptomes, we aligned the coding nucleotide sequences from each
+dataset against its whole dataset using megablast [<xref ref-type="bibr" rid="B22">22</xref>]. The number of hits retrieved by each query sequence was counted and
+a single value representing the average number of matches per query was
+calculated. The measure, called the redundancy index (RI), is an indication of
+the redundancy of the considered transcriptome (see in Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>A the numbers at the top of each lane. See Methods).</p><fig id="F5" position="float"><label>Figure 5</label><caption><p><bold>Comparative analysis of the </bold><bold><italic>Hydra vulgaris
+</italic></bold><bold>(Illumina-454 RNAseq), </bold><bold><italic>Hydra AEP
+</italic></bold><bold>(454 RNAseq) and </bold><bold><italic>Hydra magnipapillata
+</italic></bold><bold>(genome-predicted) transcriptomes. A</bold>) Boxplot
+representing the ORF lengths (nucleotides) of the intermediary (white)
+and final (blue) assemblies of the genome-assisted (<italic>Hydra-dn</italic>)
+and &#x0201c;best of&#x0201d; (<italic>Hydra</italic>-bo) transcriptomes. For
+comparison see the distribution of ORF lengths from the
+<italic>AEP</italic>-<italic>454</italic> (white) [<xref ref-type="bibr" rid="B11">11</xref>] and predicted (pred-RP, pred-CA, grey) [<xref ref-type="bibr" rid="B3">3</xref>] transcriptomes. Open circles represent outliers. Horizontal
+bars represent, from bottom to top, minimum, lower quartile, median,
+upper quartile, and maximum ORF lengths (excluding outliers). Numbers at
+the top indicate redundancy indexes. <bold>B</bold>) Comparison of the sizes
+of the coding sequences between the datasets shown in A and the pred-CA
+transcriptome. The pred-CA coding sequences were aligned against each
+sequence of every other dataset using BlastN+ without low complexity
+filter. First hits were retained if the alignment was uninterrupted for
+more than 100 nt with at least 95% sequence identity. The sizes of the
+matched and queried sequences were compared and classified into three
+classes according to the size of the tested sequence (hit): &#x02265; 100%
+if larger or equal to the size of the corresponding pred-CA sequence
+(greyish shadow), between 99% and 75% (blue), lower than 75% (orange).
+Top numbers indicate the percentage of pred-CA sequences matched by the
+transcriptome indicated on the x-axis. <bold>C</bold>) Characteristics of the
+<italic>Hydra</italic>-bo, <italic>Hydra</italic>-meta and <italic>AEP</italic>-<italic>454</italic>
+RNAseq transcriptomes. As <italic>Hydra</italic>-bo and <italic>Hydra</italic>-meta
+contain exclusively sequences that are at least 150 coding nucleotides
+long, the same criteria was applied to the <italic>AEP</italic>-<italic>454</italic>
+dataset. The last column indicates the number of full-length (start and
+stop codons) ORFs longer than 100 AAs. <bold>D</bold>) Number of functionally
+annotated sequences in the RNAseq and genome-predicted transcriptomes
+when analyzed with BlastX+ (left), Pfam or Panther (right).</p></caption><graphic xlink:href="1471-2164-14-204-5"/></fig><p><italic>Hydra</italic>-bo sequences retrieved 2.0 matches on average, a RI value
+significantly lower than those obtained for the genome-predicted transcriptomes
+(3.3 and 3.9 for pred-CA and pred-RP respectively, Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>A, top numbers). As each <italic>Hydra</italic>-bo sequence matches two
+closely related sequences on the same set on average, we estimate the number of
+<italic>Hydra</italic> genes to be ~24&#x02019;450 (48&#x02019;909/2.0). Following the
+same calculation rules, the number of genes fall to 4&#x02019;549 and 9&#x02019;799
+for the genome-predicted pred-CA and pred-RP transcriptomes and reaches
+19&#x02019;628 with the <italic>AEP</italic>-<italic>454</italic> transcriptome [<xref ref-type="bibr" rid="B11">11</xref>].</p><p>An independent estimate of the number of genes represented in the
+<italic>Hydra</italic>-bo, pred-CA, and pred-RP, was obtained by mapping their sequences
+back to the genome and counting the number of expressed genomic loci. Of the
+three datasets, pred-CA yielded the lowest number with 16&#x02019;302 estimated
+genes, and the pred-RP dataset had the highest estimate with 31&#x02019;243 genes.
+For the <italic>Hydra</italic>-bo transcriptome, we counted a total of 28&#x02019;520
+different expressed loci. Both numbers, 24&#x02019;455 based on transcript
+redundancy or 28&#x02019;520 based on genetic loci exceed the number previously
+predicted to be ~20&#x02019;000 [<xref ref-type="bibr" rid="B3">3</xref>]. However this initial number did not include pseudogenes or
+transposons. Therefore the 24&#x02019;500 to 28&#x02019;500 estimation is compatible
+with the fact that the RNAseq transcriptome assembled here incorporates a large
+share of all sequences expressed in <italic>Hydra</italic>.</p></sec><sec><title>Comparative analysis between the Hydra-bo, AEP-454, and genome-predicted
+transcriptomes</title><p>To compare the existing datasets, we first assessed their physical
+characteristics, and next evaluated their respective functional content. The
+lengths of the coding sequences of the <italic>Hydra</italic>-bo, pred-CA and pred-RP
+transcriptomes exhibit similar size distribution (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>A) except for a few sequences from the genome-predicted sets that
+appear longer. By contrast the <italic>AEP</italic>-<italic>454</italic> transcriptome contains
+a large proportion of small ORFs (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>A, <xref ref-type="fig" rid="F5">5</xref>C). The lengths of the coding sequences of each dataset
+were then compared to the length of the corresponding coding sequences found in
+the pred-CA transcriptome (thus using each of the pred-CA sequences as a
+standard, see Methods for details). This analysis shows a progressive increase
+in the length of the successive intermediary datasets, with the first assembly
+(PASA) containing the shortest coding sequences and the final assembly
+(<italic>Hydra</italic>-bo) containing the longest (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>B). Over 60% of <italic>Hydra</italic>-bo sequences display either equal or
+longer coding length when compared to pred-CA sequences (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>B, grey shadow bar). Finally, the <italic>Hydra</italic>-bo
+transcriptome contained more sequence representatives of pred-CA sequences than
+any other dataset (88.2%, Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>B, top
+percentages). In comparison, the <italic>AEP</italic>-<italic>454</italic> dataset captured
+65.9% of the 32&#x02019;338 pred-CA sequences. The number of full length ORFs
+(containing a start and a stop codon) longer than 100 amino acids (AA) was
+14&#x02019;295 for <italic>Hydra</italic>-bo and 9&#x02019;648 for <italic>AEP</italic>-<italic>454</italic>
+(Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>C). In contrast, the <italic>Hydra</italic>-meta
+dataset contains a much larger number of full length ORFs (36&#x02019;847).</p><p>To compare the content of the <italic>Hydra</italic>-bo, <italic>AEP</italic>-<italic>454</italic>, and
+predicted transcriptomes, Blasts and functional annotations using Pfam and
+Panther were performed (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>D). Overall,
+<italic>Hydra</italic>-bo matched more sequences (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>D, left panel) and encoded more functional families than the three
+other transcriptomes tested here (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>D, right
+panel). These gene families are listed in Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>. We conclude that <italic>Hydra</italic>-bo not only contains longer
+sequences than <italic>AEP</italic>-<italic>454</italic>, but also encodes a greater diversity
+of transcripts when compared to <italic>AEP</italic>-<italic>454</italic> and genome-predicted
+transcriptomes.</p></sec><sec><title>Unpredicted sequences in the <italic>Hydra</italic>-bo RNAseq transcriptome</title><p>To identify the transcripts present in <italic>Hydra</italic>-bo but absent from the two
+sets of genome-predicted sequences, we aligned the <italic>Hydra</italic>-bo sequences
+to a pooled version of the predicted datasets. Queries without hits (95%
+similarity threshold on nucleotides, without using low complexity masking) were
+retrieved and counted (Figure&#x000a0;<xref ref-type="fig" rid="F6">6</xref>). Among
+<italic>Hydra</italic>-bo sequences, we found 38&#x02019;168 (78%) sequences that were
+common between the predicted and the RNAseq datasets but also 10&#x02019;597
+<italic>Hydra</italic>-bo sequences that were missing in the genome-predicted
+transcriptomes. The expression of a large fraction of these &#x0201c;RNAseq
+only&#x0201d; sequences was actually confirmed (Figure&#x000a0;<xref ref-type="fig" rid="F6">6</xref>A), 2&#x02019;355 in ESTs, 1&#x02019;936 in the
+<italic>AEP</italic>-<italic>454</italic> transcriptome. As a consequence, 6&#x02019;836
+RNAseq-only sequences remain completely novel. In a similar way, we found
+11&#x02019;270 genome-predicted sequences missing in <italic>Hydra</italic>-bo. Among
+these &#x0201c;predicted-only&#x0201d; sequences, 1&#x02019;389 were identified in
+ESTs, 1&#x02019;094 in the <italic>AEP</italic>-<italic>454</italic> transcriptome, leaving
+9&#x02019;107 sequences unique to the genome-predicted sets (Figure&#x000a0;<xref ref-type="fig" rid="F6">6</xref>B). All these sequences exhibit a low GC content
+(Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S2A) that is typical for
+<italic>Hydra</italic>.</p><fig id="F6" position="float"><label>Figure 6</label><caption><p><bold>Comparative analysis of the RNAseq only and predicted-only sequences.
+A</bold>) Pie chart showing the distribution of the 10&#x02019;597
+<italic>Hydra</italic>-bo sequences not found in the genome-predicted
+transcriptomes, thus named &#x0201c;unpredicted&#x0201d;: 3&#x02019;761 align
+to <italic>Hydra</italic> ESTs and/or to sequences from the
+<italic>AEP</italic>-<italic>454</italic> transcriptome whereas 6&#x02019;836 appear
+novel. <bold>B</bold>) Pie chart showing the distribution of the 11&#x02019;270
+genome-predicted sequences that were not found in the <italic>Hydra</italic>-bo
+dataset: 2&#x02019;163 align to <italic>Hydra</italic> ESTs and/or to
+<italic>AEP</italic>-<italic>454</italic> sequences but 9&#x02019;107 sequences do not
+align to any expressed transcripts, thus named
+&#x0201c;predicted-only&#x0201d;. <bold>C</bold>) Number of Reciprocal Best Hits
+(RBHs) identified among predicted-only (9&#x02019;107) and unpredicted
+(10&#x02019;597) sequences when tested on a variety of opisthokont
+species. RBHs occurrence was assessed for <italic>Hydra</italic>-bo and
+predicted transcriptomes in each species individually, using whole
+proteomes and whole deduced proteomes. Predicted-only and unpredicted
+sequences corresponding to RBH orthologs were then extracted.</p></caption><graphic xlink:href="1471-2164-14-204-6"/></fig><p>To verify whether the 10&#x02019;597 RNAseq-only transcripts are indeed
+corresponding to <italic>Hydra</italic> genes, we aligned them to genomic sequences
+allowing for a greater level of mismatches than in the previous analysis (i.e.
+without using the 95% identity threshold) (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S2B). 9&#x02019;884 sequences (93%) aligned to the genomic
+sequences with more than 75% identity. The 10&#x02019;597 RNAseq only transcripts
+were then aligned to proteins deduced from the full genome-predicted
+transcriptomes using BlastX+ (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>:
+Figure S2C). 4&#x02019;170 (39.5%) transcripts were reliably mapped to
+genome-predicted proteins (E-value &#x0003c;10<sup>-10</sup>). The protein-alignments
+conservation ranged from 20% to 100% with an average of 65.3%, indicating that
+some RNAseq only transcripts probably correspond to paralogs of predicted
+sequences, whereas a large number of them share only low sequence identity and
+thus likely encode proteins not represented in the predicted datasets.</p><p>Finally, we compared the length of the ORFs of the RNAseq only and predicted only
+datasets (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S2D). We noted a
+significant difference as the RNAseq only set contains shorter coding sequences
+with only 3&#x02019;494 (33.0%) encoding proteins longer than 100 amino acids
+versus 8&#x02019;115 (89.4%) in the genome-predicted only set. In summary, both
+datasets of transcripts seem to correspond to functional genes that encode
+<italic>Hydra</italic> proteins although with striking differences in terms of ORF
+length.</p></sec><sec><title>Novel <italic>Hydra</italic>-human orthologs identified among the RNAseq only
+sequences</title><p>To characterize the proteins encoded by the RNAseq only and predicted-only
+sequences, we performed Reciprocal best hits (RBHs), a procedure that provides a
+powerful and reliable method to identify orthologs among large and multiple
+sequence populations [<xref ref-type="bibr" rid="B23">23</xref>]. As a first step, we deduced the proteomes of the <italic>Hydra</italic>-bo,
+<italic>Hydra</italic>-meta, <italic>AEP</italic>-<italic>454</italic> and genome-predicted
+transcriptomes, producing four distinct whole <italic>Hydra</italic> proteomes. Next, we
+tested these four <italic>Hydra</italic> proteomes against the proteomes of 20 species
+representative of non-metazoan (fungi, filifera, choanoflagellates), basal
+metazoan (porifers), basal eumetazoan (cnidarians) as well as bilaterian
+(lophotrochozoans, ecdysozoans, deuterostomes) phyla (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S3). We detected a similar numbers of pairwise
+orthologs in the <italic>Hydra</italic>-bo, the <italic>Hydra</italic>-meta and the
+genome-predicted proteomes, although slightly higher in the <italic>Hydra</italic>-meta
+dataset. By contrast the number of orthologs retrieved from the
+<italic>AEP</italic>-<italic>454</italic> proteome was consistently lower in all species as
+anticipated from previous analyses.</p><p>Similarly we retrieved the RBH orthologs present in the RNAseq only and
+predicted-only datasets from RBH computed on whole proteomes (as described in
+the previous paragraph). In both datasets, this analysis identified low numbers
+of orthologous proteins, 809 (8.9%) among the predicted-only sequences and 529
+(5.0%) in the RNAseq only dataset (Figure&#x000a0;<xref ref-type="fig" rid="F6">6</xref>C). This
+result suggests that a large fraction of these two gene datasets encode
+<italic>Hydra</italic>-specific proteins, and might thus be considered as
+taxon-restricted genes [<xref ref-type="bibr" rid="B7">7</xref>]. Nevertheless, we identified 170 novel orthologs to human proteins
+among novel <italic>Hydra</italic> sequences (Figure&#x000a0;<xref ref-type="fig" rid="F7">7</xref>). The
+annotations of the human proteins point to a variety of molecular and cellular
+functions, encompassing cellular signaling (27) including RBH-orthologs to two
+distinct FGF proteins, but also membrane proteins (20), cell metabolism (15)
+including RBH-orthologs to LTOR1, LTOR4, to cytochrome c oxidase assembly
+proteins 5 and 6 (-COA5, COA6-), post-translational modifications (14), vesicle
+and protein transport (16) including a RBH-ortholog to synaptotagmin, cell cycle
+regulation (13), protein biosynthesis (14), DNA-binding activity and
+transcription (11) including RBH-orthologs to ATF3, RPA43, THAP1, cytoskeletal
+organization (10), lipid metabolism (8), chromatin regulation (7 see below),
+cell death (5), DNA repair and telomeres (6), meiosis and gametogenesis (5),
+immunity and inflammation (4) including RBH-orthologs to NLRP3, NLRP12, NLRP14
+but also 20 proteins with unknown functions in human (complete sequences listed
+in Additional file <xref ref-type="supplementary-material" rid="S3">3</xref>).</p><fig id="F7" position="float"><label>Figure 7</label><caption><p><bold><italic>Hydra </italic></bold><bold>RNAseq only genes with RBHs on human
+orthologs.</bold> 170 <italic>Hydra</italic> proteins were selected after RBHs
+with the human proteome (E-value &#x0003c;10<sup>-8</sup>). The names and
+predicted functions of these proteins were deduced from the annotation
+of the corresponding human othologs (Additional file <xref ref-type="supplementary-material" rid="S3">3</xref>). The phylogenetic relationships were tested for 14 of
+them (written red with asterisk) and confirmed in all cases (Additional
+file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S4). Underlined names
+correspond to genes whose expression was tested in RT-PCR (Additional
+file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S5A), confirmed in all cases,
+cloned and sequenced.</p></caption><graphic xlink:href="1471-2164-14-204-7"/></fig><p>The phylogenetic relationships obtained by RBH were verified for 14 proteins,
+including the chromatin regulators BMI1, MEAF6, PCGF1, PRMT5, K2026, the kinase
+DOLK, the phosphatase PGP, the mitochondrial synthase FPGS, and orthology was
+confirmed for all of them (see phylogenetic trees in Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S4). Finally we checked that these novel genes
+are indeed expressed in <italic>Hydra</italic>. We randomly picked a subset of them
+(18), successfully amplified all of them from cDNA (Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S5) and confirmed by cloning and sequencing
+their nucleotide sequence (Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>). Hence
+the RNAseq only dataset contains a large number of expressed genes thus far
+never identified. Some of them are conserved between evolutionarily-distant
+species, and the human annotation suggests a functional role in a variety of
+molecular and cellular processes.</p><sec><title>A large population of unpredicted transcripts with short ORFs and
+pseudogenes</title><p>From the 10&#x02019;597 RNAseq only contigs, 7&#x02019;103 encode putative ORFs
+shorter than 100 residues with an average length of 212 coding nt. The
+profile of the fraction of their coding lengths over their total length
+shows that 2&#x02019;209 of these contigs have an ORF spanning over &#x02265;95%
+of their length (Figure&#x000a0;<xref ref-type="fig" rid="F8">8</xref>A). The vast majority of
+these contigs actually correspond to truncated fragments of longer coding
+units, which were nevertheless not described so far (based on sequence
+comparison using an independent transcriptome assembly with deeper coverage,
+Wanda Buzgariu, unpublished). To confirm the expression of RNAseq only
+sequences, 25 RNAseq transcripts never identified in any other dataset were
+selected and all were successfully amplified by RT-PCR (Figure&#x000a0;<xref ref-type="fig" rid="F8">8</xref>D, Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure
+S5, and Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>).</p><fig id="F8" position="float"><label>Figure 8</label><caption><p><bold>Expression and phylogenetic analyses of the genome-unpredicted
+RNAseq only novel </bold><bold><italic>Hydra </italic></bold><bold>gene families.
+A</bold>) Graph showing the proportion of the sequence covered by
+the ORF among the genome-unpredicted 7&#x02019;103 RNAseq transcripts
+that encode short ORFs (&#x0003c;100 AA). 2&#x02019;209 (31%) transcripts
+encode ORFs that cover &#x0003e;98% of their full length. <bold>B</bold>)
+Nucleotide sequence length of the transcripts analyzed in A: 81 are
+larger than 1&#x02019;000 nt long (red line). The 25 largest contigs
+were tested by RT-PCR and all were successfully amplified (green
+dots). See Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S5.
+<bold>C</bold>) RT-PCR analysis of the expression of 25
+genome-predicted <italic>Hydra</italic> transcripts not confirmed by RNAseq.
+To distinguish between gene and transcript amplification, PCR were
+performed on total RNA treated (+) or not (-) with DNAse (DN) and
+reverse transcribed (RT+) or not (RT-). <bold>D</bold>) The RNAseq only
+genes (i.e. genome-unpredicted), were sorted into three classes
+according to the presence (full dot) or the absence (empty dot) of
+the criteria specified above the first row. The expression of 18
+sequences of class I and 25 sequences of classes II, III and IV was
+tested by RT-PCR.</p></caption><graphic xlink:href="1471-2164-14-204-8"/></fig><p>Beside these short transcripts encoding short ORFs, we also noticed a subset
+of long contigs that encode short ORFs. Indeed we found 81 transcripts that
+extend from 1000 bp up to 3&#x02019;531 bp but encode ORFs shorter than 100
+residues (Figure&#x000a0;<xref ref-type="fig" rid="F8">8</xref>B). We tested the expression of
+the 25 longest of these contigs by RT-PCR and 24 out of the 25 were
+successfully amplified (Figure&#x000a0;<xref ref-type="fig" rid="F8">8</xref>D, and Additional
+file <xref ref-type="supplementary-material" rid="S1">1</xref>: Figure S5 and Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>). These transcripts might correspond to long
+non-coding transcripts (ncRNA) although typical secondary structures found
+in ncRNAs could not be detected (data not shown). However, when these
+sequences were tested using BlastX+, we found that 18 of them hit on several
+locations a unique long protein sequence most often from <italic>Hydra</italic>, but
+also from <italic>Nematostella</italic> or even from bilaterian species (Additional
+file <xref ref-type="supplementary-material" rid="S2">2</xref>). This result suggested that these long
+contigs with short ORFs actually correspond to proteins fragmented by
+numerous mutations leading to stop codons. As these contigs align perfectly
+on the genome, we could exclude errors during the assembly process. We then
+searched systematically for this type of RNAseq only transcripts, i.e. that
+would satisfy both criteria, a perfect match on genomic sequences and no
+good match with genome-predicted transcripts (&#x0003c;95% sequence identity),
+indicating that they were arising from other loci. On the 4'894 RNAseq-only
+with short ORFs that do not span their full length, 3'958 sequences
+perfectly align to the genome (100% identity and no gaps). 767 of those
+align to predicted sequences with less than 95% sequence identity. This
+number of 767 pseudogenes is likely an underestimate given the stringency of
+the criteria used here.</p></sec></sec><sec><title>Genome-predicted genes can be active or silent</title><p>To test the expression of genome-predicted sequences, we selected 25
+genome-predicted transcripts that fulfilled the following criteria: not
+represented in any transcript dataset (<italic>Hydra</italic>-bo,
+<italic>AEP</italic>-<italic>454</italic>, ESTs), but matching a jellyfish ortholog that
+would be expressed among the <italic>Clytia</italic> EST dataset (Additional file
+<xref ref-type="supplementary-material" rid="S4">4</xref>). The RT-PCR experiment was performed in
+conditions that ruled out any genomic contamination, i.e. RNA treated with DNAse
+or not, PCR amplification performed on RNA and on cDNA (Figure&#x000a0;<xref ref-type="fig" rid="F8">8</xref>C). Among the 25 genome-predicted only sequences tested
+that way, we could convincingly amplify 17 of them (Figure&#x000a0;<xref ref-type="fig" rid="F8">8</xref>C), indicating that a large proportion of these genome-predicted
+only sequences are indeed expressed in homeostatic and/or regenerating
+conditions in <italic>Hydra</italic> polyps. But this result also points to the 8/25
+sequences that could not be amplified, and thus are expressed at a very low
+level or not expressed at all in adult, budding or regenerating <italic>Hydra</italic>
+polyps. This result would need confirmation at a larger scale but if confirmed
+would allow screening strategies where genes active in jellyfish and silent in
+<italic>Hydra</italic> could be identified. Such approaches could for example be
+useful to help characterizing genes involved in the aplanulata transition, i.e.
+when hydrozoan embryos lost the planula stage and became direct developpers,
+when hydrozoa polyps lost the potential for budding medusae and thus
+dramatically modified their life cycle.</p></sec></sec><sec sec-type="discussion"><title>Discussion</title><sec><title>A powerful strategy to generate extensive and accurate transcriptomes</title><p>This study describes novel strategies to combine two widely used high-throughput
+sequencing technologies, Illumina and 454 RNAseq, in order to compensate for
+their specific errors and to produce accurate transcriptomes. Here we applied
+these strategies to RNAseq transcripts of the freshwater cnidarian
+<italic>Hydra</italic> resulting from the assembly of 53.6 millions Illumina short
+reads to 1.2 million 454 Titanium longer reads. As each assembly has its own
+specificities, in particular with respect to homopolymer errors, the sequences
+from several datasets were pooled, and the sequences with the longest ORFs among
+nearly identical transcripts were selected. This selection ensured that
+duplicated sequences, either partial or containing frameshifts were discarded
+from the dataset when a longer sequence was present. This study shows that the
+combination of different RNAseq methodologies provides an efficient and
+cost-effective strategy for further characterizing gene diversity in species
+where a finished genome is not available. In particular, homopolymer errors were
+effectively suppressed by our strategy. In turn, in giving priority to Illumina
+over 454 sequences, it is possible that some substitution-type Illumina
+sequencing errors are introduced although Illumina contigs generally exhibit
+lower substitution errors than 454 ones as well [<xref ref-type="bibr" rid="B19">19</xref>].</p><p>The RNA-seq transcriptome we established for the freshwater cnidarian
+<italic>Hydra</italic> fulfills several criteria for high fidelity when compared to
+other published transcriptomes, as evidenced by the different criteria used to
+compare them; namely the total number of transcripts including the presence of a
+large batch of novel transcripts, the length of these transcripts and their
+redundancy. These characteristics will be helpful to study the regulation of
+alternative splicing in developmental and stress contexts [<xref ref-type="bibr" rid="B24">24</xref>]. Finally, we took advantage of the genomic-derived sequences to
+extend and complete the RNAseq transcriptome. We now estimate that the
+<italic>Hydra</italic> transcriptome contains approximately 24&#x02019;450 unique
+genes.</p></sec><sec><title>As novelties, genes encoding evolutionarily-conserved proteins and short ORFs
+in Hydra</title><p>As a result of the comparative analysis we conducted between the genome-predicted
+transcriptomes [<xref ref-type="bibr" rid="B3">3</xref>], the <italic>AEP</italic>-<italic>454</italic> RNAseq transcriptome [<xref ref-type="bibr" rid="B11">11</xref>] and the <italic>Hydra</italic>-bo RNAseq transcriptome reported here, we
+identified 10&#x02019;597 novel sequences in the <italic>Hydra vulgaris</italic> RNAseq
+transcriptome, most of them actually unpredicted but present in genomic contigs,
+and 35.5% found expressed either in the <italic>AEP</italic>-<italic>454</italic> transcriptome
+and/or in ESTs. The RBH analysis of these RNAseq only sequences identified 529
+evolutionarily conserved proteins with at least one ortholog among the other
+tested species. 170 of these sequences show orthology with human proteins
+annotated for molecular and cellular functions that can now be tested in
+<italic>Hydra</italic>. Some protein-coding genes missing in the current version of
+the <italic>Hydra</italic> genome can be explained by its fragmented status, which
+prevents the systematic prediction of the transcriptional units. However, and
+quite surprisingly, a majority of these novel sequences encode short ORFs
+(7&#x02019;103 contain ORFs &#x0003c;100 residues), which could not be predicted. A
+fraction of these sequences possibly correspond to peptide coding units as
+peptides are abundant in <italic>Hydra</italic>[<xref ref-type="bibr" rid="B25">25</xref>], whereas some longer transcripts seem to be expressed as pseudogenes.
+This result is of interest as pseudogenes are known to be submitted to gene
+regulation and to regulate themselves the level of expression of coding genes
+through a variety of mechanisms [<xref ref-type="bibr" rid="B26">26</xref>].</p></sec></sec><sec sec-type="conclusions"><title>Conclusions</title><p>The RNAseq transcriptome produced in this study together with the genome-predicted
+transcriptomes provides a solid reference for further molecular studies using
+<italic>Hydra</italic> as a model system. Within Cnidaria, this <italic>Hydra</italic>
+transcriptome together with the cnidarian transcriptomic and genomic sequences now
+available from <italic>Hydra</italic>[<xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B27">27</xref>], <italic>Hydractinia</italic>[<xref ref-type="bibr" rid="B6">6</xref>], <italic>Clytia</italic>[<xref ref-type="bibr" rid="B7">7</xref>], <italic>Nematostella</italic>[<xref ref-type="bibr" rid="B4">4</xref>] and <italic>Acropora</italic>[<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B8">8</xref>,<xref ref-type="bibr" rid="B9">9</xref>] will help clarify the genetic sorting process that occurred along the
+evolution of medusozoans and anthozoans, and thus provide a clearer picture of the
+genetic equipment of the last common ancestor of cnidarians. Moreover, the classical
+<italic>Hydra</italic> model system is nowadays used in a variety of research topics
+such as regeneration, developmental processes, aging, stem cell biology, innate
+immunity and ecotoxicology. The deep comparison between genome-predicted and RNAseq
+transcriptomes offers new tools for phylogenetic reconstruction and should help
+decipher the gene regulatory networks involved in these processes. This
+econstitution is essential to highlight the outlines of the molecular pathways and
+biological processes at work in tissues of bilaterian ancestors.</p></sec><sec sec-type="methods"><title>Methods</title><sec><title><italic>Hydra</italic> culture and regeneration conditions</title><p><italic>Hydra vulgaris</italic> (<italic>Hv</italic>, Basel strain) were cultured as described
+in [<xref ref-type="bibr" rid="B28">28</xref>] and fed 3x a week with freshly hatched <italic>Artemia</italic>. All animals
+were starved for at least three days before RNA extraction. For 454 sequencing,
+animals were starved for 3 or 6 days depending on the condition
+(Figure&#x000a0;<xref ref-type="fig" rid="F2">2</xref>A). For Illumina sequencing, beside 100
+intact animals, 200 budless animals per condition were bisected either at 80%
+(decapitation) or 50% (mid-gastric bisection) of the body length as indicated in
+Figure&#x000a0;<xref ref-type="fig" rid="F2">2</xref>B. Upper and lower halves were then
+separately collected either between 10 and 20 min or 2 hours after bisection and
+transferred in RNALater (Ambion) prior to RNA extraction.</p></sec><sec><title>Preparation and assembly of the 454 reads</title><p>For 454 sequencing, intact and regenerating <italic>Hydra</italic> were pooled prior to
+RNA extraction (RNAeasy kit, Qiagen). After DNase treatment (NucleoSpin RNA II
+kit, Macherey &#x00026; Nagel), the polyA fraction was selected (Dynabeads
+Oligo(dT)25, Invitrogen) and a normalized random-primed cDNA was prepared and
+sequenced by GATC Biotech (Konstanz). Briefly, first-strand cDNA synthesis was
+primed with a N6 randomized primer (biomers.net), standard 454 adapters were
+ligated to the 5' and 3' ends of the cDNA and the cDNA was finally amplified
+with 10 PCR cycles using the Herculase II (Agilent Technologies) proof reading
+enzyme. Normalization was carried out by performing one cycle of denaturation
+and re-annealing of the cDNA, removal of the double-stranded cDNA by passing the
+mixture over a hydroxylapatite column, and amplification of the single-stranded
+cDNA with 9 PCR cycles. cDNAs in the size range of 600&#x02013;800 bp were eluted
+from a preparative agarose gel and sequenced in one full plate (454 GS FLX
+&#x0201c;Titanium&#x0201d;). Chromatograms from the 454 sequencing (sff files) were
+extracted using the sff_extract script (available as part of seq_crumbs at
+<ext-link ext-link-type="uri" xlink:href="http://bioinf.comav.upv.es/">http://bioinf.comav.upv.es/</ext-link>). Remaining adapters and
+trans-spliced leaders were removed using cross_match (Green,
+<ext-link ext-link-type="uri" xlink:href="http://www.phrap.org">http://www.phrap.org</ext-link>), SnowWhite [<xref ref-type="bibr" rid="B29">29</xref>,<xref ref-type="bibr" rid="B30">30</xref>] and exact matches with custom perl scripts. These steps yielded
+1&#x02019;062&#x02019;595 reads with an average size of 295 nt and a mode estimated
+at 330 nt. The full collection of raw 454 reads is available under the study
+number ERP001719 (sample accession ERS163510) from the European Nucleotide
+Archive (ENA).</p></sec><sec><title>Preparation and <italic>de</italic>-<italic>novo</italic> assembly of the Illumina reads</title><p>For the Illumina RNAseq, nine distinct cDNAs were prepared from regenerating and
+intact <italic>Hydra</italic>, RNAs were extracted using the QuickPrep Micro mRNA
+Purification Kit (GE Healthcare) and the polyA mRNA fraction was enriched by
+performing two rounds of Dynabeads (Invitrogen) polyA selection. The depletion
+of ribosomal RNA and the overall quality of each fraction was assessed on
+Bioanalyzer (Agilent). The libraries were prepared by Fasteris SA according to
+Illumina&#x02019;s instructions for dir-mRNAseq and mRNAseq protocols. The 3'
+small RNA adapter was standard Illumina adapter whereas a barcode was inserted
+in the 5<sup>&#x02032;</sup> small RNA adapter. The sequencing was performed on a
+Genome Analyzer II machine (3 lanes, 76 cycles, 76 nt length including a
+4&#x02013;5 letter barcode). Demultiplexed Illumina reads are available under the
+study number ERP001719 (sample accessions ERS163501-ERS163509 and
+ERS163511-ERS163513) from the European Nucleotide Archive (ENA).</p><p>The base calling that was performed on the Illumina sequencing images using Ibis [<xref ref-type="bibr" rid="B31">31</xref>] yielded 64&#x02019;433&#x02019;175 reads of 76 bp. These reads were then
+processed prior to assemblies as we removed i) the first 5 bp of each read,
+corresponding to barcodes, ii) the reads that exactly matched the 12 first bp of
+the Illumina 3&#x02019; adapters (not found in any 454 read, thus probably not
+represented in the <italic>Hydra</italic> transcriptome) and the 3' end of these reads.
+Then we also removed non-exact matches of adapters by using the -5 and -adapter
+options of the Novoalign software (http://www.novocraft.com). Finally only reads
+&#x02265;30bp were kept. After manual inspection, homo-polymers longer than 5
+consecutive nucleotides located at 3&#x02019; ends were removed. Moreover, reads
+containing more than 90% of bases with phred quality scores of 5 or less were
+discarded using the fastq_quality_filter tool
+(<ext-link ext-link-type="uri" xlink:href="http://hannonlab.cshl.edu/fastx_toolkit/">http://hannonlab.cshl.edu/fastx_toolkit/</ext-link>). A total of
+53&#x02019;599&#x02019;364 (83%) Illumina reads survived these preliminary cleaning
+steps.</p><p>The Illumina reads were then assembled using the Velvet assembler v1.0.18 [<xref ref-type="bibr" rid="B32">32</xref>] followed by the Oases transcriptome wrapper v0.1.18 [<xref ref-type="bibr" rid="B33">33</xref>]. In total 17 independent assemblies with k-mers from 33 to 65 (with a
+stepsize of 2) were performed in parallel and pooled together, yielding
+455&#x02019;142 Illumina contigs (Figure&#x000a0;<xref ref-type="fig" rid="F3">3</xref>A). The edges
+of these contigs were thoroughly cleaned for remaining adapter and trans-spliced
+leaders sequences by using SeqClean (http://sourceforge.net/projects/seqclean/)
+followed by removing all edges having an exact TAAG match within their first 15
+bp or the reverse complement CTTA within the last 15 bp as these motifs are very
+common hallmarks of trans-spliced leaders [<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B35">35</xref>].</p></sec><sec><title><italic>De</italic>-<italic>novo</italic> (<bold><italic>dn</italic></bold>) hybrid assemblies of Illumina contigs and 454 reads</title><p>Two independent assemblies were performed one using Mira 3.2.1.15 dev [<xref ref-type="bibr" rid="B36">36</xref>] (assembly called Mira-<italic>dn</italic>), and another using Newbler v2.6 [<xref ref-type="bibr" rid="B18">18</xref>] (Newbler-<italic>dn</italic> assembly), both requesting 50 bp as the minimum
+overlap parameter and 95% as the minimum identity (Figure&#x000a0;<xref ref-type="fig" rid="F3">3</xref>A). Prior to the hybrid assemblies, Illumina contigs generated by
+Velvet/Oases were thoroughly cleaned (see above) and were manipulated as
+follows: 1) Illumina contigs were duplicated, and one bp was removed to the
+front of each duplicated sequence so as not to produce exact duplicates. The
+FASTA headers of the duplicates were slightly modified; 2) given the read size
+limit of the Newbler assembly software (1999 nt as a maximum sequence length for
+input), longer Illumina contigs were chopped to reach a maximum size of 1999 nt
+with 1899 nt overlaps (in a manner similar to described in [<xref ref-type="bibr" rid="B20">20</xref>] 3) as the Velvet/Oases assembler does not produce quality files, an
+artificial quality file was then generated for the contigs, attributing strong
+phred quality scores of 40 to internal bases and weaker scores of 10 to 25 bp
+edges as edges are more susceptible to contain errors. These combined steps
+caused the number of Illumina contigs to increase from 455&#x02019;142 to
+1&#x02019;067&#x02019;061 and this set was used as input for both Mira and Newbler
+<italic>de</italic>-<italic>novo</italic> assemblies.</p><p>For Mira-<italic>dn</italic>, cleaned 454 reads were input along with Illumina contigs
+and quality file; for Newbler-<italic>dn</italic> chromatogram files were input directly
+and a fasta file along with the prepared Illumina contigs and qualities files.
+In addition, a file containing all adapters and known trans-splice leaders was
+input as trimming file (-vt option). The outputs of these two assemblies were
+then joined using a second round of Mira assembly with similar parameters
+(meta-<italic>dn</italic>). Occasionally, meta-<italic>dn</italic> contained longer
+sequences than the two original dataset. To avoid unnecessary redundancy, the
+longest deduced ORFs of a given RNA were selected from the different sets.</p></sec><sec><title>Genome-assisted (ga) assemblies</title><p>The ga assembly consisted first on the mapping of extracted and cleaned 454 reads
+to the most complete version of the <italic>Hydra</italic> genome, i.e. the RP genome
+assembly (JGI) using the PASA genome annotation tool version r09.01.201 [<xref ref-type="bibr" rid="B37">37</xref>-<xref ref-type="bibr" rid="B39">39</xref>] with a minimum fraction of the read aligned to a single location of
+50% and more than 93% identity (Figure&#x000a0;<xref ref-type="fig" rid="F3">3</xref>B). Overall,
+88% of the reads were mapped and validated by PASA against this genome. Illumina
+reads were then mapped to the genome using TopHat 1.0.1 [<xref ref-type="bibr" rid="B40">40</xref>] with default options. The genomic hits retrieved by the TopHat mapper
+(collected in the BAM file) were input to cufflinks [<xref ref-type="bibr" rid="B21">21</xref>] together with the gene transfer format file (.gtf) produced by PASA
+(as a gtf guide, -g option) and resulted in a single gtf file incorporating
+information from both the PASA (454 reads) and the TopHat (Illumina reads)
+processes. The RSEM package [<xref ref-type="bibr" rid="B41">41</xref>] was finally used to extract sequences based on the genome coordinates
+output by cufflinks. Similarly to the <italic>de-novo</italic> assembly process, a
+second round of assembly was performed using Mira (see above) with this dataset
+(meta-ga assembly) and the longest open reading frames (ORFs) were retrieved for
+each sequence.</p></sec><sec><title>Redundancy removal</title><p>To keep only the longest unique ORFs, the meta-<italic>dn</italic> and meta-gn sequences
+were 6-frame translated and the longest ORF of each sequence was selected.
+Sequences shorter than 50 amino acids were not further considered and the 25
+C-terminus of each sequence was trimmed, as the nonsense polypeptide translated
+after a frame-shift is on average 15 residues long [<xref ref-type="bibr" rid="B42">42</xref>]. The proteins sequences were then clustered together using a global
+identity threshold of 95% and a gap penalty of 20 using usearch [<xref ref-type="bibr" rid="B43">43</xref>] to retrieve the longest sequence of each cluster. Remaining sequences
+were aligned on themselves using the Basic Local Alignment Search Tool (Blast) [<xref ref-type="bibr" rid="B44">44</xref>] without using the low complexity filter. The following procedure was
+used to characterize and discard the sequences (matches) similar but shorter
+than the query i) alignments smaller than 25 aa and self-reported matches were
+ignored, ii) the query needed to be bigger than the match, iii) the pairwise
+identity of the best alignment block per match needed to be &#x0003e;95%, iv) there
+were no gaps in the alignment (to retain splice variants), v) the alignment
+should span at least 95% of the match, vi) no more than 100 aa from the match
+were unmatched by the query. Untruncated versions of remaining sequences were
+retrieved (i.e. containing the 25aa that were removed at the beginning of the
+procedure).</p></sec><sec><title>Removal of known contaminants in the RNAseq only and predicted-only
+datasets</title><p>To confirm the <italic>Hydra</italic> origin of the 10&#x02019;741 genome-unpredicted
+&#x0201c;RNAseq only&#x0201d; and the 11&#x02019;582 genome-predicted only sequences,
+we tested these sequences sequentially in successive BlastN+ analyses, first
+against the sequences of common <italic>Hydra</italic> contaminants (<italic>Artemia</italic>,
+<italic>Curvibacter</italic>), then against <italic>Hydra</italic> genomes. The sequences
+found in one database were not realigned to the next database. Using this
+method, we removed from the 10&#x02019;741 RNAseq only sequences, 144 contigs not
+attributed to <italic>Hydra</italic>, composed of 114 contigs of very low complexity
+(i.e. stretches of repetitive elements), 21 transcripts corresponding to known
+<italic>Artemia franciscana</italic> sequences (<italic>Hydra</italic> diet in the lab), and
+nine others matching the genome of the &#x003b2;-proteobacteria
+<italic>Curvibacter</italic>, a known <italic>Hydra</italic> symbiont. Concerning the
+11&#x02019;582 genome-predicted only sequences, we removed 312 sequences
+considered as contaminants, 247 from <italic>Curvibacter</italic>, and 65 as
+low-complexity sequences. The resulting 10&#x02019;597 RNAseq only and
+11&#x02019;270 predicted-only sequences were used for further analyses.</p></sec><sec><title>Sequence annotation</title><p>The <italic>Hydra</italic>-bo, <italic>AEP</italic>-<italic>454</italic>, pred-CA, and pred-RP
+transcriptomes were aligned by BlastX+ with an E-value threshold of
+10<sup>-10</sup> to the full Swissprot and the cnidaria-UniProt databases
+(releases 2013_01). Annotations of domains and protein families were performed
+on deduced protein sequences with Pfam 26.0 [<xref ref-type="bibr" rid="B45">45</xref>] and Panther 8.0 [<xref ref-type="bibr" rid="B46">46</xref>]. Detailed results are presented in Additional file <xref ref-type="supplementary-material" rid="S2">2</xref>.</p></sec><sec><title>Production of a comprehensive <italic>Hydra</italic> transcriptome containing RNAseq
+and genome-predicted sequences (<italic>Hydra</italic>-meta dataset)</title><p>Transcripts arising from the same locus (and overlapping) were merged together to
+form one single transcript. The two distinct <italic>Hydra magnipapillata</italic>
+genome assemblies currently available [<xref ref-type="bibr" rid="B3">3</xref>], i.e. the Celera Assembler assembly (CA, GenBank accession number
+ABRM00000000) and the Ringer-Phrap assembly (RP, GenBank accession number
+ACZU00000000) are associated with two predicted sets of transcripts referred to
+as &#x0201c;pred-CA&#x0201d; and &#x0201c;pred-RP&#x0201d; here: the gene model set
+associated with the CA genome contains 17&#x02019;741 transcripts and the
+RP-derived set 32&#x02019;338 transcripts. We produced a non-redundant set by
+pooling the RNA sequences of the <italic>Hydra</italic>-bo (48&#x02019;909 sequences),
+pred-CA (17&#x02019;741), and pred-RP (32&#x02019;338) datasets, aligned them to the
+<italic>Hydra</italic> genomes by PASA. Sequences were first aligned to the RP
+genome, then, the sequences not suitably aligned were realigned onto the CA
+genome. Sequences not properly aligning to either genome were also retrieved as
+they might represent true transcripts originating from currently unavailable
+portions of the genome. All sequences represented an intermediate dataset of
+70&#x02019;368 transcripts. Overall, 59&#x02019;316 sequences were validated on one
+or the other genome (arising from 48&#x02019;217 different loci), 10&#x02019;208
+were found in the genome but failed alignment validation due to the PASA options
+used (see above), and 844 sequences did not align to the genome at all. The
+longest ORF of each transcript was extracted, and a final round of global
+clustering was performed on the protein sequences using usearch with a minimum
+similarity threshold of 95% and strong gap penalties to retain most splice
+variants (i.e. using the options -id 0.95 -iddef 2 -gapopen 20). The final set
+contains 57&#x02019;611 protein sequences (Figure&#x000a0;<xref ref-type="fig" rid="F4">4</xref>A).
+The characteristics of the datasets are detailed in Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>: Table S1. The <italic>Hydra</italic>-bo assembly is deposited
+at the European Nucleotide Archive (ENA) under the project number PRJEB445 and
+with accession numbers from HAAC01000001 - HAAC01045269.</p></sec><sec><title>Computation of the Redundancy Index (RI)</title><p>Megablast was parameterized such as only matches with more than 98% identity and
+an E-value &#x02264;10<sup>-30</sup>, were retrieved. De facto, a limit of maximum
+250 alignments per query is specified by the default options. Importantly, using
+coding sequences rather than full length sequences strongly reduced biases
+caused by vector contaminants, repetitive sequences or post-translational
+modification such as the addition of trans-splice leaders. In turn, the soft
+filtering allows masking low complexity stretches during the search phase, while
+using them in the scoring phase. Without the later, too many hits would fall
+below the 98% identity threshold due to masked (low complexity) stretches
+counted as mismatches.</p></sec><sec><title>Comparison of the sizes of the coding lengths to the sizes of the coding
+sequences in the pred-CA transcriptome</title><p>Using megablast, the pred-CA coding transcripts were aligned to the each of the
+other coding transcriptomes using a threshold of 98% sequence identity without
+low complexity filter. The first hit was considered as representing the same
+coding sequence than the query if the length of the alignment exceeded 100 nt.
+The length of the tested contigs and corresponding pred-CA contigs were compared
+using custom Perl scripts. Similarly, each pred-CA sequence was considered has
+having no representative in the tested dataset for alignment spanning less than
+100nt or having less than 98% identity (Figure&#x000a0;<xref ref-type="fig" rid="F5">5</xref>B,
+top numbers).</p></sec><sec><title>Saturation analysis</title><p>Fractions of the total number of Illumina reads (53&#x02019;599&#x02019;364 reads)
+ranging from 1% to 100% were selected by generating the required amount of
+random numbers lying between 1 and 53&#x02019;599&#x02019;364 using R (sampling
+without replacement). Corresponding reads were then fetched from the original
+dataset using a custom Perl script. Subsets of reads were realigned to the
+<italic>Hydra</italic>-meta dataset using Bowtie 0.12.09 [<xref ref-type="bibr" rid="B47">47</xref>] with default options.</p></sec><sec><title>Analysis of Reciprocal Best Hits (RBHs) and sources of proteomes</title><p>The <italic>Hydra</italic> proteomes deduced from predicted-only and RNAseq only
+sequences were used as input for BlastP+ using a E-value threshold of
+10<sup>-8</sup>, with soft masking as suggested by [<xref ref-type="bibr" rid="B23">23</xref>]. Relations retained as Reciprocal Best Hit (RBHs) fulfilled two
+criteria: 1) best score between a given query and the different hits, 2) best
+score between a given hit and the different queries. RBH analyses were performed
+on a reference dataset containing representative proteomes selected for their
+completeness and limited redundancy. Proteomes were obtained from UniProtKB [<xref ref-type="bibr" rid="B48">48</xref>] for <italic>Branchiostoma floridae</italic> (<italic>Brafl</italic>),
+<italic>Caenorhabditis elegans</italic> (<italic>Caeel</italic>), <italic>Capsaspora
+owczarzaki</italic> (<italic>Capow</italic>), <italic>Drosophila melanogaster</italic>
+(<italic>Drome</italic>), <italic>Gallus gallus</italic> (<italic>Galga</italic>), <italic>Macaca
+mulatta</italic> (<italic>Macmu</italic>), <italic>Monosiga brevicollis</italic>
+(<italic>Monbr</italic>), <italic>Nematostella vectensis</italic> (<italic>Nemve</italic>),
+<italic>Saccharomyces cerevisiae</italic> (<italic>Sacce</italic>), <italic>Salpingoeca
+rosetta</italic> (<italic>Salro</italic>), <italic>Tribolium castaneum</italic>
+(<italic>Trica</italic>), <italic>Trichinella spiralis</italic> (<italic>Trisp</italic>), <italic>Xenopus
+tropicalis</italic> (<italic>Xentr</italic>); from Swissprot for <italic>Homo sapiens</italic>
+(release 2011_07, 20&#x02019;231 proteins); from the DOE Joint Genome Institute [<xref ref-type="bibr" rid="B49">49</xref>] for <italic>Amphimedon queenslandica</italic> v1.0 (<italic>Ampqu</italic>),
+<italic>Capitella teleta</italic> v1.0 (<italic>Capte</italic>), <italic>Ciona intestinalis</italic>
+v2.0 (<italic>Cioin</italic>), <italic>Saccoglossus kowalevskii</italic> v1.3
+(<italic>Sacko</italic>-<italic>JGI</italic>); from the NCBI Reference Sequence collection
+(RefSeq [<xref ref-type="bibr" rid="B50">50</xref>]) for <italic>Saccoglossus kowalevskii</italic> (Sk-RefSeq), release 53; from
+the Okinawa Institute of Science and Technology (OIST) for <italic>Acropora
+digitifera</italic> (<italic>Acrdi</italic>) <italic>v1</italic>.<italic>0</italic>, as described in [<xref ref-type="bibr" rid="B5">5</xref>]. Finally the <italic>Clytia haemispherica</italic> (<italic>Clyhe</italic>) dataset
+was obtained by merging all <italic>Clytia</italic> EST sequences available on Compagen [<xref ref-type="bibr" rid="B27">27</xref>] and Genebank (2011/11/01); after conceptual translation, the
+redundant sequences where removed using the usearch software [<xref ref-type="bibr" rid="B43">43</xref>].</p></sec><sec><title>RT-PCR amplification of RNAseq only and genome-predicted only transcripts</title><p>RNA was extracted using the RNeasy mini kit (Qiagen, #74106) using a mixture of
+180 animals from the <italic>Hydra vulgaris</italic> Basel strain (budding, regeneration
+time points between 20 minutes and 32 hours, animal starved during one week).
+DNase digestion was performed using a RNAse-free DNAse set (Qiagen, #79254) and
+RNA was precipitated. After resuspension, reverse transcription was performed
+using the Superscript III reverse transcriptase (Life Technologies, #18080044)
+with random hexamers. All PCRs were performed during 40 cycles using the TopTaq
+polymerase (Qiagen, #200201). All primer sequences are available in the
+Additional file <xref ref-type="supplementary-material" rid="S4">4</xref>. For detecting the
+<italic>Hydra</italic>-human orthologs a similar procedure was applied except that no
+DNAse treatment was performed and sequences were amplified for 34 cycles.</p></sec><sec><title>Phylogenetic analyses</title><p>For each protein of interest, sets of similar sequences were retrieved after
+BlastP+ searches performed on NCBI and Uniprot databases. Phylogenetic analyses
+were performed on sequences aligned with Muscle [<xref ref-type="bibr" rid="B51">51</xref>] and trees were obtained with the PhyML 3.0 program [<xref ref-type="bibr" rid="B52">52</xref>] with the following options: LG model of amino acids substitution,
+discrete gamma model, number of categories: 8, gamma shape parameter: 1, BioNJ
+as initial tree, tree topology fixed, 500 bootstraps. The 5 letters species code
+used here is from Uniprot. The fasta files are available on request.</p></sec></sec><sec><title>Competing interests</title><p> BOth authors declare that they have no competing interest.</p></sec><sec><title>Authors&#x02019; contributions</title><p>BG and YW designed the experiment, analyzed the results, and wrote the manuscript; YW
+performed the transcriptome assembly. Both authors read and approved the final
+manuscript.</p></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="S1"><caption><title>Additional file 1</title><p>Contains 5 figures and 1 table.</p></caption><media xlink:href="1471-2164-14-204-S1.pdf"><caption><p>Click here for file</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S2"><caption><title>Additional file 2</title><p>Tables containing gene families characterized by BlastX+, PANTHER and
+PFAM in the various Hydra transcriptomes (Excel file).</p></caption><media xlink:href="1471-2164-14-204-S2.xlsx"><caption><p>Click here for file</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S3"><caption><title>Additional file 3</title><p><bold>Tables containing the primers and the criteria used to test the
+expression of a subset of </bold><bold>
+<italic>Hydra</italic>
+</bold><bold>-bo RNA-seq only and predicted-only genes with a summary of the
+results (Excel file).</bold></p></caption><media xlink:href="1471-2164-14-204-S3.xlsx"><caption><p>Click here for file</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="S4"><caption><title>Additional file 4</title><p>Table containing the sequences and annotations of the 170 novel
+evolutionarily-conserved genes identified in Hydr-bo but not
+predicted in the genome (Excel file).</p></caption><media xlink:href="1471-2164-14-204-S4.xlsx"><caption><p>Click here for file</p></caption></media></supplementary-material></sec></body><back><sec><title>Acknowledgements</title><p>The authors thank Wanda Buzgariu for making available unpublished data, Joana
+Cruz for technical help, Juan Montoya-Burgos, Sven Bergmann, Patrick Descombes,
+Christian Iseli and Laurent Farinelli (Fasteris SA) for helpful advices,
+Patricia Bossert for reading the final manuscript. The computations were
+performed at the Vital-IT (<ext-link ext-link-type="uri" xlink:href="http://www.vital-it.ch">http://www.vital-it.ch</ext-link>) Center for
+high-performance computing of the SIB Swiss Institute of Bioinformatics. This
+work was supported by the Canton of Geneva, the Swiss National Foundation, the
+NCCR &#x0201c;Frontiers in Genetics&#x0201d; and the G. &#x00026; A. Claraz
+donation.</p></sec><ref-list><ref id="B1"><mixed-citation publication-type="journal"><name><surname>Philippe</surname><given-names>H</given-names></name><name><surname>Derelle</surname><given-names>R</given-names></name><name><surname>Lopez</surname><given-names>P</given-names></name><name><surname>Pick</surname><given-names>K</given-names></name><name><surname>Borchiellini</surname><given-names>C</given-names></name><name><surname>Boury-Esnault</surname><given-names>N</given-names></name><name><surname>Vacelet</surname><given-names>J</given-names></name><name><surname>Renard</surname><given-names>E</given-names></name><name><surname>Houliston</surname><given-names>E</given-names></name><name><surname>Queinnec</surname><given-names>E</given-names></name><article-title>Phylogenomics revives traditional views on deep animal relationships</article-title><source>Curr Biol</source><year>2009</year><volume>19</volume><issue>8</issue><fpage>706</fpage><lpage>712</lpage><pub-id pub-id-type="doi">10.1016/j.cub.2009.02.052</pub-id><?supplied-pmid 19345102?><pub-id pub-id-type="pmid">19345102</pub-id></mixed-citation></ref><ref id="B2"><mixed-citation publication-type="journal"><name><surname>Galliot</surname><given-names>B</given-names></name><article-title>Hydra, a fruitful model system for 270 years</article-title><source>Int J Dev Biol</source><year>2012</year><volume>56</volume><issue>6-7-8</issue><fpage>411</fpage><lpage>423</lpage><pub-id pub-id-type="doi">10.1387/ijdb.120086bg</pub-id><?supplied-pmid 22855328?><pub-id pub-id-type="pmid">22855328</pub-id></mixed-citation></ref><ref id="B3"><mixed-citation publication-type="journal"><name><surname>Chapman</surname><given-names>JA</given-names></name><name><surname>Kirkness</surname><given-names>EF</given-names></name><name><surname>Simakov</surname><given-names>O</given-names></name><name><surname>Hampson</surname><given-names>SE</given-names></name><name><surname>Mitros</surname><given-names>T</given-names></name><name><surname>Weinmaier</surname><given-names>T</given-names></name><name><surname>Rattei</surname><given-names>T</given-names></name><name><surname>Balasubramanian</surname><given-names>PG</given-names></name><name><surname>Borman</surname><given-names>J</given-names></name><name><surname>Busam</surname><given-names>D</given-names></name><article-title>The dynamic genome of Hydra</article-title><source>Nature</source><year>2010</year><volume>464</volume><issue>7288</issue><fpage>592</fpage><lpage>596</lpage><pub-id pub-id-type="doi">10.1038/nature08830</pub-id><?supplied-pmid 20228792?><pub-id pub-id-type="pmid">20228792</pub-id></mixed-citation></ref><ref id="B4"><mixed-citation publication-type="journal"><name><surname>Putnam</surname><given-names>NH</given-names></name><name><surname>Srivastava</surname><given-names>M</given-names></name><name><surname>Hellsten</surname><given-names>U</given-names></name><name><surname>Dirks</surname><given-names>B</given-names></name><name><surname>Chapman</surname><given-names>J</given-names></name><name><surname>Salamov</surname><given-names>A</given-names></name><name><surname>Terry</surname><given-names>A</given-names></name><name><surname>Shapiro</surname><given-names>H</given-names></name><name><surname>Lindquist</surname><given-names>E</given-names></name><name><surname>Kapitonov</surname><given-names>VV</given-names></name><article-title>Sea anemone genome reveals ancestral eumetazoan gene repertoire and genomic
+organization</article-title><source>Science</source><year>2007</year><volume>317</volume><issue>5834</issue><fpage>86</fpage><lpage>94</lpage><pub-id pub-id-type="doi">10.1126/science.1139158</pub-id><?supplied-pmid 17615350?><pub-id pub-id-type="pmid">17615350</pub-id></mixed-citation></ref><ref id="B5"><mixed-citation publication-type="journal"><name><surname>Shinzato</surname><given-names>C</given-names></name><name><surname>Shoguchi</surname><given-names>E</given-names></name><name><surname>Kawashima</surname><given-names>T</given-names></name><name><surname>Hamada</surname><given-names>M</given-names></name><name><surname>Hisata</surname><given-names>K</given-names></name><name><surname>Tanaka</surname><given-names>M</given-names></name><name><surname>Fujie</surname><given-names>M</given-names></name><name><surname>Fujiwara</surname><given-names>M</given-names></name><name><surname>Koyanagi</surname><given-names>R</given-names></name><name><surname>Ikuta</surname><given-names>T</given-names></name><article-title>Using the Acropora digitifera genome to understand coral responses to
+environmental change</article-title><source>Nature</source><year>2011</year><volume>476</volume><issue>7360</issue><fpage>320</fpage><lpage>323</lpage><pub-id pub-id-type="doi">10.1038/nature10249</pub-id><?supplied-pmid 21785439?><pub-id pub-id-type="pmid">21785439</pub-id></mixed-citation></ref><ref id="B6"><mixed-citation publication-type="journal"><name><surname>Soza-Ried</surname><given-names>J</given-names></name><name><surname>Hotz-Wagenblatt</surname><given-names>A</given-names></name><name><surname>Glatting</surname><given-names>KH</given-names></name><name><surname>del Val</surname><given-names>C</given-names></name><name><surname>Fellenberg</surname><given-names>K</given-names></name><name><surname>Bode</surname><given-names>HR</given-names></name><name><surname>Frank</surname><given-names>U</given-names></name><name><surname>Hoheisel</surname><given-names>JD</given-names></name><name><surname>Frohme</surname><given-names>M</given-names></name><article-title>The transcriptome of the colonial marine hydroid Hydractinia echinata</article-title><source>FEBS J</source><year>2010</year><volume>277</volume><issue>1</issue><fpage>197</fpage><lpage>209</lpage><pub-id pub-id-type="doi">10.1111/j.1742-4658.2009.07474.x</pub-id><?supplied-pmid 19961538?><pub-id pub-id-type="pmid">19961538</pub-id></mixed-citation></ref><ref id="B7"><mixed-citation publication-type="journal"><name><surname>Foret</surname><given-names>S</given-names></name><name><surname>Knack</surname><given-names>B</given-names></name><name><surname>Houliston</surname><given-names>E</given-names></name><name><surname>Momose</surname><given-names>T</given-names></name><name><surname>Manuel</surname><given-names>M</given-names></name><name><surname>Queinnec</surname><given-names>E</given-names></name><name><surname>Hayward</surname><given-names>DC</given-names></name><name><surname>Ball</surname><given-names>EE</given-names></name><name><surname>Miller</surname><given-names>DJ</given-names></name><article-title>New tricks with old genes: the genetic bases of novel cnidarian traits</article-title><source>Trends Genet</source><year>2010</year><volume>26</volume><issue>4</issue><fpage>154</fpage><lpage>158</lpage><pub-id pub-id-type="doi">10.1016/j.tig.2010.01.003</pub-id><?supplied-pmid 20129693?><pub-id pub-id-type="pmid">20129693</pub-id></mixed-citation></ref><ref id="B8"><mixed-citation publication-type="journal"><name><surname>Meyer</surname><given-names>E</given-names></name><name><surname>Aglyamova</surname><given-names>GV</given-names></name><name><surname>Wang</surname><given-names>S</given-names></name><name><surname>Buchanan-Carter</surname><given-names>J</given-names></name><name><surname>Abrego</surname><given-names>D</given-names></name><name><surname>Colbourne</surname><given-names>JK</given-names></name><name><surname>Willis</surname><given-names>BL</given-names></name><name><surname>Matz</surname><given-names>MV</given-names></name><article-title>Sequencing and de novo analysis of a coral larval transcriptome using 454
+GSFlx</article-title><source>BMC Genomics</source><year>2009</year><volume>10</volume><fpage>219</fpage><pub-id pub-id-type="doi">10.1186/1471-2164-10-219</pub-id><?supplied-pmid 19435504?><pub-id pub-id-type="pmid">19435504</pub-id></mixed-citation></ref><ref id="B9"><mixed-citation publication-type="journal"><name><surname>Moya</surname><given-names>A</given-names></name><name><surname>Huisman</surname><given-names>L</given-names></name><name><surname>Ball</surname><given-names>EE</given-names></name><name><surname>Hayward</surname><given-names>DC</given-names></name><name><surname>Grasso</surname><given-names>LC</given-names></name><name><surname>Chua</surname><given-names>CM</given-names></name><name><surname>Woo</surname><given-names>HN</given-names></name><name><surname>Gattuso</surname><given-names>JP</given-names></name><name><surname>Foret</surname><given-names>S</given-names></name><name><surname>Miller</surname><given-names>DJ</given-names></name><article-title>Whole transcriptome analysis of the coral Acropora millepora reveals complex
+responses to CO(2)-driven acidification during the initiation of
+calcification</article-title><source>Mol Ecol</source><year>2012</year><volume>21</volume><issue>10</issue><fpage>2440</fpage><lpage>2454</lpage><pub-id pub-id-type="doi">10.1111/j.1365-294X.2012.05554.x</pub-id><?supplied-pmid 22490231?><pub-id pub-id-type="pmid">22490231</pub-id></mixed-citation></ref><ref id="B10"><mixed-citation publication-type="journal"><name><surname>Hwang</surname><given-names>JS</given-names></name><name><surname>Ohyanagi</surname><given-names>H</given-names></name><name><surname>Hayakawa</surname><given-names>S</given-names></name><name><surname>Osato</surname><given-names>N</given-names></name><name><surname>Nishimiya-Fujisawa</surname><given-names>C</given-names></name><name><surname>Ikeo</surname><given-names>K</given-names></name><name><surname>David</surname><given-names>CN</given-names></name><name><surname>Fujisawa</surname><given-names>T</given-names></name><name><surname>Gojobori</surname><given-names>T</given-names></name><article-title>The evolutionary emergence of cell type-specific genes inferred from the gene
+expression analysis of Hydra</article-title><source>Proc Natl Acad Sci U S A</source><year>2007</year><volume>104</volume><issue>37</issue><fpage>14735</fpage><lpage>14740</lpage><pub-id pub-id-type="doi">10.1073/pnas.0703331104</pub-id><?supplied-pmid 17766437?><pub-id pub-id-type="pmid">17766437</pub-id></mixed-citation></ref><ref id="B11"><mixed-citation publication-type="journal"><name><surname>Hemmrich</surname><given-names>G</given-names></name><name><surname>Khalturin</surname><given-names>K</given-names></name><name><surname>Boehm</surname><given-names>AM</given-names></name><name><surname>Puchert</surname><given-names>M</given-names></name><name><surname>Anton-Erxleben</surname><given-names>F</given-names></name><name><surname>Wittlieb</surname><given-names>J</given-names></name><name><surname>Klostermeier</surname><given-names>UC</given-names></name><name><surname>Rosenstiel</surname><given-names>P</given-names></name><name><surname>Oberg</surname><given-names>HH</given-names></name><name><surname>Domazet-Loso</surname><given-names>T</given-names></name><article-title>Molecular signatures of the three stem cell lineages in hydra and the
+emergence of stem cell function at the base of multicellularity</article-title><source>Mol Biol Evol</source><year>2012</year><volume>29</volume><issue>11</issue><fpage>3267</fpage><lpage>3280</lpage><pub-id pub-id-type="doi">10.1093/molbev/mss134</pub-id><?supplied-pmid 22595987?><pub-id pub-id-type="pmid">22595987</pub-id></mixed-citation></ref><ref id="B12"><mixed-citation publication-type="journal"><name><surname>Shalchian-Tabrizi</surname><given-names>K</given-names></name><name><surname>Minge</surname><given-names>MA</given-names></name><name><surname>Espelund</surname><given-names>M</given-names></name><name><surname>Orr</surname><given-names>R</given-names></name><name><surname>Ruden</surname><given-names>T</given-names></name><name><surname>Jakobsen</surname><given-names>KS</given-names></name><name><surname>Cavalier-Smith</surname><given-names>T</given-names></name><article-title>Multigene phylogeny of choanozoa and the origin of animals</article-title><source>PLoS One</source><year>2008</year><volume>3</volume><issue>5</issue><fpage>e2098</fpage><pub-id pub-id-type="doi">10.1371/journal.pone.0002098</pub-id><?supplied-pmid 18461162?><pub-id pub-id-type="pmid">18461162</pub-id></mixed-citation></ref><ref id="B13"><mixed-citation publication-type="journal"><name><surname>Swalla</surname><given-names>BJ</given-names></name><name><surname>Smith</surname><given-names>AB</given-names></name><article-title>Deciphering deuterostome phylogeny: molecular, morphological and
+palaeontological perspectives</article-title><source>Philos Trans R Soc Lond B Biol Sci</source><year>2008</year><volume>363</volume><issue>1496</issue><fpage>1557</fpage><lpage>1568</lpage><pub-id pub-id-type="doi">10.1098/rstb.2007.2246</pub-id><?supplied-pmid 18192178?><pub-id pub-id-type="pmid">18192178</pub-id></mixed-citation></ref><ref id="B14"><mixed-citation publication-type="journal"><name><surname>Peterson</surname><given-names>KJ</given-names></name><name><surname>Cotton</surname><given-names>JA</given-names></name><name><surname>Gehling</surname><given-names>JG</given-names></name><name><surname>Pisani</surname><given-names>D</given-names></name><article-title>The Ediacaran emergence of bilaterians: congruence between the genetic and
+the geological fossil records</article-title><source>Philos Trans R Soc Lond B Biol Sci</source><year>2008</year><volume>363</volume><issue>1496</issue><fpage>1435</fpage><lpage>1443</lpage><pub-id pub-id-type="doi">10.1098/rstb.2007.2233</pub-id><?supplied-pmid 18192191?><pub-id pub-id-type="pmid">18192191</pub-id></mixed-citation></ref><ref id="B15"><mixed-citation publication-type="journal"><name><surname>Kawaida</surname><given-names>H</given-names></name><name><surname>Shimizu</surname><given-names>H</given-names></name><name><surname>Fujisawa</surname><given-names>T</given-names></name><name><surname>Tachida</surname><given-names>H</given-names></name><name><surname>Kobayakawa</surname><given-names>Y</given-names></name><article-title>Molecular phylogenetic study in genus Hydra</article-title><source>Gene</source><year>2010</year><volume>468</volume><issue>1&#x02013;2</issue><fpage>30</fpage><lpage>40</lpage><?supplied-pmid 20708072?><pub-id pub-id-type="pmid">20708072</pub-id></mixed-citation></ref><ref id="B16"><mixed-citation publication-type="journal"><name><surname>Martinez</surname><given-names>DE</given-names></name><name><surname>Iniguez</surname><given-names>AR</given-names></name><name><surname>Percell</surname><given-names>KM</given-names></name><name><surname>Willner</surname><given-names>JB</given-names></name><name><surname>Signorovitch</surname><given-names>J</given-names></name><name><surname>Campbell</surname><given-names>RD</given-names></name><article-title>Phylogeny and biogeography of Hydra (Cnidaria: Hydridae) using mitochondrial
+and nuclear DNA sequences</article-title><source>Mol Phylogenet Evol</source><year>2010</year><volume>57</volume><issue>1</issue><fpage>403</fpage><lpage>410</lpage><pub-id pub-id-type="doi">10.1016/j.ympev.2010.06.016</pub-id><?supplied-pmid 20601008?><pub-id pub-id-type="pmid">20601008</pub-id></mixed-citation></ref><ref id="B17"><mixed-citation publication-type="journal"><name><surname>Bentley</surname><given-names>DR</given-names></name><name><surname>Balasubramanian</surname><given-names>S</given-names></name><name><surname>Swerdlow</surname><given-names>HP</given-names></name><name><surname>Smith</surname><given-names>GP</given-names></name><name><surname>Milton</surname><given-names>J</given-names></name><name><surname>Brown</surname><given-names>CG</given-names></name><name><surname>Hall</surname><given-names>KP</given-names></name><name><surname>Evers</surname><given-names>DJ</given-names></name><name><surname>Barnes</surname><given-names>CL</given-names></name><name><surname>Bignell</surname><given-names>HR</given-names></name><article-title>Accurate whole human genome sequencing using reversible terminator
+chemistry</article-title><source>Nature</source><year>2008</year><volume>456</volume><issue>7218</issue><fpage>53</fpage><lpage>59</lpage><pub-id pub-id-type="doi">10.1038/nature07517</pub-id><?supplied-pmid 18987734?><pub-id pub-id-type="pmid">18987734</pub-id></mixed-citation></ref><ref id="B18"><mixed-citation publication-type="journal"><name><surname>Margulies</surname><given-names>M</given-names></name><name><surname>Egholm</surname><given-names>M</given-names></name><name><surname>Altman</surname><given-names>WE</given-names></name><name><surname>Attiya</surname><given-names>S</given-names></name><name><surname>Bader</surname><given-names>JS</given-names></name><name><surname>Bemben</surname><given-names>LA</given-names></name><name><surname>Berka</surname><given-names>J</given-names></name><name><surname>Braverman</surname><given-names>MS</given-names></name><name><surname>Chen</surname><given-names>YJ</given-names></name><name><surname>Chen</surname><given-names>Z</given-names></name><article-title>Genome sequencing in microfabricated high-density picolitre reactors</article-title><source>Nature</source><year>2005</year><volume>437</volume><issue>7057</issue><fpage>376</fpage><lpage>380</lpage><?supplied-pmid 16056220?><pub-id pub-id-type="pmid">16056220</pub-id></mixed-citation></ref><ref id="B19"><mixed-citation publication-type="journal"><name><surname>Luo</surname><given-names>CW</given-names></name><name><surname>Tsementzi</surname><given-names>D</given-names></name><name><surname>Kyrpides</surname><given-names>N</given-names></name><name><surname>Read</surname><given-names>T</given-names></name><name><surname>Konstantinidis</surname><given-names>KT</given-names></name><article-title>Direct Comparisons of Illumina vs. Roche 454 Sequencing Technologies on the
+Same Microbial Community DNA Sample</article-title><source>PLoS One</source><year>2012</year><volume>7</volume><issue>2</issue></mixed-citation></ref><ref id="B20"><mixed-citation publication-type="journal"><name><surname>Wurm</surname><given-names>Y</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Riba-Grognuz</surname><given-names>O</given-names></name><name><surname>Corona</surname><given-names>M</given-names></name><name><surname>Nygaard</surname><given-names>S</given-names></name><name><surname>Hunt</surname><given-names>BG</given-names></name><name><surname>Ingram</surname><given-names>KK</given-names></name><name><surname>Falquet</surname><given-names>L</given-names></name><name><surname>Nipitwattanaphon</surname><given-names>M</given-names></name><name><surname>Gotzek</surname><given-names>D</given-names></name><article-title>The genome of the fire ant Solenopsis invicta</article-title><source>Proc Natl Acad Sci U S A</source><year>2011</year><volume>108</volume><issue>14</issue><fpage>5679</fpage><lpage>5684</lpage><pub-id pub-id-type="doi">10.1073/pnas.1009690108</pub-id><?supplied-pmid 21282665?><pub-id pub-id-type="pmid">21282665</pub-id></mixed-citation></ref><ref id="B21"><mixed-citation publication-type="journal"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Williams</surname><given-names>BA</given-names></name><name><surname>Pertea</surname><given-names>G</given-names></name><name><surname>Mortazavi</surname><given-names>A</given-names></name><name><surname>Kwan</surname><given-names>G</given-names></name><name><surname>van Baren</surname><given-names>MJ</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name><name><surname>Wold</surname><given-names>BJ</given-names></name><name><surname>Pachter</surname><given-names>L</given-names></name><article-title>Transcript assembly and quantification by RNA-Seq reveals unannotated
+transcripts and isoform switching during cell differentiation</article-title><source>Nat Biotechnol</source><year>2010</year><volume>28</volume><issue>5</issue><fpage>511</fpage><lpage>515</lpage><pub-id pub-id-type="doi">10.1038/nbt.1621</pub-id><?supplied-pmid 20436464?><pub-id pub-id-type="pmid">20436464</pub-id></mixed-citation></ref><ref id="B22"><mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Schwartz</surname><given-names>S</given-names></name><name><surname>Wagner</surname><given-names>L</given-names></name><name><surname>Miller</surname><given-names>W</given-names></name><article-title>A greedy algorithm for aligning DNA sequences</article-title><source>J Comput Biol</source><year>2000</year><volume>7</volume><issue>1&#x02013;2</issue><fpage>203</fpage><lpage>214</lpage><?supplied-pmid 10890397?><pub-id pub-id-type="pmid">10890397</pub-id></mixed-citation></ref><ref id="B23"><mixed-citation publication-type="journal"><name><surname>Moreno-Hagelsieb</surname><given-names>G</given-names></name><name><surname>Latimer</surname><given-names>K</given-names></name><article-title>Choosing BLAST options for better detection of orthologs as reciprocal best
+hits</article-title><source>Bioinformatics</source><year>2008</year><volume>24</volume><issue>3</issue><fpage>319</fpage><lpage>324</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btm585</pub-id><?supplied-pmid 18042555?><pub-id pub-id-type="pmid">18042555</pub-id></mixed-citation></ref><ref id="B24"><mixed-citation publication-type="journal"><name><surname>Biamonti</surname><given-names>G</given-names></name><name><surname>Caceres</surname><given-names>JF</given-names></name><article-title>Cellular stress and RNA splicing</article-title><source>Trends Biochem Sci</source><year>2009</year><volume>34</volume><issue>3</issue><fpage>146</fpage><lpage>153</lpage><pub-id pub-id-type="doi">10.1016/j.tibs.2008.11.004</pub-id><?supplied-pmid 19208481?><pub-id pub-id-type="pmid">19208481</pub-id></mixed-citation></ref><ref id="B25"><mixed-citation publication-type="journal"><name><surname>Fujisawa</surname><given-names>T</given-names></name><article-title>Hydra peptide project 1993&#x02013;2007</article-title><source>Dev Growth Differ</source><year>2008</year><volume>50</volume><issue>Suppl 1</issue><fpage>S257</fpage><lpage>268</lpage><?supplied-pmid 18459981?><pub-id pub-id-type="pmid">18459981</pub-id></mixed-citation></ref><ref id="B26"><mixed-citation publication-type="journal"><name><surname>Pink</surname><given-names>RC</given-names></name><name><surname>Wicks</surname><given-names>K</given-names></name><name><surname>Caley</surname><given-names>DP</given-names></name><name><surname>Punch</surname><given-names>EK</given-names></name><name><surname>Jacobs</surname><given-names>L</given-names></name><name><surname>Carter</surname><given-names>DR</given-names></name><article-title>Pseudogenes: pseudo-functional or key regulators in health and disease?</article-title><source>RNA</source><year>2011</year><volume>17</volume><issue>5</issue><fpage>792</fpage><lpage>798</lpage><pub-id pub-id-type="doi">10.1261/rna.2658311</pub-id><?supplied-pmid 21398401?><pub-id pub-id-type="pmid">21398401</pub-id></mixed-citation></ref><ref id="B27"><mixed-citation publication-type="journal"><name><surname>Hemmrich</surname><given-names>G</given-names></name><name><surname>Bosch</surname><given-names>TC</given-names></name><article-title>Compagen, a comparative genomics platform for early branching metazoan
+animals, reveals early origins of genes regulating stem-cell
+differentiation</article-title><source>BioEssays</source><year>2008</year><volume>30</volume><issue>10</issue><fpage>1010</fpage><lpage>1018</lpage><pub-id pub-id-type="doi">10.1002/bies.20813</pub-id><?supplied-pmid 18800383?><pub-id pub-id-type="pmid">18800383</pub-id></mixed-citation></ref><ref id="B28"><mixed-citation publication-type="journal"><name><surname>Gauchat</surname><given-names>D</given-names></name><name><surname>Escriva</surname><given-names>H</given-names></name><name><surname>Miljkovic-Licina</surname><given-names>M</given-names></name><name><surname>Chera</surname><given-names>S</given-names></name><name><surname>Langlois</surname><given-names>MC</given-names></name><name><surname>Begue</surname><given-names>A</given-names></name><name><surname>Laudet</surname><given-names>V</given-names></name><name><surname>Galliot</surname><given-names>B</given-names></name><article-title>The orphan COUP-TF nuclear receptors are markers for neurogenesis from
+cnidarians to vertebrates</article-title><source>Dev Biol</source><year>2004</year><volume>275</volume><issue>1</issue><fpage>104</fpage><lpage>123</lpage><pub-id pub-id-type="doi">10.1016/j.ydbio.2004.07.037</pub-id><?supplied-pmid 15464576?><pub-id pub-id-type="pmid">15464576</pub-id></mixed-citation></ref><ref id="B29"><mixed-citation publication-type="journal"><name><surname>Lassmann</surname><given-names>T</given-names></name><name><surname>Hayashizaki</surname><given-names>Y</given-names></name><name><surname>Daub</surname><given-names>CO</given-names></name><article-title>TagDust&#x02013;a program to eliminate artifacts from next generation
+sequencing data</article-title><source>Bioinformatics</source><year>2009</year><volume>25</volume><issue>21</issue><fpage>2839</fpage><lpage>2840</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btp527</pub-id><?supplied-pmid 19737799?><pub-id pub-id-type="pmid">19737799</pub-id></mixed-citation></ref><ref id="B30"><mixed-citation publication-type="journal"><name><surname>Barker</surname><given-names>MS</given-names></name><name><surname>Dlugosch</surname><given-names>KM</given-names></name><name><surname>Dinh</surname><given-names>L</given-names></name><name><surname>Challa</surname><given-names>RS</given-names></name><name><surname>Kane</surname><given-names>NC</given-names></name><name><surname>King</surname><given-names>MG</given-names></name><name><surname>Rieseberg</surname><given-names>LH</given-names></name><article-title>EvoPipes.net: Bioinformatic Tools for Ecological and Evolutionary
+Genomics</article-title><source>Evol Bioinform Online</source><year>2010</year><volume>6</volume><fpage>143</fpage><lpage>149</lpage><?supplied-pmid 21079755?><pub-id pub-id-type="pmid">21079755</pub-id></mixed-citation></ref><ref id="B31"><mixed-citation publication-type="journal"><name><surname>Kircher</surname><given-names>M</given-names></name><name><surname>Stenzel</surname><given-names>U</given-names></name><name><surname>Kelso</surname><given-names>J</given-names></name><article-title>Improved base calling for the Illumina Genome Analyzer using machine learning
+strategies</article-title><source>Genome Biol</source><year>2009</year><volume>10</volume><issue>8</issue><fpage>R83</fpage><pub-id pub-id-type="doi">10.1186/gb-2009-10-8-r83</pub-id><?supplied-pmid 19682367?><pub-id pub-id-type="pmid">19682367</pub-id></mixed-citation></ref><ref id="B32"><mixed-citation publication-type="journal"><name><surname>Zerbino</surname><given-names>DR</given-names></name><name><surname>Birney</surname><given-names>E</given-names></name><article-title>Velvet: algorithms for de novo short read assembly using de Bruijn graphs</article-title><source>Genome Res</source><year>2008</year><volume>18</volume><issue>5</issue><fpage>821</fpage><lpage>829</lpage><pub-id pub-id-type="doi">10.1101/gr.074492.107</pub-id><?supplied-pmid 18349386?><pub-id pub-id-type="pmid">18349386</pub-id></mixed-citation></ref><ref id="B33"><mixed-citation publication-type="journal"><name><surname>Schulz</surname><given-names>MH</given-names></name><name><surname>Zerbino</surname><given-names>DR</given-names></name><name><surname>Vingron</surname><given-names>M</given-names></name><name><surname>Birney</surname><given-names>E</given-names></name><article-title>Oases: robust de novo RNA-seq assembly across the dynamic range of expression
+levels</article-title><source>Bioinformatics</source><year>2012</year><volume>28</volume><issue>8</issue><fpage>1086</fpage><lpage>1092</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/bts094</pub-id><?supplied-pmid 22368243?><pub-id pub-id-type="pmid">22368243</pub-id></mixed-citation></ref><ref id="B34"><mixed-citation publication-type="journal"><name><surname>Stover</surname><given-names>NA</given-names></name><name><surname>Steele</surname><given-names>RE</given-names></name><article-title>Trans-spliced leader addition to mRNAs in a cnidarian</article-title><source>Proc Natl Acad Sci U S A</source><year>2001</year><volume>98</volume><issue>10</issue><fpage>5693</fpage><lpage>5698</lpage><pub-id pub-id-type="doi">10.1073/pnas.101049998</pub-id><?supplied-pmid 11331766?><pub-id pub-id-type="pmid">11331766</pub-id></mixed-citation></ref><ref id="B35"><mixed-citation publication-type="journal"><name><surname>Derelle</surname><given-names>R</given-names></name><name><surname>Momose</surname><given-names>T</given-names></name><name><surname>Manuel</surname><given-names>M</given-names></name><name><surname>Da Silva</surname><given-names>C</given-names></name><name><surname>Wincker</surname><given-names>P</given-names></name><name><surname>Houliston</surname><given-names>E</given-names></name><article-title>Convergent origins and rapid evolution of spliced leader trans-splicing in
+metazoa: insights from the ctenophora and hydrozoa</article-title><source>RNA</source><year>2010</year><volume>16</volume><issue>4</issue><fpage>696</fpage><lpage>707</lpage><pub-id pub-id-type="doi">10.1261/rna.1975210</pub-id><?supplied-pmid 20142326?><pub-id pub-id-type="pmid">20142326</pub-id></mixed-citation></ref><ref id="B36"><mixed-citation publication-type="journal"><name><surname>Chevreux</surname><given-names>B</given-names></name><name><surname>Pfisterer</surname><given-names>T</given-names></name><name><surname>Drescher</surname><given-names>B</given-names></name><name><surname>Driesel</surname><given-names>AJ</given-names></name><name><surname>Muller</surname><given-names>WEG</given-names></name><name><surname>Wetter</surname><given-names>T</given-names></name><name><surname>Suhai</surname><given-names>S</given-names></name><article-title>Using the miraEST assembler for reliable and automated mRNA transcript
+assembly and SNP detection in sequenced ESTs</article-title><source>Genome Research</source><year>2004</year><volume>14</volume><issue>6</issue><fpage>1147</fpage><lpage>1159</lpage><pub-id pub-id-type="doi">10.1101/gr.1917404</pub-id><?supplied-pmid 15140833?><pub-id pub-id-type="pmid">15140833</pub-id></mixed-citation></ref><ref id="B37"><mixed-citation publication-type="journal"><name><surname>Haas</surname><given-names>BJ</given-names></name><name><surname>Delcher</surname><given-names>AL</given-names></name><name><surname>Mount</surname><given-names>SM</given-names></name><name><surname>Wortman</surname><given-names>JR</given-names></name><name><surname>Smith</surname><given-names>RK</given-names><suffix>Jr</suffix></name><name><surname>Hannick</surname><given-names>LI</given-names></name><name><surname>Maiti</surname><given-names>R</given-names></name><name><surname>Ronning</surname><given-names>CM</given-names></name><name><surname>Rusch</surname><given-names>DB</given-names></name><name><surname>Town</surname><given-names>CD</given-names></name><article-title>Improving the Arabidopsis genome annotation using maximal transcript
+alignment assemblies</article-title><source>Nucleic Acids Res</source><year>2003</year><volume>31</volume><issue>19</issue><fpage>5654</fpage><lpage>5666</lpage><pub-id pub-id-type="doi">10.1093/nar/gkg770</pub-id><?supplied-pmid 14500829?><pub-id pub-id-type="pmid">14500829</pub-id></mixed-citation></ref><ref id="B38"><mixed-citation publication-type="journal"><name><surname>Campbell</surname><given-names>MA</given-names></name><name><surname>Haas</surname><given-names>BJ</given-names></name><name><surname>Hamilton</surname><given-names>JP</given-names></name><name><surname>Mount</surname><given-names>SM</given-names></name><name><surname>Buell</surname><given-names>CR</given-names></name><article-title>Comprehensive analysis of alternative splicing in rice and comparative
+analyses with Arabidopsis</article-title><source>BMC Genomics</source><year>2006</year><volume>7</volume><fpage>327</fpage><pub-id pub-id-type="doi">10.1186/1471-2164-7-327</pub-id><?supplied-pmid 17194304?><pub-id pub-id-type="pmid">17194304</pub-id></mixed-citation></ref><ref id="B39"><mixed-citation publication-type="journal"><name><surname>Haas</surname><given-names>BJ</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name><name><surname>Zhu</surname><given-names>W</given-names></name><name><surname>Pertea</surname><given-names>M</given-names></name><name><surname>Allen</surname><given-names>JE</given-names></name><name><surname>Orvis</surname><given-names>J</given-names></name><name><surname>White</surname><given-names>O</given-names></name><name><surname>Buell</surname><given-names>CR</given-names></name><name><surname>Wortman</surname><given-names>JR</given-names></name><article-title>Automated eukaryotic gene structure annotation using EVidenceModeler and the
+Program to Assemble Spliced Alignments</article-title><source>Genome Biol</source><year>2008</year><volume>9</volume><issue>1</issue><fpage>R7</fpage><pub-id pub-id-type="doi">10.1186/gb-2008-9-1-r7</pub-id><?supplied-pmid 18190707?><pub-id pub-id-type="pmid">18190707</pub-id></mixed-citation></ref><ref id="B40"><mixed-citation publication-type="journal"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Pachter</surname><given-names>L</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name><article-title>TopHat: discovering splice junctions with RNA-Seq</article-title><source>Bioinformatics</source><year>2009</year><volume>25</volume><issue>9</issue><fpage>1105</fpage><lpage>1111</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btp120</pub-id><?supplied-pmid 19289445?><pub-id pub-id-type="pmid">19289445</pub-id></mixed-citation></ref><ref id="B41"><mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>B</given-names></name><name><surname>Dewey</surname><given-names>CN</given-names></name><article-title>RSEM: accurate transcript quantification from RNA-Seq data with or without a
+reference genome</article-title><source>BMC Bioinformatics</source><year>2011</year><volume>12</volume><fpage>323</fpage><pub-id pub-id-type="doi">10.1186/1471-2105-12-323</pub-id><?supplied-pmid 21816040?><pub-id pub-id-type="pmid">21816040</pub-id></mixed-citation></ref><ref id="B42"><mixed-citation publication-type="journal"><name><surname>Itzkovitz</surname><given-names>S</given-names></name><name><surname>Alon</surname><given-names>U</given-names></name><article-title>The genetic code is nearly optimal for allowing additional information within
+protein-coding sequences</article-title><source>Genome Res</source><year>2007</year><volume>17</volume><issue>4</issue><fpage>405</fpage><lpage>412</lpage><pub-id pub-id-type="doi">10.1101/gr.5987307</pub-id><?supplied-pmid 17293451?><pub-id pub-id-type="pmid">17293451</pub-id></mixed-citation></ref><ref id="B43"><mixed-citation publication-type="journal"><name><surname>Edgar</surname><given-names>RC</given-names></name><article-title>Search and clustering orders of magnitude faster than BLAST</article-title><source>Bioinformatics</source><year>2010</year><volume>26</volume><issue>19</issue><fpage>2460</fpage><lpage>2461</lpage><pub-id pub-id-type="doi">10.1093/bioinformatics/btq461</pub-id><?supplied-pmid 20709691?><pub-id pub-id-type="pmid">20709691</pub-id></mixed-citation></ref><ref id="B44"><mixed-citation publication-type="journal"><name><surname>Altschul</surname><given-names>SF</given-names></name><name><surname>Madden</surname><given-names>TL</given-names></name><name><surname>Schaffer</surname><given-names>AA</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Miller</surname><given-names>W</given-names></name><name><surname>Lipman</surname><given-names>DJ</given-names></name><article-title>Gapped BLAST and PSI-BLAST: a new generation of protein database search
+programs</article-title><source>Nucleic Acids Res</source><year>1997</year><volume>25</volume><issue>17</issue><fpage>3389</fpage><lpage>3402</lpage><pub-id pub-id-type="doi">10.1093/nar/25.17.3389</pub-id><?supplied-pmid 9254694?><pub-id pub-id-type="pmid">9254694</pub-id></mixed-citation></ref><ref id="B45"><mixed-citation publication-type="journal"><name><surname>Finn</surname><given-names>RD</given-names></name><name><surname>Mistry</surname><given-names>J</given-names></name><name><surname>Tate</surname><given-names>J</given-names></name><name><surname>Coggill</surname><given-names>P</given-names></name><name><surname>Heger</surname><given-names>A</given-names></name><name><surname>Pollington</surname><given-names>JE</given-names></name><name><surname>Gavin</surname><given-names>OL</given-names></name><name><surname>Gunasekaran</surname><given-names>P</given-names></name><name><surname>Ceric</surname><given-names>G</given-names></name><name><surname>Forslund</surname><given-names>K</given-names></name><article-title>The Pfam protein families database</article-title><source>Nucleic Acids Res</source><year>2010</year><volume>38</volume><issue>Database issue</issue><fpage>211</fpage><lpage>222</lpage></mixed-citation></ref><ref id="B46"><mixed-citation publication-type="journal"><name><surname>Mi</surname><given-names>H</given-names></name><name><surname>Muruganujan</surname><given-names>A</given-names></name><name><surname>Thomas</surname><given-names>PD</given-names></name><article-title>PANTHER in 2013: modeling the evolution of gene function, and other gene
+attributes, in the context of phylogenetic trees</article-title><source>Nucleic Acids Res</source><year>2013</year><volume>41</volume><issue>D1</issue><fpage>D377</fpage><lpage>386</lpage><pub-id pub-id-type="doi">10.1093/nar/gks1118</pub-id><?supplied-pmid 23193289?><pub-id pub-id-type="pmid">23193289</pub-id></mixed-citation></ref><ref id="B47"><mixed-citation publication-type="journal"><name><surname>Langmead</surname><given-names>B</given-names></name><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Pop</surname><given-names>M</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name><article-title>Ultrafast and memory-efficient alignment of short DNA sequences to the human
+genome</article-title><source>Genome Biol</source><year>2009</year><volume>10</volume><issue>3</issue><fpage>R25</fpage><pub-id pub-id-type="doi">10.1186/gb-2009-10-3-r25</pub-id><?supplied-pmid 19261174?><pub-id pub-id-type="pmid">19261174</pub-id></mixed-citation></ref><ref id="B48"><mixed-citation publication-type="journal"><name><surname>Consortium</surname><given-names>U</given-names></name><article-title>Reorganizing the protein space at the Universal Protein Resource
+(UniProt)</article-title><source>Nucleic Acids Res</source><year>2012</year><volume>40</volume><issue>D1</issue><fpage>D71</fpage><lpage>D75</lpage><?supplied-pmid 22102590?><pub-id pub-id-type="pmid">22102590</pub-id></mixed-citation></ref><ref id="B49"><mixed-citation publication-type="journal"><name><surname>Grigoriev</surname><given-names>IV</given-names></name><name><surname>Nordberg</surname><given-names>H</given-names></name><name><surname>Shabalov</surname><given-names>I</given-names></name><name><surname>Aerts</surname><given-names>A</given-names></name><name><surname>Cantor</surname><given-names>M</given-names></name><name><surname>Goodstein</surname><given-names>D</given-names></name><name><surname>Kuo</surname><given-names>A</given-names></name><name><surname>Minovitsky</surname><given-names>S</given-names></name><name><surname>Nikitin</surname><given-names>R</given-names></name><name><surname>Ohm</surname><given-names>RA</given-names></name><article-title>The Genome Portal of the Department of Energy Joint Genome Institute</article-title><source>Nucleic Acids Res</source><year>2012</year><volume>40</volume><issue>D1</issue><fpage>D26</fpage><lpage>D32</lpage><pub-id pub-id-type="doi">10.1093/nar/gkr947</pub-id><?supplied-pmid 22110030?><pub-id pub-id-type="pmid">22110030</pub-id></mixed-citation></ref><ref id="B50"><mixed-citation publication-type="journal"><name><surname>Pruitt</surname><given-names>KD</given-names></name><name><surname>Tatusova</surname><given-names>T</given-names></name><name><surname>Brown</surname><given-names>GR</given-names></name><name><surname>Maglott</surname><given-names>DR</given-names></name><article-title>NCBI Reference Sequences (RefSeq): current status, new features and genome
+annotation policy</article-title><source>Nucleic Acids Res</source><year>2012</year><volume>40</volume><issue>D1</issue><fpage>D130</fpage><lpage>D135</lpage><pub-id pub-id-type="doi">10.1093/nar/gkr1079</pub-id><?supplied-pmid 22121212?><pub-id pub-id-type="pmid">22121212</pub-id></mixed-citation></ref><ref id="B51"><mixed-citation publication-type="journal"><name><surname>Edgar</surname><given-names>RC</given-names></name><article-title>MUSCLE: multiple sequence alignment with high accuracy and high
+throughput</article-title><source>Nucleic Acids Res</source><year>2004</year><volume>32</volume><issue>5</issue><fpage>1792</fpage><lpage>1797</lpage><pub-id pub-id-type="doi">10.1093/nar/gkh340</pub-id><?supplied-pmid 15034147?><pub-id pub-id-type="pmid">15034147</pub-id></mixed-citation></ref><ref id="B52"><mixed-citation publication-type="journal"><name><surname>Guindon</surname><given-names>S</given-names></name><name><surname>Dufayard</surname><given-names>JF</given-names></name><name><surname>Lefort</surname><given-names>V</given-names></name><name><surname>Anisimova</surname><given-names>M</given-names></name><name><surname>Hordijk</surname><given-names>W</given-names></name><name><surname>Gascuel</surname><given-names>O</given-names></name><article-title>New algorithms and methods to estimate maximum-likelihood phylogenies:
+assessing the performance of PhyML 3.0</article-title><source>Syst Biol</source><year>2010</year><volume>59</volume><issue>3</issue><fpage>307</fpage><lpage>321</lpage><pub-id pub-id-type="doi">10.1093/sysbio/syq010</pub-id><?supplied-pmid 20525638?><pub-id pub-id-type="pmid">20525638</pub-id></mixed-citation></ref></ref-list></back></article>

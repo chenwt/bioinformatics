@@ -1,0 +1,464 @@
+{
+  "id": [
+    "24495746"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "24495746"
+  ],
+  "pmcid": [
+    "PMC3915617"
+  ],
+  "doi": [
+    "10.1186/1471-2105-15-38"
+  ],
+  "title": [
+    "DRUMS: Disk Repository with Update Management and Select option for high throughput sequencing data."
+  ],
+  "authorString": [
+    "Nettling M, Thieme N, Both A, Grosse I."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Nettling M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Nettling"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Thieme N"
+          ],
+          "firstName": [
+            "Nils"
+          ],
+          "lastName": [
+            "Thieme"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "Both A"
+          ],
+          "firstName": [
+            "Andreas"
+          ],
+          "lastName": [
+            "Both"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "R&D, Unister GmbH, Leipzig, Germany. andreas.both@unister.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Grosse I"
+          ],
+          "firstName": [
+            "Ivo"
+          ],
+          "lastName": [
+            "Grosse"
+          ],
+          "initials": [
+            "I"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2130628"
+      ],
+      "dateOfPublication": [
+        "2014 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2014"
+      ],
+      "printPublicationDate": [
+        "2014-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2014"
+  ],
+  "pageInfo": [
+    "38"
+  ],
+  "abstractText": [
+    "BACKGROUND: New technologies for analyzing biological samples, like next generation sequencing, are producing a growing amount of data together with quality scores. Moreover, software tools (e.g., for mapping sequence reads), calculating transcription factor binding probabilities, estimating epigenetic modification enriched regions or determining single nucleotide polymorphism increase this amount of position-specific DNA-related data even further. Hence, requesting data becomes challenging and expensive and is often implemented using specialised hardware. In addition, picking specific data as fast as possible becomes increasingly important in many fields of science. The general problem of handling big data sets was addressed by developing specialized databases like HBase, HyperTable or Cassandra. However, these database solutions require also specialized or distributed hardware leading to expensive investments. To the best of our knowledge, there is no database capable of (i) storing billions of position-specific DNA-related records, (ii) performing fast and resource saving requests, and (iii) running on a single standard computer hardware. RESULTS: Here, we present DRUMS (Disk Repository with Update Management and Select option), satisfying demands (i)-(iii). It tackles the weaknesses of traditional databases while handling position-specific DNA-related data in an efficient manner. DRUMS is capable of storing up to billions of records. Moreover, it focuses on optimizing relating single lookups as range request, which are needed permanently for computations in bioinformatics. To validate the power of DRUMS, we compare it to the widely used MySQL database. The test setting considers two biological data sets. We use standard desktop hardware as test environment. CONCLUSIONS: DRUMS outperforms MySQL in writing and reading records by a factor of two up to a factor of 10000. Furthermore, it can work with significantly larger data sets. Our work focuses on mid-sized data sets up to several billion records without requiring cluster technology. Storing position-specific data is a general problem and the concept we present here is a generalized approach. Hence, it can be easily applied to other fields of bioinformatics."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Endogenous Retroviruses"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genomics"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymorphism, Single Nucleotide"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome, Human"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Database Management Systems"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Information Storage and Retrieval"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Databases, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3915617?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3915617"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=24495746"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=24495746&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/1471-2105-15-38"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2014-06-15"
+  ],
+  "dateOfCreation": [
+    "2014-02-07"
+  ],
+  "electronicPublicationDate": [
+    "2014-02-04"
+  ],
+  "firstPublicationDate": [
+    "2014-02-04"
+  ]
+}

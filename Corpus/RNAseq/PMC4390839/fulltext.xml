@@ -1,0 +1,1200 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d2 20140930//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Life (Basel)</journal-id><journal-id journal-id-type="iso-abbrev">Life (Basel)</journal-id><journal-id journal-id-type="publisher-id">life</journal-id><journal-title-group><journal-title>Life</journal-title></journal-title-group><issn pub-type="epub">2075-1729</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4390839</article-id><article-id pub-id-type="pmid">25551682</article-id><article-id pub-id-type="doi">10.3390/life5010025</article-id><article-id pub-id-type="publisher-id">life-05-00025</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Salt Acclimation of Cyanobacteria and Their Application in Biotechnology</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Pade</surname><given-names>Nadin</given-names></name></contrib><contrib contrib-type="author"><name><surname>Hagemann</surname><given-names>Martin</given-names></name><xref rid="c1-life-05-00025" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Haselkorn</surname><given-names>Robert</given-names></name><role>Academic Editor</role></contrib><contrib contrib-type="editor"><name><surname>Meeks</surname><given-names>John C.</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-life-05-00025">Institut f&#x000fc;r Biowissenschaften, Abteilung Pflanzenphysiologie, Universit&#x000e4;t Rostock, Albert-Einstein-Str. 3, D-18059 Rostock, Germany; E-Mail: <email>nadin.pade@uni-rostock.de</email></aff><author-notes><corresp id="c1-life-05-00025"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>martin.hagemann@uni-rostock.de</email>.</corresp></author-notes><pub-date pub-type="epub"><day>29</day><month>12</month><year>2014</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2015</year></pub-date><volume>5</volume><issue>1</issue><fpage>25</fpage><lpage>49</lpage><history><date date-type="received"><day>17</day><month>11</month><year>2014</year></date><date date-type="accepted"><day>19</day><month>12</month><year>2014</year></date></history><permissions><copyright-statement>&#x000a9; 2014 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2014</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>The long evolutionary history and photo-autotrophic lifestyle of cyanobacteria has allowed them to colonize almost all photic habitats on Earth, including environments with high or fluctuating salinity. Their basal salt acclimation strategy includes two principal reactions, the active export of ions and the accumulation of compatible solutes. Cyanobacterial salt acclimation has been characterized in much detail using selected model cyanobacteria, but their salt sensing and regulatory mechanisms are less well understood. Here, we briefly review recent advances in the identification of salt acclimation processes and the essential genes/proteins involved in acclimation to high salt. This knowledge is of increasing importance because the necessary mass cultivation of cyanobacteria for future use in biotechnology will be performed in sea water. In addition, cyanobacterial salt resistance genes also can be applied to improve the salt tolerance of salt sensitive organisms, such as crop plants.</p></abstract><kwd-group><kwd>compatible solute</kwd><kwd>genome mining</kwd><kwd>ion export</kwd><kwd>regulation</kwd><kwd>salt sensing</kwd></kwd-group></article-meta></front><body><sec><title>1. Introduction</title><p>Cyanobacteria are an ancient monophyletic group of the domain bacteria that have colonized all light-exposed habitats on the Earth. During their long evolution, cyanobacteria have developed mechanisms to adapt to a broad range of environmental factors [<xref rid="B1-life-05-00025" ref-type="bibr">1</xref>]. Salinity is an important abiotic stress for cyanobacteria in aquatic and terrestrial ecosystems. The term salinity refers to the total concentration of dissolved inorganic ions. Thus, salinity can not only vary in total value but also in composition. It is known that specific inorganic ions exert direct toxic effects on cyanobacteria, which can restrict the occurrence of sensitive strains to certain environments [<xref rid="B2-life-05-00025" ref-type="bibr">2</xref>]. However, in this review, we will concentrate on acclimation to high and fluctuating salinity in different amounts of NaCl or seawater, which contains NaCl as the predominant salt. The amount of salt is inversely correlated with the amount of water in a solution, so increased salinity reduces water availability and simultaneously induces osmotic stress. Generally, unicellular cells such as cyanobacteria maintain a constant cellular ionic and osmotic composition to sustain water uptake via osmosis and to create the turgor pressure that is necessary for cell enlargement and growth, which is hyperosmotic compared to the surrounding medium. Hence, a change in the external salt concentration and/or water availability poses a challenge for the cellular metabolism and for cell survival. A quick response to fluctuations in salt and/or osmotic concentration is important for survival in many habitats.</p><p>Two crucial problems occur in the presence of high salt concentrations: water availability is lowered, and the concentration of ions is increased. Large concentrations of inorganic ions in the cytoplasm can have toxic effects on cellular metabolism. To ensure water uptake via osmosis, the cytoplasmic concentration of osmotically active compounds must be higher than that of the surrounding medium [<xref rid="B3-life-05-00025" ref-type="bibr">3</xref>]. Microorganisms have developed two effective strategies for the osmotic acclimation of the cytoplasm to changing salt concentrations: the &#x0201c;salt-in-strategy&#x0201d; and the &#x0201c;salt-out-strategy&#x0201d; [<xref rid="B4-life-05-00025" ref-type="bibr">4</xref>,<xref rid="B5-life-05-00025" ref-type="bibr">5</xref>]. Organisms that use the &#x0201c;salt-in-strategy&#x0201d; accumulate very large numbers of inorganic ions (2&#x02013;3 M, mainly KCl) in the cytoplasm to ensure water uptake and turgor pressure. However, this energetically cheap strategy is restricted to a small number of true halophiles, e.g., aerobic halophilic archaea of the order <italic>Halobacteriales</italic> [<xref rid="B4-life-05-00025" ref-type="bibr">4</xref>], the anaerobic, halophilic bacteria of the order <italic>Halanaerobiales</italic> [<xref rid="B6-life-05-00025" ref-type="bibr">6</xref>] or the extreme halophilic organism <italic>Salinibacter ruber</italic> [<xref rid="B7-life-05-00025" ref-type="bibr">7</xref>]. All of these prokaryotes are highly specialized and able to propagate in nearly saturated brine. During evolution, the entire metabolism of these organisms has become adapted to such high salt concentrations, <italic>i.e.</italic>, all proteins have developed special structures to remain active in a salt-rich medium [<xref rid="B8-life-05-00025" ref-type="bibr">8</xref>,<xref rid="B9-life-05-00025" ref-type="bibr">9</xref>]. Most prokaryotes including cyanobacteria and all eukaryotic microorganisms use the &#x0201c;salt-out-strategy&#x0201d; to acclimate to high or changing salt concentrations. The basis of this strategy is to keep the internal ion concentration low, and the necessary osmotic acclimation is achieved via the accumulation of small organic molecules called compatible solutes. This strategy has two parts. First, the cells accumulate compatible solutes that do not interfere with metabolism at high concentrations [<xref rid="B10-life-05-00025" ref-type="bibr">10</xref>], and second, they actively export inorganic ions that steadily diffuse along their electrochemical gradients into the cytoplasm.</p><sec><title>Goal of the Review</title><p>The understanding of the complex physiology and molecular biology of cyanobacterial acclimation to salt stress becomes increasingly important because cyanobacteria will be used for the biotechnological production of fuels and chemical feedstocks in the future. The necessary mass cultivation must be performed in sea water to conserve freshwater resources and to minimize the growth of competing organisms. However, salt acclimation itself is a highly energy demanding process and might interfere with this future application of cyanobacteria. Thus, the engineering of cyanobacterial producer strains must encompass the selection or the generation of an efficient salt acclimation strategy. There have been many recent reviews on bacterial [<xref rid="B11-life-05-00025" ref-type="bibr">11</xref>,<xref rid="B12-life-05-00025" ref-type="bibr">12</xref>,<xref rid="B13-life-05-00025" ref-type="bibr">13</xref>,<xref rid="B14-life-05-00025" ref-type="bibr">14</xref>] and cyanobacterial [<xref rid="B2-life-05-00025" ref-type="bibr">2</xref>,<xref rid="B5-life-05-00025" ref-type="bibr">5</xref>,<xref rid="B15-life-05-00025" ref-type="bibr">15</xref>,<xref rid="B16-life-05-00025" ref-type="bibr">16</xref>,<xref rid="B17-life-05-00025" ref-type="bibr">17</xref>,<xref rid="B18-life-05-00025" ref-type="bibr">18</xref>] salt stress acclimation. In this review we will briefly explain the basal salt acclimation strategy of cyanobacteria that was elucidated using model cyanobacteria with different degrees of salt tolerance. While this process is quite well understood, the sensing of salt stress and the regulation of the complex cellular reorganization is much less well understood. Hence, we will identify new insights in the regulation of salt acclimation in bacteria and cyanobacteria and will mention open questions that deserve future attention. Finally, emerging aspects of salt acclimation related to cyanobacterial biotechnology will be described.</p></sec></sec><sec><title>2. Compatible Solutes&#x02013;Universal &#x00026; Useful</title><p>The concept of the compatible solute was introduced by Brown [<xref rid="B10-life-05-00025" ref-type="bibr">10</xref>]. Compatible solutes are organic molecules with low molecular masses that usually lack a net charge. They can be accumulated to high (molar) concentrations in the cytoplasm without interfering with the cellular metabolism. The main function of compatible solutes is to increase the internal osmolality, which ensures water uptake and establishes turgor pressure. The water exclusion model is currently the best hypothesis explaining the molecular action of compatible solutes [<xref rid="B11-life-05-00025" ref-type="bibr">11</xref>,<xref rid="B19-life-05-00025" ref-type="bibr">19</xref>,<xref rid="B20-life-05-00025" ref-type="bibr">20</xref>]. According to this model, compatible solutes do not directly interfere with macromolecules such as proteins and/or membranes; rather, they change the water structure. The remaining free water is then directed into the vicinity of the macromolecular surface so that the hydration shell is retained and denaturation is prevented.</p><p>A great chemical variety of compatible compounds exists, ranging from amino acids and their derivatives to sugars and polyols [<xref rid="B4-life-05-00025" ref-type="bibr">4</xref>,<xref rid="B21-life-05-00025" ref-type="bibr">21</xref>]. Interestingly, in cyanobacteria, the chemical structure of the major compatible solute correlates with the final salt tolerance limit. Freshwater strains (resisting up to 600 mM NaCl equivalent to full seawater conditions) accumulate the sugars trehalose and/or sucrose. These compounds are also effective protectors against desiccation [<xref rid="B15-life-05-00025" ref-type="bibr">15</xref>]. The moderately halotolerant strains (which grow in freshwater up to a salt level three times that of seawater) such as the model organism <italic>Synechocystis</italic> sp. PCC 6803 characteristically accumulate glucosylglycerol (GG) as the major compatible solute. Halophilic cyanobacteria that can tolerate salt concentrations up to saturation synthesize the compatible solute glycine betaine [<xref rid="B5-life-05-00025" ref-type="bibr">5</xref>,<xref rid="B22-life-05-00025" ref-type="bibr">22</xref>]. In addition to these principal groups of cyanobacterial compatible solutes, some compounds are restricted to certain strains or are only accumulated in minor amounts. For example, some hypersaline strains have been reported to accumulate glutamate betaine as a second compatible solute in addition to glycine betaine [<xref rid="B23-life-05-00025" ref-type="bibr">23</xref>]. A potential role for proline as a compatible solute has been proposed [<xref rid="B24-life-05-00025" ref-type="bibr">24</xref>], because proline over-accumulation confers enhanced salt tolerance to <italic>Nostoc muscorum</italic>. As a minor compatible solute, proline has also been found transiently in salt-shocked cyanobacteria, e.g., in cells of the hypersaline strain <italic>Synechococcus</italic> sp. PCC 7418 [<xref rid="B25-life-05-00025" ref-type="bibr">25</xref>]. Recently, the occurrence of glucosylglycerate (GGA) has been reported as a secondary compatible solute in marine cyanobacteria, such as strains of the picoplanktonic <italic>Prochlorococcus/Synechococcus</italic> clade [<xref rid="B26-life-05-00025" ref-type="bibr">26</xref>]. GGA is a rather uncommon compatible solute because it is negatively charged. This charge seems to function to balance the positive charge of K<sup>+</sup>, an ion accumulated in salt-stressed cells, because the internal pool of glutamate that fulfills this function in other cyanobacteria is limited in the N-poor environment of the central ocean.</p><p>Recently, the genes coding for the enzymes that synthesize these compatible solutes (discussed below) have been identified and could be used to search the more than 120 existing cyanobacterial genome sequences [<xref rid="B27-life-05-00025" ref-type="bibr">27</xref>] for the capacity to synthesize compatible solutes and identify potential salt tolerant strains. Such searches have revealed deviations from the expected pattern [<xref rid="B17-life-05-00025" ref-type="bibr">17</xref>]. For example, the genome of <italic>Crocosphaera watsonii</italic> strain WH8501, a marine N<sub>2</sub>-fixing unicellular cyanobacterium [<xref rid="B28-life-05-00025" ref-type="bibr">28</xref>], did not contain the expected genes for the synthesis of GG. Instead, we found a bacterial-like gene for the synthesis of trehalose that was accumulated as the only compatible solute in the cytoplasm of this marine cyanobacterium [<xref rid="B29-life-05-00025" ref-type="bibr">29</xref>]. Additionally, the genomes of the marine <italic>Prochlorococcus</italic> strains lack genes for GG synthesis. These strains accumulate sucrose as their main compatible solute and often accumulate GGA as a minor component [<xref rid="B26-life-05-00025" ref-type="bibr">26</xref>]. The marine filamentous N<sub>2</sub>-fixing cyanobacterium <italic>Trichodesmium erythraeum</italic> IMS101 plays an important role as an N-fertilizer in the oceans [<xref rid="B30-life-05-00025" ref-type="bibr">30</xref>] and represents an interesting example, because no genes that are known to code for enzymes involved in the biosynthesis of any compatible solute from prokaryotes, eukaryotes or archaea were found in the genome of <italic>Trichodesmium</italic>. Indications also exist that oligosaccharides might play a role as compatible solutes among Nostocales [<xref rid="B31-life-05-00025" ref-type="bibr">31</xref>,<xref rid="B32-life-05-00025" ref-type="bibr">32</xref>]. Certainly there are many more compatible compounds synthesized by members of the cyanobacterial radiation that have not been discovered yet. Recently, the spectrum of compatible solutes was investigated in a cyanobacterial community harvested from living stromatolites on the coast of Australia. To the surprise of the authors, GG was not present, but they found indications that glycine betaine and several unknown saccharides were accumulated. Moreover, the compatible solute trimethylamine-<italic>N</italic>-oxide was detected, which had not been previously reported in cyanobacteria [<xref rid="B33-life-05-00025" ref-type="bibr">33</xref>]. However, these were field samples that also certainly contained many other microorganisms, including various heterotrophic bacteria. Thus, cyanobacterial synthesis of trimethylamine-<italic>N</italic>-oxide and other unusual compatible solutes has not yet been verified.</p><p>In addition to their role as osmolytes in the cytoplasm of salt-stressed cells, compatible solutes have other valuable functions. It has been shown that these compounds can directly protect enzymes and membranes against denaturation not only due to salt stress but also due to high or low temperatures [<xref rid="B34-life-05-00025" ref-type="bibr">34</xref>,<xref rid="B35-life-05-00025" ref-type="bibr">35</xref>]. Thus, these compounds are most likely also protective in living cells, which explains why the accumulation of even small amounts of compatible solutes results in the increased tolerance to multiple environmental stresses [<xref rid="B36-life-05-00025" ref-type="bibr">36</xref>,<xref rid="B37-life-05-00025" ref-type="bibr">37</xref>]. Their action as a universal stress protectant is reflected by their designation as low molecular weight chaperones acting together with the protein chaperone family [<xref rid="B38-life-05-00025" ref-type="bibr">38</xref>]. These features make it highly interesting to use these compounds <italic>in vivo</italic>, e.g., after the expression of certain genes to support cyanobacterial mass cultivation for biotechnology under unfavorable conditions, or <italic>in vitro</italic>, e.g., as supplement to cosmetic and pharmaceutical products [<xref rid="B39-life-05-00025" ref-type="bibr">39</xref>,<xref rid="B40-life-05-00025" ref-type="bibr">40</xref>].</p><sec><title>2.1. Insights Regarding Compatible Solute Synthesis</title><p>As photoautotrophic organisms, cyanobacteria prefer the <italic>de novo</italic> synthesis of compatible solutes. The biosynthetic pathways and the genes coding for the corresponding enzymes are known for all principal compatible solutes in cyanobacteria [<xref rid="B5-life-05-00025" ref-type="bibr">5</xref>]. Sucrose, GG and GGA are all synthesized by two-step pathways. In the first step, a sugar-phosphate synthase (e.g., GG-phosphate synthase (GGPS)) synthesizes a phosphorylated intermediate by condensing a sugar nucleotide (for sucrose, UDP-glucose is used; for GG and GGA, ADP-glucose is used) and the corresponding phosphorylated sugar molecule (e.g., fructose 6-phosphate, glycerol 3-phosphate, glycerate 3-phosphate). In the second step, the phosphorylated compatible solute is then hydrolyzed to the final product by a specific phosphatase (e.g., GG-phosphate phosphatase (GGPP)) (<xref ref-type="fig" rid="life-05-00025-f001">Figure 1</xref>) [<xref rid="B26-life-05-00025" ref-type="bibr">26</xref>,<xref rid="B41-life-05-00025" ref-type="bibr">41</xref>,<xref rid="B42-life-05-00025" ref-type="bibr">42</xref>,<xref rid="B43-life-05-00025" ref-type="bibr">43</xref>,<xref rid="B44-life-05-00025" ref-type="bibr">44</xref>]. In enterobacteria and plants, trehalose synthesis also is performed by a two-step mechanism using the so-called OtsAB pathway [<xref rid="B11-life-05-00025" ref-type="bibr">11</xref>], whereas cyanobacteria usually use the so-called TreY/TreZ pathway for trehalose synthesis. This pathway begins with glycogen as a precursor. In the first reaction the final sugar bond is changed from the &#x003b1;-1,4 to the &#x003b1;-1,1 configuration, and then the two final glucose moieties are cleaved off as trehalose from the high molecular weight precursor, as was first shown in the freshwater model strain <italic>Nostoc</italic> (<italic>Anabaena</italic>) sp. PCC 7120 [<xref rid="B45-life-05-00025" ref-type="bibr">45</xref>]. Recently, the bacteria-like OtsAB pathway for trehalose synthesis was identified as restricted to the marine cyanobacterium <italic>Crocosphaera.</italic> This strain most likely received the gene via horizontal gene transfer from heterotrophic marine bacteria [<xref rid="B29-life-05-00025" ref-type="bibr">29</xref>]. An additional trehalose synthesis pathway may exist in cyanobacteria because salt-induced trehalose accumulation was detected in <italic>Microcystis aeruginosa</italic>, however none of the genes for the two known trehalose synthesis pathways is present in its genome (Hagemann and Dittmann, unpublished observation). The cyanobacterial glycine betaine synthesis also differs from the mechanism used by the majority of organisms, which generate glycine betaine by the two-step oxidation of choline [<xref rid="B11-life-05-00025" ref-type="bibr">11</xref>]. Cyanobacteria and some other phototrophic bacteria instead use glycine as precursor that is methylated in three subsequent reactions, which are performed by two different enzymes, as shown first in the halophilic model cyanobacterium <italic>Aphanothece halophytica</italic> [<xref rid="B46-life-05-00025" ref-type="bibr">46</xref>].</p><fig id="life-05-00025-f001" position="float"><label>Figure 1</label><caption><p>Biochemical pathways for the synthesis of sucrose, trehalose (OtsAB pathway, used only by <italic>Crocosphaera watsonii</italic> in cyanobacteria), glucosylglycerol (GG) and glucosylglycerate (GGA).</p></caption><graphic xlink:href="life-05-00025-g001"/></fig><p>After the initial description of the enzymes and the identification of the corresponding genes in model cyanobacteria, similar genes and biosynthetic pathways for these compatible solutes have been found in many more strains. For sucrose, at least three different types of sucrose 6-phosphate synthases (SPS) have been identified in various cyanobacteria [<xref rid="B17-life-05-00025" ref-type="bibr">17</xref>,<xref rid="B47-life-05-00025" ref-type="bibr">47</xref>]. However, they seem to share a common evolutionary origin and are believed to be the precursors of plant SPS [<xref rid="B48-life-05-00025" ref-type="bibr">48</xref>]. Sucrose accumulation and its synthesis via SPS and sucrose 6-phosphate phosphatase (SPP) have been recently identified as important factors for the extreme desiccation tolerance of a novel cyanobacterial isolate <italic>Gloeocapsopsis</italic> AAB1 from the Atacama Desert [<xref rid="B49-life-05-00025" ref-type="bibr">49</xref>]. GG synthesis enzymes have been cloned from strains of the biotechnologically important cyanobacterium <italic>Arthrospira</italic> sp. [<xref rid="B50-life-05-00025" ref-type="bibr">50</xref>]. As discussed above, this knowledge also allows the prediction of novel producers of glycine betaine form genome sequencing projects [<xref rid="B51-life-05-00025" ref-type="bibr">51</xref>] and the computational prediction of osmoregulatory networks in cyanobacteria [<xref rid="B52-life-05-00025" ref-type="bibr">52</xref>].</p></sec><sec><title>2.2. Compatible Solute Transport</title><p>Heterotrophic bacteria preferentially accumulate compatible solutes from the environment. Many transport systems have been characterized in a variety of heterotrophic bacteria [<xref rid="B12-life-05-00025" ref-type="bibr">12</xref>,<xref rid="B53-life-05-00025" ref-type="bibr">53</xref>,<xref rid="B54-life-05-00025" ref-type="bibr">54</xref>,<xref rid="B55-life-05-00025" ref-type="bibr">55</xref>]. The activity and expression of these uptake systems are controlled by the salinity of the external medium [<xref rid="B56-life-05-00025" ref-type="bibr">56</xref>]. It is also known that <italic>E. coli</italic> and <italic>B. subtilis</italic> can accumulate many more compatible solutes via transport from the environment than they can synthesize <italic>de novo.</italic> Many of the well-characterized transport systems belong to the group of primary active ATP-binding-cassette-(ABC)-type transporters [<xref rid="B11-life-05-00025" ref-type="bibr">11</xref>]. Despite a preference for <italic>de novo</italic> synthesis of compatible solutes, cyanobacteria also possess transporters for compatible solutes. Initially, an uptake system for glycine betaine was identified, which occurred only in strains able to synthesize this osmolyte <italic>de novo</italic> [<xref rid="B57-life-05-00025" ref-type="bibr">57</xref>,<xref rid="B58-life-05-00025" ref-type="bibr">58</xref>]. Subsequently, the existence of an active-transport system for exogenous GG was found in the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803, which also transports the solutes sucrose and trehalose, albeit with a lower affinity [<xref rid="B59-life-05-00025" ref-type="bibr">59</xref>,<xref rid="B60-life-05-00025" ref-type="bibr">60</xref>]. The transporter belongs to the ABC transporter family and consists of four subunits, three of which are coded by genes organized in an operon [<xref rid="B61-life-05-00025" ref-type="bibr">61</xref>,<xref rid="B62-life-05-00025" ref-type="bibr">62</xref>]. The identification of these genes allows the generation of mutants to analyze the function of the transporter. Interestingly, a transport mutant of <italic>Synechocystis</italic> sp. PCC 6803 did not show an alteration in growth at high salinity but continuously lost GG to the medium [<xref rid="B61-life-05-00025" ref-type="bibr">61</xref>]. These experiments revealed that the compatible solute transporters among cyanobacteria are principally necessary to prevent leakage of these compounds from the cells to save organic carbon and energy. Recently, the genome of <italic>Synechocystis</italic> sp. PCC 6714 was published [<xref rid="B63-life-05-00025" ref-type="bibr">63</xref>]. This strain is very closely related to <italic>Synechocystis</italic> sp. PCC 6803 but lacks the genes for the GG transporter. Correspondingly, cells of <italic>Synechocystis</italic> sp. PCC 6714 continuously lost GG into the medium and showed a lower salt tolerance limit than <italic>Synechocystis</italic> sp. PCC 6803 [<xref rid="B63-life-05-00025" ref-type="bibr">63</xref>]. The existence of the GG transporter in <italic>Synechocystis</italic> sp. PCC 6803 also allowed experiments in which the defect in GG synthesis was complemented by the addition of external GG (<xref ref-type="fig" rid="life-05-00025-f002">Figure 2</xref>). As expected, GG supplementation allowed successful salt acclimation via the uptake of externally added GG [<xref rid="B60-life-05-00025" ref-type="bibr">60</xref>] and proved that the accumulation of compatible solutes is sufficient for the reestablishment of cellular metabolism in salt-stressed cells [<xref rid="B60-life-05-00025" ref-type="bibr">60</xref>,<xref rid="B64-life-05-00025" ref-type="bibr">64</xref>]. Interestingly, the uptake of trehalose caused a decrease in the cellular content of previously synthesized GG [<xref rid="B60-life-05-00025" ref-type="bibr">60</xref>]. This decrease indicates that a yet unknown pathway for degradation or modification of the endogenous GG pool may be involved in the salt acclimation of <italic>Synechocystis</italic> sp. PCC 6803.</p><fig id="life-05-00025-f002" position="float"><label>Figure 2</label><caption><p>Comparison of growth of the <italic>Synechocystis</italic> sp. PCC 6803 wild type and the mutant defective in the gene for glucosylglycerol (GG) synthesis (<italic>ggpS</italic>) in medium supplemented with 3.5% NaCl. The wild type can grow, whereas the mutant cannot grow at this salinity. Supplementation of the salt medium with 5 mM GG restores the salt tolerance of the mutant, because the compatible solute is taken up by the mutant cells and becomes accumulated to levels comparable to wild-type cells.</p></caption><graphic xlink:href="life-05-00025-g002"/></fig><p>Genes for GG-like transporters can be found in the genomes of many low and moderately halotolerant cyanobacteria, but have been not characterized yet. The genes for the glycine betaine transporter in halophilic strains are still unknown, however, the genomes of such strains code for transporters of the BCCT and ProU families that have been proved to be involved in glycine betaine transport among heterotrophic bacteria [<xref rid="B54-life-05-00025" ref-type="bibr">54</xref>,<xref rid="B65-life-05-00025" ref-type="bibr">65</xref>]. The further characterization of compatible solute transport among cyanobacteria will offer some interesting applications. First, using such transport activities one can provide externally cheap compatible solutes to support the growth of cyanobacteria in saline media. Second, if compatible solutes are to be harvested from cyanobacteria as high value products (discussed below), the corresponding transport activities can be knocked out to improve the extrusion of the product to the surrounding medium. Another possibility would offer the use of specific exporters for compatible solutes, such as CscB from <italic>E. coli</italic> for sucrose, which allowed a continuous sucrose production in salt-stressed cells of <italic>Synechococcus elongatus</italic> [<xref rid="B66-life-05-00025" ref-type="bibr">66</xref>]. The excretion of GG has been described in stationary phase cells of the heterotrophic bacterium <italic>Stenotrophomonas rhizophila</italic> [<xref rid="B67-life-05-00025" ref-type="bibr">67</xref>]. Based on its genome sequence, the salt-regulated gene expression of this bacterium was recently analyzed and revealed that the <italic>ycaD</italic> gene for a MFS-type transporter was co-expressed with the gene for GG synthesis [<xref rid="B68-life-05-00025" ref-type="bibr">68</xref>]. Hence, this <italic>ycaD</italic> represents a likely gene candidate for the still unknown GG export channel, which could be expressed in GG-accumulating cyanobacteria to increase the yield of this compound.</p></sec></sec><sec><title>3. Ion Transport</title><p>The cyanobacterial salt acclimation process is highly dynamic and includes the ion-mediated activation and/or inactivation of enzymes and transporters, as well as the global reprogramming of general gene expression profiles [<xref rid="B69-life-05-00025" ref-type="bibr">69</xref>,<xref rid="B70-life-05-00025" ref-type="bibr">70</xref>]. The export of Na<sup>+</sup> is one of the fastest processes in salt-shocked cells. Immediately after addition of high amounts of NaCl, the cells rapidly shrink due to the immediate loss of water [<xref rid="B71-life-05-00025" ref-type="bibr">71</xref>,<xref rid="B72-life-05-00025" ref-type="bibr">72</xref>,<xref rid="B73-life-05-00025" ref-type="bibr">73</xref>,<xref rid="B74-life-05-00025" ref-type="bibr">74</xref>]. This shrinkage is reversed by the quick influx of external salts, such as Na<sup>+</sup> and Cl<sup>&#x02212;</sup> [<xref rid="B69-life-05-00025" ref-type="bibr">69</xref>], which allows water to return inside the cell. However, the high salt concentration in the cytoplasm inhibits cellular metabolism, including photosynthesis, transcription and particularly translation [<xref rid="B70-life-05-00025" ref-type="bibr">70</xref>,<xref rid="B75-life-05-00025" ref-type="bibr">75</xref>,<xref rid="B76-life-05-00025" ref-type="bibr">76</xref>]. Therefore, the toxic Na<sup>+</sup> is exchanged for the less toxic K<sup>+</sup> [<xref rid="B69-life-05-00025" ref-type="bibr">69</xref>]. Fast Na<sup>+</sup> export is based on the activation of pre-existing ion-transport systems, such as different Na<sup>+</sup>/H<sup>+</sup> antiporters [<xref rid="B77-life-05-00025" ref-type="bibr">77</xref>,<xref rid="B78-life-05-00025" ref-type="bibr">78</xref>,<xref rid="B79-life-05-00025" ref-type="bibr">79</xref>] but likely also the more complex Mrp-system [<xref rid="B80-life-05-00025" ref-type="bibr">80</xref>,<xref rid="B81-life-05-00025" ref-type="bibr">81</xref>]. The halophilic strain <italic>Aphanothece</italic><italic>halophytica</italic> exhibits a direct Na<sup>+</sup>-pumping ATPase that is most probably involved in the superior salt tolerance of this strain [<xref rid="B82-life-05-00025" ref-type="bibr">82</xref>]. Subsequently, K<sup>+</sup> and Cl<sup>&#x02212;</sup> are also mostly exported from the cells and replaced by the compatible solute GG [<xref rid="B69-life-05-00025" ref-type="bibr">69</xref>]. The export of Cl<sup>&#x02212;</sup> out of the cyanobacterial cell is not well understood. There are several potential Cl<sup>&#x02212;</sup> channels and transporters annotated in cyanobacterial genomes. One of these channels from <italic>Synechocystis</italic> sp. PCC 6803 has been crystallized and it was proven to transport chloride albeit with rather low activity [<xref rid="B83-life-05-00025" ref-type="bibr">83</xref>]. The transport of K<sup>+</sup> is rather well investigated. In contrast to Na<sup>+</sup> and Cl<sup>&#x02212;</sup> which are toxic toward cellular metabolism in high concentrations because they negatively influence protein structure, K<sup>+</sup> is the main inorganic cation that contributes significantly to turgor generation. K<sup>+</sup> is accumulated in cyanobacterial cells to approximately 150 mM and the amount accumulated is increased in salt-stressed cells. The salt-induced K<sup>+</sup> transport is mainly driven by the Ktr system in <italic>Synechocystis</italic> sp. PCC 6803 because corresponding mutants showed a salt-sensitive phenotype [<xref rid="B73-life-05-00025" ref-type="bibr">73</xref>,<xref rid="B84-life-05-00025" ref-type="bibr">84</xref>] and were not able to restore cell volume shortly after salt shocks [<xref rid="B74-life-05-00025" ref-type="bibr">74</xref>]. All cyanobacteria possess a high affinity K<sup>+</sup> uptake system called Kdp, consisting of several subunits. The Kdp system is involved in the K<sup>+</sup> uptake of salt or osmotically stressed enterobacteria [<xref rid="B12-life-05-00025" ref-type="bibr">12</xref>]. This system has been intensively analyzed in <italic>Anabaena</italic> strains [<xref rid="B85-life-05-00025" ref-type="bibr">85</xref>] and recently in <italic>Synechocystis</italic> sp. PCC 6803 [<xref rid="B74-life-05-00025" ref-type="bibr">74</xref>]. These studies revealed that the cyanobacterial Kdp system has a very high affinity for K<sup>+</sup>. It most probably functions in K<sup>+</sup> uptake during K<sup>+</sup> limiting conditions, but it does not seem to play a significant role in acclimation to high salinity. However, the <italic>kdp</italic> genes are induced upon desiccation stress in <italic>Nostoc</italic> (<italic>Anabaena</italic>) sp. PCC 7120 and may support drought stress acclimation in cyanobacteria [<xref rid="B86-life-05-00025" ref-type="bibr">86</xref>]. The concerted action of ion transporters is responsible for the maintenance of relatively low ion concentrations, which nearly correspond to the levels of cells grown at lower salinity.</p></sec><sec><title>4. Salt Stress and &#x0201c;omics&#x0201d;</title><p>The term &#x0201c;omics&#x0201d; comprises technologies that focus on the collective characterization and quantification of pools of biological molecules to provide a valuable database for the molecular understanding of biological processes. Recently, transcriptomics and proteomics were applied to characterize global salt acclimation in several cyanobacterial strains including mutants. Transcriptomics was initially performed with DNA microarrays to investigate global gene expression changes in salt-stressed cells of the moderately halotolerant strain <italic>Synechocystis</italic> sp. PCC 6803 [<xref rid="B70-life-05-00025" ref-type="bibr">70</xref>,<xref rid="B87-life-05-00025" ref-type="bibr">87</xref>,<xref rid="B88-life-05-00025" ref-type="bibr">88</xref>]. These studies revealed that 200&#x02013;300 genes are up-regulated and about the same number is down-regulated after the addition of 4% NaCl (<xref ref-type="fig" rid="life-05-00025-f003">Figure 3</xref>). However, a time-series analysis showed that the majority of gene expression changes are rather transient. Particularly, genes showing an early response soon returned to the control expression level. Among the early responding genes, many code for proteins of unknown biological function. Only few genes stably remained at an enhanced expression level after long-term salt acclimation [<xref rid="B70-life-05-00025" ref-type="bibr">70</xref>]. Many of the stable up-regulated genes code for proteins with a &#x0201c;meaningful&#x0201d; function regarding high salt acclimation. For example, genes that code for enzymes involved in the GG synthesis and transport belong to this group, but so do genes that code for general stress proteins known to stabilize protein structures as well those defending the cell against reactive oxygen species (ROS) such as <italic>sodB</italic> (<xref ref-type="fig" rid="life-05-00025-f003">Figure 3</xref>). In general, these datasets provided a comprehensive overview of the dynamic expression of all genes that are directly and indirectly involved in the cellular response of <italic>Synechocystis</italic> to salt stress conditions. Recently, the high-throughput sequencing of cDNA fragments (RNAseq) has become popular as a tool for transcriptomics. This technique not only allows quantification of transcripts but also provides information about transcriptional start sites, operon structures, and previously unannotated genes that code for small proteins or non-protein-coding (nc) RNAs, such as antisense RNAs or small regulatory RNAs. For <italic>Synechocystis</italic> sp. PCC 6803, RNAseq showed that nearly the same number of genes code for mRNAs as for ncRNAs, and the latter group of genes comprises some of the most highly expressed genes [<xref rid="B89-life-05-00025" ref-type="bibr">89</xref>]. Moreover, these studies also revealed that the genome of cyanobacteria is highly dynamic because different growth conditions not only caused differential gene expression in terms of quantitative changes, it also revealed many new promoters and genes that became active only under specific environmental signals [<xref rid="B63-life-05-00025" ref-type="bibr">63</xref>]. Regarding salt stress, the RNAseq approach was first applied to <italic>Synechococcus</italic> sp. PCC 7002 [<xref rid="B90-life-05-00025" ref-type="bibr">90</xref>]. <italic>Synechococcus</italic>-cells treated at a rather high salinity of 1.5 M NaCl showed many gene expression changes, among them the accumulation of transcripts for genes coding for proteins involved in GG synthesis and transport, proteins for general stress response such as SodB, small high-light-induced proteins, flavoproteins, <italic>etc.</italic>, as was previously found in salt-shocked <italic>Synechocystis</italic> sp. PCC 6803. However, some differences were reported as well. For example, genes coding for ion transport proteins were stably induced in salt-shocked cells of <italic>Synechococcus</italic> sp. PCC 7002 and those for subunits of the photosystem 1, which were increased in <italic>Synechocystis</italic> sp. PCC 6803 under salt conditions [<xref rid="B91-life-05-00025" ref-type="bibr">91</xref>], were found at rather decreased expression levels [<xref rid="B90-life-05-00025" ref-type="bibr">90</xref>].</p><p>RNAseq was recently used to analyze expression changes in long-term (1&#x02013;3 days) salt-acclimated cells of <italic>Synechocystis</italic> sp. PCC 6803 [<xref rid="B92-life-05-00025" ref-type="bibr">92</xref>]. This study showed that many genes for protein biosynthesis and energy metabolism were found with decreased mRNA levels, and only a few genes showed increased levels, among them genes for fatty acid metabolism and a protein involved in CO<sub>2</sub> acquisition. Mutants generated in selected genes with increased expression in salt-acclimated cells showed decreased growth in 4% NaCl, leading to the identification of new candidate proteins somehow involved in high salt acclimation [<xref rid="B92-life-05-00025" ref-type="bibr">92</xref>]. Another study used RNAseq to compare the stress response of <italic>Synechocystis</italic> sp. PCC 6803 with <italic>Synechococcus</italic>
+<italic>elongatus</italic> [<xref rid="B93-life-05-00025" ref-type="bibr">93</xref>]. Along with other environmental factors, the authors also analyzed the salt stress response. As expected for a comparison of a freshwater strain with a moderately halotolerant strain, there was only a small overlap in the transcriptional response to salt stress.</p><fig id="life-05-00025-f003" position="float"><label>Figure 3</label><caption><p>Global changes in the gene expression of <italic>Synechocystis</italic> sp. PCC 6803 after the addition of 4% NaCl to cells grown in freshwater medium. (<bold>a</bold>) Genes induced to different levels (red spikes represent about 200 genes) are shown on the chromosome of <italic>Synechocystis</italic>. Genes coding for proteins of special functions are highlighted. (<bold>b</bold>) The dynamic changes in the expression of different groups of genes are displayed. Genes are grouped in classes that show maximum expression or repression at selected time points after the addition of 4% NaCl (data from reference 70).</p></caption><graphic xlink:href="life-05-00025-g003"/></fig><p>Changes in mRNA levels are not always translated into different protein abundances. Proteomics allows a quantitative overview of global changes in protein composition, however this technique is less representative than transcriptomics (usually only 20 maximally 50% of all proteins are detected). Initially, proteomics using 2-dimensional-gel-electrophoresis was used to compare the periplasmic [<xref rid="B94-life-05-00025" ref-type="bibr">94</xref>], membrane [<xref rid="B95-life-05-00025" ref-type="bibr">95</xref>] and soluble fractions [<xref rid="B96-life-05-00025" ref-type="bibr">96</xref>] in salt-stressed and control cells of <italic>Synechocystis</italic> sp. PCC 6803. The same technology has been used to screen for salt-regulated proteins in the biotechnologically important cyanobacterium <italic>Arthrospira platensis</italic> [<xref rid="B97-life-05-00025" ref-type="bibr">97</xref>]. These studies provided lists of many proteins that were enhanced after long-term salt acclimation. Among them were proteins for GG synthesis, and general stress proteins such as protein and RNA chaperones, SodB and thioredoxins. However, the proteomic approach also indicated that many hypothetical proteins were salt-regulated. Moreover, a corresponding increase in mRNA levels has not been reported for all of the proteins that are accumulated in salt-loaded cells [<xref rid="B96-life-05-00025" ref-type="bibr">96</xref>]. This finding indicated that not only transcriptional control but also other regulatory levels such as protein stability contribute to the changed proteome of salt-acclimated cells. Recently, an integrated study on <italic>Synechocystis</italic> sp. PCC 6803 under salt stress conditions, coupling a quantitative proteomic and a RNAseq-based transcriptomic approach, was published [<xref rid="B92-life-05-00025" ref-type="bibr">92</xref>]. Comparative quantification of protein abundance led to the identification of 68 and 108 proteins that are differentially regulated by salt-treatment at 24 and 48 h, respectively. The transcriptomic analysis showed that not all the genes were regulated in the same direction, <italic>i.e.</italic>, the authors also found cases in which the protein level increased and the mRNA level decreased. To obtain a deeper insight in the possible function of stress-regulated hypothetical proteins in <italic>Synechocystis</italic> sp. PCC 6803, gene expression was analyzed under 5 different conditions including high salt. The data set was grouped and revealed hypothetical proteins that seemed to react to all stresses, whereas others showed a more stress-specific pattern [<xref rid="B98-life-05-00025" ref-type="bibr">98</xref>]. In addition to <italic>Synechocystis</italic> sp. PCC 6803, salt-induced alterations in the proteome were investigated in much detail with <italic>Anabaena</italic> strains of different salt tolerance. This study provided a comprehensive analysis of physiological and proteomic data in three different strains. The authors showed that even among closely related strains, distinct patterns of salt acclimation are present [<xref rid="B99-life-05-00025" ref-type="bibr">99</xref>]. In <italic>Nostoc</italic> (<italic>Anabaena</italic>) sp. PCC 7120, the responses to salt and UV stress were compared. In addition to specific reactions, both stresses resulted in the accumulation of a defined set of common proteins. These proteins code for general stress proteins involved in the defense against ROS and the maintenance of DNA integrity as well as for many enzymes of sugar catabolism to provide more energy. However in general, salt stress induced many more proteins indicating that this stress is more harmful to this freshwater cyanobacterium than UV stress [<xref rid="B100-life-05-00025" ref-type="bibr">100</xref>].</p><p>To our knowledge, no metabolome study of salt-treated cyanobacteria has been published as yet. It would be interesting to apply this &#x0201c;omics&#x0201d; technology because the accumulation of compatible solutes should have a dramatic impact on the overall primary metabolism. Especially for biotechnology, it will be important to know how and to what degree the carbon and nitrogen portioning inside the cyanobacterial cell changes in the presence of high salinity.</p></sec><sec><title>5. Sensing Salt Stress and Regulation of the Salt Acclimation Response</title><p>Transcriptomic and proteomic data show that multiple genes and proteins are differentially regulated in salt-stressed cells. These findings raise the question of how salt stress is sensed and how the signal is transduced to the target promoters. The search for the primary signal(s) after salt stress still has not provided a satisfying result. The most popular candidates are changes in the internal ion content and related changes in available water, which can result in altered membrane structure and tension or electrostatic effects influencing lipid-protein and protein-protein interactions [<xref rid="B12-life-05-00025" ref-type="bibr">12</xref>,<xref rid="B101-life-05-00025" ref-type="bibr">101</xref>]. In salt-shocked cyanobacterial cells, as in other microorganisms, the addition of a large amount of NaCl induces a rapid influx of different ions and the release of water (discussed in the section on ion export). These fluxes and changes in the cytoplasmic composition could possibly serve as a direct signal for the sensing of an acute salt stress situation. It has been shown that several proteins that fulfil crucial functions for basal salt acclimation are directly activated by an increasing NaCl content <italic>in vitro</italic>, whereas the majority of metabolic enzymes are inhibited in the presence of an elevated salt concentration. For example, the K<sup>+</sup> transport system Ktr [<xref rid="B73-life-05-00025" ref-type="bibr">73</xref>] and the key enzyme for GG synthesis GgpS [<xref rid="B41-life-05-00025" ref-type="bibr">41</xref>,<xref rid="B43-life-05-00025" ref-type="bibr">43</xref>] are directly activated by inorganic ions. For GgpS, the mechanism of NaCl-dependent activation has been analyzed in great detail [<xref rid="B102-life-05-00025" ref-type="bibr">102</xref>]. At low salinity, the enzyme is present inside the cell but inactive due to its binding to the phosphate backbone of DNA and possibly RNA. This binding is sequence-independent and can be released by the addition of inorganic ions, preferentially KCl but also NaCl. Thus, the rapid influx of inorganic ions into salt-shocked cells of <italic>Synechocystis</italic> sp. PCC 6803 directly ensures the activation of the GG synthesis machinery. During the further salt acclimation, the internal ion content decreases, leading to a stepwise slowdown of GG accumulation. In fully salt-adapted cells, the increased GgpS level [<xref rid="B103-life-05-00025" ref-type="bibr">103</xref>] resulting from the ion-mediated release of the small repressor protein GgpR from the <italic>ggpS</italic> promoter [<xref rid="B104-life-05-00025" ref-type="bibr">104</xref>] and the salt-stress-proportional slight increase in Na<sup>+</sup> and K<sup>+</sup> guarantee a partially active GgpS pool that is sufficient to produce enough GG in coordination with growth under chronic salt stress [<xref rid="B102-life-05-00025" ref-type="bibr">102</xref>]. Currently it is not clear if this elegant salt titration model also applies to other enzymes/proteins involved in salt acclimation.</p><p>However, there are indications that the ion content could also directly influence the gene expression machinery. For <italic>E. coli</italic>, it has been shown that the promoter selectivity of RNA polymerase changed depending on the K<sup>+</sup>-glutamate content. In the presence of increased amounts of K<sup>+</sup>-glutamate, which is accumulated in <italic>E. coli</italic> cells as a compatible solute in response to salt shock, the isolated RNA polymerase preferred promoters of genes that code for proteins crucial for the salt acclimation, such as those for the transporters of the compatible solutes [<xref rid="B105-life-05-00025" ref-type="bibr">105</xref>]. The specificity of RNA polymerase could also be influenced via alternative sigma factors during the salt stress response in cyanobacteria. It has been shown that the expression of the <italic>ggpS</italic> gene is changed in the <italic>sigF</italic> mutant of <italic>Synechocystis</italic> sp. PCC 6803 leading to a decreased salt tolerance [<xref rid="B103-life-05-00025" ref-type="bibr">103</xref>]. Similar results have been recently reported for the <italic>Synechocystis</italic>
+<italic>sigB</italic> mutant [<xref rid="B106-life-05-00025" ref-type="bibr">106</xref>]. In addition to sigma factors SigF and SigB that are involved in the regulation of salt-specific genes such as <italic>ggps</italic>, all other group 2 sigma factors also might participate in high salt acclimation of the model cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803. This notion is supported by the findings that single, double [<xref rid="B107-life-05-00025" ref-type="bibr">107</xref>], and triple [<xref rid="B108-life-05-00025" ref-type="bibr">108</xref>] mutants of group 2 sigma factors showed decreased growth in high salt stress. Some sigma factor genes (especially <italic>sigB</italic>) also have been detected among the genes differentially expressed in salt-stressed cells of <italic>Synechocystis</italic> sp. PCC 6803 [<xref rid="B70-life-05-00025" ref-type="bibr">70</xref>,<xref rid="B87-life-05-00025" ref-type="bibr">87</xref>,<xref rid="B88-life-05-00025" ref-type="bibr">88</xref>]. Obviously, sigma factor cascades could be involved in the global reprogramming of the cyanobacterial metabolism to make it more tolerant against salt stress, which is a syndrome of many different single stress factors (discussed below in more detail).</p><p>There are additional promising candidates for the sensing and transducing salt stress. Two-component systems, composed of a sensory histidine kinase (Hik) and a corresponding response regulator (Rre) protein acting as a transcriptional activator/repressor, often play important roles in the sensing of chemical and physical signals from the environment in bacteria. Because such systems are involved in salt response of <italic>E. coli</italic>, a Hik mutant library of <italic>Synechocystis</italic> sp. PCC 6803 was screened to see if it shows changes in the global salt-induced transcriptome [<xref rid="B88-life-05-00025" ref-type="bibr">88</xref>]. This study identified four histidine kinases, Hik16, Hik34, Hik33 and Hik41, that are somehow involved in the transduction of salt stress signals because approximately 20% of salt-inducible genes were not further salt-stimulated in these mutants. Subsequently, the corresponding Rre&#x02019;s were identified [<xref rid="B109-life-05-00025" ref-type="bibr">109</xref>]. However, none of the deregulated genes codes for proteins with salt-specific and/or essential functions such as <italic>ggpS</italic>. The majority of the affected genes code for proteins belonging to a large group of general stress proteins, such as proteins induced after ROS generation, high-light, or heat stress. It is also noteworthy that none of the investigated <italic>hik</italic> mutants showed decreased salt tolerance. Hik33, a putative salt-stress sensor, probably senses redox changes and was proposed to be located in the cyanobacterial thylakoid membrane. A <italic>hik33</italic> mutant was recently investigated regarding salt-induced changes in the proteome [<xref rid="B110-life-05-00025" ref-type="bibr">110</xref>]. This study showed that a substantial rearrangement in the plasma membrane proteome occurs in <italic>Synechocystis</italic> sp. PCC 6803 after salt shock. However, other two-component systems still are promising candidates to study the regulation of genes essential for salt acclimation. A mutant of <italic>Nostoc</italic> (<italic>Anabaena</italic>) sp. PCC 7120 defective in the <italic>rre</italic> gene was found to be osmo-stress-sensitive [<xref rid="B111-life-05-00025" ref-type="bibr">111</xref>]. This Rre, called OrrA, regulates the salt-stimulated sucrose synthesis. Mutants defective in <italic>orrA</italic> accumulated less sucrose, whereas the <italic>orrA</italic> overexpression resulted in higher sucrose levels [<xref rid="B112-life-05-00025" ref-type="bibr">112</xref>]. Recently, a <italic>slr1558</italic> mutant of <italic>Synechocystis</italic> sp. PCC 6803 encoding for an OmpR-type Rre was found to be salt-sensitive and showed an altered expression of <italic>ggpS</italic> [<xref rid="B113-life-05-00025" ref-type="bibr">113</xref>]. There are also reports indicating that protein phosphorylation and inositol monophosphate (IMP) could be involved in the signal transduction of the cyanobacterial salt stress response as has been reported for other organisms. Mutants with disrupted genes for the protein kinase SpkG in <italic>Synechocystis</italic> sp. PCC 6803 [<xref rid="B114-life-05-00025" ref-type="bibr">114</xref>] and an IMP phosphatase of <italic>Nostoc</italic> (<italic>Anabaena</italic>) sp. PCC 7120 [<xref rid="B115-life-05-00025" ref-type="bibr">115</xref>] showed decreased tolerances to salt and osmotic stress, respectively.</p><p>However, despite the many facets of potential mechanisms and players in the regulation of the salt stress response, a clear, unifying picture is not yet available. A possible reason for this difficulty might be that the acclimation toward salt stress comprises several specific responses to stresses such as high amounts of cations or anions, lack of water, membrane tension changes, increased ROS production due to a redox imbalance, <italic>etc.</italic> Thus, it will become very important to distinguish between salt-specific or more general stress responses and the involved signaling pathways. A better understanding of these mechanisms will also support the biotechnological use of cyanobacteria in saline systems. For example, it would be beneficial to couple product-specific enzymes to the salt response of the cells to increase the genetic stability of producer strains.</p></sec><sec><title>6. Salt Stress and Synthesis of Biotechnological Products</title><p>Developments regarding sustainable energy and new products beneficial to society are important factors to decrease the progress of climate change and to reduce the dependence on fossil fuels. Cyanobacteria harvest solar energy via photosynthesis and convert CO<sub>2</sub> to organic matter. This ability has been previously used to design production strains for multiple biofuels or chemical feedstocks. The natural diversity of cyanobacteria includes species that show extreme environmental tolerance and are able to grow in areas inhospitable to crops. As briefly mentioned previously, future mass cultivation of cyanobacteria for biotechnology will certainly be performed in seawater [<xref rid="B116-life-05-00025" ref-type="bibr">116</xref>], because freshwater resources are limited and must be used for drinking water and agricultural irrigation [<xref rid="B117-life-05-00025" ref-type="bibr">117</xref>]. Therefore, optimal future producer strains must at least tolerate seawater conditions but likely even higher concentrations of salt because evaporation will quickly increase the external salt concentration in open cultivation systems. However, future cyanobacterial or microalgal cultivation for biotechnological applications is influenced by many additional environmental factors, such as temperature, light, nutrients, and pH [<xref rid="B118-life-05-00025" ref-type="bibr">118</xref>,<xref rid="B119-life-05-00025" ref-type="bibr">119</xref>,<xref rid="B120-life-05-00025" ref-type="bibr">120</xref>]. Among the present widely used and well-analyzed model strains, <italic>Synechococcus</italic> sp. PCC 7002 seems to be the best suited for this purpose because it can grow well even in salt concentrations twice that of seawater [<xref rid="B90-life-05-00025" ref-type="bibr">90</xref>], and the strain shows high resistance towards high light conditions and high temperatures [<xref rid="B121-life-05-00025" ref-type="bibr">121</xref>].</p><p>Cultivation in saline media could also have beneficial effects in biofuel production. The autofermentation rates and the product yields could be significantly enhanced by &#x0201c;sodium stress cycling&#x0201d; [<xref rid="B122-life-05-00025" ref-type="bibr">122</xref>]. This strategy combines two cultivation steps. First, the cultivation of <italic>Arthrospira maxima</italic> under high salt conditions was used to achieve an increased carbohydrate content that served as internal compatible solutes. Second, the salt-grown cells were exposed to a hypoosmotic stress to drive catabolism of the previously accumulated carbohydrate reserves during autofermentation. This combination strategy resulted in a 121-fold higher yield of ethanol production at a high salt concentration compared to a lower salt concentration [<xref rid="B122-life-05-00025" ref-type="bibr">122</xref>]. However, the compatible solutes sucrose and GG were found to be less effective substrates for autofermentation than glycogen in the cyanobacterium <italic>Synechococcus</italic> sp. PCC 7002 [<xref rid="B123-life-05-00025" ref-type="bibr">123</xref>]. The compatible solute itself may be an interesting (by)product from cyanobacterial cells cultivated at high salinity, because these compounds have interesting biological features [<xref rid="B34-life-05-00025" ref-type="bibr">34</xref>,<xref rid="B35-life-05-00025" ref-type="bibr">35</xref>,<xref rid="B40-life-05-00025" ref-type="bibr">40</xref>]. These compounds are sold as extremolytes for pharmaceutical and cosmetic applications [<xref rid="B124-life-05-00025" ref-type="bibr">124</xref>]. Thus, cyanobacteria could be used as &#x0201c;cellular factories&#x0201d; for the production of compatible solutes that are accumulated in response to salt stress. Recently, an efficient production system for sucrose was described using the cyanobacterium <italic>Synechococcus elongates</italic> PCC 7942 [<xref rid="B66-life-05-00025" ref-type="bibr">66</xref>]. Sucrose is a compatible solute that is naturally synthesized (as mentioned above) by many cyanobacteria. The great advantage of a biotechnological production system for sugars such as sucrose is the accumulation of this compound in high concentrations (molar) in the cytoplasm of the cyanobacteria. The expression of an effective export system such as a sucrose permease allows the continuous excretion of sucrose into the medium [<xref rid="B66-life-05-00025" ref-type="bibr">66</xref>]. Then, the biotechnologically interesting compound can be easily and cost-efficiently removed from the growth medium because cell harvesting and subsequent extraction can represent up to 30% of the total production costs [<xref rid="B125-life-05-00025" ref-type="bibr">125</xref>]. Recently, sucrose production was tested with additional cyanobacterial strains. Beside the expression of the sucrose transporter CscB, mutations in competing reactions such as GG synthesis and the overexpression of the sucrose synthesis genes resulted in a considerable increase in the sucrose yield [<xref rid="B126-life-05-00025" ref-type="bibr">126</xref>]. As an alternative to the expression of sugar export proteins, compatible solutes can be easily harvested from salt-acclimated cells after transfer into hypoosmotic media. Under such conditions, the compatible solute pool is almost completely released into the medium [<xref rid="B127-life-05-00025" ref-type="bibr">127</xref>,<xref rid="B128-life-05-00025" ref-type="bibr">128</xref>] to avoid lysing the cells. After immobilization of the cells in alginate, salt-acclimation and hypoosmotic harvest cycles can be repeated several times, resulting in quite high yields of valuable products [<xref rid="B127-life-05-00025" ref-type="bibr">127</xref>,<xref rid="B129-life-05-00025" ref-type="bibr">129</xref>]. Another interesting product from cyanobacteria and microalgae are lipids that can be used as biodiesel. It is known that the lipid content and the lipid composition in cells are influenced by salt stress. Increased salt concentrations raised the lipid content from 60% to 70% in the green algae <italic>Dunaliella tertiolecta</italic> ATCC 30929 [<xref rid="B130-life-05-00025" ref-type="bibr">130</xref>]. Another strategy to improve the yield of biofuels might be a combination of multiple stress factors. The total lipid content of the microalga <italic>Nannochloropsis</italic> sp. was increased by simultaneously applying high light stress and high salinity stress [<xref rid="B131-life-05-00025" ref-type="bibr">131</xref>]. Thus, in addition to the negative influence of high salt concentrations on growth efficiency, cultivation under these conditions might also have positive effects on the amount of product, spectrum and fermentation duration.</p><p>Another application strategy is using the knowledge about cyanobacterial salt stress acclimation to generate more tolerant producer strains for biofuel production. Many genes that are involved in the stress response are well known and can be transferred into less tolerant organisms. The glycine methylation pathway for glycine betaine biosynthesis from <italic>A. halophytica</italic> was transferred and expressed in <italic>Synechococcus elongates,</italic> leading to glycine betaine accumulation and increased salt tolerance. It also could be expressed in the model plant Arabidopsis, where it also improved the growth on salt media [<xref rid="B132-life-05-00025" ref-type="bibr">132</xref>]. Genes for GG biosynthesis were also transferred into Arabidopsis [<xref rid="B133-life-05-00025" ref-type="bibr">133</xref>] and later into potato [<xref rid="B134-life-05-00025" ref-type="bibr">134</xref>], which slightly improved the salt tolerance of the transgenic plants. In addition to genes for compatible solutes, those for general stress proteins might also be useful. Recently, a <italic>Synechocystis</italic> strain overexpressing the <italic>sigB</italic> gene has been generated. This strain not only showed increased temperature tolerance, it was also resistant to rather high amounts of the potential biofuel butanol [<xref rid="B135-life-05-00025" ref-type="bibr">135</xref>]. Another example concerns genes for proper redox regulation, for example, genes coding for a glutathione peroxidase or an ascorbate peroxidase that are involved in scavenging reactive oxygen species (ROS). It has been reported that overexpression of these enzymes improved tolerance to high light stress, low temperature stress and high salinity stress in transgenic plants [<xref rid="B136-life-05-00025" ref-type="bibr">136</xref>,<xref rid="B137-life-05-00025" ref-type="bibr">137</xref>]. Such attempts could also increase the stress tolerance of the cyanobacterial producer and allow cultivation in high salt media, which also prevents the proliferation of invasive species in the photobioreactor.</p></sec><sec><title>7. Conclusions</title><p>The evolution of effective salt-acclimation mechanisms allowed cyanobacteria to colonize habitats that had low to high salt concentrations. For model cyanobacteria, the acclimation strategy is well characterized on the physiological and molecular levels. Three salt-tolerant groups, freshwater, moderately salt-tolerant and halophilic cyanobacteria, have been defined, which differ not only in their ultimate salinity tolerance levels but also in the chemical nature of the major compatible solute. However, among moderately halotolerant cyanobacteria that accumulate GG, marked differences in the maximum salt tolerance were found. This finding indicates that additional processes such as an efficient ion export system contribute significantly to salt resistance. The energetic costs of salt acclimation must be better analyzed because continuous ion pumping, in particular, will limit higher yields of valuable products from salt-stressed cyanobacterial cells. Nevertheless, the accumulated knowledge of salt acclimation from model cyanobacteria can be transferred to cyanobacteria that are not well studied. For example, many cyanobacterial genomes are available in public data bases and could be searched for key genes coding proteins for essential salt acclimation processes such as compatible solute biosynthesis and ion export. However, the application of modern &#x0201c;omics&#x0201d; technologies has revealed that many more genes are clearly salt-regulated. Among them, genes for multiple general stress proteins such as chaperones or enzymes defending the cell against ROS, and participating in cell wall and membrane reorganization have been found. Unfortunately, the signaling and regulation of the cyanobacterial salt stress response is not currently well understood. A possible reason is that salt stress is a highly complex situation characterized by ionic and osmotic stresses and many secondary stresses, such as oxidative stress. Therefore, it is difficult to distinguish between the response to general stress or to the specific salt stress situation. Many players regulating single genes/proteins have been identified and will be used to obtain a more integrated view of salt stress regulation in the near future. A comprehensive understanding of the entire salt-acclimation process would be of great value for the future biotechnological application of cyanobacteria as chemical feedstock and for the production of biofuels or high-value products. Mass cultivation of cyanobacteria for such purposes must be performed using saline water to avoid competition with scarce freshwater resources. Thus, species naturally competent to grow at high salinity that are also light and temperature tolerant will become the most promising starting points to develop cyanobacterial producer strains. We are now equipped with much knowledge, as well as a genetic and analytical toolbox to manipulate and analyze metabolic pathways with high precision. The application of these tools will further improve the application of cyanobacteria and will allow their development as highly efficient and cost-effective production systems as sources of renewable fuel and chemical feedstocks.</p></sec></body><back><ack><title>Acknowledgment</title><p>The work on salt-acclimation of cyanobacteria at Rostock University was supported by grants from the German Research Foundation (DFG) and the work on cyanobacterial biotechnology by a grant of the German Ministry for Education and Research (BMBF, CYANOSYS grant 0316183) to MH. The authors would like to thank all the former members of the Rostock group and the numerous cooperation partners for the fruitful work on salt acclimation of cyanobacteria.</p></ack><notes><title>Author Contributions</title><p>N. Pade and M. Hagemann performed literature search, planned the organization and layout and wrote the manuscript. All authors have read and approved the final manuscript.</p></notes><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-life-05-00025"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tandeau de Marsac</surname><given-names>N.T.</given-names></name><name><surname>Houmard</surname><given-names>J.</given-names></name></person-group>
+<article-title>Adaptation of cyanobacteria to environmental stimuli: New steps toward molecular mechanisms</article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>1993</year>
+<volume>104</volume>
+<fpage>119</fpage>
+<lpage>190</lpage>
+</element-citation></ref><ref id="B2-life-05-00025"><label>2.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Oren</surname><given-names>A.</given-names></name></person-group>
+<article-title>Salts and brines</article-title>
+<source>The Ecology of Cyanobacteria</source>
+<person-group person-group-type="editor"><name><surname>Whitton</surname><given-names>B.A.</given-names></name><name><surname>Potts</surname><given-names>M.</given-names></name></person-group>
+<publisher-name>Kluwer Academic Publishers</publisher-name>
+<publisher-loc>Dordrecht, the Netherlands</publisher-loc>
+<year>2000</year>
+<fpage>281</fpage>
+<lpage>306</lpage>
+</element-citation></ref><ref id="B3-life-05-00025"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ladas</surname><given-names>N.P.</given-names></name><name><surname>Papageorigou</surname><given-names>G.C.</given-names></name></person-group>
+<article-title>Cell turgor: A critical factor for the proliferation of cyanobacteria at unfavorable salinity</article-title>
+<source>Photosynth Res.</source>
+<year>2000</year>
+<volume>65</volume>
+<fpage>155</fpage>
+<lpage>164</lpage>
+<?supplied-pmid 16228482?><pub-id pub-id-type="pmid">16228482</pub-id></element-citation></ref><ref id="B4-life-05-00025"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Galinski</surname><given-names>E.A.</given-names></name><name><surname>Tr&#x000fc;per</surname><given-names>H.G.</given-names></name></person-group>
+<article-title>Microbial behaviour in salt-stressed ecosystems</article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>1994</year>
+<volume>15</volume>
+<fpage>95</fpage>
+<lpage>108</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6976.1994.tb00128.x</pub-id>
+</element-citation></ref><ref id="B5-life-05-00025"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Molecular biology of cyanobacterial salt acclimation</article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>2011</year>
+<volume>35</volume>
+<fpage>87</fpage>
+<lpage>123</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6976.2010.00234.x</pub-id>
+<?supplied-pmid 20618868?><pub-id pub-id-type="pmid">20618868</pub-id></element-citation></ref><ref id="B6-life-05-00025"><label>6.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Oren</surname><given-names>A.</given-names></name></person-group>
+<article-title>The genera Haloanaerobium, Halobacteroides and Sporohalobacter</article-title>
+<source>The Prokaryotes</source>
+<comment>A Handbook on the Biology of Bacteria: Ecophysiology, Isolation, Identification, Applications</comment>
+<person-group person-group-type="editor"><name><surname>Balows</surname><given-names>A.</given-names></name><name><surname>Tr&#x000fc;per</surname><given-names>H.G.</given-names></name><name><surname>Dworkin</surname><given-names>M.</given-names></name><name><surname>Harder</surname><given-names>W.</given-names></name><name><surname>Schleifer</surname><given-names>K.-H.</given-names></name></person-group>
+<publisher-name>Springer</publisher-name>
+<publisher-loc>New York, NY, USA</publisher-loc>
+<year>1993</year>
+<fpage>1983</fpage>
+<lpage>1900</lpage>
+</element-citation></ref><ref id="B7-life-05-00025"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oren</surname><given-names>A.</given-names></name><name><surname>Mana</surname><given-names>L.</given-names></name></person-group>
+<article-title>Amino acid composition of bulk protein and salt relationships of selected enzymes of <italic>Salinibacter ruber</italic>, an extremely halophilic bacterium</article-title>
+<source>Extremophiles</source>
+<year>2002</year>
+<volume>6</volume>
+<fpage>217</fpage>
+<lpage>223</lpage>
+<pub-id pub-id-type="doi">10.1007/s007920100241</pub-id>
+<?supplied-pmid 12072957?><pub-id pub-id-type="pmid">12072957</pub-id></element-citation></ref><ref id="B8-life-05-00025"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oren</surname><given-names>A.</given-names></name></person-group>
+<article-title>Bioenergetic aspects of halophilism</article-title>
+<source>Microbiol. Mol. Biol. Rev.</source>
+<year>1999</year>
+<volume>63</volume>
+<fpage>334</fpage>
+<lpage>348</lpage>
+<?supplied-pmid 10357854?><pub-id pub-id-type="pmid">10357854</pub-id></element-citation></ref><ref id="B9-life-05-00025"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>M&#x000fc;ller</surname><given-names>V.</given-names></name><name><surname>Oren</surname><given-names>A.</given-names></name></person-group>
+<article-title>Metabolism of chloride in halophilic prokaryotes</article-title>
+<source>Extremophiles</source>
+<year>2003</year>
+<volume>7</volume>
+<fpage>261</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="doi">10.1007/s00792-003-0332-9</pub-id>
+<?supplied-pmid 12728360?><pub-id pub-id-type="pmid">12728360</pub-id></element-citation></ref><ref id="B10-life-05-00025"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>A.D.</given-names></name></person-group>
+<article-title>Microbial water stress</article-title>
+<source>Bacteriol. Rev.</source>
+<year>1976</year>
+<volume>40</volume>
+<fpage>803</fpage>
+<lpage>846</lpage>
+<?supplied-pmid 1008746?><pub-id pub-id-type="pmid">1008746</pub-id></element-citation></ref><ref id="B11-life-05-00025"><label>11.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Bremer</surname><given-names>E.</given-names></name><name><surname>Kr&#x000e4;mer</surname><given-names>R.</given-names></name></person-group>
+<article-title>Coping with osmotic challenges: osmoregulation through accumulation and release of compatible solute in bacteria</article-title>
+<source>Bacterial Stress Responses</source>
+<person-group person-group-type="editor"><name><surname>Hengge-Aronis</surname><given-names>R.</given-names></name></person-group>
+<publisher-name>ASM Press</publisher-name>
+<publisher-loc>Washington, DC, USA</publisher-loc>
+<year>2000</year>
+<fpage>79</fpage>
+<lpage>96</lpage>
+</element-citation></ref><ref id="B12-life-05-00025"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wood</surname><given-names>J.</given-names></name></person-group>
+<article-title>Bacterial osmoregulation: a paradigm for the study of cellular homeostasis</article-title>
+<source>Annu. Rev. Microbiol.</source>
+<year>2011</year>
+<volume>65</volume>
+<fpage>215</fpage>
+<lpage>238</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-micro-090110-102815</pub-id>
+<pub-id pub-id-type="pmid">21663439</pub-id></element-citation></ref><ref id="B13-life-05-00025"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kr&#x000e4;mer</surname><given-names>R.</given-names></name></person-group>
+<article-title>Bacterial stimulus perception and signal transduction: Response to osmotic stress</article-title>
+<source>Chem. Rec.</source>
+<year>2010</year>
+<volume>10</volume>
+<fpage>217</fpage>
+<lpage>229</lpage>
+<pub-id pub-id-type="doi">10.1002/tcr.201000005</pub-id>
+<pub-id pub-id-type="pmid">20607761</pub-id></element-citation></ref><ref id="B14-life-05-00025"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kempf</surname><given-names>B.</given-names></name><name><surname>Bremer</surname><given-names>E.</given-names></name></person-group>
+<article-title>Uptake and synthsis of compatible solutes as microbial stress response to high-osmolality environment</article-title>
+<source>Arch. Microbiol.</source>
+<year>1998</year>
+<volume>170</volume>
+<fpage>319</fpage>
+<lpage>330</lpage>
+<pub-id pub-id-type="doi">10.1007/s002030050649</pub-id>
+<pub-id pub-id-type="pmid">9818351</pub-id></element-citation></ref><ref id="B15-life-05-00025"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Potts</surname><given-names>M.</given-names></name></person-group>
+<article-title>Desiccation tolerance of prokaryotes</article-title>
+<source>Microbiol. Rev.</source>
+<year>1994</year>
+<volume>58</volume>
+<fpage>755</fpage>
+<lpage>805</lpage>
+<?supplied-pmid 7854254?><pub-id pub-id-type="pmid">7854254</pub-id></element-citation></ref><ref id="B16-life-05-00025"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kl&#x000e4;hn</surname><given-names>S.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Compatible solute biosynthesis in cyanobacteria</article-title>
+<source>Environ. Microbiol.</source>
+<year>2011</year>
+<volume>13</volume>
+<fpage>551</fpage>
+<lpage>562</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1462-2920.2010.02366.x</pub-id>
+<?supplied-pmid 21054739?><pub-id pub-id-type="pmid">21054739</pub-id></element-citation></ref><ref id="B17-life-05-00025"><label>17.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Genomics of salt acclimation: synthesis of compatible solutes among cyanobacteria</article-title>
+<source>Genomics of Cyanobacteria</source>
+<person-group person-group-type="editor"><name><surname>Chauvat</surname><given-names>F.</given-names></name><name><surname>Cassier-Chauvat</surname><given-names>C.</given-names></name></person-group>
+<publisher-name>Academic Press</publisher-name>
+<publisher-loc>Waltham, MA, USA</publisher-loc>
+<year>2013</year>
+<volume>Volum 65</volume>
+<fpage>27</fpage>
+<lpage>55</lpage>
+</element-citation></ref><ref id="B18-life-05-00025"><label>18.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Pade</surname><given-names>N.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Cyanobacterial salt stress acclimation: genetic manipulation and regulation</article-title>
+<source>Stress Biology of Cyanobacteria: Molecular Mechanisms to Cellular Responses</source>
+<person-group person-group-type="editor"><name><surname>Srivastava</surname><given-names>A.K.</given-names></name><name><surname>Rai</surname><given-names>A.N.</given-names></name><name><surname>Neilan</surname><given-names>B.A.</given-names></name></person-group>
+<publisher-name>CRC Press</publisher-name>
+<publisher-loc>London, UK</publisher-loc>
+<year>2013</year>
+<fpage>189</fpage>
+<lpage>202</lpage>
+</element-citation></ref><ref id="B19-life-05-00025"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arakawa</surname><given-names>T.</given-names></name><name><surname>Timasheff</surname><given-names>S.N.</given-names></name></person-group>
+<article-title>The stabilization of proteins by osmolytes</article-title>
+<source>Biophys. J.</source>
+<year>1985</year>
+<volume>47</volume>
+<fpage>411</fpage>
+<lpage>414</lpage>
+<pub-id pub-id-type="doi">10.1016/S0006-3495(85)83932-1</pub-id>
+<?supplied-pmid 3978211?><pub-id pub-id-type="pmid">3978211</pub-id></element-citation></ref><ref id="B20-life-05-00025"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wood</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Osmosensing by bacteria: Signals and membrane-based sensors</article-title>
+<source>Micobiol. Mol. Biol. Rev.</source>
+<year>1999</year>
+<volume>63</volume>
+<fpage>230</fpage>
+<lpage>262</lpage>
+</element-citation></ref><ref id="B21-life-05-00025"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Poolman</surname><given-names>B.</given-names></name><name><surname>Glaasker</surname><given-names>E.</given-names></name></person-group>
+<article-title>Regulation of compatible solute accumulation in bacteria</article-title>
+<source>Mol. Microbiol.</source>
+<year>1998</year>
+<volume>29</volume>
+<fpage>397</fpage>
+<lpage>407</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-2958.1998.00875.x</pub-id>
+<?supplied-pmid 9720860?><pub-id pub-id-type="pmid">9720860</pub-id></element-citation></ref><ref id="B22-life-05-00025"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reed</surname><given-names>R.H.</given-names></name><name><surname>Borowitzka</surname><given-names>L.J.</given-names></name><name><surname>Mackay</surname><given-names>M.A.</given-names></name><name><surname>Chudek</surname><given-names>J.A.</given-names></name><name><surname>Foster</surname><given-names>R.</given-names></name><name><surname>Warr</surname><given-names>S.R.C.</given-names></name><name><surname>Moore</surname><given-names>D.J.</given-names></name><name><surname>Stewart</surname><given-names>W.D.P.</given-names></name></person-group>
+<article-title>Organic solute accumulation in osmotically stressed cyanobacteria</article-title>
+<source>FEMS Microbiol. Lett.</source>
+<year>1986</year>
+<volume>39</volume>
+<fpage>51</fpage>
+<lpage>56</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6968.1986.tb01842.x</pub-id>
+</element-citation></ref><ref id="B23-life-05-00025"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mackay</surname><given-names>M.A.</given-names></name><name><surname>Norton</surname><given-names>R.S.</given-names></name><name><surname>Borowitzka</surname><given-names>L.J.</given-names></name></person-group>
+<article-title>Organic osmoregulatory solutes in cyanobacteria</article-title>
+<source>J. Gen. Microbiol.</source>
+<year>1984</year>
+<volume>130</volume>
+<fpage>2177</fpage>
+<lpage>2191</lpage>
+</element-citation></ref><ref id="B24-life-05-00025"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singh</surname><given-names>A.K.</given-names></name><name><surname>Chakarvathy</surname><given-names>D.</given-names></name><name><surname>Singh</surname><given-names>T.P.K.</given-names></name><name><surname>Singh</surname><given-names>H.N.</given-names></name></person-group>
+<article-title>Evidence for a role for <sc>l</sc>-proline as a salinity protectant in the cyanobacterium <italic>Nostoc muscorum</italic></article-title>
+<source>Plant Cell Environ.</source>
+<year>1996</year>
+<volume>19</volume>
+<fpage>490</fpage>
+<lpage>494</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-3040.1996.tb00342.x</pub-id>
+</element-citation></ref><ref id="B25-life-05-00025"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Huckauf</surname><given-names>J.</given-names></name><name><surname>Schoor</surname><given-names>A.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Analysis of stress responses in the cyanobacterial strains <italic>Synechococcus</italic> sp. PCC 7942, <italic>Synechocystis</italic> sp. PCC 6803, and <italic>Synechococcus</italic> sp. PCC 7418: Osmolyte accumulation and stress proteins synthesis</article-title>
+<source>J. Plant Physiol.</source>
+<year>1999</year>
+<volume>154</volume>
+<fpage>240</fpage>
+<lpage>249</lpage>
+<pub-id pub-id-type="doi">10.1016/S0176-1617(99)80215-6</pub-id>
+</element-citation></ref><ref id="B26-life-05-00025"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kl&#x000e4;hn</surname><given-names>S.</given-names></name><name><surname>Steglich</surname><given-names>C.</given-names></name><name><surname>Hess</surname><given-names>W.R.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Glucosylglycerate: A secondary compatible solute common to marine cyanobacteria from nitrogen-poor environments</article-title>
+<source>Environ. Microbiol.</source>
+<year>2010</year>
+<volume>12</volume>
+<fpage>83</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1462-2920.2009.02045.x</pub-id>
+<?supplied-pmid 19735283?><pub-id pub-id-type="pmid">19735283</pub-id></element-citation></ref><ref id="B27-life-05-00025"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shih</surname><given-names>P.M.</given-names></name><name><surname>Wu</surname><given-names>D.</given-names></name><name><surname>Latifi</surname><given-names>A.</given-names></name><name><surname>Axen</surname><given-names>S.D.</given-names></name><name><surname>Fewer</surname><given-names>D.P.</given-names></name><name><surname>Talla</surname><given-names>E.</given-names></name><name><surname>Calteau</surname><given-names>A.</given-names></name><name><surname>Cai</surname><given-names>F.</given-names></name><name><surname>Tandeau de Marsac</surname><given-names>N.</given-names></name><name><surname>Rippka</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>Improving the coverage of the cyanobacterial phylum using diversity-driven genome sequencing</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2013</year>
+<volume>110</volume>
+<fpage>1053</fpage>
+<lpage>1058</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1217107110</pub-id>
+<pub-id pub-id-type="pmid">23277585</pub-id></element-citation></ref><ref id="B28-life-05-00025"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hewson</surname><given-names>I.</given-names></name><name><surname>Poretsky</surname><given-names>R.S.</given-names></name><name><surname>Beinart</surname><given-names>R.A.</given-names></name><name><surname>White</surname><given-names>A.E.</given-names></name><name><surname>Shi</surname><given-names>T.</given-names></name><name><surname>Bench</surname><given-names>S.R.</given-names></name><name><surname>Moisander</surname><given-names>P.H.</given-names></name><name><surname>Paerl</surname><given-names>R.W.</given-names></name><name><surname>Tripp</surname><given-names>H.J.</given-names></name><name><surname>Montoya</surname><given-names>J.P.</given-names></name><name><surname>Moran</surname><given-names>M.A.</given-names></name><name><surname>Zehr</surname><given-names>J.P.</given-names></name></person-group>
+<article-title><italic>In situ</italic> transcriptomic analysis of the globally important keystone N<sub>2</sub>-fixing taxon <italic>Crocosphaera watsonii</italic></article-title>
+<source>ISME J</source>
+<year>2009</year>
+<volume>3</volume>
+<fpage>618</fpage>
+<lpage>631</lpage>
+<pub-id pub-id-type="doi">10.1038/ismej.2009.8</pub-id>
+<pub-id pub-id-type="pmid">19225552</pub-id></element-citation></ref><ref id="B29-life-05-00025"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pade</surname><given-names>N.</given-names></name><name><surname>Compaore</surname><given-names>J.</given-names></name><name><surname>Kl&#x000e4;hn</surname><given-names>S.</given-names></name><name><surname>Stal</surname><given-names>L.J.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>The marine cyanobacterium <italic>Crocosphaera watsonii</italic> WH8501 synthesizes the compatible solute trehalose by a laterally acquired OtsAB fusion protein</article-title>
+<source>Environ. Microbiol.</source>
+<year>2012</year>
+<volume>14</volume>
+<fpage>1261</fpage>
+<lpage>1271</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1462-2920.2012.02709.x</pub-id>
+<pub-id pub-id-type="pmid">22404882</pub-id></element-citation></ref><ref id="B30-life-05-00025"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bergman</surname><given-names>B.</given-names></name><name><surname>Sandh</surname><given-names>G.</given-names></name><name><surname>Lin</surname><given-names>S.</given-names></name><name><surname>Larsson</surname><given-names>J.</given-names></name><name><surname>Carpenter</surname><given-names>E.J.</given-names></name></person-group>
+<article-title><italic>Trichodesmium</italic>&#x02014;a widespread marine cyanobacterium with unusual nitrogen fixation properties</article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>2013</year>
+<volume>37</volume>
+<fpage>286</fpage>
+<lpage>302</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6976.2012.00352.x</pub-id>
+<?supplied-pmid 22928644?><pub-id pub-id-type="pmid">22928644</pub-id></element-citation></ref><ref id="B31-life-05-00025"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salerno</surname><given-names>G.L.</given-names></name><name><surname>Porchia</surname><given-names>A.C.</given-names></name><name><surname>Vargas</surname><given-names>W.A.</given-names></name><name><surname>Abdian</surname><given-names>P.L.</given-names></name></person-group>
+<article-title>Fructose-containing oligosaccharides: Novel compatible solutes in <italic>Anabaena</italic> cells exposed to salt stress</article-title>
+<source>Plant Sci.</source>
+<year>2004</year>
+<volume>167</volume>
+<fpage>1003</fpage>
+<lpage>1008</lpage>
+<pub-id pub-id-type="doi">10.1016/j.plantsci.2004.05.029</pub-id>
+</element-citation></ref><ref id="B32-life-05-00025"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fischer</surname><given-names>D.</given-names></name><name><surname>Geyer</surname><given-names>A.</given-names></name><name><surname>Loos</surname><given-names>E.</given-names></name></person-group>
+<article-title>Occurrence of glucosylsucrose [&#x003b1;-<sc>d</sc>-glucopyranosyl-(1&#x02192;2)-&#x003b1;-<sc>d</sc>-glucopyranosyl-(1&#x02192;2)-&#x003b2;-<sc>d</sc>-fructofuranoside] and glucosylated homologues in cyanobacteria: Structural properties, cellular contents and possible function as thermoprotectants</article-title>
+<source>FEBS J.</source>
+<year>2006</year>
+<volume>273</volume>
+<fpage>137</fpage>
+<lpage>149</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1742-4658.2005.05050.x</pub-id>
+<?supplied-pmid 16367754?><pub-id pub-id-type="pmid">16367754</pub-id></element-citation></ref><ref id="B33-life-05-00025"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goh</surname><given-names>F.</given-names></name><name><surname>Barrow</surname><given-names>K.D.</given-names></name><name><surname>Burns</surname><given-names>B.P.</given-names></name><name><surname>Neilan</surname><given-names>B.A.</given-names></name></person-group>
+<article-title>Identification and regulation of novel compatible solutes from hypersaline stromatolite-associated cyanobacteria</article-title>
+<source>Arch. Microbiol.</source>
+<year>2010</year>
+<volume>192</volume>
+<fpage>1031</fpage>
+<lpage>1038</lpage>
+<pub-id pub-id-type="doi">10.1007/s00203-010-0634-0</pub-id>
+<?supplied-pmid 20936259?><pub-id pub-id-type="pmid">20936259</pub-id></element-citation></ref><ref id="B34-life-05-00025"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Borges</surname><given-names>N.</given-names></name><name><surname>Ramos</surname><given-names>A.</given-names></name><name><surname>Raven</surname><given-names>N.D.H.</given-names></name><name><surname>Sharp</surname><given-names>R.J.</given-names></name><name><surname>Santos</surname><given-names>H.</given-names></name></person-group>
+<article-title>Comparative study of the thermostabilizing properties of mannosylglycerate and other compatible solutes on model enzymes</article-title>
+<source>Extremophiles</source>
+<year>2002</year>
+<volume>6</volume>
+<fpage>209</fpage>
+<lpage>216</lpage>
+<pub-id pub-id-type="doi">10.1007/s007920100236</pub-id>
+<?supplied-pmid 12072956?><pub-id pub-id-type="pmid">12072956</pub-id></element-citation></ref><ref id="B35-life-05-00025"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hincha</surname><given-names>D.K.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Stabilization of model membranes during drying by compatible solutes involved in the stress tolerance of plants and microorganisms</article-title>
+<source>Biochem. J.</source>
+<year>2004</year>
+<volume>383</volume>
+<fpage>277</fpage>
+<lpage>283</lpage>
+<pub-id pub-id-type="doi">10.1042/BJ20040746</pub-id>
+<?supplied-pmid 15225123?><pub-id pub-id-type="pmid">15225123</pub-id></element-citation></ref><ref id="B36-life-05-00025"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kandror</surname><given-names>O.</given-names></name><name><surname>DeLeon</surname><given-names>A.</given-names></name><name><surname>Goldberg</surname><given-names>A.L.</given-names></name></person-group>
+<article-title>Trehalose synthesis is induced upon exposure of <italic>Escherichia coli</italic> to cold and is essential for viability at low temperatures</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2002</year>
+<volume>99</volume>
+<fpage>9727</fpage>
+<lpage>9732</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.142314099</pub-id>
+<?supplied-pmid 12105274?><pub-id pub-id-type="pmid">12105274</pub-id></element-citation></ref><ref id="B37-life-05-00025"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jang</surname><given-names>I.C.</given-names></name><name><surname>Oh</surname><given-names>S.J.</given-names></name><name><surname>Seo</surname><given-names>J.S.</given-names></name><name><surname>Choi</surname><given-names>W.B.</given-names></name><name><surname>Song</surname><given-names>S.I.</given-names></name><name><surname>Kim</surname><given-names>C.H.</given-names></name><name><surname>Kim</surname><given-names>Y.S.</given-names></name><name><surname>Seo</surname><given-names>H.S.</given-names></name><name><surname>Choi</surname><given-names>Y.D.</given-names></name><name><surname>Nahm</surname><given-names>B.H.</given-names></name><etal/></person-group>
+<article-title>Expression of a bifunctional fusion of the <italic>Escherichia coli</italic> genes for trehalose-6-phosphate synthase and trehalose-6-phosphate phosphatase in transgenic rice plants increases trehalose accumulation and abiotic stress tolerance without stunting growth</article-title>
+<source>Plant Physiol.</source>
+<year>2003</year>
+<volume>131</volume>
+<fpage>516</fpage>
+<lpage>524</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.007237</pub-id>
+<pub-id pub-id-type="pmid">12586876</pub-id></element-citation></ref><ref id="B38-life-05-00025"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Diamant</surname><given-names>S.</given-names></name><name><surname>Rosenthal</surname><given-names>D.</given-names></name><name><surname>Azem</surname><given-names>A.</given-names></name><name><surname>Eliahu</surname><given-names>N.</given-names></name><name><surname>Ben-Zvi</surname><given-names>A.P.</given-names></name><name><surname>Goloubinoff</surname><given-names>P.</given-names></name></person-group>
+<article-title>Dicarboxylic amino acids and glycine-betaine regulate chaperone-mediated protein-disaggregation under stress</article-title>
+<source>Mol. Microbiol.</source>
+<year>2003</year>
+<volume>49</volume>
+<fpage>401</fpage>
+<lpage>410</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-2958.2003.03553.x</pub-id>
+<?supplied-pmid 12828638?><pub-id pub-id-type="pmid">12828638</pub-id></element-citation></ref><ref id="B39-life-05-00025"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sawangwan</surname><given-names>T.</given-names></name><name><surname>Goedl</surname><given-names>C.</given-names></name><name><surname>Nidetzky</surname><given-names>B.</given-names></name></person-group>
+<article-title>Glucosylglycerol and glucosylglycerate as enzyme stabilizers</article-title>
+<source>Biotechnol. J.</source>
+<year>2010</year>
+<volume>5</volume>
+<fpage>187</fpage>
+<lpage>191</lpage>
+<pub-id pub-id-type="doi">10.1002/biot.200900197</pub-id>
+<?supplied-pmid 19946880?><pub-id pub-id-type="pmid">19946880</pub-id></element-citation></ref><ref id="B40-life-05-00025"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luley-Goedel</surname><given-names>C.</given-names></name><name><surname>Nidetzky</surname><given-names>B.</given-names></name></person-group>
+<article-title>Glycosides as compatible solutes: biosynthesis and applications</article-title>
+<source>Nat. Prod. Rep.</source>
+<year>2011</year>
+<volume>28</volume>
+<fpage>875</fpage>
+<lpage>896</lpage>
+<pub-id pub-id-type="doi">10.1039/c0np00067a</pub-id>
+<?supplied-pmid 21390397?><pub-id pub-id-type="pmid">21390397</pub-id></element-citation></ref><ref id="B41-life-05-00025"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Erdmann</surname><given-names>N.</given-names></name></person-group>
+<article-title>Activation and pathway of glucosylglycerol biosynthesis in the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Microbiology</source>
+<year>1994</year>
+<volume>140</volume>
+<fpage>1427</fpage>
+<lpage>1431</lpage>
+<pub-id pub-id-type="doi">10.1099/00221287-140-6-1427</pub-id>
+</element-citation></ref><ref id="B42-life-05-00025"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Schoor</surname><given-names>A.</given-names></name><name><surname>Jeanjean</surname><given-names>R.</given-names></name><name><surname>Zuther</surname><given-names>E.</given-names></name><name><surname>Joset</surname><given-names>F.</given-names></name></person-group>
+<article-title>The <italic>stpA</italic> gene form <italic>Synechocystis</italic> sp. strain PCC 6803 encodes the glucosylglycerol-phosphate phosphatase involved in cyanobacterial osmotic response to salt shock</article-title>
+<source>J. Bacteriol.</source>
+<year>1997</year>
+<volume>179</volume>
+<fpage>1727</fpage>
+<lpage>1733</lpage>
+<?supplied-pmid 9045835?><pub-id pub-id-type="pmid">9045835</pub-id></element-citation></ref><ref id="B43-life-05-00025"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Zuther</surname><given-names>E.</given-names></name><name><surname>Kerstan</surname><given-names>T.</given-names></name><name><surname>Kunert</surname><given-names>A.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>The <italic>ggpS</italic> gene from <italic>Synechocystis</italic> sp. strain PCC 6803 encoding glucosylglycerol-phosphate synthase is involved in osmolyte synthesis</article-title>
+<source>J. Bacteriol.</source>
+<year>1998</year>
+<volume>180</volume>
+<fpage>4843</fpage>
+<lpage>4849</lpage>
+<pub-id pub-id-type="pmid">9733686</pub-id></element-citation></ref><ref id="B44-life-05-00025"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Porchia</surname><given-names>A.C.</given-names></name><name><surname>Salerno</surname><given-names>G.L.</given-names></name></person-group>
+<article-title>Sucrose biosynthesis in a prokaryotic organism: Presence of two sucrose-phosphate synthases in <italic>Anabaena</italic> with remarkable differences compared with the plant enzymes</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1996</year>
+<volume>93</volume>
+<fpage>13600</fpage>
+<lpage>13604</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.93.24.13600</pub-id>
+<?supplied-pmid 8942980?><pub-id pub-id-type="pmid">8942980</pub-id></element-citation></ref><ref id="B45-life-05-00025"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Higo</surname><given-names>A.</given-names></name><name><surname>Katoh</surname><given-names>H.</given-names></name><name><surname>Ohmori</surname><given-names>K.</given-names></name><name><surname>Ikeuchi</surname><given-names>M.</given-names></name><name><surname>Ohmori</surname><given-names>M.</given-names></name></person-group>
+<article-title>The role of a gene cluster for trehalose metabolism in dehydration tolerance of the filamentous cyanobacterium <italic>Anabaena</italic> sp. PCC 7120</article-title>
+<source>Microbiology</source>
+<year>2006</year>
+<volume>152</volume>
+<fpage>979</fpage>
+<lpage>987</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.28583-0</pub-id>
+<pub-id pub-id-type="pmid">16549662</pub-id></element-citation></ref><ref id="B46-life-05-00025"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waditee</surname><given-names>R.</given-names></name><name><surname>Tanaka</surname><given-names>Y.</given-names></name><name><surname>Aoki</surname><given-names>K.</given-names></name><name><surname>Hibino</surname><given-names>T.</given-names></name><name><surname>Jikuya</surname><given-names>H.</given-names></name><name><surname>Takabe</surname><given-names>T.</given-names></name><name><surname>Takabe</surname><given-names>T.</given-names></name></person-group>
+<article-title>Isolation and functional characterization of N-methyltransferase that catalyze betaine synthesis from glycine in a halotolerant photosynthetic organism <italic>Aphanothece halophytica</italic></article-title>
+<source>J. Biol. Chem.</source>
+<year>2003</year>
+<volume>278</volume>
+<fpage>4932</fpage>
+<lpage>4942</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M210970200</pub-id>
+<?supplied-pmid 12466265?><pub-id pub-id-type="pmid">12466265</pub-id></element-citation></ref><ref id="B47-life-05-00025"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mart&#x000ed;nez-No&#x000eb;l</surname><given-names>G.M.</given-names></name><name><surname>Cumino</surname><given-names>A.C.</given-names></name><name><surname>Kolman</surname><given-names>M.A.</given-names></name><name><surname>Salerno</surname><given-names>G.L.</given-names></name></person-group>
+<article-title>First evidence of sucrose biosynthesis by single cyanobacterial bimodular proteins</article-title>
+<source>FEBS Lett.</source>
+<year>2013</year>
+<volume>587</volume>
+<fpage>1669</fpage>
+<lpage>1674</lpage>
+<pub-id pub-id-type="doi">10.1016/j.febslet.2013.04.012</pub-id>
+<pub-id pub-id-type="pmid">23619081</pub-id></element-citation></ref><ref id="B48-life-05-00025"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kolman</surname><given-names>M.A.</given-names></name><name><surname>Torres</surname><given-names>L.L.</given-names></name><name><surname>Martin</surname><given-names>M.L.</given-names></name><name><surname>Salerno</surname><given-names>G.L.</given-names></name></person-group>
+<article-title>Sucrose synthase in unicellular cyanobacteria and its relationship with salt and hypoxic stress</article-title>
+<source>Planta</source>
+<year>2011</year>
+<volume>235</volume>
+<fpage>955</fpage>
+<lpage>964</lpage>
+<pub-id pub-id-type="doi">10.1007/s00425-011-1542-5</pub-id>
+<?supplied-pmid 22113826?><pub-id pub-id-type="pmid">22113826</pub-id></element-citation></ref><ref id="B49-life-05-00025"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Azua-Bustos</surname><given-names>A.</given-names></name><name><surname>Z&#x000fa;&#x000f1;iga</surname><given-names>J.</given-names></name><name><surname>Arenas-Fajardo</surname><given-names>C.</given-names></name><name><surname>Orellana</surname><given-names>M.</given-names></name><name><surname>Salas</surname><given-names>L.</given-names></name><name><surname>Rafael</surname><given-names>V.</given-names></name></person-group>
+<article-title><italic>Gloeocapsopsis</italic> AAB1, an extremely desiccation-tolerant cyanobacterium isolated from the Atacama Desert</article-title>
+<source>Extremophiles</source>
+<year>2014</year>
+<volume>18</volume>
+<fpage>61</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="doi">10.1007/s00792-013-0592-y</pub-id>
+<?supplied-pmid 24141552?><pub-id pub-id-type="pmid">24141552</pub-id></element-citation></ref><ref id="B50-life-05-00025"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoshikawa</surname><given-names>T.</given-names></name><name><surname>Ikeda</surname><given-names>Y.</given-names></name><name><surname>Sakata</surname><given-names>T.</given-names></name><name><surname>Maeda</surname><given-names>H.</given-names></name></person-group>
+<article-title>Cloning and analysis of the <italic>ggpS</italic> gene from Cyanobacteria <italic>Arthrospira</italic> spp. involved in the synthesis of an osmolyte glucosylglycerol</article-title>
+<source>Biocontrol. Sci.</source>
+<year>2011</year>
+<volume>16</volume>
+<fpage>55</fpage>
+<lpage>61</lpage>
+<pub-id pub-id-type="doi">10.4265/bio.16.55</pub-id>
+<?supplied-pmid 21719990?><pub-id pub-id-type="pmid">21719990</pub-id></element-citation></ref><ref id="B51-life-05-00025"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kothari</surname><given-names>A.</given-names></name><name><surname>Vaughn</surname><given-names>M.</given-names></name><name><surname>Garcia-Pichel</surname><given-names>F.</given-names></name></person-group>
+<article-title>Comparative genomic analyses of the cyanobacterium, <italic>Lyngbya aestuarii</italic> BL J, a powerful hydrogen producer</article-title>
+<source>Front. Microbiol.</source>
+<year>2013</year>
+<volume>4</volume>
+<pub-id pub-id-type="doi">10.3389/fmicb.2013.00363</pub-id>
+</element-citation></ref><ref id="B52-life-05-00025"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mao</surname><given-names>X.</given-names></name><name><surname>Olman</surname><given-names>V.</given-names></name><name><surname>Stuart</surname><given-names>R.</given-names></name><name><surname>Paulsen</surname><given-names>I.T.</given-names></name><name><surname>Palenik</surname><given-names>B.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Computational prediction of the osmoregulation network in <italic>Synechococcus</italic> sp. WH8102</article-title>
+<source>BMC Genomics</source>
+<year>2010</year>
+<volume>11</volume>
+<pub-id pub-id-type="doi">10.1186/1471-2164-11-291</pub-id>
+</element-citation></ref><ref id="B53-life-05-00025"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Csonka</surname><given-names>L.N.</given-names></name><name><surname>Hanson</surname><given-names>A.D.</given-names></name></person-group>
+<article-title>Prokaryotic osmoregulation: genetics and physiology</article-title>
+<source>Annu. Rev. Microbiol.</source>
+<year>1991</year>
+<volume>45</volume>
+<fpage>569</fpage>
+<lpage>606</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev.mi.45.100191.003033</pub-id>
+<pub-id pub-id-type="pmid">1741624</pub-id></element-citation></ref><ref id="B54-life-05-00025"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ziegler</surname><given-names>C.</given-names></name><name><surname>Bremer</surname><given-names>E.</given-names></name><name><surname>Kr&#x000e4;mer</surname><given-names>R.</given-names></name></person-group>
+<article-title>The BCCT family of carriers: from physiology to crystal structure</article-title>
+<source>Mol. Microbiol.</source>
+<year>2010</year>
+<volume>78</volume>
+<fpage>13</fpage>
+<lpage>34</lpage>
+<?supplied-pmid 20923416?><pub-id pub-id-type="pmid">20923416</pub-id></element-citation></ref><ref id="B55-life-05-00025"><label>55.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Pittelkow</surname><given-names>M.</given-names></name><name><surname>Bremer</surname><given-names>E.</given-names></name></person-group>
+<article-title>Cellular adjustment of <italic>Bacillus subtilis</italic> and other bacilli to fluctuating salinities</article-title>
+<source>Halophiles and Hypersaline Environments: Current Research and Future Trends</source>
+<person-group person-group-type="editor"><name><surname>Ventosa</surname><given-names>A.</given-names></name><name><surname>Ohren</surname><given-names>A.</given-names></name><name><surname>Ma</surname><given-names>Y.</given-names></name></person-group>
+<publisher-name>Springer</publisher-name>
+<publisher-loc>Berlin, Germany</publisher-loc>
+<year>2011</year>
+<fpage>275</fpage>
+<lpage>302</lpage>
+</element-citation></ref><ref id="B56-life-05-00025"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lucht</surname><given-names>J.M.</given-names></name><name><surname>Bremer</surname><given-names>E.</given-names></name></person-group>
+<article-title>Adaptation of <italic>Escherichia coli</italic> to high osmolarity environments: Osmoregulation of the high-affinity glycine betaine transport system <italic>ProU</italic></article-title>
+<source>FEMS Microbiol. Rev.</source>
+<year>1995</year>
+<volume>14</volume>
+<fpage>3</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6976.1994.tb00067.x</pub-id>
+<pub-id pub-id-type="pmid">8011357</pub-id></element-citation></ref><ref id="B57-life-05-00025"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moore</surname><given-names>D.J.</given-names></name><name><surname>Reed</surname><given-names>R.H.</given-names></name><name><surname>Stewart</surname><given-names>W.D.P.</given-names></name></person-group>
+<article-title>A glycine betaine transport system in <italic>Aphanothece</italic>
+<italic>halophytica</italic> and other glycine betaine-synthesizing cyanobacteria</article-title>
+<source>Arch. Microbiol.</source>
+<year>1987</year>
+<volume>147</volume>
+<fpage>399</fpage>
+<lpage>405</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00406140</pub-id>
+</element-citation></ref><ref id="B58-life-05-00025"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Laloknam</surname><given-names>S.</given-names></name><name><surname>Tanaka</surname><given-names>K.</given-names></name><name><surname>Buaboocha</surname><given-names>T.</given-names></name><name><surname>Waditee</surname><given-names>R.</given-names></name><name><surname>Incharoensakdi</surname><given-names>A.</given-names></name><name><surname>Hibino</surname><given-names>T.</given-names></name><name><surname>Tanaka</surname><given-names>Y.</given-names></name><name><surname>Takabe</surname><given-names>T.</given-names></name></person-group>
+<article-title>Halotolerant cyanobacterium <italic>Aphanothece halophytica</italic> contains a betaine transporter active at alkaline pH and high salinity</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2006</year>
+<volume>72</volume>
+<fpage>6018</fpage>
+<lpage>6026</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.00733-06</pub-id>
+<?supplied-pmid 16957224?><pub-id pub-id-type="pmid">16957224</pub-id></element-citation></ref><ref id="B59-life-05-00025"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mikkat</surname><given-names>S.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Schoor</surname><given-names>A.</given-names></name></person-group>
+<article-title>Active transport of glucosylglycerol is involved in salt adaptation of the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Arch. Microbiol.</source>
+<year>1996</year>
+<volume>142</volume>
+<fpage>1725</fpage>
+<lpage>1732</lpage>
+<pub-id pub-id-type="doi">10.1099/13500872-142-7-1725</pub-id>
+</element-citation></ref><ref id="B60-life-05-00025"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mikkat</surname><given-names>S.</given-names></name><name><surname>Effmert</surname><given-names>U.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Uptake and use of the osmoprotective compounds trehalose, glucosylglycerol, and sucrose by the cyanobacterium <italic>Synechocystis</italic> sp. PCC6803</article-title>
+<source>Arch. Microbiol.</source>
+<year>1997</year>
+<volume>167</volume>
+<fpage>112</fpage>
+<lpage>118</lpage>
+<pub-id pub-id-type="doi">10.1007/s002030050423</pub-id>
+<?supplied-pmid 9042750?><pub-id pub-id-type="pmid">9042750</pub-id></element-citation></ref><ref id="B61-life-05-00025"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Richter</surname><given-names>S.</given-names></name><name><surname>Mikkat</surname><given-names>S.</given-names></name></person-group>
+<article-title>The <italic>ggtA</italic> gene encodes a subunit of the transport system for the osmoprotective compound glucosylglycerol in <italic>Synechocystis</italic> sp. strain PCC 6803</article-title>
+<source>J. Bacteriol.</source>
+<year>1997</year>
+<volume>179</volume>
+<fpage>714</fpage>
+<lpage>720</lpage>
+<?supplied-pmid 9006025?><pub-id pub-id-type="pmid">9006025</pub-id></element-citation></ref><ref id="B62-life-05-00025"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mikkat</surname><given-names>S.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Molecular analysis of the <italic>ggtBCD</italic> gene cluster of <italic>Synechocystis</italic> sp. Strain PCC6803 encoding subunits of an ABC transporter for osmoprotective compounds</article-title>
+<source>Arch. Microbiol</source>
+<year>2000</year>
+<volume>174</volume>
+<fpage>273</fpage>
+<lpage>282</lpage>
+<pub-id pub-id-type="doi">10.1007/s002030000201</pub-id>
+<?supplied-pmid 11081796?><pub-id pub-id-type="pmid">11081796</pub-id></element-citation></ref><ref id="B63-life-05-00025"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kopf</surname><given-names>M.</given-names></name><name><surname>Kl&#x000e4;hn</surname><given-names>S.</given-names></name><name><surname>Pade</surname><given-names>N.</given-names></name><name><surname>Weing&#x000e4;rtner</surname><given-names>C.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Vo&#x000df;</surname><given-names>B.</given-names></name><name><surname>Hess</surname><given-names>W.R.</given-names></name></person-group>
+<article-title>Comparative genome analysis of the closely related <italic>Synechocystis</italic> strains PCC 6714 and PCC 6803</article-title>
+<source>DNA Res.</source>
+<year>2014</year>
+<volume>21</volume>
+<fpage>255</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="doi">10.1093/dnares/dst055</pub-id>
+<?supplied-pmid 24408876?><pub-id pub-id-type="pmid">24408876</pub-id></element-citation></ref><ref id="B64-life-05-00025"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ferjani</surname><given-names>A.</given-names></name><name><surname>Mustardy</surname><given-names>L.</given-names></name><name><surname>Sulpice</surname><given-names>R.</given-names></name><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name></person-group>
+<article-title>Glucosylglycerol, a compatible solute, sustains cell division under salt stress</article-title>
+<source>Plant Physiol.</source>
+<year>2003</year>
+<volume>131</volume>
+<fpage>1628</fpage>
+<lpage>1637</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.102.017277</pub-id>
+<?supplied-pmid 12692322?><pub-id pub-id-type="pmid">12692322</pub-id></element-citation></ref><ref id="B65-life-05-00025"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horn</surname><given-names>C.</given-names></name><name><surname>Jenewein</surname><given-names>S.</given-names></name><name><surname>Sohn-B&#x000f6;sser</surname><given-names>L.</given-names></name><name><surname>Bremer</surname><given-names>E.</given-names></name><name><surname>Schmitt</surname><given-names>L.</given-names></name></person-group>
+<article-title>Biochemical and structural analysis of the <italic>Bacillus subtilis</italic> ABC transporter OpuA and its isolated subunits</article-title>
+<source>J. Mol. Microbiol. Biotechnol.</source>
+<year>2005</year>
+<volume>10</volume>
+<fpage>76</fpage>
+<lpage>91</lpage>
+<pub-id pub-id-type="doi">10.1159/000091556</pub-id>
+<?supplied-pmid 16645306?><pub-id pub-id-type="pmid">16645306</pub-id></element-citation></ref><ref id="B66-life-05-00025"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ducat</surname><given-names>D.C.</given-names></name><name><surname>Avelar-Rivas</surname><given-names>J.A.</given-names></name><name><surname>Way</surname><given-names>J.C.</given-names></name><name><surname>Silver</surname><given-names>P.A.</given-names></name></person-group>
+<article-title>Rerouting carbon flux to enhance photosynthetic productivity</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2012</year>
+<volume>78</volume>
+<fpage>2660</fpage>
+<lpage>2668</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.07901-11</pub-id>
+<?supplied-pmid 22307292?><pub-id pub-id-type="pmid">22307292</pub-id></element-citation></ref><ref id="B67-life-05-00025"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roder</surname><given-names>A.</given-names></name><name><surname>Hoffmann</surname><given-names>E.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Berg</surname><given-names>G.</given-names></name></person-group>
+<article-title>Synthesis of the compatible solutes glucosylglycerol and trehalose by salt-stressed cells of <italic>Stenotrophomonas</italic> strains</article-title>
+<source>FEMS Microbiol. Lett.</source>
+<year>2005</year>
+<volume>243</volume>
+<fpage>219</fpage>
+<lpage>226</lpage>
+<pub-id pub-id-type="doi">10.1016/j.femsle.2004.12.005</pub-id>
+<pub-id pub-id-type="pmid">15668022</pub-id></element-citation></ref><ref id="B68-life-05-00025"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alavi</surname><given-names>P.</given-names></name><name><surname>Starcher</surname><given-names>M.R.</given-names></name><name><surname>Zachow</surname><given-names>C.</given-names></name><name><surname>M&#x000fc;ller</surname><given-names>H.</given-names></name><name><surname>Berg</surname><given-names>G.</given-names></name></person-group>
+<article-title>Root-microbe systems: The effect and mode of interaction of stress protecting agent (SPA) <italic>Stenotrophomonas rhizophila</italic> DSM14405<sup>T</sup></article-title>
+<source>Front. Plant Sci.</source>
+<year>2013</year>
+<volume>4</volume>
+<pub-id pub-id-type="doi">10.3389/fpls.2013.00141</pub-id>
+<?supplied-pmid 23967005?><pub-id pub-id-type="pmid">23967005</pub-id></element-citation></ref><ref id="B69-life-05-00025"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reed</surname><given-names>R.H.</given-names></name><name><surname>Warr</surname><given-names>S.R.C.</given-names></name><name><surname>Richardson</surname><given-names>D.L.</given-names></name><name><surname>Moore</surname><given-names>D.J.</given-names></name><name><surname>Stewart</surname><given-names>W.D.P.</given-names></name></person-group>
+<article-title>Multiphasic osmotic adjustment in a euryhaline cyanobacterium</article-title>
+<source>FEMS Microbiol. Lett.</source>
+<year>1985</year>
+<volume>28</volume>
+<fpage>225</fpage>
+<lpage>229</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6968.1985.tb00796.x</pub-id>
+</element-citation></ref><ref id="B70-life-05-00025"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Kanesaki</surname><given-names>Y.</given-names></name><name><surname>Los</surname><given-names>D.A.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Gene expression profiling reflects physiological processes in salt acclimation of <italic>Synechocystis</italic> sp. Strain PCC 6803</article-title>
+<source>Plant Physiol.</source>
+<year>2004</year>
+<volume>136</volume>
+<fpage>3290</fpage>
+<lpage>3300</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.104.045047</pub-id>
+<pub-id pub-id-type="pmid">15361582</pub-id></element-citation></ref><ref id="B71-life-05-00025"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blumwald</surname><given-names>E.</given-names></name><name><surname>Mehlhorn</surname><given-names>R.J.</given-names></name><name><surname>Packer</surname><given-names>L.</given-names></name></person-group>
+<article-title>Studies of osmoregulation in salt adaptation of cyanobacteria with ESR spin-probe techniques</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>1983</year>
+<volume>80</volume>
+<fpage>2599</fpage>
+<lpage>2602</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.80.9.2599</pub-id>
+<?supplied-pmid 16593309?><pub-id pub-id-type="pmid">16593309</pub-id></element-citation></ref><ref id="B72-life-05-00025"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shapiguzov</surname><given-names>A.</given-names></name><name><surname>Lyukevich</surname><given-names>A.A.</given-names></name><name><surname>Allakhverdiev</surname><given-names>S.I.</given-names></name><name><surname>Sergeyenko</surname><given-names>T.V.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name><name><surname>Los</surname><given-names>D.A.</given-names></name></person-group>
+<article-title>Osmotic shrinkage of cells of <italic>Synechocystis</italic> sp. PCC 6803 by water efflux via aquaporins regulates osmostress-inducible gene expression</article-title>
+<source>Microbiology</source>
+<year>2005</year>
+<volume>151</volume>
+<fpage>447</fpage>
+<lpage>455</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.27530-0</pub-id>
+<?supplied-pmid 15699194?><pub-id pub-id-type="pmid">15699194</pub-id></element-citation></ref><ref id="B73-life-05-00025"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matsuda</surname><given-names>N.</given-names></name><name><surname>Kobayashi</surname><given-names>H.</given-names></name><name><surname>Katoh</surname><given-names>H.</given-names></name><name><surname>Ogawa</surname><given-names>T.</given-names></name><name><surname>Futatsugi</surname><given-names>L.</given-names></name><name><surname>Nakamura</surname><given-names>T.</given-names></name><name><surname>Bakker</surname><given-names>E.P.</given-names></name><name><surname>Uozumi</surname><given-names>N.</given-names></name></person-group>
+<article-title>Na<sup>+</sup>-dependent K<sup>+</sup> uptake Ktr system from the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803 and its role in the early phases of cell adaptation to hyperosmotic shock</article-title>
+<source>J. Biol. Chem.</source>
+<year>2004</year>
+<volume>279</volume>
+<fpage>54952</fpage>
+<lpage>54962</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M407268200</pub-id>
+<?supplied-pmid 15459199?><pub-id pub-id-type="pmid">15459199</pub-id></element-citation></ref><ref id="B74-life-05-00025"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nanatani</surname><given-names>K.</given-names></name><name><surname>Shijuku</surname><given-names>T.</given-names></name><name><surname>Takano</surname><given-names>Y.</given-names></name><name><surname>Zulkifli</surname><given-names>L.</given-names></name><name><surname>Yamazaki</surname><given-names>T.</given-names></name><name><surname>Tominaga</surname><given-names>A.</given-names></name><name><surname>Souma</surname><given-names>S.</given-names></name><name><surname>Onai</surname><given-names>K.</given-names></name><name><surname>Morishita</surname><given-names>M.</given-names></name><name><surname>Ishiura</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Comparative analysis of <italic>kdp</italic> and <italic>ktr</italic> mutants reveals distinct doles of the potassium transporters in the model cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>J. Bacteriol.</source>
+<year>2014</year>
+<pub-id pub-id-type="doi">10.1128/JB.02276-14</pub-id>
+</element-citation></ref><ref id="B75-life-05-00025"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schubert</surname><given-names>H.</given-names></name><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Effects of adaptation to different salt concentrations on photosynthesis and pigmentation of the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>J. Plant Physiol.</source>
+<year>1993</year>
+<volume>142</volume>
+<fpage>291</fpage>
+<lpage>295</lpage>
+<pub-id pub-id-type="doi">10.1016/S0176-1617(11)80425-6</pub-id>
+</element-citation></ref><ref id="B76-life-05-00025"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Schubert</surname><given-names>H.</given-names></name></person-group>
+<article-title>DNA, RNA and protein synthesis in the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803 adapted to different salt concentrations</article-title>
+<source>Curr. Microbiol.</source>
+<year>1994</year>
+<volume>28</volume>
+<fpage>201</fpage>
+<lpage>207</lpage>
+<pub-id pub-id-type="doi">10.1007/BF01575962</pub-id>
+</element-citation></ref><ref id="B77-life-05-00025"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elanskaya</surname><given-names>I.V.</given-names></name><name><surname>Karandashova</surname><given-names>I.V.</given-names></name><name><surname>Bogachev</surname><given-names>A.V.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Functional analysis of the Na<sup>+</sup>/H<sup>+</sup> antiporter encoding genes of the cyanobacterium <italic>Synechocystis</italic> PCC 6803</article-title>
+<source>Biochemistry (Moscow)</source>
+<year>2002</year>
+<volume>67</volume>
+<fpage>432</fpage>
+<lpage>440</lpage>
+<pub-id pub-id-type="doi">10.1023/A:1015281906254</pub-id>
+<pub-id pub-id-type="pmid">11996656</pub-id></element-citation></ref><ref id="B78-life-05-00025"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>H.L.</given-names></name><name><surname>Postier</surname><given-names>B.L.</given-names></name><name><surname>Burnap</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Polymerase chain reaction-based mutageneses identify key transporters belonging to multigene families involved in Na<sup>+</sup> and pH homeostasis of <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Mol. Microbiol.</source>
+<year>2002</year>
+<volume>44</volume>
+<fpage>1493</fpage>
+<lpage>1506</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-2958.2002.02983.x</pub-id>
+<?supplied-pmid 12067339?><pub-id pub-id-type="pmid">12067339</pub-id></element-citation></ref><ref id="B79-life-05-00025"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsunekawa</surname><given-names>K.</given-names></name><name><surname>Shijuku</surname><given-names>T.</given-names></name><name><surname>Hayashimoto</surname><given-names>M.</given-names></name><name><surname>Kojima</surname><given-names>Y.</given-names></name><name><surname>Onai</surname><given-names>K.</given-names></name><name><surname>Morishita</surname><given-names>M.</given-names></name><name><surname>Ishiura</surname><given-names>M.</given-names></name><name><surname>Kuroda</surname><given-names>T.</given-names></name><name><surname>Nakamura</surname><given-names>T.</given-names></name><name><surname>Kobayashi</surname><given-names>H.</given-names></name><etal/></person-group>
+<article-title>Identification and characterization of the Na<sup>+</sup>/H<sup>+</sup> antiporter Nhas3 from the thylakoid membrane of <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>J. Biol. Chem.</source>
+<year>2009</year>
+<volume>284</volume>
+<fpage>16513</fpage>
+<lpage>16521</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M109.001875</pub-id>
+<pub-id pub-id-type="pmid">19372598</pub-id></element-citation></ref><ref id="B80-life-05-00025"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blanco-Rivero</surname><given-names>A.</given-names></name><name><surname>Legan&#x000e9;s</surname><given-names>F.</given-names></name><name><surname>Fern&#x000e1;ndez-Valiente</surname><given-names>E.</given-names></name><name><surname>Calle</surname><given-names>P.</given-names></name><name><surname>Fern&#x000e1;ndez-Pi&#x000f1;as</surname><given-names>F.</given-names></name></person-group>
+<article-title><italic>mrpA</italic>, a gene with roles in resistance to Na<sup>+</sup> and adaptation to alkaline pH in the cyanobacterium <italic>Anabaena</italic> sp. PCC7120</article-title>
+<source>Microbiology</source>
+<year>2005</year>
+<volume>151</volume>
+<fpage>1671</fpage>
+<lpage>1682</lpage>
+<pub-id pub-id-type="doi">10.1099/mic.0.27848-0</pub-id>
+<?supplied-pmid 15870474?><pub-id pub-id-type="pmid">15870474</pub-id></element-citation></ref><ref id="B81-life-05-00025"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fukaya</surname><given-names>F.</given-names></name><name><surname>Promden</surname><given-names>W.</given-names></name><name><surname>Hibino</surname><given-names>T.</given-names></name><name><surname>Tanaka</surname><given-names>Y.</given-names></name><name><surname>Nakamura</surname><given-names>T.</given-names></name><name><surname>Takabe</surname><given-names>T.</given-names></name></person-group>
+<article-title>An Mrp-like cluster in the halotolerant cyanobacterium <italic>Aphanothece halophytica</italic> functions as a Na<sup>+</sup>/H<sup>+</sup> antiporter</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2009</year>
+<volume>75</volume>
+<fpage>6626</fpage>
+<lpage>6629</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.01387-09</pub-id>
+<pub-id pub-id-type="pmid">19700555</pub-id></element-citation></ref><ref id="B82-life-05-00025"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Soontharapirakkul</surname><given-names>K.</given-names></name><name><surname>Promden</surname><given-names>W.</given-names></name><name><surname>Yamada</surname><given-names>N.</given-names></name><name><surname>Kageyama</surname><given-names>H.</given-names></name><name><surname>Incharoensakdi</surname><given-names>A.</given-names></name><name><surname>Iwamoto-Kihara</surname><given-names>A.</given-names></name><name><surname>Takabe</surname><given-names>T.</given-names></name></person-group>
+<article-title>Halotolerant cyanobacterium <italic>Aphanothece</italic>
+<italic>halophytica</italic> contains an Na<sup>+</sup>-dependent F1F0-ATP synthase with a potential role in salt-stress tolerance</article-title>
+<source>J. Biol. Chem.</source>
+<year>2011</year>
+<volume>286</volume>
+<fpage>10169</fpage>
+<lpage>10176</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M110.208892</pub-id>
+<?supplied-pmid 21262962?><pub-id pub-id-type="pmid">21262962</pub-id></element-citation></ref><ref id="B83-life-05-00025"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jayaram</surname><given-names>H.</given-names></name><name><surname>Robertson</surname><given-names>J.L.</given-names></name><name><surname>Wu</surname><given-names>F.</given-names></name><name><surname>Williams</surname><given-names>C.</given-names></name><name><surname>Miller</surname><given-names>C.</given-names></name></person-group>
+<article-title>Structure of a slow CLC Cl<sup>&#x02212;</sup>/H<sup>+</sup> antiporter from a cyanobacterium</article-title>
+<source>Biochemistry</source>
+<year>2011</year>
+<volume>50</volume>
+<fpage>788</fpage>
+<lpage>794</lpage>
+<pub-id pub-id-type="doi">10.1021/bi1019258</pub-id>
+<?supplied-pmid 21174448?><pub-id pub-id-type="pmid">21174448</pub-id></element-citation></ref><ref id="B84-life-05-00025"><label>84.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berry</surname><given-names>S.</given-names></name><name><surname>Esper</surname><given-names>B.</given-names></name><name><surname>Karandashova</surname><given-names>I.</given-names></name><name><surname>Teuber</surname><given-names>M.</given-names></name><name><surname>Elanskaya</surname><given-names>I.</given-names></name><name><surname>R&#x000f6;gner</surname><given-names>M.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Potassium uptake in the unicellular cyanobacterium <italic>Synechocystis</italic> sp. strain PCC 6803 mainly depends on a Ktr-like system encoded by <italic>slr</italic>1509 (<italic>ntpJ</italic>)</article-title>
+<source>FEBS Lett.</source>
+<year>2003</year>
+<volume>548</volume>
+<fpage>53</fpage>
+<lpage>58</lpage>
+<pub-id pub-id-type="doi">10.1016/S0014-5793(03)00729-4</pub-id>
+<pub-id pub-id-type="pmid">12885407</pub-id></element-citation></ref><ref id="B85-life-05-00025"><label>85.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ballal</surname><given-names>A.</given-names></name><name><surname>Basu</surname><given-names>B.</given-names></name><name><surname>Apte</surname><given-names>S.K.</given-names></name></person-group>
+<article-title>The Kdp-ATPase system and its regulation</article-title>
+<source>J. Biosci.</source>
+<year>2007</year>
+<volume>32</volume>
+<fpage>559</fpage>
+<lpage>568</lpage>
+<pub-id pub-id-type="doi">10.1007/s12038-007-0055-7</pub-id>
+<?supplied-pmid 17536175?><pub-id pub-id-type="pmid">17536175</pub-id></element-citation></ref><ref id="B86-life-05-00025"><label>86.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katoh</surname><given-names>H.</given-names></name><name><surname>Asthana</surname><given-names>R.K.</given-names></name><name><surname>Ohmori</surname><given-names>M.</given-names></name></person-group>
+<article-title>Gene expression in the cyanobacterium <italic>Anabaena</italic> sp. PCC7120 under desiccation</article-title>
+<source>Microb. Ecol.</source>
+<year>2004</year>
+<volume>47</volume>
+<fpage>164</fpage>
+<lpage>174</lpage>
+<pub-id pub-id-type="doi">10.1007/s00248-003-1043-6</pub-id>
+<?supplied-pmid 14749909?><pub-id pub-id-type="pmid">14749909</pub-id></element-citation></ref><ref id="B87-life-05-00025"><label>87.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kanesaki</surname><given-names>Y.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Allakhverdiev</surname><given-names>S.I.</given-names></name><name><surname>Mikami</surname><given-names>K.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name></person-group>
+<article-title>Salt stress and hyperosmotic stress regulate the expression of different sets of genes in <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Biochem. Biophys. Res. Commun.</source>
+<year>2002</year>
+<volume>290</volume>
+<fpage>339</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="doi">10.1006/bbrc.2001.6201</pub-id>
+<pub-id pub-id-type="pmid">11779175</pub-id></element-citation></ref><ref id="B88-life-05-00025"><label>88.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Yamaguchi</surname><given-names>K.</given-names></name><name><surname>Ribbeck</surname><given-names>K.</given-names></name><name><surname>Yamamoto</surname><given-names>H.</given-names></name><name><surname>Kanesaki</surname><given-names>Y.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name></person-group>
+<article-title>Identification of histidine kinases that act as sensors in the perception of salt stress in <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2003</year>
+<volume>100</volume>
+<fpage>9061</fpage>
+<lpage>9066</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1532302100</pub-id>
+<?supplied-pmid 12853569?><pub-id pub-id-type="pmid">12853569</pub-id></element-citation></ref><ref id="B89-life-05-00025"><label>89.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mitschke</surname><given-names>J.</given-names></name><name><surname>Georg</surname><given-names>J.</given-names></name><name><surname>Scholz</surname><given-names>I.</given-names></name><name><surname>Sharma</surname><given-names>C.M.</given-names></name><name><surname>Dienst</surname><given-names>D.</given-names></name><name><surname>Bantscheff</surname><given-names>J.</given-names></name><name><surname>Voss</surname><given-names>B.</given-names></name><name><surname>Steglich</surname><given-names>C.</given-names></name><name><surname>Wilde</surname><given-names>A.</given-names></name><name><surname>Vogel</surname><given-names>J.</given-names></name><name><surname>Hess</surname><given-names>W.R.</given-names></name></person-group>
+<article-title>An experimentally anchored map of transcriptional start sites in the model cyanobacterium <italic>Synechocystis</italic> sp. PCC6803</article-title>
+<source>Proc. Natl Acad Sci USA</source>
+<year>2011</year>
+<volume>108</volume>
+<fpage>2124</fpage>
+<lpage>2129</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1015154108</pub-id>
+<?supplied-pmid 21245330?><pub-id pub-id-type="pmid">21245330</pub-id></element-citation></ref><ref id="B90-life-05-00025"><label>90.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ludwig</surname><given-names>M.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name></person-group>
+<article-title><italic>Synechococcus</italic> sp. strain PCC 7002 transcriptome: acclimation to temperature, salinity, oxidative stress, and mixotrophic growth conditions</article-title>
+<source>Front. Microbiol.</source>
+<year>2012</year>
+<volume>3</volume>
+<pub-id pub-id-type="doi">10.3389/fmicb.2012.00354</pub-id>
+</element-citation></ref><ref id="B91-life-05-00025"><label>91.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schubert</surname><given-names>H.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Salt effect on 77 K fluorescence and photosynthesis in the cyanobacterium <italic>Synechocystis</italic> spec. PCC 6803</article-title>
+<source>FEMS Microbiol. Lett.</source>
+<year>1990</year>
+<volume>71</volume>
+<fpage>169</fpage>
+<lpage>172</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6968.1990.tb03817.x</pub-id>
+</element-citation></ref><ref id="B92-life-05-00025"><label>92.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Qiao</surname><given-names>J.</given-names></name><name><surname>Huang</surname><given-names>S.</given-names></name><name><surname>Te</surname><given-names>R.</given-names></name><name><surname>Wang</surname><given-names>J.</given-names></name><name><surname>Chen</surname><given-names>L.</given-names></name><name><surname>Zhang</surname><given-names>W.</given-names></name></person-group>
+<article-title>Integrated proteomic and transcriptomic analysis reveals novel genes and regulatory mechanisms involved in salt stress responses in <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2013</year>
+<volume>97</volume>
+<fpage>8253</fpage>
+<lpage>8264</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-013-5139-8</pub-id>
+<?supplied-pmid 23925534?><pub-id pub-id-type="pmid">23925534</pub-id></element-citation></ref><ref id="B93-life-05-00025"><label>93.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Billis</surname><given-names>K.</given-names></name><name><surname>Billini</surname><given-names>M.</given-names></name><name><surname>Tripp</surname><given-names>H.J.</given-names></name><name><surname>Kyrpides</surname><given-names>N.C.</given-names></name><name><surname>Mavromatis</surname><given-names>K.</given-names></name></person-group>
+<article-title>Comparative transcriptomics between <italic>Synechococcus</italic> PCC 7942 and <italic>Synechocystis</italic> PCC 6803 provide insights into mechanisms of stress acclimation</article-title>
+<source>PLoS One</source>
+<year>2014</year>
+<volume>9</volume>
+<fpage>e109738</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0109738</pub-id>
+<?supplied-pmid 25340743?><pub-id pub-id-type="pmid">25340743</pub-id></element-citation></ref><ref id="B94-life-05-00025"><label>94.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Huang</surname><given-names>F.</given-names></name><name><surname>Nilsson</surname><given-names>F.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Norling</surname><given-names>B.</given-names></name></person-group>
+<article-title>Proteomics of <italic>Synechocystis</italic> sp. strain PCC 6803 identification of periplasmic proteins in cells grown at low and high salt concentrations</article-title>
+<source>Eur. J. Biochem.</source>
+<year>2000</year>
+<volume>267</volume>
+<fpage>5900</fpage>
+<lpage>5907</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1432-1327.2000.01642.x</pub-id>
+<pub-id pub-id-type="pmid">10998049</pub-id></element-citation></ref><ref id="B95-life-05-00025"><label>95.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>F.</given-names></name><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Norling</surname><given-names>B.</given-names></name></person-group>
+<article-title>Proteomic screening of salt-stress-induced changes in plasma membranes of <italic>Synechocystis</italic> sp. strain PCC 6803</article-title>
+<source>Proteomics</source>
+<year>2006</year>
+<volume>6</volume>
+<fpage>910</fpage>
+<lpage>920</lpage>
+<pub-id pub-id-type="doi">10.1002/pmic.200500114</pub-id>
+<?supplied-pmid 16400685?><pub-id pub-id-type="pmid">16400685</pub-id></element-citation></ref><ref id="B96-life-05-00025"><label>96.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Mikkat</surname><given-names>S.</given-names></name><name><surname>Huang</surname><given-names>F.</given-names></name><name><surname>Huckauf</surname><given-names>J.</given-names></name><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Norling</surname><given-names>B.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Proteome analysis of salt stress response in the cyanobacterium <italic>Synechocystis</italic> sp. strain PCC 6803</article-title>
+<source>Proteomics</source>
+<year>2006</year>
+<volume>6</volume>
+<fpage>2733</fpage>
+<lpage>2745</lpage>
+<pub-id pub-id-type="doi">10.1002/pmic.200500538</pub-id>
+<?supplied-pmid 16572470?><pub-id pub-id-type="pmid">16572470</pub-id></element-citation></ref><ref id="B97-life-05-00025"><label>97.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>H.</given-names></name><name><surname>Yang</surname><given-names>Y.</given-names></name><name><surname>Chen</surname><given-names>W.</given-names></name><name><surname>Ding</surname><given-names>L.</given-names></name><name><surname>Li</surname><given-names>P.</given-names></name><name><surname>Zhao</surname><given-names>X.</given-names></name><name><surname>Wang</surname><given-names>X.</given-names></name><name><surname>Li</surname><given-names>A.</given-names></name><name><surname>Bao</surname><given-names>Q.</given-names></name></person-group>
+<article-title>Identification of differentially expressed proteins of <italic>Arthrospira</italic> (<italic>Spirulina</italic>) <italic>platensis</italic>-YZ under salt-stress conditions by proteomics and qRT-PCR analysis</article-title>
+<source>Proteome Sci.</source>
+<year>2013</year>
+<volume>11</volume>
+<pub-id pub-id-type="doi">10.1186/1477-5956-11-6</pub-id>
+<?supplied-pmid 23617947?><pub-id pub-id-type="pmid">23617947</pub-id></element-citation></ref><ref id="B98-life-05-00025"><label>98.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Qiao</surname><given-names>J.</given-names></name><name><surname>Shao</surname><given-names>M.</given-names></name><name><surname>Chen</surname><given-names>L.</given-names></name><name><surname>Wang</surname><given-names>J.</given-names></name><name><surname>Wu</surname><given-names>G.</given-names></name><name><surname>Tian</surname><given-names>X.</given-names></name><name><surname>Liu</surname><given-names>J.</given-names></name><name><surname>Huang</surname><given-names>S.</given-names></name><name><surname>Zhang</surname><given-names>W.</given-names></name></person-group>
+<article-title>Systematic characterization of hypothetical proteins in <italic>Synechocystis</italic> sp. PCC 6803 reveals proteins functionally relevant to stress responses</article-title>
+<source>Gene</source>
+<year>2013</year>
+<volume>512</volume>
+<fpage>6</fpage>
+<lpage>15</lpage>
+<pub-id pub-id-type="doi">10.1016/j.gene.2012.10.004</pub-id>
+<?supplied-pmid 23063937?><pub-id pub-id-type="pmid">23063937</pub-id></element-citation></ref><ref id="B99-life-05-00025"><label>99.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rai</surname><given-names>S.</given-names></name><name><surname>Agrawal</surname><given-names>C.</given-names></name><name><surname>Shrivastava</surname><given-names>A.K.</given-names></name><name><surname>Singh</surname><given-names>P.K.</given-names></name><name><surname>Rai</surname><given-names>L.C.</given-names></name></person-group>
+<article-title>Comparative proteomics unveils cross species variations in <italic>Anabaena</italic> under salt stress</article-title>
+<source>J. Proteomics</source>
+<year>2014</year>
+<volume>98</volume>
+<fpage>254</fpage>
+<lpage>270</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jprot.2013.12.020</pub-id>
+<?supplied-pmid 24406298?><pub-id pub-id-type="pmid">24406298</pub-id></element-citation></ref><ref id="B100-life-05-00025"><label>100.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rai</surname><given-names>S.</given-names></name><name><surname>Singh</surname><given-names>S.</given-names></name><name><surname>Shrivastava</surname><given-names>A.K.</given-names></name><name><surname>Rai</surname><given-names>L.C.</given-names></name></person-group>
+<article-title>Salt and UV-B induced changes in <italic>Anabaena</italic> PCC 7120: Physiological, proteomic and bioinformatic perspectives</article-title>
+<source>Photosynth. Res.</source>
+<year>2013</year>
+<volume>118</volume>
+<fpage>105</fpage>
+<lpage>114</lpage>
+<pub-id pub-id-type="doi">10.1007/s11120-013-9931-1</pub-id>
+<?supplied-pmid 24113924?><pub-id pub-id-type="pmid">24113924</pub-id></element-citation></ref><ref id="B101-life-05-00025"><label>101.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Poolman</surname><given-names>B.</given-names></name><name><surname>Spitzer</surname><given-names>J.J.</given-names></name><name><surname>Wood</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Bacterial osmosensing: roles of membrane structure and electrostatics in lipid-protein and protein-protein interactions</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2004</year>
+<volume>1666</volume>
+<fpage>88</fpage>
+<lpage>104</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bbamem.2004.06.013</pub-id>
+<?supplied-pmid 15519310?><pub-id pub-id-type="pmid">15519310</pub-id></element-citation></ref><ref id="B102-life-05-00025"><label>102.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Novak</surname><given-names>J.F.</given-names></name><name><surname>Stirnberg</surname><given-names>M.</given-names></name><name><surname>Roenneke</surname><given-names>B.</given-names></name><name><surname>Marin</surname><given-names>K.</given-names></name></person-group>
+<article-title>A novel mechanism of osmosensing, a salt-dependent protein-nucleic acid interaction in the cyanobacterium <italic>Synechocystis</italic> species PCC 6803</article-title>
+<source>J. Biol Chem</source>
+<year>2011</year>
+<volume>286</volume>
+<fpage>3235</fpage>
+<lpage>3241</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M110.157032</pub-id>
+<pub-id pub-id-type="pmid">21123179</pub-id></element-citation></ref><ref id="B103-life-05-00025"><label>103.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marin</surname><given-names>K.</given-names></name><name><surname>Huckauf</surname><given-names>J.</given-names></name><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Salt-dependent expression of glucosylglycerol-phosphate synthase, involved in osmolyte synthesis in the cyanobacterium <italic>Synechocystis</italic> sp. strain PCC 6803</article-title>
+<source>J. Bacteriol.</source>
+<year>2002</year>
+<volume>184</volume>
+<fpage>2870</fpage>
+<lpage>2877</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.184.11.2870-2877.2002</pub-id>
+<?supplied-pmid 12003926?><pub-id pub-id-type="pmid">12003926</pub-id></element-citation></ref><ref id="B104-life-05-00025"><label>104.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kl&#x000e4;hn</surname><given-names>S.</given-names></name><name><surname>H&#x000f6;hne</surname><given-names>A.</given-names></name><name><surname>Simon</surname><given-names>E.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>The gene <italic>ssl3076</italic> encodes a protein mediating the salt-induced expression of <italic>ggpS</italic> for the biosynthesis of the compatible solute glucosylglycerol in <italic>Synechocystis</italic> sp. strain PCC 6803</article-title>
+<source>J. Bacteriol.</source>
+<year>2010</year>
+<volume>192</volume>
+<fpage>4403</fpage>
+<lpage>4412</lpage>
+<pub-id pub-id-type="doi">10.1128/JB.00481-10</pub-id>
+<?supplied-pmid 20601470?><pub-id pub-id-type="pmid">20601470</pub-id></element-citation></ref><ref id="B105-life-05-00025"><label>105.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gralla</surname><given-names>J.D.</given-names></name><name><surname>Vargas</surname><given-names>D.R.</given-names></name></person-group>
+<article-title>Potassium glutamate as a transcriptional inhibitor during bacterial osmoregulation</article-title>
+<source>EMBO J.</source>
+<year>2006</year>
+<volume>25</volume>
+<fpage>1515</fpage>
+<lpage>1521</lpage>
+<?supplied-pmid 16541105?><pub-id pub-id-type="pmid">16541105</pub-id></element-citation></ref><ref id="B106-life-05-00025"><label>106.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nikkinen</surname><given-names>H.L.</given-names></name><name><surname>Hakkila</surname><given-names>K.</given-names></name><name><surname>Gunnelius</surname><given-names>L.</given-names></name><name><surname>Huokko</surname><given-names>T.</given-names></name><name><surname>Pollari</surname><given-names>M.</given-names></name><name><surname>Tyystj&#x000e4;rvi</surname><given-names>T.</given-names></name></person-group>
+<article-title>The SigB &#x003c3; factor regulates multiple salt acclimation responses of the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Plant Physiol.</source>
+<year>2012</year>
+<volume>158</volume>
+<fpage>514</fpage>
+<lpage>523</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.111.190058</pub-id>
+<?supplied-pmid 22095043?><pub-id pub-id-type="pmid">22095043</pub-id></element-citation></ref><ref id="B107-life-05-00025"><label>107.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pollari</surname><given-names>M.</given-names></name><name><surname>Gunnelius</surname><given-names>L.</given-names></name><name><surname>Tuominen</surname><given-names>I.</given-names></name><name><surname>Ruotsalainen</surname><given-names>V.</given-names></name><name><surname>Tyystj&#x000e4;rvi</surname><given-names>E.</given-names></name><name><surname>Salminen</surname><given-names>T.</given-names></name><name><surname>Tyystj&#x000e4;rvi</surname><given-names>T.</given-names></name></person-group>
+<article-title>Characterization of single and double inactivation strains reveals new physiological roles for group 2 sigma factors in the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Plant Physiol.</source>
+<year>2008</year>
+<volume>147</volume>
+<fpage>1994</fpage>
+<lpage>2005</lpage>
+<pub-id pub-id-type="doi">10.1104/pp.108.122713</pub-id>
+<?supplied-pmid 18539776?><pub-id pub-id-type="pmid">18539776</pub-id></element-citation></ref><ref id="B108-life-05-00025"><label>108.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tyystj&#x000e4;rvi</surname><given-names>T.</given-names></name><name><surname>Huokko</surname><given-names>T.</given-names></name><name><surname>Rantam&#x000e4;ki</surname><given-names>S.</given-names></name><name><surname>Tyystj&#x000e4;rvi</surname><given-names>E.</given-names></name></person-group>
+<article-title>Impact of different group 2 sigma factors on light use efficiency and high salt stress in the cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>PLoS One</source>
+<year>2013</year>
+<volume>8</volume>
+<fpage>e63020</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0063020</pub-id>
+<?supplied-pmid 23638176?><pub-id pub-id-type="pmid">23638176</pub-id></element-citation></ref><ref id="B109-life-05-00025"><label>109.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shoumskaya</surname><given-names>M.A.</given-names></name><name><surname>Paithoonrangsarid</surname><given-names>K.</given-names></name><name><surname>Kanesaki</surname><given-names>Y.</given-names></name><name><surname>Los</surname><given-names>D.A.</given-names></name><name><surname>Zinchenko</surname><given-names>V.V.</given-names></name><name><surname>Tanticharoen</surname><given-names>M.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name></person-group>
+<article-title>Identical Hik-Rre systems are involved in perception and transduction of salt signals and hyperosmotic signals but regulate the expression of individual genes to different extents in <italic>Synechocystis</italic></article-title>
+<source>J. Biol. Chem.</source>
+<year>2005</year>
+<volume>280</volume>
+<fpage>21531</fpage>
+<lpage>21538</lpage>
+<pub-id pub-id-type="pmid">15805106</pub-id></element-citation></ref><ref id="B110-life-05-00025"><label>110.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>T.</given-names></name><name><surname>Yang</surname><given-names>H.M.</given-names></name><name><surname>Cui</surname><given-names>S.X.</given-names></name><name><surname>Suzuki</surname><given-names>I.</given-names></name><name><surname>Zhang</surname><given-names>L.F.</given-names></name><name><surname>Li</surname><given-names>L.</given-names></name><name><surname>Bo</surname><given-names>T.T.</given-names></name><name><surname>Wang</surname><given-names>J.</given-names></name><name><surname>Murata</surname><given-names>N.</given-names></name><name><surname>Huang</surname><given-names>F.</given-names></name></person-group>
+<article-title>Proteomic study of the impact of Hik33 mutation in <italic>Synechocystis</italic> sp. PCC 6803 under normal and salt stress conditions</article-title>
+<source>J. Proteome Res.</source>
+<year>2012</year>
+<volume>11</volume>
+<fpage>502</fpage>
+<lpage>514</lpage>
+<pub-id pub-id-type="doi">10.1021/pr200811s</pub-id>
+<?supplied-pmid 22050404?><pub-id pub-id-type="pmid">22050404</pub-id></element-citation></ref><ref id="B111-life-05-00025"><label>111.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwartz</surname><given-names>S.H.</given-names></name><name><surname>Black</surname><given-names>T.A.</given-names></name><name><surname>J&#x000e4;ger</surname><given-names>K.</given-names></name><name><surname>Panoff</surname><given-names>J.M.</given-names></name><name><surname>Wolk</surname><given-names>C.P.</given-names></name></person-group>
+<article-title>Regulation of an osmoticum-responsive gene in <italic>Anabaena</italic> sp. strain PCC 7120</article-title>
+<source>J. Bacteriol.</source>
+<year>1998</year>
+<volume>180</volume>
+<fpage>6332</fpage>
+<lpage>6337</lpage>
+<pub-id pub-id-type="pmid">9829944</pub-id></element-citation></ref><ref id="B112-life-05-00025"><label>112.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ehira</surname><given-names>S.</given-names></name><name><surname>Kimura</surname><given-names>S.</given-names></name><name><surname>Miyazaki</surname><given-names>S.</given-names></name><name><surname>Ohmori</surname><given-names>M.</given-names></name></person-group>
+<article-title>Sucrose synthesis in the nitrogen-fixing cyanobacterium <italic>Anabaena</italic> sp. strain PCC 7120 is controlled by the two-component response regulator OrrA</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2014</year>
+<volume>80</volume>
+<fpage>5672</fpage>
+<lpage>5679</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.01501-14</pub-id>
+<pub-id pub-id-type="pmid">25002430</pub-id></element-citation></ref><ref id="B113-life-05-00025"><label>113.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>L.</given-names></name><name><surname>Wu</surname><given-names>L.</given-names></name><name><surname>Zhu</surname><given-names>Y.</given-names></name><name><surname>Song</surname><given-names>Z.</given-names></name><name><surname>Wang</surname><given-names>J.</given-names></name><name><surname>Zhang</surname><given-names>W.</given-names></name></person-group>
+<article-title>An orphan two-component response regulator Slr1588 involves salt tolerance by directly regulating synthesis of compatible solutes in photosynthetic <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>Mol. Biosyst.</source>
+<year>2014</year>
+<volume>10</volume>
+<fpage>1765</fpage>
+<lpage>1774</lpage>
+<pub-id pub-id-type="doi">10.1039/c4mb00095a</pub-id>
+<?supplied-pmid 24718497?><pub-id pub-id-type="pmid">24718497</pub-id></element-citation></ref><ref id="B114-life-05-00025"><label>114.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liang</surname><given-names>C.</given-names></name><name><surname>Zhang</surname><given-names>X.</given-names></name><name><surname>Chi</surname><given-names>X.</given-names></name><name><surname>Guan</surname><given-names>X.</given-names></name><name><surname>Li</surname><given-names>Y.</given-names></name><name><surname>Qin</surname><given-names>S.</given-names></name><name><surname>Shao</surname><given-names>H.B.</given-names></name></person-group>
+<article-title>Serine/threonine protein kinase SpkG is a candidate for high salt resistance in the unicellular cyanobacterium <italic>Synechocystis</italic> sp. PCC 6803</article-title>
+<source>PLoS One</source>
+<year>2011</year>
+<volume>6</volume>
+<fpage>e18718</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0018718</pub-id>
+<?supplied-pmid 21637338?><pub-id pub-id-type="pmid">21637338</pub-id></element-citation></ref><ref id="B115-life-05-00025"><label>115.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>F.K.</given-names></name><name><surname>Latifi</surname><given-names>A.</given-names></name><name><surname>Chen</surname><given-names>W.L.</given-names></name><name><surname>Zhang</surname><given-names>C.C.</given-names></name></person-group>
+<article-title>The inositol monophosphatase All2917 (IMPA1) is involved in osmotic adaptation in <italic>Anabaena</italic> sp. PCC7120</article-title>
+<source>Environ. Microbiol. Rep.</source>
+<year>2012</year>
+<volume>4</volume>
+<fpage>622</fpage>
+<lpage>632</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1758-2229.2011.00324.x</pub-id>
+<?supplied-pmid 23760933?><pub-id pub-id-type="pmid">23760933</pub-id></element-citation></ref><ref id="B116-life-05-00025"><label>116.</label><element-citation publication-type="webpage">
+<article-title>Algenol Biofuels</article-title>
+<comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://www.algenol.com/">http://www.algenol.com/</ext-link></comment>
+<date-in-citation>(accessed on 23 December 2014)</date-in-citation>
+</element-citation></ref><ref id="B117-life-05-00025"><label>117.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chisti</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Constraints to commercialization of algal fuels</article-title>
+<source>J. Biotechnol.</source>
+<year>2013</year>
+<volume>167</volume>
+<fpage>201</fpage>
+<lpage>214</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jbiotec.2013.07.020</pub-id>
+<?supplied-pmid 23886651?><pub-id pub-id-type="pmid">23886651</pub-id></element-citation></ref><ref id="B118-life-05-00025"><label>118.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guschina</surname><given-names>I.A.</given-names></name><name><surname>Harwood</surname><given-names>J.L.</given-names></name></person-group>
+<article-title>Lipids and lipid metabolism in eukaryotic algae</article-title>
+<source>Prog. Lipid Res.</source>
+<year>2006</year>
+<volume>45</volume>
+<fpage>160</fpage>
+<lpage>186</lpage>
+<pub-id pub-id-type="doi">10.1016/j.plipres.2006.01.001</pub-id>
+<?supplied-pmid 16492482?><pub-id pub-id-type="pmid">16492482</pub-id></element-citation></ref><ref id="B119-life-05-00025"><label>119.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hu</surname><given-names>Q.</given-names></name><name><surname>Sommerfeld</surname><given-names>M.</given-names></name><name><surname>Jarvis</surname><given-names>E.</given-names></name><name><surname>Ghirardi</surname><given-names>M.</given-names></name><name><surname>Posewitz</surname><given-names>M.</given-names></name><name><surname>Seibert</surname><given-names>M.</given-names></name><name><surname>Darzins</surname><given-names>A.</given-names></name></person-group>
+<article-title>Microalgal triacylglycerols as feedstocks for biofuel production: perspectives and advances</article-title>
+<source>Plant J.</source>
+<year>2008</year>
+<volume>54</volume>
+<fpage>621</fpage>
+<lpage>639</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-313X.2008.03492.x</pub-id>
+<?supplied-pmid 18476868?><pub-id pub-id-type="pmid">18476868</pub-id></element-citation></ref><ref id="B120-life-05-00025"><label>120.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Singh</surname><given-names>N.K.</given-names></name><name><surname>Dhar</surname><given-names>D.W.</given-names></name></person-group>
+<article-title>Microalgae as second generation biofuel. A review</article-title>
+<source>Agron. Sustain. Dev.</source>
+<year>2011</year>
+<volume>31</volume>
+<fpage>605</fpage>
+<lpage>629</lpage>
+<pub-id pub-id-type="doi">10.1007/s13593-011-0018-0</pub-id>
+</element-citation></ref><ref id="B121-life-05-00025"><label>121.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bernstein</surname><given-names>H.C.</given-names></name><name><surname>Konopka</surname><given-names>A.</given-names></name><name><surname>Melnicki</surname><given-names>M.R.</given-names></name><name><surname>Hill</surname><given-names>E.A.</given-names></name><name><surname>Kucek</surname><given-names>L.A.</given-names></name><name><surname>Zhang</surname><given-names>S.</given-names></name><name><surname>Shen</surname><given-names>G.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name><name><surname>Beliaev</surname><given-names>A.S.</given-names></name></person-group>
+<article-title>Effect of mono- and dichromatic light quality on growth rates and photosynthetic performance of <italic>Synechococcus</italic> sp. PCC 7002</article-title>
+<source>Front. Microbiol.</source>
+<year>2014</year>
+<volume>5</volume>
+<pub-id pub-id-type="doi">10.3389/fmicb.2014.00488</pub-id>
+<?supplied-pmid 25374564?><pub-id pub-id-type="pmid">25374564</pub-id></element-citation></ref><ref id="B122-life-05-00025"><label>122.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carrieri</surname><given-names>D.</given-names></name><name><surname>Momot</surname><given-names>D.</given-names></name><name><surname>Brasg</surname><given-names>I.A.</given-names></name><name><surname>Ananyev</surname><given-names>G.</given-names></name><name><surname>Lenz</surname><given-names>O.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name><name><surname>Dismukes</surname><given-names>G.C.</given-names></name></person-group>
+<article-title>Boosting autofermentation rates and product yields with sodium stress cycling: application to production of renewable fuels by cyanobacteria</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2010</year>
+<volume>76</volume>
+<fpage>6455</fpage>
+<lpage>6462</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.00975-10</pub-id>
+<?supplied-pmid 20693449?><pub-id pub-id-type="pmid">20693449</pub-id></element-citation></ref><ref id="B123-life-05-00025"><label>123.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guerra</surname><given-names>L.T.</given-names></name><name><surname>Xu</surname><given-names>Y.</given-names></name><name><surname>Bennette</surname><given-names>N.</given-names></name><name><surname>McNeely</surname><given-names>K.</given-names></name><name><surname>Bryant</surname><given-names>D.A.</given-names></name><name><surname>Dismukes</surname><given-names>G.C.</given-names></name></person-group>
+<article-title>Natural osmolytes are much less effective substrates than glycogen for catabolic energy production in the marine cyanobacterium <italic>Synechococcus</italic> sp. strain PCC 7002</article-title>
+<source>J. Biotechnol.</source>
+<year>2013</year>
+<volume>166</volume>
+<fpage>65</fpage>
+<lpage>75</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jbiotec.2013.04.005</pub-id>
+<?supplied-pmid 23608552?><pub-id pub-id-type="pmid">23608552</pub-id></element-citation></ref><ref id="B124-life-05-00025"><label>124.</label><element-citation publication-type="webpage">
+<article-title>bitop AG Extremolytes</article-title>
+<comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://www.bitop.de/cms/website.php?id=/en/index/extremolyte.htm">http://www.bitop.de/cms/website.php?id=/en/index/extremolyte.htm</ext-link></comment>
+<date-in-citation>(accessed on 23 December 2014)</date-in-citation>
+</element-citation></ref><ref id="B125-life-05-00025"><label>125.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kovacevic</surname><given-names>V.</given-names></name><name><surname>Wesseler</surname><given-names>J.</given-names></name></person-group>
+<article-title>Cost-effectiveness analysis of algae energy production in the EU</article-title>
+<source>Energy Policy</source>
+<year>2010</year>
+<volume>38</volume>
+<fpage>5749</fpage>
+<lpage>5757</lpage>
+<pub-id pub-id-type="doi">10.1016/j.enpol.2010.05.025</pub-id>
+</element-citation></ref><ref id="B126-life-05-00025"><label>126.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Du</surname><given-names>W.</given-names></name><name><surname>Liang</surname><given-names>F.</given-names></name><name><surname>Duan</surname><given-names>Y.</given-names></name><name><surname>Tan</surname><given-names>X.</given-names></name><name><surname>Lu</surname><given-names>X.</given-names></name></person-group>
+<article-title>Exploring the photosynthetic production capacity of sucrose by cyanobacteria</article-title>
+<source>Metab. Eng.</source>
+<year>2013</year>
+<volume>19</volume>
+<fpage>17</fpage>
+<lpage>25</lpage>
+<?supplied-pmid 23721859?><pub-id pub-id-type="pmid">23721859</pub-id></element-citation></ref><ref id="B127-life-05-00025"><label>127.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reed</surname><given-names>R.H.</given-names></name><name><surname>Warr</surname><given-names>S.R.C.</given-names></name><name><surname>Kerby</surname><given-names>N.W.</given-names></name><name><surname>Stewart</surname><given-names>W.D.P.</given-names></name></person-group>
+<article-title>Osmotic shock-induced release of low molecular weight metabolites from free-living and immobilized cyanobacteria</article-title>
+<source>Enzyme Microb. Technol.</source>
+<year>1986</year>
+<volume>8</volume>
+<fpage>101</fpage>
+<lpage>104</lpage>
+</element-citation></ref><ref id="B128-life-05-00025"><label>128.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fulda</surname><given-names>S.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name><name><surname>Libbert</surname><given-names>E.</given-names></name></person-group>
+<article-title>Release of glucosylglycerol from the cyanobacterium <italic>Synechocystis</italic> spec. SAG 92.79 by hypoosmotic shock</article-title>
+<source>Arch. Microbiol.</source>
+<year>1990</year>
+<volume>153</volume>
+<fpage>405</fpage>
+<lpage>408</lpage>
+<pub-id pub-id-type="doi">10.1007/BF00249013</pub-id>
+</element-citation></ref><ref id="B129-life-05-00025"><label>129.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Erdmann</surname><given-names>N.</given-names></name><name><surname>Zuther</surname><given-names>E.</given-names></name><name><surname>Abarzua</surname><given-names>S.</given-names></name></person-group>
+<article-title>Comparative studies on the photoproduction of nonhydrogenous resources by cyanobacteria</article-title>
+<source>Curr. Microbiol.</source>
+<year>1992</year>
+<volume>25</volume>
+<fpage>83</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="doi">10.1007/BF01570964</pub-id>
+</element-citation></ref><ref id="B130-life-05-00025"><label>130.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takagi</surname><given-names>M.</given-names></name><name><surname>Karseno</surname></name><name><surname>Yoshida</surname><given-names>T.</given-names></name></person-group>
+<article-title>Effect of salt concentration on intracellular accumulation of lipids and triacylglyceride in marine microalgae <italic>Dunaliella</italic> cells</article-title>
+<source>J. Biosci. Bioeng.</source>
+<year>2006</year>
+<volume>101</volume>
+<fpage>223</fpage>
+<lpage>226</lpage>
+<pub-id pub-id-type="doi">10.1263/jbb.101.223</pub-id>
+<?supplied-pmid 16716922?><pub-id pub-id-type="pmid">16716922</pub-id></element-citation></ref><ref id="B131-life-05-00025"><label>131.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pal</surname><given-names>D.</given-names></name><name><surname>Khozin-Goldberg</surname><given-names>I.</given-names></name><name><surname>Cohen</surname><given-names>Z.</given-names></name><name><surname>Boussiba</surname><given-names>S.</given-names></name></person-group>
+<article-title>The effect of light, salinity, and nitrogen availability on lipid production by <italic>Nannochloropsis</italic> sp</article-title>
+<source>Appl. Microbiol. Biotechnol.</source>
+<year>2011</year>
+<volume>90</volume>
+<fpage>1429</fpage>
+<lpage>1441</lpage>
+<pub-id pub-id-type="doi">10.1007/s00253-011-3170-1</pub-id>
+<?supplied-pmid 21431397?><pub-id pub-id-type="pmid">21431397</pub-id></element-citation></ref><ref id="B132-life-05-00025"><label>132.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waditee</surname><given-names>R.</given-names></name><name><surname>Bhuiyan</surname><given-names>M.N.</given-names></name><name><surname>Rai</surname><given-names>V.</given-names></name><name><surname>Aoki</surname><given-names>K.</given-names></name><name><surname>Tanaka</surname><given-names>Y.</given-names></name><name><surname>Hibino</surname><given-names>T.</given-names></name><name><surname>Suzuki</surname><given-names>S.</given-names></name><name><surname>Takano</surname><given-names>J.</given-names></name><name><surname>Jagendorf</surname><given-names>A.T.</given-names></name><name><surname>Takabe</surname><given-names>T.</given-names></name><name><surname>Takabe</surname><given-names>T.</given-names></name></person-group>
+<article-title>Genes for direct methylation of glycine provide high levels of glycinebetaine and abiotic-stress tolerance in <italic>Synechococcus</italic> and Arabidopsis</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2005</year>
+<volume>102</volume>
+<fpage>1318</fpage>
+<lpage>1323</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0409017102</pub-id>
+<?supplied-pmid 15665084?><pub-id pub-id-type="pmid">15665084</pub-id></element-citation></ref><ref id="B133-life-05-00025"><label>133.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kl&#x000e4;hn</surname><given-names>S.</given-names></name><name><surname>Marquardt</surname><given-names>D.M.</given-names></name><name><surname>Rollwitz</surname><given-names>I.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Expression of the <italic>ggpPS</italic> gene for glucosylglycerol biosynthesis from <italic>Azotobacter vinelandii</italic> improves the salt tolerance of <italic>Arabidopsis thaliana</italic></article-title>
+<source>J. Exp. Bot.</source>
+<year>2009</year>
+<volume>60</volume>
+<fpage>1679</fpage>
+<lpage>1689</lpage>
+<pub-id pub-id-type="doi">10.1093/jxb/erp030</pub-id>
+<pub-id pub-id-type="pmid">19363207</pub-id></element-citation></ref><ref id="B134-life-05-00025"><label>134.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sievers</surname><given-names>N.</given-names></name><name><surname>Muders</surname><given-names>K.</given-names></name><name><surname>Henneberg</surname><given-names>M.</given-names></name><name><surname>Kl&#x000e4;hn</surname><given-names>S.</given-names></name><name><surname>Effmert</surname><given-names>M.</given-names></name><name><surname>Junghans</surname><given-names>H.</given-names></name><name><surname>Hagemann</surname><given-names>M.</given-names></name></person-group>
+<article-title>Establishing glucosylglycerol synthesis in potato (Solanum tuberosum L. cv. Albatros) by expression of the ggpPS gene from Azotobacter vinelandii</article-title>
+<source>J. Plant Sci. Mol. Breed.</source>
+<year>2013</year>
+<pub-id pub-id-type="doi">10.7143/2050-2389-2-1</pub-id>
+</element-citation></ref><ref id="B135-life-05-00025"><label>135.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaczmarzyk</surname><given-names>D.</given-names></name><name><surname>Anfelt</surname><given-names>J.</given-names></name><name><surname>S&#x000e4;rnegrim</surname><given-names>A.</given-names></name><name><surname>Hudson</surname><given-names>E.P.</given-names></name></person-group>
+<article-title>Overexpression of sigma factor SigB improves temperature and butanol tolerance of <italic>Synechocystis</italic> sp. PCC6803</article-title>
+<source>J. Biotechnol.</source>
+<year>2014</year>
+<volume>182&#x02013;183</volume>
+<fpage>54</fpage>
+<lpage>60</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jbiotec.2014.04.017</pub-id>
+<?supplied-pmid 24800959?><pub-id pub-id-type="pmid">24800959</pub-id></element-citation></ref><ref id="B136-life-05-00025"><label>136.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takeda</surname><given-names>T.</given-names></name><name><surname>Miyao</surname><given-names>K.</given-names></name><name><surname>Tamoi</surname><given-names>M.</given-names></name><name><surname>Kanaboshi</surname><given-names>H.</given-names></name><name><surname>Miyasaka</surname><given-names>H.</given-names></name><name><surname>Shigeoka</surname><given-names>S.</given-names></name></person-group>
+<article-title>Molecular characterization of glutathione peroxidase-like protein in halotolerant <italic>Chlamydomonas</italic> sp. W80</article-title>
+<source>Physiol. Plant.</source>
+<year>2003</year>
+<volume>117</volume>
+<fpage>467</fpage>
+<lpage>475</lpage>
+<pub-id pub-id-type="doi">10.1034/j.1399-3054.2003.00075.x</pub-id>
+<?supplied-pmid 12675737?><pub-id pub-id-type="pmid">12675737</pub-id></element-citation></ref><ref id="B137-life-05-00025"><label>137.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoshimura</surname><given-names>K.</given-names></name><name><surname>Miyao</surname><given-names>K.</given-names></name><name><surname>Gaber</surname><given-names>A.</given-names></name><name><surname>Takeda</surname><given-names>T.</given-names></name><name><surname>Kanaboshi</surname><given-names>H.</given-names></name><name><surname>Miyasaka</surname><given-names>H.</given-names></name><name><surname>Shigeoka</surname><given-names>S.</given-names></name></person-group>
+<article-title>Enhancement of stress tolerance in transgenic tobacco plants overexpressing <italic>Chlamydomonas</italic> glutathione peroxidase in chloroplasts or cytosol</article-title>
+<source>Plant J.</source>
+<year>2004</year>
+<volume>37</volume>
+<fpage>21</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-313X.2003.01930.x</pub-id>
+<?supplied-pmid 14675429?><pub-id pub-id-type="pmid">14675429</pub-id></element-citation></ref></ref-list></back></article>

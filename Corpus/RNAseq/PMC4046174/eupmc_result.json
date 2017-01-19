@@ -1,0 +1,469 @@
+{
+  "id": [
+    "24884650"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "24884650"
+  ],
+  "pmcid": [
+    "PMC4046174"
+  ],
+  "doi": [
+    "10.1186/1471-2105-15-124"
+  ],
+  "title": [
+    "The discriminant power of RNA features for pre-miRNA recognition."
+  ],
+  "authorString": [
+    "Lopes Ide O, Schliep A, de Carvalho AC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lopes Ide O"
+          ],
+          "firstName": [
+            "Ivani de O N"
+          ],
+          "lastName": [
+            "Lopes"
+          ],
+          "initials": [
+            "Ide O"
+          ],
+          "affiliation": [
+            "Empresa Brasileira de Pesquisa Agropecuária, Embrapa Soja, Caixa Postal 231, Londrina-PR, CEP 86001-970, Brasil. ivani.negrao@embrapa.br."
+          ]
+        },
+        {
+          "fullName": [
+            "Schliep A"
+          ],
+          "firstName": [
+            "Alexander"
+          ],
+          "lastName": [
+            "Schliep"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "de Carvalho AC"
+          ],
+          "firstName": [
+            "André C P de L F"
+          ],
+          "lastName": [
+            "de Carvalho"
+          ],
+          "initials": [
+            "AC"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-4765-6459",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-3555-3188",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-4765-6459",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "15"
+      ],
+      "journalIssueId": [
+        "2130628"
+      ],
+      "dateOfPublication": [
+        "2014 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2014"
+      ],
+      "printPublicationDate": [
+        "2014-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2014"
+  ],
+  "pageInfo": [
+    "124"
+  ],
+  "abstractText": [
+    "BACKGROUND: Computational discovery of microRNAs (miRNA) is based on pre-determined sets of features from miRNA precursors (pre-miRNA). Some feature sets are composed of sequence-structure patterns commonly found in pre-miRNAs, while others are a combination of more sophisticated RNA features. In this work, we analyze the discriminant power of seven feature sets, which are used in six pre-miRNA prediction tools. The analysis is based on the classification performance achieved with these feature sets for the training algorithms used in these tools. We also evaluate feature discrimination through the F-score and feature importance in the induction of random forests. RESULTS: Small or non-significant differences were found among the estimated classification performances of classifiers induced using sets with diversification of features, despite the wide differences in their dimension. Inspired in these results, we obtained a lower-dimensional feature set, which achieved a sensitivity of 90% and a specificity of 95%. These estimates are within 0.1% of the maximal values obtained with any feature set (SELECT, Section \"Results and discussion\") while it is 34 times faster to compute. Even compared to another feature set (FS2, see Section \"Results and discussion\"), which is the computationally least expensive feature set of those from the literature which perform within 0.1% of the maximal values, it is 34 times faster to compute. The results obtained by the tools used as references in the experiments carried out showed that five out of these six tools have lower sensitivity or specificity. CONCLUSION: In miRNA discovery the number of putative miRNA loci is in the order of millions. Analysis of putative pre-miRNAs using a computationally expensive feature set would be wasteful or even unfeasible for large genomes. In this work, we propose a relatively inexpensive feature set and explore most of the learning aspects implemented in current ab-initio pre-miRNA prediction tools, which may lead to the development of efficient ab-initio pre-miRNA discovery tools.The material to reproduce the main results from this paper can be downloaded from http://bioinformatics.rutgers.edu/Static/Software/discriminant.tar.gz."
+  ],
+  "affiliation": [
+    "Empresa Brasileira de Pesquisa Agropecuária, Embrapa Soja, Caixa Postal 231, Londrina-PR, CEP 86001-970, Brasil. ivani.negrao@embrapa.br."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "MicroRNAs"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA Precursors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "CH"
+                  ],
+                  "qualifierName": [
+                    "chemistry"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Base Composition"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Artificial Intelligence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA Precursors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "MicroRNAs"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4046174?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4046174"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=24884650"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=24884650&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/1471-2105-15-124"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "7"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2014-08-10"
+  ],
+  "dateOfCreation": [
+    "2014-06-06"
+  ],
+  "electronicPublicationDate": [
+    "2014-05-02"
+  ],
+  "firstPublicationDate": [
+    "2014-05-02"
+  ]
+}

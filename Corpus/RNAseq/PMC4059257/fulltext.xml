@@ -1,0 +1,672 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article" xml:lang="EN"><?DTDIdentifier.IdentifierValue -//ACS//DTD ACS Journal DTD v1.02 20061031//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ACSJournal-v102.dtd?><?SourceDTD.Version 1.02?><?ConverterInfo.XSLTName acs2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">J Proteome Res</journal-id><journal-id journal-id-type="iso-abbrev">J. Proteome Res</journal-id><journal-id journal-id-type="publisher-id">pr</journal-id><journal-id journal-id-type="coden">jprobs</journal-id><journal-title-group><journal-title>Journal of Proteome Research</journal-title></journal-title-group><issn pub-type="ppub">1535-3893</issn><issn pub-type="epub">1535-3907</issn><publisher><publisher-name>American ChemicalSociety</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4059257</article-id><article-id pub-id-type="doi">10.1021/pr401169d</article-id><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>Functional Annotation of Proteome
+Encoded by Human
+Chromosome 22</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><name><surname>Pinto</surname><given-names>Sneha
+M.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff3" ref-type="aff">&#x000a7;</xref></contrib><contrib contrib-type="author" id="ath2"><name><surname>Manda</surname><given-names>Srikanth S.</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff4" ref-type="aff">&#x02225;</xref></contrib><contrib contrib-type="author" id="ath3"><name><surname>Kim</surname><given-names>Min-Sik</given-names></name><xref rid="aff2" ref-type="aff">&#x02021;</xref></contrib><contrib contrib-type="author" id="ath4"><name><surname>Taylor</surname><given-names>KyOnese</given-names></name><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath5"><name><surname>Selvan</surname><given-names>Lakshmi Dhevi Nagarajha</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff6" ref-type="aff">#</xref><xref rid="aff8" ref-type="aff">&#x025cb;</xref></contrib><contrib contrib-type="author" id="ath6"><name><surname>Balakrishnan</surname><given-names>Lavanya</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff7" ref-type="aff">&#x025a1;</xref></contrib><contrib contrib-type="author" id="ath7"><name><surname>Subbannayya</surname><given-names>Tejaswini</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff6" ref-type="aff">#</xref></contrib><contrib contrib-type="author" id="ath8"><name><surname>Yan</surname><given-names>Fangfei</given-names></name><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" id="ath9"><name><surname>Prasad</surname><given-names>T. S.
+Keshava</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref><xref rid="aff8" ref-type="aff">&#x025cb;</xref></contrib><contrib contrib-type="author" id="ath10"><name><surname>Gowda</surname><given-names>Harsha</given-names></name><xref rid="aff1" ref-type="aff">&#x02020;</xref></contrib><contrib contrib-type="author" id="ath11"><name><surname>Lee</surname><given-names>Charles</given-names></name><xref rid="aff9" ref-type="aff">&#x025b3;</xref></contrib><contrib contrib-type="author" id="ath12"><name><surname>Hancock</surname><given-names>William S.</given-names></name><xref rid="aff5" ref-type="aff">&#x022a5;</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath13"><name><surname>Pandey</surname><given-names>Akhilesh</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff2" ref-type="aff">&#x02021;</xref><xref rid="aff10" ref-type="aff">&#x025bd;</xref><xref rid="aff11" ref-type="aff">&#x025cf;</xref><xref rid="aff12" ref-type="aff">&#x025a0;</xref></contrib><aff id="aff1"><label>&#x02020;</label>Institute
+of Bioinformatics, <institution>International Tech Park</institution>, Bangalore, Karnataka 560066, <country>India</country></aff><aff id="aff2"><label>&#x02021;</label>McKusick-Nathans
+Institute of Genetic Medicine, <institution>Johns Hopkins
+University School of Medicine</institution>, Baltimore, Maryland 21205, <country>United States</country></aff><aff id="aff3"><label>&#x000a7;</label><institution>Manipal
+University</institution>, Madhav Nagar, Manipal, Karnataka 576104, <country>India</country></aff><aff id="aff4"><label>&#x02225;</label>Centre
+for Bioinformatics, School of Life Sciences, <institution>Pondicherry University</institution>, Puducherry 605014, <country>India</country></aff><aff id="aff5"><label>&#x022a5;</label>Barnett
+Institute and Department of Chemistry and Chemical Biology, <institution>Northeastern University</institution>, Boston, Massachusetts 02115, <country>United States</country></aff><aff id="aff6"><label>#</label>School of
+Biotechnology, <institution>Amrita Vishwa Vidyapeetham</institution>, Kollam 690525, <country>India</country></aff><aff id="aff7"><label>&#x025a1;</label>Department
+of Biotechnology, <institution>Kuvempu University</institution>, Shimoga, Karnataka 577451, <country>India</country></aff><aff id="aff8"><label>&#x025cb;</label>IOB-NIMHANS
+Proteomics and Bioinformatics Laboratory, Neurobiology Research Centre, <institution>National Institute of Mental Health and Neurosciences</institution>, Bangalore 560029, <country>India</country></aff><aff id="aff9"><label>&#x025b3;</label>Department
+of Pathology, <institution>Brigham and Women&#x02019;s
+Hospital</institution>, Boston, Massachusetts 02115, <country>United States</country></aff><aff id="aff10"><label>&#x025bd;</label>Department
+of Biological Chemistry, <institution>Johns Hopkins University
+School of Medicine</institution>, Baltimore, Maryland 21205, <country>United States</country></aff><aff id="aff11"><label>&#x025cf;</label>The
+Sol Goldman Pancreatic Cancer Research Center, Department of Pathology, <institution>Johns Hopkins University School of Medicine</institution>, Baltimore, Maryland 21205, <country>United States</country></aff><aff id="aff12"><label>&#x025a0;</label>Department
+of Oncology, <institution>Johns Hopkins University School
+of Medicine</institution>, Baltimore, Maryland 21205, <country>United
+States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>E-mail: <email>pandey@jhmi.edu</email>. Fax: <fax>(410)-502-7544</fax>. Tel.: <phone>(410)-502-6662</phone>.</corresp></author-notes><pub-date pub-type="pmc-release"><day>26</day><month>03</month><year>2015</year></pub-date><pub-date pub-type="epub"><day>26</day><month>03</month><year>2014</year></pub-date><pub-date pub-type="ppub"><day>06</day><month>06</month><year>2014</year></pub-date><volume>13</volume><issue>6</issue><fpage>2749</fpage><lpage>2760</lpage><history><date date-type="received"><day>26</day><month>11</month><year>2013</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2014 American Chemical Society</copyright-statement><copyright-year>2014</copyright-year><copyright-holder>American Chemical Society</copyright-holder></permissions><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2013-01169d_0007" id="ab-tgr1"/></p><p>As
+part of the chromosome-centric human proteome project (C-HPP)
+initiative, we report our progress on the annotation of chromosome 22.
+Chromosome 22, spanning 51 million base pairs, was the first chromosome
+to be sequenced. Gene dosage alterations on this chromosome have been
+shown to be associated with a number of congenital anomalies. In addition,
+several rare but aggressive tumors have been associated with this
+chromosome. A number of important gene families including immunoglobulin
+lambda locus, Crystallin beta family, and APOBEC gene family are located
+on this chromosome. On the basis of proteomic profiling of 30 histologically
+normal tissues and cells using high-resolution mass spectrometry,
+we show protein evidence of 367 genes on chromosome 22. Importantly,
+this includes 47 proteins, which are currently annotated as &#x0201c;missing&#x0201d;
+proteins. We also confirmed the translation start sites of 120 chromosome 22-encoded
+proteins. Employing a comprehensive proteogenomics analysis pipeline,
+we provide evidence of novel coding regions on this chromosome which
+include upstream ORFs and novel exons in addition to correcting existing
+gene structures. We describe tissue-wise expression of the proteins
+and the distribution of gene families on this chromosome. These data
+have been deposited to ProteomeXchange with the identifier PXD000561.</p></abstract><kwd-group><kwd>human proteome</kwd><kwd>&#x0201c;missing&#x0201d; proteins</kwd><kwd>genome annotation</kwd><kwd>uORF</kwd></kwd-group><funding-group><funding-statement><funding-source>National Institutes of Health, United States</funding-source></funding-statement></funding-group><custom-meta-group><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>pr401169d</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>pr-2013-01169d</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec sec-type="intro" id="sec1"><title>Introduction</title><p>With the near completion of the human
+genome project, there has
+been a continued effort to characterize the function of proteins involved
+in cellular processes. The chromosome-centric human proteome project
+(C-HPP) initiative led by the Human Proteome Organization (HUPO) attempts
+to map and annotate all of the estimated 20&#x02009;300 human protein
+coding genes across each chromosome.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> The
+major goal of the C-HPP is to identify and functionally characterize
+at least one protein product encoded by each gene with a major emphasis
+on identifying 20% of the proteome that currently lacks proteomic
+evidence.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> Several groups have adopted
+a chromosome and are employing mass spectrometry to identify and characterize
+the proteome encoded.<sup><xref ref-type="bibr" rid="ref3">3</xref>&#x02212;<xref ref-type="bibr" rid="ref5">5</xref></sup> In addition to mass spectrometry-based analysis,
+several other strategies including antibody-based detection are being
+employed.<sup><xref ref-type="bibr" rid="ref6">6</xref></sup></p><p>To enable characterization
+of the entire proteome, several challenges
+need to be overcome. A majority of the proteins that currently lack
+evidence are likely to have tissue/cell-restricted expression, may
+be expressed at certain stages of development, or are present in very
+low abundance. It is becoming more apparent that at least some of
+the current annotations of the human genome are erroneous, for example,
+incorrectly annotated translation start sites and missed exons. The
+global C-HPP initiative of allocating individual chromosomes to teams
+around the world to identify proteins encoded by genes across all
+chromosomes will help address these issues. The knowledge base and
+the technical resources that would be generated will lead the community
+to apply these findings to a broad array of biomedical problems. In
+this regard, our team has focused on the annotation of chromosome
+22.</p><p>Chromosome 22 was the first human chromosome to be fully
+sequenced,<sup><xref ref-type="bibr" rid="ref7">7</xref></sup> and it is the second smallest
+human autosome,
+spanning about 51 million base pairs. It accounts for &#x0223c;1.8%
+of the genomic DNA.<sup><xref ref-type="bibr" rid="ref8">8</xref></sup> NCBI annotation release
+104 lists a total of 884 genes, of which 442 are annotated as protein
+coding genes. A number of different genetic alterations associated
+with various diseases and genetic abnormalities on chromosome 22 have
+been reported. These include some of the well-known as well as rare
+disorders such as cat eye syndrome, which is caused by extra copies
+of the proximal region of chromosome 22q,<sup><xref ref-type="bibr" rid="ref9">9</xref></sup> DiGeorge syndrome,<sup><xref ref-type="bibr" rid="ref10">10</xref></sup> velocardiofacial
+syndrome (VCFS),<sup><xref ref-type="bibr" rid="ref11">11</xref></sup> and 22q13.3 deletion
+syndrome<sup><xref ref-type="bibr" rid="ref12">12</xref></sup> among others. In addition,
+chromosome 22 is also reported in the formation of the Philadelphia
+chromosome by reciprocal translocation between chromosome 9 and 22,
+generating the BCR-ABL oncogene which is found in 95% of chronic myeloid
+leukemia patients and 25&#x02013;30% of acute lymphoblastic leukemia
+patients.<sup><xref ref-type="bibr" rid="ref13">13</xref></sup></p><p>In our previous study,
+we carried out deep proteomic profiling
+of 30 different histologically normal tissues and hematopoietic cells,
+thereby generating a draft map of the human proteome.<sup><xref ref-type="bibr" rid="ref14">14</xref></sup> Here, we describe a detailed annotation of the chromosome 22-encoded
+proteome. Upon mapping our proteomics data to chromosome 22, we identified
+protein products encoded by 367 genes, including 47 which have been
+reported to be missing based on C-HPP criteria.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> We also confirm the translation start site for 120 proteins.
+Tissue-wise expression of several disease-related genes and gene families
+that are clustered on this chromosome is reported. Finally, employing
+our proteogenomics strategy, we provide translation evidence for several
+novel coding regions such as upstream ORFs and novel exons in addition
+to correction of existing gene structures.</p></sec><sec sec-type="materials|methods" id="sec2"><title>Materials and Methods</title><sec id="sec2.1"><title>Sample
+Preparation and Fractionation</title><p>Histologically
+normal human organs, fetal tissues, and hematopoietic cells were procured
+after obtaining institutional ethical clearance. The tissues/cells
+were lysed in lysis buffer containing 4% SDS, 100 mM DTT, and 100
+mM Tris pH 7.5, and were homogenized, sonicated, heated for 10&#x02013;15
+min at 75 &#x000b0;C, cooled, and centrifuged at 2000 rpm for 10 min.
+The protein concentration of the cleared lysate was estimated using
+BCA assay, and equal amounts from each of the donors was pooled for
+further fractionation.</p><p>Proteins from SDS lysates were separated
+on SDS-PAGE, and in-gel digestion was carried out as described earlier.<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> Briefly, the protein bands were destained, reduced,
+alkylated, and subjected to in-gel digestion using trypsin. The peptides
+were extracted, vacuum-dried, and stored at &#x02212;80 &#x000b0;C until
+further analysis.</p><p>Four hundred micrograms of proteins from each sample was
+subjected to in-solution
+trypsin digestion following reduction and alkylation with DTT and
+IAA, respectively. The peptide digests were then desalted using Sep-Pak
+C<sub>18</sub> columns (Waters Corporation, Milford, MA) and lyophilized.
+The lyophilized samples were reconstituted in bRPLC solvent A (10
+mM TEABC, pH 8.5) and loaded on an XBridge C<sub>18</sub>, 5 &#x003bc;m
+250 &#x000d7; 4.6 mm column (Waters, Milford, MA). The peptide digest
+was resolved using a gradient of 0 to 100% solvent B (10 mM TEABC
+in acetonitrile, pH 8.5) in 50 min. The total fractionation time was
+60 min. Ninety-six fractions were collected which were then concatenated
+to 24 fractions, vacuum-dried, and stored at &#x02212;80 until further
+LC-MS/MS analysis.</p></sec><sec id="sec2.2"><title>LC-MS/MS Analysis</title><p>Peptide samples
+from in-gel digestion
+and bRPLC fractionation were analyzed on LTQ-Orbitrap Velos and LTQ-Orbitrap
+Elite mass spectrometers (Thermo Electron, Bremen, Germany) interfaced
+with an Easy-nLC II nanoflow liquid chromatography system (Thermo
+Scientific, Odense, Southern Denmark). The peptide digests were reconstituted
+in 0.1% formic acid and loaded onto a trap column (75 &#x003bc;m &#x000d7;
+2 cm) packed in-house with Magic C<sub>18</sub> AQ (Michrom Bioresources,
+Inc., Auburn, CA) at a flow rate of 5 &#x003bc;L/min with solvent A.
+Peptides were resolved on an analytical column (75 &#x003bc;m &#x000d7;
+10 cm) at a flow rate of 350 nL/min using a linear gradient of 7&#x02013;30%
+solvent B (0.1% formic acid in 95% acetonitrile) over 60 min. Data-dependent
+acquisition with full scans in the 350&#x02013;1800 <italic>m</italic>/<italic>z</italic> range were carried out using an Orbitrap mass
+analyzer at a mass resolution of 60&#x02009;000 in Velos and 120&#x02009;000
+in Elite at 400 <italic>m</italic>/<italic>z</italic>, respectively.
+Twenty of the most intense precursor ions from a survey scan were
+selected for MS/MS and were fragmented using higher-energy collision dissociation
+(HCD) with 35% normalized collision energy and detected at a mass
+resolution of 15&#x02009;000 and 30&#x02009;000 at 400 <italic>m</italic>/<italic>z</italic> in Velos and Elite, respectively. Dynamic exclusion
+was set for 30 s with a 10 ppm mass window.</p></sec><sec id="sec2.3"><title>Proteomic Data Analysis</title><p>Mass spectrometry data obtained
+from all LC-MS/MS analysis were searched against Human RefSeq50 database
+(containing 33&#x02009;833 entries along with common contaminants)
+using Sequest and Mascot (version 2.2) search algorithms through Proteome
+Discoverer 1.3 (Thermo Scientific, Bremen, Germany). Enzyme specificity
+was set as trypsin with maximum of two missed cleavages allowed. The
+minimum peptide length was specified as six amino acids. Carbamidomethylation
+of cysteine was specified as fixed modification and oxidation of methionine,
+acetylation of protein N-termini and cyclization of N-terminal glutamine
+were included as variable modifications. The peptide and fragment
+mass tolerance was set to 10 ppm and 0.05 Da for fragment ions. The
+data were also searched against a decoy database, and the results
+were used to estimate <italic>q</italic> values using the Percolator
+algorithm<sup><xref ref-type="bibr" rid="ref16">16</xref></sup> within Proteome Discoverer.
+Peptides were considered identified at a <italic>q</italic> value
+&#x0003c;0.01 and used for further analysis.</p></sec><sec id="sec2.4"><title>Identification of Novel
+Peptides Using Alternative Databases
+Searches</title><p>To enable identification of novel peptides and correction
+of existing gene annotations in the human genome, five alternative
+databases were used. These databases were generated using in-house
+python scripts for proteogenomic analysis. The databases used were
+(1) six-frame translated genome database, (2) three-frame translated
+RefSeq mRNA sequences from NCBI, (3) three-frame translated pseudogene
+database with sequences derived from sequences from NCBI and Gerstein&#x02019;s
+pseudogenes, (4) three-frame translated non coding RNAs from NONCODE,
+and (5) N-terminal UTR database of RefSeq mRNA sequences from NCBI.
+A decoy database was created for each database by reversing the sequences
+from a target database. Peptide identification was carried out using
+X!Tandem. The following parameters were common to all searches: (1)
+precursor mass error set at 10 ppm, (2) fragment mass error set at
+0.05 Da, (3) carbamidomethylation of cysteine defined as a fixed modification,
+(4) oxidation of methionine defined as a variable modification, and
+(5) only tryptic peptides with up to two missed cleavages were considered.
+The sequences of common contaminants including trypsin used as protease
+were appended to the database. Unmatched MS/MS spectra peaklist files
+were extracted from the protein database search result and searched
+against these databases using the X!Tandem search engine installed
+locally.</p><p>All the databases were created in-house using python
+scripts. For the six-frame translated genome database, the human reference
+genome assembly hg19 was downloaded from NCBI and translated in six
+reading frames, and peptide sequences greater than six amino acids
+were retained in the database. The mRNA sequences were downloaded
+from NCBI RefSeq (RefSeq version 56 containing 33&#x02009;580 sequences)
+and translated in three reading frames. Custom pseudogene database
+from NCBI (11&#x02009;160 sequences) and Gerstein&#x02019;s pseudogene
+database (16&#x02009;881 sequences from <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pseudogene.org/">http://pseudogene.org/</uri>, version 68) as well as noncoding RNA sequences from NONCODE (91&#x02009;687
+sequences, version 3) were translated in three reading frames.</p><p>Peptide sequences identified from each of the alternate database
+searches were filtered, and only those passing 1% FDR score threshold
+at the peptide level were considered. Unique lists of genome search
+specific peptides (GSSPs), pseudogene specific peptides, and transcriptome
+search specific peptides were generated by comparing the peptides
+with the protein database. Peptides mapping to multiple regions in
+the genome and with isoleucine/leucine ambiguity were not considered
+for further analysis. The final list of the peptides was then manually
+validated to verify the confidence of spectral assignment.</p></sec><sec id="sec2.5"><title>Gene Ontology
+Analysis</title><p>Molecular functions and primary
+localization information for all the proteins were obtained from Human
+Protein Reference Database, HPRD (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.hprd.org">http://www.hprd.org</uri>),
+containing manually curated protein annotations along with protein&#x02013;protein
+interactions related to human proteins.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup></p></sec><sec id="sec2.6"><title>Quantitation Based on Spectral Counts</title><p>Normalized spectral
+counts were calculated by summing spectral counts from all the peptides
+mapping to a given gene per experiment (i.e., SDS-PAGE or bRPLC).
+Total acquired tandem MS were then used to normalize between experiments,
+and the resulting spectral counts per gene were averaged across multiple
+experiments (e.g., bRPLC and SDS-PAGE fractionation) per sample (e.g.,
+esophagus). Final numbers per gene were used for plotting the heat
+map.</p></sec></sec><sec id="sec3"><title>Results and Discussion</title><sec id="sec3.1"><title>Proteomic Evidence for Genes on Chromosome
+22</title><p>As part
+of our deep proteomic profiling of 30 different histologically normal
+human tissues and cell types using high-resolution mass spectrometry,
+we specifically looked for proteins that are encoded by genes on chromosome
+22. Of the 442 RefSeq gene entries, our data provides translation
+evidence for protein products of 367 genes. Twenty proteins have &#x0003e;90%
+sequence coverage and 52% of the proteins have sequence coverage &#x0003e;50%
+(Figure <xref rid="fig1" ref-type="fig">1</xref>a). The distribution of identified
+proteins based on their subcellular localization and molecular function
+reveals proteins to be predominantly localized in the cytoplasm followed
+by the nucleus and the plasma membrane (Figure <xref rid="fig1" ref-type="fig">1</xref>b). In addition to providing translation evidence for many of the
+chromosome 22-encoded proteins, we also confirmed the start sites
+of 120 proteins.</p><fig id="fig1" position="float"><label>Figure 1</label><caption><p>(a)
+Sequence coverage of proteins encoded by chromosome 22. (b)
+Distribution of identified chromosome-22-encoded proteins based on
+subcellular localization. (c) Tissue-wise distribution of protein coding
+genes encoded by chromosome 22. Distribution of proteins identified
+from 30 histologically normal tissues and cell lines based on their
+spectral abundance. The color schema is based on the spectral counts:
+red blocks represent proteins with relatively higher expression, orange
+depicts moderate expression, and yellow represents relatively low
+expression. Proteins not detected in a given tissue are represented
+in gray.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2013-01169d_0001" id="GRAPHIC-d2587e626-autogenerated" position="float"/></fig><p>Figure <xref rid="fig1" ref-type="fig">1</xref>c depicts the relative expression
+of chromosome 22-encoded proteins identified in this study based on
+normalized spectral counts. Several proteins identified in our study
+show tissue restricted expression. For example, proteins encoded by <italic>GNAZ</italic>, <italic>PDXP</italic>, <italic>PI4KA</italic>, <italic>SBF1</italic>, <italic>SYNGR1</italic>, and <italic>PRODH</italic> showed higher expression in adult frontal cortex compared to other
+tissues, whereas those encoded by <italic>PARVG</italic>, <italic>EP300</italic>, <italic>THOC5</italic>, <italic>PARVB</italic>, and <italic>ADRBK2</italic> showed consistently high expression in the hematopoietic
+cells compared to fetal and adult tissues. Parvins are actin-binding
+proteins that form multiprotein complexes with integrin-linked kinases
+that link integrins to the actin cytoskeleton. &#x003b3;-Parvin has
+been reported to be expressed specifically in hematopoietic cells
+of both myeloid and lymphoid origin and is in agreement with our findings.<sup><xref ref-type="bibr" rid="ref18">18</xref></sup> &#x003b2;-Parvin, another member of the parvin
+family, shows high expression in platelets compared to all other tissues.
+Interestingly, we identified proteins encoded by <italic>ACR</italic>, <italic>HORMAD2</italic>, <italic>TSSK2</italic>, and <italic>TMEM191B</italic>, among others, that showed relatively higher expression in adult
+ovary and testis compared to other tissues sampled in our study.</p><p>When we compared our data with neXtProt entries, we found 317 of
+356 proteins categorized as PE1 entries present in our data set. We
+also compared our data with 337 genes from PeptideAtlas and 339 genes
+from GPMDB.<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> We found 63 genes unique to
+our data set as compared to PeptideAtlas and 56 genes as compared
+to GPMDB. This was made possible by the deep proteome coverage obtained
+by combining diverse human samples, different fractionation strategies,
+and high-resolution mass spectrometers.</p></sec><sec id="sec3.2"><title>&#x0201c;Missing&#x0201d;
+Proteins Identified in Chromosome 22</title><p>To enable identification
+of &#x0201c;missing proteins&#x0201d;, we
+compared our list of proteins encoded by chromosome 22 with the list
+of &#x0201c;missing proteins&#x0201d; derived from proteins that do
+not have any proteomic evidence in neXtProt, PeptideAtlas, or GPMDB.<sup><xref ref-type="bibr" rid="ref19">19</xref></sup> Based on the current metrics<sup><xref ref-type="bibr" rid="ref2">2</xref></sup>, 108 proteins are reported to be missing or lacking proteomic
+evidence from chromosome 22. Of these, 21 are currently categorized
+as PE5 entries. Comparing our list of identified proteins with neXtProt
+database resulted in the identification of 47 missing proteins, which
+include 5 of 21 proteins designated as uncertain/dubious (<xref rid="notes-2" ref-type="notes">Supplementary Table S1</xref>).</p><p>On the basis of
+our analysis, we observed several proteins that showed tissue-restricted
+expression, whereas only a few showed ubiquitous expression (Figure <xref rid="fig2" ref-type="fig">2</xref>). Proteins encoded by <italic>ATP5L2</italic>,<italic> DDTL</italic>,<italic> TSPO</italic>, and <italic>POTEH</italic> show ubiquitous expression across all tissues with certain tissues
+showing higher expression than in others. For example, translocator
+protein (TSPO), a mitochondrial membrane protein involved in various
+physiological functions, including immunologic responses,<sup><xref ref-type="bibr" rid="ref20">20</xref></sup> showed high expression in monocytes followed
+by other hematopoietic cells. In the case of tissue-restricted expression,
+CECR6, one of the dosage-sensitive genes responsible for cat eye syndrome
+(CES)<sup><xref ref-type="bibr" rid="ref21">21</xref></sup> was identified from our study specifically
+in the brain with higher expression in adult frontal cortex compared
+to fetal brain. Three RIMBP3 genes&#x02014;<italic>RIMBP3</italic>,<italic> RIMBP3B</italic>, and <italic>RIMBP3C</italic>&#x02014;are located
+on chromosome 22, and each of these is a single exon gene sharing
+99% identity at nucleotide level.<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> All
+RIMBP3 genes contain a central SH3 domain, followed by two FN3 domains
+and two <italic>C</italic>-terminal SH3 domains. RNASeq data from
+Illumina BodyMap shows transcript expression in several tissues, with
+the highest expression in testis. We identified gene-specific peptides
+only for RIMBP3, with relatively high expression in testis, consistent
+with the transcriptome data. Another protein, RIBC2 (RIB43A domain
+with coiled-coils 2) also known as <italic>C22orf11</italic>, is expressed
+only in fetal tissues and has the highest expression in fetal heart. <italic>RIBC2</italic> is located on the q13.31 locus and consists of two-coiled
+coil domains. The biological role of this protein has not been determined
+but it seems to play a role in early developmental stages. In addition,
+proteins encoded by solute carrier family members located on this
+chromosome, such as <italic>SLC5A4</italic> (adult kidney), <italic>SLC35E4</italic>,<italic> SLC2A11</italic> (high expression in fetal
+brain), <italic>SLC16A8</italic> (adult retina), and <italic>SLC7A4</italic> (adult testis), have been identified with tissue-restricted expression
+pattern. Thus, sampling specific tissue/cell types has enabled us
+to identify majority of the missing proteins that had been missed
+earlier.</p><fig id="fig2" position="float"><label>Figure 2</label><caption><p>Tissue-wise expression of &#x0201c;missing proteins&#x0201d; identified
+by proteomic study. Distribution of &#x0201c;missing&#x0201d; proteins
+identified in this study from 30 histologically normal tissues and
+cell lines based on their spectral abundance. The color schema is
+based on the spectral counts: red blocks represent proteins with relatively
+higher expression, orange depicts moderate expression, and yellow
+represents relatively low expression. Proteins not detected in a given
+tissue are represented in gray.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2013-01169d_0002" id="gr4" position="float"/></fig></sec><sec id="sec3.3"><title>Gene Families on Chromosome 22</title><p>Several gene families
+have been reported to be clustered on chromosome 22. Gene families
+on the same chromosome are presumed to have arisen by tandem gene
+duplication. Figure <xref rid="fig3" ref-type="fig">3</xref>a depicts some of the
+gene families on this chromosome. The immunoglobulin &#x003bb; locus,
+which encodes the light chain of antibodies, is one such gene family
+clustered on chromosome 22.<sup><xref ref-type="bibr" rid="ref23">23</xref></sup> In addition
+to the lambda locus, there are other immunoglobulin-related genes
+on this chromosome such as immunoglobulin &#x003bb;-like (<italic>IGLL</italic>) family and immunoglobulin k variable-region pseudogenes. Apart
+from the immunoglobulin genes, gene families that encode glutathione <italic>S</italic>-transferases,<sup><xref ref-type="bibr" rid="ref24">24</xref></sup> Ret-finger-like
+proteins,<sup><xref ref-type="bibr" rid="ref25">25</xref></sup><italic>APOL</italic> family,<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> and &#x003b2;-crystallins<sup><xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref28">28</xref></sup> are present on this chromosome. The &#x003b3;-glutamyl transferase
+genes represent a family that is likely to have been duplicated in
+tandem along with other gene families such as the BCR-like genes that
+span the 22q11 region. Together these genes form the LCR22 (low-copy
+repeat 22) repeats. The APOBEC gene family, which is involved in deaminating
+cytosine to uracil, has 7 of 10 members clustered on chromosome 22.<sup><xref ref-type="bibr" rid="ref29">29</xref></sup> These genes are involved in RNA/DNA editing
+and exhibit diverse physiological functions.<sup><xref ref-type="bibr" rid="ref30">30</xref>,<xref ref-type="bibr" rid="ref31">31</xref></sup><italic>APOBEC1</italic>, the first member to be discovered, is
+involved in deaminating apolipoprotein B RNA, thereby creating a premature
+stop codon and producing a shorter protein.<sup><xref ref-type="bibr" rid="ref32">32</xref>,<xref ref-type="bibr" rid="ref33">33</xref></sup> Tissue-wise distribution of the APOBEC proteins reveals a relatively
+higher abundance in hematopoietic cells compared to adult and fetal
+tissues (Figure <xref rid="fig3" ref-type="fig">3</xref>b). Interestingly, our analysis
+shows APOBEC3H to be restricted in its expression to adult liver tissue.
+This gene is known to possess antiretroviral activity and inhibits
+retrovirus replication and retrotransposon mobility by deamination.<sup><xref ref-type="bibr" rid="ref34">34</xref></sup></p><fig id="fig3" position="float"><label>Figure 3</label><caption><p>(a) Selected examples of gene families on chromosome 22. The gene
+families are shown in boxes with information pertaining to band annotation.
+Within parentheses, the details of the gene family are provided in
+the following order: number of genes of a family adjacent to each
+other/total number of members on the chromosome/total family members
+in the genome. (b) Panel shows tissue-wise distribution of APOBEC gene family on chromosome 22. 7 of 10 APOBEC gene family members are clustered on chromosome 22.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2013-01169d_0003" id="GRAPHIC-d2587e819-autogenerated" position="float"/></fig></sec><sec id="sec3.4"><title>Cancer-Associated Genes
+on Chromosome 22</title><p>Chromosome
+22 is also known to have strong association with cancers and is extensively
+rearranged in several tumors, including chronic myeloid leukemia,
+astrocytic tumors,<sup><xref ref-type="bibr" rid="ref35">35</xref></sup> and neurofibromatosis
+type 2a.<sup><xref ref-type="bibr" rid="ref36">36</xref></sup> Table <xref rid="tbl1" ref-type="other">1</xref> lists several known cancer-associated genes located on this chromosome,
+including some of the prominent genes such as <italic>BCR</italic> (Philadelphia chromosome &#x02013; translocation), <italic>CRKL</italic> (chronic myeloid leukemia), <italic>PDGFB</italic> (glioma), and
+genes associated with some rare tumors, including <italic>SMARCB1</italic> (rhabdoid tumor), <italic>MN1</italic> (meningioma), <italic>EWSR1</italic> (Ewing&#x02019;s sarcoma), and <italic>NF2</italic> (schwannoma tumors).
+A complete list of cancer-associated genes on chromosome 22 has been
+generated using the method described by Liu et al.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> On the basis of the information related to oncogenes integrated
+from several websites (Sanger, Waldman, and GeneCards, see legends
+Table <xref rid="tbl1" ref-type="other">1</xref>), we have identified 24 genes on chromosome
+22. Nineteen of the 24 cancer-associated genes are present in regions
+which are transcriptionally active with gene density above the average
+on chromosome 22 (i.e., 51.6 genes/Mb). Only five genes occur in a
+region with &#x0003c;45 genes per Mb.</p><table-wrap id="tbl1" position="float"><label>Table 1</label><caption><title>List of Cancer-Associated Genes on
+Chromosome 22</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="center"/><col align="char" char="."/><col align="char" char="."/></colgroup><thead><tr><th colspan="7" align="center">cancer gene list
+for chromosome 22<hr/></th></tr><tr><th style="border:none;" align="center">position</th><th style="border:none;" align="center">oncogene</th><th style="border:none;" align="center">Sanger(S)/Waldman(W)/cancer&#x000a0;index(C)<xref rid="t1fn1" ref-type="table-fn">a</xref></th><th style="border:none;" align="center">top Novoseek cancer association<xref rid="t1fn2" ref-type="table-fn">b</xref></th><th style="border:none;" align="center">GeneCards Novoseek-logP<xref rid="t1fn3" ref-type="table-fn">c</xref></th><th style="border:none;" align="center" char=".">adjacent cancer-related genes score<xref rid="t1fn4" ref-type="table-fn">d</xref></th><th style="border:none;" align="center" char=".">gene density<xref rid="t1fn5" ref-type="table-fn">e</xref></th></tr></thead><tbody><tr><td style="border:none;" align="left"><bold>22q11.21</bold></td><td style="border:none;" align="left"><bold>BID</bold></td><td style="border:none;" align="left">C</td><td style="border:none;" align="left">tumors</td><td style="border:none;" align="center">52.3</td><td style="border:none;" align="char" char=".">4</td><td style="border:none;" align="char" char=".">90</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>CLTCL1</bold></td><td style="border:none;" align="left">S</td><td style="border:none;" align="left">n/a</td><td style="border:none;" align="center">n/a</td><td style="border:none;" align="char" char=".">12</td><td style="border:none;" align="char" char=".">100</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>COMT</bold></td><td style="border:none;" align="left">C</td><td style="border:none;" align="left">breast cancer</td><td style="border:none;" align="center">49.4</td><td style="border:none;" align="char" char=".">17</td><td style="border:none;" align="char" char=".">100</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>CRKL</bold></td><td style="border:none;" align="left">W,C</td><td style="border:none;" align="left">chronic myeloid leukemia</td><td style="border:none;" align="center">77.7</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">98</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>SEPT5</bold></td><td style="border:none;" align="left">S</td><td style="border:none;" align="left">leukemia</td><td style="border:none;" align="center">0</td><td style="border:none;" align="char" char=".">21</td><td style="border:none;" align="char" char=".">100</td></tr><tr><td style="border:none;" align="left"><bold>22qll.23</bold></td><td style="border:none;" align="left"><bold>BCR</bold><xref rid="t1fn6" ref-type="table-fn">f</xref></td><td style="border:none;" align="left">S,W,C</td><td style="border:none;" align="left"><italic>chronic myeloid leukemia</italic></td><td style="border:none;" align="center">91.4</td><td style="border:none;" align="char" char=".">6</td><td style="border:none;" align="char" char=".">130</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>GSTT1</bold></td><td style="border:none;" align="left">C</td><td style="border:none;" align="left">bladder cancer</td><td style="border:none;" align="center">56.9</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">251</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>MIF</bold></td><td style="border:none;" align="left">C</td><td style="border:none;" align="left">tumors</td><td style="border:none;" align="center">44.9</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">251</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>MMP11</bold></td><td style="border:none;" align="left">C</td><td style="border:none;" align="left">breast carcinoma</td><td style="border:none;" align="center">64.3</td><td style="border:none;" align="char" char=".">21</td><td style="border:none;" align="char" char=".">251</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>SMARCB1</bold></td><td style="border:none;" align="left">S,C</td><td style="border:none;" align="left"><italic>rhabdoid tumor</italic></td><td style="border:none;" align="center">97</td><td style="border:none;" align="char" char=".">16</td><td style="border:none;" align="char" char=".">251</td></tr><tr><td style="border:none;" align="left"><bold>22ql2.1</bold></td><td style="border:none;" align="left"><bold>CHEK2</bold></td><td style="border:none;" align="left">S,C</td><td style="border:none;" align="left">breast cancer</td><td style="border:none;" align="center">54.6</td><td style="border:none;" align="char" char=".">13</td><td style="border:none;" align="char" char=".">52</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>MN1</bold></td><td style="border:none;" align="left">S,C</td><td style="border:none;" align="left"><italic>meningioma</italic></td><td style="border:none;" align="center">68.3</td><td style="border:none;" align="char" char=".">12</td><td style="border:none;" align="char" char="."><bold>21</bold></td></tr><tr><td style="border:none;" align="left"><bold>22ql2.2</bold></td><td style="border:none;" align="left"><bold>EWSR1</bold></td><td style="border:none;" align="left">S,C</td><td style="border:none;" align="left"><italic>Ewing&#x02019;s sarcoma</italic></td><td style="border:none;" align="center">96.3</td><td style="border:none;" align="char" char=".">13</td><td style="border:none;" align="char" char=".">52</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>LIF</bold></td><td style="border:none;" align="left">C</td><td style="border:none;" align="left">leukemia</td><td style="border:none;" align="center">94.9</td><td style="border:none;" align="char" char=".">8</td><td style="border:none;" align="char" char=".">70</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>NF2</bold><xref rid="t1fn6" ref-type="table-fn">f</xref></td><td style="border:none;" align="left">S,W,C</td><td style="border:none;" align="left"><italic>schwannoma tumors</italic></td><td style="border:none;" align="center">89.9</td><td style="border:none;" align="char" char=".">13</td><td style="border:none;" align="char" char=".">52</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>PATZ1</bold></td><td style="border:none;" align="left">S</td><td style="border:none;" align="left">colon carcinoma</td><td style="border:none;" align="center">35.6</td><td style="border:none;" align="char" char=".">0</td><td style="border:none;" align="char" char=".">&#x000a0;</td></tr><tr><td style="border:none;" align="left"><bold>22ql2.3</bold></td><td style="border:none;" align="left"><bold>MYH9</bold></td><td style="border:none;" align="left">S</td><td style="border:none;" align="left">leukemia</td><td style="border:none;" align="center">17.9</td><td style="border:none;" align="char" char=".">6</td><td style="border:none;" align="char" char="."><bold>44</bold></td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>TIMP3</bold></td><td style="border:none;" align="left">W</td><td style="border:none;" align="left">tumors</td><td style="border:none;" align="center">57.7</td><td style="border:none;" align="char" char=".">1</td><td style="border:none;" align="char" char="."><bold>23</bold></td></tr><tr><td style="border:none;" align="left"><bold>22ql3.1</bold></td><td style="border:none;" align="left"><bold>MKL1</bold></td><td style="border:none;" align="left">S</td><td style="border:none;" align="left">acute megakaryoblastic leukemia</td><td style="border:none;" align="center">78.3</td><td style="border:none;" align="char" char=".">5</td><td style="border:none;" align="char" char="."><bold>36</bold></td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>PDGFB</bold><xref rid="t1fn6" ref-type="table-fn">f</xref></td><td style="border:none;" align="left">S,W,C</td><td style="border:none;" align="left"><bold>glioma*</bold></td><td style="border:none;" align="center">50.4</td><td style="border:none;" align="char" char=".">10</td><td style="border:none;" align="char" char=".">84</td></tr><tr><td style="border:none;" align="left"><bold>22ql3.2</bold></td><td style="border:none;" align="left"><bold>BIK</bold></td><td style="border:none;" align="left">C</td><td style="border:none;" align="left">breast cancer</td><td style="border:none;" align="center">14.3</td><td style="border:none;" align="char" char=".">3</td><td style="border:none;" align="char" char="."><bold>40</bold></td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>CYP2D6</bold></td><td style="border:none;" align="left">W,C</td><td style="border:none;" align="left">breast cancer</td><td style="border:none;" align="center">26.4</td><td style="border:none;" align="char" char=".">6</td><td style="border:none;" align="char" char=".">110</td></tr><tr><td style="border:none;" align="left">&#x000a0;</td><td style="border:none;" align="left"><bold>EP300</bold></td><td style="border:none;" align="left">S</td><td style="border:none;" align="left">leukemia</td><td style="border:none;" align="center">60.5</td><td style="border:none;" align="char" char=".">5</td><td style="border:none;" align="char" char=".">68</td></tr><tr><td style="border:none;" align="left"><bold>22ql3.33</bold></td><td style="border:none;" align="left"><bold>TYMP</bold></td><td style="border:none;" align="left">W</td><td style="border:none;" align="left">tumors</td><td style="border:none;" align="center">71.4</td><td style="border:none;" align="char" char=".">3</td><td style="border:none;" align="char" char=".">72</td></tr></tbody></table><table-wrap-foot><fn id="t1fn1"><label>a</label><p>Websites that list oncogene information
+are <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.sanger.ac.uk/genetics/CGP/Census/">http://www.sanger.ac.uk/genetics/CGP/Census/</uri>, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://waldman.ucsf.edu/GENES/completechroms.html">http://waldman.ucsf.edu/GENES/completechroms.html</uri>, and <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.cancerindex.org/geneweb/genes_d.htm">http://www.cancerindex.org/geneweb/genes_d.htm</uri>.</p></fn><fn id="t1fn2"><label>b</label><p>Top cancer association from GeneCards
+Novoseek disease relationship table, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.genecards.org/">http://www.genecards.org/</uri>.</p></fn><fn id="t1fn3"><label>c</label><p>-logP of top cancer association
+(b) from GeneCards Novoseek disease relationship table, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.genecards.org/">http://www.genecards.org/</uri>.</p></fn><fn id="t1fn4"><label>d</label><p>Information derived from
+neXtProt
+and GeneCards. As a way to assess degree of cancer association, we
+have calculated a score as follows: the adjacent 10 genes on either
+side of the oncogene (from neXtProt) are scored as oncogene designation
++5 points, direct literature association with cancer +3 points, present
+in cancer data sets +1 point.</p></fn><fn id="t1fn5"><label>e</label><p>The gene density was derived from
+GeneCards: <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://genecards.weizmann.ac.il/geneloc-bin/gene_densities.pl">http://genecards.weizmann.ac.il/geneloc-bin/gene_densities.pl</uri>. All values represent the regions with a gene density above the
+average on chromosome 22 (i.e., 51.6 genes/Mb), except for numbers
+indicated in <bold>bold</bold>.</p></fn><fn id="t1fn6"><label>f</label><p>Recognized as driver oncogene.</p></fn><fn id="t1fn7"><p>Italic
+text indicates known <bold>gene mutation</bold> associated with cancer.</p></fn><fn id="t1fn8"><p><bold>Bold text and *</bold> indicates cancer
+gene
+target with therapy from My Cancer Genome, <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://www.mycancergenome.org/">http://www.mycancergenome.org/</uri>.</p></fn></table-wrap-foot></table-wrap><p><italic>NF2,</italic> a gene responsible for neurofibromatosis
+type 2, encodes a cytoskeletal associating protein, Merlin. Merlin
+is similar to the ERM (Ezrin&#x02013;Radixin&#x02013;Moesin) family
+of proteins and has been implicated in the regulation of a number
+of signaling pathways, including Rac1,<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> Ras/MAPK,<sup><xref ref-type="bibr" rid="ref39">39</xref></sup> mTOR,<sup><xref ref-type="bibr" rid="ref40">40</xref></sup> and Hippo pathways.<sup><xref ref-type="bibr" rid="ref41">41</xref></sup><italic>NF2</italic> has been reported to be a negative regulator of Rac
+signaling.<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> Several studies have reported <italic>NF2</italic> as a tumor suppressor protein.<sup><xref ref-type="bibr" rid="ref42">42</xref>,<xref ref-type="bibr" rid="ref43">43</xref></sup> Deletion and mutations in the <italic>NF2</italic> gene have been
+shown to cause autosomal dominant predisposition to tumors in the
+nervous system and skin.<sup><xref ref-type="bibr" rid="ref43">43</xref></sup> In addition,
+several mutations and breakpoints are reported in the <italic>NF2</italic> gene locus located in the 22q12 region of chromosome 22. This gene
+locus lies in one of the transcriptionally active regions on the chromosome
+and consists of genes such as <italic>LIF</italic> and <italic>NEFH</italic> in addition to several cancer-associated genes, including <italic>EWSR1</italic>, which contains the Ewing&#x02019;s sarcoma translocation
+breakpoint, and other known tumor suppressor genes, <italic>GAS2L1</italic> and <italic>RASL10A</italic>.<sup><xref ref-type="bibr" rid="ref44">44</xref></sup> Figure <xref rid="fig4" ref-type="fig">4</xref> illustrates some of these important genes clustered
+around <italic>NF2</italic> as well as the diversity of protein isoforms
+of these genes in terms of the number of alternative splice variants
+(ASVs, red circle) and single nucleotide variants (SNVs, purple circle)
+resulting from the transcription of missense SNPs. Genes with a significant
+number of variants in the region include <italic>NF2</italic> with
+11 ASVs and 90 SNVs, <italic>ASCC2</italic> (10, 26), <italic>MTMR3</italic> (6, 36), and <italic>TBC1D10A</italic> (6, 17). <italic>RFPL1</italic>, <italic>RASL10A</italic>,<italic> UQCR10</italic>,<italic> ZMAT5</italic>, and <italic>HORMAD2</italic> are currently categorized as &#x0201c;missing
+proteins&#x0201d; with no evidence at the proteome level. In our proteomics
+data, we observed HORMAD2 to be expressed ubiquitously with relatively
+high expression in adult testis and RFPL1 with restricted expression
+in fetal heart. This warrants further studies to be performed to functionally
+characterize these proteins as they may have an impact on the phenotype
+and could likely contribute to disease progression in <italic>NF2</italic> deleted/mutated tumors.</p><fig id="fig4" position="float"><label>Figure 4</label><caption><p>Genes around <italic>NF2</italic>. Ten genes
+adjacent to <italic>NF2</italic> have been considered for the analysis.
+Genes in filled
+boxes (blue shade) have evidence of PTMs, whereas genes in unfilled
+boxes have no known PTMs. Red circles within the boxes indicate number
+of alternative splice variants in Ensembl/neXtProt. Purple circles
+denote number of proteins in neXtProt.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2013-01169d_0004" id="gr7" position="float"/></fig></sec><sec id="sec3.5"><title>Proteogenomic Analysis</title><p>Evidence for the protein-coding
+potential of the genome has been largely dependent on gene prediction
+algorithms and sometimes on the presence of corresponding transcripts
+or orthologous genes. Currently, about 50% of human transcripts are
+classified as noncoding. In recent years, mass spectrometry-derived
+data has been employed to refine/redefine the genome annotation of
+various organisms.<sup><xref ref-type="bibr" rid="ref45">45</xref>&#x02212;<xref ref-type="bibr" rid="ref48">48</xref></sup> Employing a proteogenomics strategy established previously by our
+group, we discovered several potential novel coding regions on chromosome
+22. From our large scale proteome analysis, following the protein
+database search, unmatched spectra were extracted and searched using
+reference genome translated into six reading frames, RefSeq transcript
+sequences translated in three reading frames, and custom databases
+of annotated pseudogenes and conceptually translated protein N-termini
+databases. Our analysis resulted in the identification of 10 novel
+events on chromosome 22 including identification of upstream ORFs,
+evidence for translation of noncoding RNA correction/refinement of
+gene structure. The summary of the analysis is provided in Table <xref rid="tbl2" ref-type="other">2</xref>. The details of all the proteogenomic annotation
+on chromosome 22 is provided in <xref rid="notes-2" ref-type="notes">Supplementary
+Table S2</xref>.</p><table-wrap id="tbl2" position="float"><label>Table 2</label><caption><title>Summary of Novel Findings Identified
+through Proteogenomics</title></caption><table frame="hsides" rules="groups" border="0"><colgroup><col align="left"/><col align="char" char="."/></colgroup><thead><tr><th style="border:none;" align="center">category</th><th style="border:none;" align="center" char=".">no. of cases</th></tr></thead><tbody><tr><td style="border:none;" align="left">novel&#x000a0;coding&#x000a0;region&#x000a0;(upstream&#x000a0;ORF)</td><td style="border:none;" align="char" char=".">2</td></tr><tr><td style="border:none;" align="left">novel&#x000a0;coding&#x000a0;exons</td><td style="border:none;" align="char" char=".">2</td></tr><tr><td style="border:none;" align="left">translation&#x000a0;evidence&#x000a0;for&#x000a0;noncoding&#x000a0;RNA</td><td style="border:none;" align="char" char=".">1</td></tr><tr><td style="border:none;" align="left">translation&#x000a0;evidence&#x000a0;for&#x000a0;pseudogene</td><td style="border:none;" align="char" char=".">1</td></tr><tr><td style="border:none;" align="left">novel&#x000a0;N-termini</td><td style="border:none;" align="char" char=".">3</td></tr></tbody></table></table-wrap><p>It is estimated that 41&#x02013;49% of all known human RefSeq transcripts
+with annotated 5&#x02032; UTR contain at least one upstream ORF.<sup><xref ref-type="bibr" rid="ref49">49</xref>&#x02212;<xref ref-type="bibr" rid="ref51">51</xref></sup> Studies have shown that uAUG codons and associated upstream ORFs
+in the 5&#x02032;-UTR region play an important role in translational
+control of mRNAs. From our analysis, we identified two cases of uORFs.
+MIEF1 is a mitochondrial membrane
+protein that regulates mitochondrial membrane dynamics.<sup><xref ref-type="bibr" rid="ref52">52</xref>,<xref ref-type="bibr" rid="ref53">53</xref></sup> Overexpression of <italic>MIEF1</italic> was shown to cause extensive
+mitochondrial fission, recruitment of DRP1 to mitochondria membrane,
+and formation of long mitochondrial tubules. Conversely, <italic>MIEF1</italic> knockdown resulted in mitochondrial fission and fragmentation. A
+targeted database search against three-frame translated transcript
+database resulted in the identification of a peptide &#x0201c;YTDRDFYFASIR&#x0201d;
+in the 5&#x02032; UTR region of <italic>MIEF1</italic> (Figure <xref rid="fig5" ref-type="fig">5</xref>a). The translated ORF is 70 amino acids in length
+and is conserved in rabbit and giant panda. Further studies have to
+be carried out to delineate the role of the uORF in <italic>MIEF1</italic> function.</p><fig id="fig5" position="float"><label>Figure 5</label><caption><p>(a) Identification
+of novel upstream ORF in the 5&#x02032; untranslated
+region of mitochondrial elongation factor 1 (<italic>MIEF1</italic>). The figure represents peptide sequence &#x0201c;YTDRDFYFASIR&#x0201d;
+mapping to 5&#x02032;UTR of <italic>MIEF1</italic> (SMCR7L). In silico
+translation of the 5&#x02032;UTR region revealed the presence of a
+novel ORF of 70 amino acids. Sequence alignment shows conservation
+of the novel ORF with other mammals. The alignment of the peptide
+sequence identified in our study has been highlighted in the panel
+depicting sequence alignment with rabbit and panda. (b) N-terminal
+extension of tyrosylprotein sulfotransferase (<italic>TPST2</italic>). The figure represents peptide sequences &#x0201c;ALPADSLGTQAQGELEPR&#x0201d;
+and &#x0201c;CEPGGLPANLSLKPQK&#x0201d; mapping to 5&#x02032;UTR of <italic>TPST2</italic> just upstream of the currently annotated translation
+start site. The peptide sequences are translated in the same frame
+as the existing protein. Sequence alignment with other primate species
+reveals existence of an alternate translation start site 210 bp upstream
+of the currently annotated start site. (c) Evidence of translation
+on noncoding RNA (<italic>FAM230B</italic>) The figure represents
+peptide sequence &#x0201c;EDAAQGIANEAADK&#x0201d; mapping to noncoding
+RNA FAM230B. GENSCAN, a gene prediction algorithm, predicts an ORF
+in this region. (d) Identification of novel coding exon in the intron
+of smoothelin (<italic>SMTN</italic>). We identified &#x0201c;VAVTQAAEVAVATVEPVAR&#x0201d;
+mapping to the intronic region of <italic>SMTN</italic> between exon
+9 and 10. Our finding is also supported by several ESTs (subset listed
+in the figure) as well as GENSCAN prediction.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr-2013-01169d_0005" id="GRAPHIC-d2587e1606-autogenerated" position="float"/></fig><p>Based on our proteogenomics
+analysis, we identified two cases of
+N-terminal extension of proteins including extension of tyrosylprotein
+sulfotransferase (<italic>TPST2</italic>) (Figure <xref rid="fig5" ref-type="fig">5</xref>b) and Ran GTPase activating protein 1 (<italic>RANGAP1</italic>) both with orthologous evidence in primates. We also provide evidence
+for noncoding RNA, <italic>FAM230B</italic> (Figure <xref rid="fig5" ref-type="fig">5</xref>c) and translation of intronic region of smoothelin (<italic>SMTN</italic>), which encodes a structural protein that is found
+exclusively in contractile smooth muscle cells. It is known to associate
+with stress fibers and constitutes part of the cytoskeleton. This
+gene is localized to chromosome 22q12.3 (Figure <xref rid="fig5" ref-type="fig">5</xref>d). The representative MS/MS spectra of the peptides identified are
+provided in <xref rid="notes-2" ref-type="notes">Supplementary Figure 1</xref>.</p></sec></sec><sec sec-type="conclusions" id="sec4"><title>Conclusions</title><p>High-resolution mass spectrometry has enabled us to carry out deep
+proteome profiling resulting in the high confidence identification
+of the proteome. Additionally, we have also been able to identify
+47 proteins that were previously reported to be missing. Future studies
+have to be aimed at identifying proteins that are still missed using
+the targeted approach and sampling of tissues and cells. In addition,
+generation of MRM assays for proteins encoded by chromosome 22 becomes
+imperative as the disease-associated role of genes on this chromosome
+is evident. Proteogenomics has enabled redefining the genome annotation
+in several organisms, and we have demonstrated its ability to identify
+several novel events that have previously not been reported. The future
+efforts of C-HPP should enable characterization of these novel events
+in addition to focusing on the proteome that currently lacks proteomic
+evidence. Furthermore, a concerted effort is required to map the different
+post-translational modifications and subproteomes and to identify
+protein interaction networks of genes encoded by chromosome 22.</p><sec id="sec4.1"><title>Data Availability</title><p>The mass spectrometry proteomics
+data have been deposited to the ProteomeXchange consortium (<uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://proteomecentral.proteomexchange.org">http://proteomecentral.proteomexchange.org</uri>) via the PRIDE partner repository<sup><xref ref-type="bibr" rid="ref54">54</xref></sup> with
+the data set identifier PXD000561.</p></sec></sec></body><back><notes id="notes-2" notes-type="si"><title>Supporting Information Available</title><p>Representative MS/MS spectra
+of peptides identified by proteogenomics analysis, a list of proteins
+designated &#x0201c;missing proteins&#x0201d; identified by our study,
+and a summary of novel protein features on chromosome 22 identified
+through proteogenomic analysis. This material is available free of
+charge via the Internet at <uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://pubs.acs.org">http://pubs.acs.org</uri>.</p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr401169d_si_001.pdf"><caption><p>pr401169d_si_001.pdf</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile2"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr401169d_si_002.xlsx"><caption><p>pr401169d_si_002.xlsx</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="sifile3"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="pr401169d_si_003.xlsx"><caption><p>pr401169d_si_003.xlsx</p></caption></media></supplementary-material></sec><notes id="notes-1" notes-type="conflict-of-interest"><p>The authors
+declare no competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>We thank Drs. Lydie Lane and Amos Bairoch for providing us
+with the list of missing genes. This work was supported by an NIH
+roadmap grant for Technology Centers of Networks and Pathways (U54GM103520),
+NCI&#x02019;s Clinical Proteomic Tumor Analysis Consortium initiative
+(U24CA160036), a contract (HHSN268201000032C) from the National Heart,
+Lung and Blood Institute and the Sol Goldman Pancreatic Cancer Research
+Center. T.S.K.P is supported by DBT Program Support on Neuroproteomics
+(BT/01/COE/08/05) to IOB. H.G. is a Wellcome Trust-DBT India Alliance
+Early Career Fellow. S.M.P. is a recipient of Senior Research Fellowship
+from Council of Scientific and Industrial Research (CSIR), Government
+of India. S.S.M. is recipient of a Senior Research Fellowship from
+the University Grants Commission (UGC), India.</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name><surname>Paik</surname><given-names>Y. K.</given-names></name>; <name><surname>Jeong</surname><given-names>S. K.</given-names></name>; <name><surname>Omenn</surname><given-names>G. S.</given-names></name>; <name><surname>Uhlen</surname><given-names>M.</given-names></name>; <name><surname>Hanash</surname><given-names>S.</given-names></name>; <name><surname>Cho</surname><given-names>S. Y.</given-names></name>; <name><surname>Lee</surname><given-names>H. J.</given-names></name>; <name><surname>Na</surname><given-names>K.</given-names></name>; <name><surname>Choi</surname><given-names>E. Y.</given-names></name>; <name><surname>Yan</surname><given-names>F.</given-names></name>; <name><surname>Zhang</surname><given-names>F.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Snyder</surname><given-names>M.</given-names></name>; <name><surname>Cheng</surname><given-names>Y.</given-names></name>; <name><surname>Chen</surname><given-names>R.</given-names></name>; <name><surname>Marko-Varga</surname><given-names>G.</given-names></name>; <name><surname>Deutsch</surname><given-names>E. W.</given-names></name>; <name><surname>Kim</surname><given-names>H.</given-names></name>; <name><surname>Kwon</surname><given-names>J. Y.</given-names></name>; <name><surname>Aebersold</surname><given-names>R.</given-names></name>; <name><surname>Bairoch</surname><given-names>A.</given-names></name>; <name><surname>Taylor</surname><given-names>A. D.</given-names></name>; <name><surname>Kim</surname><given-names>K. Y.</given-names></name>; <name><surname>Lee</surname><given-names>E. Y.</given-names></name>; <name><surname>Hochstrasser</surname><given-names>D.</given-names></name>; <name><surname>Legrain</surname><given-names>P.</given-names></name>; <name><surname>Hancock</surname><given-names>W. S.</given-names></name>
+<article-title>The Chromosome-Centric Human Proteome
+Project for cataloging proteins encoded in the genome</article-title>. <source>Nat. Biotechnol.</source>
+<year>2012</year>, <volume>30</volume><issue>3</issue><fpage>221</fpage>&#x02013;<lpage>223</lpage>.<pub-id pub-id-type="pmid">22398612</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name><surname>Lane</surname><given-names>L.</given-names></name>; <name><surname>Bairoch</surname><given-names>A.</given-names></name>; <name><surname>Beavis</surname><given-names>R. C.</given-names></name>; <name><surname>Deutsch</surname><given-names>E. W.</given-names></name>; <name><surname>Gaudet</surname><given-names>P.</given-names></name>; <name><surname>Lundberg</surname><given-names>E.</given-names></name>; <name><surname>Omenn</surname><given-names>G. S.</given-names></name>
+<article-title>Metrics for the Human Proteome Project
+2013&#x02013;2014 and strategies for finding missing proteins</article-title>. <source>J. Proteome Res.</source>
+<year>2014</year>, <volume>13</volume><issue>1</issue><fpage>15</fpage>&#x02013;<lpage>20</lpage>.<pub-id pub-id-type="pmid">24364385</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name><surname>Lee</surname><given-names>H. J.</given-names></name>; <name><surname>Jeong</surname><given-names>S. K.</given-names></name>; <name><surname>Na</surname><given-names>K.</given-names></name>; <name><surname>Lee</surname><given-names>M. J.</given-names></name>; <name><surname>Lee</surname><given-names>S. H.</given-names></name>; <name><surname>Lim</surname><given-names>J. S.</given-names></name>; <name><surname>Cha</surname><given-names>H. J.</given-names></name>; <name><surname>Cho</surname><given-names>J. Y.</given-names></name>; <name><surname>Kwon</surname><given-names>J. Y.</given-names></name>; <name><surname>Kim</surname><given-names>H.</given-names></name>; <name><surname>Song</surname><given-names>S. Y.</given-names></name>; <name><surname>Yoo</surname><given-names>J. S.</given-names></name>; <name><surname>Park</surname><given-names>Y. M.</given-names></name>; <name><surname>Hancock</surname><given-names>W. S.</given-names></name>; <name><surname>Paik</surname><given-names>Y. K.</given-names></name>
+<article-title>Comprehensive genome-wide proteomic analysis of human
+placental tissue for the Chromosome-Centric Human Proteome Project</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>12</volume><issue>6</issue><fpage>2458</fpage>&#x02013;<lpage>2466</lpage>.<pub-id pub-id-type="pmid">23362793</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name><surname>Segura</surname><given-names>V.</given-names></name>; <name><surname>Medina-Aunon</surname><given-names>J. A.</given-names></name>; <name><surname>Mora</surname><given-names>M. I.</given-names></name>; <name><surname>Martinez-Bartolome</surname><given-names>S.</given-names></name>; <name><surname>Abian</surname><given-names>J.</given-names></name>; <name><surname>Aloria</surname><given-names>K.</given-names></name>; <name><surname>Antunez</surname><given-names>O.</given-names></name>; <name><surname>Arizmendi</surname><given-names>J. M.</given-names></name>; <name><surname>Azkargorta</surname><given-names>M.</given-names></name>; <name><surname>Barcelo-Batllori</surname><given-names>S.</given-names></name>; <name><surname>Beaskoetxea</surname><given-names>J.</given-names></name>; <name><surname>Bech-Serra</surname><given-names>J. J.</given-names></name>; <name><surname>Blanco</surname><given-names>F.</given-names></name>; <name><surname>Monteiro</surname><given-names>M. B.</given-names></name>; <name><surname>Caceres</surname><given-names>D.</given-names></name>; <name><surname>Canals</surname><given-names>F.</given-names></name>; <name><surname>Carrascal</surname><given-names>M.</given-names></name>; <name><surname>Casal</surname><given-names>J. I.</given-names></name>; <name><surname>Clemente</surname><given-names>F.</given-names></name>; <name><surname>Colome</surname><given-names>N.</given-names></name>; <name><surname>Dasilva</surname><given-names>N.</given-names></name>; <name><surname>Diaz</surname><given-names>P.</given-names></name>; <name><surname>Elortza</surname><given-names>F.</given-names></name>; <name><surname>Fernandez-Puente</surname><given-names>P.</given-names></name>; <name><surname>Fuentes</surname><given-names>M.</given-names></name>; <name><surname>Gallardo</surname><given-names>O.</given-names></name>; <name><surname>Gharbi</surname><given-names>S. I.</given-names></name>; <name><surname>Gil</surname><given-names>C.</given-names></name>; <name><surname>Gonzalez-Tejedo</surname><given-names>C.</given-names></name>; <name><surname>Hernaez</surname><given-names>M. L.</given-names></name>; <name><surname>Lombardia</surname><given-names>M.</given-names></name>; <name><surname>Lopez-Lucendo</surname><given-names>M.</given-names></name>; <name><surname>Marcilla</surname><given-names>M.</given-names></name>; <name><surname>Mato</surname><given-names>J. M.</given-names></name>; <name><surname>Mendes</surname><given-names>M.</given-names></name>; <name><surname>Oliveira</surname><given-names>E.</given-names></name>; <name><surname>Orera</surname><given-names>I.</given-names></name>; <name><surname>Pascual-Montano</surname><given-names>A.</given-names></name>; <name><surname>Prieto</surname><given-names>G.</given-names></name>; <name><surname>Ruiz-Romero</surname><given-names>C.</given-names></name>; <name><surname>Sanchez Del Pino</surname><given-names>M. M.</given-names></name>; <name><surname>Tabas-Madrid</surname><given-names>D.</given-names></name>; <name><surname>Valero</surname><given-names>M. L.</given-names></name>; <name><surname>Vialas</surname><given-names>V.</given-names></name>; <name><surname>Villanueva</surname><given-names>J.</given-names></name>; <name><surname>Albar</surname><given-names>J. P.</given-names></name>; <name><surname>Corrales</surname><given-names>F. J.</given-names></name>
+<article-title>Surfing transcriptomic landscapes.
+A step beyond the annotation of chromosome 16 proteome</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>13</volume><issue>1</issue><fpage>158</fpage>&#x02013;<lpage>172</lpage>.<pub-id pub-id-type="pmid">24138474</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name><surname>Wang</surname><given-names>Q.</given-names></name>; <name><surname>Wen</surname><given-names>B.</given-names></name>; <name><surname>Yan</surname><given-names>G.</given-names></name>; <name><surname>Wei</surname><given-names>J.</given-names></name>; <name><surname>Xie</surname><given-names>L.</given-names></name>; <name><surname>Xu</surname><given-names>S.</given-names></name>; <name><surname>Jiang</surname><given-names>D.</given-names></name>; <name><surname>Wang</surname><given-names>T.</given-names></name>; <name><surname>Lin</surname><given-names>L.</given-names></name>; <name><surname>Zi</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>J.</given-names></name>; <name><surname>Zhou</surname><given-names>R.</given-names></name>; <name><surname>Zhao</surname><given-names>H.</given-names></name>; <name><surname>Ren</surname><given-names>Z.</given-names></name>; <name><surname>Qu</surname><given-names>N.</given-names></name>; <name><surname>Lou</surname><given-names>X.</given-names></name>; <name><surname>Sun</surname><given-names>H.</given-names></name>; <name><surname>Du</surname><given-names>C.</given-names></name>; <name><surname>Chen</surname><given-names>C.</given-names></name>; <name><surname>Zhang</surname><given-names>S.</given-names></name>; <name><surname>Tan</surname><given-names>F.</given-names></name>; <name><surname>Xian</surname><given-names>Y.</given-names></name>; <name><surname>Gao</surname><given-names>Z.</given-names></name>; <name><surname>He</surname><given-names>M.</given-names></name>; <name><surname>Chen</surname><given-names>L.</given-names></name>; <name><surname>Zhao</surname><given-names>X.</given-names></name>; <name><surname>Xu</surname><given-names>P.</given-names></name>; <name><surname>Zhu</surname><given-names>Y.</given-names></name>; <name><surname>Yin</surname><given-names>X.</given-names></name>; <name><surname>Shen</surname><given-names>H.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Jiang</surname><given-names>J.</given-names></name>; <name><surname>Zhang</surname><given-names>C.</given-names></name>; <name><surname>Li</surname><given-names>L.</given-names></name>; <name><surname>Chang</surname><given-names>C.</given-names></name>; <name><surname>Ma</surname><given-names>J.</given-names></name>; <name><surname>Yao</surname><given-names>J.</given-names></name>; <name><surname>Lu</surname><given-names>H.</given-names></name>; <name><surname>Ying</surname><given-names>W.</given-names></name>; <name><surname>Zhong</surname><given-names>F.</given-names></name>; <name><surname>He</surname><given-names>Q. Y.</given-names></name>; <name><surname>Liu</surname><given-names>S.</given-names></name>
+<article-title>Qualitative
+and quantitative expression status of the human chromosome 20 genes
+in cancer tissues and the representative cell lines</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>12</volume><issue>1</issue><fpage>151</fpage>&#x02013;<lpage>161</lpage>.<pub-id pub-id-type="pmid">23252959</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name><surname>Fagerberg</surname><given-names>L.</given-names></name>; <name><surname>Oksvold</surname><given-names>P.</given-names></name>; <name><surname>Skogs</surname><given-names>M.</given-names></name>; <name><surname>Algenas</surname><given-names>C.</given-names></name>; <name><surname>Lundberg</surname><given-names>E.</given-names></name>; <name><surname>Ponten</surname><given-names>F.</given-names></name>; <name><surname>Sivertsson</surname><given-names>A.</given-names></name>; <name><surname>Odeberg</surname><given-names>J.</given-names></name>; <name><surname>Klevebring</surname><given-names>D.</given-names></name>; <name><surname>Kampf</surname><given-names>C.</given-names></name>; <name><surname>Asplund</surname><given-names>A.</given-names></name>; <name><surname>Sjostedt</surname><given-names>E.</given-names></name>; <name><surname>Al-Khalili
+Szigyarto</surname><given-names>C.</given-names></name>; <name><surname>Edqvist</surname><given-names>P. H.</given-names></name>; <name><surname>Olsson</surname><given-names>I.</given-names></name>; <name><surname>Rydberg</surname><given-names>U.</given-names></name>; <name><surname>Hudson</surname><given-names>P.</given-names></name>; <name><surname>Ottosson Takanen</surname><given-names>J.</given-names></name>; <name><surname>Berling</surname><given-names>H.</given-names></name>; <name><surname>Bjorling</surname><given-names>L.</given-names></name>; <name><surname>Tegel</surname><given-names>H.</given-names></name>; <name><surname>Rockberg</surname><given-names>J.</given-names></name>; <name><surname>Nilsson</surname><given-names>P.</given-names></name>; <name><surname>Navani</surname><given-names>S.</given-names></name>; <name><surname>Jirstrom</surname><given-names>K.</given-names></name>; <name><surname>Mulder</surname><given-names>J.</given-names></name>; <name><surname>Schwenk</surname><given-names>J. M.</given-names></name>; <name><surname>Zwahlen</surname><given-names>M.</given-names></name>; <name><surname>Hober</surname><given-names>S.</given-names></name>; <name><surname>Forsberg</surname><given-names>M.</given-names></name>; <name><surname>von Feilitzen</surname><given-names>K.</given-names></name>; <name><surname>Uhlen</surname><given-names>M.</given-names></name>
+<article-title>Contribution of antibody-based protein profiling to the human Chromosome-Centric
+Proteome Project (C-HPP)</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>12</volume><issue>6</issue><fpage>2439</fpage>&#x02013;<lpage>48</lpage>.<pub-id pub-id-type="pmid">23276153</pub-id></mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name><surname>Dunham</surname><given-names>I.</given-names></name>; <name><surname>Shimizu</surname><given-names>N.</given-names></name>; <name><surname>Roe</surname><given-names>B. A.</given-names></name>; <name><surname>Chissoe</surname><given-names>S.</given-names></name>; <name><surname>Hunt</surname><given-names>A. R.</given-names></name>; <name><surname>Collins</surname><given-names>J. E.</given-names></name>; <name><surname>Bruskiewich</surname><given-names>R.</given-names></name>; <name><surname>Beare</surname><given-names>D. M.</given-names></name>; <name><surname>Clamp</surname><given-names>M.</given-names></name>; <name><surname>Smink</surname><given-names>L. J.</given-names></name>; <name><surname>Ainscough</surname><given-names>R.</given-names></name>; <name><surname>Almeida</surname><given-names>J. P.</given-names></name>; <name><surname>Babbage</surname><given-names>A.</given-names></name>; <name><surname>Bagguley</surname><given-names>C.</given-names></name>; <name><surname>Bailey</surname><given-names>J.</given-names></name>; <name><surname>Barlow</surname><given-names>K.</given-names></name>; <name><surname>Bates</surname><given-names>K. N.</given-names></name>; <name><surname>Beasley</surname><given-names>O.</given-names></name>; <name><surname>Bird</surname><given-names>C. P.</given-names></name>; <name><surname>Blakey</surname><given-names>S.</given-names></name>; <name><surname>Bridgeman</surname><given-names>A. M.</given-names></name>; <name><surname>Buck</surname><given-names>D.</given-names></name>; <name><surname>Burgess</surname><given-names>J.</given-names></name>; <name><surname>Burrill</surname><given-names>W. D.</given-names></name>; <name><surname>O&#x02019;Brien</surname><given-names>K. P.</given-names></name>; et al. <article-title>The DNA sequence of
+human chromosome 22</article-title>. <source>Nature</source>
+<year>1999</year>, <volume>402</volume><issue>6761</issue><fpage>489</fpage>&#x02013;<lpage>495</lpage>.<pub-id pub-id-type="pmid">10591208</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name><surname>Morton</surname><given-names>N. E.</given-names></name>
+<article-title>Parameters
+of the human genome</article-title>. <source>Proc. Natl. Acad. Sci.
+U.S.A.</source>
+<year>1991</year>, <volume>88</volume><issue>17</issue><fpage>7474</fpage>&#x02013;<lpage>7476</lpage>.<pub-id pub-id-type="pmid">1881886</pub-id></mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name><surname>Wilson</surname><given-names>G. N.</given-names></name>; <name><surname>Baker</surname><given-names>D. L.</given-names></name>; <name><surname>Schau</surname><given-names>J.</given-names></name>; <name><surname>Parker</surname><given-names>J.</given-names></name>
+<article-title>Cat eye syndrome owing
+to tetrasomy 22pter leads to q11</article-title>. <source>J. Med. Genet</source>
+<year>1984</year>, <volume>21</volume><issue>1</issue><fpage>60</fpage>&#x02013;<lpage>63</lpage>.<pub-id pub-id-type="pmid">6694188</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name><surname>Driscoll</surname><given-names>D.
+A.</given-names></name>; <name><surname>Budarf</surname><given-names>M. L.</given-names></name>; <name><surname>Emanuel</surname><given-names>B. S.</given-names></name>
+<article-title>A genetic etiology for DiGeorge syndrome:
+consistent deletions and microdeletions of 22q11</article-title>. <source>Am. J. Hum. Genet.</source>
+<year>1992</year>, <volume>50</volume><issue>5</issue><fpage>924</fpage>&#x02013;<lpage>933</lpage>.<pub-id pub-id-type="pmid">1349199</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name><surname>Shprintzen</surname><given-names>R. J.</given-names></name>; <name><surname>Goldberg</surname><given-names>R. B.</given-names></name>; <name><surname>Lewin</surname><given-names>M. L.</given-names></name>; <name><surname>Sidoti</surname><given-names>E. J.</given-names></name>; <name><surname>Berkman</surname><given-names>M. D.</given-names></name>; <name><surname>Argamaso</surname><given-names>R. V.</given-names></name>; <name><surname>Young</surname><given-names>D.</given-names></name>
+<article-title>A new syndrome involving cleft palate,
+cardiac anomalies, typical facies, and learning disabilities: velo-cardio-facial
+syndrome</article-title>. <source>Cleft Palate J.</source>
+<year>1978</year>, <volume>15</volume><issue>1</issue><fpage>56</fpage>&#x02013;<lpage>62</lpage>.<pub-id pub-id-type="pmid">272242</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name><surname>Wong</surname><given-names>A. C.</given-names></name>; <name><surname>Ning</surname><given-names>Y.</given-names></name>; <name><surname>Flint</surname><given-names>J.</given-names></name>; <name><surname>Clark</surname><given-names>K.</given-names></name>; <name><surname>Dumanski</surname><given-names>J. P.</given-names></name>; <name><surname>Ledbetter</surname><given-names>D. H.</given-names></name>; <name><surname>McDermid</surname><given-names>H. E.</given-names></name>
+<article-title>Molecular characterization of a 130-kb
+terminal microdeletion at 22q in a child with mild mental retardation</article-title>. <source>Am. J. Hum. Genet.</source>
+<year>1997</year>, <volume>60</volume><issue>1</issue><fpage>113</fpage>&#x02013;<lpage>120</lpage>.<pub-id pub-id-type="pmid">8981954</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name><surname>Dreazen</surname><given-names>O.</given-names></name>; <name><surname>Klisak</surname><given-names>I.</given-names></name>; <name><surname>Jones</surname><given-names>G.</given-names></name>; <name><surname>Ho</surname><given-names>W. G.</given-names></name>; <name><surname>Sparkes</surname><given-names>R. S.</given-names></name>; <name><surname>Gale</surname><given-names>R. P.</given-names></name>
+<article-title>Multiple molecular abnormalities in Ph1 chromosome
+positive acute lymphoblastic leukaemia</article-title>. <source>Br.
+J. Haematol.</source>
+<year>1987</year>, <volume>67</volume><issue>3</issue><fpage>319</fpage>&#x02013;<lpage>324</lpage>.<pub-id pub-id-type="pmid">3479997</pub-id></mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="undeclared" id="cit14"><person-group person-group-type="allauthors"><name><surname>Kim</surname><given-names>M. S.</given-names></name>; <name><surname>Pinto</surname><given-names>S. M.</given-names></name>; <name><surname>Getnet</surname><given-names>D.</given-names></name>; <name><surname>Nirujogi</surname><given-names>R. S.</given-names></name>; <name><surname>Manda</surname><given-names>S. S.</given-names></name>; <name><surname>Chaerkady</surname><given-names>R.</given-names></name>; <name><surname>Madugundu</surname><given-names>A. K.</given-names></name>; <name><surname>Kelkar</surname><given-names>D. S.</given-names></name>; <name><surname>Isserlin</surname><given-names>R.</given-names></name>; <name><surname>Jain</surname><given-names>S.</given-names></name>; <name><surname>Thomas</surname><given-names>J. K.</given-names></name>; <name><surname>Muthusamy</surname><given-names>B.</given-names></name>; <name><surname>Leal-Rojas</surname><given-names>P.</given-names></name>; <name><surname>Kumar</surname><given-names>P.</given-names></name>; <name><surname>Sahasrabuddhe</surname><given-names>N. A.</given-names></name>; <name><surname>Balakrishnan</surname><given-names>L.</given-names></name>; <name><surname>Advani</surname><given-names>J.</given-names></name>; <name><surname>George</surname><given-names>B.</given-names></name>; <name><surname>Renuse</surname><given-names>S.</given-names></name>; <name><surname>Selvan</surname><given-names>L. D. N.</given-names></name>; <name><surname>Patil</surname><given-names>A. H.</given-names></name>; <name><surname>Nanjappa</surname><given-names>V.</given-names></name>; <name><surname>Radhakrishnan</surname><given-names>A.</given-names></name>; <name><surname>Prasad</surname><given-names>S.</given-names></name>; <name><surname>Subbannayya</surname><given-names>T.</given-names></name>; <name><surname>Raju</surname><given-names>R.</given-names></name>; <name><surname>Kumar</surname><given-names>M.</given-names></name>; <name><surname>Sreenivasamurthy</surname><given-names>S. K.</given-names></name>; <name><surname>Marimuthu</surname><given-names>A.</given-names></name>; <name><surname>Sathe</surname><given-names>G. J.</given-names></name>; <name><surname>Chavan</surname><given-names>S.</given-names></name>; <name><surname>Datta</surname><given-names>K. K.</given-names></name>; <name><surname>Subbannayya</surname><given-names>Y.</given-names></name>; <name><surname>Sahu</surname><given-names>A.</given-names></name>; <name><surname>Yelamanchi</surname><given-names>S. D.</given-names></name>; <name><surname>Jayaram</surname><given-names>S.</given-names></name>; <name><surname>Rajagopalan</surname><given-names>P.</given-names></name>; <name><surname>Sharma</surname><given-names>J.</given-names></name>; <name><surname>Murthy</surname><given-names>K. R.</given-names></name>; <name><surname>Syed</surname><given-names>N.</given-names></name>; <name><surname>Goel</surname><given-names>R.</given-names></name>; <name><surname>Khan</surname><given-names>A. K.</given-names></name>; <name><surname>Ahmad</surname><given-names>S.</given-names></name>; <name><surname>Dey</surname><given-names>G.</given-names></name>; <name><surname>Mudgal</surname><given-names>K.</given-names></name>; <name><surname>Chatterjee</surname><given-names>A.</given-names></name>; <name><surname>Huang</surname><given-names>T.</given-names></name>; <name><surname>Zhong</surname><given-names>J.</given-names></name>; <name><surname>Wu</surname><given-names>X.</given-names></name>; <name><surname>Shaw</surname><given-names>P. G.</given-names></name>; <name><surname>Freed</surname><given-names>D.</given-names></name>; <name><surname>Zahari</surname><given-names>M. S.</given-names></name>; <name><surname>Mukherjee</surname><given-names>K. K.</given-names></name>; <name><surname>Shankar</surname><given-names>S.</given-names></name>; <name><surname>Mahadevan</surname><given-names>A.</given-names></name>; <name><surname>Lam</surname><given-names>H.</given-names></name>; <name><surname>Mitchell</surname><given-names>C. J.</given-names></name>; <name><surname>Shankar</surname><given-names>S. K.</given-names></name>; <name><surname>Satishchandra</surname><given-names>P.</given-names></name>; <name><surname>Schroeder</surname><given-names>J. T.</given-names></name>; <name><surname>Sirdeshmukh</surname><given-names>R.</given-names></name>; <name><surname>Maitra</surname><given-names>A.</given-names></name>; <name><surname>Leach</surname><given-names>S. D.</given-names></name>; <name><surname>Drake</surname><given-names>C. G.</given-names></name>; <name><surname>Halushka</surname><given-names>M. K.</given-names></name>; <name><surname>Prasad</surname><given-names>T. S. K.</given-names></name>; <name><surname>Hruban</surname><given-names>R. H.</given-names></name>; <name><surname>Kerr</surname><given-names>C. L.</given-names></name>; <name><surname>Bader</surname><given-names>G. D.</given-names></name>; <name><surname>Iacobuzio-Donahue</surname><given-names>C.
+H.</given-names></name>; <name><surname>Gowda</surname><given-names>H.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name></person-group><article-title>A draft map of the human proteome</article-title>. <source>Nature</source><year>2014</year>, In press</mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name><surname>Harsha</surname><given-names>H. C.</given-names></name>; <name><surname>Molina</surname><given-names>H.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>
+<article-title>Quantitative proteomics using stable
+isotope labeling with amino acids in cell culture</article-title>. <source>Nat. Protoc.</source>
+<year>2008</year>, <volume>3</volume><issue>3</issue><fpage>505</fpage>&#x02013;<lpage>516</lpage>.<pub-id pub-id-type="pmid">18323819</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name><surname>Kall</surname><given-names>L.</given-names></name>; <name><surname>Canterbury</surname><given-names>J. D.</given-names></name>; <name><surname>Weston</surname><given-names>J.</given-names></name>; <name><surname>Noble</surname><given-names>W. S.</given-names></name>; <name><surname>MacCoss</surname><given-names>M. J.</given-names></name>
+<article-title>Semi-supervised
+learning for peptide identification from shotgun proteomics datasets</article-title>. <source>Nat. Methods</source>
+<year>2007</year>, <volume>4</volume><issue>11</issue><fpage>923</fpage>&#x02013;<lpage>925</lpage>.<pub-id pub-id-type="pmid">17952086</pub-id></mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name><surname>Keshava
+Prasad</surname><given-names>T. S.</given-names></name>; <name><surname>Goel</surname><given-names>R.</given-names></name>; <name><surname>Kandasamy</surname><given-names>K.</given-names></name>; <name><surname>Keerthikumar</surname><given-names>S.</given-names></name>; <name><surname>Kumar</surname><given-names>S.</given-names></name>; <name><surname>Mathivanan</surname><given-names>S.</given-names></name>; <name><surname>Telikicherla</surname><given-names>D.</given-names></name>; <name><surname>Raju</surname><given-names>R.</given-names></name>; <name><surname>Shafreen</surname><given-names>B.</given-names></name>; <name><surname>Venugopal</surname><given-names>A.</given-names></name>; <name><surname>Balakrishnan</surname><given-names>L.</given-names></name>; <name><surname>Marimuthu</surname><given-names>A.</given-names></name>; <name><surname>Banerjee</surname><given-names>S.</given-names></name>; <name><surname>Somanathan</surname><given-names>D. S.</given-names></name>; <name><surname>Sebastian</surname><given-names>A.</given-names></name>; <name><surname>Rani</surname><given-names>S.</given-names></name>; <name><surname>Ray</surname><given-names>S.</given-names></name>; <name><surname>Harrys Kishore</surname><given-names>C. J.</given-names></name>; <name><surname>Kanth</surname><given-names>S.</given-names></name>; <name><surname>Ahmed</surname><given-names>M.</given-names></name>; <name><surname>Kashyap</surname><given-names>M. K.</given-names></name>; <name><surname>Mohmood</surname><given-names>R.</given-names></name>; <name><surname>Ramachandra</surname><given-names>Y. L.</given-names></name>; <name><surname>Krishna</surname><given-names>V.</given-names></name>; <name><surname>Rahiman</surname><given-names>B. A.</given-names></name>; <name><surname>Mohan</surname><given-names>S.</given-names></name>; <name><surname>Ranganathan</surname><given-names>P.</given-names></name>; <name><surname>Ramabadran</surname><given-names>S.</given-names></name>; <name><surname>Chaerkady</surname><given-names>R.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>
+<article-title>Human Protein Reference Database--2009 update</article-title>. <source>Nucleic Acids Res.</source>
+<year>2009</year>, <volume>37</volume><issue>Database issue</issue><fpage>D767</fpage>&#x02013;<lpage>D772</lpage>.<pub-id pub-id-type="pmid">18988627</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name><surname>Chu</surname><given-names>H.</given-names></name>; <name><surname>Thievessen</surname><given-names>I.</given-names></name>; <name><surname>Sixt</surname><given-names>M.</given-names></name>; <name><surname>Lammermann</surname><given-names>T.</given-names></name>; <name><surname>Waisman</surname><given-names>A.</given-names></name>; <name><surname>Braun</surname><given-names>A.</given-names></name>; <name><surname>Noegel</surname><given-names>A. A.</given-names></name>; <name><surname>Fassler</surname><given-names>R.</given-names></name>
+<article-title>Gamma-Parvin
+is dispensable for hematopoiesis, leukocyte trafficking, and T-cell-dependent
+antibody response</article-title>. <source>Mol. Cell. Biol.</source>
+<year>2006</year>, <volume>26</volume><issue>5</issue><fpage>1817</fpage>&#x02013;<lpage>1825</lpage>.<pub-id pub-id-type="pmid">16479001</pub-id></mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name><surname>Marko-Varga</surname><given-names>G.</given-names></name>; <name><surname>Omenn</surname><given-names>G. S.</given-names></name>; <name><surname>Paik</surname><given-names>Y. K.</given-names></name>; <name><surname>Hancock</surname><given-names>W. S.</given-names></name>
+<article-title>A first step toward
+completion of a genome-wide characterization of the human proteome</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>12</volume><issue>1</issue><fpage>1</fpage>&#x02013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">23256439</pub-id></mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name><surname>Veenman</surname><given-names>L.</given-names></name>; <name><surname>Papadopoulos</surname><given-names>V.</given-names></name>; <name><surname>Gavish</surname><given-names>M.</given-names></name>
+<article-title>Channel-like functions of the 18-kDa
+translocator protein (TSPO): regulation of apoptosis and steroidogenesis
+as part of the host-defense response</article-title>. <source>Curr.
+Pharm. Des</source>
+<year>2007</year>, <volume>13</volume><issue>23</issue><fpage>2385</fpage>&#x02013;<lpage>2405</lpage>.<pub-id pub-id-type="pmid">17692008</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name><surname>Footz</surname><given-names>T. K.</given-names></name>; <name><surname>Brinkman-Mills</surname><given-names>P.</given-names></name>; <name><surname>Banting</surname><given-names>G. S.</given-names></name>; <name><surname>Maier</surname><given-names>S. A.</given-names></name>; <name><surname>Riazi</surname><given-names>M. A.</given-names></name>; <name><surname>Bridgland</surname><given-names>L.</given-names></name>; <name><surname>Hu</surname><given-names>S.</given-names></name>; <name><surname>Birren</surname><given-names>B.</given-names></name>; <name><surname>Minoshima</surname><given-names>S.</given-names></name>; <name><surname>Shimizu</surname><given-names>N.</given-names></name>; <name><surname>Pan</surname><given-names>H.</given-names></name>; <name><surname>Nguyen</surname><given-names>T.</given-names></name>; <name><surname>Fang</surname><given-names>F.</given-names></name>; <name><surname>Fu</surname><given-names>Y.</given-names></name>; <name><surname>Ray</surname><given-names>L.</given-names></name>; <name><surname>Wu</surname><given-names>H.</given-names></name>; <name><surname>Shaull</surname><given-names>S.</given-names></name>; <name><surname>Phan</surname><given-names>S.</given-names></name>; <name><surname>Yao</surname><given-names>Z.</given-names></name>; <name><surname>Chen</surname><given-names>F.</given-names></name>; <name><surname>Huan</surname><given-names>A.</given-names></name>; <name><surname>Hu</surname><given-names>P.</given-names></name>; <name><surname>Wang</surname><given-names>Q.</given-names></name>; <name><surname>Loh</surname><given-names>P.</given-names></name>; <name><surname>Qi</surname><given-names>S.</given-names></name>; <name><surname>Roe</surname><given-names>B. A.</given-names></name>; <name><surname>McDermid</surname><given-names>H. E.</given-names></name>
+<article-title>Analysis of the
+cat eye syndrome critical region in humans and the region of conserved
+synteny in mice: a search for candidate genes at or near the human
+chromosome 22 pericentromere</article-title>. <source>Genome Res.</source>
+<year>2001</year>, <volume>11</volume><issue>6</issue><fpage>1053</fpage>&#x02013;<lpage>1070</lpage>.<pub-id pub-id-type="pmid">11381032</pub-id></mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name><surname>Mittelstaedt</surname><given-names>T.</given-names></name>; <name><surname>Schoch</surname><given-names>S.</given-names></name>
+<article-title>Structure
+and evolution of RIM-BP genes: identification
+of a novel family member</article-title>. <source>Gene</source>
+<year>2007</year>, <volume>403</volume><issue>1&#x02013;2</issue><fpage>70</fpage>&#x02013;<lpage>79</lpage>.<pub-id pub-id-type="pmid">17855024</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name><surname>Frippiat</surname><given-names>J.
+P.</given-names></name>; <name><surname>Williams</surname><given-names>S. C.</given-names></name>; <name><surname>Tomlinson</surname><given-names>I. M.</given-names></name>; <name><surname>Cook</surname><given-names>G. P.</given-names></name>; <name><surname>Cherif</surname><given-names>D.</given-names></name>; <name><surname>Le Paslier</surname><given-names>D.</given-names></name>; <name><surname>Collins</surname><given-names>J. E.</given-names></name>; <name><surname>Dunham</surname><given-names>I.</given-names></name>; <name><surname>Winter</surname><given-names>G.</given-names></name>; <name><surname>Lefranc</surname><given-names>M. P.</given-names></name>
+<article-title>Organization
+of the human immunoglobulin lambda light-chain
+locus on chromosome 22q11.2</article-title>. <source>Hum. Mol. Genet.</source>
+<year>1995</year>, <volume>4</volume><issue>6</issue><fpage>983</fpage>&#x02013;<lpage>991</lpage>.<pub-id pub-id-type="pmid">7655473</pub-id></mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name><surname>Morris</surname><given-names>C.</given-names></name>; <name><surname>Courtay</surname><given-names>C.</given-names></name>; <name><surname>Geurts van
+Kessel</surname><given-names>A.</given-names></name>; <name><surname>ten Hoeve</surname><given-names>J.</given-names></name>; <name><surname>Heisterkamp</surname><given-names>N.</given-names></name>; <name><surname>Groffen</surname><given-names>J.</given-names></name>
+<article-title>Localization of a gamma-glutamyl-transferase-related
+gene family on chromosome 22</article-title>. <source>Hum. Genet.</source>
+<year>1993</year>, <volume>91</volume><issue>1</issue><fpage>31</fpage>&#x02013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">8095916</pub-id></mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name><surname>Seroussi</surname><given-names>E.</given-names></name>; <name><surname>Kedra</surname><given-names>D.</given-names></name>; <name><surname>Pan</surname><given-names>H. Q.</given-names></name>; <name><surname>Peyrard</surname><given-names>M.</given-names></name>; <name><surname>Schwartz</surname><given-names>C.</given-names></name>; <name><surname>Scambler</surname><given-names>P.</given-names></name>; <name><surname>Donnai</surname><given-names>D.</given-names></name>; <name><surname>Roe</surname><given-names>B. A.</given-names></name>; <name><surname>Dumanski</surname><given-names>J. P.</given-names></name>
+<article-title>Duplications
+on human chromosome 22 reveal a novel Ret Finger Protein-like gene
+family with sense and endogenous antisense transcripts</article-title>. <source>Genome Res.</source>
+<year>1999</year>, <volume>9</volume><issue>9</issue><fpage>803</fpage>&#x02013;<lpage>814</lpage>.<pub-id pub-id-type="pmid">10508838</pub-id></mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name><surname>Duchateau</surname><given-names>P. N.</given-names></name>; <name><surname>Pullinger</surname><given-names>C. R.</given-names></name>; <name><surname>Cho</surname><given-names>M. H.</given-names></name>; <name><surname>Eng</surname><given-names>C.</given-names></name>; <name><surname>Kane</surname><given-names>J. P.</given-names></name>
+<article-title>Apolipoprotein
+L gene family: tissue-specific expression, splicing, promoter regions;
+discovery of a new gene</article-title>. <source>J. Lipid Res.</source>
+<year>2001</year>, <volume>42</volume><issue>4</issue><fpage>620</fpage>&#x02013;<lpage>630</lpage>.<pub-id pub-id-type="pmid">11290834</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name><surname>Bijlsma</surname><given-names>E.
+K.</given-names></name>; <name><surname>Delattre</surname><given-names>O.</given-names></name>; <name><surname>Juyn</surname><given-names>J. A.</given-names></name>; <name><surname>Melot</surname><given-names>T.</given-names></name>; <name><surname>Westerveld</surname><given-names>A.</given-names></name>; <name><surname>Dumanski</surname><given-names>J. P.</given-names></name>; <name><surname>Thomas</surname><given-names>G.</given-names></name>; <name><surname>Hulsebos</surname><given-names>T. J.</given-names></name>
+<article-title>Regional fine mapping
+of the beta Crystallin genes on chromosome 22 excludes these genes
+as physically linked markers for neurofibromatosis type 2</article-title>. <source>Genes, Chromosomes Cancer</source>
+<year>1993</year>, <volume>8</volume><issue>2</issue><fpage>112</fpage>&#x02013;<lpage>118</lpage>.<pub-id pub-id-type="pmid">7504514</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name><surname>Hulsebos</surname><given-names>T. J.</given-names></name>; <name><surname>Jenkins</surname><given-names>N. A.</given-names></name>; <name><surname>Gilbert</surname><given-names>D. J.</given-names></name>; <name><surname>Copeland</surname><given-names>N. G.</given-names></name>
+<article-title>The beta Crystallin
+genes on human chromosome 22 define a new region of homology with
+mouse chromosome 5</article-title>. <source>Genomics</source>
+<year>1995</year>, <volume>25</volume><issue>2</issue><fpage>574</fpage>&#x02013;<lpage>576</lpage>.<pub-id pub-id-type="pmid">7789995</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name><surname>Jarmuz</surname><given-names>A.</given-names></name>; <name><surname>Chester</surname><given-names>A.</given-names></name>; <name><surname>Bayliss</surname><given-names>J.</given-names></name>; <name><surname>Gisbourne</surname><given-names>J.</given-names></name>; <name><surname>Dunham</surname><given-names>I.</given-names></name>; <name><surname>Scott</surname><given-names>J.</given-names></name>; <name><surname>Navaratnam</surname><given-names>N.</given-names></name>
+<article-title>An anthropoid-specific
+locus of orphan C to U RNA-editing enzymes on chromosome 22</article-title>. <source>Genomics</source>
+<year>2002</year>, <volume>79</volume><issue>3</issue><fpage>285</fpage>&#x02013;<lpage>296</lpage>.<pub-id pub-id-type="pmid">11863358</pub-id></mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name><surname>Cullen</surname><given-names>B. R.</given-names></name>
+<article-title>Role and
+mechanism of action of the APOBEC3 family of antiretroviral resistance
+factors</article-title>. <source>J. Virol</source>
+<year>2006</year>, <volume>80</volume><issue>3</issue><fpage>1067</fpage>&#x02013;<lpage>1076</lpage>.<pub-id pub-id-type="pmid">16414984</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name><surname>Lackey</surname><given-names>L.</given-names></name>; <name><surname>Law</surname><given-names>E. K.</given-names></name>; <name><surname>Brown</surname><given-names>W. L.</given-names></name>; <name><surname>Harris</surname><given-names>R. S.</given-names></name>
+<article-title>Subcellular localization
+of the APOBEC3 proteins during mitosis and implications for genomic
+DNA deamination</article-title>. <source>Cell Cycle</source>
+<year>2013</year>, <volume>12</volume><issue>5</issue><fpage>762</fpage>&#x02013;<lpage>772</lpage>.<pub-id pub-id-type="pmid">23388464</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name><surname>Navaratnam</surname><given-names>N.</given-names></name>; <name><surname>Morrison</surname><given-names>J. R.</given-names></name>; <name><surname>Bhattacharya</surname><given-names>S.</given-names></name>; <name><surname>Patel</surname><given-names>D.</given-names></name>; <name><surname>Funahashi</surname><given-names>T.</given-names></name>; <name><surname>Giannoni</surname><given-names>F.</given-names></name>; <name><surname>Teng</surname><given-names>B. B.</given-names></name>; <name><surname>Davidson</surname><given-names>N. O.</given-names></name>; <name><surname>Scott</surname><given-names>J.</given-names></name>
+<article-title>The p27 catalytic
+subunit of the apolipoprotein B mRNA editing enzyme is a cytidine
+deaminase</article-title>. <source>J. Biol. Chem.</source>
+<year>1993</year>, <volume>268</volume><issue>28</issue><fpage>20709</fpage>&#x02013;<lpage>20712</lpage>.<pub-id pub-id-type="pmid">8407891</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name><surname>Teng</surname><given-names>B.</given-names></name>; <name><surname>Burant</surname><given-names>C. F.</given-names></name>; <name><surname>Davidson</surname><given-names>N. O.</given-names></name>
+<article-title>Molecular
+cloning of an apolipoprotein
+B messenger RNA editing protein</article-title>. <source>Science</source>
+<year>1993</year>, <volume>260</volume><issue>5115</issue><fpage>1816</fpage>&#x02013;<lpage>1819</lpage>.<pub-id pub-id-type="pmid">8511591</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name><surname>Dang</surname><given-names>Y.</given-names></name>; <name><surname>Siew</surname><given-names>L. M.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Han</surname><given-names>Y.</given-names></name>; <name><surname>Lampen</surname><given-names>R.</given-names></name>; <name><surname>Zheng</surname><given-names>Y. H.</given-names></name>
+<article-title>Human cytidine deaminase APOBEC3H
+restricts HIV-1 replication</article-title>. <source>J. Biol. Chem.</source>
+<year>2008</year>, <volume>283</volume><issue>17</issue><fpage>11606</fpage>&#x02013;<lpage>11614</lpage>.<pub-id pub-id-type="pmid">18299330</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name><surname>Seng</surname><given-names>T. J.</given-names></name>; <name><surname>Ichimura</surname><given-names>K.</given-names></name>; <name><surname>Liu</surname><given-names>L.</given-names></name>; <name><surname>Tingby</surname><given-names>O.</given-names></name>; <name><surname>Pearson</surname><given-names>D. M.</given-names></name>; <name><surname>Collins</surname><given-names>V. P.</given-names></name>
+<article-title>Complex chromosome
+22 rearrangements in astrocytic
+tumors identified using microsatellite and chromosome 22 tile path
+array analysis</article-title>. <source>Genes, Chromosomes Cancer</source>
+<year>2005</year>, <volume>43</volume><issue>2</issue><fpage>181</fpage>&#x02013;<lpage>193</lpage>.<pub-id pub-id-type="pmid">15770670</pub-id></mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name><surname>Tsilchorozidou</surname><given-names>T.</given-names></name>; <name><surname>Menko</surname><given-names>F. H.</given-names></name>; <name><surname>Lalloo</surname><given-names>F.</given-names></name>; <name><surname>Kidd</surname><given-names>A.</given-names></name>; <name><surname>De Silva</surname><given-names>R.</given-names></name>; <name><surname>Thomas</surname><given-names>H.</given-names></name>; <name><surname>Smith</surname><given-names>P.</given-names></name>; <name><surname>Malcolmson</surname><given-names>A.</given-names></name>; <name><surname>Dore</surname><given-names>J.</given-names></name>; <name><surname>Madan</surname><given-names>K.</given-names></name>; <name><surname>Brown</surname><given-names>A.</given-names></name>; <name><surname>Yovos</surname><given-names>J. G.</given-names></name>; <name><surname>Tsaligopoulos</surname><given-names>M.</given-names></name>; <name><surname>Vogiatzis</surname><given-names>N.</given-names></name>; <name><surname>Baser</surname><given-names>M. E.</given-names></name>; <name><surname>Wallace</surname><given-names>A. J.</given-names></name>; <name><surname>Evans</surname><given-names>D. G.</given-names></name>
+<article-title>Constitutional
+rearrangements of chromosome 22 as a
+cause of neurofibromatosis 2</article-title>. <source>J. Med. Genet</source>
+<year>2004</year>, <volume>41</volume><issue>7</issue><fpage>529</fpage>&#x02013;<lpage>534</lpage>.<pub-id pub-id-type="pmid">15235024</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name><surname>Liu</surname><given-names>S.</given-names></name>; <name><surname>Im</surname><given-names>H.</given-names></name>; <name><surname>Bairoch</surname><given-names>A.</given-names></name>; <name><surname>Cristofanilli</surname><given-names>M.</given-names></name>; <name><surname>Chen</surname><given-names>R.</given-names></name>; <name><surname>Deutsch</surname><given-names>E. W.</given-names></name>; <name><surname>Dalton</surname><given-names>S.</given-names></name>; <name><surname>Fenyo</surname><given-names>D.</given-names></name>; <name><surname>Fanayan</surname><given-names>S.</given-names></name>; <name><surname>Gates</surname><given-names>C.</given-names></name>; <name><surname>Gaudet</surname><given-names>P.</given-names></name>; <name><surname>Hincapie</surname><given-names>M.</given-names></name>; <name><surname>Hanash</surname><given-names>S.</given-names></name>; <name><surname>Kim</surname><given-names>H.</given-names></name>; <name><surname>Jeong</surname><given-names>S. K.</given-names></name>; <name><surname>Lundberg</surname><given-names>E.</given-names></name>; <name><surname>Mias</surname><given-names>G.</given-names></name>; <name><surname>Menon</surname><given-names>R.</given-names></name>; <name><surname>Mu</surname><given-names>Z.</given-names></name>; <name><surname>Nice</surname><given-names>E.</given-names></name>; <name><surname>Paik</surname><given-names>Y. K.</given-names></name>; <name><surname>Uhlen</surname><given-names>M.</given-names></name>; <name><surname>Wells</surname><given-names>L.</given-names></name>; <name><surname>Wu</surname><given-names>S. L.</given-names></name>; <name><surname>Yan</surname><given-names>F.</given-names></name>; <name><surname>Zhang</surname><given-names>F.</given-names></name>; <name><surname>Zhang</surname><given-names>Y.</given-names></name>; <name><surname>Snyder</surname><given-names>M.</given-names></name>; <name><surname>Omenn</surname><given-names>G. S.</given-names></name>; <name><surname>Beavis</surname><given-names>R. C.</given-names></name>; <name><surname>Hancock</surname><given-names>W. S.</given-names></name>
+<article-title>A chromosome-centric
+human proteome project (C-HPP) to characterize the sets of proteins
+encoded in chromosome 17</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>12</volume><issue>1</issue><fpage>45</fpage>&#x02013;<lpage>57</lpage>.<pub-id pub-id-type="pmid">23259914</pub-id></mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name><surname>Shaw</surname><given-names>R. J.</given-names></name>; <name><surname>Paez</surname><given-names>J. G.</given-names></name>; <name><surname>Curto</surname><given-names>M.</given-names></name>; <name><surname>Yaktine</surname><given-names>A.</given-names></name>; <name><surname>Pruitt</surname><given-names>W. M.</given-names></name>; <name><surname>Saotome</surname><given-names>I.</given-names></name>; <name><surname>O&#x02019;Bryan</surname><given-names>J. P.</given-names></name>; <name><surname>Gupta</surname><given-names>V.</given-names></name>; <name><surname>Ratner</surname><given-names>N.</given-names></name>; <name><surname>Der</surname><given-names>C. J.</given-names></name>; <name><surname>Jacks</surname><given-names>T.</given-names></name>; <name><surname>McClatchey</surname><given-names>A. I.</given-names></name>
+<article-title>The Nf2
+tumor suppressor, merlin, functions in Rac-dependent signaling</article-title>. <source>Dev. Cell</source>
+<year>2001</year>, <volume>1</volume><issue>1</issue><fpage>63</fpage>&#x02013;<lpage>72</lpage>.<pub-id pub-id-type="pmid">11703924</pub-id></mixed-citation></ref><ref id="ref39"><mixed-citation publication-type="journal" id="cit39"><name><surname>Morrison</surname><given-names>H.</given-names></name>; <name><surname>Sperka</surname><given-names>T.</given-names></name>; <name><surname>Manent</surname><given-names>J.</given-names></name>; <name><surname>Giovannini</surname><given-names>M.</given-names></name>; <name><surname>Ponta</surname><given-names>H.</given-names></name>; <name><surname>Herrlich</surname><given-names>P.</given-names></name>
+<article-title>Merlin/neurofibromatosis type 2 suppresses
+growth by inhibiting the activation of Ras and Rac</article-title>. <source>Cancer Res.</source>
+<year>2007</year>, <volume>67</volume><issue>2</issue><fpage>520</fpage>&#x02013;<lpage>527</lpage>.<pub-id pub-id-type="pmid">17234759</pub-id></mixed-citation></ref><ref id="ref40"><mixed-citation publication-type="journal" id="cit40"><name><surname>James</surname><given-names>M. F.</given-names></name>; <name><surname>Han</surname><given-names>S.</given-names></name>; <name><surname>Polizzano</surname><given-names>C.</given-names></name>; <name><surname>Plotkin</surname><given-names>S. R.</given-names></name>; <name><surname>Manning</surname><given-names>B. D.</given-names></name>; <name><surname>Stemmer-Rachamimov</surname><given-names>A. O.</given-names></name>; <name><surname>Gusella</surname><given-names>J. F.</given-names></name>; <name><surname>Ramesh</surname><given-names>V.</given-names></name>
+<article-title>NF2/merlin is a novel negative regulator
+of mTOR complex 1, and activation of mTORC1 is associated with meningioma
+and schwannoma growth</article-title>. <source>Mol. Cell. Biol.</source>
+<year>2009</year>, <volume>29</volume><issue>15</issue><fpage>4250</fpage>&#x02013;<lpage>4261</lpage>.<pub-id pub-id-type="pmid">19451225</pub-id></mixed-citation></ref><ref id="ref41"><mixed-citation publication-type="journal" id="cit41"><name><surname>Hamaratoglu</surname><given-names>F.</given-names></name>; <name><surname>Willecke</surname><given-names>M.</given-names></name>; <name><surname>Kango-Singh</surname><given-names>M.</given-names></name>; <name><surname>Nolo</surname><given-names>R.</given-names></name>; <name><surname>Hyun</surname><given-names>E.</given-names></name>; <name><surname>Tao</surname><given-names>C.</given-names></name>; <name><surname>Jafar-Nejad</surname><given-names>H.</given-names></name>; <name><surname>Halder</surname><given-names>G.</given-names></name>
+<article-title>The tumour-suppressor genes NF2/Merlin
+and Expanded act through Hippo signalling to regulate cell proliferation
+and apoptosis</article-title>. <source>Nat. Cell Biol.</source>
+<year>2006</year>, <volume>8</volume><issue>1</issue><fpage>27</fpage>&#x02013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">16341207</pub-id></mixed-citation></ref><ref id="ref42"><mixed-citation publication-type="journal" id="cit42"><name><surname>Rouleau</surname><given-names>G. A.</given-names></name>; <name><surname>Merel</surname><given-names>P.</given-names></name>; <name><surname>Lutchman</surname><given-names>M.</given-names></name>; <name><surname>Sanson</surname><given-names>M.</given-names></name>; <name><surname>Zucman</surname><given-names>J.</given-names></name>; <name><surname>Marineau</surname><given-names>C.</given-names></name>; <name><surname>Hoang-Xuan</surname><given-names>K.</given-names></name>; <name><surname>Demczuk</surname><given-names>S.</given-names></name>; <name><surname>Desmaze</surname><given-names>C.</given-names></name>; <name><surname>Plougastel</surname><given-names>B.</given-names></name>; et al. <article-title>Alteration in a new gene encoding a putative
+membrane-organizing protein causes neuro-fibromatosis type 2</article-title>. <source>Nature</source>
+<year>1993</year>, <volume>363</volume><issue>6429</issue><fpage>515</fpage>&#x02013;<lpage>521</lpage>.<pub-id pub-id-type="pmid">8379998</pub-id></mixed-citation></ref><ref id="ref43"><mixed-citation publication-type="journal" id="cit43"><name><surname>Trofatter</surname><given-names>J. A.</given-names></name>; <name><surname>MacCollin</surname><given-names>M. M.</given-names></name>; <name><surname>Rutter</surname><given-names>J. L.</given-names></name>; <name><surname>Murrell</surname><given-names>J. R.</given-names></name>; <name><surname>Duyao</surname><given-names>M. P.</given-names></name>; <name><surname>Parry</surname><given-names>D. M.</given-names></name>; <name><surname>Eldridge</surname><given-names>R.</given-names></name>; <name><surname>Kley</surname><given-names>N.</given-names></name>; <name><surname>Menon</surname><given-names>A. G.</given-names></name>; <name><surname>Pulaski</surname><given-names>K.</given-names></name>; et al. <article-title>A novel moesin-, ezrin-, radixin-like gene is a candidate
+for the neurofibromatosis 2 tumor suppressor</article-title>. <source>Cell</source>
+<year>1993</year>, <volume>72</volume><issue>5</issue><fpage>791</fpage>&#x02013;<lpage>800</lpage>.<pub-id pub-id-type="pmid">8453669</pub-id></mixed-citation></ref><ref id="ref44"><mixed-citation publication-type="journal" id="cit44"><name><surname>Zucman-Rossi</surname><given-names>J.</given-names></name>; <name><surname>Legoix</surname><given-names>P.</given-names></name>; <name><surname>Thomas</surname><given-names>G.</given-names></name>
+<article-title>Identification of new members of
+the Gas2 and Ras families in the 22q12 chromosome region</article-title>. <source>Genomics</source>
+<year>1996</year>, <volume>38</volume><issue>3</issue><fpage>247</fpage>&#x02013;<lpage>254</lpage>.<pub-id pub-id-type="pmid">8975699</pub-id></mixed-citation></ref><ref id="ref45"><mixed-citation publication-type="journal" id="cit45"><name><surname>Pandey</surname><given-names>A.</given-names></name>; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Proteomics to study genes and genomes</article-title>. <source>Nature</source>
+<year>2000</year>, <volume>405</volume><issue>6788</issue><fpage>837</fpage>&#x02013;<lpage>846</lpage>.<pub-id pub-id-type="pmid">10866210</pub-id></mixed-citation></ref><ref id="ref46"><mixed-citation publication-type="journal" id="cit46"><name><surname>Chaerkady</surname><given-names>R.</given-names></name>; <name><surname>Kelkar</surname><given-names>D. S.</given-names></name>; <name><surname>Muthusamy</surname><given-names>B.</given-names></name>; <name><surname>Kandasamy</surname><given-names>K.</given-names></name>; <name><surname>Dwivedi</surname><given-names>S. B.</given-names></name>; <name><surname>Sahasrabuddhe</surname><given-names>N. A.</given-names></name>; <name><surname>Kim</surname><given-names>M. S.</given-names></name>; <name><surname>Renuse</surname><given-names>S.</given-names></name>; <name><surname>Pinto</surname><given-names>S. M.</given-names></name>; <name><surname>Sharma</surname><given-names>R.</given-names></name>; <name><surname>Pawar</surname><given-names>H.</given-names></name>; <name><surname>Sekhar</surname><given-names>N. R.</given-names></name>; <name><surname>Mohanty</surname><given-names>A. K.</given-names></name>; <name><surname>Getnet</surname><given-names>D.</given-names></name>; <name><surname>Yang</surname><given-names>Y.</given-names></name>; <name><surname>Zhong</surname><given-names>J.</given-names></name>; <name><surname>Dash</surname><given-names>A. P.</given-names></name>; <name><surname>MacCallum</surname><given-names>R. M.</given-names></name>; <name><surname>Delanghe</surname><given-names>B.</given-names></name>; <name><surname>Mlambo</surname><given-names>G.</given-names></name>; <name><surname>Kumar</surname><given-names>A.</given-names></name>; <name><surname>Keshava
+Prasad</surname><given-names>T. S.</given-names></name>; <name><surname>Okulate</surname><given-names>M.</given-names></name>; <name><surname>Kumar</surname><given-names>N.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>
+<article-title>A proteogenomic
+analysis of Anopheles gambiae using
+high-resolution Fourier transform mass spectrometry</article-title>. <source>Genome Res.</source>
+<year>2011</year>, <volume>21</volume><issue>11</issue><fpage>1872</fpage>&#x02013;<lpage>1881</lpage>.<pub-id pub-id-type="pmid">21795387</pub-id></mixed-citation></ref><ref id="ref47"><mixed-citation publication-type="journal" id="cit47"><name><surname>Kelkar</surname><given-names>D. S.</given-names></name>; <name><surname>Kumar</surname><given-names>D.</given-names></name>; <name><surname>Kumar</surname><given-names>P.</given-names></name>; <name><surname>Balakrishnan</surname><given-names>L.</given-names></name>; <name><surname>Muthusamy</surname><given-names>B.</given-names></name>; <name><surname>Yadav</surname><given-names>A. K.</given-names></name>; <name><surname>Shrivastava</surname><given-names>P.</given-names></name>; <name><surname>Marimuthu</surname><given-names>A.</given-names></name>; <name><surname>Anand</surname><given-names>S.</given-names></name>; <name><surname>Sundaram</surname><given-names>H.</given-names></name>; <name><surname>Kingsbury</surname><given-names>R.</given-names></name>; <name><surname>Harsha</surname><given-names>H. C.</given-names></name>; <name><surname>Nair</surname><given-names>B.</given-names></name>; <name><surname>Prasad</surname><given-names>T. S.</given-names></name>; <name><surname>Chauhan</surname><given-names>D. S.</given-names></name>; <name><surname>Katoch</surname><given-names>K.</given-names></name>; <name><surname>Katoch</surname><given-names>V. M.</given-names></name>; <name><surname>Chaerkady</surname><given-names>R.</given-names></name>; <name><surname>Ramachandran</surname><given-names>S.</given-names></name>; <name><surname>Dash</surname><given-names>D.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>
+<article-title>Proteogenomic analysis
+of Mycobacterium tuberculosis by high resolution mass spectrometry</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2011</year>, <volume>10</volume><issue>12</issue><elocation-id>10.1074/mcp.M111.011627</elocation-id>.</mixed-citation></ref><ref id="ref48"><mixed-citation publication-type="journal" id="cit48"><name><surname>Pawar</surname><given-names>H.</given-names></name>; <name><surname>Sahasrabuddhe</surname><given-names>N. A.</given-names></name>; <name><surname>Renuse</surname><given-names>S.</given-names></name>; <name><surname>Keerthikumar</surname><given-names>S.</given-names></name>; <name><surname>Sharma</surname><given-names>J.</given-names></name>; <name><surname>Kumar</surname><given-names>G. S.</given-names></name>; <name><surname>Venugopal</surname><given-names>A.</given-names></name>; <name><surname>Sekhar</surname><given-names>N. R.</given-names></name>; <name><surname>Kelkar</surname><given-names>D. S.</given-names></name>; <name><surname>Nemade</surname><given-names>H.</given-names></name>; <name><surname>Khobragade</surname><given-names>S. N.</given-names></name>; <name><surname>Muthusamy</surname><given-names>B.</given-names></name>; <name><surname>Kandasamy</surname><given-names>K.</given-names></name>; <name><surname>Harsha</surname><given-names>H. C.</given-names></name>; <name><surname>Chaerkady</surname><given-names>R.</given-names></name>; <name><surname>Patole</surname><given-names>M. S.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>
+<article-title>A proteogenomic
+approach to map the
+proteome of an unsequenced pathogen - Leishmania donovani</article-title>. <source>Proteomics</source>
+<year>2012</year>, <volume>12</volume><issue>6</issue><fpage>832</fpage>&#x02013;<lpage>844</lpage>.<pub-id pub-id-type="pmid">22539434</pub-id></mixed-citation></ref><ref id="ref49"><mixed-citation publication-type="journal" id="cit49"><name><surname>Calvo</surname><given-names>S. E.</given-names></name>; <name><surname>Pagliarini</surname><given-names>D. J.</given-names></name>; <name><surname>Mootha</surname><given-names>V. K.</given-names></name>
+<article-title>Upstream open reading frames cause
+widespread reduction of protein expression and are polymorphic among
+humans</article-title>. <source>Proc. Natl. Acad. Sci. U.S.A.</source>
+<year>2009</year>, <volume>106</volume><issue>18</issue><fpage>7507</fpage>&#x02013;<lpage>7512</lpage>.<pub-id pub-id-type="pmid">19372376</pub-id></mixed-citation></ref><ref id="ref50"><mixed-citation publication-type="journal" id="cit50"><name><surname>Peri</surname><given-names>S.</given-names></name>; <name><surname>Pandey</surname><given-names>A.</given-names></name>
+<article-title>A reassessment of the
+translation initiation codon
+in vertebrates</article-title>. <source>Trends Genet</source>
+<year>2001</year>, <volume>17</volume><issue>12</issue><fpage>685</fpage>&#x02013;<lpage>687</lpage>.<pub-id pub-id-type="pmid">11718907</pub-id></mixed-citation></ref><ref id="ref51"><mixed-citation publication-type="journal" id="cit51"><name><surname>Yamashita</surname><given-names>R.</given-names></name>; <name><surname>Suzuki</surname><given-names>Y.</given-names></name>; <name><surname>Nakai</surname><given-names>K.</given-names></name>; <name><surname>Sugano</surname><given-names>S.</given-names></name>
+<article-title>Small open reading
+frames in 5&#x02032; untranslated regions of mRNAs</article-title>. <source>C R Biol.</source>
+<year>2003</year>, <volume>326</volume><issue>10&#x02013;11</issue><fpage>987</fpage>&#x02013;<lpage>991</lpage>.<pub-id pub-id-type="pmid">14744105</pub-id></mixed-citation></ref><ref id="ref52"><mixed-citation publication-type="journal" id="cit52"><name><surname>Zhao</surname><given-names>J.</given-names></name>; <name><surname>Liu</surname><given-names>T.</given-names></name>; <name><surname>Jin</surname><given-names>S.</given-names></name>; <name><surname>Wang</surname><given-names>X.</given-names></name>; <name><surname>Qu</surname><given-names>M.</given-names></name>; <name><surname>Uhlen</surname><given-names>P.</given-names></name>; <name><surname>Tomilin</surname><given-names>N.</given-names></name>; <name><surname>Shupliakov</surname><given-names>O.</given-names></name>; <name><surname>Lendahl</surname><given-names>U.</given-names></name>; <name><surname>Nister</surname><given-names>M.</given-names></name>
+<article-title>Human MIEF1
+recruits Drp1 to mitochondrial outer membranes and promotes mitochondrial
+fusion rather than fission</article-title>. <source>EMBO J.</source>
+<year>2011</year>, <volume>30</volume><issue>14</issue><fpage>2762</fpage>&#x02013;<lpage>2778</lpage>.<pub-id pub-id-type="pmid">21701560</pub-id></mixed-citation></ref><ref id="ref53"><mixed-citation publication-type="journal" id="cit53"><name><surname>Palmer</surname><given-names>C.
+S.</given-names></name>; <name><surname>Elgass</surname><given-names>K. D.</given-names></name>; <name><surname>Parton</surname><given-names>R. G.</given-names></name>; <name><surname>Osellame</surname><given-names>L. D.</given-names></name>; <name><surname>Stojanovski</surname><given-names>D.</given-names></name>; <name><surname>Ryan</surname><given-names>M. T.</given-names></name>
+<article-title>Adaptor proteins MiD49 and MiD51 can act independently
+of Mff and Fis1 in Drp1 recruitment and are specific for mitochondrial
+fission</article-title>. <source>J. Biol. Chem.</source>
+<year>2013</year>, <volume>288</volume><issue>38</issue><fpage>27584</fpage>&#x02013;<lpage>27593</lpage>.<pub-id pub-id-type="pmid">23921378</pub-id></mixed-citation></ref><ref id="ref54"><mixed-citation publication-type="journal" id="cit54"><name><surname>Vizcaino</surname><given-names>J. A.</given-names></name>; <name><surname>Cote</surname><given-names>R. G.</given-names></name>; <name><surname>Csordas</surname><given-names>A.</given-names></name>; <name><surname>Dianes</surname><given-names>J. A.</given-names></name>; <name><surname>Fabregat</surname><given-names>A.</given-names></name>; <name><surname>Foster</surname><given-names>J. M.</given-names></name>; <name><surname>Griss</surname><given-names>J.</given-names></name>; <name><surname>Alpi</surname><given-names>E.</given-names></name>; <name><surname>Birim</surname><given-names>M.</given-names></name>; <name><surname>Contell</surname><given-names>J.</given-names></name>; <name><surname>O&#x02019;Kelly</surname><given-names>G.</given-names></name>; <name><surname>Schoenegger</surname><given-names>A.</given-names></name>; <name><surname>Ovelleiro</surname><given-names>D.</given-names></name>; <name><surname>Perez-Riverol</surname><given-names>Y.</given-names></name>; <name><surname>Reisinger</surname><given-names>F.</given-names></name>; <name><surname>Rios</surname><given-names>D.</given-names></name>; <name><surname>Wang</surname><given-names>R.</given-names></name>; <name><surname>Hermjakob</surname><given-names>H.</given-names></name>
+<article-title>The PRoteomics
+IDEntifications (PRIDE) database and associated tools: status in 2013</article-title>. <source>Nucleic Acids Res.</source>
+<year>2013</year>, <volume>41</volume><issue>Database issue</issue><fpage>D1063</fpage>&#x02013;<lpage>D1069</lpage>.<pub-id pub-id-type="pmid">23203882</pub-id></mixed-citation></ref></ref-list></back></article>

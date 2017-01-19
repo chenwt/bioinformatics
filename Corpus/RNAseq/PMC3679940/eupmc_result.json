@@ -1,0 +1,428 @@
+{
+  "id": [
+    "23738693"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "23738693"
+  ],
+  "pmcid": [
+    "PMC3679940"
+  ],
+  "doi": [
+    "10.1186/1752-0509-7-44"
+  ],
+  "title": [
+    "Maximizing capture of gene co-expression relationships through pre-clustering of input expression samples: an Arabidopsis case study."
+  ],
+  "authorString": [
+    "Feltus FA, Ficklin SP, Gibson SM, Smith MC."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Feltus FA"
+          ],
+          "firstName": [
+            "F Alex"
+          ],
+          "lastName": [
+            "Feltus"
+          ],
+          "initials": [
+            "FA"
+          ]
+        },
+        {
+          "fullName": [
+            "Ficklin SP"
+          ],
+          "firstName": [
+            "Stephen P"
+          ],
+          "lastName": [
+            "Ficklin"
+          ],
+          "initials": [
+            "SP"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9138-6292",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gibson SM"
+          ],
+          "firstName": [
+            "Scott M"
+          ],
+          "lastName": [
+            "Gibson"
+          ],
+          "initials": [
+            "SM"
+          ]
+        },
+        {
+          "fullName": [
+            "Smith MC"
+          ],
+          "firstName": [
+            "Melissa C"
+          ],
+          "lastName": [
+            "Smith"
+          ],
+          "initials": [
+            "MC"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-9138-6292",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "7"
+      ],
+      "journalIssueId": [
+        "2004800"
+      ],
+      "dateOfPublication": [
+        "2013 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC systems biology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Syst Biol"
+          ],
+          "medlineAbbreviation": [
+            "BMC Syst Biol"
+          ],
+          "NLMid": [
+            "101301827"
+          ],
+          "ESSN": [
+            "1752-0509"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "44"
+  ],
+  "abstractText": [
+    " BACKGROUND: In genomics, highly relevant gene interaction (co-expression) networks have been constructed by finding significant pair-wise correlations between genes in expression datasets. These networks are then mined to elucidate biological function at the polygenic level. In some cases networks may be constructed from input samples that measure gene expression under a variety of different conditions, such as for different genotypes, environments, disease states and tissues. When large sets of samples are obtained from public repositories it is often unmanageable to associate samples into condition-specific groups, and combining samples from various conditions has a negative effect on network size. A fixed significance threshold is often applied also limiting the size of the final network. Therefore, we propose pre-clustering of input expression samples to approximate condition-specific grouping of samples and individual network construction of each group as a means for dynamic significance thresholding. The net effect is increase sensitivity thus maximizing the total co-expression relationships in the final co-expression network compendium. RESULTS: A total of 86 Arabidopsis thaliana co-expression networks were constructed after k-means partitioning of 7,105 publicly available ATH1 Affymetrix microarray samples. We term each pre-sorted network a Gene Interaction Layer (GIL). Random Matrix Theory (RMT), an un-supervised thresholding method, was used to threshold each of the 86 networks independently, effectively providing a dynamic (non-global) threshold for the network. The overall gene count across all GILs reached 19,588 genes (94.7% measured gene coverage) and 558,022 unique co-expression relationships. In comparison, network construction without pre-sorting of input samples yielded only 3,297 genes (15.9%) and 129,134 relationships. in the global network. CONCLUSIONS: Here we show that pre-clustering of microarray samples helps approximate condition-specific networks and allows for dynamic thresholding using un-supervised methods. Because RMT ensures only highly significant interactions are kept, the GIL compendium consists of 558,022 unique high quality A. thaliana co-expression relationships across almost all of the measurable genes on the ATH1 array. For A. thaliana, these networks represent the largest compendium to date of significant gene co-expression relationships, and are a means to explore complex pathway, polygenic, and pleiotropic relationships for this focal model plant. The networks can be explored at sysbio.genome.clemson.edu. Finally, this method is applicable to any large expression profile collection for any organism and is best suited where a knowledge-independent network construction method is desired."
+  ],
+  "affiliation": [
+    "Department of Genetics & Biochemistry, Clemson University, 105 Collings Street, Clemson, SC 29634, USA. ffeltus@clemson.edu"
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, U.S. Gov't, Non-P.H.S."
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Arabidopsis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cluster Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genes, Plant"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Regulatory Networks"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3679940?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3679940"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=23738693"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=23738693&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/1752-0509-7-44"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "6"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "N"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2013-10-23"
+  ],
+  "dateOfCreation": [
+    "2013-06-13"
+  ],
+  "electronicPublicationDate": [
+    "2013-06-05"
+  ],
+  "firstPublicationDate": [
+    "2013-06-05"
+  ]
+}

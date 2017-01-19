@@ -1,0 +1,1224 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Proteomics</journal-id><journal-id journal-id-type="iso-abbrev">Proteomics</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1615-9861</journal-id><journal-id journal-id-type="publisher-id">PMIC</journal-id><journal-title-group><journal-title>Proteomics</journal-title></journal-title-group><issn pub-type="ppub">1615-9853</issn><issn pub-type="epub">1615-9861</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4738454</article-id><article-id pub-id-type="doi">10.1002/pmic.201500295</article-id><article-id pub-id-type="publisher-id">PMIC12161</article-id><article-categories><subj-group subj-group-type="overline"><subject>Review</subject></subj-group><subj-group subj-group-type="heading"><subject>Bioinformatics</subject><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></subj-group></article-categories><title-group><article-title>Exploring the potential of public proteomics data</article-title><alt-title alt-title-type="left-running-head">M. Vaudel et&#x000a0;al.</alt-title></title-group><contrib-group><contrib id="sped1" contrib-type="editor"><name><surname>Dunn</surname><given-names>Michael J.</given-names></name></contrib></contrib-group><contrib-group><contrib id="pmic12161-cr-0001" contrib-type="author"><name><surname>Vaudel</surname><given-names>Marc</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0001"><sup>1</sup>
+</xref></contrib><contrib id="pmic12161-cr-0002" contrib-type="author"><name><surname>Verheggen</surname><given-names>Kenneth</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="pmic12161-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="pmic12161-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="pmic12161-cr-0003" contrib-type="author"><name><surname>Csordas</surname><given-names>Attila</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0005">
+<sup>5</sup>
+</xref></contrib><contrib id="pmic12161-cr-0004" contrib-type="author"><name><surname>R&#x000e6;der</surname><given-names>Helge</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0006">
+<sup>6</sup>
+</xref></contrib><contrib id="pmic12161-cr-0005" contrib-type="author"><name><surname>Berven</surname><given-names>Frode S.</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="pmic12161-aff-0007">
+<sup>7</sup>
+</xref></contrib><contrib id="pmic12161-cr-0006" contrib-type="author"><name><surname>Martens</surname><given-names>Lennart</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0002">
+<sup>2</sup>
+</xref><xref ref-type="aff" rid="pmic12161-aff-0003">
+<sup>3</sup>
+</xref><xref ref-type="aff" rid="pmic12161-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="pmic12161-cr-0007" contrib-type="author"><name><surname>Vizca&#x000ed;no</surname><given-names>Juan A.</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0005">
+<sup>5</sup>
+</xref><xref ref-type="author-note" rid="pmic12161-note-0001">
+<sup>&#x02020;</sup>
+</xref></contrib><contrib id="pmic12161-cr-0008" contrib-type="author" corresp="yes"><name><surname>Barsnes</surname><given-names>Harald</given-names></name><xref ref-type="aff" rid="pmic12161-aff-0001">
+<sup>1</sup>
+</xref><xref ref-type="aff" rid="pmic12161-aff-0006">
+<sup>6</sup>
+</xref></contrib></contrib-group><aff id="pmic12161-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Proteomics Unit</named-content><named-content content-type="organisation-division">Department of Biomedicine</named-content><institution>University of Bergen</institution><named-content content-type="city">Bergen</named-content><country country="NO">Norway</country></aff><aff id="pmic12161-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Medical Biotechnology Center</named-content><institution>VIB</institution><named-content content-type="city">Ghent</named-content><country country="BE">Belgium</country></aff><aff id="pmic12161-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Department of Biochemistry</named-content><institution>Ghent University</institution><named-content content-type="city">Ghent</named-content><country country="BE">Belgium</country></aff><aff id="pmic12161-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Bioinformatics Institute Ghent</named-content><institution>Ghent University</institution><named-content content-type="city">Ghent</named-content><country country="BE">Belgium</country></aff><aff id="pmic12161-aff-0005"><label><sup>5</sup></label><named-content content-type="organisation-division">European Molecular Biology Laboratory</named-content><named-content content-type="organisation-division">European Bioinformatics Institute (EMBL&#x02010;EBI)</named-content><institution>Wellcome Trust Genome Campus</institution><named-content content-type="city">Hinxton</named-content><named-content content-type="country-part">Cambridge</named-content><country country="GB">UK</country></aff><aff id="pmic12161-aff-0006"><label><sup>6</sup></label><named-content content-type="organisation-division">Department of Clinical Science</named-content><named-content content-type="organisation-division">KG Jebsen Center for Diabetes Research</named-content><institution>University of Bergen</institution><named-content content-type="city">Bergen</named-content><country country="NO">Norway</country></aff><aff id="pmic12161-aff-0007"><label><sup>7</sup></label><named-content content-type="organisation-division">Department of Clinical Medicine</named-content><named-content content-type="organisation-division">KG Jebsen Centre for Multiple Sclerosis Research</named-content><institution>University of Bergen</institution><named-content content-type="city">Bergen</named-content><country country="NO">Norway</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label><bold>Correspondence</bold>: Dr. Harald Barsnes, Proteomics Unit, Department of Biomedicine, University of Bergen, Jonas Liesvei 91, N&#x02010;5009 Bergen, Norway<break/><bold>E&#x02010;mail</bold>: <email>harald.barsnes@uib.no</email><break/><bold>Fax</bold>: +47&#x02010;55&#x02010;58&#x02010;63&#x02010;60<break/></corresp><fn id="pmic12161-note-0001"><label>&#x02020;</label><p>Additional corresponding author: Dr. Juan A. Vizca&#x000ed;no E&#x02010;mail: <email>juan@ebi.ac.uk</email>
+</p></fn></author-notes><pub-date pub-type="epub"><day>15</day><month>12</month><year>2015</year></pub-date><pub-date pub-type="ppub"><month>1</month><year>2016</year></pub-date><volume>16</volume><issue>2</issue><issue-id pub-id-type="doi">10.1002/pmic.v16.2</issue-id><issue-title content-type="special-issue-title">Reviews 2016, part 1</issue-title><fpage>214</fpage><lpage>225</lpage><history><date date-type="received"><day>13</day><month>7</month><year>2015</year></date><date date-type="rev-recd"><day>25</day><month>8</month><year>2015</year></date><date date-type="accepted"><day>28</day><month>9</month><year>2015</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2016 WILEY&#x02010;VCH Verlag GmbH & Co. KGaA, Weinheim <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2015 The Authors. <italic>Proteomics</italic> published by Wiley&#x02010;VCH Verlag GmbH &#x00026; Co. KGaA, Weinheim.</copyright-statement><license license-type="creativeCommonsBy"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:PMIC-16-214.pdf"/><abstract><p>In a global effort for scientific transparency, it has become feasible and good practice to share experimental data supporting novel findings. Consequently, the amount of publicly available MS&#x02010;based proteomics data has grown substantially in recent years. With some notable exceptions, this extensive material has however largely been left untouched. The time has now come for the proteomics community to utilize this potential gold mine for new discoveries, and uncover its untapped potential. In this review, we provide a brief history of the sharing of proteomics data, showing ways in which publicly available proteomics data are already being (re&#x02010;)used, and outline potential future opportunities based on four different usage types: use, reuse, reprocess, and repurpose. We thus aim to assist the proteomics community in stepping up to the challenge, and to make the most of the rapidly increasing amount of public proteomics data.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="pmic12161-kwd-0001">Bioinformatics</kwd><kwd id="pmic12161-kwd-0002">Computational proteomics</kwd><kwd id="pmic12161-kwd-0003">Data analysis</kwd><kwd id="pmic12161-kwd-0004">Databases</kwd><kwd id="pmic12161-kwd-0005">Data standards</kwd></kwd-group><funding-group><award-group><funding-source>Ghent University</funding-source><award-id>BOF12/GOA/014</award-id></award-group></funding-group><funding-group><award-group><funding-source>IWT SBO</funding-source><award-id>120025</award-id></award-group></funding-group><funding-group><award-group><funding-source>Wellcome Trust</funding-source><award-id>WT101477MA</award-id></award-group></funding-group><funding-group><award-group><funding-source>BBSRC</funding-source><award-id>BB/L024225/1</award-id></award-group></funding-group><counts><page-count count="12"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>pmic12161</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>January 2016</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.7.5 mode:remove_FC converted:28.01.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><fn-group><fn id="pmic12161-note-0002"><p>
+<bold>Colour Online</bold>: See the article online to view Figs. 1&#x02013;4 in colour.</p></fn></fn-group></notes></front><body><def-list list-content="abbreviations" id="pmic12161-lp-0001"><title>Abbreviation</title><def-item><term>PSM</term><def><p>peptide to spectrum match</p></def></def-item></def-list><sec id="pmic12161-sec-0010"><label>1</label><title>Introduction</title><sec id="pmic12161-sec-0020"><label>1.1</label><title>Background</title><p>Historically, a large proportion of the proteomics community was reticent to openly share the data they produced. However, the sharing of not only the knowledge obtained through proteomics experiments (through scientific publications), but also of the underlying data, has increasingly become standard practice, and is now even mandatory or strongly advised in many of the relevant scientific journals <xref rid="pmic12161-bib-0001" ref-type="ref">1</xref>, <xref rid="pmic12161-bib-0002" ref-type="ref">2</xref>, <xref rid="pmic12161-bib-0003" ref-type="ref">3</xref>. In addition, a number of funders (e.g. the Wellcome Trust and the NIH) are enforcing the public deposition of data from projects they fund as a way to maximize the value of the funds provided. As a result, the amount of publicly shared MS&#x02010;based proteomics data has grown substantially, both in terms of number of submission and total data amount, as illustrated in Fig. <xref rid="pmic12161-fig-0001" ref-type="fig">1</xref>.</p><fig fig-type="Figure" xml:lang="en" id="pmic12161-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>The amount of publicly available proteomics data is increasing, here indicated by the monthly submission statistics for PRIDE from June 2012 to May 2015. The <italic>x</italic>&#x02010;axis represents the months and the <italic>y</italic>&#x02010;axis the monthly number of submissions. The size of the bubbles indicate the data amount submitted each month. Note that the cumulative size of PRIDE data reached the 100 TB milestone in April 2015.</p></caption><graphic id="nlm-graphic-1" xlink:href="PMIC-16-214-g001"/></fig><p>Two key factors strongly contributed to this success: first, the sharing of the data has become much easier with the development of user&#x02010;friendly tools and infrastructure; and second, the proteomics community, triggered by scientific journals and funders, has now agreed that it is good scientific practice to make the underlying data available when publishing novel findings.</p><p>There were several challenges to overcome in order to get to this point, see Fig. <xref rid="pmic12161-fig-0002" ref-type="fig">2</xref>. The first of these challenges was the need for central and long&#x02010;term public repositories to store the generated data. Several such generic repositories are now available, for example PRIDE <xref rid="pmic12161-bib-0004" ref-type="ref">4</xref>, GPMDB <xref rid="pmic12161-bib-0005" ref-type="ref">5</xref>, PeptideAtlas <xref rid="pmic12161-bib-0006" ref-type="ref">6</xref>, and MassIVE (<ext-link ext-link-type="uri" xlink:href="http://massive.ucsd.edu/ProteoSAFe">http://massive.ucsd.edu/ProteoSAFe</ext-link>) for shotgun results; and PASSEL <xref rid="pmic12161-bib-0007" ref-type="ref">7</xref>, SRMAtlas (<ext-link ext-link-type="uri" xlink:href="http://www.srmatlas.org">http://www.srmatlas.org</ext-link>), and Panorama <xref rid="pmic12161-bib-0008" ref-type="ref">8</xref> for targeted proteomics quantification data. More specific databases have also been established, related to: diseases, for example TBDB for tuberculosis <xref rid="pmic12161-bib-0009" ref-type="ref">9</xref>; organisms, for example ProteomicsDB <xref rid="pmic12161-bib-0010" ref-type="ref">10</xref> and the Human Proteome Map <xref rid="pmic12161-bib-0011" ref-type="ref">11</xref> for the human proteome, and pep2pro for <italic>Arabidopsis</italic>
+<xref rid="pmic12161-bib-0012" ref-type="ref">12</xref>; or subproteomes, for example CSF&#x02010;PR <xref rid="pmic12161-bib-0013" ref-type="ref">13</xref> for cerebrospinal fluid or TOPPR <xref rid="pmic12161-bib-0014" ref-type="ref">14</xref> and TopFIND <xref rid="pmic12161-bib-0015" ref-type="ref">15</xref> for in vivo cleaved proteins. For a comprehensive overview of the current proteomics databases and repositories, please see Perez&#x02010;Riverol et al. <xref rid="pmic12161-bib-0016" ref-type="ref">16</xref>.</p><fig fig-type="Figure" xml:lang="en" id="pmic12161-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>The major milestones that enabled efficient proteomics data sharing: (A) standard data formats for sharing proteomics data, (B) data format converters and software exporters able to generate output in the standard formats, (C) tools for simplifying the submission of proteomics data to central proteomics repositories, and (D) central proteomics repositories that store and disseminate public proteomics data, here indicated by the main ProteomeXchange member repositories.</p></caption><graphic id="nlm-graphic-3" xlink:href="PMIC-16-214-g002"/></fig><p>The next milestone was the development of data&#x02010;sharing standards and associated software libraries, allowing ready access to otherwise proprietary data formats <xref rid="pmic12161-bib-0017" ref-type="ref">17</xref>. This ongoing endeavor, led by the HUPO&#x02010;PSI (Human Proteome Organization&#x02212;Proteomics Standards Initiative&#x02212;<ext-link ext-link-type="uri" xlink:href="http://www.psidev.info">http://www.psidev.info</ext-link>), has resulted in key data standards for the field, including mzML (for MS data), mzIdentML (for peptide/protein identification data), mzTab (for peptide/protein identification and quantification data), mzQuantML (for peptide/protein quantification data), and TraML (for transition lists in targeted proteomics approaches) <xref rid="pmic12161-bib-0018" ref-type="ref">18</xref>, <xref rid="pmic12161-bib-0019" ref-type="ref">19</xref>, <xref rid="pmic12161-bib-0020" ref-type="ref">20</xref>, <xref rid="pmic12161-bib-0021" ref-type="ref">21</xref>, <xref rid="pmic12161-bib-0022" ref-type="ref">22</xref>. Importantly, support for these standards is provided through software libraries or tools such as ProteoWizard <xref rid="pmic12161-bib-0023" ref-type="ref">23</xref>, PRIDE Converter <xref rid="pmic12161-bib-0024" ref-type="ref">24</xref>, <xref rid="pmic12161-bib-0025" ref-type="ref">25</xref>, mzidLibrary <xref rid="pmic12161-bib-0026" ref-type="ref">26</xref>, and PRIDE Inspector <xref rid="pmic12161-bib-0027" ref-type="ref">27</xref>. Successful adoption of these standards is moreover demonstrated by the existence of import and/or export capabilities in many of the most popular software in the field.</p><p>The final piece of the puzzle was the creation of an overarching system to share submitted data between repositories, and to develop a single, user&#x02010;friendly submission workflow. This goal was obtained with the establishment of the ProteomeXchange consortium <xref rid="pmic12161-bib-0028" ref-type="ref">28</xref>, which connects some of the most used proteomics databases (at present PRIDE, MassIVE, PASSEL, and PeptideAtlas) with a single submission system and the use of unique identifiers that can be tracked across these databases and over time.</p><p>However, while publicly available proteomics data represent an invaluable resource for extracting new knowledge <xref rid="pmic12161-bib-0029" ref-type="ref">29</xref>, they have so far, with a few notable exceptions, remained largely unused. At the same time, data reprocessing has become the standard in related fields, such as genomics, see Rung et&#x000a0;al. <xref rid="pmic12161-bib-0030" ref-type="ref">30</xref>. The time has now come for the field of proteomics to also start utilizing its public data as a test bed for novel ways of interpreting proteomics data, and as a potential goldmine for new discoveries. The heterogeneous nature of the accumulated data also provides a global view on the state of the art and the evolution of the field as a whole, and reduces bias toward specific protocols or instruments.</p><p>There are four ways in which these shared proteomics data can be utilized: (i) <italic>use</italic>, (ii) <italic>reuse</italic>, (iii) <italic>reprocess</italic>, and (iv) <italic>repurpose</italic> (Fig. <xref rid="pmic12161-fig-0003" ref-type="fig">3</xref>), each of which will be described in detail in the following sections.</p><fig fig-type="Figure" xml:lang="en" id="pmic12161-fig-0003" orientation="portrait" position="float"><label>Figure 3</label><caption><p>The four ways in which public proteomics data can be utilized: (i) use, (ii) reuse, (iii) reprocess, and (iv) repurpose. See main text for details.</p></caption><graphic id="nlm-graphic-5" xlink:href="PMIC-16-214-g003"/></fig></sec><sec id="pmic12161-sec-0030"><label>1.2</label><title>Data use through protein knowledge&#x02010;bases</title><p>An example of the direct <italic>use</italic> of proteomics data is by looking up information about a given protein as indexed in an online protein knowledge&#x02010;base, such as UniProt <xref rid="pmic12161-bib-0031" ref-type="ref">31</xref> or neXtProt <xref rid="pmic12161-bib-0032" ref-type="ref">32</xref>. This does not result in knowledge beyond what has already been published, but does provide the means to understand the current context of the protein(s) in question. For example, MS proteomics data deposited in public repositories is used by UniProt and neXtProt to enrich sequence annotations at the level of the evidence that supports protein existence (isoforms and variant sequences included). This information is provided to users in two ways: (i) via the protein evidence values, or (ii) through cross&#x02010;references to proteomics resources (e.g. PRIDE and PeptideAtlas, among others). The next step will be the incorporation of PTMs based on the information available in proteomics repositories, as is already done in databases such as PhosphoSitePlus <xref rid="pmic12161-bib-0033" ref-type="ref">33</xref>. Currently, the main integration of this information occurs via manual curation of relevant publications.</p></sec><sec id="pmic12161-sec-0040"><label>1.3</label><title>Reusing data to improve proteomics approaches</title><p>In the case of <italic>reuse</italic>, information is not only extracted, but also reused in new experiments with the potential of generating new knowledge. One of the best examples is the reuse of SRM transitions generated by others, via SRMAtlas (<ext-link ext-link-type="uri" xlink:href="http://www.srmatlas.org">http://www.srmatlas.org</ext-link>) or Panorama <xref rid="pmic12161-bib-0008" ref-type="ref">8</xref>, where existing transitions for specific proteins in a given instrumental setup can be found. Note that it is also possible to develop tools to look for novel transitions in publicly available shotgun datasets. For example, MRMaid <xref rid="pmic12161-bib-0034" ref-type="ref">34</xref>, PeptidePicker <xref rid="pmic12161-bib-0035" ref-type="ref">35</xref>, <xref rid="pmic12161-bib-0036" ref-type="ref">36</xref>, and ProteomicsDB <xref rid="pmic12161-bib-0010" ref-type="ref">10</xref> do this by reusing identification data coming from PRIDE and other sources.</p><p>One particular type of data reuse, already popular in other disciplines, is to analyze data from a large number of publications/datasets in a combined way, so&#x02010;called <italic>meta</italic>&#x02010;analysis studies. Indeed, the availability of large amounts of proteomics data has the advantage that it can be used for data mining purposes, that is extracting aggregated knowledge from the data provided by the community worldwide. The principle being: the more data, the better the understanding.</p><p>In fact, <italic>meta</italic>&#x02010;analysis studies can indeed provide new information that can be directly applied in proteomic analytic workflows. One example is a study aimed at improving the understanding of the cleavage mechanism and performance of trypsin <xref rid="pmic12161-bib-0037" ref-type="ref">37</xref>, <xref rid="pmic12161-bib-0038" ref-type="ref">38</xref>, a crucial parameter in proteomic workflows. By inspecting the cleavage profile of all peptide identifications deposited in PRIDE, it was possible to train an algorithm that predicts trypsin cleavage sites, a functionality that is available through a web interface <xref rid="pmic12161-bib-0039" ref-type="ref">39</xref>. Similarly, the study of deposited data was used to monitor peptide elution during LC, and enabled the optimization of gradients in silico <xref rid="pmic12161-bib-0040" ref-type="ref">40</xref>. Public MS data have also been mined to study the fragmentation pattern of different fragmentation methods <xref rid="pmic12161-bib-0041" ref-type="ref">41</xref>, and to predict peptide fragmentation patterns <xref rid="pmic12161-bib-0042" ref-type="ref">42</xref>.</p><p>PRIDE data have also been reused through the combination of data from significantly different experimental setups. For example, Klie et al. <xref rid="pmic12161-bib-0043" ref-type="ref">43</xref> used a noise&#x02010;tolerant algorithm to extract new knowledge from the datasets that comprise the HUPO Plasma Proteome Project <xref rid="pmic12161-bib-0044" ref-type="ref">44</xref>. Another example can be found in M&#x000fc;ller et al. <xref rid="pmic12161-bib-0045" ref-type="ref">45</xref>, where two proteomics datasets related to the CNS were remapped against a more recent version of the protein sequence database used in the original studies. This enabled the authors to look for the expression of specific splice isoforms from CNS&#x02010;related genes. Finally, in another example of PRIDE data reuse, UniProtKB was determined to be the most suitable reference database for long&#x02010;term proteomics data storage <xref rid="pmic12161-bib-0046" ref-type="ref">46</xref>.</p><p>Large&#x02010;scale biological results can also be reused because of their indexing in databases, notably via so&#x02010;called BioMarts <xref rid="pmic12161-bib-0047" ref-type="ref">47</xref> or more recently, web services <xref rid="pmic12161-bib-0048" ref-type="ref">48</xref>, <xref rid="pmic12161-bib-0049" ref-type="ref">49</xref>. Mining such data in their biological context may allow the extraction of novel biomarkers, as discussed in Griss et al. <xref rid="pmic12161-bib-0050" ref-type="ref">50</xref>.</p></sec><sec id="pmic12161-sec-0050"><label>1.4</label><title>Reusing data via spectral libraries and spectral archives</title><p>Additional spectrum interpretation strategies such as de novo sequencing or spectral databases are also promising approaches to increase the identification rate of spectra in MS&#x02010;based proteomics. The creation of spectral libraries most strongly benefits from the growing amount of shared data <xref rid="pmic12161-bib-0051" ref-type="ref">51</xref>, <xref rid="pmic12161-bib-0052" ref-type="ref">52</xref>. Several repositories, including PeptideAtlas, GPMDB, and PRIDE, and research groups such as the one at NIST (National Institute of Standards and Technology), provide spectral libraries for different species, which can in turn be used to perform spectral searches.</p><p>When assessing the similarity of spectra, spectral clustering can be performed <xref rid="pmic12161-bib-0053" ref-type="ref">53</xref>, <xref rid="pmic12161-bib-0054" ref-type="ref">54</xref>, <xref rid="pmic12161-bib-0055" ref-type="ref">55</xref>, <xref rid="pmic12161-bib-0056" ref-type="ref">56</xref>. While transitive identifications and consensus or representative spectra have been reported in all of these studies, the concept was further developed in the creation of spectral archives <xref rid="pmic12161-bib-0057" ref-type="ref">57</xref>. Spectral clustering has since been adopted by PRIDE to make quality assessments on the submitted data at the peptide to spectrum match (PSM) level <xref rid="pmic12161-bib-0058" ref-type="ref">58</xref>. After clustering, a representative spectrum is built for all peptides consistently identified across different datasets. The accuracy of this representative spectrum thus improves with every new dataset submitted to PRIDE, allowing an automated quality assessment of the PSM data. The key role of proteomics repositories in the further development of spectral archives was highlighted by H. Lam, who envisioned a future where it would be possible to perform a centralized data analysis by performing spectral searches <xref rid="pmic12161-bib-0059" ref-type="ref">59</xref>.</p></sec><sec id="pmic12161-sec-0060"><label>1.5</label><title>Data reprocessing through improved bioinformatic approaches</title><p>In the case of <italic>reprocess</italic>, the data are reprocessed with the intention of obtaining new knowledge or to provide an updated view on the results. This can result in novel findings, but mainly serves the same purpose as the original experiment. For example, a shotgun dataset can be reprocessed with a different algorithm or an updated sequence database.</p><p>Perhaps, the simplest step one can take when reprocessing a dataset is to analyze the potential effect of adding common contaminants if these were not included in the original search, as this makes it possible to rule out common false positive findings. For example, it could potentially turn out that an important finding could be better explained by a match with a common contaminant such as human keratin or trypsin <xref rid="pmic12161-bib-0060" ref-type="ref">60</xref>. For instance, a standard list of contaminants can be found in the common Repository of Adventitious Proteins (cRAP&#x02014;<ext-link ext-link-type="uri" xlink:href="http://www.thegpm.org/crap">http://www.thegpm.org/crap</ext-link>), provided by the GPM team.</p><p>The gene and protein sequence databases that identification depends on are constantly evolving and improving <xref rid="pmic12161-bib-0046" ref-type="ref">46</xref>. This means that reprocessing a proteomics dataset with an updated version of the gene or protein database can result in improved findings. This is particularly true for poorly annotated species. In addition, updating a database to include known isoforms and/or mutations will provide a different view of the dataset.</p><p>Analogously, the software used to process proteomics data is also constantly improving, either by the further development of existing algorithms or by the establishment of new analysis approaches. The use of up&#x02010;to&#x02010;date techniques for the reprocessing of older datasets allows valuable information to be extracted from the acquired data without the need to repeat the experiment. This is particularly important for data from valuable or unique samples, where it ensures that as much information as possible can be obtained from these samples.</p><p>It should be noted that some of the existing proteomics databases, most notably GPMDB <xref rid="pmic12161-bib-0005" ref-type="ref">5</xref> and PeptideAtlas <xref rid="pmic12161-bib-0006" ref-type="ref">6</xref>, routinely reprocess their data using dedicated bioinformatics tools and pipelines. GPMDB makes use of the X!Tandem search engine <xref rid="pmic12161-bib-0061" ref-type="ref">61</xref>, whereas PeptideAtlas employs the Trans Proteomic Pipeline <xref rid="pmic12161-bib-0062" ref-type="ref">62</xref>. The data reprocessed by PeptideAtlas is organized into different builds, each including data from a single proteome (e.g. human) or subproteome (e.g. human plasma). Each build is generated based on the raw MS/MS spectra submitted to PeptideAtlas over the years, or from data deposited in other public repositories, for example PRIDE. In addition to human, many species now have specific PeptideAtlas builds, including, for example <italic>Candida albicans</italic>
+<xref rid="pmic12161-bib-0063" ref-type="ref">63</xref> and horse <xref rid="pmic12161-bib-0064" ref-type="ref">64</xref>, among many others.</p><p>The GPMDB pipeline reprocesses the MS/MS data provided by users or raw data stored in other repositories, such as those from ProteomeXchange. Till the end of 2014, some of the reprocessed datasets were highlighted on a weekly basis on the GPM website (<ext-link ext-link-type="uri" xlink:href="http://www.thegpm.org/news.html">http://www.thegpm.org/news.html</ext-link>).</p><p>Both resources, PeptideAtlas and GPMDB, are also joining efforts in the context of the Chromosome&#x02010;based (C&#x02010;) and Biology/Disease (B/D) Human Proteome Projects (HPP) <xref rid="pmic12161-bib-0065" ref-type="ref">65</xref>, <xref rid="pmic12161-bib-0066" ref-type="ref">66</xref>, together with neXtProt and the antibody&#x02010;based resource Human Proteome Atlas <xref rid="pmic12161-bib-0067" ref-type="ref">67</xref>. This is a clear example of the utility of large&#x02010;scale and centralized (re&#x02010;)processing, as it can ensure consistent processing and thus comparable results. The C&#x02010;HPP team provides regular updates on the status of completion of the human proteome and on the enumeration of the so&#x02010;called &#x0201c;missing&#x0201d; proteins, that is proteins that have never been reliably detected experimentally <xref rid="pmic12161-bib-0068" ref-type="ref">68</xref>.</p></sec><sec id="pmic12161-sec-0070"><label>1.6</label><title>Reusing and reprocessing enables scientific discussion</title><p>Perhaps, the most common current use case for shared proteomics data is the evaluation of existing results, often as part of the manuscript review process. This can be achieved by inspecting the data as provided by the authors, or by reprocessing the raw data by mimicking the original processing and then assessing the reproducibility of the results. The evaluation can be carried out at two levels: at the level of the individual PSMs, or at the level of the entire dataset. An example of the former is the checking of spectrum annotation quality, for example for post&#x02010;translationally modified peptides. This can, for example, be achieved via the use of visualization tools such as MS&#x02010;viewer <xref rid="pmic12161-bib-0069" ref-type="ref">69</xref>, Scaffold Viewer, Thermo MSF Viewer, Peptizer <xref rid="pmic12161-bib-0070" ref-type="ref">70</xref>, ProteoIDViewer <xref rid="pmic12161-bib-0026" ref-type="ref">26</xref>, or TOPPView <xref rid="pmic12161-bib-0071" ref-type="ref">71</xref>, among others.</p><p>For validation at the dataset level, tools such as PRIDE Inspector <xref rid="pmic12161-bib-0027" ref-type="ref">27</xref> and PeptideShaker <xref rid="pmic12161-bib-0072" ref-type="ref">72</xref>, can be used to inspect and reprocess the data, respectively. Note that PeptideShaker provides a direct connection to PRIDE datasets to enable their streamlined reprocessing. The need for visual and interactive solutions should be noted here, as this can dramatically improve the validation procedure compared to looking at static images or tables <xref rid="pmic12161-bib-0073" ref-type="ref">73</xref>.</p><p>One of the most famous examples of data discussion, involving both visual inspection and reprocessing, is related to the proteomics investigations of <italic>Tyrannosaurus rex</italic> fossil bone samples. The initial publications by Asara et al. <xref rid="pmic12161-bib-0074" ref-type="ref">74</xref>, <xref rid="pmic12161-bib-0075" ref-type="ref">75</xref> proved controversial in the proteomics community (see, e.g. <xref rid="pmic12161-bib-0076" ref-type="ref">76</xref>, <xref rid="pmic12161-bib-0077" ref-type="ref">77</xref>). As a consequence, the authors decided to make their data publicly available (PRD000074 in PRIDE), such that other researchers could inspect and reprocess the data themselves. Among others, this resulted in Bern et al. concluding that the original data did not contain any <italic>T. rex</italic> proteins <xref rid="pmic12161-bib-0078" ref-type="ref">78</xref>. The debate remains to be definitively settled, but the spirited scientific discussion highlights the importance of making the underlying data for published work available so that all sides can scientifically and reasonably discuss the findings based on the same evidence.</p><p>Another example is a study by Bromenshenk et al., which claimed to have found a link between viral and fungal contamination and the ongoing honey bee colony collapse disorder <xref rid="pmic12161-bib-0079" ref-type="ref">79</xref>, a study that sparked global public interest. However, after the authors shared the data with others (available on request only), it became clear that this too could be a false positive outcome due to the systematic misidentification of bee&#x02010;derived spectra as viral or fungal sequences, due to searching against a protein sequence database that lacked all honey bee sequences <xref rid="pmic12161-bib-0080" ref-type="ref">80</xref>, <xref rid="pmic12161-bib-0081" ref-type="ref">81</xref>, <xref rid="pmic12161-bib-0082" ref-type="ref">82</xref>. This discussion too still continues; however, as the same dataset was recently used to illustrate the opinion that, in order to improve statistical power, researchers should remove irrelevant peptides from the database before searching <xref rid="pmic12161-bib-0083" ref-type="ref">83</xref>. Here again, the inspection and reprocessing of the original experimental data enabled a scientific discussion and made it possible to collectively improve the scientific output, and paved the way for new discoveries <xref rid="pmic12161-bib-0084" ref-type="ref">84</xref>.</p><p>More recently, there is an ongoing debate about the two drafts of the human proteome published in <italic>Nature</italic> in 2014 <xref rid="pmic12161-bib-0010" ref-type="ref">10</xref>, <xref rid="pmic12161-bib-0011" ref-type="ref">11</xref>. Both studies provided an exemplary precedent by sharing all generated data (available as datasets PXD000561 and PXD000865 in PRIDE). This has enabled the community to start a discussion about the reliability of the results, see for instance Ezkurdia et al. <xref rid="pmic12161-bib-0085" ref-type="ref">85</xref>.</p></sec><sec id="pmic12161-sec-0080"><label>1.7</label><title>Data repurposing in proteogenomics studies</title><p>Finally, when <italic>repurposing</italic> public data, these data are considered in light of a question or a context that is entirely different from the original study. It should be noted that repurposing thus often involves reprocessing as well. One example is the reprocessing of proteomics datasets to improve genome annotation in so&#x02010;called proteogenomics approaches. For example, Brosch et al. reprocessed shotgun proteomics data from PeptideAtlas to discover novel protein&#x02010;coding genes and to improve gene annotation in the mouse genome <xref rid="pmic12161-bib-0086" ref-type="ref">86</xref>. At the time, they found alternatively spliced translations from 53 genes along with ten entirely novel protein&#x02010;coding genes. Another example is provided by LNCipedia <xref rid="pmic12161-bib-0087" ref-type="ref">87</xref>, a resource for human long noncoding RNAs. PRIDE&#x02010;based reanalysis of human proteomics data has provided evidence that some long&#x02010;noncoding RNAs in LNCipedia are potentially translated to proteins <xref rid="pmic12161-bib-0087" ref-type="ref">87</xref>.</p><p>In another proteogenomics study, Ezkurdia et al. reprocessed public proteomics data available in GPMDB and PeptideAtlas to identify peptides covering 35% of the genes annotated by the GENCODE consortium for the human genome <xref rid="pmic12161-bib-0088" ref-type="ref">88</xref>. Among other findings, they found that 150 genes expressed multiple alternative protein isoforms. Additionally, in a second analogous study, they concluded that the human proteome was composed of around 19&#x02009;000 protein&#x02010;coding genes <xref rid="pmic12161-bib-0089" ref-type="ref">89</xref>, a lower number by around 1000 genes than the canonical assumption. In a related recent third study, they also reused public proteomics data from the same resources to suggest that most genes had a single dominant isoform at the protein level <xref rid="pmic12161-bib-0090" ref-type="ref">90</xref>.</p><p>Existing proteomics data can also be reused in proteogenomics approaches. In a recent study devoted to psoriasis <xref rid="pmic12161-bib-0091" ref-type="ref">91</xref>, the generated data were integrated with public data available in PRIDE (dataset PRD000053), proteomics data from other studies, and gene expression data available in the GEO (Gene Expression Omnibus) database <xref rid="pmic12161-bib-0092" ref-type="ref">92</xref>. As a final example in this section, Zhu et&#x000a0;al. employed public proteomics data to develop a tool that can identify differentially regulated splice variants <xref rid="pmic12161-bib-0093" ref-type="ref">93</xref>.</p><p>Because of the massive amounts of publicly available data and their inherent heterogeneity, the chances of reliably detecting protein expression evidence is higher in such reprocessing and repurposing approaches. However, due to the unconventional sequence population of the databases in proteogenomics, and their often extensive size, the estimation of false positive rates by traditional approaches can be impaired <xref rid="pmic12161-bib-0083" ref-type="ref">83</xref>, <xref rid="pmic12161-bib-0094" ref-type="ref">94</xref>. In the near future, it is therefore expected that the creation of such sequence databases will be coupled to ribosome profiling data, to discern the exact start of translation of putative proteins <xref rid="pmic12161-bib-0095" ref-type="ref">95</xref>. Indeed, tools such as ProteoFormer can already be used to generate proteomics&#x02010;compatible protein sequence databases from such ribosome profiling data <xref rid="pmic12161-bib-0096" ref-type="ref">96</xref>.</p></sec><sec id="pmic12161-sec-0090"><label>1.8</label><title>Reprocessing for better PTM localization and repurposing to find new PTMs</title><p>Finding and localizing PTMs are essential tasks in proteomics data analysis <xref rid="pmic12161-bib-0097" ref-type="ref">97</xref>, and for this purpose multiple PTM localization scores have been developed <xref rid="pmic12161-bib-0098" ref-type="ref">98</xref>, for example A&#x02010;score <xref rid="pmic12161-bib-0099" ref-type="ref">99</xref>, PTM score <xref rid="pmic12161-bib-0100" ref-type="ref">100</xref>, MD&#x02010;score <xref rid="pmic12161-bib-0101" ref-type="ref">101</xref>, phosphoRS <xref rid="pmic12161-bib-0102" ref-type="ref">102</xref>, and D&#x02010;score <xref rid="pmic12161-bib-0103" ref-type="ref">103</xref>. Setting a threshold for these scores is, however, challenging, and solutions have only recently been established <xref rid="pmic12161-bib-0104" ref-type="ref">104</xref>, <xref rid="pmic12161-bib-0105" ref-type="ref">105</xref>. If such approaches were not applied in the original analysis, it is worth reprocessing the data, as this can dramatically improve the quality of the PTM annotation on the protein sequences. The reported location of specific PTMs can furthermore be refined using additional techniques, for example by considering the three&#x02010;dimensional structure of the protein as indicated by Vandermarliere et al. <xref rid="pmic12161-bib-0106" ref-type="ref">106</xref>.</p><p>It is also possible to repurpose existing datasets to look for PTMs that were not considered in the original analysis, for example via mass&#x02010;tolerant database searches <xref rid="pmic12161-bib-0107" ref-type="ref">107</xref>. This task is made difficult by the substoichiometric nature of modified proteins, thus usually requiring experimental enrichment techniques to enable detection <xref rid="pmic12161-bib-0108" ref-type="ref">108</xref>, <xref rid="pmic12161-bib-0109" ref-type="ref">109</xref>, <xref rid="pmic12161-bib-0110" ref-type="ref">110</xref>. It is therefore often not straightforward to simply reprocess a dataset to find such modifications, but here again, the large amount of public data increases the probability to uncover modified peptides. Successful studies have therefore used enriched phospho&#x02010;proteomics datasets to find peptides with unusual modifications that had a high probability of being co&#x02010;enriched. Matic et al. <xref rid="pmic12161-bib-0111" ref-type="ref">111</xref> reanalyzed a mouse dataset to identify a total of 88 mono&#x02013;ADP&#x02010;ribosylation sites in 79 different proteins, with eight sites found modified also by ribose phosphate, a modification derived from ADP&#x02010;ribose. In the reanalysis of another mouse dataset, Hahne and K&#x000fc;ster <xref rid="pmic12161-bib-0112" ref-type="ref">112</xref> discovered an O&#x02010;GlcNAc&#x02010;6&#x02010;phosphate modification on 23 peptides corresponding to 11 proteins.</p></sec><sec id="pmic12161-sec-0100"><label>1.9</label><title>Toward quantitative, across&#x02010;source reprocessing</title><p>At the moment few repositories contain quantitative proteomics data, though it is possible to include quantitative information in data submissions to proteomics resources such as PRIDE. However, it is not yet possible to visualize and inspect this information properly due to a lack of suitable tools. Such tool development will most likely hinge on more widespread adoption of the PSI standards for quantitative information, namely mzQuantML and mzTab.</p><p>There are, however, several protein expression databases, most notably MOPED <xref rid="pmic12161-bib-0113" ref-type="ref">113</xref> and PaxDb <xref rid="pmic12161-bib-0114" ref-type="ref">114</xref>, which can be used to extract information about the expression levels of individual proteins. Both resources routinely make use of publicly available data in PRIDE and PeptideAtlas, among others. In PaxDb, identification data from filtered datasets are first mapped onto a common namespace, and quantification values are then derived after reprocessing with a standardized spectral counting pipeline. PaxDb is a meta&#x02010;resource in which protein expression is estimated across a number of species (more than 50 at the time of writing), and recently even across cell lines <xref rid="pmic12161-bib-0115" ref-type="ref">115</xref>. MOPED presents a multiomics resource for human and model organisms, including at present gene, protein, and pathway expression information <xref rid="pmic12161-bib-0116" ref-type="ref">116</xref>.</p><p>Another resource to highlight in this context is ProteomicsDB, which provides abundance estimates according to the label&#x02010;free intensity&#x02010;based iBAQ method <xref rid="pmic12161-bib-0117" ref-type="ref">117</xref>. ProteomicsDB is one of the main outputs of the draft human proteome by Wilhelm et al. <xref rid="pmic12161-bib-0010" ref-type="ref">10</xref>, and represents a nice example of data reprocessing. For their analysis, they combined their own generated experimental results with publicly available data. In fact, around 40% of the data used to generate this draft of the human proteome were obtained from public resources such as PRIDE, MassIVE, and PeptideAtlas (see Supporting Information Table 1 in <xref rid="pmic12161-bib-0010" ref-type="ref">10</xref> for the complete list). However, new datasets are reprocessed regularly and incorporated into ProteomicsDB, including also RNAseq data and phospho&#x02010;proteomics experiments.</p><p>The ability to compare protein abundances among datasets across public repositories would provide the possibility to virtually create new quantitative experiments, paving the way for in silico proteomics (Fig. <xref rid="pmic12161-fig-0004" ref-type="fig">4</xref>). However, accurate absolute quantification of peptides and proteins in datasets is made challenging by the need for internal standards. Relative quantification is impaired by the heterogeneity of the data present in repositories, and their often suboptimal annotation <xref rid="pmic12161-bib-0118" ref-type="ref">118</xref>. It is therefore worth mentioning that in&#x02010;depth annotation of the experimental design is essential in order to correctly interpret quantitative information from public proteomics data.</p><fig fig-type="Figure" xml:lang="en" id="pmic12161-fig-0004" orientation="portrait" position="float"><label>Figure 4</label><caption><p>The rapidly growing amount of publicly available proteomics data opens up the opportunity for in silico proteomics, that is using bioinformatics to test hypotheses directly through the available data, instead of going via the generation of new experimental data.</p></caption><graphic id="nlm-graphic-7" xlink:href="PMIC-16-214-g004"/></fig><p>The development of bioinformatics and statistics tools for the robust and accurate interpretation of such heterogeneous data will allow the setup of creative designs where datasets from different sources can be repurposed and compared. This could, for example, enable the in silico comparison of large patient cohorts based on the aggregation of multiple smaller cohorts. Such approaches can, however, be made impossible if significant sample variability is introduced during sample extraction and preparation, for example when PTM enrichment is conducted.</p></sec></sec><sec id="pmic12161-sec-0110"><label>2</label><title>Discussion</title><p>The growing amount of publicly available proteomics data has already been put to great use, both as a means to validate published results and to generate new knowledge via reprocessing and repurposing. With the achievement of the required milestones for data sharing (i.e. data standards, user&#x02010;friendly software, and public databases) and the push toward public data from journals and funders, the amount of shared data will only continue to grow rapidly.</p><p>There are, however, still some limiting factors that ought to be addressed. The first of these is the need for proper annotation, especially regarding experimental design. Indeed, even though minimal reporting standards have been developed for proteomics data (the so&#x02010;called MIAPE (Minimum Information About a Proteomics Experiment) guidelines <xref rid="pmic12161-bib-0119" ref-type="ref">119</xref>), there remains a gap between what is reported and what ought to be reported. While it is possible to attempt to infer the missing information as, for example, done by the pride&#x02010;asap pipeline <xref rid="pmic12161-bib-0120" ref-type="ref">120</xref>, this is often far from straightforward and may result in incorrect assumptions. The only real solution is to make it easier for submitters to provide additional information, or to annotate this information automatically in the standard file formats. This work has already started, notable in LIMS systems such as MASPECTRAS <xref rid="pmic12161-bib-0121" ref-type="ref">121</xref>, ms_lims <xref rid="pmic12161-bib-0122" ref-type="ref">122</xref>, and Proteios <xref rid="pmic12161-bib-0123" ref-type="ref">123</xref>, but it will still take some time before it is straightforward to capture all the desired information.</p><p>A related challenge is the provision of easy access to public data while catering to the need for visual and interactive analysis <xref rid="pmic12161-bib-0124" ref-type="ref">124</xref>. There are already several tools, including PRIDE Inspector <xref rid="pmic12161-bib-0027" ref-type="ref">27</xref> and PeptideShaker <xref rid="pmic12161-bib-0072" ref-type="ref">72</xref> that support this concept, but more are certainly needed. This is especially true for tools that link and display information from multiple resources in a meaningful way. Easy access for developers is also vital, for example, via systems such as BioMart <xref rid="pmic12161-bib-0125" ref-type="ref">125</xref>, or more recently, via web services <xref rid="pmic12161-bib-0048" ref-type="ref">48</xref>, <xref rid="pmic12161-bib-0049" ref-type="ref">49</xref>.</p><p>It is also crucial that scientists get credit for sharing their data, especially when these data are reused in new contexts. The ProteomeXchange accession number should therefore always be used when a dataset is reused and the corresponding publication(s) should be cited. ProteomeXchange also issues a DOI (Digital Object Identifier) to &#x0201c;Complete&#x0201d; submissions (i.e. submissions where data are provided in accordance with public standards, so they are easier to access and reuse), as a way to improve dataset tracking and to give credit to authors <xref rid="pmic12161-bib-0126" ref-type="ref">126</xref>. It will also be useful if resources provide dataset access statistics, given the current trend of putting increased value on so&#x02010;called &#x0201c;altmetrics&#x0201d; methods <xref rid="pmic12161-bib-0127" ref-type="ref">127</xref> to capture the impact of scientists&#x02019; work.</p><p>Moving forward, data&#x02010;independent acquisition approaches such as MS<sup>E</sup> and SWATH&#x02010;MS will become more popular in the field <xref rid="pmic12161-bib-0128" ref-type="ref">128</xref>. And even though some public data for these approaches already exist, it is expected that public deposition of this type of data will significantly increase in the coming years. In fact, there are already dedicated resources in place such as SWATH&#x02010;Atlas (<ext-link ext-link-type="uri" xlink:href="http://www.swathatlas.org">http://www.swathatlas.org</ext-link>) that can be used for planning SWATH experiments, for depositing experiments, and for exploring the results of deposited datasets. A particular characteristic of SWATH&#x02010;MS data is that, once generated, these can potentially be reanalyzed multiple times using different spectral libraries, which are set to improve over time as public data increase. These developments open up numerous novel possibilities for the reanalysis of public proteomics data.</p><p>Another very interesting upcoming opportunity is the reprocessing of datasets generated in &#x0201c;multi&#x02010;omics&#x0201d; studies. At present, these type of studies pose a challenge for both traditional repositories, which are most often field&#x02010;specific (e.g. proteomics, genomics, or transcriptomics), as well as for researchers, given that at present it is not straightforward to link public data coming from paired samples located in different resources (e.g. MS proteomics and RNAseq data obtained in the same study). There are, however, ongoing efforts to link different studies performed on the same sample <xref rid="pmic12161-bib-0129" ref-type="ref">129</xref>. Over time, the existence of personalized sequence databases (from DNA exome sequencing), or the existence of public data containing both gene and protein expression data for a given sample will become commonplace, opening up yet more opportunities for data analysts.</p><p>Many of the approaches highlighted in this review can also be exploited in the metabolomics field, where the first stable data repositories and data standards are now starting to be established <xref rid="pmic12161-bib-0130" ref-type="ref">130</xref>. For example, spectral libraries have been used for the analysis of MS metabolomics data already, many years before the same approach was applied to the proteomics field, and we can expect to see more examples of techniques adopted from related fields in the future.</p><p>Finally, the need for customizable, large&#x02010;scale reprocessing systems should be highlighted. Such capabilities currently remain limited to a couple of dedicated proteomics bioinformatics groups. However, as the data have been generated by the community, and thus belong to the community as a whole, large&#x02010;scale reprocessing should also be made available to the general community. Only then can we start to realize the full potential of the publicly shared proteomics data.</p></sec><sec id="pmic12161-sec-0130"><p>
+<italic>The authors have declared no conflict of interest</italic>.</p></sec></body><back><ack id="pmic12161-sec-0120"><title>Acknowledgments</title><p>
+<italic>K.V. and L.M. acknowledge support from Ghent University (Multidisciplinary Research Partnership &#x0201c;Bioinformatics: from nucleotides to networks&#x0201d;), Ghent University grant BOF12/GOA/014, and the IWT SBO grant &#x0201c;INSPECTOR&#x0201d; (120025). A.C. is supported by EMBL core funding. J.A.V. is supported by the Wellcome Trust (grant number WT101477MA) and the BBSRC (grant number BB/L024225/1). H.B. and H.R. are supported by Bergen Forskningsstifelse, and H.R. is further supported by Novo Nordisk Fonden and Western Norway Regional Health Authority. F.B. is supported by the Kristian Gerhard Jebsen foundation.</italic>
+</p></ack><ref-list id="pmic12161-bibl-0001"><title>3 References</title><ref id="pmic12161-bib-0001"><label>1</label><mixed-citation publication-type="journal" id="pmic12161-cit-0001">
+<collab collab-type="authors">Editors</collab>
+, <article-title>Democratizing proteomics data</article-title>. <source>Nat. Biotechnol.</source>
+<year>2007</year>, <volume>25</volume>, <fpage>262</fpage>.</mixed-citation></ref><ref id="pmic12161-bib-0002"><label>2</label><mixed-citation publication-type="journal" id="pmic12161-cit-0002">
+<collab collab-type="authors">Editors</collab>
+, <article-title>Thou shalt share your data</article-title>. <source>Nat. Methods</source>
+<year>2008</year>, <volume>5</volume>, <fpage>209</fpage>&#x02013;<lpage>209</lpage>.</mixed-citation></ref><ref id="pmic12161-bib-0003"><label>3</label><mixed-citation publication-type="journal" id="pmic12161-cit-0003">
+<string-name>
+<surname>Burlingame</surname>, <given-names>A. L.</given-names>
+</string-name>, <string-name>
+<surname>Carr</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Bradshaw</surname>, <given-names>R. A.</given-names>
+</string-name>, <string-name>
+<surname>Chalkley</surname>, <given-names>R. J.</given-names>
+</string-name>, <article-title>On credibility, clarity and compliance</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2015</year>, <volume>7</volume>, <fpage>1731</fpage>&#x02013;<lpage>1733</lpage>.<pub-id pub-id-type="pmid">26041845</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="pmic12161-cit-0004">
+<string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Hermjakob</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Adamski</surname>, <given-names>M.</given-names>
+</string-name> et&#x000a0;al., <article-title>PRIDE: the proteomics identifications database</article-title>. <source>Proteomics</source>
+<year>2005</year>, <volume>5</volume>, <fpage>3537</fpage>&#x02013;<lpage>3545</lpage>.<pub-id pub-id-type="pmid">16041671</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="pmic12161-cit-0005">
+<string-name>
+<surname>Craig</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Cortens</surname>, <given-names>J. P.</given-names>
+</string-name>, <string-name>
+<surname>Beavis</surname>, <given-names>R. C.</given-names>
+</string-name>, <article-title>Open source system for analyzing, validating, and storing protein identification data</article-title>. <source>J. Proteome Res.</source>
+<year>2004</year>, <volume>3</volume>, <fpage>1234</fpage>&#x02013;<lpage>1242</lpage>.<pub-id pub-id-type="pmid">15595733</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="pmic12161-cit-0006">
+<string-name>
+<surname>Desiere</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Deutsch</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name>
+<surname>King</surname>, <given-names>N. L.</given-names>
+</string-name>, <string-name>
+<surname>Nesvizhskii</surname>, <given-names>A. I.</given-names>
+</string-name> et&#x000a0;al., <article-title>The PeptideAtlas project</article-title>. <source>Nucleic Acids Res.</source>
+<year>2006</year>, <volume>34</volume>, <fpage>D655</fpage>&#x02013;<lpage>D658</lpage>.<pub-id pub-id-type="pmid">16381952</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="pmic12161-cit-0007">
+<string-name>
+<surname>Farrah</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Deutsch</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name>
+<surname>Kreisberg</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>Z.</given-names>
+</string-name> et&#x000a0;al., <article-title>PASSEL: the PeptideAtlas SRMexperiment library</article-title>. <source>Proteomics</source>
+<year>2012</year>, <volume>12</volume>, <fpage>1170</fpage>&#x02013;<lpage>1175</lpage>.<pub-id pub-id-type="pmid">22318887</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="pmic12161-cit-0008">
+<string-name>
+<surname>Sharma</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Eckels</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>, <given-names>G. K.</given-names>
+</string-name>, <string-name>
+<surname>Shulman</surname>, <given-names>N. J.</given-names>
+</string-name> et&#x000a0;al., <article-title>Panorama: a targeted proteomics knowledge base</article-title>. <source>J. Proteome Res.</source>
+<year>2014</year>, <volume>13</volume>, <fpage>4205</fpage>&#x02013;<lpage>4210</lpage>.<pub-id pub-id-type="pmid">25102069</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="pmic12161-cit-0009">
+<string-name>
+<surname>Reddy</surname>, <given-names>T. B.</given-names>
+</string-name>, <string-name>
+<surname>Riley</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Wymore</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Montgomery</surname>, <given-names>P.</given-names>
+</string-name> et&#x000a0;al., <article-title>TB database: an integrated platform for tuberculosis research</article-title>. <source>Nucleic Acids Res.</source>
+<year>2009</year>, <volume>37</volume>, <fpage>D499</fpage>&#x02013;<lpage>D508</lpage>.<pub-id pub-id-type="pmid">18835847</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="pmic12161-cit-0010">
+<string-name>
+<surname>Wilhelm</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Schlegl</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Hahne</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Moghaddas Gholami</surname>, <given-names>A.</given-names>
+</string-name> et&#x000a0;al., <article-title>Mass&#x02010;spectrometry&#x02010;based draft of the human proteome</article-title>. <source>Nature</source>
+<year>2014</year>, <volume>509</volume>, <fpage>582</fpage>&#x02013;<lpage>587</lpage>.<pub-id pub-id-type="pmid">24870543</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="pmic12161-cit-0011">
+<string-name>
+<surname>Kim</surname>, <given-names>M. S.</given-names>
+</string-name>, <string-name>
+<surname>Pinto</surname>, <given-names>S. M.</given-names>
+</string-name>, <string-name>
+<surname>Getnet</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Nirujogi</surname>, <given-names>R. S.</given-names>
+</string-name> et&#x000a0;al., <article-title>A draft map of the human proteome</article-title>. <source>Nature</source>
+<year>2014</year>, <volume>509</volume>, <fpage>575</fpage>&#x02013;<lpage>581</lpage>.<pub-id pub-id-type="pmid">24870542</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="pmic12161-cit-0012">
+<string-name>
+<surname>Hirsch&#x02010;Hoffmann</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Gruissem</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Baerenfaller</surname>, <given-names>K.</given-names>
+</string-name>, <article-title>pep2pro: the high&#x02010;throughput proteomics data processing, analysis, and visualization tool</article-title>. <source>Front Plant Sci.</source>
+<year>2012</year>, <volume>3</volume>, <fpage>123</fpage>.<pub-id pub-id-type="pmid">22701464</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="pmic12161-cit-0013">
+<string-name>
+<surname>Guldbrandsen</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Vethe</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Farag</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Oveland</surname>, <given-names>E.</given-names>
+</string-name> et&#x000a0;al., <article-title>In&#x02010;depth characterization of the cerebrospinal fluid proteome displayed through the CSF Proteome Resource (CSF&#x02010;PR)</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2014</year>, <volume>11</volume>, <fpage>3152</fpage>&#x02013;<lpage>3163</lpage>.<pub-id pub-id-type="pmid">25038066</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="pmic12161-cit-0014">
+<string-name>
+<surname>Colaert</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Maddelein</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Impens</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Van Damme</surname>, <given-names>P.</given-names>
+</string-name> et&#x000a0;al., <article-title>The Online Protein Processing Resource (TOPPR): a database and analysis platform for protein processing events</article-title>. <source>Nucleic Acids Res.</source>
+<year>2013</year>, <volume>41</volume>, <fpage>D333</fpage>&#x02013;<lpage>D337</lpage>.<pub-id pub-id-type="pmid">23093603</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="pmic12161-cit-0015">
+<string-name>
+<surname>Lange</surname>, <given-names>P. F.</given-names>
+</string-name>, <string-name>
+<surname>Overall</surname>, <given-names>C. M.</given-names>
+</string-name>, <article-title>TopFIND, a knowledgebase linking protein termini with function</article-title>. <source>Nat. Methods</source>
+<year>2011</year>, <volume>8</volume>, <fpage>703</fpage>&#x02013;<lpage>704</lpage>.<pub-id pub-id-type="pmid">21822272</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="pmic12161-cit-0016">
+<string-name>
+<surname>Perez&#x02010;Riverol</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Alpi</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Hermjakob</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>J. A.</given-names>
+</string-name>, <article-title>Making proteomics data accessible and reusable: current state of proteomics databases and repositories</article-title>. <source>Proteomics</source>
+<year>2014</year>, <volume>15</volume>, <fpage>930</fpage>&#x02013;<lpage>949</lpage>.<pub-id pub-id-type="pmid">25158685</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="pmic12161-cit-0017">
+<string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Nesvizhskii</surname>, <given-names>A. I.</given-names>
+</string-name>, <string-name>
+<surname>Hermjakob</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Adamski</surname>, <given-names>M.</given-names>
+</string-name> et&#x000a0;al., <article-title>Do we want our data raw? Including binary mass spectrometry data in public proteomics data repositories</article-title>. <source>Proteomics</source>
+<year>2005</year>, <volume>5</volume>, <fpage>3501</fpage>&#x02013;<lpage>3505</lpage>.<pub-id pub-id-type="pmid">16041670</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="pmic12161-cit-0018">
+<string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Chambers</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Sturm</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kessner</surname>, <given-names>D.</given-names>
+</string-name> et&#x000a0;al., <article-title>mzML&#x02014;a community standard for mass spectrometry data</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2011</year>, <volume>10</volume>, <fpage>R110 000133</fpage>.<pub-id pub-id-type="pmid">20716697</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="pmic12161-cit-0019">
+<string-name>
+<surname>Jones</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name>
+<surname>Eisenacher</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Kohlbacher</surname>, <given-names>O.</given-names>
+</string-name> et&#x000a0;al., <article-title>The mzIdentML data standard for mass spectrometry&#x02010;based proteomics results</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2012</year>, <volume>11</volume>, <fpage>M111 014381</fpage>.<pub-id pub-id-type="pmid">22375074</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="pmic12161-cit-0020">
+<string-name>
+<surname>Griss</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name>
+<surname>Sachsenberg</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Walzer</surname>, <given-names>M.</given-names>
+</string-name> et&#x000a0;al., <article-title>The mzTab data exchange format: communicating mass&#x02010;spectrometry&#x02010;based proteomics and metabolomics experimental results to a wider audience</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2014</year>, <volume>13</volume>, <fpage>2765</fpage>&#x02013;<lpage>2775</lpage>.<pub-id pub-id-type="pmid">24980485</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="pmic12161-cit-0021">
+<string-name>
+<surname>Walzer</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Qi</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Uszkoreit</surname>, <given-names>J.</given-names>
+</string-name> et&#x000a0;al., <article-title>The mzQuantML data standard for mass spectrometry&#x02010;based quantitative studies in proteomics</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2013</year>, <volume>12</volume>, <fpage>2332</fpage>&#x02013;<lpage>2340</lpage>.<pub-id pub-id-type="pmid">23599424</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="pmic12161-cit-0022">
+<string-name>
+<surname>Deutsch</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name>
+<surname>Chambers</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Neumann</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Levander</surname>, <given-names>F.</given-names>
+</string-name> et&#x000a0;al., <article-title>TraML: a standard format for exchange of selected reaction monitoring transition lists</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2011</year>, <volume>11</volume>, <fpage>R111.015040</fpage>.<pub-id pub-id-type="pmid">22159873</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="pmic12161-cit-0023">
+<string-name>
+<surname>Chambers</surname>, <given-names>M. C.</given-names>
+</string-name>, <string-name>
+<surname>Maclean</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Burke</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Amodei</surname>, <given-names>D.</given-names>
+</string-name> et&#x000a0;al., <article-title>A cross&#x02010;platform toolkit for mass spectrometry and proteomics</article-title>. <source>Nat. Biotechnol.</source>
+<year>2012</year>, <volume>30</volume>, <fpage>918</fpage>&#x02013;<lpage>920</lpage>.<pub-id pub-id-type="pmid">23051804</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="pmic12161-cit-0024">
+<string-name>
+<surname>Cote</surname>, <given-names>R. G.</given-names>
+</string-name>, <string-name>
+<surname>Griss</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Dianes</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>R.</given-names>
+</string-name> et&#x000a0;al., <article-title>The PRoteomics IDEntification (PRIDE) Converter 2 framework: an improved suite of tools to facilitate data submission to the PRIDE database and the ProteomeXchange consortium</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2012</year>, <volume>11</volume>, <fpage>1682</fpage>&#x02013;<lpage>1689</lpage>.<pub-id pub-id-type="pmid">22949509</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="pmic12161-cit-0025">
+<string-name>
+<surname>Barsnes</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Vizca&#x000ed;no</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Eidhammer</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>PRIDE Converter: making proteomics data&#x02010;sharing easy</article-title>. <source>Nat. Biotechnol.</source>
+<year>2009</year>, <volume>27</volume>, <fpage>598</fpage>&#x02013;<lpage>599</lpage>.<pub-id pub-id-type="pmid">19587657</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="pmic12161-cit-0026">
+<string-name>
+<surname>Ghali</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Krishna</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Lukasse</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Martinez&#x02010;Bartolome</surname>, <given-names>S.</given-names>
+</string-name> et&#x000a0;al., <article-title>Tools (Viewer, Library and Validator) that facilitate use of the peptide and protein identification standard format, termed mzIdentML</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2013</year>, <volume>12</volume>, <fpage>3026</fpage>&#x02013;<lpage>3035</lpage>.<pub-id pub-id-type="pmid">23813117</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="pmic12161-cit-0027">
+<string-name>
+<surname>Wang</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Fabregat</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Rios</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Ovelleiro</surname>, <given-names>D.</given-names>
+</string-name> et&#x000a0;al., <article-title>PRIDE Inspector: a tool to visualize and validate MS proteomics data</article-title>. <source>Nat. Biotechnol.</source>
+<year>2012</year>, <volume>30</volume>, <fpage>135</fpage>&#x02013;<lpage>137</lpage>.<pub-id pub-id-type="pmid">22318026</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="pmic12161-cit-0028">
+<string-name>
+<surname>Vizca&#x000ed;no</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Deutsch</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Csordas</surname>, <given-names>A.</given-names>
+</string-name> et&#x000a0;al., <article-title>ProteomeXchange provides globally coordinated proteomics data submission and dissemination</article-title>. <source>Nat. Biotechnol.</source>
+<year>2014</year>, <volume>32</volume>, <fpage>223</fpage>&#x02013;<lpage>226</lpage>.<pub-id pub-id-type="pmid">24727771</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="pmic12161-cit-0029">
+<string-name>
+<surname>Barsnes</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>Crowdsourcing in proteomics: public resources lead to better experiments</article-title>. <source>Amino Acids</source>
+<year>2013</year>, <volume>44</volume>, <fpage>1129</fpage>&#x02013;<lpage>1137</lpage>.<pub-id pub-id-type="pmid">23377569</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="pmic12161-cit-0030">
+<string-name>
+<surname>Rung</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Brazma</surname>, <given-names>A.</given-names>
+</string-name>, <article-title>Reuse of public genome&#x02010;wide gene expression data</article-title>. <source>Nat. Rev. Genet.</source>
+<year>2013</year>, <volume>14</volume>, <fpage>89</fpage>&#x02013;<lpage>99</lpage>.<pub-id pub-id-type="pmid">23269463</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="pmic12161-cit-0031">
+<collab collab-type="authors">UniProt Consortium</collab>
+, <article-title>The universal protein resource (UniProt)</article-title>. <source>Nucleic Acids Res.</source>
+<year>2008</year>, <volume>36</volume>, <fpage>D190</fpage>&#x02013;<lpage>D195</lpage>.<pub-id pub-id-type="pmid">18045787</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="pmic12161-cit-0032">
+<string-name>
+<surname>Lane</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Argoud&#x02010;Puy</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Britan</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Cusin</surname>, <given-names>I.</given-names>
+</string-name> et&#x000a0;al., <article-title>neXtProt: a knowledge platform for human proteins</article-title>. <source>Nucleic Acids Res.</source>
+<year>2012</year>, <volume>40</volume>, <fpage>D76</fpage>&#x02013;<lpage>D83</lpage>.<pub-id pub-id-type="pmid">22139911</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="pmic12161-cit-0033">
+<string-name>
+<surname>Hornbeck</surname>, <given-names>P. V.</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Murray</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Kornhauser</surname>, <given-names>J. M.</given-names>
+</string-name> et&#x000a0;al., <article-title>PhosphoSitePlus, 2014: mutations, PTMs and recalibrations</article-title>. <source>Nucleic Acids Res.</source>
+<year>2015</year>, <volume>43</volume>, <fpage>D512</fpage>&#x02013;<lpage>D520</lpage>.<pub-id pub-id-type="pmid">25514926</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="pmic12161-cit-0034">
+<string-name>
+<surname>Fan</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Mohareb</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Bond</surname>, <given-names>N. J.</given-names>
+</string-name>, <string-name>
+<surname>Lilley</surname>, <given-names>K. S.</given-names>
+</string-name>, <string-name>
+<surname>Bessant</surname>, <given-names>C.</given-names>
+</string-name>, <article-title>MRMaid 2.0: mining PRIDE for evidence&#x02010;based SRM transitions</article-title>. <source>OMICS</source>
+<year>2012</year>, <volume>16</volume>, <fpage>483</fpage>&#x02013;<lpage>488</lpage>.<pub-id pub-id-type="pmid">22804252</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="pmic12161-cit-0035">
+<string-name>
+<surname>Mohammed</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Domanski</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Jackson</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>, <given-names>D. S.</given-names>
+</string-name> et&#x000a0;al., <article-title>PeptidePicker: a scientific workflow with web interface for selecting appropriate peptides for targeted proteomics experiments</article-title>. <source>J. Proteomics</source>
+<year>2014</year>, <volume>106</volume>, <fpage>151</fpage>&#x02013;<lpage>161</lpage>.<pub-id pub-id-type="pmid">24769191</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="pmic12161-cit-0036">
+<string-name>
+<surname>Mohammed</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Borchers</surname>, <given-names>C. H.</given-names>
+</string-name>, <article-title>An extensive library of surrogate peptides for all human proteins</article-title>. <source>J. Proteomics</source>
+<year>2015</year>, pii: S1874&#x02010;3919(15)30079&#x02010;8. doi: <ext-link ext-link-type="doi" xlink:href="10.1016/j.jprot.2015.07.025">10.1016/j.jprot.2015.07.025</ext-link>. [Epub ahead of print].</mixed-citation></ref><ref id="pmic12161-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="pmic12161-cit-0037">
+<string-name>
+<surname>Vandermarliere</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Mueller</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>Getting intimate with trypsin, the leading protease in proteomics</article-title>. <source>Mass Spectrom. Rev.</source>
+<year>2013</year>, <volume>32</volume>, <fpage>453</fpage>&#x02013;<lpage>465</lpage>.<pub-id pub-id-type="pmid">23775586</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="pmic12161-cit-0038">
+<string-name>
+<surname>Burkhart</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Schumbrutzki</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Wortelkamp</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Sickmann</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Zahedi</surname>, <given-names>R. P.</given-names>
+</string-name>, <article-title>Systematic and quantitative comparison of digest efficiency and specificity reveals the impact of trypsin quality on MS&#x02010;based proteomics</article-title>. <source>J. Proteomics</source>
+<year>2012</year>, <volume>75</volume>, <fpage>1454</fpage>&#x02013;<lpage>1462</lpage>.<pub-id pub-id-type="pmid">22166745</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="pmic12161-cit-0039">
+<string-name>
+<surname>Fannes</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Vandermarliere</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Schietgat</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Degroeve</surname>, <given-names>S.</given-names>
+</string-name> et&#x000a0;al., <article-title>Predicting tryptic cleavage from proteomics data using decision tree ensembles</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>12</volume>, <fpage>2253</fpage>&#x02013;<lpage>2259</lpage>.<pub-id pub-id-type="pmid">23517142</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="pmic12161-cit-0040">
+<string-name>
+<surname>Moruz</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Pichler</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Stranzl</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Mechtler</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Kall</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>Optimized nonlinear gradients for reversed&#x02010;phase liquid chromatography in shotgun proteomics</article-title>. <source>Anal. Chem.</source>
+<year>2013</year>, <volume>85</volume>, <fpage>7777</fpage>&#x02013;<lpage>7785</lpage>.<pub-id pub-id-type="pmid">23841592</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="pmic12161-cit-0041">
+<string-name>
+<surname>Barsnes</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Eidhammer</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>A global analysis of peptide fragmentation variability</article-title>. <source>Proteomics</source>
+<year>2011</year>, <volume>11</volume>, <fpage>1181</fpage>&#x02013;<lpage>118</lpage>.<pub-id pub-id-type="pmid">21328539</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="pmic12161-cit-0042">
+<string-name>
+<surname>Degroeve</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>MS2PIP: a tool for MS/MS peak intensity prediction</article-title>. <source>Bioinformatics</source>
+<year>2013</year>, <volume>29</volume>, <fpage>3199</fpage>&#x02013;<lpage>3203</lpage>.<pub-id pub-id-type="pmid">24078703</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="pmic12161-cit-0043">
+<string-name>
+<surname>Klie</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Cote</surname>, <given-names>R.</given-names>
+</string-name> et&#x000a0;al., <article-title>Analyzing large&#x02010;scale proteomics projects with latent semantic indexing</article-title>. <source>J. Proteome Res.</source>
+<year>2008</year>, <volume>7</volume>, <fpage>182</fpage>&#x02013;<lpage>191</lpage>.<pub-id pub-id-type="pmid">18047271</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0044"><label>44</label><mixed-citation publication-type="journal" id="pmic12161-cit-0044">
+<string-name>
+<surname>Omenn</surname>, <given-names>G. S.</given-names>
+</string-name>, <string-name>
+<surname>States</surname>, <given-names>D. J.</given-names>
+</string-name>, <string-name>
+<surname>Adamski</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Blackwell</surname>, <given-names>T. W.</given-names>
+</string-name> et&#x000a0;al., <article-title>Overview of the HUPO Plasma Proteome Project: results from the pilot phase with 35 collaborating laboratories and multiple analytical groups, generating a core dataset of 3020 proteins and a publicly&#x02010;available database</article-title>. <source>Proteomics</source>
+<year>2005</year>, <volume>5</volume>, <fpage>3226</fpage>&#x02013;<lpage>3245</lpage>.<pub-id pub-id-type="pmid">16104056</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="pmic12161-cit-0045">
+<string-name>
+<surname>Mueller</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Jones</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Cote</surname>, <given-names>R.</given-names>
+</string-name> et&#x000a0;al., <article-title>Analysis of the experimental detection of central nervous system&#x02010;related genes in human brain and cerebrospinal fluid datasets</article-title>. <source>Proteomics</source>
+<year>2008</year>, <volume>8</volume>, <fpage>1138</fpage>&#x02013;<lpage>1148</lpage>.<pub-id pub-id-type="pmid">18283668</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="pmic12161-cit-0046">
+<string-name>
+<surname>Griss</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Cote</surname>, <given-names>R. G.</given-names>
+</string-name>, <string-name>
+<surname>Gerner</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Hermjakob</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>J. A.</given-names>
+</string-name>, <article-title>Published and perished? The influence of the searched protein database on the long&#x02010;term storage of proteomics data</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2011</year>, <volume>10</volume>, <fpage>M111 008490</fpage>.<pub-id pub-id-type="pmid">21700957</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="pmic12161-cit-0047">
+<string-name>
+<surname>Kasprzyk</surname>, <given-names>A.</given-names>
+</string-name>, <article-title>BioMart: driving a paradigm change in biological data management</article-title>. <source>Database</source>
+<year>2011</year>, <volume>2011</volume>, <fpage>bar049</fpage>.<pub-id pub-id-type="pmid">22083790</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="pmic12161-cit-0048">
+<string-name>
+<surname>Reisinger</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Del&#x02010;Toro</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Ternent</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Hermjakob</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>J. A.</given-names>
+</string-name>, <article-title>Introducing the PRIDE Archive RESTful web services</article-title>. <source>Nucleic Acids Res.</source>
+<year>2015</year>, <volume>43</volume>, <fpage>W599</fpage>&#x02013;<lpage>604</lpage>.<pub-id pub-id-type="pmid">25904633</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="pmic12161-cit-0049">
+<string-name>
+<surname>Fenyo</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Beavis</surname>, <given-names>R. C.</given-names>
+</string-name>, <article-title>The GPMDB REST interface</article-title>. <source>Bioinformatics</source>
+<year>2015</year>, <volume>31</volume>, <fpage>2056</fpage>&#x02013;<lpage>2058</lpage>.<pub-id pub-id-type="pmid">25697819</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="pmic12161-cit-0050">
+<string-name>
+<surname>Griss</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Perez&#x02010;Riverol</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Hermjakob</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>J. A.</given-names>
+</string-name>, <article-title>Identifying novel biomarkers through data mining&#x02014;a realistic scenario?</article-title>
+<source>Proteomics Clin. Appl.</source>
+<year>2014</year>, <volume>9</volume>, <fpage>437</fpage>&#x02013;<lpage>443</lpage>.<pub-id pub-id-type="pmid">25347964</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="pmic12161-cit-0051">
+<string-name>
+<surname>Frewen</surname>, <given-names>B. E.</given-names>
+</string-name>, <string-name>
+<surname>Merrihew</surname>, <given-names>G. E.</given-names>
+</string-name>, <string-name>
+<surname>Wu</surname>, <given-names>C. C.</given-names>
+</string-name>, <string-name>
+<surname>Noble</surname>, <given-names>W. S.</given-names>
+</string-name>, <string-name>
+<surname>MacCoss</surname>, <given-names>M. J.</given-names>
+</string-name>, <article-title>Analysis of peptide MS/MS spectra from large&#x02010;scale proteomics experiments using spectrum libraries</article-title>. <source>Anal. Chem.</source>
+<year>2006</year>, <volume>78</volume>, <fpage>5678</fpage>&#x02013;<lpage>5684</lpage>.<pub-id pub-id-type="pmid">16906711</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="pmic12161-cit-0052">
+<string-name>
+<surname>Lam</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Deutsch</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name>
+<surname>Eddes</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Eng</surname>, <given-names>J. K.</given-names>
+</string-name> et&#x000a0;al., <article-title>Development and validation of a spectral library searching method for peptide identification from MS/MS</article-title>. <source>Proteomics</source>
+<year>2007</year>, <volume>7</volume>(<issue>5</issue>), <fpage>655</fpage>&#x02013;<lpage>667</lpage>.<pub-id pub-id-type="pmid">17295354</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="pmic12161-cit-0053">
+<string-name>
+<surname>Tabb</surname>, <given-names>D. L.</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>, <given-names>M. R.</given-names>
+</string-name>, <string-name>
+<surname>Khalsa&#x02010;Moyers</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>VerBerkmoes</surname>, <given-names>N. C.</given-names>
+</string-name>, <string-name>
+<surname>McDonald</surname>, <given-names>W. H.</given-names>
+</string-name>, <article-title>MS2Grouper: group assessment and synthetic replacement of duplicate proteomic tandem mass spectra</article-title>. <source>J. Am. Soc. Mass Spectrom.</source>
+<year>2005</year>, <volume>16</volume>(<issue>8</issue>), <fpage>1250</fpage>&#x02013;<lpage>1261</lpage>.<pub-id pub-id-type="pmid">15979332</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="pmic12161-cit-0054">
+<string-name>
+<surname>Flikka</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Meukens</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Helsens</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Vandekerckhove</surname>, <given-names>J.</given-names>
+</string-name> et&#x000a0;al., <article-title>Implementation and application of a versatile clustering tool for tandem mass spectrometry data</article-title>. <source>Proteomics</source>
+<year>2007</year>, <volume>7</volume>(<issue>18</issue>), <fpage>3245</fpage>&#x02013;<lpage>3258</lpage>.<pub-id pub-id-type="pmid">17708593</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="pmic12161-cit-0055">
+<string-name>
+<surname>Falkner</surname>, <given-names>J. A.</given-names>
+</string-name>, <string-name>
+<surname>Falkner</surname>, <given-names>J. W.</given-names>
+</string-name>, <string-name>
+<surname>Yocum</surname>, <given-names>A. K.</given-names>
+</string-name>, <string-name>
+<surname>Andrews</surname>, <given-names>P. C.</given-names>
+</string-name>, <article-title>A spectral clustering approach to MS/MS identification of post&#x02010;translational modifications</article-title>. <source>J. Proteome Res.</source>
+<year>2008</year>, <volume>7</volume>(<issue>11</issue>), <fpage>4614</fpage>&#x02013;<lpage>4622</lpage>.<pub-id pub-id-type="pmid">18800783</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="pmic12161-cit-0056">
+<string-name>
+<surname>Frank</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Bandeira</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Shen</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Tanner</surname>, <given-names>S.</given-names>
+</string-name> et&#x000a0;al., <article-title>Clustering millions of tandem mass spectra</article-title>. <source>J. Proteome Res.</source>
+<year>2008</year>, <volume>7</volume>(<issue>1</issue>), <fpage>113</fpage>&#x02013;<lpage>122</lpage>.<pub-id pub-id-type="pmid">18067247</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0057"><label>57</label><mixed-citation publication-type="journal" id="pmic12161-cit-0057">
+<string-name>
+<surname>Frank</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>Monroe</surname>, <given-names>M. E.</given-names>
+</string-name>, <string-name>
+<surname>Shah</surname>, <given-names>A. R.</given-names>
+</string-name>, <string-name>
+<surname>Carver</surname>, <given-names>J. J.</given-names>
+</string-name> et&#x000a0;al., <article-title>Spectral archives: extending spectral libraries to analyze both identified and unidentified spectra</article-title>. <source>Nat. Methods</source>
+<year>2011</year>, <volume>8</volume>(<issue>7</issue>), <fpage>587</fpage>&#x02013;<lpage>591</lpage>.<pub-id pub-id-type="pmid">21572408</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0058"><label>58</label><mixed-citation publication-type="journal" id="pmic12161-cit-0058">
+<string-name>
+<surname>Griss</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Foster</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Hermjakob</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Vizcaino</surname>, <given-names>J. A.</given-names>
+</string-name>, <article-title>PRIDE Cluster: building a consensus of proteomics data</article-title>. <source>Nat. Methods</source>
+<year>2013</year>, <volume>10</volume>(<issue>2</issue>), <fpage>95</fpage>&#x02013;<lpage>96</lpage>.<pub-id pub-id-type="pmid">23361086</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0059"><label>59</label><mixed-citation publication-type="journal" id="pmic12161-cit-0059">
+<string-name>
+<surname>Lam</surname>, <given-names>H.</given-names>
+</string-name>, <article-title>Spectral archives: a vision for future proteomics data repositories</article-title>. <source>Nat. Methods</source>
+<year>2011</year>, <volume>8</volume>(<issue>7</issue>), <fpage>546</fpage>&#x02013;<lpage>548</lpage>.<pub-id pub-id-type="pmid">21716282</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0060"><label>60</label><mixed-citation publication-type="journal" id="pmic12161-cit-0060">
+<string-name>
+<surname>Ghesquiere</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Helsens</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Vandekerckhove</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gevaert</surname>, <given-names>K.</given-names>
+</string-name>, <article-title>A stringent approach to improve the quality of nitrotyrosine peptide identifications</article-title>. <source>Proteomics</source>
+<year>2011</year>, <volume>11</volume>(<issue>6</issue>), <fpage>1094</fpage>&#x02013;<lpage>1098</lpage>.<pub-id pub-id-type="pmid">21298788</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0061"><label>61</label><mixed-citation publication-type="journal" id="pmic12161-cit-0061">
+<string-name>
+<surname>Craig</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Beavis</surname>, <given-names>R. C.</given-names>
+</string-name>, <article-title>TANDEM: matching proteins with tandem mass spectra</article-title>. <source>Bioinformatics</source>
+<year>2004</year>, <volume>20</volume>(<issue>9</issue>), <fpage>1466</fpage>&#x02013;<lpage>1467</lpage>.<pub-id pub-id-type="pmid">14976030</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0062"><label>62</label><mixed-citation publication-type="journal" id="pmic12161-cit-0062">
+<string-name>
+<surname>Deutsch</surname>, <given-names>E. W.</given-names>
+</string-name>, <string-name>
+<surname>Mendoza</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Shteynberg</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Slagel</surname>, <given-names>J.</given-names>
+</string-name> et&#x000a0;al., <article-title>Trans&#x02010;Proteomic Pipeline, a standardized data processing pipeline for large&#x02010;scale reproducible proteomics informatics</article-title>. <source>Proteomics Clin. Appl.</source>
+<year>2015</year>, <volume>9</volume>, <fpage>745</fpage>&#x02013;<lpage>754</lpage>.<pub-id pub-id-type="pmid">25631240</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0063"><label>63</label><mixed-citation publication-type="journal" id="pmic12161-cit-0063">
+<string-name>
+<surname>Vialas</surname>, <given-names>V.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>Z.</given-names>
+</string-name>, <string-name>
+<surname>Loureiro y Penha</surname>, <given-names>C. V.</given-names>
+</string-name>, <string-name>
+<surname>Carrascal</surname>, <given-names>M.</given-names>
+</string-name> et&#x000a0;al., <article-title>A <italic>Candida albicans</italic> PeptideAtlas</article-title>. <source>J. Proteomics</source>
+<year>2014</year>, <volume>97</volume>, <fpage>62</fpage>&#x02013;<lpage>68</lpage>.<pub-id pub-id-type="pmid">23811049</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0064"><label>64</label><mixed-citation publication-type="journal" id="pmic12161-cit-0064">
+<string-name>
+<surname>Bundgaard</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Jacobsen</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Sorensen</surname>, <given-names>M. A.</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>, <given-names>Z.</given-names>
+</string-name> et&#x000a0;al., <article-title>The Equine Peptideatlas: a resource for developing proteomics&#x02010;based veterinary research</article-title>. <source>Proteomics</source>
+<year>2014</year>, <volume>14</volume>(<issue>6</issue>), <fpage>763</fpage>&#x02013;<lpage>773</lpage>.<pub-id pub-id-type="pmid">24436130</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0065"><label>65</label><mixed-citation publication-type="journal" id="pmic12161-cit-0065">
+<string-name>
+<surname>Aebersold</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Bader</surname>, <given-names>G. D.</given-names>
+</string-name>, <string-name>
+<surname>Edwards</surname>, <given-names>A. M.</given-names>
+</string-name>, <string-name>
+<surname>van Eyk</surname>, <given-names>J. E.</given-names>
+</string-name> et&#x000a0;al., <article-title>The biology/disease&#x02010;driven human proteome project (B/D&#x02010;HPP): enabling protein research for the life sciences community</article-title>. <source>J. Proteome Res.</source>
+<year>2013</year>, <volume>12</volume>(<issue>1</issue>), <fpage>23</fpage>&#x02013;<lpage>27</lpage>.<pub-id pub-id-type="pmid">23259511</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0066"><label>66</label><mixed-citation publication-type="journal" id="pmic12161-cit-0066">
+<string-name>
+<surname>Paik</surname>, <given-names>Y. K.</given-names>
+</string-name>, <string-name>
+<surname>Jeong</surname>, <given-names>S. K.</given-names>
+</string-name>, <string-name>
+<surname>Omenn</surname>, <given-names>G. S.</given-names>
+</string-name>, <string-name>
+<surname>Uhlen</surname>, <given-names>M.</given-names>
+</string-name> et&#x000a0;al., <article-title>The Chromosome&#x02010;Centric Human Proteome Project for cataloging proteins encoded in the genome</article-title>. <source>Nat. Biotechnol.</source>
+<year>2012</year>, <volume>30</volume>(<issue>3</issue>), <fpage>221</fpage>&#x02013;<lpage>223</lpage>.<pub-id pub-id-type="pmid">22398612</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0067"><label>67</label><mixed-citation publication-type="journal" id="pmic12161-cit-0067">
+<string-name>
+<surname>Uhlen</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Fagerberg</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Hallstrom</surname>, <given-names>B. M.</given-names>
+</string-name>, <string-name>
+<surname>Lindskog</surname>, <given-names>C.</given-names>
+</string-name> et&#x000a0;al., <article-title>Proteomics. Tissue&#x02010;based map of the human proteome</article-title>. <source>Science</source>
+<year>2015</year>, <volume>347</volume>(<issue>6220</issue>), <fpage>1260419</fpage>.<pub-id pub-id-type="pmid">25613900</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0068"><label>68</label><mixed-citation publication-type="journal" id="pmic12161-cit-0068">
+<string-name>
+<surname>Horvatovich</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Lundberg</surname>, <given-names>E. K.</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>, <given-names>Y. J.</given-names>
+</string-name>, <string-name>
+<surname>Sung</surname>, <given-names>T. Y.</given-names>
+</string-name> et&#x000a0;al., <article-title>A quest for missing proteins: update 2015 on Chromosome&#x02010;Centric Human Proteome Project</article-title>. <source>J. Proteome Res.</source>
+<year>2015</year>, <volume>14</volume>, <fpage>3415</fpage>&#x02013;<lpage>3431</lpage>.<pub-id pub-id-type="pmid">26076068</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0069"><label>69</label><mixed-citation publication-type="journal" id="pmic12161-cit-0069">
+<string-name>
+<surname>Baker</surname>, <given-names>P. R.</given-names>
+</string-name>, <string-name>
+<surname>Chalkley</surname>, <given-names>R. J.</given-names>
+</string-name>, <article-title>MS&#x02010;viewer: a web&#x02010;based spectral viewer for proteomics results</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2014</year>, <volume>13</volume>(<issue>5</issue>), <fpage>1392</fpage>&#x02013;<lpage>1396</lpage>.<pub-id pub-id-type="pmid">24591702</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0070"><label>70</label><mixed-citation publication-type="journal" id="pmic12161-cit-0070">
+<string-name>
+<surname>Helsens</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Timmerman</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Vandekerckhove</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gevaert</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>Peptizer, a tool for assessing false positive peptide identifications and manually validating selected results</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2008</year>, <volume>7</volume>(<issue>12</issue>), <fpage>2364</fpage>&#x02013;<lpage>2372</lpage>.<pub-id pub-id-type="pmid">18667410</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0071"><label>71</label><mixed-citation publication-type="journal" id="pmic12161-cit-0071">
+<string-name>
+<surname>Sturm</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Kohlbacher</surname>, <given-names>O.</given-names>
+</string-name>, <article-title>TOPPView: an open&#x02010;source viewer for mass spectrometry data</article-title>. <source>J. Proteome Res.</source>
+<year>2009</year>, <volume>8</volume>(<issue>7</issue>), <fpage>3760</fpage>&#x02013;<lpage>3763</lpage>.<pub-id pub-id-type="pmid">19425593</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0072"><label>72</label><mixed-citation publication-type="journal" id="pmic12161-cit-0072">
+<string-name>
+<surname>Vaudel</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Burkhart</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Zahedi</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name>
+<surname>Oveland</surname>, <given-names>E.</given-names>
+</string-name> et&#x000a0;al., <article-title>PeptideShaker enables reanalysis of MS&#x02010;derived proteomics data sets</article-title>. <source>Nat. Biotechnol.</source>
+<year>2015</year>, <volume>33</volume>(<issue>1</issue>), <fpage>22</fpage>&#x02013;<lpage>24</lpage>.<pub-id pub-id-type="pmid">25574629</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0073"><label>73</label><mixed-citation publication-type="journal" id="pmic12161-cit-0073">
+<string-name>
+<surname>Farag</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Berven</surname>, <given-names>F. S.</given-names>
+</string-name>, <string-name>
+<surname>Jonassen</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Petersen</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Barsnes</surname>, <given-names>H.</given-names>
+</string-name>, <article-title>Distributed and interactive visual analysis of omics data</article-title>. <source>J. Proteomics</source>
+<year>2015</year>, pii: S1874&#x02010;3919(15)30030&#x02010;0. doi: <ext-link ext-link-type="doi" xlink:href="10.1016/j.jprot.2015.05.029">10.1016/j.jprot.2015.05.029</ext-link>. [Epub ahead of print].</mixed-citation></ref><ref id="pmic12161-bib-0074"><label>74</label><mixed-citation publication-type="journal" id="pmic12161-cit-0074">
+<string-name>
+<surname>Asara</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Schweitzer</surname>, <given-names>M. H.</given-names>
+</string-name>, <string-name>
+<surname>Freimark</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Phillips</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Cantley</surname>, <given-names>L. C.</given-names>
+</string-name>, <article-title>Protein sequences from mastodon and <italic>Tyrannosaurus rex</italic> revealed by mass spectrometry</article-title>. <source>Science</source>
+<year>2007</year>, <volume>316</volume>(<issue>5822</issue>), <fpage>280</fpage>&#x02013;<lpage>285</lpage>.<pub-id pub-id-type="pmid">17431180</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0075"><label>75</label><mixed-citation publication-type="journal" id="pmic12161-cit-0075">
+<string-name>
+<surname>Asara</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Garavelli</surname>, <given-names>J. S.</given-names>
+</string-name>, <string-name>
+<surname>Slatter</surname>, <given-names>D. A.</given-names>
+</string-name>, <string-name>
+<surname>Schweitzer</surname>, <given-names>M. H.</given-names>
+</string-name> et&#x000a0;al., <article-title>Interpreting sequences from mastodon and <italic>T</italic>
+</article-title>. <source>rex. Science</source>
+<year>2007</year>, <volume>317</volume>(<issue>5843</issue>), <fpage>1324</fpage>&#x02013;<lpage>1325</lpage>.<pub-id pub-id-type="pmid">17823333</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0076"><label>76</label><mixed-citation publication-type="journal" id="pmic12161-cit-0076">
+<string-name>
+<surname>Buckley</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Walker</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Ho</surname>, <given-names>S. Y.</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>, <given-names>Y.</given-names>
+</string-name> et&#x000a0;al., <article-title>Comment on &#x0201c;Protein sequences from mastodon and <italic>Tyrannosaurus rex</italic> revealed by mass spectrometry</article-title>&#x0201d;. <source>Science</source>
+<year>2008</year>, <volume>319</volume>(<issue>5859</issue>), <fpage>33</fpage>.<pub-id pub-id-type="pmid">18174420</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0077"><label>77</label><mixed-citation publication-type="journal" id="pmic12161-cit-0077">
+<string-name>
+<surname>Pevzner</surname>, <given-names>P. A.</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ng</surname>, <given-names>J.</given-names>
+</string-name>, <article-title>Comment on Protein sequences from mastodon and <italic>Tyrannosaurus rex</italic> revealed by mass spectrometry</article-title>&#x0201d;. <source>Science</source>
+<year>2008</year>, <volume>321</volume>(<issue>5892</issue>), <fpage>1040</fpage>.<pub-id pub-id-type="pmid">18719266</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0078"><label>78</label><mixed-citation publication-type="journal" id="pmic12161-cit-0078">
+<string-name>
+<surname>Bern</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Phinney</surname>, <given-names>B. S.</given-names>
+</string-name>, <string-name>
+<surname>Goldberg</surname>, <given-names>D.</given-names>
+</string-name>, <article-title>Reanalysis of <italic>Tyrannosaurus rex</italic> mass spectra</article-title>. <source>J. Proteome Res.</source>
+<year>2009</year>, <volume>8</volume>(<issue>9</issue>), <fpage>4328</fpage>&#x02013;<lpage>4332</lpage>.<pub-id pub-id-type="pmid">19603827</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0079"><label>79</label><mixed-citation publication-type="journal" id="pmic12161-cit-0079">
+<string-name>
+<surname>Bromenshenk</surname>, <given-names>J. J.</given-names>
+</string-name>, <string-name>
+<surname>Henderson</surname>, <given-names>C. B.</given-names>
+</string-name>, <string-name>
+<surname>Wick</surname>, <given-names>C. H.</given-names>
+</string-name>, <string-name>
+<surname>Stanford</surname>, <given-names>M. F.</given-names>
+</string-name> et&#x000a0;al., <article-title>Iridovirus and microsporidian linked to honey bee colony decline</article-title>. <source>PLoS One</source>
+<year>2010</year>, <volume>5</volume>(<issue>10</issue>), <fpage>e13181</fpage>.<pub-id pub-id-type="pmid">20949138</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0080"><label>80</label><mixed-citation publication-type="journal" id="pmic12161-cit-0080">
+<string-name>
+<surname>Knudsen</surname>, <given-names>G. M.</given-names>
+</string-name>, <string-name>
+<surname>Chalkley</surname>, <given-names>R. J.</given-names>
+</string-name>, <article-title>The effect of using an inappropriate protein database for proteomic data analysis</article-title>. <source>PLoS One</source>
+<year>2011</year>, <volume>6</volume>(<issue>6</issue>), <fpage>e20873</fpage>.<pub-id pub-id-type="pmid">21695130</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0081"><label>81</label><mixed-citation publication-type="journal" id="pmic12161-cit-0081">
+<string-name>
+<surname>Foster</surname>, <given-names>L. J.</given-names>
+</string-name>, <article-title>Bromenshenk et&#x000a0;al., (<italic>PLoS One</italic>, 2011, <italic>5</italic>(10):e13181) have claimed to have found peptides from an invertebrate iridovirus in bees</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2012</year>, <volume>11</volume>(<issue>1</issue>), <fpage>A110 0063871</fpage>.<pub-id pub-id-type="pmid">22238354</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0082"><label>82</label><mixed-citation publication-type="journal" id="pmic12161-cit-0082">
+<string-name>
+<surname>Foster</surname>, <given-names>L. J.</given-names>
+</string-name>, <article-title>Interpretation of data underlying the link between colony collapse disorder (CCD) and an invertebrate iridescent virus</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2011</year>, <volume>10</volume>(<issue>3</issue>), <fpage>M110 006387</fpage>.</mixed-citation></ref><ref id="pmic12161-bib-0083"><label>83</label><mixed-citation publication-type="journal" id="pmic12161-cit-0083">
+<string-name>
+<surname>Noble</surname>, <given-names>W. S.</given-names>
+</string-name>, <article-title>Mass spectrometrists should search only for peptides they care about</article-title>. <source>Nat. Methods</source>
+<year>2015</year>, <volume>12</volume>(<issue>7</issue>), <fpage>605</fpage>&#x02013;<lpage>608</lpage>.<pub-id pub-id-type="pmid">26125591</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0084"><label>84</label><mixed-citation publication-type="journal" id="pmic12161-cit-0084">
+<string-name>
+<surname>Daughenbaugh</surname>, <given-names>K. F.</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Brutscher</surname>, <given-names>L. M.</given-names>
+</string-name>, <string-name>
+<surname>Cavigli</surname>, <given-names>I.</given-names>
+</string-name> et&#x000a0;al., <article-title>Honey bee infecting Lake Sinai viruses</article-title>. <source>Viruses</source>
+<year>2015</year>, <volume>7</volume>(<issue>6</issue>), <fpage>3285</fpage>&#x02013;<lpage>3309</lpage>.<pub-id pub-id-type="pmid">26110586</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0085"><label>85</label><mixed-citation publication-type="journal" id="pmic12161-cit-0085">
+<string-name>
+<surname>Ezkurdia</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Vazquez</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Valencia</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Tress</surname>, <given-names>M.</given-names>
+</string-name>, <article-title>Analyzing the first drafts of the human proteome</article-title>. <source>J. Proteome Res.</source>
+<year>2014</year>, <volume>13</volume>, <fpage>3854</fpage>&#x02013;<lpage>3855</lpage>.<pub-id pub-id-type="pmid">25014353</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0086"><label>86</label><mixed-citation publication-type="journal" id="pmic12161-cit-0086">
+<string-name>
+<surname>Brosch</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Saunders</surname>, <given-names>G. I.</given-names>
+</string-name>, <string-name>
+<surname>Frankish</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Collins</surname>, <given-names>M. O.</given-names>
+</string-name> et&#x000a0;al., <article-title>Shotgun proteomics aids discovery of novel protein&#x02010;coding genes, alternative splicing, and &#x0201c;resurrected&#x0201d; pseudogenes in the mouse genome</article-title>. <source>Genome Res.</source>
+<year>2011</year>, <volume>21</volume>(<issue>5</issue>), <fpage>756</fpage>&#x02013;<lpage>767</lpage>.<pub-id pub-id-type="pmid">21460061</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0087"><label>87</label><mixed-citation publication-type="journal" id="pmic12161-cit-0087">
+<string-name>
+<surname>Volders</surname>, <given-names>P. J.</given-names>
+</string-name>, <string-name>
+<surname>Verheggen</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Menschaert</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Vandepoele</surname>, <given-names>K.</given-names>
+</string-name> et&#x000a0;al., <article-title>An update on LNCipedia: a database for annotated human lncRNA sequences</article-title>. <source>Nucleic Acids Res.</source>
+<year>2015</year>, <volume>43</volume>(<issue>8</issue>), <fpage>4363</fpage>&#x02013;<lpage>4364</lpage>.<pub-id pub-id-type="pmid">25829178</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0088"><label>88</label><mixed-citation publication-type="journal" id="pmic12161-cit-0088">
+<string-name>
+<surname>Ezkurdia</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>del Pozo</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Frankish</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>, <given-names>J. M.</given-names>
+</string-name> et&#x000a0;al., <article-title>Comparative proteomics reveals a significant bias toward alternative protein isoforms with conserved structure and function</article-title>. <source>Mol. Biol. Evol.</source>
+<year>2012</year>, <volume>29</volume>(<issue>9</issue>), <fpage>2265</fpage>&#x02013;<lpage>2283</lpage>.<pub-id pub-id-type="pmid">22446687</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0089"><label>89</label><mixed-citation publication-type="journal" id="pmic12161-cit-0089">
+<string-name>
+<surname>Ezkurdia</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Juan</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Frankish</surname>, <given-names>A.</given-names>
+</string-name> et&#x000a0;al., <article-title>Multiple evidence strands suggest that there may be as few as 19,000 human protein&#x02010;coding genes</article-title>. <source>Hum. Mol. Genet.</source>
+<year>2014</year>, <volume>23</volume>(<issue>22</issue>), <fpage>5866</fpage>&#x02013;<lpage>5878</lpage>.<pub-id pub-id-type="pmid">24939910</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0090"><label>90</label><mixed-citation publication-type="journal" id="pmic12161-cit-0090">
+<string-name>
+<surname>Abascal</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Ezkurdia</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez&#x02010;Rivas</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Rodriguez</surname>, <given-names>J. M.</given-names>
+</string-name> et&#x000a0;al., <article-title>Alternatively spliced homologous exons have ancient origins and are highly expressed at the protein level</article-title>. <source>PLoS Comput. Biol.</source>
+<year>2015</year>, <volume>11</volume>(<issue>6</issue>), <fpage>e1004325</fpage>.<pub-id pub-id-type="pmid">26061177</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0091"><label>91</label><mixed-citation publication-type="journal" id="pmic12161-cit-0091">
+<string-name>
+<surname>Swindell</surname>, <given-names>W. R.</given-names>
+</string-name>, <string-name>
+<surname>Remmer</surname>, <given-names>H. A.</given-names>
+</string-name>, <string-name>
+<surname>Sarkar</surname>, <given-names>M. K.</given-names>
+</string-name>, <string-name>
+<surname>Xing</surname>, <given-names>X.</given-names>
+</string-name> et&#x000a0;al., <article-title>Proteogenomic analysis of psoriasis reveals discordant and concordant changes in mRNA and protein abundance</article-title>. <source>Genome Med.</source>
+<year>2015</year>, <volume>7</volume>(<issue>1</issue>), <fpage>86</fpage>.<pub-id pub-id-type="pmid">26251673</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0092"><label>92</label><mixed-citation publication-type="journal" id="pmic12161-cit-0092">
+<string-name>
+<surname>Barrett</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Wilhite</surname>, <given-names>S. E.</given-names>
+</string-name>, <string-name>
+<surname>Ledoux</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Evangelista</surname>, <given-names>C.</given-names>
+</string-name> et&#x000a0;al., <article-title>NCBI GEO: archive for functional genomics data sets&#x02014;update</article-title>. <source>Nucleic Acids Res.</source>
+<year>2013</year>, <volume>41</volume>(<issue>Database issue</issue>), <fpage>D991</fpage>&#x02013;<lpage>D995</lpage>.<pub-id pub-id-type="pmid">23193258</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0093"><label>93</label><mixed-citation publication-type="journal" id="pmic12161-cit-0093">
+<string-name>
+<surname>Zhu</surname>, <given-names>Y.</given-names>
+</string-name>, <string-name>
+<surname>Hultin&#x02010;Rosenberg</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Forshed</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Branca</surname>, <given-names>R. M.</given-names>
+</string-name> et&#x000a0;al., <article-title>SpliceVista, a tool for splice variant identification and visualization in shotgun proteomics data</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2014</year>, <volume>13</volume>(<issue>6</issue>), <fpage>1552</fpage>&#x02013;<lpage>1562</lpage>.<pub-id pub-id-type="pmid">24692640</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0094"><label>94</label><mixed-citation publication-type="journal" id="pmic12161-cit-0094">
+<string-name>
+<surname>Nesvizhskii</surname>, <given-names>A. I.</given-names>
+</string-name>, <article-title>Proteogenomics: concepts, applications and computational strategies</article-title>. <source>Nat. Methods</source>
+<year>2014</year>, <volume>11</volume>(<issue>11</issue>), <fpage>1114</fpage>&#x02013;<lpage>1125</lpage>.<pub-id pub-id-type="pmid">25357241</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0095"><label>95</label><mixed-citation publication-type="journal" id="pmic12161-cit-0095">
+<string-name>
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Gawron</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Steyaert</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ndah</surname>, <given-names>E.</given-names>
+</string-name> et&#x000a0;al., <article-title>A proteogenomics approach integrating proteomics and ribosome profiling increases the efficiency of protein identification and enables the discovery of alternative translation start sites</article-title>. <source>Proteomics</source>
+<year>2014</year>, <volume>14</volume>(<issue>23&#x02013;24</issue>), <fpage>2688</fpage>&#x02013;<lpage>2698</lpage>.<pub-id pub-id-type="pmid">25156699</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0096"><label>96</label><mixed-citation publication-type="journal" id="pmic12161-cit-0096">
+<string-name>
+<surname>Crappe</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Ndah</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Koch</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Steyaert</surname>, <given-names>S.</given-names>
+</string-name> et&#x000a0;al., <article-title>PROTEOFORMER: deep proteome coverage through ribosome profiling and MS integration</article-title>. <source>Nucleic Acids Res.</source>
+<year>2015</year>, <volume>43</volume>(<issue>5</issue>), <fpage>e29</fpage>.<pub-id pub-id-type="pmid">25510491</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0097"><label>97</label><mixed-citation publication-type="journal" id="pmic12161-cit-0097">
+<string-name>
+<surname>Vaudel</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Sickmann</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>Current methods for global proteome identification</article-title>. <source>Expert Rev. Proteomics</source>
+<year>2012</year>, <volume>9</volume>(<issue>5</issue>), <fpage>519</fpage>&#x02013;<lpage>532</lpage>.<pub-id pub-id-type="pmid">23194269</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0098"><label>98</label><mixed-citation publication-type="journal" id="pmic12161-cit-0098">
+<string-name>
+<surname>Chalkley</surname>, <given-names>R. J.</given-names>
+</string-name>, <string-name>
+<surname>Clauser</surname>, <given-names>K. R.</given-names>
+</string-name>, <article-title>Modification site localization scoring: strategies and performance</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2012</year>, <volume>11</volume>(<issue>5</issue>), <fpage>3</fpage>&#x02013;<lpage>14</lpage>.<pub-id pub-id-type="pmid">22328712</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0099"><label>99</label><mixed-citation publication-type="journal" id="pmic12161-cit-0099">
+<string-name>
+<surname>Beausoleil</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Villen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gerber</surname>, <given-names>S. A.</given-names>
+</string-name>, <string-name>
+<surname>Rush</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Gygi</surname>, <given-names>S. P.</given-names>
+</string-name>, <article-title>A probability&#x02010;based approach for high&#x02010;throughput protein phosphorylation analysis and site localization</article-title>. <source>Nat. Biotechnol.</source>
+<year>2006</year>, <volume>24</volume>(<issue>10</issue>), <fpage>1285</fpage>&#x02013;<lpage>1292</lpage>.<pub-id pub-id-type="pmid">16964243</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0100"><label>100</label><mixed-citation publication-type="journal" id="pmic12161-cit-0100">
+<string-name>
+<surname>Olsen</surname>, <given-names>J. V.</given-names>
+</string-name>, <string-name>
+<surname>Blagoev</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Gnad</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Macek</surname>, <given-names>B.</given-names>
+</string-name> et&#x000a0;al., <article-title>Global, in vivo, and site&#x02010;specific phosphorylation dynamics in signaling networks</article-title>. <source>Cell</source>
+<year>2006</year>, <volume>127</volume>(<issue>3</issue>), <fpage>635</fpage>&#x02013;<lpage>648</lpage>.<pub-id pub-id-type="pmid">17081983</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0101"><label>101</label><mixed-citation publication-type="journal" id="pmic12161-cit-0101">
+<string-name>
+<surname>Savitski</surname>, <given-names>M. M.</given-names>
+</string-name>, <string-name>
+<surname>Lemeer</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Boesche</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Lang</surname>, <given-names>M.</given-names>
+</string-name> et&#x000a0;al., <article-title>Confident phosphorylation site localization using the Mascot Delta Score</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2011</year>, <volume>10</volume>(<issue>2</issue>), <fpage>M110 003830</fpage>.<pub-id pub-id-type="pmid">21057138</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0102"><label>102</label><mixed-citation publication-type="journal" id="pmic12161-cit-0102">
+<string-name>
+<surname>Taus</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Kocher</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Pichler</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Paschke</surname>, <given-names>C.</given-names>
+</string-name> et&#x000a0;al., <article-title>Universal and confident phosphorylation site localization using phosphoRS</article-title>. <source>J. Proteome Res.</source>
+<year>2011</year>, <volume>10</volume>(<issue>12</issue>), <fpage>5354</fpage>&#x02013;<lpage>5362</lpage>.<pub-id pub-id-type="pmid">22073976</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0103"><label>103</label><mixed-citation publication-type="journal" id="pmic12161-cit-0103">
+<string-name>
+<surname>Vaudel</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Breiter</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Beck</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Rahnenfuhrer</surname>, <given-names>J.</given-names>
+</string-name> et&#x000a0;al., <article-title>D&#x02010;score: a search engine independent MD&#x02010;score</article-title>. <source>Proteomics</source>
+<year>2013</year>, <volume>13</volume>(<issue>6</issue>), <fpage>1036</fpage>&#x02013;<lpage>1041</lpage>.<pub-id pub-id-type="pmid">23307401</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0104"><label>104</label><mixed-citation publication-type="journal" id="pmic12161-cit-0104">
+<string-name>
+<surname>Fermin</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Walmsley</surname>, <given-names>S. J.</given-names>
+</string-name>, <string-name>
+<surname>Gingras</surname>, <given-names>A. C.</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Nesvizhskii</surname>, <given-names>A. I.</given-names>
+</string-name>, <article-title>LuciPHOr: algorithm for phosphorylation site localization with false localization rate estimation using modified target&#x02010;decoy approach</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2013</year>, <volume>12</volume>(<issue>11</issue>), <fpage>3409</fpage>&#x02013;<lpage>3419</lpage>.<pub-id pub-id-type="pmid">23918812</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0105"><label>105</label><mixed-citation publication-type="journal" id="pmic12161-cit-0105">
+<string-name>
+<surname>Fermin</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Avtonomov</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Nesvizhskii</surname>, <given-names>A. I.</given-names>
+</string-name>, <article-title>LuciPHOr2: site localization of generic post&#x02010;translational modifications from tandem mass spectrometry data</article-title>. <source>Bioinformatics</source>
+<year>2015</year>, <volume>31</volume>(<issue>7</issue>), <fpage>1141</fpage>&#x02013;<lpage>1143</lpage>.<pub-id pub-id-type="pmid">25429062</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0106"><label>106</label><mixed-citation publication-type="journal" id="pmic12161-cit-0106">
+<string-name>
+<surname>Vandermarliere</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>Protein structure as a means to triage proposed PTM sites</article-title>. <source>Proteomics</source>
+<year>2013</year>, <volume>13</volume>(<issue>6</issue>), <fpage>1028</fpage>&#x02013;<lpage>1035</lpage>.<pub-id pub-id-type="pmid">23172737</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0107"><label>107</label><mixed-citation publication-type="journal" id="pmic12161-cit-0107">
+<string-name>
+<surname>Chick</surname>, <given-names>J. M.</given-names>
+</string-name>, <string-name>
+<surname>Kolippakkam</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Nusinow</surname>, <given-names>D. P.</given-names>
+</string-name>, <string-name>
+<surname>Zhai</surname>, <given-names>B.</given-names>
+</string-name> et&#x000a0;al., <article-title>A mass&#x02010;tolerant database search identifies a large proportion of unassigned spectra in shotgun proteomics as modified peptides</article-title>. <source>Nat. Biotechnol.</source>
+<year>2015</year>, <volume>33</volume>(<issue>7</issue>), <fpage>743</fpage>&#x02013;<lpage>749</lpage>.<pub-id pub-id-type="pmid">26076430</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0108"><label>108</label><mixed-citation publication-type="journal" id="pmic12161-cit-0108">
+<string-name>
+<surname>Loroch</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Dickhut</surname>, <given-names>C.</given-names>
+</string-name>, <string-name>
+<surname>Zahedi</surname>, <given-names>R. P.</given-names>
+</string-name>, <string-name>
+<surname>Sickmann</surname>, <given-names>A.</given-names>
+</string-name>, <article-title>Phosphoproteomics&#x02014;more than meets the eye</article-title>. <source>Electrophoresis</source>
+<year>2013</year>, <volume>34</volume>(<issue>11</issue>), <fpage>1483</fpage>&#x02013;<lpage>1492</lpage>.<pub-id pub-id-type="pmid">23576030</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0109"><label>109</label><mixed-citation publication-type="journal" id="pmic12161-cit-0109">
+<string-name>
+<surname>Olsen</surname>, <given-names>J. V.</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>, <given-names>M.</given-names>
+</string-name>, <article-title>Status of large&#x02010;scale analysis of post&#x02010;translational modifications by mass spectrometry</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2013</year>, <volume>12</volume>(<issue>12</issue>), <fpage>3444</fpage>&#x02013;<lpage>3452</lpage>.<pub-id pub-id-type="pmid">24187339</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0110"><label>110</label><mixed-citation publication-type="journal" id="pmic12161-cit-0110">
+<string-name>
+<surname>Solari</surname>, <given-names>F. A.</given-names>
+</string-name>, <string-name>
+<surname>Dell'Aica</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Sickmann</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Zahedi</surname>, <given-names>R. P.</given-names>
+</string-name>, <article-title>Why phosphoproteomics is still a challenge</article-title>. <source>Mol. Biosyst.</source>
+<year>2015</year>, <volume>11</volume>, <fpage>1487</fpage>&#x02013;<lpage>1493</lpage>.<pub-id pub-id-type="pmid">25800119</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0111"><label>111</label><mixed-citation publication-type="journal" id="pmic12161-cit-0111">
+<string-name>
+<surname>Matic</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Ahel</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Hay</surname>, <given-names>R. T.</given-names>
+</string-name>, <article-title>Reanalysis of phosphoproteomics data uncovers ADP&#x02010;ribosylation sites</article-title>. <source>Nat. Methods</source>
+<year>2012</year>, <volume>9</volume>(<issue>8</issue>), <fpage>771</fpage>&#x02013;<lpage>772</lpage>.<pub-id pub-id-type="pmid">22847107</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0112"><label>112</label><mixed-citation publication-type="journal" id="pmic12161-cit-0112">
+<string-name>
+<surname>Hahne</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Kuster</surname>, <given-names>B.</given-names>
+</string-name>, <article-title>Discovery of O&#x02010;GlcNAc&#x02010;6&#x02010;phosphate modified proteins in large&#x02010;scale phosphoproteomics data</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2012</year>, <volume>11</volume>(<issue>10</issue>), <fpage>1063</fpage>&#x02013;<lpage>1069</lpage>.<pub-id pub-id-type="pmid">22826440</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0113"><label>113</label><mixed-citation publication-type="journal" id="pmic12161-cit-0113">
+<string-name>
+<surname>Kolker</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Higdon</surname>, <given-names>R.</given-names>
+</string-name>, <string-name>
+<surname>Haynes</surname>, <given-names>W.</given-names>
+</string-name>, <string-name>
+<surname>Welch</surname>, <given-names>D.</given-names>
+</string-name> et&#x000a0;al., <article-title>MOPED: model organism protein expression database</article-title>. <source>Nucleic Acids Res.</source>
+<year>2012</year>, <volume>40</volume>(<issue>Database issue</issue>), <fpage>D1093</fpage>&#x02013;<lpage>D1099</lpage>.<pub-id pub-id-type="pmid">22139914</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0114"><label>114</label><mixed-citation publication-type="journal" id="pmic12161-cit-0114">
+<string-name>
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Weiss</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Simonovic</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Haertinger</surname>, <given-names>G.</given-names>
+</string-name> et&#x000a0;al., <article-title>PaxDb, a database of protein abundance averages across all three domains of life</article-title>. <source>Mol. Cell Proteomics</source>
+<year>2012</year>, <volume>11</volume>(<issue>8</issue>), <fpage>492</fpage>&#x02013;<lpage>500</lpage>.<pub-id pub-id-type="pmid">22535208</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0115"><label>115</label><mixed-citation publication-type="journal" id="pmic12161-cit-0115">
+<string-name>
+<surname>Wang</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Herrmann</surname>, <given-names>C. J.</given-names>
+</string-name>, <string-name>
+<surname>Simonovic</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Szklarczyk</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>von Mering</surname>, <given-names>C.</given-names>
+</string-name>, <article-title>Version 4.0 of PaxDb: Protein abundance data, integrated across model organisms, tissues, and cell&#x02010;lines</article-title>. <source>Proteomics</source>
+<year>2015</year>, <volume>15</volume>, <fpage>3163</fpage>&#x02013;<lpage>3168</lpage>.<pub-id pub-id-type="pmid">25656970</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0116"><label>116</label><mixed-citation publication-type="journal" id="pmic12161-cit-0116">
+<string-name>
+<surname>Montague</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Janko</surname>, <given-names>I.</given-names>
+</string-name>, <string-name>
+<surname>Stanberry</surname>, <given-names>L.</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>, <given-names>E.</given-names>
+</string-name> et&#x000a0;al., <article-title>Beyond protein expression, MOPED goes multi&#x02010;omics</article-title>. <source>Nucleic Acids Res.</source>
+<year>2015</year>, <volume>43</volume>(<issue>Database issue</issue>), <fpage>D1145</fpage>&#x02013;<lpage>D1151</lpage>.<pub-id pub-id-type="pmid">25404128</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0117"><label>117</label><mixed-citation publication-type="journal" id="pmic12161-cit-0117">
+<string-name>
+<surname>Schwanhausser</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Busse</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Dittmar</surname>, <given-names>G.</given-names>
+</string-name> et&#x000a0;al., <article-title>Global quantification of mammalian gene expression control</article-title>. <source>Nature</source>
+<year>2011</year>, <volume>473</volume>(<issue>7347</issue>), <fpage>337</fpage>&#x02013;<lpage>342</lpage>.<pub-id pub-id-type="pmid">21593866</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0118"><label>118</label><mixed-citation publication-type="journal" id="pmic12161-cit-0118">
+<string-name>
+<surname>Gonnelli</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Hulstaert</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Degroeve</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name>, <article-title>Towards a human proteomics atlas</article-title>. <source>Anal. Bioanal. Chem.</source>
+<year>2012</year>, <volume>404</volume>(<issue>4</issue>), <fpage>1069</fpage>&#x02013;<lpage>1077</lpage>.<pub-id pub-id-type="pmid">22447219</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0119"><label>119</label><mixed-citation publication-type="journal" id="pmic12161-cit-0119">
+<string-name>
+<surname>Taylor</surname>, <given-names>C. F.</given-names>
+</string-name>, <string-name>
+<surname>Paton</surname>, <given-names>N. W.</given-names>
+</string-name>, <string-name>
+<surname>Lilley</surname>, <given-names>K. S.</given-names>
+</string-name>, <string-name>
+<surname>Binz</surname>, <given-names>P. A.</given-names>
+</string-name> et&#x000a0;al., <article-title>The minimum information about a proteomics experiment (MIAPE)</article-title>. <source>Nat. Biotechnol.</source>
+<year>2007</year>, <volume>25</volume>(<issue>8</issue>), <fpage>887</fpage>&#x02013;<lpage>893</lpage>.<pub-id pub-id-type="pmid">17687369</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0120"><label>120</label><mixed-citation publication-type="journal" id="pmic12161-cit-0120">
+<string-name>
+<surname>Hulstaert</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Reisinger</surname>, <given-names>F.</given-names>
+</string-name>, <string-name>
+<surname>Rameseder</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Barsnes</surname>, <given-names>H.</given-names>
+</string-name> et&#x000a0;al., <article-title>Pride&#x02010;asap: automatic fragment ion annotation of identified PRIDE spectra</article-title>. <source>J. Proteomics</source>
+<year>2013</year>, <volume>95</volume>, <fpage>89</fpage>&#x02013;<lpage>92</lpage>.<pub-id pub-id-type="pmid">23603108</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0121"><label>121</label><mixed-citation publication-type="journal" id="pmic12161-cit-0121">
+<string-name>
+<surname>Hartler</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Thallinger</surname>, <given-names>G. G.</given-names>
+</string-name>, <string-name>
+<surname>Stocker</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Sturn</surname>, <given-names>A.</given-names>
+</string-name> et&#x000a0;al., <article-title>MASPECTRAS: a platform for management and analysis of proteomics LC&#x02010;MS/MS data</article-title>. <source>BMC Bioinform.</source>
+<year>2007</year>, <volume>8</volume>, <fpage>197</fpage>.</mixed-citation></ref><ref id="pmic12161-bib-0122"><label>122</label><mixed-citation publication-type="journal" id="pmic12161-cit-0122">
+<string-name>
+<surname>Helsens</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Colaert</surname>, <given-names>N.</given-names>
+</string-name>, <string-name>
+<surname>Barsnes</surname>, <given-names>H.</given-names>
+</string-name>, <string-name>
+<surname>Muth</surname>, <given-names>T.</given-names>
+</string-name> et&#x000a0;al., <article-title>ms_lims, a simple yet powerful open source laboratory information management system for MS&#x02010;driven proteomics</article-title>. <source>Proteomics</source>
+<year>2010</year>, <volume>10</volume>(<issue>6</issue>), <fpage>1261</fpage>&#x02013;<lpage>1264</lpage>.<pub-id pub-id-type="pmid">20058248</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0123"><label>123</label><mixed-citation publication-type="journal" id="pmic12161-cit-0123">
+<string-name>
+<surname>Hakkinen</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Vincic</surname>, <given-names>G.</given-names>
+</string-name>, <string-name>
+<surname>Mansson</surname>, <given-names>O.</given-names>
+</string-name>, <string-name>
+<surname>Warell</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Levander</surname>, <given-names>F.</given-names>
+</string-name>, <article-title>The proteios software environment: an extensible multiuser platform for management and analysis of proteomics data</article-title>. <source>J. Proteome Res.</source>
+<year>2009</year>, <volume>8</volume>(<issue>6</issue>), <fpage>3037</fpage>&#x02013;<lpage>3043</lpage>.<pub-id pub-id-type="pmid">19354269</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0124"><label>124</label><mixed-citation publication-type="journal" id="pmic12161-cit-0124">
+<string-name>
+<surname>Oveland</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Muth</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Rapp</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Martens</surname>, <given-names>L.</given-names>
+</string-name> et&#x000a0;al., <article-title>Viewing the proteome: how to visualize proteomics data?</article-title>
+<source>Proteomics</source>
+<year>2014</year>, <volume>15</volume>, <fpage>1341</fpage>&#x02013;<lpage>1355</lpage>.<pub-id pub-id-type="pmid">25504833</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0125"><label>125</label><mixed-citation publication-type="journal" id="pmic12161-cit-0125">
+<string-name>
+<surname>Smedley</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Haider</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Ballester</surname>, <given-names>B.</given-names>
+</string-name>, <string-name>
+<surname>Holland</surname>, <given-names>R.</given-names>
+</string-name> et&#x000a0;al., <article-title>BioMart&#x02014;biological queries made easy</article-title>. <source>BMC Genomics</source>
+<year>2009</year>, <volume>10</volume>, <fpage>22</fpage>.<pub-id pub-id-type="pmid">19144180</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0126"><label>126</label><mixed-citation publication-type="journal" id="pmic12161-cit-0126">
+<article-title>Credit where credit is overdue</article-title>. <source>Nat. Biotechnol.</source>
+<year>2009</year>, <volume>27</volume>(<issue>7</issue>), <fpage>579</fpage>.<pub-id pub-id-type="pmid">19587644</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0127"><label>127</label><mixed-citation publication-type="journal" id="pmic12161-cit-0127">
+<string-name>
+<surname>Priem</surname>, <given-names>J.</given-names>
+</string-name>, <article-title>Scholarship: beyond the paper</article-title>. <source>Nature</source>
+<year>2013</year>, <volume>495</volume>(<issue>7442</issue>), <fpage>437</fpage>&#x02013;<lpage>440</lpage>.<pub-id pub-id-type="pmid">23538811</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0128"><label>128</label><mixed-citation publication-type="journal" id="pmic12161-cit-0128">
+<string-name>
+<surname>Law</surname>, <given-names>K. P.</given-names>
+</string-name>, <string-name>
+<surname>Lim</surname>, <given-names>Y. P.</given-names>
+</string-name>, <article-title>Recent advances in mass spectrometry: data independent analysis and hyper reaction monitoring</article-title>. <source>Expert Rev. Proteomics</source>
+<year>2013</year>, <volume>10</volume>(<issue>6</issue>), <fpage>551</fpage>&#x02013;<lpage>566</lpage>.<pub-id pub-id-type="pmid">24206228</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0129"><label>129</label><mixed-citation publication-type="journal" id="pmic12161-cit-0129">
+<string-name>
+<surname>Faulconbridge</surname>, <given-names>A.</given-names>
+</string-name>, <string-name>
+<surname>Burdett</surname>, <given-names>T.</given-names>
+</string-name>, <string-name>
+<surname>Brandizi</surname>, <given-names>M.</given-names>
+</string-name>, <string-name>
+<surname>Gostev</surname>, <given-names>M.</given-names>
+</string-name> et&#x000a0;al., <article-title>Updates to BioSamples database at European Bioinformatics Institute</article-title>. <source>Nucleic Acids Res.</source>
+<year>2014</year>, <volume>42</volume>(<issue>Database issue</issue>), <fpage>D50</fpage>&#x02013;<lpage>D52</lpage>.<pub-id pub-id-type="pmid">24265224</pub-id></mixed-citation></ref><ref id="pmic12161-bib-0130"><label>130</label><mixed-citation publication-type="journal" id="pmic12161-cit-0130">
+<string-name>
+<surname>Salek</surname>, <given-names>R. M.</given-names>
+</string-name>, <string-name>
+<surname>Haug</surname>, <given-names>K.</given-names>
+</string-name>, <string-name>
+<surname>Conesa</surname>, <given-names>P.</given-names>
+</string-name>, <string-name>
+<surname>Hastings</surname>, <given-names>J.</given-names>
+</string-name> et&#x000a0;al., <article-title>The MetaboLights repository: curation challenges in metabolomics</article-title>. <source>Database</source>
+<year>2013</year>, <volume>2013</volume>, <fpage>bat029</fpage>.<pub-id pub-id-type="pmid">23630246</pub-id></mixed-citation></ref></ref-list></back></article>

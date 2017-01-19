@@ -1,0 +1,595 @@
+{
+  "id": [
+    "26666289"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26666289"
+  ],
+  "pmcid": [
+    "PMC4678722"
+  ],
+  "doi": [
+    "10.1186/s12864-015-2250-5"
+  ],
+  "title": [
+    "Leveraging global gene expression patterns to predict expression of unmeasured genes."
+  ],
+  "authorString": [
+    "Rudd J, Zelaya RA, Demidenko E, Goode EL, Greene CS, Doherty JA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Rudd J"
+          ],
+          "firstName": [
+            "James"
+          ],
+          "lastName": [
+            "Rudd"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, One Medical Center Drive, 7927 Rubin Building, Lebanon, NH, 03756, USA. james.e.rudd.gr@dartmouth.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Zelaya RA"
+          ],
+          "firstName": [
+            "René A"
+          ],
+          "lastName": [
+            "Zelaya"
+          ],
+          "initials": [
+            "RA"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1037-309X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Genetics, Geisel School of Medicine at Dartmouth College; Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania Perelman School of Medicine, 10-131 SCTR, 34th & Civic Center Boulevard, Philadelphia, PA, 19104-5158, USA. renearm@mail.med.upenn.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Demidenko E"
+          ],
+          "firstName": [
+            "Eugene"
+          ],
+          "lastName": [
+            "Demidenko"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Biomedical Data Science, Geisel School of Medicine at Dartmouth College, One Medical Center Drive, 7927 Rubin Building, Lebanon, NH, 03756, USA. Eugene.Demidenko@Dartmouth.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Goode EL"
+          ],
+          "firstName": [
+            "Ellen L"
+          ],
+          "lastName": [
+            "Goode"
+          ],
+          "initials": [
+            "EL"
+          ],
+          "affiliation": [
+            "Department of Health Sciences Research, Division of Epidemiology, Mayo Clinic, 200 First St. SW, Rochester, MN, 55905, USA. egoode@mayo.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Greene CS"
+          ],
+          "firstName": [
+            "Casey S"
+          ],
+          "lastName": [
+            "Greene"
+          ],
+          "initials": [
+            "CS"
+          ],
+          "affiliation": [
+            "Department of Genetics, Geisel School of Medicine at Dartmouth College; Department of Systems Pharmacology and Translational Therapeutics, University of Pennsylvania Perelman School of Medicine, 10-131 SCTR, 34th & Civic Center Boulevard, Philadelphia, PA, 19104-5158, USA. casey.s.greene@dartmouth.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Doherty JA"
+          ],
+          "firstName": [
+            "Jennifer A"
+          ],
+          "lastName": [
+            "Doherty"
+          ],
+          "initials": [
+            "JA"
+          ],
+          "affiliation": [
+            "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, One Medical Center Drive, 7927 Rubin Building, Lebanon, NH, 03756, USA. jennifer.a.doherty@dartmouth.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-1037-309X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8713-9213",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2460495"
+      ],
+      "dateOfPublication": [
+        "2015 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "1065"
+  ],
+  "abstractText": [
+    "Large collections of paraffin-embedded tissue represent a rich resource to test hypotheses based on gene expression patterns; however, measurement of genome-wide expression is cost-prohibitive on a large scale. Using the known expression correlation structure within a given disease type (in this case, high grade serous ovarian cancer; HGSC), we sought to identify reduced sets of directly measured (DM) genes which could accurately predict the expression of a maximized number of unmeasured genes.We developed a greedy gene set selection (GGS) algorithm which returns a DM set of user specified size based on a specific correlation threshold (|rP|) and minimum number of DM genes that must be correlated to an unmeasured gene in order to infer the value of the unmeasured gene (redundancy). We evaluated GGS in the Cancer Genome Atlas (TCGA) HGSC data across 144 combinations of DM size, redundancy (1-3), and |rP| (0.60, 0.65, 0.70). Across the parameter sweep, GGS allows on average 9 times more gene expression information to be captured compared to the DM set alone. GGS successfully augments prognostic HGSC gene sets; the addition of 20 GGS selected genes more than doubles the number of genes whose expression is predictable. Moreover, the expression prediction is highly accurate. After training regression models for the predictable gene set using 2/3 of the TCGA data, the average accuracy (ranked correlation of true and predicted values) in the 1/3 testing partition and four independent populations is above 0.65 and approaches 0.8 for conservative parameter sets. We observe similar accuracies in the TCGA HGSC RNA-sequencing data. Specifically, the prediction accuracy increases with increasing redundancy and increasing |rP|.GGS-selected genes, which maximize expression information about unmeasured genes, can be combined with candidate gene sets as a cost effective way to increase the amount of gene expression information obtained in large studies. This method can be applied to any organism, model system, disease, or tissue type for which whole genome gene expression data exists."
+  ],
+  "affiliation": [
+    "Department of Epidemiology, Geisel School of Medicine at Dartmouth College, One Medical Center Drive, 7927 Rubin Building, Lebanon, NH, 03756, USA. james.e.rudd.gr@dartmouth.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "F31 CA186625"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 CA015083"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 CA023108"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 CA168758"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P50 CA136393"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 CA122443"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 CA15083"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Regression Analysis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "EC"
+                  ],
+                  "qualifierName": [
+                    "economics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Expression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation, Neoplastic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Databases, Genetic"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4678722?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4678722"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-015-2250-5"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-10-05"
+  ],
+  "dateOfCreation": [
+    "2015-12-15"
+  ],
+  "dateOfRevision": [
+    "2016-12-30"
+  ],
+  "electronicPublicationDate": [
+    "2015-12-15"
+  ],
+  "firstPublicationDate": [
+    "2015-12-15"
+  ]
+}

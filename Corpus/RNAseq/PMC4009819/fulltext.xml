@@ -1,0 +1,763 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Biology (Basel)</journal-id><journal-id journal-id-type="iso-abbrev">Biology (Basel)</journal-id><journal-id journal-id-type="publisher-id">biology</journal-id><journal-title-group><journal-title>Biology</journal-title></journal-title-group><issn pub-type="epub">2079-7737</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4009819</article-id><article-id pub-id-type="doi">10.3390/biology1030575</article-id><article-id pub-id-type="publisher-id">biology-01-00575</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>The Population Genomics of Sunflowers and Genomic Determinants of Protein Evolution Revealed by RNAseq</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Renaut</surname><given-names>S&#x000e9;bastien</given-names></name><xref ref-type="aff" rid="af1-biology-01-00575">1</xref><xref rid="c1-biology-01-00575" ref-type="corresp">*</xref></contrib><contrib contrib-type="author"><name><surname>Grassa</surname><given-names>Christopher J.</given-names></name><xref ref-type="aff" rid="af1-biology-01-00575">1</xref></contrib><contrib contrib-type="author"><name><surname>Moyers</surname><given-names>Brook T.</given-names></name><xref ref-type="aff" rid="af1-biology-01-00575">1</xref></contrib><contrib contrib-type="author"><name><surname>Kane</surname><given-names>Nolan C.</given-names></name><xref ref-type="aff" rid="af1-biology-01-00575">1</xref></contrib><contrib contrib-type="author"><name><surname>Rieseberg</surname><given-names>Loren H.</given-names></name><xref ref-type="aff" rid="af1-biology-01-00575">1</xref><xref ref-type="aff" rid="af2-biology-01-00575">2</xref></contrib></contrib-group><aff id="af1-biology-01-00575"><label>1</label>Department of Botany, University of British Columbia, 3529-6270 University Boulevard, Vancouver, BC V6T 1Z4, Canada</aff><aff id="af2-biology-01-00575"><label>2</label>Department of Biology, Indiana University, 1001 East Third Street, Bloomington, IN 47405, USA</aff><author-notes><corresp id="c1-biology-01-00575"><label>*</label>Author to whom correspondence should be addressed; Email: <email>sebastien.renaut@gmail.com</email>; Tel.: +1-604-827-3535; Fax: +1-604-822-6089.</corresp></author-notes><pub-date pub-type="epub"><day>25</day><month>10</month><year>2012</year></pub-date><pub-date pub-type="collection"><month>12</month><year>2012</year></pub-date><volume>1</volume><issue>3</issue><fpage>575</fpage><lpage>596</lpage><history><date date-type="received"><day>30</day><month>8</month><year>2012</year></date><date date-type="rev-recd"><day>09</day><month>10</month><year>2012</year></date><date date-type="accepted"><day>12</day><month>10</month><year>2012</year></date></history><permissions><copyright-statement>&#x000a9; 2012 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2012</copyright-year><license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/3.0/"><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/3.0/">http://creativecommons.org/licenses/by/3.0/</ext-link>).</license-p></license></permissions><abstract><p>Few studies have investigated the causes of evolutionary rate variation among plant nuclear genes, especially in recently diverged species still capable of hybridizing in the wild. The recent advent of Next Generation Sequencing (NGS) permits investigation of genome wide rates of protein evolution and the role of selection in generating and maintaining divergence. Here, we use individual whole-transcriptome sequencing (RNAseq) to refine our understanding of the population genomics of wild species of sunflowers (<italic>Helianthus</italic> spp.) and the factors that affect rates of protein evolution. We aligned 35 GB of transcriptome sequencing data and identified 433,257 polymorphic sites (SNPs) in a reference transcriptome comprising 16,312 genes. Using SNP markers, we identified strong population clustering largely corresponding to the three species analyzed here (<italic>Helianthus annuus</italic>, <italic>H. petiolaris</italic>, <italic>H. debilis</italic>), with one distinct early generation hybrid. Then, we calculated the proportions of adaptive substitution fixed by selection (<italic>alpha</italic>) and identified gene ontology categories with elevated values of <italic>alpha</italic>. The &#x0201c;response to biotic stimulus&#x0201d; category had the highest mean alpha across the three interspecific comparisons, implying that natural selection imposed by other organisms plays an important role in driving protein evolution in wild sunflowers. Finally, we examined the relationship between protein evolution (<italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> ratio) and several genomic factors predicted to co-vary with protein evolution (gene expression level, divergence and specificity, genetic divergence [<italic>F</italic><sub>ST</sub>], and nucleotide diversity <italic>pi</italic>). We find that variation in rates of protein divergence was correlated with gene expression level and specificity, consistent with results from a broad range of taxa and timescales. This would in turn imply that these factors govern protein evolution both at a microevolutionary and macroevolutionary timescale. Our results contribute to a general understanding of the determinants of rates of protein evolution and the impact of selection on patterns of polymorphism and divergence.</p></abstract><kwd-group><kwd>RNAseq</kwd><kwd>gene expression</kwd><kwd>sequence divergence</kwd><kwd><italic>Helianthus</italic></kwd><kwd>selection</kwd><kwd>transcriptome</kwd><kwd>McDonald-Kreitman test</kwd></kwd-group></article-meta></front><body><sec><title>1. Introduction</title><p>Achieving a better understanding of the factors that shape patterns of divergence across genes, a central aim in evolutionary genetics, should become increasingly straightforward as the amount of sequencing data available grows exponentially [<xref rid="B1-biology-01-00575" ref-type="bibr">1</xref>,<xref rid="B2-biology-01-00575" ref-type="bibr">2</xref>,<xref rid="B3-biology-01-00575" ref-type="bibr">3</xref>]. A robust and simple way to quantify rates of gene evolution at the protein levels comes from <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub>ratio measurements [<xref rid="B4-biology-01-00575" ref-type="bibr">4</xref>]. This approach quantifies selection pressures by comparing the rate of substitutions at silent sites (<italic>d</italic><sub>S</sub>), which are presumed neutral, to the rate of substitutions at non-silent sites (<italic>d</italic><sub>N</sub>, amino acid changes), which may experience selection. A number of genomic parameters have been shown to correlate with rates of protein coding evolution in model organisms, including gene expression level and specificity, gene length, recombination rate, and mutation rate. A general conclusion is that gene expression level, specificity and essentiality account for a substantial amount of variation in rates of protein evolution due to selective constraints imposed by these genomic parameters [<xref rid="B1-biology-01-00575" ref-type="bibr">1</xref>,<xref rid="B5-biology-01-00575" ref-type="bibr">5</xref>,<xref rid="B6-biology-01-00575" ref-type="bibr">6</xref>,<xref rid="B7-biology-01-00575" ref-type="bibr">7</xref>,<xref rid="B8-biology-01-00575" ref-type="bibr">8</xref>]. On the other hand, divergence in protein sequence appears to be decoupled from divergence in expression levels. While early studies of a limited number of genes [<xref rid="B9-biology-01-00575" ref-type="bibr">9</xref>,<xref rid="B10-biology-01-00575" ref-type="bibr">10</xref>] did identify a positive correlation between the rate of protein evolution and expression divergence, an absence of such correlations is more commonly reported (e.g., [<xref rid="B11-biology-01-00575" ref-type="bibr">11</xref>,<xref rid="B12-biology-01-00575" ref-type="bibr">12</xref>]).</p><p>Although significant progress has been made toward understanding the genomic factors influencing gene evolution, most of these observations have come from studies of model organisms. Also, the majority of these comparisons have been among evolutionary distant species, and the relative importance of these genomic parameters at a microevolutionary time scale is less clear (e.g., [<xref rid="B13-biology-01-00575" ref-type="bibr">13</xref>]). This is especially true for plant studies describing the causes of evolutionary rate variation among nuclear genes; they are almost entirely restricted to relatively divergent species in the genus <italic>Arabidopsis</italic> or to evolutionary distant crop species such as <italic>Sorghum bicolor</italic>, <italic>Zea mays</italic> and <italic>Oryza sativa</italic> [<xref rid="B14-biology-01-00575" ref-type="bibr">14</xref>]. As a consequence, previous studies have estimated genetic divergence in terms of nucleotide substitutions rather than <italic>F</italic><sub>ST</sub>, since the latter will be close to one in genetically distant species.</p><p>The North American annual wild sunflowers (<italic>Helianthus</italic> spp.) are emerging as a model system for adaptation and speciation genomics research [<xref rid="B15-biology-01-00575" ref-type="bibr">15</xref>,<xref rid="B16-biology-01-00575" ref-type="bibr">16</xref>]. Given their well characterized evolutionary and ecological history and more recently, their genomes, sunflowers are ideal for testing predictions about the roles of gene flow, the timing of divergence, and the role of gene expression divergence in the maintenance of a plant species&#x02019; unique genome. The present study focuses on three closely related species: <italic>Helianthus annuus</italic>, <italic>H. debilis</italic> and <italic>H. petiolaris</italic>, which have diverged from one another less than two million years ago [<xref rid="B16-biology-01-00575" ref-type="bibr">16</xref>,<xref rid="B17-biology-01-00575" ref-type="bibr">17</xref>]. <italic>Helianthus annuus</italic> is widespread throughout much of the central and western United States. In southern Texas, morphologically distinct populations of <italic>H. annuus</italic> are described by Heiser [<xref rid="B18-biology-01-00575" ref-type="bibr">18</xref>] as an endemic subspecies (<italic>H. annuus texanus</italic>), yet these are fully interfertile with other populations of <italic>H. annuus</italic>. Populations of <italic>H. annuus</italic>, including those of ssp. <italic>texanus</italic>, are karyotypically divergent from <italic>H. debilis</italic> and <italic>H. petiolaris</italic> and have strong post-zygotic barriers that reduce, but do not eliminate, gene flowbetween them [<xref rid="B18-biology-01-00575" ref-type="bibr">18</xref>,<xref rid="B19-biology-01-00575" ref-type="bibr">19</xref>,<xref rid="B20-biology-01-00575" ref-type="bibr">20</xref>]. The three species also appear to have different ecological requirements, with <italic>H. annuus</italic> found mostly on moist, clay-based soils, whereas <italic>H. debilis</italic> and <italic>H. petiolaris</italic> are restricted to drier, sandy soils [<xref rid="B21-biology-01-00575" ref-type="bibr">21</xref>,<xref rid="B22-biology-01-00575" ref-type="bibr">22</xref>].</p><p>Illumina sequencing of expressed genes (RNAseq), a recently developed approach to transcriptome profiling that uses deep-sequencing technologies, has several advantages over classical microarray studies [<xref rid="B23-biology-01-00575" ref-type="bibr">23</xref>]. Not only does RNAseq provide more precise estimates of expression levels, but it also permits direct comparisons between gene expression and gene sequence divergence. This approach then yields a more informative and accurate view of the transcriptome at a lower cost compared with Sanger sequencing and/or microarrays. High throughput/low cost sequencing has been especially valuable for studies of non-model species by making genome sequencing, transcriptome sequencing and single nucleotide polymorphism (SNP) discovery efficient and accessible, even in the absence of a reference genome (e.g., [<xref rid="B24-biology-01-00575" ref-type="bibr">24</xref>]).</p><p>Here, we take advantage of next generation sequencing (RNAseq) data that was generated for <italic>H. annuus</italic>, <italic>H. debilis</italic> and <italic>H. petiolaris</italic> populations. Our objectives were to (i) confirm the genetic relationship among samples, then (ii) determine the effect of selection on protein coding evolution and finally (iii) investigate the effect of genomic factors which, based on previous studies, are expected to co-vary with rates of protein coding divergence. In turn, this will reveal if patterns observed in previous studies comparing more distantly related taxa also hold on shorter evolutionary timescales in recently diverged wild sunflowers.</p></sec><sec><title>2. Results and Discussion</title><sec><title>2.1. Results</title><p>We generated a total of 122 GB (122 &#x000d7; 109 basepairs or 609 million paired-end reads) of sequencing data from RNA extracted from the 29 seedlings representing three <italic>Helianthus</italic> taxa: <italic>H. annuus</italic>, <italic>H. debilis</italic>, and <italic>H. petiolaris</italic> (<xref ref-type="fig" rid="biology-01-00575-f001">Figure 1</xref> and <xref ref-type="table" rid="biology-01-00575-t001">Table 1</xref> and <xref ref-type="table" rid="biology-01-00575-t002">Table 2</xref>, summary of sequencing statistics). We have deposited the reference transcriptome, SNP table and raw read counts per gene in the Dryad Digital Repository [<xref rid="B25-biology-01-00575" ref-type="bibr">25</xref>]. Following strict quality cutoffs (see methods), we kept 67 GB of sequencing data for alignment, of which 35 GB (52%) aligned to the reference transcriptome. One <italic>H. petiolaris</italic> (PI586932) individual yielded less than a third of the number of reads compared the average number of reads for all other individuals. These reads were also of lower quality and therefore we discarded this sample from further analyses. Following strict quality threshold in alignments and SNP calling, we discovered 433,257 polymorphic sites in 13,412 unique contigs covering 14.5 MB, with an average of 3.0 SNPs per 100 bp (<xref ref-type="table" rid="biology-01-00575-t001">Table 1</xref>). </p><fig id="biology-01-00575-f001" position="float"><label>Figure 1</label><caption><p>Original sample collection locations.</p></caption><graphic xlink:href="biology-01-00575-g001"/></fig><table-wrap id="biology-01-00575-t001" position="float"><object-id pub-id-type="pii">biology-01-00575-t001_Table 1</object-id><label>Table 1</label><caption><p>Summary statistics (alignments).</p></caption><table frame="hsides" rules="groups"><tbody><tr><td colspan="4" align="left" valign="middle" rowspan="1">Total number of reference contigs = 16,312</td></tr><tr><td colspan="4" align="left" valign="middle" rowspan="1">Total number of polymorphic contigs = 13,412</td></tr><tr><td colspan="4" align="left" valign="middle" rowspan="1">Total number of polymorphic sites = 433,257</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1"><bold>Samples</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis</italic></bold>
+</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">Mean number of reads aligned per contig<bold><italic> a</italic></bold></td><td align="center" valign="middle" rowspan="1" colspan="1">382</td><td align="center" valign="middle" rowspan="1" colspan="1">798</td><td align="center" valign="middle" rowspan="1" colspan="1">894</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">Median number of reads aligned per contig<bold><italic> a</italic></bold></td><td align="center" valign="middle" rowspan="1" colspan="1">109</td><td align="center" valign="middle" rowspan="1" colspan="1">155</td><td align="center" valign="middle" rowspan="1" colspan="1">198</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">Mean depth per polymorphic site<bold><italic> a</italic></bold></td><td align="center" valign="middle" rowspan="1" colspan="1">75</td><td align="center" valign="middle" rowspan="1" colspan="1">102</td><td align="center" valign="middle" rowspan="1" colspan="1">107</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">Median depth per polymorphic site<bold><italic> a</italic></bold></td><td align="center" valign="middle" rowspan="1" colspan="1">23</td><td align="center" valign="middle" rowspan="1" colspan="1">32</td><td align="center" valign="middle" rowspan="1" colspan="1">32</td></tr></tbody></table><table-wrap-foot><fn><p><bold><italic>a</italic></bold>Note that these numbers vary mainly due to the different number of reads generated per sample (samples sequenced in duplex for <italic>H. annuus</italic> and triplex for <italic>H. petiolaris</italic> and <italic>H. debilis</italic>). For more results on an individual basis, see <xref ref-type="table" rid="biology-01-00575-t002">Table 2</xref>.</p></fn></table-wrap-foot></table-wrap><table-wrap id="biology-01-00575-t002" position="float"><object-id pub-id-type="pii">biology-01-00575-t002_Table 2</object-id><label>Table 2</label><caption><p>Summary of sequencing and alignment statistics per individuals.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">Species</th><th align="center" valign="middle" rowspan="1" colspan="1">Sample name a</th><th align="center" valign="middle" rowspan="1" colspan="1">Raw (GB b)</th><th align="center" valign="middle" rowspan="1" colspan="1">Clean c (GB)</th><th align="center" valign="middle" rowspan="1" colspan="1">Aligned (GB)</th><th align="center" valign="middle" rowspan="1" colspan="1">% aligned/total</th><th align="center" valign="middle" rowspan="1" colspan="1">% aligned/clean</th><th align="center" valign="middle" rowspan="1" colspan="1">Median coverage per contig</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>14B-14</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.58</td><td align="center" valign="middle" rowspan="1" colspan="1">1.38</td><td align="center" valign="middle" rowspan="1" colspan="1">0.72</td><td align="center" valign="middle" rowspan="1" colspan="1">20</td><td align="center" valign="middle" rowspan="1" colspan="1">52</td><td align="center" valign="middle" rowspan="1" colspan="1">100</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>14TB-2</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.38</td><td align="center" valign="middle" rowspan="1" colspan="1">1.24</td><td align="center" valign="middle" rowspan="1" colspan="1">0.53</td><td align="center" valign="middle" rowspan="1" colspan="1">16</td><td align="center" valign="middle" rowspan="1" colspan="1">43</td><td align="center" valign="middle" rowspan="1" colspan="1">70</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm3-2</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.48</td><td align="center" valign="middle" rowspan="1" colspan="1">1.38</td><td align="center" valign="middle" rowspan="1" colspan="1">0.69</td><td align="center" valign="middle" rowspan="1" colspan="1">20</td><td align="center" valign="middle" rowspan="1" colspan="1">50</td><td align="center" valign="middle" rowspan="1" colspan="1">123</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm6-1</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.88</td><td align="center" valign="middle" rowspan="1" colspan="1">1.52</td><td align="center" valign="middle" rowspan="1" colspan="1">0.8</td><td align="center" valign="middle" rowspan="1" colspan="1">21</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">127</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>2OTB-7</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.64</td><td align="center" valign="middle" rowspan="1" colspan="1">1.42</td><td align="center" valign="middle" rowspan="1" colspan="1">0.73</td><td align="center" valign="middle" rowspan="1" colspan="1">20</td><td align="center" valign="middle" rowspan="1" colspan="1">51</td><td align="center" valign="middle" rowspan="1" colspan="1">123</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm11-1</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">2.46</td><td align="center" valign="middle" rowspan="1" colspan="1">1.0</td><td align="center" valign="middle" rowspan="1" colspan="1">0.54</td><td align="center" valign="middle" rowspan="1" colspan="1">22</td><td align="center" valign="middle" rowspan="1" colspan="1">54</td><td align="center" valign="middle" rowspan="1" colspan="1">88</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. annuus</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm35-4</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.64</td><td align="center" valign="middle" rowspan="1" colspan="1">1.44</td><td align="center" valign="middle" rowspan="1" colspan="1">0.76</td><td align="center" valign="middle" rowspan="1" colspan="1">21</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">131</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>Arg4B-14</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">5.54</td><td align="center" valign="middle" rowspan="1" colspan="1">3.16</td><td align="center" valign="middle" rowspan="1" colspan="1">1.69</td><td align="center" valign="middle" rowspan="1" colspan="1">31</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">204</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm30-4</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">5.24</td><td align="center" valign="middle" rowspan="1" colspan="1">3.38</td><td align="center" valign="middle" rowspan="1" colspan="1">1.9</td><td align="center" valign="middle" rowspan="1" colspan="1">36</td><td align="center" valign="middle" rowspan="1" colspan="1">56</td><td align="center" valign="middle" rowspan="1" colspan="1">244</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm33-4</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.64</td><td align="center" valign="middle" rowspan="1" colspan="1">1.84</td><td align="center" valign="middle" rowspan="1" colspan="1">0.97</td><td align="center" valign="middle" rowspan="1" colspan="1">27</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">113</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis (praecox)</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm13-6</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">4.86</td><td align="center" valign="middle" rowspan="1" colspan="1">3.12</td><td align="center" valign="middle" rowspan="1" colspan="1">1.62</td><td align="center" valign="middle" rowspan="1" colspan="1">33</td><td align="center" valign="middle" rowspan="1" colspan="1">52</td><td align="center" valign="middle" rowspan="1" colspan="1">225</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis (praecox)</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm14-4</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.94</td><td align="center" valign="middle" rowspan="1" colspan="1">2.46</td><td align="center" valign="middle" rowspan="1" colspan="1">1.35</td><td align="center" valign="middle" rowspan="1" colspan="1">34</td><td align="center" valign="middle" rowspan="1" colspan="1">55</td><td align="center" valign="middle" rowspan="1" colspan="1">152</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis (praecox)</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm15-2</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">6.74</td><td align="center" valign="middle" rowspan="1" colspan="1">3.44</td><td align="center" valign="middle" rowspan="1" colspan="1">1.75</td><td align="center" valign="middle" rowspan="1" colspan="1">26</td><td align="center" valign="middle" rowspan="1" colspan="1">51</td><td align="center" valign="middle" rowspan="1" colspan="1">281</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. debilis (praecox)</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>btm16-2</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">4.78</td><td align="center" valign="middle" rowspan="1" colspan="1">2.7</td><td align="center" valign="middle" rowspan="1" colspan="1">1.44</td><td align="center" valign="middle" rowspan="1" colspan="1">30</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">171</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>pet489</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">4.84</td><td align="center" valign="middle" rowspan="1" colspan="1">2.98</td><td align="center" valign="middle" rowspan="1" colspan="1">1.57</td><td align="center" valign="middle" rowspan="1" colspan="1">32</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">201</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>pet2119</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">5.52</td><td align="center" valign="middle" rowspan="1" colspan="1">3.46</td><td align="center" valign="middle" rowspan="1" colspan="1">1.71</td><td align="center" valign="middle" rowspan="1" colspan="1">31</td><td align="center" valign="middle" rowspan="1" colspan="1">49</td><td align="center" valign="middle" rowspan="1" colspan="1">275</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PET2341</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">4.66</td><td align="center" valign="middle" rowspan="1" colspan="1">3.32</td><td align="center" valign="middle" rowspan="1" colspan="1">1.78</td><td align="center" valign="middle" rowspan="1" colspan="1">38</td><td align="center" valign="middle" rowspan="1" colspan="1">54</td><td align="center" valign="middle" rowspan="1" colspan="1">204</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PET2342</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.88</td><td align="center" valign="middle" rowspan="1" colspan="1">3.06</td><td align="center" valign="middle" rowspan="1" colspan="1">1.67</td><td align="center" valign="middle" rowspan="1" colspan="1">43</td><td align="center" valign="middle" rowspan="1" colspan="1">55</td><td align="center" valign="middle" rowspan="1" colspan="1">175</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PET2343</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">4.62</td><td align="center" valign="middle" rowspan="1" colspan="1">2.42</td><td align="center" valign="middle" rowspan="1" colspan="1">1.26</td><td align="center" valign="middle" rowspan="1" colspan="1">27</td><td align="center" valign="middle" rowspan="1" colspan="1">52</td><td align="center" valign="middle" rowspan="1" colspan="1">185</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PET2344</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">4.96</td><td align="center" valign="middle" rowspan="1" colspan="1">2.66</td><td align="center" valign="middle" rowspan="1" colspan="1">1.4</td><td align="center" valign="middle" rowspan="1" colspan="1">28</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">166</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PI468812</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.7</td><td align="center" valign="middle" rowspan="1" colspan="1">2.66</td><td align="center" valign="middle" rowspan="1" colspan="1">1.51</td><td align="center" valign="middle" rowspan="1" colspan="1">41</td><td align="center" valign="middle" rowspan="1" colspan="1">57</td><td align="center" valign="middle" rowspan="1" colspan="1">142</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PI503232</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">5.24</td><td align="center" valign="middle" rowspan="1" colspan="1">2.52</td><td align="center" valign="middle" rowspan="1" colspan="1">1.29</td><td align="center" valign="middle" rowspan="1" colspan="1">25</td><td align="center" valign="middle" rowspan="1" colspan="1">51</td><td align="center" valign="middle" rowspan="1" colspan="1">165</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PI531058</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.04</td><td align="center" valign="middle" rowspan="1" colspan="1">2.44</td><td align="center" valign="middle" rowspan="1" colspan="1">1.29</td><td align="center" valign="middle" rowspan="1" colspan="1">42</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">132</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PI547210</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.82</td><td align="center" valign="middle" rowspan="1" colspan="1">1.92</td><td align="center" valign="middle" rowspan="1" colspan="1">1.02</td><td align="center" valign="middle" rowspan="1" colspan="1">27</td><td align="center" valign="middle" rowspan="1" colspan="1">53</td><td align="center" valign="middle" rowspan="1" colspan="1">120</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PI586932</italic> d</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">1.38</td><td align="center" valign="middle" rowspan="1" colspan="1">---</td><td align="center" valign="middle" rowspan="1" colspan="1">---</td><td align="center" valign="middle" rowspan="1" colspan="1">---</td><td align="center" valign="middle" rowspan="1" colspan="1">---</td><td align="center" valign="middle" rowspan="1" colspan="1">---</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PI613767</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">5.58</td><td align="center" valign="middle" rowspan="1" colspan="1">3.02</td><td align="center" valign="middle" rowspan="1" colspan="1">1.54</td><td align="center" valign="middle" rowspan="1" colspan="1">28</td><td align="center" valign="middle" rowspan="1" colspan="1">51</td><td align="center" valign="middle" rowspan="1" colspan="1">180</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PI649907</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">5.32</td><td align="center" valign="middle" rowspan="1" colspan="1">2.54</td><td align="center" valign="middle" rowspan="1" colspan="1">1.36</td><td align="center" valign="middle" rowspan="1" colspan="1">26</td><td align="center" valign="middle" rowspan="1" colspan="1">54</td><td align="center" valign="middle" rowspan="1" colspan="1">165</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PET-2</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.36</td><td align="center" valign="middle" rowspan="1" colspan="1">2.38</td><td align="center" valign="middle" rowspan="1" colspan="1">1.3</td><td align="center" valign="middle" rowspan="1" colspan="1">39</td><td align="center" valign="middle" rowspan="1" colspan="1">55</td><td align="center" valign="middle" rowspan="1" colspan="1">78</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>H. petiolaris</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold><italic>PET-3</italic></bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">3.1</td><td align="center" valign="middle" rowspan="1" colspan="1">2.2</td><td align="center" valign="middle" rowspan="1" colspan="1">1.08</td><td align="center" valign="middle" rowspan="1" colspan="1">35</td><td align="center" valign="middle" rowspan="1" colspan="1">49</td><td align="center" valign="middle" rowspan="1" colspan="1">86</td></tr></tbody></table><table-wrap-foot><fn><p>Note: a sample names starting with <italic>PI</italic> are USDA accession numbers, which can be found at [<xref rid="B26-biology-01-00575" ref-type="bibr">26</xref>]; b GB = 1 &#x000d7; 109 bases; c See methods for read cleaning procedure; d This sample had a low sequencing output and sequences were also of lower quality than all other samples. As such, it was removed from further analysis.</p></fn></table-wrap-foot></table-wrap><sec><title>2.1.1. Population Genetics</title><p>We used a random subset of 1,000 markers to conduct a Bayesian inference of population structure, which revealed a strong peak in &#x00394;K for K = 3 (&#x00394;K for k2 = 84.6, &#x00394;K for k3 = 713.1 and &#x00394;K for k4 = 12.25) largely corresponding to the species <italic>H. annuus</italic>, <italic>H. petiolaris</italic> and <italic>H. debilis/praecox</italic> (<xref ref-type="fig" rid="biology-01-00575-f002">Figure 2</xref>). We analyzed population structure using three different sets of 1,000 random markers and obtained the same strong clustering results each time. One individual (btm15&#x02013;2) clearly stood out as an early generation <italic>H. debilis</italic>-<italic>H. annuus</italic> hybrid in all runs conducted (<xref ref-type="fig" rid="biology-01-00575-f002">Figure 2</xref>). We removed this individual from further analyses of genetic, protein coding and gene expression divergence.</p><p>Given that no distinct genetic clusters between <italic>H. debilis</italic> and <italic>H. praecox</italic> were identified at K = 3 (<xref ref-type="fig" rid="biology-01-00575-f002">Figure 2</xref>) and the analysis of population structure with k = 4 did not reveal a clear split, all <italic>H.praecox</italic> individuals were subsumed within <italic>H. debilis</italic> for further analyses of genetic, protein coding and gene expression divergence. We also calculated the average mean <italic>F</italic><sub>ST</sub>per gene as 0.25, 0.23 and 0.28 for <italic>H. annuus</italic>-<italic>H. debilis</italic>, <italic>H. annuus</italic>-<italic>H. petiolaris</italic>, <italic>H. debilis</italic>-<italic>H. petiolaris</italic> comparisons respectively (<xref ref-type="table" rid="biology-01-00575-t001">Table 1</xref>).</p><fig id="biology-01-00575-f002" position="float"><label>Figure 2</label><caption><p>Bayesian clustering analysis of all individuals with the program <sc>structure</sc>. Individual assignment to the most probable number of clusters K (3) as inferred from the &#x00394;K statistic (&#x00394;K for k2 = 84.6, &#x00394;K for k3 = 713.1 and &#x00394;K for k4 = 12.25). Arrow indicates a putative <italic>H. annuus</italic> x <italic>H. debilis</italic> hybrid, which was removed from later analyses. </p></caption><graphic xlink:href="biology-01-00575-g002"/></fig></sec><sec><title>2.1.2. Protein Coding Evolution and Effect of Selection</title><p>We obtained open reading frames (regions greater than 300 bp without stop codons) for 12,310 of the 16,312 reference sequences. We then used <sc>paml</sc> to calculate <italic>d</italic><sub>N </sub>and <italic>d</italic><sub>S</sub>in a maximum likelihood framework. Mean <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub>ratios were 0.203, 0.203 and 0.205 for the <italic>H. annuus-H. debilis</italic>, <italic>H. annuus-H. petiolaris</italic> and <italic>H. debilis-H. petiolaris</italic> comparisons, respectively (<xref ref-type="table" rid="biology-01-00575-t003">Table 3</xref>). Lastly, <italic>d</italic><sub>N </sub>and <italic>d</italic><sub>S</sub>were strongly correlated (r2 values between <italic>d</italic><sub>N</sub>and <italic>d</italic><sub>S</sub>were 0.36, 0.33, 0.27 for <italic>H. annuus-H. debilis</italic>, <italic>H. annuus-H. petiolaris</italic> and <italic>H. debilis-H. petiolaris</italic> comparisons, respectively).</p><table-wrap id="biology-01-00575-t003" position="float"><object-id pub-id-type="pii">biology-01-00575-t003_Table 3</object-id><label>Table 3</label><caption><p>Summary statistics (population genomics).</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">Comparison</th><th align="center" valign="middle" rowspan="1" colspan="1"><italic>H. annuus-H. debilis</italic></th><th align="center" valign="middle" rowspan="1" colspan="1"><italic>H. annuus-H. petiolaris</italic></th><th align="center" valign="middle" rowspan="1" colspan="1"><italic>H. debilis-H. petiolaris</italic></th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">Mean
+<italic>F</italic><sub>ST</sub> per gene (13,412 genes)</td><td align="center" valign="middle" rowspan="1" colspan="1">0.28</td><td align="center" valign="middle" rowspan="1" colspan="1">0.23 </td><td align="center" valign="middle" rowspan="1" colspan="1">0.25 </td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Median
+<italic>F</italic><sub>ST</sub> per gene (13,412 genes)</td><td align="center" valign="middle" rowspan="1" colspan="1">0.26</td><td align="center" valign="middle" rowspan="1" colspan="1">0.22</td><td align="center" valign="middle" rowspan="1" colspan="1">0.21</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>Coding SNPs (12,310 Open Reading Frames)</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Synonymous polymorphic SNPs (<italic>Ps</italic>)</td><td align="center" valign="middle" rowspan="1" colspan="1">147,193</td><td align="center" valign="middle" rowspan="1" colspan="1">162,867</td><td align="center" valign="middle" rowspan="1" colspan="1">174,480</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Non-synonymous polymorphic SNPs (<italic>Pn</italic>)</td><td align="center" valign="middle" rowspan="1" colspan="1">104,969</td><td align="center" valign="middle" rowspan="1" colspan="1">116,701</td><td align="center" valign="middle" rowspan="1" colspan="1">126,668</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Synonymous fixed (<italic>F</italic><sub>ST</sub> &#x0003e; 0.9) SNPs (<italic>Ds</italic>)</td><td align="center" valign="middle" rowspan="1" colspan="1">3,339</td><td align="center" valign="middle" rowspan="1" colspan="1">2,612</td><td align="center" valign="middle" rowspan="1" colspan="1">865</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">Non-synonymous fixed (<italic>F</italic><sub>ST</sub> &#x0003e; 0.9) SNPs (<italic>Dn</italic>)</td><td align="center" valign="middle" rowspan="1" colspan="1">3,581</td><td align="center" valign="middle" rowspan="1" colspan="1">2,935</td><td align="center" valign="middle" rowspan="1" colspan="1">873</td></tr><tr><td rowspan="2" align="center" valign="middle" colspan="1"><italic>alpha</italic> (proportion of base substitutions fixed by natural selection) and confidence intervals</td><td align="center" valign="middle" rowspan="1" colspan="1">0.26</td><td align="center" valign="middle" rowspan="1" colspan="1">0.29</td><td align="center" valign="middle" rowspan="1" colspan="1">0.19</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">[0.22&#x02013;0.31]</td><td align="center" valign="middle" rowspan="1" colspan="1">[0.24&#x02013;0.34]</td><td align="center" valign="middle" rowspan="1" colspan="1">[0.11&#x02013;0.29]</td></tr><tr><td rowspan="2" align="center" valign="middle" colspan="1">G-statistic (<italic>p</italic>-value) *</td><td align="center" valign="middle" rowspan="1" colspan="1">239</td><td align="center" valign="middle" rowspan="1" colspan="1">231</td><td align="center" valign="middle" rowspan="1" colspan="1">23</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">(2.2e&#x02013;16)</td><td align="center" valign="middle" rowspan="1" colspan="1">(2.2e&#x02013;16)</td><td align="center" valign="middle" rowspan="1" colspan="1">(1.4e&#x02013;6)</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">
+<italic>d</italic>
+<sub>N</sub>
+<italic>/d</italic>
+<sub>S</sub>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.22</td><td align="center" valign="middle" rowspan="1" colspan="1">0.24</td><td align="center" valign="middle" rowspan="1" colspan="1">0.22</td></tr></tbody></table><table-wrap-foot><fn><p>* G-test conducted as in [<xref rid="B27-biology-01-00575" ref-type="bibr">27</xref>].</p></fn></table-wrap-foot></table-wrap><p>We then tested whether the ratio of non-synonymous to synonymous fixed differences was greater than the non-synonymous to synonymous polymorphism ratio using a g-test. For all comparisons, there was a significant excess of non-synonymous fixed differences (<italic>g</italic>-test &#x0003c; 0.0001 in all cases, <xref ref-type="table" rid="biology-01-00575-t003">Table 3</xref>). The genome wide proportion of base substitutions fixed by natural selection (<italic>alpha</italic>) was observed to be 0.28 for <italic>H. annuus-H. debilis</italic>, 0.23 for <italic>H. annuus-H. petiolaris</italic> and 0.25 for <italic>H. debilis-H. petiolaris</italic>. When focusing on the most abundant GO categories (comprising at least 50 genes), we found evidence that the proportion of adaptive evolution (<italic>alpha</italic>) varied significantly with the class of biological processes considered. In <xref ref-type="table" rid="biology-01-00575-t004">Table 4</xref>, we present the five GO categories with the highest <italic>alpha</italic> value in each comparison. These GO categories comprised a number of biological processes. In only one case, however, was the same GO category (response to biotic stimulus) present in the &#x0201c;top five&#x0201d; in all three species pairs. Other GO categories with very high <italic>alpha</italic> values in at least one comparison included flower development, glycolysis, defense response to fungus, lipid catabolic process, and lipid metabolic process.</p><table-wrap id="biology-01-00575-t004" position="float"><object-id pub-id-type="pii">biology-01-00575-t004_Table 4</object-id><label>Table 4</label><caption><p>Proportion of adaptive substitutions (<italic>alpha</italic> and confidence intervals) in the GO categories (n &#x0003e; 50 genes) undergoing the highest adaptation (values in bold represent values found in the five GO categories with the highest alpha values in each comparison respectively).</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" rowspan="1" colspan="1">
+</th><th align="center" valign="middle" rowspan="1" colspan="1">
+</th><th align="center" valign="middle" rowspan="1" colspan="1">
+</th><th colspan="3" align="center" valign="middle" rowspan="1">alpha</th></tr><tr><th align="center" valign="middle" rowspan="1" colspan="1">Description</th><th align="center" valign="middle" rowspan="1" colspan="1">Number of genes</th><th align="center" valign="middle" rowspan="1" colspan="1">Gene ontology category (GO)</th><th align="center" valign="middle" rowspan="1" colspan="1">
+<italic>H. annuus/H. debilis</italic>
+</th><th align="center" valign="middle" rowspan="1" colspan="1">
+<italic>H. annuus/H. petiolaris</italic>
+</th><th align="center" valign="middle" rowspan="1" colspan="1">
+<italic>H. debilis/H. petiolaris</italic>
+</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">All annotated genes</td><td colspan="2" align="center" valign="middle" rowspan="1">11,081 (total)</td><td align="center" valign="middle" rowspan="1" colspan="1">0.26 &#x000b1; 0.04</td><td align="center" valign="middle" rowspan="1" colspan="1">0.29 &#x000b1; 0.05</td><td align="center" valign="middle" rowspan="1" colspan="1">0.19 &#x000b1; 0.09</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">apoptosis</td><td align="center" valign="middle" rowspan="1" colspan="1">84</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0006915</td><td align="center" valign="middle" rowspan="1" colspan="1">0.28 &#x000b1; 0.03</td><td align="center" valign="middle" rowspan="1" colspan="1">0.3 &#x000b1; 0.04</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.79 &#x000b1; 0.03</bold>
+</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">defense response to fungus</td><td align="center" valign="middle" rowspan="1" colspan="1">63</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0050832</td><td align="center" valign="middle" rowspan="1" colspan="1">0.33 &#x000b1; 0.05</td><td align="center" valign="middle" rowspan="1" colspan="1">0.56 &#x000b1; 0.03</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>1 &#x000b1; 0</bold>
+</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">flower development</td><td align="center" valign="middle" rowspan="1" colspan="1">94</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0009908</td><td align="center" valign="middle" rowspan="1" colspan="1">0.54 &#x000b1; 0.04</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.63 &#x000b1; 0.03</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.4 &#x000b1; 0.12</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">glycolysis</td><td align="center" valign="middle" rowspan="1" colspan="1">76</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0006096</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.83 &#x000b1; 0.02</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.71 &#x000b1; 0.02</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.72 &#x000b1; 0.04</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">GTP catabolic process</td><td align="center" valign="middle" rowspan="1" colspan="1">103</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0006184</td><td align="center" valign="middle" rowspan="1" colspan="1">0.55 &#x000b1; 0.02</td><td align="center" valign="middle" rowspan="1" colspan="1">0.29 &#x000b1; 0.04</td><td align="center" valign="middle" rowspan="1" colspan="1">&#x02212;0.14 &#x000b1; 0.08</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">ion transmembrane transport</td><td align="center" valign="middle" rowspan="1" colspan="1">85</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0034220</td><td align="center" valign="middle" rowspan="1" colspan="1">0.45 &#x000b1; 0.03</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.65 &#x000b1; 0.03</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">&#x02212;0.41 &#x000b1; 0.14</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">lipid catabolic process</td><td align="center" valign="middle" rowspan="1" colspan="1">130</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0016042</td><td align="center" valign="middle" rowspan="1" colspan="1">0.45 &#x000b1; 0.03</td><td align="center" valign="middle" rowspan="1" colspan="1">0.52 &#x000b1; 0.03</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.76 &#x000b1; 0.02</bold>
+</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">lipid metabolic process</td><td align="center" valign="middle" rowspan="1" colspan="1">243</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0006629</td><td align="center" valign="middle" rowspan="1" colspan="1">0.45 &#x000b1; 0.03</td><td align="center" valign="middle" rowspan="1" colspan="1">0.25 &#x000b1; 0.04</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.88 &#x000b1; 0.02</bold>
+</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">lipid transport</td><td align="center" valign="middle" rowspan="1" colspan="1">94</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0006869</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.58 &#x000b1; 0.02</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.48 &#x000b1; 0.02</td><td align="center" valign="middle" rowspan="1" colspan="1">&#x02212;0.04 &#x000b1; 0.23</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">mitosis</td><td align="center" valign="middle" rowspan="1" colspan="1">79</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0007067</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.59 &#x000b1; 0.02</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.59 &#x000b1; 0.04</td><td align="center" valign="middle" rowspan="1" colspan="1">0.64 &#x000b1; 0.04</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">response to biotic stimulus</td><td align="center" valign="middle" rowspan="1" colspan="1">60</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0009607</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.63 &#x000b1; 0.02</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.8 &#x000b1; 0.01</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>1 &#x000b1; 0</bold>
+</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">translational initiation</td><td align="center" valign="middle" rowspan="1" colspan="1">89</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0006413</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.67 &#x000b1; 0.03</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.03 &#x000b1; 0.06</td><td align="center" valign="middle" rowspan="1" colspan="1">&#x02212;0.93 &#x000b1; 0.14</td></tr><tr><td align="left" valign="middle" rowspan="1" colspan="1">ubiquitin-dependent protein catabolic process</td><td align="center" valign="middle" rowspan="1" colspan="1">105</td><td align="center" valign="middle" rowspan="1" colspan="1">GO:0006511</td><td align="center" valign="middle" rowspan="1" colspan="1">0.43 &#x000b1; 0.06</td><td align="center" valign="middle" rowspan="1" colspan="1">
+<bold>0.65 &#x000b1; 0.03</bold>
+</td><td align="center" valign="middle" rowspan="1" colspan="1">0.14 &#x000b1; 0.2</td></tr></tbody></table></table-wrap></sec><sec><title>2.1.3. Genomic Determinants of Rates of Protein Evolution</title><p>We conducted partial correlation analyses among different factors which have been previously shown to correlate with variation in rates of protein evolution. First, we only analyzed <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> ratios for open reading frames in which both <italic>d</italic><sub>N</sub> and <italic>d</italic><sub>S</sub> were different from zero (4,908, 4,161 and 4,196 ORFs for <italic>H. annuus-H. debilis</italic>, <italic>H. annuus-H. petiolaris</italic> and <italic>H. debilis-H. petiolaris</italic> comparisons, respectively). Then, we noticed that for all three interspecific comparisons, correlation coefficients were similar. Therefore, in order to simplify the interpretations, we have presented the data as a mean of the three comparisons (<xref ref-type="fig" rid="biology-01-00575-f003">Figure 3</xref>, but see also <xref ref-type="fig" rid="biology-01-00575-f004">Figure 4</xref>, <xref ref-type="fig" rid="biology-01-00575-f005">Figure 5</xref>, <xref ref-type="fig" rid="biology-01-00575-f006">Figure 6</xref> for correlations per species pair). Rates of protein divergence (<italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub>) were negatively correlated with gene expression level (partial cor. coef. = &#x02212;0.03) and positively with gene expression specificity (0.06), consistent with results from a broad range of taxa [<xref rid="B6-biology-01-00575" ref-type="bibr">6</xref>,<xref rid="B8-biology-01-00575" ref-type="bibr">8</xref>,<xref rid="B28-biology-01-00575" ref-type="bibr">28</xref>] and positively correlated with overall sequence divergence (<italic>F</italic><sub>ST</sub>, partial cor. coef. = 0.04). Among other notable results predicted from previous studies, we found a strong and significant negative correlation between expression level and specificity (&#x02212;0.15). Nucleotide diversity (<italic>pi</italic>) was strongly negatively correlated with sequence divergence (&#x02212;0.27) and surprisingly, positively with expression level (partial cor. coef. = 0.48). We also found that sequence divergence (<italic>F</italic><sub>ST</sub>) did not correlate with expression divergence.</p><fig id="biology-01-00575-f003" position="float"><label>Figure 3</label><caption><p>Partial correlation coefficients aiming to understand the genomic factors associated with variation in protein coding sequence. Partial correlation coefficients (above diagonal), color-coded according to sign and degree of correlation, and <italic>p</italic>-values (below diagonal). Average of all three comparisons (4,908, 4,161 and 4,196 ORFs for <italic>H. annuus-H. debilis</italic>, <italic>H. annuus-H. petiolaris</italic> and <italic>H. debilis-H. petiolaris</italic> comparisons, respectively).</p></caption><graphic xlink:href="biology-01-00575-g003"/></fig><fig id="biology-01-00575-f004" position="float"><label>Figure 4</label><caption><p>Partial correlation coefficients aiming to understand the genomic factors associated with variation in protein coding sequence. Partial correlation coefficients (above diagonal), color-coded according to sign and degree of correlation, and <italic>p</italic>-values (below diagonal). <italic>H. annuus-H. debilis</italic> comparison (4,908 ORFs).</p></caption><graphic xlink:href="biology-01-00575-g004"/></fig><fig id="biology-01-00575-f005" position="float"><label>Figure 5</label><caption><p>Partial correlation coefficients aiming to understand the genomic factors associated with variation in protein coding sequence. Partial correlation coefficients (above diagonal), color-coded according to sign and degree of correlation, and <italic>p</italic>-values (below diagonal). <italic>H. annuus-H. petiolaris</italic> comparison (4,161 ORFs).</p></caption><graphic xlink:href="biology-01-00575-g005"/></fig><fig id="biology-01-00575-f006" position="float"><label>Figure 6</label><caption><p>Partial correlation coefficients aiming to understand the genomic factors associated with variation in protein coding sequence. Partial correlation coefficients (above diagonal), color-coded according to sign and degree of correlation, and <italic>p</italic>-values (below diagonal). <italic>H. debilis-H. petiolaris</italic> comparison (4,196 ORFs).</p></caption><graphic xlink:href="biology-01-00575-g006"/></fig></sec></sec><sec><title>2.2. Discussion</title><sec><title>2.2.1. Next-Generation Sequencing Era</title><p>Our approach using a reference transcriptome of 16,312 contigs allowed to survey a substantial fraction of all genes expressed and capture genome wide signals that would likely go undetected when using a handful of anonymous markers or a candidate gene strategy. Nearly every gene in our reference set had a least two sequences align to it and could therefore be considered expressed (15,756 out of 16,312 contigs) in the sequenced samples. The expression cut-offs commonly employed for microarrays or RT-PCR has created a perception that genes with a signal intensity below a certain ambient noise are not expressed. However, this perception probably relates more to the resolving power of the method rather than a real property of the gene; genes usually considered as silent are probably often expressed at a very low level making expression differences more subtle than originally perceived [<xref rid="B29-biology-01-00575" ref-type="bibr">29</xref>]. Conversely, we cannot rule out this possibility in some cases of uncertainty in sequence or alignment; for this reason genes with less than two aligned reads were removed from the data set. The fact that only about 50% of cleaned sequences aligned to our reference indicates that a significant fraction of the transcriptome remains un-assembled and/or that some reads are too divergent from the reference or represent chimeric sequences. Alternatively spliced genes and genes filtered from the reference dataset because they were inferred to represent families of close paralogs might also explain some of this missing fraction. In RNAseq studies, another source of bias can come from aligning reads from other species to a reference composed of a single species, here <italic>H. annuus</italic>. Fortunately, this does not seem to be a problem given the alignment parameters we chose and the fact that the same percentages (52%) of cleaned reads (<xref ref-type="table" rid="biology-01-00575-t002">Table 2</xref>) were aligned in all three species.</p><p>Given that the cultivated sunflower genome is nearing completion [<xref rid="B30-biology-01-00575" ref-type="bibr">30</xref>], there will soon be a more accurate reference to align sequences against. A fully sequenced genome will permit more accurate identification of gene space, alternative splicing events, untranslated 5' and 3' regions and intron/exon boundaries. In addition, we are concurrently developing reference transcriptomes for several closely related sunflower species including <italic>H. petiolaris</italic> and <italic>H. debilis</italic>. This will allow us to investigate orphan genes that are present in either <italic>H. petiolaris</italic> or <italic>H. debilis</italic> but have no detectable homolog in <italic>H. annuus</italic>. Such genes are rare, but may play an important role in generating species-specific evolutionary novelties [<xref rid="B31-biology-01-00575" ref-type="bibr">31</xref>]. Clearly, we have only begun to understand the evolutionary complexity underlying both sequence and expression divergence.</p></sec><sec><title>2.2.2. Population Genetics</title><p>Annual species of sunflowers in the genus <italic>Helianthus</italic> vary greatly in their geographic distribution and evolutionary origin. Based on Bayesian clustering of nuclear markers spanning the whole genome, we found a clear distinction between <italic>H. debilis</italic>, <italic>H petiolaris</italic> and <italic>H. annuus</italic> individuals. However, <sc>structure</sc> often does not distinguish hierarchical sub-structuring and consequently, may only reveal the top level of population differentiation. Our study was not intended to resolve the phylogeny of <italic>Helianthus</italic>, as this would have needed much more extensive sampling. However, our results corroborate previous phylogenetic work [<xref rid="B32-biology-01-00575" ref-type="bibr">32</xref>,<xref rid="B33-biology-01-00575" ref-type="bibr">33</xref>] that places <italic>H. praecox</italic> within <italic>H. debilis</italic>.</p><p>As a whole, genetic divergence was surprisingly similar among all three species comparisons (<xref ref-type="table" rid="biology-01-00575-t001">Table 1</xref>) despite the fact that the divergence of <italic>H. annuus</italic> with <italic>H. petiolaris</italic> and <italic>H. debilis</italic> clearly precedes the <italic>H.petiolaris</italic>-<italic>H. debilis</italic> divergence [<xref rid="B33-biology-01-00575" ref-type="bibr">33</xref>]. Hybridization between recognized species is known to participate in shaping the evolutionary diversity of North American sunflowers [<xref rid="B20-biology-01-00575" ref-type="bibr">20</xref>,<xref rid="B34-biology-01-00575" ref-type="bibr">34</xref>,<xref rid="B35-biology-01-00575" ref-type="bibr">35</xref>] and probably explains the patterns observed here. H. <italic>petiolaris</italic> and <italic>H. debilis</italic> are allopatric sister species, but both hybridize with the sympatric but evolutionary more distant <italic>H. annuus</italic>. <italic>H. annuus</italic> and <italic>H. debilis</italic> are known to have a long history of introgression in Texas, where these individuals were collected [<xref rid="B20-biology-01-00575" ref-type="bibr">20</xref>,<xref rid="B35-biology-01-00575" ref-type="bibr">35</xref>]. Similarly, <italic>H. petiolaris</italic> forms numerous hybrid zones with <italic>H. annuus</italic> throughout their ranges [<xref rid="B34-biology-01-00575" ref-type="bibr">34</xref>]. As such, these more distantly related species have exchanged genes across much of the genome while remaining morphologically and ecologically distinct [<xref rid="B16-biology-01-00575" ref-type="bibr">16</xref>], presumably accounting for lower than expected average <italic>F</italic><sub>ST</sub> values.</p></sec><sec><title>2.2.3. Protein Coding Evolution</title><p>The longest open-ended ORFs (minimum length of 300 nucleotides) were kept as the most probable translated region of the gene. SNPs within these ORFs were considered as coding sites as thus it could be assessed whether these were synonymous or non-synonymous. This approach (as compared with a <sc>blastx</sc> approach to known protein sequences from model systems) has the advantage of identifying genes that have no detectable homolog present in public databases. Such orphan genes are potentially rare, but may play an important role in generating species-specific evolutionary novelties [<xref rid="B31-biology-01-00575" ref-type="bibr">31</xref>].</p><p>Our results are consistent with several expectations based on previous research [<xref rid="B14-biology-01-00575" ref-type="bibr">14</xref>]. First, mean <italic>d</italic><sub>N</sub><italic>/d</italic><sub>S</sub> ratios were close to 0.2 for all three comparisons and few genes were identified with values greater than one, signaling strong constraint on amino acid replacements. This is consistent with the results of Yang and Gaut [<xref rid="B28-biology-01-00575" ref-type="bibr">28</xref>] who analyzed protein coding evolution between <italic>Arabidopsis thaliana</italic> and <italic>A. lyrata</italic> and estimated <italic>d</italic><sub>N</sub><italic>/d</italic><sub>S</sub> at 0.203. Many studies have documented a positive correlation between <italic>d</italic><sub>N</sub> and <italic>d</italic><sub>S</sub> across genes, similar to that identified here [<xref rid="B14-biology-01-00575" ref-type="bibr">14</xref>]. The reason for this correlation is not well understood, although it may be caused by processes such as strong purifying selection towards translational efficiency or variation in mutation rates and recombination rates along chromosomes, which would affect both <italic>d</italic><sub>N</sub>and <italic>d</italic><sub>S</sub> in a similar fashion.</p><p>Based on calculations of the genome wide proportion of base substitutions fixed by natural selection (<italic>alpha</italic>), we conclude that a significant proportion of the most divergent SNPs represent selectively advantageous mutations: in all cases the ratio of non-synonymous to synonymous fixed differences was significantly greater than that for non-synonymous to synonymous polymorphisms (<italic>alpha</italic>, <xref ref-type="table" rid="biology-01-00575-t003">Table 3</xref>). By focusing on specific gene categories and examining patterns of polymorphism and divergence, we were able to provide additional evidence of adaptive evolution (<xref ref-type="table" rid="biology-01-00575-t004">Table 4</xref>). Gene categories exhibiting high <italic>alpha</italic> values included a number of biological processes that have previously been reported as undergoing positive selection in sunflowers, including defense response to fungus, flower development, lipid catabolic process, lipid metabolic process, and response to biotic stimulus [<xref rid="B36-biology-01-00575" ref-type="bibr">36</xref>,<xref rid="B37-biology-01-00575" ref-type="bibr">37</xref>,<xref rid="B38-biology-01-00575" ref-type="bibr">38</xref>,<xref rid="B39-biology-01-00575" ref-type="bibr">39</xref>,<xref rid="B40-biology-01-00575" ref-type="bibr">40</xref>]. Interestingly, we found one category, response to biotic stimulus, showing parallel levels of elevated <italic>alpha</italic> among species pairs. This is important given that parallel trends add stronger evidence for the role of selection in driving divergence for these particular traits [<xref rid="B41-biology-01-00575" ref-type="bibr">41</xref>]. Thus, natural selection imposed by other organisms appears to play an important role in driving protein evolution in wild sunflowers. However, we also acknowledge the dangers of story telling based on GO analysis and these trends should be confirmed before any strong conclusions can be reached [<xref rid="B42-biology-01-00575" ref-type="bibr">42</xref>].</p></sec><sec><title>2.2.4. Genomic Determinants of Rates of Protein Evolution</title><p>To understand the underlying causes of evolutionary rate heterogeneity among genes, researchers have investigated correlations between evolutionary rates and various genomic parameters [<xref rid="B1-biology-01-00575" ref-type="bibr">1</xref>,<xref rid="B8-biology-01-00575" ref-type="bibr">8</xref>,<xref rid="B28-biology-01-00575" ref-type="bibr">28</xref>]. In accordance with previous studies (e.g., [<xref rid="B28-biology-01-00575" ref-type="bibr">28</xref>]), we found a significant negative correlation between <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> ratios and expression level, with genes that are highly expressed being more constrained in terms of protein evolution. Likewise, <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> ratios were positively correlated with expression specificity. Again the leading explanation for a positive correlation is that widely expressed genes are more constrained in protein sequence evolution because they are probably involved in multiple biochemical pathways and face multiple selective environments in the different tissues they are expressed in [<xref rid="B5-biology-01-00575" ref-type="bibr">5</xref>]. Finally, we found a strong and significant negative correlation between expression level and specificity. Highly expressed genes are usually involved in a larger number of biochemical processes and expressed in a greater number of different tissues than lowly expressed genes. Since specificity was determined based on relatively shallow (44,000 reads) sequencing, lowly expressed genes may appear to have high specificity due to the stochastic lack of sampling in some libraries. At the same time, it is likely that with enough power (<italic>i.e.</italic>, enough sequencing), we may find that all genes are expressed nearly everywhere (<italic>i.e.</italic>, expression is leaky, see [<xref rid="B29-biology-01-00575" ref-type="bibr">29</xref>]). Therefore specificity may eventually need to be redefined or at least measured in independent samples, as in the present study.</p><p>All the trends reported above are consistent with theory and results from a broad range of taxa [<xref rid="B1-biology-01-00575" ref-type="bibr">1</xref>,<xref rid="B2-biology-01-00575" ref-type="bibr">2</xref>,<xref rid="B3-biology-01-00575" ref-type="bibr">3</xref>,<xref rid="B5-biology-01-00575" ref-type="bibr">5</xref>,<xref rid="B7-biology-01-00575" ref-type="bibr">7</xref>,<xref rid="B28-biology-01-00575" ref-type="bibr">28</xref>,<xref rid="B43-biology-01-00575" ref-type="bibr">43</xref>]. Interestingly however, the correlation coefficients reported here are generally lower than those observed in previous studies. This is probably due to the more recent divergence of sunflowers compared with the more distantly related taxa studied previously. For instance, the sunflowers species analyzed here have diverged less than two million years ago [<xref rid="B19-biology-01-00575" ref-type="bibr">19</xref>], compared with about eight MYA in the <italic>Arabidopsis thaliana</italic>-<italic>lyrata</italic> comparisons [<xref rid="B28-biology-01-00575" ref-type="bibr">28</xref>], six MYA for the <italic>Drosophila melanogaster</italic> group (but with much faster generation times than sunflowers [<xref rid="B1-biology-01-00575" ref-type="bibr">1</xref>,<xref rid="B44-biology-01-00575" ref-type="bibr">44</xref>], and about 75 MYA in the case of the mouse and human lineages [<xref rid="B5-biology-01-00575" ref-type="bibr">5</xref>]. As recently pointed out in a study quantifying protein coding evolution broadly across the Asteraceae family [<xref rid="B13-biology-01-00575" ref-type="bibr">13</xref>], it appears that, at least to some degree, macroevolution looks very much like &#x0201c;repeated rounds of microevolution&#x0201d; [<xref rid="B45-biology-01-00575" ref-type="bibr">45</xref>]. Given that our results are also qualitatively similar to previous studies conducted at a more ancient timescale, we argue that macroevolutionary trends are governed by the same principles of microevolution. Yet, the importance of the genomic factors discussed above is possibly reduced relative to the idiosyncratic effects of drift and local variation in selection pressures when analyzed over shorter timescales [<xref rid="B13-biology-01-00575" ref-type="bibr">13</xref>].</p><p>Unlike previous studies, we also observed several new and sometimes unexpected associations. For one, we found that <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> ratios were positively correlated with overall genetic divergence (<italic>F</italic><sub>ST</sub>). Given that high values of <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> and <italic>F</italic><sub>ST </sub>can result from positive selection, this association could be expected. Among other noticeable results, we did not find a significant correlation between genetic divergence (measured as <italic>F</italic><sub>ST</sub>, or <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> ratios) and expression divergence. After observing no correlation in yeast between <italic>d</italic><sub>N</sub> and expression divergence, Tirosh and Barkai [<xref rid="B11-biology-01-00575" ref-type="bibr">11</xref>] suggested that certain genes are more sensitive to changes in coding sequences, whereas others are more sensitive to changes in non coding regions regulating expression. Consequently, an absence of correlation between patterns of expression and genetic divergence, as we identified in the present study, suggests a decoupling of evolutionary forces shaping expression and genetic divergence.</p><p>Unexpectedly, nucleotide diversity (<italic>pi</italic>) was strongly correlated with expression level in <italic>Helianthus</italic>. With RNAseq, the confidence with which nucleotide variants are identified is a function of coverage, which itself represents expression. As a consequence, greater coverage (expression) increases the probability of identifying both alleles at heterozygous loci and may inflate the total number of variants [<xref rid="B46-biology-01-00575" ref-type="bibr">46</xref>]. Analyzing only the subset of genes with <italic>d</italic><sub>N</sub> and <italic>d</italic><sub>S</sub> greater than 0 should ensure that most low coverage genes are removed (mean expression value for all genes in dataset = 365, compared with mean expression of genes used in partial correlation analysis = 665). Using an even more stringent criterion on the minimum expression of genes (for example, minimum expression threshold of 100 instead of now 14) does slightly reduce the correlation between <italic>pi</italic> and expression level but does not substantially affect the other partial correlations reported in <xref ref-type="fig" rid="biology-01-00575-f003">Figure 3</xref>. Thus, our conclusions hold when using more stringent filtering procedures. Lastly, nucleotide diversity (<italic>pi</italic>) was also strongly negatively correlated with <italic>F</italic><sub>ST</sub>. This is not unexpected and likely pertains to the definition of <italic>F</italic><sub>ST</sub> itself ([heterozygosity between-heterozygosity within]/heterozygosity between).</p><p>Essentially all previous studies looking at the genomic determinants of sequence evolution have employed one dataset comprised of sequenced genes, a separate dataset for calculating gene expression (<italic>i.e.</italic>, microarray data often measured in different individuals or even populations) and another dataset to identify genomic context (<italic>i.e.</italic>, an annotated genome). In addition, previous studies have mainly estimated genetic divergence in terms of nucleotide substitutions between distant species, rather than <italic>F</italic><sub>ST</sub>, since the latter will be close to one in genetically distant species. Because of the independence between the expression and sequence data sets in these previous studies, the apparent ascertainment bias detected in the present study is avoided. Thus, while RNAseq increases the precision of expression analyses, and ensures that the same pairs of genes are compared for sequence and expression analyses, the approach is not without drawbacks.</p></sec></sec></sec><sec><title>3. Experimental Section</title><sec><title>3.1. Sample Preparation, Sequencing and Reference</title><p>We collected achenes (single seeded fruits) from seven <italic>Helianthus annuus</italic> and seven <italic>H. debilis</italic> individuals in Texas. Four of the <italic>H. debilis</italic> individuals were initially labeled as <italic>H. praecox</italic>, yet these clustered with <italic>H. debilis</italic> individuals genetically (see below). As molecular phylogenetic studies of <italic>Helianthus</italic> also place <italic>H. praecox</italic> within <italic>H. debilis</italic> [<xref rid="B32-biology-01-00575" ref-type="bibr">32</xref>,<xref rid="B33-biology-01-00575" ref-type="bibr">33</xref>], we follow an early taxonomy [<xref rid="B47-biology-01-00575" ref-type="bibr">47</xref>] that subsumes <italic>H. praecox</italic> into <italic>H. debilis</italic>. In addition, we acquired twelve <italic>H. petiolaris</italic> accessions spanning the distribution range of the species, either from USDA collections or from previous sampling efforts (<xref ref-type="fig" rid="biology-01-00575-f001">Figure 1</xref>).</p><p>We germinated all achenes at the University of British Columbia (Vancouver, Canada) and grew them for approximately three weeks under growth chambers or similar greenhouse conditions (12 hours of daylight at 22 degrees). Then we harvested all aboveground biomass, flash froze it in liquid nitrogen and kept it at &#x02212;80 degrees. For each individual, we extracted RNA from young leaves and stems using a modified TRIzol Reagent protocol (Invitrogen, Carlsbad, CA, USA). We quantified the RNA samples using a NanoDrop (Thermo Fisher Scientific, Waltham, MA, USA) and verified their quality on agarose gels. We stored the total RNA in pure water. Finally, samples were retrotranscribed using a custom Invitrogen (now Life Technologies, Carlsbad, CA, USA) cDNA kit, nearly identical to the SuperScript<sup>&#x000ae;</sup> Double-Stranded cDNA Synthesis Kit. After shearing by sonication, cDNA fragments 190 to 210 basepairs in length were isolated and PCR-amplified to generate the sequencing library, following standard Illumina (San Diego, CA, USA) Genome Analyzer paired-end library protocols. These were sequenced on a GAII Illumina platform (paired end sequencing, 2 &#x000d7; 100 bp reads) at the Genome Sciences Centre (Vancouver, Canada) and base calling was done as part of the standard pipelines at the Genome Sciences Centre sequencing facility. Samples were multiplexed (three samples per lane for <italic>H. annuus</italic> and two per lane for all others).</p><p>Our reference Expressed Sequence Tags (EST) set consists of 16,312 contiguous sequences (contigs). It was assembled from available Sanger and 454 EST sequences generated for <italic>H. annuus</italic> (both wild and cultivated individuals spanning the whole distribution of the species) and from several different tissue types [<xref rid="B48-biology-01-00575" ref-type="bibr">48</xref>]. Individual genotypes were first assembled with <sc>mira</sc> version 3.0 [<xref rid="B49-biology-01-00575" ref-type="bibr">49</xref>], using the flags &#x0201c;accurate,est,denovo,454&#x0201d;. All <sc>mira</sc> contigs and singletons were reassembled further using the program <sc>cap3</sc> at 94% identity [<xref rid="B50-biology-01-00575" ref-type="bibr">50</xref>] as in [<xref rid="B24-biology-01-00575" ref-type="bibr">24</xref>]. Contigs found in at least two different genotypes and with total length greater than 500 bp were kept for the final merged assembly. Based on comparisons to genetic map data [<xref rid="B51-biology-01-00575" ref-type="bibr">51</xref>], 783 contigs contain sequences that map to multiple locations and were removed, as they likely represent families of close paralogs that cannot be resolved. Of the 16,312 remaining sequences, 8,226 map to single locations on genetic maps [<xref rid="B51-biology-01-00575" ref-type="bibr">51</xref>] and appear to be single copy, while the remainder was not assessed. In addition to the mapped and unmapped nuclear loci, this reference set also contains the whole chloroplast genome, which spans nearly 127 KB. This assembly has therefore gone through strict quality trimming and should represent the majority of genes expressed in young seedlings. </p></sec><sec><title>3.2. Alignments</title><p>We first cleaned the raw sequencing files (fastq sequencing files in Illumina 1.3+ format) to remove any low quality reads and potential contaminating vector sequences. To ensure high quality of data, we discarded reads where one or more position had a phred quality score below 3 (in either paired end). We then aligned the reads against the reference transcriptome using <sc>bwa</sc> (<sc>aln</sc> and <sc>sampe</sc> command, default parameters except for read trimming parameter (-q) set at 20 to ensure high quality alignments [<xref rid="B52-biology-01-00575" ref-type="bibr">52</xref>]). Following alignments, we used the Indel Realigner from the genome analysis toolkit (<sc>gatk </sc>[<xref rid="B53-biology-01-00575" ref-type="bibr">53</xref>]) to correct alignment errors near indel regions. We used <sc>samtools </sc>[<xref rid="B54-biology-01-00575" ref-type="bibr">54</xref>] to extract the base-pair information at each site for each individual (<sc>pileup </sc>command, 17 million sites). Note that one individual (PI586932) was not included in the analysis given low sequencing yield (see results section). We parsed this output (base-pair information at each site for each individual) based on several criteria. First, sites with a read depth of less than three were called as missing. Then, if that site passed this first filter, the genotype was called as heterozygous only if the minor allele was represented by more than two reads and the minor allele frequency was at least 10%. At this point, we concatenated information from all individuals for all sites. From this dataset, we filtered on a per site basis, in order to keep only sites for which no more than 20% of all individuals had missing data, expected heterozygosity (<italic>H</italic>e) was greater than 0.2 and observed heterozygosity (<italic>H</italic>o) was smaller than 0.6. Polymorphic sites with values above the latter threshold likely represent paralogous sequence variants instead of true SNPs. Conversely, polymorphic sites with values below the former threshold either represent rare alleles, which possess little information for the sake of differentiating individuals, or sequencing errors (unless very high coverage is attained). Nevertheless, we are aware that our analysis likely contains a small fraction of false positives due to alignment and/or sequencing errors. However, given the large amount of data, high overall coverage, strict quality thresholds cut-offs and visual inspection of random subsets of alignments (several tens of kilobases), we expect the data to be more than sufficient for the analysis we report here. This is evident when the same trends are observed when conducting replicate analysis using small random subsamples (for example in the <sc>structure</sc> runs, see results).</p></sec><sec><title>3.3. Population Genetics</title><p>To ensure that individuals clustered according to their described species, we assessed nuclear genetic structure through Bayesian model-based clustering in <sc>structure</sc> v.2.3 [<xref rid="B55-biology-01-00575" ref-type="bibr">55</xref>]. <sc>structure</sc> determines the most likely number of differentiated clusters (K) represented by the sample and assigns the sampled genotypes to the inferred clusters. Using a random subset of 1,000 markers, we estimated the log likelihood of the data, given different numbers of genetic clusters K, using an admixture model with correlated allele frequencies, without sampling locations as priors and with all other parameters as defaults. For each k value of 1 through 6, we ran ten replicates (50,000 burn-in cycles, 100,000 MCMC iterations), from which we calculated &#x00394;K following [<xref rid="B56-biology-01-00575" ref-type="bibr">56</xref>]. We used the program <sc>structure</sc><sc> harvester </sc>[<xref rid="B57-biology-01-00575" ref-type="bibr">57</xref>] to identify the number of populations K with the best support.</p></sec><sec><title>3.4. Protein Coding Evolution and Effect of Selection</title><p>We identified open reading frames (ORF) in our reference transcriptome using the program <sc>getorf</sc> in <sc>emboss</sc> (European Molecular Biology Open Software Suite [<xref rid="B58-biology-01-00575" ref-type="bibr">58</xref>]). We kept the longest open-ended ORF (minimum length of 300 nucleotides) as the most probable translated region of the gene. We used <sc>paml</sc><sc> (</sc>Phylogenetic Analysis by Maximum Likelihood [<xref rid="B59-biology-01-00575" ref-type="bibr">59</xref>], which accounts for codon usage bias and GC content, to calculate the rate of non synonymous mutations scaled by the rate of synonymous mutations (<italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub>) in a maximum likelihood framework (run-mode = 0, CodonFreq = 2, model = 2). For <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> calculations, we first identified the consensus (major) allele for each site for each species and then annotated these sites into a single consensus sequence per gene per species. We discarded genes where either <italic>d</italic><sub>N</sub>or <italic>d</italic><sub>S</sub> equalled zero, keeping only those <italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub> ratios that could be calculated with confidence.</p><p>We first assessed the effect of selection on protein coding evolution globally. We tested if the ratio of non-synonymous to synonymous fixed differences was greater than the ratio of non-synonymous to synonymous polymorphisms using a g-test as in [<xref rid="B27-biology-01-00575" ref-type="bibr">27</xref>]. As an extension of this approach, the average proportion of amino-acid substitutions driven by positive selection (<italic>alpha</italic>) can be estimated using equation 3 in [<xref rid="B60-biology-01-00575" ref-type="bibr">60</xref>]
+<disp-formula id="biology-01-00575-i001"><inline-graphic xlink:href="biology-01-00575-i001.jpg"/></disp-formula>
+where all averages are across genes and <italic>P</italic><sub>S</sub>, <italic>D</italic><sub>S </sub>, <italic>P</italic><sub>N</sub> and <italic>D</italic><sub>N</sub> are the number of synonymous polymorphisms, synonymous substitutions, nonsynonymous polymorphisms and nonsynonymous substitutions, respectively. Confidence intervals of <italic>alpha</italic> were obtained through bootstraps (1,000 bootstraps) by randomly selecting genes with replacement as described in [<xref rid="B60-biology-01-00575" ref-type="bibr">60</xref>]. In this case, substitutions (<italic>D</italic>) were considered as SNPs with an <italic>F</italic><sub>ST</sub>value greater or equal to 0.9.</p><p>Another way of extracting ecologically relevant information is through the characterization of functional categories that are over-represented within certain subsets of genes [<xref rid="B61-biology-01-00575" ref-type="bibr">61</xref>]. We therefore examined patterns of adaptive protein evolution for distinct gene ontology categories as in [<xref rid="B8-biology-01-00575" ref-type="bibr">8</xref>]. We first compared genes using <sc>blastx</sc> and then employed the best hits to assign gene ontology (GO) annotation terms based on the uniprot database [<xref rid="B62-biology-01-00575" ref-type="bibr">62</xref>]. We calculated <italic>alpha</italic> for GO categories comprised of at least fifty genes and identified categories with the highest <italic>alpha</italic> levels (the top five for each comparison respectively).</p></sec><sec><title>3.5. Genomic Determinants of Protein Evolution</title><p>To assess what genomic factors are correlated with rates of protein evolution, we estimated partial correlation coefficients in the programming language <sc>r</sc> (v.2.13.0. [<xref rid="B63-biology-01-00575" ref-type="bibr">63</xref>], package <sc>ppcor.r </sc> [<xref rid="B64-biology-01-00575" ref-type="bibr">64</xref>]). We assessed the degree of partial correlation between protein divergence (log(<italic>d</italic><sub>N</sub>/<italic>d</italic><sub>S</sub>)), genetic divergence (mean <italic>F</italic><sub>ST</sub>per gene), genetic diversity (<italic>pi</italic>, calculated in <sc>sites</sc> [<xref rid="B65-biology-01-00575" ref-type="bibr">65</xref>], expression specificity, log(expression level), and the absolute value of log(expression species 1/expression species 2). For genetic diversity (<italic>pi</italic>), we also considered using the Watterson estimator <italic>theta</italic> given that this parameter may have a different bias than <italic>pi</italic> [<xref rid="B66-biology-01-00575" ref-type="bibr">66</xref>]. Both estimators (<italic>pi</italic> and <italic>Watterson</italic>) were strongly correlated (r2 = 0.96) and partial correlation coefficient results were largely the same for both. As such, we only report values of <italic>pi</italic>. We calculated <italic>F</italic><sub>ST</sub>values for each SNP (according to [<xref rid="B67-biology-01-00575" ref-type="bibr">67</xref>] using the <sc>r</sc> package <sc>hierfstat </sc>[<xref rid="B68-biology-01-00575" ref-type="bibr">68</xref>] and then averaged it per gene.</p><p>We measured gene expression tissue specificity using a dataset of publicly available Sanger sequences for <italic>H. annuus</italic> developed by the Compositae Genome Project [<xref rid="B48-biology-01-00575" ref-type="bibr">48</xref>]. Briefly, these libraries were constructed using eleven different tissues from two genotypes (callus, roots, disk and ray flowers, pre-fertilized flowers, developing kernel, chemically treated seedlings, environmentally stressed roots, environmentally stressed shoots, germinating seeds, environmentally stressed flowers, and hulls, see [<xref rid="B48-biology-01-00575" ref-type="bibr">48</xref>] for details). These libraries were Sanger sequenced to generate a total of 44,000 barcoded reads. We demultiplexed and compared all reads (<sc>blastx</sc>, <italic>e-</italic>value &#x0003c; 1e-10) against our reference transcriptome of 16,312 genes. We defined expression specificity (range 0&#x02013;11) as the total number of libraries (11) minus the number of libraries where a gene scored at least one hit as in [<xref rid="B7-biology-01-00575" ref-type="bibr">7</xref>].</p><p>For gene expression calculations (level and divergence), we first normalized the number of reads aligned per gene per individual by the median expression of each library. Normalization via the common approach of Reads per Kilobase per Million Mapped Reads (RPKM) can be strongly biased by a relatively small proportion of highly expressed gene and we therefore decided against using it [<xref rid="B69-biology-01-00575" ref-type="bibr">69</xref>]. Given that we were also interested in interpreting differences in expression between genes, we normalized all expression data by gene length<italic>.</italic> Then, we used the <sc>r</sc> package <sc>deseq </sc>[<xref rid="B70-biology-01-00575" ref-type="bibr">70</xref>] to calculate expression divergence per gene, as the absolute mean value of expression for species 1 divided by expression for species 2 on a base two logarithmic scale.</p></sec></sec><sec><title>4. Conclusions</title><p>As the cost of sequencing continues to drop, RNAseq is expected to replace microarrays for many applications that involve determining the structure and dynamics of the transcriptome [<xref rid="B23-biology-01-00575" ref-type="bibr">23</xref>]. While likely to revolutionize our understanding of transcriptome evolution, especially in non-model systems, a possible caveat is that sources of bias in coverage and therefore gene expression estimates are not yet fully understood. For example, it appears that base composition, library preparation and transcript length may all impact gene expression estimates [<xref rid="B23-biology-01-00575" ref-type="bibr">23</xref>]. As reviewed by [<xref rid="B3-biology-01-00575" ref-type="bibr">3</xref>], many challenges remain when dealing with next generation sequence data. In addition, more work is necessary to generalise the relationship between the evolution of promoter sequences, protein coding regions and gene expression in plants [<xref rid="B14-biology-01-00575" ref-type="bibr">14</xref>]. Our study provides a significant advance in our understanding of molecular evolution. It reveals several general trends that appear to be robust to variables such as timing of divergence or experimental growth conditions, given that they have been reported across a broad range of taxa. At the same time, a meta-analysis of studies conducted under different environmental conditions, developmental stages, and species may reveal novel insights into plant molecular evolution that are not apparent when studying only a single condition. With the increased availability of high-throughput sequencing datasets, such large-scale studies are becoming increasingly feasible.</p></sec></body><back><ack><title>Acknowledgments</title><p>This work was supported by Genome Canada (L.H.R.), Genome BC (L.H.R.), the Natural Sciences and Engineering Council (NSERC) of Canada (NSERC-CANPOLIN publication 63), and a NSERC (Natural Science and Engineering Research Council of Canada) postgraduate scholarship to S.R. We thank members of the Rieseberg lab for constructive criticisms on earlier versions of the manuscript.</p></ack><ref-list><title>References and Notes</title><ref id="B1-biology-01-00575"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Larracuente</surname><given-names>A.M.</given-names></name><name><surname>Sackton</surname><given-names>T.B.</given-names></name><name><surname>Greenberg</surname><given-names>A.J.</given-names></name><name><surname>Wong</surname><given-names>A.</given-names></name><name><surname>Singh</surname><given-names>N.D.</given-names></name><name><surname>Sturgill</surname><given-names>D.S.</given-names></name><name><surname>Zhang</surname><given-names>Y.</given-names></name><name><surname>Oliver</surname><given-names>B.</given-names></name><name><surname>Clark</surname><given-names>A.G.</given-names></name></person-group>
+<article-title>Evolution of protein-coding genes in <italic>Drosophila</italic></article-title>
+<source>Trends Genet.</source>
+<year>2008</year>
+<volume>24</volume>
+<fpage>114</fpage>
+<lpage>123</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tig.2007.12.001</pub-id>
+<pub-id pub-id-type="pmid">18249460</pub-id></element-citation></ref><ref id="B2-biology-01-00575"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilad</surname><given-names>Y.</given-names></name><name><surname>Pritchard</surname><given-names>J.</given-names></name><name><surname>Thornton</surname><given-names>K.</given-names></name><name><surname>Thornton</surname><given-names>K.</given-names></name></person-group>
+<article-title>Characterizing natural variation using next-generation sequencing technologies</article-title>
+<source>Trends Genet.</source>
+<year>2009</year>
+<volume>25</volume>
+<fpage>463</fpage>
+<lpage>471</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tig.2009.09.003</pub-id>
+<pub-id pub-id-type="pmid">19801172</pub-id></element-citation></ref><ref id="B3-biology-01-00575"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stapley</surname><given-names>J.</given-names></name><name><surname>Reger</surname><given-names>J.</given-names></name><name><surname>Feulner</surname><given-names>P.G.D.</given-names></name><name><surname>Smadja</surname><given-names>C.</given-names></name><name><surname>Galindo</surname><given-names>J.</given-names></name><name><surname>Ekblom</surname><given-names>R.</given-names></name><name><surname>Bennison</surname><given-names>C.</given-names></name><name><surname>Ball</surname><given-names>A.D.</given-names></name><name><surname>Beclerman</surname><given-names>A.P.</given-names></name><name><surname>Slate</surname><given-names>J.</given-names></name></person-group>
+<article-title>Adaptation genomics: The next generation</article-title>
+<source>Trends Ecol. Evol.</source>
+<year>2010</year>
+<volume>25</volume>
+<fpage>705</fpage>
+<lpage>712</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tree.2010.09.002</pub-id>
+<pub-id pub-id-type="pmid">20952088</pub-id></element-citation></ref><ref id="B4-biology-01-00575"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kryazhimskiy</surname><given-names>S.</given-names></name><name><surname>Plotkin</surname><given-names>J.B.</given-names></name></person-group>
+<article-title>The Population Genetics of dN/dS</article-title>
+<source>PLoS Genet.</source>
+<year>2008</year>
+<volume>4</volume>
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1000304</pub-id>
+</element-citation></ref><ref id="B5-biology-01-00575"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duret</surname><given-names>L.</given-names></name><name><surname>Mouchiroud</surname><given-names>D.</given-names></name></person-group>
+<article-title>Determinants of Substitution Rates in Mammalian Genes: Expression Pattern Affects Selection Intensity but Not Mutation Rate</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2000</year>
+<volume>17</volume>
+<fpage>68</fpage>
+<lpage>74</lpage>
+<pub-id pub-id-type="doi">10.1093/oxfordjournals.molbev.a026239</pub-id>
+<pub-id pub-id-type="pmid">10666707</pub-id></element-citation></ref><ref id="B6-biology-01-00575"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pal</surname><given-names>C.</given-names></name><name><surname>Papp</surname><given-names>B.</given-names></name><name><surname>Lercher</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>An integrated view of protein evolution</article-title>
+<source>Nat. Rev. Genet.</source>
+<year>2006</year>
+<volume>7</volume>
+<fpage>337</fpage>
+<lpage>348</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg1838</pub-id>
+<pub-id pub-id-type="pmid">16619049</pub-id></element-citation></ref><ref id="B7-biology-01-00575"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ingvarsson</surname><given-names>P.K.</given-names></name></person-group>
+<article-title>Gene expression and protein length influence codon usage and rates of sequence evolution in <italic>Populus tremula</italic></article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2007</year>
+<volume>24</volume>
+<fpage>836</fpage>
+<lpage>844</lpage>
+<pub-id pub-id-type="doi">10.1093/molbev/msl212</pub-id>
+<pub-id pub-id-type="pmid">17204548</pub-id></element-citation></ref><ref id="B8-biology-01-00575"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Slotte</surname><given-names>T.</given-names></name><name><surname>Bataillon</surname><given-names>T.</given-names></name><name><surname>Hansen</surname><given-names>T.T.</given-names></name><name><surname>Onge</surname><given-names>K.S.</given-names></name><name><surname>Wright</surname><given-names>S.I.</given-names></name><name><surname>Schierup</surname><given-names>M.H.</given-names></name></person-group>
+<article-title>Genomic determinants of protein evolution and polymorphism in <italic>Arabidopsis</italic></article-title>
+<source>Genome Biol. Evol.</source>
+<year>2011</year>
+<volume>3</volume>
+<fpage>1210</fpage>
+<lpage>1219</lpage>
+<pub-id pub-id-type="doi">10.1093/gbe/evr094</pub-id>
+<pub-id pub-id-type="pmid">21926095</pub-id></element-citation></ref><ref id="B9-biology-01-00575"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nuzhdin</surname><given-names>S.</given-names></name><name><surname>Wayne</surname><given-names>M.</given-names></name><name><surname>Harmon</surname><given-names>K.</given-names></name><name><surname>McIntyre</surname><given-names>L.</given-names></name></person-group>
+<article-title>Common pattern of evolution of gene expression level and protein sequence in <italic>Drosophila</italic></article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2004</year>
+<volume>21</volume>
+<fpage>1308</fpage>
+<lpage>1317</lpage>
+<pub-id pub-id-type="doi">10.1093/molbev/msh128</pub-id>
+<pub-id pub-id-type="pmid">15034135</pub-id></element-citation></ref><ref id="B10-biology-01-00575"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khaitovich</surname><given-names>P.</given-names></name></person-group>
+<article-title>Parallel Patterns of Evolution in the Genomes and Transcriptomes of Humans and Chimpanzees</article-title>
+<source>Science</source>
+<year>2005</year>
+<volume>309</volume>
+<fpage>1850</fpage>
+<lpage>1854</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1108296</pub-id>
+<pub-id pub-id-type="pmid">16141373</pub-id></element-citation></ref><ref id="B11-biology-01-00575"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tirosh</surname><given-names>I.</given-names></name><name><surname>Barkai</surname><given-names>N.</given-names></name></person-group>
+<article-title>Evolution of gene sequence and gene expression are not correlated in yeast</article-title>
+<source>Trends Genet.</source>
+<year>2008</year>
+<volume>24</volume>
+<fpage>109</fpage>
+<lpage>113</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tig.2007.12.004</pub-id>
+<pub-id pub-id-type="pmid">18249461</pub-id></element-citation></ref><ref id="B12-biology-01-00575"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jeukens</surname><given-names>J.</given-names></name><name><surname>Renaut</surname><given-names>S.</given-names></name><name><surname>St-Cyr</surname><given-names>J.</given-names></name><name><surname>Nolte</surname><given-names>A.W.</given-names></name><name><surname>Bernatchez</surname><given-names>L.</given-names></name></person-group>
+<article-title>The transcriptomics of sympatric dwarf and normal lake whitefish (<italic>Coregonus</italic>
+<italic>clupeaformis</italic> spp., Salmonidae) divergence as revealed by next-generation sequencing</article-title>
+<source>Mol. Ecol.</source>
+<year>2010</year>
+<volume>19</volume>
+<fpage>5389</fpage>
+<lpage>5403</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-294X.2010.04934.x</pub-id>
+<pub-id pub-id-type="pmid">21087448</pub-id></element-citation></ref><ref id="B13-biology-01-00575"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kane</surname><given-names>N.C.</given-names></name><name><surname>Barker</surname><given-names>M.S.</given-names></name><name><surname>Zhan</surname><given-names>S.H.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Molecular Evolution across the Asteraceae: Micro- and Macroevolutionary Processes</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2011</year>
+<volume>28</volume>
+<fpage>3225</fpage>
+<lpage>3235</lpage>
+<pub-id pub-id-type="doi">10.1093/molbev/msr166</pub-id>
+<pub-id pub-id-type="pmid">21693439</pub-id></element-citation></ref><ref id="B14-biology-01-00575"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gaut</surname><given-names>B.</given-names></name><name><surname>Yang</surname><given-names>L.</given-names></name><name><surname>Takuno</surname><given-names>S.</given-names></name><name><surname>Eguiarte</surname><given-names>L.E.</given-names></name></person-group>
+<article-title>The Patterns and Causes of Variation in Plant Nucleotide Substitution Rates</article-title>
+<source>Annu. Rev. Ecol. Evol. Syst.</source>
+<year>2011</year>
+<volume>42</volume>
+<fpage>245</fpage>
+<lpage>266</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-ecolsys-102710-145119</pub-id>
+</element-citation></ref><ref id="B15-biology-01-00575"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rieseberg</surname><given-names>L.</given-names></name><name><surname>Willis</surname><given-names>J.</given-names></name></person-group>
+<article-title>Plant Speciation</article-title>
+<source>Science</source>
+<year>2007</year>
+<volume>5840</volume>
+<fpage>910</fpage>
+<lpage>914</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1137729</pub-id>
+<pub-id pub-id-type="pmid">17702935</pub-id></element-citation></ref><ref id="B16-biology-01-00575"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kane</surname><given-names>N.C.</given-names></name><name><surname>King</surname><given-names>M.G.</given-names></name><name><surname>Barker</surname><given-names>M.S.</given-names></name><name><surname>Raduski</surname><given-names>A.</given-names></name><name><surname>Karrenberg</surname><given-names>S.</given-names></name><name><surname>Yatabe</surname><given-names>Y.</given-names></name><name><surname>Knapp</surname><given-names>S.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Comparative genomic and population genetic analyses indicate highly porous genomes and high levels of gene flow between divergent <italic>Helianthus</italic> species</article-title>
+<source>Evolution</source>
+<year>2009</year>
+<volume>63</volume>
+<fpage>2061</fpage>
+<lpage>2075</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1558-5646.2009.00703.x</pub-id>
+<pub-id pub-id-type="pmid">19473382</pub-id></element-citation></ref><ref id="B17-biology-01-00575"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sambatti</surname><given-names>J.</given-names></name><name><surname>Strasburg</surname><given-names>J.L.</given-names></name><name><surname>Ortiz-Barrientos</surname><given-names>D.</given-names></name><name><surname>Baack</surname><given-names>E.J.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Reconciling extremely strong barriers with high levels of gene exchange in annual sunflowers</article-title>
+<source>Evolution</source>
+<year>2012</year>
+<volume>66</volume>
+<fpage>1459</fpage>
+<lpage>1473</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1558-5646.2011.01537.x</pub-id>
+<pub-id pub-id-type="pmid">22519784</pub-id></element-citation></ref><ref id="B18-biology-01-00575"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heiser</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>Hybridization in the Annual Sunflowers-<italic>Helianthus-annuus</italic> X <italic>H-argophyllus</italic></article-title>
+<source>Am. Nat.</source>
+<year>1951</year>
+<volume>85</volume>
+<fpage>65</fpage>
+<lpage>72</lpage>
+</element-citation></ref><ref id="B19-biology-01-00575"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Strasburg</surname><given-names>J.L.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Molecular demographic history of the annual sunflowers <italic>Helianthus annuus</italic> and <italic>H. petiolaris</italic>-Large effective population sizes and rates of long-term gene flow</article-title>
+<source>Evolution</source>
+<year>2008</year>
+<volume>62</volume>
+<fpage>1936</fpage>
+<lpage>1950</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1558-5646.2008.00415.x</pub-id>
+<pub-id pub-id-type="pmid">18462213</pub-id></element-citation></ref><ref id="B20-biology-01-00575"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scascitelli</surname><given-names>M.</given-names></name><name><surname>Whitney</surname><given-names>K.D.</given-names></name><name><surname>Randell</surname><given-names>R.A.</given-names></name><name><surname>King</surname><given-names>M.</given-names></name><name><surname>Buerkle</surname><given-names>C.A.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Genome scan of hybridizing sunflowers from Texas (<italic>Helianthus</italic>
+<italic>annuus</italic> and <italic>H debilis</italic>) reveals asymmetric patterns of introgression and small islands of genomic differentiation</article-title>
+<source>Mol. Ecol.</source>
+<year>2010</year>
+<volume>19</volume>
+<fpage>521</fpage>
+<lpage>541</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-294X.2009.04504.x</pub-id>
+<pub-id pub-id-type="pmid">20355258</pub-id></element-citation></ref><ref id="B21-biology-01-00575"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heiser</surname><given-names>C.B.</given-names><suffix>Jr.</suffix></name></person-group>
+<article-title>Hybridization between the sunflower species <italic>Helianthus</italic>
+<italic>annuus</italic> and H. petiolaris</article-title>
+<source>petiolaris. Evolution</source>
+<year>1947</year>
+<volume>1</volume>
+<fpage>249</fpage>
+<lpage>262</lpage>
+</element-citation></ref><ref id="B22-biology-01-00575"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heiser</surname><given-names>C.B.</given-names><suffix>Jr.</suffix></name></person-group>
+<article-title>Hybridization in the annual sunflowers: <italic>Helianthus annuus</italic> &#x000d7; <italic>H. debilis</italic> var. cucumerifolius</article-title>
+<source>Evolution</source>
+<year>1951</year>
+<volume>5</volume>
+<fpage>42</fpage>
+<lpage>51</lpage>
+<pub-id pub-id-type="doi">10.2307/2405429</pub-id>
+</element-citation></ref><ref id="B23-biology-01-00575"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>Z.</given-names></name><name><surname>Gerstein</surname><given-names>M.</given-names></name><name><surname>Snyder</surname><given-names>M.</given-names></name></person-group>
+<article-title>RNA-Seq: A revolutionary tool for transcriptomics</article-title>
+<source>Nat. Rev. Genet.</source>
+<year>2009</year>
+<volume>10</volume>
+<fpage>57</fpage>
+<lpage>63</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg2484</pub-id>
+<pub-id pub-id-type="pmid">19015660</pub-id></element-citation></ref><ref id="B24-biology-01-00575"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lai</surname><given-names>Z.</given-names></name><name><surname>Kane</surname><given-names>N.C.</given-names></name><name><surname>Kozik</surname><given-names>A.</given-names></name><name><surname>Hodgins</surname><given-names>K.A.</given-names></name><name><surname>Dlugosch</surname><given-names>K.M.</given-names></name><name><surname>Barker</surname><given-names>M.S.</given-names></name><name><surname>Matvienko</surname><given-names>M.</given-names></name><name><surname>Yu</surname><given-names>Q.</given-names></name><name><surname>Turner</surname><given-names>K.G.</given-names></name><name><surname>Pearl</surname><given-names>S.A.</given-names></name><etal/></person-group>
+<article-title>Genomics of Compositae weeds: EST libraries, microarrays, and evidence of introgression</article-title>
+<source>Am. J. Bot.</source>
+<year>2012</year>
+<volume>99</volume>
+<fpage>209</fpage>
+<lpage>218</lpage>
+<pub-id pub-id-type="doi">10.3732/ajb.1100313</pub-id>
+<pub-id pub-id-type="pmid">22058181</pub-id></element-citation></ref><ref id="B25-biology-01-00575"><label>25.</label><element-citation publication-type="webpage">
+<article-title>Dryad</article-title>
+<date-in-citation>(accessed on 8 October 2012)</date-in-citation>
+<comment>Available online:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.5061/dryad.rs4k0/">http://dx.doi.org/10.5061/dryad.rs4k0/</ext-link></comment>
+</element-citation></ref><ref id="B26-biology-01-00575"><label>26.</label><element-citation publication-type="webpage">
+<article-title>United States Department of Agriculture</article-title>
+<date-in-citation>(accessed on 8 October 2012)</date-in-citation>
+<comment>Available online:<ext-link ext-link-type="uri" xlink:href="http://www.arsgrin.gov/npgs/acc/acc_queries.html/">http://www.arsgrin.gov/npgs/acc/acc_queries.html/</ext-link></comment>
+</element-citation></ref><ref id="B27-biology-01-00575"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McDonald</surname><given-names>J.H.</given-names></name><name><surname>Kreitman</surname><given-names>M.</given-names></name></person-group>
+<article-title>Adaptive protein evolution at the adh locus in <italic>Drosophila</italic></article-title>
+<source>Nature</source>
+<year>1991</year>
+<volume>351</volume>
+<fpage>652</fpage>
+<lpage>654</lpage>
+<pub-id pub-id-type="doi">10.1038/351652a0</pub-id>
+<pub-id pub-id-type="pmid">1904993</pub-id></element-citation></ref><ref id="B28-biology-01-00575"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>L.</given-names></name><name><surname>Gaut</surname><given-names>B.S.</given-names></name></person-group>
+<article-title>Factors that Contribute to Variation in Evolutionary Rate among Arabidopsis Genes</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2011</year>
+<volume>28</volume>
+<fpage>2359</fpage>
+<lpage>2369</lpage>
+<pub-id pub-id-type="doi">10.1093/molbev/msr058</pub-id>
+<pub-id pub-id-type="pmid">21389272</pub-id></element-citation></ref><ref id="B29-biology-01-00575"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ptitsyn</surname><given-names>A.</given-names></name></person-group>
+<article-title>Stochastic Resonance Reveals &#x0201c;Pilot Light&#x0201d; Expression in Mammalian Genes</article-title>
+<source>PLoS One</source>
+<year>2008</year>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0001842</pub-id>
+</element-citation></ref><ref id="B30-biology-01-00575"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kane</surname><given-names>N.C.</given-names></name><name><surname>Gill</surname><given-names>N.</given-names></name><name><surname>King</surname><given-names>M.G.</given-names></name><name><surname>Bowers</surname><given-names>J.E.</given-names></name><name><surname>Berges</surname><given-names>H.</given-names></name><name><surname>Gouzy</surname><given-names>J.</given-names></name><name><surname>Bachlava</surname><given-names>E.</given-names></name><name><surname>Langlade</surname><given-names>N.B.</given-names></name><name><surname>Lai</surname><given-names>Z.</given-names></name><name><surname>Stewar</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Progress towards a reference genome for sunflower</article-title>
+<source>Botany</source>
+<year>2011</year>
+<volume>89</volume>
+<fpage>429</fpage>
+<lpage>437</lpage>
+<pub-id pub-id-type="doi">10.1139/b11-032</pub-id>
+</element-citation></ref><ref id="B31-biology-01-00575"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khalturin</surname><given-names>K.</given-names></name><name><surname>Hemmrich</surname><given-names>G.</given-names></name><name><surname>Fraune</surname><given-names>S.</given-names></name><name><surname>Augustin</surname><given-names>R.</given-names></name></person-group>
+<article-title>More than just orphans: Are taxonomically-restricted genes important in evolution?</article-title>
+<source>Trends Genet.</source>
+<year>2009</year>
+<volume>25</volume>
+<fpage>404</fpage>
+<lpage>413</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tig.2009.07.006</pub-id>
+<pub-id pub-id-type="pmid">19716618</pub-id></element-citation></ref><ref id="B32-biology-01-00575"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Homoploid reticulate evolution in <italic>Helianthus</italic> (Asteraceae): Evidence from ribosomal genes</article-title>
+<source>Am. J. Bot.</source>
+<year>1991</year>
+<volume>78</volume>
+<fpage>1218</fpage>
+<lpage>1237</lpage>
+<pub-id pub-id-type="doi">10.2307/2444926</pub-id>
+</element-citation></ref><ref id="B33-biology-01-00575"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Timme</surname><given-names>R.E.</given-names></name><name><surname>Simpson</surname><given-names>B.B.</given-names></name><name><surname>Linder</surname><given-names>C.R.</given-names></name></person-group>
+<article-title>High-resolution phylogeny for <italic>Helianthus</italic> (Asteraceae) using the 18S-26S ribosomal DNA external transcribed spacer</article-title>
+<source>Am. J. Bot.</source>
+<year>2007</year>
+<volume>94</volume>
+<fpage>1837</fpage>
+<lpage>1852</lpage>
+<pub-id pub-id-type="doi">10.3732/ajb.94.11.1837</pub-id>
+<pub-id pub-id-type="pmid">21636379</pub-id></element-citation></ref><ref id="B34-biology-01-00575"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rieseberg</surname><given-names>L.</given-names></name><name><surname>Whitton</surname><given-names>J.</given-names></name><name><surname>Gardner</surname><given-names>K.</given-names></name></person-group>
+<article-title>Hybrid zones and the genetic architecture of a barrier to gene flow between two sunflower species</article-title>
+<source>Genetics</source>
+<year>1999</year>
+<volume>152</volume>
+<fpage>713</fpage>
+<lpage>727</lpage>
+<pub-id pub-id-type="pmid">10353912</pub-id></element-citation></ref><ref id="B35-biology-01-00575"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heiser</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>Variation and Subspeciation in the Common Sunflower, <italic>Helianthus Annuus</italic></article-title>
+<source>Am. Midl. Nat.</source>
+<year>1954</year>
+<volume>51</volume>
+<fpage>287</fpage>
+<lpage>305</lpage>
+<pub-id pub-id-type="doi">10.2307/2422222</pub-id>
+</element-citation></ref><ref id="B36-biology-01-00575"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linder</surname><given-names>C.R.</given-names></name></person-group>
+<article-title>Adaptive Evolution of Seed Oils in Plants: Accounting for the Biogeographic Distribution of Saturated and Unsaturated Fatty Acids in Seed Oils</article-title>
+<source>Am. Nat.</source>
+<year>2000</year>
+<volume>156</volume>
+<fpage>442</fpage>
+<lpage>458</lpage>
+<pub-id pub-id-type="doi">10.1086/303399</pub-id>
+</element-citation></ref><ref id="B37-biology-01-00575"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Whitney</surname><given-names>K.D.</given-names></name><name><surname>Randell</surname><given-names>R.A.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Adaptive Introgression of Herbivore Resistance Traits in the Weedy Sunflower Helianthus annuus</article-title>
+<source>Am. Nat.</source>
+<year>2006</year>
+<volume>167</volume>
+<fpage>794</fpage>
+<lpage>807</lpage>
+<pub-id pub-id-type="doi">10.1086/504606</pub-id>
+<pub-id pub-id-type="pmid">16649157</pub-id></element-citation></ref><ref id="B38-biology-01-00575"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chapman</surname><given-names>M.A.</given-names></name><name><surname>Leebens-Mack</surname><given-names>J.H.</given-names></name><name><surname>Burke</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Positive Selection and expression divergence following gene duplication in the sunflower cycloidea gene family</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2008</year>
+<volume>25</volume>
+<fpage>1260</fpage>
+<lpage>1273</lpage>
+<pub-id pub-id-type="doi">10.1093/molbev/msn001</pub-id>
+<pub-id pub-id-type="pmid">18390478</pub-id></element-citation></ref><ref id="B39-biology-01-00575"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blackman</surname><given-names>B.K.</given-names></name><name><surname>Rasmussen</surname><given-names>D.A.</given-names></name><name><surname>Strasburg</surname><given-names>J.L.</given-names></name><name><surname>Raduski</surname><given-names>A.R.</given-names></name><name><surname>Burke</surname><given-names>J.M.</given-names></name><name><surname>Knapp</surname><given-names>S.J.</given-names></name><name><surname>Michaels</surname><given-names>S.D.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Contributions of Flowering Time Genes to Sunflower Domestication and Improvement</article-title>
+<source>Genetics</source>
+<year>2011</year>
+<volume>187</volume>
+<fpage>271</fpage>
+<lpage>287</lpage>
+<pub-id pub-id-type="doi">10.1534/genetics.110.121327</pub-id>
+<pub-id pub-id-type="pmid">20944017</pub-id></element-citation></ref><ref id="B40-biology-01-00575"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chapman</surname><given-names>M.A.</given-names></name><name><surname>Tang</surname><given-names>S.</given-names></name><name><surname>Draeger</surname><given-names>D.</given-names></name><name><surname>Nambeesan</surname><given-names>S.</given-names></name><name><surname>Shaffer</surname><given-names>H.</given-names></name><name><surname>Barb</surname><given-names>J.G.</given-names></name><name><surname>Knapp</surname><given-names>S.J.</given-names></name><name><surname>Burke</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Genetic Analysis of Floral Symmetry in Van Gogh&#x02019;s Sunflowers Reveals Independent Recruitment of CYCLOIDEA Genes in the Asteraceae</article-title>
+<source>PLoS Genet.</source>
+<year>2012</year>
+<volume>8</volume>
+<pub-id pub-id-type="doi">10.1371/journal.pgen.1002628.g001</pub-id>
+</element-citation></ref><ref id="B41-biology-01-00575"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schluter</surname><given-names>D.</given-names></name><name><surname>Nagel</surname><given-names>L.M.</given-names></name></person-group>
+<article-title>Parallel Speciation by Natural Selection</article-title>
+<source>Am. Nat.</source>
+<year>1995</year>
+<volume>146</volume>
+<fpage>292</fpage>
+<lpage>301</lpage>
+</element-citation></ref><ref id="B42-biology-01-00575"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pavlidis</surname><given-names>P.</given-names></name><name><surname>Jensen</surname><given-names>J.D.</given-names></name><name><surname>Stephan</surname><given-names>W.</given-names></name><name><surname>Stamatakis</surname><given-names>A.</given-names></name></person-group>
+<article-title>A Critical Assessment of Storytelling: Gene Ontology Categories and the Importance of Validating Genomic Scans</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2012</year>
+<volume>29</volume>
+<fpage>3237</fpage>
+<lpage>3248</lpage>
+<pub-id pub-id-type="pmid">22617950</pub-id></element-citation></ref><ref id="B43-biology-01-00575"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Slotte</surname><given-names>T.</given-names></name><name><surname>Foxe</surname><given-names>J.P.</given-names></name><name><surname>Hazzouri</surname><given-names>K.M.</given-names></name><name><surname>Wright</surname><given-names>S.I.</given-names></name></person-group>
+<article-title>Genome-Wide Evidence for Efficient Positive and Purifying Selection in <italic>Capsella grandiflora</italic>, a Plant Species with a Large Effective Population Size</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2010</year>
+<volume>27</volume>
+<fpage>1813</fpage>
+<lpage>1821</lpage>
+<pub-id pub-id-type="doi">10.1093/molbev/msq062</pub-id>
+<pub-id pub-id-type="pmid">20194429</pub-id></element-citation></ref><ref id="B44-biology-01-00575"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Russo</surname><given-names>C.A.</given-names></name><name><surname>Takezaki</surname><given-names>N.</given-names></name><name><surname>Nei</surname><given-names>M.</given-names></name></person-group>
+<article-title>Molecular phylogeny and divergence times of drosophilid species</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>1995</year>
+<volume>12</volume>
+<fpage>391</fpage>
+<lpage>404</lpage>
+<pub-id pub-id-type="pmid">7739381</pub-id></element-citation></ref><ref id="B45-biology-01-00575"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Erwin</surname><given-names>D.H.</given-names></name></person-group>
+<article-title>Macroevolution is more than repeated rounds of microevolution</article-title>
+<source>Evol. Dev.</source>
+<year>2000</year>
+<volume>2</volume>
+<fpage>78</fpage>
+<lpage>84</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1525-142x.2000.00045.x</pub-id>
+<pub-id pub-id-type="pmid">11258393</pub-id></element-citation></ref><ref id="B46-biology-01-00575"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilad</surname><given-names>Y.</given-names></name><name><surname>Rifkin</surname><given-names>S.</given-names></name><name><surname>Pritchard</surname><given-names>J.</given-names></name></person-group>
+<article-title>Revealing the architecture of gene regulation: The promise of eQTL studies</article-title>
+<source>Trends Genet.</source>
+<year>2008</year>
+<volume>24</volume>
+<fpage>408</fpage>
+<lpage>415</lpage>
+<pub-id pub-id-type="doi">10.1016/j.tig.2008.06.001</pub-id>
+<pub-id pub-id-type="pmid">18597885</pub-id></element-citation></ref><ref id="B47-biology-01-00575"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heiser</surname><given-names>C.B.</given-names></name></person-group>
+<article-title>Biosystematics of <italic>Helianthus debilis</italic></article-title>
+<source>Madrono</source>
+<year>1956</year>
+<volume>37</volume>
+<fpage>145</fpage>
+<lpage>176</lpage>
+</element-citation></ref><ref id="B48-biology-01-00575"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heesacker</surname><given-names>A.</given-names></name><name><surname>Kishore</surname><given-names>V.K.</given-names></name><name><surname>Gao</surname><given-names>W.</given-names></name><name><surname>Tang</surname><given-names>S.</given-names></name><name><surname>Kolkman</surname><given-names>J.M.</given-names></name><name><surname>Gingle</surname><given-names>A.</given-names></name><name><surname>Matvienko</surname><given-names>M.</given-names></name><name><surname>Kozik</surname><given-names>A.</given-names></name><name><surname>Michelmore</surname><given-names>R.M.</given-names></name><name><surname>LaI</surname><given-names>Z.</given-names></name><etal/></person-group>
+<article-title>SSRs and INDELs mined from the sunflower EST database: Abundance, polymorphisms, and cross-taxa utility</article-title>
+<source>Theor. Appl. Genet.</source>
+<year>2008</year>
+<volume>117</volume>
+<fpage>1021</fpage>
+<lpage>1029</lpage>
+<pub-id pub-id-type="doi">10.1007/s00122-008-0841-0</pub-id>
+<pub-id pub-id-type="pmid">18633591</pub-id></element-citation></ref><ref id="B49-biology-01-00575"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chevreux</surname><given-names>B.</given-names></name><name><surname>Pfisterer</surname><given-names>T.</given-names></name><name><surname>Drescher</surname><given-names>B.</given-names></name><name><surname>Driesel</surname><given-names>A.</given-names></name><name><surname>M&#x000fc;ller</surname><given-names>W.E.G.</given-names></name><name><surname>Wetter</surname><given-names>T.</given-names></name><name><surname>Suhai</surname><given-names>S.</given-names></name></person-group>
+<article-title>Using the miraEST assembler for reliable and automated mRNA transcript assembly and SNP detection in sequenced ESTs</article-title>
+<source>Genome Res.</source>
+<year>2004</year>
+<volume>14</volume>
+<fpage>1147</fpage>
+<lpage>1159</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.1917404</pub-id>
+<pub-id pub-id-type="pmid">15140833</pub-id></element-citation></ref><ref id="B50-biology-01-00575"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huang</surname><given-names>X.</given-names></name><name><surname>Madan</surname><given-names>A.</given-names></name></person-group>
+<article-title>CAP3: A DNA sequence assembly program</article-title>
+<source>Genome Res.</source>
+<year>1999</year>
+<volume>9</volume>
+<fpage>868</fpage>
+<lpage>877</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.9.9.868</pub-id>
+<pub-id pub-id-type="pmid">10508846</pub-id></element-citation></ref><ref id="B51-biology-01-00575"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bowers</surname><given-names>J.E.</given-names></name><name><surname>Bachlava</surname><given-names>E.</given-names></name><name><surname>Brunick</surname><given-names>R.L.</given-names></name><name><surname>Rieseberg</surname><given-names>L.H.</given-names></name><name><surname>Knapp</surname><given-names>S.J.</given-names></name><name><surname>Burke</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Development of a 10,000 Locus Genetic Map of the Sunflower Genome Based on Multiple Crosses</article-title>
+<source>G3 Genes Genomes Genet.</source>
+<year>2012</year>
+<volume>2</volume>
+<fpage>721</fpage>
+<lpage>729</lpage>
+</element-citation></ref><ref id="B52-biology-01-00575"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>H.</given-names></name><name><surname>Durbin</surname><given-names>R.</given-names></name></person-group>
+<article-title>Fast and accurate short read alignment with Burrows-Wheeler transform</article-title>
+<source>Bioinformatics</source>
+<year>2009</year>
+<volume>25</volume>
+<fpage>1754</fpage>
+<lpage>1760</lpage>
+<pub-id pub-id-type="doi">10.1093/bioinformatics/btp324</pub-id>
+<pub-id pub-id-type="pmid">19451168</pub-id></element-citation></ref><ref id="B53-biology-01-00575"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKenna</surname><given-names>A.</given-names></name><name><surname>Hannal</surname><given-names>M.</given-names></name><name><surname>Banksl</surname><given-names>E.</given-names></name><name><surname>Sivchenko</surname><given-names>A.</given-names></name><name><surname>Cibulskisl</surname><given-names>K.</given-names></name><name><surname>Kernytsky</surname><given-names>A.</given-names></name><name><surname>Garimella</surname><given-names>K.</given-names></name><name><surname>Altshuler</surname><given-names>D.</given-names></name><name><surname>Gabriell</surname><given-names>S.</given-names></name><name><surname>Daly</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>The Genome Analysis Toolkit: A MapReduce framework for analyzing next-generation DNA sequencing data</article-title>
+<source>Genome Res.</source>
+<year>2010</year>
+<volume>20</volume>
+<fpage>1297</fpage>
+<lpage>1303</lpage>
+<pub-id pub-id-type="doi">10.1101/gr.107524.110</pub-id>
+<pub-id pub-id-type="pmid">20644199</pub-id></element-citation></ref><ref id="B54-biology-01-00575"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>H.</given-names></name><name><surname>Handsaker</surname><given-names>B.</given-names></name><name><surname>Wysoker</surname><given-names>A.</given-names></name><name><surname>Fennell</surname><given-names>T.</given-names></name><name><surname>Ruan</surname><given-names>N.</given-names></name><name><surname>Homer</surname><given-names>N.</given-names></name><name><surname>Marth</surname><given-names>G.</given-names></name><name><surname>Abecasis</surname><given-names>G.</given-names></name><name><surname>Durbin</surname><given-names>R.</given-names></name></person-group>
+<article-title>1000 Genome Project Data Processing Subgroup7. The Sequence Alignment/Map format and SAMtools</article-title>
+<source>Bioinformatics</source>
+<year>2009</year>
+<volume>25</volume>
+<fpage>2078</fpage>
+<lpage>2079</lpage>
+<pub-id pub-id-type="doi">10.1093/bioinformatics/btp352</pub-id>
+<pub-id pub-id-type="pmid">19505943</pub-id></element-citation></ref><ref id="B55-biology-01-00575"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pritchard</surname><given-names>J.</given-names></name><name><surname>Stephens</surname><given-names>M.</given-names></name><name><surname>Donnelly</surname><given-names>P.</given-names></name></person-group>
+<article-title>Inference of population structure using multilocus genotype data</article-title>
+<source>Genetics</source>
+<year>2000</year>
+<volume>155</volume>
+<fpage>945</fpage>
+<lpage>959</lpage>
+<pub-id pub-id-type="pmid">10835412</pub-id></element-citation></ref><ref id="B56-biology-01-00575"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Evanno</surname><given-names>G.</given-names></name><name><surname>Regnaut</surname><given-names>S.</given-names></name><name><surname>Goudet</surname><given-names>J.</given-names></name></person-group>
+<article-title>Detecting the number of clusters of individuals using the software structure: A simulation study</article-title>
+<source>Mol. Ecol.</source>
+<year>2005</year>
+<volume>14</volume>
+<fpage>2611</fpage>
+<lpage>2620</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-294X.2005.02553.x</pub-id>
+<pub-id pub-id-type="pmid">15969739</pub-id></element-citation></ref><ref id="B57-biology-01-00575"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Earl</surname><given-names>D.A.</given-names></name><name><surname>von Holdt</surname><given-names>B.M.</given-names></name></person-group>
+<article-title>STRUCTURE HARVESTER: A website and program for visualizing STRUCTURE output and implementing the Evanno method</article-title>
+<source>Conserv. Genet. Resour.</source>
+<year>2011</year>
+<pub-id pub-id-type="doi">10.1007/s12686-011-9548-7</pub-id>
+</element-citation></ref><ref id="B58-biology-01-00575"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rice</surname><given-names>P.</given-names></name><name><surname>Longden</surname><given-names>I.</given-names></name><name><surname>Bleasby</surname><given-names>A.</given-names></name></person-group>
+<article-title>EMBOSS: The European molecular biology open software suite</article-title>
+<source>Trends Genet.</source>
+<year>2000</year>
+<volume>16</volume>
+<fpage>276</fpage>
+<lpage>277</lpage>
+<pub-id pub-id-type="doi">10.1016/S0168-9525(00)02024-2</pub-id>
+<pub-id pub-id-type="pmid">10827456</pub-id></element-citation></ref><ref id="B59-biology-01-00575"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Z.</given-names></name></person-group>
+<article-title>PAML 4: Phylogenetic analysis by maximum likelihood</article-title>
+<source>Mol. Biol. Evol. 20</source>
+<year>0724</year>
+<fpage>1586</fpage>
+<lpage>1591</lpage>
+</element-citation></ref><ref id="B60-biology-01-00575"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Smith</surname><given-names>N.G.C.</given-names></name><name><surname>Eyre-Walker</surname><given-names>A.</given-names></name></person-group>
+<article-title>Adaptive protein evolution in <italic>Drosophila</italic></article-title>
+<source>Nature</source>
+<year>2002</year>
+<volume>415</volume>
+<fpage>1022</fpage>
+<lpage>1024</lpage>
+<pub-id pub-id-type="doi">10.1038/4151022a</pub-id>
+<pub-id pub-id-type="pmid">11875568</pub-id></element-citation></ref><ref id="B61-biology-01-00575"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ashburner</surname><given-names>M.</given-names></name><name><surname>Ball</surname><given-names>C.A.</given-names></name><name><surname>Blake</surname><given-names>J.A.</given-names></name><name><surname>Botstei</surname><given-names>D.</given-names></name><name><surname>Butler</surname><given-names>H.</given-names></name><name><surname>Cherry</surname><given-names>J.M.</given-names></name><name><surname>Davis</surname><given-names>A.P.</given-names></name><name><surname>Dolinski</surname><given-names>K.</given-names></name><name><surname>Dwight</surname><given-names>S.S.</given-names></name><name><surname>Eppig</surname><given-names>J.T.</given-names></name><etal/></person-group>
+<article-title>Gene Ontology: Tool for the unification of biology</article-title>
+<source>Nat. Genet.</source>
+<year>2000</year>
+<volume>25</volume>
+<fpage>25</fpage>
+<lpage>29</lpage>
+<pub-id pub-id-type="doi">10.1038/75556</pub-id>
+<pub-id pub-id-type="pmid">10802651</pub-id></element-citation></ref><ref id="B62-biology-01-00575"><label>62.</label><element-citation publication-type="webpage">
+<article-title>UniProt</article-title>
+<date-in-citation>(accessed on 08 October 2012)</date-in-citation>
+<comment>Available online:<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/uniprot/">http://www.ebi.ac.uk/uniprot/</ext-link></comment>
+</element-citation></ref><ref id="B63-biology-01-00575"><label>63.</label><element-citation publication-type="book">
+<collab>R Development Core Team</collab>
+<source>R: A Language and Environment for Statistical Computing</source>
+<publisher-name>R Foundation for Statistical Computing</publisher-name>
+<publisher-loc>Vienna, Austria</publisher-loc>
+<year>2012</year>
+</element-citation></ref><ref id="B64-biology-01-00575"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>S.H.</given-names></name><name><surname>Yi</surname><given-names>S.V.</given-names></name></person-group>
+<article-title>Understanding relationship between sequence and functional evolution in yeast proteins</article-title>
+<source>Genetica</source>
+<year>2007</year>
+<volume>131</volume>
+<fpage>151</fpage>
+<lpage>156</lpage>
+<pub-id pub-id-type="doi">10.1007/s10709-006-9125-2</pub-id>
+<pub-id pub-id-type="pmid">17160620</pub-id></element-citation></ref><ref id="B65-biology-01-00575"><label>65.</label><element-citation publication-type="webpage">
+<article-title>SITES (Hey Lab Distributed Software)</article-title>
+<date-in-citation>(accessed on 08 October 2012)</date-in-citation>
+<comment>Available online:<ext-link ext-link-type="uri" xlink:href="http://genfaculty.rutgers.edu/hey/%E2%80%A8software#SITES/">http://genfaculty.rutgers.edu/hey/%E2%80%A8software#SITES/</ext-link></comment>
+</element-citation></ref><ref id="B66-biology-01-00575"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Watterson</surname><given-names>G.A.</given-names></name></person-group>
+<article-title>Theoretical Population Biology-On the number of segregating sites in genetical models without recombination</article-title>
+<source>Theoret. Popul. Biol.</source>
+<year>1975</year>
+<volume>7</volume>
+<fpage>256</fpage>
+<lpage>276</lpage>
+<pub-id pub-id-type="doi">10.1016/0040-5809(75)90020-9</pub-id>
+<pub-id pub-id-type="pmid">1145509</pub-id></element-citation></ref><ref id="B67-biology-01-00575"><label>67.</label><element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Weir</surname><given-names>B.</given-names></name></person-group>
+<source>Genetic Data Analysis II</source>
+<publisher-name>Sinauer Associates, Inc.</publisher-name>
+<publisher-loc>Sunderland, MA, USA</publisher-loc>
+<year>1996</year>
+</element-citation></ref><ref id="B68-biology-01-00575"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goudet</surname><given-names>J.</given-names></name></person-group>
+<article-title>HIERFSTAT, a package for R to compute and test hierarchical F-statistics</article-title>
+<source>Mol. Ecol. Notes</source>
+<year>2005</year>
+<volume>5</volume>
+<fpage>184</fpage>
+<lpage>186</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1471-8286.2004.00828.x</pub-id>
+</element-citation></ref><ref id="B69-biology-01-00575"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bullard</surname><given-names>J.H.</given-names></name><name><surname>Purdom</surname><given-names>E.</given-names></name><name><surname>Hansen</surname><given-names>K.D.</given-names></name><name><surname>Dudoit</surname><given-names>S.</given-names></name></person-group>
+<article-title>Evaluation of statistical methods for normalization and differential expression in mRNA-Seq experiments</article-title>
+<source>BMC Bioinformatics</source>
+<year>2010</year>
+<volume>11</volume>
+<fpage>94</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="doi">10.1186/1471-2105-11-94</pub-id>
+<pub-id pub-id-type="pmid">20167110</pub-id></element-citation></ref><ref id="B70-biology-01-00575"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anders</surname><given-names>S.</given-names></name><name><surname>Huber</surname><given-names>W.</given-names></name></person-group>
+<article-title>Differential expression analysis for sequence count data</article-title>
+<source>Genome Biol.</source>
+<year>2010</year>
+<volume>11</volume>
+<fpage>R106</fpage>
+<pub-id pub-id-type="doi">10.1186/gb-2010-11-10-r106</pub-id>
+<pub-id pub-id-type="pmid">20979621</pub-id></element-citation></ref></ref-list></back></article>

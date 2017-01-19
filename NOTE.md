@@ -4,11 +4,9 @@
 ### January 10, 2017; Meeting
 **Participants**: Peter Murray-Rust (PMR), Christopher Kittel  (CK)
 
-PMR: Introducing SciCodes, Alice Allen's research proposal to the LJ Arnold Foundation. Discussing overlaps in aims with other ContentMine projects.
+PMR: Introducing SciCodes, Alice Allen's research proposal to the LJ Arnold Foundation. Discussing overlaps in aims with other ContentMine projects. Talking about possible venues to obtain grants and collaborators, especially through EU. Advocating for open science, including disclosure of failed experiments and unpublished data.
 
-PMR: Talking about possible venues to obtain grants and collaborators. Advocating for open science, including disclosure of failed experiments and unpublished data.
-
-CK: Discussing `word2vec` to build a dictionary of software packages or code names. Willing to provide a server (Apache Spark) and necessary technical supports to scale up.
+CK: Discussing `word2vec` to build a dictionary of software packages or code names. Willing to provide some technical supports for concrete tasks closer to his expertise.
 
 
 ### December 30, 2016; Report

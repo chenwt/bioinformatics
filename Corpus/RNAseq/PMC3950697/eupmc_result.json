@@ -1,0 +1,606 @@
+{
+  "id": [
+    "24357408"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "24357408"
+  ],
+  "pmcid": [
+    "PMC3950697"
+  ],
+  "doi": [
+    "10.1093/nar/gkt1300"
+  ],
+  "title": [
+    "Combining DGE and RNA-sequencing data to identify new polyA+ non-coding transcripts in the human genome."
+  ],
+  "authorString": [
+    "Philippe N, Bou Samra E, Boureux A, Mancheron A, Rufflé F, Bai Q, De Vos J, Rivals E, Commes T."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Philippe N"
+          ],
+          "firstName": [
+            "Nicolas"
+          ],
+          "lastName": [
+            "Philippe"
+          ],
+          "initials": [
+            "N"
+          ],
+          "affiliation": [
+            "Transcriptomics, bioinformatics and myeloid leukaemia, INSERM, U1040, Institute for Research in Biotherapy, Montpellier F-34197, France, Université Montpellier 2, Montpellier, France, Institut de Biologie Computationnelle, Maison de la modélisation, Université Montpellier 2, France, LIRMM, MAB, CNRS UMR 5506, Université Montpellier 2, Montpellier, France and Genomic instability of pluripotent stem cells, INSERM, U1040, Institute for Research in Biotherapy, Montpellier F-34197, France."
+          ]
+        },
+        {
+          "fullName": [
+            "Bou Samra E"
+          ],
+          "firstName": [
+            "Elias"
+          ],
+          "lastName": [
+            "Bou Samra"
+          ],
+          "initials": [
+            "E"
+          ]
+        },
+        {
+          "fullName": [
+            "Boureux A"
+          ],
+          "firstName": [
+            "Anthony"
+          ],
+          "lastName": [
+            "Boureux"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Mancheron A"
+          ],
+          "firstName": [
+            "Alban"
+          ],
+          "lastName": [
+            "Mancheron"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Rufflé F"
+          ],
+          "firstName": [
+            "Florence"
+          ],
+          "lastName": [
+            "Rufflé"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Bai Q"
+          ],
+          "firstName": [
+            "Qiang"
+          ],
+          "lastName": [
+            "Bai"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-7423-0712",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "De Vos J"
+          ],
+          "firstName": [
+            "John"
+          ],
+          "lastName": [
+            "De Vos"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-1880-4130",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Rivals E"
+          ],
+          "firstName": [
+            "Eric"
+          ],
+          "lastName": [
+            "Rivals"
+          ],
+          "initials": [
+            "E"
+          ]
+        },
+        {
+          "fullName": [
+            "Commes T"
+          ],
+          "firstName": [
+            "Thérèse"
+          ],
+          "lastName": [
+            "Commes"
+          ],
+          "initials": [
+            "T"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-7423-0712",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-3791-3973",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1880-4130",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "5"
+      ],
+      "volume": [
+        "42"
+      ],
+      "journalIssueId": [
+        "2138818"
+      ],
+      "dateOfPublication": [
+        "2014 Mar"
+      ],
+      "monthOfPublication": [
+        "3"
+      ],
+      "yearOfPublication": [
+        "2014"
+      ],
+      "printPublicationDate": [
+        "2014-03-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nucleic acids research"
+          ],
+          "ISOAbbreviation": [
+            "Nucleic Acids Res."
+          ],
+          "medlineAbbreviation": [
+            "Nucleic Acids Res"
+          ],
+          "NLMid": [
+            "0411011"
+          ],
+          "ISSN": [
+            "0305-1048"
+          ],
+          "ESSN": [
+            "1362-4962"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2014"
+  ],
+  "pageInfo": [
+    "2820-2832"
+  ],
+  "abstractText": [
+    "Recent sequencing technologies that allow massive parallel production of short reads are the method of choice for transcriptome analysis. Particularly, digital gene expression (DGE) technologies produce a large dynamic range of expression data by generating short tag signatures for each cell transcript. These tags can be mapped back to a reference genome to identify new transcribed regions that can be further covered by RNA-sequencing (RNA-Seq) reads. Here, we applied an integrated bioinformatics approach that combines DGE tags, RNA-Seq, tiling array expression data and species-comparison to explore new transcriptional regions and their specific biological features, particularly tissue expression or conservation. We analysed tags from a large DGE data set (designated as 'TranscriRef'). We then annotated 750,000 tags that were uniquely mapped to the human genome according to Ensembl. We retained transcripts originating from both DNA strands and categorized tags corresponding to protein-coding genes, antisense, intronic- or intergenic-transcribed regions and computed their overlap with annotated non-coding transcripts. Using this bioinformatics approach, we identified ∼34,000 novel transcribed regions located outside the boundaries of known protein-coding genes. As demonstrated using sequencing data from human pluripotent stem cells for biological validation, the method could be easily applied for the selection of tissue-specific candidate transcripts. DigitagCT is available at http://cractools.gforge.inria.fr/softwares/digitagct."
+  ],
+  "affiliation": [
+    "Transcriptomics, bioinformatics and myeloid leukaemia, INSERM, U1040, Institute for Research in Biotherapy, Montpellier F-34197, France, Université Montpellier 2, Montpellier, France, Institut de Biologie Computationnelle, Maison de la modélisation, Université Montpellier 2, France, LIRMM, MAB, CNRS UMR 5506, Université Montpellier 2, Montpellier, France and Genomic instability of pluripotent stem cells, INSERM, U1040, Institute for Research in Biotherapy, Montpellier F-34197, France."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Cell Line"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Untranslated"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Poly A"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "AN"
+                  ],
+                  "qualifierName": [
+                    "analysis"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcription, Genetic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Genome, Human"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Sequence Annotation"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Poly A"
+          ],
+          "registryNumber": [
+            "24937-83-5"
+          ]
+        },
+        {
+          "name": [
+            "RNA, Untranslated"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3950697?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3950697"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=24357408&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=24357408"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1093/nar/gkt1300"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "2"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2014-05-19"
+  ],
+  "dateOfCreation": [
+    "2014-03-13"
+  ],
+  "electronicPublicationDate": [
+    "2013-12-18"
+  ],
+  "firstPublicationDate": [
+    "2013-12-18"
+  ]
+}

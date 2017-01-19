@@ -1,0 +1,424 @@
+{
+  "id": [
+    "27239475"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27239475"
+  ],
+  "pmcid": [
+    "PMC4864564"
+  ],
+  "doi": [
+    "10.1155/2016/8367534"
+  ],
+  "title": [
+    "Guitar: An R/Bioconductor Package for Gene Annotation Guided Transcriptomic Analysis of RNA-Related Genomic Features."
+  ],
+  "authorString": [
+    "Cui X, Wei Z, Zhang L, Liu H, Sun L, Zhang SW, Huang Y, Meng J."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Cui X"
+          ],
+          "firstName": [
+            "Xiaodong"
+          ],
+          "lastName": [
+            "Cui"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "Department of Electrical and Computer Engineering, University of Texas at San Antonio, San Antonio, TX 78230, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Wei Z"
+          ],
+          "firstName": [
+            "Zhen"
+          ],
+          "lastName": [
+            "Wei"
+          ],
+          "initials": [
+            "Z"
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, HRINU, SUERI, Xi'an Jiaotong-Liverpool University, Suzhou 215123, China; Institute of Integrative Biology, University of Liverpool, Liverpool L69 3BX, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang L"
+          ],
+          "firstName": [
+            "Lin"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "School of Information and Electrical Engineering, China University of Mining and Technology, Xuzhou 221116, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Liu H"
+          ],
+          "firstName": [
+            "Hui"
+          ],
+          "lastName": [
+            "Liu"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "School of Information and Electrical Engineering, China University of Mining and Technology, Xuzhou 221116, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Sun L"
+          ],
+          "firstName": [
+            "Lei"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "School of Information Engineering, Yangzhou University, Yangzhou, Jiangsu 225127, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang SW"
+          ],
+          "firstName": [
+            "Shao-Wu"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "SW"
+          ],
+          "affiliation": [
+            "School of Automation, Northwestern Polytechnical University, Xi'an, Shaanxi 710027, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Huang Y"
+          ],
+          "firstName": [
+            "Yufei"
+          ],
+          "lastName": [
+            "Huang"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "Department of Electrical and Computer Engineering, University of Texas at San Antonio, San Antonio, TX 78230, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Meng J"
+          ],
+          "firstName": [
+            "Jia"
+          ],
+          "lastName": [
+            "Meng"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0003-3455-205X",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biological Sciences, HRINU, SUERI, Xi'an Jiaotong-Liverpool University, Suzhou 215123, China; Institute of Integrative Biology, University of Liverpool, Liverpool L69 3BX, UK."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3455-205X",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "2016"
+      ],
+      "journalIssueId": [
+        "2375656"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BioMed research international"
+          ],
+          "ISOAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "medlineAbbreviation": [
+            "Biomed Res Int"
+          ],
+          "NLMid": [
+            "101600173"
+          ],
+          "ISSN": [
+            "2314-6133"
+          ],
+          "ESSN": [
+            "2314-6141"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "8367534"
+  ],
+  "abstractText": [
+    "Biological features, such as genes and transcription factor binding sites, are often denoted with genome-based coordinates as the genomic features. While genome-based representation is usually very effective in correlating various biological features, it can be tedious to examine the relationship between RNA-related genomic features and the landmarks of RNA transcripts with existing tools due to the difficulty in the conversion between genome-based coordinates and RNA-based coordinates. We developed here an open source Guitar R/Bioconductor package for sketching the transcriptomic view of RNA-related biological features represented by genome based coordinates. Internally, Guitar package extracts the standardized RNA coordinates with respect to the landmarks of RNA transcripts, with which hundreds of millions of RNA-related genomic features can then be efficiently analyzed within minutes. We demonstrated the usage of Guitar package in analyzing posttranscriptional RNA modifications (5-methylcytosine and N6-methyladenosine) derived from high-throughput sequencing approaches (MeRIP-Seq and RNA BS-Seq) and show that RNA 5-methylcytosine (m(5)C) is enriched in 5'UTR. The newly developed Guitar R/Bioconductor package achieves stable performance on the data tested and revealed novel biological insights. It will effectively facilitate the analysis of RNA methylation data and other RNA-related biological features in the future."
+  ],
+  "affiliation": [
+    "Department of Electrical and Computer Engineering, University of Texas at San Antonio, San Antonio, TX 78230, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "G12 MD007591"
+          ],
+          "agency": [
+            "NIMHD NIH HHS"
+          ],
+          "acronym": [
+            "MD"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U54 CA113001"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 GM113245"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4864564?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4864564"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1155/2016/8367534"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-05-30"
+  ],
+  "dateOfRevision": [
+    "2016-12-19"
+  ],
+  "electronicPublicationDate": [
+    "2016-04-28"
+  ],
+  "firstPublicationDate": [
+    "2016-04-28"
+  ]
+}

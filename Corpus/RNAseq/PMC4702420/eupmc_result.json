@@ -1,0 +1,591 @@
+{
+  "id": [
+    "26738481"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26738481"
+  ],
+  "pmcid": [
+    "PMC4702420"
+  ],
+  "doi": [
+    "10.1186/s12859-015-0873-9"
+  ],
+  "title": [
+    "TRAPLINE: a standardized and automated pipeline for RNA sequencing data analysis, evaluation and annotation."
+  ],
+  "authorString": [
+    "Wolfien M, Rimmbach C, Schmitz U, Jung JJ, Krebs S, Steinhoff G, David R, Wolkenhauer O."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Wolfien M"
+          ],
+          "firstName": [
+            "Markus"
+          ],
+          "lastName": [
+            "Wolfien"
+          ],
+          "initials": [
+            "M"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1887-4772",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Systems Biology and Bioinformatics, University of Rostock, 18057, Rostock, Germany. markus.wolfien@uni-rostock.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Rimmbach C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Rimmbach"
+          ],
+          "initials": [
+            "C"
+          ],
+          "affiliation": [
+            "Reference und Translation Center for Cardiac Stem Cell Therapy (RTC), University of Rostock, Rostock, 18057, Germany. christian.rimmbach@med.uni-rostock.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Schmitz U"
+          ],
+          "firstName": [
+            "Ulf"
+          ],
+          "lastName": [
+            "Schmitz"
+          ],
+          "initials": [
+            "U"
+          ],
+          "affiliation": [
+            "Sydney Medical School, University of Sydney, Sydney, NSW, 2006, Australia. u.schmitz@centenary.org.au."
+          ]
+        },
+        {
+          "fullName": [
+            "Jung JJ"
+          ],
+          "firstName": [
+            "Julia Jeannine"
+          ],
+          "lastName": [
+            "Jung"
+          ],
+          "initials": [
+            "JJ"
+          ],
+          "affiliation": [
+            "Reference und Translation Center for Cardiac Stem Cell Therapy (RTC), University of Rostock, Rostock, 18057, Germany. julia.jung@med.uni-rostock.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Krebs S"
+          ],
+          "firstName": [
+            "Stefan"
+          ],
+          "lastName": [
+            "Krebs"
+          ],
+          "initials": [
+            "S"
+          ],
+          "affiliation": [
+            "Gene Center Munich, LMU Munich, 81377, Munich, Germany. krebs@genzentrum.lmu.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Steinhoff G"
+          ],
+          "firstName": [
+            "Gustav"
+          ],
+          "lastName": [
+            "Steinhoff"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Reference und Translation Center for Cardiac Stem Cell Therapy (RTC), University of Rostock, Rostock, 18057, Germany. gustav.steinhoff@med.uni-rostock.de."
+          ]
+        },
+        {
+          "fullName": [
+            "David R"
+          ],
+          "firstName": [
+            "Robert"
+          ],
+          "lastName": [
+            "David"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Reference und Translation Center for Cardiac Stem Cell Therapy (RTC), University of Rostock, Rostock, 18057, Germany. robert.david@med.uni-rostock.de."
+          ]
+        },
+        {
+          "fullName": [
+            "Wolkenhauer O"
+          ],
+          "firstName": [
+            "Olaf"
+          ],
+          "lastName": [
+            "Wolkenhauer"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "Stellenbosch Institute of Advanced Study (STIAS), Wallenberg Research Centre at Stellenbosch University, 7602, Stellenbosch, South Africa. olaf.wolkenhauer@uni-rostock.de."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-1887-4772",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17"
+      ],
+      "journalIssueId": [
+        "2400756"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "21"
+  ],
+  "abstractText": [
+    "Technical advances in Next Generation Sequencing (NGS) provide a means to acquire deeper insights into cellular functions. The lack of standardized and automated methodologies poses a challenge for the analysis and interpretation of RNA sequencing data. We critically compare and evaluate state-of-the-art bioinformatics approaches and present a workflow that integrates the best performing data analysis, data evaluation and annotation methods in a Transparent, Reproducible and Automated PipeLINE (TRAPLINE) for RNA sequencing data processing (suitable for Illumina, SOLiD and Solexa).Comparative transcriptomics analyses with TRAPLINE result in a set of differentially expressed genes, their corresponding protein-protein interactions, splice variants, promoter activity, predicted miRNA-target interactions and files for single nucleotide polymorphism (SNP) calling. The obtained results are combined into a single file for downstream analysis such as network construction. We demonstrate the value of the proposed pipeline by characterizing the transcriptome of our recently described stem cell derived antibiotic selected cardiac bodies ('aCaBs').TRAPLINE supports NGS-based research by providing a workflow that requires no bioinformatics skills, decreases the processing time of the analysis and works in the cloud. The pipeline is implemented in the biomedical research platform Galaxy and is freely accessible via www.sbi.uni-rostock.de/RNAseqTRAPLINE or the specific Galaxy manual page (https://usegalaxy.org/u/mwolfien/p/trapline---manual)."
+  ],
+  "affiliation": [
+    "Department of Systems Biology and Bioinformatics, University of Rostock, 18057, Rostock, Germany. markus.wolfien@uni-rostock.de."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "MicroRNAs"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Alignment"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Polymorphism, Single Nucleotide"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Protein Interaction Domains and Motifs"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Sequence Annotation"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "High-Throughput Nucleotide Sequencing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ST"
+                  ],
+                  "qualifierName": [
+                    "standards"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcriptome"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "MicroRNAs"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4702420?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4702420"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12859-015-0873-9"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "bioproject"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2016-08-03"
+  ],
+  "dateOfCreation": [
+    "2016-01-07"
+  ],
+  "dateOfRevision": [
+    "2016-01-10"
+  ],
+  "electronicPublicationDate": [
+    "2016-01-06"
+  ],
+  "firstPublicationDate": [
+    "2016-01-06"
+  ]
+}

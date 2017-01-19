@@ -1,0 +1,323 @@
+{
+  "id": [
+    "27549182"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27549182"
+  ],
+  "pmcid": [
+    "PMC4994381"
+  ],
+  "doi": [
+    "10.1186/s12918-016-0324-x"
+  ],
+  "title": [
+    "Inferring extrinsic noise from single-cell gene expression data using approximate Bayesian computation."
+  ],
+  "authorString": [
+    "Lenive O, W Kirk PD, H Stumpf MP."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Lenive O"
+          ],
+          "firstName": [
+            "Oleg"
+          ],
+          "lastName": [
+            "Lenive"
+          ],
+          "initials": [
+            "O"
+          ],
+          "affiliation": [
+            "ICR, Sutton, SM2 5NG, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "W Kirk PD"
+          ],
+          "firstName": [
+            "Paul D"
+          ],
+          "lastName": [
+            "W Kirk"
+          ],
+          "initials": [
+            "PD"
+          ],
+          "affiliation": [
+            "MRC Biostatistics Unit, Cambridge Institute of Public Health, Cambridge, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "H Stumpf MP"
+          ],
+          "firstName": [
+            "Michael P"
+          ],
+          "lastName": [
+            "H Stumpf"
+          ],
+          "initials": [
+            "MP"
+          ],
+          "affiliation": [
+            "Imperial College, London, Centre for Integrative Systems Biology and Bioinformatics, London, SW7 2AZ, UK. m.stumpf@imperial.ac.uk."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "1"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2478087"
+      ],
+      "dateOfPublication": [
+        "2016 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC systems biology"
+          ],
+          "ISOAbbreviation": [
+            "BMC Syst Biol"
+          ],
+          "medlineAbbreviation": [
+            "BMC Syst Biol"
+          ],
+          "NLMid": [
+            "101301827"
+          ],
+          "ESSN": [
+            "1752-0509"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "81"
+  ],
+  "abstractText": [
+    "Gene expression is known to be an intrinsically stochastic process which can involve single-digit numbers of mRNA molecules in a cell at any given time. The modelling of such processes calls for the use of exact stochastic simulation methods, most notably the Gillespie algorithm. However, this stochasticity, also termed \"intrinsic noise\", does not account for all the variability between genetically identical cells growing in a homogeneous environment. Despite substantial experimental efforts, determining appropriate model parameters continues to be a challenge. Methods based on approximate Bayesian computation can be used to obtain posterior parameter distributions given the observed data. However, such inference procedures require large numbers of simulations of the model and exact stochastic simulation is computationally costly. In this work we focus on the specific case of trying to infer model parameters describing reaction rates and extrinsic noise on the basis of measurements of molecule numbers in individual cells at a given time point.To make the problem computationally tractable we develop an exact, model-specific, stochastic simulation algorithm for the commonly used two-state model of gene expression. This algorithm relies on certain assumptions and favourable properties of the model to forgo the simulation of the whole temporal trajectory of protein numbers in the system, instead returning only the number of protein and mRNA molecules present in the system at a specified time point. The computational gain is proportional to the number of protein molecules created in the system and becomes significant for systems involving hundreds or thousands of protein molecules.We employ this simulation algorithm with approximate Bayesian computation to jointly infer the model's rate and noise parameters from published gene expression data. Our analysis indicates that for most genes the extrinsic contributions to noise will be small to moderate but certainly are non-negligible."
+  ],
+  "affiliation": [
+    "ICR, Sutton, SM2 5NG, UK."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "BB/K003909/1"
+          ],
+          "agency": [
+            "Biotechnology and Biological Sciences Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "MR/M017672/1"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "MC_UP_0801/1"
+          ],
+          "agency": [
+            "Medical Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Stochastic simulation",
+        "Gene Expression",
+        "Approximate Bayesian Computation",
+        "Extrinsic Noise"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4994381?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4994381"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12918-016-0324-x"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-08-23"
+  ],
+  "dateOfRevision": [
+    "2017-01-04"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-22"
+  ],
+  "firstPublicationDate": [
+    "2016-08-22"
+  ]
+}

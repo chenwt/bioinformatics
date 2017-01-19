@@ -1,0 +1,283 @@
+{
+  "id": [
+    "24277981"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "24277981"
+  ],
+  "pmcid": [
+    "PMC3836564"
+  ],
+  "doi": [
+    "10.4137/ebo.s13099"
+  ],
+  "title": [
+    "Grouped False-Discovery Rate for Removing the Gene-Set-Level Bias of RNA-seq."
+  ],
+  "authorString": [
+    "Yang TY, Jeong S."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Yang TY"
+          ],
+          "firstName": [
+            "Tae Young"
+          ],
+          "lastName": [
+            "Yang"
+          ],
+          "initials": [
+            "TY"
+          ],
+          "affiliation": [
+            "Department of Mathematics, Myongji University, Yongin, Kyonggi, Korea 449-728."
+          ]
+        },
+        {
+          "fullName": [
+            "Jeong S"
+          ],
+          "firstName": [
+            "Seongmun"
+          ],
+          "lastName": [
+            "Jeong"
+          ],
+          "initials": [
+            "S"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "9"
+      ],
+      "journalIssueId": [
+        "2004841"
+      ],
+      "dateOfPublication": [
+        "2013 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Evolutionary bioinformatics online"
+          ],
+          "ISOAbbreviation": [
+            "Evol. Bioinform. Online"
+          ],
+          "medlineAbbreviation": [
+            "Evol Bioinform Online"
+          ],
+          "NLMid": [
+            "101256319"
+          ],
+          "ESSN": [
+            "1176-9343"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "467-478"
+  ],
+  "abstractText": [
+    "In recent years, RNA-seq has become a very competitive alternative to microarrays. In RNA-seq experiments, the expected read count for a gene is proportional to its expression level multiplied by its transcript length. Even when two genes are expressed at the same level, differences in length will yield differing numbers of total reads. The characteristics of these RNA-seq experiments create a gene-level bias such that the proportion of significantly differentially expressed genes increases with the transcript length, whereas such bias is not present in microarray data. Gene-set analysis seeks to identify the gene sets that are enriched in the list of the identified significant genes. In the gene-set analysis of RNA-seq, the gene-level bias subsequently yields the gene-set-level bias that a gene set with genes of long length will be more likely to show up as enriched than will a gene set with genes of shorter length. Because gene expression is not related to its transcript length, any gene set containing long genes is not of biologically greater interest than gene sets with shorter genes. Accordingly the gene-set-level bias should be removed to accurately calculate the statistical significance of each gene-set enrichment in the RNA-seq. We present a new gene set analysis method of RNA-seq, called FDRseq, which can accurately calculate the statistical significance of a gene-set enrichment score by the grouped false-discovery rate. Numerical examples indicated that FDRseq is appropriate for controlling the transcript length bias in the gene-set analysis of RNA-seq data. To implement FDRseq, we developed the R program, which can be downloaded at no cost from http://home.mju.ac.kr/home/index.action?siteId=tyang."
+  ],
+  "affiliation": [
+    "Department of Mathematics, Myongji University, Yongin, Kyonggi, Korea 449-728."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Rna-seq",
+        "Gene-set Analysis",
+        "Fdrseq",
+        "Gene-level Bias",
+        "Gene-set-level Bias",
+        "Grouped False-discovery Rate"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3836564?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3836564"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=24277981"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=24277981&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.4137/EBO.S13099"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2013-11-26"
+  ],
+  "dateOfCreation": [
+    "2013-11-26"
+  ],
+  "dateOfRevision": [
+    "2016-10-24"
+  ],
+  "electronicPublicationDate": [
+    "2013-11-13"
+  ],
+  "firstPublicationDate": [
+    "2013-11-13"
+  ]
+}

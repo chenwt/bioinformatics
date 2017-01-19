@@ -1,0 +1,391 @@
+{
+  "id": [
+    "27190234"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27190234"
+  ],
+  "pmcid": [
+    "PMC4914128"
+  ],
+  "doi": [
+    "10.1093/nar/gkw448"
+  ],
+  "title": [
+    "RNAontheBENCH: computational and empirical resources for benchmarking RNAseq quantification and differential expression methods."
+  ],
+  "authorString": [
+    "Germain PL, Vitriolo A, Adamo A, Laise P, Das V, Testa G."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Germain PL"
+          ],
+          "firstName": [
+            "Pierre-Luc"
+          ],
+          "lastName": [
+            "Germain"
+          ],
+          "initials": [
+            "PL"
+          ],
+          "affiliation": [
+            "European Institute of Oncology, Department of Experimental Oncology, Via Adamello 16, 20139 Milano, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Vitriolo A"
+          ],
+          "firstName": [
+            "Alessandro"
+          ],
+          "lastName": [
+            "Vitriolo"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1462-8064",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "European Institute of Oncology, Department of Experimental Oncology, Via Adamello 16, 20139 Milano, Italy University of Milan, Department of Oncology and Hemato-Oncology, Via Festa del Perdono 7, 20122 Milano, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Adamo A"
+          ],
+          "firstName": [
+            "Antonio"
+          ],
+          "lastName": [
+            "Adamo"
+          ],
+          "initials": [
+            "A"
+          ],
+          "affiliation": [
+            "European Institute of Oncology, Department of Experimental Oncology, Via Adamello 16, 20139 Milano, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Laise P"
+          ],
+          "firstName": [
+            "Pasquale"
+          ],
+          "lastName": [
+            "Laise"
+          ],
+          "initials": [
+            "P"
+          ],
+          "affiliation": [
+            "European Institute of Oncology, Department of Experimental Oncology, Via Adamello 16, 20139 Milano, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Das V"
+          ],
+          "firstName": [
+            "Vivek"
+          ],
+          "lastName": [
+            "Das"
+          ],
+          "initials": [
+            "V"
+          ],
+          "affiliation": [
+            "European Institute of Oncology, Department of Experimental Oncology, Via Adamello 16, 20139 Milano, Italy University of Milan, Department of Oncology and Hemato-Oncology, Via Festa del Perdono 7, 20122 Milano, Italy."
+          ]
+        },
+        {
+          "fullName": [
+            "Testa G"
+          ],
+          "firstName": [
+            "Giuseppe"
+          ],
+          "lastName": [
+            "Testa"
+          ],
+          "initials": [
+            "G"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-9104-0918",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "European Institute of Oncology, Department of Experimental Oncology, Via Adamello 16, 20139 Milano, Italy University of Milan, Department of Oncology and Hemato-Oncology, Via Festa del Perdono 7, 20122 Milano, Italy giuseppe.testa@ieo.eu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0003-3418-4218",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-9104-0918",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1080-3547",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1462-8064",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "11"
+      ],
+      "volume": [
+        "44"
+      ],
+      "journalIssueId": [
+        "2421642"
+      ],
+      "dateOfPublication": [
+        "2016 Jun"
+      ],
+      "monthOfPublication": [
+        "6"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-06-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nucleic acids research"
+          ],
+          "ISOAbbreviation": [
+            "Nucleic Acids Res."
+          ],
+          "medlineAbbreviation": [
+            "Nucleic Acids Res"
+          ],
+          "NLMid": [
+            "0411011"
+          ],
+          "ISSN": [
+            "0305-1048"
+          ],
+          "ESSN": [
+            "1362-4962"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "5054-5067"
+  ],
+  "abstractText": [
+    "RNA sequencing (RNAseq) has become the method of choice for transcriptome analysis, yet no consensus exists as to the most appropriate pipeline for its analysis, with current benchmarks suffering important limitations. Here, we address these challenges through a rich benchmarking resource harnessing (i) two RNAseq datasets including ERCC ExFold spike-ins; (ii) Nanostring measurements of a panel of 150 genes on the same samples; (iii) a set of internal, genetically-determined controls; (iv) a reanalysis of the SEQC dataset; and (v) a focus on relative quantification (i.e. across-samples). We use this resource to compare different approaches to each step of RNAseq analysis, from alignment to differential expression testing. We show that methods providing the best absolute quantification do not necessarily provide good relative quantification across samples, that count-based methods are superior for gene-level relative quantification, and that the new generation of pseudo-alignment-based software performs as well as established methods, at a fraction of the computing time. We also assess the impact of library type and size on quantification and differential expression analysis. Finally, we have created a R package and a web platform to enable the simple and streamlined application of this resource to the benchmarking of future methods."
+  ],
+  "affiliation": [
+    "European Institute of Oncology, Department of Experimental Oncology, Via Adamello 16, 20139 Milano, Italy."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "616441"
+          ],
+          "agency": [
+            "European Research Council"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4914128?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4914128"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1093/nar/gkw448"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by-nc"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-06-21"
+  ],
+  "dateOfRevision": [
+    "2016-11-22"
+  ],
+  "electronicPublicationDate": [
+    "2016-05-17"
+  ],
+  "firstPublicationDate": [
+    "2016-05-17"
+  ]
+}

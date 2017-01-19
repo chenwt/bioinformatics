@@ -6,6 +6,8 @@ require(XLConnect)
 
 library(tidytext)
 library(magrittr)
+library(dplyr)
+library(plyr)
 library(readr)
 library(ggplot2)
 library(data.table)

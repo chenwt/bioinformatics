@@ -1,0 +1,1910 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName archivearticle3.dtd?><?SourceDTD.Version 3.0?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Stat Med</journal-id><journal-id journal-id-type="iso-abbrev">Stat Med</journal-id><journal-id journal-id-type="doi">10.1002/(ISSN)1097-0258</journal-id><journal-id journal-id-type="publisher-id">SIM</journal-id><journal-title-group><journal-title>Statistics in Medicine</journal-title></journal-title-group><issn pub-type="ppub">0277-6715</issn><issn pub-type="epub">1097-0258</issn><publisher><publisher-name>John Wiley and Sons Inc.</publisher-name><publisher-loc>Hoboken</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">5019244</article-id><article-id pub-id-type="doi">10.1002/sim.6605</article-id><article-id pub-id-type="publisher-id">SIM6605</article-id><article-id pub-id-type="other">sim.6605</article-id><article-categories><subj-group subj-group-type="overline"><subject>Tutorial in Biostatistics</subject></subj-group><subj-group subj-group-type="heading"><subject>Tutorial in Biostatistics</subject></subj-group></article-categories><title-group><article-title>A guide to genome&#x02010;wide association analysis and post&#x02010;analytic interrogation</article-title><alt-title alt-title-type="left-running-head">E. REED ET AL.</alt-title></title-group><contrib-group><contrib id="sim6605-cr-0001" contrib-type="author"><name><surname>Reed</surname><given-names>Eric</given-names></name><xref ref-type="aff" rid="sim6605-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="sim6605-cr-0002" contrib-type="author"><name><surname>Nunez</surname><given-names>Sara</given-names></name><xref ref-type="aff" rid="sim6605-aff-0001">
+<sup>1</sup>
+</xref></contrib><contrib id="sim6605-cr-0003" contrib-type="author"><name><surname>Kulp</surname><given-names>David</given-names></name><xref ref-type="aff" rid="sim6605-aff-0002">
+<sup>2</sup>
+</xref></contrib><contrib id="sim6605-cr-0004" contrib-type="author"><name><surname>Qian</surname><given-names>Jing</given-names></name><xref ref-type="aff" rid="sim6605-aff-0003">
+<sup>3</sup>
+</xref></contrib><contrib id="sim6605-cr-0005" contrib-type="author"><name><surname>Reilly</surname><given-names>Muredach P.</given-names></name><xref ref-type="aff" rid="sim6605-aff-0004">
+<sup>4</sup>
+</xref></contrib><contrib id="sim6605-cr-0006" contrib-type="author" corresp="yes"><name><surname>Foulkes</surname><given-names>Andrea S.</given-names></name><xref ref-type="aff" rid="sim6605-aff-0001">
+<sup>1</sup>
+</xref></contrib></contrib-group><aff id="sim6605-aff-0001"><label><sup>1</sup></label><named-content content-type="organisation-division">Department of Mathematics and Statistics</named-content><institution>Mount Holyoke College</institution><named-content content-type="city">South Hadley</named-content><named-content content-type="country-part">MA</named-content><country country="US">U.S.A.</country></aff><aff id="sim6605-aff-0002"><label><sup>2</sup></label><named-content content-type="organisation-division">Department of Computer Science</named-content><institution>University of Massachusetts</institution><named-content content-type="city">Amherst</named-content><named-content content-type="country-part">MA</named-content><country country="US">U.S.A.</country></aff><aff id="sim6605-aff-0003"><label><sup>3</sup></label><named-content content-type="organisation-division">Department of Biostatistics and Epidemiology</named-content><institution>University of Massachusetts</institution><named-content content-type="city">Amherst</named-content><named-content content-type="country-part">MA</named-content><country country="US">U.S.A.</country></aff><aff id="sim6605-aff-0004"><label><sup>4</sup></label><named-content content-type="organisation-division">Department of Medicine</named-content><institution>University of Pennsylvania</institution><named-content content-type="city">Philadelphia</named-content><named-content content-type="country-part">PA</named-content><country country="US">U.S.A.</country></aff><author-notes><corresp id="correspondenceTo"><label>*</label>
+Correspondence to: Andrea S. Foulkes, Department of Mathematics and Statistics, Mount Holyoke College, South Hadley, MA, U.S.A.<break/>
+E&#x02010;mail: <email>afoulkes@mtholyoke.edu</email><break/></corresp></author-notes><pub-date pub-type="epub"><day>06</day><month>9</month><year>2015</year></pub-date><pub-date pub-type="ppub"><day>10</day><month>12</month><year>2015</year></pub-date><volume>34</volume><issue>28</issue><issue-id pub-id-type="doi">10.1002/sim.v34.28</issue-id><fpage>3769</fpage><lpage>3792</lpage><history><date date-type="received"><day>28</day><month>2</month><year>2015</year></date><date date-type="rev-recd"><day>09</day><month>6</month><year>2015</year></date><date date-type="accepted"><day>06</day><month>7</month><year>2015</year></date></history><permissions><!--<copyright-statement content-type="issue-copyright"> Copyright &#x000a9; 2015 John Wiley & Sons, Ltd. <copyright-statement>--><copyright-statement content-type="article-copyright">&#x000a9; 2015 The Authors. Statistics in Medicine Published by John Wiley &#x00026; Sons Ltd.</copyright-statement><license license-type="creativeCommonsBy-nc-nd"><license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution&#x02010;NonCommercial&#x02010;NoDerivs</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x02010;commercial and no modifications or adaptations are made.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="file:SIM-34-3769.pdf"/><abstract id="sim6605-abs-0001"><p id="sim6605-para-0001">This tutorial is a learning resource that outlines the basic process and provides specific software tools for implementing a complete genome&#x02010;wide association analysis. Approaches to post&#x02010;analytic visualization and interrogation of potentially novel findings are also presented. Applications are illustrated using the free and open&#x02010;source R statistical computing and graphics software environment, Bioconductor software for bioinformatics and the UCSC Genome Browser. Complete genome&#x02010;wide association data on 1401 individuals across 861,473 typed single nucleotide polymorphisms from the PennCATH study of coronary artery disease are used for illustration. All data and code, as well as additional instructional resources, are publicly available through the Open Resources in Statistical Genomics project: <ext-link ext-link-type="uri" xlink:href="http://www.stat-gen.org">http://www.stat-gen.org</ext-link>. &#x000a9; 2015 The Authors. Statistics in Medicine Published by John Wiley &#x00026; Sons Ltd.</p></abstract><kwd-group kwd-group-type="author-generated"><kwd id="sim6605-kwd-0001">statistical genomics</kwd><kwd id="sim6605-kwd-0002">tutorial</kwd><kwd id="sim6605-kwd-0003">genome&#x02010;wide association (GWA) study</kwd><kwd id="sim6605-kwd-0004">R code</kwd><kwd id="sim6605-kwd-0005">Bioconductor</kwd><kwd id="sim6605-kwd-0006">SNP filtering</kwd><kwd id="sim6605-kwd-0007">sample filtering</kwd><kwd id="sim6605-kwd-0008">call rate</kwd><kwd id="sim6605-kwd-0009">minor allele frequency (MAF)</kwd><kwd id="sim6605-kwd-0010">Hardy&#x02013;Weinberg equilibrium (HWE)</kwd><kwd id="sim6605-kwd-0011">heterozygosity</kwd><kwd id="sim6605-kwd-0012">relatedness</kwd><kwd id="sim6605-kwd-0013">IBD</kwd><kwd id="sim6605-kwd-0014">ancestry</kwd><kwd id="sim6605-kwd-0015">substructure</kwd><kwd id="sim6605-kwd-0016">principal component analysis (PCA)</kwd><kwd id="sim6605-kwd-0017">parallel processing</kwd><kwd id="sim6605-kwd-0018">imputation</kwd><kwd id="sim6605-kwd-0019">Manhattan plot</kwd><kwd id="sim6605-kwd-0020">Q&#x02013;Q plot</kwd><kwd id="sim6605-kwd-0021">lambda statistic</kwd><kwd id="sim6605-kwd-0022">heatmap</kwd><kwd id="sim6605-kwd-0023">regional association plot</kwd><kwd id="sim6605-kwd-0024">UCSC Genome Browser</kwd></kwd-group><counts><page-count count="24"/></counts><custom-meta-group><custom-meta><meta-name>source-schema-version-number</meta-name><meta-value>2.0</meta-value></custom-meta><custom-meta><meta-name>component-id</meta-name><meta-value>sim6605</meta-value></custom-meta><custom-meta><meta-name>header-id</meta-name><meta-value>sim6605-hdr-0001</meta-value></custom-meta><custom-meta><meta-name>cover-date</meta-name><meta-value>10 December 2015</meta-value></custom-meta><custom-meta><meta-name>details-of-publishers-convertor</meta-name><meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:4.9.4 mode:remove_FC converted:12.09.2016</meta-value></custom-meta></custom-meta-group></article-meta><notes><p content-type="self-citation">
+<mixed-citation publication-type="journal" id="sim6605-cit-0000">
+<string-name>
+<surname>Reed</surname>, <given-names>E.</given-names>
+</string-name>, <string-name>
+<surname>Nunez</surname>, <given-names>S.</given-names>
+</string-name>, <string-name>
+<surname>Kulp</surname>, <given-names>D.</given-names>
+</string-name>, <string-name>
+<surname>Qian</surname>, <given-names>J.</given-names>
+</string-name>, <string-name>
+<surname>Reilly</surname>, <given-names>M. P.</given-names>
+</string-name>, and <string-name>
+<surname>Foulkes</surname>, <given-names>A. S.</given-names>
+</string-name> (<year>2015</year>) <article-title>A guide to genome&#x02010;wide association analysis and post&#x02010;analytic interrogation</article-title>. <source>Statist. Med.</source>, <volume>34</volume>: <fpage>3769</fpage>&#x02013;<lpage>3792</lpage>. doi: <ext-link ext-link-type="doi" xlink:href="10.1002/sim.6605">10.1002/sim.6605</ext-link>.</mixed-citation>
+</p></notes><notes><fn-group><fn id="sim6605-note-0001"><p>Support for this research is provided by NIH/NHLBI R01&#x02010;HL107196.</p></fn></fn-group></notes></front><body><sec id="sim6605-sec-0002"><label>1</label><title>Introduction</title><p id="sim6605-para-0003">This brief tutorial is intended as a learning and teaching tool, offering the fundamental computational skills for entry into the field of applied statistical genetics and bioinformatics. Unique from existing resources, this tutorial offers the framework as well as complete and extensible R scripts to perform a comprehensive genome&#x02010;wide association (GWA) analysis and post&#x02010;analytic interrogation. Familiarity at an elementary textbook level <xref rid="sim6605-bib-0001" ref-type="ref">1</xref>, <xref rid="sim6605-bib-0002" ref-type="ref">2</xref>, <xref rid="sim6605-bib-0003" ref-type="ref">3</xref> with basic statistical and genetics concepts for GWA studies is assumed. The content of this tutorial builds and expands on several existing and highly recommended resources on genetic and statistical concepts, including <xref rid="sim6605-bib-0004" ref-type="ref">4</xref>, <xref rid="sim6605-bib-0005" ref-type="ref">5</xref>. We begin the analysis after genotyping calls are made and quality control and assurance measures are taken, as described, for example, in <xref rid="sim6605-bib-0006" ref-type="ref">6</xref>, <xref rid="sim6605-bib-0007" ref-type="ref">7</xref>. An alternative freely available software platform is <sc>plink</sc>, another toolset used for whole genome association analysis. Additional post&#x02010;analytic interrogation is also presented in this manuscript using the UCSC Genome Browser. A companion website is available for this tutorial through the Open Resources in Statistical Genomics (ORSG) project (<ext-link ext-link-type="uri" xlink:href="http://www.stat-gen.org">http://www.stat-gen.org</ext-link>) with all R coding examples fully embedded in.Rmd files to be edited and weaved as dynamic and reproducible reports. A complete list of external resources is provided in Supplementary Information A.</p><p id="sim6605-para-0004">The focus of this tutorial is on GWA analysis of common variants that involves testing association of each single nucleotide polymorphism (SNP) independently and subsequently characterizing findings through a variety of visual and analytic tools. In the rare variant setting, in which interest resides in investigating variations that are present in less than 1<italic>%</italic> of the population, alternative techniques are needed that account for regional associations. The reader is referred to a rich literature that addresses rare variant analysis, including <xref rid="sim6605-bib-0008" ref-type="ref">8</xref>, <xref rid="sim6605-bib-0009" ref-type="ref">9</xref>, <xref rid="sim6605-bib-0010" ref-type="ref">10</xref>. In the present manuscript, we focus on the analysis of data arising from population&#x02010;based GWA studies of unrelated individuals where primary interest resides in identifying associations between SNPs and a single binary, for example, case or control status or quantitative phenotype. Extensive methods and tools specific to family&#x02010;based investigations that account for within&#x02010;family correlation structures are also available (e.g., <xref rid="sim6605-bib-0011" ref-type="ref">11</xref>, <xref rid="sim6605-bib-0012" ref-type="ref">12</xref>). Further extensions of the tools presented to censored survival or longitudinal outcomes can be achieved through application of an alternative modeling framework in the association analysis of step 7. The data used for illustration here are limited to the 22 autosomal chromosomes, and both typed and 1000 Genomes <xref rid="sim6605-bib-0013" ref-type="ref">13</xref> imputed SNPs are considered as potential predictor variables. Post&#x02010;analytic interrogation of SNP&#x02010;level findings is an essential part of GWA analysis, and first steps, including mapping positive SNP findings to gene regions, are described herein. We note that there exists a large literature on alternative analytical paradigms for simultaneous analysis of multiple SNPs, including methods for gene&#x02010;based (e.g., <xref rid="sim6605-bib-0014" ref-type="ref">14</xref>, <xref rid="sim6605-bib-0015" ref-type="ref">15</xref>, <xref rid="sim6605-bib-0016" ref-type="ref">16</xref>) and pathway&#x02010;based (e.g., <xref rid="sim6605-bib-0017" ref-type="ref">17</xref>, <xref rid="sim6605-bib-0018" ref-type="ref">18</xref>) analysis, as well as growing literature on gene&#x02013;environment interaction analysis in the context of GWA studies <xref rid="sim6605-bib-0019" ref-type="ref">19</xref>.</p><p id="sim6605-para-0005">The PennCATH cohort data, arising from a GWA study of coronary artery disease (CAD) and cardiovascular risk factors based at University of Pennsylvania Medical Center <xref rid="sim6605-bib-0020" ref-type="ref">20</xref>, are used throughout this tutorial as an illustrative example and have been made publicly available for training use to accompany the tutorial. In this study, a total of <italic>n</italic> = 3850 individuals were recruited between July 1998 and March&#x000a0;2003. A nested case&#x02010;control study of European ancestry severe angiographic CAD cases and angiographic normal controls were selected for genome&#x02010;wide genotyping. De&#x02010;identified data used in this tutorial are composed of <italic>n</italic> = 1401 individuals with genotype information across 861,473 SNPs. Corresponding clinical data, including age, sex, high&#x02010;density lipoprotein (HDL)&#x02010;cholesterol, low&#x02010;density lipoprotein cholesterol, triglycerides, and CAD status are available as well. HDL&#x02010;cholesterol, low&#x02010;density lipoprotein cholesterol and triglycerides are all quantitative traits that are well&#x02010;described cardiovascular disease risk factors. Notably, PennCATH is one of the core GWA studies nested within the Coronary ARtery DIsease Genome&#x02010;wide Replication And Meta&#x02010;analysis (CARDIoGRAM) consortium meta&#x02010;data and serves as a representative regional population with no admixture <xref rid="sim6605-bib-0020" ref-type="ref">20</xref>, <xref rid="sim6605-bib-0021" ref-type="ref">21</xref>.</p><p id="sim6605-para-0006">Genome&#x02010;wide association analysis strategies typically include four broadly defined components: (i) data pre&#x02010;processing; (ii) new data generation; (iii) statistical analysis; and (iv) post&#x02010;analytic interrogation. A primary goal of these investigations is identifying and characterizing the association among SNPs and measures of disease progression or disease outcomes. In Sections&#x000a0;<xref rid="sim6605-sec-0003" ref-type="sec">2</xref> &#x02013; <xref rid="sim6605-sec-0014" ref-type="sec">5</xref> in the succeeding paragraphs, we present the key aspects of each of the core analytic components, including a description of attributes of the data, application of relevant software tools, and guidance on interpretation of findings. An overall summary of the analytic approach we follow is provided in Figure&#x000a0;<xref rid="sim6605-fig-0001" ref-type="fig">1</xref>. Notably, this figure highlights multiple stages within each of the four broadly defined components of analysis. The resultant ten steps are as follows: (1) reading data into R to create an R object; (2) SNP&#x02010;level filtering (part 1); (3) sample&#x02010;level filtering; (4) SNP&#x02010;level filtering (part 2); (5) principal component analysis (PCA); (6) imputation of non&#x02010;typed genotypes; (7) association analysis of typed SNPs; (8) association analysis of imputed data; (9) integration of imputed and typed SNP results; and (10) visualization and quality control of association findings. Further data interrogation using external resources is also discussed. In the following sections, we elaborate on each of these steps. Notably, this workflow is typical for analysis of a single GWA study and may be modified in the context of a large collaborative meta&#x02010;analysis involving the combination of multiple studies requiring harmonization. Additional detail on the analysis pipeline in this context is provided in Section&#x000a0;<xref rid="sim6605-sec-0018" ref-type="sec">6</xref> where we also present a broader contemporary context and additional available&#x000a0;resources.</p><fig fig-type="Figure" xml:lang="en" id="sim6605-fig-0001" orientation="portrait" position="float"><label>Figure 1</label><caption><p>Genome&#x02010;wide association (GWA) analysis workflow. GWA analysis is composed of 10 essential steps that fall into four broadly defined categories as illustrated in this figure. Additional detail on the structure of the data files, particularly the relationship of the.ped and.map files with the.bim,.bed, and.fam files, is provided in Figure&#x000a0;<xref rid="sim6605-fig-0002" ref-type="fig">2</xref>. This workflow is based on a single GWA analysis and may be modified in the context of a large collaborative meta&#x02010;analysis involving the combination of multiple GWA studies that require harmonization. Additional detail on typical modifications in this context is provided in Section&#x000a0;<xref rid="sim6605-sec-0018" ref-type="sec">6</xref>. *Substructure, also referred to as population admixture and population stratification, refers to the presence of genetic diversity (e.g., different allele frequencies) within an apparently homogenous population that is due to population genetic history (e.g., migration, selection, and/or ethnic integration).</p></caption><graphic id="nlm-graphic-1" xlink:href="SIM-34-3769-g001"/></fig></sec><sec id="sim6605-sec-0003"><label>2</label><title>Data pre&#x02010;processing</title><p id="sim6605-para-0007">In the example we present, samples were genotyped using the Affymetrix 6.0 GeneChip and provided to us in.CEL format. The Birdseed calling algorithm, which is based on an expectation&#x02010;maximization type algorithm <xref rid="sim6605-bib-0020" ref-type="ref">20</xref>, was applied to generate genotypes and confidence scores for each sample at every SNP. In turn, PERL and unix scripts were used to convert these to.ped and.map files. While R can read.ped and.map files, it is generally preferable to first convert these two files to.bim,.bed, and.fam files. This can be carried out using PLINK and is preferable as the conversion of the.ped file to a.bed file, a binary formatted file, results in a substantial reduction in file size. In the following texts, we describe the elements of each file type mentioned and their interrelatedness. A visual representation of the data files is provided in Figure&#x000a0;<xref rid="sim6605-fig-0002" ref-type="fig">2</xref>.
+<list list-type="bullet"><list-item id="sim6605-li-0001"><p>.ped and.map files: The.ped file contains information on each study participant including family ID, participant ID, father ID, mother ID, sex, phenotype, and the full typed genotype. Here, each SNP is bi&#x02010;allelic (i.e., only two nucleotides are observed at any given SNP across study participants) and coded as a pair of nucleotides (A, C, T, or G). Notably, the ordering in the pair is non&#x02010;informative in the sense that the first alleles listed for each of the two SNPs are not necessarily on the same chromosome. The.map file contains a row for each SNP with rsNumber (SNP) and corresponding chromosome (chr) and coordinate (BPPos) based on the current genome build.</p></list-item><list-item id="sim6605-li-0002"><p>.bim,.bed, and.fam files: The.bim file contains the same information as the.map file as well as the two observed alleles at each SNP (A1 and A2) from the.ped file. It contains a row for each SNP and six columns, containing information for the chromosome number, rsNumber, genetic distance, position identifier, allele 1, and allele 2. The.bed file contains a binary version of the genotype data. This is the largest of the three files because it contains every SNP in the study, as well as the genotype at this SNP for each individual. The.fam file contains the participant identification information, including a row for each individual and six columns, corresponding the same columns described for the.ped file with the exception of the genotype data. Note that not all of these columns contain unique information. That is, in a population&#x02010;based study of unrelated individuals, &#x02018;family ID number&#x02019;y and &#x02018;individual ID number&#x02019; will be the same.</p></list-item><list-item id="sim6605-li-0003"><p>Clinical data file: An additional ascii.txt or.csv file is typically available, which includes clinical data on each study subject. The rows of this file represent each subject, and the columns correspond to available covariates and phenotypes. There may be redundancies in this file and the data contained in the columns labeled &#x02018;sex&#x02019; and &#x02018;phenotype&#x02019; in the.fam file.</p></list-item></list>
+</p><fig fig-type="Figure" xml:lang="en" id="sim6605-fig-0002" orientation="portrait" position="float"><label>Figure 2</label><caption><p>Genome&#x02010;wide association data files. GWA data files are typically organized into either.ped and.map files or.bim,.bed, and.fam files. Plink converts.ped and.map files into.bim,.bed, and.fam files. The later set is substantially smaller because the.bed file contains a binary version of the genotype data. R can read in either set of files although the later is preferable.</p></caption><graphic id="nlm-graphic-3" xlink:href="SIM-34-3769-g002"/></fig><p id="sim6605-para-0012">We begin by installing packages and setting up global parameters in R. This tutorial utilizes several packages available from Bioconductor, an open&#x02010;source bioinformatic software repository. Of these, we make the most use of <monospace>snpStats</monospace>, which includes functions to read in various formats of genotype data and carry out quality control, imputation, and association analysis. SNPRelate is also well utilized and includes functions for sample&#x02010;level quality control and computationally efficient principal component (PC) calculation. Other packages include functionalities for data visualization (<monospace>ggplot2</monospace>, <monospace>LDheatmap</monospace>, <monospace>postgwas</monospace>), data manipulation (<monospace>plyr</monospace>), and parallel processing (<monospace>doParallel</monospace>), as well as their dependencies.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g007.jpg" position="anchor" id="nlm-graphic-5" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0013">We additionally specify the parameters used in the data processing and analysis. Of particular note, we set the location of the GWA data set (available at <ext-link ext-link-type="uri" xlink:href="https://www.mtholyoke.edu/courses/afoulkes/Data/GWAStutorial/">https://www.mtholyoke.edu/courses/afoulkes/Data/GWAStutorial/</ext-link>) and specify input and output files.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g008.jpg" position="anchor" id="nlm-graphic-7" orientation="portrait"/></boxed-text>
+</p><sec id="sim6605-sec-0004"><label>2.1</label><title>Reading and formatting data in R (step 1)</title><p id="sim6605-para-0014">In order to read the.fam,.bim, and.bed files in R, we use the <monospace>read.plink()</monospace> function in the Bioconductor <monospace>snpStats</monospace> package. The <monospace>genotype</monospace> slot of the resulting list contains an SnpMatrix object, which is a matrix of genotype data with a column for each SNP and a row for each study participant.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g009.jpg" position="anchor" id="nlm-graphic-9" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0015">The clinical data (<italic>GWAStutorial_clinical.csv</italic>) can be read in the familiar way as a comma delimited text&#x000a0;file.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g010.jpg" position="anchor" id="nlm-graphic-11" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0016">Finally, we subset the data at this stage to include only individuals who have data available in both the genotype and phenotype files.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g011.jpg" position="anchor" id="nlm-graphic-13" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0017">In the data example provided, genotype information is available for 861,473 typed SNPs across <italic>n</italic> = 1401 individuals with available phenotype data.</p><p id="sim6605-para-0018">As illustrated in Figure&#x000a0;<xref rid="sim6605-fig-0001" ref-type="fig">1</xref>, once we have read in the the genotype and clinical information, we are ready to proceed with the next steps of the GWA data pre&#x02010;processing. This involves two stages of filtering the data, at SNP and sample levels, respectively. Each of these is described in more detail in the succeeding texts, accompanied by the appropriate R code for implementation. We note again that the order of analysis may vary depending on whether a single GWA analysis is being performed (as described herein) or the analyst is preparing results to be incorporated into a larger meta&#x02010;analysis that requires data harmonization across multiple studies. In the latter case, the following filtering steps (steps 2, 3, and 4) may be excluded or performed centrally after analysis (steps 7 and 8) as summary level data are combined across studies.</p></sec><sec id="sim6605-sec-0005"><label>2.2</label><title>Single nucleotide polymorphism&#x02010;level filtering &#x02013; part 1 (step 2)</title><p id="sim6605-para-0019">The second data pre&#x02010;processing step involve removing (also referred to as &#x02018;filtering&#x02019;) SNPs that will not be included analysis. Well&#x02010;described reasons for this exclusion include large amounts of missing data, low variability, and genotyping errors (e.g., <xref rid="sim6605-bib-0022" ref-type="ref">22</xref>). Typically, SNP&#x02010;level filtering based on a large amount of missing data and lower variability is performed first. This is followed by sample&#x02010;level filtering (see step 3 in the succeeding texts), and finally, SNP&#x02010;level filtering based on possible genotyping errors (see step 4 in the succeeding texts) is performed. The rationale for this is that both sample&#x02010;level relatedness and substructure (for which we filter in step 3) can influence the Hardy&#x02013;Weinberg equilibrium (HWE) criterion (step 4) used for filtering SNPs based on genotyping errors. An iterative procedure that repeats the SNP and sample&#x02010;level filtering until no additional samples are removed is also common. In our setting, however, no samples are filtered, deeming this loop unnecessary.
+<list list-type="bullet"><list-item id="sim6605-li-0004"><p>SNP&#x02010;level filtering: call rate. The call rate for a given SNP is defined as the proportion of individuals in the study for which the corresponding SNP information is not missing. In the following example, we filter using a call rate of 95<italic>%</italic>, meaning we retain SNPs for which there is less than 5<italic>%</italic> missing data. More stringent cut points (e.g., less than 5<italic>%</italic>) may be employed in smaller sample settings.</p></list-item><list-item id="sim6605-li-0005"><p>SNP&#x02010;level filtering: minor allele frequency (MAF). A large degree of homogeneity at a given SNP across study participants generally results in inadequate power to infer a statistically significant relationship between the SNP and the trait under study. This can occur when we have a very small MAF so that the large majority of individuals have two copies of the major allele. Here, we remove SNPs for which the MAF is less than 1<italic>%</italic>. In some instances, particularly small sample settings, a cut point of 5<italic>%</italic> is applied.</p></list-item></list>
+</p><p id="sim6605-para-0023">We filter simultaneously on call rate and MAF using the following script.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g012.jpg" position="anchor" id="nlm-graphic-15" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0024">In the data example provided, we filter 203,287 SNPs based on call rate &#x0003c;0.95 and/or MAF &#x0003c;0.01.</p></sec><sec id="sim6605-sec-0006"><label>2.3</label><title>Sample&#x02010;level filtering (step 3)</title><p id="sim6605-para-0025">The third stage of data pre&#x02010;processing involves filtering samples, that is, removing individuals who we select to be excluded from analysis. Criteria for sample&#x02010;level filtering are generally based on missing data, sample contamination, correlation (for population&#x02010;based investigations), and racial, ethnic, or gender ambiguity or discordance. Each of these is described later. Additional detail on sample&#x02010;level filtering is available in, for example, <xref rid="sim6605-bib-0022" ref-type="ref">22</xref>.
+<list list-type="bullet"><list-item id="sim6605-li-0006"><p>Sample&#x02010;level filtering: call rate. Similar to SNP&#x02010;level filtering based on call rate, we exclude individuals who are missing genotype data across more than a pre&#x02010;defined percentage of the typed SNPs. This proportion of missingness across SNPs is referred to as the sample call rate, and we apply a threshold of 95<italic>%</italic>. That is, individuals who are missing genotype data for more than 5<italic>%</italic> of the typed SNPs are removed. A new reduced dimension <monospace>SnpMatrix</monospace> genotype object is created, which incorporates this filter.</p></list-item><list-item id="sim6605-li-0007"><p>Sample&#x02010;level filtering: heterozygosity. Heterozygosity refers to the presence of each of the two alleles at a given SNP within an individual. This is expected under HWE to occur with probability 2&#x02217;<italic>p</italic>&#x02217;(1 &#x02212; <italic>p</italic>), where <italic>p</italic> is the dominant allele frequency at that SNP (assuming a bi&#x02010;allelic SNP). Excess heterozygosity across typed SNPs within an individual may be an indication of poor sample quality, while deficient heterozygosity can indicate inbreeding or other substructure in that person <xref rid="sim6605-bib-0023" ref-type="ref">23</xref>. Thus, samples with an inbreeding coefficient |<italic>F</italic>|=(1 &#x02212; <italic>O</italic>/<italic>E</italic>) &#x0003e; 0.10 are removed, where <italic>O</italic> and <italic>E</italic> are respectively the observed and expected counts of heterozygous SNPs within an individual. Note that we calculate the expected counts for each individual based on the observed SNPs for that individual.</p></list-item></list>
+</p><p id="sim6605-para-0029">We filter on sample call rate and heterozygosity simultaneously in the following script:
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g013.jpg" position="anchor" id="nlm-graphic-17" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0030">Because the PennCATH data provided are pre&#x02010;filtered, no additional samples are filtered based on an inbreeding coefficient |<italic>F</italic>|&#x0003e;0.10.
+<list list-type="bullet"><list-item id="sim6605-li-0008"><p id="sim6605-para-0032">Sample&#x02010;level filtering: cryptic relatedness, duplicates, and gender identity. Population&#x02010;based cohort studies are often limited to unrelated individuals, and the generalized linear modeling approach described in step 7 (association analysis of typed SNPs) later assumes independence across individuals. Further discussion of alternative data structures and associated analysis tools is provided in Section&#x000a0;<xref rid="sim6605-sec-0018" ref-type="sec">6</xref>. Importantly, in regional cohort studies (e.g., hospital&#x02010;based cohort studies) of complex diseases, individuals from the same family can be recruited unintentionally. A common measure of relatedness (or duplication) between pairs of samples is based on identity by descent (IBD). An IBD kinship coefficient of greater than 0.10 may suggest relatedness, duplicates, or sample mixture. Typically, the individual of a related pair with lower genotype call rate is removed. We note that gender identity can also be checked at this stage to confirm that self&#x02010;reported gender is consistent with the observed X and Y chromosomes; however, in the data example provided, sex chromosomes are not available, and thus, an example of filtering on gender identity is not provided.</p><p id="sim6605-para-0033">We begin by applying linkage disequilibrium (LD) pruning using a threshold value of 0.2, which eliminates a large degree of redundancy in the data and reduces the influence of chromosomal artifacts <xref rid="sim6605-bib-0006" ref-type="ref">6</xref>. This dimension reduction step is commonly applied prior to both IBD analysis and PCA, applied in the succeeding texts for ancestry filtering, and results in large computational savings.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g014.jpg" position="anchor" id="nlm-graphic-19" orientation="portrait"/></boxed-text>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g015.jpg" position="anchor" id="nlm-graphic-21" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0034">This reduces the number of SNPs from 658,186 at the end of step 2 to 72,812. Next, we calculate pairwise IBD distances to search for sample relatedness. A strategy is employed that iteratively removes subjects with the highest number of pairwise kinship coefficients &#x0003e;0.1.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g016.jpg" position="anchor" id="nlm-graphic-23" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0035">In our example, none of the samples are filtered based on the IBD kinship coefficient &#x0003e;0.10.</p></list-item><list-item id="sim6605-li-0009"><p id="sim6605-para-0036">Sample&#x02010;level filtering: ancestry. PCA is one approach to visualizing and classifying individuals into ancestry groups based on their observed genetic makeup. We do this for two reasons: First, self&#x02010;reported race and ethnicity can differ from clusters of individuals that are based solely on genetic information, and second, the presence of an individual not appearing to fall within a racial/ethnic cluster may be suggestive of a sample&#x02010;level error. Note that we use the subset of 72,812 SNPs after LD pruning (step 3&#x02010;c) as the input for the PCA. An alternative strategy to first&#x02010;stage LD pruning, which also improves computational efficiency, is the &#x02018;HapMap rooted&#x02019; analysis, which involves first performing PCA in a reference panel, for example, HapMap or 1000 Genomes, and then projecting the study sample onto the resulting space. This approach is not presented herein but can be implemented with existing functionalities of the Kinship&#x02010;based INference for Gwas (KING) software <xref rid="sim6605-bib-0024" ref-type="ref">24</xref>.</p><p id="sim6605-para-0037">No additional samples are filtered based on visual inspection of PCA plots. Again, we expect this as the PennCATH data provided are pre&#x02010;filtered.</p></list-item></list>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g017.jpg" position="anchor" id="nlm-graphic-25" orientation="portrait"/></boxed-text>
+</p></sec><sec id="sim6605-sec-0007"><label>2.4</label><title>Single nucleotide polymorphism&#x02010;level filtering &#x02013; part 2 (step 4)</title><p id="sim6605-para-0038">
+<list list-type="bullet"><list-item id="sim6605-li-0010"><p id="sim6605-para-0039">SNP&#x02010;level filtering: HWE. Violations of HWE can be an indication of the presence of population substructure or the occurrence of a genotyping error. While they are not always distinguishable, it is a common practice to assume a genotyping error and remove SNPs for which HWE is violated. If case&#x02010;control status is available, we limit this filtering to analysis of controls as a violation in cases may be an indication of association. Departures from HWE are generally measured at a given SNP using a <italic>&#x003c7;</italic>
+<sup>2</sup> goodness&#x02010;of&#x02010;fit test between the observed and expected genotypes. We remove SNPs for which the HWE test statistic has a corresponding <italic>p</italic>&#x02010;value of less than 1 &#x000d7; 10<sup>&#x02212;6</sup> in controls.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g018.jpg" position="anchor" id="nlm-graphic-27" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0040">We filter out an additional 1,296 SNPs based on HWE <italic>p</italic> &#x0003c; 1&#x000d7;10<sup>&#x02212;6</sup> in CAD controls. This results in 656,890 typed SNPs to be considered in the association analysis.</p></list-item></list>
+</p></sec></sec><sec id="sim6605-sec-0008"><label>3</label><title>New data generation</title><p id="sim6605-para-0041">After completion of SNP and sample&#x02010;level filtering, we generate two new types of data prior to performing our statistical analysis. The first are PCs that are intended to capture information of latent population substructure that is typically not available in self&#x02010;reported race and ethnicity variables. The second are genotypes of untyped SNPs that may have a functional relationship to the outcome and therefore provide additional power for identifying association. Each of these is described in more detail in the succeeding&#x000a0;texts.</p><sec id="sim6605-sec-0009"><label>3.1</label><title>Creating principal components for capturing population&#x02010;substructure (step 5)</title><p id="sim6605-para-0042">Substructure, also referred to as population admixture and population stratification, refers to the presence of genetic diversity (e.g., different allele frequencies) within an apparently homogenous population that is due to population genetic history (e.g., migration, selection, and/or ethnic integration). PCs based on observed genotype data capture information on substructure and are straightforward to generate using the <monospace>snpgdsPCA()</monospace> function in the <monospace>SNPRelate</monospace> package based on the full genotype data. Notably, we again apply LD pruning prior to the PCA. Typically, the first 10 PCs are considered as possible confounders. This number is routine, but arbitrary, and one alternative is to select the number of PCs based on a pre&#x02010;defined proportion of variability that they explain. The <italic>&#x003bb;</italic>&#x02010;statistic is typically used to evaluate whether inclusion of PCs is necessary. This is described further in step 10 (quantile&#x02013;quantile (Q&#x02013;Q) plots and the <italic>&#x003bb;</italic>&#x02010;statistic).
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g019.jpg" position="anchor" id="nlm-graphic-29" orientation="portrait"/></boxed-text>
+</p></sec><sec id="sim6605-sec-0010"><label>3.2</label><title>Imputing non&#x02010;typed single nucleotide polymorphisms using 1000 Genomes data (step 6)</title><p id="sim6605-para-0043">Typed SNPs measured using chip array technology typically capture approximately one&#x02010;million polymorphisms, which vary in at least 1<italic>%</italic> of the general population. More generally, interest lies in analyzing association of genotypes of non&#x02010;typed SNPs with disease outcomes because functional (causal) variants may not be measured. Using the extensive externally derived resources on reference haplotypes and their LD structure, such as HapMap and 1000 Genomes data, we can impute the unmeasured genotype data. Three well&#x02010;described and recommended stand&#x02010;alone packages for SNP&#x02010;level imputation are IMPUTE2, MACH, and BEAGLE. Imputed genotypes can be reported as the &#x02018;best guess&#x02019; genotype or as the posterior probability of each genotype at a given location on the genome. Importantly, the uncertainty in this estimation process needs to be accounted for in the association analysis, and thus, we distinguish between genotyped and imputed data henceforth. Methods that specifically account for the uncertainty in the imputed SNP data are described in step 8 later.</p><p id="sim6605-para-0044">After imputation, a quality control step is performed to filter imputed data with high degrees of uncertainty. Common measures of uncertainty are the information content and <italic>R</italic>
+<sup>2</sup>
+<xref rid="sim6605-bib-0025" ref-type="ref">25</xref>. We apply an <italic>R</italic>
+<sup>2</sup> threshold of 0.7 for inclusion in association analysis where in this case, <italic>R</italic>
+<sup>2</sup> is the value association with the linear model regressing each imputed SNP on regional typed SNPs. This is described further in the <monospace>snpStats</monospace> package documentation. Additionally, we exclude SNPs at this stage with a MAF, after assignment of the highest posterior probability genotype, of less than 0.01. For the purpose of illustration, we use the <monospace>snp.imputation()</monospace> and <monospace>impute.snps()</monospace> functions in the R package <monospace>snpStats</monospace> to impute a limited set of 1000 Genome SNPs on the same chromosome (chromosome 16) as the genotyped SNPs identified as genome&#x02010;wide significant in the GWA association analysis (step 7). In practice, imputation is often performed across all chromosomes, resulting in up to 12.5 million typed and imputed SNPs on which association analysis can be performed <xref rid="sim6605-bib-0013" ref-type="ref">13</xref>.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g020.jpg" position="anchor" id="nlm-graphic-31" orientation="portrait"/></boxed-text>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g021.jpg" position="anchor" id="nlm-graphic-33" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0045">We then remove failed imputations, imputed SNPs with high degrees of associated uncertainty, and imputed SNPs with low estimated MAF.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g022.jpg" position="anchor" id="nlm-graphic-35" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0046">This analysis results in 162,565 1000 Genomes imputed SNPs on chromosome 16 that are carried forward in step 8 for association analysis. We again emphasize that the uncertainty in imputation needs to be considered in the context of association analysis, and thus, these SNPs are considered separately from the typed SNPs analyzed in step 7.</p></sec></sec><sec id="sim6605-sec-0011"><label>4</label><title>Genome&#x02010;wide association analysis</title><sec id="sim6605-sec-0012"><label>4.1</label><title>Association analysis of typed single nucleotide polymorphisms (step 7)</title><p id="sim6605-para-0047">Association analysis typically involves regressing each SNP separately on a given trait, adjusted for patient&#x02010;level clinical, demographic, and environmental factors. The assumed underlying genetic model of association for each SNP (e.g., dominant, recessive, or additive) will impact the resulting findings; however, because of the large number of SNPs and the generally uncharacterized relationships to the outcome, a single additive model is typically selected. In this case and as illustrated in the code provided, each SNP is represented as the corresponding number of minor alleles (0, 1, or 2). Notably, coding SNP variables based on alternative models (e.g., dominant or recessive) is straightforward, and the association analysis described proceeds identically <xref rid="sim6605-bib-0026" ref-type="ref">26</xref>, <xref rid="sim6605-bib-0027" ref-type="ref">27</xref>. In practice, a Bonferonni&#x02010;corrected genome&#x02010;wide significance threshold of 5 &#x000d7; 10<sup>&#x02212;8</sup> is used for control of the family&#x02010;wise error rate. This cutoff is based on research, suggesting approximately one&#x02010;million independent SNPs across the genome (e.g., <xref rid="sim6605-bib-0028" ref-type="ref">28</xref>), so tends be applied regardless of the actual number of typed or imputed SNPs under investigation.</p><p id="sim6605-para-0048">In our data example, we use inverse normally transformed HDL&#x02010;cholesterol as the response, adjusting for age, sex, and the first 10 PCs. HDL&#x02010;cholesterol is a complex trait associated with cardiovascular disease, for which age and sex are established risk factors. These two covariates and the arbitrary choice of 10 PCs are routine for cardiovascular disease trait association studies (e.g., <xref rid="sim6605-bib-0020" ref-type="ref">20</xref>, <xref rid="sim6605-bib-0026" ref-type="ref">26</xref>, <xref rid="sim6605-bib-0027" ref-type="ref">27</xref>). Importantly, as in any model fitting procedure, it is essential to evaluate the appropriateness of model assumption and specifically the normality of the trait under study. Visual inspection of a histogram of HDL&#x02010;cholesterol (code provided but plot not shown) reveals some extreme values, and therefore, an inverse normal transformation is selected. Alternative transformations, such as the log&#x02010;transformation, may also be reasonable and have the advantage of maintaining the relative distance between observations. We do not emphasize this in the present tutorial as standard statistical modeling practice can be applied. The following code prepares the phenotype data for analysis.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g023.jpg" position="anchor" id="nlm-graphic-37" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0049">Running a GWA analysis in parallel, that is, simultaneously across several cores, is recommended because of the large number of models that require fitting. Each core runs the GWA analysis for a subset of the SNPs, and when computation is completed across all cores, the output is returned to its original order. In the succeeding texts, we describe a cross&#x02010;platform approach to running the analysis in parallel on MAC, Unix, and Windows operating systems. The <monospace>detectCores()</monospace> function can be used to determine the available number of workers. To run the analysis in parallel, we use the <monospace>dopar()</monospace> function in the <monospace>doParallel</monospace> package, indicating the number of workers. The output of <monospace>doPar()</monospace> is an ascii text file. These are contained in the <monospace>GWAA()</monospace> function that we developed, and is available in Supplementary Information B of this manuscript.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g024.jpg" position="anchor" id="nlm-graphic-39" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0050">In our setting, two genotyped SNPs in the cholesteryl ester transfer protein (CETP) gene region, rs1532625 and rs247617, are suggestive of association (<italic>p</italic> &#x0003c; 5&#x000d7;10<sup>&#x02212;6</sup>) with respective <italic>p</italic>&#x02010;values of 8.92 &#x000d7; 10<sup>&#x02212;8</sup> and 1.25 &#x000d7; 10<sup>&#x02212;7</sup>. CETP is a well&#x02010;characterized gene that has been associated previously with HDL&#x02010;C (e.g., <xref rid="sim6605-bib-0026" ref-type="ref">26</xref>). More information on these SNPs and the process of post&#x02010;analytic interrogation is provided in steps 9 and 10 later.</p></sec><sec id="sim6605-sec-0013"><label>4.2</label><title>Association analysis of imputed data (step 8)</title><p id="sim6605-para-0051">Several stand&#x02010;alone packages can be applied to conduct association analysis of imputed SNPs using the corresponding posterior probabilities. These include, for example, MACH2qtl/dat <xref rid="sim6605-bib-0029" ref-type="ref">29</xref>, ProbABEL <xref rid="sim6605-bib-0030" ref-type="ref">30</xref>, BEAGLE <xref rid="sim6605-bib-0031" ref-type="ref">31</xref>, BIMBAM <xref rid="sim6605-bib-0032" ref-type="ref">32</xref>, and SNPTEST <xref rid="sim6605-bib-0025" ref-type="ref">25</xref>. Reviews and comprehensive comparisons of these approaches can be found in <xref rid="sim6605-bib-0033" ref-type="ref">33</xref>, <xref rid="sim6605-bib-0034" ref-type="ref">34</xref>. The R package <monospace>snpStats</monospace> also has functions to read in imputed data based on which imputation package was used (e.g., BEAGLE, IMPUTE, and MACH). For illustrations, we use the <monospace>single.rhs.tests()</monospace> function in R package <monospace>snpStats</monospace> using the imputation rules generated in step 6.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g025.jpg" position="anchor" id="nlm-graphic-41" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0052">In total, we identify 22 imputed SNPs on chromosome 16 that are significant at a suggestive association threshold of 5 &#x000d7; 10<sup>&#x02212;6</sup>. Next, we select only those SNPs within the region of CETP (&#x000b1;5 Kb) to report. Here, we use the <monospace>map2gene()</monospace> function we developed, which is also available in Supplementary Information B, that identifies the set of SNPs that belong to a specified gene region. This function uses gene coordinates based on Genome Reference Consortium GRCh37 (hg19), provided in the file <italic>ProCodgene_coords.csv</italic>. Further interrogation of these SNPs and the CETP region is provided in Figures&#x000a0;<xref rid="sim6605-fig-0005" ref-type="fig">5</xref>a and&#x000a0;<xref rid="sim6605-fig-0006" ref-type="fig">6</xref> as well as associated text.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g026.jpg" position="anchor" id="nlm-graphic-43" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0053">At this stage, we map 70 imputed SNPs to the CETP region, of which 16 are significant at the suggestive association threshold of 5 &#x000d7; 10<sup>&#x02212;6</sup>.</p></sec></sec><sec id="sim6605-sec-0014"><label>5</label><title>Post&#x02010;analytic visualization and genomic interrogation</title><sec id="sim6605-sec-0015"><label>5.1</label><title>Data integration (step 9)</title><p id="sim6605-para-0054">At this stage, it is also common to ascribe SNPs to loci and report chromosome and base pair locations, also referred to as coordinates or positions. Notably, the SNP coordinate is dependent on the genome build, and in our data example, we use the Genome Reference Consortium GRCh37 (hg19) build. A typical presentation of results includes gene and locus name; SNP name; chromosome number; base pair location, according to a specified build; the coefficient estimate (or odds ratio) from the model fitting procedure; the corresponding standard error; and the associated <italic>p</italic>&#x02010;value.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g027.jpg" position="anchor" id="nlm-graphic-45" orientation="portrait"/></boxed-text>
+</p><p id="sim6605-para-0055">An additional step is required to combine the imputed data results and the typed SNP results. Notably, genotype imputation can involve imputing all SNPs, including both unobserved and typed SNPs. Thus, the analyst may chose to select from the imputation results only SNPs that were not typed or did not pass the SNP&#x02010;level filtering. In our example (step 6), we imputed non&#x02010;typed SNPs as well as SNPs that did not pass SNP&#x02010;level filtering (steps 2 and 4). GWA significant SNPs in this combined set can then be further visualized and interrogated as described in step 10.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g028.jpg" position="anchor" id="nlm-graphic-47" orientation="portrait"/></boxed-text>
+</p></sec><sec id="sim6605-sec-0016"><label>5.2</label><title>Visualization and Quality Control (step 10)</title><p id="sim6605-para-0056">Several plots allow us both to visualize the GWA analysis findings and to perform quality control checks at the same time. Specifically, as elaborated in each section below we are interested in identifying data inconsistencies, potential systemic biases, and consistency of our findings with previously reported results. We describe three visualization tools in the succeeding texts. In addition to these visualization approaches, association analysis using other genetic models can be a useful sensitivity analysis.
+<list list-type="bullet"><list-item id="sim6605-li-0011"><p>Manhattan plots. Manhattan plots are used to visualize GWA significance level by chromosome location as shown in Figure&#x000a0;<xref rid="sim6605-fig-0003" ref-type="fig">3</xref>. Here, each dot corresponds to a single SNP. The <italic>x</italic>&#x02010;axis represents gene coordinates, and the numbers shown correspond to chromosome numbers. The <italic>y</italic>&#x02010;axis is the negative of the log <italic>p</italic>&#x02010;value, so that large values correspond to small <italic>p</italic>&#x02010;values. The solid horizontal line indicates the Bonferonni corrected significance threshold (&#x02212; log(5 &#x000d7; 10<sup>&#x02212;8</sup>)). The dotted horizontal line is a less stringent suggestive association threshold (&#x02212; log(5 &#x000d7; 10<sup>&#x02212;6</sup>)) that we use as an indicator of a suggestive association and requiring further validation, similar to the approach taken in <xref rid="sim6605-bib-0026" ref-type="ref">26</xref>. Visual inspection of this plot allows for identification of SNPs with relatively small <italic>p</italic>&#x02010;values that are in regions with relatively large and non&#x02010;significant <italic>p</italic>&#x02010;values, suggesting potentially spurious findings. Multiple signals in the CETP region suggest that this may be a true signal. This plot is generated using the <monospace>GWAS_Manhattan()</monospace> that we developed and is available in Supplementary Information&#x000a0;B.</p></list-item><list-item id="sim6605-li-0012"><p id="sim6605-para-0059">Q&#x02013;Q plots and the <italic>&#x003bb;</italic>&#x02010;statistic. Q&#x02013;Q plots are used to visualize the relationship between the expected and observed distributions of SNP&#x02010;level test statistics, as illustrated in Figure&#x000a0;<xref rid="sim6605-fig-0004" ref-type="fig">4</xref>a and b. Figure&#x000a0;<xref rid="sim6605-fig-0004" ref-type="fig">4</xref>a uses observed test statistics based on a model that does not adjust for potential confounders, while Figure&#x000a0;<xref rid="sim6605-fig-0004" ref-type="fig">4</xref>b is based on a model that includes the first 10 PCs we generated in step 5 discussed earlier as well as sex and age. We see here that the tail of the distribution is brought closer to the <italic>y</italic> = <italic>x</italic> line after accounting for potential confounding by population substructure in the modeling framework. If the data in this figure were shifted up or down from the <italic>y</italic> = <italic>x</italic> line, then we would consider possible systemic bias. Finally, a slight deviation in the upper right tail from the <italic>y</italic> = <italic>x</italic> line suggests crudely that some form of association is present in the data.</p><p id="sim6605-para-0060">The degree of deviation from this line is measured formally by the <italic>&#x003bb;</italic>&#x02010;statistic <xref rid="sim6605-bib-0035" ref-type="ref">35</xref>, <xref rid="sim6605-bib-0036" ref-type="ref">36</xref>, where a value close to 1 suggests appropriate adjustment for potential substructure. While <italic>&#x003bb;</italic> is improved after adjusting for PCs (from <italic>&#x003bb;</italic> = 1.014 to <italic>&#x003bb;</italic> = 1.0032), a dramatic difference in values is not observed as this PennCATH sample is from a relatively homogenous population. In general, the goal is to achieve a value of <italic>&#x003bb;</italic> close to one; <italic>&#x003bb;</italic> &#x0003e; 1.2 suggests stratification, and typically, additional PCs are included in this setting, and in some cases, the study is eliminated from inclusion in subsequent meta&#x02010;analysis. Calculation of a standardized <italic>&#x003bb;</italic> that accounts for sample size is particularly useful in the context of contrasting values across studies for inclusion in meta&#x02010;analysis. We apply the following code to generate standardized <italic>&#x003bb;</italic>'s for the unadjusted and adjusted models, resulting in <italic>&#x003bb;</italic> = 1.0108 and 1.000632 for the unadjusted and adjusted models, respectively. For binary traits, the standardization approach described in <xref rid="sim6605-bib-0037" ref-type="ref">37</xref> can be applied.</p></list-item><list-item id="sim6605-li-0013"><p id="sim6605-para-0061">Heatmaps and regional association plots. Heatmaps and regional association plots are typically used in the context of GWA analysis to visualize LD patterns between GWA significant SNPs and SNPs in nearby regions, which have been previously reported. LD is typically measured by <italic>r</italic>
+<sup>2</sup> or <italic>D</italic>&#x02032;, which are both transformations of the scalar <italic>D</italic>, defined as the difference between the joint probability of the two major alleles and the product of the two marginal probabilities, where the adjustment is based on allele frequencies. A more detailed description of these quantities can be found in <xref rid="sim6605-bib-0003" ref-type="ref">3</xref>. An example of a heatmap from our data analysis is provided in Figure&#x000a0;<xref rid="sim6605-fig-0005" ref-type="fig">5</xref>a where we include the most significant SNP from our analysis (rs1532625) and SNPs in a nearby gene, CETP. The degree of shading indicates the amount of LD so that darker squares indicates higher LD. This figure is generated using the following code snippet.</p><p>
+<fig fig-type="Figure" xml:lang="en" id="sim6605-fig-0003" orientation="portrait" position="anchor"><label>Figure 3</label><caption><p>Manhattan plot of genome&#x02010;wide association analysis results. This figure illustrates the level of statistical significance (<italic>y</italic>&#x02010;axis), as measured by the negative log of the corresponding <italic>p</italic>&#x02010;value, for each single nucleotide polymorphism (SNP). Each typed SNP is indicated by a grey or black dot. SNPs are arranged by chromosomal location (<italic>x</italic>&#x02010;axis). Imputation was performed on chromosome 16 only using 1000 Genomes data, and imputed SNPs are indicated by blue dots. None of the SNPs reached the Bonferroni level of significance (<italic>p</italic> &#x0003c; 5&#x000d7;10<sup>&#x02212;8</sup>&#x02212; solid horizontal line); however, two typed SNPs and 22 imputed SNPs (on chromosome 16) were suggestive of association (<italic>p</italic> &#x0003c; 5&#x000d7;10<sup>&#x02212;6</sup> &#x02013; dashed horizontal line).</p></caption><graphic id="nlm-graphic-49" xlink:href="SIM-34-3769-g003"/></fig>
+</p><p>
+<fig fig-type="Figure" xml:lang="en" id="sim6605-fig-0004" orientation="portrait" position="anchor"><label>Figure 4</label><caption><p>Quantile&#x02013;quantile plots for quality control check and visualizing crude association. Quantile&#x02013;quantile plots illustrate the relationship between observed (<italic>y</italic>&#x02010;axis) and expected (<italic>x</italic>&#x02010;axis) test statistics and are used as a tool for visualizing appropriate control of population substructure and the presence of association. The left panel (a) is based on an unadjusted model, where the deviation is below expected, while the right panel (b) is based on a model adjusted for potential confounders, which brings the tail closer to the <italic>y</italic> = <italic>x</italic> line. The extreme observed statistics are suggestive of association. Data generally falling on the <italic>y</italic> = <italic>x</italic> lines suggests no clear systemic bias. Unstandardized <italic>&#x003bb;</italic>'s are reported. PCs, principal components.</p></caption><graphic id="nlm-graphic-51" xlink:href="SIM-34-3769-g004"/></fig>
+</p><p>
+<fig fig-type="Figure" xml:lang="en" id="sim6605-fig-0005" orientation="portrait" position="anchor"><label>Figure 5</label><caption><p>Heatmap and regional association plots. Heatmap (top) illustrating linkage disequilibrium (LD)&#x000a0;between typed (black) and imputed (red) single nucleotide polymorphisms (SNPs) in the cholesteryl ester transfer protein (CETP) region. A total of two typed SNPs and 16 imputed SNPs are significant at the less stringent 5 &#x000d7; 10<sup>&#x02212;6</sup> threshold; however, the heat map only illustrates imputed SNPs with a posterior probability of 1 for the associated genotype. We observe the presence of two distinct LD blocks within the CETP gene region, with high levels of LD between SNPs within each block and lower LD between SNPs across the the two blocks. A related regional association plot (bottom) illustrates association levels and LD for a larger window surrounding CETP.</p></caption><graphic id="nlm-graphic-53" xlink:href="SIM-34-3769-g005"/></fig>
+</p><p id="sim6605-para-0062">A regional association plot, provided in Figure&#x000a0;<xref rid="sim6605-fig-0005" ref-type="fig">5</xref>b, provides similar information for a broader region of the genome. In this case, the blue line at the top represents the SNP&#x02010;level <italic>p</italic>&#x02010;values, the green segments indicate gene regions, and the red lines indicate LD, where we have specified to only include lines betweens SNPs with <italic>r</italic>
+<sup>2</sup>&#x0003e;0.8. The following code is used to generate this figure.</p></list-item></list>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g029.jpg" position="anchor" id="nlm-graphic-55" orientation="portrait"/></boxed-text>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g030.jpg" position="anchor" id="nlm-graphic-57" orientation="portrait"/></boxed-text>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g031.jpg" position="anchor" id="nlm-graphic-59" orientation="portrait"/></boxed-text>
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g032.jpg" position="anchor" id="nlm-graphic-61" orientation="portrait"/></boxed-text>
+</p></sec><sec id="sim6605-sec-0017"><label>5.3</label><title>Additional data interrogation using external resources</title><p id="sim6605-para-0063">Reporting SNP&#x02010;level findings from association analysis is much more meaningful when a context for the findings is also presented. For example, investigators may want to know whether a statistically significant SNP is within a protein&#x02010;coding gene, intergenic, or close to a regulatory element (e.g., a methylation mark) in specific tissues or cell types that are relevant to the disease under investigation. Possible external types of data that may be relevant are provided in Supplementary Information C, Table&#x000a0;<xref rid="sim6605-tbl-0001" ref-type="table-wrap">1</xref>. These fall into eight general categories, following roughly an order representing the process from DNA information to regulation to expression: (i) SNP; (ii) gene elements; (iii) chromatin state; (iv) epigenetic marks; (v) transcription factor binding; (vi) RNA expression; (vii) SNP&#x02013;mRNA association; and (viii) other &#x02010;omics data. We emphasize that this table is not intended to be comprehensive; rather, it provides a glimpse at the vast amount of external data resources available. Data associated with each of the listed categories are available from a wide range of sources (for example, column 2, Supplementary Information C, Table&#x000a0;<xref rid="sim6605-tbl-0001" ref-type="table-wrap">1</xref>) and are generally based on a variety of technologies. The UCSC Genome Browser provides a well&#x02010;devised suite of integrated bioinformatic tools and databases, including many derived from the resources listed in Supplementary Information C, Table&#x000a0;<xref rid="sim6605-tbl-0001" ref-type="table-wrap">1</xref>, which allow for further interrogation of GWA findings.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g033.jpg" position="anchor" id="nlm-graphic-63" orientation="portrait"/></boxed-text>
+</p><table-wrap id="sim6605-tbl-0001" xml:lang="en" orientation="portrait" position="float"><label>Table 1</label><caption><p>
+<bold>Example data types and select resources for post&#x02010;analytic interrogation.</bold>*Listed resources are intended to provide primary examples and are not comprehensive. <sup><italic>a</italic></sup>National Center for Biotechnology Information (NCBI) dbSNP; <sup><italic>b</italic></sup>ENSEMBL Genome Browser; <sup><italic>c</italic></sup>NCBI RefSeq; <sup><italic>d</italic></sup>NCBI GenBank; <sup><italic>e</italic></sup>The encyclopedia of DNA elements (ENCODE) Project; <sup><italic>f</italic></sup>NIH Roadmap Epigenomics Project; <sup><italic>g</italic></sup>GTex Portal; <sup><italic>h</italic></sup>NCBI Sequence Read Archive (SRA); <sup><italic>i</italic></sup>The Universal Protein Resource Knowledgebase (UniProtKB); <sup><italic>j</italic></sup>The Human Metabolome Database (HMDB).</p></caption><table frame="hsides" rules="groups"><col width="1" style="border-right:solid 1px #000000border-bottom:solid 1px #000000" span="1"/><col width="1" style="border-right:solid 1px #000000border-bottom:solid 1px #000000" span="1"/><col width="1" style="border-right:solid 1px #000000border-bottom:solid 1px #000000" span="1"/><thead valign="bottom"><tr style="border-bottom:solid 1px #000000"><th align="left" valign="bottom" rowspan="1" colspan="1">Example data types</th><th align="center" valign="bottom" rowspan="1" colspan="1">Select data sources*</th><th align="center" valign="bottom" rowspan="1" colspan="1">UCSC genome browser navigation</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>DNA level data (non&#x02010;somatic; genEric to all cells):</italic>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>I. Coordinates, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) SNPs</td><td align="left" valign="top" rowspan="1" colspan="1">NCBI dbSNP[a], ENSEMBL[b]</td><td align="left" valign="top" rowspan="1" colspan="1">Variation: Common SNPs(141)</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2) Insertions and delations (INDELs)</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(3) Copy number variants (CNVs)</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>II. Gene elements, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) Protein&#x02010;coding genes</td><td align="left" valign="top" rowspan="1" colspan="1">NCBI RefSeq[c], NCBI GenBank[d], ENSEMBL[b]</td><td align="left" valign="top" rowspan="1" colspan="1">Gene and Gene Predictions: UCSC Genes</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2) Non&#x02010;protein&#x02010;coding genes</td><td align="left" valign="top" rowspan="1" colspan="1">NCBI RefSeq[c], NCBI GenBank[d], ENSEMBL[b]</td><td align="left" valign="top" rowspan="1" colspan="1">Gene and Gene Predictions: UCSC Genes</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>Cell and tissue&#x02010;specific regulation:</italic>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>III. Chromatin state, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) DNA hypersensitivity (DNase&#x02010;Seq)</td><td align="left" valign="top" rowspan="1" colspan="1">ENCODE[e], ENSEMBL[b]</td><td align="left" valign="top" rowspan="1" colspan="1">Regulation: ENCODE Regulation</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2) FAIRE sequencing</td><td align="left" valign="top" rowspan="1" colspan="1">ENCODE[e], ENSEMBL[b]</td><td align="left" valign="top" rowspan="1" colspan="1">Regulation: ENC DNase/FAIRE</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>IV. Epigenetic marks, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) Methylation promoter marks</td><td align="left" valign="top" rowspan="1" colspan="1">ENCODE[e], NIH Roadmap Epigenomics[f]</td><td align="left" valign="top" rowspan="1" colspan="1">Regulation: ENCODE Regulation</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2) Methylation enhancer marks</td><td align="left" valign="top" rowspan="1" colspan="1">ENCODE[e], NIH Roadmap Epigenomics[f]</td><td align="left" valign="top" rowspan="1" colspan="1">Regulation: ENCODE Regulation</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(3) Acetylation marks (e.g. #H3K27Ac histone mark)</td><td align="left" valign="top" rowspan="1" colspan="1">ENCODE[e], NIH Roadmap Epigenomics[f]</td><td align="left" valign="top" rowspan="1" colspan="1">Regulation: ENCODE Regulation</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>V. Transcription factor binding, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1">&#x000a0;</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) ChipSeq data</td><td align="left" valign="top" rowspan="1" colspan="1">ENCODE[e], ENSEMBL[b], custom</td><td align="left" valign="top" rowspan="1" colspan="1">Regulation: ENCODE Regulation</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>Cell and tissue&#x02010;specific expression:</italic>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>VI. RNA expression, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) historic mRNA</td><td align="left" valign="top" rowspan="1" colspan="1">NCBI GenBank[d]</td><td align="left" valign="top" rowspan="1" colspan="1">mRNA and EST: Human mRNAs</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2) genome&#x02010;wide cell&#x02010;specific RNA data (e.g. RNAseq)</td><td align="left" valign="top" rowspan="1" colspan="1">ENCODE[e], GTex Portal[g], NCBI SRA[h]</td><td align="left" valign="top" rowspan="1" colspan="1">Expression: ENC RNA&#x02010;seq</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>VII. SNP&#x02010;mRNA association, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) Expression quantitative trait locis (eQTL)</td><td align="left" valign="top" rowspan="1" colspan="1">GTex Portal[g], custom</td><td align="left" valign="top" rowspan="1" colspan="1">N/A</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2) Allelic imbalance (AI); allele specific expression (ASE)</td><td align="left" valign="top" rowspan="1" colspan="1">GTex Portal[g], custom</td><td align="left" valign="top" rowspan="1" colspan="1">N/A</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<italic>Biomarkers endophenotype:</italic>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">
+<bold>VIII. Other &#x02010;omics data, e.g.</bold>
+</td><td align="left" valign="top" rowspan="1" colspan="1"/><td align="left" valign="top" rowspan="1" colspan="1"/></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(1) Proteomic (e.g. pQTLs)</td><td align="left" valign="top" rowspan="1" colspan="1">UniProtKB[i]</td><td align="left" valign="top" rowspan="1" colspan="1">N/A</td></tr><tr><td align="left" valign="top" rowspan="1" colspan="1">(2) Metabolomic</td><td align="left" valign="top" rowspan="1" colspan="1">HMDB[j]</td><td align="left" valign="top" rowspan="1" colspan="1">N/A</td></tr></tbody></table></table-wrap><p id="sim6605-para-0064">In this section, we provide a very brief introduction to the genome browser, with particular focus on how to view and interpret standard tracks, visualize data corresponding to these tracks, and create custom tracks using new data. To begin, we go to the genome browser gateway at <ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu/cgi-bin/hgGateway">http://genome.ucsc.edu/cgi-bin/hgGateway</ext-link>. We then specify assembly <monospace>Feb. 2009 (GRCh37/hg19)</monospace>, type the name of our most significant SNP, <monospace>rs1532625</monospace>, in the field <italic>search term</italic>, and then select <italic>submit</italic>. On the next page, we select <monospace>rs1532625 at chr16:57005051&#x02010;57005551</monospace> under the first heading. This choice is elaborated in the succeeding texts. The content of the next page will vary depending on the tracks remaining open at the end of the current user's last session. However, all users will see in the bottom half of this page several classes of tracks, with multiple choices within them. We make the following selections and then press <italic>refresh</italic> either after each change or after all fields have been selected: <monospace>Genes and Gene Predictions: UCSC Genes</monospace> select <italic>pack</italic>; <monospace>mRNA and EST: Human mRNAs</monospace> select <italic>dense</italic>; <monospace>Regulation: ENCODE Regulation</monospace> select <italic>show</italic>; and <monospace>Variation: common SNPs(142)</monospace> select <italic>pack</italic>. All other fields should be marked <italic>hide</italic>. On the next screen, we zoom out <monospace>100x</monospace> by pressing the corresponding grey button at the top of the image to acquire a better picture of the entire region.</p><p id="sim6605-para-0065">The resulting image is illustrated in Figure&#x000a0;<xref rid="sim6605-fig-0006" ref-type="fig">6</xref>. Note that your tracks could be illustrated in a different order. Next is a summary of the elements of this figure. We note first that this is an image of the genetic region surrounding the <monospace>rs1532625</monospace> SNP (highlighted in a black box in Figure&#x000a0;<xref rid="sim6605-fig-0006" ref-type="fig">6</xref>) we entered and that the tracks illustrated (also based on our selections) are differentiated by the grey vertical rectangles on the left&#x02010;hand side of the figure.
+<list list-type="bullet"><list-item id="sim6605-li-0014"><p>Variation: common SNPs(142). The bottom&#x02010;most track with the heading <monospace>&#x02018;Simple Nucleotide Polymorphisms dbSNP141) Found in &#x0003e;= 1% of Samples&#x02019;</monospace> lists all of the common SNPs by rsNumber that are in this region, in order of their location on the genome. We see that the input SNP, <monospace>rs1532625</monospace>, is highlighted with a black box. By clicking on this box, the investigator can retrieve additional information about this SNP, including the major and minor alleles and their frequencies, average heterozygosity, and the chromosome and coordinate location based on the current build. Additional information on a track can be found by pressing the grey rectangular vertical bar on the main browser window corresponding to the track. For example, for this track, we find a description of the source of the data (dbSNP build 142.)</p></list-item><list-item id="sim6605-li-0015"><p>Genes and gene predictions: UCSC genes. The first track at the top of Figure&#x000a0;<xref rid="sim6605-fig-0006" ref-type="fig">6</xref> titled <monospace>&#x02018;UCSC Genes&#x02019;</monospace> illustrates all protein&#x02010;coding and non&#x02010;protein coding genes that are in close proximity to the SNP we entered. We note based on this figure that our SNP <monospace>rs1532625</monospace> falls in the protein&#x02010;coding gene CETP. Additional information about the display conventions and the configuration can be found by pressing the grey rectangular vertical bar on the left&#x02010;hand side of this track. Additional information about each gene, including the full gene name, coordinates, size, number of exons, and prior GWA evidence, can be retrieved by clicking on the abbreviated gene names in the browser&#x000a0;window.</p></list-item><list-item id="sim6605-li-0016"><p>mRNA and EST: human mRNAs. The next track entitled <monospace>&#x02018;Human mRNAs from GenBank&#x02019;</monospace> provides historical information on whether there have been any reports (indicated by a vertical bar) of the presence of mRNA corresponding to sites on the genome across all tissues and cell types. By clicking on the title, an expanded view of this track is provided (not shown), allowing the user to find additional information. Consider CETP, for example, for which we expect to see mRNA expression in cells relevant to HDL production and/or regulation, such as liver tissue. By selecting mRNA M30185 near the start of CETP, we learn that indeed, the mRNA was found in liver tissue.</p></list-item><list-item id="sim6605-li-0017"><p>Regulation: ENCODE regulation. The next three tracks entitled &#x02018;<monospace>H3K27Ac Mark</monospace>&#x02019;, &#x02018;<monospace>DNaseI Hypersensitivity Clusters in 125 cell types from ENCODE (V3)</monospace>&#x02019;, and &#x02018;<monospace>Transcription</monospace>
+<monospace>Factor</monospace>
+<monospace>ChIP&#x02010;seq (161 factors) from ENCODE with</monospace>
+<monospace>Factorbook</monospace>
+<monospace>Motifs</monospace>&#x02019; all provide information about the presence of cell and tissue&#x02010;specific regulatory elements. For example, H3K27Ac is a histone mark indicating the degree of acetylation of lysine 27 of the H3 histone protein, which in turn influences how accessible chromatin is for transcription. The color coding of the density plots in this track corresponds to different cell lines. DNA hypersensitivity is a more general measure of whether chromatin is open for transcription, while transcription factor ChIP&#x02010;seq data provides very specific information about whether given proteins can bind to the specified DNA regions.</p></list-item></list>
+</p><fig fig-type="Figure" xml:lang="en" id="sim6605-fig-0006" orientation="portrait" position="float"><label>Figure 6</label><caption><p>UCSC Genome Browser with specified tracks open.</p></caption><graphic id="nlm-graphic-65" xlink:href="SIM-34-3769-g006"/></fig><p id="sim6605-para-0070">It is possible to obtain the data corresponding to each track. As an example, consider the &#x02018;common SNPs&#x02019; track, click on the corresponding grey vertical rectangle to the left of this track, and then select <monospace>view table schema</monospace> on the next page. If we scroll down, under the heading <italic>Sample Rows</italic>, we see all of the data fields associated with this track. Note also that the metadata about this table, including <monospace>Database: hg19</monospace> and <monospace>Primary Table: snp142Common</monospace>, are available at the very top of the screen (not shown). These data can be downloaded by selecting <monospace>Tools &#x02010;&#x0003e; Table Browser</monospace> on the top menu and then indicating the appropriate fields, including <monospace>assembly: Feb. 2009 (GRCh37/hg19); group: Variation; track: Common SNPs(142);</monospace> and <monospace>table: snp142Common</monospace>. The <monospace>&#x02018;get output&#x02019;</monospace> tab at the bottom of these fields displays the data as an ascii formatted file.</p><p id="sim6605-para-0071">We also note that it is possible to create a custom track that is displayed and linked to the information in this browser. To do this, first, we need to create what is a called a BED track file (different than the.bed file discussed in Section&#x000a0;<xref rid="sim6605-sec-0003" ref-type="sec">2</xref> in the preceding texts) containing all of the data contributing to this track. A BED track file must include the following five columns: chromosome number, start location, end location (one greater than the start location for individual SNPs), identifier, score, and chromosomal strand, for which the SNP is recognized on the browser. These are included as columns 2 &#x02212; 6 in the table schema discussed earlier. Once we have a properly formatted BED file, we can input it directly into the genome browser as a custom track. In order to add this track to the genome browser, click <monospace>&#x02018;Add Custom Tracks&#x02019;</monospace>, from the main browser window, and upload the new file. This will bring up a page with the details of our new custom track. Click <monospace>&#x02018;go to genome browser&#x02019;</monospace> in order to see the new custom track in the browser.</p></sec></sec><sec id="sim6605-sec-0018"><label>6</label><title>Broader contemporary context and discussion</title><p id="sim6605-para-0072">This tutorial presents fundamental analysis concepts and tools for performing a single GWA analysis and beginning the process of post&#x02010;analytic interrogation. Increasingly, GWA analysis results are being combined across a large number of studies to improve power for novel discoveries. For example, the Global Lipids Genetics Consortium recently reported the results of a meta&#x02010;analysis of 188,577 individuals across 60 studies, resulting in discovery of 62 novel loci for blood lipids <xref rid="sim6605-bib-0038" ref-type="ref">38</xref>, <xref rid="sim6605-bib-0039" ref-type="ref">39</xref>. Likewise, the CARDIoGRAM consortium and the CARDIoGRAMplusC4D consortium metadata (which include the PennCATH data used throughout this tutorial) include GWA study results based on 194,427 individuals and contributed to the discovery of 46 loci associated with coronary artery disease <xref rid="sim6605-bib-0021" ref-type="ref">21</xref>, <xref rid="sim6605-bib-0027" ref-type="ref">27</xref>. An overview of methods for GWA meta&#x02010;analysis can be found, for example, in <xref rid="sim6605-bib-0040" ref-type="ref">40</xref>, with study&#x02010;specific details typically provided in the Supplementary Information of associated manuscripts (e.g., <xref rid="sim6605-bib-0021" ref-type="ref">21</xref>, <xref rid="sim6605-bib-0038" ref-type="ref">38</xref>). Importantly, depending on consortium data harmonization procedures, we see variation in the extent and timing of SNP and sample&#x02010;level filtering, as well as the criteria for including PCs and other covariates in the final model fitting procedure. Thus, flexibility in the step&#x02010;by&#x02010;step procedure described herein may be required.</p><p id="sim6605-para-0073">Traditionally, a two&#x02010;stage design was used, with replication of top suggestive findings (<italic>p</italic> &#x0003c; 5&#x000d7;10<sup>&#x02212;6</sup>) in a large independent study sample of like design and like ethnicity <xref rid="sim6605-bib-0041" ref-type="ref">41</xref>, <xref rid="sim6605-bib-0042" ref-type="ref">42</xref>. A threshold for significance is set in the second stage based on the number of SNPs carried forward and typically required that the SNP met the widely held genome&#x02010;wide significance for all common SNPs (<italic>p</italic> &#x0003c; 5&#x000d7;10<sup>&#x02212;8</sup>) in a combined meta&#x02010;analysis. However, often in contemporary studies, GWA data are available simultaneously in several studies, and a meta&#x02010;analysis is performed on all SNPs across all studies in the second stage, and the significance threshold of <italic>p</italic> &#x0003c; 5&#x000d7;10<sup>&#x02212;8</sup> is applied. Typically, additional replications are sought in different ethnicities and in study designs that are not identical, for example, different age groups and with different traits that mark the same disease, in order to evaluate generalizability.</p><p id="sim6605-para-0074">Several analytic strategies have been developed, which serve to complement the single&#x02010;SNP level testing approach described in this tutorial, including gene&#x02010;level testing strategies that require raw genotype data <xref rid="sim6605-bib-0016" ref-type="ref">16</xref>, <xref rid="sim6605-bib-0043" ref-type="ref">43</xref> and gene&#x02010;level testing approaches that instead leverage summary output (in the form of test statistics or <italic>p</italic>&#x02010;values) of the GWA analysis presented herein <xref rid="sim6605-bib-0015" ref-type="ref">15</xref>, <xref rid="sim6605-bib-0044" ref-type="ref">44</xref>. A broad assortment of sophisticated analytic methods has also been described for gene set enrichment or biological pathway analysis <xref rid="sim6605-bib-0018" ref-type="ref">18</xref>, <xref rid="sim6605-bib-0045" ref-type="ref">45</xref>, <xref rid="sim6605-bib-0046" ref-type="ref">46</xref>, <xref rid="sim6605-bib-0047" ref-type="ref">47</xref>, <xref rid="sim6605-bib-0048" ref-type="ref">48</xref>. Additional methods have been described to address the unique challenges inherent in rare variant analysis <xref rid="sim6605-bib-0008" ref-type="ref">8</xref>, <xref rid="sim6605-bib-0009" ref-type="ref">9</xref>, <xref rid="sim6605-bib-0010" ref-type="ref">10</xref> in which the low frequencies of mutations can result in insufficient power to assess significance without regional context. Finally, linear mixed models have been described as an alternative strategy for GWA analysis, which can account for family relatedness and population substructure <xref rid="sim6605-bib-0049" ref-type="ref">49</xref>, <xref rid="sim6605-bib-0050" ref-type="ref">50</xref>, <xref rid="sim6605-bib-0051" ref-type="ref">51</xref>, <xref rid="sim6605-bib-0052" ref-type="ref">52</xref>, <xref rid="sim6605-bib-0053" ref-type="ref">53</xref>, <xref rid="sim6605-bib-0054" ref-type="ref">54</xref>. An additional recommended resource for more in&#x02010;depth post&#x02010;processing of GWA findings, including gene and network&#x02010;based analysis, is provided in <xref rid="sim6605-bib-0055" ref-type="ref">55</xref>.</p><p id="sim6605-para-0075">Defining the best practices for GWA data pre&#x02010;processing, analysis, and post&#x02010;analytic interrogation within a framework that is logical and comprehensive for statisticians is essential for standardizing methods and ensuring reproducible and comparable findings across studies. This tutorial outlines the key features that are integral to GWA studies, and provides the R code that can been applied to implement each of these features accurately. We emphasize the use of R as GWA studies are typically part of a larger data analytic investigation (e.g., gene&#x02010;based analysis as described earlier), and it is straightforward to integrate the R code provided into larger statistical coding efforts. Alternative open&#x02010;source, freely available, high&#x02010;performance programing languages, for example, Julia, which was designed specifically for parallelism and cloud computing <xref rid="sim6605-bib-0056" ref-type="ref">56</xref>, may ultimately serve to provide additional functionalities in this big data analytic realm, particularly as post&#x02010;analytic interrogation becomes more integrated with primary GWA analysis.
+<boxed-text position="anchor" content-type="graphic" orientation="portrait"><graphic xlink:href="SIM-34-3769-g034.jpg" position="anchor" id="nlm-graphic-67" orientation="portrait"/></boxed-text>
+</p></sec><sec sec-type="supplementary-material"><title>Supporting information</title><supplementary-material content-type="local-data"><caption><p>Supporting Info Item</p></caption><media xlink:href="SIM-34-3769-s001.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec></body><back><ref-list id="sim6605-bibl-0001"><title>References</title><ref id="sim6605-bib-0001"><label>1</label><mixed-citation publication-type="book" id="sim6605-cit-0001">
+<string-name>
+<surname>Laird</surname>
+<given-names>NM</given-names>
+</string-name>, <string-name>
+<surname>Lange</surname>
+<given-names>C</given-names>
+</string-name>. <source>The Fundamentals of Modern Statistical Genetics</source>. <publisher-name>Springer&#x02010;Verlag</publisher-name>: <publisher-loc>New York</publisher-loc>, <year>2011</year>.</mixed-citation></ref><ref id="sim6605-bib-0002"><label>2</label><mixed-citation publication-type="book" id="sim6605-cit-0002">
+<string-name>
+<surname>Ziegler</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Konig</surname>
+<given-names>IR</given-names>
+</string-name>, <string-name>
+<surname>Pahlke</surname>
+<given-names>F</given-names>
+</string-name>. <source>A Statistical Approach to Genetic Epidemiology: Concepts and Applications, with an e&#x02010;Learning Platform</source> (2nd Updated edition). <publisher-name>Wiley&#x02010;Blackwell</publisher-name>, <year>2010</year>.</mixed-citation></ref><ref id="sim6605-bib-0003"><label>3</label><mixed-citation publication-type="book" id="sim6605-cit-0003">
+<string-name>
+<surname>Foulkes</surname>
+<given-names>AS</given-names>
+</string-name>. <source>Applied Statistical Genetics with r</source>. <publisher-name>Springer&#x02010;Verlag</publisher-name>: <publisher-loc>New York</publisher-loc>, <year>2009</year>.</mixed-citation></ref><ref id="sim6605-bib-0004"><label>4</label><mixed-citation publication-type="journal" id="sim6605-cit-0004">
+<string-name>
+<surname>Clarke</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Anderson</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>Pettersson</surname>
+<given-names>FH</given-names>
+</string-name>, <string-name>
+<surname>Cardon</surname>
+<given-names>LR</given-names>
+</string-name>, <string-name>
+<surname>Morris</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name>
+<surname>Zondervan</surname>
+<given-names>KT</given-names>
+</string-name>. <article-title>Basic statistical analysis in genetic case&#x02010;control studies</article-title>. <source>Nature Protocols</source>. <year>2011</year>; <volume>6</volume>(<issue>2</issue>): <fpage>121</fpage>&#x02013;<lpage>133</lpage>.<pub-id pub-id-type="pmid">21293453</pub-id></mixed-citation></ref><ref id="sim6605-bib-0005"><label>5</label><mixed-citation publication-type="journal" id="sim6605-cit-0005">
+<string-name>
+<surname>Balding</surname>
+<given-names>DJ</given-names>
+</string-name>. <article-title>A tutorial on statistical methods for population association studies</article-title>. <source>Nature Reviews Genetics</source>. <year>2006</year>; <volume>7</volume>(<issue>10</issue>): <fpage>781</fpage>&#x02013;<lpage>791</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0006"><label>6</label><mixed-citation publication-type="journal" id="sim6605-cit-0006">
+<string-name>
+<surname>Laurie</surname>
+<given-names>CC</given-names>
+</string-name>, <string-name>
+<surname>Doheny</surname>
+<given-names>KF</given-names>
+</string-name>, <string-name>
+<surname>Mirel</surname>
+<given-names>DB</given-names>
+</string-name>, <string-name>
+<surname>Pugh</surname>
+<given-names>EW</given-names>
+</string-name>, <string-name>
+<surname>Bierut</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name>
+<surname>Bhangale</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Boehm</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Caporaso</surname>
+<given-names>NE</given-names>
+</string-name>, <string-name>
+<surname>Cornelis</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name>
+<surname>Edenberg</surname>
+<given-names>HJ</given-names>
+</string-name>, <string-name>
+<surname>Gabriel</surname>
+<given-names>SB</given-names>
+</string-name>, <string-name>
+<surname>Harris</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name>
+<surname>Hu</surname>
+<given-names>FB</given-names>
+</string-name>, <string-name>
+<surname>Jacobs</surname>
+<given-names>KB</given-names>
+</string-name>, <string-name>
+<surname>Kraft</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Landi</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Lumley</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Manolio</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>McHugh</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Painter</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Paschall</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Rice</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Rice</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name>
+<surname>Zheng</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Weir</surname>
+<given-names>BS</given-names>
+</string-name>. <article-title>Quality control and quality assurance in genotypic data for genome&#x02010;wide association studies</article-title>. <source>Genetic Epidemiology</source>. <year>2010</year>; <volume>34</volume>(<issue>6</issue>): <fpage>591</fpage>&#x02013;<lpage>602</lpage>.<pub-id pub-id-type="pmid">20718045</pub-id></mixed-citation></ref><ref id="sim6605-bib-0007"><label>7</label><mixed-citation publication-type="journal" id="sim6605-cit-0007">
+<string-name>
+<surname>Gogarten</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Bhangale</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Conomos</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Laurie</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>McHugh</surname>
+<given-names>CP</given-names>
+</string-name>, <string-name>
+<surname>Painter</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Zheng</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Crosslin</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Levine</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Lumley</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Nelson</surname>
+<given-names>SC</given-names>
+</string-name>, <string-name>
+<surname>Rice</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Shen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Swarnkar</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Weir</surname>
+<given-names>BS</given-names>
+</string-name>, <string-name>
+<surname>Laurie</surname>
+<given-names>CC</given-names>
+</string-name>. <article-title>GWASTools: an R/Bioconductor package for quality control and analysis of genome&#x02010;wide association studies</article-title>. <source>Bioinformatics</source>. <year>2012</year>; <volume>28</volume>(<issue>24</issue>): <fpage>3329</fpage>&#x02013;<lpage>3331</lpage>.<pub-id pub-id-type="pmid">23052040</pub-id></mixed-citation></ref><ref id="sim6605-bib-0008"><label>8</label><mixed-citation publication-type="journal" id="sim6605-cit-0008">
+<string-name>
+<surname>Li</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Leal</surname>
+<given-names>SM</given-names>
+</string-name>. <article-title>Methods for detecting associations with rare variants for common diseases: application to analysis of sequence data</article-title>. <source>American Journal of Human Genetics</source>. <year>2008</year>; <volume>83</volume>(<issue>3</issue>): <fpage>311</fpage>&#x02013;<lpage>321</lpage>.<pub-id pub-id-type="pmid">18691683</pub-id></mixed-citation></ref><ref id="sim6605-bib-0009"><label>9</label><mixed-citation publication-type="journal" id="sim6605-cit-0009">
+<string-name>
+<surname>Liu</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Peloso</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Zhan</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Holmen</surname>
+<given-names>OL</given-names>
+</string-name>, <string-name>
+<surname>Zawistowski</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Feng</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Nikpay</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Auer</surname>
+<given-names>PL</given-names>
+</string-name>, <string-name>
+<surname>Goel</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Peters</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Farrall</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Orho&#x02010;Melander</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kooperberg</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>McPherson</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Watkins</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Willer</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Hveem</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Melander</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Kathiresan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Abecasis</surname>
+<given-names>GR</given-names>
+</string-name>. <article-title>Meta&#x02010;analysis of gene&#x02010;level tests for rare variant association</article-title>. <source>Nature Genetics</source>. <year>2014</year>; <volume>46</volume>(<issue>2</issue>): <fpage>200</fpage>&#x02013;<lpage>204</lpage>.<pub-id pub-id-type="pmid">24336170</pub-id></mixed-citation></ref><ref id="sim6605-bib-0010"><label>10</label><mixed-citation publication-type="journal" id="sim6605-cit-0010">
+<string-name>
+<surname>Hu</surname>
+<given-names>YJ</given-names>
+</string-name>, <string-name>
+<surname>Berndt</surname>
+<given-names>SI</given-names>
+</string-name>, <string-name>
+<surname>Gustafsson</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ganna</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Hirschhorn</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>North</surname>
+<given-names>KE</given-names>
+</string-name>, <string-name>
+<surname>Ingelsson</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>
+<given-names>D&#x02010;Y</given-names>
+</string-name>, <string-name>
+<surname>Genetic Investigation of Anthropometric Traits (GIANT) Consortium</surname>
+</string-name>. <article-title>Meta&#x02010;analysis of gene&#x02010;level associations for rare variants based on single&#x02010;variant statistics</article-title>. <source>American Journal of Human Genetics</source>. <year>2013</year>; <volume>93</volume>(<issue>2</issue>): <fpage>236</fpage>&#x02013;<lpage>248</lpage>.<pub-id pub-id-type="pmid">23891470</pub-id></mixed-citation></ref><ref id="sim6605-bib-0011"><label>11</label><mixed-citation publication-type="journal" id="sim6605-cit-0011">
+<string-name>
+<surname>Chen</surname>
+<given-names>MH</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>Q</given-names>
+</string-name>. <article-title>GWAF: an R package for genome&#x02010;wide association analyses with family data</article-title>. <source>Bioinformatics</source>. <year>2010</year>; <volume>26</volume>(<issue>4</issue>): <fpage>580</fpage>&#x02013;<lpage>581</lpage>.<pub-id pub-id-type="pmid">20040588</pub-id></mixed-citation></ref><ref id="sim6605-bib-0012"><label>12</label><mixed-citation publication-type="journal" id="sim6605-cit-0012">
+<string-name>
+<surname>Ott</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Kamatani</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Lathrop</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Family&#x02010;based designs for genome&#x02010;wide association studies</article-title>. <source>Nature Reviews Genetics</source>. <year>2011</year>; <volume>12</volume>(<issue>7</issue>): <fpage>465</fpage>&#x02013;<lpage>474</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0013"><label>13</label><mixed-citation publication-type="journal" id="sim6605-cit-0013">
+<string-name>
+<surname>Abecasis</surname>
+<given-names>GR</given-names>
+</string-name>, <string-name>
+<surname>Altshuler</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Auton</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Brooks</surname>
+<given-names>LD</given-names>
+</string-name>, <string-name>
+<surname>Durbin</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name>
+<surname>Gibbs</surname>
+<given-names>RA</given-names>
+</string-name>, <string-name>
+<surname>Hurles</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>McVean</surname>
+<given-names>GA</given-names>
+</string-name>. <article-title>A map of human genome variation from population&#x02010;scale sequencing</article-title>. <source>Nature</source>. <year>2010</year>; <volume>467</volume>(<issue>7319</issue>): <fpage>1061</fpage>&#x02013;<lpage>1073</lpage>.<pub-id pub-id-type="pmid">20981092</pub-id></mixed-citation></ref><ref id="sim6605-bib-0014"><label>14</label><mixed-citation publication-type="journal" id="sim6605-cit-0014">
+<string-name>
+<surname>Li</surname>
+<given-names>MX</given-names>
+</string-name>, <string-name>
+<surname>Gui</surname>
+<given-names>HS</given-names>
+</string-name>, <string-name>
+<surname>Kwan</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Sham</surname>
+<given-names>PC</given-names>
+</string-name>. <article-title>GATES: a rapid and powerful gene&#x02010;based association test using extended Simes procedure</article-title>. <source>The American Journal of Human Genetics</source>. <year>2011</year>; <volume>88</volume>(<issue>3</issue>): <fpage>283</fpage>&#x02013;<lpage>293</lpage>.<pub-id pub-id-type="pmid">21397060</pub-id></mixed-citation></ref><ref id="sim6605-bib-0015"><label>15</label><mixed-citation publication-type="journal" id="sim6605-cit-0015">
+<string-name>
+<surname>Liu</surname>
+<given-names>JZ</given-names>
+</string-name>, <string-name>
+<surname>McRae</surname>
+<given-names>AF</given-names>
+</string-name>, <string-name>
+<surname>Nyholt</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Medland</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Wray</surname>
+<given-names>NR</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>
+<given-names>KM</given-names>
+</string-name>, <string-name>
+<surname>Hayward</surname>
+<given-names>NK</given-names>
+</string-name>, <string-name>
+<surname>Montgomery</surname>
+<given-names>GW</given-names>
+</string-name>, <string-name>
+<surname>Visscher</surname>
+<given-names>PM</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>
+<given-names>NG</given-names>
+</string-name>, <string-name>
+<surname>Macgregor</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Mann</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name>
+<surname>Kefford</surname>
+<given-names>RF</given-names>
+</string-name>, <string-name>
+<surname>Hopper</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name>
+<surname>Aitken</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name>
+<surname>Giles</surname>
+<given-names>GG</given-names>
+</string-name>, <string-name>
+<surname>Armstrong</surname>
+<given-names>BK</given-names>
+</string-name>. <article-title>A versatile gene&#x02010;based test for genome&#x02010;wide association studies</article-title>. <source>The American Journal of Human Genetics</source>. <year>2010</year>; <volume>87</volume>(<issue>1</issue>): <fpage>139</fpage>&#x02013;<lpage>145</lpage>.<pub-id pub-id-type="pmid">20598278</pub-id></mixed-citation></ref><ref id="sim6605-bib-0016"><label>16</label><mixed-citation publication-type="journal" id="sim6605-cit-0016">
+<string-name>
+<surname>Huang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Chanda</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Alonso</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Bader</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Arking</surname>
+<given-names>DE</given-names>
+</string-name>. <article-title>Gene&#x02010;based tests of association</article-title>. <source>PLoS Genetics</source>. <year>2011</year>; <volume>7</volume>(<issue>7</issue>): <fpage>e1002177</fpage>.<pub-id pub-id-type="pmid">21829371</pub-id></mixed-citation></ref><ref id="sim6605-bib-0017"><label>17</label><mixed-citation publication-type="journal" id="sim6605-cit-0017">
+<string-name>
+<surname>Wang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Jia</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Wolfinger</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Grayson</surname>
+<given-names>BL</given-names>
+</string-name>, <string-name>
+<surname>Aune</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>
+<given-names>Z</given-names>
+</string-name>. <article-title>An efficient hierarchical generalized linear mixed model for pathway analysis of genome&#x02010;wide association studies</article-title>. <source>Bioinformatics</source>. <year>2011</year>; <volume>27</volume>(<issue>5</issue>): <fpage>686</fpage>&#x02013;<lpage>692</lpage>.<pub-id pub-id-type="pmid">21266443</pub-id></mixed-citation></ref><ref id="sim6605-bib-0018"><label>18</label><mixed-citation publication-type="journal" id="sim6605-cit-0018">
+<string-name>
+<surname>Segre</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name>
+<surname>Groop</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Mootha</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name>
+<surname>Daly</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Altshuler</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Common inherited variation in mitochondrial genes is not enriched for associations with type 2 diabetes or related glycemic traits</article-title>. <source>PLoS Genetics</source>. <year>2010</year>; <volume>6</volume>(<issue>8</issue>).</mixed-citation></ref><ref id="sim6605-bib-0019"><label>19</label><mixed-citation publication-type="journal" id="sim6605-cit-0019">
+<string-name>
+<surname>Thomas</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Gene&#x02013;environment&#x02010;wide association studies: emerging approaches</article-title>. <source>Nature Reviews Genetics</source>. <year>2010</year>; <volume>11</volume>(<issue>4</issue>): <fpage>259</fpage>&#x02013;<lpage>272</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0020"><label>20</label><mixed-citation publication-type="journal" id="sim6605-cit-0020">
+<string-name>
+<surname>Reilly</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>He</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ferguson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stylianou</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Mehta</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Burnett</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Devaney</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Knouff</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Horne</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Stewart</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Assimes</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Wild</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Allayee</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Nitschke</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Patel</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Identification of ADAMTS7 as a novel locus for coronary atherosclerosis and association of ABO with myocardial infarction in the presence of coronary atherosclpmid21378990erosis: two genome&#x02010;wide association studies</article-title>. <source>Lancet</source>. <year>2011</year>; <volume>377</volume>(<issue>9763</issue>): <fpage>383</fpage>&#x02013;<lpage>392</lpage>.<pub-id pub-id-type="pmid">21239051</pub-id></mixed-citation></ref><ref id="sim6605-bib-0021"><label>21</label><mixed-citation publication-type="journal" id="sim6605-cit-0021">
+<string-name>
+<surname>Schunkert</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Konig</surname>
+<given-names>IR</given-names>
+</string-name>, <string-name>
+<surname>Kathiresan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Reilly</surname>
+<given-names>MP</given-names>
+</string-name>, . <article-title>et al. Large&#x02010;scale association analysis identifies 13 new susceptibility loci for coronary artery disease</article-title>. <source>Nature Genetics</source>. <year>2011</year>; <volume>43</volume>(<issue>4</issue>): <fpage>333</fpage>&#x02013;<lpage>338</lpage>.<pub-id pub-id-type="pmid">21378990</pub-id></mixed-citation></ref><ref id="sim6605-bib-0022"><label>22</label><mixed-citation publication-type="journal" id="sim6605-cit-0022">
+<string-name>
+<surname>Anderson</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>Pettersson</surname>
+<given-names>FH</given-names>
+</string-name>, <string-name>
+<surname>Clarke</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Cardon</surname>
+<given-names>LR</given-names>
+</string-name>, <string-name>
+<surname>Morris</surname>
+<given-names>AP</given-names>
+</string-name>, <string-name>
+<surname>Zondervan</surname>
+<given-names>KT</given-names>
+</string-name>. <article-title>Data quality control in genetic case&#x02010;control association studies</article-title>. <source>Nature Protocols</source>. <year>2010</year>; <volume>5</volume>(<issue>9</issue>): <fpage>1564</fpage>&#x02013;<lpage>1573</lpage>.<pub-id pub-id-type="pmid">21085122</pub-id></mixed-citation></ref><ref id="sim6605-bib-0023"><label>23</label><mixed-citation publication-type="journal" id="sim6605-cit-0023">
+<string-name>
+<surname>Wright</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Coefficients of inbreeding and relationship</article-title>. <source>American Naturalist</source>. <year>1922</year>; <volume>56</volume>: <fpage>330</fpage>&#x02013;<lpage>338</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0024"><label>24</label><mixed-citation publication-type="journal" id="sim6605-cit-0024">
+<string-name>
+<surname>Manichaikul</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Mychaleckyj</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Rich</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Daly</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Sale</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>WM</given-names>
+</string-name>. <article-title>Robust relationship inference in genome&#x02010;wide association studies</article-title>. <source>Bioinformatics</source>. <year>2010</year>; <volume>26</volume>(<issue>22</issue>): <fpage>2867</fpage>&#x02013;<lpage>2873</lpage>.<pub-id pub-id-type="pmid">20926424</pub-id></mixed-citation></ref><ref id="sim6605-bib-0025"><label>25</label><mixed-citation publication-type="journal" id="sim6605-cit-0025">
+<string-name>
+<surname>Marchini</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Howie</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Myers</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>McVean</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Donnelly</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>A new multipoint method for genome&#x02010;wide association studies by imputation of genotypes</article-title>. <source>Nature Genetics</source>. <year>2007</year>; <volume>39</volume>(<issue>7</issue>): <fpage>906</fpage>&#x02013;<lpage>913</lpage>.<pub-id pub-id-type="pmid">17572673</pub-id></mixed-citation></ref><ref id="sim6605-bib-0026"><label>26</label><mixed-citation publication-type="journal" id="sim6605-cit-0026">
+<string-name>
+<surname>Edmondson</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Braund</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name>
+<surname>Stylianou</surname>
+<given-names>IM</given-names>
+</string-name>, <string-name>
+<surname>Khera</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name>
+<surname>Nelson</surname>
+<given-names>CP</given-names>
+</string-name>, <string-name>
+<surname>Wolfe</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Derohannessian</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Keating</surname>
+<given-names>BJ</given-names>
+</string-name>, <string-name>
+<surname>Qu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>He</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Tobin</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Tomaszewski</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Baumert</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Klopp</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Doring</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Thorand</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Reilly</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Koenig</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Samani</surname>
+<given-names>NJ</given-names>
+</string-name>, <string-name>
+<surname>Rader</surname>
+<given-names>DJ</given-names>
+</string-name>. <article-title>Dense genotyping of candidate gene loci identifies variants associated with high&#x02010;density lipoprotein cholesterol</article-title>. <source>Circulation: Cardiovascular Genetics</source>. <year>2011</year>; <volume>4</volume>: <fpage>145</fpage>&#x02013;<lpage>155</lpage>.<pub-id pub-id-type="pmid">21303902</pub-id></mixed-citation></ref><ref id="sim6605-bib-0027"><label>27</label><mixed-citation publication-type="journal" id="sim6605-cit-0027">
+<string-name>
+<surname>Deloukas</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Kanoni</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Willenborg</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Farrall</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Assimes</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Ingelsson</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Saleheen</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Erdmann</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Goldstein</surname>
+<given-names>BA</given-names>
+</string-name>, <string-name>
+<surname>Stirrups</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Konig</surname>
+<given-names>IR</given-names>
+</string-name>, <string-name>
+<surname>Cazier</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Johansson</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Hall</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>JY</given-names>
+</string-name>, <string-name>
+<surname>Willer</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Chambers</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Esko</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Folkersen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Goel</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Grundberg</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Havulinna</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>Ho</surname>
+<given-names>WK</given-names>
+</string-name>, <string-name>
+<surname>Hopewell</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Eriksson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Kleber</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Kristiansson</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Lundmark</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Lyytikainen</surname>
+<given-names>LP</given-names>
+</string-name>, <string-name>
+<surname>Rafelt</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Shungin</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Strawbridge</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Thorleifsson</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Tikkanen</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Van&#x000a0;Zuydam</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Voight</surname>
+<given-names>BF</given-names>
+</string-name>, <string-name>
+<surname>Waite</surname>
+<given-names>LL</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Ziegler</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Absher</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Altshuler</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Balmforth</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Barroso</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Braund</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name>
+<surname>Burgdorf</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Claudi&#x02010;Boehm</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Cox</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Dimitriou</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Do</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Doney</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>El&#x000a0;Mokhtari</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Eriksson</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Fischer</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Fontanillas</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Franco&#x02010;Cereceda</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Gigante</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Groop</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Gustafsson</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hager</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Hallmans</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Han</surname>
+<given-names>BG</given-names>
+</string-name>, <string-name>
+<surname>Hunt</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Kang</surname>
+<given-names>HM</given-names>
+</string-name>, <string-name>
+<surname>Illig</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Kessler</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Knowles</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name>
+<surname>Kolovou</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Kuusisto</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Langenberg</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Langford</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Leander</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Lokki</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Lundmark</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>McCarthy</surname>
+<given-names>MI</given-names>
+</string-name>, <string-name>
+<surname>Meisinger</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Melander</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Mihailov</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Maouche</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Morris</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name>
+<surname>Muller&#x02010;Nurasyid</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Nikus</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Peden</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name>
+<surname>Rayner</surname>
+<given-names>NW</given-names>
+</string-name>, <string-name>
+<surname>Rasheed</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rosinger</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Rubin</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Rumpf</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Schafer</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sivananthan</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Song</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Stewart</surname>
+<given-names>AF</given-names>
+</string-name>, <string-name>
+<surname>Tan</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name>
+<surname>Thorgeirsson</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>van&#x000a0;der Schoot</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Wagner</surname>
+<given-names>PJ</given-names>
+</string-name>, <string-name>
+<surname>Wells</surname>
+<given-names>GA</given-names>
+</string-name>, <string-name>
+<surname>Wild</surname>
+<given-names>PS</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>TP</given-names>
+</string-name>, <string-name>
+<surname>Amouyel</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Arveiler</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Basart</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Boehnke</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Boerwinkle</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Brambilla</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Cambien</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Cupples</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>de&#x000a0;Faire</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Dehghan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Diemert</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Epstein</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Evans</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ferrario</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Ferrieres</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Gauguier</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Go</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>Goodall</surname>
+<given-names>AH</given-names>
+</string-name>, <string-name>
+<surname>Gudnason</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Hazen</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Holm</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Iribarren</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Jang</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Kahonen</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kee</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>HS</given-names>
+</string-name>, <string-name>
+<surname>Klopp</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Koenig</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Kratzer</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Kuulasmaa</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Laakso</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Laaksonen</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>JY</given-names>
+</string-name>, <string-name>
+<surname>Lind</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Ouwehand</surname>
+<given-names>WH</given-names>
+</string-name>, <string-name>
+<surname>Parish</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Park</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Pedersen</surname>
+<given-names>NL</given-names>
+</string-name>, <string-name>
+<surname>Peters</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Quertermous</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Rader</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Salomaa</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Schadt</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Shah</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name>
+<surname>Sinisalo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Stark</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Stefansson</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Tregouet</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Virtamo</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Wallentin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Wareham</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Zimmermann</surname>
+<given-names>ME</given-names>
+</string-name>, <string-name>
+<surname>Nieminen</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Hengstenberg</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Sandhu</surname>
+<given-names>MS</given-names>
+</string-name>, <string-name>
+<surname>Pastinen</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Syvanen</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Hovingh</surname>
+<given-names>GK</given-names>
+</string-name>, <string-name>
+<surname>Dedoussis</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Franks</surname>
+<given-names>PW</given-names>
+</string-name>, <string-name>
+<surname>Lehtimaki</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Metspalu</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Zalloua</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>Siegbahn</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Schreiber</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ripatti</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Blankenberg</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Perola</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Clarke</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Boehm</surname>
+<given-names>BO</given-names>
+</string-name>, <string-name>
+<surname>O'Donnell</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Reilly</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Marz</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Collins</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Kathiresan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hamsten</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Kooner</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Thorsteinsdottir</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Danesh</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Palmer</surname>
+<given-names>CN</given-names>
+</string-name>, <string-name>
+<surname>Roberts</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Watkins</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Schunkert</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Samani</surname>
+<given-names>NJ</given-names>
+</string-name>. <article-title>Large&#x02010;scale association analysis identifies new risk loci for coronary artery disease</article-title>. <source>Nature Genetics</source>. <year>2013</year>; <volume>45</volume>(<issue>1</issue>): <fpage>25</fpage>&#x02013;<lpage>33</lpage>.<pub-id pub-id-type="pmid">23202125</pub-id></mixed-citation></ref><ref id="sim6605-bib-0028"><label>28</label><mixed-citation publication-type="journal" id="sim6605-cit-0028">
+<string-name>
+<surname>Li</surname>
+<given-names>MX</given-names>
+</string-name>, <string-name>
+<surname>Yeung</surname>
+<given-names>JM</given-names>
+</string-name>, <string-name>
+<surname>Cherny</surname>
+<given-names>SS</given-names>
+</string-name>, <string-name>
+<surname>Sham</surname>
+<given-names>PC</given-names>
+</string-name>. <article-title>Evaluating the effective numbers of independent tests and significant p&#x02010;value thresholds in commercial genotyping arrays and public imputation reference datasets</article-title>. <source>Human Genetics</source>. <year>2012</year>; <volume>131</volume>(<issue>5</issue>): <fpage>747</fpage>&#x02013;<lpage>756</lpage>.<pub-id pub-id-type="pmid">22143225</pub-id></mixed-citation></ref><ref id="sim6605-bib-0029"><label>29</label><mixed-citation publication-type="journal" id="sim6605-cit-0029">
+<string-name>
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Willer</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Sanna</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Abecasis</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Genotype imputation</article-title>. <source>Annual Review of Genomics and Human Genetics</source>. <year>2009</year>; <volume>10</volume>: <fpage>387</fpage>&#x02013;<lpage>406</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0030"><label>30</label><mixed-citation publication-type="journal" id="sim6605-cit-0030">
+<string-name>
+<surname>Aulchenko</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name>
+<surname>Struchalin</surname>
+<given-names>MV</given-names>
+</string-name>, <string-name>
+<surname>van Duijn</surname>
+<given-names>CM</given-names>
+</string-name>. <article-title>ProbABEL package for genome&#x02010;wide association analysis of imputed data</article-title>. <source>BMC Bioinformatics</source>. <year>2010</year>; <volume>11</volume>: <fpage>134</fpage>.<pub-id pub-id-type="pmid">20233392</pub-id></mixed-citation></ref><ref id="sim6605-bib-0031"><label>31</label><mixed-citation publication-type="journal" id="sim6605-cit-0031">
+<string-name>
+<surname>Browning</surname>
+<given-names>BL</given-names>
+</string-name>, <string-name>
+<surname>Browning</surname>
+<given-names>SR</given-names>
+</string-name>. <article-title>A unified approach to genotype imputation and haplotype&#x02010;phase inference for large data sets of trios and unrelated individuals</article-title>. <source>The American Journal of Human Genetics</source>. <year>2009</year>; <volume>84</volume>(<issue>2</issue>): <fpage>210</fpage>&#x02013;<lpage>223</lpage>.<pub-id pub-id-type="pmid">19200528</pub-id></mixed-citation></ref><ref id="sim6605-bib-0032"><label>32</label><mixed-citation publication-type="journal" id="sim6605-cit-0032">
+<string-name>
+<surname>Servin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Imputation&#x02010;based analysis of association studies: candidate regions and quantitative traits</article-title>. <source>PLoS Genetics</source>. <year>2007</year>; <volume>3</volume>(<issue>7</issue>): <fpage>e114</fpage>.<pub-id pub-id-type="pmid">17676998</pub-id></mixed-citation></ref><ref id="sim6605-bib-0033"><label>33</label><mixed-citation publication-type="journal" id="sim6605-cit-0033">
+<string-name>
+<surname>Pei</surname>
+<given-names>YF</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Deng</surname>
+<given-names>HW</given-names>
+</string-name>. <article-title>Analyses and comparison of imputation&#x02010;based association methods</article-title>. <source>PLoS One</source>. <year>2010</year>; <volume>5</volume>(<issue>5</issue>): <fpage>e10827</fpage>.<pub-id pub-id-type="pmid">20520814</pub-id></mixed-citation></ref><ref id="sim6605-bib-0034"><label>34</label><mixed-citation publication-type="journal" id="sim6605-cit-0034">
+<string-name>
+<surname>Marchini</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Howie</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Genotype imputation for genome&#x02010;wide association studies</article-title>. <source>Nature Reviews Genetics</source>. <year>2010</year>; <volume>11</volume>(<issue>7</issue>): <fpage>499</fpage>&#x02013;<lpage>511</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0035"><label>35</label><mixed-citation publication-type="journal" id="sim6605-cit-0035">
+<string-name>
+<surname>Devlin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Roeder</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Wasserman</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Genomic control, a new approach to genetic&#x02010;based association studies</article-title>. <source>Theoretical Population Biology</source>. <year>2001</year>; <volume>60</volume>(<issue>3</issue>): <fpage>155</fpage>&#x02013;<lpage>166</lpage>.<pub-id pub-id-type="pmid">11855950</pub-id></mixed-citation></ref><ref id="sim6605-bib-0036"><label>36</label><mixed-citation publication-type="journal" id="sim6605-cit-0036">
+<string-name>
+<surname>Devlin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Roeder</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>Genomic control for association studies</article-title>. <source>Biometrics</source>. <year>1999</year>; <volume>55</volume>(<issue>4</issue>): <fpage>997</fpage>&#x02013;<lpage>1004</lpage>.<pub-id pub-id-type="pmid">11315092</pub-id></mixed-citation></ref><ref id="sim6605-bib-0037"><label>37</label><mixed-citation publication-type="journal" id="sim6605-cit-0037">
+<string-name>
+<surname>Freedman</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Penney</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>McDonald</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name>
+<surname>Mignault</surname>
+<given-names>AA</given-names>
+</string-name>, <string-name>
+<surname>Patterson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Gabriel</surname>
+<given-names>SB</given-names>
+</string-name>, <string-name>
+<surname>Topol</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name>
+<surname>Smoller</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name>
+<surname>Pato</surname>
+<given-names>CN</given-names>
+</string-name>, <string-name>
+<surname>Pato</surname>
+<given-names>MT</given-names>
+</string-name>, <string-name>
+<surname>Petryshen</surname>
+<given-names>TL</given-names>
+</string-name>, <string-name>
+<surname>Kolonel</surname>
+<given-names>LN</given-names>
+</string-name>, <string-name>
+<surname>Lander</surname>
+<given-names>ES</given-names>
+</string-name>, <string-name>
+<surname>Sklar</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Henderson</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Hirschhorn</surname>
+<given-names>JN</given-names>
+</string-name>, <string-name>
+<surname>Altshuler</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>Assessing the impact of population stratification on genetic association studies</article-title>. <source>Nature Genetics</source>. <year>2004</year>; <volume>36</volume>(<issue>4</issue>): <fpage>388</fpage>&#x02013;<lpage>393</lpage>.<pub-id pub-id-type="pmid">15052270</pub-id></mixed-citation></ref><ref id="sim6605-bib-0038"><label>38</label><mixed-citation publication-type="journal" id="sim6605-cit-0038">
+<string-name>
+<surname>Teslovich</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Musunuru</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name>
+<surname>Teslovich</surname>
+<given-names>TM</given-names>
+</string-name>, <string-name>
+<surname>Musunuru</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name>
+<surname>Edmondson</surname>
+<given-names>AC</given-names>
+</string-name>, <string-name>
+<surname>Stylianou</surname>
+<given-names>IM</given-names>
+</string-name>, <string-name>
+<surname>Koseki</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Pirruccello</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Ripatti</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Chasman</surname>
+<given-names>DI</given-names>
+</string-name>, <string-name>
+<surname>Willer</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Johansen</surname>
+<given-names>CT</given-names>
+</string-name>, <string-name>
+<surname>Fouchier</surname>
+<given-names>SW</given-names>
+</string-name>, <string-name>
+<surname>Isaacs</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Peloso</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Barbalic</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ricketts</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Bis</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Aulchenko</surname>
+<given-names>YS</given-names>
+</string-name>, <string-name>
+<surname>Thorleifsson</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Feitosa</surname>
+<given-names>MF</given-names>
+</string-name>. <article-title>Biological, clinical and population relevance of 95 loci for blood lipids</article-title>. <source>Nature</source>. <year>2010</year>; <volume>466</volume>: <fpage>707</fpage>&#x02013;<lpage>713</lpage>.<pub-id pub-id-type="pmid">20686565</pub-id></mixed-citation></ref><ref id="sim6605-bib-0039"><label>39</label><mixed-citation publication-type="journal" id="sim6605-cit-0039">
+<string-name>
+<surname>Willer</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>
+<given-names>EM</given-names>
+</string-name>, <string-name>
+<surname>Sengupta</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Peloso</surname>
+<given-names>GM</given-names>
+</string-name>, <string-name>
+<surname>Gustafsson</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kanoni</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ganna</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Buchkovich</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Mora</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>, et al. Discovery and refinement of loci associated with lipid levels</article-title>. <source>Nature Genetics</source>. <year>2013</year>; <volume>45</volume>(<issue>11</issue>): <fpage>1274</fpage>&#x02013;<lpage>1283</lpage>.<pub-id pub-id-type="pmid">24097068</pub-id></mixed-citation></ref><ref id="sim6605-bib-0040"><label>40</label><mixed-citation publication-type="journal" id="sim6605-cit-0040">
+<string-name>
+<surname>Evangelou</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Ioannidis</surname>
+<given-names>JP</given-names>
+</string-name>. <article-title>Meta&#x02010;analysis methods for genome&#x02010;wide association studies and beyond</article-title>. <source>Nature Reviews Genetics</source>. <year>2013</year>; <volume>14</volume>(<issue>6</issue>): <fpage>379</fpage>&#x02013;<lpage>389</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0041"><label>41</label><mixed-citation publication-type="journal" id="sim6605-cit-0041">
+<string-name>
+<surname>Wang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Thomas</surname>
+<given-names>DC</given-names>
+</string-name>, <string-name>
+<surname>Pe'er</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Stram</surname>
+<given-names>DO</given-names>
+</string-name>. <article-title>Optimal two&#x02010;stage genotyping designs for genome&#x02010;wide association scans</article-title>. <source>Genetic Epidemiology</source>. <year>2006</year>; <volume>30</volume>(<issue>4</issue>): <fpage>356</fpage>&#x02013;<lpage>368</lpage>.<pub-id pub-id-type="pmid">16607626</pub-id></mixed-citation></ref><ref id="sim6605-bib-0042"><label>42</label><mixed-citation publication-type="journal" id="sim6605-cit-0042">
+<string-name>
+<surname>Skol</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name>
+<surname>Scott</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name>
+<surname>Abecasis</surname>
+<given-names>GR</given-names>
+</string-name>, <string-name>
+<surname>Boehnke</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Optimal designs for two&#x02010;stage genome&#x02010;wide association studies</article-title>. <source>Genetic Epidemiology</source>. <year>2007</year>; <volume>31</volume>(<issue>7</issue>): <fpage>776</fpage>&#x02013;<lpage>788</lpage>.<pub-id pub-id-type="pmid">17549752</pub-id></mixed-citation></ref><ref id="sim6605-bib-0043"><label>43</label><mixed-citation publication-type="journal" id="sim6605-cit-0043">
+<string-name>
+<surname>Wu</surname>
+<given-names>MC</given-names>
+</string-name>, <string-name>
+<surname>Kraft</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Epstein</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Taylor</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Chanock</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Hunter</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Lin</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>Powerful SNP&#x02010;set analysis for case&#x02010;control genome&#x02010;wide association studies</article-title>. <source>American Journal of Human Genetics</source>. <year>2010</year>; <volume>86</volume>(<issue>6</issue>): <fpage>929</fpage>&#x02013;<lpage>942</lpage>.<pub-id pub-id-type="pmid">20560208</pub-id></mixed-citation></ref><ref id="sim6605-bib-0044"><label>44</label><mixed-citation publication-type="miscellaneous" id="sim6605-cit-0044">
+<string-name>
+<surname>Qian</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Reed</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Nunez</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Qu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Reilly</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Foulkes</surname>
+<given-names>AS</given-names>
+</string-name>. <article-title>Testing class&#x02010;level genetic associations using single&#x02010;element summary statistics</article-title>; under review.</mixed-citation></ref><ref id="sim6605-bib-0045"><label>45</label><mixed-citation publication-type="journal" id="sim6605-cit-0045">
+<string-name>
+<surname>Mootha</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name>
+<surname>Lindgren</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Eriksson</surname>
+<given-names>KF</given-names>
+</string-name>, <string-name>
+<surname>Subramanian</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sihag</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Lehar</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Puigserver</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Carlsson</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Ridderstrale</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Laurila</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Houstis</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Daly</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Patterson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Mesirov</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Golub</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name>
+<surname>Tamayo</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Spiegelman</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Lander</surname>
+<given-names>ES</given-names>
+</string-name>, <string-name>
+<surname>Hirschhorn</surname>
+<given-names>JN</given-names>
+</string-name>, <string-name>
+<surname>Altshuler</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Groop</surname>
+<given-names>LC</given-names>
+</string-name>. <article-title>PGC&#x02010;1alpha&#x02010;responsive genes involved in oxidative phosphorylation are coordinately downregulated in human diabetes</article-title>. <source>Nature Genetics</source>. <year>2003</year>; <volume>34</volume>(<issue>3</issue>): <fpage>267</fpage>&#x02013;<lpage>273</lpage>.<pub-id pub-id-type="pmid">12808457</pub-id></mixed-citation></ref><ref id="sim6605-bib-0046"><label>46</label><mixed-citation publication-type="journal" id="sim6605-cit-0046">
+<string-name>
+<surname>Subramanian</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Tamayo</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Mootha</surname>
+<given-names>VK</given-names>
+</string-name>, <string-name>
+<surname>Mukherjee</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ebert</surname>
+<given-names>BL</given-names>
+</string-name>, <string-name>
+<surname>Gillette</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Paulovich</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Pomeroy</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Golub</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name>
+<surname>Lander</surname>
+<given-names>ES</given-names>
+</string-name>, <string-name>
+<surname>Mesirov</surname>
+<given-names>JP</given-names>
+</string-name>. <article-title>Gene set enrichment analysis: a knowledge&#x02010;based approach for interpreting genome&#x02010;wide expression profiles</article-title>. <source>Proceedings of the National academy of Sciences of the United States of America</source>. <year>2005</year>; <volume>102</volume>: <fpage>15545</fpage>&#x02013;<lpage>15550</lpage>.<pub-id pub-id-type="pmid">16199517</pub-id></mixed-citation></ref><ref id="sim6605-bib-0047"><label>47</label><mixed-citation publication-type="journal" id="sim6605-cit-0047">
+<string-name>
+<surname>Peng</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Luo</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Siu</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Hu</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hong</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Zhao</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Reveille</surname>
+<given-names>JD</given-names>
+</string-name>, <string-name>
+<surname>Jin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Amos</surname>
+<given-names>CI</given-names>
+</string-name>, <string-name>
+<surname>Xiong</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Gene and pathway&#x02010;based second&#x02010;wave analysis of genome&#x02010;wide association studies</article-title>. <source>European Journal of Human Genetics</source>. <year>2010</year>; <volume>18</volume>(<issue>1</issue>): <fpage>111</fpage>&#x02013;<lpage>117</lpage>.<pub-id pub-id-type="pmid">19584899</pub-id></mixed-citation></ref><ref id="sim6605-bib-0048"><label>48</label><mixed-citation publication-type="journal" id="sim6605-cit-0048">
+<string-name>
+<surname>Weng</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Macciardi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Subramanian</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Guffanti</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Potkin</surname>
+<given-names>SG</given-names>
+</string-name>, <string-name>
+<surname>Yu</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Xie</surname>
+<given-names>X</given-names>
+</string-name>. <article-title>SNP&#x02010;based pathway enrichment analysis for genome&#x02010;wide association studies</article-title>. <source>BMC Bioinformatics</source>. <year>2011</year>; <volume>12</volume>: <fpage>99</fpage>.<pub-id pub-id-type="pmid">21496265</pub-id></mixed-citation></ref><ref id="sim6605-bib-0049"><label>49</label><mixed-citation publication-type="journal" id="sim6605-cit-0049">
+<string-name>
+<surname>Yu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Pressoir</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Briggs</surname>
+<given-names>WH</given-names>
+</string-name>, <string-name>
+<surname>Vroh&#x000a0;Bi</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Yamasaki</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Doebley</surname>
+<given-names>JF</given-names>
+</string-name>, <string-name>
+<surname>McMullen</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Gaut</surname>
+<given-names>BS</given-names>
+</string-name>, <string-name>
+<surname>Nielsen</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Holland</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Kresovich</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Buckler</surname>
+<given-names>ES</given-names>
+</string-name>. <article-title>A unified mixed&#x02010;model method for association mapping that accounts for multiple levels of relatedness</article-title>. <source>Nature Genetics</source>. <year>2006</year>; <volume>38</volume>(<issue>2</issue>): <fpage>203</fpage>&#x02013;<lpage>208</lpage>.<pub-id pub-id-type="pmid">16380716</pub-id></mixed-citation></ref><ref id="sim6605-bib-0050"><label>50</label><mixed-citation publication-type="journal" id="sim6605-cit-0050">
+<string-name>
+<surname>Lippert</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Listgarten</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Kadie</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Davidson</surname>
+<given-names>RI</given-names>
+</string-name>, <string-name>
+<surname>Heckerman</surname>
+<given-names>D</given-names>
+</string-name>. <article-title>FaST linear mixed models for genome&#x02010;wide association studies</article-title>. <source>Nature Methods</source>. <year>2011</year>; <volume>8</volume>(<issue>10</issue>): <fpage>833</fpage>&#x02013;<lpage>835</lpage>.<pub-id pub-id-type="pmid">21892150</pub-id></mixed-citation></ref><ref id="sim6605-bib-0051"><label>51</label><mixed-citation publication-type="journal" id="sim6605-cit-0051">
+<string-name>
+<surname>Price</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Zaitlen</surname>
+<given-names>NA</given-names>
+</string-name>, <string-name>
+<surname>Reich</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Patterson</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>New approaches to population stratification in genome&#x02010;wide association studies</article-title>. <source>Nature Reviews Genetics</source>. <year>2010</year>; <volume>11</volume>(<issue>7</issue>): <fpage>459</fpage>&#x02013;<lpage>463</lpage>.</mixed-citation></ref><ref id="sim6605-bib-0052"><label>52</label><mixed-citation publication-type="journal" id="sim6605-cit-0052">
+<string-name>
+<surname>Kang</surname>
+<given-names>HM</given-names>
+</string-name>, <string-name>
+<surname>Sul</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name>
+<surname>Service</surname>
+<given-names>SK</given-names>
+</string-name>, <string-name>
+<surname>Zaitlen</surname>
+<given-names>NA</given-names>
+</string-name>, <string-name>
+<surname>Kong</surname>
+<given-names>SY</given-names>
+</string-name>, <string-name>
+<surname>Freimer</surname>
+<given-names>NB</given-names>
+</string-name>, <string-name>
+<surname>Sabatti</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Eskin</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Variance component model to account for sample structure in genome&#x02010;wide association studies</article-title>. <source>Nature Genetics</source>. <year>2010</year>; <volume>42</volume>(<issue>4</issue>): <fpage>348</fpage>&#x02013;<lpage>354</lpage>.<pub-id pub-id-type="pmid">20208533</pub-id></mixed-citation></ref><ref id="sim6605-bib-0053"><label>53</label><mixed-citation publication-type="journal" id="sim6605-cit-0053">
+<string-name>
+<surname>Zhou</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Genome&#x02010;wide efficient mixed&#x02010;model analysis for association studies</article-title>. <source>Nature Genetics</source>. <year>2012</year>; <volume>44</volume>(<issue>7</issue>): <fpage>821</fpage>&#x02013;<lpage>824</lpage>.<pub-id pub-id-type="pmid">22706312</pub-id></mixed-citation></ref><ref id="sim6605-bib-0054"><label>54</label><mixed-citation publication-type="journal" id="sim6605-cit-0054">
+<string-name>
+<surname>Zhou</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Stephens</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Efficient multivariate linear mixed model algorithms for genome&#x02010;wide association studies</article-title>. <source>Nature Methods</source>. <year>2014</year>; <volume>11</volume>(<issue>4</issue>): <fpage>407</fpage>&#x02013;<lpage>409</lpage>.<pub-id pub-id-type="pmid">24531419</pub-id></mixed-citation></ref><ref id="sim6605-bib-0055"><label>55</label><mixed-citation publication-type="journal" id="sim6605-cit-0055">
+<string-name>
+<surname>Hiersche</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ruhle</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Stoll</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Postgwas: advanced GWAS interpretation in R</article-title>. <source>PLoS One</source>. <year>2013</year>; <volume>8</volume>(<issue>8</issue>): <fpage>e71775</fpage>.<pub-id pub-id-type="pmid">23977141</pub-id></mixed-citation></ref><ref id="sim6605-bib-0056"><label>56</label><mixed-citation publication-type="journal" id="sim6605-cit-0056">
+<string-name>
+<surname>Bezanson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Edelman</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Karpinski</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Shah</surname>
+<given-names>VB</given-names>
+</string-name>. <article-title>Julia: a fresh approach to numerical computing</article-title>. <source>arXiv preprint arXiv:1411.1607</source>. <year>2014</year>.</mixed-citation></ref></ref-list></back></article>

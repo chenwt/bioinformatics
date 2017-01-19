@@ -1,0 +1,681 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?npg-journal-abbreviation?><?properties open_access?><?DTDIdentifier.IdentifierValue -//NPGSJ//DTD full length article DTD version 7.0 XML//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName ajarticle_v7_x.dtd?><?SourceDTD.Version 7.0?><?ConverterInfo.XSLTName naturesa2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Cell Death Discov</journal-id><journal-id journal-id-type="iso-abbrev">Cell Death Discov</journal-id><journal-title-group><journal-title>Cell Death Discovery</journal-title></journal-title-group><issn pub-type="epub">2058-7716</issn><publisher><publisher-name>Nature Publishing Group</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4641322</article-id><article-id pub-id-type="pii">cddiscovery20158</article-id><article-id pub-id-type="doi">10.1038/cddiscovery.2015.8</article-id><article-id pub-id-type="pmid">26568842</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Autophagy limits proliferation and glycolytic metabolism in acute myeloid leukemia</article-title><alt-title alt-title-type="running">Autophagy prevents glycolysis and proliferation in AML</alt-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Watson</surname><given-names>AS</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Riffelmacher</surname><given-names>T</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Stranks</surname><given-names>A</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Williams</surname><given-names>O</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>De Boer</surname><given-names>J</given-names></name><xref ref-type="aff" rid="aff3">3</xref></contrib><contrib contrib-type="author"><name><surname>Cain</surname><given-names>K</given-names></name><xref ref-type="aff" rid="aff4">4</xref></contrib><contrib contrib-type="author"><name><surname>MacFarlane</surname><given-names>M</given-names></name><xref ref-type="aff" rid="aff4">4</xref></contrib><contrib contrib-type="author"><name><surname>McGouran</surname><given-names>J</given-names></name><xref ref-type="aff" rid="aff5">5</xref></contrib><contrib contrib-type="author"><name><surname>Kessler</surname><given-names>B</given-names></name><xref ref-type="aff" rid="aff5">5</xref></contrib><contrib contrib-type="author"><name><surname>Khandwala</surname><given-names>S</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Chowdhury</surname><given-names>O</given-names></name><xref ref-type="aff" rid="aff6">6</xref></contrib><contrib contrib-type="author"><name><surname>Puleston</surname><given-names>D</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Phadwal</surname><given-names>K</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Mortensen</surname><given-names>M</given-names></name><xref ref-type="aff" rid="aff2">2</xref></contrib><contrib contrib-type="author"><name><surname>Ferguson</surname><given-names>D</given-names></name><xref ref-type="aff" rid="aff7">7</xref></contrib><contrib contrib-type="author"><name><surname>Soilleux</surname><given-names>E</given-names></name><xref ref-type="aff" rid="aff7">7</xref></contrib><contrib contrib-type="author"><name><surname>Woll</surname><given-names>P</given-names></name><xref ref-type="aff" rid="aff6">6</xref></contrib><contrib contrib-type="author"><name><surname>Jacobsen</surname><given-names>SEW</given-names></name><xref ref-type="aff" rid="aff6">6</xref></contrib><contrib contrib-type="author"><name><surname>Simon</surname><given-names>AK</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref ref-type="aff" rid="aff2">2</xref><xref ref-type="corresp" rid="caf1">*</xref></contrib><aff id="aff1"><label>1</label>
+<institution>Translational Immunology Lab, BRC- NIHR, John Radcliffe Hospital, Experimental Medicine, Nuffield Department of Medicine</institution>, Oxford OX3 9DU, <country>UK</country>
+</aff><aff id="aff2"><label>2</label>
+<institution>MRC Human Immunology Unit, Weatherall Institute of Molecular Medicine, John Radcliffe Hospital</institution>, Oxford OX3 9DS, <country>UK</country>
+</aff><aff id="aff3"><label>3</label>
+<institution>Molecular Haematology and Cancer Biology Unit, UCL Institute of Child Health, University College London</institution>, London WC1N 1EH, <country>UK</country>
+</aff><aff id="aff4"><label>4</label>
+<institution>MRC Toxicology Unit, Hodgkin Building, University of Leicester</institution>, PO Box 138, Lancaster Road, Leicester LE1 9HN, <country>UK</country>
+</aff><aff id="aff5"><label>5</label>
+<institution>Target Discovery Institute, Nuffield Department of Medicine, University of Oxford</institution>, Roosevelt Drive, Oxford OX3 7FZ, <country>UK</country>
+</aff><aff id="aff6"><label>6</label>
+<institution>Haematopoietic Stem Cell Biology, MRC Molecular Haematology Unit, Weatherall Institute of Molecular Medicine, John Radcliffe Hospital</institution>, Oxford OX3 9DS, <country>UK</country>
+</aff><aff id="aff7"><label>7</label>
+<institution>Nuffield Department of Clinical and Laboratory Sciences, John Radcliffe Hospital</institution>, Oxford OX3 9DU, <country>UK</country>
+</aff></contrib-group><author-notes><corresp id="caf1"><label>*</label>
+(<email>katja.simon@ndm.ox.ac.uk</email>)</corresp><fn fn-type="present-address" id="contrib"><label/><p>ASW and TR performed most experiments and contributed to manuscript writing, AS performed initial experiments on Seahorse and myeloid bias, OW and JdB transformation of MLL-ENL lines, KC and MMF Seahorse analysis, JMcG and BK proteomic analysis for metabolic proteins, SK Atg5 model breeding and analysis, PW HSPC flow cytometry and fluidigm, DP analyzed ATG5 mice for non-bone marrow-related hematopoietic defects, KP established imaging flow cytometer technique, MM set up the Atg5 model, DF performed EM, and OC and ES the histopathology, SEWJ assisted with data interpretation, supervision and manuscript writing, AKS supervised project, obtained funding, made figures and contributed to manuscript writing.</p></fn></author-notes><pub-date pub-type="epub"><day>17</day><month>08</month><year>2015</year></pub-date><pub-date pub-type="collection"><year>2015</year></pub-date><volume>1</volume><fpage>15008</fpage><lpage/><history><date date-type="received"><day>03</day><month>06</month><year>2015</year></date><date date-type="accepted"><day>05</day><month>06</month><year>2015</year></date></history><permissions><copyright-statement>Copyright &#x000a9; 2015 Cell Death Differentiation Association</copyright-statement><copyright-year>2015</copyright-year><copyright-holder>Cell Death Differentiation Association</copyright-holder><license xmlns:xlink="http://www.w3.org/1999/xlink" license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/"><!--author-paid--><license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article&#x02019;s Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p></license></permissions><abstract><p>Decreased autophagy contributes to malignancies; however, it is unclear how autophagy has an impact on tumor growth. Acute myeloid leukemia (AML) is an ideal model to address this as (i) patient samples are easily accessible, (ii) the hematopoietic stem and progenitor cells (HSPC) where transformation occurs is well characterized and (iii) loss of the key autophagy gene <italic>Atg7</italic> in HSPCs leads to a lethal pre-leukemic phenotype in mice. Here we demonstrate that loss of <italic>Atg5</italic> results in an identical HSPC phenotype as loss of <italic>Atg7</italic>, confirming a general role for autophagy in HSPC regulation. Compared with more committed/mature hematopoietic cells, healthy human and mouse HSPCs displayed enhanced basal autophagic flux, limiting mitochondrial damage and reactive oxygen species in this long-lived population. Taken together, with our previous findings these data are compatible with autophagy-limiting leukemic transformation. In line with this, autophagy gene losses are found within chromosomal regions that are commonly deleted in human AML. Moreover, human AML blasts showed reduced expression of autophagy genes and displayed decreased autophagic flux with accumulation of unhealthy mitochondria, indicating that deficient autophagy may be beneficial to human AML. Crucially, heterozygous loss of autophagy in an MLL&#x02013;ENL model of AML led to increased proliferation <italic>in vitro</italic>, a glycolytic shift and more aggressive leukemias <italic>in vivo</italic>. With autophagy gene losses also identified in multiple other malignancies, these findings point to low autophagy, providing a general advantage for tumor growth.</p></abstract></article-meta></front><body><sec><title>Introduction</title><p>Autophagy is a catabolic delivery pathway for excess or damaged cytoplasmic constituents to the lysosomes where macromolecules are broken down and their components freed for anabolic activities.<sup><xref ref-type="bibr" rid="bib1">1</xref></sup></p><p>Autophagy maintains mitochondrial health and metabolic pathways, being induced following metabolic stress, controlled by mTOR complex 1 (mTORC1). Under favorable conditions, activated mTORC1 signals for cell growth, promoting translation, cell cycle progression and glycolysis<sup><xref ref-type="bibr" rid="bib2">2</xref></sup> while inhibiting autophagy. To maximize cell mass during proliferation, suppression of self-catabolism may be vital for growth activities. Indeed, induction of autophagy prolongs cell survival at the cost of cell size and growth.<sup><xref ref-type="bibr" rid="bib3">3</xref>,<xref ref-type="bibr" rid="bib4">4</xref></sup></p><p>Activation of the Akt/mTOR pathway is a common feature of cancers, including leukemias<sup><xref ref-type="bibr" rid="bib5">5</xref></sup> and is required for proliferation in AML models.<sup><xref ref-type="bibr" rid="bib6">6</xref></sup> Knockout of autophagy genes in mice is associated with hyperproliferation in some tissues<sup><xref ref-type="bibr" rid="bib7">7</xref>,<xref ref-type="bibr" rid="bib8">8</xref></sup> and eventual tumor development.<sup><xref ref-type="bibr" rid="bib9">9</xref></sup> Our previous studies indicated that mice without the autophagy gene <italic>Atg7</italic> in the hematopoietic system develop pre-leukemic myeloproliferation.<sup><xref ref-type="bibr" rid="bib10">10</xref></sup> However, it remained unclear how <italic>Atg7</italic> promotes cell proliferation and whether this was an <italic>Atg7</italic>-specific function.<sup><xref ref-type="bibr" rid="bib11">11</xref></sup> Despite oncogenic effects in these models, the role of autophagy in cancer is controversial, with both tumor-promoting and -inhibiting roles in leukemia suggested.<sup><xref ref-type="bibr" rid="bib12">12</xref>,<xref ref-type="bibr" rid="bib13">13</xref></sup></p><p>It is well accepted that transformation events leading to AML may occur at the stem or progenitor cell stage. Hematopoietic stem cells (HSCs) strike a fine balance between quiescence, self-renewal and differentiation. When this balance is perturbed, the consequences may include biased differentiation and/or hematopoietic malignancies. In steady-state hematopoiesis, the majority of HSCs are quiescent.<sup><xref ref-type="bibr" rid="bib14">14</xref></sup> Quiescent cells are particularly hardy, able to survive long periods of metabolic stress. HSCs downregulate protein synthesis and activate pathways that sustain them during periods of non-division.<sup><xref ref-type="bibr" rid="bib15">15</xref></sup> Autophagy may be required for maintenance of the long-lived HSC, as their slow turnover prevents the dilution of damaged macromolecules to daughter cells, similar to a postmitotic neuron or cardiomyocyte.<sup><xref ref-type="bibr" rid="bib16">16</xref></sup> Moreover, autophagy controls mitochondrial quality.</p><p>In this study, we find autophagy levels highest in the most immature human and mouse hematopoietic stem and progenitor cells (HSPCs). Monoallelic loss of a key autophagy gene in a mouse AML model was sufficient to increase proliferation under metabolic stress <italic>in vitro</italic>, which was dependent on glycolytic metabolism, and led to leukemic progression <italic>in vivo</italic>. Combined with our findings of decreased autophagy in human AML patient blasts, these results suggest that dysregulated autophagy function may facilitate aberrant proliferation during AML development.</p></sec><sec><title>Results</title><sec><title>Human and mouse HSPCs have high basal levels of autophagy</title><p>We measured autophagic flux in mouse HSCs using three techniques (a) CytoID, an autophagosome- and autolysosome-pH-specific dye that can be directly detected by fluorescence intensity using conventional flow cytometry, (b) number of LC3-GFP puncta from transgenic mice by <italic>imaging flow cytometry</italic> and (c) number of endogenous LC3 puncta by <italic>imaging flow cytometry</italic>. For the latter two techniques imaging rather than intensity measurement is required to detect LC3 fluorescence, as upon autophagy induction LC3 relocalizes to the autophagosomal membranes from the cytoplasm.<sup><xref ref-type="bibr" rid="bib17">17</xref></sup> CytoID showed highest basal levels of autophagy in HSCs (<xref ref-type="fig" rid="fig1">Figures 1a and b</xref>). As Warr <italic>et al.</italic><sup><xref ref-type="bibr" rid="bib18">18</xref></sup> demonstrated that mouse HSCs robustly induce autophagy after <italic>ex vivo</italic> cytokine withdrawal using LC3-based techniques, but failed to detect increased basal levels in murine HSCs, we next measured autophagic flux in bone marrow (BM) from GFP-LC3 mice <italic>ex vivo</italic> by <italic>imaging flow cytometry</italic> to quantify LC3-GFP puncta. This revealed significantly higher GFP-LC3 puncta levels in the Lin<sup>&#x02212;</sup>Sca1<sup>+</sup>cKit<sup>+</sup> (LSK) multipotent progenitor population, which are enriched for HSCs, relative to both the Lin<sup>&#x02212;</sup>Sca1<sup>&#x02212;</sup>cKit<sup>+</sup> (LK) oligopotent progenitors and mature hematopoietic lineages (<xref ref-type="fig" rid="fig1">Figures 1c and d</xref>). Treatment with lysosomal inhibitors was performed to confirm the positive autophagic flux.<sup><xref ref-type="bibr" rid="bib19">19</xref></sup> We finally confirmed this result by quantifying endogenous LC3 puncta in wild-type (WT) C57BL/6 mice (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S1A</xref>).</p><p>We next measured the autophagic flux in enriched human HSPCs using the imaging flow cytometry technique (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S1B and C</xref>). We found that CD34<sup>+</sup> HSPCs showed relatively higher basal autophagy levels than more mature CD34<sup>&#x02212;</sup> BM cells. Increased autophagic flux was confirmed by lysosomal inhibition (<xref ref-type="fig" rid="fig1">Figure 1e</xref>). The CD34<sup>+</sup> HSPCs also showed improved mitochondrial health as measured by nonyl-acridine orange and reduced levels of mitochondrial reactive oxygen species (ROS) compared with the mature CD34<sup>&#x02212;</sup> cells (<xref ref-type="fig" rid="fig1">Figure 1f</xref>), maybe as a consequence of enhanced mitochondrial quality control by mitophagy. These findings were corroborated by RNAseq analysis of autophagy-related genes in human HSCs and granulocyte&#x02013;macrophage progenitors (GMPs). A significant increase in expression was found for <italic>FOXO3</italic>, confirming data by Warr <italic>et al.</italic><sup><xref ref-type="bibr" rid="bib18">18</xref></sup> in mice and for the two Atg8 homologs <italic>GABARAPL2</italic> and <italic>GABARAP</italic> (<xref ref-type="fig" rid="fig1">Figure 1g</xref>). These were the only autophagy-related genes found to be differentially expressed between HSCs and progenitors.</p><p>Overall, these results show that basal autophagy levels correlate with immaturity in human and murine hematopoietic cells compatible with an important role of autophagy in HSC function.</p></sec><sec><title>Autophagy levels are decreased in primary human AML blasts, both transcriptionally and functionally</title><p>AML is characterized by usually heterozygous clonal chromosomal abnormalities.<sup><xref ref-type="bibr" rid="bib20">20</xref></sup> Our <italic>in silico</italic> analysis found multiple key autophagy genes<sup><xref ref-type="bibr" rid="bib21">21</xref></sup> within chromosomal regions commonly heterozygously deleted in AML<sup><xref ref-type="bibr" rid="bib22 bib23 bib24">22&#x02013;24</xref></sup> (<xref rid="tbl1" ref-type="table">Table 1</xref>), in particular within regions often lost in complex karyotype AML. It is important to note that these chromosomal regions encompass many genes, and autophagy gene locations were often within regions more variably lost in patients.<sup><xref ref-type="bibr" rid="bib25">25</xref></sup> However, the presence of autophagy genes in the deleted regions was more frequent than expected by chance (<italic>P</italic>=0.039, Fisher&#x02019;s exact test). These deletions were accompanied by decreased mRNA expression of multiple autophagy genes, in particular <italic>Atg12</italic>,<sup><xref ref-type="bibr" rid="bib24">24</xref></sup> a gene previously identified along with lysosomal gene <italic>LAMP1</italic> as downregulated in therapy-related MDS cases at the time of AML transformation.<sup><xref ref-type="bibr" rid="bib26">26</xref></sup></p><p>We next sought to examine the status of the autophagy pathway in human AML. Using AML BM samples, we sorted the populations identified by the dominant expanded blast markers in each patient (CD34, CD33, CD13 or combination, see <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S1D</xref>) and examined the expression of the key autophagy genes using the Fluidigm dynamic array. We found decreased expression of autophagy genes in the dominant AML blast cell population of the majority of donors tested when compared with the blast marker-negative population (<xref ref-type="fig" rid="fig2">Figure 2a</xref>). Human <italic>Atg8</italic> homologs, including <italic>GAPARAPL1</italic>, <italic>GABARAPL2</italic> (GATE-16) and <italic>MAP1LC3B</italic>, were particularly affected. There was no clear correlation between expression levels and available genetic/prognostic information.</p><p>To determine whether autophagy was functionally affected in human AML, we quantified autophagy in AML blasts using imaging flow cytometry as previously described<sup><xref ref-type="bibr" rid="bib19">19</xref></sup> and shown in <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S1B</xref>. This being the only technique applicable for such low number of cells, as both LC3 western blot and electron microscopy require cell sorting. We found that the expanded AML blast population had significantly lower autophagy flux than the remaining, blast marker-negative BM cells (<xref ref-type="fig" rid="fig2">Figure 2b</xref>). We also found that autophagy levels in blast marker+ AML cells decreased compared with total CD34+ HSPCs from healthy donors (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S1D</xref>). As expected, chloroquine abolished the colocalization of LC3 and lysosomal marker in both populations, as it inhibits lysosomal fusion.</p><p>To further confirm the low autophagy phenotype, we examined levels of p62, a molecule that targets cargo for autophagic degradation, in AML BM trephine samples by immunohistochemistry. p62 is degraded with its cargo, thus accumulating when autophagy is decreased.<sup><xref ref-type="bibr" rid="bib27">27</xref></sup> We found widespread positive p62 staining in seven/eight AML BM samples, compared with zero/four healthy controls (<xref ref-type="fig" rid="fig2">Figure 2c</xref>), although we cannot exclude that increased transcription of p62 contributed to this.<sup><xref ref-type="bibr" rid="bib28">28</xref></sup> It is widely documented that autophagy controls ROS and mitochondrial health in hematopoietic cells.<sup><xref ref-type="bibr" rid="bib29">29</xref>,<xref ref-type="bibr" rid="bib30">30</xref></sup> Accordingly, AML blasts showed decreased mitochondrial health and increased oxidative stress (<xref ref-type="fig" rid="fig2">Figure 2d</xref>).</p></sec><sec><title>Identical phenotypes for <italic>Atg5</italic> and <italic>Atg7</italic> deficiency in HSCs <italic>in vivo</italic></title><p>We have previously described the HSC, myeloproliferative and pre-leukemic phenotype of mice deficient for the essential autophagy gene <italic>Atg7</italic> (<italic>VavAtg7</italic><sup><italic>&#x02212;/&#x02212;</italic></sup>).<sup><xref ref-type="bibr" rid="bib30">30</xref></sup> However, it was unclear whether this was because of Atg7&#x02019;s role in autophagy.</p><p>We therefore knocked out <italic>Atg5</italic>, another key autophagy gene in mouse hematopoietic cells, using the Vav-Cre promoter (<italic>VavAtg5</italic><sup><italic>&#x02212;/&#x02212;</italic></sup>). As observed in <italic>VavAtg7</italic><sup><italic>&#x02212;/&#x02212;</italic></sup> mice,<sup><xref ref-type="bibr" rid="bib30">30</xref></sup> all <italic>VavAtg5</italic><sup><italic>&#x02212;/&#x02212;</italic></sup> mice developed weight loss, lethargy along with lymphopenia (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S2A and B</xref>) and progressive anemia (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S2C and D</xref>) by 7&#x02013;9 weeks of age. <italic>Atg5</italic><sup><italic>&#x02212;/&#x02212;</italic></sup> erythrocytes also had increased mitochondrial content and ROS (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S2E and F</xref>). The LSK population was increased at 6 weeks in <italic>VavAtg5</italic><sup><italic>&#x02212;/&#x02212;</italic></sup> mice and were lost at 9 weeks (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S2G</xref>), and mice died soon after (not shown). Also similar to the <italic>Atg7</italic> model, monocytes/macrophages (CD11b<sup>+</sup>F4/80<sup>+,</sup> not shown) and neutrophils (CD11b<sup>+</sup> Gr1<sup>+;</sup>
+<xref ref-type="supplementary-material" rid="xob1">Supplementary FigureS3A and C</xref>) accumulated in <italic>VavAtg5</italic><sup><italic>&#x02212;/&#x02212;</italic></sup> mice in both spleen and peripheral blood. Histopathological assessment of BM cytospins confirmed the relative increase in neutrophils in blood and spleen (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S3A and B</xref>) and in particular of immature myeloid cells in blood (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S3D</xref>).<sup><xref ref-type="bibr" rid="bib10">10</xref></sup> Moreover, myeloid infiltrates were observed in hematopoietic and non-hematopoietic tissues (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S3E</xref>), confirming severe myeloproliferation in the absence of <italic>Atg5</italic>.</p></sec><sec><title>Heterozygous loss of <italic>Atg5</italic> in AML cells promotes proliferation <italic>in vitro</italic> and <italic>in vivo</italic></title><p>As our previous studies suggested that accumulated pre-leukemic Atg7-deficient cells did not harbor typical AML deletions or translocations and were not transplantable,<sup><xref ref-type="bibr" rid="bib30">30</xref></sup> we next asked whether autophagy has an impact on tumor growth in a mouse leukemia model with an existing translocation. We chose the translocation MLL&#x02013;ENL as this fusion develops into an aggressive, fully penetrant AML <italic>in vivo</italic>, demonstrating that the engineered translocation can successfully model AML.<sup><xref ref-type="bibr" rid="bib31">31</xref></sup> Because deletion of autophagy genes is detrimental to untransformed hematopoietic precursors,<sup><xref ref-type="bibr" rid="bib30">30</xref></sup> we introduced the MLL&#x02013;ENL fusion gene into non-excised <italic>Atg5</italic><sup><italic>wt/wt</italic></sup>, <italic>Atg5</italic><sup><italic>fl/wt</italic></sup> and <italic>Atg5</italic><sup>fl/fl</sup> hematopoietic progenitor cells, followed by retroviral transduction with Cre to obtain <italic>Atg5</italic> WT, HET and KO lines, respectively (depicted in <xref ref-type="fig" rid="fig3">Figure 3a</xref>).<sup><xref ref-type="bibr" rid="bib32">32</xref>,<xref ref-type="bibr" rid="bib33">33</xref></sup> Genotypes of the lines were confirmed using PCR and immature myeloid phenotype via CD11b, Gr1 and cKit expression (not shown). Expression of the Atg5 protein in complex with Atg12 was fully lost in KO lines and partially lost in the <italic>Atg5</italic> HET line (<xref ref-type="fig" rid="fig3">Figure 3b</xref>). We next assayed autophagy levels by LC3-II western blot (<xref ref-type="fig" rid="fig3">Figure 3c</xref>) and staining with CytoID for autophagosomes and autolysosomes (<xref ref-type="fig" rid="fig3">Figure 3d</xref>). Both techniques confirmed an intermediate autophagy defect in <italic>Atg5</italic> HET lines and a complete loss of autophagy in KO lines. However, <italic>Atg5</italic> KO ENL&#x02013;MLL cell lines showed substantial cell death, preventing meaningful interpretation of subsequent data. Together with the fact that heterozygous loss of an autophagy gene is the most relevant genotype for AML, we focused on the <italic>in vitro</italic> and <italic>in vivo</italic> analysis on the HET genotype. However, the phenotypes of heterozygous <italic>VavAtg5</italic><sup><italic>+/&#x02212;</italic></sup> and <italic>VavAtg7</italic><sup><italic>+/&#x02212;</italic></sup> mice were identical to WT and showed no clinical symptoms even at 18 months of age (data not shown), suggesting that a primary oncogenic event such as MLL&#x02013;ENL fusion is necessary to reveal this intermediate phenotype.</p><p>First we tested proliferation by examining MLL&#x02013;ENL lines under normal conditions and under tumor stress conditions: nutrient/growth factor withdrawal and hypoxia. More colonies were counted in control conditions and hypoxia in the HET MLL&#x02013;ENL line as compared with WT (<xref ref-type="fig" rid="fig3">Figure 3e</xref>). Analyzing short-term BrdU incorporation <italic>versus</italic> DNA content (7AAD), the HET lines displayed a proliferative advantage (S phase cells) following culture in withdrawal conditions (<xref ref-type="fig" rid="fig3">Figure 3f</xref> with example of gating in G, hypoxia and normoxia <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S4A and B</xref>). In summary, a partial deficiency in autophagy leads to increased proliferation in MLL&#x02013;ENL leukemic lines <italic>in vitro</italic>. To assess the impact of <italic>Atg5</italic> loss on leukemia formation <italic>in vivo</italic>, primary <italic>Atg5</italic> WT and HET MLL&#x02013;ENL leukemic cells were injected into sublethally irradiated hosts. At a time point at which 0/10 mice injected with the <italic>Atg5</italic> WT ENL&#x02013;MLL lines had neither developed clinical symptoms nor signs of leukemia, 10/10 mice injected with HET <italic>Atg5</italic> MLL&#x02013;ENL lines had to be killed because of typical leukemic clinical symptoms (<xref ref-type="fig" rid="fig3">Figure 3h</xref>). Representative FACS analysis showed the evidence of development of a biphenotypic CD2<sup>+</sup>CD11b<sup>+</sup> and GFP<sup>+</sup> leukemia (<xref ref-type="fig" rid="fig3">Figure 3</xref>).</p></sec><sec><title>Altered metabolism and growth pathways upon AML development following heterozygous loss of <italic>Atg5</italic></title><p>Cancer cells convert glucose into lactate via aerobic glycolysis (termed the &#x02018;Warburg effect&#x02019;) to meet energetic demands and support proliferation.<sup><xref ref-type="bibr" rid="bib34">34</xref></sup> To test whether increased proliferation was accompanied by a shift toward glycolytic metabolism, we analyzed the oxygen consumption rate (OCR) and lactate production (extracellular acidification rate; ECAR) of the MLL&#x02013;ENL cell lines using the Seahorse analyzer. Although both ENL&#x02013;MLL lines displayed significant glycolysis, as previously reported,<sup><xref ref-type="bibr" rid="bib35">35</xref></sup> the <italic>Atg5</italic> HET cells displayed increased spare (unused) respiratory capacity (OCR after FCCP treatment; <xref ref-type="fig" rid="fig4">Figures 4a and b</xref>) and elevated basal ECAR (<xref ref-type="fig" rid="fig4">Figure 4c</xref>) compared with control lines. This glycolytic phenotype was confirmed by increased enzymatic quantification of lactate. Autophagy induction by Rapamycin inhibited glycolysis in both genotypes, as expected, and restored HET lactate production to levels comparable to the WT line (<xref ref-type="fig" rid="fig4">Figure 4d</xref>). Increased staining for the main glucose transporter Glut1 on the HET line confirmed increased glycolysis (<xref ref-type="fig" rid="fig4">Figure 4e</xref>). Next, we asked whether the HET line relied more on glycolysis for proliferation. Owing to ATP use for galactose processing, conversion of galactose to pyruvate via glycolysis generates no net ATP; therefore, cells must switch to oxidative phosphorylation to meet energy needs.<sup><xref ref-type="bibr" rid="bib36">36</xref></sup> As expected, galactose cultured MLL&#x02013;ENL lines displayed minimal lactate generation (<xref ref-type="fig" rid="fig4">Figure 4f</xref>). Although cell death was unaltered in galactose (not shown), the HET cells showed a small but significant reduction in proliferation (<xref ref-type="fig" rid="fig4">Figure 4g</xref>). This suggests that increased proliferation following autophagy reduction in the HET is dependent on glycolytic metabolism, indicating that the increased glycolysis might at least partially cause the increased proliferation.</p></sec></sec><sec><title>Discussion</title><p>Autophagy genes, including <italic>Atg5,</italic> have been characterized as haploinsufficient tumor suppressors lost in multiple tumor types.<sup><xref ref-type="bibr" rid="bib12">12</xref>,<xref ref-type="bibr" rid="bib37">37</xref></sup> Decreased levels of Atg5 have been associated with reduced progression-free survival and increased proliferation in melanoma.<sup><xref ref-type="bibr" rid="bib38">38</xref></sup> However, autophagy in AML biology has been relatively uninvestigated. Our findings are compatible with reduced expression levels of <italic>Atg8</italic> homologs in AML blasts, agreeing with a recent study across AML subtypes.<sup><xref ref-type="bibr" rid="bib39">39</xref></sup></p><p>We conclude that decreased autophagy could contribute, via increased proliferation, to leukemic development. These results agree with a recent study of <italic>Atg7</italic> deletion in pancreatic cancer to suggest deficient autophagy may augment tumor activity and metabolism.<sup><xref ref-type="bibr" rid="bib40">40</xref></sup> In that study and others, it appears that apoptotic impairment, for example, via p53 deletion, may be vital to turn pro-proliferative effects of <italic>Atg</italic> gene deletion into malignant benefits.<sup><xref ref-type="bibr" rid="bib40">40</xref>,<xref ref-type="bibr" rid="bib41">41</xref></sup> As apoptosis is affected by MLL&#x02013;ENL,<sup><xref ref-type="bibr" rid="bib35">35</xref>,<xref ref-type="bibr" rid="bib42">42</xref></sup> our results support this hypothesis. However, previous findings were largely obtained in mouse cancer models. Here, we found that the majority of human AML donors measured retained low levels of autophagy activity and typically only display heterozygous Atg deletions.</p><p>Enhanced proliferation and aerobic glycolysis are common features of cancers, including AML.<sup><xref ref-type="bibr" rid="bib43">43</xref></sup> In addition to maintaining healthy mitochondria, macroautophagy may control glycolysis via the delivery of glycolytic enzymes to the lysosomes. Indeed, chaperone-mediated autophagy was shown to degrade the M2 isoform of pyruvate kinase.<sup><xref ref-type="bibr" rid="bib44">44</xref></sup> A third mechanism would be the degradation of free fatty acids (lipophagy) required to fuel the mitochondrial <italic>&#x003b2;</italic>-oxidation.<sup><xref ref-type="bibr" rid="bib45">45</xref></sup> It is possible to envisage that increased ROS may also have an impact on glycolysis.</p><p>In line with our data are the findings of a recent study showing that deficiency in PINK1, a kinase that controls mitophagy, sustains cell proliferation by re-programming glucose metabolism through HIF1.<sup><xref ref-type="bibr" rid="bib46">46</xref></sup></p><p>Here we found that physiological autophagy levels <italic>ex vivo</italic> were highest in immature hematopoietic HSPC populations. A similar pattern was observed during differentiation of cultured human stem cells.<sup><xref ref-type="bibr" rid="bib47">47</xref></sup> A recent study by Warr <italic>et al.</italic><sup><xref ref-type="bibr" rid="bib18">18</xref></sup> highlighted the high autophagy capacity of HSC and its importance in HSC stress response; differences in the basal autophagy that Warr <italic>et al.</italic> measured in multipotent cells could reflect the cytokine-replete culture conditions used in many baseline controls for that study.</p><p>We predict that further investigation of the mechanistic interplay between autophagy, energy metabolism and cell cycle status in leukemic and stem cells will lead to a better mechanistic understanding of stem cell fate decisions and the discovery of new therapeutic strategies in anticancer therapy.</p></sec><sec><title>Materials and methods</title><sec><title>Flow cytometry</title><p>Flow cytometry experiments were performed on LSRII (Becton Dickinson, Oxford, UK) or CyAn (Beckman Coulter, High Wycombe, UK) instruments, unless otherwise stated. Data were analyzed with FlowJo 8.8.6 for Mac (Tree Star Inc., Ashland, OR, USA). Single-cell suspensions of human bone marrow mononuclear cells (BMNCs) were rested overnight for 24&#x02009;h in IMDM 20% FCS before staining; single-cell suspensions of murine BM, spleen and peripheral blood were stained immediately after harvesting. Fc blocking and live/dead reagents were used for all appropriate experiments. Absolute cell numbers in the peripheral blood were quantified using TruCount tubes (Becton Dickinson). See <xref ref-type="supplementary-material" rid="xob1">Supplementary Tables 2</xref>&#x02013;<xref ref-type="supplementary-material" rid="xob5">4</xref> for antibodies and reagents used.</p></sec><sec><title>CytoID assay</title><p>Autophagosomal content was quantified with the CytoID kit (Enzo Life Sciences, Exeter, UK). Murine BM was cultured in CytoID dye (1&#x02009;:&#x02009;3000) containing medium for 30&#x02009;min according to the manufacturer's protocol. Cells were stained with surface antibodies to identify HSC (Lin<sup>&#x02212;</sup>Sca1<sup>+</sup>cKit<sup>+</sup>CD150<sup>+</sup>CD48<sup>&#x02212;</sup>) and LSK (Lin<sup>&#x02212;</sup>Sca1<sup>+</sup>cKit<sup>+</sup>) populations and were analyzed using flow cytometry. Rapamycin and Wortmannin were used as internal controls.</p></sec><sec><title>Imaging flow cytometry (image stream) and autophagy assay</title><p>After material preparation as above, where applicable samples were suspended &#x0003c;1&#x000d7;10<sup>6</sup> cells/ml in either 1x HBSS 4.2&#x02009;mM sodium bicarbonate (starvation media, only where stated) or normal growth media (IMDM 10% FCS for primary cells and as stated for cell lines) with 10&#x02009;<italic>&#x000b5;</italic>g/ml E64D/Pepstatin A (Enzo Life Sciences), 1&#x02009;<italic>&#x000b5;</italic>M Rapamycin (Sigma, Gillingham Dorset, UK), 20&#x02009;<italic>&#x000b5;</italic>M Chloroquine (Sigma) or 100&#x02009;nM Wortmannin (Sigma) for 2&#x02009;h. Image stream measurement of autophagy was performed as previously described,<sup><xref ref-type="bibr" rid="bib48">48</xref></sup> samples were acquired on the Image Stream 100 or Image Stream X (Amnis, Watford, UK), data obtained were analyzed with the IDEAS 4.0.735 software (Amnis) for LC3/LysoID Bright Detail Similarity (that is, the similarity between their fluorescent signals). Cells from LC3-GFP transgenic mouse, previously published,<sup><xref ref-type="bibr" rid="bib49">49</xref></sup> were acquired on the IS100 and analyzed for spot count on a LC3 peak mask with a spot to cell background ratio of 2.5 or 3.5. See <xref ref-type="supplementary-material" rid="xob1">Supplementary Tables 2</xref><xref ref-type="supplementary-material" rid="xob5">&#x02013;4</xref> for antibodies and reagents used.</p></sec><sec><title>Human BM</title><p>Healthy human BMNCs were obtained from Lonza (2M-125C, Verviers, Belgium). AML and MDS BMNCs were obtained from MDSBio (experiments approved by local REC, REC# 11/H0605/4 with informed consent).</p></sec><sec><title>RNA-seq</title><p>Human BM was sorted for HSC (Lineage<sup>&#x02212;</sup>CD34<sup>+</sup>CD38<sup>&#x02212;</sup>CD90<sup>+</sup>CD45RA), GMP (Lineage<sup>&#x02212;</sup>CD34<sup>+</sup>CD38<sup>+</sup>CD123<sup>+</sup>CD45RA<sup>+</sup>) and MEP (Lineage<sup>&#x02212;</sup>CD34<sup>+</sup>CD38<sup>+</sup>CD123<sup>&#x02212;</sup>CD45RA<sup>&#x02212;</sup>) populations; RNA was extracted and RNAseq analysis was performed; reads per kilobase per million mapped reads for autophagy genes was calculated using standard techniques.<sup><xref ref-type="bibr" rid="bib50">50</xref></sup></p></sec><sec><title>Fluidigm gene expression analysis</title><p>AML BMNCs were sorted on selected blast surface marker expression (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S6</xref>); 3&#x000d7;200 cells/population per donor. RNA was extracted, selected autophagy and metabolic genes amplified and analyzed for expression using a dynamic 48&#x000d7;48 array (Biomark Fluidigm) as previously described.<sup><xref ref-type="bibr" rid="bib51">51</xref></sup> See <xref ref-type="supplementary-material" rid="xob1">Supplementary Table 1</xref> below for Taqman gene expression assays.</p></sec><sec><title>P62 immunohistochemistry</title><p>Serial 4&#x02009;<italic>&#x000b5;</italic>m sections of BM trephine samples taken from AML patients or lymphoma patients with no BM involvement were stained with anti-human p62 (Enzo Life Science BML-PW9860) using the Dako (Cambridge, UK) EnVison+ Dual Link System (K4065) and standard techniques. Synthetic peptide (HCPPEADPRLIESLSQMLSMGFSDEGGWLTRLLQTKNYD-IGAALDTIQYSKH-OH) pre-incubated with primary antibody at 400x molar excess was used as negative control.</p></sec><sec><title>Mice</title><p><italic>Vav Atg5/7</italic><sup><italic>&#x02212;/&#x02212;</italic></sup> mice were on the C57BL/6 background, and bred and housed in the Department of Biomedical Services, University of Oxford, in individually ventilated cages. Age- and sex-matched mice were used at the age of 6&#x02013;9 weeks for all experiments, unless stated otherwise. VaviCre&#x02212;; Atg5/7<sup>fl/fl</sup> and VaviCre<sup>+</sup>; Atg5/7<sup>fl/wt</sup> littermates were used equally as controls. Vav-Atg7 breeding and genotyping are described previously.<sup><xref ref-type="bibr" rid="bib30">30</xref></sup> Atg5<sup>fl/fl</sup> mice were crossed to VaviCre mice to obtain VavAtg5. Atg5 wt and flox genotyping were performed separately.<sup><xref ref-type="bibr" rid="bib52">52</xref></sup> All animal experiments were approved by the local ethical review committee and were performed under a UK home office license (PPL 39/2809).</p></sec><sec><title>Histology</title><p>BM was aseptically collected from 7-week-old VavAtg7<sup><italic>&#x02212;/&#x02212;</italic></sup> mice and littermate controls, and stained using APC anti-mouse Gr1 and PE anti-mouse CD11b and were then sorted using flow cytometry. Histology was performed as previously described.<sup><xref ref-type="bibr" rid="bib30">30</xref></sup></p></sec><sec><title>BM cytospin</title><p>Filter cards were moistened with PBS before spinning. Overall, 5000 BM cells from 6-week-old VavAtg5&#x02212;/&#x02212; mice or WT littermates were resuspended in 200&#x02009;<italic>&#x000b5;</italic>l of PBS/20% FCS and pipetted onto the filter cards and then centrifuged with low acceleration, 1000&#x02009;r.p.m. for 10&#x02009;min before drying overnight. Slides were soaked in May&#x02013;Gr&#x000fc;nwald for 5&#x02009;min, washed with DI water, before being transferred to Giemsa for 20&#x02009;min, and washed with DI water again. Slides were then left to dry before mounting with Pertex. Slides were inspected with an uninverted microscope and 100 cells per slide were morphologically scored as: Neutrophil, Immature Myeloid, Lymphocyte, Erythrocyte.</p></sec><sec><title>MLL&#x02013;ENL line generation</title><p>BM from <italic>Atg5</italic> fl/fl, <italic>Atg5</italic> fl/wt and <italic>Atg5</italic> wt/wt (Bl6) mice (three per genotype) was extracted, crushed and pooled by genotype. Lineage cells were depleted and Lin-negative cells transduced with constitutive MLL&#x02013;ENL, as previously described.<sup><xref ref-type="bibr" rid="bib32">32</xref>,<xref ref-type="bibr" rid="bib33">33</xref></sup> The resulting lines were transduced with pMSCV-IRES-CD2, containing the tailless human CD2 cDNA<sup><xref ref-type="bibr" rid="bib53">53</xref></sup> either alone (empty vector) or with additional iCre<sup><xref ref-type="bibr" rid="bib54">54</xref></sup> and grown in RPMI, 10% FCS, 2&#x02009;mM L-Glutamine, penicillin/streptomycin, 50&#x02009;<italic>&#x003bc;</italic>M 2-mercaptoethanol, 100&#x02009;ng/ml mSCF, 10&#x02009;ng/ml mIL-3 and 10&#x02009;ng/ml mIL-6.</p></sec><sec><title>Immunoblot</title><p>Protein was extracted using RIPA buffer with supplemental protease Inhibitors (Roche, Welwyn Garden City, UK). Protein content was normalized and samples boiled with 4x LDS sample buffer (Invitrogen, Lutterworth, UK) and 20x Reducing agent (Invitrogen) and then run on a 4&#x02013;12% Bis-Tris gel (Invitrogen). Proteins were transferred to PVDF membranes (GE Healthcare, Little Chalfont, UK) and blocked overnight in blocking buffer (TBS-T 5% skimmed milk). Primary antibodies (all Cell Signaling (Hitchin, UK) except anti-Atg5 from Novus and anti-LC3 from MBL-Int. (Woburn, MA, USA)) were incubated at 1&#x02009;:&#x02009;1000 in blocking buffer, at 4&#x02009;&#x000b0;C overnight. Secondary antibodies were Goat <italic>&#x003b1;</italic>-rabbit 800&#x02009;CW or Goat <italic>&#x003b1;</italic>-rat 680LT (Licor, Cambridge, UK). Blot detection was carried out using Odyssey CLx Infrared Imaging System.</p></sec><sec><title>BrdU analysis</title><p>For multiday BrdU incorporation analysis, cell lines were cultured for 48&#x02009;h with 10&#x02009;<italic>&#x000b5;</italic>M BrdU and then stained for incorporation as per the BrdU Flow Kit (Becton Dickinson); cell cycle kinetics were analyzed following 40&#x02009;min BrdU pulse. MLL&#x02013;ENL line starvation was performed overnight with 2% FCS and no cytokines; hypoxia treatment was 48&#x02009;h in 0.1% oxygen.</p></sec><sec><title>Seahorse and metabolic assessments</title><p>In all, 2.8&#x000d7;10<sup>5</sup> cells per well were adhered to microplates using Cell Tak (Becton Dickinson). Cells were washed and rested for 1&#x02009;h in low-buffered bicarbonate-free DMEM (pH 7.4) before rates of glycolysis and oxidative phosphorylation were determined in 10 replicates for each genotype by measuring lactic acid release (ECAR) and OCR using an XF24 XF analyser (Seahorse Bioscience, Billerica, MA, USA) as previously described.<sup><xref ref-type="bibr" rid="bib55">55</xref></sup> Enzymatic lactate assessment used the Instruchemie kit (2864) in 96-well plate.</p></sec><sec><title>Statistical analysis</title><p>Given prior experience with the VavAtg7 model, where we found 100% penetrance for the vast majority of phenotypes, we usually chose the number of WT and KO mice to be the minimum (<italic>n</italic>=4) that still gives statistical significance (<italic>P</italic>&#x0003c;0.05) using a Mann&#x02013;Whitney test. The number of mice in all other animal experiments (BM chimera, MLL-ENL <italic>in vivo</italic> experiments) are shown or indicated. No animals or data were excluded. Animals were never randomized. Blind analysis was performed by the pathologist for the murine immunohistochemistry (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S3E</xref> and cell counts on blood smears (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S3D</xref>). The exact sample size (<italic>n</italic>), a description of the sample collection and the number of times an experiment has been replicated is described in the appropriate figure legends. Statistics analysis was performed using Graph Pad Prism 4, error bars represent S.E.M. and <italic>P</italic>-values calculated with a two-tailed Mann&#x02013;Whitney test unless otherwise stated.</p></sec></sec></body><back><ack><p>We thank the Biomedical Research Center (BRC), National Institutes of Health Research (NIHR) for funding the salary of AKS, the BBSRC and the Wellcome Trust as well as NSERC and the Lady Tata Memorial Trust for contributions toward consumables and ASW&#x02019;s student fees and stipends. We acknowledge N Mizushima, M Komatsu and D Kioussis for mice, C M&#x000fc;nz for distribution of mice and LC3 antibody, K Alford and H Ferry for FACS sorting, L Stenson for aid with the cytospins. L Jostins helped with statistical analysis of chromosomal regions. P Vyas provided patient samples from MDSbio, an NCRN-approved sample collection study that is in part funded through MRC Molecular Haematology Unit and MRC Disease Team Award and part funded through the BRC, NIHR.</p></ack><glossary><def-list><def-item><term>AML</term><def><p>acute myeloid leukemia</p></def></def-item><def-item><term>BM</term><def><p>bone marrow</p></def></def-item><def-item><term>GMP</term><def><p>granulocyte&#x02013;macrophage progenitors</p></def></def-item><def-item><term>ECAR</term><def><p>extracellular acidification rate</p></def></def-item><def-item><term>HET</term><def><p>heterozygous</p></def></def-item><def-item><term>HSC</term><def><p>hematopoietic stem cells</p></def></def-item><def-item><term>HSPC</term><def><p>hematopoietic stem and progenitor cells</p></def></def-item><def-item><term>KO</term><def><p>knock-out</p></def></def-item><def-item><term>LC3</term><def><p>microtubule-associated protein light chain 3</p></def></def-item><def-item><term>LK</term><def><p>Lin<sup>&#x02212;</sup>Sca1<sup>&#x02212;</sup>cKit<sup>+</sup></p></def></def-item><def-item><term>LSK</term><def><p>Lin<sup>&#x02212;</sup>Sca1<sup>+</sup>C-kit<sup>+</sup></p></def></def-item><def-item><term>MDS</term><def><p>myelodysplastic syndrome</p></def></def-item><def-item><term>MLL&#x02013;ENL</term><def><p>mixed lineage leukemia&#x02013;eleven-nineteen leukemia</p></def></def-item><def-item><term>OCR</term><def><p>oxygen consumption rate</p></def></def-item><def-item><term>ROS</term><def><p>reactive oxygen species</p></def></def-item><def-item><term>WT</term><def><p>wild type.</p></def></def-item></def-list></glossary><fn-group><fn><p>Edited by G Melino</p></fn></fn-group><notes><p>The authors declare no conflict of interest.</p></notes><sec sec-type="supplementary-material"><supplementary-material content-type="local-data" id="xob1"><label>Supplementary Figure 1</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-s1.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="xob2"><label>Supplementary Figure 2</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-s2.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="xob3"><label>Supplementary Figure 3</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-s3.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="xob4"><label>Supplementary Figure 4</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-s4.pdf"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material><supplementary-material content-type="local-data" id="xob5"><label>Supplementary Tables</label><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-s5.doc"><caption><p>Click here for additional data file.</p></caption></media></supplementary-material></sec><ref-list><ref id="bib1"><mixed-citation publication-type="journal">
+Rabinowitz JD,
+White E
+. <article-title>Autophagy and metabolism</article-title>. <source>Science</source>
+<year>2010</year>; <volume>330</volume>: <fpage>1344</fpage>&#x02013;1348.<pub-id pub-id-type="pmid">21127245</pub-id></mixed-citation></ref><ref id="bib2"><mixed-citation publication-type="journal">
+Sun Q
+, 
+Chen X
+, 
+Ma J
+, 
+Peng H
+, 
+Wang F
+, 
+Zha X
+et al. <article-title>Mammalian target of rapamycin up-regulation of pyruvate kinase isoenzyme type M2 is critical for aerobic glycolysis and tumor growth</article-title>. <source>Proc Natl Acad Sci USA</source>
+<year>2011</year>; <volume>108</volume>: <fpage>4129</fpage>&#x02013;4134.<pub-id pub-id-type="pmid">21325052</pub-id></mixed-citation></ref><ref id="bib3"><mixed-citation publication-type="journal">
+Hosokawa N
+, 
+Hara Y
+, 
+Mizushima N
+. <article-title>Generation of cell lines with tetracycline-regulated autophagy and a role for autophagy in controlling cell size</article-title>. <source>FEBS Lett</source>
+<year>2006</year>; <volume>580</volume>: <fpage>2623</fpage>&#x02013;2629.<pub-id pub-id-type="pmid">16647067</pub-id></mixed-citation></ref><ref id="bib4"><mixed-citation publication-type="journal">
+Neufeld TP
+. <article-title>Autophagy and cell growth--the yin and yang of nutrient responses</article-title>. <source>J Cell Sci</source>
+<year>2012</year>; <volume>125</volume>: <fpage>2359</fpage>&#x02013;2368.<pub-id pub-id-type="pmid">22649254</pub-id></mixed-citation></ref><ref id="bib5"><mixed-citation publication-type="journal">
+Martelli AM
+, 
+Chiarini F
+, 
+Evangelisti C
+, 
+Cappellini A
+, 
+Buontempo F
+, 
+Bressanin D
+et al. <article-title>Two hits are better than one: targeting both phosphatidylinositol 3-kinase and mammalian target of rapamycin as a therapeutic strategy for acute leukemia treatment</article-title>. <source>Oncotarget</source>
+<year>2012</year>; <volume>3</volume>: <fpage>371</fpage>&#x02013;394.<pub-id pub-id-type="pmid">22564882</pub-id></mixed-citation></ref><ref id="bib6"><mixed-citation publication-type="journal">
+Hoshii T
+, 
+Tadokoro Y
+, 
+Naka K
+, 
+Ooshio T
+, 
+Muraguchi T
+, 
+Sugiyama N
+et al. <article-title>mTORC1 is essential for leukemia propagation but not stem cell self-renewal</article-title>. <source>J Clin Invest</source>
+<year>2012</year>; <volume>122</volume>: <fpage>2114</fpage>&#x02013;2129.<pub-id pub-id-type="pmid">22622041</pub-id></mixed-citation></ref><ref id="bib7"><mixed-citation publication-type="journal">
+Qu X
+, 
+Yu J
+, 
+Bhagat G
+, 
+Furuya N
+, 
+Hibshoosh H
+, 
+Troxel A
+et al. <article-title>Promotion of tumorigenesis by heterozygous disruption of the beclin 1 autophagy gene</article-title>. <source>J Clin Invest</source>
+<year>2003</year>; <volume>112</volume>: <fpage>1809</fpage>&#x02013;1820.<pub-id pub-id-type="pmid">14638851</pub-id></mixed-citation></ref><ref id="bib8"><mixed-citation publication-type="journal">
+Fimia GM
+, 
+Stoykova A
+, 
+Romagnoli A
+, 
+Giunta L
+, 
+Di Bartolomeo S
+, 
+Nardacci R
+et al. <article-title>Ambra1 regulates autophagy and development of the nervous system</article-title>. <source>Nature</source>
+<year>2007</year>; <volume>447</volume>: <fpage>1121</fpage>&#x02013;1125.<pub-id pub-id-type="pmid">17589504</pub-id></mixed-citation></ref><ref id="bib9"><mixed-citation publication-type="journal">
+Takamura A
+, 
+Komatsu M
+, 
+Hara T
+, 
+Sakamoto A
+, 
+Kishi C
+, 
+Waguri S
+et al. <article-title>Autophagy-deficient mice develop multiple liver tumors</article-title>. <source>Genes Dev</source>
+<year>2011</year>; <volume>25</volume>: <fpage>795</fpage>&#x02013;800.<pub-id pub-id-type="pmid">21498569</pub-id></mixed-citation></ref><ref id="bib10"><mixed-citation publication-type="journal">
+Mortensen M
+, 
+Soilleux EJ
+, 
+Djordjevic G
+, 
+Tripp R
+, 
+Lutteropp M
+, 
+Sadighi-Akha E
+et al. <article-title>The autophagy protein Atg7 is essential for hematopoietic stem cell maintenance</article-title>. <source>J Exp Med</source>
+<volume>208</volume>: <fpage>455</fpage>&#x02013;467.<pub-id pub-id-type="pmid">21339326</pub-id></mixed-citation></ref><ref id="bib11"><mixed-citation publication-type="journal">
+Lee IH
+, 
+Kawai Y
+, 
+Fergusson MM
+, 
+Rovira II
+, 
+Bishop AJ
+, 
+Motoyama N
+et al. <article-title>Atg7 modulates p53 activity to regulate cell cycle and survival during metabolic stress</article-title>. <source>Science</source>
+<year>2012</year>; <volume>336</volume>: <fpage>225</fpage>&#x02013;228.<pub-id pub-id-type="pmid">22499945</pub-id></mixed-citation></ref><ref id="bib12"><mixed-citation publication-type="journal">
+Kung CP
+, 
+Budina A
+, 
+Balaburski G
+, 
+Bergenstock MK
+, 
+Murphy M
+. <article-title>Autophagy in tumor suppression and cancer therapy</article-title>. <source>Crit Rev Eukaryot Gene Expr</source>
+<year>2011</year>; <volume>21</volume>: <fpage>71</fpage>&#x02013;100.<pub-id pub-id-type="pmid">21967333</pub-id></mixed-citation></ref><ref id="bib13"><mixed-citation publication-type="journal">
+Altman BJ
+, 
+Jacobs SR
+, 
+Mason EF
+, 
+Michalek RD
+, 
+MacIntyre AN
+, 
+Coloff JL
+et al. <article-title>Autophagy is essential to suppress cell stress and to allow BCR-Abl-mediated leukemogenesis</article-title>. <source>Oncogene</source>
+<year>2011</year>; <volume>30</volume>: <fpage>1855</fpage>&#x02013;1867.<pub-id pub-id-type="pmid">21151168</pub-id></mixed-citation></ref><ref id="bib14"><mixed-citation publication-type="journal">
+Lemischka IR
+, 
+Raulet DH
+, 
+Mulligan RC
+. <article-title>Developmental potential and dynamic behavior of hematopoietic stem cells</article-title>. <source>Cell</source>
+<year>1986</year>; <volume>45</volume>: <fpage>917</fpage>&#x02013;927.<pub-id pub-id-type="pmid">2871944</pub-id></mixed-citation></ref><ref id="bib15"><mixed-citation publication-type="journal">
+Cheung TH
+, 
+Rando TA
+. <article-title>Molecular regulation of stem cell quiescence</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<year>2013</year>; <volume>14</volume>: <fpage>329</fpage>&#x02013;340. <pub-id pub-id-type="pmid">23698583</pub-id></mixed-citation></ref><ref id="bib16"><mixed-citation publication-type="journal">
+Guan JL
+, 
+Simon AK
+, 
+Prescott M
+, 
+Menendez JA
+, 
+Liu F
+, 
+Wang F
+et al. <article-title>Autophagy in stem cells</article-title>. <source>Autophagy</source>
+<year>2013</year>; <volume>9</volume>: <fpage>830</fpage>&#x02013;849.<pub-id pub-id-type="pmid">23486312</pub-id></mixed-citation></ref><ref id="bib17"><mixed-citation publication-type="journal">
+Klionsky DJ
+, 
+Abdalla FC
+, 
+Abeliovich H
+, 
+Abraham RT
+, 
+Acevedo-Arozena A
+, 
+Adeli K
+et al. <article-title>Guidelines for the use and interpretation of assays for monitoring autophagy</article-title>. <source>Autophagy</source>
+<year>2012</year>; <volume>8</volume>: <fpage>445</fpage>&#x02013;544.<pub-id pub-id-type="pmid">22966490</pub-id></mixed-citation></ref><ref id="bib18"><mixed-citation publication-type="journal">
+Warr MR
+, 
+Binnewies M
+, 
+Flach J
+, 
+Reynaud D
+, 
+Garg T
+, 
+Malhotra R
+et al. <article-title>FOXO3A directs a protective autophagy program in haematopoietic stem cells</article-title>. <source>Nature</source>
+<year>2013</year>; <volume>494</volume>: <fpage>323</fpage>&#x02013;327.<pub-id pub-id-type="pmid">23389440</pub-id></mixed-citation></ref><ref id="bib19"><mixed-citation publication-type="journal">
+Phadwal K
+, 
+Alegre-Abarrategui J
+, 
+Watson AS
+, 
+Pike L
+, 
+Anbalagan S
+, 
+Hammond EM
+et al. <article-title>A novel method for autophagy detection in primary cells: impaired levels of macroautophagy in immunosenescent T cells</article-title>. <source>Autophagy</source>
+<year>2012</year>; <volume>8</volume>: <fpage>677</fpage>&#x02013;689.<pub-id pub-id-type="pmid">22302009</pub-id></mixed-citation></ref><ref id="bib20"><mixed-citation publication-type="journal">
+Byrd JC
+, 
+Mrozek K
+, 
+Dodge RK
+, 
+Carroll AJ
+, 
+Edwards CG
+, 
+Arthur DC
+et al. <article-title>Pretreatment cytogenetic abnormalities are predictive of induction success, cumulative incidence of relapse, and overall survival in adult patients with <italic>de novo</italic> acute myeloid leukemia: results from Cancer and Leukemia Group B (CALGB 8461)</article-title>. <source>Blood</source>
+<year>2002</year>; <volume>100</volume>: <fpage>4325</fpage>&#x02013;4336.<pub-id pub-id-type="pmid">12393746</pub-id></mixed-citation></ref><ref id="bib21"><mixed-citation publication-type="journal">
+Behrends C
+, 
+Sowa ME
+, 
+Gygi SP
+, 
+Harper JW
+. <article-title>Network organization of the human autophagy system</article-title>. <source>Nature</source>
+<year>2010</year>; <volume>466</volume>: <fpage>68</fpage>&#x02013;76.<pub-id pub-id-type="pmid">20562859</pub-id></mixed-citation></ref><ref id="bib22"><mixed-citation publication-type="journal">
+Akagi T
+, 
+Ogawa S
+, 
+Dugas M
+, 
+Kawamata N
+, 
+Yamamoto G
+, 
+Nannya Y
+et al. <article-title>Frequent genomic abnormalities in acute myeloid leukemia/myelodysplastic syndrome with normal karyotype</article-title>. <source>Haematologica</source>
+<year>2009</year>; <volume>94</volume>: <fpage>213</fpage>&#x02013;223.<pub-id pub-id-type="pmid">19144660</pub-id></mixed-citation></ref><ref id="bib23"><mixed-citation publication-type="journal">
+Rucker FG
+, 
+Bullinger L
+, 
+Schwaenen C
+, 
+Lipka DB
+, 
+Wessendorf S
+, 
+Frohling S
+et al. <article-title>Disclosure of candidate genes in acute myeloid leukemia with complex karyotypes using microarray-based molecular characterization</article-title>. <source>J Clin Oncol</source>
+<year>2006</year>; <volume>24</volume>: <fpage>3887</fpage>&#x02013;3894.<pub-id pub-id-type="pmid">16864856</pub-id></mixed-citation></ref><ref id="bib24"><mixed-citation publication-type="journal">
+Walter MJ
+, 
+Payton JE
+, 
+Ries RE
+, 
+Shannon WD
+, 
+Deshmukh H
+, 
+Zhao Y
+et al. <article-title>Acquired copy number alterations in adult acute myeloid leukemia genomes</article-title>. <source>Proc Natl Acad Sci USA</source>
+<year>2009</year>; <volume>106</volume>: <fpage>12950</fpage>&#x02013;12955.<pub-id pub-id-type="pmid">19651600</pub-id></mixed-citation></ref><ref id="bib25"><mixed-citation publication-type="journal">
+Douet-Guilbert N
+, 
+De Braekeleer E
+, 
+Basinko A
+, 
+Herry A
+, 
+Gueganic N
+, 
+Bovo C
+et al. <article-title>Molecular characterization of deletions of the long arm of chromosome 5 (del(5q)) in 94 MDS/AML patients</article-title>. <source>Leukemia</source>
+<year>2012</year>; <volume>26</volume>: <fpage>1695</fpage>&#x02013;1697.<pub-id pub-id-type="pmid">22290067</pub-id></mixed-citation></ref><ref id="bib26"><mixed-citation publication-type="journal">
+Li L
+, 
+Li M
+, 
+Sun C
+, 
+Francisco L
+, 
+Chakraborty S
+, 
+Sabado M
+et al. <article-title>Altered hematopoietic cell gene expression precedes development of therapy-related myelodysplasia/acute myeloid leukemia and identifies patients at risk</article-title>. <source>Cancer Cell</source>
+<year>2011</year>; <volume>20</volume>: <fpage>591</fpage>&#x02013;605.<pub-id pub-id-type="pmid">22094254</pub-id></mixed-citation></ref><ref id="bib27"><mixed-citation publication-type="journal">
+Bjorkoy G
+, 
+Lamark T
+, 
+Pankiv S
+, 
+Overvatn A
+, 
+Brech A
+, 
+Johansen T
+. <article-title>Monitoring autophagic degradation of p62/SQSTM1</article-title>. <source>Methods Enzymol</source>
+<year>2009</year>; <volume>452</volume>: <fpage>181</fpage>&#x02013;197.<pub-id pub-id-type="pmid">19200883</pub-id></mixed-citation></ref><ref id="bib28"><mixed-citation publication-type="journal">
+Puissant A
+, 
+Fenouille N
+, 
+Auberger P
+. <article-title>When autophagy meets cancer through p62/SQSTM1</article-title>. <source>Am J Cancer Res</source>
+<year>2012</year>; <volume>2</volume>: <fpage>397</fpage>&#x02013;413.<pub-id pub-id-type="pmid">22860231</pub-id></mixed-citation></ref><ref id="bib29"><mixed-citation publication-type="journal">
+Mortensen M
+, 
+Ferguson DJ
+, 
+Edelmann M
+, 
+Kessler B
+, 
+Morten KJ
+, 
+Komatsu M
+et al. <article-title>Loss of autophagy in erythroid cells leads to defective removal of mitochondria and severe anemia <italic>in vivo</italic></article-title>. <source>Proc Natl Acad Sci USA</source>
+<year>2010</year>; <volume>107</volume>: <fpage>832</fpage>&#x02013;837.<pub-id pub-id-type="pmid">20080761</pub-id></mixed-citation></ref><ref id="bib30"><mixed-citation publication-type="journal">
+Mortensen M
+, 
+Soilleux EJ
+, 
+Djordjevic G
+, 
+Tripp R
+, 
+Lutteropp M
+, 
+Sadighi-Akha E
+et al. <article-title>The autophagy protein Atg7 is essential for hematopoietic stem cell maintenance</article-title>. <source>J Exp Med</source>
+<year>2011</year>; <volume>208</volume>: <fpage>455</fpage>&#x02013;467.<pub-id pub-id-type="pmid">21339326</pub-id></mixed-citation></ref><ref id="bib31"><mixed-citation publication-type="journal">
+Cook GJ
+, 
+Pardee TS
+. <article-title>Animal models of leukemia: any closer to the real thing?</article-title>
+<source>Cancer Metastasis Rev</source>
+<year>2013</year>; <volume>32</volume>(1&#x02013;2): <fpage>63</fpage>&#x02013;76.<pub-id pub-id-type="pmid">23081702</pub-id></mixed-citation></ref><ref id="bib32"><mixed-citation publication-type="journal">
+Horton SJ
+, 
+Grier DG
+, 
+McGonigle GJ
+, 
+Thompson A
+, 
+Morrow M
+, 
+De Silva I
+et al. <article-title>Continuous MLL-ENL expression is necessary to establish a "Hox Code" and maintain immortalization of hematopoietic progenitor cells</article-title>. <source>Cancer Res</source>
+<year>2005</year>; <volume>65</volume>: <fpage>9245</fpage>&#x02013;9252.<pub-id pub-id-type="pmid">16230385</pub-id></mixed-citation></ref><ref id="bib33"><mixed-citation publication-type="journal">
+Walf-Vorderwulbecke V
+, 
+de Boer J
+, 
+Horton SJ
+, 
+van Amerongen R
+, 
+Proost N
+, 
+Berns A
+et al. <article-title>Frat2 mediates the oncogenic activation of Rac by MLL fusions</article-title>. <source>Blood</source>
+<year>2012</year>; <volume>120</volume>: <fpage>4819</fpage>&#x02013;4828.<pub-id pub-id-type="pmid">23074275</pub-id></mixed-citation></ref><ref id="bib34"><mixed-citation publication-type="journal">
+Vander Heiden MG
+, 
+Cantley LC
+, 
+Thompson CB
+. <article-title>Understanding the Warburg effect: the metabolic requirements of cell proliferation</article-title>. <source>Science</source>
+<year>2009</year>; <volume>324</volume>: <fpage>1029</fpage>&#x02013;1033.<pub-id pub-id-type="pmid">19460998</pub-id></mixed-citation></ref><ref id="bib35"><mixed-citation publication-type="journal">
+Zeisig BB
+, 
+Milne T
+, 
+Garc&#x000ed;a-Cu&#x000e9;llar M-P
+, 
+Schreiner S
+, 
+Martin M-E
+, 
+Fuchs U
+et al. <article-title>Hoxa9 and Meis1 are key targets for MLL-ENL-mediated cellular immortalization</article-title>. <source>Mol Cell Biol</source>
+<year>2004</year>; <volume>24</volume>: <fpage>617</fpage>&#x02013;628.<pub-id pub-id-type="pmid">14701735</pub-id></mixed-citation></ref><ref id="bib36"><mixed-citation publication-type="journal">
+Marroquin LD
+, 
+Hynes J
+, 
+Dykens JA
+, 
+Jamieson JD
+, 
+Will Y
+. <article-title>Circumventing the Crabtree effect: replacing media glucose with galactose increases susceptibility of HepG2 cells to mitochondrial toxicants</article-title>. <source>Toxicol Sci</source>
+<year>2007</year>; <volume>97</volume>: <fpage>539</fpage>&#x02013;547.<pub-id pub-id-type="pmid">17361016</pub-id></mixed-citation></ref><ref id="bib37"><mixed-citation publication-type="journal">
+Mathew R
+, 
+Karp CM
+, 
+Beaudoin B
+, 
+Vuong N
+, 
+Chen G
+, 
+Chen HY
+et al. <article-title>Autophagy suppresses tumorigenesis through elimination of p62</article-title>. <source>Cell</source>
+<year>2009</year>; <volume>137</volume>: <fpage>1062</fpage>&#x02013;1075.<pub-id pub-id-type="pmid">19524509</pub-id></mixed-citation></ref><ref id="bib38"><mixed-citation publication-type="journal">
+Liu H
+, 
+He Z
+, 
+von Rutte T
+, 
+Yousefi S
+, 
+Hunger RE
+, 
+Simon HU
+. <article-title>Down-regulation of autophagy-related protein 5 (ATG5) contributes to the pathogenesis of early-stage cutaneous melanoma</article-title>. <source>Sci Transl Med</source>
+<year>2013</year>; <volume>5</volume>: <fpage>202ra123</fpage>.</mixed-citation></ref><ref id="bib39"><mixed-citation publication-type="journal">
+Brigger D
+, 
+Torbett BE
+, 
+Chen J
+, 
+Fey MF
+, 
+Tschan MP
+. <article-title>Inhibition of GATE-16 attenuates ATRA-induced neutrophil differentiation of APL cells and interferes with autophagosome formation</article-title>. <source>Biochem Biophys Res Commun</source>
+<year>2013</year>; <volume>438</volume>: <fpage>283</fpage>&#x02013;288.<pub-id pub-id-type="pmid">23891751</pub-id></mixed-citation></ref><ref id="bib40"><mixed-citation publication-type="journal">
+Rosenfeldt MT
+, 
+O'Prey J
+, 
+Morton JP
+, 
+Nixon C
+, 
+MacKay G
+, 
+Mrowinska A
+et al. <article-title>p53 status determines the role of autophagy in pancreatic tumour development</article-title>. <source>Nature</source>
+<year>2013</year>; <volume>504</volume>: <fpage>296</fpage>&#x02013;300.<pub-id pub-id-type="pmid">24305049</pub-id></mixed-citation></ref><ref id="bib41"><mixed-citation publication-type="journal">
+Rao S
+, 
+Tortola L
+, 
+Perlot T
+, 
+Wirnsberger G
+, 
+Novatchkova M
+, 
+Nitsch R
+et al. <article-title>A dual role for autophagy in a murine model of lung cancer</article-title>. <source>Nat Commun</source>
+<year>2014</year>; <volume>5</volume>: <fpage>3056</fpage>.<pub-id pub-id-type="pmid">24445999</pub-id></mixed-citation></ref><ref id="bib42"><mixed-citation publication-type="journal">
+Nakamura T
+. <article-title>Meis and Hox: a mighty pair defeats apoptosis</article-title>. <source>Blood</source>
+<year>2005</year>; <volume>105</volume>: <fpage>909</fpage>&#x02013;910.</mixed-citation></ref><ref id="bib43"><mixed-citation publication-type="journal">
+Herst PM
+, 
+Howman RA
+, 
+Neeson PJ
+, 
+Berridge MV
+, 
+Ritchie DS
+. <article-title>The level of glycolytic metabolism in acute myeloid leukemia blasts at diagnosis is prognostic for clinical outcome</article-title>. <source>J Leukoc Biol</source>
+<year>2011</year>; <volume>89</volume>: <fpage>51</fpage>&#x02013;55.<pub-id pub-id-type="pmid">20959411</pub-id></mixed-citation></ref><ref id="bib44"><mixed-citation publication-type="journal">
+Lv L
+, 
+Li D
+, 
+Zhao D
+, 
+Lin R
+, 
+Chu Y
+, 
+Zhang H
+et al. <article-title>Acetylation targets the M2 isoform of pyruvate kinase for degradation through chaperone-mediated autophagy and promotes tumor growth</article-title>. <source>Mol Cell</source>
+<year>2011</year>; <volume>42</volume>: <fpage>719</fpage>&#x02013;730.<pub-id pub-id-type="pmid">21700219</pub-id></mixed-citation></ref><ref id="bib45"><mixed-citation publication-type="journal">
+Liu K
+, 
+Czaja MJ
+. <article-title>Regulation of lipid stores and metabolism by lipophagy</article-title>. <source>Cell Death Differ</source>
+<year>2013</year>; <volume>20</volume>: <fpage>3</fpage>&#x02013;11.<pub-id pub-id-type="pmid">22595754</pub-id></mixed-citation></ref><ref id="bib46"><mixed-citation publication-type="journal">
+Requejo-Aguilar R
+, 
+Lopez-Fabuel I
+, 
+Fernandez E
+, 
+Martins LM
+, 
+Almeida A
+, 
+Bolanos JP
+. <article-title>PINK1 deficiency sustains cell proliferation by reprogramming glucose metabolism through HIF1</article-title>. <source>Nat Commun</source>
+<year>2014</year>; <volume>5</volume>: <fpage>4514</fpage>.<pub-id pub-id-type="pmid">25058378</pub-id></mixed-citation></ref><ref id="bib47"><mixed-citation publication-type="journal">
+Salemi S
+, 
+Yousefi S
+, 
+Constantinescu MA
+, 
+Fey MF
+, 
+Simon HU
+. <article-title>Autophagy is required for self-renewal and differentiation of adult human stem cells</article-title>. <source>Cell Res</source>
+<year>2012</year>; <volume>22</volume>: <fpage>432</fpage>&#x02013;435.<pub-id pub-id-type="pmid">22184008</pub-id></mixed-citation></ref><ref id="bib48"><mixed-citation publication-type="journal">
+Phadwal K
+, 
+Abarrategui JA
+, 
+Watson AS
+, 
+Pike L
+, 
+Anbalagan S
+, 
+Hammond EM
+et al. <article-title>A novel method for autophagy detection in primary cells: impaired levels of macroautophagy in immunosenescent T-cells</article-title>. <source>Autophagy</source>
+<year>2012</year>; <volume>8</volume>: <fpage>1</fpage>&#x02013;14.<pub-id pub-id-type="pmid">22082964</pub-id></mixed-citation></ref><ref id="bib49"><mixed-citation publication-type="journal">
+Mizushima N
+, 
+Yamamoto A
+, 
+Matsui M
+, 
+Yoshimori T
+, 
+Ohsumi Y
+. <article-title><italic>In vivo</italic> analysis of autophagy in response to nutrient starvation using transgenic mice expressing a fluorescent autophagosome marker</article-title>. <source>Mol Biol Cell</source>
+<year>2004</year>; <volume>15</volume>: <fpage>1101</fpage>&#x02013;1111.<pub-id pub-id-type="pmid">14699058</pub-id></mixed-citation></ref><ref id="bib50"><mixed-citation publication-type="journal">
+Mortazavi A
+, 
+Williams BA
+, 
+McCue K
+, 
+Schaeffer L
+, 
+Wold B
+. <article-title>Mapping and quantifying mammalian transcriptomes by RNA-Seq</article-title>. <source>Nat Methods</source>
+<year>2008</year>; <volume>5</volume>: <fpage>621</fpage>&#x02013;628.<pub-id pub-id-type="pmid">18516045</pub-id></mixed-citation></ref><ref id="bib51"><mixed-citation publication-type="journal">
+Tehranchi R
+, 
+Woll PS
+, 
+Anderson K
+, 
+Buza-Vidas N
+, 
+Mizukami T
+, 
+Mead AJ
+et al. <article-title>Persistent malignant stem cells in del(5q) myelodysplasia in remission</article-title>. <source>New Engl J Med</source>
+<year>2010</year>; <volume>363</volume>: <fpage>1025</fpage>&#x02013;1037.<pub-id pub-id-type="pmid">20825315</pub-id></mixed-citation></ref><ref id="bib52"><mixed-citation publication-type="journal">
+Hara T
+, 
+Nakamura K
+, 
+Matsui M
+, 
+Yamamoto A
+, 
+Nakahara Y
+, 
+Suzuki-Migishima R
+et al. <article-title>Suppression of basal autophagy in neural cells causes neurodegenerative disease in mice</article-title>. <source>Nature</source>
+<year>2006</year>; <volume>441</volume>: <fpage>885</fpage>&#x02013;889.<pub-id pub-id-type="pmid">16625204</pub-id></mixed-citation></ref><ref id="bib53"><mixed-citation publication-type="journal">
+Woodward MJ
+, 
+de Boer J
+, 
+Heidorn S
+, 
+Hubank M
+, 
+Kioussis D
+, 
+Williams O
+et al. <article-title>Tnfaip8 is an essential gene for the regulation of glucocorticoid-mediated apoptosis of thymocytes</article-title>. <source>Cell Death Differ</source>
+<year>2010</year>; <volume>17</volume>: <fpage>316</fpage>&#x02013;323.<pub-id pub-id-type="pmid">19730441</pub-id></mixed-citation></ref><ref id="bib54"><mixed-citation publication-type="journal">
+de Boer J
+, 
+Williams A
+, 
+Skavdis G
+, 
+Harker N
+, 
+Coles M
+, 
+Tolaini M
+et al. <article-title>Transgenic mice with hematopoietic and lymphoid specific expression of Cre</article-title>. <source>Eur J Immunol</source>
+<year>2003</year>; <volume>33</volume>: <fpage>314</fpage>&#x02013;325.<pub-id pub-id-type="pmid">12548562</pub-id></mixed-citation></ref><ref id="bib55"><mixed-citation publication-type="journal">
+Robinson GL
+, 
+Dinsdale D
+, 
+Macfarlane M
+, 
+Cain K
+. <article-title>Switching from aerobic glycolysis to oxidative phosphorylation modulates the sensitivity of mantle cell lymphoma cells to TRAIL</article-title>. <source>Oncogene</source>
+<year>2012</year>; <volume>31</volume>: <fpage>4996</fpage>&#x02013;5006.<pub-id pub-id-type="pmid">22310286</pub-id></mixed-citation></ref><ref id="bib56"><mixed-citation publication-type="journal">
+Rucker FG
+, 
+Sander S
+, 
+Dohner K
+, 
+Dohner H
+, 
+Pollack JR
+, 
+Bullinger L
+. <article-title>Molecular profiling reveals myeloid leukemia cell lines to be faithful model systems characterized by distinct genomic aberrations</article-title>. <source>Leukemia</source>
+<year>2006</year>; <volume>20</volume>: <fpage>994</fpage>&#x02013;1001.<pub-id pub-id-type="pmid">16721385</pub-id></mixed-citation></ref></ref-list></back><floats-group><fig id="fig1"><label>Figure 1</label><caption><p>The autophagic flux is high in human and murine HSPCs. (<bold>a</bold>) Representative histograms of CytoID staining of indicated mouse bone marrow populations and indicated treatment, quantified as GFMI in (<bold>b</bold>) <italic>n</italic>=2, <italic>t</italic>-test. Rapamycin serves as control inducing autophagy. (<bold>c</bold>) Representative images and (<bold>d</bold>) quantification of <italic>ex vivo</italic> LC3-GFP puncta in LSK or LK HSPCs, CD11b<sup>+</sup>Gr1<sup>&#x02212;</sup> (neutrophil) or B220<sup>+</sup> (B cell) BM populations from transgenic GFP-LC3 mice (&#x02018;+ I&#x02019; indicates 2&#x02009;h E64D/PepA lysosomal inhibitor treatment), using Image Stream assessment of % cells with four or more bright puncta (<italic>n</italic>=4). (<bold>e</bold>) Frequency of CD34<sup>+</sup> and CD34<sup>&#x02212;</sup> human BM mononuclear cells in LysoID/LC3 double-positive population with high LC3/LysoID BDS (Bright Detail Similarity; 20&#x02009;000 cells analyzed per sample, <italic>n</italic>=6 healthy donors, Wilcoxon test *<italic>P</italic>&#x0003c;0.05 comparing populations within donors). (<bold>f</bold>) Geometric mean fluorescent intensity (GMFI) of nonyl-acridine orange (NaO, mitochondrial health) and (<bold>c</bold>) mitochondrial ROS (MitoSOX) staining in CD34<sup>+</sup> and CD34<sup>&#x02212;</sup> human BM cells. (<bold>g</bold>) Gene expression (RNAseq analysis) of human HSC, GMP and MEP, <italic>n</italic>=3 healthy donors. All bar graph values are mean values&#x000b1; S.E.M.; <italic>P</italic>-values are obtained with Mann&#x02013;Whitney test (*<italic>P</italic>&#x0003c;0.05, **<italic>P</italic>&#x0003c;0.01, ***<italic>P</italic>&#x0003c;0.001), unless otherwise stated.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-f1"/></fig><fig id="fig2"><label>Figure 2</label><caption><p>Decreased autophagy in human AML blasts. (<bold>a</bold>) Expression of autophagy genes in blast marker-positive BMNCs from AML patients relative to blast marker-negative cell expression (value for each donor represents the mean from three independent sorts, measured in triplicate by Fluidigm, normalized to GAPDH). (<bold>b</bold>) Frequency of blast marker-positive or -negative cells from AML BMNCs with high LC3/LysoID colocalization (BDS) under basal conditions or after E64D/Pepstatin A treatment (Basal+Inh; <italic>n</italic>=13, Wilcoxon test comparing populations within donors *<italic>P</italic>&#x0003c;0.05, **<italic>P</italic>&#x0003c;0.01, ***<italic>P</italic>&#x0003c;0.001). (<bold>c</bold>) Representative immunohistochemistry of p62 in bone marrow trephine samples from AML patients (<italic>n</italic>=8 donors) or healthy controls (<italic>n</italic>=4 donors) either with antibody pre-incubated with blocking peptide or with antibody alone (scale bar 50&#x02009;<italic>&#x003bc;</italic>m). (<bold>d</bold>) The geometric mean fluorescence intensity of nonyl-acridine orange (NaO) and ROS (by MitoSOX) of blast marker-positive BM cells from AML patients compared with CD34<sup>+</sup> cells from healthy BM donors (Mann&#x02013;Whitney test).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-f2"/></fig><fig id="fig3"><label>Figure 3</label><caption><p>Heterozygous deletion of <italic>Atg5</italic> in a MLL&#x02013;ENL AML model mediates increased proliferation and leukemogenic potential. (<bold>a</bold>) Generation of conditional <italic>Atg5</italic><sup><italic>&#x02212;/&#x02212;</italic></sup> (KO), <italic>Atg5</italic><sup><italic>+/&#x02212;</italic></sup> (HET), <italic>Atg5</italic><sup><italic>+/+</italic></sup> (WT), empty vector or MLL&#x02013;ENL transduced leukemic lines, in which Cre-expressing retrovirus was used to delete <italic>Atg5</italic> expression. (<bold>b</bold>) Western blot for Atg5 (Atg5 is typically only visible in Atg5/12 complex). (<bold>c</bold>) LC3 or GAPDH protein levels in protein lysates from leukemic lines. (<bold>d</bold>) Geometric fluorescence mean intensity of CytoID staining of MLL&#x02013;ENL lines; Rapamycin treatment of WT lines serves as positive control. (<bold>e</bold>) difference in number of colonies formed in complete methylcellulose by 500 cells from leukemic lines following 72-h culture in normoxia or 0.1% oxygen (<italic>n</italic>=3 per line, representative of two experiments). (<bold>f</bold>) Quantification of BrdU plots from leukemic lines under starvation, gated as in <bold>g</bold>, showing difference in frequency of cells in the S phase or dead cells (sub-GO/G1; Cre-transduced subtract genotype empty vector frequency; <italic>n</italic>=5 cultures over three experiments) or (<bold>g</bold>) representative plots of BrdU incorporation against DNA content (7AAD intensity) delineating cell cycle stages and dead cells (sub-GO/G1) in leukemic lines starved for 18&#x02009;h (reduced serum (2%) no growth factors). (<bold>h</bold>) Survival of sublethally irradiated C57BL/6 mice (2&#x000d7;3&#x02009;Gy) intravenously injected with 1&#x000d7;10<sup>6</sup> primary leukemic cells with <italic>Atg5</italic><sup><italic>wt/wt</italic></sup> or <italic>Atg</italic>
+<sup><italic>fl/wt</italic></sup> genotypes transduced with CRE-IRES-GFP retrovirus, sorted on GFP expression pre-injection; 10 mice per genotype were scored regularly and killed on development of clinical symptoms with pre-determined score threshold. All bar graph values are mean&#x000b1;S.E.M.; <italic>P</italic>-values are obtained with two-tailed <italic>t</italic>-test (*<italic>P</italic>&#x0003c;0.05), unless otherwise stated. See also <xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S4</xref> for normoxia (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S4A</xref>) and hypoxia (<xref ref-type="supplementary-material" rid="xob1">Supplementary Figure S4B</xref>).</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-f3"/></fig><fig id="fig4"><label>Figure 4</label><caption><p>Heterozygous loss of <italic>Atg5</italic> causes increased glycolytic dependence. (<bold>a</bold>) OCR with (<bold>b</bold>) quantification after addition of FCCP and (<bold>c</bold>) basal ECAR of 280&#x02009;000 cells from MLL&#x02013;ENL cell lines assayed on the Seahorse Bioanalyzer with addition of mitochondrial inhibitors: (A) Oligomycin 400&#x02009;nM; (B) FCCP, 400&#x02009;nM; (C) Rotenone 1&#x02009;&#x000b5;M; (D) media only (mean&#x000b1;S.D., five cultures assessed per genotype, representative experiment of two). (<bold>d</bold>) Enzymatic lactate assessment in supernatant of MLL&#x02013;ENL lines after 48-h culture. (<bold>e</bold>) Histogram of Glut1 fluorescence intensity of MLL&#x02013;ENL cell lines. (<bold>f</bold>) Enzymatic assessment of MLL&#x02013;ENL line lactate production during culture with 20&#x02009;mM glycolysis inhibitor galactose (GAL) or 20&#x02009;mM glucose (GLU). (<bold>g</bold>) Frequency of cells in the S phase in Cre-transduced lines after culture with either 20&#x02009;mM glucose or galactose, first for 24&#x02009;h in complete media (10% FCS and cytokines) then under starvation conditions for 18&#x02009;h (2% serum, no cytokines; <italic>n</italic>=2, mean&#x000b1;S.E.M.). <italic>P</italic>-values were obtained with two-tailed <italic>t</italic>-test (*<italic>P</italic>&#x0003c;0.05, **<italic>P</italic>&#x0003c;0.01, ***<italic>P</italic>&#x0003c;0.001, ****<italic>P</italic>&#x0003c;0.0001), unless otherwise stated.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cddiscovery20158-f4"/></fig><table-wrap id="tbl1"><label>Table 1</label><caption><title>Autophagy genes are hemizygously deleted in human AML</title></caption><table frame="hsides" rules="groups" border="1"><colgroup><col align="left"/><col align="left"/><col align="left"/><col align="left"/><col align="char" char="."/></colgroup><thead valign="bottom"><tr><th align="left" valign="top" charoff="50">
+<italic>Chromosome lost (normally heterozygous)</italic>
+</th><th align="left" valign="top" charoff="50">
+<italic>Deleted regions</italic>
+</th><th align="left" valign="top" charoff="50">
+<italic>Autophagy genes</italic>
+</th><th align="left" valign="top" charoff="50">
+<italic>Autophagy gene locations (human genome, taken from Ensembl Genome Browser)</italic>
+</th><th align="center" valign="top" char="." charoff="50">
+<italic>Frequency chromosome lost in complex karyotype AML; % (</italic>n<italic>=60, Rucker et al.</italic><sup><xref ref-type="bibr" rid="bib26">26</xref></sup>)</th></tr></thead><tbody valign="top"><tr><td align="left" valign="top" charoff="50">5q</td><td align="left" valign="top" charoff="50">Chr 5: 79&#x02009;741&#x02009;823&#x02013;159&#x02009;483&#x02009;514</td><td align="left" valign="top" charoff="50">
+<italic>Atg10</italic>
+</td><td align="left" valign="top" charoff="50">Chr 5: 81&#x02009;267&#x02009;844&#x02013;81&#x02009;572&#x02009;241</td><td align="center" valign="top" char="." charoff="50">77</td></tr><tr><td align="left" valign="top" charoff="50">
+</td><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">
+<italic>Atg12</italic>
+</td><td align="left" valign="top" charoff="50">Chr 5: 115&#x02009;163&#x02009;897&#x02013;115&#x02009;177&#x02009;555</td><td align="center" valign="top" char="." charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50">7q</td><td align="left" valign="top" charoff="50">Chr 7: 107&#x02009;570&#x02009;049&#x02013;158&#x02009;821&#x02009;424</td><td align="left" valign="top" charoff="50">
+<italic>KLHDC10</italic>
+</td><td align="left" valign="top" charoff="50">Chr 7: 129&#x02009;710&#x02009;350&#x02013;129&#x02009;773&#x02009;596</td><td align="center" valign="top" char="." charoff="50">45</td></tr><tr><td align="left" valign="top" charoff="50">
+</td><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">
+<italic>PRKAG2</italic>
+</td><td align="left" valign="top" charoff="50">Chr 7: 151&#x02009;253&#x02009;203&#x02013;151&#x02009;574&#x02009;316</td><td align="center" valign="top" char="." charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50">
+</td><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">
+<italic>Atg9B</italic>
+</td><td align="left" valign="top" charoff="50">Chr 7: 150&#x02009;709&#x02009;302&#x02013;150&#x02009;721&#x02009;586</td><td align="center" valign="top" char="." charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50">12p</td><td align="left" valign="top" charoff="50">Chr 12: 100&#x02009;000&#x02013;32&#x02009;700&#x02009;000*</td><td align="left" valign="top" charoff="50">
+<italic>GABARAPL1</italic>
+</td><td align="left" valign="top" charoff="50">Chr 12: 10&#x02009;365&#x02009;489&#x02013;10&#x02009;375&#x02009;722</td><td align="center" valign="top" char="." charoff="50">18</td></tr><tr><td align="left" valign="top" charoff="50">16q</td><td align="left" valign="top" charoff="50">Chr 16: 59&#x02009;672&#x02009;953&#x02013;88&#x02009;827&#x02009;254</td><td align="left" valign="top" charoff="50">
+<italic>GABARAPL2</italic>
+</td><td align="left" valign="top" charoff="50">Chr 16: 75&#x02009;600&#x02009;249&#x02013;75&#x02009;611&#x02009;779</td><td align="center" valign="top" char="." charoff="50">32</td></tr><tr><td align="left" valign="top" charoff="50">
+</td><td align="left" valign="top" charoff="50">&#x000a0;</td><td align="left" valign="top" charoff="50">
+<italic>MAP1LC3B</italic>
+</td><td align="left" valign="top" charoff="50">Chr 16: 87&#x02009;425&#x02009;406&#x02013;87&#x02009;438&#x02009;385</td><td align="center" valign="top" char="." charoff="50">&#x000a0;</td></tr><tr><td align="left" valign="top" charoff="50">17p</td><td align="left" valign="top" charoff="50">Chr 17: 1&#x02013;8&#x02009;353&#x02009;903</td><td align="left" valign="top" charoff="50">
+<italic>GABARAP</italic>
+</td><td align="left" valign="top" charoff="50">Chr 17: 7&#x02009;143&#x02009;333&#x02013;7&#x02009;145&#x02009;772</td><td align="center" valign="top" char="." charoff="50">55</td></tr></tbody></table><table-wrap-foot><fn id="t1-tfoot1"><p>Correlation between the locations of autophagy pathway genes in the human genome, as compiled by Behrends <italic>et al.</italic><sup><xref ref-type="bibr" rid="bib21">21</xref></sup> and chromosomal regions commonly deleted in AML patients.<sup><xref ref-type="bibr" rid="bib22">22</xref>,<xref ref-type="bibr" rid="bib24">24</xref>,<xref ref-type="bibr" rid="bib56">56</xref></sup>
+<italic>P</italic>=0.039 indicates the statistical probability of this number of core autophagy genes that are being deleted by chance, assuming independent gene locations, Fisher&#x02019;s exact test.</p></fn></table-wrap-foot></table-wrap></floats-group></article>

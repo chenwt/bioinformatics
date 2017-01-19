@@ -1,0 +1,511 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Biostatistics</journal-id><journal-id journal-id-type="iso-abbrev">Biostatistics</journal-id><journal-id journal-id-type="publisher-id">biosts</journal-id><journal-id journal-id-type="hwp">biosts</journal-id><journal-title-group><journal-title>Biostatistics (Oxford, England)</journal-title></journal-title-group><issn pub-type="ppub">1465-4644</issn><issn pub-type="epub">1468-4357</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">3590927</article-id><article-id pub-id-type="doi">10.1093/biostatistics/kxs033</article-id><article-id pub-id-type="publisher-id">kxs033</article-id><article-categories><subj-group subj-group-type="heading"><subject>Articles</subject></subj-group></article-categories><title-group><article-title>A new shrinkage estimator for dispersion improves differential expression detection in RNA-seq data</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Wu</surname><given-names>Hao</given-names></name><xref ref-type="author-notes" rid="FN1">&#x02020;</xref></contrib><aff>Department of Biostatistics and Bioinformatics, Emory University, Atlanta, GA 30322, USA</aff></contrib-group><contrib-group><contrib contrib-type="author"><name><surname>Wang</surname><given-names>Chi</given-names></name><xref ref-type="author-notes" rid="FN1">&#x02020;</xref></contrib><aff>Department of Biostatistics and Markey Cancer Center, University of Kentucky, Lexington, KY 40536, USA</aff></contrib-group><contrib-group><contrib contrib-type="author"><name><surname>Wu</surname><given-names>Zhijin</given-names></name><xref ref-type="corresp" rid="cor1">*</xref></contrib><aff>Department of Biostatistics, Brown University, Providence, RI 02912, USA</aff></contrib-group><author-notes><corresp id="cor1"><label>*</label>To whom correspondence should be addressed. <email>zhijin_wu@brown.edu</email></corresp><fn id="FN1"><p><sup>&#x02020;</sup>Authors with equal contribution.</p></fn></author-notes><pub-date pub-type="ppub"><month>4</month><year>2013</year></pub-date><pub-date pub-type="epub"><day>22</day><month>9</month><year>2012</year></pub-date><pub-date pub-type="pmc-release"><day>22</day><month>9</month><year>2012</year></pub-date><!-- PMC Release delay is 0 months and 0 days and was based on the							<pub-date pub-type="epub"/>. --><volume>14</volume><issue>2</issue><fpage>232</fpage><lpage>243</lpage><history><date date-type="received"><day>25</day><month>2</month><year>2012</year></date><date date-type="rev-recd"><day>17</day><month>8</month><year>2012</year></date><date date-type="accepted"><day>19</day><month>8</month><year>2012</year></date></history><permissions><copyright-statement>&#x000a9; The Author 2012. Published by Oxford University Press. All rights reserved. For permissions, please e-mail: journals.permissions@oup.com.</copyright-statement><copyright-year>2012</copyright-year><license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/"><license-p><!--CREATIVE COMMONS-->This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">http://creativecommons.org/licenses/by-nc/3.0/</ext-link>), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p></license></permissions><self-uri content-type="pdf" xlink:type="simple" xlink:href="kxs033.pdf"/><abstract><p>Recent developments in RNA-sequencing (RNA-seq) technology have led to a rapid increase in gene expression data in the form of counts. RNA-seq can be used for a variety of applications, however, identifying differential expression (DE) remains a key task in functional genomics. There have been a number of statistical methods for DE detection for RNA-seq data. One common feature of several leading methods is the use of the negative binomial (Gamma&#x02013;Poisson mixture) model. That is, the unobserved gene expression is modeled by a gamma random variable and, given the expression, the sequencing read counts are modeled as Poisson. The distinct feature in various methods is how the variance, or dispersion, in the Gamma distribution is modeled and estimated. We evaluate several large public RNA-seq datasets and find that the estimated dispersion in existing methods does not adequately capture the heterogeneity of biological variance among samples. We present a new empirical Bayes shrinkage estimate of the dispersion parameters and demonstrate improved DE detection.</p></abstract><kwd-group><kwd>Differential expression</kwd><kwd>Empirical Bayes</kwd><kwd>RNA sequencing</kwd><kwd>Shrinkage estimator</kwd></kwd-group><counts><page-count count="12"/></counts></article-meta></front><body><sec id="s1"><label>1.</label><title>Introduction</title><p>The recent developments in RNA-sequencing (RNA-seq) technology have led to a rapid increase in gene expression data in the form of counts. RNA-seq enables some applications not achievable by microarrays, including discovering novel transcripts and alternative splicing. One fundamental question in functional genomics, however, remains the regulation of gene expression under the different conditions (treatments, genotypes, environments, or developmental stages). Therefore, identifying differential expression (DE) is still a key task in transcriptomics research.</p><p>The measurement of expression in RNA-seq is the number of sequenced fragments that can be mapped to a genomic unit of interest, which can be a gene, an exon, or any region of interest. We use <italic>gene</italic> thereafter for convenience. One major difference in the DE detection methods for RNA-seq and microarray data is that data from microarrays are often modeled as a Gaussian distribution after proper preprocessing. These methods do not take into account the discrete nature of RNA-seq data and thus may not be directly applicable. There are nonetheless some common features between the two technologies. For example, the advancement in technology does not eliminate biological variability, which early applications of RNA-seq often neglected(<xref ref-type="bibr" rid="KXS033C9">Hansen <italic>and others</italic>, 2011</xref>). In fact, the much higher dynamic range of RNA-Seq data makes the heteroskedasticity, i.e. the gene-specific dispersion, even more important than it was with microarrays.</p><p>In both types of gene expression data, there are two sources of variation: technical variation, which represents the measurement error inherent to the technology and sample preparation, and biological variation, which represents the heterogeneity among samples in the same treatment group or population. If all subjects within the same group have an identical expression level for a given gene, i.e. lacking biological variation, the counts for that gene can be modeled as a Poisson random variable, as done by<xref ref-type="bibr" rid="KXS033C11">Marioni <italic>and others</italic> (2008)</xref> and <xref ref-type="bibr" rid="KXS033C23">Wang <italic>and others</italic> (2010)</xref>. The earliest tests for DE essentially tested for whether the difference of average counts in two groups exceeds what is expected by Poisson sampling error. However, since gene expression is a stochastic process, biological replicates in the same treatment group do not share identical expression levels. The presence of biological variation leads to the &#x0201c;over-dispersion&#x0201d; problem, e.g. the read counts show variation greater than expected from Poisson random variables.</p><p>A common approach to address the over-dispersion problem is to use the negative binomial (NB) model. The NB model is a Gamma&#x02013;Poisson mixture and can be interpreted as the following: the Gamma distribution models the unobserved true expression levels in each biological sample, and conditioning on the expression level, the measurement from the sequencing machine follows a Poisson distribution(<xref ref-type="bibr" rid="KXS033C18">Robinson and Smyth, 2007</xref>; <xref ref-type="bibr" rid="KXS033C1">Anders and Huber, 2010</xref>; <xref ref-type="bibr" rid="KXS033C10">Hardcastle and Kelly, 2010</xref>). The variance from an NB distribution depends on the mean <italic>&#x003bc;</italic> in the relationship:
+<disp-formula id="KXS033M1x1"><label>(1.1)</label><tex-math id="M1">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{equation*}\label{eq1.1} {\mathrm{var}}=\mu+\mu^2\phi, \end{equation*}\end{document}</tex-math></disp-formula>
+where the first term represents variance due to Poisson sampling error and the second term represents variance due to variation between biological replicates. The parameter <italic>&#x003d5;</italic> is referred to as the dispersion parameter. Note that <italic>&#x003d5;</italic> is the reciprocal of the shape parameter in the Gamma distribution, and thus is the squared coefficient of variation (CV). Therefore, <italic>&#x003d5;</italic> represents the variation of a gene&#x02019;s expression relative to its mean.</p><p>Most statisticians agree that the over-dispersion problem needs to be addressed. The difference is how the dispersion is modeled, estimated, and used in inference.<xref ref-type="bibr" rid="KXS033C19">Robinson and Smyth (2008)</xref> assume a common dispersion for all genes and use information from all genes to estimate a global <italic>&#x003d5;</italic>. This stabilizes the estimation for <italic>&#x003d5;</italic> but a common dispersion means an identical CV for all genes, while it is known that some genes are more tightly controlled (e.g. housekeeping genes) and other genes vary much more relative to their means (e.g. immune-modulated and stress-induced genes(<xref ref-type="bibr" rid="KXS033C15">Pritchard <italic>and others</italic>, 2001</xref>)). The gene-specific biological variation is reproducible across technologies(<xref ref-type="bibr" rid="KXS033C9">Hansen <italic>and others</italic>, 2011</xref>) and is not reflected by a common dispersion. As a result, genes that are naturally more variable are more likely to be reported as DE due to an underestimation of their dispersion.<xref ref-type="bibr" rid="KXS033C1">Anders and Huber (2010)</xref> introduce DESeq, another method based on the NB model. Instead of assuming the second term in(<xref ref-type="disp-formula" rid="KXS033M1x1">1.1</xref>) to be proportional to <italic>&#x003bc;</italic><sup>2</sup> with a dispersion <italic>&#x003d5;</italic>, they let the variance be a smooth function of the mean (with proper offset accounting for the sequencing depth). However, the model in<xref ref-type="bibr" rid="KXS033C1">Anders and Huber (2010)</xref> still assumes that conditioning on the mean expression, the variance is constant. That is, two genes with the same mean expression level also has the same variance. There have been many updates of the DESeq package and the current version uses the greater value between the empirical gene-specific dispersion and the mean-dependent fitted value. <xref ref-type="bibr" rid="KXS033C18">Robinson and Smyth (2007)</xref> modify the common dispersion model and introduce an empirical Bayes shrinkage estimate using weighted conditional log-likelihood. This new estimate shrinks the sample dispersion for each gene toward a common prior instead of shrinking them completely to the common dispersion. The method is implemented in the widely used R/Bioconductor package edgeR(<xref ref-type="bibr" rid="KXS033C17">Robinson <italic>and others</italic>, 2010</xref>), with recent extensions to multifactor experiments(<xref ref-type="bibr" rid="KXS033C13">McCarthy <italic>and others</italic>, 2012</xref>). <xref ref-type="bibr" rid="KXS033C10">Hardcastle and Kelly (2010)</xref> use NB distribution for the counts in a Bayesian hierarchical model setting. Non-parametric prior distributions for the NB parameters are empirically determined. This is a much more computationally intensive method and, possibly for this reason, not as widely applied as edgeR and DESeq.</p><p>Since these publications, many RNA-seq studies have emerged and the accumulated RNA-seq datasets with a reasonable number of replicates encourage us to re-evaluate the estimation of dispersion in RNA-seq. We find that existing methods often capture the overall level of dispersion but do not adequately reflect the heterogeneity in dispersion among genes. In this paper, we propose a new empirical Bayes method to shrink the dispersion parameter. We demonstrate using real data-based simulation that the proposed method provides a better estimate for the gene-specific dispersion and improves DE detection. The rest of the paper is organized as follows. In Section2, we describe the datasets that provide both the motivation for this research and the basis for the evaluation of DE detection. In Section3, we demonstrate the limitation of current estimation of the dispersion parameter and motivate our model for the prior distribution of the dispersion parameter. In Section4, we present the hierarchical model, estimation, and testing procedure. In Section5, we compare the DE detection using the proposed method with the leading alternatives. Finally,in Section6, we discuss the interpretation of the dispersion, the connection with microarray data, and future directions.</p></sec><sec id="s2"><label>2.</label><title>Data description</title><p>Two real RNA-seq datasets are used in the paper for estimating simulations parameters and showing motivational plots. The first is from<xref ref-type="bibr" rid="KXS033C4">Cheung <italic>and others</italic> (2010)</xref>, which quantifies the expressions of lymphoblastoid cell lines from 41 CEU individuals in International HapMap Project(<xref ref-type="bibr" rid="KXS033C7">Gibbs <italic>and others</italic>, 2003</xref>). The second is from <xref ref-type="bibr" rid="KXS033C2">Blekhman <italic>and others</italic> (2010)</xref>, which includes six liver samples from both males and females. These datasets are referred to as &#x0201c;Cheung data&#x0201d; and &#x0201c;Gilad data&#x0201d;, respectively, thereafter. For both datasets, the sequence reads are summarized into counts within genes from Ensembl 61 annotation. The gene counts are obtained from the ReCount webpage presented by<xref ref-type="bibr" rid="KXS033C6">Frazee <italic>and others</italic> (2011)</xref>. Samples in both datasets include biological replicates, so the variance in observed data is a result of both biological variation and technical variation.</p><p>We also use data from the MicroArray Quality Control Project (MAQC)(<xref ref-type="bibr" rid="KXS033C20">Shi <italic>and others</italic>, 2006</xref>) phase III, also known as Sequencing Quality Control. Two biological samples, human brain and universal human reference sample, are assayed using seven lanes each. The MAQC data use samples from the same library preparation protocols, and thus represent data with technical replicates only. This dataset provides an extreme case in which the biological variation reaches the lower bound.</p></sec><sec id="s3"><label>3.</label><title>Motivation</title><p>The NB distribution is widely used in modeling sequence count data because the Gamma&#x02013;Poisson mixture provides a natural hierarchy for the generation of sequencing counts. The Gamma distribution is a flexible continuous distribution that characterizes the expression rate for a gene. Given the expression rate in a biological sample, the sequencing technology provides a count from a Poisson process with the mean proportional to the expression rate and an offset related to sequencing depth and possibly other factors affecting the detection efficiency (<xref ref-type="bibr" rid="KXS033C8">Hansen <italic>and others</italic>, 2012</xref>). When there are a large number of replicates, the dispersion parameter can be estimated from the data and over-dispersion is a well-addressed problem in the generalized linear model framework. The challenge in RNA-seq data is that there are often very limited replicates, such that the sample estimate of gene-specific dispersion is unstable. In this case, it is often useful to combine information from other genes to improve the estimation. DESeq and edgeR are the most widely used methods that provide shrinkage estimates of the dispersions by borrowing information across genes. To assess how well the dispersions are estimated from these methods, we conduct a simulation based on real data. First the gene-specific means and dispersions are estimated from the Cheung data. Pseudo-datasets of 20&#x02009;000 genes, in two treatment groups with four replicates each, are constructed under the NB model with parameters taken from the real data. The mean expressions are directly sampled from estimated gene-specific means non-parametrically. The dispersions are generated from log-normal(&#x02212;1.72,1.07<sup>2</sup>), which well approximates the empirical distribution of the dispersion observed in the Cheung data (<ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S1</ext-link>).</p><p>DESeq function estimateDispersions with the default settings (sharing Mode="maximum" and fitType="parametric") and edgeR functions estimateCommon Disp followed by estimateTagwiseDisp with the default settings (trend="movingave", prop.used=0.3, method="grid") are applied to the simulated counts to obtain estimated dispersions. Figure<xref ref-type="fig" rid="KXS033F1">1</xref>(a) and(b) shows the estimated versus true dispersions from both methods. Clearly, the estimates do not correlate well with the truth. Although both edgeR and DESeq estimate the central magnitude of the dispersions well, they fail to capture the variations in dispersions among genes. Changing the settings in the edgeR function estimateTagwiseDisp leads to different estimates (<ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S4</ext-link>), but does not appear to substantially increase the accuracy of the estimated dispersion. The near horizontal clusters of points show that the dispersion of many genes are estimated to be approximately the same, which indicates over-shrinkage of the dispersions.
+<fig id="KXS033F1" position="float"><label>Fig. 1.</label><caption><p>Estimated versus true dispersion from (a) edgeR, (b) DESeq and (c) DSS, based on simulation. Simulated data were generated for 20&#x02009;000 genes and two treatment groups with four replicates in each group. The dispersions were randomly simulated from log-normal distribution with mean &#x02212;1.72 and standard deviation 1.07, which match those parameters observed from the Cheung data. Different colors represent genes with different levels of average read counts. A figure showing the genes in different color strata in separate panels is included as <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S2</ext-link>.</p></caption><graphic xlink:href="kxs03301"/></fig></p><p>Since the dispersion parameter represents biological variation, having a good estimate of <italic>&#x003d5;</italic> is crucial to finding the DE that is beyond natural biological variation. In order to account for gene-specific dispersion, we take advantage of real RNA-seq datasets with replicates and note that the distribution of the logarithm of sample dispersion, <inline-formula><tex-math id="M2">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\phi)$\end{document}</tex-math></inline-formula>, is approximately Gaussian as shown in Figure<xref ref-type="fig" rid="KXS033F2">2</xref>. In the next section, we describe a novel shrinkage estimator for <italic>&#x003d5;</italic> using a log-normal prior and an NB likelihood. In Section5, we show that the proposed method greatly improves the estimation of <italic>&#x003d5;</italic> and leads to better detection of the DE.
+<fig id="KXS033F2" position="float"><label>Fig. 2.</label><caption><p>Histogram for the logarithm of estimated gene-specific dispersions (<italic>&#x003d5;</italic><sub><italic>g</italic></sub>) from (a) Gilad and (b) Cheung data. Only female samples are used for the Gilad data. The solid lines are density curves for normal distribution with parameters estimated from <inline-formula><tex-math id="M3">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\phi _g)$\end{document}</tex-math></inline-formula>. It can be seen that <italic>&#x003d5;</italic><sub><italic>g</italic></sub> can be approximately modeled as a log-normal distribution.</p></caption><graphic xlink:href="kxs03302"/></fig></p></sec><sec sec-type="methods" id="s4"><label>4.</label><title>Methods</title><p>Denote the observed counts from gene <italic>g</italic> in sample <italic>i</italic> by <italic>Y</italic>
+<sub><italic>gi</italic></sub>, and the unobserved expression rate by <italic>&#x003b8;</italic><sub><italic>gi</italic></sub>. We assume the following hierarchical model:
+<disp-formula id="KXS033UM1"><tex-math id="M4">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\begin{align*} Y_{gi}|\theta_{gi} &#x00026;\sim \mbox{Poisson}(\theta_{gi}s_{i}),\\ \theta_{gi}|\phi_{g} &#x00026;\sim \mbox{Gamma}(\mu_{g,k(i)},\phi_{g}),\\ \phi_{g}&#x00026;\sim \mbox{log-normal}(m_0,\tau^2). \end{align*} \end{document}</tex-math></disp-formula>
+Here the Gamma distribution is parameterized with mean and dispersion (<italic>&#x003d5;</italic><sub><italic>g</italic></sub> is the reciprocal of the shape parameter in the common parameterization); <italic>k</italic>(<italic>i</italic>) denotes the treatment group of sample <italic>i</italic>; and <italic>s</italic><sub><italic>i</italic></sub> represents the normalizing factor, such as the relative library size, for sample <italic>i</italic>. This normalization factor could also be a gene-specific factor, taking into account the varying sequencing efficiency due to the guanine-cytosine content and/or length (<xref ref-type="bibr" rid="KXS033C8">Hansen <italic>and others</italic>, 2012</xref>; <xref ref-type="bibr" rid="KXS033C16">Risso <italic>and others</italic>, 2012</xref>), but would nonetheless be treated as a known constant. Based on the hierarchical model, the marginal distribution of <italic>Y</italic>
+<sub><italic>gi</italic></sub> given <italic>&#x003bc;</italic><sub><italic>g</italic>,<italic>k</italic>(<italic>i</italic>)</sub> and <italic>&#x003d5;</italic><sub><italic>g</italic></sub> is NB with mean <italic>&#x003bd;</italic><sub><italic>gi</italic></sub>=<italic>&#x003bc;</italic><sub><italic>g</italic>,<italic>k</italic>(<italic>i</italic>)</sub><italic>s</italic><sub><italic>i</italic></sub> and dispersion <italic>&#x003d5;</italic><sub><italic>g</italic></sub>. In the simplest setting where there are only two groups, the goal of DE detection is to test, for each gene, whether the mean expressions are identical in both groups, e.g. <italic>&#x003bc;</italic><sub><italic>g</italic>,1</sub>=<italic>&#x003bc;</italic><sub><italic>g</italic>,2</sub>, as noted by other researchers(<xref ref-type="bibr" rid="KXS033C18">Robinson and Smyth, 2007</xref>, <xref ref-type="bibr" rid="KXS033C19">2008</xref>; <xref ref-type="bibr" rid="KXS033C1">Anders and Huber, 2010</xref>; <xref ref-type="bibr" rid="KXS033C17">Robinson <italic>and others</italic>, 2010</xref>).</p><p>Estimating <italic>&#x003d5;</italic><sub><italic>g</italic></sub> is a crucial step in DE detection and shrinkage estimators have been shown to be useful in typical RNA-seq experiments with a small number of replicates(<xref ref-type="bibr" rid="KXS033C1">Anders and Huber, 2010</xref>; <xref ref-type="bibr" rid="KXS033C10">Hardcastle and Kelly, 2010</xref>; <xref ref-type="bibr" rid="KXS033C17">Robinson <italic>and others</italic>, 2010</xref>). As discussed in previous works (<xref ref-type="bibr" rid="KXS033C18">Robinson and Smyth, 2007</xref>), there is no conjugate prior for <italic>&#x003d5;</italic><sub><italic>g</italic></sub> to ease the computation of a posterior distribution. Thus, we decide to use a prior that approximates the <italic>&#x003d5;</italic><sub><italic>g</italic></sub> in real RNA-seq data. We choose the log-normal distribution, motivated by Figure<xref ref-type="fig" rid="KXS033F2">2</xref>.</p><p>For gene <italic>g</italic>, the conditional posterior distribution of <italic>&#x003d5;</italic><sub><italic>g</italic></sub> given all observed counts and means, <italic>p</italic>(<italic>&#x003d5;</italic><sub><italic>g</italic></sub>|<italic>Y</italic>
+<sub><italic>gi</italic></sub>,<italic>&#x003bd;</italic><sub><italic>gi</italic></sub>,<italic>i</italic>=1,&#x02026;,<italic>n</italic>) satisfies (detailed derivation can be found in <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online</ext-link>):
+<disp-formula id="KXS033M4x1"><label>(4.1)</label><tex-math id="M5">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{} \begin{align} \log[p(\phi_g| Y_{gi}, \nu_{gi}, i=1,\ldots,n)] &#x00026;\propto \sum_i \psi(\phi_g^{-1}+Y_{gi}) - n\psi(\phi_g^{-1}) - \phi_g^{-1} \sum_i \log(1+\nu_{gi}\phi_g) \nonumber \\ &#x00026;\quad + \sum_i Y_{gi} [ \log(\nu_{gi}\phi_g) - \log(1+\nu_{gi}\phi_g) ] \nonumber\\ &#x00026;\quad -\frac{[\log (\phi_g) - m_0]^2}{2\tau^2} - \log(\phi_g) - \log(\tau), \label{eq4.1} \end{align} \end{document}</tex-math></disp-formula>
+where <italic>&#x003c8;</italic>(.) is the log gamma function and <italic>n</italic> is the number of samples. To obtain a point estimate of <italic>&#x003d5;</italic><sub><italic>g</italic></sub>, we could compute the posterior mean by using numerical methods such as importance sampling. It is, however, too computationally intensive to be practical for RNA-seq data. Instead, we compute the posterior mode by maximizing an approximate of (<xref ref-type="disp-formula" rid="KXS033M4x1">4.1</xref>) and denote the estimate by <inline-formula><tex-math id="M6">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tilde {\phi }_g$\end{document}</tex-math></inline-formula>.</p><p>Specifically, we substitute <italic>&#x003bd;</italic><sub><italic>gi</italic></sub> by <inline-formula><tex-math id="M7">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\nu }_{gi}\equiv \hat {\mu }_{g,k(i)}s_{i}$\end{document}</tex-math></inline-formula> where <inline-formula><tex-math id="M8">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\mu }_{g,k(i)} = ({\sum _{j:k(j)=k(i)} Y_{gj} /s_{j}})/{n_{k(i)}}$\end{document}</tex-math></inline-formula>, and <italic>n</italic><sub><italic>k</italic>(<italic>i</italic>)</sub> is the number of samples in the same treatment group as <italic>i</italic>. The estimate <inline-formula><tex-math id="M9">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\mu }_{g,k(i)}$\end{document}</tex-math></inline-formula> is the same as the sample estimate of true concentration in <xref ref-type="bibr" rid="KXS033C1">Anders and Huber (2010)</xref>. We plug in the hyper-parameters <italic>m</italic><sub>0</sub>,<italic>&#x003c4;</italic><sup>2</sup> estimated from the data, and maximize the approximated Equation(<xref ref-type="disp-formula" rid="KXS033M4x1">4.1</xref>) using the Newton&#x02013;Raphson method. In practice, we use &#x0201c;optimize&#x0201d; function in <italic>R</italic> , which provides excellent computational performance.</p><p>The hyper-parameters <italic>m</italic><sub>0</sub>,<italic>&#x003c4;</italic><sup>2</sup> are estimated from the data by pooling information from all genes (details in the next subsection). The estimate <inline-formula><tex-math id="M10">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tilde {\phi }_g$\end{document}</tex-math></inline-formula> is therefore an empirical Bayes estimate shrunken toward the common prior. It can also be viewed as an estimate that maximizes a penalized pseudo-likelihood, as we are maximizing an approximate of the penalized likelihood (<xref ref-type="disp-formula" rid="KXS033M4x1">4.1</xref>), with penalty <inline-formula><tex-math id="M11">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$-[\log (\phi _g) - m_0]^2/(2\tau ^2) - \log (\phi _g)$\end{document}</tex-math></inline-formula>, by replacing the nuisance parameter <italic>&#x003bd;</italic><sub><italic>gi</italic></sub> by its estimate <inline-formula><tex-math id="M12">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\nu }_{gi}$\end{document}</tex-math></inline-formula>. The first term in the penalty, <inline-formula><tex-math id="M13">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$[\log (\phi _g) - m_0]^2/(2\tau ^2)$\end{document}</tex-math></inline-formula>, penalizes values that deviate far from the common prior <italic>m</italic><sub>0</sub> and the second term adds an additional penalty for large values of <italic>&#x003d5;</italic><sub><italic>g</italic></sub>. As mentioned in Section1, <italic>&#x003d5;</italic><sub><italic>g</italic></sub> has the interpretation of the squared CV. Based on RNA-seq data from human populations(<xref ref-type="bibr" rid="KXS033C4">Cheung <italic>and others</italic>, 2010</xref>; <xref ref-type="bibr" rid="KXS033C14">Pickrell <italic>and others</italic>, 2010</xref>), we observe that around 70% of the genes have a CV less than 0.5. The CV in inbred animal models or established cell lines are likely even lower. Thus, penalizing larger <italic>&#x003d5;</italic><sub><italic>g</italic></sub> appears a desirable feature.</p><p><italic>Estimating hyper-parameters</italic>. We start with a simple dispersion estimate for each gene motivated by the method of moments. Define a new random variable <inline-formula><tex-math id="M14">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$z_{gi} \equiv ({Y_{gi}^2-Y_{gi}})/{s_{i}^2}$\end{document}</tex-math></inline-formula>; we have <inline-formula><tex-math id="M15">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hbox {E}[z_{gi} | \phi _g]=\mu _{g,k(i)}^2 (\phi _g+ 1)$\end{document}</tex-math></inline-formula>, which is identical for every sample in a certain treatment group. Using the sample mean to estimate the first moment of <italic>z</italic><sub><italic>gi</italic></sub> and pooling data from different treatment groups together, one can obtain an estimator <inline-formula><tex-math id="M16">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\phi }_g={\sum _i z_{gi}}/{\sum _i \hat {\mu }_{g,k(i)}^2}-1$\end{document}</tex-math></inline-formula> (detailed derivation in <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online</ext-link>).</p><p>Next we estimate <italic>m</italic><sub>0</sub> and <italic>&#x003c4;</italic> using the empirical distribution of <inline-formula><tex-math id="M17">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\phi }_g$\end{document}</tex-math></inline-formula>. We use the median of <inline-formula><tex-math id="M18">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\hat {\phi }_g)$\end{document}</tex-math></inline-formula>&#x02019;s, <inline-formula><tex-math id="M19">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {m}_0$\end{document}</tex-math></inline-formula>, to estimate <italic>m</italic><sub>0</sub>. The estimation of <italic>&#x003c4;</italic><sup>2</sup> is less straightforward as the sample variance of <inline-formula><tex-math id="M20">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\hat {\phi }_g)$\end{document}</tex-math></inline-formula> overestimates <italic>&#x003c4;</italic><sup>2</sup>. The sample variance of <inline-formula><tex-math id="M21">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\hat {\phi }_g)$\end{document}</tex-math></inline-formula> comprises two parts: <italic>&#x003c4;</italic><sup>2</sup>, the variance representing the heterogeneity of <inline-formula><tex-math id="M22">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\phi _g)$\end{document}</tex-math></inline-formula>&#x02019;s among genes, and <inline-formula><tex-math id="M23">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\mathrm {var}}\{\log (\hat {\phi }_g) |\log (\phi _g)\}$\end{document}</tex-math></inline-formula>, the variation due to estimating <inline-formula><tex-math id="M24">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\phi _g)$\end{document}</tex-math></inline-formula>. Even when <italic>&#x003c4;</italic><sup>2</sup>=0 (all genes share common dispersion, <italic>&#x003d5;</italic><sub><italic>g</italic></sub>=<italic>&#x003d5;</italic><sub>0</sub>&#x02200;<italic>g</italic>), we still observe non-zero <inline-formula><tex-math id="M25">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\mathrm {var}}\{\log (\hat {\phi }_g)\}$\end{document}</tex-math></inline-formula>. Therefore, it is important to take into account this inflation in sample variance of <inline-formula><tex-math id="M26">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (\hat {\phi }_g)$\end{document}</tex-math></inline-formula>. We use an ad hoc adjustment that behaves well in practice evaluated by extensive simulation. Specifically, we create a pseudo-dataset with <italic>&#x003c4;</italic><sup>2</sup>=0 by simulating <inline-formula><tex-math id="M27">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$Y^\prime _{gi}$\end{document}</tex-math></inline-formula> from <inline-formula><tex-math id="M28">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\mathrm {NB}}(\hat {\nu }_{gi}, \hat {\phi }_0)$\end{document}</tex-math></inline-formula>, where <inline-formula><tex-math id="M29">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\phi }_0 = \exp \{\hat {m}_0\}$\end{document}</tex-math></inline-formula> is used as common dispersion for all genes. We then compute the sample dispersion <inline-formula><tex-math id="M30">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\phi }'_g$\end{document}</tex-math></inline-formula> for each gene, and estimate <inline-formula><tex-math id="M31">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}${\mathrm {var}}\{\log (\hat {\phi }_g) | \log (\phi _0)\}$\end{document}</tex-math></inline-formula> as <inline-formula><tex-math id="M32">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$S^2=[{\mathrm {IQR}}\{\log (\hat {\phi }^\prime _g)\}/1.349]^2$\end{document}</tex-math></inline-formula>. From a number of pseudo-datasets, we obtain the mean <inline-formula><tex-math id="M33">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\bar {S}^2$\end{document}</tex-math></inline-formula> as the baseline. Lastly, we estimate <italic>&#x003c4;</italic><sup>2</sup> as <inline-formula><tex-math id="M34">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\tau }^2=\max ([{\rm IQR}\{\log (\hat {\phi }_g)\}/1.349]^2-\bar {S}^2, c_0)$\end{document}</tex-math></inline-formula>. Here <italic>c</italic><sub>0</sub> is the lower bound for <inline-formula><tex-math id="M35">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\tau }^2$\end{document}</tex-math></inline-formula>. In practice, we use <italic>c</italic><sub>0</sub>=0.01.</p><p>Note that <inline-formula><tex-math id="M36">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\phi }_g$\end{document}</tex-math></inline-formula> is only used in estimating the hyper-parameters and not directly used to obtain the shrinkage estimate <inline-formula><tex-math id="M37">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tilde {\phi }_g$\end{document}</tex-math></inline-formula>. Although each <inline-formula><tex-math id="M38">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\phi }_g$\end{document}</tex-math></inline-formula> is a rather crude estimate of the dispersion, especially for a small number of samples, the large number of genes in RNA-seq data allows us to obtain stable estimates of the hyper-parameters. Once the prior is established in the empirical Bayesian method, our shrinkage estimate <inline-formula><tex-math id="M39">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tilde {\phi }_g$\end{document}</tex-math></inline-formula> directly comes from maximizing(<xref ref-type="disp-formula" rid="KXS033M4x1">4.1</xref>).</p><p><italic>Test statistic and false discovery rate</italic>. With all parameters estimated, a hypothesis testing for the comparison of any two groups can be carried using a Wald test or exact test.<xref ref-type="bibr" rid="KXS033C3">Bullard <italic>and others</italic> (2010)</xref> show that the likelihood ratio test and the exact test perform similarly. Our simulation show that the exact test and the Wald test provide similar performance (<ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S9</ext-link>). We choose to use the Wald test for its simplicity.</p><p>The Wald test statistic for two-group comparison is constructed as
+<disp-formula id="KXS033UM2"><tex-math id="M40">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}\[ t_g = \frac{\hat{\mu}_{g,1}-\hat{\mu}_{g,2}}{\sqrt{\hat{\sigma}_{g,1}^2+\hat{\sigma}_{g,2}^2}}, \] \end{document}</tex-math></disp-formula>
+where <inline-formula><tex-math id="M41">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\sigma }_{g,1}^2 \equiv ({1}/{n_1^2})[\hat {\mu }_{g,1} (\sum _{j:k(j)=1} ({1}/{s_{j}})) + n_1\hat {\mu }_{g,1}^2\tilde {\phi }_g]$\end{document}</tex-math></inline-formula>, is the estimated variance for <inline-formula><tex-math id="M42">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\mu }_{g,1}$\end{document}</tex-math></inline-formula> (detailed derivation in <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online</ext-link>), and <inline-formula><tex-math id="M43">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\sigma }_{g,2}^2 $\end{document}</tex-math></inline-formula> similarly defined. When there is no need for normalization (<italic>s</italic><sub><italic>j</italic></sub>=1&#x02200;<italic>j</italic>), <inline-formula><tex-math id="M44">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\hat {\sigma }_{g,1}^2$\end{document}</tex-math></inline-formula> reduces to <inline-formula><tex-math id="M45">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$(\hat {\mu }_{g,1}+\hat {\mu }_{g,1}^2\tilde {\phi }_g) / n_1$\end{document}</tex-math></inline-formula>, an estimate of the variance in(<xref ref-type="disp-formula" rid="KXS033M1x1">1.1</xref>), standardized by the sample size in group 1.</p><p>It is not trivial to derive the null distribution for the test statistic and the asymptotic distribution is irrelevant for most RNA-seq data. However, the empirical distribution of <italic>t</italic><sub><italic>g</italic></sub> is Gaussian-like (Figure<xref ref-type="fig" rid="KXS033F5">5</xref>(a)) and we can estimate a local false discovery rate (FDR) based on the empirical null (<xref ref-type="bibr" rid="KXS033C5">Efron, 2004</xref>) estimated from the data.</p><p>We implemented the proposed method in an R package titled &#x0201c;DSS&#x0201d;, standing for Dispersion Shrinkage for Sequencing. The package is available from Bioconductor.</p></sec><sec id="s5"><label>5.</label><title>Results</title><p>We compare results from the proposed method with two most widely used software packages, edgeR (version 2.6.2) and DESeq (version 1.8.2) using their latest release versions. For DESeq, we call the functions <monospace>estimateDispersions and nbinomTest</monospace> with default settings. For edgeR, we call functions <monospace>estimateCommonDisp</monospace> followed by <monospace>estimateTagwiseDisp</monospace> to estimate the dispersion parameter, and <monospace>exactTest</monospace> to test for DE.</p><p>First, we show an improvement in estimating the gene-specific dispersion parameter <italic>&#x003d5;</italic><sub><italic>g</italic></sub>. All three methods use the common NB model, and estimating <italic>&#x003d5;</italic><sub><italic>g</italic></sub> is the key challenge and what determines the ability to rank the truly DE genes above the null genes. In Figure<xref ref-type="fig" rid="KXS033F1">1</xref>(c), we show the estimates <inline-formula><tex-math id="M46">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\tilde {\phi }_g$\end{document}</tex-math></inline-formula> plotted against true <italic>&#x003d5;</italic><sub><italic>g</italic></sub>. It is clear that the shrinkage estimates from DSS track the real dispersion much better than those from edgeR or DESeq. Note that the dispersion parameter estimates are shrunk more for genes with lower counts, as expected, since for those genes there is little information about <italic>&#x003d5;</italic> in the data.</p><p>To quantify the improvement,we further use a similar approach as done in<xref ref-type="bibr" rid="KXS033C18">Robinson and Smyth (2007)</xref> to compare <italic>&#x003d5;</italic><sub><italic>g</italic></sub> estimation. The mean squared error (MSE) of the estimates, in the scale of <italic>&#x003d5;</italic><sub><italic>g</italic></sub>/(1+<italic>&#x003d5;</italic><sub><italic>g</italic></sub>), were calculated from 50 simulations. Instead of using fixed mean expressions as in<xref ref-type="bibr" rid="KXS033C18">Robinson and Smyth (2007)</xref>, we use a more realistic approach and randomly sample from mean expressions computed from the Cheung data. DSS has the lowest MSE in both settings (Figure<xref ref-type="fig" rid="KXS033F3">3</xref>), and in all strata of mean expression (<ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S3</ext-link>). We next compare the ability to detect the DE under a variety of situations. To evaluate DE detection under known truth, and to conduct the comparison under the most realistic scenario encountered in RNA-seq experiments, we simulated data semi-parametrically based on real RNA-seq datasets. In all simulations, the mean expressions were randomly sampled from the means calculated from the source dataset, Cheung or Gilad. The dispersion parameters were generated from parametric distributions, in which the parameters were computed from the source dataset (details in <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online</ext-link>). To demonstrate robustness to distributional assumption, we simulated <italic>&#x003d5;</italic><sub><italic>g</italic></sub> from both log-normal and Gamma distribution. In all simulations, 5% of all genes were true DE genes as this proportion is expected to be low in most gene expression experiments(<xref ref-type="bibr" rid="KXS033C21">Smyth, 2004</xref>). The logarithm of fold changes for the DE genes were randomly sampled from <italic>N</italic>(0,1).
+<fig id="KXS033F3" position="float"><label>Fig. 3.</label><caption><p>Boxplots comparing the distribution of MSE for dispersion estimations from edgeR, DESeq and DSS over 50 simulations. In all simulations, dispersions <italic>&#x003d5;</italic><sub><italic>g</italic></sub> are randomly generated from Gamma distribution with shape 0.85 and scale 0.5. The mean expressions are randomly sampled from the means calculated from Cheung data. Simulations are performed under different sample sizes: (a) 4 replicates, and (b) 10 replicates. All simulations are for 2000 genes.</p></caption><graphic xlink:href="kxs03303"/></fig>
+</p><p>First, we evaluate the ability to rank true DE genes above non-DE genes. Since DE detection is often used as a hypothesis generating tool, and the goal is to have as many true positives as possible in the top-ranked genes, we compare the percentage of true DEs (i.e. 1&#x02212;false discovery proportion) in the top-ranked genes up to top 1000. DSS shows a much higher proportion of true positives among the top-ranked genes when the dispersion is based on biological replicates as seen in the Gilad and Cheung data (Figure<xref ref-type="fig" rid="KXS033F4">4</xref>). All three methods provide identical performances when the biological variations are near zero transcriptome wide, as expected in technical replicates such as MAQC data in <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S11</ext-link>.
+<fig id="KXS033F4" position="float"><label>Fig. 4.</label><caption><p>DE detection accuracies from DSS, edgeR and DESeq for top 1000 ranked genes. Genes are ranked by the absolute Wald-statistic, from high to low, for DSS; ranked by <italic>p</italic>-values, from low to high, for edgeR and DESeq. The proportion of true discovery among top-ranked genes is plotted against the number of top-ranked genes. (a) The dispersion parameter simulated from log-normal distribution, with parameters estimated from the Gilad data. (b) The dispersion parameter simulated from log-normal distribution, with parameters estimated from the Cheung data. (c) The dispersion parameter simulated from Gamma distribution, with parameters estimated from the Gilad data. (d) The dispersion parameter simulated from Gamma distribution, with parameters estimated from the Cheung data.</p></caption><graphic xlink:href="kxs03304"/></fig></p><p>To further evaluate the performance of DSS in ranking genes under different dispersion patterns, we performed additional simulations with dispersion from different distributions. We found that in general when the variation in dispersions is large, DSS provides better performance. The average dispersion level does not cause much differences among the results from the three methods. This is consistent with the findings that DESeq and edgeR provide reasonable estimates for the average dispersion, but underestimate the variations in dispersion due to over-shrinkage. The results for these simulations are presented in <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online</ext-link> (Section10, Figures S6 and S7).</p><p>In addition to better sensitivity/specificity, another important task in DE detection is to provide a measure of statistical significance to guide the choice of a cut-off. In genomics, this is typically done using the FDR or some variant of the FDR. The Wald statistic in DSS is Gaussian-like in the center (Figure<xref ref-type="fig" rid="KXS033F5">5</xref>(a)) and satisfies the assumption in local FDR calculation(<xref ref-type="bibr" rid="KXS033C5">Efron, 2004</xref>). Based on the connection between the local FDR and the FDR(<xref ref-type="bibr" rid="KXS033C5">Efron, 2004</xref>), we convert the local FDR to the scale of the classical FDR for comparison. For edgeR and DESeq, we use the FDR reported from the packages. Figure<xref ref-type="fig" rid="KXS033F5">5</xref>(b) plots the reported (dashed lines) and true FDRs (solid lines) for the top-ranked genes from the simulation. The simulation settings are the same as those used in Figure<xref ref-type="fig" rid="KXS033F4">4</xref>(b). The curves are averaged from 50 simulations. For DSS, the reported FDR curve is close to the true FDR. In contrast, both edgeR and DESeq give misleading FDR estimations. The underestimation of the FDR in the top-ranked genes gives an over-optimistic certainty in the reported DE. <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">Supplementary material available at <italic>Biostatistics</italic> online, Figure S8</ext-link>, shows the comparison of the FDR under more simulation settings.
+<fig id="KXS033F5" position="float"><label>Fig. 5.</label><caption><p>Statistical inferences from simulation. Dispersions used in simulations were generated from Gamma distributions with parameters estimated from Cheung data. (a) Quantile&#x02013;Quantile normal plot for Wald statistics from DSS. (b) Reported and true FDR curves for top-ranked genes. Solid lines represent true FDRs. Dashed lines represent reported FDRs.</p></caption><graphic xlink:href="kxs03305"/></fig></p></sec><sec id="s6"><label>6.</label><title>Discussion</title><p>We present a new shrinkage estimator for the dispersion parameter in the NB model for RNA-seq data. We show that this new estimator better captures the variation in gene-specific dispersion and, as a result, leads to a better detection in the DE compared with two most popular DE detection softwares DESeq and edgeR. In addition, the nominal FDR based on the local FDR method is much closer to the actual FDR. We do not include another method, baySeq, in the comparisons because the computational time becomes formidable for the large number of simulations we perform.</p><p>We find that a good estimate of <italic>&#x003d5;</italic><sub><italic>g</italic></sub> is critical in DE detection when biological replicates are involved. This is not surprising as we have seen in the past decade that improving the estimation of the gene-specific variance in microarray data has greatly improved DE detection by using moderated Wald tests, including the most widely used methods LIMMA(<xref ref-type="bibr" rid="KXS033C21">Smyth, 2004</xref>) and SAM(<xref ref-type="bibr" rid="KXS033C22">Tusher <italic>and others</italic>, 2001</xref>). In fact, we find that <italic>&#x003d5;</italic><sub><italic>g</italic></sub> has a similar interpretation as the gene-specific variance in microarray data. Let <italic>Y</italic> represent an untransformed expression level in microarray data. It is often assumed that <inline-formula><tex-math id="M47">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\log (Y)|\mu \sim N(\mu ,\sigma ^2)$\end{document}</tex-math></inline-formula>, where <italic>&#x003bc;</italic> and <italic>&#x003c3;</italic><sup>2</sup> are the mean and variance for the log scale expression measure, respectively. In the original scale, the squared CV CV (<italic>Y</italic>)<sup>2</sup>=<italic>e</italic><sup><italic>&#x003c3;</italic><sup>2</sup>&#x02212;1</sup>&#x02248;<italic>&#x003c3;</italic><sup>2</sup> for <italic>&#x003c3;</italic><sup>2</sup>&#x0226a;1, which is satisfied in most genes (<xref ref-type="bibr" rid="KXS033C12">McCall <italic>and others</italic>, 2011</xref>). Thus, <italic>&#x003c3;</italic><sup>2</sup> is approximately the squared CV in the untransformed scale. In comparison, RNA-seq data are often modeled by the NB distribution, i.e. a Gamma&#x02013;Poisson mixture, in which the Gamma distribution models the biological variation and the Poisson distribution models the variation due to the counting process in sequencing. The dispersion parameter <italic>&#x003d5;</italic><sub><italic>g</italic></sub> is the squared CV of the Gamma distribution, i.e. <italic>&#x003d5;</italic><sub><italic>g</italic></sub> represents the gene-specific biological variation, and is directly linked to <inline-formula><tex-math id="M48">\documentclass[12pt]{minimal}
+\usepackage{amsmath}
+\usepackage{wasysym} 
+\usepackage{amsfonts} 
+\usepackage{amssymb} 
+\usepackage{amsbsy}
+\usepackage{upgreek}
+\usepackage{mathrsfs}
+\setlength{\oddsidemargin}{-69pt}
+\begin{document}
+}{}$\sigma ^2_g$\end{document}</tex-math></inline-formula> in log-transformed microarray expression data.</p><p>This interpretation explains several findings in our analysis of RNA-seq data with biological replicates. It has been well established that genes have different biological variance, and thus we should not expect a constant <italic>&#x003d5;</italic><sub><italic>g</italic></sub> for all genes. In experiments with a small number of replicates, an empirical Bayes method that combines the information from the observed sample and shrinks toward a common prior of <italic>&#x003d5;</italic><sub><italic>g</italic></sub> helps stabilize the estimate of <italic>&#x003d5;</italic><sub><italic>g</italic></sub>. However, the extent of shrinkage should not be uniform as the amount of information about <italic>&#x003d5;</italic><sub><italic>g</italic></sub> varies between genes. The variation of counts from genes with low expression is dominated by the Poisson counting error, and provides less information of <italic>&#x003d5;</italic><sub><italic>g</italic></sub> (<ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S10</ext-link>) ; thus the estimates of <italic>&#x003d5;</italic><sub><italic>g</italic></sub> for these genes should be shrunken more heavily . DSS does exactly what we desire, shrinking <italic>&#x003d5;</italic><sub><italic>g</italic></sub> less for high-expression genes and more for low-expression genes (Figure<xref ref-type="fig" rid="KXS033F1">1</xref>(c)).</p><p>It has been reported that the biological variation, thus the dispersion parameter, may depend on the expression level. DESeq and EdgeR allow trended estimation of the dispersion depending on the mean level. To account for this dependence, we also provide an option in DSS by letting the hyper-parameter <italic>m</italic><sub>0</sub> be a smooth function of expression. The details of the trended estimation is provided in <ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online</ext-link>.</p><p>Some datasets are generated to investigate technical reproducibility and do not capture the biological variation in a population. Even in these cases with technical replicates only, such as the MAQC data, we find that analysis assuming a not-too-small dispersion provides improvement in DE detection (<ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S12</ext-link>). When biological replicates are from established cell lines or inbred animal models, the variance among replicates may be lower than the variance in a random human population. However, the result on MAQC data with technical replicates suggests that even when there is no strong evidence for over-dispersion in the data, it is beneficial to analyze the data under a positive dispersion model.</p><p>We find that most of the improvement obtained in DSS is due to the different dispersion estimate, as passing the DSS estimates to edgeR/DESeq yields very similar results as in DSS (<ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">supplementary material available at <italic>Biostatistics</italic> online, Figure S9</ext-link>). Both the edgeR and the DESeq methods have been expanded to now accommodate multiclass comparisons. Our test is currently limited to two-class comparison and it is our immediate plan to extend the dispersion estimators to multifactor designs. With an estimate of the dispersion, one can use generalized linear models as done in McCarthy <italic>and others</italic> (2012).</p><p>In all comparisons presented here, we use semiparametric simulation based on real RNA-seq datasets for lack of real data example with known truth. Although the NB model is the current predominant choice for RNAseq data, most models only approximate reality. Real data with a reasonable number of known DE, for example, using spike-in genes, will enable better comparison.</p></sec><sec id="s7"><title>Supplementary material</title><p><ext-link ext-link-type="uri" xlink:href="http://biostatistics.oxfordjournals.org/lookup/suppl/doi:10.1093/biostatistics/kxs033/-/DC1">Supplementary material is available at http://biostatistics.oxfordjournals.org</ext-link>.</p></sec><sec id="s8"><title>Funding</title><p>This research was supported by National Science Foundation (DBI-1054905).</p></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>Supplementary Data</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="supp_14_2_232__index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf"
+xlink:href="supp_kxs033_kxs033supp.pdf"/>
+</supplementary-material>
+</sec>
+</body><back><ack><title>Acknowledgments</title><p>The authors thank the anonymous reviewers for their insightful and constructive comments. Conflict of Interest: None declared.</p></ack><ref-list><title>References</title><ref id="KXS033C1"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Anders</surname><given-names>S.</given-names></name><name><surname>Huber</surname><given-names>W.</given-names></name></person-group><article-title>Differential expression analysis for sequence count data</article-title><source>Genome Biology</source><year>2010</year><volume>11</volume><fpage>R106</fpage><pub-id pub-id-type="pmid">20979621</pub-id></element-citation></ref><ref id="KXS033C2"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Blekhman</surname><given-names>R.</given-names></name><name><surname>Marioni</surname><given-names>J. C.</given-names></name><name><surname>Zumbo</surname><given-names>P.</given-names></name><name><surname>Stephens</surname><given-names>M.</given-names></name><name><surname>Gilad</surname><given-names>Y.</given-names></name></person-group><article-title>Sex-specific and lineage-specific alternative splicing in primates</article-title><source>Genome Research</source><year>2010</year><volume>20</volume><fpage>180</fpage><lpage>189</lpage><pub-id pub-id-type="pmid">20009012</pub-id></element-citation></ref><ref id="KXS033C3"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bullard</surname><given-names>J. H.</given-names></name><name><surname>Purdom</surname><given-names>E.</given-names></name><name><surname>Hansen</surname><given-names>K. D</given-names></name><name><surname>Dudoit</surname><given-names>S.</given-names></name></person-group><article-title>Evaluation of statistical methods for normalization and differential expression in mRNA-Seq experiments</article-title><source>BMC Bioinformatics</source><year>2010</year><volume>11</volume><fpage>94</fpage><pub-id pub-id-type="pmid">20167110</pub-id></element-citation></ref><ref id="KXS033C4"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cheung</surname><given-names>V. G.</given-names></name><name><surname>Nayak</surname><given-names>R. R.</given-names></name><name><surname>Wang</surname><given-names>I. X.</given-names></name><name><surname>Elwyn</surname><given-names>S.</given-names></name><name><surname>Cousins</surname><given-names>S. M.</given-names></name><name><surname>Morley</surname><given-names>M.</given-names></name><name><surname>Spielman</surname><given-names>R. S.</given-names></name></person-group><article-title>Polymorphic Cis- and Trans-regulation of human gene expression</article-title><source>PLoS Biology</source><year>2010</year><volume>8</volume><fpage>e1000480</fpage><pub-id pub-id-type="pmid">20856902</pub-id></element-citation></ref><ref id="KXS033C5"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Efron</surname><given-names>B.</given-names></name></person-group><article-title>Large-scale simultaneous hypothesis testing</article-title><source>Journal of the American Statistical Association</source><year>2004</year><volume>99</volume><fpage>96</fpage><lpage>104</lpage></element-citation></ref><ref id="KXS033C6"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Frazee</surname><given-names>A.</given-names></name><name><surname>Langmead</surname><given-names>B.</given-names></name><name><surname>Leek</surname><given-names>J.</given-names></name></person-group><article-title>Recount: a multi-experiment resource of analysis-ready RNA-seq gene count datasets</article-title><source>BMC Bioinformatics</source><year>2011</year><volume>12</volume><fpage>449</fpage><pub-id pub-id-type="pmid">22087737</pub-id></element-citation></ref><ref id="KXS033C7"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gibbs</surname><given-names>R. A.</given-names></name><name><surname>Belmont</surname><given-names>J. W.</given-names></name><name><surname>Hardenbol</surname><given-names>P.</given-names></name><name><surname>Willis</surname><given-names>T. D.</given-names></name><name><surname>Yu</surname><given-names>F.</given-names></name><name><surname>Yang</surname><given-names>H.</given-names></name><name><surname>Ch&#x02019;ang</surname><given-names>L. Y.</given-names></name><name><surname>Huang</surname><given-names>W.</given-names></name><name><surname>Liu</surname><given-names>B.</given-names></name><name><surname>Shen</surname><given-names>Y.</given-names></name></person-group><collab><italic>and others</italic></collab><article-title>The international hapmap project</article-title><source>Nature</source><year>2003</year><volume>426</volume><fpage>789</fpage><lpage>796</lpage><pub-id pub-id-type="pmid">14685227</pub-id></element-citation></ref><ref id="KXS033C8"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hansen</surname><given-names>K. D.</given-names></name><name><surname>Irizarry</surname><given-names>R. A.</given-names></name><name><surname>Wu</surname><given-names>Z.</given-names></name></person-group><article-title>Removing technical variability in RNA-seq data using conditional quantile normalization</article-title><source>Biostatistics</source><year>2012</year><volume>13</volume><fpage>204</fpage><lpage>216</lpage><pub-id pub-id-type="pmid">22285995</pub-id></element-citation></ref><ref id="KXS033C9"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hansen</surname><given-names>K. D.</given-names></name><name><surname>Wu</surname><given-names>Z.</given-names></name><name><surname>Irizarry</surname><given-names>R. A.</given-names></name><name><surname>Leek</surname><given-names>J. T.</given-names></name></person-group><article-title>Sequencing technology does not eliminate biological variability</article-title><source>Nature Biotechnology</source><year>2011</year><volume>29</volume><fpage>572</fpage><lpage>573</lpage></element-citation></ref><ref id="KXS033C10"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hardcastle</surname><given-names>T.</given-names></name><name><surname>Kelly</surname><given-names>K.</given-names></name></person-group><article-title>Bayseq: empirical bayesian methods for identifying differential expression in sequence count data</article-title><source>BMC Bioinformatics</source><year>2010</year><volume>11</volume><fpage>422</fpage><pub-id pub-id-type="pmid">20698981</pub-id></element-citation></ref><ref id="KXS033C11"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Marioni</surname><given-names>J. C.</given-names></name><name><surname>Mason</surname><given-names>C. E.</given-names></name><name><surname>Mane</surname><given-names>S. M.</given-names></name><name><surname>Stephens</surname><given-names>M.</given-names></name><name><surname>Gilad</surname><given-names>Y.</given-names></name></person-group><article-title>RNA-seq: an assessment of technical reproducibility and comparison with gene expression arrays</article-title><source>Genome Research</source><year>2008</year><volume>18</volume><fpage>1509</fpage><lpage>1517</lpage><pub-id pub-id-type="pmid">18550803</pub-id></element-citation></ref><ref id="KXS033C12"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McCall</surname><given-names>M. N.</given-names></name><name><surname>Uppal</surname><given-names>K.</given-names></name><name><surname>Jaffee</surname><given-names>H. A.</given-names></name><name><surname>Zilliox</surname><given-names>M. J.</given-names></name><name><surname>Irizarry</surname><given-names>R. A.</given-names></name></person-group><article-title>The gene expression barcode: leveraging public data repositories to begin cataloging the human and murine transcriptomes</article-title><source>Nucleic Acids Research</source><year>2011</year><volume>39</volume><issue>Suppl 1</issue><fpage>D 1011</fpage></element-citation></ref><ref id="KXS033C13"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McCarthy</surname><given-names>D. J.</given-names></name><name><surname>Chen</surname><given-names>Y.</given-names></name><name><surname>Smyth</surname><given-names>G. K.</given-names></name></person-group><article-title>Differential expression analysis of multifactor RNA-seq experiments with respect to biological variation</article-title><source>Nucleic Acids Research</source><year>2012</year><comment>(<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1093/nar/gks042">doi:10.1093/nar/gks042</ext-link>)</comment></element-citation></ref><ref id="KXS033C14"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pickrell</surname><given-names>J. K.</given-names></name><name><surname>Marioni</surname><given-names>J. C.</given-names></name><name><surname>Pai</surname><given-names>A. A.</given-names></name><name><surname>Degner</surname><given-names>J. F.</given-names></name><name><surname>Engelhardt</surname><given-names>B. E.</given-names></name><name><surname>Nkadori</surname><given-names>E.</given-names></name><name><surname>Veyrieras</surname><given-names>J.-B.</given-names></name><name><surname>Stephens</surname><given-names>M.</given-names></name><name><surname>Gilad</surname><given-names>Y.</given-names></name><name><surname>Pritchard</surname><given-names>J. K.</given-names></name></person-group><article-title>Understanding mechanisms underlying human gene expression variation with RNA sequencing</article-title><source>Nature</source><year>2010</year><volume>464</volume><fpage>768</fpage><lpage>772</lpage><pub-id pub-id-type="pmid">20220758</pub-id></element-citation></ref><ref id="KXS033C15"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Pritchard</surname><given-names>C. C.</given-names></name><name><surname>Hsu</surname><given-names>L.</given-names></name><name><surname>Delrow</surname><given-names>J.</given-names></name><name><surname>Nelson</surname><given-names>P. S.</given-names></name></person-group><article-title>Project normal: defining normal variance in mouse gene expression</article-title><source>Proceedings of the National Academy of Sciences</source><year>2001</year><volume>98</volume><fpage>13266</fpage></element-citation></ref><ref id="KXS033C16"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Risso</surname><given-names>D.</given-names></name><name><surname>Schwartz</surname><given-names>K.</given-names></name><name><surname>Sherlock</surname><given-names>G.</given-names></name><name><surname>Dudoit</surname><given-names>S.</given-names></name></person-group><article-title>GC-content normalization for RNA-seq data</article-title><source>BMC Bioinformatics</source><year>2012</year><volume>12</volume><fpage>480</fpage><lpage>496</lpage><pub-id pub-id-type="pmid">22177264</pub-id></element-citation></ref><ref id="KXS033C17"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robinson</surname><given-names>M. D.</given-names></name><name><surname>McCarthy</surname><given-names>D. J.</given-names></name><name><surname>Smyth</surname><given-names>G. K.</given-names></name></person-group><article-title>edgeR: a Bioconductor package for differential expression analysis of digital gene expression dataSMotn</article-title><source>Bioinformatics</source><year>2010</year><volume>26</volume><fpage>139</fpage><lpage>140</lpage><pub-id pub-id-type="pmid">19910308</pub-id></element-citation></ref><ref id="KXS033C18"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robinson</surname><given-names>M. D.</given-names></name><name><surname>Smyth</surname><given-names>G. K.</given-names></name></person-group><article-title>Moderated statistical tests for assessing differences in tag abundance</article-title><source>Bioinformatics</source><year>2007</year><volume>23</volume><fpage>2881</fpage><lpage>2887</lpage><pub-id pub-id-type="pmid">17881408</pub-id></element-citation></ref><ref id="KXS033C19"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robinson</surname><given-names>M. D</given-names></name><name><surname>Smyth</surname><given-names>G. K.</given-names></name></person-group><article-title>Small-sample estimation of negative binomial dispersion, with applications to SAGE data</article-title><source>Biostatistics</source><year>2008</year><volume>9</volume><fpage>321</fpage><lpage>332</lpage><pub-id pub-id-type="pmid">17728317</pub-id></element-citation></ref><ref id="KXS033C20"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Shi</surname><given-names>L.</given-names></name><name><surname>Reid</surname><given-names>L. H.</given-names></name><name><surname>Jones</surname><given-names>W. D.</given-names></name><name><surname>Shippy</surname><given-names>R.</given-names></name><name><surname>Warrington</surname><given-names>J. A.</given-names></name><name><surname>Baker</surname><given-names>S. C.</given-names></name><name><surname>Collins</surname><given-names>P. J.</given-names></name><name><surname>De</surname><given-names>Longueville F.</given-names></name><name><surname>Kawasaki</surname><given-names>E. S.</given-names></name><name><surname>Lee</surname><given-names>K. Y.</given-names></name></person-group><collab><italic>and others</italic></collab><article-title>The microarray quality control (maqc) project shows inter-and intraplatform reproducibility of gene expression measurements</article-title><source>Nature Biotechnology</source><year>2006</year><volume>24</volume><fpage>1151</fpage><lpage>1161</lpage></element-citation></ref><ref id="KXS033C21"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Smyth</surname><given-names>G. K.</given-names></name></person-group><article-title>Linear models and empirical bayes methods for assessing differential expression in microarray experiments</article-title><source>Statistical Applications in Genetics and Molecular Biology</source><year>2004</year><volume>3</volume><fpage>3</fpage></element-citation></ref><ref id="KXS033C22"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tusher</surname><given-names>V. G.</given-names></name><name><surname>Tibshirani</surname><given-names>R.</given-names></name><name><surname>Chu</surname><given-names>G.</given-names></name></person-group><article-title>Significance analysis of microarrays applied to the ionizing radiation response</article-title><source>Proceedings of the National Academy of Sciences</source><year>2001</year><volume>98</volume><fpage>5116</fpage></element-citation></ref><ref id="KXS033C23"><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wang</surname><given-names>L.</given-names></name><name><surname>Feng</surname><given-names>Z.</given-names></name><name><surname>Wang</surname><given-names>X.</given-names></name><name><surname>Zhang</surname><given-names>X.</given-names></name></person-group><article-title>Degseq: an r package for identifying differentially expressed genes from RNA-seq data</article-title><source>Bioinformatics</source><year>2010</year><volume>26</volume><fpage>136</fpage><lpage>138</lpage><pub-id pub-id-type="pmid">19855105</pub-id></element-citation></ref></ref-list></back></article>

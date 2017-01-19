@@ -1,0 +1,426 @@
+{
+  "id": [
+    "27556805"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27556805"
+  ],
+  "pmcid": [
+    "PMC5001233"
+  ],
+  "doi": [
+    "10.1186/s12864-016-2896-7"
+  ],
+  "title": [
+    "Read-Split-Run: an improved bioinformatics pipeline for identification of genome-wide non-canonical spliced regions using RNA-Seq data."
+  ],
+  "authorString": [
+    "Bai Y, Kinne J, Donham B, Jiang F, Ding L, Hassler JR, Kaufman RJ."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Bai Y"
+          ],
+          "firstName": [
+            "Yongsheng"
+          ],
+          "lastName": [
+            "Bai"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "The Center for Genomic Advocacy, Indiana State University, 600 Chestnut Street, Terre Haute, IN, 47809, USA. Yongsheng.Bai@indstate.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Kinne J"
+          ],
+          "firstName": [
+            "Jeff"
+          ],
+          "lastName": [
+            "Kinne"
+          ],
+          "initials": [
+            "J"
+          ],
+          "affiliation": [
+            "Department of Mathematics and Computer Science, Indiana State University, 200 North Seventh Street, Terre Haute, IN, 47809, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Donham B"
+          ],
+          "firstName": [
+            "Brandon"
+          ],
+          "lastName": [
+            "Donham"
+          ],
+          "initials": [
+            "B"
+          ],
+          "affiliation": [
+            "Department of Mathematics and Computer Science, Indiana State University, 200 North Seventh Street, Terre Haute, IN, 47809, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Jiang F"
+          ],
+          "firstName": [
+            "Feng"
+          ],
+          "lastName": [
+            "Jiang"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Mathematics and Computer Science, Indiana State University, 200 North Seventh Street, Terre Haute, IN, 47809, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Ding L"
+          ],
+          "firstName": [
+            "Lizhong"
+          ],
+          "lastName": [
+            "Ding"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Biology, Terre Haute, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Hassler JR"
+          ],
+          "firstName": [
+            "Justin R"
+          ],
+          "lastName": [
+            "Hassler"
+          ],
+          "initials": [
+            "JR"
+          ],
+          "affiliation": [
+            "Sanford-Burnham-Prebys Medical Discovery Institute, La Jolla, California, 92037, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Kaufman RJ"
+          ],
+          "firstName": [
+            "Randal J"
+          ],
+          "lastName": [
+            "Kaufman"
+          ],
+          "initials": [
+            "RJ"
+          ],
+          "affiliation": [
+            "Sanford-Burnham-Prebys Medical Discovery Institute, La Jolla, California, 92037, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "17 Suppl 7"
+      ],
+      "journalIssueId": [
+        "2478107"
+      ],
+      "dateOfPublication": [
+        "2016 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC genomics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Genomics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Genomics"
+          ],
+          "NLMid": [
+            "100965258"
+          ],
+          "ESSN": [
+            "1471-2164"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "503"
+  ],
+  "abstractText": [
+    "Most existing tools for detecting next-generation sequencing-based splicing events focus on generic splicing events. Consequently, special types of non-canonical splicing events of short mRNA regions (IRE1α targeted) have not yet been thoroughly addressed at a genome-wide level using bioinformatics approaches in conjunction with next-generation technologies. During endoplasmic reticulum (ER) stress, the gene encoding the RNase Ire1α is known to splice out a short 26 nt region from the mRNA of the transcription factor Xbp1 non-canonically within the cytosol. This causes an open reading frame-shift that induces expression of many downstream genes in reaction to ER stress as part of the unfolded protein response (UPR). We previously published an algorithm termed \"Read-Split-Walk\" (RSW) to identify non-canonical splicing regions using RNA-Seq data and applied it to ER stress-induced Ire1α heterozygote and knockout mouse embryonic fibroblast cell lines. In this study, we have developed an improved algorithm \"Read-Split-Run\" (RSR) for detecting genome-wide Ire1α-targeted genes with non-canonical spliced regions at a faster speed. We applied the RSR algorithm using different combinations of several parameters to the previously RSW tested mouse embryonic fibroblast cells (MEF) and the human Encyclopedia of DNA Elements (ENCODE) RNA-Seq data. We also compared the performance of RSR with two other alternative splicing events identification tools (TopHat (Trapnell et al., Bioinformatics 25:1105-1111, 2009) and Alt Event Finder (Zhou et al., BMC Genomics 13:S10, 2012)) utilizing the context of the spliced Xbp1 mRNA as a positive control in the data sets we identified it to be the top cleavage target present in Ire1α (+/-) but absent in Ire1α (-/-) MEF samples and this comparison was also extended to human ENCODE RNA-Seq data.Proof of principle came in our results by the fact that the 26 nt non-conventional splice site in Xbp1 was detected as the top hit by our new RSR algorithm in heterozygote (Het) samples from both Thapsigargin (Tg) and Dithiothreitol (Dtt) treated experiments but absent in the negative control Ire1α knock-out (KO) samples. Applying different combinations of parameters to the mouse MEF RNA-Seq data, we suggest a General Linear Model (GLM) for both Tg and Dtt treated experiments. We also ran RSR for a human ENCODE RNA-Seq dataset and identified 32,597 spliced regions for regular chromosomes. TopHat (Trapnell et al., Bioinformatics 25:1105-1111, 2009) and Alt Event Finder (Zhou et al., BMC Genomics 13:S10, 2012) identified 237,155 spliced junctions and 9,129 exon skipping events (excluding chr14), respectively. Our Read-Split-Run algorithm also outperformed others in the context of ranking Xbp1 gene as the top cleavage target present in Ire1α (+/-) but absent in Ire1α (-/-) MEF samples. The RSR package including source codes is available at http://bioinf1.indstate.edu/RSR and its pipeline source codes are also freely available at https://github.com/xuric/read-split-run for academic use.Our new RSR algorithm has the capability of processing massive amounts of human ENCODE RNA-Seq data for identifying novel splice junction sites at a genome-wide level in a much more efficient manner when compared to the previous RSW algorithm. Our proposed model can also predict the number of spliced regions under any combinations of parameters. Our pipeline can detect novel spliced sites for other species using RNA-Seq data generated under similar conditions."
+  ],
+  "affiliation": [
+    "The Center for Genomic Advocacy, Indiana State University, 600 Chestnut Street, Terre Haute, IN, 47809, USA. Yongsheng.Bai@indstate.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "P01 CA128814"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 DK042394"
+          ],
+          "agency": [
+            "NIDDK NIH HHS"
+          ],
+          "acronym": [
+            "DK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R37 DK042394"
+          ],
+          "agency": [
+            "NIDDK NIH HHS"
+          ],
+          "acronym": [
+            "DK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R21 DK103183"
+          ],
+          "agency": [
+            "NIDDK NIH HHS"
+          ],
+          "acronym": [
+            "DK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 DK088227"
+          ],
+          "agency": [
+            "NIDDK NIH HHS"
+          ],
+          "acronym": [
+            "DK"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Alternative splicing",
+        "Rna-seq",
+        "Non-canonical",
+        "Xbp1",
+        "Encode"
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5001233?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5001233"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12864-016-2896-7"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-08-25"
+  ],
+  "dateOfRevision": [
+    "2016-10-19"
+  ],
+  "electronicPublicationDate": [
+    "2016-08-22"
+  ],
+  "firstPublicationDate": [
+    "2016-08-22"
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "id": [
+    "26486086"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26486086"
+  ],
+  "pmcid": [
+    "PMC4742179"
+  ],
+  "doi": [
+    "10.18632/oncotarget.6121"
+  ],
+  "title": [
+    "On representing the prognostic value of continuous gene expression biomarkers with the restricted mean survival curve."
+  ],
+  "authorString": [
+    "Eng KH, Schiller E, Morrell K."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Eng KH"
+          ],
+          "firstName": [
+            "Kevin H"
+          ],
+          "lastName": [
+            "Eng"
+          ],
+          "initials": [
+            "KH"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5636-0812",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ],
+          "affiliation": [
+            "Department of Biostatistics and Bioinformatics, Roswell Park Cancer Institute, Buffalo, NY, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Schiller E"
+          ],
+          "firstName": [
+            "Emily"
+          ],
+          "lastName": [
+            "Schiller"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Department of Biostatistics and Bioinformatics, Roswell Park Cancer Institute, Buffalo, NY, USA."
+          ]
+        },
+        {
+          "fullName": [
+            "Morrell K"
+          ],
+          "firstName": [
+            "Kayla"
+          ],
+          "lastName": [
+            "Morrell"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Department of Biostatistics and Bioinformatics, Roswell Park Cancer Institute, Buffalo, NY, USA."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5636-0812",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "34"
+      ],
+      "volume": [
+        "6"
+      ],
+      "journalIssueId": [
+        "2344114"
+      ],
+      "dateOfPublication": [
+        "2015 Nov"
+      ],
+      "monthOfPublication": [
+        "11"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-11-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Oncotarget"
+          ],
+          "ISOAbbreviation": [
+            "Oncotarget"
+          ],
+          "medlineAbbreviation": [
+            "Oncotarget"
+          ],
+          "NLMid": [
+            "101532965"
+          ],
+          "ESSN": [
+            "1949-2553"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "36308-36318"
+  ],
+  "abstractText": [
+    "Researchers developing biomarkers for cancer prognosis from quantitative gene expression data are often faced with an odd methodological discrepancy: while Cox's proportional hazards model, the appropriate and popular technique, produces a continuous and relative risk score, it is hard to cast the estimate in clear clinical terms like median months of survival and percent of patients affected. To produce a familiar Kaplan-Meier plot, researchers commonly make the decision to dichotomize a continuous (often unimodal and symmetric) score. It is well known in the statistical literature that this procedure induces significant bias.We illustrate the liabilities of common techniques for categorizing a risk score and discuss alternative approaches. We promote the use of the restricted mean survival (RMS) and the corresponding RMS curve that may be thought of as an analog to the best fit line from simple linear regression.Continuous biomarker workflows should be modified to include the more rigorous statistical techniques and descriptive plots described in this article. All statistics discussed can be computed via standard functions in the Survival package of the R statistical programming language. Example R language code for the RMS curve is presented in the appendix."
+  ],
+  "affiliation": [
+    "Department of Biostatistics and Bioinformatics, Roswell Park Cancer Institute, Buffalo, NY, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "K01 LM012100"
+          ],
+          "agency": [
+            "NLM NIH HHS"
+          ],
+          "acronym": [
+            "LM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "K01LM012100"
+          ],
+          "agency": [
+            "NLM NIH HHS"
+          ],
+          "acronym": [
+            "LM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P50CA159981"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30CA016056"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P50 CA159981"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P30 CA016056"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Ovarian Neoplasms"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Prognosis"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Linear Models"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Proportional Hazards Models"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Female"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Kaplan-Meier Estimate"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Biomarkers, Tumor"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "BI"
+                  ],
+                  "qualifierName": [
+                    "biosynthesis"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "keywordList": [
+    {
+      "keyword": [
+        "Survival analysis",
+        "Prognostic Marker",
+        "Dichotomization",
+        "Model Diagnostics",
+        "Restricted Mean Survival"
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Biomarkers, Tumor"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4742179?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4742179"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.18632/oncotarget.6121"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "3"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-10-26"
+  ],
+  "dateOfCreation": [
+    "2015-11-20"
+  ],
+  "dateOfRevision": [
+    "2016-12-30"
+  ],
+  "firstPublicationDate": [
+    "2015-10-14"
+  ]
+}

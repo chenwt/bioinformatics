@@ -1,0 +1,1105 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d3 20150301//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD JATS (Z39.96) Journal Publishing DTD v1.1d1 20130915//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName JATS-journalpublishing1.dtd?><?SourceDTD.Version 39.96?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Mol Biol Evol</journal-id><journal-id journal-id-type="iso-abbrev">Mol. Biol. Evol</journal-id><journal-id journal-id-type="publisher-id">molbev</journal-id><journal-id journal-id-type="hwp">molbiolevol</journal-id><journal-title-group><journal-title>Molecular Biology and Evolution</journal-title></journal-title-group><issn pub-type="ppub">0737-4038</issn><issn pub-type="epub">1537-1719</issn><publisher><publisher-name>Oxford University Press</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4651238</article-id><article-id pub-id-type="pmid">26226984</article-id><article-id pub-id-type="doi">10.1093/molbev/msv165</article-id><article-id pub-id-type="publisher-id">msv165</article-id><article-categories><subj-group subj-group-type="heading"><subject>Discoveries</subject></subj-group></article-categories><title-group><article-title>How Do Genomes Create Novel Phenotypes? Insights from the Loss of theWorker Caste in Ant Social Parasites</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Smith</surname><given-names>Chris R.</given-names></name><xref ref-type="corresp" rid="msv165-COR1">*</xref><xref ref-type="aff" rid="msv165-AFF1"><sup>1</sup></xref></contrib><contrib contrib-type="author"><name><surname>Helms Cahan</surname><given-names>Sara</given-names></name><xref ref-type="aff" rid="msv165-AFF2"><sup>2</sup></xref></contrib><contrib contrib-type="author"><name><surname>Kemena</surname><given-names>Carsten</given-names></name><xref ref-type="aff" rid="msv165-AFF3"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name><surname>Brady</surname><given-names>Se&#x000e1;n G.</given-names></name><xref ref-type="aff" rid="msv165-AFF4"><sup>4</sup></xref></contrib><contrib contrib-type="author"><name><surname>Yang</surname><given-names>Wei</given-names></name><xref ref-type="aff" rid="msv165-AFF5"><sup>5</sup></xref></contrib><contrib contrib-type="author"><name><surname>Bornberg-Bauer</surname><given-names>Erich</given-names></name><xref ref-type="aff" rid="msv165-AFF3"><sup>3</sup></xref></contrib><contrib contrib-type="author"><name><surname>Eriksson</surname><given-names>Ti</given-names></name><xref ref-type="aff" rid="msv165-AFF6"><sup>6</sup></xref></contrib><contrib contrib-type="author"><name><surname>Gadau</surname><given-names>Juergen</given-names></name><xref ref-type="aff" rid="msv165-AFF6"><sup>6</sup></xref></contrib><contrib contrib-type="author"><name><surname>Helmkampf</surname><given-names>Martin</given-names></name><xref ref-type="aff" rid="msv165-AFF6"><sup>6</sup></xref></contrib><contrib contrib-type="author"><name><surname>Gotzek</surname><given-names>Dietrich</given-names></name><xref ref-type="aff" rid="msv165-AFF7"><sup>7</sup></xref><xref ref-type="aff" rid="msv165-AFF8"><sup>8</sup></xref></contrib><contrib contrib-type="author"><name><surname>Okamoto Miyakawa</surname><given-names>Misato</given-names></name><xref ref-type="aff" rid="msv165-AFF9"><sup>9</sup></xref></contrib><contrib contrib-type="author"><name><surname>Suarez</surname><given-names>Andrew V.</given-names></name><xref ref-type="aff" rid="msv165-AFF8"><sup>8</sup></xref><xref ref-type="aff" rid="msv165-AFF10"><sup>10</sup></xref></contrib><contrib contrib-type="author"><name><surname>Mikheyev</surname><given-names>Alexander</given-names></name><xref ref-type="corresp" rid="msv165-COR1">*</xref><xref ref-type="aff" rid="msv165-AFF9"><sup>9</sup></xref></contrib><aff id="msv165-AFF1"><sup>1</sup>Department of Biology, Earlham College</aff><aff id="msv165-AFF2"><sup>2</sup>Department of Biology, University of Vermont</aff><aff id="msv165-AFF3"><sup>3</sup>Institute for Evolution and Biodiversity,
+Westf&#x000e4;lische Wilhems-Universit&#x000e4;t M&#x000fc;nster, M&#x000fc;nster,
+Germany</aff><aff id="msv165-AFF4"><sup>4</sup>Department of Entomology, National Museum of
+Natural History, Smithsonian Institution, Washington DC</aff><aff id="msv165-AFF5"><sup>5</sup>Department of Computer Science, University of
+Illinois Urbana&#x02014;Champaign</aff><aff id="msv165-AFF6"><sup>6</sup>School of Life Sciences, Arizona State
+University</aff><aff id="msv165-AFF7"><sup>7</sup>Department of Entomology, University of
+Georgia</aff><aff id="msv165-AFF8"><sup>8</sup>Department of Animal Biology, University of
+Illinois Urbana&#x02014;Champaign</aff><aff id="msv165-AFF9"><sup>9</sup>Ecology and Evolution Unit, Okinawa Institute of
+Science and Technology, Onna, Okinawa, Japan</aff><aff id="msv165-AFF10"><sup>10</sup>Department of Entomology, University of Illinois
+Urbana&#x02014;Champaign</aff></contrib-group><author-notes><corresp id="msv165-COR1"><bold>*Corresponding author:</bold> E-mail:
+<email>crsmith.ant@gmail.com</email>;
+<email>alexander.mikheyev@oist.jp</email>.</corresp><fn id="msv165-FN1a"><p><bold>Associate editor</bold>: Gunter Wagner</p></fn></author-notes><pub-date pub-type="ppub"><month>11</month><year>2015</year></pub-date><pub-date pub-type="epub"><day>29</day><month>7</month><year>2015</year></pub-date><pub-date pub-type="pmc-release"><day>29</day><month>7</month><year>2015</year></pub-date><!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. --><volume>32</volume><issue>11</issue><fpage>2919</fpage><lpage>2931</lpage><permissions><copyright-statement>&#x000a9; The Author 2015. Published by Oxford University Press on
+behalf of the Society for Molecular Biology and Evolution.</copyright-statement><copyright-year>2015</copyright-year><license xlink:href="http://creativecommons.org/licenses/by-nc/4.0/" license-type="creative-commons"><license-p>This is an Open Access article distributed under the terms of the
+Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>), which
+permits non-commercial re-use, distribution, and reproduction in any medium,
+provided the original work is properly cited. For commercial re-use, please
+contact journals.permissions@oup.com</license-p></license></permissions><abstract><p>A central goal of biology is to uncover the genetic basis for the origin of new
+phenotypes. A particularly effective approach is to examine the genomic
+architecture of species that have secondarily lost a phenotype with respect to
+their close relatives. In the eusocial Hymenoptera, queens and workers have
+divergent phenotypes that may be produced via either expression of alternative
+sets of caste-specific genes and pathways or differences in expression patterns
+of a shared set of multifunctional genes. To distinguish between these two
+hypotheses, we investigated how secondary loss of the worker phenotype in
+workerless ant social parasites impacted genome evolution across two independent
+origins of social parasitism in the ant genera <italic>Pogonomyrmex</italic> and
+<italic>Vollenhovia</italic>. We sequenced the genomes of three social
+parasites and their most-closely related eusocial host species and compared gene
+losses in social parasites with gene expression differences between host queens
+and workers. Virtually all annotated genes were expressed to some degree in both
+castes of the host, with most shifting in queen-worker bias across developmental
+stages. As a result, despite &#x0003e;1 My of divergence from the last common
+ancestor that had workers, the social parasites showed strikingly little
+evidence of gene loss, damaging mutations, or shifts in selection regime
+resulting from loss of the worker caste. This suggests that regulatory changes
+within a multifunctional genome, rather than sequence differences, have played a
+predominant role in the evolution of social parasitism, and perhaps also in the
+many gains and losses of phenotypes in the social insects.</p></abstract><kwd-group><kwd>social parasite</kwd><kwd>ant</kwd><kwd>caste</kwd><kwd>phenotypic plasticity</kwd><kwd>genome</kwd></kwd-group><counts><page-count count="13"/></counts></article-meta></front><body><sec sec-type="intro"><title>Introduction</title><p>A goal of the genomic revolution is to understand the genetic architecture underlying
+phenotypic diversity. Genomic studies have been instrumental in helping to integrate
+the contributions of distinct mechanisms for generating alternative phenotypes,
+including coding sequence variation, regulatory changes, and gene by environment
+interactions (<xref rid="msv165-B6" ref-type="bibr">Anholt and Mackay 2004</xref>;
+<xref rid="msv165-B39" ref-type="bibr">Jones et al. 2012</xref>). In addition to
+answering mechanistic questions for individual species, comparative genomic
+approaches made possible by advances in high-throughput sequencing and
+bioinformatics have added a novel perspective on the evolutionary processes that
+generate both diversification and convergence of organismal phenotypes.</p><p>One area that has benefited immensely from genomic approaches is the study of
+sociality, particularly in the social insects (<xref rid="msv165-B64" ref-type="bibr">Robinson et al. 2005</xref>; <xref rid="msv165-B59" ref-type="bibr">Page and Amdam 2007</xref>; <xref rid="msv165-B74" ref-type="bibr">Smith et al. 2008</xref>; <xref rid="msv165-B26" ref-type="bibr">Gadau et al. 2012</xref>). In the ants, the evolution of
+reproductive division of labor between queens and workers was accompanied by
+pronounced phenotypic shifts in workers from the ancestral hymenopteran female body
+plan. There are two primary hypotheses to explain the origin of worker-specific
+traits. First, queen-worker divergence may result from disruptive selection on
+ancestral gene regulation patterns, co-opting, and exaggerating preexisting
+regulatory changes across life history stages (<xref rid="msv165-B85" ref-type="bibr">West-Eberhard 1987</xref>; <xref rid="msv165-B25" ref-type="bibr">Gadagkar 1997</xref>; <xref rid="msv165-B2" ref-type="bibr">Amdam et al. 2006</xref>; <xref rid="msv165-B77" ref-type="bibr">Toth et al.
+2007</xref>). More recently, however, studies of gene expression have
+consistently identified caste-specific &#x0201c;social&#x0201d; genes that are
+overexpressed in either workers or reproductive individuals (<xref rid="msv165-B28" ref-type="bibr">Grozinger et al. 2003</xref>; <xref rid="msv165-B77" ref-type="bibr">Toth et al. 2007</xref>; <xref rid="msv165-B8" ref-type="bibr">Bonasio et al. 2010</xref>; <xref rid="msv165-B87" ref-type="bibr">Wurm et al.
+2011</xref>; <xref rid="msv165-B20" ref-type="bibr">Feldmeyer et al.
+2014</xref>; <xref rid="msv165-B7" ref-type="bibr">Berens et al. 2015</xref>; <xref rid="msv165-B53" ref-type="bibr">Mikheyev and Linksvayer 2015</xref>; <xref rid="msv165-B67" ref-type="bibr">Schrader et al. 2015</xref>), and comparative
+genomics studies have revealed that these include an overabundance of evolutionarily
+novel genes (i.e., &#x0201c;orphan&#x0201d; genes without apparent homology in related
+organisms) (<xref rid="msv165-B8" ref-type="bibr">Bonasio et al. 2010</xref>; <xref rid="msv165-B37" ref-type="bibr">Johnson and Tsutsui 2011</xref>; <xref rid="msv165-B20" ref-type="bibr">Feldmeyer et al. 2014</xref>). This work has
+led to an alternate hypothesis that the phenotypic distinctiveness of queens and
+workers extends to the genetic level (<xref rid="msv165-B35" ref-type="bibr">Hunt et
+al. 2011</xref>; <xref rid="msv165-B76" ref-type="bibr">Sumner 2014</xref>),
+which releases genes from universal evolutionary constraints and facilitates worker
+specialization.</p><p>Studies investigating the genetic architecture of the worker phenotype generally
+focus on comparing gene expression of queens and workers within species. However, a
+potentially more powerful approach is to investigate the genomic impacts of
+evolutionary losses of the worker phenotype using phylogenetically informed
+comparisons (<xref rid="msv165-B41" ref-type="bibr">Lahti et al. 2009</xref>; <xref rid="msv165-B15" ref-type="bibr">Cini et al. 2015</xref>). Although the vast
+majority of ant species produce both reproductive and worker castes, there have been
+multiple independent secondary losses of the worker caste during the transition to a
+socially parasitic life style, particularly in the ant subfamily Myrmicinae (<xref rid="msv165-B33" ref-type="bibr">H&#x000f6;lldobler and Wilson 1990</xref>).
+Workerless social parasites (inquilines) obligately invade host colonies where the
+parasitic queen cohabits the nest with the resident host queen, and produces
+exclusively reproductive winged male and female progeny who are reared by the host
+workers (<xref rid="msv165-B9" ref-type="bibr">Buschinger 1986</xref>; <xref rid="msv165-B10" ref-type="bibr">Buschinger 2009</xref>). Like other
+evolutionary transitions to a parasitic lifestyle, the obligate dependence on a host
+species to provide all or many vital functions is expected to relax selection on
+portions of the parasite genome associated with those functions. This may be
+detectable as genome reduction (<xref rid="msv165-B81" ref-type="bibr">Tsai et al.
+2013</xref>), structural or functional gene loss, or shifts in evolutionary
+signatures, e.g., from purifying to relaxed selection.</p><p>In this study, we examined the genomic effects of the loss of the worker caste in two
+independent transitions to social parasitism in the myrmicine genera
+<italic>Pogonomyrmex</italic> and <italic>Vollenhovia</italic>. In the seed
+harvester ant genus <italic>Pogonomyrmex</italic>, social parasitism has evolved at
+least once, giving rise to a clade of two parasitic species, <italic>Pogonomyrmex
+anergismus</italic> and <italic>Pogonomyrmex colei</italic> (<xref rid="msv165-B38" ref-type="bibr">Johnson et al. 1996</xref>; <xref rid="msv165-B60" ref-type="bibr">Parker and Rissing 2002</xref>), which form a
+monophyletic group with their two host species, <italic>Pogonomyrmex
+rugosus</italic> and <italic>Pogonomyrmex barbatus</italic> (<xref ref-type="fig" rid="msv165-F1">fig. 1</xref>). In the genus
+<italic>Vollenhovia,</italic> the workerless species <italic>Vollenhovia
+nipponica</italic> parasitizes the closely related species, <italic>Vollenhovia
+emery</italic>i (<xref rid="msv165-B40" ref-type="bibr">Kinomura and Yamauchi
+1992</xref>) (<xref ref-type="fig" rid="msv165-F1">fig. 1</xref>).
+Fossil-calibrated phylogenetic dating suggests that the
+<italic>Pogonomyrmex</italic> social parasites and hosts separated &#x0223c;1.7 Ma,
+while the <italic>Vollenhovia</italic> host-parasite pair diverged &#x0223c;1.3 Ma
+(<xref ref-type="fig" rid="msv165-F1">fig. 1</xref>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S1</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). We coupled genome sequencing of the
+three social parasites (<italic>P. anergismus, P. colei, and V. nipponica</italic>)
+and their hosts (<italic>P. barbatus, P. rugosus</italic>, and <italic>V.
+emeryi</italic>) with gene expression data from different developmental stages
+for both queens and workers of two of the host species (<italic>P. barbatus</italic>
+and <italic>V. emeryi</italic>), to determine the genomic changes that are
+associated with the loss of the worker phenotype. We predicted that, if the queen
+and worker castes were produced by differentiated sets of worker and queen-specific
+genes, we should detect signatures of relaxed selection (including accelerated
+evolutionary rate, accumulation of damaging mutations, or gene loss) in the parasite
+genomes. In particular, we expected a strong effect in genes homologous to those in
+their host species that are exclusively expressed, or have biased expression, in the
+worker caste. <fig id="msv165-F1" orientation="portrait" position="float"><label>F<sc>ig</sc>. 1.</label><caption><p>The evolutionary relationships, and divergence dates (with 95%
+CI), for the two monophyletic groups of host and parasites in the
+subgenus Myrmicinae which are included in this study. The images
+represent the known castes present in each species; social parasites are
+those lacking an image for the worker caste. Images from antweb.org.</p></caption><graphic xlink:href="msv165f1p"/></fig></p></sec><sec><title>Results and Discussion</title><sec><title>Genome Sequencing</title><p>We sequenced the genomes of <italic>P. anergismus, P. colei,</italic> and
+<italic>V. nipponica</italic>, representing two independent origins of
+parasitism, and the genomes of two host species, <italic>P. rugosus</italic> and
+<italic>V. emeryi</italic>. A third host species, <italic>P.
+barbatus</italic>, had already been sequenced and annotated (<xref rid="msv165-B73" ref-type="bibr">Smith et al. 2011</xref>), and served as
+the mapping reference for <italic>P. rugosus</italic>, <italic>P.
+anergismus,</italic> and <italic>P. colei</italic>. <italic>Vollenhovia
+nipponica</italic> was mapped to the assembled genome of <italic>V.
+emeryi</italic>. Our analyses only include genes with at least 90% of
+the coding region covered by mapped reads. The mapped genomes covered
+98&#x02013;99% of annotated genes in <italic>P. barbatus</italic> and
+93% in <italic>V. emeryi</italic> (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S1</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). Therefore, at least at the level
+of the protein-coding genome, there is no evidence of major genomic loss in
+social parasites as is the case in some non-social parasites (e.g., tapeworms)
+relative to their free-living ancestors (<xref rid="msv165-B81" ref-type="bibr">Tsai et al. 2013</xref>).</p><p>By using paired-end sequencing reads that generally mapped uniquely within a
+genome, we established explicit orthologous relationships between genes in the
+host and parasite species and limited accumulation of assembly and annotation
+errors to those present in the reference genomes. This approach may, however,
+have had less power to detect major structural variation relative to comparing
+assembled genomes, though independent genome assemblies would each have errors,
+which would then amplify error rates in genome comparisons.</p></sec><sec><title>In Search of &#x0201c;Worker Genes&#x0201d;</title><p>To test the prediction that genes that primarily function in the worker caste
+would degrade in the social parasites due to relaxed selection (<xref rid="msv165-B50" ref-type="bibr">Linksvayer and Wade 2009</xref>), we
+performed RNA sequencing (RNAseq) on the two host species, <italic>P.
+barbatus</italic> and <italic>V. emeryi</italic>, to establish the degree of
+queen-worker gene expression bias. For <italic>Pogonomyrmex</italic>, we used
+the genetic caste determining J-lineages of <italic>P. barbatus,</italic> which
+allowed us to identify the caste fate of larvae prior to morphological
+differentiation (<xref rid="msv165-B3" ref-type="bibr">Anderson et al.
+2006</xref>; <xref rid="msv165-B68" ref-type="bibr">Schwander et al.
+2007a</xref>; <xref rid="msv165-B72" ref-type="bibr">Smith et al.
+2012</xref>). We generated RNAseq from four different developmental stages
+with two biological replicates for each caste (queen and worker) per
+developmental stage (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S2</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online): adults, pupae, and two sizes of
+larvae, small (workers and queens of equal mass and equal head capsule width)
+and large (queens much more massive than workers, but equal in head capsule
+width). Only adult workers and gynes were sampled in <italic>V. emeryi</italic>
+(<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S3</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online).</p><p>We found that gene expression differences between worker and queen castes are
+rarely absolute. To filter out spurious caste-specificity resulting from low
+expression, we looked for genes with at least 100 reads in one caste, but
+completely lacking in expression in the other caste; 100 reads is near the
+median number of reads (44th to 65th percentile) per sample across data sets.
+Using the RNAseq data from <italic>P. barbatus</italic> and <italic>V.
+emeryi</italic>, we found only three genes with caste-exclusive expression,
+one uniquely expressed in workers of <italic>P. barbatus</italic> and the other
+two in queens of <italic>V. emeryi</italic>. The worker-exclusive gene (PB25546,
+likely a histidine-rich glycoprotein) is expressed in all developmental stages
+of <italic>P. barbatus</italic> workers but primarily in pupae. Both <italic>V.
+emeryi</italic> queen-exclusive genes had no homology in other ants and may
+be non-coding RNA (Supplement). To examine whether our finding of few
+caste-exclusive genes was anomalous, we did the same search using the published
+RNAseq data sets of <italic>Camponotus floridanus</italic> and
+<italic>Harpegnathos saltator</italic> (<xref rid="msv165-B8" ref-type="bibr">Bonasio et al. 2010</xref>). We found three genes
+exclusively expressed in queens of <italic>C. floridanus</italic>, though none
+with a clear function with regard to caste-specific development or function
+(Supplement). Thus, genes expressed in only one caste appear to be largely
+absent in ant genomes, roughly only one in ten thousand genes.</p><p>Even at a quantitative level, the transcriptomic data from both <italic>P.
+barbatus</italic> and <italic>V. emeryi</italic> showed an excess of genes
+with little expression difference between castes relative to what would be
+expected if gene expression bias was normally distributed
+(Kolmogorov&#x02013;Smirnov: D = 0.112 and 0.0704, <italic>P</italic> &#x0003c;
+0.001, for <italic>P. barbatus</italic> and <italic>V. emeryi</italic>,
+respectively) (<xref ref-type="fig" rid="msv165-F2">fig.
+2</xref><italic>A</italic> and <italic>C</italic>). Fewer than 1% (30
+genes) were differentially expressed between <italic>P. barbatus</italic> queens
+and workers when all developmental stages were analyzed together (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S4</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). For <italic>V. emeryi</italic>,
+roughly 58% (5,909) of genes showed statistically significant caste bias
+toward either adult queens or workers (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S5</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). However, even some genes with
+only a small difference in expression between castes were statistically
+significant in <italic>V. emeryi</italic>; the average log fold change for genes
+with false discovery rate (FDR) &#x0003c; 0.05 was 1.2. <fig id="msv165-F2" orientation="portrait" position="float"><label>F<sc>ig</sc>. 2.</label><caption><p>Gene expression data for <italic>Pogonomyrmex barbatus</italic> (top,
+<italic>A&#x02013;B</italic>) and <italic>Vollenhovia
+emeryi</italic> (bottom, <italic>C&#x02013;D</italic>). On the
+left (<italic>A</italic>, <italic>C</italic>) are the observed and
+expected normal distributions of logFC (fold change) between queens
+and workers; negative values represent queen bias, and positive
+worker bias. Both species show a slightly positive mean (horizontal
+line) with reads near zero and reads with a more extreme worker-bias
+being overrepresented relative to the expected normal (a small
+number of extreme values are excluded from this graph for the
+purpose of visualization). The right panels (<italic>B</italic>,
+<italic>D</italic>) show NMDS plots coded by caste (triangles
+are queens and circles are workers) and/or developmental stage
+(color). Only adults were sequenced in <italic>V. emeryi</italic>
+but multiple developmental stages of queens and workers were
+sequenced for <italic>P. barbatus</italic> (adult, pupa, large,
+clearly differentiated, larvae, and small, undifferentiated,
+larvae).</p></caption><graphic xlink:href="msv165f2p"/></fig></p><p>The low level of caste specialization observed across all samples in <italic>P.
+barbatus</italic> may reflect the comprehensive developmental comparison
+afforded by genetic caste determination, which uniquely allows the caste fate of
+developing larvae to be identified genetically prior to the development of
+morphological differentiation (<xref rid="msv165-B72" ref-type="bibr">Smith et
+al. 2012</xref>). Despite the much lower biological replication, there were
+more genes in <italic>P. barbatus</italic> identified as differentially
+expressed between castes at particular developmental stages, such as adults (109
+genes), pupae (174 genes), large larvae (200 genes), or small larvae (568 genes)
+(<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S4</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online, <xref ref-type="fig" rid="msv165-F2">fig. 2</xref>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S2&#x02013;9</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). Comparisons between
+developmental stages, however, revealed up to 45-times more genes with
+expression differences compared with comparisons between castes (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S4</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S9</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). There were few genes
+(18%, 177 of 972) with caste-biased expression that were not also
+different among developmental stages (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S9</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). Inclusion of multiple, distinct,
+developmental stages revealed considerable shifts in both the extent and
+direction of caste bias across development, such that genes that appeared to be
+strongly biased at one particular stage were not biased when considered across
+all stages (<xref ref-type="fig" rid="msv165-F3">fig. 3</xref>). For example,
+across caste comparisons within each developmental stage, there were 27 genes
+that were significantly (FDR &#x0003c; 0.05) upregulated in both workers and queens,
+but in different developmental stages. <xref ref-type="fig" rid="msv165-F3">Figure 3</xref> shows the seven most variable such genes. Furthermore,
+89% (11,151 of 12,460) of genes changed their direction of expression
+(fold change) between queen and worker across development. This finding is
+congruent with recent work in evolutionary developmental biology showing that
+individual genes and gene regulatory networks are reused in different contexts
+during different developmental stages and tissues. This result also strongly
+supports the more classic notion of co-option of preexisting genes and networks
+to produce novel phenotypes (<xref rid="msv165-B80" ref-type="bibr">True and
+Carroll 2002</xref>; <xref rid="msv165-B54" ref-type="bibr">Monteiro
+2012</xref>). <fig id="msv165-F3" orientation="portrait" position="float"><label>F<sc>ig</sc>. 3.</label><caption><p>Seven of the 27 genes with significant differential expression
+between castes in multiple developmental stages. Each color
+represents a different developmental stage (S-Larva and L-Larva
+refer to small and large larvae, respectively). The y-axis is log
+fold change where positive values represent upregulation in workers
+and negative values upregulation in queens. Asterisks denote
+significant differential expression with FDR &#x0003c; 0.05.</p></caption><graphic xlink:href="msv165f3p"/></fig></p><p>Although genes with worker-biased expression represent a small proportion of the
+overall transcriptome (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S4</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online), worker traits may still be
+disproportionately produced by recruitment of novel, taxonomically restricted
+genes (<xref rid="msv165-B71" ref-type="bibr">Simola et al. 2013</xref>; <xref rid="msv165-B20" ref-type="bibr">Feldmeyer et al. 2014</xref>; <xref rid="msv165-B36" ref-type="bibr">Jasper et al. 2015</xref>; <xref rid="msv165-B76" ref-type="bibr">Sumner 2014</xref>). From previous
+phylogenomic analyses on sequenced arthropod genomes, a list of 2,036
+taxonomically restricted &#x0201c;orphan&#x0201d; genes was available for <italic>P.
+barbatus</italic> (<xref rid="msv165-B86" ref-type="bibr">Wissler et al.
+2013</xref>). Orphan genes are genes that lack homologs in other species
+(with sequenced genomes). At least in the ants it was found that most orphan
+genes arise de novo from intergenic regions (<xref rid="msv165-B86" ref-type="bibr">Wissler et al. 2013</xref>). In our analyses, orphan genes
+in <italic>P. barbatus</italic> were not enriched among those genes with higher
+expression in workers, or in genes with any caste bias (<italic>P</italic> &#x0003e;
+0.13 in all cases, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S6</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">S7</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). However, orphan genes were
+disproportionately underrepresented in our RNAseq data compared with genes
+without RNAseq coverage (orphan genes represented 7% of expressed genes,
+but 25% of unexpressed genes, &#x003c7;<sup>2 </sup>= 977, df,
+= 1, <italic>P</italic> &#x0003c; 0.0001), and overall expression levels were
+lower in orphan compared with non-orphan genes (3.36 vs. 4.57 log[copies per
+million]: t<sub>934</sub> = 14.3, <italic>P</italic> &#x0003c; 0.0001). This
+suggests that many orphan genes may be non-functional or were improperly
+annotated, and that those that are expressed may be differentially regulated
+compared with more conserved genes. In agreement with previous analyses (<xref rid="msv165-B17" ref-type="bibr">Domazet-Loso and Tautz 2003</xref>; <xref rid="msv165-B86" ref-type="bibr">Wissler et al. 2013</xref>), <italic>P.
+barbatus</italic>-specific orphan genes are evolving at a significantly
+faster rate than other genes in <italic>P. barbatus</italic>
+(<italic>F</italic><sub>3,9594</sub> = 16.83, <italic>P</italic> &#x0003c;
+0.0001, <italic>P. barbatus</italic> orphan genes evolved faster than all other
+groups of genes, Tukey&#x02019;s HSD <italic>P</italic> &#x0003c; 0.05 in all
+comparisons, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S10</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). Genes unique to ants, and shared
+among ant lineages (ant-specific orphan genes), evolved at a rate similar to
+non-orphan genes (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S5</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online, Tukey HSD <italic>P</italic> &#x0003e;
+0.75 in all cases), suggesting that the rapid evolution of <italic>P.
+barbatus</italic>-specific orphan genes is the result of their recent
+evolutionary history and possibly relaxed selection (assuming that all described
+orphan genes are true genes). <italic>Pogonomyrmex barbatus</italic> orphan
+genes are not evolving at different rates in the social parasites compared with
+the hosts (<italic>t</italic> = &#x02212;1.2, df = 1170,
+<italic>P</italic> = 0.3, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S11</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online), suggesting that they are not
+playing a major role in the evolution of workerless social parasites.</p><p>Genes expressed primarily in the worker caste are also expected to evolve more
+rapidly, even when they are not novel, because selection on them is indirect
+(<xref rid="msv165-B50" ref-type="bibr">Linksvayer and Wade 2009</xref>).
+Additionally, some studies have found that genes that are differentially
+expressed in polyphenisms, in solitary and social taxa alike, tend to have
+higher evolutionary rates, even prior to the evolution of novel phenotypes
+(<xref rid="msv165-B35" ref-type="bibr">Hunt et al. 2011</xref>; <xref rid="msv165-B46" ref-type="bibr">Leichty et al. 2012</xref>; <xref rid="msv165-B61" ref-type="bibr">Purandare et al. 2014</xref>). In
+<italic>Pogonomyrmex</italic>, genes with worker-biased expression,
+queen-biased expression, or unbiased expression (FDR &#x0003c; 0.05 for worker-queen
+bias in any developmental stage comparison) did not significantly differ in
+their evolutionary rate (ANOVA: <italic>F</italic><sub>2,9678</sub> =
+2.1, <italic>P</italic> = 0.12, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S12</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). When evolutionary rates are
+examined between caste-biased and non-biased genes across different
+developmental stages, there is no clear pattern (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S13</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). For example, worker-biased genes
+do show an accelerated evolutionary rate in adults
+(<italic>F</italic><sub>2,9762</sub> = 7.3, <italic>P</italic> &#x0003c;
+0.001), but in pupal and larval stages queen-biased genes evolved faster
+(<italic>F</italic><sub>2,9762</sub> = 6.5 and 7.2,
+<italic>P</italic> &#x0003c; 0.005 and <italic>P</italic> &#x0003c; 0.001,
+respectively; <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S13</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). That our data do not show a
+clear pattern suggests that the relationship between evolutionary rate and
+caste-bias may be much more complicated than previously theorized (<xref rid="msv165-B30" ref-type="bibr">Helanter&#x000e4; and Uller 2014</xref>), and
+that the inclusion of multiple developmental stages may be necessary to capture
+the overall role of genes in polyphenic development. Discerning morph-bias from
+a single stage may in fact yield incorrect conclusions about evolutionary
+pattern.</p></sec><sec><title>Parasite Genes and Domain Loss</title><p>Although the gene expression results suggest that the majority of genes across
+the genome are likely to be under selection in both castes, RNAseq and
+differential expression analysis capture only a subset of the predicted
+transcriptome (72% in <italic>P. barbatus</italic> and 38% in
+<italic>V. emeryi</italic> after filtering), and even genes with universal
+expression may only be functionally important for one caste, while in the other
+the gene is expressed as a correlated response. To address these limitations, we
+also looked for the expected effects of worker loss on the evolution of
+worker-specific genes due to relaxed selection. To test whether we had
+sufficient statistical power to detect genomic effects of worker loss for each
+host-parasite pair, we used coalescent simulations to simulate two alternative
+scenarios representing the two extremes of a continuum of caste-specificity:
+purifying selection, where all genes are universal and remain under the same
+selection regime even when the worker caste is lost, and relaxed selection,
+where genes are worker-specific and become effectively non-functional with the
+loss of the worker caste, such that the parasite lineage evolves without codon
+bias and at an accelerated rate characteristic of introns. The in silico results
+suggest that there is sufficient power to detect an effect of relaxed selection
+on genes specialized for worker function. For <italic>Pogonomyrmex</italic>,
+when selection was relaxed there was a high likelihood (67.8% of
+simulation runs) that a frameshift or stop-codon mutation within the gene would
+become fixed given the divergence time estimate for the <italic>P. colei/P.
+anergismus</italic> clade from <italic>P. barbatus</italic>. Simulation
+results were similar in <italic>Vollenhovia</italic>, though with a lower
+probability (24% of simulation runs; 95% CI: 0&#x02013;50) that
+damaging mutations become fixed in <italic>V. nipponica</italic>; the lesser
+likelihood compared with <italic>Pogonomyrmex</italic> probably reflects the
+more recent divergence between the <italic>Vollenhovia</italic> host and
+parasite (<xref ref-type="fig" rid="msv165-F1">fig. 1</xref>).</p><p>In the <italic>Pogonomyrmex</italic> system, we were able to compare observed
+patterns of gene loss in the parasites with those in the second host <italic>P.
+rugosus</italic>, thus not confounding true gene loss with potential
+artifacts of mapping to the genome of <italic>P. barbatus</italic>. This also
+allowed us to estimate the amount of &#x0201c;normal&#x0201d; gene loss between
+closely related eusocial species (no worker loss), although the divergence time
+between <italic>P. barbatus</italic> and <italic>P. rugosus</italic> is slightly
+greater than that between the social parasites and their hosts (<xref ref-type="fig" rid="msv165-F1">fig. 1</xref>). Contrary to our expectation,
+the social parasites did not have an elevated rate of damaging mutations
+relative to their hosts. Genes with damaging mutations were marginally
+worker-biased in all <italic>Pogonomyrmex</italic> species (ANOVA:
+<italic>F</italic><sub>2,8561</sub> = 4.4, <italic>P</italic> &#x0003c;
+0.05) but the <italic>Pogonomyrmex</italic> parasites did not differ in the
+extent of this bias from their host <italic>P. rugosus</italic> (Tukey HSD:
+<italic>P</italic> = 0.45, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S14</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). Similarly, there was no
+difference between <italic>V. emeryi</italic> and <italic>V. nipponica</italic>
+in queen-worker gene expression bias between genes with damaging mutations and
+those without (t<sub>21</sub> = 0.91, <italic>P</italic> = 0.37,
+<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary fig. S14</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online), though the number of genes with
+differential loss between these species was very small (<italic>n</italic>
+= 22). In addition to examining damaging mutations across the entire gene
+length, we also conducted an analysis restricted to functional protein domains.
+Again, genes in <italic>Pogonomyrmex</italic> with lost domains were
+worker-biased, in both social parasites and <italic>P. rugosus</italic> (<xref ref-type="fig" rid="msv165-F4">fig. 4</xref>, t<sub>142</sub> &#x0003e; 3.8,
+<italic>P</italic> &#x0003c; 0.0005 in all cases). No domain differences were
+detected between <italic>V. emeryi</italic> and <italic>V. nipponica</italic>.
+Taken together, these results indicate that worker-biased genes, or protein
+domains, are more likely to be lost, regardless of species and life-history
+strategy. Indirect selection may cause more losses of genes with worker-biased
+expression even when such losses are weakly maladaptive. High turnover of genes
+with caste-biased expression, especially those biased toward the worker caste,
+is consistent with recent comparative transcriptomic data suggesting that
+organisms that evolved sociality independently have relatively few genes with
+common responses during caste determination, despite the fact that a similar set
+of broader functional processes are consistently implicated in caste differences
+(<xref rid="msv165-B7" ref-type="bibr">Berens et al. 2015</xref>).
+Developmental regulatory networks are expected to contain considerable
+functional redundancies to maintain developmental homeostasis; different
+elements of which may be modified to produce and shape polyphenisms (<xref rid="msv165-B56" ref-type="bibr">Ohno 1970</xref>). <fig id="msv165-F4" orientation="portrait" position="float"><label>F<sc>ig</sc>. 4.</label><caption><p>Gene expression (logFC, fold change&#x02014;positive is worker bias,
+negative is queen bias) in genes that have lost protein domains in
+each of three lineage pairs, Pcol-Pane (social parasites), Pcol-Prug
+(parasite-host), and Pane-Prug (parasite-host), where Pcol =
+<italic>Pogonomyrmex colei</italic>, Pane =
+<italic>Pogonomyrmex anergismus</italic>, and Prug =
+<italic>Pogonomyrmex rugosus</italic>. Genes with lost domains
+have a greater than average worker-biased expression in
+parasite-host comparisons (<italic>t</italic> &#x0003e; 2, df &#x0003e; 75,
+<italic>P</italic> &#x0003c; 0.05 in all cases), regardless of
+whether the loss was in the host or parasite. The horizontal line is
+the mean logFC value for all genes; bars and whiskers are means
+&#x000b1; 95% CI.</p></caption><graphic xlink:href="msv165f4p"/></fig></p></sec><sec><title>Evidence for Selection</title><p>In addition to losing worker-specific functions (e.g., foraging, nest
+maintenance, defense, etc.), social parasites require a set of novel traits that
+may also be reflected at the genomic level (<xref rid="msv165-B15" ref-type="bibr">Cini et al. 2015</xref>). Social parasite queens are
+smaller than their respective hosts, have reduced mating flights and/or
+intranidal mating, and have to evolve novel behaviors to infiltrate host
+colonies and evade host defenses (<xref rid="msv165-B10" ref-type="bibr">Buschinger 2009</xref>). We therefore expected to see signatures of
+positive selection in genes that are responsible for changes in life history
+traits in the social parasites. We used a branch-site model to detect genes
+under positive selection in the social parasites compared with their hosts.
+There were only three genes with a signature of positive selection in the
+harvester ant social parasites, and none in <italic>Vollenhovia</italic>
+(Supplement). Although this would seem a surprisingly small number of genes
+under selection in the parasites, this result is broadly in agreement with the
+simulation data in suggesting that the majority of the genome is under purifying
+selection. Despite the simulations predicting that genes under relaxed selection
+would increase in evolutionary rate (ANOVA, <italic>F</italic><sub>1,198</sub>
+= 59.22, <italic>P</italic> &#x0003c; 0.0001; <xref ref-type="fig" rid="msv165-F5">fig. 5</xref><italic>A</italic>), in actuality, genes in the
+social parasites show no significant acceleration in evolutionary rate relative
+to their hosts, even for genes with worker-biased expression (One-sided
+<italic>t</italic>-tests: Overall, t<sub>9738</sub> = 2.56,
+<italic>P</italic> = 0.99; Worker-biased only, t<sub>106</sub>
+= 1.54, <italic>P</italic> = 0.94; <xref ref-type="fig" rid="msv165-F5">fig. 5</xref><italic>B</italic>). Genes with queen-biased
+expression did show evidence of accelerated evolution in the hosts relative to
+both unbiased and worker-biased genes (ANOVA:
+<italic>F</italic><sub>2,9736</sub> = 5.22, <italic>P</italic> &#x0003c;
+0.01; Tukey&#x02019;s HSD: queen-biased vs. unbiased, <italic>P</italic> &#x0003c;
+0.005, queen-biased vs. worker-biased, <italic>P</italic> &#x0003c; 0.01; <xref ref-type="fig" rid="msv165-F5">fig. 5</xref><italic>B</italic>). This result
+may reflect the loss of worker-associated trade-offs in the social parasites
+that normally act on such genes and would enhance the effect of purifying
+selection for queen function (<xref rid="msv165-B29" ref-type="bibr">Hall et al.
+2013</xref>). <fig id="msv165-F5" orientation="portrait" position="float"><label>F<sc>ig</sc>. 5.</label><caption><p>Simulated and observed evolutionary rates (host-parasite branch
+length) of genes in <italic>Pogonomyrmex barbatus</italic>.
+Simulations (left) demonstrate that genes under relaxed selection
+are expected to evolve rapidly (and accrue deleterious mutations).
+Observed results in <italic>P. barbatus</italic> (right) suggest
+that genes, regardless of whether they show a caste bias in gene
+expression, are evolving consistently under purifying selection.</p></caption><graphic xlink:href="msv165f5p"/></fig></p></sec><sec sec-type="conclusions"><title>Conclusions</title><p>The evolution of complex societies is considered one of the major transitions of
+life (<xref rid="msv165-B51" ref-type="bibr">Maynard Smith and Szathm&#x000e1;ry
+1995</xref>). In stark contrast to the prediction that novel eusocial
+phenotypes are generated by caste-specific gene sets, our results suggest that
+few, if any, genes involved in generating the worker phenotype have been lost or
+released from purifying selection in workerless social parasites. Instead,
+eusocial insect genomes appear to be largely multifunctional: genes serve
+multiple roles that differ between the castes and among developmental stages,
+suggesting that differential regulation of genes, rather than coding sequence
+change, is the major driver of caste evolution. Subtle changes, such as
+responsiveness to nutrition or hormones, may be sufficient to alter the
+expression of genes within regulatory networks and lead to drastically different
+phenotypes. The vast majority of genes are expressed in both castes and shift in
+their direction of expression bias between castes over development. Given this,
+greater caution should be given to inferring evolutionary patterns from
+expression studies of single developmental stages, and more emphasis should be
+given to the generation of gene expression studies that span the life history of
+each species and are comparable between species.</p><p>A major implication of regulatory control is that once evolved, phenotypic
+plasticity may be easily lost via a change in the environment which fails to
+trigger an alternative pathway, or a change in the regulatory response to the
+environment, which might explain why social parasitism has evolved many times
+independently. There are similar examples of mating incompatibilities between
+genotypes or genetic lineages producing significant caste bias or complete loss
+of one phenotype, such as in species with genetic caste determination (<xref rid="msv165-B4" ref-type="bibr">Anderson et al. 2008</xref>; <xref rid="msv165-B74" ref-type="bibr">Smith et al. 2008</xref>; <xref rid="msv165-B70" ref-type="bibr">Schwander et al. 2010</xref>; <xref rid="msv165-B48" ref-type="bibr">Libbrecht et al. 2011</xref>). It has been
+speculated that both genetic caste determination and social parasitism are
+related phenomena that could arise from dysregulation as a result of genomic
+mixing during interspecific hybridization (<xref rid="msv165-B32" ref-type="bibr">Helms Cahan and Keller 2003</xref>) or the formation of
+caste-biasing supergenes (<xref rid="msv165-B49" ref-type="bibr">Linksvayer et
+al. 2013</xref>). Notably, along with social parasitism, examples of genetic
+caste determination occur in both <italic>Pogonomyrmex</italic> and
+<italic>Vollenhovia</italic> (<xref rid="msv165-B32" ref-type="bibr">Helms
+Cahan and Keller 2003</xref>; <xref rid="msv165-B55" ref-type="bibr">Ohkawara et al. 2006</xref>; <xref rid="msv165-B4" ref-type="bibr">Anderson
+et al. 2008</xref>)<italic>.</italic></p><p>Given that regulatory changes are not protein-coding, phenotypes may also be
+recovered because the underlying genetic architecture is not lost with the
+phenotype (<xref rid="msv165-B62" ref-type="bibr">Rajakumar et al. 2012</xref>),
+and therefore, some genomes may harbor many unexpressed, cryptic, phenotypes
+that were favored under bygone environments but are currently inaccessible due
+to changes in either regulatory machinery or the absence of necessary
+environmental cues. It is likely that the ability to produce workers is not lost
+in <italic>Pogonomyrmex</italic> and <italic>Vollenhovia</italic> social
+parasites, but instead that developmental plasticity is cryptic, such as has
+been demonstrated previously for the super-soldier caste in some
+<italic>Pheidole</italic> ants (<xref rid="msv165-B62" ref-type="bibr">Rajakumar et al. 2012</xref>). Studies have documented a nearly complete
+loss of phenotypic plasticity in genetic caste-determining
+<italic>Pogonomyrmex</italic> ants (<xref rid="msv165-B31" ref-type="bibr">Helms Cahan et al. 2004</xref>); however, interlineage queens (<xref rid="msv165-B68" ref-type="bibr">Schwander et al. 2007</xref>; <xref rid="msv165-B5" ref-type="bibr">Anderson et al. 2009</xref>) and
+intralineage workers (<xref rid="msv165-B31" ref-type="bibr">Helms Cahan et al.
+2004</xref>) have all been detected, though rare. Similarly, sexually
+produced queens are known from <italic>Vollenhovia</italic> (<xref rid="msv165-B57" ref-type="bibr">Okamoto et al. 2015</xref>). With such
+great diversity of worker phenotypes in the social insects, it is not beyond
+reason that even species with monomorphic workers harbor the capacity to produce
+multiple worker phenotypes if the selective environment changes (<xref rid="msv165-B62" ref-type="bibr">Rajakumar et al. 2012</xref>).</p></sec></sec><sec sec-type="materials|methods"><title>Materials and Methods</title><sec><title>Phylogenetic Analysis</title><p>We inferred phylogeny and divergence dates with BEAST v2.1.2 (<xref rid="msv165-B19" ref-type="bibr">Drummond et al. 2012</xref>) under an
+uncorrelated lognormal relaxed clock model (<xref rid="msv165-B18" ref-type="bibr">Drummond et al. 2006</xref>). As a framework for this
+analysis, we used molecular data from a phylogenetic study of Myrmicinae (<xref rid="msv165-B84" ref-type="bibr">Ward et al. 2015</xref>) that included five
+<italic>Pogonomyrmex</italic> species and one <italic>Hylomyrma</italic>
+species (which is nested within <italic>Pogonomyrmex</italic>). We assembled
+sequences from the nine protein-coding genes generated by <xref rid="msv165-B84" ref-type="bibr">Ward et al. (2015)</xref> and added the homologous loci
+from the four <italic>Pogonomyrmex</italic> and two <italic>Vollenhovia</italic>
+genomes, resulting in 5,490 bp of aligned nucleotides. The nine genes used were
+abdominal-A (Abd-A), elongation factor 1-alpha F1 copy (EF1aF1), elongation
+factor 1-alpha F2 copy (EF1aF2), long wavelength rhodopsin (LW Rh), arginine
+kinase (ArgK), topoisomerase 1 (Top1), ultrabithorax (Ubx), wingless (Wg), and
+rudimentary (CAD). Data partitioning (by gene and codon position) and
+substitution models were determined using PartitionFinder v1.1.1 (<xref rid="msv165-B42" ref-type="bibr">Lanfear et al. 2012</xref>). Substitution
+models were unlinked and clock and tree models were linked among partitions. The
+tree prior was a Yule process. We used two a priori age distributions to
+calibrate our analysis. The first prior calibrated the stem-group node of the
+most recent common ancestor (MRCA) of <italic>Pogonomyrmex</italic>
+(<italic>striatinodis</italic> + <italic>subdentatus</italic>) based on
+Florissant Formation fossils (<xref rid="msv165-B12" ref-type="bibr">Carpenter
+1930</xref>), using a lognormal distribution with an offset (minimum bound)
+= 34 Ma, median = 50 Ma, and 95% quantile = 73 Ma
+(equating to a log-transformed mean = 2.77 and a log-transformed standard
+deviation = 0.54). The second prior calibrated the MRCA of
+<italic>Pogonomyrmex</italic> and <italic>Vollenhovia</italic> using a
+normal distribution with a mean = 95.4 Ma and 95% confidence
+interval of 85.2&#x02013;106.0 Ma, based on the results of <xref rid="msv165-B84" ref-type="bibr">Ward et al. (2015)</xref>. We conducted multiple BEAST
+runs, each for 500 million generations with a burn-in of 100 million
+generations. Stationarity and burn-in were determined by observing high ESS
+values and the consistency of likelihood values and other results among
+independent runs. We combined results from five independent runs (totaling 2
+billion post&#x02013;burn-in generations) and visualized the resulting topology
+and divergence times using FigTreev1.4.0 (<ext-link ext-link-type="uri" xlink:href="http://tree.bio.ed.ac.uk/software/figtree/">http://tree.bio.ed.ac.uk/software/figtree/</ext-link>, last accessed August
+9, 2015).</p></sec><sec><title>Genome Sequencing, Assembly, Annotation, and Mapping</title><sec><title>Pogonomyrmex Genome Sequencing</title><p>Shotgun libraries for the three <italic>Pogonomyrmex</italic> genomes were
+prepared from single-male samples using TruSeq library preparation kits
+(Illumina), according to the manufacturer&#x02019;s instructions, and
+sequenced on the IlluminaHiSeq 2000. The reads were then mapped to the
+<italic>P. barbatus</italic> reference genome using bowtie2 (<xref rid="msv165-B43" ref-type="bibr">Langmead and Salzberg 2012</xref>).
+Variants were called simultaneously on all three samples using
+UnifiedGenotyper in GATK (v. 2.2-16) (<xref rid="msv165-B52" ref-type="bibr">McKenna et al. 2010</xref>) in haploid mode. We followed the GATK best
+practices recommendations, including realignment of reads around indels,
+variant, and base quality recalibration (<xref rid="msv165-B82" ref-type="bibr">Van der Auwera et al. 2002</xref>; <xref rid="msv165-B16" ref-type="bibr">DePristo et al. 2011</xref>). The
+coordinates of the <italic>P. barbatus</italic> annotation were then
+adjusted to accommodate insertions and deletions introduced by the variant
+calling pipeline. We filtered any gene models from the <italic>P.
+barbatus</italic> reference genome where all of the other species were
+predicted to have a stop codon or a frame shift, and were suggestive of
+incorrect assembly or annotation of the reference genome. Many of these
+sites were in homopolymer regions, and were consistent with the error
+profile of Roche 454 sequencing technology, which was used for the
+<italic>P. barbatus</italic> genome (<xref rid="msv165-B73" ref-type="bibr">Smith et al. 2011</xref>).</p></sec><sec><title>RNA Extraction</title><p>For <italic>P. barbatus</italic>, DNA and RNA were extracted from 16
+individuals, from both queen and worker castes, and representing four
+developmental stages (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S2</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online) of J-lineage <italic>P.
+barbatus</italic>. All pupae and adults were sampled at the same time
+from a lab colony reared from a single mated queen (&#x0223c;5 years old); the
+colony was collected north of Lordsburg, NM (N 32.44250, W108.66605). Larvae
+were collected from two field colonies (label numbers 41 and 44 in <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S2</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online) near Portal, AZ (N
+31.31.93180, W 109.20538). Larval mass and head size in <italic>P.
+barbatus</italic> (Smith, unpublished data) suggest that all of these
+larvae were in the last (fourth) instar despite their major difference in
+wet mass (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S2</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). DNA and RNA were extracted
+using TRIzol (Life Technologies). The manufacturer&#x02019;s protocols were
+used with the following modifications, 1) 100 &#x003bc;l was used as the starting
+volume of TRIzol and all subsequent reagent amounts were adjusted according
+to the protocol and 2) two sodium citrate washes were used to clean the DNA.
+The extracted DNA was used for microsatellite genotyping of larvae (adults
+and pupae were not genotyped because caste can be morphologically
+determined) using the following loci: Myrt3, Pb8, Pr1, and L18 (<xref rid="msv165-B21" ref-type="bibr">Evans 1993</xref>; <xref rid="msv165-B24" ref-type="bibr">Foitzik et al. 1997</xref>; <xref rid="msv165-B83" ref-type="bibr">Volny and Gordon 2002</xref>; <xref rid="msv165-B27" ref-type="bibr">Gadau et al. 2003</xref>). The former
+three loci have no allele overlap and the protocols for PCR and
+polyacrylamide gel electrophoresis were as in (<xref rid="msv165-B72" ref-type="bibr">Smith et al. 2012</xref>). The conditions used for Pr1
+were as in (<xref rid="msv165-B68" ref-type="bibr">Schwander et al.
+2007b</xref>), though we used modified primers to shorten the locus
+length (Pr1aF: AAGTGGGTCACGAGAACGAG, Pr1aR: ATGCCAAGTGAAAGGATTCG). For
+<italic>V. emeryi,</italic> RNA was extracted using RNAqueous-Micro
+Total RNA Isolation Kit (Ambion) according to the manufacturer&#x02019;s
+specifications; five specimens were pooled per sample. For <italic>V.
+emeryi,</italic> RNA was extracted from pools of 5&#x02013;15 individuals
+from populations collected in Tokyo, Ishikawa, and Toyama areas in Japan,
+using RNeasy Micro Kits (QIAGEN).</p></sec><sec><title>RNA-Seq Library Preparation and Sequencing</title><p>Extracted RNA was used for cDNA generation using the RACE protocol from <xref rid="msv165-B1" ref-type="bibr">Aird et al. (2013)</xref>, except that
+we added ERCC92 spike-in controls (Invitrogen) alternately to each library,
+according to the manufacturer&#x02019;s specification. Four hundred nanograms
+of RNA and 13 cycles of PCR were used for each <italic>P. barbatus</italic>
+sample. For <italic>V. emeryi,</italic> five replicate libraries were
+sequenced for workers and queens using pools of five individuals for each.
+One hundred nanograms of total RNA was used for each library, and 12 cycles
+of PCR. The samples were sequenced on the IlluminaHiSeq 2000 in paired end
+200-cycle configuration.</p></sec><sec><title>Vollenhovia Genome Sequencing</title><p><italic>V. emeryi</italic> has an unusual reproductive system, where males
+exist as a single clonal lineage. The V. <italic>emeryi</italic> reference
+genome was sequenced from a single male clone, using a shotgun library for
+Roche 454 FLX+ (454 Life Sciences), prepared according to the
+manufacturer&#x02019;s instruction. These were assembled using the Newbler
+assembler using large genome mode (v. 2.6) (454 Life Sciences). The genome
+was annotated using MAKER (v.2.1) (<xref rid="msv165-B11" ref-type="bibr">Cantarel et al. 2008</xref>; <xref rid="msv165-B34" ref-type="bibr">Holt and Yandell 2011</xref>), using protein predictions from other
+ants, and RNA-seq data from <italic>V. emeryi</italic> that were mapped to
+the reference genome using TopHat (<xref rid="msv165-B78" ref-type="bibr">Trapnell et al. 2009</xref>), and extracted using Cufflinks (<xref rid="msv165-B79" ref-type="bibr">Trapnell et al. 2012</xref>). This
+resulted in a higher number of predicted genes than found in other ants.
+Because <italic>Vollenhovia</italic> is only distantly related to other
+sequenced ant species (<xref rid="msv165-B84" ref-type="bibr">Ward et al.
+2015</xref>), we kept these predictions to increase the number of
+possible targets. The <italic>V. nipponica</italic> genome was sequenced
+using Illumina technology. The library preparation, sequencing, and variant
+calling were as described above for the <italic>Pogonomyrmex</italic>
+samples.</p></sec><sec><title>Reference-Guided Gene Expression Analysis</title><p>Read counts were obtained by mapping the reads to the predicted transcript
+sequences using RSEM (<xref rid="msv165-B47" ref-type="bibr">Li and Dewey
+2011</xref>), which were then used to find significantly differentially
+expressed genes using edgeR (<xref rid="msv165-B65" ref-type="bibr">Robinson
+et al. 2010</xref>). Prior to differential expression analysis, we used
+the svseq function (<xref rid="msv165-B44" ref-type="bibr">Leek 2014</xref>)
+of the sva package (<xref rid="msv165-B45" ref-type="bibr">Leek et al.
+2015</xref>) to identify, estimate, and account for unknown sources of
+variation. Data were filtered in two ways and the results compared. With
+conservative filtering, genes without at least 100 reads in at least two of
+the samples were filtered out. With liberal filtering, genes without at
+least two reads in at least four of the samples were filtered out. The
+results were similar and the total number of differentially expressed genes
+from each filter are highly correlated (<italic>r</italic> = 0.97,
+<italic>P</italic> &#x0003c; 0.001) with a slope of 0.34 (i.e., the
+conservative filter detects one third the number of differentially expressed
+genes as compared with the liberal filter) (<ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">supplementary table S4</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">S5</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary Material</ext-link> online). The reported results are
+from the liberal filter. Libraries were normalized using the trimmed mean of
+M-values (TMM) method (<xref rid="msv165-B66" ref-type="bibr">Robinson and
+Oshlack 2010</xref>). Differential expression was compared between
+castes and developmental stages using linear models with contrasts (and the
+surrogate variables from sva, above, as a factor). Reported statistical
+significance is after correction for FDR using a 0.05 threshold because this
+is the most common practice, and thus the results we present will be
+comparable with other studies.</p></sec></sec><sec><title>Damaging Mutations and Domain Losses</title><sec><title>Data Generation</title><p>Reciprocal best hit BLAST was used to establish ortholog relationships
+between the <italic>P. barbatus</italic> sequences and six other sequenced
+ant species (<italic>H. saltator</italic>, <italic>Linepithema
+humile</italic>, <italic>C. floridanus</italic>, <italic>Acromyrmex
+echinatior</italic>, and <italic>Atta cephalotes</italic>).
+<italic>Pogonomyrmex barbatus</italic> genes were projected onto the
+genome alignments. The CDSs were then extracted for each gene and translated
+into amino acids. On encountering a stop codon the translation was stopped.
+Therefore, the extracted genes of <italic>P. rugosus</italic>, <italic>P.
+colei,</italic> and <italic>P. anergismus</italic> can be shorter but
+not longer than the reference genes of <italic>P. barbatus</italic>. Domains
+for all genes were predicted using the Pfam database (v27) (<xref rid="msv165-B23" ref-type="bibr">Finn et al. 2014</xref>). Two domain
+annotations were generated using pfam_scan.pl, one with standard threshold
+and one with relaxed thresholds (e-value threshold = 10).</p></sec><sec><title>Domain Counting</title><p>The considered species were divided into two sets: hosts (<italic>P.
+barbatus</italic>/<italic>P. rugosus</italic>) and parasites (<italic>P.
+colei</italic>/<italic>P. anergismus</italic>). A gene was then
+considered to be changed if a change has been occurring in all species of a
+group, meaning that the minimum number a domain occurs in one set is higher
+than the maximum number in the other. To be more specific:</p><p>Given 2 sets of species (<italic>H</italic> and <italic>P</italic>) and the
+counts of a specific domain of a specific gene in a given species
+<italic>x</italic> using standard threshold (<inline-formula><mml:math id="MM1"><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math></inline-formula>) and the relaxed threshold
+(<inline-formula><mml:math id="MM2"><mml:mrow><mml:mi>c</mml:mi><mml:msub><mml:mi>r</mml:mi><mml:mrow/></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>x</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math></inline-formula>), the domain is considered to have a group
+specific change if: <disp-formula><mml:math id="MM3"><mml:mrow><mml:mi>min</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>h</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>:</mml:mo><mml:mi>h</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>H</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>&#x0003e;</mml:mo><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mtext>&#x02002;</mml:mtext><mml:mo>:</mml:mo><mml:mi>p</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>P</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mtext>&#x02002;</mml:mtext><mml:mo>&#x00026;</mml:mo><mml:mtext>&#x02002;</mml:mtext><mml:mi>m</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>h</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mtext>&#x02002;</mml:mtext><mml:mo>:</mml:mo><mml:mi>h</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>H</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mo>&#x0003e;</mml:mo><mml:mi>m</mml:mi><mml:mi>a</mml:mi><mml:mi>x</mml:mi><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>r</mml:mi></mml:msub><mml:mo stretchy="false">(</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mtext>&#x02002;</mml:mtext><mml:mo>:</mml:mo><mml:mtext>&#x02002;</mml:mtext><mml:mi>p</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>P</mml:mi><mml:mo stretchy="false">)</mml:mo><mml:mtext>&#x02002;</mml:mtext></mml:mrow></mml:math></disp-formula>
+</p><p>or <disp-formula><mml:math id="MM4"><mml:mrow><mml:mi>max</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>h</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mtext>&#x02002;</mml:mtext><mml:mo>:</mml:mo><mml:mi>h</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>H</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>&#x0003c;</mml:mo><mml:mi>min</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mtext>&#x02002;</mml:mtext><mml:mo>:</mml:mo><mml:mi>p</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>P</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>&#x00026;</mml:mo><mml:mi>max</mml:mi><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mrow><mml:msub><mml:mi>c</mml:mi><mml:mi>r</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>h</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mtext>&#x02002;</mml:mtext><mml:mo>:</mml:mo><mml:mi>h</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>H</mml:mi></mml:mrow><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mo>&#x0003c;</mml:mo><mml:mtext>min</mml:mtext><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mi>c</mml:mi><mml:mi>s</mml:mi></mml:msub><mml:mrow><mml:mo stretchy="true">(</mml:mo><mml:mi>p</mml:mi><mml:mo stretchy="true">)</mml:mo></mml:mrow><mml:mtext>&#x02002;</mml:mtext><mml:mo>:</mml:mo><mml:mtext>&#x02002;</mml:mtext><mml:mi>p</mml:mi><mml:mo>&#x02208;</mml:mo><mml:mi>P</mml:mi><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:math></disp-formula>
+</p><p>To avoid counting exchanges between very similar domains (e.g.,
+<inline-formula><mml:math id="MM5"><mml:mrow><mml:mi>I</mml:mi><mml:msub><mml:mi>G</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:math></inline-formula>&#x02192;<inline-formula><mml:math id="MM6"><mml:mrow><mml:mi>I</mml:mi><mml:msub><mml:mi>G</mml:mi><mml:mn>3</mml:mn></mml:msub></mml:mrow></mml:math></inline-formula>), domains that belong to the same clan were
+treated as being the same.</p></sec><sec><title>Loss Analysis</title><p>Wagner parsimony was used to analyze the domain family changes in the hosts
+and parasites in case of repeat number changes. For complete loss of domain
+types in one of the groups Dollo parsimony was used. For this the losses
+after the split of host and parasite species were calculated. This analysis
+was performed for all genes for which a 1-1 ortholog relationship could be
+determined, including at least one species inside the six outgroup species.
+The same procedure was repeated for the <italic>Vollenhovia</italic>
+species.</p></sec></sec><sec><title>Coalescent Simulations of Damaging Mutations in Social Parasites</title><p>To estimate the expected probability of loss-of-function mutations (stop codons
+and frameshifts) for worker-specific genes in the social parasite clade, as well
+as to test the power to detect relaxed selection associated with loss of worker
+function, we conducted coalescent simulations of gene evolution with
+Indel-Seq-Gen, a flexible DNA simulator that can model lineage-specific shifts
+in selection for both point mutations and insertion/deletions (<xref rid="msv165-B63" ref-type="bibr">Rambaut and Grassly 1997</xref>; <xref rid="msv165-B75" ref-type="bibr">Strope et al. 2007</xref>). Mutations
+evolve along a user-provided guide tree, with evolutionary rates defined by the
+branch lengths and distributed according to specified codon usage rates,
+insertion/deletion frequencies, and length distributions. Two scenarios were
+simulated, representing the two extreme ends of a continuum of gene
+caste-specificity: in the first, genes were fully functional in both castes and
+thus retained their function even when the worker phenotype was lost. In the
+second, genes lost their functional expression in the clade leading to the two
+social parasites and thus became effectively neutral. This was reflected in the
+simulations for the clade leading to the social parasite(s) by a shift of
+substitutions across codon positions from a third-position bias to a uniform
+rate, retention of indels of up to 6 bp in length at one-tenth the rate of
+substitutions drawn from a Chang &#x00026; Benner length distribution, and an
+overall accelerated substitution rate for novel mutations. The expected
+substitution rate of social parasite genes relative to host genes under relaxed
+selection was estimated by comparing the mean substitution rate of the introns
+and exons of each gene across the annotated transcriptome of <italic>P.
+barbatus</italic> (=2X the rate of exons). To generate a guide tree
+for the host and parasite taxa, we used the majority-rules scaffold topology,
+with branch lengths averaged from those scaffolds that matched that topology.
+One hundred replicates of each scenario were conducted for each species with
+simulated gene sequences equaling the median gene length across the
+transcriptome (<italic>P. barbatus</italic> = 699 bp, <italic>V.
+emeryi</italic> = 535 bp) (<xref rid="msv165-B73" ref-type="bibr">Smith et al. 2011</xref>). Confidence limits around the resulting estimates
+were generated by scaling branch lengths to the relative rates of the bottom and
+top 5% of genes. Simulated sequences were aligned and assessed for the
+presence of stop codons and frameshift indels.</p></sec></sec><sec sec-type="supplementary-material"><title>Supplementary Material</title><p><ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">Supplementary figures S1&#x02013;S14</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://mbe.oxfordjournals.org/lookup/suppl/doi:10.1093/molbev/msv165/-/DC1">tables S1&#x02013;S7</ext-link> are available at <italic>Molecular Biology and
+Evolution</italic> online (<ext-link ext-link-type="uri" xlink:href="http://www.mbe.oxfordjournals.org/">http://www.mbe.oxfordjournals.org/</ext-link>).</p>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>Supplementary Data</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="supp_32_11_2919__index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf"
+xlink:href="supp_msv165_Supplemental_Materials_MBE_revision_17June2015.pdf"/>
+</supplementary-material>
+</sec></body><back><ack><title>Acknowledgments</title><p>The authors thank the OIST sequencing center for preparing the <italic>V.
+emeryi</italic> genomic libraries and for carrying out the sequencing. At the
+University of Illinois, they thank Hugh Robertson and Kim Walden for preparing the
+<italic>P. anergismus</italic> genomic libriaries and the Keck Center for
+carrying out the sequencing. They are grateful to M.M.Y. Tin and M. Grau-Lopez for
+assistance with laboratory work and bioinformatics, respectively. They thank the
+OIST workshop committee for helping to organize the Genomics of Social Parasite
+Evolution workshop. Funding for this project was provided by OIST and JSPS Kakenhi
+grants to <funding-source>ASM</funding-source> (<award-id>25221206</award-id> and
+<award-id>24770034</award-id>), and by grants from
+<funding-source>NSF</funding-source> (<award-id>DEB 1020979</award-id> to AVS,
+<award-id>DUE 1139893</award-id> to CRS, and <award-id>DEB 0919052</award-id> to
+SIHC). They thank &#x0201c;Uncle&#x0201d; Bob Johnson for <italic>P. anergismus</italic>
+specimens as well as E. Cash and K. E. Anderson for lab colonies, and B. Smith and
+N. Hamada Fernside for larva collection.</p></ack><ref-list><title>References</title><ref id="msv165-B1"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Aird</surname><given-names>SD</given-names></name><name><surname>Watanabe</surname><given-names>Y</given-names></name><name><surname>Villar-Briones</surname><given-names>A</given-names></name><name><surname>Roy</surname><given-names>MC</given-names></name><name><surname>Terada</surname><given-names>K</given-names></name><name><surname>Mikheyev</surname><given-names>AS</given-names></name></person-group>
+<year>2013</year>
+<article-title>Quantitative
+high-throughput profiling of snake venom gland transcriptomes and proteomes
+(<italic>Ovophis okinavensis</italic> and <italic>Protobothrops
+flavoviridis</italic>)</article-title>. <source>BMC Genomics</source>
+<volume>14</volume>:<fpage>790</fpage>.<pub-id pub-id-type="pmid">24224955</pub-id></mixed-citation></ref><ref id="msv165-B2"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Amdam</surname><given-names>GV</given-names></name><name><surname>Csondes</surname><given-names>A</given-names></name><name><surname>Fondrk</surname><given-names>MK</given-names></name><name><surname>Page</surname><given-names>RE</given-names></name></person-group>
+<year>2006</year>
+<article-title>Complex social
+behaviour derived from maternal reproductive traits</article-title>.
+<source>Nature</source>
+<volume>439</volume>:<fpage>76</fpage>&#x02013;<lpage>78</lpage>.<pub-id pub-id-type="pmid">16397498</pub-id></mixed-citation></ref><ref id="msv165-B3"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Anderson</surname><given-names>KE</given-names></name><name><surname>Gadau</surname><given-names>J</given-names></name><name><surname>Mott</surname><given-names>BM</given-names></name><name><surname>Johnson</surname><given-names>RA</given-names></name><name><surname>Altamirano</surname><given-names>A</given-names></name><name><surname>Strehl</surname><given-names>C</given-names></name><name><surname>Fewell</surname><given-names>JH</given-names></name></person-group>
+<year>2006</year>
+<article-title>Distribution and
+evolution of genetic caste determination in <italic>Pogonomyrmex</italic>
+seed-harvester ants</article-title>. <source>Ecology</source>
+<volume>87</volume>:<fpage>2171</fpage>&#x02013;<lpage>2184</lpage>.<pub-id pub-id-type="pmid">16995616</pub-id></mixed-citation></ref><ref id="msv165-B4"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Anderson</surname><given-names>KE</given-names></name><name><surname>Linksvayer</surname><given-names>TA</given-names></name><name><surname>Smith</surname><given-names>CR</given-names></name></person-group>
+<year>2008</year>
+<article-title>The causes and
+consequences of genetic caste determination in ants (Hymenoptera:
+Formicidae)</article-title>. <source>Myrmecol News</source>
+<volume>11</volume>:<fpage>119</fpage>&#x02013;<lpage>132</lpage>.</mixed-citation></ref><ref id="msv165-B5"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Anderson</surname><given-names>KE</given-names></name><name><surname>Smith</surname><given-names>CR</given-names></name><name><surname>Linksvayer</surname><given-names>TA</given-names></name><name><surname>Mott</surname><given-names>BM</given-names></name><name><surname>Gadau</surname><given-names>J</given-names></name><name><surname>Fewell</surname><given-names>JH</given-names></name></person-group>
+<year>2009</year>
+<article-title>Modeling the
+maintenance of a dependent lineage system: the influence of positive
+frequency-dependent selection on sex ratio</article-title>.
+<source>Evolution</source>
+<volume>63</volume>:<fpage>2142</fpage>&#x02013;<lpage>2152</lpage>.<pub-id pub-id-type="pmid">19453732</pub-id></mixed-citation></ref><ref id="msv165-B6"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Anholt</surname><given-names>RR</given-names></name><name><surname>Mackay</surname><given-names>TF</given-names></name></person-group>
+<year>2004</year>
+<article-title>Quantitative
+genetic analyses of complex behaviours in
+<italic>Drosophila</italic></article-title>. <source>Nat Rev Genet.</source>
+<volume>5</volume>:<fpage>838</fpage>&#x02013;<lpage>849</lpage>.<pub-id pub-id-type="pmid">15520793</pub-id></mixed-citation></ref><ref id="msv165-B7"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Berens</surname><given-names>AJ</given-names></name><name><surname>Hunt</surname><given-names>JH</given-names></name><name><surname>Toth</surname><given-names>AL</given-names></name></person-group>
+<year>2015</year>
+<article-title>Comparative
+transcriptomics of convergent evolution: different genes but conserved
+pathways underlie caste phenotypes across lineages of eusocial
+insects</article-title>. <source>Mol Biol Evol.</source>
+<volume>32</volume>:<fpage>690</fpage>&#x02013;<lpage>703</lpage>.<pub-id pub-id-type="pmid">25492498</pub-id></mixed-citation></ref><ref id="msv165-B8"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bonasio</surname><given-names>R</given-names></name><name><surname>Zhang</surname><given-names>G</given-names></name><name><surname>Ye</surname><given-names>C</given-names></name><name><surname>Mutti</surname><given-names>NS</given-names></name><name><surname>Fang</surname><given-names>X</given-names></name><name><surname>Qin</surname><given-names>N</given-names></name><name><surname>Donahue</surname><given-names>G</given-names></name><name><surname>Yang</surname><given-names>P</given-names></name><name><surname>Li</surname><given-names>Q</given-names></name><name><surname>Li</surname><given-names>C</given-names></name></person-group>
+<year>2010</year>
+<article-title>Genomic comparison
+of the ants <italic>Camponotus floridanus</italic> and <italic>Harpegnathos
+saltator</italic></article-title>. <source>Science</source>
+<volume>329</volume>:<fpage>1068</fpage>&#x02013;<lpage>1071</lpage>.<pub-id pub-id-type="pmid">20798317</pub-id></mixed-citation></ref><ref id="msv165-B9"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Buschinger</surname><given-names>A</given-names></name></person-group>
+<year>1986</year>
+<article-title>Evolution of
+social parasitism in ants</article-title>. <source>Trends Ecol
+Evol.</source>
+<volume>1</volume>:<fpage>155</fpage>&#x02013;<lpage>160</lpage>.<pub-id pub-id-type="pmid">21227804</pub-id></mixed-citation></ref><ref id="msv165-B10"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Buschinger</surname><given-names>A</given-names></name></person-group>
+<year>2009</year>
+<article-title>Social parasitism
+among ants: a review (Hymenoptera: Formicidae)</article-title>.
+<source>Myrmecol News</source>
+<volume>12</volume>:<fpage>219</fpage>&#x02013;<lpage>235</lpage>.</mixed-citation></ref><ref id="msv165-B11"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cantarel</surname><given-names>BL</given-names></name><name><surname>Korf</surname><given-names>I</given-names></name><name><surname>Robb</surname><given-names>SMC</given-names></name><name><surname>Parra</surname><given-names>G</given-names></name><name><surname>Ross</surname><given-names>E</given-names></name><name><surname>Moore</surname><given-names>B</given-names></name><name><surname>Holt</surname><given-names>C</given-names></name><name><surname>S&#x000e1;nchez Alvarado</surname><given-names>A</given-names></name><name><surname>Yandell</surname><given-names>M</given-names></name></person-group>
+<year>2008</year>
+<article-title>MAKER: An
+easy-to-use annotation pipeline designed for emerging model organism
+genomes</article-title>. <source>Genome Res.</source>
+<volume>18</volume>:<fpage>188</fpage>&#x02013;<lpage>196</lpage>.<pub-id pub-id-type="pmid">18025269</pub-id></mixed-citation></ref><ref id="msv165-B12"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Carpenter</surname><given-names>FM</given-names></name></person-group>
+<year>1930</year>
+<article-title>The fossil ants of
+North America</article-title>. <source>Bull Mus Comp Zool.</source>
+<volume>70</volume>:<fpage>1</fpage>&#x02013;<lpage>66</lpage>.</mixed-citation></ref><ref id="msv165-B15"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Cini</surname><given-names>A</given-names></name><name><surname>Patalano</surname><given-names>S</given-names></name><name><surname>Segonds-Pichon</surname><given-names>A</given-names></name><name><surname>Busby</surname><given-names>GBJ</given-names></name><name><surname>Cervo</surname><given-names>R</given-names></name><name><surname>Sumner</surname><given-names>S</given-names></name></person-group>
+<year>2015</year>
+<article-title>Social parasitism
+and the molecular basis of phenotypic evolution</article-title>.
+<source>Front Genet.</source>
+<volume>6</volume>:<fpage>32</fpage>.<pub-id pub-id-type="pmid">25741361</pub-id></mixed-citation></ref><ref id="msv165-B16"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>DePristo</surname><given-names>MA</given-names></name><name><surname>Banks</surname><given-names>E</given-names></name><name><surname>Poplin</surname><given-names>R</given-names></name><name><surname>Garimella</surname><given-names>KV</given-names></name><name><surname>Maguire</surname><given-names>JR</given-names></name><name><surname>Hartl</surname><given-names>C</given-names></name><name><surname>Philippakis</surname><given-names>AA</given-names></name><name><surname>del Angel</surname><given-names>G</given-names></name><name><surname>Rivas</surname><given-names>MA</given-names></name><name><surname>Hanna</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>A framework
+for variation discovery and genotyping using next-generation DNA sequencing
+data</article-title>. <source>Nat Genet.</source>
+<volume>43</volume>:<fpage>491</fpage>&#x02013;<lpage>498</lpage>.<pub-id pub-id-type="pmid">21478889</pub-id></mixed-citation></ref><ref id="msv165-B17"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Domazet-Loso</surname><given-names>T</given-names></name><name><surname>Tautz</surname><given-names>D</given-names></name></person-group>
+<year>2003</year>
+<article-title>An evolutionary
+analysis of orphan genes in <italic>Drosophila</italic></article-title>.
+<source>Genome Res.</source>
+<volume>13</volume>:<fpage>2213</fpage>&#x02013;<lpage>2219</lpage>.<pub-id pub-id-type="pmid">14525923</pub-id></mixed-citation></ref><ref id="msv165-B18"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Drummond</surname><given-names>AJ</given-names></name><name><surname>Ho</surname><given-names>SY</given-names></name><name><surname>Phillips</surname><given-names>MJ</given-names></name><name><surname>Rambaut</surname><given-names>A</given-names></name></person-group>
+<year>2006</year>
+<article-title>Relaxed
+phylogenetics and dating with confidence</article-title>. <source>PLoS
+Biol.</source>
+<volume>4</volume>:<fpage>e88</fpage>.<pub-id pub-id-type="pmid">16683862</pub-id></mixed-citation></ref><ref id="msv165-B19"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Drummond</surname><given-names>AJ</given-names></name><name><surname>Suchard</surname><given-names>MA</given-names></name><name><surname>Xie</surname><given-names>D</given-names></name><name><surname>Rambaut</surname><given-names>A</given-names></name></person-group>
+<year>2012</year>
+<article-title>Bayesian
+phylogenetics with BEAUti and the BEAST 1.7</article-title>. <source>Mol
+Biol Evol.</source>
+<volume>29</volume>:<fpage>1969</fpage>&#x02013;<lpage>1973</lpage>.<pub-id pub-id-type="pmid">22367748</pub-id></mixed-citation></ref><ref id="msv165-B20"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Feldmeyer</surname><given-names>B</given-names></name><name><surname>Elsner</surname><given-names>D</given-names></name><name><surname>Foitzik</surname><given-names>S</given-names></name></person-group>
+<year>2014</year>
+<article-title>Gene expression
+patterns associated with caste and reproductive status in ants:
+worker-specific genes are more derived than queen-specific
+ones</article-title>. <source>Mol Ecol.</source>
+<volume>23</volume>:<fpage>151</fpage>&#x02013;<lpage>161</lpage>.<pub-id pub-id-type="pmid">24118315</pub-id></mixed-citation></ref><ref id="msv165-B21"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Evans</surname><given-names>JD</given-names></name></person-group>
+<year>1993</year>
+<article-title>Parentage analyses
+in ant colonies using simple sequence repeat loci</article-title>.
+<source>Mol Ecol.</source>
+<volume>2</volume>:<fpage>393</fpage>&#x02013;<lpage>397</lpage>.<pub-id pub-id-type="pmid">8162228</pub-id></mixed-citation></ref><ref id="msv165-B23"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Finn</surname><given-names>RD</given-names></name><name><surname>Bateman</surname><given-names>A</given-names></name><name><surname>Clements</surname><given-names>J</given-names></name><name><surname>Coggill</surname><given-names>P</given-names></name><name><surname>Eberhardt</surname><given-names>RY</given-names></name><name><surname>Eddy</surname><given-names>SR</given-names></name><name><surname>Heger</surname><given-names>A</given-names></name><name><surname>Hetherington</surname><given-names>K</given-names></name><name><surname>Holm</surname><given-names>L</given-names></name><name><surname>Mistry</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2014</year>
+<article-title>Pfam: the
+protein families database</article-title>. <source>Nucleic Acids
+Res.</source>
+<volume>42</volume>:<fpage>D222</fpage>&#x02013;<lpage>D230</lpage>.<pub-id pub-id-type="pmid">24288371</pub-id></mixed-citation></ref><ref id="msv165-B24"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Foitzik</surname><given-names>S</given-names></name><name><surname>Haberl</surname><given-names>M</given-names></name><name><surname>Gadau</surname><given-names>J</given-names></name><name><surname>Heinze</surname><given-names>J</given-names></name></person-group>
+<year>1997</year>
+<article-title>Mating frequency
+of <italic>Leptothorax nylanderi</italic> ant queens determined by
+microsatellite analysis</article-title>. <source>Insect Soc.</source>
+<volume>44</volume>:<fpage>
+219</fpage>&#x02013;<lpage>227</lpage>.</mixed-citation></ref><ref id="msv165-B25"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gadagkar</surname><given-names>R</given-names></name></person-group>
+<year>1997</year>
+<article-title>The evolution of
+caste polymorphism in social insects: genetic release followed by
+diversifying evolution</article-title>. <source>J Genet.</source>
+<volume>76</volume>:<fpage>167</fpage>&#x02013;<lpage>179</lpage>.</mixed-citation></ref><ref id="msv165-B26"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gadau</surname><given-names>J</given-names></name><name><surname>Helmkampf</surname><given-names>M</given-names></name><name><surname>Nygaard</surname><given-names>S</given-names></name><name><surname>Roux</surname><given-names>J</given-names></name><name><surname>Simola</surname><given-names>DF</given-names></name><name><surname>Smith</surname><given-names>CR</given-names></name><name><surname>Suen</surname><given-names>G</given-names></name><name><surname>Wurm</surname><given-names>Y</given-names></name><name><surname>Smith</surname><given-names>CD</given-names></name></person-group>
+<year>2012</year>
+<article-title>The genomic impact
+of 100 million years of social evolution in seven ant
+species</article-title>. <source>Trends Genet.</source>
+<volume>28</volume>:<fpage>14</fpage>&#x02013;<lpage>21</lpage>.<pub-id pub-id-type="pmid">21982512</pub-id></mixed-citation></ref><ref id="msv165-B27"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gadau</surname><given-names>J</given-names></name><name><surname>Strehl</surname><given-names>CP</given-names></name><name><surname>Oettler</surname><given-names>J</given-names></name><name><surname>H&#x000f6;lldobler</surname><given-names>B</given-names></name></person-group>
+<year>2003</year>
+<article-title>Determinants of
+intracolonial relatedness in <italic>Pogonomyrmex rugosus</italic>
+(Hymenoptera: Formicidae)</article-title>: <source>mating frequency and
+brood raids. <italic>Mol Ecol</italic>.</source>
+<volume>12</volume>:<fpage>1931</fpage>&#x02013;<lpage>1938</lpage>.<pub-id pub-id-type="pmid">12803642</pub-id></mixed-citation></ref><ref id="msv165-B28"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Grozinger</surname><given-names>CM</given-names></name><name><surname>Sharabash</surname><given-names>NM</given-names></name><name><surname>Whitfield</surname><given-names>CW</given-names></name><name><surname>Robinson</surname><given-names>GE</given-names></name></person-group>
+<year>2003</year>
+<article-title>Pheromone-mediated
+gene expression in the honey bee brain</article-title>. <source>Proc Natl
+Acad Sci.</source>
+<volume>100</volume>:<fpage>14519</fpage>&#x02013;<lpage>14525</lpage>.<pub-id pub-id-type="pmid">14573707</pub-id></mixed-citation></ref><ref id="msv165-B29"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hall</surname><given-names>DW</given-names></name><name><surname>Soojin</surname><given-names>VY</given-names></name><name><surname>Goodisman</surname><given-names>MA</given-names></name></person-group>
+<year>2013</year>
+<article-title>Kin selection,
+genomics and caste-antagonistic pleiotropy</article-title>. <source>Biol
+Lett.</source>
+<volume>9</volume>:<fpage>20130309</fpage>.<pub-id pub-id-type="pmid">24132087</pub-id></mixed-citation></ref><ref id="msv165-B30"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Helanter&#x000e4;</surname><given-names>H</given-names></name><name><surname>Uller</surname><given-names>T</given-names></name></person-group>
+<year>2014</year>
+<article-title>Neutral and
+adaptive explanations for an association between caste-biased gene
+expression and rate of sequence evolution</article-title>. <source>Front
+Genet.</source>
+<volume>5</volume>:<fpage> 297</fpage>.<pub-id pub-id-type="pmid">25221570</pub-id></mixed-citation></ref><ref id="msv165-B31"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Helms Cahan</surname><given-names>SH</given-names></name><name><surname>Julian</surname><given-names>GE</given-names></name><name><surname>Rissing</surname><given-names>SW</given-names></name><name><surname>Schwander</surname><given-names>T</given-names></name><name><surname>Parker</surname><given-names>JD</given-names></name><name><surname>Keller</surname><given-names>L</given-names></name></person-group>
+<year>2004</year>
+<article-title>Loss of phenotypic
+plasticity generates genotype-caste association in harvester
+ants</article-title>. <source>Curr Biol.</source>
+<volume>14</volume>:<fpage>2277</fpage>&#x02013;<lpage>2282</lpage>.<pub-id pub-id-type="pmid">15620656</pub-id></mixed-citation></ref><ref id="msv165-B32"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Helms Cahan</surname><given-names>SH</given-names></name><name><surname>Keller</surname><given-names>L</given-names></name></person-group>
+<year>2003</year>
+<article-title>Complex hybrid
+origin of genetic caste determination in harvester ants</article-title>.
+<source>Nature</source>
+<volume>424</volume>:<fpage>306</fpage>&#x02013;<lpage>309</lpage>.<pub-id pub-id-type="pmid">12867980</pub-id></mixed-citation></ref><ref id="msv165-B33"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Ho&#x000fc;lldobler</surname><given-names>B</given-names></name><name><surname>Wilson</surname><given-names>EO</given-names></name></person-group>
+<year>1990</year>
+<source>The ants</source>.
+<publisher-loc>Cambridge (MA)</publisher-loc>: <publisher-name>Belknap Press
+of Harvard University Press.</publisher-name></mixed-citation></ref><ref id="msv165-B34"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Holt</surname><given-names>C</given-names></name><name><surname>Yandell</surname><given-names>M</given-names></name></person-group>
+<year>2011</year>
+<article-title>MAKER2: an
+annotation pipeline and genome-database management tool for
+second-generation genome projects</article-title>. <source>BMC
+Bioinformatics</source>
+<volume>12</volume>:<fpage>491</fpage>.<pub-id pub-id-type="pmid">22192575</pub-id></mixed-citation></ref><ref id="msv165-B35"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Hunt</surname><given-names>BG</given-names></name><name><surname>Ometto</surname><given-names>L</given-names></name><name><surname>Wurm</surname><given-names>Y</given-names></name><name><surname>Shoemaker</surname><given-names>D</given-names></name><name><surname>Soojin</surname><given-names>VY</given-names></name><name><surname>Keller</surname><given-names>L</given-names></name><name><surname>Goodisman</surname><given-names>MA</given-names></name></person-group>
+<year>2011</year>
+<article-title>Relaxed selection
+is a precursor to the evolution of phenotypic plasticity</article-title>.
+<source>Proc Natl Acad Sci.</source>
+<volume>108</volume>:<fpage>15936</fpage>&#x02013;<lpage>15941</lpage>.<pub-id pub-id-type="pmid">21911372</pub-id></mixed-citation></ref><ref id="msv165-B36"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jasper</surname><given-names>WC</given-names></name><name><surname>Linksvayer</surname><given-names>TA</given-names></name><name><surname>Atallah</surname><given-names>J</given-names></name><name><surname>Friedman</surname><given-names>D</given-names></name><name><surname>Chiu</surname><given-names>JC</given-names></name><name><surname>Johnson</surname><given-names>BR</given-names></name></person-group>
+<year>2015</year>
+<article-title>Large scale coding
+sequence change underlies the evolution of post-developmental novelty in
+honey bees</article-title>. <source>Mol Biol Evol.</source>
+<volume>32</volume>:<fpage>334</fpage>&#x02013;<lpage>346</lpage>.<pub-id pub-id-type="pmid">25351750</pub-id></mixed-citation></ref><ref id="msv165-B37"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Johnson</surname><given-names>BR</given-names></name><name><surname>Tsutsui</surname><given-names>ND</given-names></name></person-group>
+<year>2011</year>
+<article-title>Taxonomically
+restricted genes are associated with the evolution of sociality in the honey
+bee</article-title>. <source>BMC Genomics</source>
+<volume>12</volume>:<fpage>164</fpage>.<pub-id pub-id-type="pmid">21447185</pub-id></mixed-citation></ref><ref id="msv165-B38"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Johnson</surname><given-names>RA</given-names></name><name><surname>Parker</surname><given-names>JD</given-names></name><name><surname>Rissing</surname><given-names>SW</given-names></name></person-group>
+<year>1996</year>
+<article-title>Rediscovery of the
+workerless inquiline ant <italic>Pogonomyrmex colei</italic> and additional
+notes on natural history (Hymenoptera: Formicidae)</article-title>.
+<source>Insectes Sociaux</source>
+<volume>43</volume>:<fpage>69</fpage>&#x02013;<lpage>76</lpage>.</mixed-citation></ref><ref id="msv165-B39"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Jones</surname><given-names>FC</given-names></name><name><surname>Grabherr</surname><given-names>MG</given-names></name><name><surname>Chan</surname><given-names>YF</given-names></name><name><surname>Russell</surname><given-names>P</given-names></name><name><surname>Mauceli</surname><given-names>E</given-names></name><name><surname>Johnson</surname><given-names>J</given-names></name><name><surname>Swofford</surname><given-names>R</given-names></name><name><surname>Pirun</surname><given-names>M</given-names></name><name><surname>Zody</surname><given-names>MC</given-names></name><name><surname>White</surname><given-names>S</given-names></name></person-group>
+<year>2012</year>
+<article-title>The genomic basis
+of adaptive evolution in threespine sticklebacks</article-title>.
+<source>Nature</source>
+<volume>484</volume>:<fpage>55</fpage>&#x02013;<lpage>61</lpage>.<pub-id pub-id-type="pmid">22481358</pub-id></mixed-citation></ref><ref id="msv165-B40"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Kinomura</surname><given-names>K</given-names></name><name><surname>Yamauchi</surname><given-names>K</given-names></name></person-group>
+<year>1992</year>
+<article-title>A new workerless
+socially parasitic species of the genus <italic>Vollenhovia</italic>
+(Hymenoptera: Formicidae) from Japan</article-title>. <source>Jpn J
+Entomol.</source>
+<volume>60</volume>:<fpage>203</fpage>&#x02013;<lpage>206</lpage>.</mixed-citation></ref><ref id="msv165-B41"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lahti</surname><given-names>DC</given-names></name><name><surname>Johnson</surname><given-names>NA</given-names></name><name><surname>Ajie</surname><given-names>BC</given-names></name><name><surname>Otto</surname><given-names>SP</given-names></name><name><surname>Hendry</surname><given-names>AP</given-names></name><name><surname>Blumstein</surname><given-names>DT</given-names></name><name><surname>Coss</surname><given-names>RG</given-names></name><name><surname>Donohue</surname><given-names>K</given-names></name><name><surname>Foster</surname><given-names>SA</given-names></name></person-group>
+<year>2009</year>
+<article-title>Relaxed selection
+in the wild</article-title>. <source>Trends Ecol Evol.</source>
+<volume>24</volume>:<fpage>487</fpage>&#x02013;<lpage>496</lpage>.<pub-id pub-id-type="pmid">19500875</pub-id></mixed-citation></ref><ref id="msv165-B42"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lanfear</surname><given-names>R</given-names></name><name><surname>Calcott</surname><given-names>B</given-names></name><name><surname>Ho</surname><given-names>SY</given-names></name><name><surname>Guindon</surname><given-names>S</given-names></name></person-group>
+<year>2012</year>
+<article-title>PartitionFinder:
+combined selection of partitioning schemes and substitution models for
+phylogenetic analyses</article-title>. <source>Mol Biol Evol.</source>
+<volume>29</volume>:<fpage>1695</fpage>&#x02013;<lpage>1701</lpage>.<pub-id pub-id-type="pmid">22319168</pub-id></mixed-citation></ref><ref id="msv165-B43"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Langmead</surname><given-names>B</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group>
+<year>2012</year>
+<article-title>Fast gapped-read
+alignment with Bowtie 2</article-title>. <source>Nat Methods</source>
+<volume>9</volume>:<fpage>357</fpage>&#x02013;<lpage>359</lpage>.<pub-id pub-id-type="pmid">22388286</pub-id></mixed-citation></ref><ref id="msv165-B44"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Leek</surname><given-names>JT</given-names></name></person-group>
+<year>2014</year>
+<article-title>svaseq: removing
+batch effects and other unwanted noise from sequencing data</article-title>.
+<source>Nucleic Acids Res.</source>
+<volume>42</volume>:<fpage>e161</fpage>.</mixed-citation></ref><ref id="msv165-B45"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Leek</surname><given-names>JT</given-names></name><name><surname>Johnson</surname><given-names>WE</given-names></name><name><surname>Parker</surname><given-names>HS</given-names></name><name><surname>Fertig</surname><given-names>EJ</given-names></name><name><surname>Jaffe</surname><given-names>AE</given-names></name><name><surname>Storey</surname><given-names>JD</given-names></name></person-group>
+<year>2015</year>
+<comment>sva: Surrogate Variable
+Analysis. R package version 3.14.0. Available from: <ext-link ext-link-type="uri" xlink:href="http://www.bioconductor.org/packages/release/bioc/html/sva.htm.l">http://www.bioconductor.org/packages/release/
+bioc/html/sva.htm.l</ext-link></comment>.</mixed-citation></ref><ref id="msv165-B46"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Leichty</surname><given-names>AR</given-names></name><name><surname>Pfennig</surname><given-names>DW</given-names></name><name><surname>Jones</surname><given-names>CD</given-names></name><name><surname>Pfennig</surname><given-names>KS</given-names></name></person-group>
+<year>2012</year>
+<article-title>Relaxed genetic
+constraint is ancestral to the evolution of phenotypic
+plasticity</article-title>. <source>Int Comp Biol.</source>
+<volume>52</volume>:<fpage>16</fpage>&#x02013;<lpage>30</lpage>.</mixed-citation></ref><ref id="msv165-B47"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Li</surname><given-names>B</given-names></name><name><surname>Dewey</surname><given-names>CN</given-names></name></person-group>
+<year>2011</year>
+<article-title>RSEM: accurate
+transcript quantification from RNA-Seq data with or without a reference
+genome</article-title>. <source>BMC Bioinformatics</source>
+<volume>12</volume>:<fpage>323</fpage>.<pub-id pub-id-type="pmid">21816040</pub-id></mixed-citation></ref><ref id="msv165-B48"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Libbrecht</surname><given-names>R</given-names></name><name><surname>Schwander</surname><given-names>T</given-names></name><name><surname>Keller</surname><given-names>L</given-names></name></person-group>
+<year>2011</year>
+<article-title>Genetic components
+to caste allocation in a multiple-queen ant species</article-title>.
+<source>Evolution</source>
+<volume>65</volume>:<fpage>2907</fpage>&#x02013;<lpage>2915</lpage>.<pub-id pub-id-type="pmid">21967431</pub-id></mixed-citation></ref><ref id="msv165-B49"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Linksvayer</surname><given-names>TA</given-names></name><name><surname>Busch</surname><given-names>JW</given-names></name><name><surname>Smith</surname><given-names>CR</given-names></name></person-group>
+<year>2013</year>
+<article-title>Social supergenes
+of superorganisms: do supergenes play important roles in social
+evolution?</article-title>
+<source>BioEssays News Rev Mol Cell Dev Biol.</source>
+<volume>35</volume>:<fpage>683</fpage>&#x02013;<lpage>689</lpage>.</mixed-citation></ref><ref id="msv165-B50"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Linksvayer</surname><given-names>TA</given-names></name><name><surname>Wade</surname><given-names>MJ</given-names></name></person-group>
+<year>2009</year>
+<article-title>Genes with social
+effects are expected to harbor more sequence variation within and between
+species</article-title>. <source>Evolution</source>
+<volume>63</volume>:<fpage>1685</fpage>&#x02013;<lpage>1696</lpage>.<pub-id pub-id-type="pmid">19245396</pub-id></mixed-citation></ref><ref id="msv165-B51"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Maynard Smith</surname><given-names>J</given-names></name><name><surname>Szathm&#x000e1;ry</surname><given-names>E</given-names></name></person-group>
+<year>1995</year>
+<article-title>The major
+transitions in evolution</article-title>. <source>Nature</source>
+<volume>374</volume>:<fpage>227</fpage>&#x02013;<lpage>232</lpage>.<pub-id pub-id-type="pmid">7885442</pub-id></mixed-citation></ref><ref id="msv165-B52"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>McKenna</surname><given-names>A</given-names></name><name><surname>Hanna</surname><given-names>M</given-names></name><name><surname>Banks</surname><given-names>E</given-names></name><name><surname>Sivachenko</surname><given-names>A</given-names></name><name><surname>Cibulskis</surname><given-names>K</given-names></name><name><surname>Kernytsky</surname><given-names>A</given-names></name><name><surname>Garimella</surname><given-names>K</given-names></name><name><surname>Altshuler</surname><given-names>D</given-names></name><name><surname>Gabriel</surname><given-names>S</given-names></name><name><surname>Daly</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>The Genome
+Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA
+sequencing data</article-title>. <source>Genome Res.</source>
+<volume>20</volume>:<fpage>1297</fpage>&#x02013;<lpage>1303</lpage>.<pub-id pub-id-type="pmid">20644199</pub-id></mixed-citation></ref><ref id="msv165-B53"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Mikheyev</surname><given-names>AS</given-names></name><name><surname>Linksvayer</surname><given-names>TA</given-names></name></person-group>
+<year>2015</year>
+<article-title>Genes associated
+with ant social behavior show distinct transcriptional and evolutionary
+patterns</article-title>. <source>eLife</source>
+<volume>4</volume>:<fpage>e04775</fpage>.<pub-id pub-id-type="pmid">25621766</pub-id></mixed-citation></ref><ref id="msv165-B54"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Monteiro</surname><given-names>A</given-names></name></person-group>
+<year>2012</year>
+<article-title>Gene regulatory
+networks reused to build novel traits</article-title>.
+<source>BioEssays</source>
+<volume>34</volume>:<fpage>181</fpage>&#x02013;<lpage>186</lpage>.<pub-id pub-id-type="pmid">22223407</pub-id></mixed-citation></ref><ref id="msv165-B55"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ohkawara</surname><given-names>K</given-names></name><name><surname>Nakayama</surname><given-names>M</given-names></name><name><surname>Satoh</surname><given-names>A</given-names></name><name><surname>Trindl</surname><given-names>A</given-names></name><name><surname>Heinze</surname><given-names>J</given-names></name></person-group>
+<year>2006</year>
+<article-title>Clonal
+reproduction and genetic caste differences in a queen-polymorphic ant,
+<italic>Vollenhovia emeryi</italic></article-title>. <source>Biol
+Lett.</source>
+<volume>2</volume>:<fpage>359</fpage>&#x02013;<lpage>363</lpage>.<pub-id pub-id-type="pmid">17148403</pub-id></mixed-citation></ref><ref id="msv165-B56"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Ohno</surname><given-names>S</given-names></name></person-group>
+<year>1970</year>
+<source>Evolution by gene
+duplication</source>. <publisher-loc>New York</publisher-loc>
+<publisher-name>Springer Science and Business
+Media</publisher-name>.</mixed-citation></ref><ref id="msv165-B57"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Okamoto</surname><given-names>M</given-names></name><name><surname>Kobayashi</surname><given-names>K</given-names></name><name><surname>Hasegawa</surname><given-names>E</given-names></name><name><surname>Ohkawara</surname><given-names>K</given-names></name></person-group>
+<year>2015</year>
+<article-title>Sexual and asexual
+reproduction of queens in a myrmicine ant, <italic>Vollenhovia
+emeryi</italic> (Hymenoptera: Formicidae)</article-title>.
+<source>Myrmecol News</source>
+<volume>21</volume>:<fpage>13</fpage>&#x02013;<lpage>17</lpage>.</mixed-citation></ref><ref id="msv165-B59"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Page</surname><given-names>RE</given-names></name><name><surname>Amdam</surname><given-names>GV</given-names></name></person-group>
+<year>2007</year>
+<article-title>The making of a
+social insect: developmental architectures of social design</article-title>.
+<source>Bioessays</source>
+<volume>29</volume>:<fpage>334</fpage>&#x02013;<lpage>343</lpage>.<pub-id pub-id-type="pmid">17373656</pub-id></mixed-citation></ref><ref id="msv165-B60"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Parker</surname><given-names>JD</given-names></name><name><surname>Rissing</surname><given-names>SW</given-names></name></person-group>
+<year>2002</year>
+<article-title>Molecular evidence
+for the origin of workerless social parasites in the ant genus
+<italic>Pogonomyrmex</italic></article-title>.
+<source>Evolution</source>
+<volume>56</volume>:<fpage>2017</fpage>&#x02013;<lpage>2028</lpage>.<pub-id pub-id-type="pmid">12449489</pub-id></mixed-citation></ref><ref id="msv165-B61"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Purandare</surname><given-names>SR</given-names></name><name><surname>Bickel</surname><given-names>RD</given-names></name><name><surname>Jaquiery</surname><given-names>J</given-names></name><name><surname>Rispe</surname><given-names>C</given-names></name><name><surname>Brisson</surname><given-names>JA</given-names></name></person-group>
+<year>2014</year>
+<article-title>Accelerated
+evolution of morph-biased genes in pea aphids</article-title>. <source>Mol
+Biol Evol.</source>
+<volume>31</volume>:<fpage>2073</fpage>&#x02013;<lpage>2083</lpage>.<pub-id pub-id-type="pmid">24770714</pub-id></mixed-citation></ref><ref id="msv165-B62"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rajakumar</surname><given-names>R</given-names></name><name><surname>San Mauro</surname><given-names>D</given-names></name><name><surname>Dijkstra</surname><given-names>MB</given-names></name><name><surname>Huang</surname><given-names>MH</given-names></name><name><surname>Wheeler</surname><given-names>DE</given-names></name><name><surname>Hiou-Tim</surname><given-names>F</given-names></name><name><surname>Khila</surname><given-names>A</given-names></name><name><surname>Cournoyea</surname><given-names>M</given-names></name><name><surname>Abouheif</surname><given-names>E</given-names></name></person-group>
+<year>2012</year>
+<article-title>Ancestral
+developmental potential facilitates parallel evolution in
+ants</article-title>. <source>Science</source>
+<volume>335</volume>:<fpage>79</fpage>&#x02013;<lpage>82</lpage>.<pub-id pub-id-type="pmid">22223805</pub-id></mixed-citation></ref><ref id="msv165-B63"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Rambaut</surname><given-names>A</given-names></name><name><surname>Grassly</surname><given-names>NC</given-names></name></person-group>
+<year>1997</year>
+<article-title>Seq-Gen: an
+application for the Monte Carlo simulation of DNA sequence evolution along
+phylogenetic trees</article-title>. <source>Comput Appl Biosci.</source>
+<volume>13</volume>:<fpage>235</fpage>&#x02013;<lpage>238</lpage>.<pub-id pub-id-type="pmid">9183526</pub-id></mixed-citation></ref><ref id="msv165-B64"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robinson</surname><given-names>GE</given-names></name><name><surname>Grozinger</surname><given-names>CM</given-names></name><name><surname>Whitfield</surname><given-names>CW</given-names></name></person-group>
+<year>2005</year>
+<article-title>Sociogenomics:
+social life in molecular terms</article-title>. <source>Nat Rev
+Genet.</source>
+<volume>6</volume>:<fpage>257</fpage>&#x02013;<lpage>270</lpage>.<pub-id pub-id-type="pmid">15761469</pub-id></mixed-citation></ref><ref id="msv165-B65"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robinson</surname><given-names>MD</given-names></name><name><surname>McCarthy</surname><given-names>DJ</given-names></name><name><surname>Smyth</surname><given-names>GK</given-names></name></person-group>
+<year>2010</year>
+<article-title>edgeR: a
+Bioconductor package for differential expression analysis of digital gene
+expression data</article-title>. <source>Bioinformatics</source>
+<volume>26</volume>:<fpage>139</fpage>&#x02013;<lpage>140</lpage>.<pub-id pub-id-type="pmid">19910308</pub-id></mixed-citation></ref><ref id="msv165-B66"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Robinson</surname><given-names>MD</given-names></name><name><surname>Oshlack</surname><given-names>A</given-names></name></person-group>
+<year>2010</year>
+<article-title>A scaling
+normalization method for differential expression analysis of RNA-seq
+data</article-title>. <source>Genome Biol.</source>
+<volume>11</volume>:<fpage>R25</fpage>.<pub-id pub-id-type="pmid">20196867</pub-id></mixed-citation></ref><ref id="msv165-B67"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schrader</surname><given-names>L</given-names></name><name><surname>Simola</surname><given-names>DF</given-names></name><name><surname>Heinze</surname><given-names>J</given-names></name><name><surname>Oettler</surname><given-names>J</given-names></name></person-group>
+<year>2015</year>
+<article-title>Sphingolipids,
+transcription factors, and conserved toolkit genes: developmental plasticity
+in the ant Cardiocondyla obscurior</article-title>. <source>Mol Biol
+Evol.</source>
+<volume>32</volume>:<fpage>1474</fpage>&#x02013;<lpage>1486</lpage>.<pub-id pub-id-type="pmid">25725431</pub-id></mixed-citation></ref><ref id="msv165-B68"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schwander</surname><given-names>T</given-names></name><name><surname>Helms Cahan</surname><given-names>S</given-names></name><name><surname>Keller</surname><given-names>L</given-names></name></person-group>
+<year>2007a</year>
+<article-title>Characterization
+and distribution of <italic>Pogonomyrmex</italic> harvester ant lineages
+with genetic caste determination</article-title>. <source>Mol Ecol.</source>
+<volume>16</volume>:<fpage>367</fpage>&#x02013;<lpage>387</lpage>.<pub-id pub-id-type="pmid">17217351</pub-id></mixed-citation></ref><ref id="msv165-B69"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schwander</surname><given-names>T</given-names></name><name><surname>Keller</surname><given-names>L</given-names></name><name><surname>Helms Cahan</surname><given-names>S</given-names></name></person-group>
+<year>2007b</year>
+<article-title>Two alternate
+mechanisms contribute to the persistence of interdependent lineages in
+<italic>Pogonomyrmex</italic> harvester ants</article-title>.
+<source>Mol Ecol.</source>
+<volume>16</volume>:<fpage>3533</fpage>&#x02013;<lpage>3543</lpage>.<pub-id pub-id-type="pmid">17845428</pub-id></mixed-citation></ref><ref id="msv165-B70"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Schwander</surname><given-names>T</given-names></name><name><surname>Lo</surname><given-names>N</given-names></name><name><surname>Beekman</surname><given-names>M</given-names></name><name><surname>Oldroyd</surname><given-names>BP</given-names></name><name><surname>Keller</surname><given-names>L</given-names></name></person-group>
+<year>2010</year>
+<article-title>Nature versus
+nurture in social insect caste differentiation</article-title>.
+<source>Trends Ecol Evol.</source>
+<volume>25</volume>:<fpage>275</fpage>&#x02013;<lpage>282</lpage>.<pub-id pub-id-type="pmid">20106547</pub-id></mixed-citation></ref><ref id="msv165-B71"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Simola</surname><given-names>DF</given-names></name><name><surname>Wissler</surname><given-names>L</given-names></name><name><surname>Donahue</surname><given-names>G</given-names></name><name><surname>Waterhouse</surname><given-names>RM</given-names></name><name><surname>Helmkampf</surname><given-names>M</given-names></name><name><surname>Roux</surname><given-names>J</given-names></name><name><surname>Nygaard</surname><given-names>S</given-names></name><name><surname>Glastad</surname><given-names>KM</given-names></name><name><surname>Hagen</surname><given-names>DE</given-names></name><name><surname>Viljakainen</surname><given-names>L</given-names></name></person-group>
+<year>2013</year>
+<article-title>Social insect
+genomes exhibit dramatic evolution in gene composition and regulation while
+preserving regulatory features linked to sociality</article-title>.
+<source>Genome Res.</source>
+<volume>23</volume>:<fpage>1235</fpage>&#x02013;<lpage>1247</lpage>.<pub-id pub-id-type="pmid">23636946</pub-id></mixed-citation></ref><ref id="msv165-B72"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname><given-names>CR</given-names></name><name><surname>Mutti</surname><given-names>NS</given-names></name><name><surname>Jasper</surname><given-names>WC</given-names></name><name><surname>Naidu</surname><given-names>A</given-names></name><name><surname>Smith</surname><given-names>CD</given-names></name><name><surname>Gadau</surname><given-names>J</given-names></name></person-group>
+<year>2012</year>
+<article-title>Patterns of DNA
+methylation in development, division of labor and hybridization in an ant
+with genetic caste determination</article-title>. <source>PloS One</source>
+<volume>7</volume>:<fpage>e42433</fpage>.<pub-id pub-id-type="pmid">22879983</pub-id></mixed-citation></ref><ref id="msv165-B73"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname><given-names>CR</given-names></name><name><surname>Smith</surname><given-names>CD</given-names></name><name><surname>Robertson</surname><given-names>HM</given-names></name><name><surname>Helmkampf</surname><given-names>M</given-names></name><name><surname>Zimin</surname><given-names>A</given-names></name><name><surname>Yandell</surname><given-names>M</given-names></name><name><surname>Holt</surname><given-names>C</given-names></name><name><surname>Hu</surname><given-names>H</given-names></name><name><surname>Abouheif</surname><given-names>E</given-names></name><name><surname>Benton</surname><given-names>R</given-names></name></person-group>
+<year>2011</year>
+<article-title>Draft genome of
+the red harvester ant <italic>Pogonomyrmex
+barbatus</italic></article-title>. <source>Proc Natl Acad Sci.</source>
+<volume>108</volume>:<fpage>5667</fpage>&#x02013;<lpage>5672</lpage>.<pub-id pub-id-type="pmid">21282651</pub-id></mixed-citation></ref><ref id="msv165-B74"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Smith</surname><given-names>CR</given-names></name><name><surname>Toth</surname><given-names>AL</given-names></name><name><surname>Suarez</surname><given-names>AV</given-names></name><name><surname>Robinson</surname><given-names>GE</given-names></name></person-group>
+<year>2008</year>
+<article-title>Genetic and
+genomic analyses of the division of labour in insect
+societies</article-title>. <source>Nat Rev Genet.</source>
+<volume>9</volume>:<fpage>735</fpage>&#x02013;<lpage>748</lpage>.<pub-id pub-id-type="pmid">18802413</pub-id></mixed-citation></ref><ref id="msv165-B75"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Strope</surname><given-names>CL</given-names></name><name><surname>Scott</surname><given-names>SD</given-names></name><name><surname>Moriyama</surname><given-names>EN</given-names></name></person-group>
+<year>2007</year>
+<article-title>indel-Seq-Gen: a
+new protein family simulator incorporating domains, motifs, and
+indels</article-title>. <source>Mol Biol Evol.</source>
+<volume>24</volume>:<fpage>640</fpage>&#x02013;<lpage>649</lpage>.<pub-id pub-id-type="pmid">17158778</pub-id></mixed-citation></ref><ref id="msv165-B76"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sumner</surname><given-names>S</given-names></name></person-group>
+<year>2014</year>
+<article-title>The importance of
+genomic novelty in social evolution</article-title>. <source>Mol
+Ecol.</source>
+<volume>23</volume>:<fpage>26</fpage>&#x02013;<lpage>28</lpage>.<pub-id pub-id-type="pmid">24372753</pub-id></mixed-citation></ref><ref id="msv165-B77"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Toth</surname><given-names>AL</given-names></name><name><surname>Varala</surname><given-names>K</given-names></name><name><surname>Newman</surname><given-names>TC</given-names></name><name><surname>Miguez</surname><given-names>FE</given-names></name><name><surname>Hutchison</surname><given-names>SK</given-names></name><name><surname>Willoughby</surname><given-names>DA</given-names></name><name><surname>Simons</surname><given-names>JF</given-names></name><name><surname>Egholm</surname><given-names>M</given-names></name><name><surname>Hunt</surname><given-names>JH</given-names></name><name><surname>Hudson</surname><given-names>ME</given-names></name></person-group>
+<year>2007</year>
+<article-title>Wasp gene
+expression supports an evolutionary link between maternal behavior and
+eusociality</article-title>. <source>Science</source>
+<volume>318</volume>:<fpage>441</fpage>&#x02013;<lpage>444</lpage>.<pub-id pub-id-type="pmid">17901299</pub-id></mixed-citation></ref><ref id="msv165-B78"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Pachter</surname><given-names>L</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name></person-group>
+<year>2009</year>
+<article-title>TopHat:
+discovering splice junctions with RNA-Seq</article-title>.
+<source>Bioinformatics</source>
+<volume>25</volume>:<fpage>1105</fpage>&#x02013;<lpage>1111</lpage>.<pub-id pub-id-type="pmid">19289445</pub-id></mixed-citation></ref><ref id="msv165-B79"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Trapnell</surname><given-names>C</given-names></name><name><surname>Roberts</surname><given-names>A</given-names></name><name><surname>Goff</surname><given-names>L</given-names></name><name><surname>Pertea</surname><given-names>G</given-names></name><name><surname>Kim</surname><given-names>D</given-names></name><name><surname>Kelley</surname><given-names>DR</given-names></name><name><surname>Pimentel</surname><given-names>H</given-names></name><name><surname>Salzberg</surname><given-names>SL</given-names></name><name><surname>Rinn</surname><given-names>JL</given-names></name><name><surname>Pachter</surname><given-names>L</given-names></name></person-group>
+<year>2012</year>
+<article-title>Differential gene
+and transcript expression analysis of RNA-seq experiments with TopHat and
+Cufflinks</article-title>. <source>Nat Protoc.</source>
+<volume>7</volume>:<fpage>562</fpage>&#x02013;<lpage>578</lpage>.<pub-id pub-id-type="pmid">22383036</pub-id></mixed-citation></ref><ref id="msv165-B80"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>True</surname><given-names>JR</given-names></name><name><surname>Carroll</surname><given-names>SB</given-names></name></person-group>
+<year>2002</year>
+<article-title>Gene co-option in
+physiological and morphological evolution</article-title>. <source>Annu Rev
+Cell Dev Biol.</source>
+<volume>18</volume>:<fpage>53</fpage>&#x02013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">12142278</pub-id></mixed-citation></ref><ref id="msv165-B81"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Tsai</surname><given-names>IJ</given-names></name><name><surname>Zarowiecki</surname><given-names>M</given-names></name><name><surname>Holroyd</surname><given-names>N</given-names></name><name><surname>Garciarrubio</surname><given-names>A</given-names></name><name><surname>Sanchez-Flores</surname><given-names>A</given-names></name><name><surname>Brooks</surname><given-names>KL</given-names></name><name><surname>Tracey</surname><given-names>A</given-names></name><name><surname>Bobes</surname><given-names>RJ</given-names></name><name><surname>Fragoso</surname><given-names>G</given-names></name><name><surname>Sciutto</surname><given-names>E</given-names></name></person-group>
+<year>2013</year>
+<article-title>The genomes of
+four tapeworm species reveal adaptations to parasitism</article-title>.
+<source>Nature</source>
+<volume>496</volume>:<fpage>57</fpage>&#x02013;<lpage>63</lpage>.<pub-id pub-id-type="pmid">23485966</pub-id></mixed-citation></ref><ref id="msv165-B82"><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Van der Auwera</surname><given-names>GA</given-names></name><name><surname>Carneiro</surname><given-names>MO</given-names></name><name><surname>Hartl</surname><given-names>C</given-names></name><name><surname>Poplin</surname><given-names>R</given-names></name><name><surname>del Angel</surname><given-names>G</given-names></name><name><surname>Levy-Moonshine</surname><given-names>A</given-names></name><name><surname>Jordan</surname><given-names>T</given-names></name><name><surname>Shakir</surname><given-names>K</given-names></name><name><surname>Roazen</surname><given-names>D</given-names></name><name><surname>Thibault</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>From FastQ
+data to high-confidence variant calls: the genome analysis toolkit best
+practices pipeline</article-title>.
+<comment>Current Protocols in
+Bioinformatics. 11:11.10:11.10.1&#x02013;11.10.33</comment>.</mixed-citation></ref><ref id="msv165-B83"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Volny</surname><given-names>VP</given-names></name><name><surname>Gordon</surname><given-names>DM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Characterization
+of polymorphic microsatellite loci in the red harvester ant,
+<italic>Pogonomyrmex barbatus</italic></article-title>. <source>Mol Ecol
+Notes</source>
+<volume>2</volume>:<fpage>302</fpage>&#x02013;<lpage>303</lpage>.</mixed-citation></ref><ref id="msv165-B84"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ward</surname><given-names>PS</given-names></name><name><surname>Brady</surname><given-names>SG</given-names></name><name><surname>Fisher</surname><given-names>BL</given-names></name><name><surname>Schultz</surname><given-names>TR</given-names></name></person-group>
+<year>2015</year>
+<article-title>The evolution of
+myrmicine ants: phylogeny and biogeography of a hyperdiverse ant clade
+(Hymenoptera: Formicidae)</article-title>. <source>Syst Entomol.</source>
+<volume>40</volume>:<fpage>61</fpage>&#x02013;<lpage>81</lpage>.</mixed-citation></ref><ref id="msv165-B85"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>West-Eberhard</surname><given-names>MJ</given-names></name></person-group>
+<year>1987</year>
+<comment>Flexible strategy and
+social evolution. In: Ito Y, Brown JL, Kikkawa J, editors. Animal societies:
+theories and facts. Tokyo: Japan Scientific Societies Press. p.
+35&#x02013;51</comment>.</mixed-citation></ref><ref id="msv165-B86"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wissler</surname><given-names>L</given-names></name><name><surname>Gadau</surname><given-names>J</given-names></name><name><surname>Simola</surname><given-names>DF</given-names></name><name><surname>Helmkampf</surname><given-names>M</given-names></name><name><surname>Bornberg-Bauer</surname><given-names>E</given-names></name></person-group>
+<year>2013</year>
+<article-title>Mechanisms and
+dynamics of orphan gene emergence in insect genomes</article-title>.
+<source>Genome Biol Evol.</source>
+<volume>5</volume>:<fpage>439</fpage>&#x02013;<lpage>455</lpage>.<pub-id pub-id-type="pmid">23348040</pub-id></mixed-citation></ref><ref id="msv165-B87"><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wurm</surname><given-names>Y</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Riba-Grognuz</surname><given-names>O</given-names></name><name><surname>Corona</surname><given-names>M</given-names></name><name><surname>Nygaard</surname><given-names>S</given-names></name><name><surname>Hunt</surname><given-names>BG</given-names></name><name><surname>Ingram</surname><given-names>KK</given-names></name><name><surname>Falquet</surname><given-names>L</given-names></name><name><surname>Nipitwattanaphon</surname><given-names>M</given-names></name><name><surname>Gotzek</surname><given-names>D</given-names></name></person-group>
+<year>2011</year>
+<article-title>The genome of the
+fire ant <italic>Solenopsis invicta</italic></article-title>. <source>Proc
+Natl Acad Sci.</source>
+<volume>108</volume>:<fpage>5679</fpage>&#x02013;<lpage>5684</lpage><pub-id pub-id-type="pmid">21282665</pub-id></mixed-citation></ref></ref-list></back></article>

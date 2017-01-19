@@ -1,0 +1,463 @@
+{
+  "id": [
+    "21668997"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "21668997"
+  ],
+  "pmcid": [
+    "PMC3224099"
+  ],
+  "doi": [
+    "10.1186/1471-2105-12-233"
+  ],
+  "title": [
+    "Reconstructing genome-wide regulatory network of E. coli using transcriptome data and predicted transcription factor activities."
+  ],
+  "authorString": [
+    "Fu Y, Jarboe LR, Dickerson JA."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Fu Y"
+          ],
+          "firstName": [
+            "Yao"
+          ],
+          "lastName": [
+            "Fu"
+          ],
+          "initials": [
+            "Y"
+          ]
+        },
+        {
+          "fullName": [
+            "Jarboe LR"
+          ],
+          "firstName": [
+            "Laura R"
+          ],
+          "lastName": [
+            "Jarboe"
+          ],
+          "initials": [
+            "LR"
+          ]
+        },
+        {
+          "fullName": [
+            "Dickerson JA"
+          ],
+          "firstName": [
+            "Julie A"
+          ],
+          "lastName": [
+            "Dickerson"
+          ],
+          "initials": [
+            "JA"
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "12"
+      ],
+      "journalIssueId": [
+        "1800923"
+      ],
+      "dateOfPublication": [
+        "2011 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2011"
+      ],
+      "printPublicationDate": [
+        "2011-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2011"
+  ],
+  "pageInfo": [
+    "233"
+  ],
+  "abstractText": [
+    " BACKGROUND: Gene regulatory networks play essential roles in living organisms to control growth, keep internal metabolism running and respond to external environmental changes. Understanding the connections and the activity levels of regulators is important for the research of gene regulatory networks. While relevance score based algorithms that reconstruct gene regulatory networks from transcriptome data can infer genome-wide gene regulatory networks, they are unfortunately prone to false positive results. Transcription factor activities (TFAs) quantitatively reflect the ability of the transcription factor to regulate target genes. However, classic relevance score based gene regulatory network reconstruction algorithms use models do not include the TFA layer, thus missing a key regulatory element. RESULTS: This work integrates TFA prediction algorithms with relevance score based network reconstruction algorithms to reconstruct gene regulatory networks with improved accuracy over classic relevance score based algorithms. This method is called Gene expression and Transcription factor activity based Relevance Network (GTRNetwork). Different combinations of TFA prediction algorithms and relevance score functions have been applied to find the most efficient combination. When the integrated GTRNetwork method was applied to E. coli data, the reconstructed genome-wide gene regulatory network predicted 381 new regulatory links. This reconstructed gene regulatory network including the predicted new regulatory links show promising biological significances. Many of the new links are verified by known TF binding site information, and many other links can be verified from the literature and databases such as EcoCyc. The reconstructed gene regulatory network is applied to a recent transcriptome analysis of E. coli during isobutanol stress. In addition to the 16 significantly changed TFAs detected in the original paper, another 7 significantly changed TFAs have been detected by using our reconstructed network. CONCLUSIONS: The GTRNetwork algorithm introduces the hidden layer TFA into classic relevance score-based gene regulatory network reconstruction processes. Integrating the TFA biological information with regulatory network reconstruction algorithms significantly improves both detection of new links and reduces that rate of false positives. The application of GTRNetwork on E. coli gene transcriptome data gives a set of potential regulatory links with promising biological significance for isobutanol stress and other conditions."
+  ],
+  "affiliation": [
+    "Bioinformatics and Computational Biology Program, Iowa State University, Ames, USA."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Escherichia coli"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "GE"
+                  ],
+                  "qualifierName": [
+                    "genetics"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                },
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Escherichia coli Proteins"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Transcription Factors"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome, Bacterial"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Regulatory Networks"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Escherichia coli Proteins"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "Transcription Factors"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3224099?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3224099"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=21668997"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=21668997&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/1471-2105-12-233"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "13"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2011-10-24"
+  ],
+  "dateOfCreation": [
+    "2011-07-20"
+  ],
+  "dateOfRevision": [
+    "2013-06-28"
+  ],
+  "electronicPublicationDate": [
+    "2011-06-13"
+  ],
+  "firstPublicationDate": [
+    "2011-06-13"
+  ]
+}

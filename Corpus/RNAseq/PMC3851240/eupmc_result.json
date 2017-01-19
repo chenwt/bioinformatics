@@ -1,0 +1,1724 @@
+{
+  "id": [
+    "24185837"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "24185837"
+  ],
+  "pmcid": [
+    "PMC3851240"
+  ],
+  "doi": [
+    "10.1038/nmeth.2714"
+  ],
+  "title": [
+    "Assessment of transcript reconstruction methods for RNA-seq."
+  ],
+  "authorString": [
+    "Steijger T, Abril JF, Engström PG, Kokocinski F, Hubbard TJ, Guigó R, Harrow J, Bertone P, RGASP Consortium."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Steijger T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Steijger"
+          ],
+          "initials": [
+            "T"
+          ],
+          "affiliation": [
+            "European Molecular Biology Laboratory, European Bioinformatics Institute, Cambridge, UK."
+          ]
+        },
+        {
+          "fullName": [
+            "Abril JF"
+          ],
+          "firstName": [
+            "Josep F"
+          ],
+          "lastName": [
+            "Abril"
+          ],
+          "initials": [
+            "JF"
+          ]
+        },
+        {
+          "fullName": [
+            "Engström PG"
+          ],
+          "firstName": [
+            "Pär G"
+          ],
+          "lastName": [
+            "Engström"
+          ],
+          "initials": [
+            "PG"
+          ]
+        },
+        {
+          "fullName": [
+            "Kokocinski F"
+          ],
+          "firstName": [
+            "Felix"
+          ],
+          "lastName": [
+            "Kokocinski"
+          ],
+          "initials": [
+            "F"
+          ]
+        },
+        {
+          "fullName": [
+            "Hubbard TJ"
+          ],
+          "firstName": [
+            "Tim J"
+          ],
+          "lastName": [
+            "Hubbard"
+          ],
+          "initials": [
+            "TJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Guigó R"
+          ],
+          "firstName": [
+            "Roderic"
+          ],
+          "lastName": [
+            "Guigó"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Harrow J"
+          ],
+          "firstName": [
+            "Jennifer"
+          ],
+          "lastName": [
+            "Harrow"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Bertone P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Bertone"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "collectiveName": [
+            "RGASP Consortium"
+          ]
+        }
+      ]
+    }
+  ],
+  "investigatorList": [
+    {
+      "investigator": [
+        {
+          "fullName": [
+            "Abril JF"
+          ],
+          "firstName": [
+            "Josep F"
+          ],
+          "lastName": [
+            "Abril"
+          ],
+          "initials": [
+            "JF"
+          ]
+        },
+        {
+          "fullName": [
+            "Akerman M"
+          ],
+          "firstName": [
+            "Martin"
+          ],
+          "lastName": [
+            "Akerman"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Alioto T"
+          ],
+          "firstName": [
+            "Tyler"
+          ],
+          "lastName": [
+            "Alioto"
+          ],
+          "initials": [
+            "T"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2960-5420",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Ambrosini G"
+          ],
+          "firstName": [
+            "Giovanna"
+          ],
+          "lastName": [
+            "Ambrosini"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Antonarakis SE"
+          ],
+          "firstName": [
+            "Stylianos E"
+          ],
+          "lastName": [
+            "Antonarakis"
+          ],
+          "initials": [
+            "SE"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-8907-5823",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Behr J"
+          ],
+          "firstName": [
+            "Jonas"
+          ],
+          "lastName": [
+            "Behr"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Bertone P"
+          ],
+          "firstName": [
+            "Paul"
+          ],
+          "lastName": [
+            "Bertone"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Bohnert R"
+          ],
+          "firstName": [
+            "Regina"
+          ],
+          "lastName": [
+            "Bohnert"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Bucher P"
+          ],
+          "firstName": [
+            "Philipp"
+          ],
+          "lastName": [
+            "Bucher"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Cloonan N"
+          ],
+          "firstName": [
+            "Nicole"
+          ],
+          "lastName": [
+            "Cloonan"
+          ],
+          "initials": [
+            "N"
+          ]
+        },
+        {
+          "fullName": [
+            "Derrien T"
+          ],
+          "firstName": [
+            "Thomas"
+          ],
+          "lastName": [
+            "Derrien"
+          ],
+          "initials": [
+            "T"
+          ]
+        },
+        {
+          "fullName": [
+            "Djebali S"
+          ],
+          "firstName": [
+            "Sarah"
+          ],
+          "lastName": [
+            "Djebali"
+          ],
+          "initials": [
+            "S"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-0599-1267",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Du J"
+          ],
+          "firstName": [
+            "Jiang"
+          ],
+          "lastName": [
+            "Du"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Dudoit S"
+          ],
+          "firstName": [
+            "Sandrine"
+          ],
+          "lastName": [
+            "Dudoit"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Engström P"
+          ],
+          "firstName": [
+            "Pär"
+          ],
+          "lastName": [
+            "Engström"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Gerstein M"
+          ],
+          "firstName": [
+            "Mark"
+          ],
+          "lastName": [
+            "Gerstein"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Gingeras TR"
+          ],
+          "firstName": [
+            "Thomas R"
+          ],
+          "lastName": [
+            "Gingeras"
+          ],
+          "initials": [
+            "TR"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-9106-3573",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Gonzalez D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Gonzalez"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Grimmond SM"
+          ],
+          "firstName": [
+            "Sean M"
+          ],
+          "lastName": [
+            "Grimmond"
+          ],
+          "initials": [
+            "SM"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-8102-7998",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Guigó R"
+          ],
+          "firstName": [
+            "Roderic"
+          ],
+          "lastName": [
+            "Guigó"
+          ],
+          "initials": [
+            "R"
+          ]
+        },
+        {
+          "fullName": [
+            "Habegger L"
+          ],
+          "firstName": [
+            "Lukas"
+          ],
+          "lastName": [
+            "Habegger"
+          ],
+          "initials": [
+            "L"
+          ]
+        },
+        {
+          "fullName": [
+            "Harrow J"
+          ],
+          "firstName": [
+            "Jennifer"
+          ],
+          "lastName": [
+            "Harrow"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Hubbard TJ"
+          ],
+          "firstName": [
+            "Tim J"
+          ],
+          "lastName": [
+            "Hubbard"
+          ],
+          "initials": [
+            "TJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Iseli C"
+          ],
+          "firstName": [
+            "Christian"
+          ],
+          "lastName": [
+            "Iseli"
+          ],
+          "initials": [
+            "C"
+          ]
+        },
+        {
+          "fullName": [
+            "Jean G"
+          ],
+          "firstName": [
+            "Géraldine"
+          ],
+          "lastName": [
+            "Jean"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Kahles A"
+          ],
+          "firstName": [
+            "André"
+          ],
+          "lastName": [
+            "Kahles"
+          ],
+          "initials": [
+            "A"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-1767-9318",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Kokocinski F"
+          ],
+          "firstName": [
+            "Felix"
+          ],
+          "lastName": [
+            "Kokocinski"
+          ],
+          "initials": [
+            "F"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-2296-2863",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Lagarde J"
+          ],
+          "firstName": [
+            "Julien"
+          ],
+          "lastName": [
+            "Lagarde"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Leng J"
+          ],
+          "firstName": [
+            "Jing"
+          ],
+          "lastName": [
+            "Leng"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Lefebvre G"
+          ],
+          "firstName": [
+            "Gregory"
+          ],
+          "lastName": [
+            "Lefebvre"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Lewis S"
+          ],
+          "firstName": [
+            "Suzanna"
+          ],
+          "lastName": [
+            "Lewis"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Mortazavi A"
+          ],
+          "firstName": [
+            "Ali"
+          ],
+          "lastName": [
+            "Mortazavi"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Niermann P"
+          ],
+          "firstName": [
+            "Peter"
+          ],
+          "lastName": [
+            "Niermann"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Rätsch G"
+          ],
+          "firstName": [
+            "Gunnar"
+          ],
+          "lastName": [
+            "Rätsch"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Reymond A"
+          ],
+          "firstName": [
+            "Alexandre"
+          ],
+          "lastName": [
+            "Reymond"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Ribeca P"
+          ],
+          "firstName": [
+            "Paolo"
+          ],
+          "lastName": [
+            "Ribeca"
+          ],
+          "initials": [
+            "P"
+          ]
+        },
+        {
+          "fullName": [
+            "Richard H"
+          ],
+          "firstName": [
+            "Hugues"
+          ],
+          "lastName": [
+            "Richard"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Rougemont J"
+          ],
+          "firstName": [
+            "Jacques"
+          ],
+          "lastName": [
+            "Rougemont"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Rozowsky J"
+          ],
+          "firstName": [
+            "Joel"
+          ],
+          "lastName": [
+            "Rozowsky"
+          ],
+          "initials": [
+            "J"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0002-3565-0762",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Sammeth M"
+          ],
+          "firstName": [
+            "Michael"
+          ],
+          "lastName": [
+            "Sammeth"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Sboner A"
+          ],
+          "firstName": [
+            "Andrea"
+          ],
+          "lastName": [
+            "Sboner"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Schulz MH"
+          ],
+          "firstName": [
+            "Marcel H"
+          ],
+          "lastName": [
+            "Schulz"
+          ],
+          "initials": [
+            "MH"
+          ]
+        },
+        {
+          "fullName": [
+            "Searle SM"
+          ],
+          "firstName": [
+            "Steven M J"
+          ],
+          "lastName": [
+            "Searle"
+          ],
+          "initials": [
+            "SM"
+          ]
+        },
+        {
+          "fullName": [
+            "Solorzano ND"
+          ],
+          "firstName": [
+            "Naryttza Diaz"
+          ],
+          "lastName": [
+            "Solorzano"
+          ],
+          "initials": [
+            "ND"
+          ]
+        },
+        {
+          "fullName": [
+            "Solovyev V"
+          ],
+          "firstName": [
+            "Victor"
+          ],
+          "lastName": [
+            "Solovyev"
+          ],
+          "initials": [
+            "V"
+          ]
+        },
+        {
+          "fullName": [
+            "Stanke M"
+          ],
+          "firstName": [
+            "Mario"
+          ],
+          "lastName": [
+            "Stanke"
+          ],
+          "initials": [
+            "M"
+          ]
+        },
+        {
+          "fullName": [
+            "Steijger T"
+          ],
+          "firstName": [
+            "Tamara"
+          ],
+          "lastName": [
+            "Steijger"
+          ],
+          "initials": [
+            "T"
+          ]
+        },
+        {
+          "fullName": [
+            "Stevenson BJ"
+          ],
+          "firstName": [
+            "Brian J"
+          ],
+          "lastName": [
+            "Stevenson"
+          ],
+          "initials": [
+            "BJ"
+          ]
+        },
+        {
+          "fullName": [
+            "Stockinger H"
+          ],
+          "firstName": [
+            "Heinz"
+          ],
+          "lastName": [
+            "Stockinger"
+          ],
+          "initials": [
+            "H"
+          ]
+        },
+        {
+          "fullName": [
+            "Valsesia A"
+          ],
+          "firstName": [
+            "Armand"
+          ],
+          "lastName": [
+            "Valsesia"
+          ],
+          "initials": [
+            "A"
+          ]
+        },
+        {
+          "fullName": [
+            "Weese D"
+          ],
+          "firstName": [
+            "David"
+          ],
+          "lastName": [
+            "Weese"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "White S"
+          ],
+          "firstName": [
+            "Simon"
+          ],
+          "lastName": [
+            "White"
+          ],
+          "initials": [
+            "S"
+          ]
+        },
+        {
+          "fullName": [
+            "Wold BJ"
+          ],
+          "firstName": [
+            "Barbara J"
+          ],
+          "lastName": [
+            "Wold"
+          ],
+          "initials": [
+            "BJ"
+          ],
+          "authorId": [
+            {
+              "_": "0000-0001-5350-3056",
+              "$": {
+                "type": "ORCID"
+              }
+            }
+          ]
+        },
+        {
+          "fullName": [
+            "Wu J"
+          ],
+          "firstName": [
+            "Jie"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "J"
+          ]
+        },
+        {
+          "fullName": [
+            "Wu TD"
+          ],
+          "firstName": [
+            "Thomas D"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "TD"
+          ]
+        },
+        {
+          "fullName": [
+            "Zeller G"
+          ],
+          "firstName": [
+            "Georg"
+          ],
+          "lastName": [
+            "Zeller"
+          ],
+          "initials": [
+            "G"
+          ]
+        },
+        {
+          "fullName": [
+            "Zerbino D"
+          ],
+          "firstName": [
+            "Daniel"
+          ],
+          "lastName": [
+            "Zerbino"
+          ],
+          "initials": [
+            "D"
+          ]
+        },
+        {
+          "fullName": [
+            "Zhang MQ"
+          ],
+          "firstName": [
+            "Michael Q"
+          ],
+          "lastName": [
+            "Zhang"
+          ],
+          "initials": [
+            "MQ"
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0001-5059-4829",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8343-612X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0599-1267",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-3565-0762",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-1767-9318",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-9106-3573",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-7793-589X",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5265-2121",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-8907-5823",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2960-5420",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-8102-7998",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0003-1429-7485",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-2296-2863",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0001-5350-3056",
+          "$": {
+            "type": "ORCID"
+          }
+        },
+        {
+          "_": "0000-0002-0989-8115",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "12"
+      ],
+      "volume": [
+        "10"
+      ],
+      "journalIssueId": [
+        "2100052"
+      ],
+      "dateOfPublication": [
+        "2013 Dec"
+      ],
+      "monthOfPublication": [
+        "12"
+      ],
+      "yearOfPublication": [
+        "2013"
+      ],
+      "printPublicationDate": [
+        "2013-12-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "Nature methods"
+          ],
+          "ISOAbbreviation": [
+            "Nat. Methods"
+          ],
+          "medlineAbbreviation": [
+            "Nat Methods"
+          ],
+          "NLMid": [
+            "101215604"
+          ],
+          "ISSN": [
+            "1548-7091"
+          ],
+          "ESSN": [
+            "1548-7105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2013"
+  ],
+  "pageInfo": [
+    "1177-1184"
+  ],
+  "abstractText": [
+    "We evaluated 25 protocol variants of 14 independent computational methods for exon identification, transcript reconstruction and expression-level quantification from RNA-seq data. Our results show that most algorithms are able to identify discrete transcript components with high success rates but that assembly of complete isoform structures poses a major challenge even when all constituent elements are identified. Expression-level estimates also varied widely across methods, even when based on similar transcript models. Consequently, the complexity of higher eukaryotic genomes imposes severe limitations on transcript recall and splice product discrimination that are likely to remain limiting factors for the analysis of current-generation RNA-seq data."
+  ],
+  "affiliation": [
+    "European Molecular Biology Laboratory, European Bioinformatics Institute, Cambridge, UK."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Print-Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "062023"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "077198"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "095908"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U41 HG007234"
+          ],
+          "agency": [
+            "NHGRI NIH HHS"
+          ],
+          "acronym": [
+            "HG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "WT098051"
+          ],
+          "agency": [
+            "Wellcome Trust"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U54 HG004557"
+          ],
+          "agency": [
+            "NHGRI NIH HHS"
+          ],
+          "acronym": [
+            "HG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U54HG004555"
+          ],
+          "agency": [
+            "NHGRI NIH HHS"
+          ],
+          "acronym": [
+            "HG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U54HG004557"
+          ],
+          "agency": [
+            "NHGRI NIH HHS"
+          ],
+          "acronym": [
+            "HG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "U54 HG004555"
+          ],
+          "agency": [
+            "NHGRI NIH HHS"
+          ],
+          "acronym": [
+            "HG"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Drosophila melanogaster"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Caenorhabditis elegans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA, Messenger"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "ME"
+                  ],
+                  "qualifierName": [
+                    "metabolism"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "RNA Splice Sites"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Sequence Analysis, RNA"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "RNA Splicing"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Genome"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Introns"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Exons"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA, Messenger"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        },
+        {
+          "name": [
+            "RNA Splice Sites"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3851240?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC3851240"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/picrender.fcgi?tool=EBI&pubmedid=24185837&action=stream&blobtype=pdf"
+          ]
+        },
+        {
+          "availability": [
+            "Free"
+          ],
+          "availabilityCode": [
+            "F"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "PubMedCentral"
+          ],
+          "url": [
+            "http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=EBI&pubmedid=24185837"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1038/nmeth.2714"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentCorrectionList": [
+    {
+      "commentCorrection": [
+        {
+          "id": [
+            "24296473"
+          ],
+          "source": [
+            "MED"
+          ],
+          "reference": [
+            "Nat Methods. 2013 Dec;10(12):1165-6"
+          ],
+          "type": [
+            "Comment in"
+          ],
+          "orderIn": [
+            "36"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "Y"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "Y"
+  ],
+  "citedByCount": [
+    "94"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "Y"
+  ],
+  "dbCrossReferenceList": [
+    {
+      "dbName": [
+        "ARXPR"
+      ]
+    }
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "epmcAuthMan": [
+    "Y"
+  ],
+  "hasTMAccessionNumbers": [
+    "Y"
+  ],
+  "tmAccessionTypeList": [
+    {
+      "accessionType": [
+        "arrayexpress"
+      ]
+    }
+  ],
+  "dateOfCompletion": [
+    "2014-02-03"
+  ],
+  "dateOfCreation": [
+    "2013-12-03"
+  ],
+  "dateOfRevision": [
+    "2016-11-22"
+  ],
+  "electronicPublicationDate": [
+    "2013-11-03"
+  ],
+  "firstPublicationDate": [
+    "2013-11-03"
+  ]
+}

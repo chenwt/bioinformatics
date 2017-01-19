@@ -1,0 +1,514 @@
+{
+  "id": [
+    "26930599"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26930599"
+  ],
+  "pmcid": [
+    "PMC4773184"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0150465"
+  ],
+  "title": [
+    "RED: A Java-MySQL Software for Identifying and Visualizing RNA Editing Sites Using Rule-Based and Statistical Filters."
+  ],
+  "authorString": [
+    "Sun Y, Li X, Wu D, Pan Q, Ji Y, Ren H, Ding K."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Sun Y"
+          ],
+          "firstName": [
+            "Yongmei"
+          ],
+          "lastName": [
+            "Sun"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "School of Information and Communication Engineering, Beijing University of Posts & Telecommunications, Beijing, P. R. China."
+          ]
+        },
+        {
+          "fullName": [
+            "Li X"
+          ],
+          "firstName": [
+            "Xing"
+          ],
+          "lastName": [
+            "Li"
+          ],
+          "initials": [
+            "X"
+          ],
+          "affiliation": [
+            "School of Information and Communication Engineering, Beijing University of Posts & Telecommunications, Beijing, P. R. China."
+          ]
+        },
+        {
+          "fullName": [
+            "Wu D"
+          ],
+          "firstName": [
+            "Di"
+          ],
+          "lastName": [
+            "Wu"
+          ],
+          "initials": [
+            "D"
+          ],
+          "affiliation": [
+            "School of Information and Communication Engineering, Beijing University of Posts & Telecommunications, Beijing, P. R. China."
+          ]
+        },
+        {
+          "fullName": [
+            "Pan Q"
+          ],
+          "firstName": [
+            "Qi"
+          ],
+          "lastName": [
+            "Pan"
+          ],
+          "initials": [
+            "Q"
+          ],
+          "affiliation": [
+            "Key Laboratory of Molecular Biology for Infectious Diseases (Ministry of Education), Institute for Viral Hepatitis, Department of Infectious Diseases, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Ji Y"
+          ],
+          "firstName": [
+            "Yuefeng"
+          ],
+          "lastName": [
+            "Ji"
+          ],
+          "initials": [
+            "Y"
+          ],
+          "affiliation": [
+            "School of Information and Communication Engineering, Beijing University of Posts & Telecommunications, Beijing, P. R. China."
+          ]
+        },
+        {
+          "fullName": [
+            "Ren H"
+          ],
+          "firstName": [
+            "Hong"
+          ],
+          "lastName": [
+            "Ren"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Key Laboratory of Molecular Biology for Infectious Diseases (Ministry of Education), Institute for Viral Hepatitis, Department of Infectious Diseases, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+          ]
+        },
+        {
+          "fullName": [
+            "Ding K"
+          ],
+          "firstName": [
+            "Keyue"
+          ],
+          "lastName": [
+            "Ding"
+          ],
+          "initials": [
+            "K"
+          ],
+          "affiliation": [
+            "Key Laboratory of Molecular Biology for Infectious Diseases (Ministry of Education), Institute for Viral Hepatitis, Department of Infectious Diseases, The Second Affiliated Hospital, Chongqing Medical University, Chongqing, China."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "3"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2380071"
+      ],
+      "dateOfPublication": [
+        "2016"
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0150465"
+  ],
+  "abstractText": [
+    "RNA editing is one of the post- or co-transcriptional processes that can lead to amino acid substitutions in protein sequences, alternative pre-mRNA splicing, and changes in gene expression levels. Although several methods have been suggested to identify RNA editing sites, there remains challenges to be addressed in distinguishing true RNA editing sites from its counterparts on genome and technical artifacts. In addition, there lacks a software framework to identify and visualize potential RNA editing sites. Here, we presented a software - 'RED' (RNA Editing sites Detector) - for the identification of RNA editing sites by integrating multiple rule-based and statistical filters. The potential RNA editing sites can be visualized at the genome and the site levels by graphical user interface (GUI). To improve performance, we used MySQL database management system (DBMS) for high-throughput data storage and query. We demonstrated the validity and utility of RED by identifying the presence and absence of C→U RNA-editing sites experimentally validated, in comparison with REDItools, a command line tool to perform high-throughput investigation of RNA editing. In an analysis of a sample data-set with 28 experimentally validated C→U RNA editing sites, RED had sensitivity and specificity of 0.64 and 0.5. In comparison, REDItools had a better sensitivity (0.75) but similar specificity (0.5). RED is an easy-to-use, platform-independent Java-based software, and can be applied to RNA-seq data without or with DNA sequencing data. The package is freely available under the GPLv3 license at http://github.com/REDetector/RED or https://sourceforge.net/projects/redetector."
+  ],
+  "affiliation": [
+    "School of Information and Communication Engineering, Beijing University of Posts & Telecommunications, Beijing, P. R. China."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't"
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Animals"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "RNA Splice Sites"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Computational Biology"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "RNA Editing"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PH"
+                  ],
+                  "qualifierName": [
+                    "physiology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Base Sequence"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Software"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Programming Languages"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Statistics as Topic"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Molecular Imaging"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "RNA Splice Sites"
+          ],
+          "registryNumber": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4773184?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4773184"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1371/journal.pone.0150465"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-08-02"
+  ],
+  "dateOfCreation": [
+    "2016-03-02"
+  ],
+  "dateOfRevision": [
+    "2016-03-08"
+  ],
+  "electronicPublicationDate": [
+    "2016-03-01"
+  ],
+  "firstPublicationDate": [
+    "2016-03-01"
+  ]
+}

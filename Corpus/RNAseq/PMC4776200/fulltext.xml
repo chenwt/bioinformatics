@@ -1,0 +1,719 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1 20151215//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Viruses</journal-id><journal-id journal-id-type="iso-abbrev">Viruses</journal-id><journal-id journal-id-type="publisher-id">viruses</journal-id><journal-title-group><journal-title>Viruses</journal-title></journal-title-group><issn pub-type="epub">1999-4915</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4776200</article-id><article-id pub-id-type="doi">10.3390/v8020045</article-id><article-id pub-id-type="publisher-id">viruses-08-00045</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>Big Data Offers Novel Insights for Oncolytic Virus Immunotherapy</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Swift</surname><given-names>Stephanie L.</given-names></name><xref ref-type="aff" rid="af1-viruses-08-00045">1</xref></contrib><contrib contrib-type="author"><name><surname>Stojdl</surname><given-names>David F.</given-names></name><xref ref-type="aff" rid="af1-viruses-08-00045">1</xref><xref ref-type="aff" rid="af2-viruses-08-00045">2</xref><xref ref-type="aff" rid="af3-viruses-08-00045">3</xref><xref rid="c1-viruses-08-00045" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Chiocca</surname><given-names>E. Antonio</given-names></name><role>Academic Editor</role></contrib><contrib contrib-type="editor"><name><surname>Lamfers</surname><given-names>Martine L.M.</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-viruses-08-00045"><label>1</label>Children&#x02019;s Hospital of Eastern Ontario Research Institute, 401 Smyth Road, Ottawa, ON K1H 8L1, Canada; <email>stephanies@arc.cheo.ca</email></aff><aff id="af2-viruses-08-00045"><label>2</label>Department of Biology, Microbiology and Immunology, University of Ottawa, Ottawa, ON K1N 6N5, Canada</aff><aff id="af3-viruses-08-00045"><label>3</label>Department of Pediatrics, University of Ottawa, Ottawa, ON K1N 6N5, Canada</aff><author-notes><corresp id="c1-viruses-08-00045"><label>*</label>Correspondence: <email>david@stojdllab.ca</email>; Tel.: +1-613-737-7600</corresp></author-notes><pub-date pub-type="epub"><day>05</day><month>2</month><year>2016</year></pub-date><pub-date pub-type="collection"><month>2</month><year>2016</year></pub-date><volume>8</volume><issue>2</issue><elocation-id>45</elocation-id><history><date date-type="received"><day>15</day><month>11</month><year>2015</year></date><date date-type="accepted"><day>27</day><month>1</month><year>2016</year></date></history><permissions><copyright-statement>&#x000a9; 2016 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2016</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons by Attribution (CC-BY) license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Large-scale assays, such as microarrays, next-generation sequencing and various &#x0201c;omics&#x0201d; technologies, have explored multiple aspects of the immune response following virus infection, often from a public health perspective. Yet a lack of similar data exists for monitoring immune engagement during oncolytic virus immunotherapy (OVIT) in the cancer setting. Tracking immune signatures at the tumour site can create a snapshot or longitudinally analyse immune cell activation, infiltration and functionality within global populations or individual cells. Mapping immune changes over the course of oncolytic biotherapy&#x02014;from initial infection to tumour stabilisation/regression through to long-term cure or escape/relapse&#x02014;has the potential to generate important therapeutic insights around virus-host interactions. Further, correlating such immune signatures with specific tumour outcomes has significant value for guiding the development of novel oncolytic virus immunotherapy strategies. Here, we provide insights for OVIT from large-scale analyses of immune populations in the infection, vaccination and immunotherapy setting. We analyse several approaches to manipulating immune engagement during OVIT. We further explore immunocentric changes in the tumour tissue following immunotherapy, and compile several immune signatures of therapeutic success. Ultimately, we highlight clinically relevant large-scale approaches with the potential to strengthen future oncolytic strategies to optimally engage the immune system.</p></abstract><kwd-group><kwd>oncolytic</kwd><kwd>virus</kwd><kwd>immunotherapy</kwd><kwd>immunology</kwd><kwd>immune</kwd><kwd>screen</kwd><kwd>large-scale</kwd></kwd-group></article-meta></front><body><sec id="sec1-viruses-08-00045"><title>1. Introduction</title><p>Oncolytic viruses (OVs) represent a bioactive class of cancer immunotherapies whose anti-tumour benefit arises not only from the preferential infection and direct lysis of tumour cells [<xref rid="B1-viruses-08-00045" ref-type="bibr">1</xref>,<xref rid="B2-viruses-08-00045" ref-type="bibr">2</xref>,<xref rid="B3-viruses-08-00045" ref-type="bibr">3</xref>] and mediation of vascular occlusion [<xref rid="B4-viruses-08-00045" ref-type="bibr">4</xref>,<xref rid="B5-viruses-08-00045" ref-type="bibr">5</xref>], but also from the stimulation of immune responses, the establishment of an inflammatory, immunogenic tumour milieu, and the modulation of an immunosuppressive tumour microenvironment [<xref rid="B6-viruses-08-00045" ref-type="bibr">6</xref>,<xref rid="B7-viruses-08-00045" ref-type="bibr">7</xref>,<xref rid="B8-viruses-08-00045" ref-type="bibr">8</xref>,<xref rid="B9-viruses-08-00045" ref-type="bibr">9</xref>,<xref rid="B10-viruses-08-00045" ref-type="bibr">10</xref>,<xref rid="B11-viruses-08-00045" ref-type="bibr">11</xref>,<xref rid="B12-viruses-08-00045" ref-type="bibr">12</xref>,<xref rid="B13-viruses-08-00045" ref-type="bibr">13</xref>,<xref rid="B14-viruses-08-00045" ref-type="bibr">14</xref>]. Indeed, engagement of the immune response is now considered critical for OV efficacy, resulting in the redefinition of this approach as oncolytic virus immunotherapy (OVIT) rather than the more traditional oncolytic virotherapy (OVT) [<xref rid="B9-viruses-08-00045" ref-type="bibr">9</xref>,<xref rid="B14-viruses-08-00045" ref-type="bibr">14</xref>,<xref rid="B15-viruses-08-00045" ref-type="bibr">15</xref>,<xref rid="B16-viruses-08-00045" ref-type="bibr">16</xref>,<xref rid="B17-viruses-08-00045" ref-type="bibr">17</xref>].</p><fig id="viruses-08-00045-f001" position="float"><label>Figure 1</label><caption><p>Analysing immune targets using large-scale technologies in the tumour setting following infection/therapy. (<bold>A</bold>) The immune response to infection or immunotherapy in the tumour setting can be captured at multiple different timepoints, including prior to infection/therapy (left), during infection/therapy as cancer cells begin to die (middle), and following infection/therapy when the tumour has been ablated or reduced in bulkiness (right); (<bold>B</bold>) Large-scale immune analysis can be performed at the level of a single immune cell, an immune cell population or multiple immune cell populations; (<bold>C</bold>) Several key large-scale techniques can capture genomic, transcriptomic, proteomic or metabolomic changes at the immune level. When assays have been appropriately replicated and validated, matched data generated at the DNA, RNA and protein level can subsequently be integrated to achieve a systems biology approach. Abbreviations: CE = Capillary Electrophoresis, GC = Gas Chromatography, HPLC = High Performance Liquid Chromatography, MS = Mass Spectrometry, NGS = Next-Generation Sequencing, NMR = Nuclear Magnetic Resonance, RNASeq = RNA Sequencing, SILAC = stable isotope labelling by amino acids in cell culture, WGS = Whole Genome Sequencing.</p></caption><graphic xlink:href="viruses-08-00045-g001"/></fig><p>Infection with a replication-competent virus induces a broad number of highly dynamic and interactive immune changes. Almost all approaches to the large-scale analysis (<italic>i.e.</italic>, the global interrogation of complex biological systems using massively parallel molecular and computational techniques) of host-virus interactions in the infectious disease setting have focussed on mining data with the potential to suppress viral activity. However, generating insights for OVIT requires a very different focus, since the goal is typically to promote pathogenic virus-mediated host tissue destruction at the tumour site while simultaneously activating immune responses that can mediate both tumour cell death and virus control. Few studies have attempted to delineate how multiple malignancy-associated immune cell populations react following OV infection on the large-scale.</p><p>A variety of large-scale techniques can capture and map comprehensive networks of immune-related actions and reactions at different stages of infection/therapy at the level of the genome, transcriptome, proteome and/or metabolome to assess the contribution and functional status of distinct innate and adaptive immune cells (<xref ref-type="fig" rid="viruses-08-00045-f001">Figure 1</xref>). This can be achieved at the population level using broadly defined signatures or within individual cells (<xref ref-type="fig" rid="viruses-08-00045-f001">Figure 1</xref>). Large-scale assays, including microarray, whole genome sequencing (WGS), next-generation sequencing (NGS) and various &#x0201c;omics&#x0201d; technologies (<xref ref-type="fig" rid="viruses-08-00045-f001">Figure 1</xref>), offer unprecedented data-rich insights into the cellular changes that occur during infection of both healthy animals and those with malignant disease. Rigorous replication and validation steps are key to ensuring that these insights represent robust observations, and to ultimately facilitate the translation of pre-clinical findings into clinical interventions. Several large-scale host-virus interactome networks are publicly available for different viral species, including OVs like vesicular stomatitis virus (VSV) and vaccinia virus (VV) [<xref rid="B18-viruses-08-00045" ref-type="bibr">18</xref>]. Further, with the comprehensive networks created through studies such as the immunological genome project, which has characterised the transcriptomes of ~270 mouse leucocyte subsets [<xref rid="B19-viruses-08-00045" ref-type="bibr">19</xref>,<xref rid="B20-viruses-08-00045" ref-type="bibr">20</xref>], and the human proteome map, which has proteomically profiled at least 6 human immune cell populations [<xref rid="B21-viruses-08-00045" ref-type="bibr">21</xref>], tracking the localisation and contribution of different immune cells following infection has become feasible. However, it is important to note that many large-scale technologies remain relatively expensive and, as a consequence, are not yet in widespread use despite their clear potential for achieving novel, therapeutically-relevant insights.</p><p>Characterising the network of immune interactions that lead to long-term therapeutic efficacy or tumour relapse following OVIT has the potential to deliver new insights that may strengthen therapeutic outcomes. In this review, we analyse the use of large-scale data to characterise host immune responses to virus infection in both the healthy and tumour-bearing setting, incorporating evidence from infection, vaccination and immunotherapy studies to generate broad insights for OVIT. We explore both <italic>in vitro</italic> and <italic>in vivo</italic> studies across mouse, human and clinical systems that have generated large volumes of integrated data that extend from the molecule and the cell to the tissue and the whole body.</p></sec><sec id="sec2-viruses-08-00045"><title>2. Viruses <italic>vs.</italic> Host Immunity</title><p>Following virus infection in a healthy host, target cells respond by activating multiple pathways designed to counter pathogenic activity. Although different inoculation routes have an impact on the subsequent mode of immune system activation [<xref rid="B22-viruses-08-00045" ref-type="bibr">22</xref>], generally, virus molecular signals (pathogen-associated molecular patterns; PAMPs) are detected by membrane-associated and intracellular host pattern recognition receptors (PRRs) [<xref rid="B23-viruses-08-00045" ref-type="bibr">23</xref>]. This initiates signalling cascades that activate transcription factors (TFs), such as NF&#x003ba;B [<xref rid="B24-viruses-08-00045" ref-type="bibr">24</xref>], to induce the expression of type I interferons (IFNs), cytokines and chemokines that subsequently stimulate the expression of hundreds of interferon-stimulated genes (ISGs) [<xref rid="B25-viruses-08-00045" ref-type="bibr">25</xref>]. These ISGs activate local immune populations, such as dendritic cells (DCs) and macrophages, which maintain gradients of inflammatory molecules and chemokines to attract other innate cells. Neutrophils are typically one of the first responders [<xref rid="B26-viruses-08-00045" ref-type="bibr">26</xref>], with subsequent infiltration of natural killer (NK) cells, DCs and granulocytes. As infection proceeds, antigen-presenting cells (APCs) present antigens acquired through direct infection (direct presentation) or phagocytosis (cross-presentation) to recruit adaptive immune populations, including B and T cells, to solidify viral control.</p><p>In the tumour-bearing host, the immune response typically undergoes several functional alterations at both the local and global scale. Subversion of the immune response is considered one of the hallmarks of cancer cells [<xref rid="B27-viruses-08-00045" ref-type="bibr">27</xref>], and one of the key malignant changes that enables oncolytic viruses to preferentially replicate at the tumour site [<xref rid="B28-viruses-08-00045" ref-type="bibr">28</xref>]. Approximately 80% of cancer cell lines are defective in their IFN response [<xref rid="B29-viruses-08-00045" ref-type="bibr">29</xref>], although in a heterogeneous tumour composed of multiple sub-clones across a genetic spectrum, there is typically a range of IFN responsiveness. This can lead to a lack of resultant immune responses downstream of IFN induction. For example, tumour cells may be able to produce type I IFNs, but remain incapable of responding to them [<xref rid="B30-viruses-08-00045" ref-type="bibr">30</xref>]. The establishment of suppressive immune populations, including M2 macrophages, regulatory T cells (Tregs) and myeloid-derived suppressor cells (MDSCs), within the tumour microenvironment also acts to dampen local immune cell activity. Large-scale assays can capture both anti-tumour and pro-tumour immune cells (or their products) that are capable of modulating immune activity at the tumour site.</p></sec><sec id="sec3-viruses-08-00045"><title>3. Using Large-Scale Approaches to Capture Cellular Immune Responses</title><p><bold><italic>Neutrophils</italic>:</bold> Transcriptional signatures have uncovered the negative contributions of various inflammatory and cellular immune compartments that impact outcomes in an infected host. For example, the pathological role of pro-inflammatory and cell death signals from either haematopoietic or non-haematopoietic populations in the lung following influenza virus infection has been documented using transcriptomic analysis of broad biological process modules [<xref rid="B31-viruses-08-00045" ref-type="bibr">31</xref>,<xref rid="B32-viruses-08-00045" ref-type="bibr">32</xref>]. Based on transcriptional signatures, this research uncovered a pathological role for neutrophils in the lungs of mice infected with lethal but not sub-lethal strains of influenza A virus (IAV) [<xref rid="B31-viruses-08-00045" ref-type="bibr">31</xref>]. This guided therapeutic interventions, since attenuation (but not ablation) of neutrophils during IAV infection increased survival [<xref rid="B31-viruses-08-00045" ref-type="bibr">31</xref>]. Capturing the expression of <italic>Ly6G</italic>, a key neutrophil marker, as a top differentially expressed gene in microarray transcriptome data has also helped to identify neutrophils as negative outcome contributors in other models of disease [<xref rid="B33-viruses-08-00045" ref-type="bibr">33</xref>]. Linking such cellular insights to negative outcomes can drive the design of new immunotherapies that release chemoattractants to selectively recruit T cells while minimising neutrophil and inflammatory monocyte recruitment [<xref rid="B34-viruses-08-00045" ref-type="bibr">34</xref>].</p><p><bold><italic>Dendritic Cells</italic>:</bold> Banchereau <italic>et al.</italic> explored the transcriptomic response of DCs following IAV infection. Using an <italic>in vitro</italic> system, human monocytes were matured with GM-CSF together with either IL-4 or IFN&#x003b1; to generate either immature or activated DCs, respectively. Each DC population was exposed to IAV (H1N1) across multiple timepoints up to 24 h. Gene expression array analysis and subsequent tree clustering demonstrated that each DC population reacted differently to infection. DCs matured with IFN&#x003b1; overexpressed transcripts associated with type I IFNs, inflammation and anti-viral modules, while DCs matured with IL-4 expressed high levels of histone, ribosome and type III IFN transcripts [<xref rid="B35-viruses-08-00045" ref-type="bibr">35</xref>]. This suggests that it may be important to validate responses to virus-based immunotherapies in specific DC subsets rather than across broad DC populations, since distinct differences can be observed in responses to virus infection.</p><p><bold><italic>T cells</italic>:</bold> T cell infiltration at the tumour site correlates with improved patient prognosis across multiple cancer types [<xref rid="B36-viruses-08-00045" ref-type="bibr">36</xref>,<xref rid="B37-viruses-08-00045" ref-type="bibr">37</xref>,<xref rid="B38-viruses-08-00045" ref-type="bibr">38</xref>], and a lack of <italic>in situ</italic> T cell activity can prevent tumour clearance. T cells are also critically required for the anti-tumour efficacy of most, if not all, oncolytic viruses, including VSV, herpes simplex virus (HSV), poliovirus, Newcastle disease virus (NDV) and Sindbis virus (SINV) [<xref rid="B9-viruses-08-00045" ref-type="bibr">9</xref>,<xref rid="B14-viruses-08-00045" ref-type="bibr">14</xref>,<xref rid="B15-viruses-08-00045" ref-type="bibr">15</xref>,<xref rid="B16-viruses-08-00045" ref-type="bibr">16</xref>,<xref rid="B17-viruses-08-00045" ref-type="bibr">17</xref>]. Since IFN&#x003b3; is rapidly induced following T cell receptor (TCR) stimulation, it can be used as a surrogate marker to track T cell infiltration into the tumour [<xref rid="B39-viruses-08-00045" ref-type="bibr">39</xref>].</p><p>Several studies have tracked the functionality and/or activation status of T cells following vaccination or infection. For example, following therapeutic vaccination with a replication-incompetent recombinant human adenovirus serotype 5 (rHuAd5) vector expressing a relevant tumour-associated antigen (TAA) in tumour-bearing animals, microarray analysis uncovered the progressive appearance of immunosuppressive genes in the tumour microenvironment, including <italic>Pdcd1</italic> (PD-1), <italic>HAVCR2</italic> (TIM-3) and <italic>LAG3</italic> (CD223). In this setting, animals ultimately did not achieve durable tumour cures [<xref rid="B40-viruses-08-00045" ref-type="bibr">40</xref>]. Similarly, infection of non-tumour-bearing animals with VSV expressing ovalbumin (OVA) (VSV-OVA) was associated with greater expression of suppressive <italic>Ctla4</italic> and <italic>Pdcd1</italic> on OVA-specific effector and memory CD8+ T cell populations compared to the same cells responding to infection with <italic>Listeria monocytogenes</italic> expressing OVA (Lm-OVA) [<xref rid="B41-viruses-08-00045" ref-type="bibr">41</xref>]. <italic>Slfn5</italic>, which can repress T cell proliferation, was also upregulated in naive and late memory CD8+ T cells following VSV-OVA infection [<xref rid="B41-viruses-08-00045" ref-type="bibr">41</xref>]. All animals ultimately recovered from infection despite this evidence of CD8+ T cell immune suppression. Collectively, these studies imply that core genes responsible for modulating T cell activity can be upregulated (albeit to different degrees) by multiple independent infectious agents, suggesting that the efficacy of most microbe-based immunotherapies may benefit from modulating these key T cell targets [<xref rid="B41-viruses-08-00045" ref-type="bibr">41</xref>].</p><p>Capturing the expression profile of core T cell genes can be used to predict the memory precursor potential of CD8+ T cells after infection. This has important implications for promoting the establishment of long-lived anti-tumour CD8+ T cells following OVIT that may be able to protect against tumour relapse. Taking a reverse engineering approach by interrogating CD8+ T cell transcriptomic data generated from the Immunological Genome Project, Best <italic>et al.</italic> predicted that the transcriptional regulators, <italic>Id2</italic>, <italic>Tbx21</italic> (Tbet) and <italic>Prdm1</italic>, were associated with the formation of short-term effector-memory T cells, while <italic>Tcf7</italic> was associated with the formation of long-lived memory T cell populations [<xref rid="B41-viruses-08-00045" ref-type="bibr">41</xref>]. <italic>RORa</italic> was also identified as a potential regulator of effector CD8+ T cells. Intriguingly, a single effector molecule could regulate activity across multiple memory populations. For example, cluster analysis within the CD8+ T cell compartment suggested that <italic>Tbx21</italic> could promote effector and effector-memory differentiation, but repressed the formation of naive and late-memory cells. The exploration of such complex networks has the potential to provide important insights for OVIT strategies where the development of T cells with particular phenotypes has therapeutic relevance.</p><p>Martin <italic>et al.</italic> further explored temporal gene expression changes as CD8+ T cells progressed to memory following infection. The transcriptomes of both early and late memory CD8+ T cells were analysed following infection with lymphocytic choriomeningitis virus (LCMV; Armstrong) [<xref rid="B42-viruses-08-00045" ref-type="bibr">42</xref>]. Multiple genes involved in the cell cycle, mitochondrial function and ribosome biogenesis were upregulated in late <italic>vs.</italic> early memory phases. During secondary expansion, these gene changes provided a metabolic advantage through preferential energy generation via oxidative phosphorylation, thus conferring greater proliferative potential to late memory cells [<xref rid="B42-viruses-08-00045" ref-type="bibr">42</xref>]. This is an important insight for oncolytic strategies that employ a prime/boost vaccination approach. In the prime/boost scenario, two heterologous vectors expressing a shared TAA target are administered sequentially: the first vector primes the system against the TAA target to establish a baseline of TAA-specific CD8+ T cells (primary expansion), and the second vector (typically an oncolytic virus) is applied several days or weeks later to boost these CD8+ T cell frequencies to large, curative levels (secondary expansion) [<xref rid="B43-viruses-08-00045" ref-type="bibr">43</xref>,<xref rid="B44-viruses-08-00045" ref-type="bibr">44</xref>]. The data generated by Martin <italic>et al.</italic> would predict that a greater lag period between the prime and boost vaccination would allow memory CD8+ T cells to respond more vigorously to the subsequent boost. However, such timing issues would have to be tempered with considerations that aggressive, fast-growing tumours have a limited window to achieve therapeutically relevant responses.</p><p>Finally, taking an active reverse engineering approach, Zhou <italic>et al.</italic> transfected short hairpin RNA (shRNA) pools into transgenic OVA-specific OT-I CD8+ T cells, infused these cells into B16.F10-OVA tumour-bearing mice, and analysed which T cell clones were enriched in tumour tissues [<xref rid="B45-viruses-08-00045" ref-type="bibr">45</xref>]. These shRNA libraries were designed to specifically target 255 genes involved in T cell dysfunction, and 1307 genes encoding kinases/phosphatases. T cells with shRNA knockdown of <italic>Ppp2r2d</italic>, <italic>Eif2ak3</italic> and <italic>Smad2</italic> were highly enriched, suggesting these genes&#x02014;or their downstream pathways&#x02014;may contribute towards T cell dysfunction in the tumour setting. Indeed, knockdown of <italic>Ppp2r2d</italic> allowed greater T cell proliferation in the presence of antigen at the tumour site, and improved survival despite microenvironment inhibition and a lack of co-stimulatory support. Such approaches have potential relevance for strategies that combine OVIT with adoptive cell therapy (ACT) [<xref rid="B46-viruses-08-00045" ref-type="bibr">46</xref>,<xref rid="B47-viruses-08-00045" ref-type="bibr">47</xref>,<xref rid="B48-viruses-08-00045" ref-type="bibr">48</xref>], since T cells could be drugged during dual immunotherapy to magnify anti-tumour activity.</p><p><bold><italic>Tregs</italic>:</bold> Activated Tregs are typically present in the tumour microenvironment, where they promote tumour success by suppressing the activity of infiltrating tumour-reactive CD8+ T cells [<xref rid="B49-viruses-08-00045" ref-type="bibr">49</xref>]. Understanding more about how immunosuppressive Treg populations signal following immune activation has the potential to inform targeted interventions designed to quench Treg activity during OVIT. Albert <italic>et al.</italic> simultaneously compared microRNA (miRNA) and mRNA profiles in resting or activated Tregs [<xref rid="B50-viruses-08-00045" ref-type="bibr">50</xref>]. After integrating both miRNA and mRNA profiles, 17 unique pathways were enriched in activated Tregs compared to resting Tregs. This included several immune-specific pathways, such as TCR-, TLR- and mTOR-mediated pathways. Interestingly, several non-immune molecules were also enriched, including <italic>FAS</italic> and <italic>Casp8</italic>, indicating that activated Tregs were likely sensitive to FAS-mediated apoptosis. Such pathways may represent potential targets for disruption to minimise the contribution of Tregs to the immunosuppressive phenotype.</p><p><bold><italic>M1/M2 Macrophages</italic>:</bold> Typically, M1 macrophages are considered pro-inflammatory and immunostimulatory (and therefore potentially beneficial during OVIT), while M2 macrophages are considered anti-inflammatory and immunosuppressive [<xref rid="B51-viruses-08-00045" ref-type="bibr">51</xref>]. Using an unbiased high-throughput integrated approach, Jha <italic>et al.</italic> compared unpolarised, pro-inflammatory and anti-inflammatory macrophage populations to characterise the metabolo-transcriptional networks that contributed to the polarisation of M1/M2 macrophages [<xref rid="B52-viruses-08-00045" ref-type="bibr">52</xref>]. M2 polarisation was critically dependent on both the UDP-GlcNAc synthesis pathway and glutamine metabolism, such that transient glutamine depletion negatively impacted M2 activation. Conversely, M1 polarisation was critically dependent on a break in the TCA cycle at <italic>Idh</italic>. Such approaches may have the potential to inform new strategies to promote M1 polarisation while reducing M2 activity at the tumour site during OVIT.</p></sec><sec id="sec4-viruses-08-00045"><title>4. Using Large-Scale Approaches to Track Global Immune Changes</title><p>The distinct infiltrating phases of a cellular anti-viral response, including B, T and NK cells, can be captured by analysing the genomic, transcriptomic, proteomic and/or metabolomic signatures of an infected tissue. Indeed, key probe sets and modules can be used to define distinct immune cell populations to support systems-scale analysis for translational research [<xref rid="B53-viruses-08-00045" ref-type="bibr">53</xref>]. Several elegant studies have been performed that temporally track global responses following <italic>in vivo</italic> vaccination and/or infection.</p><p>Multiple studies have tracked the global transcriptome in mouse lungs for 60 days following infection with a non-lethal strain of IAV (H1N1; PR8) to capture different phases of the immune response [<xref rid="B54-viruses-08-00045" ref-type="bibr">54</xref>,<xref rid="B55-viruses-08-00045" ref-type="bibr">55</xref>]. At early timepoints, most upregulated genes were associated with cytokines/chemokines and IFN-responsive genes, in addition to a strong NK cell-related signature. At intermediate timepoints, genes involved in T cell activation and apoptosis were over-represented. Subsequently, Fc&#x003b3;R-mediated phagocytosis pathways representative of B cell activation signatures were captured in transcriptomic data. Viral loads began to decline as these signatures of adaptive T and B cell populations began to dominate the transcriptome. While Fc&#x003b3;R-mediated phagocytosis and complement/coagulation processes remained active until day 40 [<xref rid="B55-viruses-08-00045" ref-type="bibr">55</xref>], final responses at day 60 post-infection continued to capture many processes involved in wound healing, organ remodelling and differentiation, suggesting that tissue repair pathways remained active long after virus was cleared. Indeed, more than 500 genes remained differentially expressed at this final timepoint [<xref rid="B54-viruses-08-00045" ref-type="bibr">54</xref>].</p><p>Different clinical phases of infection can also be tracked using key sets of enriched genes that characterise immune population(s) of interest. Vanwolleghem <italic>et al.</italic> compared patient whole blood transcriptomes and cytokinomes at different stages of chronic hepatitis B virus (HBV) infection, including immune tolerant, immune active, inactive carrier or negative for HBV antigen [<xref rid="B56-viruses-08-00045" ref-type="bibr">56</xref>]. Multiplex cytokine analysis demonstrated that MCP-1, IP-10, MIP-1&#x003b2; and IL-12p40 varied between clinical phases, suggesting a significant modulation of the monocyte-macrophage compartment during HBV infection [<xref rid="B56-viruses-08-00045" ref-type="bibr">56</xref>]. Sixty four unique genes were upregulated in active <italic>vs.</italic> tolerogenic clinical phases, with over half of those representing immunoglobulin-encoding genes involved in B cell function. T cell modules were also upregulated in patients within the immune-active phase of HBV infection. Interestingly, NK cell modules were highly upregulated during clinical phases that were associated with biochemical liver damage. A similar systems biology analysis could generate an immune fingerprint following the clinical phases of OV therapy to track relative immune cell contributions during active infection through to viral clearance, during tissue repair following tumour ablation, and, potentially, during tumour relapse.</p></sec><sec id="sec5-viruses-08-00045"><title>5. Using Large-Scale Approaches to Enhance Immune Engagement during Oncolytic Virotherapy</title><p>When single-target therapies are unable to impact a genomically flexible tumour, combination therapies are critical to achieving long-term control. OVIT can be combined with one or multiple immunotherapeutic partners to improve anti-tumour efficacy. Thus far, most approaches have focussed on identifying therapeutic partners that can additively or synergistically enhance virus-specific parameters, such as immune evasion, cytotoxicity, lytic capacity and virus spread. Indeed, our lab published the first large-scale RNAi screen designed to identify host cell targets capable of modulating tumour oncolysis during OV infection [<xref rid="B57-viruses-08-00045" ref-type="bibr">57</xref>]. Only a relatively small number of studies have used large-scale approaches to enhance immune activation in the context of standalone or combination OVIT.</p><p>Al-Yahya <italic>et al.</italic> identified several modulators of the IFN response in the context of an OV infection [<xref rid="B58-viruses-08-00045" ref-type="bibr">58</xref>]. In this system, Huh-7 cells were transfected with an interferon-sensitive response element fused to EGFP, then treated with one of &#x0003e;200 individual cytokines/chemokines together with IFN&#x003b1; for 16 h, followed by infection with VSV (MOI = 1). EGFP expression was used as a readout of an activated IFN response. Both betacellulin (BTC) and IL-17F were identified as novel modulators of the IFN&#x003b1; response to VSV, since they enhanced the ability of IFN&#x003b1; to protect cells. This suggested that strategies to knock out BTC or IL-17F function during oncolytic rhabdoviral immunotherapy may have potential value for enhancing cell death.</p><p><italic>In vivo</italic> siRNA screens have also uncovered important innate immune host factors that contribute to defense against virus infection. Varble <italic>et al.</italic> created a library of oncolytic SINVs encoding short-interfering RNAs (siRNAs) targeting 10,000 murine open reading frames (ORFs) [<xref rid="B59-viruses-08-00045" ref-type="bibr">59</xref>]. In the context of an <italic>in vivo</italic> infection, virus clones expressing replication-enhancing siRNAs outpaced inferior clones to dominate the circulating viral population. Clones targeting two host genes&#x02014;Zinc finger X-chromosomal protein (<italic>ZfX</italic>) or MAX gene-associated protein (<italic>Mga</italic>)&#x02014;represented the most abundant viral populations across parallel screens. Further analysis suggested that both genes modified the anti-viral response following SINV infection, as ISG expression was reduced following infection [<xref rid="B59-viruses-08-00045" ref-type="bibr">59</xref>]. Since this study demonstrates that OVs can effectively deliver siRNA payloads that impact replication through immune-related pathways, there is a clear opportunity to use a similar approach to define genes that can increase tumour cell immunogenicity and other parameters that have a core impact on OV-induced immune responses.</p><p>Pairing an OV with a chemotherapeutic compound can enhance anti-tumour efficacy beyond that observed with either agent alone [<xref rid="B60-viruses-08-00045" ref-type="bibr">60</xref>,<xref rid="B61-viruses-08-00045" ref-type="bibr">61</xref>,<xref rid="B62-viruses-08-00045" ref-type="bibr">62</xref>]. Following single agent or combination therapy with oncolytic reovirus and/or cisplatin, transcriptional profiling of B16.F10 melanoma cells revealed that cisplatin alone was predominantly associated with changes in apoptotic pathways, while reovirus alone was associated with enhanced pro-inflammatory, pro-apoptotic, MHC class I and oncogene signalling [<xref rid="B63-viruses-08-00045" ref-type="bibr">63</xref>]. Yet when both therapies were combined, the reovirus-induced changes in pro-inflammatory and immune pathways were almost completely ablated. This included a loss of activity across a range of Th1 and Th17 cytokines, MIP-1&#x003b1; and RANTES. Interestingly, cisplatin represents a chemotherapeutic agent that is incapable of inducing immunogenic cell death (ICD) [<xref rid="B64-viruses-08-00045" ref-type="bibr">64</xref>], while reovirus requires activated anti-tumour immune responses for efficacy [<xref rid="B65-viruses-08-00045" ref-type="bibr">65</xref>]. ICD is widely considered a prerequisite for generating functional T cells against tumour-associated targets [<xref rid="B64-viruses-08-00045" ref-type="bibr">64</xref>,<xref rid="B66-viruses-08-00045" ref-type="bibr">66</xref>]. Indeed, absence of one of the four key markers of ICD&#x02014;namely, ecto-calreticulin, ATP, HMGB1 and type I IFNs&#x02014;correlates with a reduction, or complete loss, of immunogenicity following tumour cell death [<xref rid="B67-viruses-08-00045" ref-type="bibr">67</xref>,<xref rid="B68-viruses-08-00045" ref-type="bibr">68</xref>]. This suggests that, despite the clear synergy achieved between reovirus and cisplatin therapy [<xref rid="B63-viruses-08-00045" ref-type="bibr">63</xref>], this combination may not be optimal if the focus is to achieve an immunostimulatory outcome.</p></sec><sec id="sec6-viruses-08-00045"><title>6. Using Large-Scale Approaches to Analyse Tumour Adaptations to Immunotherapy and Signatures of Success</title><p>Tracking the immune-related changes that occur in tumour tissue, and relating this to resident and/or infiltrating immune populations, can offer insights into the biological mechanisms that determine whether a tumour-bearing individual will have a positive or negative response to immunotherapy. Currently, these changes are poorly understood. Comparing differences in responding <italic>vs.</italic> non-responding tumours can offer insights into tumour adaptations, and uncover key differences behind the biological networks that drive tumours to remain unresponsive, or respond with stabilised disease, temporary regression or complete durable regression. Ultimately, such screens can uncover signatures of therapeutic success in the tumour microenvironment.</p><p>Lesterhuis <italic>et al.</italic> compared the genomic profile of regressing and non-regressing tumours following anti-CTLA4 immunotherapy in a dichotomously-responding mesothelioma model, where approximately 20% of mice responded to therapy [<xref rid="B69-viruses-08-00045" ref-type="bibr">69</xref>]. Using weighted gene co-expression network analysis, 8 modules were identified that were active across all tumours. Two of these modules were significantly associated with a positive response to anti-CTLA4 treatment. An immune-related module was upregulated in regressing tumours, and was enriched for pathways such as granulocyte adhesion and diapedesis, and signalling through CD28, iCOS/iCOSL, TCR and PKC. A cancer-related module was downregulated in regressing tumours, and was enriched for genes involved in cell cycle regulation, cholesterol biosynthesis, and signalling during cancer development. Such insights can guide the design of new strategies to broaden immunotherapy response rates across larger patient populations by targeting hub genes that can disrupt an entire network. Indeed, following anti-CTLA4 therapy in the mesothelioma model, NOS2 activity was identified as an important hub for efficacy. Treating animals with a drug to enhance NO production during anti-CTLA4 therapy resulted in an improvement in treatment efficacy from 10% to 80% [<xref rid="B69-viruses-08-00045" ref-type="bibr">69</xref>].</p><p>Khandelwal <italic>et al.</italic> performed a high-throughput co-culture siRNA screen to capture and identify ligands expressed on tumour cells that were capable of inhibiting cytotoxic T lymphocyte (CTL)-mediated killing [<xref rid="B70-viruses-08-00045" ref-type="bibr">70</xref>]. Survivin-positive MCF7 breast cancer cells stably tagged with luciferase were incubated with siRNAs targeting 520 genes coding for transmembrane and cell surface proteins, followed by co-culture with anti-survivin CTL. Specific tumour cell death was measured as a reduction in luciferase signal. In addition to expected immunoregulatory hits, such as <italic>CD274</italic> (PD-L1) and <italic>LGALS3</italic> (Galectin-3), knockdown of C-C chemokine receptor type 9 (<italic>CCR9</italic>), GLI pathogenesis-related 1 like 1 (<italic>GLIPR1L1</italic>), growth hormone secretagogue receptor (<italic>GHSR</italic>) and carcinoembryonic antigen-related cell adhesion molecule 6 (<italic>CEACAM6</italic>) enhanced tumour cell lysis across multiple malignant cell lines. In extended analyses, knockdown of <italic>CCR9</italic> in patient HLA-matched tumour-infiltrating lymphocytes also increased killing in primary malignant pancreatic or melanoma cells [<xref rid="B70-viruses-08-00045" ref-type="bibr">70</xref>]. This suggested that the normal function of CCR9 was profoundly immunosuppressive, which was further supported when the overexpression of CCR9 on tumour cells inhibited CTL-mediated lysis and enabled immune escape. To further elucidate the mechanism behind this inhibition, microarray analysis was performed on survivin-specific CTL encountering either CCR9<sup>lo</sup> or CCR9<sup>hi</sup> tumour cells. After an encounter with CCR9<sup>lo</sup> tumour cells, genes involved in the positive regulation of the immune response, such as lymphotoxin alpha (<italic>LTA</italic>) and integrin alpha-2 (<italic>ITGA2</italic>), were over-expressed in CTL. Conversely, these same cells downregulated genes involved in lymphocyte maturation and apoptosis, such as ephrin-A1 (<italic>EFNA1</italic>) and inhibitor of DNA binding-1 (<italic>ID1</italic>). Thus, knockdown of <italic>CCR9</italic> favoured T cell activation, proliferation and survival.</p><p>Similarly, McGray <italic>et al.</italic> analysed changes in tumour transcriptomes at the tipping point where tumour-bearing animals began to respond to therapeutic cancer vaccination [<xref rid="B40-viruses-08-00045" ref-type="bibr">40</xref>]. In this study, replication-incompetent rHuAd5 vectors expressing the melanoma antigen, human dopachrome tautomerase (hDCT), generated modest frequencies of hDCT-specific CD8+ T cells (~3%) in B16.F10 tumour-bearing animals to achieve a significant survival extension, but no durable cures. Tumour transcriptional analysis demonstrated that, as a rapid and early consequence of vaccination, several profoundly immunosuppressive genes were highly upregulated, including <italic>CD274</italic> (PD-L1), <italic>LGALS9</italic> (Galectin-9), <italic>TGF&#x003b2;1</italic>, <italic>LAG3</italic> and <italic>HAVCR2</italic> (TIM-3). Further microarray analysis demonstrated the activation of pathways involved in antigen processing and presentation. Thus, vaccination resulted in profoundly immunosuppressive immune and non-immune changes that attenuated T cell activity and enabled continued tumour growth despite a continued expansion of T cell frequencies [<xref rid="B40-viruses-08-00045" ref-type="bibr">40</xref>]. Although these suppressive mechanisms were still active&#x02014;and even amplified&#x02014;when large numbers of hDCT-specific CD8+ T cells were adoptively transferred in combination with rHuAd5 vaccination, the sheer magnitude of infused cells, which achieved wide distribution across the tumour, nevertheless led to durable cures in ~65% of tumour-bearing animals [<xref rid="B40-viruses-08-00045" ref-type="bibr">40</xref>].</p><p>The ability to identify immune or viral markers of success following OVIT is important for predicting immune engagement and patient outcome. Zloza <italic>et al.</italic> performed microarray analysis to uncover changes in both T cells and cancer cells that reflected the level of immunotherapeutic engagement in metastatic melanoma patients treated with multiple intratumoural injections of oncolytic vaccinia virus (rVV-B7.1). Two responder and three non-responder patients were analysed. In bulk cells isolated from the tumour microenvironment, 55 upregulated and 37 downregulated genes were identified across all patients following treatment. Extended analysis demonstrated that one of these genes, <italic>LILRB1</italic> (ILT2), a member of the leucocyte immunoglobulin-like family that functions as an immunoregulatory receptor, was downregulated in responding patients, but was upregulated in non-responders. This suggested a potential correlation between the expression of this marker on immune cells within the tumour microenvironment and patient outcome. In extended analyses, melanoma patients who responded well to rVV-B7.1 had a lower frequency of ILT2-expressing FoxP3+ CD4+ and CD8+ T cells both in the blood and the tumour [<xref rid="B71-viruses-08-00045" ref-type="bibr">71</xref>]. Thus, low expression of ILT2 may have value as a predictive biomarker for patients likely to respond to rVV-B7.1 therapy.</p><p>The pathways that tumours recruit to achieve immune escape following OV infection can similarly be captured by transcriptomic analysis. Tumours like 4T1 (murine breast carcinoma) and SKOV (human ovarian carcinoma) can develop OV resistance by re-establishing interferon expression (possibly indirectly, through stromal IFN stimulation) and thus rendering the malignant environment refractory to the replication of some OVs [<xref rid="B72-viruses-08-00045" ref-type="bibr">72</xref>,<xref rid="B73-viruses-08-00045" ref-type="bibr">73</xref>]. Other OVs, such as VV and HSV, are less sensitive to IFN reactivation [<xref rid="B74-viruses-08-00045" ref-type="bibr">74</xref>]. Microarray analysis has captured several additional pathways through which other cancer cell lines, such as PLC5 (human hepatoma) and HT29 (human colorectal adenocarcinoma), can develop resistance. For example, following infection with HSV (strain G207), gene expression changes associated with resistance acted to decrease the availability of virally-accessed cell surface receptors, modify the stage of the cell cycle and reduce nucleotide pool sizes [<xref rid="B75-viruses-08-00045" ref-type="bibr">75</xref>]. Similarly, by comparing the transcriptomes of cancer cell lines that were either resistant or sensitive to VSV&#x02206;51-induced oncolysis, pathways involved in endocytosis and IFN signalling were identified as molecular signatures of therapeutic resistance [<xref rid="B76-viruses-08-00045" ref-type="bibr">76</xref>]. Finally, by analysing genes that were differentially regulated in the presence of virus alone, drug alone or combination therapy in drug- and VSV-resistant chronic lymphocytic leukaemia (CLL) cells treated with obatoclax, a Bcl-2 inhibitor drug under clinical development, two core pathways involving apoptosis signalling and mTOR signalling were required to achieve efficacy following combination therapy. In the combination therapy group, anti-apoptotic genes, such as <italic>BIRC6</italic>, were downregulated, while pro-apoptotic genes, such as <italic>BID</italic> and <italic>DIABLO</italic>, were upregulated [<xref rid="B77-viruses-08-00045" ref-type="bibr">77</xref>]. Analysing the functional status of such pathways in patient tumour biopsies prior to OV treatment may represent a useful approach for predicting responses.</p></sec><sec id="sec7-viruses-08-00045"><title>7. Future Directions</title><p>Improving the ability to easily and meaningfully integrate and interpret large-scale immune data generated from disparate biological sources will be key to improving the ability to achieve novel, therapeutically relevant insights for OVIT. Currently, the ability to integrate extremely complex data derived from multiple sources to generate actionable insights is a particular challenge in the field; yet several tools have been (and continue to be) designed to facilitate such analyses [<xref rid="B18-viruses-08-00045" ref-type="bibr">18</xref>,<xref rid="B78-viruses-08-00045" ref-type="bibr">78</xref>,<xref rid="B79-viruses-08-00045" ref-type="bibr">79</xref>,<xref rid="B80-viruses-08-00045" ref-type="bibr">80</xref>].</p><p>While the greatest volume of large-scale data has thus far been generated from analyses of bulk immune populations, additional layers of complexity will be generated from single cell approaches. For example, Lu <italic>et al.</italic> recently reported the ability to co-detect 42 immune effector proteins secreted from a single cell following exposure to an immune stimulus using a multiplex microchip assay [<xref rid="B81-viruses-08-00045" ref-type="bibr">81</xref>]. This approach achieved two key insights: firstly, even a phenotypically pure immune cell population displayed substantial heterogeneity at the single cell level in terms of activation and functional capacity. Secondly, only a subset of this phenotypically pure population was capable of potentiating cytokine activation following immune activation. Such insights, and the ability to perform comprehensive immune monitoring at the individual cell level, will have broad utility for OVIT.</p><p>In the mouse, the use of high-dimensional techniques to track myeloid populations in lymphoid and non-lymphoid tissues by mass cytometry and cluster analysis has already begun to allow the more rigorous and unambiguous definition of immune populations. Using this technique, Becher <italic>et al.</italic> used a 38 antibody panel to catalogue considerable variation in neutrophil phenotypes, yet a remarkably consistent phenotype for other immune populations, such as plasmacytoid DCs, across tissues [<xref rid="B82-viruses-08-00045" ref-type="bibr">82</xref>]. While unambiguous definition of certain immune populations required the incorporation of additional antibodies, cellular differentiation and activation states could easily be tracked as a series of progressive phenotypic changes [<xref rid="B82-viruses-08-00045" ref-type="bibr">82</xref>]. This approach has so far only been performed in the myeloid compartment of mice at steady state. However, extending this powerful technology to incorporate lymphoid compartments, and to subsequently explore responses to infection, vaccination and immunotherapy, will greatly enhance our capacity to achieve broad insights. The implementation of new large-scale assays to assess the contribution of regulatory elements, such as chromatin profiling [<xref rid="B83-viruses-08-00045" ref-type="bibr">83</xref>], will also be important tools to study more complex levels of immune regulation during OVIT.</p><p>Finally, large-scale technologies have clear potential to provide guidance for addressing several key issues that currently hamper the development of successful immune responses during OVIT, such as immune cell recruitment, antigen priming and cross-presentation to drive broader immune responses against multiple tumour antigens that are released as oncolysis proceeds, and immune suppression at the tumour site. Improving accessibility to and uptake of large-scale technologies will facilitate the exploration of these critical areas of research, which have the potential to extend the benefits of OVIT across wider patient populations.</p></sec><sec id="sec8-viruses-08-00045"><title>8. Final Thoughts</title><p>Enhancing the breadth and depth of our knowledge about the major and minor contributions of specific and global immune cell populations during OVIT is critical to inform the design of new approaches to strengthen therapeutic outcomes. Large-scale assays can interrogate and integrate the genome, transcriptome, proteome and metabolome, among others, in either an empirical or unbiased way to generate data-rich insights. While the bulk of the large-scale immune-related data generated thus far has focussed on either infectious models from a public health perspective or therapeutic models using non-oncolytic immunotherapies, there is clear untapped value and a strong rationale for applying these current and emerging approaches in the OVIT setting.</p></sec></body><back><ack><title>Acknowledgments</title><p>This work was supported by grants from the Ontario Institute for Cancer Research, the Canada Foundation for Innovation, Angels of Hope, the Ottawa Regional Cancer Foundation and the Terry Fox Research Institute (to David F. Stojdl).</p></ack><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-viruses-08-00045"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sinkovics</surname><given-names>J.G.</given-names></name><name><surname>Horvath</surname><given-names>J.C.</given-names></name></person-group>
+<article-title>Natural and genetically engineered viral agents for oncolysis and gene therapy of human cancers</article-title>
+<source>Arch. Immunol. Ther. Exp.</source>
+<year>2008</year>
+<volume>56</volume>
+<fpage>3s</fpage>
+<lpage>59s</lpage>
+<pub-id pub-id-type="doi">10.1007/s00005-008-0047-9</pub-id>
+<?supplied-pmid 19104757?><pub-id pub-id-type="pmid">19104757</pub-id></element-citation></ref><ref id="B2-viruses-08-00045"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tong</surname><given-names>A.W.</given-names></name><name><surname>Senzer</surname><given-names>N.</given-names></name><name><surname>Cerullo</surname><given-names>V.</given-names></name><name><surname>Templeton</surname><given-names>N.S.</given-names></name><name><surname>Hemminki</surname><given-names>A.</given-names></name><name><surname>Nemunaitis</surname><given-names>J.</given-names></name></person-group>
+<article-title>Oncolytic viruses for induction of anti-tumor immunity</article-title>
+<source>Curr. Pharm. Biotechnol.</source>
+<year>2012</year>
+<volume>13</volume>
+<fpage>1750</fpage>
+<lpage>1760</lpage>
+<pub-id pub-id-type="doi">10.2174/138920112800958913</pub-id>
+<?supplied-pmid 21740355?><pub-id pub-id-type="pmid">21740355</pub-id></element-citation></ref><ref id="B3-viruses-08-00045"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vaha-Koskela</surname><given-names>M.J.</given-names></name><name><surname>Heikkila</surname><given-names>J.E.</given-names></name><name><surname>Hinkkanen</surname><given-names>A.E.</given-names></name></person-group>
+<article-title>Oncolytic viruses in cancer therapy</article-title>
+<source>Cancer Lett.</source>
+<year>2007</year>
+<volume>254</volume>
+<fpage>178</fpage>
+<lpage>216</lpage>
+<pub-id pub-id-type="doi">10.1016/j.canlet.2007.02.002</pub-id>
+<?supplied-pmid 17383089?><pub-id pub-id-type="pmid">17383089</pub-id></element-citation></ref><ref id="B4-viruses-08-00045"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Breitbach</surname><given-names>C.J.</given-names></name><name><surname>Arulanandam</surname><given-names>R.</given-names></name><name><surname>de Silva</surname><given-names>N.</given-names></name><name><surname>Thorne</surname><given-names>S.H.</given-names></name><name><surname>Patt</surname><given-names>R.</given-names></name><name><surname>Daneshmand</surname><given-names>M.</given-names></name><name><surname>Moon</surname><given-names>A.</given-names></name><name><surname>Ilkow</surname><given-names>C.</given-names></name><name><surname>Burke</surname><given-names>J.</given-names></name><name><surname>Hwang</surname><given-names>T.H.</given-names></name><etal/></person-group>
+<article-title>Oncolytic vaccinia virus disrupts tumor-associated vasculature in humans</article-title>
+<source>Cancer Res.</source>
+<year>2013</year>
+<volume>73</volume>
+<fpage>1265</fpage>
+<lpage>1275</lpage>
+<pub-id pub-id-type="doi">10.1158/0008-5472.CAN-12-2687</pub-id>
+<?supplied-pmid 23393196?><pub-id pub-id-type="pmid">23393196</pub-id></element-citation></ref><ref id="B5-viruses-08-00045"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Breitbach</surname><given-names>C.J.</given-names></name><name><surname>Paterson</surname><given-names>J.M.</given-names></name><name><surname>Lemay</surname><given-names>C.G.</given-names></name><name><surname>Falls</surname><given-names>T.J.</given-names></name><name><surname>McGuire</surname><given-names>A.</given-names></name><name><surname>Parato</surname><given-names>K.A.</given-names></name><name><surname>Stojdl</surname><given-names>D.F.</given-names></name><name><surname>Daneshmand</surname><given-names>M.</given-names></name><name><surname>Speth</surname><given-names>K.</given-names></name><name><surname>Kirn</surname><given-names>D.</given-names></name><etal/></person-group>
+<article-title>Targeted inflammation during oncolytic virus therapy severely compromises tumor blood flow</article-title>
+<source>Mol. Ther.</source>
+<year>2007</year>
+<volume>15</volume>
+<fpage>1686</fpage>
+<lpage>1693</lpage>
+<pub-id pub-id-type="doi">10.1038/sj.mt.6300215</pub-id>
+<?supplied-pmid 17579581?><pub-id pub-id-type="pmid">17579581</pub-id></element-citation></ref><ref id="B6-viruses-08-00045"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bridle</surname><given-names>B.W.</given-names></name><name><surname>Chen</surname><given-names>L.</given-names></name><name><surname>Lemay</surname><given-names>C.G.</given-names></name><name><surname>Diallo</surname><given-names>J.S.</given-names></name><name><surname>Pol</surname><given-names>J.</given-names></name><name><surname>Nguyen</surname><given-names>A.</given-names></name><name><surname>Capretta</surname><given-names>A.</given-names></name><name><surname>He</surname><given-names>R.</given-names></name><name><surname>Bramson</surname><given-names>J.L.</given-names></name><name><surname>Bell</surname><given-names>J.C.</given-names></name><etal/></person-group>
+<article-title>HDAC inhibition suppresses primary immune responses, enhances secondary immune responses, and abrogates autoimmunity during tumor immunotherapy</article-title>
+<source>Mol. Ther.</source>
+<year>2013</year>
+<volume>21</volume>
+<fpage>887</fpage>
+<lpage>894</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2012.265</pub-id>
+<?supplied-pmid 23295947?><pub-id pub-id-type="pmid">23295947</pub-id></element-citation></ref><ref id="B7-viruses-08-00045"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bridle</surname><given-names>B.W.</given-names></name><name><surname>Hanson</surname><given-names>S.</given-names></name><name><surname>Lichty</surname><given-names>B.D.</given-names></name></person-group>
+<article-title>Combining oncolytic virotherapy and tumour vaccination</article-title>
+<source>Cytokine Growth Factor Rev.</source>
+<year>2010</year>
+<volume>21</volume>
+<fpage>143</fpage>
+<lpage>148</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cytogfr.2010.02.009</pub-id>
+<?supplied-pmid 20226716?><pub-id pub-id-type="pmid">20226716</pub-id></element-citation></ref><ref id="B8-viruses-08-00045"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bridle</surname><given-names>B.W.</given-names></name><name><surname>Stephenson</surname><given-names>K.B.</given-names></name><name><surname>Boudreau</surname><given-names>J.E.</given-names></name><name><surname>Koshy</surname><given-names>S.</given-names></name><name><surname>Kazdhan</surname><given-names>N.</given-names></name><name><surname>Pullenayegum</surname><given-names>E.</given-names></name><name><surname>Brunelliere</surname><given-names>J.</given-names></name><name><surname>Bramson</surname><given-names>J.L.</given-names></name><name><surname>Lichty</surname><given-names>B.D.</given-names></name><name><surname>Wan</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Potentiating cancer immunotherapy using an oncolytic virus</article-title>
+<source>Mol. Ther.</source>
+<year>2010</year>
+<volume>18</volume>
+<fpage>1430</fpage>
+<lpage>1439</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2010.98</pub-id>
+<?supplied-pmid 20551919?><pub-id pub-id-type="pmid">20551919</pub-id></element-citation></ref><ref id="B9-viruses-08-00045"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Granot</surname><given-names>T.</given-names></name><name><surname>Yamanashi</surname><given-names>Y.</given-names></name><name><surname>Meruelo</surname><given-names>D.</given-names></name></person-group>
+<article-title>Sindbis viral vectors transiently deliver tumor-associated antigens to lymph nodes and elicit diversified antitumor CD8<sup>+</sup> T-cell immunity</article-title>
+<source>Mol. Ther.</source>
+<year>2014</year>
+<volume>22</volume>
+<fpage>112</fpage>
+<lpage>122</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2013.215</pub-id>
+<?supplied-pmid 24025748?><pub-id pub-id-type="pmid">24025748</pub-id></element-citation></ref><ref id="B10-viruses-08-00045"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grekova</surname><given-names>S.P.</given-names></name><name><surname>Raykov</surname><given-names>Z.</given-names></name><name><surname>Zawatzky</surname><given-names>R.</given-names></name><name><surname>Rommelaere</surname><given-names>J.</given-names></name><name><surname>Koch</surname><given-names>U.</given-names></name></person-group>
+<article-title>Activation of a glioma-specific immune response by oncolytic parvovirus minute virus of mice infection</article-title>
+<source>Cancer Gene Ther.</source>
+<year>2012</year>
+<volume>19</volume>
+<fpage>468</fpage>
+<lpage>475</lpage>
+<pub-id pub-id-type="doi">10.1038/cgt.2012.20</pub-id>
+<?supplied-pmid 22539062?><pub-id pub-id-type="pmid">22539062</pub-id></element-citation></ref><ref id="B11-viruses-08-00045"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kleijn</surname><given-names>A.</given-names></name><name><surname>Kloezeman</surname><given-names>J.</given-names></name><name><surname>Treffers-Westerlaken</surname><given-names>E.</given-names></name><name><surname>Fulci</surname><given-names>G.</given-names></name><name><surname>Leenstra</surname><given-names>S.</given-names></name><name><surname>Dirven</surname><given-names>C.</given-names></name><name><surname>Debets</surname><given-names>R.</given-names></name><name><surname>Lamfers</surname><given-names>M.</given-names></name></person-group>
+<article-title>The <italic>in vivo</italic> therapeutic efficacy of the oncolytic adenovirus Delta24-RGD is mediated by tumor-specific immunity</article-title>
+<source>PLoS ONE</source>
+<year>2014</year>
+<volume>9</volume>
+<elocation-id>45</elocation-id>
+</element-citation></ref><ref id="B12-viruses-08-00045"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parviainen</surname><given-names>S.</given-names></name><name><surname>Ahonen</surname><given-names>M.</given-names></name><name><surname>Diaconu</surname><given-names>I.</given-names></name><name><surname>Kipar</surname><given-names>A.</given-names></name><name><surname>Siurala</surname><given-names>M.</given-names></name><name><surname>Vaha-Koskela</surname><given-names>M.</given-names></name><name><surname>Kanerva</surname><given-names>A.</given-names></name><name><surname>Cerullo</surname><given-names>V.</given-names></name><name><surname>Hemminki</surname><given-names>A.</given-names></name></person-group>
+<article-title>GMCSF-armed vaccinia virus induces an antitumor immune response</article-title>
+<source>Int. J. Cancer</source>
+<year>2015</year>
+<volume>136</volume>
+<fpage>1065</fpage>
+<lpage>1072</lpage>
+<pub-id pub-id-type="doi">10.1002/ijc.29068</pub-id>
+<?supplied-pmid 25042001?><pub-id pub-id-type="pmid">25042001</pub-id></element-citation></ref><ref id="B13-viruses-08-00045"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Todo</surname><given-names>T.</given-names></name><name><surname>Rabkin</surname><given-names>S.D.</given-names></name><name><surname>Sundaresan</surname><given-names>P.</given-names></name><name><surname>Wu</surname><given-names>A.</given-names></name><name><surname>Meehan</surname><given-names>K.R.</given-names></name><name><surname>Herscowitz</surname><given-names>H.B.</given-names></name><name><surname>Martuza</surname><given-names>R.L.</given-names></name></person-group>
+<article-title>Systemic antitumor immunity in experimental brain tumor therapy using a multimutated, replication-competent herpes simplex virus</article-title>
+<source>Hum. Gene Ther.</source>
+<year>1999</year>
+<volume>10</volume>
+<fpage>2741</fpage>
+<lpage>2755</lpage>
+<pub-id pub-id-type="doi">10.1089/10430349950016483</pub-id>
+<?supplied-pmid 10584921?><pub-id pub-id-type="pmid">10584921</pub-id></element-citation></ref><ref id="B14-viruses-08-00045"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zamarin</surname><given-names>D.</given-names></name><name><surname>Holmgaard</surname><given-names>R.B.</given-names></name><name><surname>Subudhi</surname><given-names>S.K.</given-names></name><name><surname>Park</surname><given-names>J.S.</given-names></name><name><surname>Mansour</surname><given-names>M.</given-names></name><name><surname>Palese</surname><given-names>P.</given-names></name><name><surname>Merghoub</surname><given-names>T.</given-names></name><name><surname>Wolchok</surname><given-names>J.D.</given-names></name><name><surname>Allison</surname><given-names>J.P.</given-names></name></person-group>
+<article-title>Localized oncolytic virotherapy overcomes systemic tumor resistance to immune checkpoint blockade immunotherapy</article-title>
+<source>Sci. Transl. Med.</source>
+<year>2014</year>
+<volume>6</volume>
+<pub-id pub-id-type="doi">10.1126/scitranslmed.3008095</pub-id>
+<?supplied-pmid 24598590?><pub-id pub-id-type="pmid">24598590</pub-id></element-citation></ref><ref id="B15-viruses-08-00045"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Diaz</surname><given-names>R.M.</given-names></name><name><surname>Galivo</surname><given-names>F.</given-names></name><name><surname>Kottke</surname><given-names>T.</given-names></name><name><surname>Wongthida</surname><given-names>P.</given-names></name><name><surname>Qiao</surname><given-names>J.</given-names></name><name><surname>Thompson</surname><given-names>J.</given-names></name><name><surname>Valdes</surname><given-names>M.</given-names></name><name><surname>Barber</surname><given-names>G.</given-names></name><name><surname>Vile</surname><given-names>R.G.</given-names></name></person-group>
+<article-title>Oncolytic immunovirotherapy for melanoma using vesicular stomatitis virus</article-title>
+<source>Cancer Res.</source>
+<year>2007</year>
+<volume>67</volume>
+<fpage>2840</fpage>
+<lpage>2848</lpage>
+<pub-id pub-id-type="doi">10.1158/0008-5472.CAN-06-3974</pub-id>
+<?supplied-pmid 17363607?><pub-id pub-id-type="pmid">17363607</pub-id></element-citation></ref><ref id="B16-viruses-08-00045"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakamori</surname><given-names>M.</given-names></name><name><surname>Fu</surname><given-names>X.</given-names></name><name><surname>Rousseau</surname><given-names>R.</given-names></name><name><surname>Chen</surname><given-names>S.Y.</given-names></name><name><surname>Zhang</surname><given-names>X.</given-names></name></person-group>
+<article-title>Destruction of nonimmunogenic mammary tumor cells by a fusogenic oncolytic herpes simplex virus induces potent antitumor immunity</article-title>
+<source>Mol. Ther.</source>
+<year>2004</year>
+<volume>9</volume>
+<fpage>658</fpage>
+<lpage>665</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ymthe.2004.02.019</pub-id>
+<?supplied-pmid 15120326?><pub-id pub-id-type="pmid">15120326</pub-id></element-citation></ref><ref id="B17-viruses-08-00045"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Toyoda</surname><given-names>H.</given-names></name><name><surname>Wimmer</surname><given-names>E.</given-names></name><name><surname>Cello</surname><given-names>J.</given-names></name></person-group>
+<article-title>Oncolytic poliovirus therapy and immunization with poliovirus-infected cell lysate induces potent antitumor immunity against neuroblastoma <italic>in vivo</italic></article-title>
+<source>Int. J. Oncol.</source>
+<year>2011</year>
+<volume>38</volume>
+<fpage>81</fpage>
+<lpage>87</lpage>
+<?supplied-pmid 21109928?><pub-id pub-id-type="pmid">21109928</pub-id></element-citation></ref><ref id="B18-viruses-08-00045"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharma</surname><given-names>D.</given-names></name><name><surname>Priyadarshini</surname><given-names>P.</given-names></name><name><surname>Vrati</surname><given-names>S.</given-names></name></person-group>
+<article-title>Unraveling the web of viroinformatics: Computational tools and databases in virus research</article-title>
+<source>J. Virol.</source>
+<year>2015</year>
+<volume>89</volume>
+<fpage>1489</fpage>
+<lpage>1501</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.02027-14</pub-id>
+<?supplied-pmid 25428870?><pub-id pub-id-type="pmid">25428870</pub-id></element-citation></ref><ref id="B19-viruses-08-00045"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heng</surname><given-names>T.S.</given-names></name><name><surname>Painter</surname><given-names>M.W.</given-names></name></person-group>
+<article-title>The immunological genome project: Networks of gene expression in immune cells</article-title>
+<source>Nat. Immunol.</source>
+<year>2008</year>
+<volume>9</volume>
+<fpage>1091</fpage>
+<lpage>1094</lpage>
+<pub-id pub-id-type="doi">10.1038/ni1008-1091</pub-id>
+<?supplied-pmid 18800157?><pub-id pub-id-type="pmid">18800157</pub-id></element-citation></ref><ref id="B20-viruses-08-00045"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>C.C.</given-names></name><name><surname>Lanier</surname><given-names>L.L.</given-names></name></person-group>
+<article-title>Beyond the transcriptome: Completion of act one of the immunological genome project</article-title>
+<source>Curr. Opin. Immunol.</source>
+<year>2013</year>
+<volume>25</volume>
+<fpage>593</fpage>
+<lpage>597</lpage>
+<pub-id pub-id-type="doi">10.1016/j.coi.2013.09.013</pub-id>
+<?supplied-pmid 24168965?><pub-id pub-id-type="pmid">24168965</pub-id></element-citation></ref><ref id="B21-viruses-08-00045"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>M.S.</given-names></name><name><surname>Pinto</surname><given-names>S.M.</given-names></name><name><surname>Getnet</surname><given-names>D.</given-names></name><name><surname>Nirujogi</surname><given-names>R.S.</given-names></name><name><surname>Manda</surname><given-names>S.S.</given-names></name><name><surname>Chaerkady</surname><given-names>R.</given-names></name><name><surname>Madugundu</surname><given-names>A.K.</given-names></name><name><surname>Kelkar</surname><given-names>D.S.</given-names></name><name><surname>Isserlin</surname><given-names>R.</given-names></name><name><surname>Jain</surname><given-names>S.</given-names></name><etal/></person-group>
+<article-title>A draft map of the human proteome</article-title>
+<source>Nature</source>
+<year>2014</year>
+<volume>509</volume>
+<fpage>575</fpage>
+<lpage>581</lpage>
+<pub-id pub-id-type="doi">10.1038/nature13302</pub-id>
+<?supplied-pmid 24870542?><pub-id pub-id-type="pmid">24870542</pub-id></element-citation></ref><ref id="B22-viruses-08-00045"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fensterl</surname><given-names>V.</given-names></name><name><surname>Wetzel</surname><given-names>J.L.</given-names></name><name><surname>Ramachandran</surname><given-names>S.</given-names></name><name><surname>Ogino</surname><given-names>T.</given-names></name><name><surname>Stohlman</surname><given-names>S.A.</given-names></name><name><surname>Bergmann</surname><given-names>C.C.</given-names></name><name><surname>Diamond</surname><given-names>M.S.</given-names></name><name><surname>Virgin</surname><given-names>H.W.</given-names></name><name><surname>Sen</surname><given-names>G.C.</given-names></name></person-group>
+<article-title>Interferon-induced Ifit2/ISG54 protects mice from lethal VSV neuropathogenesis</article-title>
+<source>PLoS Pathog.</source>
+<year>2012</year>
+<volume>8</volume>
+<elocation-id>45</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1002712</pub-id>
+<?supplied-pmid 22615570?><pub-id pub-id-type="pmid">22615570</pub-id></element-citation></ref><ref id="B23-viruses-08-00045"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takeuchi</surname><given-names>O.</given-names></name><name><surname>Akira</surname><given-names>S.</given-names></name></person-group>
+<article-title>Innate immunity to virus infection</article-title>
+<source>Immunol. Rev.</source>
+<year>2009</year>
+<volume>227</volume>
+<fpage>75</fpage>
+<lpage>86</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1600-065X.2008.00737.x</pub-id>
+<?supplied-pmid 19120477?><pub-id pub-id-type="pmid">19120477</pub-id></element-citation></ref><ref id="B24-viruses-08-00045"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katze</surname><given-names>M.G.</given-names></name><name><surname>Fornek</surname><given-names>J.L.</given-names></name><name><surname>Palermo</surname><given-names>R.E.</given-names></name><name><surname>Walters</surname><given-names>K.A.</given-names></name><name><surname>Korth</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>Innate immune modulation by RNA viruses: Emerging insights from functional genomics</article-title>
+<source>Nat. Rev. Immunol.</source>
+<year>2008</year>
+<volume>8</volume>
+<fpage>644</fpage>
+<lpage>654</lpage>
+<pub-id pub-id-type="doi">10.1038/nri2377</pub-id>
+<?supplied-pmid 18654572?><pub-id pub-id-type="pmid">18654572</pub-id></element-citation></ref><ref id="B25-viruses-08-00045"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sadler</surname><given-names>A.J.</given-names></name><name><surname>Williams</surname><given-names>B.R.</given-names></name></person-group>
+<article-title>Interferon-inducible antiviral effectors</article-title>
+<source>Nat. Rev. Immunol.</source>
+<year>2008</year>
+<volume>8</volume>
+<fpage>559</fpage>
+<lpage>568</lpage>
+<pub-id pub-id-type="doi">10.1038/nri2314</pub-id>
+<?supplied-pmid 18575461?><pub-id pub-id-type="pmid">18575461</pub-id></element-citation></ref><ref id="B26-viruses-08-00045"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kumar</surname><given-names>V.</given-names></name><name><surname>Sharma</surname><given-names>A.</given-names></name></person-group>
+<article-title>Neutrophils: Cinderella of innate immune system</article-title>
+<source>Int. Immunopharmacol.</source>
+<year>2010</year>
+<volume>10</volume>
+<fpage>1325</fpage>
+<lpage>1334</lpage>
+<pub-id pub-id-type="doi">10.1016/j.intimp.2010.08.012</pub-id>
+<?supplied-pmid 20828640?><pub-id pub-id-type="pmid">20828640</pub-id></element-citation></ref><ref id="B27-viruses-08-00045"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hanahan</surname><given-names>D.</given-names></name><name><surname>Weinberg</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Hallmarks of cancer: The next generation</article-title>
+<source>Cell</source>
+<year>2011</year>
+<volume>144</volume>
+<fpage>646</fpage>
+<lpage>674</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2011.02.013</pub-id>
+<?supplied-pmid 21376230?><pub-id pub-id-type="pmid">21376230</pub-id></element-citation></ref><ref id="B28-viruses-08-00045"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ilkow</surname><given-names>C.S.</given-names></name><name><surname>Swift</surname><given-names>S.L.</given-names></name><name><surname>Bell</surname><given-names>J.C.</given-names></name><name><surname>Diallo</surname><given-names>J.S.</given-names></name></person-group>
+<article-title>From scourge to cure: Tumour-selective viral pathogenesis as a new strategy against cancer</article-title>
+<source>PLoS Pathog.</source>
+<year>2014</year>
+<volume>10</volume>
+<elocation-id>45</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1003836</pub-id>
+<?supplied-pmid 24453963?><pub-id pub-id-type="pmid">24453963</pub-id></element-citation></ref><ref id="B29-viruses-08-00045"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stojdl</surname><given-names>D.F.</given-names></name><name><surname>Lichty</surname><given-names>B.D.</given-names></name><name><surname>tenOever</surname><given-names>B.R.</given-names></name><name><surname>Paterson</surname><given-names>J.M.</given-names></name><name><surname>Power</surname><given-names>A.T.</given-names></name><name><surname>Knowles</surname><given-names>S.</given-names></name><name><surname>Marius</surname><given-names>R.</given-names></name><name><surname>Reynard</surname><given-names>J.</given-names></name><name><surname>Poliquin</surname><given-names>L.</given-names></name><name><surname>Atkins</surname><given-names>H.</given-names></name><etal/></person-group>
+<article-title>VSV strains with defects in their ability to shutdown innate immunity are potent systemic anti-cancer agents</article-title>
+<source>Cancer Cell</source>
+<year>2003</year>
+<volume>4</volume>
+<fpage>263</fpage>
+<lpage>275</lpage>
+<pub-id pub-id-type="doi">10.1016/S1535-6108(03)00241-1</pub-id>
+<pub-id pub-id-type="pmid">14585354</pub-id></element-citation></ref><ref id="B30-viruses-08-00045"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ruotsalainen</surname><given-names>J.J.</given-names></name><name><surname>Kaikkonen</surname><given-names>M.U.</given-names></name><name><surname>Niittykoski</surname><given-names>M.</given-names></name><name><surname>Martikainen</surname><given-names>M.W.</given-names></name><name><surname>Lemay</surname><given-names>C.G.</given-names></name><name><surname>Cox</surname><given-names>J.</given-names></name><name><surname>de Silva</surname><given-names>N.S.</given-names></name><name><surname>Kus</surname><given-names>A.</given-names></name><name><surname>Falls</surname><given-names>T.J.</given-names></name><name><surname>Diallo</surname><given-names>J.S.</given-names></name><etal/></person-group>
+<article-title>Clonal variation in interferon response determines the outcome of oncolytic virotherapy in mouse CT26 colon carcinoma model</article-title>
+<source>Gene Ther.</source>
+<year>2015</year>
+<volume>22</volume>
+<fpage>65</fpage>
+<lpage>75</lpage>
+<pub-id pub-id-type="doi">10.1038/gt.2014.83</pub-id>
+<?supplied-pmid 25231172?><pub-id pub-id-type="pmid">25231172</pub-id></element-citation></ref><ref id="B31-viruses-08-00045"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brandes</surname><given-names>M.</given-names></name><name><surname>Klauschen</surname><given-names>F.</given-names></name><name><surname>Kuchen</surname><given-names>S.</given-names></name><name><surname>Germain</surname><given-names>R.N.</given-names></name></person-group>
+<article-title>A systems analysis identifies a feedforward inflammatory circuit leading to lethal influenza infection</article-title>
+<source>Cell</source>
+<year>2013</year>
+<volume>154</volume>
+<fpage>197</fpage>
+<lpage>212</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2013.06.013</pub-id>
+<?supplied-pmid 23827683?><pub-id pub-id-type="pmid">23827683</pub-id></element-citation></ref><ref id="B32-viruses-08-00045"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kash</surname><given-names>J.C.</given-names></name><name><surname>Tumpey</surname><given-names>T.M.</given-names></name><name><surname>Proll</surname><given-names>S.C.</given-names></name><name><surname>Carter</surname><given-names>V.</given-names></name><name><surname>Perwitasari</surname><given-names>O.</given-names></name><name><surname>Thomas</surname><given-names>M.J.</given-names></name><name><surname>Basler</surname><given-names>C.F.</given-names></name><name><surname>Palese</surname><given-names>P.</given-names></name><name><surname>Taubenberger</surname><given-names>J.K.</given-names></name><name><surname>Garcia-Sastre</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Genomic analysis of increased host immune and cell death responses induced by 1918 influenza virus</article-title>
+<source>Nature</source>
+<year>2006</year>
+<volume>443</volume>
+<fpage>578</fpage>
+<lpage>581</lpage>
+<pub-id pub-id-type="doi">10.1038/nature05181</pub-id>
+<?supplied-pmid 17006449?><pub-id pub-id-type="pmid">17006449</pub-id></element-citation></ref><ref id="B33-viruses-08-00045"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwab</surname><given-names>L.</given-names></name><name><surname>Goroncy</surname><given-names>L.</given-names></name><name><surname>Palaniyandi</surname><given-names>S.</given-names></name><name><surname>Gautam</surname><given-names>S.</given-names></name><name><surname>Triantafyllopoulou</surname><given-names>A.</given-names></name><name><surname>Mocsai</surname><given-names>A.</given-names></name><name><surname>Reichardt</surname><given-names>W.</given-names></name><name><surname>Karlsson</surname><given-names>F.J.</given-names></name><name><surname>Radhakrishnan</surname><given-names>S.V.</given-names></name><name><surname>Hanke</surname><given-names>K.</given-names></name><etal/></person-group>
+<article-title>Neutrophil granulocytes recruited upon translocation of intestinal bacteria enhance graft-<italic>versus</italic>-host disease via tissue damage</article-title>
+<source>Nat. Med.</source>
+<year>2014</year>
+<volume>20</volume>
+<fpage>648</fpage>
+<lpage>654</lpage>
+<pub-id pub-id-type="doi">10.1038/nm.3517</pub-id>
+<?supplied-pmid 24836575?><pub-id pub-id-type="pmid">24836575</pub-id></element-citation></ref><ref id="B34-viruses-08-00045"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herz</surname><given-names>J.</given-names></name><name><surname>Johnson</surname><given-names>K.R.</given-names></name><name><surname>McGavern</surname><given-names>D.B.</given-names></name></person-group>
+<article-title>Therapeutic antiviral T cells noncytopathically clear persistently infected microglia after conversion into antigen-presenting cells</article-title>
+<source>J. Exp. Med.</source>
+<year>2015</year>
+<volume>212</volume>
+<fpage>1153</fpage>
+<lpage>1169</lpage>
+<pub-id pub-id-type="doi">10.1084/jem.20142047</pub-id>
+<?supplied-pmid 26122661?><pub-id pub-id-type="pmid">26122661</pub-id></element-citation></ref><ref id="B35-viruses-08-00045"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Banchereau</surname><given-names>R.</given-names></name><name><surname>Baldwin</surname><given-names>N.</given-names></name><name><surname>Cepika</surname><given-names>A.M.</given-names></name><name><surname>Athale</surname><given-names>S.</given-names></name><name><surname>Xue</surname><given-names>Y.</given-names></name><name><surname>Yu</surname><given-names>C.I.</given-names></name><name><surname>Metang</surname><given-names>P.</given-names></name><name><surname>Cheruku</surname><given-names>A.</given-names></name><name><surname>Berthier</surname><given-names>I.</given-names></name><name><surname>Gayet</surname><given-names>I.</given-names></name><etal/></person-group>
+<article-title>Transcriptional specialization of human dendritic cell subsets in response to microbial vaccines</article-title>
+<source>Nat. Commun.</source>
+<year>2014</year>
+<volume>5</volume>
+<pub-id pub-id-type="doi">10.1038/ncomms6283</pub-id>
+<?supplied-pmid 25335753?><pub-id pub-id-type="pmid">25335753</pub-id></element-citation></ref><ref id="B36-viruses-08-00045"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kmiecik</surname><given-names>J.</given-names></name><name><surname>Poli</surname><given-names>A.</given-names></name><name><surname>Brons</surname><given-names>N.H.</given-names></name><name><surname>Waha</surname><given-names>A.</given-names></name><name><surname>Eide</surname><given-names>G.E.</given-names></name><name><surname>Enger</surname><given-names>P.O.</given-names></name><name><surname>Zimmer</surname><given-names>J.</given-names></name><name><surname>Chekenya</surname><given-names>M.</given-names></name></person-group>
+<article-title>Elevated CD3<sup>+</sup> and CD8<sup>+</sup> tumor-infiltrating immune cells correlate with prolonged survival in glioblastoma patients despite integrated immunosuppressive mechanisms in the tumor microenvironment and at the systemic level</article-title>
+<source>J. Neuroimmunol.</source>
+<year>2013</year>
+<volume>264</volume>
+<fpage>71</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jneuroim.2013.08.013</pub-id>
+<?supplied-pmid 24045166?><pub-id pub-id-type="pmid">24045166</pub-id></element-citation></ref><ref id="B37-viruses-08-00045"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>L.</given-names></name><name><surname>Conejo-Garcia</surname><given-names>J.R.</given-names></name><name><surname>Katsaros</surname><given-names>D.</given-names></name><name><surname>Gimotty</surname><given-names>P.A.</given-names></name><name><surname>Massobrio</surname><given-names>M.</given-names></name><name><surname>Regnani</surname><given-names>G.</given-names></name><name><surname>Makrigiannakis</surname><given-names>A.</given-names></name><name><surname>Gray</surname><given-names>H.</given-names></name><name><surname>Schlienger</surname><given-names>K.</given-names></name><name><surname>Liebman</surname><given-names>M.N.</given-names></name><etal/></person-group>
+<article-title>Intratumoral T cells, recurrence, and survival in epithelial ovarian cancer</article-title>
+<source>N. Engl. J. Med.</source>
+<year>2003</year>
+<volume>348</volume>
+<fpage>203</fpage>
+<lpage>213</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJMoa020177</pub-id>
+<?supplied-pmid 12529460?><pub-id pub-id-type="pmid">12529460</pub-id></element-citation></ref><ref id="B38-viruses-08-00045"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Galon</surname><given-names>J.</given-names></name><name><surname>Costes</surname><given-names>A.</given-names></name><name><surname>Sanchez-Cabo</surname><given-names>F.</given-names></name><name><surname>Kirilovsky</surname><given-names>A.</given-names></name><name><surname>Mlecnik</surname><given-names>B.</given-names></name><name><surname>Lagorce-Pages</surname><given-names>C.</given-names></name><name><surname>Tosolini</surname><given-names>M.</given-names></name><name><surname>Camus</surname><given-names>M.</given-names></name><name><surname>Berger</surname><given-names>A.</given-names></name><name><surname>Wind</surname><given-names>P.</given-names></name><etal/></person-group>
+<article-title>Type, density, and location of immune cells within human colorectal tumors predict clinical outcome</article-title>
+<source>Science</source>
+<year>2006</year>
+<volume>313</volume>
+<fpage>1960</fpage>
+<lpage>1964</lpage>
+<pub-id pub-id-type="doi">10.1126/science.1129139</pub-id>
+<?supplied-pmid 17008531?><pub-id pub-id-type="pmid">17008531</pub-id></element-citation></ref><ref id="B39-viruses-08-00045"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Slifka</surname><given-names>M.K.</given-names></name><name><surname>Rodriguez</surname><given-names>F.</given-names></name><name><surname>Whitton</surname><given-names>J.L.</given-names></name></person-group>
+<article-title>Rapid on/off cycling of cytokine production by virus-specific CD8<sup>+</sup> T cells</article-title>
+<source>Nature</source>
+<year>1999</year>
+<volume>401</volume>
+<fpage>76</fpage>
+<lpage>79</lpage>
+<pub-id pub-id-type="doi">10.1038/43454</pub-id>
+<?supplied-pmid 10485708?><pub-id pub-id-type="pmid">10485708</pub-id></element-citation></ref><ref id="B40-viruses-08-00045"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McGray</surname><given-names>A.J.</given-names></name><name><surname>Hallett</surname><given-names>R.</given-names></name><name><surname>Bernard</surname><given-names>D.</given-names></name><name><surname>Swift</surname><given-names>S.L.</given-names></name><name><surname>Zhu</surname><given-names>Z.</given-names></name><name><surname>Teoderascu</surname><given-names>F.</given-names></name><name><surname>Vanseggelen</surname><given-names>H.</given-names></name><name><surname>Hassell</surname><given-names>J.A.</given-names></name><name><surname>Hurwitz</surname><given-names>A.A.</given-names></name><name><surname>Wan</surname><given-names>Y.</given-names></name><etal/></person-group>
+<article-title>Immunotherapy-induced CD8<sup>+</sup> T cells instigate immune suppression in the tumor</article-title>
+<source>Mol. Ther.</source>
+<year>2014</year>
+<volume>22</volume>
+<fpage>206</fpage>
+<lpage>218</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2013.255</pub-id>
+<?supplied-pmid 24196579?><pub-id pub-id-type="pmid">24196579</pub-id></element-citation></ref><ref id="B41-viruses-08-00045"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Best</surname><given-names>J.A.</given-names></name><name><surname>Blair</surname><given-names>D.A.</given-names></name><name><surname>Knell</surname><given-names>J.</given-names></name><name><surname>Yang</surname><given-names>E.</given-names></name><name><surname>Mayya</surname><given-names>V.</given-names></name><name><surname>Doedens</surname><given-names>A.</given-names></name><name><surname>Dustin</surname><given-names>M.L.</given-names></name><name><surname>Goldrath</surname><given-names>A.W.</given-names></name></person-group>
+<article-title>Transcriptional insights into the CD8<sup>+</sup> T cell response to infection and memory T cell formation</article-title>
+<source>Nat. Immunol.</source>
+<year>2013</year>
+<volume>14</volume>
+<fpage>404</fpage>
+<lpage>412</lpage>
+<pub-id pub-id-type="doi">10.1038/ni.2536</pub-id>
+<?supplied-pmid 23396170?><pub-id pub-id-type="pmid">23396170</pub-id></element-citation></ref><ref id="B42-viruses-08-00045"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>M.D.</given-names></name><name><surname>Kim</surname><given-names>M.T.</given-names></name><name><surname>Shan</surname><given-names>Q.</given-names></name><name><surname>Sompallae</surname><given-names>R.</given-names></name><name><surname>Xue</surname><given-names>H.H.</given-names></name><name><surname>Harty</surname><given-names>J.T.</given-names></name><name><surname>Badovinac</surname><given-names>V.P.</given-names></name></person-group>
+<article-title>Phenotypic and functional alterations in circulating memory CD8 T cells with time after primary infection</article-title>
+<source>PLoS Pathog.</source>
+<year>2015</year>
+<volume>11</volume>
+<elocation-id>45</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.ppat.1005219</pub-id>
+<?supplied-pmid 26485703?><pub-id pub-id-type="pmid">26485703</pub-id></element-citation></ref><ref id="B43-viruses-08-00045"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bridle</surname><given-names>B.W.</given-names></name><name><surname>Clouthier</surname><given-names>D.</given-names></name><name><surname>Zhang</surname><given-names>L.</given-names></name><name><surname>Pol</surname><given-names>J.</given-names></name><name><surname>Chen</surname><given-names>L.</given-names></name><name><surname>Lichty</surname><given-names>B.D.</given-names></name><name><surname>Bramson</surname><given-names>J.L.</given-names></name><name><surname>Wan</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Oncolytic vesicular stomatitis virus quantitatively and qualitatively improves primary CD8 T-cell responses to anticancer vaccines</article-title>
+<source>Oncoimmunology</source>
+<year>2013</year>
+<volume>2</volume>
+<pub-id pub-id-type="doi">10.4161/onci.26013</pub-id>
+<?supplied-pmid 24083086?><pub-id pub-id-type="pmid">24083086</pub-id></element-citation></ref><ref id="B44-viruses-08-00045"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pol</surname><given-names>J.G.</given-names></name><name><surname>Zhang</surname><given-names>L.</given-names></name><name><surname>Bridle</surname><given-names>B.W.</given-names></name><name><surname>Stephenson</surname><given-names>K.B.</given-names></name><name><surname>Resseguier</surname><given-names>J.</given-names></name><name><surname>Hanson</surname><given-names>S.</given-names></name><name><surname>Chen</surname><given-names>L.</given-names></name><name><surname>Kazdhan</surname><given-names>N.</given-names></name><name><surname>Bramson</surname><given-names>J.L.</given-names></name><name><surname>Stojdl</surname><given-names>D.F.</given-names></name><etal/></person-group>
+<article-title>Maraba virus as a potent oncolytic vaccine vector</article-title>
+<source>Mol. Ther.</source>
+<year>2014</year>
+<volume>22</volume>
+<fpage>420</fpage>
+<lpage>429</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2013.249</pub-id>
+<?supplied-pmid 24322333?><pub-id pub-id-type="pmid">24322333</pub-id></element-citation></ref><ref id="B45-viruses-08-00045"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhou</surname><given-names>P.</given-names></name><name><surname>Shaffer</surname><given-names>D.R.</given-names></name><name><surname>Alvarez Arias</surname><given-names>D.A.</given-names></name><name><surname>Nakazaki</surname><given-names>Y.</given-names></name><name><surname>Pos</surname><given-names>W.</given-names></name><name><surname>Torres</surname><given-names>A.J.</given-names></name><name><surname>Cremasco</surname><given-names>V.</given-names></name><name><surname>Dougan</surname><given-names>S.K.</given-names></name><name><surname>Cowley</surname><given-names>G.S.</given-names></name><name><surname>Elpek</surname><given-names>K.</given-names></name><etal/></person-group>
+<article-title><italic>In vivo</italic> discovery of immunotherapy targets in the tumour microenvironment</article-title>
+<source>Nature</source>
+<year>2014</year>
+<volume>506</volume>
+<fpage>52</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="doi">10.1038/nature12988</pub-id>
+<?supplied-pmid 24476824?><pub-id pub-id-type="pmid">24476824</pub-id></element-citation></ref><ref id="B46-viruses-08-00045"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wongthida</surname><given-names>P.</given-names></name><name><surname>Diaz</surname><given-names>R.M.</given-names></name><name><surname>Galivo</surname><given-names>F.</given-names></name><name><surname>Kottke</surname><given-names>T.</given-names></name><name><surname>Thompson</surname><given-names>J.</given-names></name><name><surname>Melcher</surname><given-names>A.</given-names></name><name><surname>Vile</surname><given-names>R.</given-names></name></person-group>
+<article-title>VSV oncolytic virotherapy in the B16 model depends upon intact MyD88 signaling</article-title>
+<source>Mol. Ther.</source>
+<year>2011</year>
+<volume>19</volume>
+<fpage>150</fpage>
+<lpage>158</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2010.225</pub-id>
+<?supplied-pmid 20959810?><pub-id pub-id-type="pmid">20959810</pub-id></element-citation></ref><ref id="B47-viruses-08-00045"><label>47.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rommelfanger</surname><given-names>D.M.</given-names></name><name><surname>Wongthida</surname><given-names>P.</given-names></name><name><surname>Diaz</surname><given-names>R.M.</given-names></name><name><surname>Kaluza</surname><given-names>K.M.</given-names></name><name><surname>Thompson</surname><given-names>J.M.</given-names></name><name><surname>Kottke</surname><given-names>T.J.</given-names></name><name><surname>Vile</surname><given-names>R.G.</given-names></name></person-group>
+<article-title>Systemic combination virotherapy for melanoma with tumor antigen-expressing vesicular stomatitis virus and adoptive T-cell transfer</article-title>
+<source>Cancer Res.</source>
+<year>2012</year>
+<volume>72</volume>
+<fpage>4753</fpage>
+<lpage>4764</lpage>
+<pub-id pub-id-type="doi">10.1158/0008-5472.CAN-12-0600</pub-id>
+<?supplied-pmid 22836753?><pub-id pub-id-type="pmid">22836753</pub-id></element-citation></ref><ref id="B48-viruses-08-00045"><label>48.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tahtinen</surname><given-names>S.</given-names></name><name><surname>Gronberg-Vaha-Koskela</surname><given-names>S.</given-names></name><name><surname>Lumen</surname><given-names>D.</given-names></name><name><surname>Merisalo-Soikkeli</surname><given-names>M.</given-names></name><name><surname>Siurala</surname><given-names>M.</given-names></name><name><surname>Airaksinen</surname><given-names>A.J.</given-names></name><name><surname>Vaha-Koskela</surname><given-names>M.</given-names></name><name><surname>Hemminki</surname><given-names>A.</given-names></name></person-group>
+<article-title>Adenovirus improves the efficacy of adoptive T-cell therapy by recruiting immune cells to and promoting their activity at the tumor</article-title>
+<source>Cancer Immunol. Res.</source>
+<year>2015</year>
+<volume>3</volume>
+<fpage>915</fpage>
+<lpage>925</lpage>
+<pub-id pub-id-type="doi">10.1158/2326-6066.CIR-14-0220-T</pub-id>
+<?supplied-pmid 25977260?><pub-id pub-id-type="pmid">25977260</pub-id></element-citation></ref><ref id="B49-viruses-08-00045"><label>49.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>Y.C.</given-names></name><name><surname>Mahalingam</surname><given-names>J.</given-names></name><name><surname>Chiang</surname><given-names>J.M.</given-names></name><name><surname>Su</surname><given-names>P.J.</given-names></name><name><surname>Chu</surname><given-names>Y.Y.</given-names></name><name><surname>Lai</surname><given-names>H.Y.</given-names></name><name><surname>Fang</surname><given-names>J.H.</given-names></name><name><surname>Huang</surname><given-names>C.T.</given-names></name><name><surname>Chiu</surname><given-names>C.T.</given-names></name><name><surname>Lin</surname><given-names>C.Y.</given-names></name></person-group>
+<article-title>Activated but not resting regulatory T cells accumulated in tumor microenvironment and correlated with tumor progression in patients with colorectal cancer</article-title>
+<source>Int. J. Cancer</source>
+<year>2013</year>
+<volume>132</volume>
+<fpage>1341</fpage>
+<lpage>1350</lpage>
+<pub-id pub-id-type="doi">10.1002/ijc.27784</pub-id>
+<?supplied-pmid 22907255?><pub-id pub-id-type="pmid">22907255</pub-id></element-citation></ref><ref id="B50-viruses-08-00045"><label>50.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Albert</surname><given-names>M.H.</given-names></name><name><surname>Mannert</surname><given-names>J.</given-names></name><name><surname>Fleischmann</surname><given-names>K.K.</given-names></name><name><surname>Schiemann</surname><given-names>M.</given-names></name><name><surname>Pagel</surname><given-names>P.</given-names></name><name><surname>Schmid</surname><given-names>I.</given-names></name><name><surname>Magg</surname><given-names>T.</given-names></name></person-group>
+<article-title>Mirnome and transcriptome aided pathway analysis in human regulatory T cells</article-title>
+<source>Genes Immun.</source>
+<year>2014</year>
+<volume>15</volume>
+<fpage>303</fpage>
+<lpage>312</lpage>
+<pub-id pub-id-type="doi">10.1038/gene.2014.20</pub-id>
+<?supplied-pmid 24848933?><pub-id pub-id-type="pmid">24848933</pub-id></element-citation></ref><ref id="B51-viruses-08-00045"><label>51.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hao</surname><given-names>N.B.</given-names></name><name><surname>Lu</surname><given-names>M.H.</given-names></name><name><surname>Fan</surname><given-names>Y.H.</given-names></name><name><surname>Cao</surname><given-names>Y.L.</given-names></name><name><surname>Zhang</surname><given-names>Z.R.</given-names></name><name><surname>Yang</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Macrophages in tumor microenvironments and the progression of tumors</article-title>
+<source>Clin. Dev. Immunol.</source>
+<year>2012</year>
+<volume>2012</volume>
+<pub-id pub-id-type="doi">10.1155/2012/948098</pub-id>
+<?supplied-pmid 22778768?><pub-id pub-id-type="pmid">22778768</pub-id></element-citation></ref><ref id="B52-viruses-08-00045"><label>52.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jha</surname><given-names>A.K.</given-names></name><name><surname>Huang</surname><given-names>S.C.</given-names></name><name><surname>Sergushichev</surname><given-names>A.</given-names></name><name><surname>Lampropoulou</surname><given-names>V.</given-names></name><name><surname>Ivanova</surname><given-names>Y.</given-names></name><name><surname>Loginicheva</surname><given-names>E.</given-names></name><name><surname>Chmielewski</surname><given-names>K.</given-names></name><name><surname>Stewart</surname><given-names>K.M.</given-names></name><name><surname>Ashall</surname><given-names>J.</given-names></name><name><surname>Everts</surname><given-names>B.</given-names></name><etal/></person-group>
+<article-title>Network integration of parallel metabolic and transcriptional data reveals metabolic modules that regulate macrophage polarization</article-title>
+<source>Immunity</source>
+<year>2015</year>
+<volume>42</volume>
+<fpage>419</fpage>
+<lpage>430</lpage>
+<pub-id pub-id-type="doi">10.1016/j.immuni.2015.02.005</pub-id>
+<?supplied-pmid 25786174?><pub-id pub-id-type="pmid">25786174</pub-id></element-citation></ref><ref id="B53-viruses-08-00045"><label>53.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chaussabel</surname><given-names>D.</given-names></name><name><surname>Quinn</surname><given-names>C.</given-names></name><name><surname>Shen</surname><given-names>J.</given-names></name><name><surname>Patel</surname><given-names>P.</given-names></name><name><surname>Glaser</surname><given-names>C.</given-names></name><name><surname>Baldwin</surname><given-names>N.</given-names></name><name><surname>Stichweh</surname><given-names>D.</given-names></name><name><surname>Blankenship</surname><given-names>D.</given-names></name><name><surname>Li</surname><given-names>L.</given-names></name><name><surname>Munagala</surname><given-names>I.</given-names></name><etal/></person-group>
+<article-title>A modular analysis framework for blood genomics studies: Application to systemic lupus erythematosus</article-title>
+<source>Immunity</source>
+<year>2008</year>
+<volume>29</volume>
+<fpage>150</fpage>
+<lpage>164</lpage>
+<pub-id pub-id-type="doi">10.1016/j.immuni.2008.05.012</pub-id>
+<?supplied-pmid 18631455?><pub-id pub-id-type="pmid">18631455</pub-id></element-citation></ref><ref id="B54-viruses-08-00045"><label>54.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pommerenke</surname><given-names>C.</given-names></name><name><surname>Wilk</surname><given-names>E.</given-names></name><name><surname>Srivastava</surname><given-names>B.</given-names></name><name><surname>Schulze</surname><given-names>A.</given-names></name><name><surname>Novoselova</surname><given-names>N.</given-names></name><name><surname>Geffers</surname><given-names>R.</given-names></name><name><surname>Schughart</surname><given-names>K.</given-names></name></person-group>
+<article-title>Global transcriptome analysis in influenza-infected mouse lungs reveals the kinetics of innate and adaptive host immune responses</article-title>
+<source>PLoS ONE</source>
+<year>2012</year>
+<volume>7</volume>
+<elocation-id>45</elocation-id>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0041169</pub-id>
+<?supplied-pmid 22815957?><pub-id pub-id-type="pmid">22815957</pub-id></element-citation></ref><ref id="B55-viruses-08-00045"><label>55.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dimitrakopoulou</surname><given-names>K.</given-names></name><name><surname>Dimitrakopoulos</surname><given-names>G.N.</given-names></name><name><surname>Wilk</surname><given-names>E.</given-names></name><name><surname>Tsimpouris</surname><given-names>C.</given-names></name><name><surname>Sgarbas</surname><given-names>K.N.</given-names></name><name><surname>Schughart</surname><given-names>K.</given-names></name><name><surname>Bezerianos</surname><given-names>A.</given-names></name></person-group>
+<article-title>Influenza A immunomics and public health omics: The dynamic pathway interplay in host response to H1N1 infection</article-title>
+<source>OMICS</source>
+<year>2014</year>
+<volume>18</volume>
+<fpage>167</fpage>
+<lpage>183</lpage>
+<pub-id pub-id-type="doi">10.1089/omi.2013.0062</pub-id>
+<?supplied-pmid 24512282?><pub-id pub-id-type="pmid">24512282</pub-id></element-citation></ref><ref id="B56-viruses-08-00045"><label>56.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vanwolleghem</surname><given-names>T.</given-names></name><name><surname>Hou</surname><given-names>J.</given-names></name><name><surname>van Oord</surname><given-names>G.</given-names></name><name><surname>Andeweg</surname><given-names>A.C.</given-names></name><name><surname>Osterhaus</surname><given-names>A.D.</given-names></name><name><surname>Pas</surname><given-names>S.D.</given-names></name><name><surname>Janssen</surname><given-names>H.L.</given-names></name><name><surname>Boonstra</surname><given-names>A.</given-names></name></person-group>
+<article-title>Re-evaluation of hepatitis B virus clinical phases by systems biology identifies unappreciated roles for the innate immune response and B cells</article-title>
+<source>Hepatology</source>
+<year>2015</year>
+<volume>62</volume>
+<fpage>87</fpage>
+<lpage>100</lpage>
+<pub-id pub-id-type="doi">10.1002/hep.27805</pub-id>
+<?supplied-pmid 25808668?><pub-id pub-id-type="pmid">25808668</pub-id></element-citation></ref><ref id="B57-viruses-08-00045"><label>57.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mahoney</surname><given-names>D.J.</given-names></name><name><surname>Lefebvre</surname><given-names>C.</given-names></name><name><surname>Allan</surname><given-names>K.</given-names></name><name><surname>Brun</surname><given-names>J.</given-names></name><name><surname>Sanaei</surname><given-names>C.A.</given-names></name><name><surname>Baird</surname><given-names>S.</given-names></name><name><surname>Pearce</surname><given-names>N.</given-names></name><name><surname>Gronberg</surname><given-names>S.</given-names></name><name><surname>Wilson</surname><given-names>B.</given-names></name><name><surname>Prakesh</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Virus-tumor interactome screen reveals ER stress response can reprogram resistant cancers for oncolytic virus-triggered caspase-2 cell death</article-title>
+<source>Cancer Cell</source>
+<year>2011</year>
+<volume>20</volume>
+<fpage>443</fpage>
+<lpage>456</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ccr.2011.09.005</pub-id>
+<?supplied-pmid 22014571?><pub-id pub-id-type="pmid">22014571</pub-id></element-citation></ref><ref id="B58-viruses-08-00045"><label>58.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Al-Yahya</surname><given-names>S.</given-names></name><name><surname>Mahmoud</surname><given-names>L.</given-names></name><name><surname>Al-Zoghaibi</surname><given-names>F.</given-names></name><name><surname>Al-Tuhami</surname><given-names>A.</given-names></name><name><surname>Amer</surname><given-names>H.</given-names></name><name><surname>Almajhdi</surname><given-names>F.N.</given-names></name><name><surname>Polyak</surname><given-names>S.J.</given-names></name><name><surname>Khabar</surname><given-names>K.S.</given-names></name></person-group>
+<article-title>Human cytokinome analysis for interferon response</article-title>
+<source>J. Virol.</source>
+<year>2015</year>
+<volume>89</volume>
+<fpage>7108</fpage>
+<lpage>7119</lpage>
+<pub-id pub-id-type="doi">10.1128/JVI.03729-14</pub-id>
+<?supplied-pmid 25926649?><pub-id pub-id-type="pmid">25926649</pub-id></element-citation></ref><ref id="B59-viruses-08-00045"><label>59.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Varble</surname><given-names>A.</given-names></name><name><surname>Benitez</surname><given-names>A.A.</given-names></name><name><surname>Schmid</surname><given-names>S.</given-names></name><name><surname>Sachs</surname><given-names>D.</given-names></name><name><surname>Shim</surname><given-names>J.V.</given-names></name><name><surname>Rodriguez-Barrueco</surname><given-names>R.</given-names></name><name><surname>Panis</surname><given-names>M.</given-names></name><name><surname>Crumiller</surname><given-names>M.</given-names></name><name><surname>Silva</surname><given-names>J.M.</given-names></name><name><surname>Sachidanandam</surname><given-names>R.</given-names></name><etal/></person-group>
+<article-title>An <italic>in vivo</italic> RNAi screening approach to identify host determinants of virus replication</article-title>
+<source>Cell Host Microbe</source>
+<year>2013</year>
+<volume>14</volume>
+<fpage>346</fpage>
+<lpage>356</lpage>
+<pub-id pub-id-type="doi">10.1016/j.chom.2013.08.007</pub-id>
+<?supplied-pmid 24034620?><pub-id pub-id-type="pmid">24034620</pub-id></element-citation></ref><ref id="B60-viruses-08-00045"><label>60.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hofmann</surname><given-names>E.</given-names></name><name><surname>Weibel</surname><given-names>S.</given-names></name><name><surname>Szalay</surname><given-names>A.A.</given-names></name></person-group>
+<article-title>Combination treatment with oncolytic vaccinia virus and cyclophosphamide results in synergistic antitumor effects in human lung adenocarcinoma bearing mice</article-title>
+<source>J. Transl. Med.</source>
+<year>2014</year>
+<volume>12</volume>
+<pub-id pub-id-type="doi">10.1186/1479-5876-12-197</pub-id>
+<?supplied-pmid 25030093?><pub-id pub-id-type="pmid">25030093</pub-id></element-citation></ref><ref id="B61-viruses-08-00045"><label>61.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ottolino-Perry</surname><given-names>K.</given-names></name><name><surname>Acuna</surname><given-names>S.A.</given-names></name><name><surname>Angarita</surname><given-names>F.A.</given-names></name><name><surname>Sellers</surname><given-names>C.</given-names></name><name><surname>Zerhouni</surname><given-names>S.</given-names></name><name><surname>Tang</surname><given-names>N.</given-names></name><name><surname>McCart</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Oncolytic vaccinia virus synergizes with irinotecan in colorectal cancer</article-title>
+<source>Mol. Oncol.</source>
+<year>2015</year>
+<volume>9</volume>
+<fpage>1539</fpage>
+<lpage>1552</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molonc.2015.04.009</pub-id>
+<?supplied-pmid 26004084?><pub-id pub-id-type="pmid">26004084</pub-id></element-citation></ref><ref id="B62-viruses-08-00045"><label>62.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siurala</surname><given-names>M.</given-names></name><name><surname>Bramante</surname><given-names>S.</given-names></name><name><surname>Vassilev</surname><given-names>L.</given-names></name><name><surname>Hirvinen</surname><given-names>M.</given-names></name><name><surname>Parviainen</surname><given-names>S.</given-names></name><name><surname>Tahtinen</surname><given-names>S.</given-names></name><name><surname>Guse</surname><given-names>K.</given-names></name><name><surname>Cerullo</surname><given-names>V.</given-names></name><name><surname>Kanerva</surname><given-names>A.</given-names></name><name><surname>Kipar</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Oncolytic adenovirus and doxorubicin-based chemotherapy results in synergistic antitumor activity against soft-tissue sarcoma</article-title>
+<source>Int. J. Cancer</source>
+<year>2015</year>
+<volume>136</volume>
+<fpage>945</fpage>
+<lpage>954</lpage>
+<pub-id pub-id-type="doi">10.1002/ijc.29048</pub-id>
+<?supplied-pmid 24975392?><pub-id pub-id-type="pmid">24975392</pub-id></element-citation></ref><ref id="B63-viruses-08-00045"><label>63.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pandha</surname><given-names>H.S.</given-names></name><name><surname>Heinemann</surname><given-names>L.</given-names></name><name><surname>Simpson</surname><given-names>G.R.</given-names></name><name><surname>Melcher</surname><given-names>A.</given-names></name><name><surname>Prestwich</surname><given-names>R.</given-names></name><name><surname>Errington</surname><given-names>F.</given-names></name><name><surname>Coffey</surname><given-names>M.</given-names></name><name><surname>Harrington</surname><given-names>K.J.</given-names></name><name><surname>Morgan</surname><given-names>R.</given-names></name></person-group>
+<article-title>Synergistic effects of oncolytic reovirus and cisplatin chemotherapy in murine malignant melanoma</article-title>
+<source>Clin. Cancer Res.</source>
+<year>2009</year>
+<volume>15</volume>
+<fpage>6158</fpage>
+<lpage>6166</lpage>
+<pub-id pub-id-type="doi">10.1158/1078-0432.CCR-09-0796</pub-id>
+<?supplied-pmid 19773377?><pub-id pub-id-type="pmid">19773377</pub-id></element-citation></ref><ref id="B64-viruses-08-00045"><label>64.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kroemer</surname><given-names>G.</given-names></name><name><surname>Galluzzi</surname><given-names>L.</given-names></name><name><surname>Kepp</surname><given-names>O.</given-names></name><name><surname>Zitvogel</surname><given-names>L.</given-names></name></person-group>
+<article-title>Immunogenic cell death in cancer therapy</article-title>
+<source>Annu. Rev. Immunol.</source>
+<year>2013</year>
+<volume>31</volume>
+<fpage>51</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="doi">10.1146/annurev-immunol-032712-100008</pub-id>
+<?supplied-pmid 23157435?><pub-id pub-id-type="pmid">23157435</pub-id></element-citation></ref><ref id="B65-viruses-08-00045"><label>65.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guo</surname><given-names>Z.S.</given-names></name><name><surname>Liu</surname><given-names>Z.</given-names></name><name><surname>Bartlett</surname><given-names>D.L.</given-names></name></person-group>
+<article-title>Oncolytic immunotherapy: Dying the right way is a key to eliciting potent antitumor immunity</article-title>
+<source>Front. Oncol.</source>
+<year>2014</year>
+<volume>4</volume>
+<pub-id pub-id-type="doi">10.3389/fonc.2014.00074</pub-id>
+<?supplied-pmid 24782985?><pub-id pub-id-type="pmid">24782985</pub-id></element-citation></ref><ref id="B66-viruses-08-00045"><label>66.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Workenhe</surname><given-names>S.T.</given-names></name><name><surname>Mossman</surname><given-names>K.L.</given-names></name></person-group>
+<article-title>Oncolytic virotherapy and immunogenic cancer cell death: Sharpening the sword for improved cancer treatment strategies</article-title>
+<source>Mol. Ther.</source>
+<year>2014</year>
+<volume>22</volume>
+<fpage>251</fpage>
+<lpage>256</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2013.220</pub-id>
+<?supplied-pmid 24048442?><pub-id pub-id-type="pmid">24048442</pub-id></element-citation></ref><ref id="B67-viruses-08-00045"><label>67.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bezu</surname><given-names>L.</given-names></name><name><surname>Gomes-de-Silva</surname><given-names>L.C.</given-names></name><name><surname>Dewitte</surname><given-names>H.</given-names></name><name><surname>Breckpot</surname><given-names>K.</given-names></name><name><surname>Fucikova</surname><given-names>J.</given-names></name><name><surname>Spisek</surname><given-names>R.</given-names></name><name><surname>Galluzzi</surname><given-names>L.</given-names></name><name><surname>Kepp</surname><given-names>O.</given-names></name><name><surname>Kroemer</surname><given-names>G.</given-names></name></person-group>
+<article-title>Combinatorial strategies for the induction of immunogenic cell death</article-title>
+<source>Front. Immunol.</source>
+<year>2015</year>
+<volume>6</volume>
+<pub-id pub-id-type="doi">10.3389/fimmu.2015.00187</pub-id>
+<?supplied-pmid 25964783?><pub-id pub-id-type="pmid">25964783</pub-id></element-citation></ref><ref id="B68-viruses-08-00045"><label>68.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kepp</surname><given-names>O.</given-names></name><name><surname>Senovilla</surname><given-names>L.</given-names></name><name><surname>Vitale</surname><given-names>I.</given-names></name><name><surname>Vacchelli</surname><given-names>E.</given-names></name><name><surname>Adjemian</surname><given-names>S.</given-names></name><name><surname>Agostinis</surname><given-names>P.</given-names></name><name><surname>Apetoh</surname><given-names>L.</given-names></name><name><surname>Aranda</surname><given-names>F.</given-names></name><name><surname>Barnaba</surname><given-names>V.</given-names></name><name><surname>Bloy</surname><given-names>N.</given-names></name><etal/></person-group>
+<article-title>Consensus guidelines for the detection of immunogenic cell death</article-title>
+<source>Oncoimmunology</source>
+<year>2014</year>
+<volume>3</volume>
+<pub-id pub-id-type="doi">10.4161/21624011.2014.955691</pub-id>
+<?supplied-pmid 25941621?><pub-id pub-id-type="pmid">25941621</pub-id></element-citation></ref><ref id="B69-viruses-08-00045"><label>69.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lesterhuis</surname><given-names>W.J.</given-names></name><name><surname>Rinaldi</surname><given-names>C.</given-names></name><name><surname>Jones</surname><given-names>A.</given-names></name><name><surname>Rozali</surname><given-names>E.N.</given-names></name><name><surname>Dick</surname><given-names>I.M.</given-names></name><name><surname>Khong</surname><given-names>A.</given-names></name><name><surname>Boon</surname><given-names>L.</given-names></name><name><surname>Robinson</surname><given-names>B.W.</given-names></name><name><surname>Nowak</surname><given-names>A.K.</given-names></name><name><surname>Bosco</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Network analysis of immunotherapy-induced regressing tumours identifies novel synergistic drug combinations</article-title>
+<source>Sci. Rep.</source>
+<year>2015</year>
+<volume>5</volume>
+<pub-id pub-id-type="doi">10.1038/srep12298</pub-id>
+<?supplied-pmid 26193793?><pub-id pub-id-type="pmid">26193793</pub-id></element-citation></ref><ref id="B70-viruses-08-00045"><label>70.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khandelwal</surname><given-names>N.</given-names></name><name><surname>Breinig</surname><given-names>M.</given-names></name><name><surname>Speck</surname><given-names>T.</given-names></name><name><surname>Michels</surname><given-names>T.</given-names></name><name><surname>Kreutzer</surname><given-names>C.</given-names></name><name><surname>Sorrentino</surname><given-names>A.</given-names></name><name><surname>Sharma</surname><given-names>A.K.</given-names></name><name><surname>Umansky</surname><given-names>L.</given-names></name><name><surname>Conrad</surname><given-names>H.</given-names></name><name><surname>Poschke</surname><given-names>I.</given-names></name><etal/></person-group>
+<article-title>A high-throughput RNAi screen for detection of immune-checkpoint molecules that mediate tumor resistance to cytotoxic T lymphocytes</article-title>
+<source>EMBO Mol. Med.</source>
+<year>2015</year>
+<volume>7</volume>
+<fpage>450</fpage>
+<lpage>463</lpage>
+<pub-id pub-id-type="doi">10.15252/emmm.201404414</pub-id>
+<?supplied-pmid 25691366?><pub-id pub-id-type="pmid">25691366</pub-id></element-citation></ref><ref id="B71-viruses-08-00045"><label>71.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zloza</surname><given-names>A.</given-names></name><name><surname>Kim</surname><given-names>D.W.</given-names></name><name><surname>Kim-Schulze</surname><given-names>S.</given-names></name><name><surname>Jagoda</surname><given-names>M.C.</given-names></name><name><surname>Monsurro</surname><given-names>V.</given-names></name><name><surname>Marincola</surname><given-names>F.M.</given-names></name><name><surname>Kaufman</surname><given-names>H.L.</given-names></name></person-group>
+<article-title>Immunoglobulin-like transcript 2 (ILT2) is a biomarker of therapeutic response to oncolytic immunotherapy with vaccinia viruses</article-title>
+<source>J. Immunother. Cancer</source>
+<year>2014</year>
+<volume>2</volume>
+<pub-id pub-id-type="doi">10.1186/2051-1426-2-1</pub-id>
+<?supplied-pmid 24829758?><pub-id pub-id-type="pmid">24829758</pub-id></element-citation></ref><ref id="B72-viruses-08-00045"><label>72.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liikanen</surname><given-names>I.</given-names></name><name><surname>Monsurro</surname><given-names>V.</given-names></name><name><surname>Ahtiainen</surname><given-names>L.</given-names></name><name><surname>Raki</surname><given-names>M.</given-names></name><name><surname>Hakkarainen</surname><given-names>T.</given-names></name><name><surname>Diaconu</surname><given-names>I.</given-names></name><name><surname>Escutenaire</surname><given-names>S.</given-names></name><name><surname>Hemminki</surname><given-names>O.</given-names></name><name><surname>Dias</surname><given-names>J.D.</given-names></name><name><surname>Cerullo</surname><given-names>V.</given-names></name><etal/></person-group>
+<article-title>Induction of interferon pathways mediates <italic>in vivo</italic> resistance to oncolytic adenovirus</article-title>
+<source>Mol. Ther.</source>
+<year>2011</year>
+<volume>19</volume>
+<fpage>1858</fpage>
+<lpage>1866</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2011.144</pub-id>
+<?supplied-pmid 21792178?><pub-id pub-id-type="pmid">21792178</pub-id></element-citation></ref><ref id="B73-viruses-08-00045"><label>73.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Diallo</surname><given-names>J.S.</given-names></name><name><surname>le Boeuf</surname><given-names>F.</given-names></name><name><surname>Lai</surname><given-names>F.</given-names></name><name><surname>Cox</surname><given-names>J.</given-names></name><name><surname>Vaha-Koskela</surname><given-names>M.</given-names></name><name><surname>Abdelbary</surname><given-names>H.</given-names></name><name><surname>MacTavish</surname><given-names>H.</given-names></name><name><surname>Waite</surname><given-names>K.</given-names></name><name><surname>Falls</surname><given-names>T.</given-names></name><name><surname>Wang</surname><given-names>J.</given-names></name><etal/></person-group>
+<article-title>A high-throughput pharmacoviral approach identifies novel oncolytic virus sensitizers</article-title>
+<source>Mol. Ther.</source>
+<year>2010</year>
+<volume>18</volume>
+<fpage>1123</fpage>
+<lpage>1129</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2010.67</pub-id>
+<?supplied-pmid 20389287?><pub-id pub-id-type="pmid">20389287</pub-id></element-citation></ref><ref id="B74-viruses-08-00045"><label>74.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moerdyk-Schauwecker</surname><given-names>M.</given-names></name><name><surname>Shah</surname><given-names>N.R.</given-names></name><name><surname>Murphy</surname><given-names>A.M.</given-names></name><name><surname>Hastie</surname><given-names>E.</given-names></name><name><surname>Mukherjee</surname><given-names>P.</given-names></name><name><surname>Grdzelishvili</surname><given-names>V.Z.</given-names></name></person-group>
+<article-title>Resistance of pancreatic cancer cells to oncolytic vesicular stomatitis virus: Role of type I interferon signaling</article-title>
+<source>Virology</source>
+<year>2013</year>
+<volume>436</volume>
+<fpage>221</fpage>
+<lpage>234</lpage>
+<pub-id pub-id-type="doi">10.1016/j.virol.2012.11.014</pub-id>
+<?supplied-pmid 23246628?><pub-id pub-id-type="pmid">23246628</pub-id></element-citation></ref><ref id="B75-viruses-08-00045"><label>75.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Song</surname><given-names>T.J.</given-names></name><name><surname>Haddad</surname><given-names>D.</given-names></name><name><surname>Adusumilli</surname><given-names>P.</given-names></name><name><surname>Kim</surname><given-names>T.</given-names></name><name><surname>Stiles</surname><given-names>B.</given-names></name><name><surname>Hezel</surname><given-names>M.</given-names></name><name><surname>Socci</surname><given-names>N.D.</given-names></name><name><surname>Gonen</surname><given-names>M.</given-names></name><name><surname>Fong</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Molecular network pathways and functional analysis of tumor signatures associated with development of resistance to viral gene therapy</article-title>
+<source>Cancer Gene Ther.</source>
+<year>2012</year>
+<volume>19</volume>
+<fpage>38</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="doi">10.1038/cgt.2011.64</pub-id>
+<?supplied-pmid 22015641?><pub-id pub-id-type="pmid">22015641</pub-id></element-citation></ref><ref id="B76-viruses-08-00045"><label>76.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Blackham</surname><given-names>A.U.</given-names></name><name><surname>Northrup</surname><given-names>S.A.</given-names></name><name><surname>Willingham</surname><given-names>M.</given-names></name><name><surname>Sirintrapun</surname><given-names>J.</given-names></name><name><surname>Russell</surname><given-names>G.B.</given-names></name><name><surname>Lyles</surname><given-names>D.S.</given-names></name><name><surname>Stewart</surname><given-names>J.H.T.</given-names></name></person-group>
+<article-title>Molecular determinants of susceptibility to oncolytic vesicular stomatitis virus in pancreatic adenocarcinoma</article-title>
+<source>J. Surg. Res.</source>
+<year>2014</year>
+<volume>187</volume>
+<fpage>412</fpage>
+<lpage>426</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jss.2013.10.032</pub-id>
+<?supplied-pmid 24252853?><pub-id pub-id-type="pmid">24252853</pub-id></element-citation></ref><ref id="B77-viruses-08-00045"><label>77.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Samuel</surname><given-names>S.</given-names></name><name><surname>Beljanski</surname><given-names>V.</given-names></name><name><surname>van Grevenynghe</surname><given-names>J.</given-names></name><name><surname>Richards</surname><given-names>S.</given-names></name><name><surname>Ben Yebdri</surname><given-names>F.</given-names></name><name><surname>He</surname><given-names>Z.</given-names></name><name><surname>Nichols</surname><given-names>C.</given-names></name><name><surname>Belgnaoui</surname><given-names>S.M.</given-names></name><name><surname>Steel</surname><given-names>C.</given-names></name><name><surname>Goulet</surname><given-names>M.L.</given-names></name><etal/></person-group>
+<article-title>BCL-2 inhibitors sensitize therapy-resistant chronic lymphocytic leukemia cells to VSV oncolysis</article-title>
+<source>Mol. Ther.</source>
+<year>2013</year>
+<volume>21</volume>
+<fpage>1413</fpage>
+<lpage>1423</lpage>
+<pub-id pub-id-type="doi">10.1038/mt.2013.91</pub-id>
+<?supplied-pmid 23689597?><pub-id pub-id-type="pmid">23689597</pub-id></element-citation></ref><ref id="B78-viruses-08-00045"><label>78.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ritchie</surname><given-names>M.D.</given-names></name><name><surname>Holzinger</surname><given-names>E.R.</given-names></name><name><surname>Li</surname><given-names>R.</given-names></name><name><surname>Pendergrass</surname><given-names>S.A.</given-names></name><name><surname>Kim</surname><given-names>D.</given-names></name></person-group>
+<article-title>Methods of integrating data to uncover genotype-phenotype interactions</article-title>
+<source>Nat. Rev. Genet.</source>
+<year>2015</year>
+<volume>16</volume>
+<fpage>85</fpage>
+<lpage>97</lpage>
+<pub-id pub-id-type="doi">10.1038/nrg3868</pub-id>
+<?supplied-pmid 25582081?><pub-id pub-id-type="pmid">25582081</pub-id></element-citation></ref><ref id="B79-viruses-08-00045"><label>79.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuo</surname><given-names>T.C.</given-names></name><name><surname>Tian</surname><given-names>T.F.</given-names></name><name><surname>Tseng</surname><given-names>Y.J.</given-names></name></person-group>
+<article-title>3Omics: A web-based systems biology tool for analysis, integration and visualization of human transcriptomic, proteomic and metabolomic data</article-title>
+<source>BMC Syst. Biol.</source>
+<year>2013</year>
+<volume>7</volume>
+<pub-id pub-id-type="doi">10.1186/1752-0509-7-64</pub-id>
+<?supplied-pmid 23875761?><pub-id pub-id-type="pmid">23875761</pub-id></element-citation></ref><ref id="B80-viruses-08-00045"><label>80.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weiner</surname><given-names>J.</given-names><suffix>3rd</suffix></name><name><surname>Kaufmann</surname><given-names>S.H.</given-names></name><name><surname>Maertzdorf</surname><given-names>J.</given-names></name></person-group>
+<article-title>High-throughput data analysis and data integration for vaccine trials</article-title>
+<source>Vaccine</source>
+<year>2015</year>
+<volume>33</volume>
+<fpage>5249</fpage>
+<lpage>5255</lpage>
+<pub-id pub-id-type="doi">10.1016/j.vaccine.2015.04.096</pub-id>
+<?supplied-pmid 25976544?><pub-id pub-id-type="pmid">25976544</pub-id></element-citation></ref><ref id="B81-viruses-08-00045"><label>81.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lu</surname><given-names>Y.</given-names></name><name><surname>Xue</surname><given-names>Q.</given-names></name><name><surname>Eisele</surname><given-names>M.R.</given-names></name><name><surname>Sulistijo</surname><given-names>E.S.</given-names></name><name><surname>Brower</surname><given-names>K.</given-names></name><name><surname>Han</surname><given-names>L.</given-names></name><name><surname>el Amir</surname><given-names>A.D.</given-names></name><name><surname>Pe&#x02019;er</surname><given-names>D.</given-names></name><name><surname>Miller-Jensen</surname><given-names>K.</given-names></name><name><surname>Fan</surname><given-names>R.</given-names></name></person-group>
+<article-title>Highly multiplexed profiling of single-cell effector functions reveals deep functional heterogeneity in response to pathogenic ligands</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2015</year>
+<volume>112</volume>
+<fpage>E607</fpage>
+<lpage>E615</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1416756112</pub-id>
+<?supplied-pmid 25646488?><pub-id pub-id-type="pmid">25646488</pub-id></element-citation></ref><ref id="B82-viruses-08-00045"><label>82.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Becher</surname><given-names>B.</given-names></name><name><surname>Schlitzer</surname><given-names>A.</given-names></name><name><surname>Chen</surname><given-names>J.</given-names></name><name><surname>Mair</surname><given-names>F.</given-names></name><name><surname>Sumatoh</surname><given-names>H.R.</given-names></name><name><surname>Teng</surname><given-names>K.W.</given-names></name><name><surname>Low</surname><given-names>D.</given-names></name><name><surname>Ruedl</surname><given-names>C.</given-names></name><name><surname>Riccardi-Castagnoli</surname><given-names>P.</given-names></name><name><surname>Poidinger</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>High-dimensional analysis of the murine myeloid cell system</article-title>
+<source>Nat. Immunol.</source>
+<year>2014</year>
+<volume>15</volume>
+<fpage>1181</fpage>
+<lpage>1189</lpage>
+<pub-id pub-id-type="doi">10.1038/ni.3006</pub-id>
+<?supplied-pmid 25306126?><pub-id pub-id-type="pmid">25306126</pub-id></element-citation></ref><ref id="B83-viruses-08-00045"><label>83.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Winter</surname><given-names>D.R.</given-names></name><name><surname>Jung</surname><given-names>S.</given-names></name><name><surname>Amit</surname><given-names>I.</given-names></name></person-group>
+<article-title>Making the case for chromatin profiling: A new tool to investigate the immune-regulatory landscape</article-title>
+<source>Nat. Rev. Immunol.</source>
+<year>2015</year>
+<volume>15</volume>
+<fpage>585</fpage>
+<lpage>594</lpage>
+<pub-id pub-id-type="doi">10.1038/nri3884</pub-id>
+<?supplied-pmid 26272294?><pub-id pub-id-type="pmid">26272294</pub-id></element-citation></ref></ref-list></back></article>

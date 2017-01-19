@@ -1,0 +1,260 @@
+{
+  "id": [
+    "27723775"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "27723775"
+  ],
+  "pmcid": [
+    "PMC5056719"
+  ],
+  "doi": [
+    "10.1371/journal.pone.0164513"
+  ],
+  "title": [
+    "Evaluating Transcription Factor Activity Changes by Scoring Unexplained Target Genes in Expression Data."
+  ],
+  "authorString": [
+    "Berchtold E, Csaba G, Zimmer R."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Berchtold E"
+          ],
+          "firstName": [
+            "Evi"
+          ],
+          "lastName": [
+            "Berchtold"
+          ],
+          "initials": [
+            "E"
+          ],
+          "affiliation": [
+            "Institut für Informatik, Ludwig-Maximilians-Universität München, Amalienstraße 17, 80333 München, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Csaba G"
+          ],
+          "firstName": [
+            "Gergely"
+          ],
+          "lastName": [
+            "Csaba"
+          ],
+          "initials": [
+            "G"
+          ],
+          "affiliation": [
+            "Institut für Informatik, Ludwig-Maximilians-Universität München, Amalienstraße 17, 80333 München, Germany."
+          ]
+        },
+        {
+          "fullName": [
+            "Zimmer R"
+          ],
+          "firstName": [
+            "Ralf"
+          ],
+          "lastName": [
+            "Zimmer"
+          ],
+          "initials": [
+            "R"
+          ],
+          "affiliation": [
+            "Institut für Informatik, Ludwig-Maximilians-Universität München, Amalienstraße 17, 80333 München, Germany."
+          ]
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "issue": [
+        "10"
+      ],
+      "volume": [
+        "11"
+      ],
+      "journalIssueId": [
+        "2457476"
+      ],
+      "dateOfPublication": [
+        "2016 "
+      ],
+      "monthOfPublication": [
+        "0"
+      ],
+      "yearOfPublication": [
+        "2016"
+      ],
+      "printPublicationDate": [
+        "2016-01-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "PloS one"
+          ],
+          "ISOAbbreviation": [
+            "PLoS ONE"
+          ],
+          "medlineAbbreviation": [
+            "PLoS One"
+          ],
+          "NLMid": [
+            "101285081"
+          ],
+          "ESSN": [
+            "1932-6203"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2016"
+  ],
+  "pageInfo": [
+    "e0164513"
+  ],
+  "abstractText": [
+    "Several methods predict activity changes of transcription factors (TFs) from a given regulatory network and measured expression data. But available gene regulatory networks are incomplete and contain many condition-dependent regulations that are not relevant for the specific expression measurement. It is not known which combination of active TFs is needed to cause a change in the expression of a target gene. A method to systematically evaluate the inferred activity changes is missing. We present such an evaluation strategy that indicates for how many target genes the observed expression changes can be explained by a given set of active TFs. To overcome the problem that the exact combination of active TFs needed to activate a gene is typically not known, we assume a gene to be explained if there exists any combination for which the predicted active TFs can possibly explain the observed change of the gene. We introduce the i-score (inconsistency score), which quantifies how many genes could not be explained by the set of activity changes of TFs. We observe that, even for these minimal requirements, published methods yield many unexplained target genes, i.e. large i-scores. This holds for all methods and all expression datasets we evaluated. We provide new optimization methods to calculate the best possible (minimal) i-score given the network and measured expression data. The evaluation of this optimized i-score on a large data compendium yields many unexplained target genes for almost every case. This indicates that currently available regulatory networks are still far from being complete. Both the presented Act-SAT and Act-A* methods produce optimal sets of TF activity changes, which can be used to investigate the difficult interplay of expression and network data. A web server and a command line tool to calculate our i-score and to find the active TFs associated with the minimal i-score is available from https://services.bio.ifi.lmu.de/i-score."
+  ],
+  "affiliation": [
+    "Institut für Informatik, Ludwig-Maximilians-Universität München, Amalienstraße 17, 80333 München, Germany."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic-eCollection"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article"
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5056719?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC5056719"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1371/journal.pone.0164513"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCreation": [
+    "2016-10-10"
+  ],
+  "dateOfRevision": [
+    "2016-11-02"
+  ],
+  "electronicPublicationDate": [
+    "2016-10-10"
+  ],
+  "firstPublicationDate": [
+    "2016-10-10"
+  ]
+}

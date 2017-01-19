@@ -1,0 +1,254 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d3 20150301//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="review-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Biomolecules</journal-id><journal-id journal-id-type="iso-abbrev">Biomolecules</journal-id><journal-id journal-id-type="publisher-id">biomolecules</journal-id><journal-title-group><journal-title>Biomolecules</journal-title></journal-title-group><issn pub-type="epub">2218-273X</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4496707</article-id><article-id pub-id-type="pmid">26010401</article-id><article-id pub-id-type="doi">10.3390/biom5021012</article-id><article-id pub-id-type="publisher-id">biomolecules-05-01012</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review</subject></subj-group></article-categories><title-group><article-title>A Perspective on the Enhancer Dependent Bacterial RNA Polymerase</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Zhang</surname><given-names>Nan</given-names></name></contrib><contrib contrib-type="author"><name><surname>Buck</surname><given-names>Martin</given-names></name><xref rid="c1-biomolecules-05-01012" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Wigneshweraraj</surname><given-names>Sivaramesh</given-names></name><role>Academic Editor</role></contrib><contrib contrib-type="editor"><name><surname>Hinton</surname><given-names>Deborah M.</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-biomolecules-05-01012">Department of Life Sciences, Imperial College London, Sir Alexander Fleming Building, Exhibition Road, London SW7 2AZ, UK; E-Mail: <email>nan.zhang@imperial.ac.uk</email></aff><author-notes><corresp id="c1-biomolecules-05-01012"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>m.buck@imperial.ac.uk</email>; Tel.: +44-0-20-7594-5443; Fax: +44-0-20-7504-5419.</corresp></author-notes><pub-date pub-type="epub"><day>21</day><month>5</month><year>2015</year></pub-date><pub-date pub-type="collection"><month>6</month><year>2015</year></pub-date><volume>5</volume><issue>2</issue><fpage>1012</fpage><lpage>1019</lpage><history><date date-type="received"><day>02</day><month>4</month><year>2015</year></date><date date-type="accepted"><day>15</day><month>5</month><year>2015</year></date></history><permissions><copyright-statement>&#x000a9; 2015 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2015</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Here we review recent findings and offer a perspective on how the major variant RNA polymerase of bacteria, which contains the sigma54 factor, functions for regulated gene expression. We consider what gaps exist in our understanding of its genetic, biochemical and biophysical functioning and how they might be addressed.</p></abstract><kwd-group><kwd>RNA polymerase</kwd><kwd>Sigma54</kwd><kwd>transcription</kwd><kwd>AAA+ ATPase</kwd></kwd-group></article-meta></front><body><sec><title>1. Introduction</title><p>Along with the recognition that bacterial RNA polymerases were heterogeneous with respect to their sigma factor content, came the finding that two classes of sigma factor existed in many different types of bacteria [<xref rid="B1-biomolecules-05-01012" ref-type="bibr">1</xref>]. Unlike the major sigma70 class, the sigma54 class of factor was distinctive in being enhancer dependent and relying on a specialised class of transcription activator which used ATP binding and hydrolysis to catalyse the formation of open promoter complexes (RP<sub>O</sub>). Closed promoter complexes (RP<sub>C</sub>) rarely spontaneously isomerised to open complexes, and so sigma54 dependent systems showed a typical major dependence on cognate activators (reviewed in [<xref rid="B2-biomolecules-05-01012" ref-type="bibr">2</xref>,<xref rid="B3-biomolecules-05-01012" ref-type="bibr">3</xref>]). No hard and fast rules allow the prediction of which bacteria will contain an <italic>rpoN</italic> gene or genes (some organisms have two <italic>rpoN</italic>s) encoding sigma54, although informatics suggests sigma54 use is rooted in the control of cell envelope functions in response to stress [<xref rid="B4-biomolecules-05-01012" ref-type="bibr">4</xref>]. Because the sigma54 factor controls important bacterial stress response genes in pathogenicity and in agriculture [<xref rid="B5-biomolecules-05-01012" ref-type="bibr">5</xref>,<xref rid="B6-biomolecules-05-01012" ref-type="bibr">6</xref>,<xref rid="B7-biomolecules-05-01012" ref-type="bibr">7</xref>,<xref rid="B8-biomolecules-05-01012" ref-type="bibr">8</xref>,<xref rid="B9-biomolecules-05-01012" ref-type="bibr">9</xref>], there is considerable interest in working out where the dependence arises in biochemical and structural biology terms. Further, what are the advantages the system may have over conventional repression and activation systems used by the sigma70 class of RNA polymerase holoenzymes?</p></sec><sec><title>2. The Sigma54 Factor</title><p>Work from Sydney Kustu&#x02019;s lab provided the first biochemical evidence that the sigma54 factor (encoded by <italic>rpoN</italic>, also called ntrA) was a dissociable sigma factor which directed RNA polymerase as a holoenzyme to the &#x02212;12, &#x02212;24 promoter sequences from which it transcribed [<xref rid="B10-biomolecules-05-01012" ref-type="bibr">10</xref>,<xref rid="B11-biomolecules-05-01012" ref-type="bibr">11</xref>]. Sequence analysis of a range of <italic>rpoN</italic> encoded genes was to provide clear indications that the sigma54 protein was unrelated to the major sigma70 class of sigma factors at the level of primary sequence and most likely its fold and tertiary structure. For the most part this lack of relatedness has been upheld by what limited structural data sets for fragments of sigma54 have been obtained to date. The lack of relatedness suggests that sigma54 may direct a different set of structural transitions in taking RPc to RPo to that orchestrated by sigma70 type factors, rather than just changing the kinetics of the same pathway of conformational change.</p><fig id="biomolecules-05-01012-f001" position="float"><label>Figure 1</label><caption><p>Domain organisation of <italic>Escherichia coli</italic> &#x003c3;<sup>54</sup>. The DNA binding function is mainly associated with &#x003c3;<sup>54</sup> Region III, including the DNA crosslinking motif (Xlink), a putative helix-turn-helix motif (HTH) for &#x02212;12 recognition via E378 and the RpoN box for &#x02212;24 binding. Structures of two &#x003c3;<sup>54</sup> Region III fragments have been obtained (PDB entries: 2K9L and 2O8K).</p></caption><graphic xlink:href="biomolecules-05-01012-g001"/></fig><p>Sigma54 contains two highly conserved domains (Regions I and III, <xref ref-type="fig" rid="biomolecules-05-01012-f001">Figure 1</xref>), separated by what may be a flexible linker (Region II). The glutamine- and leucine-rich Region I interacts with activator ATPases, core RNAP and the &#x02212;12 promoter sequence, thus posing an energy barrier to spontaneous isomerization of RPc to RPo. Region I mutations and deletion often resulted in activator-bypass phenotypes [<xref rid="B12-biomolecules-05-01012" ref-type="bibr">12</xref>,<xref rid="B13-biomolecules-05-01012" ref-type="bibr">13</xref>]. Sigma54 Region II is dispensable for RNAP isomerisation and interaction with DNA. Indeed many bacterial sigma54 proteins do not naturally contain this domain, arguing for its ancillary role. Sigma54 Region III is primarily involved in binding to the promoter DNA at several sites, with the strongest interaction being between the RpoN box and the &#x02212;24 promoter element. The RpoN box forms a winged helix-turn-helix (HTH) motif and inserts the recognition helix into the major groove of the &#x02212;24 promoter sequence [<xref rid="B14-biomolecules-05-01012" ref-type="bibr">14</xref>,<xref rid="B15-biomolecules-05-01012" ref-type="bibr">15</xref>]. Mutations in the RpoN box have been shown to cause a more than 80% reduction in promoter DNA binding affinity [<xref rid="B16-biomolecules-05-01012" ref-type="bibr">16</xref>].</p></sec><sec><title>3. Promoter Recognition</title><p>Apparently sigma54 RNAP finds promoters by a direct binding route and not sliding, at least <italic>in vitro</italic> [<xref rid="B17-biomolecules-05-01012" ref-type="bibr">17</xref>]. At its cognate promoters the holoenzyme opens up the A:T base pair 3' to the promoter &#x02212;12 consensus GC sequence and so a repressive fork junction structure with which the Region I of sigma54 interacts is created. Resolution of this structure by the activator ATPases is a part of the enhancer dependent activation of the RP<sub>C</sub> to yield an RP<sub>O</sub>. Details of the &#x02212;12 recognition problem and how the local &#x02212;12 proximal un-stacking is achieved in the stable RP<sub>O</sub> from an unstable prior fully stacked DNA RP<sub>C</sub> [<xref rid="B18-biomolecules-05-01012" ref-type="bibr">18</xref>] is now a structural biology issue. Genetics implicates a HTH motif E378 residue and specifically also residue L25 in sigma54 in the &#x02212;12 GC recognition, but the specific amino acid sequences in sigma54 and in core enzyme needed for base un-stacking just downstream of the &#x02212;12 GC are unknown although may well map to the Region I of sigma54. Similarly DNA melting defective mutants (for RP<sub>O</sub>) of sigma54 have not been obtained, in contrast to sigma70, and so quite how sigma54 contributes to opening DNA from &#x02212;10 to &#x02212;1 is unknown. However mutants in sigma54 able to allow RP<sub>O</sub> formation <italic>in vitro</italic> without activation suggest the barrier to RP<sub>O</sub> formation is distinct from determinants that allow formation and maintenance of (at least unstable) forms of RP<sub>O</sub>. Although not widely surveyed across promoters, it seems that the sigma54 holoenzyme forms fewer abortive RNA products before elongation than does the sigma70 containing enzyme [<xref rid="B19-biomolecules-05-01012" ref-type="bibr">19</xref>], and so features of sigma70 contributing to the frequency of abortive initiation may not have counterparts in sigma54.</p><p>In contrast to a complex recognition of the promoter &#x02212;12 intimately linked to maintaining RP<sub>C</sub>, recognition of the &#x02212;24 promoter sequence seems relatively well understood, and involves a HTH motif and the RpoN box amino acid sequence, as solved by the Wemmer group by NMR [<xref rid="B14-biomolecules-05-01012" ref-type="bibr">14</xref>]. In contrast to the &#x02212;35 recognition of sigma70 promoters being mediated by the flap domain of the core RNAP, no such dependence seems so for sigma54 although other roles for the flap domain are suggested by promoter DNA footprinting experiments with a flapless core and sigma54 [<xref rid="B20-biomolecules-05-01012" ref-type="bibr">20</xref>].</p></sec><sec><title>4. Activator Remodel of the Sigma54 Holoenzyme</title><p>Sigma54 activators (such as NtrC and PspF) belonging to the AAA+ protein family assemble into hexamers and fuel the rearrangement of RP<sub>C</sub> to RP<sub>O</sub>. Cryo-EM reconstitutions carried out by the Zhang lab revealed up to three sigma54 activators within a hexamer could directly contact the RP<sub>C</sub> structure for isomerisation [<xref rid="B21-biomolecules-05-01012" ref-type="bibr">21</xref>]. These contacts were made asymmetrically via the GAFTGA loop one motifs to sigma54 Region I and the upstream &#x02212;30 promoter region [<xref rid="B22-biomolecules-05-01012" ref-type="bibr">22</xref>], and were possibly accompanied by the splitting of the hexameric ATPase ring in order to exert directional forces [<xref rid="B23-biomolecules-05-01012" ref-type="bibr">23</xref>]. A bridging density within the holoenzyme was observed to physically block the DNA loading channel formed between the &#x003b2; and &#x003b2;&#x02019; subunits prior to activation (<xref ref-type="fig" rid="biomolecules-05-01012-f002">Figure 2</xref>A). This density was assigned to a part of sigma54 Region I and it relocated downstream towards the +1 site in the intermediate complex (RP<sub>I</sub>) when the ADP-AlF<sub>x</sub> hydrolysis analogue was added. The DNA melting site was misaligned with the DNA loading site in the RP<sub>I</sub> in the proposed model, which could constitute an ancillary inhibitory mechanism. The Stockley and Tuma labs further addressed sigma54 domain movements in relation to promoter DNA and ATP hydrolysis by smFRET analysis (<xref ref-type="fig" rid="biomolecules-05-01012-f002">Figure 2</xref>B, [<xref rid="B24-biomolecules-05-01012" ref-type="bibr">24</xref>]). Sigma54 Region I moved by approximately 9 &#x000c5; towards the leading edge of the &#x02212;10 to &#x02212;1 transcription bubble in the RP<sub>I</sub> when activated with ADP-AlF<sub>x</sub>. This downstream movement upon activation fully agreed with the Cryo-EM observations and potentially correlated with blockage removal by the &#x0201c;power stroke&#x0201d; action of activator ATPases. Once ATP was fully hydrolysed, Region I would retract slightly upstream, possibly to accompany the DNA loading event. In contrast, Region III remained rather static with respect to the &#x02212;24 promoter sequence along the activation pathway for making RP<sub>O</sub> from RP<sub>C</sub>.</p><fig id="biomolecules-05-01012-f002" position="float"><label>Figure 2</label><caption><p>Domain architecture and the proposed mechanism of activation. (<bold>A</bold>) Cryo-EM reconstitution of the E&#x003c3;<sup>54</sup>-PspF-ADP-AlF<sub>x</sub> with the promoter DNA modelled in [<xref rid="B21-biomolecules-05-01012" ref-type="bibr">21</xref>]; (<bold>B</bold>) Domain movements of &#x003c3;<sup>54</sup> Regions I and III during the transcription activation cycle (modified from [<xref rid="B24-biomolecules-05-01012" ref-type="bibr">24</xref>]). The white stars depict fluorophores used in the smFRET experiments.</p></caption><graphic xlink:href="biomolecules-05-01012-g002"/></fig><p>Overall it is clear that activation for making RP<sub>O</sub> requires a repositioning of the sigma54 Region I, which occurs through the use of at least two GAFTGA loops of the activator ATPases that bind there. Whether the activator binds a rare state of the holoenzyme in RP<sub>C</sub>, or drives the formation of an entirely new functional state is not yet clear. However, the R336A sigma54 variant phenocopies the action of the binding of the activator to RP<sub>C</sub> in that the Region I has moved compared to that in RP<sub>C</sub>, and so the barrier to passing from RP<sub>C</sub> to at least an RP<sub>I</sub> if not RP<sub>O</sub> is not so large. Release of the activators from the sigma54 Region I may be key in passing to RP<sub>O</sub> from RP<sub>I</sub>, as may a contact of the activator with upstream promoter DNA. Kinetic studies on the <italic>glnAP2</italic> promoter using COSMO methodologies indicates that the transition from RP<sub>C</sub> to transcript generation takes around ninety seconds, and activators interact with both RP<sub>C</sub> and RP<sub>O</sub> [<xref rid="B18-biomolecules-05-01012" ref-type="bibr">18</xref>]. These single molecule studies also lend support to the idea that an initial form of RP<sub>C</sub> exists without the DNA base unstacking at &#x02212;12 [<xref rid="B18-biomolecules-05-01012" ref-type="bibr">18</xref>]. Given the heterogeneous nature of nucleotide bound states of the activators, that the hexameric activators may assume an opened form and use a subset of the six possible sigma-contacting mobile surface features [<xref rid="B22-biomolecules-05-01012" ref-type="bibr">22</xref>,<xref rid="B25-biomolecules-05-01012" ref-type="bibr">25</xref>]. Their asymmetric functioning seems a necessary part of the transcription activation mechanism and may reflect the asymmetric target of the &#x003c3;<sup>54</sup> within the RP<sub>C</sub>. A processive functioning of the activators may not be necessary for activation, because the activator bound RP<sub>I</sub> has been shown to possess RP<sub>O</sub> like characteristics [<xref rid="B26-biomolecules-05-01012" ref-type="bibr">26</xref>]. However quite how and when DNA opening occurs for making the RP<sub>O</sub> with sigma54 is not known, and could involve other functions of the activators ATPase rather than a direct sigma DNA melting activity. Notably when double stranded DNA is outside of the RNAP in RP<sub>I</sub>, extensive cross links can be made with the bound activator, which might guide dsDNA into the holoenzyme for making RP<sub>O</sub>, or indeed act on it directly for making RP<sub>O</sub> [<xref rid="B21-biomolecules-05-01012" ref-type="bibr">21</xref>]. An interaction of DNA with the activators ATPase domain has been observed [<xref rid="B27-biomolecules-05-01012" ref-type="bibr">27</xref>]. Further, activator binding to RP<sub>C</sub> (enabled by the use of non-hydrolysable nucleotide analogues such as ADP-AlF<sub>x</sub>) when promoter DNA from &#x02212;10 to &#x02212;1 is unpaired allows transcription initiation, suggesting the holoenzyme can accept ssDNA and then open up the start site to allow RNA synthesis, without the need for ATP hydrolysis by the activator protein [<xref rid="B26-biomolecules-05-01012" ref-type="bibr">26</xref>].</p></sec><sec><title>5. Signaling for Sigma54 Dependent Transcription</title><p>Genes under control of the sigma54 are required under specific stress conditions or when a particular C or N source is available. Classical examples include the NtrC dependent activation of genes in response to nitrogen limitation, the use of XylR in expressing genes for catabolism of aromatic hydrocarbons and PspF in activating the psp response for inner membrane stress. Although all contain the critical AAA+ domain needed for remodelling the closed promoter complex, the activators are all signaled to via a range of N-terminal regulatory domains. These fall into a wide range of different classes ranging from the response regulator type aspartic acid phosphorylation target in two component members, to GAF domains in NifA and CARF domains in RtcRs (reviewed in [<xref rid="B2-biomolecules-05-01012" ref-type="bibr">2</xref>]). In many cases the exact ligand interacting with these N-terminal regulatory domains remains unknown.</p></sec><sec><title>6. Conclusions and a Final Perspective</title><p>Detailed structural insights into RP<sub>C</sub>, RP<sub>I</sub> and RP<sub>O</sub> are now needed to work out quite what it is in structural terms that establishes the barrier to making RP<sub>O</sub>, and how RP<sub>C</sub> and RP<sub>O</sub> interconvert. Comparisons to the use of the sigma70 Region I as a place keeper for DNA and that of sigma54 Region I as a target for activation, maintaining the repressive fork junction structure and escaping the action of certain phage inhibitors of RNAP activity such as T7 phage gp2 will be one valuable outcome from such studies. Similarly, knowing what the functional state the core RNAP is in when bound to sigma54 will provide insights into the importance of the sigma-core interface in gene control and potentially antibiotic action. For example in the presence of sigma54 is the core enzyme in a catalytically competent state, and can smFRET data be reconciled with RNAP clamp opening and clamp closing, and the processive closed state of the core enzyme? Do the sigma54 and its activators take the RNAP down a new set of conformationally distinct changes for making RP<sub>O</sub>, or is it simply altering the kinetics of a single pathway for making the RP<sub>O</sub> from the RP<sub>C</sub>?</p><p>Quite where sigma54 came from remains a mystery-it cannot be rooted and seems to have no obvious structural counterpart (although detailed structural analysis may overturn this view, if not for the full protein then for some of its domains). Genomics methods and RNAseq studies will now no doubt offer us perspectives on why have sigma54 at all-is it a relic of a transcription repression mechanism, can it (or has it?) evolve in some cases to activator independence, and does it have repressive functionality alongside its gene activation responsiveness? Currently ChipSeq and RNAseq work with sigma54 and its holoenzyme to define its regulon suggests complexity in the roles of sigma54 [<xref rid="B28-biomolecules-05-01012" ref-type="bibr">28</xref>,<xref rid="B29-biomolecules-05-01012" ref-type="bibr">29</xref>]. For example some RP<sub>C</sub>s seem not to be served by cognate activators, and amongst these a subset seem to repress transcription by other forms of RNAP holoenzyme. In combination with genomic approaches to better understand roles of sigma54 binding sites on bacterial chromosomes, sufficient knowledge of sigma 54 and sigma70 structure-function relationships will allow us to make orthogonal non-native chimeric sigma factors-to tackle issues of promoter use in synthetic biology and an increased insularity from the bacterial chassis used in such work. Since sigma54 is served by cognate activators of the AAA+ protein family, detailed atomic structures of their co-complexes with RP<sub>C</sub> will help work out how such AAA+ proteins remodel their targets. Lastly, the full role of sigma54 in bacterial physiology is unknown. Many of its activators respond to signals which are poorly characterised, yet underpin important processes such as RNA repair (the <italic>rtcBA</italic> genes activated by RtcR) and envelope maintenance (the <italic>psp</italic> operon activated by PspF). As details of how genes turn on and off in individual cells through transient changes in, for example, local DNA superhelicity to yield the so called bursty behaviours of gene transcription revealed by time series studies, one might wonder if the sigma54 factor with its coupled ATPase overlays some special features to such time series.</p></sec></body><back><ack><title>Acknowledgments</title><p>The writing of this article was supported by project grant funding from the BBSRC.</p></ack><notes><title>Author Contributions</title><p>Nan Zhang and Martin Buck equally contributed to the writing.</p></notes><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-biomolecules-05-01012"><label>1.</label><element-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Merrick</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>In a class of its own&#x02014;The RNA polymerase sigma factor sigma 54 (sigma N)</article-title>
+<source>Mol. Microbiol.</source>
+<year>1993</year>
+<volume>10</volume>
+<fpage>903</fpage>
+<lpage>909</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1365-2958.1993.tb00961.x</pub-id>
+<?supplied-pmid 7934866?><pub-id pub-id-type="pmid">7934866</pub-id></element-citation></ref><ref id="B2-biomolecules-05-01012"><label>2.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bush</surname><given-names>M.</given-names></name><name><surname>Dixon</surname><given-names>R.</given-names></name></person-group>
+<article-title>The role of bacterial enhancer binding proteins as specialized activators of sigma54-dependent transcription</article-title>
+<source>Microbiol. Mol. Biol. Rev.</source>
+<year>2012</year>
+<volume>76</volume>
+<fpage>497</fpage>
+<lpage>529</lpage>
+<pub-id pub-id-type="doi">10.1128/MMBR.00006-12</pub-id>
+<?supplied-pmid 22933558?><pub-id pub-id-type="pmid">22933558</pub-id></element-citation></ref><ref id="B3-biomolecules-05-01012"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joly</surname><given-names>N.</given-names></name><name><surname>Zhang</surname><given-names>N.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name><name><surname>Zhang</surname><given-names>X.</given-names></name></person-group>
+<article-title>Coupling AAA protein function to regulated gene expression</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2012</year>
+<volume>1823</volume>
+<fpage>108</fpage>
+<lpage>116</lpage>
+<pub-id pub-id-type="doi">10.1016/j.bbamcr.2011.08.012</pub-id>
+<?supplied-pmid 21906631?><pub-id pub-id-type="pmid">21906631</pub-id></element-citation></ref><ref id="B4-biomolecules-05-01012"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Francke</surname><given-names>C.</given-names></name><name><surname>Groot Kormelink</surname><given-names>T.</given-names></name><name><surname>Hagemeijer</surname><given-names>Y.</given-names></name><name><surname>Overmars</surname><given-names>L.</given-names></name><name><surname>Sluijter</surname><given-names>V.</given-names></name><name><surname>Moezelaar</surname><given-names>R.</given-names></name><name><surname>Siezen</surname><given-names>R.J.</given-names></name></person-group>
+<article-title>Comparative analyses imply that the enigmatic sigma factor 54 is a central controller of the bacterial exterior</article-title>
+<source>BMC Genomics</source>
+<year>2011</year>
+<pub-id pub-id-type="doi">10.1186/1471-2164-12-385</pub-id>
+</element-citation></ref><ref id="B5-biomolecules-05-01012"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dixon</surname><given-names>R.</given-names></name><name><surname>Kahn</surname><given-names>D.</given-names></name></person-group>
+<article-title>Genetic regulation of biological nitrogen fixation</article-title>
+<source>Nat. Rev. Microbiol.</source>
+<year>2004</year>
+<volume>2</volume>
+<fpage>621</fpage>
+<lpage>631</lpage>
+<pub-id pub-id-type="doi">10.1038/nrmicro954</pub-id>
+<?supplied-pmid 15263897?><pub-id pub-id-type="pmid">15263897</pub-id></element-citation></ref><ref id="B6-biomolecules-05-01012"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fisher</surname><given-names>M.A.</given-names></name><name><surname>Grimm</surname><given-names>D.</given-names></name><name><surname>Henion</surname><given-names>A.K.</given-names></name><name><surname>Elias</surname><given-names>A.F.</given-names></name><name><surname>Stewart</surname><given-names>P.E.</given-names></name><name><surname>Rosa</surname><given-names>P.A.</given-names></name><name><surname>Gherardini</surname><given-names>F.C.</given-names></name></person-group>
+<article-title><italic>Borrelia burgdorferi</italic> sigma54 is required for mammalian infection and vector transmission but not for tick colonization</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2005</year>
+<volume>102</volume>
+<fpage>5162</fpage>
+<lpage>5167</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.0408536102</pub-id>
+<?supplied-pmid 15743918?><pub-id pub-id-type="pmid">15743918</pub-id></element-citation></ref><ref id="B7-biomolecules-05-01012"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fouts</surname><given-names>D.E.</given-names></name><name><surname>Abramovitch</surname><given-names>R.B.</given-names></name><name><surname>Alfano</surname><given-names>J.R.</given-names></name><name><surname>Baldo</surname><given-names>A.M.</given-names></name><name><surname>Buell</surname><given-names>C.R.</given-names></name><name><surname>Cartinhour</surname><given-names>S.</given-names></name><name><surname>Chatterjee</surname><given-names>A.K.</given-names></name><name><surname>D&#x02019;Ascenzo</surname><given-names>M.</given-names></name><name><surname>Gwinn</surname><given-names>M.L.</given-names></name><name><surname>Lazarowitz</surname><given-names>S.G.</given-names></name><etal/></person-group>
+<article-title>Genomewide identification of <italic>Pseudomonas syringae pv. Tomato DC3000</italic> promoters controlled by the <italic>hrpL</italic> alternative sigma factor</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2002</year>
+<volume>99</volume>
+<fpage>2275</fpage>
+<lpage>2280</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.032514099</pub-id>
+<pub-id pub-id-type="pmid">11854524</pub-id></element-citation></ref><ref id="B8-biomolecules-05-01012"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Studholme</surname><given-names>D.J.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name></person-group>
+<article-title>The biology of enhancer-dependent transcriptional regulation in bacteria: Insights from genome sequences</article-title>
+<source>FEMS Microbiol. Lett.</source>
+<year>2000</year>
+<volume>186</volume>
+<fpage>1</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1574-6968.2000.tb09074.x</pub-id>
+<?supplied-pmid 10779705?><pub-id pub-id-type="pmid">10779705</pub-id></element-citation></ref><ref id="B9-biomolecules-05-01012"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wolfe</surname><given-names>A.J.</given-names></name><name><surname>Millikan</surname><given-names>D.S.</given-names></name><name><surname>Campbell</surname><given-names>J.M.</given-names></name><name><surname>Visick</surname><given-names>K.L.</given-names></name></person-group>
+<article-title><italic>Vibrio fischeri</italic> sigma54 controls motility, biofilm formation, luminescence, and colonization</article-title>
+<source>Appl. Environ. Microbiol.</source>
+<year>2004</year>
+<volume>70</volume>
+<fpage>2520</fpage>
+<lpage>2524</lpage>
+<pub-id pub-id-type="doi">10.1128/AEM.70.4.2520-2524.2004</pub-id>
+<?supplied-pmid 15066853?><pub-id pub-id-type="pmid">15066853</pub-id></element-citation></ref><ref id="B10-biomolecules-05-01012"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kustu</surname><given-names>S.</given-names></name><name><surname>Santero</surname><given-names>E.</given-names></name><name><surname>Keener</surname><given-names>J.</given-names></name><name><surname>Popham</surname><given-names>D.</given-names></name><name><surname>Weiss</surname><given-names>D.</given-names></name></person-group>
+<article-title>Expression of sigma 54 (NtrA)-dependent genes is probably united by a common mechanism</article-title>
+<source>Microbiol. Rev.</source>
+<year>1989</year>
+<volume>53</volume>
+<fpage>367</fpage>
+<lpage>376</lpage>
+<?supplied-pmid 2677638?><pub-id pub-id-type="pmid">2677638</pub-id></element-citation></ref><ref id="B11-biomolecules-05-01012"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Popham</surname><given-names>D.L.</given-names></name><name><surname>Szeto</surname><given-names>D.</given-names></name><name><surname>Keener</surname><given-names>J.</given-names></name><name><surname>Kustu</surname><given-names>S.</given-names></name></person-group>
+<article-title>Function of a bacterial activator protein that binds to transcriptional enhancers</article-title>
+<source>Science</source>
+<year>1989</year>
+<volume>243</volume>
+<fpage>629</fpage>
+<lpage>635</lpage>
+<pub-id pub-id-type="doi">10.1126/science.2563595</pub-id>
+<?supplied-pmid 2563595?><pub-id pub-id-type="pmid">2563595</pub-id></element-citation></ref><ref id="B12-biomolecules-05-01012"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cannon</surname><given-names>W.</given-names></name><name><surname>Chaney</surname><given-names>M.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name></person-group>
+<article-title>Characterisation of holoenzyme lacking sigman regions I and II</article-title>
+<source>Nucleic Acids Res.</source>
+<year>1999</year>
+<volume>27</volume>
+<fpage>2478</fpage>
+<lpage>2486</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/27.12.2478</pub-id>
+<?supplied-pmid 10352177?><pub-id pub-id-type="pmid">10352177</pub-id></element-citation></ref><ref id="B13-biomolecules-05-01012"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Syed</surname><given-names>A.</given-names></name><name><surname>Gralla</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Isolation and properties of enhancer-bypass mutants of sigma 54</article-title>
+<source>Mol. Microbiol.</source>
+<year>1997</year>
+<volume>23</volume>
+<fpage>987</fpage>
+<lpage>995</lpage>
+<pub-id pub-id-type="doi">10.1046/j.1365-2958.1997.2851651.x</pub-id>
+<?supplied-pmid 9076735?><pub-id pub-id-type="pmid">9076735</pub-id></element-citation></ref><ref id="B14-biomolecules-05-01012"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doucleff</surname><given-names>M.</given-names></name><name><surname>Malak</surname><given-names>L.T.</given-names></name><name><surname>Pelton</surname><given-names>J.G.</given-names></name><name><surname>Wemmer</surname><given-names>D.E.</given-names></name></person-group>
+<article-title>The C-terminal RpoN domain of sigma54 forms an unpredicted helix-turn-helix motif similar to domains of sigma70</article-title>
+<source>J. Biol. Chem.</source>
+<year>2005</year>
+<volume>280</volume>
+<fpage>41530</fpage>
+<lpage>41536</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M509010200</pub-id>
+<?supplied-pmid 16210314?><pub-id pub-id-type="pmid">16210314</pub-id></element-citation></ref><ref id="B15-biomolecules-05-01012"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doucleff</surname><given-names>M.</given-names></name><name><surname>Pelton</surname><given-names>J.G.</given-names></name><name><surname>Lee</surname><given-names>P.S.</given-names></name><name><surname>Nixon</surname><given-names>B.T.</given-names></name><name><surname>Wemmer</surname><given-names>D.E.</given-names></name></person-group>
+<article-title>Structural basis of DNA recognition by the alternative sigma-factor, sigma54</article-title>
+<source>J. Mol. Biol.</source>
+<year>2007</year>
+<volume>369</volume>
+<fpage>1070</fpage>
+<lpage>1078</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jmb.2007.04.019</pub-id>
+<?supplied-pmid 17481658?><pub-id pub-id-type="pmid">17481658</pub-id></element-citation></ref><ref id="B16-biomolecules-05-01012"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>L.</given-names></name><name><surname>Gralla</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Roles for the C-terminal region of sigma 54 in transcriptional silencing and DNA binding</article-title>
+<source>J. Biol. Chem.</source>
+<year>2001</year>
+<volume>276</volume>
+<fpage>8979</fpage>
+<lpage>8986</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M009587200</pub-id>
+<?supplied-pmid 11124262?><pub-id pub-id-type="pmid">11124262</pub-id></element-citation></ref><ref id="B17-biomolecules-05-01012"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Friedman</surname><given-names>L.J.</given-names></name><name><surname>Mumm</surname><given-names>J.P.</given-names></name><name><surname>Gelles</surname><given-names>J.</given-names></name></person-group>
+<article-title>RNA polymerase approaches its promoter without long-range sliding along DNA</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2013</year>
+<volume>110</volume>
+<fpage>9740</fpage>
+<lpage>9745</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1300221110</pub-id>
+<?supplied-pmid 23720315?><pub-id pub-id-type="pmid">23720315</pub-id></element-citation></ref><ref id="B18-biomolecules-05-01012"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Friedman</surname><given-names>L.J.</given-names></name><name><surname>Gelles</surname><given-names>J.</given-names></name></person-group>
+<article-title>Mechanism of transcription initiation at an activator-dependent promoter defined by single-molecule observation</article-title>
+<source>Cell</source>
+<year>2012</year>
+<volume>148</volume>
+<fpage>679</fpage>
+<lpage>689</lpage>
+<pub-id pub-id-type="doi">10.1016/j.cell.2012.01.018</pub-id>
+<?supplied-pmid 22341441?><pub-id pub-id-type="pmid">22341441</pub-id></element-citation></ref><ref id="B19-biomolecules-05-01012"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tintut</surname><given-names>Y.</given-names></name><name><surname>Wang</surname><given-names>J.T.</given-names></name><name><surname>Gralla</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Abortive cycling and the release of polymerase for elongation at the sigma 54-dependent <italic>glnAP2</italic> promoter</article-title>
+<source>J. Biol. Chem.</source>
+<year>1995</year>
+<volume>270</volume>
+<fpage>24392</fpage>
+<lpage>24398</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.270.41.24392</pub-id>
+<?supplied-pmid 7592652?><pub-id pub-id-type="pmid">7592652</pub-id></element-citation></ref><ref id="B20-biomolecules-05-01012"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burrows</surname><given-names>P.C.</given-names></name><name><surname>Severinov</surname><given-names>K.</given-names></name><name><surname>Ishihama</surname><given-names>A.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name><name><surname>Wigneshweraraj</surname><given-names>S.R.</given-names></name></person-group>
+<article-title>Mapping sigma 54-RNA polymerase interactions at the &#x02212;24 consensus promoter element</article-title>
+<source>J. Biol. Chem.</source>
+<year>2003</year>
+<volume>278</volume>
+<fpage>29728</fpage>
+<lpage>29743</lpage>
+<pub-id pub-id-type="doi">10.1074/jbc.M303596200</pub-id>
+<?supplied-pmid 12750380?><pub-id pub-id-type="pmid">12750380</pub-id></element-citation></ref><ref id="B21-biomolecules-05-01012"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bose</surname><given-names>D.</given-names></name><name><surname>Pape</surname><given-names>T.</given-names></name><name><surname>Burrows</surname><given-names>P.C.</given-names></name><name><surname>Rappas</surname><given-names>M.</given-names></name><name><surname>Wigneshweraraj</surname><given-names>S.R.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name><name><surname>Zhang</surname><given-names>X.</given-names></name></person-group>
+<article-title>Organization of an activator-bound RNA polymerase holoenzyme</article-title>
+<source>Mol. Cell</source>
+<year>2008</year>
+<volume>32</volume>
+<fpage>337</fpage>
+<lpage>346</lpage>
+<pub-id pub-id-type="doi">10.1016/j.molcel.2008.09.015</pub-id>
+<?supplied-pmid 18995832?><pub-id pub-id-type="pmid">18995832</pub-id></element-citation></ref><ref id="B22-biomolecules-05-01012"><label>22.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>N.</given-names></name><name><surname>Joly</surname><given-names>N.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name></person-group>
+<article-title>A common feature from different subunits of a homomeric AAA+ protein contacts three spatially distinct transcription elements</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2012</year>
+<volume>40</volume>
+<fpage>9139</fpage>
+<lpage>9152</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gks661</pub-id>
+<?supplied-pmid 22772990?><pub-id pub-id-type="pmid">22772990</pub-id></element-citation></ref><ref id="B23-biomolecules-05-01012"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sysoeva</surname><given-names>T.A.</given-names></name><name><surname>Chowdhury</surname><given-names>S.</given-names></name><name><surname>Guo</surname><given-names>L.</given-names></name><name><surname>Nixon</surname><given-names>B.T.</given-names></name></person-group>
+<article-title>Nucleotide-induced asymmetry within ATPase activator ring drives sigma54-RNAP interaction and ATP hydrolysis</article-title>
+<source>Genes Dev.</source>
+<year>2013</year>
+<volume>27</volume>
+<fpage>2500</fpage>
+<lpage>2511</lpage>
+<?supplied-pmid 24240239?><pub-id pub-id-type="pmid">24240239</pub-id></element-citation></ref><ref id="B24-biomolecules-05-01012"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sharma</surname><given-names>A.</given-names></name><name><surname>Leach</surname><given-names>R.N.</given-names></name><name><surname>Gell</surname><given-names>C.</given-names></name><name><surname>Zhang</surname><given-names>N.</given-names></name><name><surname>Burrows</surname><given-names>P.C.</given-names></name><name><surname>Shepherd</surname><given-names>D.A.</given-names></name><name><surname>Wigneshweraraj</surname><given-names>S.</given-names></name><name><surname>Smith</surname><given-names>D.A.</given-names></name><name><surname>Zhang</surname><given-names>X.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Domain movements of the enhancer-dependent sigma factor drive DNA delivery into the RNA polymerase active site: Insights from single molecule studies</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2014</year>
+<volume>42</volume>
+<fpage>5177</fpage>
+<lpage>5190</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gku146</pub-id>
+<pub-id pub-id-type="pmid">24553251</pub-id></element-citation></ref><ref id="B25-biomolecules-05-01012"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>N.</given-names></name><name><surname>Gordiyenko</surname><given-names>Y.</given-names></name><name><surname>Joly</surname><given-names>N.</given-names></name><name><surname>Lawton</surname><given-names>E.</given-names></name><name><surname>Robinson</surname><given-names>C.V.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name></person-group>
+<article-title>Subunit dynamics and nucleotide-dependent asymmetry of an AAA+ transcription complex</article-title>
+<source>J. Mol. Biol.</source>
+<year>2014</year>
+<volume>426</volume>
+<fpage>71</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jmb.2013.08.018</pub-id>
+<?supplied-pmid 24055699?><pub-id pub-id-type="pmid">24055699</pub-id></element-citation></ref><ref id="B26-biomolecules-05-01012"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burrows</surname><given-names>P.C.</given-names></name><name><surname>Joly</surname><given-names>N.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name></person-group>
+<article-title>A prehydrolysis state of an AAA+ ATPase supports transcription activation of an enhancer-dependent RNA polymerase</article-title>
+<source>Proc. Natl. Acad. Sci. USA</source>
+<year>2010</year>
+<volume>107</volume>
+<fpage>9376</fpage>
+<lpage>9381</lpage>
+<pub-id pub-id-type="doi">10.1073/pnas.1001188107</pub-id>
+<?supplied-pmid 20439713?><pub-id pub-id-type="pmid">20439713</pub-id></element-citation></ref><ref id="B27-biomolecules-05-01012"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lawton</surname><given-names>E.</given-names></name><name><surname>Jovanovic</surname><given-names>M.</given-names></name><name><surname>Joly</surname><given-names>N.</given-names></name><name><surname>Waite</surname><given-names>C.</given-names></name><name><surname>Zhang</surname><given-names>N.</given-names></name><name><surname>Wang</surname><given-names>B.</given-names></name><name><surname>Burrows</surname><given-names>P.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name></person-group>
+<article-title>Determination of the self-association residues within a homomeric and a heteromeric AAA+ enhancer binding protein</article-title>
+<source>J. Mol. Biol.</source>
+<year>2014</year>
+<volume>426</volume>
+<fpage>1692</fpage>
+<lpage>1710</lpage>
+<pub-id pub-id-type="doi">10.1016/j.jmb.2014.01.001</pub-id>
+<?supplied-pmid 24434682?><pub-id pub-id-type="pmid">24434682</pub-id></element-citation></ref><ref id="B28-biomolecules-05-01012"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>D.R.</given-names></name><name><surname>Barton</surname><given-names>G.</given-names></name><name><surname>Pan</surname><given-names>Z.</given-names></name><name><surname>Buck</surname><given-names>M.</given-names></name><name><surname>Wigneshweraraj</surname><given-names>S.</given-names></name></person-group>
+<article-title>Nitrogen stress response and stringent response are coupled in <italic>Escherichia coli</italic></article-title>
+<source>Nat. Commun.</source>
+<year>2014</year>
+<pub-id pub-id-type="doi">10.1038/ncomms5115</pub-id>
+</element-citation></ref><ref id="B29-biomolecules-05-01012"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhao</surname><given-names>K.</given-names></name><name><surname>Liu</surname><given-names>M.</given-names></name><name><surname>Burgess</surname><given-names>R.R.</given-names></name></person-group>
+<article-title>Promoter and regulon analysis of nitrogen assimilation factor, sigma54, reveal alternative strategy for <italic>E. coli</italic> MG1655 flagellar biosynthesis</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2010</year>
+<volume>38</volume>
+<fpage>1273</fpage>
+<lpage>1283</lpage>
+<pub-id pub-id-type="doi">10.1093/nar/gkp1123</pub-id>
+<?supplied-pmid 19969540?><pub-id pub-id-type="pmid">19969540</pub-id></element-citation></ref></ref-list></back></article>

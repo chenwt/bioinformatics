@@ -1,0 +1,387 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.1d3 20150301//EN" "JATS-archivearticle1.dtd"> 
+<article xmlns:ali="http://www.niso.org/schemas/ali/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?><front><journal-meta><journal-id journal-id-type="nlm-ta">Int J Environ Res Public Health</journal-id><journal-id journal-id-type="iso-abbrev">Int J Environ Res Public Health</journal-id><journal-id journal-id-type="publisher-id">ijerph</journal-id><journal-title-group><journal-title>International Journal of Environmental Research and Public Health</journal-title></journal-title-group><issn pub-type="ppub">1661-7827</issn><issn pub-type="epub">1660-4601</issn><publisher><publisher-name>MDPI</publisher-name></publisher></journal-meta><article-meta><article-id pub-id-type="pmcid">4627030</article-id><article-id pub-id-type="pmid">26506368</article-id><article-id pub-id-type="doi">10.3390/ijerph121013276</article-id><article-id pub-id-type="publisher-id">ijerph-12-13276</article-id><article-categories><subj-group subj-group-type="heading"><subject>Article</subject></subj-group></article-categories><title-group><article-title>Molecular Analysis of Bacterial Microbiota on Brazilian Currency Note Surfaces</article-title></title-group><contrib-group><contrib contrib-type="author"><name><surname>Pereira da Fonseca</surname><given-names>Tairacan Augusto</given-names></name><xref ref-type="aff" rid="af1-ijerph-12-13276">1</xref></contrib><contrib contrib-type="author"><name><surname>Pess&#x000f4;a</surname><given-names>Rodrigo</given-names></name><xref ref-type="aff" rid="af1-ijerph-12-13276">1</xref></contrib><contrib contrib-type="author"><name><surname>Sanabani</surname><given-names>Sabri Saeed</given-names></name><xref ref-type="aff" rid="af1-ijerph-12-13276">1</xref><xref ref-type="aff" rid="af2-ijerph-12-13276">2</xref><xref rid="c1-ijerph-12-13276" ref-type="corresp">*</xref></contrib></contrib-group><contrib-group><contrib contrib-type="editor"><name><surname>Mawson</surname><given-names>Anthony R.</given-names></name><role>Academic Editor</role></contrib></contrib-group><aff id="af1-ijerph-12-13276"><label>1</label>Clinical Laboratory, Department of Pathology, LIM 03, Hospital das Cl&#x000ed;nicas (HC), School of Medicine, University of S&#x000e3;o Paulo, S&#x000e3;o Paulo 05403 000, Brazil; E-Mails: <email>tairacanaugusto@hotmail.com</email> (T.A.P.F.); <email>farias.pessoa@unifesp.br</email> (R.P.)</aff><aff id="af2-ijerph-12-13276"><label>2</label>S&#x000e3;o Paulo Institute of Tropical Medicine, University of S&#x000e3;o Paulo, S&#x000e3;o Paulo 05403 000, Brazil</aff><author-notes><corresp id="c1-ijerph-12-13276"><label>*</label>Author to whom correspondence should be addressed; E-Mail: <email>sabri.alsanabani@pq.cnpq.br</email>; Tel.: +55-113-061-8668; Fax: +55-113-061-7020.</corresp></author-notes><pub-date pub-type="epub"><day>22</day><month>10</month><year>2015</year></pub-date><pub-date pub-type="ppub"><month>10</month><year>2015</year></pub-date><volume>12</volume><issue>10</issue><fpage>13276</fpage><lpage>13288</lpage><history><date date-type="received"><day>16</day><month>9</month><year>2015</year></date><date date-type="accepted"><day>16</day><month>10</month><year>2015</year></date></history><permissions><copyright-statement>&#x000a9; 2015 by the authors; licensee MDPI, Basel, Switzerland.</copyright-statement><copyright-year>2015</copyright-year><license><license-p><!--CREATIVE COMMONS-->This article is an open access article distributed under the terms and conditions of the Creative Commons Attribution license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><abstract><p>Currency notes have been implicated as a vehicle for transmitting community-acquired bacterial infections. However, the overall diversity of the bacterial population residing on banknotes is still unknown in Brazil. In this study, we aimed to investigate the overall bacterial population from 150 different Brazilian Rial (R$) notes in circulation using a culture-independent Illumina massively parallel sequencing approach of the 16S rRNA genes. Samples were randomly collected from three different street markets or &#x0201c;feiras&#x0201d; in the metropolitan region of S&#x000e3;o Paulo. Taxonomical composition revealed the abundance of <italic>Proteobacteria</italic> phyla, followed by <italic>Firmicutes</italic> and <italic>Streptophyta,</italic> with a total of 1193 bacterial families and 3310 bacterial genera. Most of these bacterial genera are of human, animal, and environmental origins. Also, our analysis revealed the presence of some potential pathogenic bacterial genera including <italic>Salmonella</italic>, <italic>Staphylococcus</italic>, and <italic>Klebsiella</italic>. The results demonstrate that there is a tremendous diversity of bacterial contamination on currency notes, including organisms known to be opportunistic pathogens. One of the factors that may contribute to the richness of bacterial diversity in currency notes is personal hygiene. Thus, our results underscore the need to increase public awareness of the importance of personal hygiene of money handlers who also handle food.</p></abstract><kwd-group><kwd>bacteria</kwd><kwd>microbiome</kwd><kwd>metagenomics</kwd><kwd>currency notes</kwd></kwd-group></article-meta></front><body><sec id="sec1-ijerph-12-13276"><title>1. Introduction</title><p>Currency notes and coins are handled and circulated by individuals with different health statuses and various personal hygiene habits, and are often stored under adverse hygienic conditions. Although credit cards and electronic banking have replaced traditional money to some extent, cash exchanges are still commonly used worldwide for the purchase of goods and services. Unlike coins, paper banknotes provide a large surface area for bacterial attachment and proliferation [<xref rid="B1-ijerph-12-13276" ref-type="bibr">1</xref>] and could serve as vectors for transmission of potentially pathogenic and\or resistant microorganisms through handling [<xref rid="B2-ijerph-12-13276" ref-type="bibr">2</xref>,<xref rid="B3-ijerph-12-13276" ref-type="bibr">3</xref>]. The level of contamination and the chance of transmission of microorganisms imposed on paper currencies and coins are often associated with the economic status of a country and the levels of community hygiene [<xref rid="B4-ijerph-12-13276" ref-type="bibr">4</xref>]. The contamination could occur during production, storage, use, or handling [<xref rid="B5-ijerph-12-13276" ref-type="bibr">5</xref>,<xref rid="B6-ijerph-12-13276" ref-type="bibr">6</xref>]. High rates of microbial contamination of currency notes in circulation have been reported in multiple studies in different parts of the world [<xref rid="B7-ijerph-12-13276" ref-type="bibr">7</xref>,<xref rid="B8-ijerph-12-13276" ref-type="bibr">8</xref>,<xref rid="B9-ijerph-12-13276" ref-type="bibr">9</xref>]. For instance, 100% of currency notes from India [<xref rid="B8-ijerph-12-13276" ref-type="bibr">8</xref>,<xref rid="B10-ijerph-12-13276" ref-type="bibr">10</xref>], Bangladesh [<xref rid="B11-ijerph-12-13276" ref-type="bibr">11</xref>], Iraq [<xref rid="B12-ijerph-12-13276" ref-type="bibr">12</xref>], and Ghana [<xref rid="B9-ijerph-12-13276" ref-type="bibr">9</xref>] were found to carry pathogenic or potentially pathogenic bacteria. An early study conducted by Abrams and Waterman found that 42% of paper money collected from laboratory workers was contaminated by potential pathogens, such as <italic>S. aureus</italic>, <italic>E. coli</italic>, <italic>Klebsiella</italic> sp., <italic>P. aeruginosa</italic>, and <italic>Proteus mirabilis</italic> [<xref rid="B13-ijerph-12-13276" ref-type="bibr">13</xref>]. A recent study on currency paper from various countries found a high contamination of <italic>E. coli</italic> on banknote samples from the USA and China, and Salmonella sp. was detected only from samples in the USA, China, and Ireland, while the presence of <italic>S. aureus</italic> varied from country to country [<xref rid="B1-ijerph-12-13276" ref-type="bibr">1</xref>]. The same study showed that the lower the denomination of the note, the higher the typical bacterial content of the currency. The results also showed that the age of the notes and the material that was used to produce the notes correlate with the number of bacterial contaminations [<xref rid="B1-ijerph-12-13276" ref-type="bibr">1</xref>]. Lower denomination notes carry the highest number of infectious agents because they are exchanged more than higher denomination notes [<xref rid="B14-ijerph-12-13276" ref-type="bibr">14</xref>]. These results have further been supported by other studies [<xref rid="B15-ijerph-12-13276" ref-type="bibr">15</xref>,<xref rid="B16-ijerph-12-13276" ref-type="bibr">16</xref>].</p><p>Needless to say, previous studies have provided evidence that the surfaces of currency notes serve as hotspots of harmless and pathogenic bacterial contamination. However, the overall bacterial diversity in currency notes remains largely unknown, as most previous studies of money microbes relied upon cultivation-dependent techniques that preclude characterization of in-depth bacterial communities. Therefore, the aim of this study was to profile microbiota composition in circulating Brazilian paper currencies using a large-scale DNA sequencing system of the 16S rRNA gene. </p></sec><sec id="sec2-ijerph-12-13276"><title>2. Experimental Section</title><p>A total of 150 banknotes involving five denominations (2, 5, 10, 20, and 50), 30 notes each, were randomly collected from three different street markets or &#x0201c;feiras&#x0201d; in the metropolitan region of S&#x000e3;o Paulo, the most populated city in Brazil. Apparently mutilated or damaged notes were not used in this study. Each banknote with an equal value from each feira was joined and deposited into an individual, sterile, stomacher bag as described previously [<xref rid="B1-ijerph-12-13276" ref-type="bibr">1</xref>]. All samples were frozen (&#x02212;80 &#x000b0;C) until DNA extraction.</p><p>Prior to the extraction of DNA, the currency notes from the same denomination from the three feiras were joined and put in 50 mL sterile Falcon tubes and immersed in previously UV exposed ultra-pure water (Invitrogen, Grand Island, NY, USA). The tubes were incubated for 10 min at room temperature with vigorous agitation steps every two minutes to remove attached bacteria. After being rinsed, the bank notes were removed, and bacterial cells were harvested by centrifugation for 10 min at 9000&#x000d7; <italic>g</italic>. The supernatant was carefully discarded and the pellet was re-suspended in whatever supernatant was left. The DNA from each pellet was extracted using the PowerSoil DNA kit (MO BIO Laboratories&#x02122;, Carlsbad, CA, USA) according to the manufacturer&#x02019;s protocol. The V4 region of the 16S rRNA gene was amplified using the primers Bakt_341F/Bakt_805R (5&#x02032;-CCTACGGGNGGCWGCAG-3&#x02032;, 5&#x02032;-GACTACHVGGGTATCTAATCC-3&#x02032; [<xref rid="B17-ijerph-12-13276" ref-type="bibr">17</xref>]. Amplification was performed in two steps using a custom Illumina (San Diego, CA, USA) preparation protocol where the 1st PCR was conducted with forward primers that contained partial unique barcodes and partial Illumina adapters. The remaining ends of the Illumina adapters were attached during the 2nd PCR and the barcodes were recombined <italic>in silico</italic> using paired-end reads. The extracted DNA from all samples was used as templates in triplicate amplification in the 1st PCR and pooled before the 2nd PCR. The 1st PCR consisted of a 25 &#x003bc;L solution containing 5 &#x003bc;L 5&#x000d7; HF buffer (Thermo Fisher Scientific, Waltham, MA, USA), 0.5 &#x003bc;L deoxyribonucleotide triphosphates (10 mM, Invitrogen, Life Technologies, Grand Island, NY, USA), 0.25 &#x003bc;L Phusion Hotstart II polymerase (0.5 units; Thermo Fisher Scientific Inc., Vilnius, Lithuania), 13.25 &#x003bc;L certified nucleic-acid free water, 0.5 &#x003bc;L (10 &#x003bc;M) forward primer, 0.5 &#x003bc;L (10 &#x003bc;M) reverse primer, and 5 &#x003bc;L template DNA. The 1st PCR conditions were as follows: initial denaturation for 2 min at 98 &#x000b0;C; 22 cycles of 20 s at 98 &#x000b0;C, 30 s at 50 &#x000b0;C and 20 s at 72 &#x000b0;C; and 72 &#x000b0;C for 2 min for final extension. After the 1st PCR, the triplicate reactions were pooled and cleaned with the Qiagen MinElute PCR Purification Kit according to the manufacturer&#x02019;s protocol (Qiagen, Germantown, MD, USA). Samples were eluted in 11.5 &#x003bc;L Buffer EB (10 mM Tris-Cl, pH 8.5, Qiagen, Germantown, MD, USA). For the 2nd PCR, a single primer pair was used to add the remaining Illumina adapter fragments to the ends of the amplified products from the 1st PCR. The 2nd PCR was performed using the same combination of reagents that was used in the 1st PCR. The PCR cycling condition consisted of an initial denaturation step at 98 &#x000b0;C for 2 min, followed by 12 cycles of 98 &#x000b0;C for 20 s, 66 &#x000b0;C for 30 s and 72 &#x000b0;C for 20 s, and a final extension was carried out at 72 &#x000b0;C for 2 min. The amplified products from the 2nd PCR were separated by gel electrophoresis and purified using Freeze &#x02018;N Squeeze DNA Gel Extraction Spin Columns (Bio-Rad, Hercules, CA, USA). Each purified amplicon was quantified on a Qubit 2.0 Fluorometer (Life Technologies, Carlsbad, CA, USA), pooled at equimolar concentration, and diluted to 4 nM. To denature the indexed DNA, 5 &#x000b5;L of the 4 nM library were mixed with 5 &#x000b5;L of 0.2 N fresh NaOH and incubated for 5 min at room temperature. Then, 990 &#x000b5;L of chilled Illumina HT1 buffer were added to the denatured DNA and mixed to make a 20 pM library. After this step, 360 &#x000b5;L of the 20 pM library was multiplexed with 6 &#x000b5;L of 12.5 pM denatured PhiX control to increase sequence diversity and then mixed with 234 &#x000b5;L of chilled HT1 buffer to make a 12 pM sequenceable library. Finally, 600 &#x000b5;L of the prepared library was loaded on an Illumina MiSeq clamshell style cartridge for paired end 300 sequencing. The library was clustered to a density of approximately 820K clusters/mm<sup>2</sup>. Image analysis, base calling, and data quality assessment were performed on the MiSeq instrument (San Diego, CA, USA). </p><p>To confirm that the PCR reagents were not the source of bacterial sequences, PCR of the no-template control was performed. Also, prior to extraction and amplification, all reagents and ultrapure water were exposed to UV light of 254 nm for at least 3 min. No visible amplification signal was observed for the no-template control on a gel, indicating that bacterial contamination was minimal. </p><p>The library was clustered to a density of approximately 820K clusters/mm<sup>2</sup>. Image analysis, base calling, and data quality assessment were initially performed on the MiSeq instrument. Any reads containing two or more ambiguous nucleotides, low quality score (average <italic>q</italic> score &#x0003c; 25), or reads shorter than 300 bp, were discarded. For the 16S primer trimming, two nucleotide mismatches to the adjacent PCR primer were allowed. MiSeq forward and reverse reads were paired using the PANDAseq v.2.9 [<xref rid="B18-ijerph-12-13276" ref-type="bibr">18</xref>] with default parameters. Potential chimera sequences were detected and removed using the UCHIME algorithm [<xref rid="B19-ijerph-12-13276" ref-type="bibr">19</xref>]. To reduce computational burden analysis, 10% of reads were randomly selected from each currency note and considered for further analysis. To avoid sampling size effects, the number of reads per sample was normalized to 1837 for each dataset by randomly subsampling to the lowest number of reads among samples. The taxonomic classification of each read was assigned against the EzTaxon-e database [<xref rid="B20-ijerph-12-13276" ref-type="bibr">20</xref>] at a 97% threshold of pairwise sequence similarity. The richness and diversity of samples was determined by Chao1 estimation and the Shannon diversity index at 3% distance. The bacterial community richness indices (non-parametric Chao1) and diversity indices (Shannon estimator) were calculated using Mothur and Shannon-ace-table.pl software programs (Chunlab Inc., Seoul, Korea). The overall phylogenetic distance between communities was estimated using the Fast UniFrac [<xref rid="B21-ijerph-12-13276" ref-type="bibr">21</xref>] and visualized using principal coordinate analysis (PCoA). To compare operational taxonomic units (OTUs) between samples, shared OTUs were obtained with the XOR analysis of CL community program v3.43 (Chunlab Inc., Seoul, Korea).</p><p>The sequencing data have been uploaded to zenodo [<xref rid="B22-ijerph-12-13276" ref-type="bibr">22</xref>].</p></sec><sec id="sec3-ijerph-12-13276"><title>3. Results and Discussion</title><p>After extraction, the samples were found to contain DNA from 62 ng; negative controls (no cells) had no quantifiable DNA based on Qubit analysis. Using the Illumina sequencing-by-synthesis method (MiSeq platform), 10,659,379 reads in total were generated by the five samples. After filtering, 9,260,221 effective sequences remained, accounting for nearly 86.8% of the total sequences. To minimize computational time, a random 10% of reads from each sample was computationally selected. This resulted in a total of 962,982 valid reads, of which 799,460 (83%) were derived from bacterial sequences, 161,560 (16.7%) eukaryotic source, 1950 (0.2%) unmatched sequences, and 16 (0.002%) from archaea. Analyses were limited to bacterial populations. The unmatched sequences of OTUs failed to be assigned into any genus with a confidence level higher than 50%, suggesting the presence of many novel bacteria. The distribution of sequence lengths produced agreed with the amplicon length (464 bp) of the 16S rRNA. Reads ranging from 146,470 to 168,981 were contained in each of the five bacterial communities, and the OTU ranged from 72,923 to 81,215 (<xref ref-type="table" rid="ijerph-12-13276-t001">Table 1</xref>). The indices of bacterial diversity were estimated using a rarefaction curve (<xref ref-type="fig" rid="ijerph-12-13276-f001">Figure 1</xref>) based on OTUs. This analysis indicated 97% similarity of OTUs at the 3% divergence was attained for each sample and suggests an adequate depth of coverage. By rarefaction analysis estimates, the trend for species richness on different currency notes was quite similar to each other. Chao1 and the Shannon index were calculated to estimate the alpha diversity. Chao1 analysis revealed a decreased trend of richness in the currency note R$ F5 and F50 compared to the currency notes R$ F2, F10 and F50. The highest richness value of Chao1 was observed in R$ F20 and the lowest in R$ F5 (<xref ref-type="table" rid="ijerph-12-13276-t001">Table 1</xref>). </p><table-wrap id="ijerph-12-13276-t001" position="float"><object-id pub-id-type="pii">ijerph-12-13276-t001_Table 1</object-id><label>Table 1</label><caption><p>Library reads and sequence diversity of 16 S rRNA.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Currency Note (R$)</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Valid Reads</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">No. of OTU (&#x0003e;97% identity)</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Chao1 Value</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">Shannon Index</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">F2</td><td align="center" valign="middle" rowspan="1" colspan="1">156,537</td><td align="center" valign="middle" rowspan="1" colspan="1">74,109</td><td align="center" valign="middle" rowspan="1" colspan="1">8,371,643,675</td><td align="center" valign="middle" rowspan="1" colspan="1">9,574,233</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">F5</td><td align="center" valign="middle" rowspan="1" colspan="1">146,470</td><td align="center" valign="middle" rowspan="1" colspan="1">72,923</td><td align="center" valign="middle" rowspan="1" colspan="1">7,528,842,108</td><td align="center" valign="middle" rowspan="1" colspan="1">9,858,164</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">F10</td><td align="center" valign="middle" rowspan="1" colspan="1">167,851</td><td align="center" valign="middle" rowspan="1" colspan="1">81,215</td><td align="center" valign="middle" rowspan="1" colspan="1">8,764,508,415</td><td align="center" valign="middle" rowspan="1" colspan="1">9,937,533</td></tr><tr><td align="center" valign="middle" rowspan="1" colspan="1">F20</td><td align="center" valign="middle" rowspan="1" colspan="1">168,981</td><td align="center" valign="middle" rowspan="1" colspan="1">80,076</td><td align="center" valign="middle" rowspan="1" colspan="1">8,808,417,211</td><td align="center" valign="middle" rowspan="1" colspan="1">9,919,012</td></tr><tr><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">F50</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">159,621</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">73,891</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">8,237,323,319</td><td align="center" valign="middle" style="border-bottom:solid thin" rowspan="1" colspan="1">967,336</td></tr></tbody></table></table-wrap><fig id="ijerph-12-13276-f001" position="float"><label>Figure 1</label><caption><p>Rarefaction analysis of the five samples. Rarefaction curves of OTUs clustered at 97% sequence identity across the samples.</p></caption><graphic xlink:href="ijerph-12-13276-g001"/></fig><p>The Shannon index computed at 3% dissimilarity showed the lowest value of evenness (9574) for the sample R$ F2 compared to the all other samples that revealed the highest value of evenness. No statistically significant difference was found in the Choa1 and the Shannon index between the groups of currency note samples. The bacteria were from 58 phyla, 198 classes, 466 orders, 1193 families, and 3310 genera. Proteobacteria (43%) was the most abundant phylum with 28.8% contributed by Gamma-proteobacteria and 17.9% by Bacilli. The most abundant OTUs at phylum and family levels that accounted for more than 1% of all sequences are shown in <xref ref-type="fig" rid="ijerph-12-13276-f002">Figure 2</xref>. Proteobacteria were commonly most abundant in each sample accounting for 37.7%, 34.1%, 44.3%, 50.6%, and 48.4% in banknotes R$ F2, F5, F10, F20, and F50, respectively (<xref ref-type="fig" rid="ijerph-12-13276-f003">Figure 3</xref>). The six OTUs of the most abundance species associated with the five sample libraries were related to <italic>Staphylococcus saprophyticus</italic> (0.4%&#x02013;2.8%), <italic>Staphylococcaceae_uc_s</italic> (0.7%&#x02013;1.4%), <italic>Staphylococcus_uc</italic> (0.5%&#x02013;1.1%), <italic>Moraxellaceae_uc_s</italic> (0.6%&#x02013;1.7%), <italic>Enterobacteriaceae_uc_s</italic> (1.1%&#x02013;0.8%), and <italic>Acinetobacter_uc</italic> (0.5%&#x02013;1.3%) (<xref ref-type="table" rid="ijerph-12-13276-t002">Table 2</xref>). </p><fig id="ijerph-12-13276-f002" position="float"><label>Figure 2</label><caption><p>Average composition of bacteria from all samples (inner area: Phylum, outer area: Family). Phyla and Families with more than 1% of their proportion were represented.</p></caption><graphic xlink:href="ijerph-12-13276-g002"/></fig><fig id="ijerph-12-13276-f003" position="float"><label>Figure 3</label><caption><p>Average composition of bacteria from each sample (inner area: Phylum, outer area: Family). Only bacterial phyla and families that had a relative abundance of 1% or greater are presented.</p></caption><graphic xlink:href="ijerph-12-13276-g003"/></fig><table-wrap id="ijerph-12-13276-t002" position="float"><object-id pub-id-type="pii">ijerph-12-13276-t002_Table 2</object-id><label>Table 2</label><caption><p>Identities of the six most abundant OTUs in the bacterial communities.</p></caption><table frame="hsides" rules="groups"><thead><tr><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"></th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">F2</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">F5</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">F10</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">F20</th><th align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">F50</th></tr><tr><th rowspan="2" align="center" valign="middle" style="border-bottom:solid thin" colspan="1">Abundance Order </th><th colspan="5" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">Taxa</th></tr><tr><th colspan="5" align="center" valign="middle" style="border-bottom:solid thin" rowspan="1">(Abundance)</th></tr></thead><tbody><tr><td align="center" valign="middle" rowspan="1" colspan="1">1</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>Staphylococcus saprophyticus</italic> (2.8%)</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>Staphylococcus saprophyticus</italic> (2.7%)</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>Moraxellaceae_uc_s</italic> (1.6%)</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>Moraxellaceae_uc_s</italic> (1.5%)</td><td align="center" valign="middle" rowspan="1" colspan="1"><italic>Moraxellaceae_uc_s</italic> (1.7%)</td></tr><tr><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1">2</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcaceae_uc_s</italic> (1.4%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Enterobacteriaceae_uc_s</italic> (1.1%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Acinetobacter_uc</italic> (0.8%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Acinetobacter_uc</italic> (1.3%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Acinetobacter_uc</italic> (1.1%)</td></tr><tr><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1">3</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus_uc</italic> (1.1%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcaceae_uc_s</italic> (0.9%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Enterobacteriaceae_uc_s</italic> (0.8%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Enterobacteriaceae_uc_s</italic> (1.0%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Enterobacteriaceae_uc_s</italic> (1.1%)</td></tr><tr><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1">4</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Moraxellaceae_uc_s</italic> (1.1%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus_uc</italic> (0.9%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcaceae_uc_s</italic> (0.7%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcaceae_uc_s</italic> (0.7%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcaceae_uc_s</italic> (0.6%)</td></tr><tr><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1">5</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Enterobacteriaceae_uc_s</italic> (0.9%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Moraxellaceae_uc_s</italic> (0.6%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus_uc</italic> (0.5%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus_uc</italic> (0.5%)</td><td align="center" valign="middle" style="border-top:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus_uc</italic> (0.6%)</td></tr><tr><td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1">6 </td><td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>Acinetobacter_uc</italic> (0.9%)</td><td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>Acinetobacter_uc</italic> (0.5%)</td><td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus saprophyticus</italic> (0.4%)</td><td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus saprophyticus</italic> (0.5%)</td><td align="center" valign="middle" style="border-top:solid thin;border-bottom:solid thin" rowspan="1" colspan="1"><italic>Staphylococcus saprophyticus</italic> (0.6%)</td></tr></tbody></table></table-wrap><p>The weighted Principal Coordinates Analysis (PCoA) of the microbiome of each sample based upon the UniFrac method was performed to compare overall composition of bacterial community within the samples. In the two-dimensional plot visualized from the Unifrac weighted distance matrix PCoA, all samples grouped in one cluster with no apparent difference in average size of their circles (<xref ref-type="fig" rid="ijerph-12-13276-f004">Figure 4</xref>).</p><fig id="ijerph-12-13276-f004" position="float"><label>Figure 4</label><caption><p>Principal Coordinates Analysis (PCoA) analysis of the microbiome of each currency note sample based upon beta div shannon 2d correlation. Different colored symbols are indicative of the various banknotes.</p></caption><graphic xlink:href="ijerph-12-13276-g004"/></fig><p>The use and constant exchange of paper currency could serve as a vehicle for transmission of bacteria and other potentially pathogenic microorganisms [<xref rid="B23-ijerph-12-13276" ref-type="bibr">23</xref>]. The amount and diversity of microbes found on notes may vary depending on various factors including the general hygiene levels of the population and who is likely to be handling the money. Here, we explored the first deep sequencing analysis of microbial populations associated with currency notes collected from vegetable and fruits vendors using culture independent Illumina next generation sequencing technology. Our findings revealed that the predominant phyla (in terms of percentages and reads) were <italic>Proteobacteria</italic>, <italic>Firmicutes</italic>, <italic>Streptophyta</italic> and <italic>Actinobacteria</italic>. The prevalence of these phyla has also been reported previously in various studies using culture-dependent assays [<xref rid="B13-ijerph-12-13276" ref-type="bibr">13</xref>,<xref rid="B23-ijerph-12-13276" ref-type="bibr">23</xref>,<xref rid="B24-ijerph-12-13276" ref-type="bibr">24</xref>,<xref rid="B25-ijerph-12-13276" ref-type="bibr">25</xref>]. Within these dominant phyla, the bacterial families with the highest relative abundances across all the samples were <italic>Moraxellaceae</italic>, <italic>Enterobacteriaceae</italic>, <italic>Pseudomonadaceae</italic>, <italic>and Acetobacteraceae</italic>. From our data, it is not possible to draw any firm conclusions regarding their pathogenicity; pathogenic taxa are suspected from previous studies. Species belonging to <italic>Pseudomonadaceae</italic> and <italic>Moraxellaceae</italic> families have been reported as opportunistic pathogens such as <italic>P. aeruginosa</italic> [<xref rid="B26-ijerph-12-13276" ref-type="bibr">26</xref>], <italic>M. catarrhalis</italic> [<xref rid="B27-ijerph-12-13276" ref-type="bibr">27</xref>], and <italic>M. osloensis</italic> which rarely causes infections but has been associated with bacteremia and endophthalmitis [<xref rid="B28-ijerph-12-13276" ref-type="bibr">28</xref>,<xref rid="B29-ijerph-12-13276" ref-type="bibr">29</xref>]. In general, the most common bacterial genus observed in this study was found to be <italic>Acinetobacter.</italic> The presence of <italic>Acinetobacter</italic> has been frequently detected on currency notes from Egypt [<xref rid="B25-ijerph-12-13276" ref-type="bibr">25</xref>], USA [<xref rid="B24-ijerph-12-13276" ref-type="bibr">24</xref>], and Kenya [<xref rid="B30-ijerph-12-13276" ref-type="bibr">30</xref>]. In this study, we identified the presence of more than 35 <italic>Acinetobacter</italic> spp, (tentatively, <italic>A. harbinensis</italic>, <italic>A. lwoffii group</italic>, <italic>A. johnsonii</italic>, <italic>A. tjernbergiae</italic>, <italic>A. pittii group</italic>, <italic>A. rudis</italic>), in all currency note samples. Among them, <italic>Acinetobacter_uc</italic> is the most predominant bacterial species, followed by <italic>A. harbinensis</italic>, and <italic>A. lwoffii</italic> group. These species have been isolated as commensals from the skin, throat, and in secretions of healthy people and have occasionally been detected in water, soil, sewage, and in foods, arthropods, and the environment [<xref rid="B31-ijerph-12-13276" ref-type="bibr">31</xref>]. Thus, the high prevalence of <italic>Acinetobacter</italic> spp on these banknotes is not surprising as most of these species are part of normal human flora. It was previously thought that <italic>Acinetobacter</italic> spp were not a common human pathogen but during the last three decades they have emerged as infectious agents of nosocomial infections [<xref rid="B32-ijerph-12-13276" ref-type="bibr">32</xref>,<xref rid="B33-ijerph-12-13276" ref-type="bibr">33</xref>,<xref rid="B34-ijerph-12-13276" ref-type="bibr">34</xref>,<xref rid="B35-ijerph-12-13276" ref-type="bibr">35</xref>].</p><p>Community-acquired infections are less frequent but have also been reported in several studies [<xref rid="B36-ijerph-12-13276" ref-type="bibr">36</xref>,<xref rid="B37-ijerph-12-13276" ref-type="bibr">37</xref>]. Of note, Acinetobacter spp are very well adapted to survive for several weeks on abiotic surfaces under dry conditions due to their ability to form <italic>&#x0201c;biofilm&#x0201d;</italic> [<xref rid="B38-ijerph-12-13276" ref-type="bibr">38</xref>] and their propensity to rapidly acquire antibiotic resistance mechanisms [<xref rid="B39-ijerph-12-13276" ref-type="bibr">39</xref>,<xref rid="B40-ijerph-12-13276" ref-type="bibr">40</xref>]. On the basis of these facts, the presence of <italic>Acinetobacter</italic>
+<italic>spp</italic>, including <italic>A. baumannii</italic> in this study raise an obvious public health concern; other studies would be needed to estimate the prevalence of antibiotic resistance of these species. </p><p>The vast majority of the bacterial species detected in this study are occasionally present in the environment and as normal flora in humans. Thus, their prevalence on currency notes is expected as they frequently come into contact with human hands. In addition, many other human-associated bacteria, including several strains associated with the mouth, urine, and intestines (e.g., <italic>Staphylococcus saprophyticus</italic><italic>,</italic>
+<italic>Staphylococcus aureus, Staphylococcus epidermidis</italic><italic>,</italic>
+<italic>Klebsiella pneumoniae</italic><italic>,</italic>
+<italic>Enterobacter faecalis</italic>, <italic>etc.</italic>) were detected in our samples, which is also not surprising. The presence of <italic>Salmonella enterica</italic> in our study may indicate poor hygiene in the persons who handled the banknotes. Another pathogenic bacteria, <italic>Klebsiella pneumoniae</italic> (belonging to the bacterial family Enterobacteriaceae), associated with a wide range of infections, including cystitis, pyelonephritis, osteomyelitis, meningitis, bacteremia, septicemia, liver abscess, and wound infections [<xref rid="B41-ijerph-12-13276" ref-type="bibr">41</xref>,<xref rid="B42-ijerph-12-13276" ref-type="bibr">42</xref>,<xref rid="B43-ijerph-12-13276" ref-type="bibr">43</xref>] has been identified in our study. Similarly, <italic>Staphylococus aureus</italic> (belonging to the bacterial family Staphylococcaceae), which is commonly found on the skin, axillae, perineum, and in the nares of healthy individuals and can cause serious infections such as bloodstream infections, pneumonia, or bone and joint infections [<xref rid="B44-ijerph-12-13276" ref-type="bibr">44</xref>,<xref rid="B45-ijerph-12-13276" ref-type="bibr">45</xref>] was identified in this study. With all data collectively considered, identification of these bacteria may represent a public health hazard. </p><p>Our approach to investigation reports the presence of bacterial populations regardless of whether they are dead or alive, culturable cells or non-culturable cells. Therefore, future study using RNA-based approaches, such as RNAseq, is needed to confirm the existence of viable bacterial populations on paper currencies. Despite the identification of these bacteria in our samples, it is difficult to trace the source of a community-acquired infection back to paper notes. Also, our study suggests that the Brazilian paper notes may contribute to the transmission of potentially harmful bacteria and should be a matter of concern for public health authorities.</p><p>Our analysis did not show any significant differences in bacterial population among notes with different denominations. These results are in contrast to previous studies [<xref rid="B23-ijerph-12-13276" ref-type="bibr">23</xref>,<xref rid="B46-ijerph-12-13276" ref-type="bibr">46</xref>], which demonstrated that paper currencies with lower denomination had the most contaminants compared to those with higher denominations. The differences in our results compared to other studies can partially be explained by the methodological differences among the studies. </p></sec><sec id="sec4-ijerph-12-13276"><title>4. Conclusions </title><p>Our study is the first of its kind to assess and provide a comprehensive assessment on the diversity in bacterial communities and presence of potential bacterial pathogens on paper currencies. As reported in the current study, a high degree of microbial diversity derived from currency banknotes may be alarmingly attributed to poor personal hygiene. Thus, these results should raise the concern of all individuals who handle paper money. To conclude, it is very important to highlight the need for proper hygienic practices for maximally reducing the spread of disease-causing pathogens. Also, microbial investigation of banknotes and replacement of contaminated notes by authorities is recommended.</p></sec></body><back><ack><title>Acknowledgements</title><p>This work was supported by grants 2011/11090-5 and 2011/12297-2 from the Funda&#x000e7;&#x000e3;o de Amparo &#x000e0; Pesquisa do Estado de S&#x000e3;o Paulo. </p></ack><notes><title>Author Contributions</title><p>Sabri Saeed Sanabani conceived the project idea. Sabri Saeed Sanabani and Tairacan Augusto Pereira da Fonseca designed the sample collection protocols. Sabri Saeed Sanabani coordinated experimental protocols. Tairacan Augusto Pereira da Fonseca and Rodrigo Pess&#x000f4;a performed laboratory experiments and conducted the sequencing experiments. Data analyses were done by Sabri Saeed Sanabani and Tairacan Augusto Pereira da Fonseca. Sabri Saeed Sanabani wrote the paper. All authors have read and approved the final version.</p></notes><notes><title>Conflicts of Interest</title><p>The authors declare no conflict of interest.</p></notes><ref-list><title>References</title><ref id="B1-ijerph-12-13276"><label>1.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vriesekoop</surname><given-names>F.</given-names></name><name><surname>Russell</surname><given-names>C.</given-names></name><name><surname>Alvarez-Mayorga</surname><given-names>B.</given-names></name><name><surname>Aidoo</surname><given-names>K.</given-names></name><name><surname>Yuan</surname><given-names>Q.</given-names></name><name><surname>Scannell</surname><given-names>A.</given-names></name><name><surname>Beumer</surname><given-names>R.R.</given-names></name><name><surname>Jiang</surname><given-names>X.</given-names></name><name><surname>Barro</surname><given-names>N.</given-names></name><name><surname>Otokunefor</surname><given-names>K.</given-names></name><etal/></person-group>
+<article-title>Dirty money: An investigation into the hygiene status of some of the world&#x02019;s currencies as obtained from food outlets</article-title>
+<source>Foodborne Pathog. Dis.</source>
+<year>2010</year>
+<volume>7</volume>
+<fpage>1497</fpage>
+<lpage>1502</lpage>
+<pub-id pub-id-type="doi">10.1089/fpd.2010.0606</pub-id>
+<?supplied-pmid 20704502?><pub-id pub-id-type="pmid">20704502</pub-id></element-citation></ref><ref id="B2-ijerph-12-13276"><label>2.</label><element-citation publication-type="gov">
+<article-title>Dirty Paper Money</article-title>
+<comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1707435/?page=1">http://www.ncbi.nlm.nih.gov/pmc/articles/PMC1707435/?page=1</ext-link></comment>
+<date-in-citation>(accessed on 16 September 2015)</date-in-citation>
+</element-citation></ref><ref id="B3-ijerph-12-13276"><label>3.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Debajit</surname><given-names>B.</given-names></name><name><surname>Pratap</surname><given-names>P.</given-names></name><name><surname>Tarun</surname><given-names>K.</given-names></name></person-group>
+<article-title>Paper currencies, a potential carrier of pathogenic microorganisms</article-title>
+<source>Int. J. Appl. Biol. Pharm. Technol.</source>
+<year>2012</year>
+<volume>3</volume>
+<fpage>23</fpage>
+<lpage>25</lpage>
+</element-citation></ref><ref id="B4-ijerph-12-13276"><label>4.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Angelakis</surname><given-names>E.</given-names></name><name><surname>Azhar</surname><given-names>E.I.</given-names></name><name><surname>Bibi</surname><given-names>F.</given-names></name><name><surname>Yasir</surname><given-names>M.</given-names></name><name><surname>Al-Ghamdi</surname><given-names>A.K.</given-names></name><name><surname>Ashshi</surname><given-names>A.M.</given-names></name><name><surname>Elshemi</surname><given-names>A.G.</given-names></name><name><surname>Raoult</surname><given-names>D.</given-names></name></person-group>
+<article-title>Paper money and coins as potential vectors of transmissible disease</article-title>
+<source>Future Microbiol.</source>
+<year>2014</year>
+<volume>9</volume>
+<fpage>249</fpage>
+<lpage>261</lpage>
+<pub-id pub-id-type="doi">10.2217/fmb.13.161</pub-id>
+<?supplied-pmid 24571076?><pub-id pub-id-type="pmid">24571076</pub-id></element-citation></ref><ref id="B5-ijerph-12-13276"><label>5.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Awodi</surname><given-names>N.</given-names></name><name><surname>Nock</surname><given-names>I.</given-names></name><name><surname>Aken&#x02019;Ova</surname><given-names>I.</given-names></name></person-group>
+<article-title>Prevalence and public health significance of parasite cysts and eggs on the Nigerian money</article-title>
+<source>Nig. J. Parasitol.</source>
+<year>2000</year>
+<volume>9</volume>
+<fpage>91</fpage>
+<lpage>94</lpage>
+</element-citation></ref><ref id="B6-ijerph-12-13276"><label>6.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prasai</surname><given-names>T.</given-names></name><name><surname>Yami</surname><given-names>K.D.</given-names></name><name><surname>Joshi</surname><given-names>D.R.</given-names></name></person-group>
+<article-title>Microbial load on paper/polymer money and coins</article-title>
+<source>Nepal J. Sci. Tech.</source>
+<year>2008</year>
+<volume>9</volume>
+<fpage>105</fpage>
+<lpage>109</lpage>
+</element-citation></ref><ref id="B7-ijerph-12-13276"><label>7.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ayandele</surname><given-names>A.A.</given-names></name><name><surname>Adeniyi</surname><given-names>S.A.</given-names></name></person-group>
+<article-title>Prevalence and antimicrobial resistance pattern of micro organism isolated from naria notes in Nigeria</article-title>
+<source>J. Res. Biol.</source>
+<year>2011</year>
+<fpage>587</fpage>
+<lpage>593</lpage>
+</element-citation></ref><ref id="B8-ijerph-12-13276"><label>8.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pradeep</surname><given-names>N.V.</given-names></name><name><surname>Marulasiddaiah</surname><given-names>B.S.</given-names></name><name><surname>Chetana</surname><given-names>M.</given-names></name></person-group>
+<article-title>Microbial contamination of Indian currency notes in circulation</article-title>
+<source>J. Res. Biol.</source>
+<year>2012</year>
+<volume>2</volume>
+<fpage>377</fpage>
+<lpage>382</lpage>
+</element-citation></ref><ref id="B9-ijerph-12-13276"><label>9.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tagoe</surname><given-names>D.N.A.</given-names></name><name><surname>Baidoo</surname><given-names>S.E.</given-names></name><name><surname>Dadzie</surname><given-names>I.</given-names></name><name><surname>Ahator</surname><given-names>D.</given-names></name></person-group>
+<article-title>A study of bacterial contamination of Ghanaian currency notes in circulation</article-title>
+<source>Internet J. Microbiol.</source>
+<year>2010</year>
+<volume>8</volume>
+<fpage>1</fpage>
+<lpage>5</lpage>
+</element-citation></ref><ref id="B10-ijerph-12-13276"><label>10.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bhat</surname><given-names>N.</given-names></name><name><surname>Bhat</surname><given-names>S.</given-names></name><name><surname>Asawa</surname><given-names>K.</given-names></name><name><surname>Agarwal</surname><given-names>A.</given-names></name></person-group>
+<article-title>An assessment of oral health risk associated with handling of currency notes</article-title>
+<source>Int. J. Dent. Clin.</source>
+<year>2010</year>
+<volume>2</volume>
+<fpage>14</fpage>
+<lpage>16</lpage>
+</element-citation></ref><ref id="B11-ijerph-12-13276"><label>11.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ahmed</surname><given-names>S.</given-names></name><name><surname>Parveen</surname><given-names>S.</given-names></name><name><surname>Nasreen</surname><given-names>T.</given-names></name><name><surname>Feroza</surname><given-names>B.</given-names></name></person-group>
+<article-title>Evaluation of the microbial contamination of Bangladesh paper currency notes (taka) in circulation</article-title>
+<source>Adv. Biol. Res.</source>
+<year>2010</year>
+<volume>4</volume>
+<fpage>266</fpage>
+<lpage>271</lpage>
+</element-citation></ref><ref id="B12-ijerph-12-13276"><label>12.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abid</surname><given-names>H.S.</given-names></name></person-group>
+<article-title>Bacterial contamination of Iraqi paper currency notes in circulation &#x00026; resistance of pathogenic bacteria to antibiotics</article-title>
+<source>Iraqi J. Sci.</source>
+<year>2012</year>
+<volume>53</volume>
+<fpage>245</fpage>
+<lpage>248</lpage>
+</element-citation></ref><ref id="B13-ijerph-12-13276"><label>13.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abrams</surname><given-names>B.L.</given-names></name><name><surname>Waterman</surname><given-names>N.G.</given-names></name></person-group>
+<article-title>Dirty money</article-title>
+<source>JAMA</source>
+<year>1972</year>
+<volume>219</volume>
+<fpage>1202</fpage>
+<lpage>1203</lpage>
+<pub-id pub-id-type="doi">10.1001/jama.1972.03190350038011</pub-id>
+<?supplied-pmid 4621943?><pub-id pub-id-type="pmid">4621943</pub-id></element-citation></ref><ref id="B14-ijerph-12-13276"><label>14.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Basavarajappa</surname><given-names>K.G.</given-names></name><name><surname>Rao</surname><given-names>P.N.</given-names></name><name><surname>Suresh</surname><given-names>K.</given-names></name></person-group>
+<article-title>Study of bacterial, fungal, and parasitic contaminaiton of currency notes in circulation</article-title>
+<source>Indian J. Pathol. Microbiol.</source>
+<year>2005</year>
+<volume>48</volume>
+<fpage>278</fpage>
+<lpage>279</lpage>
+<?supplied-pmid 16758695?><pub-id pub-id-type="pmid">16758695</pub-id></element-citation></ref><ref id="B15-ijerph-12-13276"><label>15.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neel</surname><given-names>R.</given-names></name></person-group>
+<article-title>Isolation of pathogenic microorganisms from contaminated paper currency notes in circulation from different market places in Korogwe and Mombo towns in Tanzania</article-title>
+<source>J. Microbiol. Biotech. Res.</source>
+<year>2012</year>
+<volume>2</volume>
+<fpage>470</fpage>
+<lpage>474</lpage>
+</element-citation></ref><ref id="B16-ijerph-12-13276"><label>16.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saeed</surname><given-names>S.</given-names></name><name><surname>Rasheed</surname><given-names>H.</given-names></name></person-group>
+<article-title>Evaluation of bacterial contamination of Pakistani paper currency notes (rupee) in circulation in Karachi</article-title>
+<source>J. Microbiol. Biotech. Res.</source>
+<year>2011</year>
+<volume>3</volume>
+<fpage>94</fpage>
+<lpage>98</lpage>
+</element-citation></ref><ref id="B17-ijerph-12-13276"><label>17.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herlemann</surname><given-names>D.P.</given-names></name><name><surname>Labrenz</surname><given-names>M.</given-names></name><name><surname>Jurgens</surname><given-names>K.</given-names></name><name><surname>Bertilsson</surname><given-names>S.</given-names></name><name><surname>Waniek</surname><given-names>J.J.</given-names></name><name><surname>Andersson</surname><given-names>A.F.</given-names></name></person-group>
+<article-title>Transitions in bacterial communities along the 2000 km salinity gradient of the baltic sea</article-title>
+<source>ISME J.</source>
+<year>2011</year>
+<volume>5</volume>
+<fpage>1571</fpage>
+<lpage>1579</lpage>
+<pub-id pub-id-type="doi">10.1038/ismej.2011.41</pub-id>
+<?supplied-pmid 21472016?><pub-id pub-id-type="pmid">21472016</pub-id></element-citation></ref><ref id="B18-ijerph-12-13276"><label>18.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masella</surname><given-names>A.P.</given-names></name><name><surname>Bartram</surname><given-names>A.K.</given-names></name><name><surname>Truszkowski</surname><given-names>J.M.</given-names></name><name><surname>Brown</surname><given-names>D.G.</given-names></name><name><surname>Neufeld</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>PANDAseq: Paired-end assembler for illumina sequences</article-title>
+<source>BMC Bioinformatics</source>
+<year>2012</year>
+<volume>13</volume>
+<fpage>31</fpage>
+<pub-id pub-id-type="doi">10.1186/1471-2105-13-31</pub-id>
+<?supplied-pmid 22333067?><pub-id pub-id-type="pmid">22333067</pub-id></element-citation></ref><ref id="B19-ijerph-12-13276"><label>19.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edgar</surname><given-names>R.C.</given-names></name><name><surname>Haas</surname><given-names>B.J.</given-names></name><name><surname>Clemente</surname><given-names>J.C.</given-names></name><name><surname>Quince</surname><given-names>C.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name></person-group>
+<article-title>Uchime improves sensitivity and speed of chimera detection</article-title>
+<source>Bioinformatics</source>
+<year>2011</year>
+<volume>27</volume>
+<fpage>2194</fpage>
+<lpage>2200</lpage>
+<pub-id pub-id-type="doi">10.1093/bioinformatics/btr381</pub-id>
+<?supplied-pmid 21700674?><pub-id pub-id-type="pmid">21700674</pub-id></element-citation></ref><ref id="B20-ijerph-12-13276"><label>20.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>O.S.</given-names></name><name><surname>Cho</surname><given-names>Y.J.</given-names></name><name><surname>Lee</surname><given-names>K.</given-names></name><name><surname>Yoon</surname><given-names>S.H.</given-names></name><name><surname>Kim</surname><given-names>M.</given-names></name><name><surname>Na</surname><given-names>H.</given-names></name><name><surname>Park</surname><given-names>S.C.</given-names></name><name><surname>Jeon</surname><given-names>Y.S.</given-names></name><name><surname>Lee</surname><given-names>J.H.</given-names></name><name><surname>Yi</surname><given-names>H.</given-names></name><etal/></person-group>
+<article-title>Introducing EzTaxon-e: A prokaryotic 16s rRNA gene sequence database with phylotypes that represent uncultured species</article-title>
+<source>Int. J. Syst. Evol. Microbiol.</source>
+<year>2012</year>
+<volume>62</volume>
+<fpage>716</fpage>
+<lpage>721</lpage>
+<pub-id pub-id-type="doi">10.1099/ijs.0.038075-0</pub-id>
+<?supplied-pmid 22140171?><pub-id pub-id-type="pmid">22140171</pub-id></element-citation></ref><ref id="B21-ijerph-12-13276"><label>21.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamady</surname><given-names>M.</given-names></name><name><surname>Lozupone</surname><given-names>C.</given-names></name><name><surname>Knight</surname><given-names>R.</given-names></name></person-group>
+<article-title>Fast unifrac: Facilitating high-throughput phylogenetic analyses of microbial communities including analysis of pyrosequencing and PhyloChip data</article-title>
+<source>ISME J.</source>
+<year>2010</year>
+<volume>4</volume>
+<fpage>17</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="doi">10.1038/ismej.2009.97</pub-id>
+<?supplied-pmid 19710709?><pub-id pub-id-type="pmid">19710709</pub-id></element-citation></ref><ref id="B22-ijerph-12-13276"><label>22.</label><element-citation publication-type="webpage">
+<article-title>Molecular Analysis of Bacterial Microbiota on Brazilian Currency Note Surfaces</article-title>
+<comment>Available online: <ext-link ext-link-type="uri" xlink:href="http://zenodo.org/record/30279#.Vib1tYUXOLM">http://zenodo.org/record/30279#.Vib1tYUXOLM</ext-link></comment>
+<date-in-citation>(accessed on 2 September 2015)</date-in-citation>
+</element-citation></ref><ref id="B23-ijerph-12-13276"><label>23.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Girma</surname><given-names>G.</given-names></name><name><surname>Ketema</surname><given-names>T.</given-names></name><name><surname>Bacha</surname><given-names>K.</given-names></name></person-group>
+<article-title>Microbial load and safety of paper currencies from some food vendors in Jimma town, southwest Ethiopia</article-title>
+<source>BMC Res. Notes</source>
+<year>2014</year>
+<volume>7</volume>
+<pub-id pub-id-type="doi">10.1186/1756-0500-7-843</pub-id>
+<?supplied-pmid 25424723?><pub-id pub-id-type="pmid">25424723</pub-id></element-citation></ref><ref id="B24-ijerph-12-13276"><label>24.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pope</surname><given-names>T.W.</given-names></name><name><surname>Ender</surname><given-names>P.T.</given-names></name><name><surname>Woelk</surname><given-names>W.K.</given-names></name><name><surname>Koroscil</surname><given-names>M.A.</given-names></name><name><surname>Koroscil</surname><given-names>T.M.</given-names></name></person-group>
+<article-title>Bacterial contamination of paper currency</article-title>
+<source>South Med. J.</source>
+<year>2002</year>
+<volume>95</volume>
+<fpage>1408</fpage>
+<lpage>1410</lpage>
+<pub-id pub-id-type="doi">10.1097/00007611-200212000-00011</pub-id>
+<?supplied-pmid 12597308?><pub-id pub-id-type="pmid">12597308</pub-id></element-citation></ref><ref id="B25-ijerph-12-13276"><label>25.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>El-Dars</surname><given-names>F.M.</given-names></name><name><surname>Hassan</surname><given-names>W.M.</given-names></name></person-group>
+<article-title>A preliminary bacterial study of Egyptian paper money</article-title>
+<source>Int. J. Environ. Health Res.</source>
+<year>2005</year>
+<volume>15</volume>
+<fpage>235</fpage>
+<lpage>239</lpage>
+<pub-id pub-id-type="doi">10.1080/09603120500105976</pub-id>
+<?supplied-pmid 16134486?><pub-id pub-id-type="pmid">16134486</pub-id></element-citation></ref><ref id="B26-ijerph-12-13276"><label>26.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>De Bentzmann</surname><given-names>S.</given-names></name><name><surname>Plesiat</surname><given-names>P.</given-names></name></person-group>
+<article-title>The <italic>Pseudomonas aeruginosa</italic> opportunistic pathogen and human infections</article-title>
+<source>Environ. Microbiol.</source>
+<year>2011</year>
+<volume>13</volume>
+<fpage>1655</fpage>
+<lpage>1665</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1462-2920.2011.02469.x</pub-id>
+<?supplied-pmid 21450006?><pub-id pub-id-type="pmid">21450006</pub-id></element-citation></ref><ref id="B27-ijerph-12-13276"><label>27.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murphy</surname><given-names>T.F.</given-names></name><name><surname>Parameswaran</surname><given-names>G.I.</given-names></name></person-group>
+<article-title><italic>Moraxella catarrhalis</italic>, a human respiratory tract pathogen</article-title>
+<source>Clin. Infect. Dis.</source>
+<year>2009</year>
+<volume>49</volume>
+<fpage>124</fpage>
+<lpage>131</lpage>
+<pub-id pub-id-type="doi">10.1086/599375</pub-id>
+<?supplied-pmid 19480579?><pub-id pub-id-type="pmid">19480579</pub-id></element-citation></ref><ref id="B28-ijerph-12-13276"><label>28.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berrocal</surname><given-names>A.M.</given-names></name><name><surname>Scott</surname><given-names>I.U.</given-names></name><name><surname>Miller</surname><given-names>D.</given-names></name><name><surname>Flynn</surname><given-names>H.W.</given-names><suffix>Jr.</suffix></name></person-group>
+<article-title>Endophthalmitis caused by <italic>Moraxella osloensis</italic></article-title>
+<source>Graef. Arch. Clin. Exp.</source>
+<year>2002</year>
+<volume>240</volume>
+<fpage>329</fpage>
+<lpage>330</lpage>
+<pub-id pub-id-type="doi">10.1007/s00417-002-0449-z</pub-id>
+<?supplied-pmid 11981649?><pub-id pub-id-type="pmid">11981649</pub-id></element-citation></ref><ref id="B29-ijerph-12-13276"><label>29.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sifri</surname><given-names>C.D.</given-names></name><name><surname>Brassinga</surname><given-names>A.K.</given-names></name><name><surname>Flohr</surname><given-names>T.</given-names></name><name><surname>Kinchen</surname><given-names>J.M.</given-names></name><name><surname>Hazen</surname><given-names>K.C.</given-names></name><name><surname>Sawyer</surname><given-names>R.G.</given-names></name><name><surname>Pruett</surname><given-names>T.L.</given-names></name><name><surname>Bonatti</surname><given-names>H.</given-names></name></person-group>
+<article-title><italic>Moraxella osloensis</italic> bacteremia in a kidney transplant recipient</article-title>
+<source>Transpl. Int.</source>
+<year>2008</year>
+<volume>21</volume>
+<fpage>1011</fpage>
+<lpage>1013</lpage>
+<pub-id pub-id-type="doi">10.1111/j.1432-2277.2008.00727.x</pub-id>
+<?supplied-pmid 18662367?><pub-id pub-id-type="pmid">18662367</pub-id></element-citation></ref><ref id="B30-ijerph-12-13276"><label>30.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuria</surname><given-names>J.K.</given-names></name><name><surname>Wahome</surname><given-names>R.G.</given-names></name><name><surname>Jobalamin</surname><given-names>M.</given-names></name><name><surname>Kariuki</surname><given-names>S.M.</given-names></name></person-group>
+<article-title>Profile of bacteria and fungi on money coins</article-title>
+<source>East Afr. Med. J.</source>
+<year>2009</year>
+<volume>86</volume>
+<fpage>151</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="doi">10.4314/eamj.v86i4.46943</pub-id>
+<?supplied-pmid 20084997?><pub-id pub-id-type="pmid">20084997</pub-id></element-citation></ref><ref id="B31-ijerph-12-13276"><label>31.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fournier</surname><given-names>P.E.</given-names></name><name><surname>Richet</surname><given-names>H.</given-names></name></person-group>
+<article-title>The epidemiology and control of <italic>Acinetobacter baumannii</italic> in health care facilities</article-title>
+<source>Clin. Infect. Dis.</source>
+<year>2006</year>
+<volume>42</volume>
+<fpage>692</fpage>
+<lpage>699</lpage>
+<pub-id pub-id-type="doi">10.1086/500202</pub-id>
+<?supplied-pmid 16447117?><pub-id pub-id-type="pmid">16447117</pub-id></element-citation></ref><ref id="B32-ijerph-12-13276"><label>32.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peleg</surname><given-names>A.Y.</given-names></name><name><surname>de Breij</surname><given-names>A.</given-names></name><name><surname>Adams</surname><given-names>M.D.</given-names></name><name><surname>Cerqueira</surname><given-names>G.M.</given-names></name><name><surname>Mocali</surname><given-names>S.</given-names></name><name><surname>Galardini</surname><given-names>M.</given-names></name><name><surname>Nibbering</surname><given-names>P.H.</given-names></name><name><surname>Earl</surname><given-names>A.M.</given-names></name><name><surname>Ward</surname><given-names>D.V.</given-names></name><name><surname>Paterson</surname><given-names>D.L.</given-names></name><etal/></person-group>
+<article-title>The success of <italic>Acinetobacter</italic> species; genetic, metabolic and virulence attributes</article-title>
+<source>PLoS ONE</source>
+<year>2012</year>
+<volume>7</volume>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0046984</pub-id>
+<?supplied-pmid 23144699?><pub-id pub-id-type="pmid">23144699</pub-id></element-citation></ref><ref id="B33-ijerph-12-13276"><label>33.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Touchon</surname><given-names>M.</given-names></name><name><surname>Cury</surname><given-names>J.</given-names></name><name><surname>Yoon</surname><given-names>E.J.</given-names></name><name><surname>Krizova</surname><given-names>L.</given-names></name><name><surname>Cerqueira</surname><given-names>G.C.</given-names></name><name><surname>Murphy</surname><given-names>C.</given-names></name><name><surname>Feldgarden</surname><given-names>M.</given-names></name><name><surname>Wortman</surname><given-names>J.</given-names></name><name><surname>Clermont</surname><given-names>D.</given-names></name><name><surname>Lambert</surname><given-names>T.</given-names></name><etal/></person-group>
+<article-title>The genomic diversification of the whole <italic>Acinetobacter</italic> genus: Origins, mechanisms, and consequences</article-title>
+<source>Genome Biol. Evol.</source>
+<year>2014</year>
+<volume>6</volume>
+<fpage>2866</fpage>
+<lpage>2882</lpage>
+<pub-id pub-id-type="doi">10.1093/gbe/evu225</pub-id>
+<?supplied-pmid 25313016?><pub-id pub-id-type="pmid">25313016</pub-id></element-citation></ref><ref id="B34-ijerph-12-13276"><label>34.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Munoz-Price</surname><given-names>L.S.</given-names></name><name><surname>Weinstein</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>Acinetobacter infection</article-title>
+<source>N. Engl. J. Med.</source>
+<year>2008</year>
+<volume>358</volume>
+<fpage>1271</fpage>
+<lpage>1281</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJMra070741</pub-id>
+<?supplied-pmid 18354105?><pub-id pub-id-type="pmid">18354105</pub-id></element-citation></ref><ref id="B35-ijerph-12-13276"><label>35.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Turton</surname><given-names>J.F.</given-names></name><name><surname>Shah</surname><given-names>J.</given-names></name><name><surname>Ozongwu</surname><given-names>C.</given-names></name><name><surname>Pike</surname><given-names>R.</given-names></name></person-group>
+<article-title>Incidence of <italic>Acinetobacter</italic> species other than <italic>A. baumannii</italic> among clinical isolates of <italic>Acinetobacter</italic>: Evidence for emerging species</article-title>
+<source>J. Clin. Microbiol.</source>
+<year>2010</year>
+<volume>48</volume>
+<fpage>1445</fpage>
+<lpage>1449</lpage>
+<pub-id pub-id-type="doi">10.1128/JCM.02467-09</pub-id>
+<?supplied-pmid 20181894?><pub-id pub-id-type="pmid">20181894</pub-id></element-citation></ref><ref id="B36-ijerph-12-13276"><label>36.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Falagas</surname><given-names>M.E.</given-names></name><name><surname>Karveli</surname><given-names>E.A.</given-names></name><name><surname>Kelesidis</surname><given-names>I.</given-names></name><name><surname>Kelesidis</surname><given-names>T.</given-names></name></person-group>
+<article-title>Community-acquired <italic>Acinetobacter</italic> infections</article-title>
+<source>Eur. J. Clin. Microbiol.</source>
+<year>2007</year>
+<volume>26</volume>
+<fpage>857</fpage>
+<lpage>868</lpage>
+<pub-id pub-id-type="doi">10.1007/s10096-007-0365-6</pub-id>
+<?supplied-pmid 17701432?><pub-id pub-id-type="pmid">17701432</pub-id></element-citation></ref><ref id="B37-ijerph-12-13276"><label>37.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eveillard</surname><given-names>M.</given-names></name><name><surname>Kempf</surname><given-names>M.</given-names></name><name><surname>Belmonte</surname><given-names>O.</given-names></name><name><surname>Pailhories</surname><given-names>H.</given-names></name><name><surname>Joly-Guillou</surname><given-names>M.L.</given-names></name></person-group>
+<article-title>Reservoirs of <italic>Acinetobacter baumannii</italic> outside the hospital and potential involvement in emerging human community-acquired infections</article-title>
+<source>Int. J. Infect. Dis.</source>
+<year>2013</year>
+<volume>17</volume>
+<fpage>e802</fpage>
+<lpage>e805</lpage>
+<pub-id pub-id-type="doi">10.1016/j.ijid.2013.03.021</pub-id>
+<?supplied-pmid 23672981?><pub-id pub-id-type="pmid">23672981</pub-id></element-citation></ref><ref id="B38-ijerph-12-13276"><label>38.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gayoso</surname><given-names>C.M.</given-names></name><name><surname>Mateos</surname><given-names>J.</given-names></name><name><surname>Mendez</surname><given-names>J.A.</given-names></name><name><surname>Fernandez-Puente</surname><given-names>P.</given-names></name><name><surname>Rumbo</surname><given-names>C.</given-names></name><name><surname>Tomas</surname><given-names>M.</given-names></name><name><surname>Martinez de Ilarduya</surname><given-names>O.</given-names></name><name><surname>Bou</surname><given-names>G.</given-names></name></person-group>
+<article-title>Molecular mechanisms involved in the response to desiccation stress and persistence in <italic>Acinetobacter baumannii</italic></article-title>
+<source>J. Proteome Res.</source>
+<year>2014</year>
+<volume>13</volume>
+<fpage>460</fpage>
+<lpage>476</lpage>
+<pub-id pub-id-type="doi">10.1021/pr400603f</pub-id>
+<?supplied-pmid 24299215?><pub-id pub-id-type="pmid">24299215</pub-id></element-citation></ref><ref id="B39-ijerph-12-13276"><label>39.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dijkshoorn</surname><given-names>L.</given-names></name><name><surname>Nemec</surname><given-names>A.</given-names></name><name><surname>Seifert</surname><given-names>H.</given-names></name></person-group>
+<article-title>An increasing threat in hospitals: Multidrug-resistant <italic>Acinetobacter baumannii</italic></article-title>
+<source>Nat. Rev. Microbiol.</source>
+<year>2007</year>
+<volume>5</volume>
+<fpage>939</fpage>
+<lpage>951</lpage>
+<pub-id pub-id-type="doi">10.1038/nrmicro1789</pub-id>
+<?supplied-pmid 18007677?><pub-id pub-id-type="pmid">18007677</pub-id></element-citation></ref><ref id="B40-ijerph-12-13276"><label>40.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoon</surname><given-names>E.J.</given-names></name><name><surname>Chabane</surname><given-names>Y.N.</given-names></name><name><surname>Goussard</surname><given-names>S.</given-names></name><name><surname>Snesrud</surname><given-names>E.</given-names></name><name><surname>Courvalin</surname><given-names>P.</given-names></name><name><surname>De</surname><given-names>E.</given-names></name><name><surname>Grillot-Courvalin</surname><given-names>C.</given-names></name></person-group>
+<article-title>Contribution of resistance-nodulation-cell division efflux systems to antibiotic resistance and biofilm formation in <italic>Acinetobacter baumannii</italic></article-title>
+<source>MBio</source>
+<year>2015</year>
+<volume>6</volume>
+<pub-id pub-id-type="doi">10.1128/mBio.00309-15</pub-id>
+<?supplied-pmid 25805730?><pub-id pub-id-type="pmid">25805730</pub-id></element-citation></ref><ref id="B41-ijerph-12-13276"><label>41.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Podschun</surname><given-names>R.</given-names></name><name><surname>Ullmann</surname><given-names>U.</given-names></name></person-group>
+<article-title><italic>Klebsiella</italic> spp. as nosocomial pathogens: Epidemiology, taxonomy, typing methods, and pathogenicity factors</article-title>
+<source>Clin. Microbiol. Rev.</source>
+<year>1998</year>
+<volume>11</volume>
+<fpage>589</fpage>
+<lpage>603</lpage>
+<?supplied-pmid 9767057?><pub-id pub-id-type="pmid">9767057</pub-id></element-citation></ref><ref id="B42-ijerph-12-13276"><label>42.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Laupland</surname><given-names>K.B.</given-names></name><name><surname>Ross</surname><given-names>T.</given-names></name><name><surname>Pitout</surname><given-names>J.D.</given-names></name><name><surname>Church</surname><given-names>D.L.</given-names></name><name><surname>Gregson</surname><given-names>D.B.</given-names></name></person-group>
+<article-title>Community-onset urinary tract infections: A population-based assessment</article-title>
+<source>Infection</source>
+<year>2007</year>
+<volume>35</volume>
+<fpage>150</fpage>
+<lpage>153</lpage>
+<pub-id pub-id-type="doi">10.1007/s15010-007-6180-2</pub-id>
+<?supplied-pmid 17565455?><pub-id pub-id-type="pmid">17565455</pub-id></element-citation></ref><ref id="B43-ijerph-12-13276"><label>43.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shon</surname><given-names>A.S.</given-names></name><name><surname>Bajwa</surname><given-names>R.P.</given-names></name><name><surname>Russo</surname><given-names>T.A.</given-names></name></person-group>
+<article-title>Hypervirulent (hypermucoviscous) <italic>klebsiella pneumoniae</italic>: A new and dangerous breed</article-title>
+<source>Virulence</source>
+<year>2013</year>
+<volume>4</volume>
+<fpage>107</fpage>
+<lpage>118</lpage>
+<pub-id pub-id-type="doi">10.4161/viru.22718</pub-id>
+<?supplied-pmid 23302790?><pub-id pub-id-type="pmid">23302790</pub-id></element-citation></ref><ref id="B44-ijerph-12-13276"><label>44.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lowy</surname><given-names>F.D.</given-names></name></person-group>
+<article-title><italic>Staphylococcus aureus</italic> infections</article-title>
+<source>N. Engl. J. Med.</source>
+<year>1998</year>
+<volume>339</volume>
+<fpage>520</fpage>
+<lpage>532</lpage>
+<pub-id pub-id-type="doi">10.1056/NEJM199808203390806</pub-id>
+<?supplied-pmid 9709046?><pub-id pub-id-type="pmid">9709046</pub-id></element-citation></ref><ref id="B45-ijerph-12-13276"><label>45.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Becker</surname><given-names>R.E.</given-names></name><name><surname>Bubeck Wardenburg</surname><given-names>J.</given-names></name></person-group>
+<article-title><italic>Staphylococcus aureus</italic> and the skin: A longstanding and complex interaction</article-title>
+<source>Skinmed</source>
+<year>2015</year>
+<volume>13</volume>
+<fpage>111</fpage>
+<lpage>119</lpage>
+<?supplied-pmid 26137737?><pub-id pub-id-type="pmid">26137737</pub-id></element-citation></ref><ref id="B46-ijerph-12-13276"><label>46.</label><element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moosavy</surname><given-names>M.H.</given-names></name><name><surname>Shavisi</surname><given-names>N.</given-names></name><name><surname>Warriner</surname><given-names>K.</given-names></name><name><surname>Mostafavi</surname><given-names>E.</given-names></name></person-group>
+<article-title>Bacterial contamination of Iranian paper currency</article-title>
+<source>Iran J. Public Health</source>
+<year>2013</year>
+<volume>42</volume>
+<fpage>1067</fpage>
+<lpage>1070</lpage>
+<?supplied-pmid 26060669?><pub-id pub-id-type="pmid">26060669</pub-id></element-citation></ref></ref-list></back></article>

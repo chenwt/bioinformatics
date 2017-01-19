@@ -1,0 +1,539 @@
+{
+  "id": [
+    "26250443"
+  ],
+  "source": [
+    "MED"
+  ],
+  "pmid": [
+    "26250443"
+  ],
+  "pmcid": [
+    "PMC4527130"
+  ],
+  "doi": [
+    "10.1186/s12859-015-0664-3"
+  ],
+  "title": [
+    "Confident difference criterion: a new Bayesian differentially expressed gene selection algorithm with applications."
+  ],
+  "authorString": [
+    "Yu F, Chen MH, Kuo L, Talbott H, Davis JS."
+  ],
+  "authorList": [
+    {
+      "author": [
+        {
+          "fullName": [
+            "Yu F"
+          ],
+          "firstName": [
+            "Fang"
+          ],
+          "lastName": [
+            "Yu"
+          ],
+          "initials": [
+            "F"
+          ],
+          "affiliation": [
+            "Department of Biostatistics, University of Nebraska Medical Center, Omaha, 68198-4350, NE, USA. fangyu@unmc.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Chen MH"
+          ],
+          "firstName": [
+            "Ming-Hui"
+          ],
+          "lastName": [
+            "Chen"
+          ],
+          "initials": [
+            "MH"
+          ],
+          "affiliation": [
+            "Department of Statistics, University of Connecticut, Storrs, 06269-4120, CT, USA. ming-hui.chen@uconn.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Kuo L"
+          ],
+          "firstName": [
+            "Lynn"
+          ],
+          "lastName": [
+            "Kuo"
+          ],
+          "initials": [
+            "L"
+          ],
+          "affiliation": [
+            "Department of Statistics, University of Connecticut, Storrs, 06269-4120, CT, USA. lynn.kuo@uconn.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Talbott H"
+          ],
+          "firstName": [
+            "Heather"
+          ],
+          "lastName": [
+            "Talbott"
+          ],
+          "initials": [
+            "H"
+          ],
+          "affiliation": [
+            "Department of Biochemistry and Molecular Biology and Department of Obstetrics and Gynecology, University of Nebraska Medical Center, Omaha, 68198-5870, NE, USA. heather.talbott@unmc.edu."
+          ]
+        },
+        {
+          "fullName": [
+            "Davis JS"
+          ],
+          "firstName": [
+            "John S"
+          ],
+          "lastName": [
+            "Davis"
+          ],
+          "initials": [
+            "JS"
+          ],
+          "affiliation": [
+            "VA Nebraska-Western Iowa Health Care System and Department of Obstetrics and Gynecology, University of Nebraska Medical Center, Omaha, 68198-3255, NE, USA. jsdavis@unmc.edu."
+          ]
+        }
+      ]
+    }
+  ],
+  "authorIdList": [
+    {
+      "authorId": [
+        {
+          "_": "0000-0002-6140-9059",
+          "$": {
+            "type": "ORCID"
+          }
+        }
+      ]
+    }
+  ],
+  "journalInfo": [
+    {
+      "volume": [
+        "16"
+      ],
+      "journalIssueId": [
+        "2476375"
+      ],
+      "dateOfPublication": [
+        "2015 Aug"
+      ],
+      "monthOfPublication": [
+        "8"
+      ],
+      "yearOfPublication": [
+        "2015"
+      ],
+      "printPublicationDate": [
+        "2015-08-01"
+      ],
+      "journal": [
+        {
+          "title": [
+            "BMC bioinformatics"
+          ],
+          "ISOAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "medlineAbbreviation": [
+            "BMC Bioinformatics"
+          ],
+          "NLMid": [
+            "100965194"
+          ],
+          "ESSN": [
+            "1471-2105"
+          ]
+        }
+      ]
+    }
+  ],
+  "pubYear": [
+    "2015"
+  ],
+  "pageInfo": [
+    "245"
+  ],
+  "abstractText": [
+    "Recently, the Bayesian method becomes more popular for analyzing high dimensional gene expression data as it allows us to borrow information across different genes and provides powerful estimators for evaluating gene expression levels. It is crucial to develop a simple but efficient gene selection algorithm for detecting differentially expressed (DE) genes based on the Bayesian estimators.In this paper, by extending the two-criterion idea of Chen et al. (Chen M-H, Ibrahim JG, Chi Y-Y. A new class of mixture models for differential gene expression in DNA microarray data. J Stat Plan Inference. 2008;138:387-404), we propose two new gene selection algorithms for general Bayesian models and name these new methods as the confident difference criterion methods. One is based on the standardized differences between two mean expression values among genes; the other adds the differences between two variances to it. The proposed confident difference criterion methods first evaluate the posterior probability of a gene having different gene expressions between competitive samples and then declare a gene to be DE if the posterior probability is large. The theoretical connection between the proposed first method based on the means and the Bayes factor approach proposed by Yu et al. (Yu F, Chen M-H, Kuo L. Detecting differentially expressed genes using alibrated Bayes factors. Statistica Sinica. 2008;18:783-802) is established under the normal-normal-model with equal variances between two samples. The empirical performance of the proposed methods is examined and compared to those of several existing methods via several simulations. The results from these simulation studies show that the proposed confident difference criterion methods outperform the existing methods when comparing gene expressions across different conditions for both microarray studies and sequence-based high-throughput studies. A real dataset is used to further demonstrate the proposed methodology. In the real data application, the confident difference criterion methods successfully identified more clinically important DE genes than the other methods.The confident difference criterion method proposed in this paper provides a new efficient approach for both microarray studies and sequence-based high-throughput studies to identify differentially expressed genes."
+  ],
+  "affiliation": [
+    "Department of Biostatistics, University of Nebraska Medical Center, Omaha, 68198-4350, NE, USA. fangyu@unmc.edu."
+  ],
+  "language": [
+    "eng"
+  ],
+  "pubModel": [
+    "Electronic"
+  ],
+  "pubTypeList": [
+    {
+      "pubType": [
+        "Journal Article",
+        "Research Support, Non-U.S. Gov't",
+        "Research Support, U.S. Gov't, Non-P.H.S.",
+        "Research Support, N.I.H., Extramural"
+      ]
+    }
+  ],
+  "grantsList": [
+    {
+      "grant": [
+        {
+          "grantId": [
+            "GM 70335"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "R01 GM070335"
+          ],
+          "agency": [
+            "NIGMS NIH HHS"
+          ],
+          "acronym": [
+            "GM"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        },
+        {
+          "grantId": [
+            "P01 CA142538"
+          ],
+          "agency": [
+            "NCI NIH HHS"
+          ],
+          "acronym": [
+            "CA"
+          ],
+          "orderIn": [
+            "0"
+          ]
+        }
+      ]
+    }
+  ],
+  "meshHeadingList": [
+    {
+      "meshHeading": [
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Humans"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Dinoprost"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "PD"
+                  ],
+                  "qualifierName": [
+                    "pharmacology"
+                  ],
+                  "majorTopic_YN": [
+                    "N"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Oligonucleotide Array Sequence Analysis"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Bayes Theorem"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Profiling"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "MT"
+                  ],
+                  "qualifierName": [
+                    "methods"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Signal Transduction"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Gene Expression Regulation"
+          ],
+          "meshQualifierList": [
+            {
+              "meshQualifier": [
+                {
+                  "abbreviation": [
+                    "DE"
+                  ],
+                  "qualifierName": [
+                    "drug effects"
+                  ],
+                  "majorTopic_YN": [
+                    "Y"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Algorithms"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "N"
+          ],
+          "descriptorName": [
+            "Time Factors"
+          ]
+        },
+        {
+          "majorTopic_YN": [
+            "Y"
+          ],
+          "descriptorName": [
+            "Gene Regulatory Networks"
+          ]
+        }
+      ]
+    }
+  ],
+  "chemicalList": [
+    {
+      "chemical": [
+        {
+          "name": [
+            "Dinoprost"
+          ],
+          "registryNumber": [
+            "B7IN85G1HY"
+          ]
+        }
+      ]
+    }
+  ],
+  "subsetList": [
+    {
+      "subset": [
+        {
+          "code": [
+            "IM"
+          ],
+          "name": [
+            "Index Medicus"
+          ]
+        }
+      ]
+    }
+  ],
+  "fullTextUrlList": [
+    {
+      "fullTextUrl": [
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "pdf"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4527130?pdf=render"
+          ]
+        },
+        {
+          "availability": [
+            "Open access"
+          ],
+          "availabilityCode": [
+            "OA"
+          ],
+          "documentStyle": [
+            "html"
+          ],
+          "site": [
+            "Europe_PMC"
+          ],
+          "url": [
+            "http://europepmc.org/articles/PMC4527130"
+          ]
+        },
+        {
+          "availability": [
+            "Subscription required"
+          ],
+          "availabilityCode": [
+            "S"
+          ],
+          "documentStyle": [
+            "doi"
+          ],
+          "site": [
+            "DOI"
+          ],
+          "url": [
+            "http://dx.doi.org/10.1186/s12859-015-0664-3"
+          ]
+        }
+      ]
+    }
+  ],
+  "isOpenAccess": [
+    "Y"
+  ],
+  "inEPMC": [
+    "Y"
+  ],
+  "inPMC": [
+    "N"
+  ],
+  "hasPDF": [
+    "Y"
+  ],
+  "hasBook": [
+    "N"
+  ],
+  "hasSuppl": [
+    "N"
+  ],
+  "citedByCount": [
+    "0"
+  ],
+  "hasReferences": [
+    "Y"
+  ],
+  "hasTextMinedTerms": [
+    "Y"
+  ],
+  "hasDbCrossReferences": [
+    "N"
+  ],
+  "hasLabsLinks": [
+    "Y"
+  ],
+  "license": [
+    "cc by"
+  ],
+  "epmcAuthMan": [
+    "N"
+  ],
+  "hasTMAccessionNumbers": [
+    "N"
+  ],
+  "dateOfCompletion": [
+    "2016-02-02"
+  ],
+  "dateOfCreation": [
+    "2015-08-07"
+  ],
+  "dateOfRevision": [
+    "2016-10-19"
+  ],
+  "electronicPublicationDate": [
+    "2015-08-07"
+  ],
+  "firstPublicationDate": [
+    "2015-08-07"
+  ]
+}
